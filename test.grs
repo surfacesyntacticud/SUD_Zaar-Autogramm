@@ -1,0 +1,4 @@
+rule r1 {
+pattern { N[form = "-i", lemma = "-i", upos = "DET", Gloss = "-DET", ] }
+commands { N.Gloss = "DET"; }
+}
