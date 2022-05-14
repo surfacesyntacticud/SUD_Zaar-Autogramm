@@ -122,7 +122,7 @@
 # text = ʧì tə́ gyaː Sáːní báː ?//
 # text_ortho = ʧì tə́ gyaːːː Sáːní báː ?//
 # text_en =  Him and... Sani, no?
-1	ʧì	ʧì	VERB	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=10738|AlignEnd=10943|GE=[3PL].[AOR].[be]|Gloss=3PL.AOR.be|nWord=1|RX=[PRO].[V*]
+1	ʧì	ʧì	VERB	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=10738|AlignEnd=10943|GE=[3PL].[AOR].[be]|Gloss=3PL.be|nWord=1|RX=[PRO].[V*]
 2	tə́	tə́	ADP	_	_	1	comp:pred	_	AlignBegin=10943|AlignEnd=11148|GE=with|Gloss=with|nWord=2|RX=[PREP]
 3	gyaː	gyaː	DET	_	Number=Plur	4	det	_	AlignBegin=11148|AlignEnd=11353|GE=[PL3]|Gloss=PL3|nWord=3|RX=[DET]
 4	Sáːní	Sáːní	PROPN	_	_	2	comp:obj	_	AlignBegin=11353|AlignEnd=11555|GE=[Sani]|Gloss=Sani|nWord=4|RX=[NPR]
@@ -187,8 +187,8 @@
 4	mə̀	mə̀	AUX	_	Mood=Sub|Number=Sing|Person=1|PronType=Prs	17	dislocated	_	AlignBegin=18005|AlignEnd=18245|GE=[1SG].[SBJV]|Gloss=1SG.SBJV|nWord=4|RX=[PNTAM]
 5	ʃin	ʃin	VERB	_	_	4	comp:aux	_	AlignBegin=18245|AlignEnd=18365|GE=send|Gloss=send|nWord=5|RX=[N]
 6	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=18365|AlignEnd=18485|GE=[3SG].[OBJ]|Gloss=3SG.OBJ|nWord=5|RX=[PRO]
-7	=mə́n	=mə́n	PART	_	Case=Ben	5	compound:prt	_	AlignBegin=18485|AlignEnd=18605|GE=[BEN]|Gloss=BEN|nWord=6|RX=[PTCL]
-8	=ɗi	=ɗi	PART	_	VerbForm=Ctp	5	compound:prt	_	AlignBegin=18605|AlignEnd=18725|GE=[CTP]|Gloss=CTP|nWord=6|RX=[PTCL]
+7	mə́n	mə́n	PART	_	Case=Ben	5	compound:prt	_	AlignBegin=18485|AlignEnd=18605|GE=[BEN]|Gloss=BEN|nWord=6|RX=[PTCL]|wordform==mə́n
+8	ɗi	ɗi	PART	_	VerbForm=Ctp	5	compound:prt	_	AlignBegin=18605|AlignEnd=18725|GE=[CTP]|Gloss=CTP|nWord=6|RX=[PTCL]|wordform==ɗi
 9	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3|PronType=Prs	5	mod	_	AlignBegin=18725|AlignEnd=18965|GE=[3SG].[SBJV]|Gloss=3SG.SBJV|nWord=7|RX=[PNTAM]
 10	man	man	VERB	_	_	9	comp:aux	_	AlignBegin=18965|AlignEnd=19085|GE=come|Gloss=come|nWord=8|RX=[V]
 11	aː	aː	PART	_	PartType=Int	4	discourse	_	AlignBegin=19085|AlignEnd=19205|GE=[VRT]|Gloss=VRT|nWord=8|RX=[PTCL].[ASS]
@@ -759,7 +759,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 81768, 82892
-# text = yâːn hali ɗa kàm < má ɗiːp -i // 
+# text = yâːn hali ɗa kàm < má ɗiːp -i //
 # text_ortho = yâːn hali ɗa kàm < má ɗìːɓí //
 # text_en =  If there is a chance, we will buy it.
 1	yâːn	yâːn	SCONJ	_	_	_	_	_	AlignBegin=81768|AlignEnd=81930|GE=if|Gloss=if|nWord=1|RX=[CONJ]
@@ -769,7 +769,7 @@
 5	<	<	PUNCT	_	_	_	_	_	AlignBegin=82416|AlignEnd=82577|GE=[<]|Gloss=PUNCT|nWord=5
 6	má	má	AUX	_	Number=Plur|Person=1|PronType=Prs|Tense=Fut	_	_	_	AlignBegin=82577|AlignEnd=82682|GE=[1PL].[FUT]|Gloss=1PL.FUT|nWord=6|RX=[PNTAM]
 7	ɗiːp	ɗiːp	VERB	_	_	_	_	_	AlignBegin=82682|AlignEnd=82734|GE=buy|Gloss=buy|nWord=7|RX=[V]
-8	-i	-i	DET	_	_	_	_	_	AlignBegin=82734|AlignEnd=82787|GE=[SPCF]|Gloss=SPCF|nWord=7|RX=[SPCF]
+8	-i	-i	DET	_	_	_	_	_	AlignBegin=82734|AlignEnd=82787|GE=[SPCF]|Gloss=INDF|nWord=7|RX=[SPCF]
 9	//	//	PUNCT	_	_	_	_	_	AlignBegin=82787|AlignEnd=82892|GE=[//]|Gloss=PUNCT|nWord=8
 
 # sent_id = SAY_BC_CONV_01_086-086
@@ -1383,20 +1383,20 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 159367, 160333
-# text = á kon -kə́nì =waːsəŋ // 
+# text = á kon -kə́nì =waːsəŋ //
 # text_ortho = á kóngə́nwàːsə̀ŋ //
 # text_en =  According to them.
 1	á	á	ADP	_	_	_	_	_	AlignBegin=159367|AlignEnd=159689|GE=at|Gloss=at|nWord=1|RX=[PREP]
 2	kon	kon	VERB	_	_	_	_	_	AlignBegin=159689|AlignEnd=159796|GE=say|Gloss=say|nWord=2|RX=[V]
 3	-kə́nì	-kə́nì	SCONJ	_	VerbForm=Vnoun	_	_	_	AlignBegin=159796|AlignEnd=159903|GE=[NMLZ]|Gloss=NMLZ|nWord=2|RX=[DER]
-4	=waːsəŋ	=waːsəŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	_	_	_	AlignBegin=159903|AlignEnd=160011|GE=[3PL].[POS]|Gloss=3PL.POS|nWord=2|RX=[PRO]
+4	=waːsəŋ	=waːsən	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	_	_	_	AlignBegin=159903|AlignEnd=160011|GE=[3PL].[POS]|Gloss=3PL.POS|nWord=2|RX=[PRO]
 5	//	//	PUNCT	_	_	_	_	_	AlignBegin=160011|AlignEnd=160333|GE=[//]|Gloss=PUNCT|nWord=3
 
 # sent_id = SAY_BC_CONV_01_150-156
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 160781, 165362
-# text = tòː < á kon -kə́nì =waːsəŋ < mə̀ kap Ŋgas àmáː súː -kə́nì gə̀tn < tt myáː súː mə̀ kap -ni Bàtùràːye éy // 
+# text = tòː < á kon -kə́nì =waːsəŋ < mə̀ kap Ŋgas àmáː súː -kə́nì gə̀tn < tt myáː súː mə̀ kap -ni Bàtùràːye éy //
 # text_ortho = tòː < á kóngə́nwàːsə̀ŋ < mə̀ kàp Ŋgas àmáː súːkə́n gə̀tn < tt myáː súː mə̀ kápni Bàtùràːye éy //
 # text_en =  Well, according to what they say, we should marry Angas people but my wish  I want to marry a European indeed.
 1	tòː	tòː	PART	_	_	_	_	_	AlignBegin=160781|AlignEnd=160879|GE=well|Gloss=well|nWord=1|RX=[PTCL].[ASS]
@@ -1404,7 +1404,7 @@
 3	á	á	ADP	_	_	_	_	_	AlignBegin=160977|AlignEnd=161239|GE=at|Gloss=at|nWord=3|RX=[PREP]
 4	kon	kon	VERB	_	_	_	_	_	AlignBegin=161239|AlignEnd=161326|GE=say|Gloss=say|nWord=4|RX=[V]
 5	-kə́nì	-kə́nì	SCONJ	_	VerbForm=Vnoun	_	_	_	AlignBegin=161326|AlignEnd=161413|GE=[NMLZ]|Gloss=NMLZ|nWord=4|RX=[DER]
-6	=waːsəŋ	=waːsəŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	_	_	_	AlignBegin=161413|AlignEnd=161501|GE=[3PL].[POS]|Gloss=3PL.POS|nWord=4|RX=[PRO]
+6	=waːsəŋ	=waːsən	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	_	_	_	AlignBegin=161413|AlignEnd=161501|GE=[3PL].[POS]|Gloss=3PL.POS|nWord=4|RX=[PRO]
 7	<	<	PUNCT	_	_	_	_	_	AlignBegin=161501|AlignEnd=161762|GE=[<]|Gloss=PUNCT|nWord=5
 8	mə̀	mə̀	AUX	_	Mood=Sub|Number=Plur|Person=1|PronType=Prs	_	_	_	AlignBegin=161762|AlignEnd=161971|GE=[1PL].[SBJV]|Gloss=1PL.SBJV|nWord=6|RX=[PNTAM]
 9	kap	kap	VERB	_	_	_	_	_	AlignBegin=161971|AlignEnd=162180|GE=take|Gloss=take|nWord=7|RX=[V]
