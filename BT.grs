@@ -1,0 +1,10 @@
+rule r1 {
+pattern { N [upos="AUX", PronType=Prs] }
+commands { del_feat N.PronType }
+}
+
+
+strat main {
+	Seq (
+	Onf (r1)
+)}

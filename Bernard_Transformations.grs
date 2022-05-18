@@ -1,9 +1,0 @@
-rule r1 {
-pattern { N[Gloss = "-CAUS", ] }
-commands { N.Gloss = "CAUS"; }
-}
-
-strat main {
-	Seq (
-	Onf (r1)
-)}
