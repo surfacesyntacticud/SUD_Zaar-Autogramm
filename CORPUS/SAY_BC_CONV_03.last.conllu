@@ -2416,7 +2416,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 324097, 327397
-# text = kə yisə́n < kə gaː Mìngíl < tòː < kəndá ka man tu gyaː mə́n Mbwâːr // 
+# text = kə yisə́n < kə gaː Mìngíl < tòː < kəndá ka man tu gyaː mə́n Mbwâːr //
 # text_ortho = kə yísə́n < kə gáː Mìngíl < tòː < əndá ka mán tu gyaː mə́n Mbwâːr //
 # text_en =  You know, if you leave Mingil well, then you will find the people of Mbwar.
 1	kə	kə	AUX	_	Number=Sing|Person=2	_	_	_	AlignBegin=324097|AlignEnd=324245|GE=[2SG].[AOR]|Gloss=2SG.AOR|nWord=1|RX=[PNTAM]
@@ -2433,7 +2433,7 @@
 12	man	man	VERB	_	_	_	_	_	AlignBegin=326496|AlignEnd=326646|GE=come|Gloss=come|nWord=12|RX=[AUX]|SVC=Yes
 13	tu	tu	VERB	_	_	_	_	_	AlignBegin=326646|AlignEnd=326796|GE=meet|Gloss=meet|nWord=13|RX=[V]
 14	gyaː	gyaː	DET	_	Number=Plur	_	_	_	AlignBegin=326796|AlignEnd=326946|GE=[PL3]|Gloss=PL3|nWord=14|RX=[DET]
-15	mə́n	mə́n	PART	_	_	_	_	_	AlignBegin=326946|AlignEnd=327096|GE=people|Gloss=people|nWord=15|RX=[PTCL]
+15	mə́n	mə́n	NOUN	_	Number=Plur	_	_	_	AlignBegin=326946|AlignEnd=327096|GE=people|Gloss=people|nWord=15|RX=[PTCL]
 16	Mbwâːr	Mbwâːr	PROPN	_	_	_	_	_	AlignBegin=327096|AlignEnd=327246|GE=[Mbwar]|Gloss=Mbwar|nWord=16|RX=[NPR]
 17	//	//	PUNCT	_	_	_	_	_	AlignBegin=327246|AlignEnd=327397|GE=[//]|Gloss=PUNCT|nWord=17
 
@@ -2662,7 +2662,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 343430, 348258
-# text = dzàn gíː ɗan < miká máːn -kə́nì ɗi < tsantsá < gargada myáːni kúmá < káː yisə́n mi yi tə́ gyaːl áy // 
+# text = dzàn gíː ɗan < miká máːn -kə́nì ɗi < tsantsá < gargada myáːni kúmá < káː yisə́n mi yi tə́ gyaːl áy //
 # text_ortho = dzàn gíː ɗan < myaː máːkə̂nɗì < tsantsá < gargada myâːn kúmá < káː yisə́n mí yi tə́ gyaːl áy //
 # text_en =  That day, as  I was going straight downhill, me you know I... am always rady to help.
 1	dzàn	dzàn	NOUN	_	_	_	_	_	AlignBegin=343430|AlignEnd=343621|GE=day|Gloss=day|nWord=1|RX=[N]
@@ -2682,12 +2682,11 @@
 15	<	<	PUNCT	_	_	_	_	_	AlignBegin=346773|AlignEnd=347004|GE=[<]|Gloss=PUNCT|nWord=13
 16	káː	káː	AUX	_	Aspect=Perf|Number=Sing|Person=2	_	_	_	AlignBegin=347004|AlignEnd=347143|GE=[2SG].[CPL]|Gloss=2SG.CPL|nWord=14|RX=[PNTAM]
 17	yisə́n	yisə́n	VERB	_	_	_	_	_	AlignBegin=347143|AlignEnd=347282|GE=know|Gloss=know|nWord=15|RX=[V]
-18	mi	mi	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	_	_	_	AlignBegin=347282|AlignEnd=347421|GE=[1PL].[IDP]|Gloss=1PL.IDP|nWord=16|RX=[PRO]
-19	yi	yi	VERB	_	_	_	_	_	AlignBegin=347421|AlignEnd=347561|GE=be|Gloss=be|nWord=17|RX=[V]
-20	tə́	tə́	ADP	_	_	_	_	_	AlignBegin=347721|AlignEnd=347855|GE=with|Gloss=with|nWord=18|RX=[PREP]
-21	gyaːl	gyaːl	NOUN	_	_	_	_	_	AlignBegin=347855|AlignEnd=347989|GE=compassion|Gloss=compassion|nWord=19|RX=[N]
-22	áy	áy	INTJ	_	_	_	_	_	AlignBegin=347989|AlignEnd=348123|GE=eh|Gloss=eh|nWord=20|RX=[INTJ]
-23	//	//	PUNCT	_	_	_	_	_	AlignBegin=348123|AlignEnd=348258|GE=[//]|Gloss=PUNCT|nWord=21
+18	mi	yi	VERB	_	Number=Sing|Person=1	_	_	_	AlignBegin=347282|AlignEnd=347421|GE=[1SING].be|Gloss=1SG.be|nWord=16|RX=[PRO]
+19	tə́	tə́	ADP	_	_	_	_	_	AlignBegin=347721|AlignEnd=347855|GE=with|Gloss=with|nWord=18|RX=[PREP]
+20	gyaːl	gyaːl	NOUN	_	_	_	_	_	AlignBegin=347855|AlignEnd=347989|GE=compassion|Gloss=compassion|nWord=19|RX=[N]
+21	áy	áy	INTJ	_	_	_	_	_	AlignBegin=347989|AlignEnd=348123|GE=eh|Gloss=eh|nWord=20|RX=[INTJ]
+22	//	//	PUNCT	_	_	_	_	_	AlignBegin=348123|AlignEnd=348258|GE=[//]|Gloss=PUNCT|nWord=21
 
 # sent_id = SAY_BC_CONV_03_342-342
 # speaker_id = SP2
@@ -2741,7 +2740,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 352028, 355046
-# text = mə wul tu ma || ma fi =tə || ma fi =tə lift mə́n // 
+# text = mə wul tu ma || ma fi =tə || ma fi =tə lift mə́n //
 # text_ortho = mə wú tu ma || maːːː fitə̀ːːː || ma fitə lift mə́n //
 # text_en =  I said I will... I... will go to... I will give her a <lift>.
 1	mə	mə	AUX	_	Number=Sing|Person=1	_	_	_	AlignBegin=352028|AlignEnd=352156|GE=[1SG].[AOR]|Gloss=1SG.AOR|nWord=1|RX=[PNTAM]
@@ -2752,7 +2751,7 @@
 6	ma	ma	AUX	_	Number=Sing|Person=1|Tense=Fut	_	_	_	AlignBegin=352668|AlignEnd=352982|GE=[1SG].[FUT]|Gloss=1SG.FUT|nWord=6|RX=[PNTAM]
 7	fi	fi	VERB	_	_	_	_	_	AlignBegin=352982|AlignEnd=353139|GE=do|Gloss=do|nWord=7|RX=[V]
 8	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	_	_	_	AlignBegin=353139|AlignEnd=353296|GE=[3SG].[OBJ]|Gloss=3SG.OBJ|nWord=7|RX=[PRO]
-9	||	||	PRON	_	_	_	_	_	AlignBegin=353296|AlignEnd=353609|GE=[$$]|nWord=8
+9	||	||	PUNCT	_	_	_	_	_	AlignBegin=353296|AlignEnd=353609|GE=[$$]|Gloss=PUNCT|nWord=8
 10	ma	ma	AUX	_	Number=Sing|Person=1|Tense=Fut	_	_	_	AlignBegin=354278|AlignEnd=354432|GE=[1SG].[FUT]|Gloss=1SG.FUT|nWord=9|RX=[PNTAM]
 11	fi	fi	VERB	_	_	_	_	_	AlignBegin=354432|AlignEnd=354509|GE=do|Gloss=do|nWord=10|RX=[V]
 12	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	_	_	_	AlignBegin=354509|AlignEnd=354586|GE=[3SG].[OBJ]|Gloss=3SG.OBJ|nWord=10|RX=[PRO]
@@ -4912,10 +4911,10 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 566181, 566882
-# text =  yisə́n =tə -íː áy !// 
+# text =  yisə́n =tə -íː áy !//
 # text_ortho = máː yisə́ntíː áy !//
 # text_en =  I know him mind you!
-1			NOUN	_	_	_	_	_	AlignBegin=566181|AlignEnd=566356|nWord=1
+1	máː	máː	NOUN	_	Aspect=Perf|Number=Sing|Person=1	_	_	_	AlignBegin=566181|AlignEnd=566356|Gloss=1SG.PRFV|nWord=1
 2	yisə́n	yisə́n	VERB	_	_	_	_	_	AlignBegin=566356|AlignEnd=566414|GE=know|Gloss=know|nWord=2|RX=[V]
 3	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	_	_	_	AlignBegin=566414|AlignEnd=566472|GE=[3SG].[OBJ]|Gloss=3SG.OBJ|nWord=2|RX=[PRO]
 4	-íː	-íː	ADV	_	Aspect=Res	_	_	_	AlignBegin=566472|AlignEnd=566531|GE=[RES]|Gloss=RES|nWord=2|RX=[ASP]
@@ -5722,14 +5721,14 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 658282, 660507
-# text = yáːni ɗan || ɗan || ɗan máː bàː ʧáː kə́ːm ɗu kóna hŋ́ máː !// 
+# text = yáːni ɗan || ɗan || ɗan máː bàː ʧáː kə́ːm ɗu kóna hŋ́ máː !//
 # text_ortho = yâːn ɗan || ɗan || ɗan máː bàː ʧáː kə́ːm ɗu kónǎn máː !//
 # text_en =  Him, who... who... who... cannot even shoot a corner!
 1	yáːni	yáːni	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	AlignBegin=658282|AlignEnd=658421|GE=[3SG]|Gloss=3SG|nWord=1|RX=[PRO].[IDP]
 2	ɗan	ɗan	PRON	_	_	_	_	_	AlignBegin=658421|AlignEnd=658560|GE=that|Gloss=that|nWord=2|RX=[REL].[HOM]
-3	||	||	PRON	_	_	_	_	_	AlignBegin=658560|AlignEnd=658698|GE=[$$]|nWord=3
+3	||	||	PUNCT	_	_	_	_	_	AlignBegin=658560|AlignEnd=658698|GE=[$$]|Gloss=PUNCT|nWord=3
 4	ɗan	ɗan	PRON	_	_	_	_	_	AlignBegin=658698|AlignEnd=658875|GE=that|Gloss=that|nWord=4|RX=[REL].[HOM]
-5	||	||	PRON	_	_	_	_	_	AlignBegin=658875|AlignEnd=659052|GE=[$$]|nWord=5
+5	||	||	PUNCT	_	_	_	_	_	AlignBegin=658875|AlignEnd=659052|GE=[$$]|Gloss=PUNCT|nWord=5
 6	ɗan	ɗan	PRON	_	_	_	_	_	AlignBegin=659052|AlignEnd=659239|GE=as|Gloss=as|nWord=6|RX=[REL].[HOM]
 7	máː	máː	PART	_	_	_	_	_	AlignBegin=659239|AlignEnd=659426|GE=even|Gloss=even|nWord=7|RX=[PTCL].[TOP]
 8	bàː	bàː	PART	_	Polarity=Neg	_	_	_	AlignBegin=659426|AlignEnd=659613|GE=[NEG1]|Gloss=NEG1|nWord=8|RX=[PTCL]
@@ -6264,7 +6263,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 708516, 715525
-# text = séː ɗan { mə || ma || ma || ma } ɬə -íː nə́ laː á teː lə̂p gyaː mə́n Sûːm -íː < séː mə̀tà ɬə || mə̀tà ɬə haɗá tə́ m̀ː Gôː // 
+# text = séː ɗan { mə || ma || ma || ma } ɬə -íː nə́ laː á teː lə̂p gyaː mə́n Sûːm -íː < séː mə̀tà ɬə || mə̀tà ɬə haɗá tə́ m̀ː Gôː //
 # text_ortho = séː ɗan { mə || ma || ma || ma } ɬíː nə́ laː á teː lə̂p gyaː mə́n Súːmíː < séː mə̀tà ɬə́ || mə̀tà ɬə́ hâɗá tə́ m̀ːːː Gôː //
 # text_en =  As I ... I... I... I was going for work with the people of Sumi then I came... I came to meet er... Go(diya).
 1	séː	séː	ADV	_	_	_	_	_	AlignBegin=708516|AlignEnd=708634|GE=then|Gloss=then|nWord=1|RX=[ADV]
@@ -6286,7 +6285,7 @@
 17	teː	teː	ADP	_	_	_	_	_	AlignBegin=710834|AlignEnd=711003|GE=at|Gloss=at|nWord=16|RX=[PREP]
 18	lə̂p	lə̂p	NOUN	_	_	_	_	_	AlignBegin=711003|AlignEnd=711172|GE=place|Gloss=place|nWord=17|RX=[N]
 19	gyaː	gyaː	DET	_	Number=Plur	_	_	_	AlignBegin=711172|AlignEnd=711341|GE=[PL3]|Gloss=PL3|nWord=18|RX=[DET]
-20	mə́n	mə́n	PART	_	_	_	_	_	AlignBegin=711341|AlignEnd=711510|GE=people|Gloss=people|nWord=19|RX=[PTCL]
+20	mə́n	mə́n	NOUN	_	Number=Plur	_	_	_	AlignBegin=711341|AlignEnd=711510|GE=people|Gloss=people|nWord=19|RX=[PTCL]
 21	Sûːm	Sûːm	PROPN	_	_	_	_	_	AlignBegin=711510|AlignEnd=711594|GE=[Sum]|Gloss=Sum|nWord=20|RX=[NPR]
 22	-íː	-íː	ADV	_	Aspect=Res	_	_	_	AlignBegin=711594|AlignEnd=711679|GE=[RES]|Gloss=RES|nWord=20|RX=[ASP]
 23	<	<	PUNCT	_	_	_	_	_	AlignBegin=711679|AlignEnd=711845|GE=[<]|Gloss=PUNCT|nWord=21
@@ -6592,13 +6591,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 746314, 747657
-# text = kə yel gòpm ɗa àːtá faːrá tə́ Kaɗə́m // 
+# text = kə yel gòpm ɗa àːtá faːrá tə́ Kaɗə́m //
 # text_ortho = kə yél gòm ɗa àːtá faːrá tə́ Kaɗə́m //
 # text_en =  Myself, you saw how it started with Kad'ạm.
 1	kə	kə	AUX	_	Number=Sing|Person=2	_	_	_	AlignBegin=746314|AlignEnd=746463|GE=[2SG].[AOR]|Gloss=2SG.AOR|nWord=1|RX=[PNTAM]
 2	yel	yel	VERB	_	_	_	_	_	AlignBegin=746463|AlignEnd=746612|GE=see|Gloss=see|nWord=2|RX=[V]
 3	gòpm	gòpm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	_	_	_	AlignBegin=746612|AlignEnd=746761|GE=[1PL].[POS]|Gloss=1PL.POS|nWord=3|RX=[PRO]
-4	ɗa	ɗa	SCONJ	_	_	_	_	_	AlignBegin=746761|AlignEnd=746910|GE=as|Gloss=as|nWord=4|RX=[CONJ]
+4	ɗa	ɗan	SCONJ	_	_	_	_	_	AlignBegin=746761|AlignEnd=746910|GE=as|Gloss=as|nWord=4|RX=[CONJ]
 5	àːtá	àːtá	AUX	_	Aspect=Perf|Number=Sing|Person=3|Tense=Rem	_	_	_	AlignBegin=746910|AlignEnd=747059|GE=[3SG].[CPL].[REM]|Gloss=3SG.CPL.REM|nWord=5|RX=[PNTAM]
 6	faːrá	faːrá	X	_	Foreign=Yes	_	_	_	AlignBegin=747059|AlignEnd=747208|GE=start|Gloss=start|Language=hau|nWord=6|RX=[X].[CSW].[HAU]
 7	tə́	tə́	AUX	_	_	_	_	_	AlignBegin=747208|AlignEnd=747357|GE=with|Gloss=with|nWord=7|RX=[PNTAM]
@@ -7058,13 +7057,13 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 790406, 791492
-# text = ɗa áː tə́ ɗa èː &// 
+# text = ɗa áː tə́ ɗa èː &//
 # text_ortho = ɗa áː tə́ ɗa èːːː &//
 # text_en =  As er...
-1	ɗa	ɗa	SCONJ	_	_	_	_	_	AlignBegin=790406|AlignEnd=790587|GE=as|Gloss=as|nWord=1|RX=[CONJ]
+1	ɗa	ɗan	SCONJ	_	_	_	_	_	AlignBegin=790406|AlignEnd=790587|GE=as|Gloss=as|nWord=1|RX=[CONJ]
 2	áː	áː	INTJ	_	_	_	_	_	AlignBegin=790587|AlignEnd=790768|GE=indeed|Gloss=indeed|nWord=2|RX=[EXCM]
 3	tə́	tə́	AUX	_	Number=Plur|Person=3	_	_	_	AlignBegin=790768|AlignEnd=790949|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=3|RX=[PNTAM]
-4	ɗa	ɗa	SCONJ	_	_	_	_	_	AlignBegin=790949|AlignEnd=791130|GE=as|Gloss=as|nWord=4|RX=[CONJ]
+4	ɗa	ɗan	SCONJ	_	_	_	_	_	AlignBegin=790949|AlignEnd=791130|GE=as|Gloss=as|nWord=4|RX=[CONJ]
 5	èː	èː	INTJ	_	_	_	_	_	AlignBegin=791130|AlignEnd=791311|GE=èː|Gloss=èː|nWord=5|RX=[INTJ]
 6	&//	&//	PUNCT	_	_	_	_	_	AlignBegin=791311|AlignEnd=791492|GE=[&//]|Gloss=PUNCT|nWord=6
 
@@ -7120,7 +7119,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 798455, 799957
-# text = áː tòː < àːtá yisə́n mi tə́ ngə́tn hŋ́ áy !// 
+# text = áː tòː < àːtá yisə́n mi tə́ ngə́tn hŋ́ áy !//
 # text_ortho = ǎː tòː < àːtá yîsə́n mi tə́ ngətə̌n áy !//
 # text_en =  Ah! well she knows that I don't have anything indeed.
 1	áː	áː	INTJ	_	_	_	_	_	AlignBegin=798455|AlignEnd=798553|GE=indeed|Gloss=indeed|nWord=1|RX=[EXCM]
@@ -7128,7 +7127,7 @@
 3	<	<	PUNCT	_	_	_	_	_	AlignBegin=798846|AlignEnd=798985|GE=[<]|Gloss=PUNCT|nWord=3
 4	àːtá	àːtá	AUX	_	Aspect=Perf|Number=Sing|Person=3|Tense=Rem	_	_	_	AlignBegin=798985|AlignEnd=799124|GE=[3SG].[CPL].[REM]|Gloss=3SG.CPL.REM|nWord=4|RX=[PNTAM]
 5	yisə́n	yisə́n	VERB	_	_	_	_	_	AlignBegin=799124|AlignEnd=799263|GE=know|Gloss=know|nWord=5|RX=[V]
-6	mi	mi	PRON	_	Number=Sing|Person=1|PronType=Prs	_	_	_	AlignBegin=799263|AlignEnd=799402|GE=[1SG].[SBJ]|Gloss=1SG.SBJ|nWord=6|RX=[PRO]
+6	mi	yi	VERB	_	Number=Sing|Person=1	_	_	_	AlignBegin=799263|AlignEnd=799402|GE=[1SG].be|Gloss=1SG.be|nWord=6|RX=[PRO]
 7	tə́	tə́	ADP	_	_	_	_	_	AlignBegin=799402|AlignEnd=799541|GE=with|Gloss=with|nWord=7|RX=[PREP]
 8	ngə́tn	ngə́tn	NOUN	_	_	_	_	_	AlignBegin=799541|AlignEnd=799611|GE=thing|Gloss=thing|nWord=8|RX=[N]
 9	hŋ́	hŋ́	PART	_	Polarity=Neg	_	_	_	AlignBegin=799611|AlignEnd=799680|GE=[NEG2]|Gloss=NEG2|nWord=8|RX=[PTCL].[NEG]
@@ -7142,7 +7141,7 @@
 # text = ḿ tòː //
 # text_ortho = ḿ tôː //
 # text_en =  Mm Well!
-1	ḿː	ḿː	INTJ	_	_	_	_	_	AlignBegin=799957|AlignEnd=800280|GE=[BKL]|Gloss=BKL|nWord=1|RX=[BKL]|wordform=ḿ
+1	m̀ː	m̀ː	INTJ	_	_	_	_	_	AlignBegin=799957|AlignEnd=800280|GE=[BKL]|Gloss=BKL|nWord=1|RX=[BKL]|wordform=ḿ
 2	tòː	tòː	PART	_	_	_	_	_	AlignBegin=800280|AlignEnd=800442|GE=well|Gloss=well|nWord=2|RX=[PTCL].[ASS]
 3	//	//	PUNCT	_	_	_	_	_	AlignBegin=800442|AlignEnd=800603|GE=[//]|Gloss=PUNCT|nWord=3
 
@@ -8105,4 +8104,3 @@
 23	-sə	-sə	DET	_	Number=Plur	_	_	_	AlignBegin=903241|AlignEnd=903286|GE=[PL]|Gloss=PL|nWord=18|RX=[DET]
 24	//]	//]	PUNCT	_	_	_	_	_	AlignBegin=903286|AlignEnd=903421|GE=[//]]|Gloss=PUNCT|nWord=19
 25	//	//	PUNCT	_	_	_	_	_	AlignBegin=903421|AlignEnd=903554|GE=[//]|Gloss=PUNCT|nWord=20
-
