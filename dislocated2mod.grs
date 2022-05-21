@@ -1,0 +1,11 @@
+rule r1 {
+pattern { e: X-["dislocated+mod"]-> Y }
+
+commands { del_edge e; add_edge X -[mod]-> Y }
+}
+
+
+strat main {
+	Seq (
+	Onf (r1)
+)}
