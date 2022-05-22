@@ -1,0 +1,11 @@
+rule r1 {
+pattern { N [form="[" | "]" | "|c", upos<>PUNCT] }
+
+commands { N.upos=PUNCT ; N.Gloss=PUNCT }
+}
+
+
+strat main {
+	Seq (
+	Onf (r1)
+)}
