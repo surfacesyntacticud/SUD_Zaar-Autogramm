@@ -1,0 +1,11 @@
+rule r1 {
+pattern { N [form="kóː" | "àmáː", upos="SCONJ"|"CONJ<"] }
+
+commands { N.upos=CCONJ }
+}
+
+
+strat main {
+	Seq (
+	Onf (r1)
+)}
