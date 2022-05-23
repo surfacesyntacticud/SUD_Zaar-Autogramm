@@ -1,10 +1,10 @@
 rule r1 {
-pattern { N[form = "ʧáː", lemma = "ʧáː", upos = "AUX", Gloss = "3SG.CPL", ] }
-commands { N.lemma = "ʧiká"; N.Gloss = "3SG.ICPL"; }
+pattern { N[form = "ʧáː", upos = "AUX", Gloss = "3SG.CPL", ] }
+commands { N.Gloss = "3SG.ICPL"; }
 }
 
 rule r2 {
-pattern { N[form = "ʧáː", lemma = "ʧáː", upos = "AUX", Gloss = "3SG.ICPL", ] }
+pattern { N[form = "ʧáː", upos = "AUX", Gloss = "3SG.ICPL" ] }
 commands { N.lemma = "ʧiká"; }
 }
 
@@ -17,5 +17,7 @@ commands { N.lemma = "ʧìká"; }
 
 strat main {
 	Seq (
-	Onf (r1, r2, r3)
+	Onf (r1) ,
+	Onf (r2) ,
+	Onf (r3) ,	
 )}
