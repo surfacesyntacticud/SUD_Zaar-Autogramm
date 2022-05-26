@@ -1718,7 +1718,7 @@
 5	longa	longa	NOUN	_	_	4	comp:obj	_	AlignBegin=223704|AlignEnd=223878|GE=rabbit|Gloss=rabbit|nWord=5|RX=[N]
 6	nə	nə	PART	_	VerbType=Cop	5	comp:obj	_	AlignBegin=223878|AlignEnd=224052|GE=[COP1]|Gloss=be|nWord=6|RX=[PTCL].[SYNT]
 7	kyàːní	kyàːní	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	5	comp:obj	_	AlignBegin=224052|AlignEnd=224226|GE=[2PL]|Gloss=2PL|nWord=7|RX=[PRO].[IDP]
-8	kì	kì	VERB	_	Number=Plur|Person=2	5	comp:obj	_	AlignBegin=224226|AlignEnd=224400|GE=[2PL].be|Gloss=2PL.be|nWord=8|RX=[PRO]
+8	kì	kì	PRON	_	Number=Plur|Person=2|PronType=Prs	5	comp:obj	_	AlignBegin=224226|AlignEnd=224400|GE=[2PL].[SBJ]|Gloss=2PL.SBJ|nWord=8|RX=[PRO]
 9	tə́	tə́	ADP	_	_	5	comp:obj	_	AlignBegin=224400|AlignEnd=224574|GE=with|Gloss=with|nWord=9|RX=[PREP]
 10	də̌ːr	də̌ːr	NOUN	_	_	5	comp:obj	_	AlignBegin=224574|AlignEnd=224748|GE=lizard|Gloss=lizard|nWord=10|RX=[N]
 11	ŋaː	ŋaː	PART	_	PartType=Int	10	comp:obj	_	AlignBegin=224748|AlignEnd=224922|GE=[VRT]|Gloss=VRT|nWord=11|RX=[PTCL].[ASS]
@@ -1790,7 +1790,7 @@
 3	ɬə́ːt	ɬə́ːt	VERB	_	_	2	comp:aux	_	AlignBegin=231060|AlignEnd=231190|GE=fly|Gloss=fly|nWord=3|RX=[V]
 4	-ni	-ni	PART	_	Aspect=Inch	3	mod	_	AlignBegin=231190|AlignEnd=231319|GE=[INCH]|Gloss=INCH|nWord=3|RX=[PTCL].[EXT]
 5	yáːwón	yáːwón	ADV	_	PronType=Dem	3	comp:obj	_	AlignBegin=231319|AlignEnd=231578|GE=today|Gloss=today|nWord=4|RX=[ADVDEICT]
-6	kì	kì	VERB	_	Number=Plur|Person=2	5	comp:obj	_	AlignBegin=231578|AlignEnd=231837|GE=[2PL].be|Gloss=2PL.be|nWord=5|RX=[PRO]
+6	kì	kì	PRON	_	Number=Plur|Person=2|PronType=Prs	5	comp:obj	_	AlignBegin=231578|AlignEnd=231837|GE=[2PL].[SBJ]|Gloss=2PL.SBJ|nWord=5|RX=[PRO]
 7	ʧím	ʧím	ADP	_	_	6	comp:aux	_	AlignBegin=231837|AlignEnd=231923|GE=with|Gloss=with|nWord=6|RX=[PREP]
 8	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	mod	_	AlignBegin=231923|AlignEnd=232009|GE=[3PL].[OBJ]|Gloss=3PL.OBJ|nWord=6|RX=[PRO]
 9	aː	aː	PART	_	PartType=Int	7	mod	_	AlignBegin=232009|AlignEnd=232096|GE=[VRT]|Gloss=VRT|nWord=6|RX=[PTCL].[ASS]
@@ -1981,7 +1981,7 @@
 # text = ɗan  tə́ ɬə́ːt  || tə́ ɬə́ːt || ɗa á ɗagá ɬə́ːt -kə́nì tsəní &//
 # text_ortho = ɗan tə́  ɬə̌ːt  || tə́ ɬə̌ːt || ɗa á ɗâgá ɬə́ːtkə̂n tsə́n &//
 # text_en =  As they flew away... they flew away... as he flew away like this...
-1	ɗan	ɗan	SCONJ	_	_	0	root	_	AlignBegin=256857|AlignEnd=257045|GE=as|Gloss=as|nWord=1|RX=[CONJ]
+1	ɗan 	ɗan 	SCONJ	_	_	0	root	_	AlignBegin=256857|AlignEnd=257045|GE=as|Gloss=as|nWord=1|RX=[CONJ]
 2	tə́	tə́	AUX	_	Number=Plur|Person=3	1	comp:aux	_	AlignBegin=257045|AlignEnd=257233|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=2|RX=[PNTAM]
 3	ɬə́ːt 	ɬə́ːt 	VERB	_	_	2	comp:aux	_	AlignBegin=257233|AlignEnd=257421|GE=fly|Gloss=fly|nWord=3|RX=[V]
 4	||	||	VERB	_	_	1	punct	_	AlignBegin=257421|AlignEnd=257607|GE=[$$]|nWord=4
@@ -5121,13 +5121,13 @@
 # sent_timecode = 637716, 638616
 # text = guɗi ʧǎː waːt -ni ngə́tn hŋ́ //
 # text_ortho = guɗi ʧǎː wâːtnì ngə́tə̌n //
-# text_en = The wifes, they did not hide it.
-1	guɗi	guɗi	NOUN	_	Number=Plur	0	root	_	AlignBegin=637716|AlignEnd=637896|GE=women|Gloss=women|nWord=1|RX=[N].[PL].[APHO]
+# text_en =  The wifes, they did not hide it.
+1	guɗi	guɗi	_	_	Number=Plur	0	root	_	AlignBegin=637716|AlignEnd=637896|GE=women|Gloss=women|nWord=1|RX=[N].[PL].[APHO]
 2	ʧǎː	ʧǎː	AUX	_	Aspect=Imp|Number=Plur|Person=3	1	comp:aux	_	AlignBegin=637896|AlignEnd=638076|GE=[3PL].[ICPL]|Gloss=3PL.ICPL|nWord=2|RX=[PNTAM]
-3	waːt	waːt	VERB	_	_	1	comp:aux	_	AlignBegin=638076|AlignEnd=638166|GE=hide|Gloss=hide|nWord=3|RX=[V]
-4	-ni	-ni	DET	_	Aspect=Inch	1	mod	_	AlignBegin=638166|AlignEnd=638256|GE=[INCH]|Gloss=INCH|nWord=3|RX=[PTCL].[EXT]
-5	ngə́tn	ngə́tn	NOUN	_	_	1	comp:aux	_	AlignBegin=638256|AlignEnd=638346|GE=thing|Gloss=thing|nWord=4|RX=[N]
-6	hŋ́	hŋ́	PART	_	Polarity=Neg	1	punct	_	AlignBegin=638346|AlignEnd=638436|GE=[NEG2]|Gloss=NEG2|nWord=4|RX=[PTCL].[NEG]
+3	waːt	waːt	VERB	_	_	2	comp:aux	_	AlignBegin=638076|AlignEnd=638166|GE=hide|Gloss=hide|nWord=3|RX=[V]
+4	-ni	-ni	PART	_	Aspect=Inch	3	comp:obj	_	AlignBegin=638166|AlignEnd=638256|GE=[INCH]|Gloss=INCH|nWord=3|RX=[PTCL].[EXT]
+5	ngə́tn	ngə́tn	NOUN	_	_	3	comp:obj	_	AlignBegin=638256|AlignEnd=638346|GE=thing|Gloss=thing|nWord=4|RX=[N]
+6	hŋ́	hŋ́	PART	_	Polarity=Neg	5	comp:obj	_	AlignBegin=638346|AlignEnd=638436|GE=[NEG2]|Gloss=NEG2|nWord=4|RX=[PTCL].[NEG]
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=638436|AlignEnd=638616|GE=[//]|Gloss=PUNCT|nWord=5
 
 # sent_id = SAY_BC_narr_01_503-503
