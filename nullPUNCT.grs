@@ -1,7 +1,7 @@
 rule r1 {
-pattern { N [form="[" | "]" | "|c" | "||", upos<>PUNCT] }
+pattern { N [upos=PUNCT] }
 
-commands { N.upos=PUNCT ; N.Gloss=PUNCT }
+commands { N.Gloss=PUNCT }
 }
 
 
