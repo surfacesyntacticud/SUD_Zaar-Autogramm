@@ -1,7 +1,8 @@
 rule r1 {
-pattern { N [form="mə́n", Gloss=BEN] }
-commands { N.upos=PART }
+pattern { N[form = "mə́n", lemma = "mə́n", upos = "NOUN", Gloss = "BEN", ] }
+commands { N.upos = "PART"; }
 }
+
 strat main {
 	Seq (
 	Onf (r1)
