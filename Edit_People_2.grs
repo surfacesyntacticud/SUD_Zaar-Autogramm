@@ -1,5 +1,5 @@
 rule r1 {
-pattern { N[form = "mə́n", lemma = "mə́n", upos = "NOUN", Gloss = "BEN", ] }
+pattern { N[form = "mə́n", Gloss = "people",] }
 commands { N.upos = "PART"; }
 }
 
