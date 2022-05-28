@@ -1,0 +1,13 @@
+rule r1 {
+
+
+pattern { N [form="mə́n", Gloss=BEN] }
+
+commands { N.upos=PART }
+}
+
+
+strat main {
+	Seq (
+	Onf (r1)
+)}
