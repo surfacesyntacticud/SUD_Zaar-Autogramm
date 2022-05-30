@@ -1,0 +1,10 @@
+rule r1 {
+pattern { N[form = "ɗan", lemma = "ɗan", upos = "PRON", Gloss = "that", ] }
+commands { N.upos = "SCONJ"; }
+}
+
+
+strat main {
+	Seq (
+	Onf (r1)
+)}
