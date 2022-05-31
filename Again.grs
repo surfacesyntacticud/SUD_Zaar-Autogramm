@@ -1,0 +1,10 @@
+rule r1 {
+pattern { N [Gloss="again", form="ɗa"] }
+commands { N.upos = "PART"; }
+}
+
+
+strat main {
+	Seq (
+	Onf (r1)
+)}
