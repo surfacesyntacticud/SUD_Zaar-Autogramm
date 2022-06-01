@@ -5,10 +5,10 @@ rule keni_v {
 		keni [lemma="-kəní", upos=SCONJ]; 
 		V<keni;
 		X [];
-		e: -> V;
+		e: X -> keni;
 	}
 	without {
-		keni -[udep]-> V;
+		V -[udep]-> keni;
 	}
 	commands {
 		del_edge e;

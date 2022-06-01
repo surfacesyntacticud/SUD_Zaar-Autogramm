@@ -6,10 +6,10 @@ rule keni_v {
 		V<keni;
 	}
 	without {
-		*->V;
+		*->keni;
 	}
 	commands {
-		add_edge keni -[udep]-> V
+		add_edge V -[udep]-> keni
 	}
 }
 }

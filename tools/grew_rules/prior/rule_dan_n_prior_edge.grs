@@ -1,7 +1,7 @@
 package p_1 {
 rule dan_n {
 	pattern {
-		dan [lemma="ɗan", PronType=Rel];
+		dan [form="ɗa"|"ɗan", Gloss="REL"];
 		N [upos=NOUN]; 
 		N<<dan;
 		X [];

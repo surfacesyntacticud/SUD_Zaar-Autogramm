@@ -15,9 +15,9 @@ Règles basées sur le présupposé qu'il n'y aura aucune autre relation annoté
 
 aux_v : ajout de la relation -[comp:aux]-> lorsqu'un auxiliaire précède un autre auxiliaire ou un verbe
 
-dan_n : ajout de la relation -[mod@relcl]-> entre la particule ɗan (lorsque c'est un pronom relatif) et le premier nom la précédant
+dan_n : ajout de la relation -[mod@relcl]-> entre la particule ɗan (lorsque sa glose est "REL") et le premier nom la précédant
 
-dan_v : ajout de la relation -[comp:obj]-> entre la particule ɗan (lorsque c'est un pronom relatif) et le premier auxiliaire ou verbe suivant
+dan_v : ajout de la relation -[comp:obj]-> entre la particule ɗan (lorsque sa glose est "REL") et le premier auxiliaire ou verbe suivant
 
 di_man_ar_v : ajout de la relation -[compound:prt]-> entre les particules ɗi, mə́n, -ár et le verbe précédent le plus proche
 

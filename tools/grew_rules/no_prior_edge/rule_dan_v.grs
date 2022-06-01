@@ -1,7 +1,7 @@
 package p_1 {
 rule dan_v {
 	pattern {
-		dan [lemma="ɗan", PronType=Rel]; 
+		dan [form="ɗa"|"ɗan", Gloss="REL"]; 
 		VA [upos=VERB|AUX]; 
 		dan<<VA;
 	}
