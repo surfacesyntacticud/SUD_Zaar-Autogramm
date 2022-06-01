@@ -1,0 +1,24 @@
+package p_1 {
+rule dan_v {
+	pattern {
+		dan [lemma="ɗan", PronType=Rel]; 
+		VA [upos=VERB|AUX]; 
+		dan<<VA;
+		X [];
+		e: X-> VA;
+	}
+	without {
+		VA2 [upos=VERB|AUX];
+		dan<<VA2; 
+		VA2<<VA;
+	}
+	without {
+		dan -[comp:obj]-> VA;
+	}
+	commands {
+		del_edge e;
+	}
+}
+}
+
+strat main { Onf (p_1)} % all normal forms

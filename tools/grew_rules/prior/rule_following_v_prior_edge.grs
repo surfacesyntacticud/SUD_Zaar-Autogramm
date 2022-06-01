@@ -1,0 +1,19 @@
+package p_1 {
+rule following_v {
+	pattern {
+		V [upos=VERB]; 
+		V2 [upos=VERB]; 
+		V<V2;
+		X [];
+		e: X-> V2;
+	}
+	without {
+		V -[compound:svc]-> V2;
+	}	
+	commands {
+		del_edge e;
+	}
+}
+}
+
+strat main { Onf (p_1)} % all normal forms

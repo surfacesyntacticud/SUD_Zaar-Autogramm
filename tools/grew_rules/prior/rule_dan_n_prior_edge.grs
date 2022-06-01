@@ -1,0 +1,25 @@
+package p_1 {
+rule dan_n {
+	pattern {
+		dan [lemma="ɗan", PronType=Rel];
+		N [upos=NOUN]; 
+		N<<dan;
+		X [];
+		e: X-> dan;
+	}
+	without {
+		N2 [upos=NOUN];
+		N2<<dan;
+		N<<N2;
+		
+	}
+	without {
+		N -[comp:aux]-> dan;
+	}
+	commands {
+		del_edge e;
+	}
+}
+}
+
+strat main { Onf (p_1)} % all normal forms

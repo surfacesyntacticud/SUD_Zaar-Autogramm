@@ -1,0 +1,24 @@
+package p_1 {
+rule di_man_ar_v {
+	pattern {
+		part [lemma="ɗi"|"mə́n"|"ár", upos=PART];
+		V [upos=VERB];
+		V<<part;
+		X [];
+		e: X-> part;
+	}
+	without {
+		V2 [upos=VERB];
+		V << V2;
+		V2 << part;
+	}
+	without {
+		V -[compound:part]-> part;
+	}	
+	commands {
+		del_edge e;
+	}
+}
+}
+
+strat main { Onf (p_1)} % all normal forms

@@ -1,0 +1,17 @@
+package p_1 {
+rule n_det2 {
+	pattern {
+		N [upos=NOUN|PROPN];
+		D [upos=DET, lemma="gyaː" | "gyáː" |  "wàːné"];
+		D<N;
+	}
+	without {
+		*->D;
+	}
+	commands {
+		add_edge N-[det]-> D;
+	}
+}
+}
+
+strat main { Onf (p_1)} % all normal forms

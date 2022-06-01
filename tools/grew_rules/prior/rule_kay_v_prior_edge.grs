@@ -1,0 +1,24 @@
+package p_1 {
+rule kay_v {
+	pattern {
+		part [lemma="káy", Gloss=ANAPH];
+		V [upos=VERB];
+		V<<part;
+		X [];
+		e: X -> part;
+	}
+	without {
+		V2 [upos=VERB];
+		V << V2;
+		V2 << part;
+	}
+	without {
+		V -[comp:obj]-> part;
+	}
+	commands {
+		del_edge e;
+	}
+}
+}
+
+strat main { Onf (p_1)} % all normal forms

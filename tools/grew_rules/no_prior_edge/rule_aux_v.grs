@@ -1,0 +1,17 @@
+package p_1 {
+rule aux_v {
+	pattern { 
+		A [upos=AUX]; 
+		V [upos=VERB|AUX]; 
+		A<V;
+	}
+	without {
+		*->V;
+	}
+	commands {
+		add_edge A -[comp:aux]-> V;
+	}
+}
+}
+
+strat main { Onf (p_1)} % all normal forms
