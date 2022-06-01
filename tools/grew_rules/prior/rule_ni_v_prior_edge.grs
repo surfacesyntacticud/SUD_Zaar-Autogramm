@@ -1,0 +1,24 @@
+package p_1 {
+rule ni_v {
+	pattern {
+		part [lemma="ni", upos=PART];
+		V [upos=VERB];
+		V<<part;
+		X [];
+		e: X -> part;
+	}
+	without {
+		V2 [upos=VERB];
+		V << V2;
+		V2 << part;
+	}
+	without {
+		V -[mod]-> V2;
+	}
+	commands {
+		del_edge e;
+	}
+}
+}
+
+strat main { Onf (p_1)} % all normal forms

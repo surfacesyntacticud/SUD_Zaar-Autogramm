@@ -1,0 +1,19 @@
+package p_1 {
+rule n_det {
+	pattern {
+		N [upos=NOUN|PROPN];
+		D [upos=DET];
+		N<D;
+		X [];
+		e: X->D;
+	}
+	without {
+		N -[det]-> D;
+	}	
+	commands {
+		del_edge e;
+	}
+}
+}
+
+strat main { Onf (p_1)} % all normal forms

@@ -1,0 +1,19 @@
+package p_1 {
+rule V_PRON_acc {
+	pattern {
+		V [upos=VERB]; 
+		P [upos=PRON, Case=Acc]; 
+		V<P;
+		X [];
+		e: X->P;
+	}
+	without {
+		V -[comp:obj]-> P;
+	}
+	commands {
+		del_edge e;
+	}
+}
+}
+
+strat main { Onf (p_1)} % all normal forms

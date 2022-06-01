@@ -1,0 +1,17 @@
+package p_1 {
+rule aux_v {
+	pattern { 
+		GOV [upos=AUX]; 
+		DEP [upos=VERB|AUX]; 
+		GOV<DEP;
+		X [];
+		e: X->DEP;
+	}
+	commands {
+		del_edge e;
+		add_edge GOV -[comp:aux]-> DEP;
+	}
+}
+}
+
+strat main { Onf (p_1)} % all normal forms
