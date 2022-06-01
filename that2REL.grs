@@ -1,0 +1,10 @@
+rule r1 {
+pattern { N [Gloss="that", form="ɗan"|"ɗa"] }
+commands { N.Gloss = "REL"; }
+}
+
+
+strat main {
+	Seq (
+	Onf (r1)
+)}
