@@ -580,27 +580,28 @@
 # sent_timecode = 98442, 102109
 # text = bàː tá mǎn kúmá tə́ kúni =wòs bàː wai ʧáː lə́ːr ni kúni =wòs ɗì tə̀ màn yèl =tə̀ hŋ́ |c àmáː ʧáː mân ni nə́ laː //
 # text_ortho = bàː tá mǎn kúmá tə́ kúniwòs bàː wai ʧáː lə́ːrni kúniwòsɗì tə̀ màn yèltə̀ hŋ́ |c àmmáː ʧáː mânnəni nə́ laː //
-1	bàː	bàː	PART	_	Polarity=Neg	10	mod	_	AlignBegin=98442|AlignEnd=98645|GE=[NEG1]|Gloss=NEG1|nWord=1|RX=[PTCL]
-2	wai	wai	PART	_	Foreign=Yes	10	mod	_	AlignBegin=98645|AlignEnd=98848|GE=wai|Gloss=wai|Lang=hau|nWord=2|RX=[X].[CSW].[HAU]
-3	ʧáː	ʧá	AUX	_	Aspect=Imp|Number=Sing|Person=3	3	parataxis@mod	_	AlignBegin=98848|AlignEnd=99051|GE=[3SG].[ICPL]|Gloss=3SG.ICPL|nWord=3|RX=[V]
-4	lə́ːr	lə́ːr	VERB	_	_	10	comp:aux	_	AlignBegin=99051|AlignEnd=99153|GE=bring|Gloss=bring|nWord=4|RX=[V]
-5	ni	ni	PART	_	Aspect=Inch	11	compound:prt	_	AlignBegin=99153|AlignEnd=99254|GE=[INCH]|Gloss=INCH|nWord=5|RX=[PTCL].[EXT]|wordform=-ni
-6	kúni	kúni	NOUN	_	_	11	comp:obj	_	AlignBegin=99254|AlignEnd=99322|GE=boy|Gloss=boy|nWord=6|RX=[N]
-7	=wòs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	13	mod@poss	_	AlignBegin=99322|AlignEnd=99390|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=7|RX=[PRO]
-8	ɗì	ɗi	PART	_	VerbForm=Ctp	11	compound:prt	_	AlignBegin=99390|AlignEnd=99457|GE=[CTP]|Gloss=CTP|nWord=8|RX=[PTCL].[EXT]
-9	tə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=3	11	parataxis@mod	_	AlignBegin=99457|AlignEnd=99660|GE=[3PL].[SBJV]|Gloss=3PL.SBJV|nWord=9|RX=[PNTAM]
-10	màn	man	VERB	_	_	16	comp:aux	_	AlignBegin=99660|AlignEnd=99863|GE=come|Gloss=come|nWord=10|RX=[V]
-11	yèl	yel	VERB	_	_	17	compound:svc	_	AlignBegin=99863|AlignEnd=99965|GE=see|Gloss=see|nWord=11|RX=[V]
-12	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	18	comp:obj	_	AlignBegin=99965|AlignEnd=100066|GE=[3SG].[OBJ]|Gloss=3SG.OBJ|nWord=12|RX=[PRO]
-13	hŋ́	hŋ́	PART	_	Polarity=Neg	10	mod	_	AlignBegin=100066|AlignEnd=100269|GE=[NEG2]|Gloss=NEG2|nWord=13|RX=[PTCL].[NEG]
-14	|c	|c	PUNCT	_	Polarity=Neg	0	punct	_	AlignBegin=100269|AlignEnd=100469|GE=$c|Gloss=PUNCT|nWord=14
-15	àmáː	àmáː	CCONJ	_	_	0	cc	_	AlignBegin=100469|AlignEnd=100780|GE=but|Gloss=but|nWord=15|RX=[COORD]
-16	ʧáː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	10	conj:coord	_	AlignBegin=100780|AlignEnd=101091|GE=[3SG].[ICPL]|Gloss=3SG.ICPL|nWord=16|RX=[PNTAM]
-17	mân	man	VERB	_	_	0	comp:aux	_	AlignBegin=101091|AlignEnd=101247|GE=come|Gloss=come|nWord=17|RX=[V]
-18	ni	ni	PART	_	Aspect=Inch	0	compound:prt	_	AlignBegin=101247|AlignEnd=101402|GE=[INCH]|Gloss=INCH|nWord=18|RX=[PTCL].[EXT]|wordform=-ni
-19	nə́	nə́	ADP	_	_	0	mod	_	AlignBegin=101759|AlignEnd=101876|GE=for|Gloss=for|nWord=19|RX=[PREP]
-20	laː	laː	NOUN	_	_	0	comp:obj	_	AlignBegin=101876|AlignEnd=101993|GE=work|Gloss=work|nWord=20|RX=[N]
-21	//	//	PUNCT	_	_	2	punct	_	AlignBegin=101993|AlignEnd=102109|GE=[//]|Gloss=PUNCT|nWord=21
+# text_en = He did not bring his son for them to look at him, but he came to work. 
+1	bàː	bàː	PART	_	Polarity=Neg	3	mod	_	AlignBegin=98442|AlignEnd=98645|GE=[NEG1]|Gloss=NEG1|nWord=1|RX=[PTCL]
+2	wai	wai	PART	_	Foreign=Yes	3	mod	_	AlignBegin=98645|AlignEnd=98848|GE=wai|Gloss=wai|Lang=hau|nWord=2|RX=[X].[CSW].[HAU]
+3	ʧáː	ʧá	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=98848|AlignEnd=99051|GE=[3SG].[ICPL]|Gloss=3SG.ICPL|nWord=3|RX=[V]
+4	lə́ːr	lə́ːr	VERB	_	_	3	comp:aux	_	AlignBegin=99051|AlignEnd=99153|GE=bring|Gloss=bring|nWord=4|RX=[V]
+5	ni	ni	PART	_	Aspect=Inch	4	compound:prt	_	AlignBegin=99153|AlignEnd=99254|GE=[INCH]|Gloss=INCH|nWord=5|RX=[PTCL].[EXT]|wordform=-ni
+6	kúni	kúni	NOUN	_	_	4	comp:obj	_	AlignBegin=99254|AlignEnd=99322|GE=boy|Gloss=boy|nWord=6|RX=[N]
+7	=wòs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	mod@poss	_	AlignBegin=99322|AlignEnd=99390|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=7|RX=[PRO]
+8	ɗì	ɗi	PART	_	VerbForm=Ctp	4	compound:prt	_	AlignBegin=99390|AlignEnd=99457|GE=[CTP]|Gloss=CTP|nWord=8|RX=[PTCL].[EXT]
+9	tə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=3	4	parataxis@mod	_	AlignBegin=99457|AlignEnd=99660|GE=[3PL].[SBJV]|Gloss=3PL.SBJV|nWord=9|RX=[PNTAM]
+10	màn	man	VERB	_	_	9	comp:aux	_	AlignBegin=99660|AlignEnd=99863|GE=come|Gloss=come|nWord=10|RX=[V]
+11	yèl	yel	VERB	_	_	10	compound:svc	_	AlignBegin=99863|AlignEnd=99965|GE=see|Gloss=see|nWord=11|RX=[V]
+12	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=99965|AlignEnd=100066|GE=[3SG].[OBJ]|Gloss=3SG.OBJ|nWord=12|RX=[PRO]
+13	hŋ́	hŋ́	PART	_	Polarity=Neg	3	mod	_	AlignBegin=100066|AlignEnd=100269|GE=[NEG2]|Gloss=NEG2|nWord=13|RX=[PTCL].[NEG]
+14	|c	|c	PUNCT	_	Polarity=Neg	16	punct	_	AlignBegin=100269|AlignEnd=100469|GE=$c|Gloss=PUNCT|nWord=14
+15	àmáː	àmáː	CCONJ	_	_	16	cc	_	AlignBegin=100469|AlignEnd=100780|GE=but|Gloss=but|nWord=15|RX=[COORD]
+16	ʧáː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	3	conj:coord	_	AlignBegin=100780|AlignEnd=101091|GE=[3SG].[ICPL]|Gloss=3SG.ICPL|nWord=16|RX=[PNTAM]
+17	mân	man	VERB	_	_	16	comp:aux	_	AlignBegin=101091|AlignEnd=101247|GE=come|Gloss=come|nWord=17|RX=[V]
+18	ni	ni	PART	_	Aspect=Inch	17	compound:prt	_	AlignBegin=101247|AlignEnd=101402|GE=[INCH]|Gloss=INCH|nWord=18|RX=[PTCL].[EXT]|wordform=-ni
+19	nə́	nə́	ADP	_	_	17	mod	_	AlignBegin=101759|AlignEnd=101876|GE=for|Gloss=for|nWord=19|RX=[PREP]
+20	laː	laː	NOUN	_	_	19	comp:obj	_	AlignBegin=101876|AlignEnd=101993|GE=work|Gloss=work|nWord=20|RX=[N]
+21	//	//	PUNCT	_	_	3	punct	_	AlignBegin=101993|AlignEnd=102109|GE=[//]|Gloss=PUNCT|nWord=21
 
 # sent_id = SAY_BC_CONV_03_089-092
 # speaker_id = SP2
