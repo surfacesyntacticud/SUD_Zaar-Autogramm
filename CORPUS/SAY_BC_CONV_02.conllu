@@ -416,26 +416,28 @@
 # sent_timecode = 64004, 69462
 # text = tôː ʧíː nə gə́tn tá < má ɲôm gyáː ŋaː ngə́r wón ɗan mə́ yǐr mə́ tâː =ʃí //
 # text_ortho = tôː ʧíː yìni gə́tn tá < má ɲôm gyáː ŋaːːː ngə́r wón ɗan mə́ yǐr mə́ tâːʃí //
-# text_en =  Well, if it had been me, we would have taken a little...  something that we have here, and given them.
-1	tôː	tòː	PART	_	_	7	discourse	_	AlignBegin=64004|AlignEnd=64243|GE=well|Gloss=well|nWord=1|RX=[PTCL].[ASS]
-2	ʧíː	yí	VERB	_	Mood=Count|Number=Sing|Person=3	7	parataxis@mod	_	AlignBegin=64243|AlignEnd=64482|GE=[3SG].[CTF].be|Gloss=3SG.CTF.be|nWord=2|RX=[PNTAM]
-3	nə	nə	ADP	_	_	2	comp:pred	_	AlignBegin=64582|AlignEnd=64682|Gloss=be|wordform=-ni
-4	gə́tn	gə̀tn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=64782|AlignEnd=64960|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=4|RX=[PRO]
-5	tá	tá	PART	_	_	7	mod	_	AlignBegin=64960|AlignEnd=65199|GE=then|Gloss=then|nWord=5|RX=[ADV]
-6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=65199|AlignEnd=65436|GE=[<]|Gloss=PUNCT|nWord=6
-7	má	má	AUX	_	Number=Plur|Person=1|Tense=Fut	0	root	_	AlignBegin=65894|AlignEnd=66219|GE=[1PL].[FUT]|Gloss=1PL.FUT|nWord=7|RX=[PNTAM]
-8	ɲôm	ɲom	VERB	_	_	7	comp:aux	_	AlignBegin=66219|AlignEnd=66544|GE=take|Gloss=take|nWord=8|RX=[V]
-9	gyáː	gyaː	DET	_	Number=Plur	11	det	_	AlignBegin=66544|AlignEnd=66869|GE=[PL3]|Gloss=PL3|nWord=9|RX=[DET]
-10	ŋaː	ŋaː	ADJ	_	_	11	mod	_	AlignBegin=66869|AlignEnd=67195|GE=small|Gloss=small|nWord=10|RX=[ADJ]
-11	ngə́r	ngə́tn	NOUN	_	_	8	comp:obj	_	AlignBegin=67195|AlignEnd=67478|GE=thing|Gloss=thing|nWord=11|RX=[N]
-12	wón	wón	DET	_	Definite=Spec	11	det	_	AlignBegin=67478|AlignEnd=67761|GE=[QLT]|Gloss=QLT|nWord=12|RX=[DET]
-13	ɗan	ɗan	SCONJ	_	PronType=Rel	11	mod@relcl	_	AlignBegin=67761|AlignEnd=68044|GE=[REL2]|Gloss=REL|nWord=13|RX=[PTCL].[SYNT]
-14	mə́	ø	AUX	_	Aspect=Aor|Number=Plur|Person=1	13	comp:obj	_	AlignBegin=68044|AlignEnd=68327|GE=[1PL].[AOR]|Gloss=1PL.AOR|nWord=14|RX=[PNTAM]
-15	yǐr	yír	VERB	_	_	14	comp:aux	_	AlignBegin=68327|AlignEnd=68610|GE=have|Gloss=have|nWord=15|RX=[V]
-16	mə́	ø	AUX	_	Aspect=Aor|Number=Plur|Person=1	7	parataxis@conj	_	AlignBegin=68610|AlignEnd=68893|GE=[1PL].[AOR]|Gloss=1PL.AOR|nWord=16|RX=[PNTAM]
-17	tâː	taː	VERB	_	_	16	comp:aux	_	AlignBegin=68893|AlignEnd=69035|GE=give|Gloss=give|nWord=17|RX=[V]
-18	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	mod	_	AlignBegin=69035|AlignEnd=69176|GE=[3PL].[OBJ]|Gloss=3PL.OBJ|nWord=17|RX=[PRO]
-19	//	//	PUNCT	_	_	7	punct	_	AlignBegin=69176|AlignEnd=69462|GE=[//]|Gloss=PUNCT|nWord=18
+# text_en =  Well, if it had been me, we would have taken a little...  something that we have here, to give them.
+1	tôː	tòː	PART	_	_	8	discourse	_	AlignBegin=64004|AlignEnd=64243|GE=well|Gloss=well|nWord=1|RX=[PTCL].[ASS]
+2-3	ʧíː	_	_	_	_	_	_	_	_
+2	ʧí	yí	AUX	_	Mood=Count|Number=Sing|Person=3	8	parataxis@mod	_	AlignBegin=64243|AlignEnd=64393|GE=[3SG].[CTF]|Gloss=3SG.CTF|nWord=2|RX=[PNTAM]
+3	yi	yi	VERB	_	_	2	comp:aux	_	AlignBegin=64393|AlignEnd=64482|GE=be|Gloss=be|nWord=2
+4	nə	nə	ADP	_	_	3	comp:pred	_	AlignBegin=64582|AlignEnd=64682|Gloss=be|wordform=-ni
+5	gə́tn	gə̀tn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=64782|AlignEnd=64960|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=4|RX=[PRO]
+6	tá	tá	PART	_	_	8	mod	_	AlignBegin=64960|AlignEnd=65199|GE=then|Gloss=then|nWord=5|RX=[ADV]
+7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=65199|AlignEnd=65436|GE=[<]|Gloss=PUNCT|nWord=6
+8	má	má	AUX	_	Number=Plur|Person=1|Tense=Fut	0	root	_	AlignBegin=65894|AlignEnd=66219|GE=[1PL].[FUT]|Gloss=1PL.FUT|nWord=7|RX=[PNTAM]
+9	ɲôm	ɲom	VERB	_	_	8	comp:aux	_	AlignBegin=66219|AlignEnd=66544|GE=take|Gloss=take|nWord=8|RX=[V]
+10	gyáː	gyaː	DET	_	Number=Plur	12	det	_	AlignBegin=66544|AlignEnd=66869|GE=[PL3]|Gloss=PL3|nWord=9|RX=[DET]
+11	ŋaː	ŋaː	ADJ	_	_	12	mod	_	AlignBegin=66869|AlignEnd=67195|GE=small|Gloss=small|nWord=10|RX=[ADJ]
+12	ngə́r	ngə́tn	NOUN	_	_	9	comp:obj	_	AlignBegin=67195|AlignEnd=67478|GE=thing|Gloss=thing|nWord=11|RX=[N]
+13	wón	wón	DET	_	Definite=Spec	12	det	_	AlignBegin=67478|AlignEnd=67761|GE=[QLT]|Gloss=QLT|nWord=12|RX=[DET]
+14	ɗan	ɗan	SCONJ	_	PronType=Rel	12	mod@relcl	_	AlignBegin=67761|AlignEnd=68044|GE=[REL2]|Gloss=REL|nWord=13|RX=[PTCL].[SYNT]
+15	mə́	ø	AUX	_	Aspect=Aor|Number=Plur|Person=1	14	comp:obj	_	AlignBegin=68044|AlignEnd=68327|GE=[1PL].[AOR]|Gloss=1PL.AOR|nWord=14|RX=[PNTAM]
+16	yǐr	yír	VERB	_	_	15	comp:aux	_	AlignBegin=68327|AlignEnd=68610|GE=have|Gloss=have|nWord=15|RX=[V]
+17	mə́	ø	AUX	_	Aspect=Aor|Number=Plur|Person=1	9	parataxis@mod	_	AlignBegin=68610|AlignEnd=68893|GE=[1PL].[AOR]|Gloss=1PL.AOR|nWord=16|RX=[PNTAM]
+18	tâː	taː	VERB	_	_	17	comp:aux	_	AlignBegin=68893|AlignEnd=69035|GE=give|Gloss=give|nWord=17|RX=[V]
+19	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	18	mod	_	AlignBegin=69035|AlignEnd=69176|GE=[3PL].[OBJ]|Gloss=3PL.OBJ|nWord=17|RX=[PRO]
+20	//	//	PUNCT	_	_	8	punct	_	AlignBegin=69176|AlignEnd=69462|GE=[//]|Gloss=PUNCT|nWord=18
 
 # sent_id = SAY_BC_CONV_02_055-056
 # speaker_id = SP2
