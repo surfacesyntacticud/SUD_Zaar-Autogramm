@@ -1227,9 +1227,9 @@
 12	ngə́r	ngə́tn	NOUN	_	_	11	comp:obj	_	AlignBegin=173120|AlignEnd=173349|Gloss=thing
 13	wéy	wéy	PART	_	Mood=Qot	14	discourse	_	AlignBegin=173349|AlignEnd=173578|Gloss=EVD
 14	ɗan	ɗan	SCONJ	_	PronType=Rel	12	mod@relcl	_	AlignBegin=173578|AlignEnd=173807|Gloss=REL
-15	ʧi	ʧi	VERB	_	Number=Sing|Person=3|PronType=Prs	14	comp:obj	_	AlignBegin=174469|AlignEnd=174731|Gloss=3SG.be
-16	káwêy	káwêy	ADV	_	_	15	comp:obj	_	AlignBegin=174731|AlignEnd=174993|Gloss=merely
-17	ɣá	ká	ADP	_	_	15	comp:pred	_	AlignBegin=174993|AlignEnd=175255|Gloss=at
+15	ʧi	ʧi	PRON	_	Number=Sing|Person=3|PronType=Prs	17	subj	_	AlignBegin=174469|AlignEnd=174731|Gloss=3SG
+16	káwêy	káwêy	ADV	_	_	17	mod	_	AlignBegin=174731|AlignEnd=174993|Gloss=merely
+17	ɣá	ká	ADP	_	_	14	comp:obj	_	AlignBegin=174993|AlignEnd=175255|Gloss=at
 18	məːrín	məːri	NOUN	_	_	17	comp:obj	_	AlignBegin=175255|AlignEnd=175386|Gloss=children.PROX
 19	ŋǎːn	ŋǎːn	PART	_	PartType=Int	6	mod	_	AlignBegin=175517|AlignEnd=175648|Gloss=VRT.NEG
 20	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=175779|AlignEnd=176038|Gloss=PUNCT
@@ -1599,16 +1599,16 @@
 # text = ʧi gòs nə ŋǎː || ŋǎː ɬəɓə́r ʧǎː ʃiʃíɣə́nì //
 # text_ortho = ʧi gòs nə ŋǎː || ŋǎː ʧǎː ʃiʃíɣə́nì //
 # text_en =  He is a young...  a young man who is growing.
-1	ʧi	ʧi	VERB	_	Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=226492|AlignEnd=226668|Gloss=3SG.be
+1	ʧi	ʧi	PRON	_	Number=Sing|Person=3|PronType=Prs	3	dislocated@subj	_	AlignBegin=226492|AlignEnd=226668|Gloss=3SG
 2	gòs	gòs	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	mod@top	_	AlignBegin=226668|AlignEnd=226844|Gloss=3SG.POS
-3	nə	nə	PART	_	VerbType=Cop	1	comp:pred	_	AlignBegin=226844|AlignEnd=227020|Gloss=be
+3	nə	nə	PART	_	VerbType=Cop	0	root	_	AlignBegin=226844|AlignEnd=227020|Gloss=be
 4	ŋǎː	ŋǎː	ADJ	_	_	7	mod	_	AlignBegin=227020|AlignEnd=227196|Gloss=child
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=227196|AlignEnd=227373|Gloss=PUNCT
 6	ŋǎː	ŋǎː	ADJ	_	_	4	conj:dicto	_	AlignBegin=227373|AlignEnd=227538|Gloss=young
-7	ɬəɓə́r	ɬəɓə́r	NOUN	_	_	3	comp:obj	_	AlignBegin=227538|AlignEnd=227703|Gloss=youth
+7	ɬəɓə́r	ɬəɓə́r	NOUN	_	_	3	comp:pred	_	AlignBegin=227538|AlignEnd=227703|Gloss=youth
 8	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	7	mod@relcl	_	AlignBegin=228034|AlignEnd=228309|Gloss=3PL.ICPL
 9	ʃiʃíɣə́nì	ʃiʃí	VERB	_	VerbForm=Vnoun	8	comp:aux	_	AlignBegin=228309|AlignEnd=228447|ExtPos=NOUN|Gloss=rise.NMLZ
-10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=228584|AlignEnd=228859|Gloss=PUNCT
+10	//	//	PUNCT	_	_	3	punct	_	AlignBegin=228584|AlignEnd=228859|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_184-184
 # speaker_id = SP1
