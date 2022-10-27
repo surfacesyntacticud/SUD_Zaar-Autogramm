@@ -4776,7 +4776,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 566882, 568472
-# text = myàːyi ɗu bôːl < átâ yin góːla =wòpə̌n ǎn ?//
+# text = myàːyi ɗu bôːl < átâ yi nə góːla =wòpə̌n ǎn ?//
 # text_ortho = myàːyi ɗu bôːl < átâ yin góːlawòpə̌nǎn ?//
 # text_en =  When we played football, didn 't he use to be our goal keeper?
 1	myàːyi	yǎːyi	AUX	_	Aspect=ImpIter|Number=Plur|Person=1	5	parataxis@mod	_	AlignBegin=566882|AlignEnd=567032|Gloss=1PL.ICPL.ITER
@@ -4848,15 +4848,17 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 571231, 572675
-# text = yáːni ɓár áy ʧin góːla //
-# text_ortho = yáːni ɓár áy ʧin X góːla //
-# text_en =  that's him indeed, he is a goal keeper.
-1	yáːni	yáːni	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=571231|AlignEnd=571437|Gloss=3SG
+# text = yáːni ɓár áy ʧi nə góːla //
+# text_ortho = yáːni ɓár áy ʧin góːla //
+# text_en = Him indeed, he is a goal keeper.
+1	yáːni	yáːni	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	dislocated@subj	_	AlignBegin=571231|AlignEnd=571437|Gloss=3SG
 2	ɓár	ɓát	IDEO	_	_	1	discourse	_	AlignBegin=571437|AlignEnd=571643|ExtPos=ADV|Gloss=completely
 3	áy	áy	INTJ	_	_	1	discourse	_	AlignBegin=571643|AlignEnd=571849|Gloss=eh
-4	ʧin	yi	VERB	_	Aspect=Inch|Number=Sing|Person=3|PronType=Prs	1	comp:cleft	_	AlignBegin=571849|AlignEnd=571952|Gloss=3SG.be.INCH
-5	góːla	góːla	NOUN	_	_	4	comp:pred	_	AlignBegin=572261|AlignEnd=572467|Gloss=goal_keeper
-6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=572467|AlignEnd=572675|Gloss=PUNCT
+4-5	ʧin	_	_	_	_	_	_	_	_
+4	ʧi	ʧi	PRON	_	_	5	subj	_	AlignBegin=571849|AlignEnd=571900|Gloss=3SG
+5	nə	nə	PART	_	_	0	root	_	AlignBegin=571900|AlignEnd=571952|Gloss=be
+6	góːla	góːla	NOUN	_	_	5	comp:pred	_	AlignBegin=572261|AlignEnd=572467|Gloss=goal_keeper
+7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=572467|AlignEnd=572675|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_587-588
 # speaker_id = SP1
