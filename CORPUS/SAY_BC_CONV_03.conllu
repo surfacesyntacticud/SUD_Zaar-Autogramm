@@ -1265,20 +1265,21 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 188198, 190335
-# text = kə́ yisə́n laː kə́ sə̀yáːsa kúmá < kóːdzàngyóː ʧìɣá dàtə̂pm //
-# text_ortho = kə́ yísə́n laː kə́ sə̀yáːsa kúmá < kóːdzàngyóː ʧìká dàtə̂pm //
-# text_en =  you know the work of politics too, everyday they are on the road.
-1	kə́	ø	AUX	_	Aspect=Aor|Number=Plur|Person=2	9	parataxis@discourse	_	AlignBegin=188198|AlignEnd=188371|Gloss=2PL.AOR
+# text = kə́ yisə́n laː kə́ sə̀yáːsa kúmá < kóːdzàngyóː ʧì ɣá dàtə̂pm //
+# text_ortho = kə́ yísə́n laː kə́ sə̀yáːsa kúmá < kóːdzàngyóː ʧìɣá dàtə̂pm //
+# text_en =  You know the work of politics too, everyday they are on the road.
+1	kə́	ø	AUX	_	Aspect=Aor|Number=Plur|Person=2	10	parataxis@discourse	_	AlignBegin=188198|AlignEnd=188371|Gloss=2PL.AOR
 2	yisə́n	yisə́n	VERB	_	_	1	comp:aux	_	AlignBegin=188371|AlignEnd=188544|Gloss=know
 3	laː	laː	NOUN	_	_	2	comp:obj	_	AlignBegin=188544|AlignEnd=188717|Gloss=work
 4	kə́	kə́	ADP	_	_	3	mod	_	AlignBegin=188717|AlignEnd=188890|Gloss=of
 5	sə̀yáːsa	sə̀yáːsa	NOUN	_	_	4	comp:obj	_	AlignBegin=188890|AlignEnd=189063|Gloss=politics
 6	kúmá	kúmá	PART	_	_	1	discourse	_	AlignBegin=189063|AlignEnd=189236|Gloss=also
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=189236|AlignEnd=189406|Gloss=PUNCT
-8	kóːdzàngyóː	kóːdzàngyóː	ADV	_	_	9	mod	_	AlignBegin=189406|AlignEnd=189638|Gloss=everyday
-9	ʧìɣá	yiká	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	AlignBegin=189638|AlignEnd=189870|Gloss=3PL.CONT
-10	dàtə̂pm	dàtə̂pm	NOUN	_	_	9	comp:pred	_	AlignBegin=189870|AlignEnd=190102|Gloss=way
-11	//	//	PUNCT	_	_	9	punct	_	AlignBegin=190102|AlignEnd=190335|Gloss=PUNCT
+8	kóːdzàngyóː	kóːdzàngyóː	ADV	_	_	10	mod	_	AlignBegin=189406|AlignEnd=189638|Gloss=everyday
+9	ʧì	ʧì	PRON	_	Number=Plur|Person=3|PronType=Prs	10	subj	_	AlignBegin=189638|AlignEnd=189750|Gloss=3PL
+10	ɣá	ká	ADP	_	_	0	root	_	AlignBegin=189750|AlignEnd=189870|Gloss=at
+11	dàtə̂pm	dàtə̂pm	NOUN	_	_	10	comp:obj	_	AlignBegin=189870|AlignEnd=190102|Gloss=way
+12	//	//	PUNCT	_	_	10	punct	_	AlignBegin=190102|AlignEnd=190335|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_174-174
 # speaker_id = SP1
@@ -1527,7 +1528,7 @@
 8	ɗa	ɗa	ADP	_	_	7	comp:obl	_	AlignBegin=219109|AlignEnd=219282|Gloss=at
 9	||	||	PUNCT	_	_	4	punct	_	AlignBegin=219282|AlignEnd=219456|Gloss=PUNCT
 10	ɗa	ɗa	ADP	_	_	8	conj:dicto	_	AlignBegin=219760|AlignEnd=219957|Gloss=at
-11	gàri	gàri	NOUN	_	_	10	comp:pred	_	AlignBegin=219957|AlignEnd=220154|Gloss=town
+11	gàri	gàri	NOUN	_	_	10	comp:obj	_	AlignBegin=219957|AlignEnd=220154|Gloss=town
 12	gyaː	gyaː	DET	_	Number=Plur	13	det	_	AlignBegin=220154|AlignEnd=220351|Gloss=PL3
 13	Saknsə́	Saknsə́	PROPN	_	_	11	mod	_	AlignBegin=220351|AlignEnd=220548|Gloss=Saknsạ
 14	//	//	PUNCT	_	_	4	punct	_	AlignBegin=220548|AlignEnd=220747|Gloss=PUNCT
@@ -6862,11 +6863,11 @@
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=798846|AlignEnd=798985|Gloss=PUNCT
 4	àːtá	áːtá	AUX	_	Aspect=Perf|Number=Sing|Person=3|Tense=Rem	0	root	_	AlignBegin=798985|AlignEnd=799124|Gloss=3SG.CPL.REM
 5	yîsə́n	yisə́n	VERB	_	_	4	comp:aux	_	AlignBegin=799124|AlignEnd=799263|Gloss=know
-6	mi	mə.yi	VERB	_	Number=Sing|Person=1	5	parataxis@comp	_	AlignBegin=799263|AlignEnd=799402|Gloss=1SG.be
-7	tə́	tə́	ADP	_	_	6	comp:pred	_	AlignBegin=799402|AlignEnd=799541|Gloss=with
+6	mi	mi	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	AlignBegin=799263|AlignEnd=799402|Gloss=1SG
+7	tə́	tə́	ADP	_	_	5	parataxis@comp	_	AlignBegin=799402|AlignEnd=799541|Gloss=with
 8	ngət	ngə́tn	NOUN	_	_	7	comp:obj	_	AlignBegin=799541|AlignEnd=799611|Gloss=thing
-9	ə̌n	hŋ́	PART	_	Polarity=Neg	6	mod	_	AlignBegin=799611|AlignEnd=799680|Gloss=NEG2
-10	áy	áy	INTJ	_	_	5	mod	_	AlignBegin=799680|AlignEnd=799819|Gloss=eh
+9	ə̌n	hŋ́	PART	_	Polarity=Neg	7	mod	_	AlignBegin=799611|AlignEnd=799680|Gloss=NEG2
+10	áy	áy	INTJ	_	_	4	mod	_	AlignBegin=799680|AlignEnd=799819|Gloss=eh
 11	!//	!//	PUNCT	_	_	4	punct	_	AlignBegin=799819|AlignEnd=799957|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_835-836
@@ -6905,12 +6906,12 @@
 # text_en =  Well,  (if) indeed you don't have anything, then what made you...
 1	tòː	tòː	PART	_	_	11	discourse	_	AlignBegin=802063|AlignEnd=802181|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=802181|AlignEnd=802300|Gloss=PUNCT
-3	ki	kə.yi	VERB	_	Number=Sing|Person=2	11	parataxis@mod	_	AlignBegin=802500|AlignEnd=802669|Gloss=2SG.SBJ.be
-4	tə́	tə́	ADP	_	_	3	comp:pred	_	AlignBegin=802669|AlignEnd=802838|Gloss=with
+3	ki	ki	PRON	_	Number=Sing|Person=2|PronType=Prs	4	subj	_	AlignBegin=802500|AlignEnd=802669|Gloss=2SG
+4	tə́	tə́	ADP	_	_	11	parataxis@mod	_	AlignBegin=802669|AlignEnd=802838|Gloss=with
 5	ngə́tn	ngə́tn	NOUN	_	_	4	comp:obj	_	AlignBegin=802838|AlignEnd=803007|Gloss=thing
-6	hŋ́	hŋ́	PART	_	Polarity=Neg	3	mod	_	AlignBegin=803007|AlignEnd=803176|Gloss=NEG2
-7	oː	oː	PART	_	PartType=Emp	3	mod	_	AlignBegin=803176|AlignEnd=803345|Gloss=EMPH
-8	<	<	PUNCT	_	_	3	punct	_	AlignBegin=803345|AlignEnd=803514|Gloss=PUNCT
+6	hŋ́	hŋ́	PART	_	Polarity=Neg	4	mod	_	AlignBegin=803007|AlignEnd=803176|Gloss=NEG2
+7	oː	oː	PART	_	PartType=Emp	4	mod	_	AlignBegin=803176|AlignEnd=803345|Gloss=EMPH
+8	<	<	PUNCT	_	_	4	punct	_	AlignBegin=803345|AlignEnd=803514|Gloss=PUNCT
 9	tá	tá	SCONJ	_	_	11	mod	_	AlignBegin=803514|AlignEnd=803683|Gloss=then
 10	níː	níː	PRON	_	PronType=Int	11	subj	_	AlignBegin=803683|AlignEnd=803852|Gloss=what
 11	ɬə́ːr	ɬə	VERB	_	_	0	root	_	AlignBegin=803852|AlignEnd=803964|Gloss=go-CAUS
@@ -7789,7 +7790,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 899844, 903554
-# text = tòː kə̀tàyáː yel kàmán kutuŋ kyàː ríːn kì ʧím =ʃí < tá wû tu [ kotá =wâːn < kǐ n məːrə́ŋsə //] //
+# text = tòː kə̀tàyáː yel kàmán kutuŋ kyàː ríːn kì ʧím =ʃí < tá wû tu [ kotá =wâːn < kì nə məːrə́ŋsə //] //
 # text_ortho = tôː kə̀tàyáː yêl kàmán kutun kyàː ríːn kì ʧímʃí < tá wû tu [ kótáwâːn < kǐn məːrə́nsə //] //
 # text_en =  Well you saw as if if you walked with him they would say that all of you are thiefs.
 1	tòː	tòː	PART	_	_	2	discourse	_	AlignBegin=899844|AlignEnd=900067|Gloss=well
@@ -7806,13 +7807,13 @@
 12	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	4	comp:obj	_	AlignBegin=902206|AlignEnd=902341|Gloss=3PL.FUT
 13	wû	wul	VERB	_	_	12	comp:aux	_	AlignBegin=902341|AlignEnd=902476|Gloss=say
 14	tu	tu	SCONJ	_	Mood=Qot	13	comp:obj	_	AlignBegin=902476|AlignEnd=902611|Gloss=OPN
-15	[	[	PUNCT	_	_	19	punct	_	AlignBegin=902611|AlignEnd=902746|Gloss=PUNCT
-16	kotá	kotá	DET	_	_	19	dislocated@subj	_	AlignBegin=902746|AlignEnd=902814|Gloss=completely
+15	[	[	PUNCT	_	_	20	punct	_	AlignBegin=902611|AlignEnd=902746|Gloss=PUNCT
+16	kotá	kotá	DET	_	_	20	dislocated@subj	_	AlignBegin=902746|AlignEnd=902814|Gloss=completely
 17	=wâːn	=waːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	16	udep	_	AlignBegin=902814|AlignEnd=902881|Gloss=2PL.POS
 18	<	<	PUNCT	_	_	16	punct	_	AlignBegin=902881|AlignEnd=903016|Gloss=PUNCT
-19	kǐ	kì	PRON	_	Number=Plur|Person=2|PronType=Prs	14	comp:obj	_	AlignBegin=903016|AlignEnd=903084|Gloss=2PL.SBJ
-20	n	nə	PART	_	VerbType=Cop	19	comp:pred	_	AlignBegin=903084|AlignEnd=903151|Gloss=be
+19	kì	kì	PRON	_	Number=Plur|Person=2|PronType=Prs	20	subj	_	AlignBegin=903016|AlignEnd=903084|Gloss=2PL
+20	nə	nə	PART	_	VerbType=Cop	14	comp:obj	_	AlignBegin=903084|AlignEnd=903151|Gloss=be
 21	məːrə́ŋsə	mə̂ːr	NOUN	_	Number=Plur	20	comp:obj	_	AlignBegin=903151|AlignEnd=903286|Gloss=thief
-22	//]	//]	PUNCT	_	_	19	punct	_	AlignBegin=903286|AlignEnd=903421|Gloss=PUNCT
+22	//]	//]	PUNCT	_	_	20	punct	_	AlignBegin=903286|AlignEnd=903421|Gloss=PUNCT
 23	//	//	PUNCT	_	_	2	punct	_	AlignBegin=903421|AlignEnd=903554|Gloss=PUNCT
 
