@@ -496,7 +496,7 @@
 6	yel	yel	VERB	_	_	5	comp:aux	_	AlignBegin=52732|AlignEnd=52915|GE=see|Gloss=see|nWord=6|RX=[V]
 7	nə	nə	PART	_	VerbType=Cop	6	parataxis@comp	_	AlignBegin=52915|AlignEnd=53098|GE=[COP1]|Gloss=be|nWord=7|RX=[PTCL].[SYNT]
 8	lǎː	laː	NOUN	_	Definite=Cons	7	comp:pred	_	AlignBegin=53098|AlignEnd=53190|GE=work|Gloss=work|nWord=8|RX=[N]
-9	bàptàk	bàptàk	IDEO	_	_	8	compound	_	AlignBegin=53281|AlignEnd=53464|GE=useless|Gloss=useless|nWord=9|RX=[IDEOPH]
+9	bàptàk	bàptàk	IDEO	_	_	8	mod	_	AlignBegin=53281|AlignEnd=53464|ExtPos=ADJ|GE=useless|Gloss=useless|nWord=9|RX=[IDEOPH]
 10	ɓas	ɓas	ADP	_	_	7	comp:loc	_	AlignBegin=53464|AlignEnd=53556|GE=[PosL]|Gloss=of|nWord=10|RX=[PTCL].[SYNT]
 11	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	comp:obj	_	AlignBegin=53556|AlignEnd=53647|GE=[1PL].[OBJ]|Gloss=1PL.OBJ|nWord=10|RX=[PRO]
 12	//	//	PUNCT	_	_	5	punct	_	AlignBegin=53647|AlignEnd=53829|GE=[//]|Gloss=PUNCT|nWord=11
@@ -982,8 +982,8 @@
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=115162|AlignEnd=115377|GE=[<]|Gloss=PUNCT|nWord=3
 6	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=115377|AlignEnd=115546|GE=[3SG].[ICPL]|Gloss=3SG.ICPL|nWord=4|RX=[PNTAM]
 7	fi	fi	VERB	_	_	6	comp:aux	_	AlignBegin=115546|AlignEnd=115630|GE=do|Gloss=do|nWord=5|RX=[V]
-8	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=115630|AlignEnd=115715|GE=[3SG].[OBJ]|Gloss=3SG.OBJ|nWord=5|RX=[PRO]
-9	wusúŋ	wusúŋ	IDEO	_	_	7	comp:pred	_	AlignBegin=115715|AlignEnd=115884|GE=nice|Gloss=nice|nWord=6|RX=[V]
+8	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	comp:ben	_	AlignBegin=115630|AlignEnd=115715|GE=[3SG].[OBJ]|Gloss=3SG.OBJ|nWord=5|RX=[PRO]
+9	wusúŋ	wusúŋ	IDEO	_	_	7	comp:obj@lvc	_	AlignBegin=115715|AlignEnd=115884|ExtPos=NOUN|GE=nice|Gloss=nice|nWord=6|RX=[V]
 10	hŋ́	hŋ́	PART	_	Polarity=Neg	6	mod	_	AlignBegin=115884|AlignEnd=116053|GE=[NEG2]|Gloss=NEG2|nWord=7|RX=[PTCL].[NEG]
 11	éy	éy	INTJ	_	_	6	discourse	_	AlignBegin=116053|AlignEnd=116222|GE=indeed|Gloss=indeed|nWord=8|RX=[EXCM]
 12	!//	!//	PUNCT	_	_	6	punct	_	AlignBegin=116222|AlignEnd=116392|GE=[!//]|Gloss=PUNCT|nWord=9
@@ -1445,7 +1445,7 @@
 # text_en =  That's why I like Felix very much.
 1	shi	shi	PRON	_	Foreign=Yes|Number=Sing	0	root	_	AlignBegin=172628|AlignEnd=172746|GE=[3].[SG]|Gloss=3SG.M|Lang=hau|nWord=1|RX=[X].[CSW].[HAU]
 2	ya	ya	AUX	_	Foreign=Yes|Number=Sing	1	comp:cleft	_	AlignBegin=172746|AlignEnd=172864|GE=[3].[SG]|Gloss=3.SG|Lang=hau|nWord=2|RX=[X].[CSW].[HAU]
-3	sa	sa	VERB	_	Foreign=Yes	2	comp:aux	_	AlignBegin=172864|AlignEnd=172981|GE=put|Gloss=put|Lang=hau|nWord=3|RX=[X].[CSW].[HAU]
+3	sa	sa	VERB	_	Foreign=Yes	2	comp:aux	_	AlignBegin=172864|AlignEnd=172981|GE=cause|Gloss=put|Lang=hau|nWord=3|RX=[X].[CSW].[HAU]
 4	myáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	3	parataxis@comp	_	AlignBegin=172981|AlignEnd=173202|GE=[1SG].[ICPL]|Gloss=1SG.ICPL|nWord=4|RX=[PNTAM]
 5	súː	súː	VERB	_	_	4	comp:aux	_	AlignBegin=173202|AlignEnd=173423|GE=like|Gloss=like|nWord=5|RX=[V]
 6	Féːlêks	Féːlêks	PROPN	_	_	5	comp:obj	_	AlignBegin=173423|AlignEnd=173644|GE=[Felix]|Gloss=Felix|nWord=6|RX=[NPR]
@@ -1709,7 +1709,7 @@
 23	àː	áː	AUX	_	Aspect=Perf|Number=Sing|Person=3	21	comp:obj	_	AlignBegin=199641|AlignEnd=199983|GE=[3SG].[CPL]|Gloss=3SG.CPL|nWord=19|RX=[PNTAM]
 24	náːt	nat	VERB	_	Number=Plur	23	comp:aux	_	AlignBegin=199983|AlignEnd=200069|GE=[tie].[PL]|Gloss=tie-PL|nWord=20|RX=[V].[PL]
 25	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	24	comp:obj	_	AlignBegin=200069|AlignEnd=200155|GE=[3SG].[OBJ]|Gloss=3SG.OBJ|nWord=20|RX=[PRO]
-26	didididi	didididi	IDEO	_	_	24	mod	_	AlignBegin=200155|AlignEnd=200241|GE=[tight]|Gloss=tight|nWord=20|RX=[IDEO]
+26	didididi	didididi	IDEO	_	_	24	mod	_	AlignBegin=200155|AlignEnd=200241|ExtPos=ADV|GE=[tight]|Gloss=tight|nWord=20|RX=[IDEO]
 27	tə́	tə́	ADP	_	_	24	comp:obl	_	AlignBegin=200327|AlignEnd=200538|GE=with|Gloss=with|nWord=21|RX=[PREP]
 28	ɬə́rə̌ŋ	ɬə́rəŋ	NOUN	_	_	27	comp:obj	_	AlignBegin=200538|AlignEnd=200644|GE=rope|Gloss=rope|nWord=22|RX=[N]
 29	ŋ́	hŋ́	PART	_	Polarity=Neg	24	mod	_	AlignBegin=200644|AlignEnd=200749|GE=[NEG2]|Gloss=NEG2|nWord=22|RX=[PTCL].[NEG]
