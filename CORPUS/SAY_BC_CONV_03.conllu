@@ -4482,30 +4482,30 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 543771, 547692
-# text = wâː ɗùɣə̀nì àː ɓaníː < kóːnúː ʧi n gá || ʧǎː ngelángə̂n |c tə́ lǎːp mərə́ kàːsuwa |r mərə́ kàːsuwa //
-# text_ortho = wâː ɗùkə̀nì àː ɓaníː < kóːnúː ʧin káːːː || ʧǎː ngelánkə̂n |c tə́ lǎːp mərə́ kàːsuwa |c mərə́ kàːsuwa //
+# text = wâː ɗùɣə̀nì àː ɓaníː < kóːnúː ʧi nə gá || ʧǎː ngelángə̂n |c tə́ lǎːp mərə́ kàːsuwa |r mərə́ kàːsuwa //
+# text_ortho = wâː ɗùkə̀nì àː ɓaníː < kóːnúː ʧin gáːːː || ʧǎː ngelángə̂n |c tə́ lǎːp mərə́ kàːsuwa |c mərə́ kàːsuwa //
 # text_en =  When corn beating has finished,  everybody is...  they are walking around from small market to small market.
 1	wâː	wâː	NOUN	_	_	2	udep	_	AlignBegin=543771|AlignEnd=543934|Gloss=guinea_corn
 2	ɗùɣə̀nì	ɗu	VERB	_	VerbForm=Vnoun	3	subj	_	AlignBegin=543934|AlignEnd=544097|ExtPos=NOUN|Gloss=beat
-3	àː	áː	AUX	_	Aspect=Perf|Number=Sing|Person=3	7	parataxis@mod	_	AlignBegin=544097|AlignEnd=544260|Gloss=3SG.CPL
+3	àː	áː	AUX	_	Aspect=Perf|Number=Sing|Person=3	8	parataxis@mod	_	AlignBegin=544097|AlignEnd=544260|Gloss=3SG.CPL
 4	ɓaníː	ɓan	VERB	_	Aspect=Res|VerbForm=Fin	3	comp:aux	_	AlignBegin=544260|AlignEnd=544423|Gloss=finish|SVC=Yes
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=544423|AlignEnd=544585|Gloss=PUNCT
-6	kóːnúː	kóːnúː	PRON	_	_	7	subj	_	AlignBegin=544585|AlignEnd=544757|Gloss=each_one
-7	ʧi	ʧi	VERB	_	Number=Sing|Person=3|PronType=Prs|VerbForm=Fin	0	root	_	AlignBegin=544757|AlignEnd=544843|Gloss=3SG.be
-8	n	ni	PART	_	_	7	compound:prt	_	AlignBegin=544843|AlignEnd=544929|Gloss=be
-9	gá	ká	ADP	_	_	7	comp:obl	_	AlignBegin=544929|AlignEnd=545101|Gloss=at
+6	kóːnúː	kóːnúː	PRON	_	_	8	dislocated@subj	_	AlignBegin=544585|AlignEnd=544757|Gloss=each_one
+7	ʧi	ʧi	PRON	_	Number=Sing|Person=3|PronType=Prs	8	subj	_	AlignBegin=544757|AlignEnd=544843|Gloss=3SG
+8	nə	ni	PART	_	VerbType=Cop	0	root	_	AlignBegin=544843|AlignEnd=544929|Gloss=be
+9	gá	ká	ADP	_	_	8	comp:pred	_	AlignBegin=544929|AlignEnd=545101|Gloss=at
 10	||	||	PUNCT	_	_	11	punct	_	AlignBegin=545101|AlignEnd=545274|Gloss=PUNCT
-11	ʧǎː	yiká	AUX	_	Aspect=Prog|Number=Plur|Person=3	7	conj:dicto	_	AlignBegin=545591|AlignEnd=545798|Gloss=3PL.CONT
-12	ngelángə̂n	ngelán	VERB	_	VerbForm=Fin	11	comp:aux	_	AlignBegin=545798|AlignEnd=546005|Gloss=stroll
+11	ʧǎː	yiká	AUX	_	Aspect=Prog|Number=Plur|Person=3	8	conj:dicto	_	AlignBegin=545591|AlignEnd=545798|Gloss=3PL.CONT
+12	ngelángə̂n	ngeláŋ	VERB	_	VerbForm=Vnoun	11	comp:aux	_	AlignBegin=545798|AlignEnd=546005|Gloss=stroll.NMLZ
 13	|c	|c	PUNCT	_	_	14	punct	_	AlignBegin=546005|AlignEnd=546211|Gloss=PUNCT
-14	tə́	ø	AUX	_	Aspect=Aor|Number=Plur|Person=3	11	conj:coord	_	AlignBegin=546211|AlignEnd=546398|Gloss=3PL.AOR
+14	tə́	ø	AUX	_	Aspect=Aor|Number=Plur|Person=3	11	parataxis@conj	_	AlignBegin=546211|AlignEnd=546398|Gloss=3PL.AOR
 15	lǎːp	láːp	VERB	_	VerbForm=Fin	14	comp:aux	_	AlignBegin=546398|AlignEnd=546585|Gloss=follow
 16	mərə́	məri	ADJ	_	Definite=Cons|Number=Plur	17	mod	_	AlignBegin=546585|AlignEnd=546772|Gloss=small.PL
 17	kàːsuwa	kàːsuwa	NOUN	_	_	15	comp:obj	_	AlignBegin=546772|AlignEnd=546959|Gloss=market
 18	|r	|r	PUNCT	_	_	20	punct	_	AlignBegin=546959|AlignEnd=547144|Gloss=PUNCT
 19	mərə́	mərə	ADJ	_	Definite=Cons|Number=Plur	20	mod	_	AlignBegin=547144|AlignEnd=547236|Gloss=small.PL
 20	kàːsuwa	kàːsuwa	NOUN	_	_	17	compound:redup	_	AlignBegin=547327|AlignEnd=547510|Gloss=market
-21	//	//	PUNCT	_	_	7	punct	_	AlignBegin=547510|AlignEnd=547692|Gloss=PUNCT
+21	//	//	PUNCT	_	_	8	punct	_	AlignBegin=547510|AlignEnd=547692|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_553-553
 # speaker_id = SP2
