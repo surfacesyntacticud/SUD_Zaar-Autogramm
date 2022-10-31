@@ -382,7 +382,7 @@
 # text = káɗá mə̀ tsə̌tn də̀n ɗan kapkə́ dzàŋ Kímsə !//
 # text_ortho = káɗá mə̀ tsə̌tn də̀n ɗan kapkə́ dzàŋ Kímsə !//
 # text_en =  We should not sit at home again on Tuesday.
-1	káɗá	káɗá	PART	_	Foreign=Yes|Mood=Prh|Polarity=Neg	2	mod	_	AlignBegin=40256|AlignEnd=40461|Gloss=PROH|Lang=hau
+1	káɗá	káɗá	PART	_	Mood=Prh|Polarity=Neg	2	mod	_	AlignBegin=40256|AlignEnd=40461|Gloss=PROH
 2	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	0	root	_	AlignBegin=40461|AlignEnd=40666|Gloss=1PL.SBJV
 3	tsə̌tn	tsə́tn	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=40666|AlignEnd=40871|Gloss=sit
 4	də̀n	də̀n	NOUN	_	_	3	comp:goal	_	AlignBegin=40871|AlignEnd=41076|Gloss=house
@@ -1426,15 +1426,15 @@
 # text = shi ya sa ʧáː pol =ɣə Féːlêks éy !//
 # text_ortho = shi ya sa ʧáː polɣə Féːlêks éy !//
 # text_en =  That's why you like Felix indeed!
-1	shi	shi	PRON	_	Foreign=Yes	0	root	_	AlignBegin=170171|AlignEnd=170294|Gloss=3SG.M|Lang=hau
-2	ya	ya	AUX	_	Foreign=Yes|Number=Sing	1	comp:cleft	_	AlignBegin=170294|AlignEnd=170417|Gloss=3.SG.PFV|Lang=hau
-3	sa	sa	VERB	_	Foreign=Yes|VerbForm=Fin	2	comp:aux	_	AlignBegin=170417|AlignEnd=170540|Gloss=cause|Lang=hau
-4	ʧáː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	3	comp:obj	_	AlignBegin=170540|AlignEnd=170832|Gloss=3SG.ICPL
+1	shi	shi	PRON	_	Foreign=Yes	4	discourse	_	AlignBegin=170171|AlignEnd=170294|Gloss=3SG.M|Lang=hau
+2	ya	ya	AUX	_	Foreign=Yes|Number=Sing	1	flat:foreign	_	AlignBegin=170294|AlignEnd=170417|Gloss=3.SG.PFV|Lang=hau
+3	sa	sa	VERB	_	Foreign=Yes|VerbForm=Fin	2	flat:foreign	_	AlignBegin=170417|AlignEnd=170540|Gloss=cause|Lang=hau
+4	ʧáː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=170540|AlignEnd=170832|Gloss=3SG.ICPL
 5	pol	pol	VERB	_	VerbForm=Fin	4	comp:aux	_	AlignBegin=170832|AlignEnd=170978|Gloss=please
 6	=ɣə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	5	comp:ben	_	AlignBegin=170978|AlignEnd=171125|Gloss=2SG.OBJ
 7	Féːlêks	Féːlêks	PROPN	_	_	5	comp:obj@agent	_	AlignBegin=171125|AlignEnd=171329|Gloss=Felix
-8	éy	éy	INTJ	_	_	1	discourse	_	AlignBegin=171329|AlignEnd=171533|Gloss=indeed
-9	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=171533|AlignEnd=171737|Gloss=PUNCT
+8	éy	éy	INTJ	_	_	4	discourse	_	AlignBegin=171329|AlignEnd=171533|Gloss=indeed
+9	!//	!//	PUNCT	_	_	4	punct	_	AlignBegin=171533|AlignEnd=171737|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_165-166
 # speaker_id = SP2
@@ -1443,14 +1443,14 @@
 # text = shi ya sa myáː súː Féːlêks sòːséy //
 # text_ortho = shi ya sa myáː súː Féːlêks sòːséy //
 # text_en =  That's why I like Felix very much.
-1	shi	shi	PRON	_	Foreign=Yes|Number=Sing	0	root	_	AlignBegin=172628|AlignEnd=172746|Gloss=3SG.M|Lang=hau
-2	ya	ya	AUX	_	Foreign=Yes|Number=Sing	1	comp:cleft	_	AlignBegin=172746|AlignEnd=172864|Gloss=3.SG|Lang=hau
-3	sa	sa	VERB	_	Foreign=Yes|VerbForm=Fin	2	comp:aux	_	AlignBegin=172864|AlignEnd=172981|Gloss=put|Lang=hau
-4	myáː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	3	comp:obj	_	AlignBegin=172981|AlignEnd=173202|Gloss=1SG.ICPL
+1	shi	shi	PRON	_	Foreign=Yes|Number=Sing	4	discourse	_	AlignBegin=172628|AlignEnd=172746|Gloss=3SG.M|Lang=hau
+2	ya	ya	AUX	_	Foreign=Yes|Number=Sing	1	flat:foreign	_	AlignBegin=172746|AlignEnd=172864|Gloss=3.SG|Lang=hau
+3	sa	sa	VERB	_	Foreign=Yes|VerbForm=Fin	2	flat:foreign	_	AlignBegin=172864|AlignEnd=172981|Gloss=put|Lang=hau
+4	myáː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	0	root	_	AlignBegin=172981|AlignEnd=173202|Gloss=1SG.ICPL
 5	súː	súː	VERB	_	VerbForm=Fin	4	comp:aux	_	AlignBegin=173202|AlignEnd=173423|Gloss=like
 6	Féːlêks	Féːlêks	PROPN	_	_	5	comp:obj	_	AlignBegin=173423|AlignEnd=173644|Gloss=Felix
 7	sòːséy	sòːséy	ADV	_	_	5	mod	_	AlignBegin=173644|AlignEnd=173865|Gloss=quite
-8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=173865|AlignEnd=174088|Gloss=PUNCT
+8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=173865|AlignEnd=174088|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_167-167
 # speaker_id = SP1
@@ -1945,7 +1945,7 @@
 10	tə́	tə́	ADP	_	_	9	comp:obl	_	AlignBegin=228381|AlignEnd=228539|Gloss=with
 11	péːpa	péːpa	NOUN	_	_	10	comp:obj	_	AlignBegin=228539|AlignEnd=228697|Gloss=exam
 12	mai	mai	ADP	_	Foreign=Yes	11	mod	_	AlignBegin=228855|AlignEnd=229013|Gloss=with|Lang=hau
-13	kyau	kyau	NOUN	_	Foreign=Yes	12	comp:obj	_	AlignBegin=229013|AlignEnd=229171|Gloss=good|Lang=hau
+13	kyau	kyau	NOUN	_	Foreign=Yes	12	flat:foreign	_	AlignBegin=229013|AlignEnd=229171|Gloss=good|Lang=hau
 14	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=229171|AlignEnd=229325|Gloss=PUNCT
 15	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	8	conj:coord	_	AlignBegin=229325|AlignEnd=229429|Gloss=3SG.SBJV
 16	ɬə́	ɬə	VERB	_	VerbForm=Fin	15	comp:obj	_	AlignBegin=229429|AlignEnd=229533|Gloss=go
@@ -2513,7 +2513,7 @@
 13	ɬíː	ɬə	VERB	_	Aspect=Res|VerbForm=Fin	12	comp:aux	_	AlignBegin=297566|AlignEnd=297658|Gloss=go-RES
 14	mə̀yi	yiː	AUX	_	Aspect=Iter|Number=Sing|Person=1	13	parataxis@comp	_	AlignBegin=297749|AlignEnd=297932|Gloss=1SG.ITER
 15	ɬə́	ɬə	VERB	_	VerbForm=Fin	14	comp:aux	_	AlignBegin=297932|AlignEnd=298113|Gloss=go
-16	irin	irin	NOUN	_	Foreign=Yes	15	comp:goal	_	AlignBegin=298113|AlignEnd=298490|Gloss=kind_of|Lang=en
+16	irin	irin	NOUN	_	Foreign=Yes	15	comp:goal	_	AlignBegin=298113|AlignEnd=298490|Gloss=kind_of|Lang=hau
 17	teːmaké	teːmaké	VERB	_	VerbForm=Fin	16	mod	_	AlignBegin=298490|AlignEnd=298678|Gloss=help
 18	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	comp:obj	_	AlignBegin=298678|AlignEnd=298867|Gloss=3PL.OBJ
 19	á	ká	ADP	_	_	17	comp:obl	_	AlignBegin=298867|AlignEnd=299244|Gloss=at
@@ -2521,9 +2521,9 @@
 21	gyǎː	gyaː	DET	_	Number=Plur	22	det	_	AlignBegin=299588|AlignEnd=299932|Gloss=PL3
 22	ngə́tn	ngə́tn	NOUN	_	_	20	mod	_	AlignBegin=299932|AlignEnd=300276|Gloss=thing
 23	ʧíɣə̂n	ʧi	VERB	_	VerbForm=Vnoun	22	compound	_	AlignBegin=300276|AlignEnd=300448|ExtPos=NOUN|Gloss=eat.NMLZ
-24	da	da	CCONJ	_	Foreign=Yes	25	cc	_	AlignBegin=300620|AlignEnd=300874|Gloss=with|Lang=hau
-25	sauransu	sauransu	NOUN	_	Foreign=Yes	22	conj:coord	_	AlignBegin=300874|AlignEnd=301128|Gloss=rest_of_3PL|Lang=hau
-26	dai	dai	PART	_	Foreign=Yes	17	discourse	_	AlignBegin=301128|AlignEnd=301381|Gloss=indeed|Lang=hau
+24	da	da	CCONJ	_	Foreign=Yes	22	conj:coord	_	AlignBegin=300620|AlignEnd=300874|Gloss=with|Lang=hau
+25	sauransu	sauransu	NOUN	_	Foreign=Yes	24	flat:foreign	_	AlignBegin=300874|AlignEnd=301128|Gloss=rest_of_3PL|Lang=hau
+26	dai	dai	PART	_	Foreign=Yes	25	flat:foreign	_	AlignBegin=301128|AlignEnd=301381|Gloss=indeed|Lang=hau
 27	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	17	parataxis@mod	_	AlignBegin=301381|AlignEnd=301544|Gloss=3SG.SBJV
 28	ngáː	ngaː	VERB	_	VerbForm=Fin	27	comp:aux	_	AlignBegin=301544|AlignEnd=301707|Gloss=take_food
 29	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	27	compound:svc	_	AlignBegin=301707|AlignEnd=301870|Gloss=3SG.SBJV

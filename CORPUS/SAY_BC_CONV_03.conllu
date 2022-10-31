@@ -148,7 +148,7 @@
 # text_ortho = ka san daga èː ə̀ːm dàtə̂pm Gèʤì |c tə́ || tə́ || tə́ gìp Bawʧi < bàː á fǔpm sòːséyǐn //
 # text_en =  <hau from er... hau> er... the Geji road to... to... to the center of Bauchi it is not very far.
 1	ka	ka	AUX	_	Foreign=Yes	18	parataxis@discourse	_	AlignBegin=28413|AlignEnd=28698|Gloss=you|Lang=hau
-2	san	san	VERB	_	Foreign=Yes|VerbForm=Fin	1	comp:aux	_	AlignBegin=28698|AlignEnd=28983|Gloss=know|Lang=hau
+2	san	san	VERB	_	Foreign=Yes|VerbForm=Fin	1	flat:foreign	_	AlignBegin=28698|AlignEnd=28983|Gloss=know|Lang=hau
 3	daga	daga	CCONJ	_	Foreign=Yes	6	cc@preconj	_	AlignBegin=28983|AlignEnd=29269|Gloss=from|Lang=hau
 4	èː	èː	INTJ	_	_	3	discourse	_	AlignBegin=29905|AlignEnd=30415|Gloss=èː
 5	ə̀ːm	ə̀ːm	INTJ	_	_	3	discourse	_	AlignBegin=30415|AlignEnd=30924|Gloss=ə̀ːm
@@ -277,11 +277,11 @@
 # text = shi ya sa nàːyáːwón mənáyáː wul =ɣə tu { á kâmàːtá || daː tíː ndàráy } [ ɗan kóː yáːwón < tunda Òːgá wò ɬíː < ʧáː ɬə nə́ laː bàː ʧáː ɬə tu kóː tə̀ ɬə́ːr ni kúni =wòs tə̀ ɬə̀ yèl =tə̀ hŋ́ ] //
 # text_ortho = shi ya sa nàːyáːwón mənáyáː wulɣə tu { á kâmàːtá || daː tîː ndàráy } ɗan kóː yáːwón < túndà Òːgá wò ɬíː < ʧáː ɬə nə́ laː bàː ʧáː ɬə tu kóː tə̀ ɬə́ːrni kúniwòs tə̀ ɬə̀ yèltə̀ hə̌n //
 # text_en =  <hau That's why hau> yesterday I told you that it would be better, it would be better like now, since Oga will leave, he will go for his work, he should not go with his son for people to come and see him.
-1	shi	shi	PRON	_	Foreign=Yes	0	root	_	AlignBegin=52905|AlignEnd=53053|Gloss=3SG.M|Lang=hau
-2	ya	ya	AUX	_	Foreign=Yes	1	comp:cleft	_	AlignBegin=53053|AlignEnd=53201|Gloss=it|Lang=hau
-3	sa	sa	VERB	_	Foreign=Yes|VerbForm=Fin	2	comp:aux	_	AlignBegin=53201|AlignEnd=53348|Gloss=do|Lang=hau
+1	shi	shi	PRON	_	Foreign=Yes	5	discourse	_	AlignBegin=52905|AlignEnd=53053|Gloss=3SG.M|Lang=hau
+2	ya	ya	AUX	_	Foreign=Yes	1	flat:foreign	_	AlignBegin=53053|AlignEnd=53201|Gloss=it|Lang=hau
+3	sa	sa	VERB	_	Foreign=Yes|VerbForm=Fin	2	flat:foreign	_	AlignBegin=53201|AlignEnd=53348|Gloss=do|Lang=hau
 4	nàːyáːwón	nàːyáːwón	ADV	_	PronType=Dem	5	mod	_	AlignBegin=53348|AlignEnd=53680|Gloss=yesterday
-5	mənáyáː	ánáːyáː	AUX	_	Aspect=Imp|Number=Sing|Person=1|Tense=Rec	3	comp:obj	_	AlignBegin=53680|AlignEnd=54012|Gloss=1SG.REC.ICPL
+5	mənáyáː	ánáːyáː	AUX	_	Aspect=Imp|Number=Sing|Person=1|Tense=Rec	0	root	_	AlignBegin=53680|AlignEnd=54012|Gloss=1SG.REC.ICPL
 6	wul	wul	VERB	_	VerbForm=Fin	5	comp:aux	_	AlignBegin=54012|AlignEnd=54178|Gloss=say
 7	=ɣə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	6	comp:ben	_	AlignBegin=54178|AlignEnd=54344|Gloss=2SG.OBJ
 8	tu	tu	SCONJ	_	Mood=Qot	6	comp:obj	_	AlignBegin=54344|AlignEnd=54678|Gloss=OPN
@@ -323,7 +323,7 @@
 44	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	43	comp:obj	_	AlignBegin=61810|AlignEnd=61883|Gloss=3SG.OBJ
 45	hŋ́	hŋ́	PART	_	Polarity=Neg	32	mod	_	AlignBegin=61883|AlignEnd=62028|Gloss=NEG
 46	]	]	PUNCT	_	_	27	punct	_	AlignBegin=62028|AlignEnd=62028|Gloss=PUNCT
-47	//	//	PUNCT	_	_	1	punct	_	AlignBegin=62028|AlignEnd=62028|Gloss=PUNCT
+47	//	//	PUNCT	_	_	5	punct	_	AlignBegin=62028|AlignEnd=62028|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_056-060
 # speaker_id = SP2
@@ -3765,31 +3765,30 @@
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=458438|AlignEnd=458505|Gloss=3SG.AOR
 2	wû	wul	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=458505|AlignEnd=458572|Gloss=say
 3	tu	tu	SCONJ	_	Mood=Qot	2	comp:obj	_	AlignBegin=458572|AlignEnd=458639|Gloss=OPN
-4	[	[	PUNCT	_	_	6	punct	_	AlignBegin=458639|AlignEnd=458707|Gloss=PUNCT
-5	ba	ba	PART	_	Foreign=Yes|Polarity=Neg	6	mod	_	AlignBegin=458707|AlignEnd=458854|Gloss=NEG|Lang=hau
-6	zan	zan	AUX	_	Foreign=Yes|Number=Sing|Person=1|Tense=Fut	3	comp:obj	_	AlignBegin=458854|AlignEnd=459001|Gloss=1SG.FUT|Lang=hau
-7	hau	hau	VERB	_	Foreign=Yes|VerbForm=Fin	6	comp:aux	_	AlignBegin=459001|AlignEnd=459148|Gloss=climb|Lang=hau
-8	ba	ba	PART	_	Foreign=Yes|Polarity=Neg	6	mod	_	AlignBegin=459148|AlignEnd=459295|Gloss=NEG|Lang=hau
-9	//=	//=	PUNCT	_	_	11	punct	_	AlignBegin=459295|AlignEnd=459442|Gloss=PUNCT
-10	ba	ba	PART	_	Foreign=Yes|Polarity=Neg	11	mod	_	AlignBegin=460498|AlignEnd=460603|Gloss=NEG|Lang=hau
-11	zan	zan	AUX	_	Foreign=Yes|Number=Sing|Person=1|Tense=Fut	6	parataxis@conj	_	AlignBegin=460603|AlignEnd=460708|Gloss=1SG.FUT|Lang=hau
-12	hau	hau	VERB	_	Foreign=Yes|VerbForm=Fin	11	comp:aux	_	AlignBegin=460708|AlignEnd=460813|Gloss=climb|Lang=hau
-13	ba	ba	PART	_	Foreign=Yes|Polarity=Neg	11	mod	_	AlignBegin=460813|AlignEnd=460918|Gloss=NEG|Lang=hau
+4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=458639|AlignEnd=458707|Gloss=PUNCT
+5	ba	ba	PART	_	Foreign=Yes|Polarity=Neg	3	comp:obj	_	AlignBegin=458707|AlignEnd=458854|Gloss=NEG|Lang=hau
+6	zan	zan	AUX	_	Foreign=Yes|Number=Sing|Person=1|Tense=Fut	5	flat:foreign	_	AlignBegin=458854|AlignEnd=459001|Gloss=1SG.FUT|Lang=hau
+7	hau	hau	VERB	_	Foreign=Yes|VerbForm=Fin	6	flat:foreign	_	AlignBegin=459001|AlignEnd=459148|Gloss=climb|Lang=hau
+8	ba	ba	PART	_	Foreign=Yes|Polarity=Neg	7	flat:foreign	_	AlignBegin=459148|AlignEnd=459295|Gloss=NEG|Lang=hau
+9	//=	//=	PUNCT	_	_	10	punct	_	AlignBegin=459295|AlignEnd=459442|Gloss=PUNCT
+10	ba	ba	PART	_	Foreign=Yes|Polarity=Neg	5	parataxis@conj	_	AlignBegin=460498|AlignEnd=460603|Gloss=NEG|Lang=hau
+11	zan	zan	AUX	_	Foreign=Yes|Number=Sing|Person=1|Tense=Fut	10	flat:foreign	_	AlignBegin=460603|AlignEnd=460708|Gloss=1SG.FUT|Lang=hau
+12	hau	hau	VERB	_	Foreign=Yes|VerbForm=Fin	11	flat:foreign	_	AlignBegin=460708|AlignEnd=460813|Gloss=climb|Lang=hau
+13	ba	ba	PART	_	Foreign=Yes|Polarity=Neg	12	flat:foreign	_	AlignBegin=460813|AlignEnd=460918|Gloss=NEG|Lang=hau
 14	//=	//=	PUNCT	_	_	15	punct	_	AlignBegin=460918|AlignEnd=461024|Gloss=PUNCT
-15	ni	ni	PRON	_	Foreign=Yes|Number=Sing|Person=1|PronType=Prs	11	parataxis@conj	_	AlignBegin=461371|AlignEnd=461506|Gloss=1SG|Lang=hau
-16	>+	>+	PUNCT	_	_	17	punct	_	AlignBegin=461506|AlignEnd=461641|Gloss=PUNCT
-17	za	za	AUX	_	Foreign=Yes|Tense=Fut	15	comp:cleft	_	AlignBegin=461641|AlignEnd=461776|Gloss=FUT|Lang=hau
-18	ku	ku	PRON	_	Foreign=Yes|Number=Plur|Person=1|PronType=Prs	17	subj	_	AlignBegin=461776|AlignEnd=461911|Gloss=1PL|Lang=hau
-19	gwada	gwada	VERB	_	Foreign=Yes|VerbForm=Fin	17	comp:aux	_	AlignBegin=461911|AlignEnd=462046|Gloss=show|Lang=hau
-20	min	min	PRON	_	Case=Ben|Foreign=Yes|Number=Sing|Person=1|PronType=Prs	19	comp:ben	_	AlignBegin=462046|AlignEnd=462181|Gloss=BEN.1SG|Lang=hau
-21	boko	boko	NOUN	_	Foreign=Yes	19	comp:obj	_	AlignBegin=462181|AlignEnd=462316|Gloss=education|Lang=hau
-22	?//=	?//=	PUNCT	_	_	24	punct	_	AlignBegin=462316|AlignEnd=462450|Gloss=PUNCT
-23	ba	ba	PART	_	Foreign=Yes|Polarity=Neg	24	mod	_	AlignBegin=463255|AlignEnd=463344|Gloss=no|Lang=hau
-24	zan	zan	AUX	_	Foreign=Yes|Number=Sing|Person=1|Tense=Fut	15	parataxis@conj	_	AlignBegin=463344|AlignEnd=463433|Gloss=1SG.FUT|Lang=hau
-25	hau	hau	VERB	_	Foreign=Yes|VerbForm=Fin	24	comp:aux	_	AlignBegin=463433|AlignEnd=463522|Gloss=ride|Lang=hau
-26	ba	ba	PART	_	Foreign=Yes|Polarity=Neg	24	mod	_	AlignBegin=463522|AlignEnd=463611|Gloss=no|Lang=hau
-27	//]	//]	PUNCT	_	_	6	punct	_	AlignBegin=463611|AlignEnd=463700|Gloss=PUNCT
-28	//	//	PUNCT	_	_	1	punct	_	AlignBegin=463700|AlignEnd=463789|Gloss=PUNCT
+15	ni	ni	PRON	_	Foreign=Yes|Number=Sing|Person=1|PronType=Prs	10	parataxis@conj	_	AlignBegin=461371|AlignEnd=461506|Gloss=1SG|Lang=hau
+16	za	za	AUX	_	Foreign=Yes|Tense=Fut	15	flat:foreign	_	AlignBegin=461641|AlignEnd=461776|Gloss=FUT|Lang=hau
+17	ku	ku	PRON	_	Foreign=Yes|Number=Plur|Person=1|PronType=Prs	16	flat:foreign	_	AlignBegin=461776|AlignEnd=461911|Gloss=1PL|Lang=hau
+18	gwada	gwada	VERB	_	Foreign=Yes|VerbForm=Fin	17	flat:foreign	_	AlignBegin=461911|AlignEnd=462046|Gloss=show|Lang=hau
+19	min	min	PRON	_	Case=Ben|Foreign=Yes|Number=Sing|Person=1|PronType=Prs	18	flat:foreign	_	AlignBegin=462046|AlignEnd=462181|Gloss=BEN.1SG|Lang=hau
+20	boko	boko	NOUN	_	Foreign=Yes	19	flat:foreign	_	AlignBegin=462181|AlignEnd=462316|Gloss=education|Lang=hau
+21	?//=	?//=	PUNCT	_	_	22	punct	_	AlignBegin=462316|AlignEnd=462450|Gloss=PUNCT
+22	ba	ba	PART	_	Foreign=Yes|Polarity=Neg	15	parataxis@conj	_	AlignBegin=463255|AlignEnd=463344|Gloss=no|Lang=hau
+23	zan	zan	AUX	_	Foreign=Yes|Number=Sing|Person=1|Tense=Fut	22	flat:foreign	_	AlignBegin=463344|AlignEnd=463433|Gloss=1SG.FUT|Lang=hau
+24	hau	hau	VERB	_	Foreign=Yes|VerbForm=Fin	23	flat:foreign	_	AlignBegin=463433|AlignEnd=463522|Gloss=ride|Lang=hau
+25	ba	ba	PART	_	Foreign=Yes|Polarity=Neg	24	flat:foreign	_	AlignBegin=463522|AlignEnd=463611|Gloss=no|Lang=hau
+26	//]	//]	PUNCT	_	_	5	punct	_	AlignBegin=463611|AlignEnd=463700|Gloss=PUNCT
+27	//	//	PUNCT	_	_	1	punct	_	AlignBegin=463700|AlignEnd=463789|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_469-471
 # speaker_id = SP1
@@ -3992,8 +3991,8 @@
 # text_ortho = ʤa mu ʤe !//
 # text_en =  <Let's go>!
 1	ʤa	ʤa	VERB	_	Foreign=Yes|Mood=Imp|VerbForm=Fin	0	root	_	AlignBegin=485447|AlignEnd=485597|Gloss=draw|Lang=hau
-2	mu	mu	AUX	_	Foreign=Yes|Mood=Sub|Number=Plur|Person=1	1	parataxis@conj	_	AlignBegin=485597|AlignEnd=485747|Gloss=1PL.SBJV|Lang=hau
-3	ʤe	ʤe	VERB	_	Foreign=Yes|VerbForm=Fin	2	comp:aux	_	AlignBegin=485747|AlignEnd=485897|Gloss=go|Lang=hau
+2	mu	mu	AUX	_	Foreign=Yes|Mood=Sub|Number=Plur|Person=1	1	flat:foreign	_	AlignBegin=485597|AlignEnd=485747|Gloss=1PL.SBJV|Lang=hau
+3	ʤe	ʤe	VERB	_	Foreign=Yes|VerbForm=Fin	2	flat:foreign	_	AlignBegin=485747|AlignEnd=485897|Gloss=go|Lang=hau
 4	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=485897|AlignEnd=486048|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_496-497
@@ -4586,14 +4585,14 @@
 # text = ko ana ruwa < Boi na kira //
 # text_ortho = ko ana ruwa < Boi na kira //
 # text_en =  <Even if it is raining> <Boi is calling>.
-1	ko	ko	SCONJ	_	Foreign=Yes	6	mod	_	AlignBegin=553909|AlignEnd=554073|Gloss=ko|Lang=hau
-2	ana	ana	AUX	_	Foreign=Yes	1	comp:obj	_	AlignBegin=554073|AlignEnd=554237|Gloss=ana|Lang=hau
-3	ruwa	ruwa	NOUN	_	Foreign=Yes	2	comp:aux	_	AlignBegin=554237|AlignEnd=554401|Gloss=ruwa|Lang=hau
+1	ko	ko	SCONJ	_	Foreign=Yes	5	mod	_	AlignBegin=553909|AlignEnd=554073|Gloss=ko|Lang=hau
+2	ana	ana	AUX	_	Foreign=Yes	1	flat:foreign	_	AlignBegin=554073|AlignEnd=554237|Gloss=ana|Lang=hau
+3	ruwa	ruwa	NOUN	_	Foreign=Yes	2	flat:foreign	_	AlignBegin=554237|AlignEnd=554401|Gloss=ruwa|Lang=hau
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=554401|AlignEnd=554567|Gloss=PUNCT
-5	Boi	Boi	PROPN	_	Foreign=Yes	6	subj	_	AlignBegin=554784|AlignEnd=554897|Gloss=Boi|Lang=hau
-6	na	na	AUX	_	Foreign=Yes	0	root	_	AlignBegin=554897|AlignEnd=555010|Gloss=na|Lang=hau
-7	kira	kira	VERB	_	Foreign=Yes|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=555010|AlignEnd=555123|ExtPos=NOUN|Gloss=kira|Lang=hau
-8	//	//	PUNCT	_	_	6	punct	_	AlignBegin=555123|AlignEnd=555237|Gloss=PUNCT
+5	Boi	Boi	PROPN	_	Foreign=Yes	0	root	_	AlignBegin=554784|AlignEnd=554897|Gloss=Boi|Lang=hau
+6	na	na	AUX	_	Foreign=Yes	5	flat:foreign	_	AlignBegin=554897|AlignEnd=555010|Gloss=na|Lang=hau
+7	kira	kira	VERB	_	Foreign=Yes|VerbForm=Vnoun	6	flat:foreign	_	AlignBegin=555010|AlignEnd=555123|ExtPos=NOUN|Gloss=kira|Lang=hau
+8	//	//	PUNCT	_	_	5	punct	_	AlignBegin=555123|AlignEnd=555237|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_562-566
 # speaker_id = SP2
@@ -4880,8 +4879,8 @@
 # text_ortho = ina bol mə́nːːː || mə́nːːː ngáran || èː mə́nːːː || mə́n Malâːr || tə́ mə́n Baːr ɗan mə̀tà ɬə́n mbwǎːy //
 # text_en =  < I was playing football > with the people... the people of... that place... er the people of... the people of Malar. and the people of Bar when we went to play there.
 1	ina	ina	AUX	_	Aspect=Prog|Foreign=Yes|Number=Sing|Person=1	0	root	_	AlignBegin=574499|AlignEnd=574757|Gloss=1SG.CONT|Lang=hau
-2	bol	bol	NOUN	_	Foreign=Yes	1	comp:obj	_	AlignBegin=574757|AlignEnd=575015|Gloss=football|Lang=hau
-3	mə́n	mə́n	NOUN	_	Number=Plur	2	comp:loc	_	AlignBegin=575015|AlignEnd=575273|Gloss=people
+2	bol	bol	NOUN	_	Foreign=Yes	1	flat:foreign	_	AlignBegin=574757|AlignEnd=575015|Gloss=football|Lang=hau
+3	mə́n	mə́n	NOUN	_	Number=Plur	2	flat:foreign	_	AlignBegin=575015|AlignEnd=575273|Gloss=people
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=575273|AlignEnd=575529|Gloss=PUNCT
 5	mə́n	mə́n	NOUN	_	Number=Plur	3	conj:dicto	_	AlignBegin=576293|AlignEnd=576784|Gloss=people
 6	ngə́tn	ngə́tn	NOUN	_	_	5	compound	_	AlignBegin=577286|AlignEnd=577448|Gloss=thing
@@ -4895,7 +4894,7 @@
 14	tə́	tə́	CCONJ	_	_	15	cc	_	AlignBegin=579365|AlignEnd=579566|Gloss=with
 15	mə́n	mə́n	NOUN	_	Number=Plur	11	conj:coord	_	AlignBegin=579566|AlignEnd=579767|Gloss=people
 16	Baːr	Baːr	PROPN	_	_	15	compound	_	AlignBegin=579767|AlignEnd=579967|Gloss=Bar
-17	ɗan	ɗan	SCONJ	_	_	2	mod	_	AlignBegin=579967|AlignEnd=580101|Gloss=as
+17	ɗan	ɗan	SCONJ	_	_	1	mod	_	AlignBegin=579967|AlignEnd=580101|Gloss=as
 18	mə̀tà	átâ	AUX	_	Number=Plur|Person=1|Tense=Rem	17	comp:obj	_	AlignBegin=580101|AlignEnd=580235|Gloss=1PL.REM
 19	ɬə	ɬə	VERB	_	VerbForm=Fin	18	comp:aux	_	AlignBegin=580235|AlignEnd=580302|Gloss=go
 20	nə́	nə́	ADP	_	_	19	comp:obl	_	AlignBegin=580302|AlignEnd=580369|Gloss=for
@@ -4934,8 +4933,8 @@
 # text_en =  He, < quite allright > he did not feel well.
 1	yáːni	yáːni	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	dislocated@subj	_	AlignBegin=582170|AlignEnd=582390|Gloss=3SG
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=582390|AlignEnd=582609|Gloss=PUNCT
-3	quite	quite	ADV	_	Foreign=Yes	4	mod	_	AlignBegin=582742|AlignEnd=582932|Gloss=quite|Lang=en
-4	allright	allright	ADV	_	Foreign=Yes	6	mod	_	AlignBegin=582932|AlignEnd=583123|Gloss=allright|Lang=en
+3	quite	quite	ADV	_	Foreign=Yes	6	mod	_	AlignBegin=582742|AlignEnd=582932|Gloss=quite|Lang=en
+4	allright	allright	ADV	_	Foreign=Yes	3	flat:foreign	_	AlignBegin=582932|AlignEnd=583123|Gloss=allright|Lang=en
 5	bàː	bàː	PART	_	Polarity=Neg	6	mod	_	AlignBegin=583123|AlignEnd=583319|Gloss=NEG
 6	átâyáː	átâyáː	AUX	_	Aspect=Imp|Number=Sing|Person=3|Tense=Rem	0	root	_	AlignBegin=583319|AlignEnd=583515|Gloss=3SG.REM.ICPL
 7	gon	gon	VERB	_	VerbForm=Fin	6	comp:aux	_	AlignBegin=583515|AlignEnd=583711|Gloss=fell_well
@@ -5614,14 +5613,14 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 671130, 672125
-# text = ina ʤin dàlíːês kəndí //
+# text = ina ʤin dàlíːlês kəndí //
 # text_ortho = ina ʤin dàlíːlêskəndí //
 # text_en =  <I think> that's the reason.
-1	ina	ina	AUX	_	Foreign=Yes	0	root	_	AlignBegin=671130|AlignEnd=671352|Gloss=1s.IPFV|Lang=hau
-2	ʤin	ʤin	VERB	_	Foreign=Yes|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=671352|AlignEnd=671573|ExtPos=NOUN|Gloss=feel.NMLZ|Lang=hau
+1	ina	ina	AUX	_	Foreign=Yes	4	discourse	_	AlignBegin=671130|AlignEnd=671352|Gloss=1s.IPFV|Lang=hau
+2	ʤin	ʤin	VERB	_	Foreign=Yes|VerbForm=Vnoun	1	flat:foreign	_	AlignBegin=671352|AlignEnd=671573|ExtPos=NOUN|Gloss=feel.NMLZ|Lang=hau
 3	dàlíːlês	dàlíːli	NOUN	_	Deixis=Med	4	subj	_	AlignBegin=671573|AlignEnd=671757|Gloss=reason
-4	kəndí	kən	PART	_	_	2	udep	_	AlignBegin=671941|AlignEnd=672125|Gloss=be
-5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=672125|AlignEnd=672125|Gloss=PUNCT
+4	kəndí	kən	PART	_	_	0	root	_	AlignBegin=671941|AlignEnd=672125|Gloss=be
+5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=672125|AlignEnd=672125|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_694-694
 # speaker_id = SP2
@@ -5632,7 +5631,7 @@
 # text_en =  Yes, that's the reason.
 1	yáwwàː	yáwwàː	INTJ	_	_	4	discourse	_	AlignBegin=671845|AlignEnd=672072|Gloss=OK
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=672072|AlignEnd=672299|Gloss=PUNCT
-3	dàlíːlês	dàlíːli	NOUN	_	_	4	subj	_	AlignBegin=672299|AlignEnd=672526|Gloss=reason
+3	dàlíːlês	dàlíːli	NOUN	_	Deixis=Med	4	subj	_	AlignBegin=672299|AlignEnd=672526|Gloss=reason
 4	kəndí	kəndí	PART	_	_	0	root	_	AlignBegin=672753|AlignEnd=672982|Gloss=be
 5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=672982|AlignEnd=672982|Gloss=PUNCT
 
@@ -5816,7 +5815,7 @@
 # text = káɗá àː dáːmá tə́ yáːnǐ n máː //
 # text_ortho = káɗá àː dáːmá tə́ yáːnǐn máː //
 # text_en =  You should not worry about him even.
-1	káɗá	káɗá	PART	_	Foreign=Yes|Mood=Prh|Polarity=Neg	2	mod	_	AlignBegin=689301|AlignEnd=689411|Gloss=PROH|Lang=hau
+1	káɗá	káɗá	PART	_	Foreign=Yes|Polarity=Neg	2	mod	_	AlignBegin=689301|AlignEnd=689411|Gloss=PROH|Lang=hau
 2	àː	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=2	0	root	_	AlignBegin=689411|AlignEnd=689520|Gloss=2SG.SBJV
 3	dáːmá	daːmá	VERB	_	VerbForm=Fin	2	comp:obj	_	AlignBegin=689520|AlignEnd=689674|Gloss=bother
 4	tə́	tə́	ADP	_	_	3	mod@poss	_	AlignBegin=689674|AlignEnd=689828|Gloss=with
@@ -5832,7 +5831,7 @@
 # text = tunda káː ngúp wúlɣə̂n vìː tə́ yáːníː káwây < to shi ke nan //
 # text_ortho = túndà káː ngúp wúlkə̂n vìː tə́ yáːníː káwây < to shi ke nan //
 # text_en =  Since you just started talking with him <well, that's it>
-1	tunda	tunda	SCONJ	_	Foreign=Yes	11	mod	_	AlignBegin=690651|AlignEnd=690836|Gloss=since|Lang=hau
+1	tunda	tunda	SCONJ	_	_	11	mod	_	AlignBegin=690651|AlignEnd=690836|Gloss=since
 2	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	1	comp:obj	_	AlignBegin=690836|AlignEnd=691021|Gloss=2SG.CPL
 3	ngúp	ngúp	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=691021|AlignEnd=691206|Gloss=start
 4	wúlɣə̂n	wul	VERB	_	VerbForm=Vnoun	3	comp:obj	_	AlignBegin=691206|AlignEnd=691391|ExtPos=NOUN|Gloss=say
@@ -5843,8 +5842,8 @@
 9	<	<	PUNCT	_	_	1	punct	_	AlignBegin=692001|AlignEnd=692143|Gloss=PUNCT
 10	to	to	PART	_	Foreign=Yes	11	discourse	_	AlignBegin=692143|AlignEnd=692277|Gloss=to|Lang=hau
 11	shi	shi	PRON	_	Foreign=Yes	0	root	_	AlignBegin=692277|AlignEnd=692411|Gloss=3SG.M|Lang=hau
-12	ke	ke	PART	_	Foreign=Yes	11	comp:pred	_	AlignBegin=692411|AlignEnd=692545|Gloss=be|Lang=hau
-13	nan	nan	ADV	_	Foreign=Yes	12	comp:pred	_	AlignBegin=692545|AlignEnd=692679|Gloss=there|Lang=hau
+12	ke	ke	PART	_	Foreign=Yes	11	flat:foreign	_	AlignBegin=692411|AlignEnd=692545|Gloss=be|Lang=hau
+13	nan	nan	ADV	_	Foreign=Yes	12	flat:foreign	_	AlignBegin=692545|AlignEnd=692679|Gloss=there|Lang=hau
 14	//	//	PUNCT	_	_	11	punct	_	AlignBegin=692679|AlignEnd=692814|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_720-720
@@ -6345,7 +6344,7 @@
 3	Gôː	Gôː	PROPN	_	_	1	conj:dicto	_	AlignBegin=745247|AlignEnd=745358|Gloss=Godiya
 4	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=745358|AlignEnd=745469|Gloss=PUNCT
 5	ke	ke	PART	_	Foreign=Yes	1	comp:cleft	_	AlignBegin=745469|AlignEnd=745580|Gloss=be|Lang=hau
-6	nan	nan	ADV	_	Foreign=Yes|PronType=Dem	5	comp:pred	_	AlignBegin=745580|AlignEnd=745691|Gloss=there|Lang=hau
+6	nan	nan	ADV	_	Foreign=Yes|PronType=Dem	5	flat:foreign	_	AlignBegin=745580|AlignEnd=745691|Gloss=there|Lang=hau
 7	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=745691|AlignEnd=745799|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_775-775
@@ -6818,8 +6817,8 @@
 7	átâ	átâ	AUX	_	Number=Sing|Person=3|Tense=Rem	6	comp:obj	_	AlignBegin=792502|AlignEnd=792666|Gloss=3SG.REM
 8	yi	yi	VERB	_	VerbForm=Fin	7	comp:aux	_	AlignBegin=792666|AlignEnd=792830|Gloss=be
 9	da	da	ADP	_	Foreign=Yes	8	mod	_	AlignBegin=792830|AlignEnd=792994|Gloss=with|Lang=hau
-10	farko	farko	NOUN	_	Foreign=Yes	9	comp:obj	_	AlignBegin=792994|AlignEnd=793158|Gloss=beginning|Lang=hau
-11	máː	máː	PART	_	_	6	mod	_	AlignBegin=793158|AlignEnd=793322|Gloss=even
+10	farko	farko	NOUN	_	Foreign=Yes	9	flat:foreign	_	AlignBegin=792994|AlignEnd=793158|Gloss=beginning|Lang=hau
+11	máː	máː	PART	_	_	10	flat:foreign	_	AlignBegin=793158|AlignEnd=793322|Gloss=even
 12	<	<	PUNCT	_	_	6	punct	_	AlignBegin=793322|AlignEnd=793486|Gloss=PUNCT
 13	kətá	átâ	AUX	_	Number=Sing|Person=2|Tense=Rem	0	root	_	AlignBegin=793486|AlignEnd=793650|Gloss=2SG.REM
 14	wul	wul	VERB	_	VerbForm=Fin	13	comp:aux	_	AlignBegin=793650|AlignEnd=793732|Gloss=say
