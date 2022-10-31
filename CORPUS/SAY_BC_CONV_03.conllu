@@ -365,11 +365,11 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 67700, 78769
-# text = àmáː tunda wò ɬə́ fi laː ɣáy < tôː kə yísə́ŋ yâːn zaːr ʧi tə́ ʃíːri ɣə̀ laː < kyáː ɬə́ < kafin nan kóː tə̀ fì nì bə̀ki |c kóː kwǎː ngə́ʃi gón sai ya ɲôm gyaː lə́p tsə̀tngə̀n tə́ gǎːy ɣá lə̂p //
-# text_ortho = àmáː túndà wò ɬə́ fi laː ɣáy < tôː kə yísə́n yâːn zaːr ʧi tə́ ʃíːri ɣə̀ laː < kyáː ɬə́ < kafin nan kóː tə̀ fìnì bə̀ki |c kóː kwǎː ngə́ʃi gón sai ya ɲôm gyaː lə̂p tsə̀tngə̀n tə́ gǎːy ɣá lə̂p //
+# text = àmáː tunda wò ɬə́ fi laː ɣáy < tôː kə yísə́ŋ yâːn zaːr ʧi tə́ ʃíːri ɣə̀ laː < kyáː ɬə́ < kafin nan kóː tə̀ fì nì bə̀ki |c kóː kwǎː ngə́ʃi gón sai ya ɲôm gyaː lə́p tsə̀tngə̀n tə̀ gǎːy ɣá lə̂p //
+# text_ortho = àmáː túndà wò ɬə́ fi laː ɣáy < tôː kə yísə́n yâːn zaːr ʧi tə́ ʃíːri ɣə̀ laː < kyáː ɬə́ < kafin nan kóː tə̀ fìnì bə̀ki |c kóː kwǎː ngə́ʃi gón sai ya ɲôm gyaː lə̂p tsə̀tngə̀n tə̀ gǎːy ɣá lə̂p //
 # text_en =  But since he will go and work there well you know if someone is preparing for work, if you travel, <hau before that hau>, whether they go to... to enjoy themselves or for anything else, he must find a place to stay, to... spend some time there.
 1	àmáː	àmáː	CCONJ	_	_	36	discourse	_	AlignBegin=67700|AlignEnd=67865|Gloss=but
-2	túnda	túnda	SCONJ	_	_	36	mod	_	AlignBegin=67865|AlignEnd=68030|Gloss=since
+2	tunda	tunda	SCONJ	_	Foreign=Yes	36	mod	_	AlignBegin=67865|AlignEnd=68030|Gloss=since|Lang=hau
 3	wò	wò	AUX	_	Number=Sing|Person=3|Tense=Fut	2	comp:obj	_	AlignBegin=68030|AlignEnd=68195|Gloss=3SG.FUT
 4	ɬə́	ɬə	VERB	_	VerbForm=Fin	3	comp:aux	_	AlignBegin=68195|AlignEnd=68360|Gloss=go
 5	fi	fi	VERB	_	VerbForm=Fin	4	compound:svc	_	AlignBegin=68360|AlignEnd=68525|Gloss=do
@@ -403,12 +403,12 @@
 33	ngə́ʃi	ngə́ʃi	NOUN	_	_	26	conj:coord	_	AlignBegin=74773|AlignEnd=74938|Gloss=thing
 34	gón	gón	DET	_	Definite=Spec	33	det	_	AlignBegin=74938|AlignEnd=75103|Gloss=QLT
 35	sai	sai	PART	_	Foreign=Yes	36	mod	_	AlignBegin=75583|AlignEnd=75802|Gloss=perforce|Lang=hau
-36	ya	ya	AUX	_	Foreign=Yes	0	root	_	AlignBegin=75802|AlignEnd=76021|Gloss=must|Lang=hau
+36	yáː	ya	AUX	_	Mood=Cnd	0	root	_	AlignBegin=75802|AlignEnd=76021|Gloss=3SG.COND
 37	ɲôm	ɲom	VERB	_	VerbForm=Fin	36	comp:aux	_	AlignBegin=76021|AlignEnd=76240|Gloss=take
 38	gyaː	gyaː	DET	_	Number=Plur	39	det	_	AlignBegin=76240|AlignEnd=76459|Gloss=PL3
 39	lə́p	lə̂p	NOUN	_	_	37	comp:obj	_	AlignBegin=76459|AlignEnd=76678|Gloss=place
 40	tsə̀tngə̀n	tsə́tn	VERB	_	VerbForm=Vnoun	39	compound	_	AlignBegin=76678|AlignEnd=76895|ExtPos=NOUN|Gloss=sit
-41	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	36	parataxis@mod	_	AlignBegin=77598|AlignEnd=78094|Gloss=3PL.AOR
+41	tə̀	tə̀	AUX	_	Number=Plur|Person=3|Mood=Sub	36	parataxis@mod	_	AlignBegin=77598|AlignEnd=78094|Gloss=3PL.SBJV
 42	gǎːy	gaː	VERB	_	Aspect=Res|VerbForm=Fin	41	comp:aux	_	AlignBegin=78338|AlignEnd=78446|Gloss=leave
 43	ɣá	ká	ADP	_	_	42	mod	_	AlignBegin=78446|AlignEnd=78554|Gloss=at
 44	lə̂p	lə̂p	NOUN	_	_	43	comp:obj	_	AlignBegin=78554|AlignEnd=78662|Gloss=place
