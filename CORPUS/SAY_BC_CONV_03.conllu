@@ -6756,25 +6756,25 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 787160, 789488
-# text = kápkə̂n gə̀t < yâːn káː rigá kə yísə́n gə̀t >+ káː kap =tíː ɣəndí oː //
+# text = kápkə̂n gə̀t < yâːn káː rigá kə yísə́n gə̀t < káː kap =tíː ɣəndí oː //
 # text_ortho = kápkə̂n gə̀t < yâːn káː rigá kə yisə́n gə̀t >+ káː kaptíːɣəndyôː //
-# text_en =  To get married, it's only when you already know a woman that you get married.
-1	kápkə̂n	kap	VERB	_	VerbForm=Fin	4	dislocated@top	_	AlignBegin=787160|AlignEnd=787345|Gloss=take
+# text_en =  To get married,  when you already know a woman, you get married.
+1	kápkə̂n	kap	VERB	_	VerbForm=Fin	11	dislocated@top	_	AlignBegin=787160|AlignEnd=787345|Gloss=take
 2	gə̀t	gə̀t	NOUN	_	_	1	udep	_	AlignBegin=787345|AlignEnd=787530|Gloss=wife
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=787530|AlignEnd=787714|Gloss=PUNCT
-4	yâːn	yâːn	SCONJ	_	_	0	root	_	AlignBegin=787714|AlignEnd=787851|Gloss=if
+4	yâːn	yâːn	SCONJ	_	_	11	mod	_	AlignBegin=787714|AlignEnd=787851|Gloss=if
 5	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	4	comp:obj	_	AlignBegin=787851|AlignEnd=787988|Gloss=2SG.CPL
 6	rigá	rigá	VERB	_	Foreign=Yes|VerbForm=Fin	5	comp:aux	_	AlignBegin=787988|AlignEnd=788125|Gloss=already|Lang=hau
 7	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	6	parataxis@comp	_	AlignBegin=788125|AlignEnd=788262|Gloss=2SG.AOR
 8	yísə́n	yisə́n	VERB	_	VerbForm=Fin	7	comp:aux	_	AlignBegin=788262|AlignEnd=788399|Gloss=know
 9	gə̀t	gə̀t	NOUN	_	_	8	comp:obj	_	AlignBegin=788399|AlignEnd=788536|Gloss=wife
-10	>+	>+	PUNCT	_	_	11	punct	_	AlignBegin=788536|AlignEnd=788676|Gloss=PUNCT
-11	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	4	comp:cleft	_	AlignBegin=788676|AlignEnd=788879|Gloss=2SG.CPL
+10	<	<	PUNCT	_	_	11	punct	_	AlignBegin=788536|AlignEnd=788676|Gloss=PUNCT
+11	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	0	root	_	AlignBegin=788676|AlignEnd=788879|Gloss=2SG.CPL
 12	kap	kap	VERB	_	VerbForm=Fin	11	comp:aux	_	AlignBegin=788879|AlignEnd=789082|Gloss=take
 13	=tíː	=tə	PRON	_	Aspect=Res|Case=Acc|Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=788947|AlignEnd=789015|Gloss=3SG.OBJ
-14	ɣəndí	kəndí	PART	_	_	4	mod	_	AlignBegin=789015|AlignEnd=789388|Gloss=be
-15	oː	oː	PART	_	PartType=Emp	4	mod	_	AlignBegin=789388|AlignEnd=789488|Gloss=EMPH
-16	//	//	PUNCT	_	_	4	punct	_	AlignBegin=789488|AlignEnd=789488|Gloss=PUNCT
+14	ɣəndí	kəndí	PART	_	_	11	mod	_	AlignBegin=789015|AlignEnd=789388|Gloss=be
+15	oː	oː	PART	_	PartType=Emp	11	mod	_	AlignBegin=789388|AlignEnd=789488|Gloss=EMPH
+16	//	//	PUNCT	_	_	11	punct	_	AlignBegin=789488|AlignEnd=789488|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_823-823
 # speaker_id = SP1
