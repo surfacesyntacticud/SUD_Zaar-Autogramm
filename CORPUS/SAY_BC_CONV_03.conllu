@@ -1756,14 +1756,14 @@
 # text_en =  he said here is the town ve... ver...  very close indeed.
 1	wéy	wéy	PART	_	Mood=Qot	2	discourse	_	AlignBegin=254120|AlignEnd=254350|Gloss=EVD
 2	ga	ga	PART	_	Foreign=Yes	0	root	_	AlignBegin=254350|AlignEnd=254580|Gloss=here_is|Lang=hau
-3	garin	garin	NOUN	_	Foreign=Yes	2	comp:pred	_	AlignBegin=254580|AlignEnd=254810|Gloss=town|Lang=hau
-4	a	a	ADP	_	Foreign=Yes	2	mod	_	AlignBegin=255013|AlignEnd=255140|Gloss=a|Lang=hau
-5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=255140|AlignEnd=255267|Gloss=PUNCT
+3	garin	garin	NOUN	_	Foreign=Yes	2	flat:foreign	_	AlignBegin=254580|AlignEnd=254810|Gloss=town|Lang=hau
+4	a	a	ADP	_	Foreign=Yes	3	flat:foreign	_	AlignBegin=255013|AlignEnd=255140|Gloss=a|Lang=hau
+5	||	||	PUNCT	_	Foreign=Yes	6	punct	_	AlignBegin=255140|AlignEnd=255267|Gloss=PUNCT|Lang=hau
 6	a	a	ADP	_	Foreign=Yes	4	conj:dicto	_	AlignBegin=255267|AlignEnd=255394|Gloss=a|Lang=hau
-7	||	||	PUNCT	_	_	8	punct	_	AlignBegin=255394|AlignEnd=255520|Gloss=PUNCT
+7	||	||	PUNCT	_	Foreign=Yes	8	punct	_	AlignBegin=255394|AlignEnd=255520|Gloss=PUNCT|Lang=hau
 8	a	a	ADP	_	Foreign=Yes	6	conj:dicto	_	AlignBegin=255520|AlignEnd=255630|Gloss=at|Lang=hau
-9	nan	nan	ADV	_	Foreign=Yes	8	comp:obj	_	AlignBegin=255630|AlignEnd=255740|Gloss=here|Lang=hau
-10	kusa	kusa	ADV	_	Foreign=Yes	9	mod	_	AlignBegin=255740|AlignEnd=255850|Gloss=close|Lang=hau
+9	nan	nan	ADV	_	Foreign=Yes	8	flat:foreign	_	AlignBegin=255630|AlignEnd=255740|Gloss=here|Lang=hau
+10	kusa	kusa	ADV	_	Foreign=Yes	9	flat:foreign	_	AlignBegin=255740|AlignEnd=255850|Gloss=close|Lang=hau
 11	oː	oː	PART	_	PartType=Emp	2	mod	_	AlignBegin=255850|AlignEnd=255960|Gloss=EMPH
 12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=255960|AlignEnd=256072|Gloss=PUNCT
 
@@ -1887,11 +1887,11 @@
 # text = wéy wannan Lim ne ?//
 # text_ortho = wéy wannan Lim ne ?//
 # text_en =   <Is this Lim> ?
-1	wéy	wéy	PART	_	Foreign=Yes|Mood=Qot	4	mod	_	AlignBegin=270175|AlignEnd=270580|Gloss=EVD|Lang=hau
-2	wannan	wannan	PRON	_	Foreign=Yes|PronType=Dem	4	dislocated@subj	_	AlignBegin=270580|AlignEnd=270819|Gloss=this|Lang=hau
-3	Lim	Lim	PROPN	_	_	4	comp:pred	_	AlignBegin=270819|AlignEnd=271058|Gloss=Lim
-4	ne	ne	PART	_	Foreign=Yes	0	root	_	AlignBegin=271058|AlignEnd=271297|Gloss=be|Lang=hau
-5	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=271297|AlignEnd=271536|Gloss=PUNCT
+1	wéy	wéy	PART	_	Foreign=Yes|Mood=Qot	2	mod	_	AlignBegin=270175|AlignEnd=270580|Gloss=EVD|Lang=hau
+2	wannan	wannan	PRON	_	Foreign=Yes|PronType=Dem	0	root	_	AlignBegin=270580|AlignEnd=270819|Gloss=this|Lang=hau
+3	Lim	Lim	PROPN	_	_	2	flat:foreign	_	AlignBegin=270819|AlignEnd=271058|Gloss=Lim
+4	ne	ne	PART	_	Foreign=Yes	3	flat:foreign	_	AlignBegin=271058|AlignEnd=271297|Gloss=be|Lang=hau
+5	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=271297|AlignEnd=271536|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_252-252
 # speaker_id = SP1
@@ -2017,12 +2017,12 @@
 # text = wéy ƴar wace Lim ne ?//
 # text_ortho = wéy ƴar wace Lim ne ?//
 # text_en =  They said, <the girl is from which Lim> ?
-1	wéy	wéy	PART	_	Mood=Qot	5	discourse	_	AlignBegin=284692|AlignEnd=284851|Gloss=EVD
-2	ƴar	ƴar	NOUN	_	Foreign=Yes	5	comp:pred	_	AlignBegin=284851|AlignEnd=285010|Gloss=girl_of|Lang=hau
-3	wace	wace	DET	_	Foreign=Yes|PronType=Int	4	det	_	AlignBegin=285010|AlignEnd=285169|Gloss=which|Lang=hau
-4	Lim	Lim	PROPN	_	_	2	mod	_	AlignBegin=285169|AlignEnd=285328|Gloss=Lim
-5	ne	ne	PART	_	Foreign=Yes	0	root	_	AlignBegin=285328|AlignEnd=285487|Gloss=be|Lang=hau
-6	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=285487|AlignEnd=285647|Gloss=PUNCT
+1	wéy	wéy	PART	_	Mood=Qot	2	discourse	_	AlignBegin=284692|AlignEnd=284851|Gloss=EVD
+2	ƴar	ƴar	NOUN	_	Foreign=Yes	0	root:pred	_	AlignBegin=284851|AlignEnd=285010|Gloss=girl_of|Lang=hau
+3	wace	wace	DET	_	Foreign=Yes|PronType=Int	2	flat:foreign	_	AlignBegin=285010|AlignEnd=285169|Gloss=which|Lang=hau
+4	Lim	Lim	PROPN	_	_	3	flat:foreign	_	AlignBegin=285169|AlignEnd=285328|Gloss=Lim
+5	ne	ne	PART	_	Foreign=Yes	4	flat:foreign	_	AlignBegin=285328|AlignEnd=285487|Gloss=be|Lang=hau
+6	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=285487|AlignEnd=285647|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_266-267
 # speaker_id = SP1
@@ -2047,12 +2047,12 @@
 # text = wéy ai wannan Limbisa ne //
 # text_ortho = wéy ai wannan Limbisa ne //
 # text_en =  They said <Eh, this is Upper Lim>.
-1	wéy	wéy	PART	_	Mood=Qot	5	discourse	_	AlignBegin=287636|AlignEnd=287848|Gloss=EVD
-2	ai	ai	INTJ	_	Foreign=Yes	5	discourse	_	AlignBegin=287848|AlignEnd=288060|Gloss=eh|Lang=hau
-3	wannan	wannan	PRON	_	Foreign=Yes|PronType=Dem	5	subj	_	AlignBegin=288060|AlignEnd=288272|Gloss=this|Lang=hau
-4	Limbisa	Limbisa	PROPN	_	_	5	comp:pred	_	AlignBegin=288272|AlignEnd=288484|Gloss=Lim_Bisa
-5	ne	ne	PART	_	Foreign=Yes	0	root	_	AlignBegin=288484|AlignEnd=288696|Gloss=be|Lang=hau
-6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=288696|AlignEnd=288909|Gloss=PUNCT
+1	wéy	wéy	PART	_	Mood=Qot	3	discourse	_	AlignBegin=287636|AlignEnd=287848|Gloss=EVD
+2	ai	ai	INTJ	_	Foreign=Yes	3	discourse	_	AlignBegin=287848|AlignEnd=288060|Gloss=eh|Lang=hau
+3	wannan	wannan	PRON	_	Foreign=Yes|PronType=Dem	0	root	_	AlignBegin=288060|AlignEnd=288272|Gloss=this|Lang=hau
+4	Limbisa	Limbisa	PROPN	_	_	3	flat:foreign	_	AlignBegin=288272|AlignEnd=288484|Gloss=Lim_Bisa
+5	ne	ne	PART	_	Foreign=Yes	4	flat:foreign	_	AlignBegin=288484|AlignEnd=288696|Gloss=be|Lang=hau
+6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=288696|AlignEnd=288909|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_269-270
 # speaker_id = SP1
@@ -2167,8 +2167,8 @@
 2	hm̀ː	hm̀ː	INTJ	_	_	4	discourse	_	AlignBegin=300755|AlignEnd=301048|Gloss=hm̀ː
 3	èː	èː	INTJ	_	_	4	discourse	_	AlignBegin=301910|AlignEnd=302055|Gloss=èː
 4	Bible	Bible	PROPN	_	Foreign=Yes	1	comp:obj	_	AlignBegin=302055|AlignEnd=302319|Gloss=Bible|Lang=en
-5	School	School	PROPN	_	Foreign=Yes	4	compound	_	AlignBegin=302319|AlignEnd=302584|Gloss=School|Lang=en
-6	Púʤì	Púʤì	PROPN	_	_	4	mod	_	AlignBegin=302850|AlignEnd=302984|Gloss=Tafawa_Balewa
+5	School	School	PROPN	_	Foreign=Yes	4	flat:foreign	_	AlignBegin=302319|AlignEnd=302584|Gloss=School|Lang=en
+6	Púʤì	Púʤì	PROPN	_	_	5	flat:foreign	_	AlignBegin=302850|AlignEnd=302984|Gloss=Tafawa_Balewa
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=302984|AlignEnd=303119|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_286-286
