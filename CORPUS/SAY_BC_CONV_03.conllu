@@ -2401,10 +2401,10 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 329366, 332304
-# text = lə̂p Mbwâːr lə̂p gyaː m̀ː awré gyaː m̀ː wannan əŋ //
+# text = lə̂p Mbwâːr lə̂p gyaː m̀ː awré gyaː m̀ː wannan &//
 # text_ortho = lə̂p Mbwâːr lə̂p gyaː m̀ːːː awré gyaː m̀ːːː wânnánə́yaː //
-# text_en =  The place... Mbwar the place of er... the wedding of er... that one ?
-1	lə̂p	lə̂p	NOUN	_	_	10	subj	_	AlignBegin=329366|AlignEnd=329549|Gloss=place
+# text_en =  The place... Mbwar the place of er... the wedding of er... that ...
+1	lə̂p	lə̂p	NOUN	_	_	0	root@scrap	_	AlignBegin=329366|AlignEnd=329549|Gloss=place
 2	Mbwâːr	Mbwâːr	PROPN	_	_	1	compound	_	AlignBegin=329903|AlignEnd=330232|Gloss=Mbwar
 3	lə̂p	lə̂p	NOUN	_	_	1	conj:appos	_	AlignBegin=330232|AlignEnd=330465|Gloss=place
 4	gyaː	gyaː	DET	_	Number=Plur	6	det	_	AlignBegin=330465|AlignEnd=330698|Gloss=PL3
@@ -2412,9 +2412,8 @@
 6	awré	awre-́	NOUN	_	Definite=Cons	3	mod	_	AlignBegin=331298|AlignEnd=331520|Gloss=wedding
 7	gyaː	gyaː	DET	_	Number=Plur	9	det	_	AlignBegin=331520|AlignEnd=331742|Gloss=PL3
 8	m̀ː	m̀ː	INTJ	_	_	9	discourse	_	AlignBegin=331742|AlignEnd=331963|Gloss=INTJ
-9	wannan	wannan	PRON	_	Deixis=Remt|Foreign=Yes	6	mod	_	AlignBegin=331963|AlignEnd=332077|Gloss=there|Lang=hau
-10	əŋ	kən	PART	_	PartType=Int	0	root	_	AlignBegin=332077|AlignEnd=332133|Gloss=Q
-11	//	//	PUNCT	_	_	10	punct	_	AlignBegin=332133|AlignEnd=332304|Gloss=PUNCT
+9	wannan	wannan	X	_	Deixis=Remt|Foreign=Yes	6	mod	_	AlignBegin=331963|AlignEnd=332077|Gloss=that|Lang=hau
+10	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=332133|AlignEnd=332304|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_323-323
 # speaker_id = SP2
@@ -2616,7 +2615,7 @@
 # sent_timecode = 348641, 351585
 # text = wéy < mə yé ŋaː ɲíː wón |a ŋǎː ŋaː makaranta oː ɗi oː //
 # text_ortho = wéy < mə yé ŋaː ɲíː wón < ŋǎː ŋaː makarantoːɗoː //
-# text_en =  well I saw a girl a young schoolgirl.
+# text_en =  Well I saw a girl, a young schoolgirl.
 1	wéy	wéy	PART	_	Mood=Qot	3	discourse	_	AlignBegin=348641|AlignEnd=348784|Gloss=EVD
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=348784|AlignEnd=348927|Gloss=PUNCT
 3	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	0	root	_	AlignBegin=349259|AlignEnd=349367|Gloss=1SG.AOR
