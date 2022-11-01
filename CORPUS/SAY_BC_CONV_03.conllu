@@ -152,7 +152,7 @@
 3	daga	daga	CCONJ	_	Foreign=Yes	6	cc@preconj	_	AlignBegin=28983|AlignEnd=29269|Gloss=from|Lang=hau
 4	èː	èː	INTJ	_	_	6	discourse	_	AlignBegin=29905|AlignEnd=30415|Gloss=FILL
 5	ə̀ːm	ə̀ːm	INTJ	_	_	6	discourse	_	AlignBegin=30415|AlignEnd=30924|Gloss=FILL
-6	dàtə̂pm	dàtə̂pm	NOUN	_	_	18	dislocated@mod	_	AlignBegin=30924|AlignEnd=31211|Gloss=way
+6	dàtə̂pm	dàtə̂pm	NOUN	_	_	18	dislocated@subj	_	AlignBegin=30924|AlignEnd=31211|Gloss=way
 7	Gèʤì	Gèʤì	PROPN	_	_	6	compound	_	AlignBegin=31211|AlignEnd=31498|Gloss=Geji
 8	|c	|c	PUNCT	_	_	14	punct	_	AlignBegin=31498|AlignEnd=31784|Gloss=PUNCT
 9	tə́	tə́	CCONJ	_	_	14	cc	_	AlignBegin=32527|AlignEnd=32761|Gloss=with
@@ -918,7 +918,7 @@
 17	tá	wò	AUX	_	Number=Plur|Person=3|Tense=Fut	4	comp:obj	_	AlignBegin=137606|AlignEnd=137779|Gloss=3PL.FUT
 18	gàː	gaː	VERB	_	VerbForm=Fin	17	comp:aux	_	AlignBegin=137779|AlignEnd=137865|Gloss=leave
 19	=ɣə̀	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	18	comp:obj	_	AlignBegin=137865|AlignEnd=137952|Gloss=2SG.OBJ
-20	gwàː	gwàː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	18	dislocated@mod	_	AlignBegin=137952|AlignEnd=138125|Gloss=2SG.POS
+20	gwàː	gwàː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	18	mod@top	_	AlignBegin=137952|AlignEnd=138125|Gloss=2SG.POS
 21	ɗáni	ɗáni	ADV	_	PronType=Dem	18	comp:loc	_	AlignBegin=138125|AlignEnd=138211|Gloss=there
 22	aː	aː	PART	_	PartType=Int	2	mod	_	AlignBegin=138211|AlignEnd=138298|Gloss=Q
 23	hôː	hôː	PART	_	PartType=Emp	2	mod	_	AlignBegin=138298|AlignEnd=138471|Gloss=EMPH
@@ -2187,7 +2187,7 @@
 # sent_timecode = 303552, 308945
 # text = ìnáː ríːʤiyáy ɗan yi ɣá taːɣə́ napti kafin àː ɬə́ èː ráːnábáwɗíː kafin èː dàtə̂pm ʤirgíː ?//
 # text_ortho = ìnáː ríːʤiyáy ɗan yiɣá taːɣə́ napti kàːfín àː ɬə́ːːː èː ráːnábáwɗíː kàːfín èːːː dàtə̂pm ʤirgíː ?//
-# text_en =  where is the well that is on the left before you reach er... er... that roundabout < before er... the railway?
+# text_en =  Where is the well that is on the left before you reach er... er... that roundabout < before er... the railway?
 1	ìnáː	ìnáː	ADV	_	PronType=Int	0	root	_	AlignBegin=303552|AlignEnd=303902|Gloss=where
 2	ríːʤiyáy	ríːʤiya	NOUN	_	Deixis=Remt	1	comp:cleft	_	AlignBegin=303902|AlignEnd=304251|Gloss=well.DIST
 3	ɗan	ɗan	SCONJ	_	PronType=Rel	2	mod@relcl	_	AlignBegin=304441|AlignEnd=304617|Gloss=REL
@@ -2902,13 +2902,13 @@
 4	tulíː	tul	VERB	_	Aspect=Res|VerbForm=Fin	3	comp:aux	_	AlignBegin=375933|AlignEnd=376065|Gloss=arrive
 5	ɗi	ɗi	PART	_	_	4	compound:prt	_	AlignBegin=376065|AlignEnd=376132|Gloss=CTP
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=376132|AlignEnd=376332|Gloss=PUNCT
-7	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	20	dislocated@mod	_	AlignBegin=376763|AlignEnd=376931|Gloss=1PL.AOR
+7	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	20	parataxis@mod	_	AlignBegin=376763|AlignEnd=376931|Gloss=1PL.AOR
 8	man	man	VERB	_	VerbForm=Fin	7	comp:aux	_	AlignBegin=376931|AlignEnd=377099|Gloss=come|SVC=Yes
 9	lâːtsə́y	laːtsə́	VERB	_	Aspect=Res|VerbForm=Fin	8	compound:svc	_	AlignBegin=377099|AlignEnd=377267|Gloss=pass_by
 10	Kímsə	Kímsə	PROPN	_	_	9	comp:loc	_	AlignBegin=377267|AlignEnd=377435|Gloss=Kimsạ
 11	káwây	káwây	ADV	_	_	8	mod	_	AlignBegin=377435|AlignEnd=377603|Gloss=merely
 12	<	<	PUNCT	_	_	7	punct	_	AlignBegin=377603|AlignEnd=377769|Gloss=PUNCT
-13	myáːnaː	ʧáːnaː	AUX	_	Aspect=Conc|Number=Sing|Person=1	20	dislocated@mod	_	AlignBegin=378560|AlignEnd=378805|Gloss=1SG.CONC
+13	myáːnaː	ʧáːnaː	AUX	_	Aspect=Conc|Number=Sing|Person=1	20	parataxis@mod	_	AlignBegin=378560|AlignEnd=378805|Gloss=1SG.CONC
 14	tul	tul	VERB	_	VerbForm=Fin	13	comp:aux	_	AlignBegin=378805|AlignEnd=379050|Gloss=arrive
 15	gìp	gìp	ADP	_	_	14	comp:obl	_	AlignBegin=379050|AlignEnd=379295|Gloss=inside
 16	Kìmsə́	Kìmsə́	PROPN	_	_	15	comp:obj	_	AlignBegin=379295|AlignEnd=379540|Gloss=Kimsə
@@ -3946,11 +3946,11 @@
 2	yísə́n	yisə́n	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=479133|AlignEnd=479251|Gloss=know
 3	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@top	_	AlignBegin=479251|AlignEnd=479369|Gloss=3SG.POS
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=479369|AlignEnd=479487|Gloss=PUNCT
-5	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	14	dislocated@mod	_	AlignBegin=479487|AlignEnd=479673|Gloss=3SG.COND
+5	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	14	parataxis@mod	_	AlignBegin=479487|AlignEnd=479673|Gloss=3SG.COND
 6	ndǎy	nda	VERB	_	Aspect=Res|VerbForm=Fin	5	comp:aux	_	AlignBegin=479673|AlignEnd=479797|Gloss=enter
 7	ɣáy	káy	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	6	mod	_	AlignBegin=479797|AlignEnd=479859|Gloss=ANAPH
 8	<	<	PUNCT	_	_	5	punct	_	AlignBegin=479859|AlignEnd=480045|Gloss=PUNCT
-9	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	14	dislocated@mod	_	AlignBegin=480045|AlignEnd=480245|Gloss=3SG.COND
+9	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	14	parataxis@mod	_	AlignBegin=480045|AlignEnd=480245|Gloss=3SG.COND
 10	ndǎy	nda	VERB	_	Aspect=Res|VerbForm=Fin	9	comp:aux	_	AlignBegin=480245|AlignEnd=480445|Gloss=enter
 11	kúʧi	kúʧi	NOUN	_	_	10	comp:goal	_	AlignBegin=480445|AlignEnd=480645|Gloss=sleep
 12	káwây	káwây	ADV	_	_	10	mod	_	AlignBegin=480645|AlignEnd=480844|Gloss=merely
@@ -5725,24 +5725,22 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 682552, 685739
-# text = séː ɣá mbútkə̂nín oː < yáː yêl =ə̀m < wéy [ yǎː Gápsi ?//] //
-# text_ortho = séː ká mbútkə̂nínoː < yáː yêlə̀m < wéy [ yǎː Gápsi ?//] //
+# text = séː ɣá mbútkə̂nín oː < yáː yêl =ə̀m < wéy yǎː Gápsi ?//
+# text_ortho = séː ɣá mbútkə̂nínoː < yáː yêlə̀m < wéy yǎː Gápsi ?//
 # text_en =  Then one day indeed... when he saw me,  he said "How is Gạpsi?"
-1	séː	séː	ADV	_	_	12	mod	_	AlignBegin=682552|AlignEnd=682756|Gloss=then
-2	ɣá	ká	ADP	_	_	12	mod	_	AlignBegin=682756|AlignEnd=682960|Gloss=at
-3	mbútkə̂nín	mbút	VERB	_	PronType=Dem|VerbForm=Vnoun	2	comp:obj	_	AlignBegin=682960|AlignEnd=683113|Gloss=spend_night.NMLZ|ExtPos=NOUN
+1	séː	séː	ADV	_	_	11	mod	_	AlignBegin=682552|AlignEnd=682756|Gloss=then
+2	ɣá	ká	ADP	_	_	11	mod	_	AlignBegin=682756|AlignEnd=682960|Gloss=at
+3	mbútkə̂nín	mbút	VERB	_	PronType=Dem|VerbForm=Vnoun	2	comp:obj	_	AlignBegin=682960|AlignEnd=683113|ExtPos=NOUN|Gloss=spend_night.NMLZ
 4	oː	oː	PART	_	PartType=Emp	2	mod	_	AlignBegin=683113|AlignEnd=683164|Gloss=EMPH
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=683164|AlignEnd=683370|Gloss=PUNCT
-6	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	12	dislocated@mod	_	AlignBegin=684578|AlignEnd=684679|Gloss=3SG.COND
+6	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	11	parataxis@mod	_	AlignBegin=684578|AlignEnd=684679|Gloss=3SG.COND
 7	yêl	yel	VERB	_	VerbForm=Fin	6	comp:aux	_	AlignBegin=684679|AlignEnd=684729|Gloss=see
 8	=ə̀m	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	comp:obj	_	AlignBegin=684729|AlignEnd=684780|Gloss=1SG.OBJ
 9	<	<	PUNCT	_	_	6	punct	_	AlignBegin=684780|AlignEnd=684880|Gloss=PUNCT
-10	wéy	wéy	PART	_	Mood=Qot	12	discourse	_	AlignBegin=684880|AlignEnd=685141|Gloss=EVD
-11	[	[	PUNCT	_	_	12	punct	_	AlignBegin=685141|AlignEnd=685261|Gloss=PUNCT
-12	yǎː	yǎː	ADV	_	PronType=Int	0	root	_	AlignBegin=685261|AlignEnd=685381|Gloss=how
-13	Gápsi	Gápsi	PROPN	_	_	12	comp:cleft	_	AlignBegin=685381|AlignEnd=685501|Gloss=Gapsi
-14	?//]	?//]	PUNCT	_	_	12	punct	_	AlignBegin=685501|AlignEnd=685621|Gloss=PUNCT
-15	//	//	PUNCT	_	_	12	punct	_	AlignBegin=685621|AlignEnd=685739|Gloss=PUNCT
+10	wéy	wéy	PART	_	Mood=Qot	11	discourse	_	AlignBegin=684880|AlignEnd=685141|Gloss=EVD
+11	yǎː	yǎː	ADV	_	PronType=Int	0	root	_	AlignBegin=685261|AlignEnd=685381|Gloss=how
+12	Gápsi	Gápsi	PROPN	_	_	11	comp:cleft	_	AlignBegin=685381|AlignEnd=685501|Gloss=Gapsi
+13	?//	?//	PUNCT	_	_	11	punct	_	AlignBegin=685501|AlignEnd=685621|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_708-709
 # speaker_id = SP1
@@ -7522,7 +7520,7 @@
 # text_en =  Ladi, with Ladi all of them we hit the road and left and left Ɗyandi.
 1	Làːdí	Làːdí	PROPN	_	_	8	dislocated@top	_	AlignBegin=869708|AlignEnd=869861|Gloss=Ladi
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=869861|AlignEnd=870014|Gloss=PUNCT
-3	tə́	tə́	ADP	_	_	8	dislocated@mod	_	AlignBegin=870014|AlignEnd=870167|Gloss=with
+3	tə́	tə́	ADP	_	_	8	dislocated@top	_	AlignBegin=870014|AlignEnd=870167|Gloss=with
 4	Làːdí	Làːdí	PROPN	_	_	3	comp:obj	_	AlignBegin=870167|AlignEnd=870320|Gloss=Ladi
 5	bét	bét	ADV	_	_	4	conj:appos	_	AlignBegin=870320|AlignEnd=870396|Gloss=all
 6	=wâːsə̀n	=waːsən	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	5	mod@poss	_	AlignBegin=870396|AlignEnd=870473|Gloss=3PL.POS
