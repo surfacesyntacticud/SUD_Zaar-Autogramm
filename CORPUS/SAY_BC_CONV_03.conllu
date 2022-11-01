@@ -1136,9 +1136,9 @@
 # text_ortho = mətáyáː səːtkə vìː //
 # text_en =  I have been advising you.
 1	mətáyáː	átâyáː	AUX	_	Aspect=Imp|Number=Sing|Person=1|Tense=Rem	0	root	_	AlignBegin=174547|AlignEnd=174763|Gloss=1SG.ICPL.REM
-2	səːt	səːt	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=174763|AlignEnd=174871|Gloss=advise
+2	səːt	səːt	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=174763|AlignEnd=174871|Gloss=advise|Idiom=Yes
 3	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	comp:ben	_	AlignBegin=174871|AlignEnd=174979|Gloss=2SG.OBJ
-4	vìː	vìː	NOUN	_	_	2	comp:obj	_	AlignBegin=174979|AlignEnd=175195|Gloss=mouth
+4	vìː	vìː	NOUN	_	_	2	comp:obj@lvc	_	AlignBegin=174979|AlignEnd=175195|Gloss=mouth|InIdiom=Yes
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=175195|AlignEnd=175412|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_158-159
@@ -3867,8 +3867,8 @@
 13	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	16	parataxis@mod	_	AlignBegin=472799|AlignEnd=472883|Gloss=3SG.COND
 14	rigé	rigéː	VERB	_	VerbForm=Fin	13	comp:aux	_	AlignBegin=472883|AlignEnd=472967|Gloss=already|SVC=Yes
 15	oː	oː	PART	_	PartType=Emp	13	discourse	_	AlignBegin=472967|AlignEnd=473051|Gloss=EMPH
-16	wul	wul	VERB	_	VerbForm=Fin	0	root	_	AlignBegin=473286|AlignEnd=473491|Gloss=say
-17	vèːʃíː	vìː	NOUN	_	Aspect=Res|Deixis=Med	16	comp:obj	_	AlignBegin=473491|AlignEnd=473696|Gloss=mouth
+16	wul	wul	VERB	_	VerbForm=Fin	0	root	_	AlignBegin=473286|AlignEnd=473491|Gloss=say|Idiom=Yes
+17	vèːʃíː	vìː	NOUN	_	Aspect=Res|Deixis=Med	16	comp:obj@lvc	_	AlignBegin=473491|AlignEnd=473696|Gloss=mouth|InIdiom=Yes
 18	//	//	PUNCT	_	_	16	punct	_	AlignBegin=473696|AlignEnd=473901|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_482-483
@@ -4268,8 +4268,8 @@
 4	yísə́n	yisə́n	VERB	_	VerbForm=Fin	3	comp:aux	_	AlignBegin=514798|AlignEnd=514995|Gloss=know
 5	ɗan	ɗan	SCONJ	_	_	13	mod	_	AlignBegin=514995|AlignEnd=515192|Gloss=as
 6	myáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=1	5	comp:obj	_	AlignBegin=515192|AlignEnd=515389|Gloss=1SG.COND
-7	vaː	vaː	VERB	_	VerbForm=Fin	6	comp:aux	_	AlignBegin=515389|AlignEnd=515586|Gloss=be_hot
-8	vìː	vìː	NOUN	_	_	7	comp:obj	_	AlignBegin=515586|AlignEnd=515652|Gloss=mouth
+7	vaː	vaː	VERB	_	VerbForm=Fin	6	comp:aux	_	AlignBegin=515389|AlignEnd=515586|Gloss=be_hot|Idiom=Yes
+8	vìː	vìː	NOUN	_	_	7	comp:obj@lvc	_	AlignBegin=515586|AlignEnd=515652|Gloss=mouth|InIdiom=Yes
 9	ɣáyín	káy	PRON	_	Case=Ins|Deixis=Prox|Number=Sing|Person=3	7	comp:obl	_	AlignBegin=515652|AlignEnd=515783|Gloss=ANAPH
 10	nə́	nə́	ADP	_	_	7	comp:obl	_	AlignBegin=515783|AlignEnd=515980|Gloss=for
 11	ngəʃínês	ngə́tn	NOUN	_	Deixis=Med	10	comp:obj	_	AlignBegin=515980|AlignEnd=516177|Gloss=thing
@@ -5304,26 +5304,26 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 630136, 635496
-# text = mə wú tu [ myâːn < dzàn gíː < mə́ ɬə̂ Baːr ʧim =kí //= vìː màn ʃiʃí tu wéy [ myâːn >+ myáː ʤáː =kí ʧíɣə̂n mə́n ɗi oː //] //
+# text = mə wú tu [ myâːn < dzàn gíː < mə́ ɬə̂ Baːr ʧim =kí < vìː màn ʃiʃí tu wéy [ myâːn >+ myáː ʤáː =kí ʧíɣə̂n mə́n ɗi oː //] //
 # text_ortho = mə wú tu [ myâːn < dzàn gíː < mə́ ɬə̂ Baːr ʧimkí < vìː màn ʃiʃí tu wéy [ myâːm >+ myáː ʤáːkí ʧíkə̂n mə́nɗyoː //] //
 # text_en =  I said "Me, that day I went to Bar with you,  the story came out that it was me who caused your defeat."
 1	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	0	root	_	AlignBegin=630136|AlignEnd=630221|Gloss=1SG.AOR
 2	wú	wul	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=630221|AlignEnd=630306|Gloss=say
 3	tu	tu	SCONJ	_	Mood=Qot	2	comp:obj	_	AlignBegin=630306|AlignEnd=630391|Gloss=OPN
-4	[	[	PUNCT	_	_	10	punct	_	AlignBegin=630391|AlignEnd=630476|Gloss=PUNCT
-5	myâːn	myáːni	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	dislocated@subj	_	AlignBegin=630476|AlignEnd=630676|Gloss=1SG
+4	[	[	PUNCT	_	_	17	punct	_	AlignBegin=630391|AlignEnd=630476|Gloss=PUNCT
+5	myâːn	myáːni	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	dislocated@subj	_	AlignBegin=630476|AlignEnd=630676|Gloss=1SG
 6	<	<	PUNCT	_	_	7	punct	_	AlignBegin=630676|AlignEnd=630876|Gloss=PUNCT
-7	dzàn	dzàn	NOUN	_	_	10	mod	_	AlignBegin=631342|AlignEnd=631466|Gloss=day
+7	dzàn	dzàn	NOUN	_	_	17	mod	_	AlignBegin=631342|AlignEnd=631466|Gloss=day
 8	gíː	gíː	DET	_	Deixis=Remt|PronType=Dem	7	det	_	AlignBegin=631466|AlignEnd=631590|Gloss=DIST
 9	<	<	PUNCT	_	_	7	punct	_	AlignBegin=631590|AlignEnd=631714|Gloss=PUNCT
-10	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	3	comp:obj	_	AlignBegin=631714|AlignEnd=631838|Gloss=1PL.AOR
+10	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	17	parataxis@mod	_	AlignBegin=631714|AlignEnd=631838|Gloss=1PL.AOR
 11	ɬə̂	ɬə	VERB	_	VerbForm=Fin	10	comp:aux	_	AlignBegin=631838|AlignEnd=631962|Gloss=go
 12	Baːr	Baːr	PROPN	_	_	11	comp:goal	_	AlignBegin=631962|AlignEnd=632206|Gloss=Bar
 13	ʧim	ʧim	ADP	_	_	11	comp:obl	_	AlignBegin=632206|AlignEnd=632328|Gloss=with
 14	=kí	=kí	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	13	comp:obj	_	AlignBegin=632328|AlignEnd=632450|Gloss=2PL.OBJ
-15	//=	//=	PUNCT	_	_	17	punct	_	AlignBegin=632450|AlignEnd=632694|Gloss=PUNCT
+15	<	<	PUNCT	_	_	10	punct	_	AlignBegin=632450|AlignEnd=632694|Gloss=PUNCT
 16	vìː	vìː	NOUN	_	_	17	subj	_	AlignBegin=633494|AlignEnd=633739|Gloss=mouth
-17	màn	man	VERB	_	VerbForm=Fin	10	parataxis@conj	_	AlignBegin=633739|AlignEnd=633984|Gloss=come|SVC=Yes
+17	màn	man	VERB	_	VerbForm=Fin	3	comp:obj	_	AlignBegin=633739|AlignEnd=633984|Gloss=come|SVC=Yes
 18	ʃiʃí	ʃiʃí	VERB	_	VerbForm=Fin	17	compound:svc	_	AlignBegin=633984|AlignEnd=634229|Gloss=rise
 19	tu	tu	SCONJ	_	Mood=Qot	16	mod@relcl	_	AlignBegin=634229|AlignEnd=634344|Gloss=OPN
 20	wéy	wéy	PART	_	Mood=Qot	22	discourse	_	AlignBegin=634344|AlignEnd=634459|Gloss=EVD
@@ -5338,7 +5338,7 @@
 29	ɗi	ɗi	PART	_	_	25	compound:prt	_	AlignBegin=635187|AlignEnd=635225|Gloss=CTP
 30	oː	oː	PART	_	PartType=Emp	22	mod	_	AlignBegin=635225|AlignEnd=635264|Gloss=EMPH
 31	//]	//]	PUNCT	_	_	22	punct	_	AlignBegin=635264|AlignEnd=635379|Gloss=PUNCT
-32	//	//	PUNCT	_	_	10	punct	_	AlignBegin=635379|AlignEnd=635496|Gloss=PUNCT
+32	//	//	PUNCT	_	_	17	punct	_	AlignBegin=635379|AlignEnd=635496|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_651-651
 # speaker_id = SP1
@@ -5384,8 +5384,8 @@
 23	ɣəndá	kən	PART	_	VerbType=Cop	20	mod	_	AlignBegin=639551|AlignEnd=639603|Gloss=be
 24	>+	>+	PUNCT	_	_	25	punct	_	AlignBegin=639603|AlignEnd=639759|Gloss=PUNCT
 25	tə̀tà	átâ	AUX	_	Number=Plur|Person=3|Tense=Rem	20	comp:cleft	_	AlignBegin=639759|AlignEnd=639915|Gloss=3PL.REM
-26	wul	wul	VERB	_	VerbForm=Fin	25	comp:aux	_	AlignBegin=639915|AlignEnd=640071|Gloss=say
-27	vìː	vìː	NOUN	_	_	26	comp:obj	_	AlignBegin=640071|AlignEnd=640227|Gloss=mouth
+26	wul	wul	VERB	_	VerbForm=Fin	25	comp:aux	_	AlignBegin=639915|AlignEnd=640071|Gloss=say|Idiom=Yes
+27	vìː	vìː	NOUN	_	_	26	comp:obj@lvc	_	AlignBegin=640071|AlignEnd=640227|Gloss=mouth|InIdiom=Yes
 28	gíː	gíː	DET	_	Deixis=Remt|PronType=Dem	27	det	_	AlignBegin=640227|AlignEnd=640383|Gloss=DIST
 29	hŋ́	hŋ́	PART	_	Polarity=Neg	20	mod	_	AlignBegin=640383|AlignEnd=640539|Gloss=NEG
 30	//]	//]	PUNCT	_	_	20	punct	_	AlignBegin=640539|AlignEnd=640695|Gloss=PUNCT
@@ -5401,8 +5401,8 @@
 1	máː	máː	PART	_	_	7	discourse	_	AlignBegin=641690|AlignEnd=641858|Gloss=even
 2	dàːsóːɗa	dàːsóːɗa	PRON	_	PronType=Rel	7	subj	_	AlignBegin=641858|AlignEnd=642026|Gloss=the_one_who
 3	átâ	átâ	AUX	_	Number=Sing|Person=3|Tense=Rem	2	mod@relcl	_	AlignBegin=642026|AlignEnd=642194|Gloss=3SG.REM
-4	wul	wul	VERB	_	VerbForm=Fin	3	comp:aux	_	AlignBegin=642194|AlignEnd=642362|Gloss=say
-5	vèːs	vìː	NOUN	_	_	4	comp:obj	_	AlignBegin=642362|AlignEnd=642530|Gloss=mouth
+4	wul	wul	VERB	_	VerbForm=Fin	3	comp:aux	_	AlignBegin=642194|AlignEnd=642362|Gloss=say|Idiom=Yes
+5	vèːs	vìː	NOUN	_	_	4	comp:obj@lvc	_	AlignBegin=642362|AlignEnd=642530|Gloss=mouth|InIdiom=Yes
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=642530|AlignEnd=642696|Gloss=PUNCT
 7	nə	nə	PART	_	VerbType=Cop	0	root	_	AlignBegin=642696|AlignEnd=642859|Gloss=be
 8	Zəgì	Zəgì	PROPN	_	_	7	comp:pred	_	AlignBegin=642859|AlignEnd=642941|Gloss=Ziggy
@@ -5667,8 +5667,8 @@
 8	wupsə	wupsə	NUM	_	_	6	det	_	AlignBegin=676087|AlignEnd=676304|Gloss=four
 9	bàː	bàː	PART	_	Polarity=Neg	10	mod	_	AlignBegin=676924|AlignEnd=677063|Gloss=NEG
 10	máː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=1	5	parataxis@mod	_	AlignBegin=677063|AlignEnd=677202|Gloss=1SG.CPL
-11	wul	wul	VERB	_	VerbForm=Fin	10	comp:aux	_	AlignBegin=677202|AlignEnd=677341|Gloss=say
-12	vìː	vìː	NOUN	_	_	11	comp:obj	_	AlignBegin=677341|AlignEnd=677480|Gloss=mouth
+11	wul	wul	VERB	_	VerbForm=Fin	10	comp:aux	_	AlignBegin=677202|AlignEnd=677341|Gloss=say|Idiom=Yes
+12	vìː	vìː	NOUN	_	_	11	comp:obj@lvc	_	AlignBegin=677341|AlignEnd=677480|Gloss=mouth|InIdiom=Yes
 13	tə́	tə́	ADP	_	_	11	comp:obl	_	AlignBegin=677480|AlignEnd=677619|Gloss=with
 14	Zəgès	Zəgì	PROPN	_	_	13	comp:obj	_	AlignBegin=677619|AlignEnd=677711|Gloss=Ziggy
 15	ə̌n	hŋ́	PART	_	Polarity=Neg	11	mod	_	AlignBegin=677711|AlignEnd=677758|Gloss=NEG
