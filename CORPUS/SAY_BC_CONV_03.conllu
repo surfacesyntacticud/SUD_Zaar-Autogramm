@@ -6333,16 +6333,16 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 745025, 745799
-# text = Gôː || Gôː >+ ke nan !//
-# text_ortho = Gôː |r Gôː >+ ke nan !//
+# text = Gôː < Gôː >+ ke nan !//
+# text_ortho = Gôː < Gôː >+ ke nan !//
 # text_en =  <That's> Go(diya)!
-1	Gôː	Gôː	PROPN	_	_	0	root	_	AlignBegin=745025|AlignEnd=745136|Gloss=Godiya
-2	|r	|r	PUNCT	_	_	3	punct	_	AlignBegin=745136|AlignEnd=745247|Gloss=PUNCT
-3	Gôː	Gôː	PROPN	_	_	1	conj:redup	_	AlignBegin=745247|AlignEnd=745358|Gloss=Godiya
+1	Gôː	Gôː	PROPN	_	_	3	dislocated@top	_	AlignBegin=745025|AlignEnd=745136|Gloss=Godiya
+2	<	<	PUNCT	_	_	3	punct	_	AlignBegin=745136|AlignEnd=745247|Gloss=PUNCT
+3	Gôː	Gôː	PROPN	_	_	0	root	_	AlignBegin=745247|AlignEnd=745358|Gloss=Godiya
 4	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=745358|AlignEnd=745469|Gloss=PUNCT
-5	ke	ke	PART	_	Foreign=Yes	1	comp:cleft	_	AlignBegin=745469|AlignEnd=745580|Gloss=be|Lang=hau
+5	ke	ke	PART	_	Foreign=Yes	3	comp:cleft	_	AlignBegin=745469|AlignEnd=745580|Gloss=be|Lang=hau
 6	nan	nan	ADV	_	Foreign=Yes|PronType=Dem	5	flat:foreign	_	AlignBegin=745580|AlignEnd=745691|Gloss=there|Lang=hau
-7	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=745691|AlignEnd=745799|Gloss=PUNCT
+7	!//	!//	PUNCT	_	_	3	punct	_	AlignBegin=745691|AlignEnd=745799|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_775-775
 # speaker_id = SP2
