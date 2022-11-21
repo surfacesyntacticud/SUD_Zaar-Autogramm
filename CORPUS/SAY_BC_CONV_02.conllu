@@ -130,8 +130,8 @@
 # text_en =  Well, as for Momi's mother, when she comes back,  what she does,  is to teach children in school.
 1	tòː	tòː	PART	_	_	12	discourse	_	AlignBegin=19035|AlignEnd=19177|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=19177|AlignEnd=19319|Gloss=PUNCT
-3	mǎːm	maːm	NOUN	_	Definite=Cons	12	dislocated@top	_	AlignBegin=19942|AlignEnd=20048|Gloss=mum
-4	Móːmi	Móːmi	PROPN	_	_	3	compound	_	AlignBegin=20154|AlignEnd=20366|Gloss=Momi
+3	Mǎːm	Maːm	PROPN	_	_	12	dislocated@top	_	AlignBegin=19942|AlignEnd=20048|Gloss=mum
+4	Móːmi	Móːmi	PROPN	_	_	3	flat:name	_	AlignBegin=20154|AlignEnd=20366|Gloss=Momi
 5	kúmá	kúmá	PART	_	_	3	discourse	_	AlignBegin=20366|AlignEnd=20578|Gloss=also
 6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=20578|AlignEnd=20791|Gloss=PUNCT
 7	ɮàm	ɮam	VERB	_	VerbForm=Fin	12	parataxis@mod	_	AlignBegin=20791|AlignEnd=20949|Gloss=return
@@ -235,7 +235,7 @@
 16	kə́ːm	kə́ːm	VERB	_	VerbForm=Fin	15	comp:aux	_	AlignBegin=36447|AlignEnd=36633|Gloss=be_able|SVC=Yes
 17	ma	wò	AUX	_	Number=Sing|Person=1|Tense=Fut	15	compound:svc	_	AlignBegin=36633|AlignEnd=36819|Gloss=1SG.FUT
 18	ɬə	ɬə	VERB	_	VerbForm=Fin	17	comp:aux	_	AlignBegin=36819|AlignEnd=37005|Gloss=go
-19	ɗa	ɗa	ADP	_	_	18	comp:goal	_	AlignBegin=37005|AlignEnd=37191|Gloss=at
+19	ɗa	ɗa	ADP	_	_	18	comp:obl	_	AlignBegin=37005|AlignEnd=37191|Gloss=at
 20	námʧi	námtsə	NOUN	_	Definite=Ind	19	comp:obj	_	AlignBegin=37191|AlignEnd=37284|Gloss=bush
 21	hŋ́	hŋ́	PART	_	Polarity=Neg	15	mod	_	AlignBegin=37377|AlignEnd=37563|Gloss=NEG
 22	//	//	PUNCT	_	_	15	punct	_	AlignBegin=37563|AlignEnd=37747|Gloss=PUNCT
@@ -252,7 +252,7 @@
 3	kàlàːʧi	kàlàːʧi	NOUN	_	_	4	mod	_	AlignBegin=38805|AlignEnd=39176|Gloss=breakfast
 4	ma	wò	AUX	_	Number=Sing|Person=1|Tense=Fut	0	root	_	AlignBegin=39176|AlignEnd=39547|Gloss=1SG.FUT
 5	naː	naː	VERB	_	VerbForm=Fin	4	comp:aux	_	AlignBegin=39547|AlignEnd=39733|Gloss=remain
-6	ɣáy	káy	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	5	comp:loc	_	AlignBegin=39733|AlignEnd=39918|Gloss=ANAPH
+6	ɣáy	káy	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	5	comp:obl	_	AlignBegin=39733|AlignEnd=39918|Gloss=ANAPH
 7	hár	hár	ADP	_	_	5	mod	_	AlignBegin=39918|AlignEnd=40111|Gloss=up_to
 8	dzàn	dzàn	NOUN	_	_	9	subj	_	AlignBegin=40111|AlignEnd=40304|Gloss=day
 9	dap	dap	VERB	_	VerbForm=Fin	7	comp:obj	_	AlignBegin=40304|AlignEnd=40497|Gloss=follow|SVC=Yes
@@ -417,27 +417,25 @@
 # text = tôː ʧíː nə gə́tn tá < má ɲôm gyáː ŋaː ngə́r wón ɗan mə́ yǐr mə́ tâː =ʃí //
 # text_ortho = tôː ʧíː yìni gə́tn tá < má ɲôm gyáː ŋaːːː ngə́r wón ɗan mə́ yǐr mə́ tâːʃí //
 # text_en =  Well, if it had been me, we would have taken a little...  something that we have here, to give them.
-1	tôː	tòː	PART	_	_	8	discourse	_	AlignBegin=64004|AlignEnd=64243|Gloss=well
-2-3	ʧíː	_	_	_	_	_	_	_	_
-2	ʧí	yí	AUX	_	Mood=Irr|Number=Sing|Person=3	8	parataxis@mod	_	AlignBegin=64243|AlignEnd=64393|Gloss=3SG.CTF
-3	yi	yi	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=64393|AlignEnd=64482|Gloss=be
-4	nə	nə	ADP	_	_	3	comp:pred	_	AlignBegin=64582|AlignEnd=64682|Gloss=be
-5	gə́tn	gə̀tn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=64782|AlignEnd=64960|Gloss=3SG.POS
-6	tá	tá	PART	_	_	8	mod	_	AlignBegin=64960|AlignEnd=65199|Gloss=then
-7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=65199|AlignEnd=65436|Gloss=PUNCT
-8	má	wò	AUX	_	Number=Plur|Person=1|Tense=Fut	0	root	_	AlignBegin=65894|AlignEnd=66219|Gloss=1PL.FUT
-9	ɲôm	ɲom	VERB	_	VerbForm=Fin	8	comp:aux	_	AlignBegin=66219|AlignEnd=66544|Gloss=take
-10	gyáː	gyaː	DET	_	Number=Plur	12	det	_	AlignBegin=66544|AlignEnd=66869|Gloss=PL3
-11	ŋaː	ŋaː	ADJ	_	_	12	mod	_	AlignBegin=66869|AlignEnd=67195|Gloss=small
-12	ngə́r	ngə́tn	NOUN	_	_	9	comp:obj	_	AlignBegin=67195|AlignEnd=67478|Gloss=thing
-13	wón	wón	DET	_	Definite=Spec	12	det	_	AlignBegin=67478|AlignEnd=67761|Gloss=QLT
-14	ɗan	ɗan	SCONJ	_	PronType=Rel	12	mod@relcl	_	AlignBegin=67761|AlignEnd=68044|Gloss=REL
-15	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	14	comp:obj	_	AlignBegin=68044|AlignEnd=68327|Gloss=1PL.AOR
-16	yǐr	yír	VERB	_	VerbForm=Fin	15	comp:aux	_	AlignBegin=68327|AlignEnd=68610|Gloss=have
-17	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	9	parataxis@mod	_	AlignBegin=68610|AlignEnd=68893|Gloss=1PL.AOR
-18	tâː	taː	VERB	_	VerbForm=Fin	17	comp:aux	_	AlignBegin=68893|AlignEnd=69035|Gloss=give
-19	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	18	mod	_	AlignBegin=69035|AlignEnd=69176|Gloss=3PL.OBJ
-20	//	//	PUNCT	_	_	8	punct	_	AlignBegin=69176|AlignEnd=69462|Gloss=PUNCT
+1	tôː	tòː	PART	_	_	7	discourse	_	AlignBegin=64004|AlignEnd=64243|Gloss=well
+2	ʧíyí	yí	AUX	_	Mood=Irr|Number=Sing|Person=3	7	parataxis@mod	_	AlignBegin=64243|AlignEnd=64393|Gloss=3SG.CTF
+3	nə	nə	PART	_	_	2	comp:aux	_	AlignBegin=64582|AlignEnd=64682|Gloss=be
+4	gə́tn	gə̀tn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=64782|AlignEnd=64960|Gloss=3SG.POS
+5	tá	tá	PART	_	_	7	mod	_	AlignBegin=64960|AlignEnd=65199|Gloss=then
+6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=65199|AlignEnd=65436|Gloss=PUNCT
+7	má	wò	AUX	_	Number=Plur|Person=1|Tense=Fut	0	root	_	AlignBegin=65894|AlignEnd=66219|Gloss=1PL.FUT
+8	ɲôm	ɲom	VERB	_	VerbForm=Fin	7	comp:aux	_	AlignBegin=66219|AlignEnd=66544|Gloss=take
+9	gyáː	gyaː	DET	_	Number=Plur	11	det	_	AlignBegin=66544|AlignEnd=66869|Gloss=PL3
+10	ŋaː	ŋaː	ADJ	_	_	11	mod	_	AlignBegin=66869|AlignEnd=67195|Gloss=small
+11	ngə́r	ngə́tn	NOUN	_	_	8	comp:obj	_	AlignBegin=67195|AlignEnd=67478|Gloss=thing
+12	wón	wón	DET	_	Definite=Spec	11	det	_	AlignBegin=67478|AlignEnd=67761|Gloss=QLT
+13	ɗan	ɗan	SCONJ	_	PronType=Rel	11	mod@relcl	_	AlignBegin=67761|AlignEnd=68044|Gloss=REL
+14	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	13	comp:obj	_	AlignBegin=68044|AlignEnd=68327|Gloss=1PL.AOR
+15	yǐr	yír	VERB	_	VerbForm=Fin	14	comp:aux	_	AlignBegin=68327|AlignEnd=68610|Gloss=have
+16	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	8	parataxis@mod	_	AlignBegin=68610|AlignEnd=68893|Gloss=1PL.AOR
+17	tâː	taː	VERB	_	VerbForm=Fin	16	comp:aux	_	AlignBegin=68893|AlignEnd=69035|Gloss=give
+18	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	mod	_	AlignBegin=69035|AlignEnd=69176|Gloss=3PL.OBJ
+19	//	//	PUNCT	_	_	7	punct	_	AlignBegin=69176|AlignEnd=69462|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_055-056
 # speaker_id = SP2
@@ -785,7 +783,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 117293, 120892
-# text = tá dzàn gón < tá kúnês wò ɬə́ wul ɗaː =ʃí tu mə́ fí =tə̀ wuríː ɗúːni ɣoː eː //?
+# text = tá dzàn gón < tá kúnês wò ɬə́ wul ɗaː =ʃí tu mə́ fí =tə̀ wuríː ɗúːni ɣoː eː ?//
 # text_ortho = tá dzàn gón < tá kúnês wò ɬə́ wul ɗaːʃí tu mə́ fítə̀ wuríː ɗúːni ɣweː ?//
 # text_en =  Then one day, the boy will go and talk to his people, and say how did we treat him here?
 1	tá	tá	PART	_	_	7	mod	_	AlignBegin=117293|AlignEnd=117462|Gloss=then
@@ -807,7 +805,7 @@
 17	ɗúːni	ɗúːni	ADV	_	PronType=Dem	14	mod	_	AlignBegin=120242|AlignEnd=120459|Gloss=here
 18	ɣoː	koː	CCONJ	_	_	14	discourse	_	AlignBegin=120459|AlignEnd=120676|Gloss=or
 19	eː	eː	PART	_	PartType=Int	14	mod	_	AlignBegin=120676|AlignEnd=120892|Gloss=Q
-20	//?	//?	PUNCT	_	_	7	punct	_	AlignBegin=120892|AlignEnd=120892|Gloss=PUNCT
+20	?//	?//	PUNCT	_	_	7	punct	_	AlignBegin=120892|AlignEnd=120892|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_094-094
 # speaker_id = SP2
@@ -2165,7 +2163,7 @@
 13	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	9	parataxis@conj	_	AlignBegin=303891|AlignEnd=304115|Gloss=1PL.AOR
 14	ɬən	ɬə	VERB	_	Number=Plur|VerbForm=Fin	13	comp:aux	_	AlignBegin=304115|AlignEnd=304190|Gloss=go.PL
 15	ni	ni	PART	_	Aspect=Inch	14	compound:prt	_	AlignBegin=304190|AlignEnd=304265|Gloss=INCH
-16	ɗa	ɗa	ADP	_	_	14	comp:goal	_	AlignBegin=304339|AlignEnd=304563|Gloss=at
+16	ɗa	ɗa	ADP	_	_	14	comp:obl	_	AlignBegin=304339|AlignEnd=304563|Gloss=at
 17	ŋálɣə́nì	ŋal	VERB	_	VerbForm=Vnoun	16	comp:obj	_	AlignBegin=304563|AlignEnd=304675|ExtPos=NOUN|Gloss=look_for
 18	ŋâː	ŋâː	PART	_	PartType=Int	9	mod	_	AlignBegin=304787|AlignEnd=305011|Gloss=Q
 19	?//	?//	PUNCT	_	_	9	punct	_	AlignBegin=305011|AlignEnd=305236|Gloss=PUNCT
@@ -2179,7 +2177,7 @@
 # text_en =  We went to fetch water and pour it into the cooking pot to cook some tuwo for the children.
 1	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=306093|AlignEnd=306293|Gloss=1PL.AOR
 2	ɬǐː	ɬə	VERB	_	Aspect=Res|VerbForm=Fin	1	comp:aux	_	AlignBegin=306293|AlignEnd=306393|Gloss=go.RES
-3	nə́	nə́	ADP	_	_	2	comp:goal	_	AlignBegin=306493|AlignEnd=306693|Gloss=for
+3	nə́	nə́	ADP	_	_	2	comp:obl	_	AlignBegin=306493|AlignEnd=306693|Gloss=for
 4	ʒà	ʒà	NOUN	_	_	5	udep	_	AlignBegin=306693|AlignEnd=306893|Gloss=water
 5	ŋálɣə́nì	ŋal	VERB	_	VerbForm=Vnoun	3	comp:obj	_	AlignBegin=306893|AlignEnd=306993|ExtPos=NOUN|Gloss=look_for.NMLZ
 6	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	1	parataxis@mod	_	AlignBegin=307296|AlignEnd=307469|Gloss=1PL.SUB
@@ -2224,7 +2222,7 @@
 # text_en =  Let's go and fetch  water, quite.
 1	má	wò	AUX	_	Number=Plur|Person=1|Tense=Fut	0	root	_	AlignBegin=305561|AlignEnd=305756|Gloss=1PL.FUT
 2	ɬǐː	ɬə	VERB	_	Aspect=Res|VerbForm=Fin	1	comp:aux	_	AlignBegin=305756|AlignEnd=305854|Gloss=go.RES
-3	ɗa	ɗa	ADP	_	_	2	comp:goal	_	AlignBegin=305951|AlignEnd=306146|Gloss=at
+3	ɗa	ɗa	ADP	_	_	2	comp:obl	_	AlignBegin=305951|AlignEnd=306146|Gloss=at
 4	ŋálɣə́nì	ŋal	VERB	_	VerbForm=Fin	3	comp:obj	_	AlignBegin=306146|AlignEnd=306244|Gloss=look_for.NMLZ
 5	>	>	PUNCT	_	_	6	punct	_	AlignBegin=306341|AlignEnd=306536|Gloss=PUNCT
 6	sòːséy	sòːséy	ADV	_	_	1	discourse	_	AlignBegin=313613|AlignEnd=313899|Gloss=quite
@@ -2293,7 +2291,7 @@
 2	kòk	kok	VERB	_	VerbForm=Fin	1	comp:obj	_	AlignBegin=324974|AlignEnd=325194|Gloss=branch_off
 3	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	1	parataxis@conj	_	AlignBegin=325194|AlignEnd=325414|Gloss=1PL.SUB
 4	ʃìː	ʃiː	VERB	_	VerbForm=Fin	3	comp:aux	_	AlignBegin=325414|AlignEnd=325634|Gloss=get_down
-5	ɗòː	ɗôː	ADV	_	PronType=Int	4	comp:goal	_	AlignBegin=325634|AlignEnd=325854|Gloss=where
+5	ɗòː	ɗôː	ADV	_	PronType=Int	4	comp:obl	_	AlignBegin=325634|AlignEnd=325854|Gloss=where
 6	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=325854|AlignEnd=326076|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_261-262
@@ -2554,7 +2552,7 @@
 1	tôː	tòː	PART	_	_	2	mod	_	AlignBegin=375472|AlignEnd=375699|Gloss=well
 2	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=375699|AlignEnd=375926|Gloss=1PL.AOR
 3	ɬǐː	ɬə	VERB	_	Aspect=Res|VerbForm=Fin	2	comp:aux	_	AlignBegin=375926|AlignEnd=376040|Gloss=go.RES
-4	nə́	nə́	ADP	_	_	3	comp:goal	_	AlignBegin=376153|AlignEnd=376380|Gloss=for
+4	nə́	nə́	ADP	_	_	3	comp:obl	_	AlignBegin=376153|AlignEnd=376380|Gloss=for
 5	ŋamtsə́	ŋamtsə́	NOUN	_	_	6	udep	_	AlignBegin=376380|AlignEnd=376607|Gloss=wood
 6	nátkə̂n	nat	VERB	_	VerbForm=Vnoun	4	comp:obj	_	AlignBegin=376607|AlignEnd=376721|ExtPos=NOUN|Gloss=tie.NMLZ
 7	námtsə	námtsə	NOUN	_	_	3	comp:goal	_	AlignBegin=376834|AlignEnd=377061|Gloss=bush
@@ -2872,7 +2870,7 @@
 19	su	su	VERB	_	VerbForm=Fin	18	compound:svc	_	AlignBegin=417810|AlignEnd=417902|Gloss=return
 20	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	19	comp:obj	_	AlignBegin=417902|AlignEnd=417995|Gloss=1PL.OBJ
 21	námtsə	námtsə	NOUN	_	_	19	comp:goal	_	AlignBegin=417995|AlignEnd=418180|Gloss=bush
-22	ɗáni	ɗáni	ADV	_	PronType=Dem	19	comp:loc	_	AlignBegin=418180|AlignEnd=418365|Gloss=there
+22	ɗáni	ɗáni	ADV	_	PronType=Dem	21	conj:appos	_	AlignBegin=418180|AlignEnd=418365|Gloss=there
 23	//	//	PUNCT	_	_	5	punct	_	AlignBegin=418550|AlignEnd=418738|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_328-328
@@ -2888,7 +2886,7 @@
 4	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	comp:obj	_	AlignBegin=418524|AlignEnd=418602|Gloss=1PL.OBJ
 5	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	1	parataxis@conj	_	AlignBegin=418602|AlignEnd=418758|Gloss=1PL.AOR
 6	ɬə́	ɬə	VERB	_	VerbForm=Fin	5	comp:aux	_	AlignBegin=418914|AlignEnd=419070|Gloss=go
-7	nə́	nə́	ADP	_	_	6	comp:goal	_	AlignBegin=419070|AlignEnd=419226|Gloss=for
+7	nə́	nə́	ADP	_	_	6	comp:obl	_	AlignBegin=419070|AlignEnd=419226|Gloss=for
 8	ŋamtsə́	ŋamtsə́	NOUN	_	_	7	comp:obj	_	AlignBegin=419226|AlignEnd=419382|Gloss=wood
 9	ɗa	ɗa	PART	_	_	6	compound:prt	_	AlignBegin=419382|AlignEnd=419538|Gloss=again
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=419538|AlignEnd=419689|Gloss=PUNCT
@@ -3334,7 +3332,7 @@
 # text_en =  They sit in the parlour or outside.
 1	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=479156|AlignEnd=479363|Gloss=3PL.AOR
 2	tsə̌tn	tsə́tn	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=479363|AlignEnd=479570|Gloss=sit
-3	gìp	gìp	ADP	_	_	2	comp:loc	_	AlignBegin=479570|AlignEnd=479777|Gloss=inside
+3	gìp	gìp	ADP	_	_	2	comp:obl	_	AlignBegin=479570|AlignEnd=479777|Gloss=inside
 4	balɣám	balkám	NOUN	_	_	3	comp:obj	_	AlignBegin=479777|AlignEnd=479984|Gloss=parlour
 5	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=479984|AlignEnd=480190|Gloss=PUNCT
 6	kóː	kóː	CCONJ	_	_	7	cc	_	AlignBegin=480190|AlignEnd=480362|Gloss=or
