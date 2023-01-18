@@ -382,7 +382,7 @@
 12	yâːn	yâːn	SCONJ	_	_	38	mod	_	AlignBegin=69861|AlignEnd=70011|Gloss=if
 13	zaːr	zaːr	NOUN	_	_	14	subj@subj	_	AlignBegin=70011|AlignEnd=70161|Gloss=human
 14-15	ʧi	_	_	_	_	_	_	_	_
-14	tə	tə	PRON	_	Number=Sing|Person=3|PronType=Prs|Aspect=Aor	12	comp:obj	_	AlignBegin=70161|AlignEnd=70311|Gloss=3SG
+14	tə	tə	PRON	_	Number=Sing|Person=3|PronType=Prs|Aspect=Aor	12	comp:obj	_	AlignBegin=70161|AlignEnd=70311|Gloss=3SG.AOR
 15	yi	yi	VERB	_	_	14	comp:aux	_	Gloss=be|AlignBegin=70161|AlignEnd=70311
 16	tə́	tə́	ADP	_	_	15	comp:pred	_	AlignBegin=70311|AlignEnd=70461|Gloss=with
 17	ʃíːri	ʃíːri	NOUN	_	_	16	comp:obj	_	AlignBegin=70461|AlignEnd=70611|Gloss=preparation
@@ -1027,13 +1027,15 @@
 13	teː	teː	ADP	_	_	11	conj:dicto	_	AlignBegin=160043|AlignEnd=160225|Gloss=at
 14	yǎːɬ	yaːɬ	NOUN	_	Definite=Cons	13	comp:obj	_	AlignBegin=160225|AlignEnd=160406|Gloss=earth
 15	Saknsə́	Saknsə́	PROPN	_	_	14	mod@poss	_	AlignBegin=160406|AlignEnd=160583|Gloss=Saɣnsạ
-16	teː	teː	ADP	_	_	13	conj:dicto	_	AlignBegin=160583|AlignEnd=160760|Gloss=at
+16	teː	teː	ADP	_	_	15	mod	_	AlignBegin=160583|AlignEnd=160760|Gloss=at
 17	gíː	gíː	PRON	_	PronType=Dem	16	comp:obj	_	AlignBegin=160760|AlignEnd=160937|Gloss=DIST
-18	ɗan	ɗan	SCONJ	_	PronType=Rel	17	mod	_	AlignBegin=160937|AlignEnd=161114|Gloss=REL
-19	ʧì	ʧì	PRON	_	Number=Plur|Person=3|PronType=Prs	20	subj	_	AlignBegin=161114|AlignEnd=161291|Gloss=3PL
-20	teː	teː	ADP	_	_	18	comp:obj	_	AlignBegin=161291|AlignEnd=161468|Gloss=at
-21	Púʤì	Púʤì	PROPN	_	_	20	comp:obj	_	AlignBegin=161468|AlignEnd=161645|Gloss=Tafawa_Balewa
-22	//	//	PUNCT	_	_	6	punct	_	AlignBegin=161645|AlignEnd=161822|Gloss=PUNCT
+18	ɗan	ɗan	SCONJ	_	PronType=Rel	15	mod@relcl	_	AlignBegin=160937|AlignEnd=161114|Gloss=REL
+19-20	ʧì	_	_	_	_	_	_	_	_
+19	tə̀	tə̀	PRON	_	Number=Plur|Person=3|PronType=Prs|Aspect=Aor	18	comp:obj	_	AlignBegin=161114|AlignEnd=161291|Gloss=3PL.AOR
+20	yi	yi	VERB	_	_	19	comp:aux	_	Gloss=be|AlignBegin=161114|AlignEnd=161291
+21	teː	teː	ADP	_	_	20	comp:pred	_	AlignBegin=161291|AlignEnd=161468|Gloss=at
+22	Púʤì	Púʤì	PROPN	_	_	21	comp:obj	_	AlignBegin=161468|AlignEnd=161645|Gloss=Tafawa_Balewa
+23	//	//	PUNCT	_	_	6	punct	_	AlignBegin=161645|AlignEnd=161822|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_150-150
 # speaker_id = SP1
@@ -1259,18 +1261,20 @@
 # text = kə́ yisə́n laː kə́ sə̀yáːsa kúmá < kóːdzàngyóː ʧì ɣá dàtə̂pm //
 # text_ortho = kə́ yísə́n laː kə́ sə̀yáːsa kúmá < kóːdzàngyóː ʧìɣá dàtə̂pm //
 # text_en =  You know the work of politics too, everyday they are on the road.
-1	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	10	parataxis@discourse	_	AlignBegin=188198|AlignEnd=188371|Gloss=2PL.AOR
+1	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	9	parataxis@discourse	_	AlignBegin=188198|AlignEnd=188371|Gloss=2PL.AOR
 2	yisə́n	yisə́n	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=188371|AlignEnd=188544|Gloss=know
-3	laː	laː	NOUN	_	_	2	comp:obj	_	AlignBegin=188544|AlignEnd=188717|Gloss=work
+3	laː	laː	NOUN	_	_	9	dislocated@top	_	AlignBegin=188544|AlignEnd=188717|Gloss=work
 4	kə́	kə́	ADP	_	_	3	mod	_	AlignBegin=188717|AlignEnd=188890|Gloss=of
 5	sə̀yáːsa	sə̀yáːsa	NOUN	_	_	4	comp:obj	_	AlignBegin=188890|AlignEnd=189063|Gloss=politics
-6	kúmá	kúmá	PART	_	_	1	discourse	_	AlignBegin=189063|AlignEnd=189236|Gloss=also
-7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=189236|AlignEnd=189406|Gloss=PUNCT
-8	kóːdzàngyóː	kóːdzàngyóː	ADV	_	_	10	mod	_	AlignBegin=189406|AlignEnd=189638|Gloss=everyday
-9	ʧì	ʧì	PRON	_	Number=Plur|Person=3|PronType=Prs	10	subj	_	AlignBegin=189638|AlignEnd=189750|Gloss=3PL
-10	ɣá	ká	ADP	_	_	0	root	_	AlignBegin=189750|AlignEnd=189870|Gloss=at
-11	dàtə̂pm	dàtə̂pm	NOUN	_	_	10	comp:obj	_	AlignBegin=189870|AlignEnd=190102|Gloss=way
-12	//	//	PUNCT	_	_	10	punct	_	AlignBegin=190102|AlignEnd=190335|Gloss=PUNCT
+6	kúmá	kúmá	PART	_	_	3	discourse	_	AlignBegin=189063|AlignEnd=189236|Gloss=also
+7	<	<	PUNCT	_	_	3	punct	_	AlignBegin=189236|AlignEnd=189406|Gloss=PUNCT
+8	kóːdzàngyóː	kóːdzàngyóː	ADV	_	_	9	mod	_	AlignBegin=189406|AlignEnd=189638|Gloss=everyday
+9-10	ʧì	_	_	_	_	_	_	_	_
+9	tə̀	tə̀	PRON	_	Aspect=Aor|Number=Plur|Person=3|PronType=Prs	0	root	_	AlignBegin=189638|Gloss=3PL.AOR
+10	yi	yi	VERB	_	_	9	comp:aux	_	AlignEnd=189750|Gloss=be
+11	ɣá	ká	ADP	_	_	10	comp:pred	_	AlignBegin=189750|AlignEnd=189870|Gloss=at
+12	dàtə̂pm	dàtə̂pm	NOUN	_	_	11	comp:obj	_	AlignBegin=189870|AlignEnd=190102|Gloss=way
+13	//	//	PUNCT	_	_	9	punct	_	AlignBegin=190102|AlignEnd=190335|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_174-174
 # speaker_id = SP1
