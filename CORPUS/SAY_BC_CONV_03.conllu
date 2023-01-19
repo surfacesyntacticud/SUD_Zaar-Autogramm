@@ -2906,14 +2906,16 @@
 # text = kǎː mə̀tà yi mì ʧím =gə̀ ŋǎːn ?//
 # text_ortho = kǎː mə̀tà yi mì ʧímgə̌ ŋǎːn ?//
 # text_en =  Wasn't I with you ?
-1	kǎː	kǎː	INTJ	_	_	2	discourse	_	AlignBegin=382572|AlignEnd=382708|Gloss=what
-2	mə̀tà	átâ	AUX	_	Number=Plur|Person=1|Tense=Rem	0	root	_	AlignBegin=382708|AlignEnd=382844|Gloss=1PL.REM
-3	yi	yi	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=382844|AlignEnd=382980|Gloss=be
-4	mì	mì	PRON	_	Number=Plur|Person=1|PronType=Prs	3	comp:pred	_	AlignBegin=382980|AlignEnd=383116|Gloss=1PL.SBJ
-5	ʧím	ʧím	CCONJ	_	_	6	cc	_	AlignBegin=383116|AlignEnd=383150|Gloss=with
-6	=gə̀	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	4	conj:coord	_	AlignBegin=383150|AlignEnd=383184|Gloss=2SG.OBJ
-7	ŋǎːn	ŋǎːn	PART	_	PartType=Int|Polarity=Neg	2	mod	_	AlignBegin=383184|AlignEnd=383218|Gloss=Q.NEG
-8	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=383252|AlignEnd=383386|Gloss=PUNCT
+1	kǎː	kǎː	INTJ	_	_	4	discourse	_	AlignBegin=382572|AlignEnd=382708|Gloss=what
+2	mə̀tà	átâ	AUX	_	Number=Plur|Person=1|Tense=Rem	4	mod	_	AlignBegin=382708|AlignEnd=382844|ExtPos=ADV|Gloss=1PL.REM|Idiom=Yes
+3	yi	yi	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=382844|AlignEnd=382980|Gloss=be|InIdiom=Yes
+4-5	mì	_	_	_	_	_	_	_	_
+4	mə̀	mə̀	AUX	_	Aspect=Aor|Number=Plur|Person=1|PronType=Prs	0	root	_	AlignBegin=382980|Gloss=1PL.AOR
+5	yi	yi	VERB	_	_	4	comp:aux	_	AlignEnd=383116|Gloss=be
+6	ʧím	ʧím	ADP	_	_	5	comp:pred	_	AlignBegin=383116|AlignEnd=383150|Gloss=with
+7	=gə̀	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	6	comp:obj	_	AlignBegin=383150|AlignEnd=383184|Gloss=2SG.OBJ
+8	ŋǎːn	ŋǎːn	PART	_	PartType=Int|Polarity=Neg	4	mod	_	AlignBegin=383184|AlignEnd=383218|Gloss=Q.NEG
+9	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=383252|AlignEnd=383386|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_376-378
 # speaker_id = SP2
