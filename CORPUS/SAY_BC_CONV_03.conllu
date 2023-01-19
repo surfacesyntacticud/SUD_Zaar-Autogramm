@@ -4463,8 +4463,8 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 543771, 547692
 # text = wâː ɗùɣə̀nì àː ɓaníː < kóːnúː ʧin gáy || ʧǎː ngelángə̂n |c tə́ lǎːp mərə́ kàːsuwa |r mərə́ kàːsuwa //
-# text_ortho = wâː ɗùkə̀nì àː ɓaníː < kóːnúː ʧin gáːːː || ʧǎː ngelángə̂n |c tə́ lǎːp mərə́ kàːsuwa |c mərə́ kàːsuwa //
-# text_en =  When corn beating has finished,  everybody is...  they are walking around from small market to small market.
+# text_ortho = wâː ɗùkə̀nì àː ɓaníː < kóːnúː ʧin gáy || ʧǎː ngelángə̂n |c tə́ lǎːp mərə́ kàːsuwa |c mərə́ kàːsuwa //
+# text_en =  When corn beating has finished,  everybody is busy, they are walking around from small market to small market.
 1	wâː	wâː	NOUN	_	_	2	udep	_	AlignBegin=543771|AlignEnd=543934|Gloss=guinea_corn
 2	ɗùɣə̀nì	ɗu	VERB	_	VerbForm=Vnoun	3	subj	_	AlignBegin=543934|AlignEnd=544097|ExtPos=NOUN|Gloss=beat
 3	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	7	parataxis@mod	_	AlignBegin=544097|AlignEnd=544260|Gloss=3SG.PERF
@@ -4833,14 +4833,15 @@
 # text = yáːni ɓár áy ʧin góːla //
 # text_ortho = yáːni ɓár áy ʧin góːla //
 # text_en = Him indeed, he is a goal keeper.
-1	yáːni	yáːni	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	dislocated@subj	_	AlignBegin=571231|AlignEnd=571437|Gloss=3SG
+1	yáːni	yáːni	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	dislocated@subj	_	AlignBegin=571231|AlignEnd=571437|Gloss=3SG
 2	ɓár	ɓát	IDEO	_	_	1	discourse	_	AlignBegin=571437|AlignEnd=571643|ExtPos=ADV|Gloss=completely
 3	áy	áy	INTJ	_	_	1	discourse	_	AlignBegin=571643|AlignEnd=571849|Gloss=eh
-4-5	ʧin	_	_	_	_	_	_	_	_
-4	ʧi	ʧi	PRON	_	_	5	subj	_	AlignBegin=571849|AlignEnd=571900|Gloss=3SG
-5	nə	nə	PART	_	_	0	root	_	AlignBegin=571900|AlignEnd=571952|Gloss=be
-6	góːla	góːla	NOUN	_	_	5	comp:pred	_	AlignBegin=572261|AlignEnd=572467|Gloss=goal_keeper
-7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=572467|AlignEnd=572675|Gloss=PUNCT
+4-6	ʧin	_	_	_	_	_	_	_	_
+4	tə	tə	AUX	_	Aspect=Aor|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=571849|Gloss=3SG.AOR
+5	yi	yi	VERB	_	_	4	comp:aux	_	Gloss=be
+6	ni	ni	PART	_	_	5	compound:prt	_	AlignEnd=572261|Gloss=be
+7	góːla	góːla	NOUN	_	_	5	comp:pred	_	AlignBegin=572261|AlignEnd=572467|Gloss=goal_keeper
+8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=572467|AlignEnd=572675|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_587-588
 # speaker_id = SP1
