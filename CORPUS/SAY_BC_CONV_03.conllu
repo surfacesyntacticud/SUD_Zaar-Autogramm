@@ -6905,18 +6905,20 @@
 # text_en =  Well,  (if) indeed you don't have anything, then what made you...
 1	tòː	tòː	PART	_	_	11	discourse	_	AlignBegin=802063|AlignEnd=802181|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=802181|AlignEnd=802300|Gloss=PUNCT
-3	ki	ki	PRON	_	Number=Sing|Person=2|PronType=Prs	4	subj	_	AlignBegin=802500|AlignEnd=802669|Gloss=2SG
-4	tə́	tə́	ADP	_	_	11	parataxis@mod	_	AlignBegin=802669|AlignEnd=802838|Gloss=with
-5	ngə́tn	ngə́tn	NOUN	_	_	4	comp:obj	_	AlignBegin=802838|AlignEnd=803007|Gloss=thing
-6	hŋ́	hŋ́	PART	_	Polarity=Neg	4	mod	_	AlignBegin=803007|AlignEnd=803176|Gloss=NEG
-7	oː	oː	PART	_	PartType=Emp	4	mod	_	AlignBegin=803176|AlignEnd=803345|Gloss=EMPH
-8	<	<	PUNCT	_	_	4	punct	_	AlignBegin=803345|AlignEnd=803514|Gloss=PUNCT
-9	tá	tá	SCONJ	_	_	11	mod	_	AlignBegin=803514|AlignEnd=803683|Gloss=then
-10	níː	níː	PRON	_	PronType=Int	11	subj	_	AlignBegin=803683|AlignEnd=803852|Gloss=what
-11	ɬə́ːr	ɬə	VERB	_	VerbForm=Fin	0	root	_	AlignBegin=803852|AlignEnd=803964|Gloss=go-CAUS
-12	=ɣə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	11	comp:obj	_	AlignBegin=803964|AlignEnd=804021|Gloss=2SG.OBJ
-13	nə́	nə́	ADP	_	_	11	comp:obl	_	AlignBegin=804021|AlignEnd=804190|Gloss=for
-14	&//	&//	PUNCT	_	_	11	punct	_	AlignBegin=804190|AlignEnd=804357|Gloss=PUNCT
+3-4	ki	_	_	_	_	_	_	_	_
+3	kə	kə	AUX	_	Aspect=Aor|Number=Sing|Person=2|PronType=Prs	11	parataxis@mod	_	AlignBegin=802500|Gloss=2SG.AOR
+4	yi	yi	VERB	_	_	3	comp:aux	_	AlignEnd=802669|Gloss=be
+5	tə́	tə́	ADP	_	_	4	comp:pred	_	AlignBegin=802669|AlignEnd=802838|Gloss=with
+6	ngə́tn	ngə́tn	NOUN	_	_	5	comp:obj	_	AlignBegin=802838|AlignEnd=803007|Gloss=thing
+7	hŋ́	hŋ́	PART	_	Polarity=Neg	4	mod	_	AlignBegin=803007|AlignEnd=803176|Gloss=NEG
+8	oː	oː	PART	_	PartType=Emp	4	mod	_	AlignBegin=803176|AlignEnd=803345|Gloss=EMPH
+9	<	<	PUNCT	_	_	3	punct	_	AlignBegin=803345|AlignEnd=803514|Gloss=PUNCT
+10	tá	tá	SCONJ	_	_	11	mod	_	AlignBegin=803514|AlignEnd=803683|Gloss=then
+11	níː	níː	PRON	_	PronType=Int	0	root@scrap	_	AlignBegin=803683|AlignEnd=803852|Gloss=what
+12	ɬə́ːr	ɬə	VERB	_	VerbForm=Fin	11	comp:cleft	_	AlignBegin=803852|AlignEnd=803964|Gloss=go-CAUS
+13	=ɣə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	12	comp:obj	_	AlignBegin=803964|AlignEnd=804021|Gloss=2SG.OBJ
+14	nə́	nə́	ADP	_	_	12	comp:obl	_	AlignBegin=804021|AlignEnd=804190|Gloss=for
+15	&//	&//	PUNCT	_	_	11	punct	_	AlignBegin=804190|AlignEnd=804357|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_840-841
 # speaker_id = SP1
@@ -7789,30 +7791,33 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 899844, 903554
-# text = tòː kə̀tàyáː yel kàmán kutuŋ kyàː ríːn kì ʧím =ʃí < tá wû tu [ kotá =wâːn < kì nə məːrə́ŋsə //] //
-# text_ortho = tôː kə̀tàyáː yêl kàmán kutun kyàː ríːn kì ʧímʃí < tá wû tu [ kótáwâːn < kǐn məːrə́nsə //] //
+# text = tòː kə̀tàyáː yel kàmáŋ kutu kyàː ríːn kì ʧím =ʃí < tá wû tu [ kotá =wâːn < kǐn məːrə́ŋsə //] //
+# text_ortho = tôː kə̀tàyáː yêl kàmán kutu kyàː ríːn kì ʧímʃí < tá wû tu [ kótáwâːn < kǐn məːrə́nsə //] //
 # text_en =  Well you saw as if if you walked with him they would say that all of you are thiefs.
 1	tòː	tòː	PART	_	_	2	discourse	_	AlignBegin=899844|AlignEnd=900067|Gloss=well
 2	kə̀tàyáː	átâyáː	AUX	_	Aspect=Imp|Number=Plur|Person=2|Tense=Rem	0	root	_	AlignBegin=900067|AlignEnd=900290|Gloss=2PL.REM.IMP
 3	yel	yel	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=900290|AlignEnd=900513|Gloss=see
-4	kàmán	kàmán	SCONJ	_	_	3	comp:obj	_	AlignBegin=900513|AlignEnd=900834|Gloss=as|Idiom=Yes|ExtPos=SCONJ
-5	kutuŋ	kutu	SCONJ	_	_	4	unk	_	AlignBegin=900834|AlignEnd=900994|Gloss=if|InIdiom=Yes
-6	kyàː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=2	12	parataxis@mod	_	AlignBegin=901388|AlignEnd=901552|Gloss=2PL.COND
+4	kàmáŋ	kàmán	SCONJ	_	_	3	comp:obj	_	AlignBegin=900513|AlignEnd=900834|ExtPos=SCONJ|Gloss=as|Idiom=Yes
+5	kutu	kutu	SCONJ	_	_	4	unk	_	AlignBegin=900834|AlignEnd=900994|Gloss=if|InIdiom=Yes
+6	kyàː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=2	13	parataxis@mod	_	AlignBegin=901388|AlignEnd=901552|Gloss=2PL.COND
 7	ríːn	ríː	VERB	_	Number=Plur|VerbForm=Fin	6	comp:aux	_	AlignBegin=901552|AlignEnd=901716|Gloss=walk.PLUR
-8	kì	kì	PRON	_	Number=Plur|Person=2|PronType=Prs	7	mod	_	AlignBegin=901716|AlignEnd=901880|Gloss=2PL.SBJ
-9	ʧím	ʧím	CCONJ	_	_	10	cc	_	AlignBegin=901880|AlignEnd=901962|Gloss=with
-10	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	conj:coord	_	AlignBegin=901962|AlignEnd=902044|Gloss=3PL.OBJ
-11	<	<	PUNCT	_	_	6	punct	_	AlignBegin=902044|AlignEnd=902206|Gloss=PUNCT
-12	tá	wò	AUX	_	Number=Plur|Person=3|Tense=Fut	4	comp:obj	_	AlignBegin=902206|AlignEnd=902341|Gloss=3PL.FUT
-13	wû	wul	VERB	_	VerbForm=Fin	12	comp:aux	_	AlignBegin=902341|AlignEnd=902476|Gloss=say
-14	tu	tu	SCONJ	_	Mood=Qot	13	comp:obj	_	AlignBegin=902476|AlignEnd=902611|Gloss=OPN
-15	[	[	PUNCT	_	_	20	punct	_	AlignBegin=902611|AlignEnd=902746|Gloss=PUNCT
-16	kotá	kotá	DET	_	_	20	dislocated@subj	_	AlignBegin=902746|AlignEnd=902814|Gloss=completely|ExtPos=NOUN
-17	=wâːn	=waːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	16	udep	_	AlignBegin=902814|AlignEnd=902881|Gloss=2PL.POS
-18	<	<	PUNCT	_	_	16	punct	_	AlignBegin=902881|AlignEnd=903016|Gloss=PUNCT
-19	kì	kì	PRON	_	Number=Plur|Person=2|PronType=Prs	20	subj	_	AlignBegin=903016|AlignEnd=903084|Gloss=2PL
-20	nə	nə	PART	_	VerbType=Cop	14	comp:obj	_	AlignBegin=903084|AlignEnd=903151|Gloss=be
-21	məːrə́ŋsə	mə̂ːr	NOUN	_	Number=Plur	20	comp:obj	_	AlignBegin=903151|AlignEnd=903286|Gloss=thief
-22	//]	//]	PUNCT	_	_	20	punct	_	AlignBegin=903286|AlignEnd=903421|Gloss=PUNCT
-23	//	//	PUNCT	_	_	2	punct	_	AlignBegin=903421|AlignEnd=903554|Gloss=PUNCT
-
+8-9	kì	_	_	_	_	_	_	_	_
+8	kə̀	kə̀	AUX	_	Aspect=Aor|Number=Plur|Person=2|PronType=Prs	7	parataxis@mod	_	AlignBegin=901716|Gloss=2PL.AOR
+9	yi	yi	VERB	_	_	8	comp:aux	_	AlignEnd=901880|Gloss=be
+10	ʧím	ʧím	CCONJ	_	_	9	comp:pred	_	AlignBegin=901880|AlignEnd=901962|Gloss=with
+11	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=901962|AlignEnd=902044|Gloss=3PL.OBJ
+12	<	<	PUNCT	_	_	13	punct	_	AlignBegin=902044|AlignEnd=902206|Gloss=PUNCT
+13	tá	wò	AUX	_	Number=Plur|Person=3|Tense=Fut	4	comp:obj	_	AlignBegin=902206|AlignEnd=902341|Gloss=3PL.FUT
+14	wû	wul	VERB	_	VerbForm=Fin	13	comp:aux	_	AlignBegin=902341|AlignEnd=902476|Gloss=say
+15	tu	tu	SCONJ	_	Mood=Qot	14	comp:obj	_	AlignBegin=902476|AlignEnd=902611|Gloss=OPN
+16	[	[	PUNCT	_	_	20	punct	_	AlignBegin=902611|AlignEnd=902746|Gloss=PUNCT
+17	kotá	kotá	DET	_	_	20	dislocated@subj	_	AlignBegin=902746|AlignEnd=902814|ExtPos=NOUN|Gloss=completely
+18	=wâːn	=waːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	17	mod@poss	_	AlignBegin=902814|AlignEnd=902881|Gloss=2PL.POS
+19	<	<	PUNCT	_	_	17	punct	_	AlignBegin=902881|AlignEnd=903016|Gloss=PUNCT
+20-22	kǐn	_	_	_	_	_	_	_	_
+20	kə̀	kə̀	AUX	_	Aspect=Aor|Number=Plur|Person=2|PronType=Prs	15	comp:obj	_	AlignBegin=903016|Gloss=2PL.AOR
+21	yi	yi	VERB	_	_	20	comp:aux	_	Gloss=be
+22	ni	ni	PART	_	Aspect=Inch	21	compound:prt	_	AlignEnd=903151|Gloss=INCH
+23	məːrə́ŋsə	mə̂ːr	NOUN	_	Number=Plur	21	comp:pred	_	AlignBegin=903151|AlignEnd=903286|Gloss=thief
+24	//]	//]	PUNCT	_	_	20	punct	_	AlignBegin=903286|AlignEnd=903421|Gloss=PUNCT
+25	//	//	PUNCT	_	_	2	punct	_	AlignBegin=903421|AlignEnd=903554|Gloss=PUNCT
