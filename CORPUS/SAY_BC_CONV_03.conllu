@@ -5834,9 +5834,9 @@
 8	káwây	káwây	ADV	_	_	6	mod	_	AlignBegin=691859|AlignEnd=692001|Gloss=merely
 9	<	<	PUNCT	_	_	1	punct	_	AlignBegin=692001|AlignEnd=692143|Gloss=PUNCT
 10	to	to	PART	_	Foreign=Yes	11	discourse	_	AlignBegin=692143|AlignEnd=692277|Gloss=to|Lang=hau
-11	shi	shi	PRON	_	Foreign=Yes	0	root	_	AlignBegin=692277|AlignEnd=692411|Gloss=3SG.M|Lang=hau
-12	ke	ke	PART	_	Foreign=Yes	11	flat:foreign	_	AlignBegin=692411|AlignEnd=692545|Gloss=be|Lang=hau
-13	nan	nan	ADV	_	Foreign=Yes	12	flat:foreign	_	AlignBegin=692545|AlignEnd=692679|Gloss=there|Lang=hau
+11	shi	shi	X	_	Foreign=Yes	0	root	_	AlignBegin=692277|AlignEnd=692411|Gloss=3SG.M|Lang=hau
+12	ke	ke	X	_	Foreign=Yes	11	flat:foreign	_	AlignBegin=692411|AlignEnd=692545|Gloss=be|Lang=hau
+13	nan	nan	X	_	Foreign=Yes	12	flat:foreign	_	AlignBegin=692545|AlignEnd=692679|Gloss=there|Lang=hau
 14	//	//	PUNCT	_	_	11	punct	_	AlignBegin=692679|AlignEnd=692814|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_720-720
@@ -6854,18 +6854,20 @@
 # sent_timecode = 798455, 799957
 # text = áː tòː < àːtá yîsə́n mi tə́ ngət ə̌n áy !//
 # text_ortho = ǎː tòː < àːtá yîsə́n mi tə́ ngətə̌n áy !//
-# text_en =  Ah! well she knows that I don't have anything indeed.
+# text_en =  Ah! well she knew that I don't have anything indeed.
 1	áː	áː	INTJ	_	_	4	discourse	_	AlignBegin=798455|AlignEnd=798553|Gloss=indeed
 2	tòː	tòː	PART	_	_	4	discourse	_	AlignBegin=798707|AlignEnd=798846|Gloss=well
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=798846|AlignEnd=798985|Gloss=PUNCT
 4	àːtá	àːtá	AUX	_	Aspect=Perf|Number=Sing|Person=3|Tense=Rem	0	root	_	AlignBegin=798985|AlignEnd=799124|Gloss=3SG.PERF.REM
 5	yîsə́n	yisə́n	VERB	_	VerbForm=Fin	4	comp:aux	_	AlignBegin=799124|AlignEnd=799263|Gloss=know
-6	mi	mi	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	AlignBegin=799263|AlignEnd=799402|Gloss=1SG
-7	tə́	tə́	ADP	_	_	5	parataxis@comp	_	AlignBegin=799402|AlignEnd=799541|Gloss=with
-8	ngət	ngə́tn	NOUN	_	_	7	comp:obj	_	AlignBegin=799541|AlignEnd=799611|Gloss=thing
-9	ə̌n	hŋ́	PART	_	Polarity=Neg	7	mod	_	AlignBegin=799611|AlignEnd=799680|Gloss=NEG
-10	áy	áy	INTJ	_	_	4	mod	_	AlignBegin=799680|AlignEnd=799819|Gloss=eh
-11	!//	!//	PUNCT	_	_	4	punct	_	AlignBegin=799819|AlignEnd=799957|Gloss=PUNCT
+6-7	mi	_	_	_	_	_	_	_	_
+6	mə	mə	AUX	_	Aspect=Aor|Number=Sing|Person=1|PronType=Prs	5	parataxis@comp	_	AlignBegin=799263|Gloss=1SG.AOR
+7	yi	yi	VERB	_	_	6	comp:aux	_	AlignEnd=799402|Gloss=be
+8	tə́	tə́	ADP	_	_	7	comp:pred	_	AlignBegin=799402|AlignEnd=799541|Gloss=with
+9	ngət	ngə́tn	NOUN	_	_	8	comp:obj	_	AlignBegin=799541|AlignEnd=799611|Gloss=thing
+10	ə̌n	hŋ́	PART	_	Polarity=Neg	7	mod	_	AlignBegin=799611|AlignEnd=799680|Gloss=NEG
+11	áy	áy	INTJ	_	_	4	mod	_	AlignBegin=799680|AlignEnd=799819|Gloss=eh
+12	!//	!//	PUNCT	_	_	4	punct	_	AlignBegin=799819|AlignEnd=799957|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_835-836
 # speaker_id = SP1
