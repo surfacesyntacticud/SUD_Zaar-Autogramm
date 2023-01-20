@@ -1430,14 +1430,16 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 206573, 207509
-# text = yi nə ɗan gòpə́n //
-# text_ortho = yi nə ɗan gòpə́n //
+# text = yin ɗan gòpə́n //
+# text_ortho = yin ɗan gòpə́n //
 # text_en =  It is like us.
+1-2	yin	_	_	_	_	_	_	_	_
 1	yi	yi	VERB	_	VerbForm=Fin	0	root	_	AlignBegin=206573|AlignEnd=206807|Gloss=be
-2	nə	nə	PART	_	VerbType=Cop	1	comp:pred	_	AlignBegin=206807|AlignEnd=207041|Gloss=be
-3	ɗan	ɗan	ADP	_	_	2	comp:obj	_	AlignBegin=207041|AlignEnd=207275|Gloss=like
+2	ni	ni	PART	_	Aspect=Inch	1	compound:prt	_	AlignBegin=206807|AlignEnd=207041|Gloss=INCH
+3	ɗan	ɗan	ADP	_	_	1	comp:pred	_	AlignBegin=207041|AlignEnd=207275|Gloss=like
 4	gòpə́n	gòpm	PRON	_	Deixis=Prox|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	comp:obj	_	AlignBegin=207275|AlignEnd=207392|Gloss=1PL.POS.PROX
-5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=207509|AlignEnd=207509|Gloss=PUNCT
+5	ɗan	ɗan	ADV	_	_	1	mod	_	AlignBegin=207392|AlignEnd=207509|Gloss=completely
+6	//	//	PUNCT	_	_	1	punct	_	Gloss=PUNCT|AlignBegin=207509|AlignEnd=207509
 
 # sent_id = SAY_BC_CONV_02_163-165
 # speaker_id = SP2

@@ -3836,7 +3836,7 @@
 1	tòː	tòː	PART	_	_	16	discourse	_	AlignBegin=470945|AlignEnd=471098|Gloss=well
 2	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	16	parataxis@discourse	_	AlignBegin=471098|AlignEnd=471251|Gloss=2SG.PERF
 3	san	san	VERB	_	Foreign=Yes|VerbForm=Fin	2	comp:aux	_	AlignBegin=471251|AlignEnd=471404|Gloss=know|Lang=hau
-4	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	mod@ethic	_	AlignBegin=471404|AlignEnd=471557|Gloss=3SG.POS
+4	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@ethic	_	AlignBegin=471404|AlignEnd=471557|Gloss=3SG.POS
 5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=471557|AlignEnd=471709|Gloss=PUNCT
 6	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	16	parataxis@mod	_	AlignBegin=471851|AlignEnd=472007|Gloss=3SG.COND
 7	rigé	rigéː	VERB	_	VerbForm=Fin	6	comp:aux	_	AlignBegin=472007|AlignEnd=472163|Gloss=already|SVC=Yes
@@ -4474,8 +4474,8 @@
 7-9	ʧin	_	_	_	_	_	_	_	_
 7	tə	tə	AUX	_	Aspect=Aor|Number=Plur|Person=1|PronType=Prs	0	root	_	AlignBegin=544757|Gloss=1PL.AOR
 8	yi	yi	VERB	_	_	7	comp:aux	_	Gloss=be
-9	ni	ni	PART	_	VerbType=Cop	8	compound:prt	_	AlignEnd=544929|Gloss=be
-10	gáy	káy	PRON	_	PronType=Prs|Person=3|Number=Sing	8	comp:pred	_	AlignBegin=544929|AlignEnd=545101|Gloss=ANAPH
+9	ni	ni	PART	_	Aspect=Inch	8	compound:prt	_	AlignEnd=544929|Gloss=INCH
+10	gáy	káy	PRON	_	Number=Sing|Person=3|PronType=Prs	8	comp:pred	_	AlignBegin=544929|AlignEnd=545101|Gloss=ANAPH
 11	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=545101|AlignEnd=545274|Gloss=PUNCT
 12	ʧǎː	ʧiká	AUX	_	Aspect=Prog|Number=Plur|Person=3	7	parataxis@conj	_	AlignBegin=5.45598e+06|AlignEnd=545798|Gloss=3PL.PROG
 13	ngelángə̂n	ngeláŋ	VERB	_	VerbForm=Vnoun	12	comp:aux	_	AlignBegin=545798|AlignEnd=546005|Gloss=stroll.NMLZ
@@ -4843,7 +4843,7 @@
 4-6	ʧin	_	_	_	_	_	_	_	_
 4	tə	tə	AUX	_	Aspect=Aor|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=571849|Gloss=3SG.AOR
 5	yi	yi	VERB	_	_	4	comp:aux	_	Gloss=be
-6	ni	ni	PART	_	_	5	compound:prt	_	AlignEnd=572261|Gloss=be
+6	ni	ni	PART	_	Aspect=Inch	5	compound:prt	_	AlignEnd=572261|Gloss=INCH
 7	góːla	góːla	NOUN	_	_	5	comp:pred	_	AlignBegin=572261|AlignEnd=572467|Gloss=goal_keeper
 8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=572467|AlignEnd=572675|Gloss=PUNCT
 
@@ -5404,14 +5404,16 @@
 # text = tòː < Zəgì ʧi gòs dzàn gyòː ?//
 # text_ortho = tôː < Zəgì ʧi gòs dzàn gyòː ?//
 # text_en =  Well, Ziggy, as for him, which day was it?
-1	tòː	tòː	PART	_	_	6	discourse	_	AlignBegin=643724|AlignEnd=643831|Gloss=well
+1	tòː	tòː	PART	_	_	4	discourse	_	AlignBegin=643724|AlignEnd=643831|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=643831|AlignEnd=643938|Gloss=PUNCT
-3	Zəgì	Zəgì	PROPN	_	_	6	dislocated@top	_	AlignBegin=643938|AlignEnd=644045|Gloss=Ziggy
-4	ʧi	ʧi	PRON	_	Number=Sing|Person=3|PronType=Prs	6	dislocated@top	_	AlignBegin=644045|AlignEnd=644152|Gloss=3SG
-5	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	mod@ethic	_	AlignBegin=644152|AlignEnd=644259|Gloss=3SG.POS
-6	dzàn	dzàn	NOUN	_	_	0	root	_	AlignBegin=644259|AlignEnd=644366|Gloss=day
-7	gyòː	gyôː	DET	_	PronType=Int	6	det	_	AlignBegin=644366|AlignEnd=644473|Gloss=which
-8	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=644473|AlignEnd=644577|Gloss=PUNCT
+3	Zəgì	Zəgì	PROPN	_	_	4	subj	_	AlignBegin=643938|AlignEnd=644045|Gloss=Ziggy
+4-5	ʧi	_	_	_	_	_	_	_	_
+4	tə	tə	AUX	_	Aspect=Aor|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=644045|Gloss=3SG.AOR
+5	yi	yi	VERB	_	_	4	comp:aux	_	AlignEnd=644152|Gloss=be
+6	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	mod@ethic	_	AlignBegin=644152|AlignEnd=644259|Gloss=3SG.POS
+7	dzàn	dzàn	NOUN	_	_	5	comp:pred	_	AlignBegin=644259|AlignEnd=644366|Gloss=day
+8	gyòː	gyôː	DET	_	PronType=Int	7	det	_	AlignBegin=644366|AlignEnd=644473|Gloss=which
+9	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=644473|AlignEnd=644577|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_659-659
 # speaker_id = SP1
@@ -6804,7 +6806,7 @@
 # text = kapkə́ Hap# || Hapí < ɗan átâ yi da farko máː < kətá wul =tə tu yâːn ʧáː ŋal < yâːn ʧáː súː tə̀ mán ɬya wàhála də̀n ɗaː =mí < tòː tə̀ || tòː tə̀ máni oː //
 # text_ortho = kapkə́ Hap# || Hapí < ɗan átâ yi da farko máː < kətá wultə tu < yâːn ʧáː ŋal || yâːn ʧáː súː tə̀ mán ɬya wàhála də̀n ɗaːmí < tôː tə̀ || tôː tə̀ mányoː //
 # text_en =  Like Hap... Happy, at the beginning,  you told her that if she tried to... if she wanted to come and suffer at home in our house well let her... well, let her come.
-1	kapkə́	kapkə́	ADP	_	_	13	dislocated@comp	_	AlignBegin=791492|AlignEnd=791665|Gloss=like
+1	kapkə́	kapkə́	ADP	_	_	13	dislocated@top	_	AlignBegin=791492|AlignEnd=791665|Gloss=like
 2	Hap#	Hap#	PROPN	_	_	1	comp:obj	_	AlignBegin=791665|AlignEnd=791838|Gloss=HESIT
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=791838|AlignEnd=792010|Gloss=PUNCT
 4	Hapí	Hapí	PROPN	_	_	2	conj:dicto	_	AlignBegin=792010|AlignEnd=792174|Gloss=Happy
@@ -6812,10 +6814,10 @@
 6	ɗan	ɗan	SCONJ	_	_	13	mod	_	AlignBegin=792338|AlignEnd=792502|Gloss=as
 7	átâ	átâ	AUX	_	Number=Sing|Person=3|Tense=Rem	6	comp:obj	_	AlignBegin=792502|AlignEnd=792666|Gloss=3SG.REM
 8	yi	yi	VERB	_	VerbForm=Fin	7	comp:aux	_	AlignBegin=792666|AlignEnd=792830|Gloss=be
-9	da	da	ADP	_	Foreign=Yes	8	mod	_	AlignBegin=792830|AlignEnd=792994|Gloss=with|Lang=hau
+9	da	da	ADP	_	Foreign=Yes	13	mod	_	AlignBegin=792830|AlignEnd=792994|Gloss=with|Lang=hau
 10	farko	farko	NOUN	_	Foreign=Yes	9	flat:foreign	_	AlignBegin=792994|AlignEnd=793158|Gloss=beginning|Lang=hau
 11	máː	máː	PART	_	_	10	flat:foreign	_	AlignBegin=793158|AlignEnd=793322|Gloss=even
-12	<	<	PUNCT	_	_	6	punct	_	AlignBegin=793322|AlignEnd=793486|Gloss=PUNCT
+12	<	<	PUNCT	_	_	9	punct	_	AlignBegin=793322|AlignEnd=793486|Gloss=PUNCT
 13	kətá	átâ	AUX	_	Number=Sing|Person=2|Tense=Rem	0	root	_	AlignBegin=793486|AlignEnd=793650|Gloss=2SG.REM
 14	wul	wul	VERB	_	VerbForm=Fin	13	comp:aux	_	AlignBegin=793650|AlignEnd=793732|Gloss=say
 15	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	14	comp:obj@rcp	_	AlignBegin=793732|AlignEnd=793814|Gloss=3SG.OBJ
@@ -7432,8 +7434,8 @@
 # text = átâ yi myàː ʃíʃí ɗi tə́ || tə́ Mâːk < tôː mán má || tə́ súːtu má râːɓáy < mə́ ngâp dàtə̂pm mə́ ɬǐː ɗi ɣáy //
 # text_ortho = átâ yi myàːːː ʃíʃíɗi tə́ːːː || tə́ Mâːk < tôː mán máːːː tə́ súːtu < má râːɓáy < mə́ ngâp dàtə̂pm mə́ ɬǐːɗikáy //
 # text_en =  One day, as I... going with... with Mark, well it happened that... we... in the evening we were going to leave, we hit the road to reach there.
-1	átâ	átâ	AUX	_	Number=Sing|Person=3|Tense=Rem	12	parataxis@mod	_	AlignBegin=857497|AlignEnd=857742|Gloss=3SG.REM
-2	yi	yi	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=857742|AlignEnd=857987|Gloss=be
+1	átâ	átâ	AUX	_	Number=Sing|Person=3|Tense=Rem	12	parataxis@mod	_	AlignBegin=857497|AlignEnd=857742|Gloss=3SG.REM|Idiom=Yes
+2	yi	yi	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=857742|AlignEnd=857987|Gloss=be|InIdiom=Yes
 3	myàː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=1	12	parataxis@mod	_	AlignBegin=857987|AlignEnd=858232|Gloss=1PL.COND
 4	ʃíʃí	ʃiʃí	VERB	_	VerbForm=Fin	3	comp:aux	_	AlignBegin=858453|AlignEnd=858593|Gloss=leave
 5	ɗi	ɗi	PART	_	_	4	compound:prt	_	AlignBegin=858593|AlignEnd=858734|Gloss=CTP
