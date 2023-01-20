@@ -5526,17 +5526,19 @@
 # sent_timecode = 660805, 662894
 # text = kə yísə́n < Maláːrês < ʧì mari mari máː //
 # text_ortho = kə yísə́n < maláːrês < ʧì mari mari máː //
-# text_en =  You know, (within) Malar, they are differences.
-1	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	7	parataxis@discourse	_	AlignBegin=660805|AlignEnd=660931|Gloss=2SG.AOR
+# text_en =  You know, these (people of) Malar, they are differences.
+1	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	6	parataxis@discourse	_	AlignBegin=660805|AlignEnd=660931|Gloss=2SG.AOR
 2	yísə́n	yisə́n	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=660931|AlignEnd=661057|Gloss=know
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=661057|AlignEnd=661183|Gloss=PUNCT
-4	Maláːrês	Malâːr	PROPN	_	Deixis=Med	7	dislocated@subj	_	AlignBegin=661657|AlignEnd=661905|Gloss=Malar
+4	Maláːrês	Malâːr	PROPN	_	Deixis=Med	6	dislocated@subj	_	AlignBegin=661657|AlignEnd=661905|Gloss=Malar
 5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=661905|AlignEnd=662153|Gloss=PUNCT
-6	ʧì	ʧì	PRON	_	Number=Plur|Person=3|PronType=Prs	7	subj	_	AlignBegin=662153|AlignEnd=662301|Gloss=3PL
-7	mari	mari	IDEO	_	_	0	root	_	AlignBegin=662301|AlignEnd=662449|ExtPos=ADJ|Gloss=different
-8	mari	mari	IDEO	_	_	7	compound:redup	_	AlignBegin=662449|AlignEnd=662597|ExtPos=ADJ|Gloss=different
-9	máː	máː	PART	_	_	7	mod	_	AlignBegin=662597|AlignEnd=662745|Gloss=even
-10	//	//	PUNCT	_	_	7	punct	_	AlignBegin=662745|AlignEnd=662894|Gloss=PUNCT
+6-7	ʧì	_	_	_	_	_	_	_	_
+6	tə̀	tə̀	AUX	_	Aspect=Aor|Number=Plur|Person=3|PronType=Prs	0	root	_	AlignBegin=662153|Gloss=3PL.AOR
+7	yi	yi	VERB	_	_	6	comp:aux	_	AlignEnd=662301|Gloss=be
+8	mari	mari	IDEO	_	_	7	comp:pred	_	AlignBegin=662301|AlignEnd=662449|ExtPos=ADJ|Gloss=different
+9	mari	mari	IDEO	_	_	8	compound:redup	_	AlignBegin=662449|AlignEnd=662597|ExtPos=ADJ|Gloss=different
+10	máː	máː	PART	_	_	6	mod	_	AlignBegin=662597|AlignEnd=662745|Gloss=even
+11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=662745|AlignEnd=662894|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_683-683
 # speaker_id = SP1
