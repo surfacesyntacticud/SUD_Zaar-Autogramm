@@ -4470,8 +4470,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 543771, 547692
-# text = wâː ɗùɣə̀nì àː ɓaníː < kóːnúː ʧi nə gá || ʧǎː ngelángə̂n |c tə́ lǎːp mərə́ kàːsuwa |r mərə́ kàːsuwa //
-# text_ortho = wâː ɗùkə̀nì àː ɓaníː < kóːnúː ʧin gáːːː || ʧǎː ngelángə̂n |c tə́ lǎːp mərə́ kàːsuwa |c mərə́ kàːsuwa //
+# text = wâː ɗùɣə̀nì àː ɓaníː < kóːnúː ʧin gáy //=| ʧǎː ngelángə̂n //= tə́ lǎːp mərə́ kàːsuwa |r mərə́ kàːsuwa //
+# text_ortho = wâː ɗùkə̀nì àː ɓaníː < kóːnúː ʧin gáːːː //= ʧǎː ngelángə̂n //= tə́ lǎːp mərə́ kàːsuwa |r mərə́ kàːsuwa //
 # text_en =  When corn beating has finished,  everybody is...  they are walking around from small market to small market.
 1	wâː	wâː	NOUN	_	_	2	udep	_	AlignBegin=543771|AlignEnd=543934|Gloss=guinea_corn
 2	ɗùɣə̀nì	ɗu	VERB	_	VerbForm=Vnoun	3	subj	_	AlignBegin=543934|AlignEnd=544097|ExtPos=NOUN|Gloss=beat
@@ -4479,13 +4479,14 @@
 4	ɓaníː	ɓan	VERB	_	Aspect=Res|VerbForm=Fin	3	comp:aux	_	AlignBegin=544260|AlignEnd=544423|Gloss=finish|SVC=Yes
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=544423|AlignEnd=544585|Gloss=PUNCT
 6	kóːnúː	kóːnúː	PRON	_	_	8	dislocated@subj	_	AlignBegin=544585|AlignEnd=544757|Gloss=each_one
+7-8	ʧin	_	_	_	_	_	_	_	_
 7	ʧi	ʧi	PRON	_	Number=Sing|Person=3|PronType=Prs	8	subj	_	AlignBegin=544757|AlignEnd=544843|Gloss=3SG
 8	nə	ni	PART	_	VerbType=Cop	0	root	_	AlignBegin=544843|AlignEnd=544929|Gloss=be
-9	gá	ká	ADP	_	_	8	comp:pred	_	AlignBegin=544929|AlignEnd=545101|Gloss=at
-10	||	||	PUNCT	_	_	11	punct	_	AlignBegin=545101|AlignEnd=545274|Gloss=PUNCT
-11	ʧǎː	ʧiká	AUX	_	Aspect=Prog|Number=Plur|Person=3	8	conj:dicto	_	AlignBegin=545591|AlignEnd=545798|Gloss=3PL.PROG
+9	gáy	káy	PRON	_	PronType=Prs|Person=3	8	comp:pred	_	AlignBegin=544929|AlignEnd=545101|Gloss=ANAPH
+10	//=	//=	PUNCT	_	_	11	punct	_	AlignBegin=545101|AlignEnd=545274|Gloss=PUNCT
+11	ʧǎː	ʧiká	AUX	_	Aspect=Prog|Number=Plur|Person=3	8	parataxis@conj	_	AlignBegin=545591|AlignEnd=545798|Gloss=3PL.PROG
 12	ngelángə̂n	ngeláŋ	VERB	_	VerbForm=Vnoun	11	comp:aux	_	AlignBegin=545798|AlignEnd=546005|Gloss=stroll.NMLZ
-13	|c	|c	PUNCT	_	_	14	punct	_	AlignBegin=546005|AlignEnd=546211|Gloss=PUNCT
+13	//=	//=	PUNCT	_	_	14	punct	_	AlignBegin=546005|AlignEnd=546211|Gloss=PUNCT
 14	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	11	parataxis@conj	_	AlignBegin=546211|AlignEnd=546398|Gloss=3PL.AOR
 15	lǎːp	láːp	VERB	_	VerbForm=Fin	14	comp:aux	_	AlignBegin=546398|AlignEnd=546585|Gloss=follow
 16	mərə́	məri	ADJ	_	Definite=Cons|Number=Plur	17	mod	_	AlignBegin=546585|AlignEnd=546772|Gloss=small.PL
@@ -4755,7 +4756,7 @@
 7	yel	yel	VERB	_	VerbForm=Fin	6	comp:aux	_	AlignBegin=565352|AlignEnd=565435|Gloss=see
 8	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=565435|AlignEnd=565518|Gloss=3SG.OBJ
 9	ʧi	ʧi	PRON	_	Number=Sing|Person=3|PronType=Prs	10	subj	_	AlignBegin=565518|AlignEnd=565684|Gloss=3SG
-10	lə́skə̂r	lə́skə̂r	IDEO	_	_	7	parataxis@comp	_	AlignBegin=565684|AlignEnd=565850|ExtPos=ADV|Gloss=ill_dressed
+10	lə́skə̂r	lə́skə̂r	IDEO	_	_	7	comp:pred	_	AlignBegin=565684|AlignEnd=565850|ExtPos=ADV|Gloss=ill_dressed
 11	ʧík	ʧík	ADV	_	_	10	mod	_	AlignBegin=565850|AlignEnd=566016|Gloss=thus
 12	káwây	káwây	ADV	_	_	10	mod	_	AlignBegin=566181|AlignEnd=566342|Gloss=merely
 13	máː	máː	PART	_	_	10	mod	_	AlignBegin=566342|AlignEnd=566503|Gloss=even
@@ -5500,7 +5501,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 658282, 660507
-# text = yâːn ɗan || ɗan || ɗan máː bàː ʧáː kə́ːm ɗu kónǎ n máː !//
+# text = yâːn ɗan || ɗan || ɗan máː bàː ʧáː kə́ːm ɗu kónǎn máː !//
 # text_ortho = yâːn ɗan || ɗan || ɗan máː bàː ʧáː kə́ːm ɗu kónǎn máː !//
 # text_en =  Him, who... who... who... cannot even shoot a corner!
 1	yâːn	yáːni	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=658282|AlignEnd=658421|Gloss=3SG
@@ -5508,14 +5509,15 @@
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=658560|AlignEnd=658698|Gloss=PUNCT
 4	ɗan	ɗan	SCONJ	_	_	2	conj:dicto	_	AlignBegin=658698|AlignEnd=658875|Gloss=REL
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=658875|AlignEnd=659052|Gloss=PUNCT
-6	ɗan	ɗan	PRON	_	_	4	conj:dicto	_	AlignBegin=659052|AlignEnd=659239|Gloss=as
+6	ɗan	ɗan	SCONJ	_	_	4	conj:dicto	_	AlignBegin=659052|AlignEnd=659239|Gloss=REL
 7	máː	máː	PART	_	_	6	discourse	_	AlignBegin=659239|AlignEnd=659426|Gloss=even
 8	bàː	bàː	PART	_	Polarity=Neg	9	mod	_	AlignBegin=659426|AlignEnd=659613|Gloss=NEG
 9	ʧáː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	6	comp:obj	_	AlignBegin=659613|AlignEnd=659800|Gloss=3SG.IMP
 10	kə́ːm	kə́ːm	VERB	_	VerbForm=Fin	9	comp:aux	_	AlignBegin=659800|AlignEnd=659985|Gloss=be_able|SVC=Yes
 11	ɗu	ɗu	VERB	_	VerbForm=Fin	10	compound:svc	_	AlignBegin=659985|AlignEnd=660115|Gloss=beat
-12	kónǎ	kóna	NOUN	_	_	11	comp:obj	_	AlignBegin=660115|AlignEnd=660180|Gloss=corner
-13	n	hŋ́	PART	_	Polarity=Neg	9	mod	_	AlignBegin=660180|AlignEnd=660245|Gloss=NEG
+12-13	kónǎn	_	_	_	_	_	_	_	_
+12	kóna	kóna	NOUN	_	_	11	comp:obj	_	AlignBegin=660115|AlignEnd=660180|Gloss=corner
+13	hŋ́	hŋ́	PART	_	Polarity=Neg	9	mod	_	AlignBegin=660180|AlignEnd=660245|Gloss=NEG
 14	máː	máː	PART	_	_	9	discourse	_	AlignBegin=660245|AlignEnd=660375|Gloss=even
 15	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=660375|AlignEnd=660507|Gloss=PUNCT
 
