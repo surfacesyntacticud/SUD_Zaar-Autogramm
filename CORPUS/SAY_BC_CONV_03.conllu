@@ -2442,11 +2442,12 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 332625, 333909
-# text = kóː kə gáː =ʃí ɣá teː taːɣə́ zàːri ǎːn ?//
+# text = kóː kə gáːʃí ɣá teː taːɣə́ zàːri ǎːn ?//
 # text_ortho = kóː kə gáːʃí ká teː taːkə́ zàːryǎːn ?//
 # text_en =  Or did you leave them on your right?
 1	kóː	kóː	CCONJ	_	_	2	discourse	_	AlignBegin=332625|AlignEnd=332785|Gloss=or
 2	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=332785|AlignEnd=332945|Gloss=2SG.AOR
+3-4	gáːʃí	_	_	_	_	_	_	_	_
 3	gáː	gaː	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=332945|AlignEnd=333025|Gloss=leave
 4	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=333025|AlignEnd=333105|Gloss=3PL.OBJ
 5	ɣá	ká	ADP	_	_	3	comp:obl	_	AlignBegin=333105|AlignEnd=333265|Gloss=at
@@ -2561,13 +2562,14 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 339320, 341042
-# text = áy myáː fuː =ɣə < tə́pês kǔːs áy !//
+# text = áy myáː fuːɣə < tə́pês kǔːs áy !//
 # text_ortho = áy myáː fuːkə < tə́pês kǔːs áy !//
 # text_en =  Eh, I'm telling you the place is ugly indeed!
 1	áy	áy	INTJ	_	_	7	discourse	_	AlignBegin=339320|AlignEnd=339522|Gloss=eh
 2	myáː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	7	parataxis@discourse	_	AlignBegin=339522|AlignEnd=339724|Gloss=1SG.IMP
+3-4	fuːɣə	_	_	_	_	_	_	_	_
 3	fuː	fuː	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=339724|AlignEnd=339825|Gloss=tell
-4	=ɣə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	3	comp:obj	_	AlignBegin=339825|AlignEnd=339926|Gloss=2SG.OBJ
+4	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	3	comp:obj	_	AlignBegin=339825|AlignEnd=339926|Gloss=2SG.OBJ
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=339926|AlignEnd=340130|Gloss=PUNCT
 6	tə́pês	tə̂pm	NOUN	_	Deixis=Med	7	subj	_	AlignBegin=340130|AlignEnd=340358|Gloss=road
 7	kǔːs	kúːs	VERB	_	VerbForm=Fin	0	root	_	AlignBegin=340358|AlignEnd=340586|Gloss=be_ugly
@@ -2649,14 +2651,14 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 353609, 354457
-# text = kyáː ragé =tə+n dàtə̂pm mə́n //
+# text = kyáː ragétən dàtə̂pm mə́n //
 # text_ortho = kyáː ragétən dàtə̂pm mə́n //
 # text_en =  You will reduce the way for her.
 1	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	0	root	_	AlignBegin=353609|AlignEnd=353779|Gloss=2SG.COND
+2-4	ragétən	_	_	_	_	_	_	_	_
 2	ragé	ragé	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=353779|AlignEnd=353949|Gloss=reduce
-3-4	=tə+n	_	_	_	_	_	_	_	_
 3	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:ben	_	AlignBegin=353836|AlignEnd=353893|Gloss=3SG.OBJ
-4	n	ni	PART	_	Aspect=Inch	2	compound:prt	_	AlignBegin=353893|AlignEnd=353949|Gloss=INCH
+4	ni	ni	PART	_	Aspect=Inch	2	compound:prt	_	AlignBegin=353893|AlignEnd=353949|Gloss=INCH
 5	dàtə̂pm	dàtə̂pm	NOUN	_	_	2	comp:obj	_	AlignBegin=353949|AlignEnd=354119|Gloss=way
 6	mə́n	mə́n	PART	_	Case=Ben	2	compound:prt	_	AlignBegin=354119|AlignEnd=354289|Gloss=BEN
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=354289|AlignEnd=354457|Gloss=PUNCT
@@ -2665,7 +2667,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 352028, 355046
-# text = mə wú tu ma || ma fi =tə || ma fi =tə lift mə́n //
+# text = mə wú tu ma || ma fitə || ma fitə lift mə́n //
 # text_ortho = mə wú tu ma || maːːː fitə̀ːːː || ma fitə lift mə́n //
 # text_en =  I said I will... I... will go to... I will give her a <lift>.
 1	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	0	root	_	AlignBegin=352028|AlignEnd=352156|Gloss=1SG.AOR
@@ -2674,10 +2676,12 @@
 4	ma	wò	AUX	_	Number=Sing|Person=1|Tense=Fut	3	comp:obj	_	AlignBegin=352412|AlignEnd=352540|Gloss=1SG.FUT
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=352540|AlignEnd=352668|Gloss=PUNCT
 6	ma	wò	AUX	_	Number=Sing|Person=1|Tense=Fut	4	conj:dicto	_	AlignBegin=352668|AlignEnd=352982|Gloss=1SG.FUT
+7-8	fitə	_	_	_	_	_	_	_	_
 7	fi	fi	VERB	_	VerbForm=Fin	6	comp:aux	_	AlignBegin=352982|AlignEnd=353139|Gloss=do
 8	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	comp:ben	_	AlignBegin=353139|AlignEnd=353296|Gloss=3SG.OBJ
 9	||	||	PUNCT	_	_	10	punct	_	AlignBegin=353296|AlignEnd=353609|Gloss=PUNCT
 10	ma	wò	AUX	_	Number=Sing|Person=1|Tense=Fut	6	conj:dicto	_	AlignBegin=354278|AlignEnd=354432|Gloss=1SG.FUT
+11-12	fitə	_	_	_	_	_	_	_	_
 11	fi	fi	VERB	_	VerbForm=Fin	10	comp:aux	_	AlignBegin=354432|AlignEnd=354509|Gloss=do
 12	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	comp:ben	_	AlignBegin=354509|AlignEnd=354586|Gloss=3SG.OBJ
 13	lift	lift	NOUN	_	Foreign=Yes	11	comp:obj	_	AlignBegin=354586|AlignEnd=354740|Gloss=lift|Lang=en
@@ -2688,11 +2692,12 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 355456, 357137
-# text = káwây mə mbíː =tíː ɗi ɣáy < tə́ gyáː kaːyá =wôs //
+# text = káwây mə mbíːtíː ɗi ɣáy < tə́ gyáː kaːyá =wôs //
 # text_ortho = káwây mə mbíːtíːɗi ɣáy < tə́ gyáː kaːyáwôs //
 # text_en =  I merely took her on (the bike)  with her luggage.
 1	káwây	káwây	ADV	_	_	2	mod	_	AlignBegin=355456|AlignEnd=355662|Gloss=merely
 2	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	0	root	_	AlignBegin=355662|AlignEnd=355868|Gloss=1SG.AOR
+3-4	mbíːtíː	_	_	_	_	_	_	_	_
 3	mbíː	mbiː	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=355868|AlignEnd=355991|Gloss=take
 4	=tíː	=tə	PRON	_	Aspect=Res|Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=355909|AlignEnd=355950|Gloss=3SG.OBJ.RES
 5	ɗi	ɗi	PART	_	_	3	compound:prt	_	AlignBegin=355991|AlignEnd=356032|Gloss=CTP
@@ -2721,15 +2726,16 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 358658, 359496
-# text = yâːn ʧík ɣəní ɣá káːr =âːn //
+# text = yâːn ʧík ɣəní ɣá káːrâːn //
 # text_ortho = yâːn ʧíɣ ɣəní ɣá káːrâːn //
 # text_en =  Shen she was like this at the back.
 1	yâːn	yáːn	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	dislocated@subj	_	AlignBegin=358658|AlignEnd=358826|Gloss=3SG
 2	ʧík	ʧík	ADV	_	_	3	comp:pred	_	AlignBegin=358826|AlignEnd=358910|Gloss=thus
 3	ɣəní	kən	PART	_	VerbType=Cop	0	root	_	AlignBegin=358910|AlignEnd=358994|Gloss=be
 4	ɣá	ká	ADP	_	_	3	dislocated@comp	_	AlignBegin=358994|AlignEnd=359162|Gloss=at
+5-6	káːrâːn	_	_	_	_	_	_	_	_
 5	káːr	kâːr	NOUN	_	_	4	comp:obj	_	AlignBegin=359162|AlignEnd=359246|Gloss=back
-6	=âːn	=âtn	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	mod@poss	_	AlignBegin=359246|AlignEnd=359330|Gloss=1SG.POS
+6	=âtːn	=âtn	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	mod@poss	_	AlignBegin=359246|AlignEnd=359330|Gloss=1SG.POS
 7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=359330|AlignEnd=359496|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_354-356
@@ -2826,7 +2832,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 368205, 370383
-# text = Tʃôɣn káwây ɣə́n átâ || átâ sûː =m dzàn gíː //
+# text = Tʃôɣn káwây ɣə́n átâ || átâ sûːm dzàn gíː //
 # text_ortho = Tʃokn káwâykə́n átâ || átâ sûːm dzàn gíː //
 # text_en =  It's only God who... He liked me that day.
 1	Tʃôɣn	Tʃôkn	PROPN	_	_	3	comp:pred	_	AlignBegin=368205|AlignEnd=368463|Gloss=God
@@ -2835,8 +2841,9 @@
 4	átâ	átâ	AUX	_	Number=Sing|Person=3|Tense=Rem	3	comp:cleft	_	AlignBegin=368721|AlignEnd=368979|Gloss=3SG.REM
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=368979|AlignEnd=369237|Gloss=PUNCT
 6	átâ	átâ	AUX	_	Number=Sing|Person=3|Tense=Rem	4	conj:dicto	_	AlignBegin=369498|AlignEnd=369675|Gloss=3SG.REM
-7	sûː	súː	VERB	_	VerbForm=Fin	6	comp:aux	_	AlignBegin=369675|AlignEnd=369763|Gloss=like
-8	=m	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	comp:obj	_	AlignBegin=369763|AlignEnd=369852|Gloss=1SG.OBJ
+7-8	sûːm	_	_	_	_	_	_	_	_
+7	súː	súː	VERB	_	VerbForm=Fin	6	comp:aux	_	AlignBegin=369675|AlignEnd=369763|Gloss=like
+8	=mə	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	comp:obj	_	AlignBegin=369763|AlignEnd=369852|Gloss=1SG.OBJ
 9	dzàn	dzàn	NOUN	_	_	7	mod	_	AlignBegin=369852|AlignEnd=370029|Gloss=day
 10	gíː	gíː	DET	_	PronType=Dem	9	mod@poss	_	AlignBegin=370029|AlignEnd=370206|Gloss=DIST
 11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=370206|AlignEnd=370383|Gloss=PUNCT
@@ -2858,13 +2865,14 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 372014, 373273
-# text = bàː átâ fi =m ni páːʧi mə́n ɗáni hŋ́ //
+# text = bàː átâ fimni páːʧi mə́n ɗáni hŋ́ //
 # text_ortho = bàː átâ fimni páːʧi mə́n ɗáni hŋ́ //
 # text_en =  Before that, it did not even get a puncture.
 1	bàː	bàː	PART	_	Polarity=Neg	2	mod	_	AlignBegin=372014|AlignEnd=372171|Gloss=NEG
 2	átâ	átâ	AUX	_	Number=Sing|Person=3|Tense=Rem	0	root	_	AlignBegin=372171|AlignEnd=372328|Gloss=3SG.REM
+3-5	fimni	_	_	_	_	_	_	_	_
 3	fi	fi	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=372328|AlignEnd=372380|Gloss=do
-4	=m	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	comp:ben	_	AlignBegin=372380|AlignEnd=372432|Gloss=1SG.OBJ
+4	=mə	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	comp:ben	_	AlignBegin=372380|AlignEnd=372432|Gloss=1SG.OBJ
 5	ni	ni	PART	_	Aspect=Inch	3	compound:prt	_	AlignBegin=372432|AlignEnd=372485|Gloss=INCH
 6	páːʧi	páːʧi	NOUN	_	_	3	comp:obj	_	AlignBegin=372485|AlignEnd=372642|Gloss=puncture
 7	mə́n	mə́n	PART	_	Case=Ben	3	compound:prt	_	AlignBegin=372642|AlignEnd=372799|Gloss=BEN
@@ -2876,15 +2884,16 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 373483, 374535
-# text = miːr káwây ən átâyáː ɓán =əm mə́n //
+# text = miːr káwây ən átâyáː ɓánəm mə́n //
 # text_ortho = miːr káwâykən átâyáː ɓánəm mə́n //
 # text_en =  It's only the petrol that got finished.
 1	miːr	miːr	NOUN	_	_	3	comp:pred	_	AlignBegin=373483|AlignEnd=373658|Gloss=petrol
 2	káwây	káwây	ADV	_	_	1	mod	_	AlignBegin=373658|AlignEnd=373746|Gloss=merely
 3	ən	kən	PART	_	VerbType=Cop	0	root	_	AlignBegin=373746|AlignEnd=373833|Gloss=be
 4	átâyáː	átâyáː	AUX	_	Aspect=Imp|Number=Sing|Person=3|Tense=Rem	3	comp:cleft	_	AlignBegin=373833|AlignEnd=374008|Gloss=3SG.REM.IMP
+5-6	ɓánəm	_	_	_	_	_	_	_	_
 5	ɓán	ɓán	VERB	_	VerbForm=Fin	4	comp:obj	_	AlignBegin=374008|AlignEnd=374096|Gloss=finish
-6	=əm	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	comp:ben	_	AlignBegin=374096|AlignEnd=374183|Gloss=1SG.OBJ
+6	=mə	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	comp:ben	_	AlignBegin=374096|AlignEnd=374183|Gloss=1SG.OBJ
 7	mə́n	mə́n	PART	_	Case=Ben	5	compound:prt	_	AlignBegin=374183|AlignEnd=374358|Gloss=BEN
 8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=374358|AlignEnd=374535|Gloss=PUNCT
 
@@ -2892,13 +2901,14 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 374535, 375336
-# text = miːr tàyáː ɓáŋ =gə mə́n ?//
+# text = miːr tàyáː ɓáŋgə mə́n ?//
 # text_ortho = miːr tàyáː ɓánkə mə́n //
 # text_en =  You were short of petrol.
 1	miːr	miːr	NOUN	_	_	2	subj	_	AlignBegin=374535|AlignEnd=374695|Gloss=petrol
 2	tàyáː	átâyáː	AUX	_	Aspect=Imp|Tense=Rem	0	root	_	AlignBegin=374695|AlignEnd=374855|Gloss=REM.IMP
+3-4	ɓáŋgə	_	_	_	_	_	_	_	_
 3	ɓáŋ	ɓán	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=374855|AlignEnd=374935|Gloss=finish
-4	=gə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	3	comp:ben	_	AlignBegin=374935|AlignEnd=375015|Gloss=2SG.OBJ
+4	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	3	comp:ben	_	AlignBegin=374935|AlignEnd=375015|Gloss=2SG.OBJ
 5	mə́n	mə́n	PART	_	Case=Ben	3	compound:prt	_	AlignBegin=375015|AlignEnd=375175|Gloss=BEN
 6	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=375175|AlignEnd=375336|Gloss=PUNCT
 
@@ -2936,28 +2946,32 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 382572, 383386
-# text = kǎː mə̀tà yi mì ʧím =gə̀ ŋǎːn ?//
-# text_ortho = kǎː mə̀tà yi mì ʧímgə̌ ŋǎːn ?//
+# text = kǎː mə̀tà yi mì ʧímgə̀ ŋǎːn ?//
+# text_ortho = kǎː mə̀tà yi mì ʧímgə ŋǎːn ?//
 # text_en =  Wasn't I with you ?
 1	kǎː	kǎː	INTJ	_	_	2	discourse	_	AlignBegin=382572|AlignEnd=382708|Gloss=what
 2	mə̀tà	átâ	AUX	_	Number=Plur|Person=1|Tense=Rem	0	root	_	AlignBegin=382708|AlignEnd=382844|Gloss=1PL.REM
 3	yi	yi	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=382844|AlignEnd=382980|Gloss=be
 4	mì	mì	PRON	_	Number=Plur|Person=1|PronType=Prs	5	subj	_	AlignBegin=382980|AlignEnd=383116|Gloss=1PL.SBJ
+5-6	ʧímgə̀	_	_	_	_	_	_	_	_
 5	ʧím	ʧím	CCONJ	_	_	3	comp:pred	_	AlignBegin=383116|AlignEnd=383150|Gloss=with
-6	=gə̀	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	5	conj:coord	_	AlignBegin=383150|AlignEnd=383184|Gloss=2SG.OBJ
-7	ŋǎːn	ŋǎːn	PART	_	PartType=Int|Polarity=Neg	2	mod	_	AlignBegin=383184|AlignEnd=383218|Gloss=Q.NEG
-8	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=383252|AlignEnd=383386|Gloss=PUNCT
+6	=kə̀	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	5	comp:obj	_	AlignBegin=383150|AlignEnd=383184|Gloss=2SG.OBJ
+7-8	ŋǎːn	_	_	_	_	_	_	_	_
+7	ŋaː	ŋaː	PART	_	PartType=Int	2	mod	_	AlignBegin=383184|Gloss=Q
+8	hŋ́	hŋ́	PART	_	Polarity=Neg	2	mod	_	AlignEnd=383386|Gloss=NEG
+9	//? 	//? 	PUNCT	_	_	2	punct	_	AlignBegin=383386|AlignEnd=383386|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_376-378
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 383386, 385336
-# text = kətá gaː =m Púʤì də̀n gyáː Sônde Wúkêt //
+# text = kətá gaːm Púʤì də̀n gyáː Sônde Wúkêt //
 # text_ortho = kətá gaːm Púʤì də̀n gyaːːː sôndè Wúkêt //
 # text_en =  You had left me in Tafawa Balewa at the house of... Sunday Wicked.
 1	kətá	átâ	AUX	_	Number=Sing|Person=2|Tense=Rem	0	root	_	AlignBegin=383386|AlignEnd=383638|Gloss=2SG.REM
+2-3	gaːm	_	_	_	_	_	_	_	_
 2	gaː	gaː	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=383638|AlignEnd=383800|Gloss=leave
-3	=m	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	comp:obj	_	AlignBegin=383800|AlignEnd=383890|Gloss=1SG.OBJ
+3	=mə	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	comp:obj	_	AlignBegin=383800|AlignEnd=383890|Gloss=1SG.OBJ
 4	Púʤì	Púʤì	PROPN	_	_	2	comp:loc	_	AlignBegin=383890|AlignEnd=384142|Gloss=Tafawa_Balewa
 5	də̀n	də̀n	NOUN	_	_	4	conj:dicto	_	AlignBegin=384142|AlignEnd=384416|Gloss=house
 6	gyáː	gyaː	DET	_	Number=Plur	7	det	_	AlignBegin=384416|AlignEnd=384689|Gloss=PL3
@@ -2969,13 +2983,14 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 385681, 387889
-# text = ɗan kə gâː =m Púʤì də̀n gyáː Sônde Wúkêt < mə́ mán tsə̌tn //
+# text = ɗan kə gâːm Púʤì də̀n gyáː Sônde Wúkêt < mə́ mán tsə̌tn //
 # text_ortho = ɗan kə gâːm Púʤì də̀n gyáː sôndè Wúkêt < mə́ mán tsə̌tn //
 # text_en =  After you had left me in Tafawa Balewa, at Sunday Wicked's house, I just stayed there.
 1	ɗan	ɗan	SCONJ	_	_	11	mod	_	AlignBegin=385681|AlignEnd=385876|Gloss=as
 2	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	1	comp:obj	_	AlignBegin=385876|AlignEnd=386071|Gloss=2SG.AOR
-3	gâː	gaː	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=386071|AlignEnd=386169|Gloss=leave
-4	=m	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	comp:obj	_	AlignBegin=386169|AlignEnd=386266|Gloss=1SG.OBJ
+3-4	gâːm	_	_	_	_	_	_	_	_
+3	gáː	gaː	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=386071|AlignEnd=386169|Gloss=leave
+4	=mə	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	comp:obj	_	AlignBegin=386169|AlignEnd=386266|Gloss=1SG.OBJ
 5	Púʤì	Púʤì	PROPN	_	_	3	comp:loc	_	AlignBegin=386266|AlignEnd=386460|Gloss=Tafawa_Balewa
 6	də̀n	də̀n	NOUN	_	_	5	conj:dicto	_	AlignBegin=386460|AlignEnd=386616|Gloss=house
 7	gyáː	gyaː	DET	_	Number=Plur	8	det	_	AlignBegin=386616|AlignEnd=386772|Gloss=PL3
@@ -2991,8 +3006,8 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 387889, 388853
-# text = mə́ tsə̌tn //= mə́ tsə̌tn //= mə́ ɓúp =kə̀ //
-# text_ortho = mə́  tsə̌tn //= mə́ tsə̌tn //= mə́  ɓûpkə̀ //
+# text = mə́ tsə̌tn //= mə́ tsə̌tn //= mə́ ɓúpkə̀ //
+# text_ortho = mə́  tsə̌tn //= mə́ tsə̌tn //= mə́  ɓúpkə̀ //
 # text_en =  I sat and sat waiting for you.
 1	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=387889|AlignEnd=387996|Gloss=1PL.AOR
 2	tsə̌tn	tsə́tn	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=387996|AlignEnd=388103|Gloss=sit
@@ -3001,7 +3016,8 @@
 5	tsə̌tn	tsə́tn	VERB	_	VerbForm=Fin	4	comp:aux	_	AlignBegin=388317|AlignEnd=388424|Gloss=sit
 6	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=388424|AlignEnd=388531|Gloss=PUNCT
 7	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	4	parataxis@conj	_	AlignBegin=388531|AlignEnd=388638|Gloss=1PL.AOR
-8	ɓúp	ɓup	VERB	_	VerbForm=Fin	7	comp:aux	_	AlignBegin=388638|AlignEnd=388692|Gloss=wait
+8-9	ɓúpkə̀	_	_	_	_	_	_	_	_
+8	ɓûp	ɓup	VERB	_	VerbForm=Fin	7	comp:aux	_	AlignBegin=388638|AlignEnd=388692|Gloss=wait
 9	=kə̀	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	8	comp:obj	_	AlignBegin=388692|AlignEnd=388745|Gloss=2SG.OBJ
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=388745|AlignEnd=388853|Gloss=PUNCT
 
@@ -3149,17 +3165,19 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 398140, 399122
-# text = tá níː tú =ɣə̀ á dàtə́p eː ?//
+# text = tá níː túɣə̀ á dàtə́peː ?//
 # text_ortho = tá níː tûkə̀ á dàtə́peː ?//
 # text_en =  Well, what happened to you on the road?
-1	tá	tá	ADV	_	_	3	mod	_	AlignBegin=398140|AlignEnd=398304|Gloss=then
-2	níː	níː	PRON	_	PronType=Int	3	subj	_	AlignBegin=398304|AlignEnd=398468|Gloss=what
-3	tú	tu	VERB	_	VerbForm=Fin	0	root	_	AlignBegin=398468|AlignEnd=398550|Gloss=meet
-4	=ɣə̀	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	3	comp:obj	_	AlignBegin=398550|AlignEnd=398632|Gloss=2SG.OBJ
+1	tá	tá	ADV	_	_	2	mod	_	AlignBegin=398140|AlignEnd=398304|Gloss=then
+2	níː	níː	PRON	_	PronType=Int	0	root	_	AlignBegin=398304|AlignEnd=398468|Gloss=what
+3-4	túɣə̀	_	_	_	_	_	_	_	_
+3	tû	tu	VERB	_	VerbForm=Fin	2	comp:cleft	_	AlignBegin=398468|AlignEnd=398550|Gloss=meet
+4	=kə̀	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	3	comp:obj	_	AlignBegin=398550|AlignEnd=398632|Gloss=2SG.OBJ
 5	á	ká	ADP	_	_	3	mod	_	AlignBegin=398632|AlignEnd=398796|Gloss=at
-6	dàtə́p	dàtə̂pm	NOUN	_	_	5	comp:obj	_	AlignBegin=398796|AlignEnd=398878|Gloss=way
-7	eː	eː	PART	_	PartType=Int	3	mod	_	AlignBegin=398878|AlignEnd=398960|Gloss=Q
-8	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=398960|AlignEnd=399122|Gloss=PUNCT
+6-7	dàtə́peː	_	_	_	_	_	_	_	_
+6	dàtə̂pm	dàtə̂pm	NOUN	_	_	5	comp:obj	_	AlignBegin=398796|AlignEnd=398878|Gloss=way
+7	eː	eː	PART	_	PartType=Int	2	mod	_	AlignBegin=398878|AlignEnd=398960|Gloss=Q
+8	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=398960|AlignEnd=399122|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_395-395
 # speaker_id = SP1
@@ -3188,13 +3206,14 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 400368, 401157
-# text = əndá kyáː fuː =m gəndí //
+# text = əndá kyáː fuːm gəndí //
 # text_ortho = kəndá kyáː fuːmkəndí //
 # text_en =  Then you told me.
 1	əndá	kəndá	ADV	_	_	2	mod	_	AlignBegin=400368|AlignEnd=400565|Gloss=then
-2	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	0	root	_	AlignBegin=400565|AlignEnd=400762|Gloss=2SG.COND
+2	kyáː	ʧáː	AUX	_	Mood=Imp|Number=Sing|Person=2	0	root	_	AlignBegin=400565|AlignEnd=400762|Gloss=2SG.IPFV
+3-4	fuːm	_	_	_	_	_	_	_	_
 3	fuː	fuː	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=400762|AlignEnd=400828|Gloss=tell
-4	=m	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	comp:ben	_	AlignBegin=400828|AlignEnd=400894|Gloss=1SG.OBJ
+4	=mə	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	comp:ben	_	AlignBegin=400828|AlignEnd=400894|Gloss=1SG.OBJ
 5	gəndí	kən	PART	_	VerbType=Cop	2	mod	_	AlignBegin=400894|AlignEnd=400959|Gloss=be
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=400959|AlignEnd=401157|Gloss=PUNCT
 
@@ -3290,34 +3309,35 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 410482, 412034
-# text = myàː naː tul < Bàːbá tâ mbiː =mí wût mə́n //
-# text_ortho = myàː naː tul < Bàːbá tâ mbiːmí wût mə́n //
+# text = myàːnaː tul < Bàːbá tâ mbiːmí wût mə́n //
+# text_ortho = myàːnaː tul < Bàːbá tâ mbiːmí wût mə́n //
 # text_en =  When we arrived, Baba shouted at us.
-1	myàː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=1	6	parataxis@mod	_	AlignBegin=410482|AlignEnd=410607|Gloss=1PL.COND
-2	naː	naː	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=410607|AlignEnd=410732|Gloss=become|SVC=Yes
-3	tul	tul	VERB	_	VerbForm=Fin	2	compound:svc	_	AlignBegin=410732|AlignEnd=410857|Gloss=arrive
-4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=410857|AlignEnd=410982|Gloss=PUNCT
-5	Bàːbá	Bàːbá	PROPN	_	_	6	mod	_	AlignBegin=411188|AlignEnd=411329|Gloss=Baba
-6	tâ	átâ	AUX	_	Tense=Rem	0	root	_	AlignBegin=411329|AlignEnd=411470|Gloss=REM
-7	mbiː	mbiː	VERB	_	VerbForm=Fin	6	comp:aux	_	AlignBegin=411470|AlignEnd=411540|Gloss=take
-8	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	comp:ben	_	AlignBegin=411540|AlignEnd=411611|Gloss=1PL.OBJ
-9	wût	wût	NOUN	_	_	7	comp:obj	_	AlignBegin=411611|AlignEnd=411681|Gloss=fire
-10	mə́n	mə́n	PART	_	Case=Ben	7	compound:prt	_	AlignBegin=411752|AlignEnd=411893|Gloss=BEN
-11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=411893|AlignEnd=412034|Gloss=PUNCT
+1	myàːnaː	myǎːnaː	AUX	_	Number=Plur|Person=1|Aspect=Conc	5	parataxis@mod	_	AlignBegin=410482|AlignEnd=410732|Gloss=1PL.CONC
+2	tul	tul	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=410732|AlignEnd=410857|Gloss=arrive
+3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=410857|AlignEnd=410982|Gloss=PUNCT
+4	Bàːbá	Bàːbá	PROPN	_	_	5	subj	_	AlignBegin=411188|AlignEnd=411329|Gloss=Baba
+5	tâ	átâ	AUX	_	Tense=Rem	0	root	_	AlignBegin=411329|AlignEnd=411470|Gloss=REM
+6-7	mbiːmí	_	_	_	_	_	_	_	_
+6	mbiː	mbiː	VERB	_	VerbForm=Fin	5	comp:aux	_	AlignBegin=411470|AlignEnd=411540|Gloss=take
+7	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	comp:ben	_	AlignBegin=411540|AlignEnd=411611|Gloss=1PL.OBJ
+8	wût	wût	NOUN	_	_	6	comp:obj	_	AlignBegin=411611|AlignEnd=411681|Gloss=fire
+9	mə́n	mə́n	PART	_	Case=Ben	6	compound:prt	_	AlignBegin=411752|AlignEnd=411893|Gloss=BEN
+10	//	//	PUNCT	_	_	5	punct	_	AlignBegin=411893|AlignEnd=412034|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_412-412
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 412034, 414048
-# text = àː ɬya naː ɗûː =wos kəndí //
+# text = àː ɬya naː ɗûːwòs kəndí //
 # text_ortho = àː ɬya naː ɗûːwòskəndí tu ìnâː ?//
 # text_en =  He had drunk his beer.
 1	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=412034|AlignEnd=412278|Gloss=3SG.PERF
 2	ɬya	ɬya	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=412278|AlignEnd=412522|Gloss=drink
-3	naː	naː	VERB	_	VerbForm=Fin	2	compound:svc	_	AlignBegin=412522|AlignEnd=412766|Gloss=remain|SVC=Yes
-4	ɗûː	ɗûː	NOUN	_	_	3	comp:obj	_	AlignBegin=412766|AlignEnd=412847|Gloss=beer
-5	=wos	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	mod@poss	_	AlignBegin=412847|AlignEnd=412928|Gloss=3SG.POS
-6	kəndí	kəndí	PART	_	VerbType=Cop	1	parataxis@conj	_	AlignBegin=412928|AlignEnd=413010|Gloss=be
+3	ŋaː	ŋaː	ADJ	_	_	4	mod	_	AlignBegin=412522|AlignEnd=412766|Gloss=little
+4-5	ɗûːwòs	_	_	_	_	_	_	_	_
+4	ɗûː	ɗûː	NOUN	_	_	2	comp:obj	_	AlignBegin=412766|AlignEnd=412847|Gloss=beer
+5	=wòs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	mod@poss	_	AlignBegin=412847|AlignEnd=412928|Gloss=3SG.POS
+6	kəndí	kəndí	PART	_	VerbType=Cop	1	mod	_	AlignBegin=412928|AlignEnd=413010|Gloss=be
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=413834|AlignEnd=414048|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_413-415
@@ -3388,18 +3408,19 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 417803, 418959
-# text = gaba ɗaya < gíː bàː nə màːʃîn =wòs ə̌n oː !//
+# text = gaba ɗaya < gíː bàː nə màːʃînwòsə̌noː //
 # text_ortho = gaba ɗaya < gíː bàː nə màːʃînwòsə̌noː //
 # text_en =  <Absolutely>, this was not his motorbike.
-1	gaba	gaba	NOUN	_	Foreign=Yes	6	mod	_	AlignBegin=417803|AlignEnd=417947|Gloss=front|Lang=hau
-2	ɗaya	ɗaya	NUM	_	Foreign=Yes	1	flat:foreign	_	AlignBegin=417947|AlignEnd=418091|Gloss=one|Lang=hau
+1	gaba	gaba	X	_	Foreign=Yes	6	mod	_	AlignBegin=417803|AlignEnd=417947|Gloss=front|Lang=hau
+2	ɗaya	ɗaya	X	_	Foreign=Yes	1	flat:foreign	_	AlignBegin=417947|AlignEnd=418091|Gloss=one|Lang=hau
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=418091|AlignEnd=418235|Gloss=PUNCT
 4	gíː	gíː	PRON	_	PronType=Dem	6	subj	_	AlignBegin=418235|AlignEnd=418379|Gloss=DIST
 5	bàː	bàː	PART	_	Polarity=Neg	6	mod	_	AlignBegin=418379|AlignEnd=418523|Gloss=NEG
 6	nə	nə	PART	_	VerbType=Cop	0	root	_	AlignBegin=418523|AlignEnd=418667|Gloss=be
+7-10	màːʃînwòsə̌noː	_	_	_	_	_	_	_	_
 7	màːʃîn	màːʃîn	NOUN	_	_	6	comp:pred	_	AlignBegin=418667|AlignEnd=418703|Gloss=motorbike
 8	=wòs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	7	mod@poss	_	AlignBegin=418703|AlignEnd=418739|Gloss=3SG.POS
-9	ə̌n	hŋ́	PART	_	Polarity=Neg	6	mod	_	AlignBegin=418739|AlignEnd=418775|Gloss=NEG
+9	hŋ́	hŋ́	PART	_	Polarity=Neg	6	mod	_	AlignBegin=418739|AlignEnd=418775|Gloss=NEG
 10	oː	oː	PART	_	PartType=Emp	6	mod	_	AlignBegin=418775|AlignEnd=418811|Gloss=EMPH
 11	!//	!//	PUNCT	_	_	6	punct	_	AlignBegin=418811|AlignEnd=418959|Gloss=PUNCT
 
@@ -3407,14 +3428,15 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 419217, 420223
-# text = bàː nə màːʃîn =wòs ə̌ŋ oː !//
+# text = bàː nə màːʃînwòsə̌noː //
 # text_ortho = bàː nə màːʃînwòsə̌noː //
 # text_en =  It was not his motorbike.
 1	bàː	bàː	PART	_	Polarity=Neg	2	mod	_	AlignBegin=419217|AlignEnd=419469|Gloss=NEG
 2	nə	nə	PART	_	VerbType=Cop	0	root	_	AlignBegin=419469|AlignEnd=419721|Gloss=be
+3-7	màːʃînwòsə̌noː	_	_	_	_	_	_	_	_
 3	màːʃîn	màːʃîn	NOUN	_	_	2	comp:pred	_	AlignBegin=419721|AlignEnd=419784|Gloss=motorbike
 4	=wòs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	mod@poss	_	AlignBegin=419784|AlignEnd=419847|Gloss=3SG.POS
-5	ə̌ŋ	hŋ́	PART	_	Polarity=Neg	2	mod	_	AlignBegin=419847|AlignEnd=419910|Gloss=NEG
+5	hŋ́	hŋ́	PART	_	Polarity=Neg	2	mod	_	AlignBegin=419847|AlignEnd=419910|Gloss=NEG
 6	oː	oː	PART	_	PartType=Emp	2	mod	_	AlignBegin=419910|AlignEnd=419973|Gloss=EMPH
 7	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=419973|AlignEnd=420223|Gloss=PUNCT
 
@@ -3447,8 +3469,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 423325, 425631
-# text = wéy || wéy mə̀ fi páːʧêʃíː mə̀ lə́ːr =tə mə́n ɗi oː !//
-# text_ortho = wéy || wéy mə̀ fí páːʧêʃíː mə̀ lə́ːrtə mə́nɗyoː //
+# text = wéy || wéy mə̀ fí páːʧêʃíː mə̀ lə́ːrtə mə́nɗyoː !//
+# text_ortho = wéy || wéy mə̀ fí páːʧêʃíː mə̀ lə́ːrtə mə́nɗyoː !//
 # text_en =  he said ... he said I should repair the puncture and bring him (the bike).
 1	wéy	wéy	PART	_	Mood=Qot	4	discourse	_	AlignBegin=423325|AlignEnd=423442|Gloss=EVD
 2	||	||	PUNCT	_	_	3	punct	_	AlignBegin=423442|AlignEnd=423559|Gloss=PUNCT
@@ -3457,8 +3479,10 @@
 5	fi	fi	VERB	_	VerbForm=Fin	4	comp:aux	_	AlignBegin=424520|AlignEnd=424705|Gloss=do
 6	páːʧêʃíː	páːʧi	NOUN	_	Aspect=Res|Deixis=Med	5	comp:obj@lvc	_	AlignBegin=424705|AlignEnd=424890|Gloss=puncture
 7	mə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=1	4	parataxis@conj	_	AlignBegin=424890|AlignEnd=425075|Gloss=1SG.SUB
+8-9	lə́ːrtə	_	_	_	_	_	_	_	_
 8	lə́ːr	lə́ːr	VERB	_	VerbForm=Fin	7	comp:aux	_	AlignBegin=425075|AlignEnd=425167|Gloss=bring
 9	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	comp:ben	_	AlignBegin=425167|AlignEnd=425260|Gloss=3SG.OBJ
+10-12	mə́nɗyoː	_	_	_	_	_	_	_	_
 10	mə́n	mə́n	PART	_	Case=Ben	8	compound:prt	_	AlignBegin=425260|AlignEnd=425322|Gloss=BEN
 11	ɗi	ɗi	PART	_	_	8	compound:prt	_	AlignBegin=425322|AlignEnd=425384|Gloss=CTP
 12	oː	oː	PART	_	PartType=Emp	7	mod	_	AlignBegin=425384|AlignEnd=425445|Gloss=EMPH
