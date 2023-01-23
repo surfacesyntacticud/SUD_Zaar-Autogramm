@@ -7277,15 +7277,16 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 830470, 831895
-# text = àː || àː rigá marâ =m raː mə́n áy //
+# text = àː || àː rigá marâm raː mə́n áy //
 # text_ortho = àːːː || àː rigá marâm raː mə́n áy //
 # text_en =  She... she had already started to bother me.
 1	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=830470|AlignEnd=830568|Gloss=3SG.PERF
 2	||	||	PUNCT	_	_	3	punct	_	AlignBegin=830568|AlignEnd=830665|Gloss=PUNCT
 3	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	1	conj:dicto	_	AlignBegin=830665|AlignEnd=830841|Gloss=3SG.PERF
 4	rigá	rigá	VERB	_	VerbForm=Fin	3	comp:aux	_	AlignBegin=830841|AlignEnd=831017|Gloss=already|SVC=Yes
-5	marâ	mará	VERB	_	VerbForm=Fin	4	compound:svc	_	AlignBegin=831017|AlignEnd=831105|Gloss=spoil
-6	=m	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	comp:ben	_	AlignBegin=831105|AlignEnd=831193|Gloss=1SG.OBJ
+5-6	marâm	_	_	_	_	_	_	_	_
+5	mará	mará	VERB	_	VerbForm=Fin	4	compound:svc	_	AlignBegin=831017|AlignEnd=831105|Gloss=spoil
+6	=mə	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	comp:ben	_	AlignBegin=831105|AlignEnd=831193|Gloss=1SG.OBJ
 7	raː	raː	NOUN	_	_	5	comp:obj	_	AlignBegin=831193|AlignEnd=831369|Gloss=heart
 8	mə́n	mə́n	PART	_	Case=Ben	5	compound:prt	_	AlignBegin=831369|AlignEnd=831545|Gloss=BEN
 9	áy	áy	INTJ	_	_	3	discourse	_	AlignBegin=831545|AlignEnd=831721|Gloss=eh
@@ -7295,12 +7296,14 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 831653, 832421
-# text = sǔn =kí ɣá mókʃi =wàːn ɓà !//
+# text = sǔnkíɣá mókʃiwàːn ɓà !//
 # text_ortho = sǔnkí ká mókʃiwàːn ɓà !//
 # text_en =  You should go back to loving each other.
+1-3	sǔnkíɣá	_	_	_	_	_	_	_	_
 1	sǔn	su	VERB	_	Mood=Imp|Number=Plur|VerbForm=Fin	0	root	_	AlignBegin=831653|AlignEnd=831704|Gloss=return.IMP.PL
 2	=kí	=kí	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs|Reflex=Yes	1	comp:obj	_	AlignBegin=831755|AlignEnd=831807|Gloss=2PL.OBJ
 3	ká	ká	ADP	_	_	1	comp:obl	_	AlignBegin=831807|AlignEnd=831961|Gloss=at|wordform=ɣá
+4-5	mókʃiwàːn	_	_	_	_	_	_	_	_
 4	mókʃi	mókʃi	NOUN	_	_	3	comp:obj	_	AlignBegin=831961|AlignEnd=832038|Gloss=courting
 5	=wàːn	=waːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	4	mod@poss	_	AlignBegin=832038|AlignEnd=832115|Gloss=2PL.POS
 6	ɓà	ɓâ	INTJ	_	_	1	discourse	_	AlignBegin=832115|AlignEnd=832269|Gloss=indeed
@@ -7310,13 +7313,14 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 832689, 833530
-# text = kâːy < bàː má sû =mí ɣáy hŋ́ !//
+# text = kâːy < bàː má sûmíɣáyǐn !//
 # text_ortho = kâːy < bàː má sûmíkáyǐn !//
 # text_en =  What! We won't go back!
 1	kâːy	kâːy	INTJ	_	_	4	discourse	_	AlignBegin=832689|AlignEnd=832829|Gloss=eh
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=832829|AlignEnd=832969|Gloss=PUNCT
 3	bàː	bàː	PART	_	Polarity=Neg	4	mod	_	AlignBegin=832969|AlignEnd=833109|Gloss=NEG
 4	má	wò	AUX	_	Number=Plur|Person=1|Tense=Fut	0	root	_	AlignBegin=833109|AlignEnd=833249|Gloss=1PL.FUT
+5-8	sûmíɣáyǐn	_	_	_	_	_	_	_	_
 5	sû	su	VERB	_	VerbForm=Fin	4	comp:aux	_	AlignBegin=833249|AlignEnd=833284|Gloss=return
 6	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	5	comp:obj	_	AlignBegin=833284|AlignEnd=833319|Gloss=1PL.OBJ
 7	káy	káy	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	5	comp:obl	_	AlignBegin=833319|AlignEnd=833354|Gloss=ANAPH|wordform=ɣáy
@@ -7327,10 +7331,11 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 834231, 834731
-# text = Állâː sǔn =kí ɣáy !//
-# text_ortho = Állâː sǔnkíkáy !//
+# text = Állâː sǔnkíɣáy !//
+# text_ortho = Állâː sǔnkíɣáy !//
 # text_en =  Please, you should make up!
 1	Állâː	Állâː	PROPN	_	_	2	discourse	_	AlignBegin=834231|AlignEnd=834398|Gloss=God
+2-4	sǔnkíɣáy	_	_	_	_	_	_	_	_
 2	sǔn	su	VERB	_	Mood=Imp|Number=Plur|VerbForm=Fin	0	root	_	AlignBegin=834398|AlignEnd=834440|Gloss=return.IMP.PL
 3	=kí	=kí	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs|Reflex=Yes	2	comp:obj	_	AlignBegin=834482|AlignEnd=834524|Gloss=2PL.OBJ
 4	káy	káy	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	2	comp:obl	_	AlignBegin=834524|AlignEnd=834565|Gloss=ANAPH|wordform=ɣáy
@@ -7340,18 +7345,18 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 834731, 836024
-# text = myáːni < râː =tn yi ni ɣá Yelkon //
+# text = myáːni < raː yiniɣá Yelkon //
 # text_ortho = myâːn < râːtn yini ɣá Yelkon //
 # text_en =  Myself, I'm in love with Yelkon.
-1	myáːni	myáːni	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	dislocated@top	_	AlignBegin=834731|AlignEnd=834916|Gloss=1SG
+1	myáːni	myáːni	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	dislocated@top	_	AlignBegin=834731|AlignEnd=834916|Gloss=1SG
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=834916|AlignEnd=835101|Gloss=PUNCT
-3	râː	raː	NOUN	_	_	5	subj	_	AlignBegin=835101|AlignEnd=835193|Gloss=heart
-4	=tn	=atn	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	mod@poss	_	AlignBegin=835193|AlignEnd=835286|Gloss=1SG.POS
-5	yi	yi	VERB	_	VerbForm=Fin	0	root	_	AlignBegin=835286|AlignEnd=835378|Gloss=be
-6	ni	ni	PART	_	Aspect=Inch	5	compound:prt	_	AlignBegin=835378|AlignEnd=835471|Gloss=INCH
-7	ká	ká	ADP	_	_	5	comp:pred	_	AlignBegin=835471|AlignEnd=835656|Gloss=at|wordform=ɣá
-8	Yelkon	Yelkon	PROPN	_	_	7	comp:obj	_	AlignBegin=835656|AlignEnd=835841|Gloss=Yelkon
-9	//	//	PUNCT	_	_	5	punct	_	AlignBegin=835841|AlignEnd=836024|Gloss=PUNCT
+3	raː	raː	NOUN	_	_	4	subj	_	AlignBegin=835101|AlignEnd=835193|Gloss=heart
+4-6	yiniɣá	_	_	_	_	_	_	_	_
+4	yi	yi	VERB	_	VerbForm=Fin	0	root	_	AlignBegin=835286|AlignEnd=835378|Gloss=be
+5	ni	ni	PART	_	Aspect=Inch	4	compound:prt	_	AlignBegin=835378|AlignEnd=835471|Gloss=INCH
+6	ká	ká	ADP	_	_	4	comp:pred	_	AlignBegin=835471|AlignEnd=835656|Gloss=at|wordform=ɣá
+7	Yelkon	Yelkon	PROPN	_	_	6	comp:obj	_	AlignBegin=835656|AlignEnd=835841|Gloss=Yelkon
+8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=835841|AlignEnd=836024|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_869-869
 # speaker_id = SP2
