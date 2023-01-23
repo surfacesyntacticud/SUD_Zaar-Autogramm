@@ -7181,15 +7181,16 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 821499, 823303
-# text = èː tòː < mətáyáː fin tunani makaranta =âtn áy //
-# text_ortho = èː tôː < mətáyáː fin tunani makarantâtn áy //
-# text_en =  Yes Eh well I was <thinking> about my studies.
+# text = èː tòː < mətáyáː fin tunani makarantâtn áy //
+# text_ortho = èː tôː < mətáyáː fin tunaní makarantâtn áy //
+# text_en =  Yes well I was <thinking> about my studies.
 1	èː	èː	INTJ	_	_	4	discourse	_	AlignBegin=821499|AlignEnd=821719|Gloss=yes
 2	tòː	tòː	PART	_	_	4	discourse	_	AlignBegin=821719|AlignEnd=821917|Gloss=well
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=821917|AlignEnd=822115|Gloss=PUNCT
 4	mətáyáː	átâyáː	AUX	_	Aspect=Imp|Number=Sing|Person=1|Tense=Rem	0	root	_	AlignBegin=822115|AlignEnd=822313|Gloss=1SG.IMP.REM
 5	fin	fi	VERB	_	Aspect=Inch|VerbForm=Fin	4	comp:aux	_	AlignBegin=822313|AlignEnd=822412|Gloss=do.INCH
-6	tunani	tunani	NOUN	_	_	5	comp:obj@lvc	_	Gloss=thinking
+6	tunaní	tunani	NOUN	_	Definite=Cons	5	comp:obj@lvc	_	Gloss=thinking
+7-8	makarantâtn	_	_	_	_	_	_	_	_
 7	makaranta	makaranta	NOUN	_	_	6	udep	_	AlignBegin=822709|AlignEnd=822808|Gloss=school
 8	=âtn	=atn	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	7	mod@poss	_	AlignBegin=822808|AlignEnd=822907|Gloss=1SG.POS
 9	áy	áy	INTJ	_	_	4	mod	_	AlignBegin=822907|AlignEnd=823105|Gloss=eh
@@ -7210,7 +7211,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 824619, 826506
-# text = yáwwàː < àmáː bàː ʧík hŋ́ dàː mîtà kap =tíː áy !//
+# text = yáwwàː < àmáː bàː ʧík hŋ́ dàː mîtà kaptíː áy !//
 # text_ortho = yawwàː < àmmáː bàː ʧǐn dàː mîtà kaptíː áy !//
 # text_en =  Ok but if not because of that, I would have married her!
 1	yáwwàː	yáwwàː	INTJ	_	_	8	discourse	_	AlignBegin=824619|AlignEnd=824817|Gloss=OK
@@ -7221,6 +7222,7 @@
 6	hŋ́	hŋ́	PART	_	Polarity=Neg	5	mod	_	AlignBegin=825524|AlignEnd=825626|Gloss=NEG
 7	dàː	dàː	PART	_	Mood=Irr	8	mod	_	AlignBegin=825626|AlignEnd=825802|Gloss=CTF
 8	mîtà	ʧíta	AUX	_	Mood=Irr|Number=Sing|Person=1|Tense=Rem	0	root	_	AlignBegin=825802|AlignEnd=825978|Gloss=1SG.REM.CTF
+9-10	kaptíː	_	_	_	_	_	_	_	_
 9	kap	kap	VERB	_	VerbForm=Fin	8	comp:aux	_	AlignBegin=825978|AlignEnd=826154|Gloss=take
 10	=tíː	=tə	PRON	_	Aspect=Res|Case=Acc|Number=Sing|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=826037|AlignEnd=826096|Gloss=3SG.OBJ.RES
 11	áy	áy	INTJ	_	_	9	discourse	_	AlignBegin=826154|AlignEnd=826330|Gloss=eh
@@ -7230,7 +7232,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 826732, 828022
-# text = tòː áy < bàː á kamaːtá máː àː ɲangás =tə ɗangəní hŋ́ oː //
+# text = tòː áy < bàː á kamaːtá máː àː ɲangástə ɗangənǐnoː //
 # text_ortho = tòː áy < bàː á kâmàːtá máː àː ɲángástə ɗangənǐnoː //
 # text_en =  Well but, you should not refuse to marry her now.
 1	tòː	tòː	PART	_	_	5	discourse	_	AlignBegin=826732|AlignEnd=826822|Gloss=well
@@ -7241,8 +7243,10 @@
 6	kamaːtá	kamaːtá	VERB	_	VerbForm=Fin	5	comp:aux	_	AlignBegin=827258|AlignEnd=827386|Gloss=be_proper
 7	máː	máː	PART	_	_	5	mod	_	AlignBegin=827386|AlignEnd=827514|Gloss=even
 8	àː	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=2	5	parataxis@subj	_	AlignBegin=827514|AlignEnd=827642|Gloss=2SG.SUB
+9-10	ɲangástə	_	_	_	_	_	_	_	_
 9	ɲangás	ɲangás	VERB	_	VerbForm=Fin	8	comp:aux	_	AlignBegin=827642|AlignEnd=827706|Gloss=refuse
 10	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=827706|AlignEnd=827770|Gloss=3SG.OBJ
+11-13	ɗangənǐnoː	_	_	_	_	_	_	_	_
 11	ɗangəní	ɗangəní	ADV	_	PronType=Dem	9	mod	_	AlignBegin=827770|AlignEnd=827813|Gloss=now
 12	hŋ́	hŋ́	PART	_	Polarity=Neg	5	mod	_	AlignBegin=827813|AlignEnd=827856|Gloss=NEG
 13	oː	oː	PART	_	PartType=Emp	5	mod	_	AlignBegin=827856|AlignEnd=827898|Gloss=EMPH
