@@ -6091,9 +6091,9 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 705241, 707710
-# text = dzàn nǐː n >+ ɗan ma || ɬə́ɣə̂n =ètə́n də̀n âː ?//
-# text_ortho = dzànːːː nǐːn >+ ɗan ma ɬə́ɣə̂nètə́n də̀nə́naː ?//
-# text_en =  Which day was it  that  I  went to that house?
+# text = dzàn nǐːn >+ ɗan ma || ɬə́ɣə̂nètə́n də̀nâː ?//
+# text_ortho = dzànːːː nǐːn >+ ɗan ma ɬə́ɣə̂nètə́n də̀nâː ?//
+# text_en =  Which day was it  that  I  will... I went home?
 1	dzàn	dzàn	NOUN	_	_	3	comp:pred	_	AlignBegin=705241|AlignEnd=705951|Gloss=day
 2	nǐː	níː	PRON	_	PronType=Int	1	mod	_	AlignBegin=705951|AlignEnd=706135|Gloss=what
 3	n	kən	PART	_	_	0	root	_	AlignBegin=706135|AlignEnd=706320|Gloss=be
@@ -6101,8 +6101,10 @@
 5	ɗan	ɗan	SCONJ	_	_	3	comp:cleft	_	AlignBegin=706320|AlignEnd=706492|Gloss=as
 6	ma	wò	AUX	_	Number=Sing|Person=1|Tense=Fut	5	comp:obj	_	AlignBegin=706492|AlignEnd=706665|Gloss=1.SG.FUT
 7	||	||	PUNCT	_	_	8	punct	_	AlignBegin=706665|AlignEnd=706665|Gloss=PUNCT
-8	ɬə́ɣə̂n	ɬə	VERB	_	VerbForm=Vnoun	5	conj:dicto	_	AlignBegin=706924|AlignEnd=707186|ExtPos=NOUN|Gloss=go-NMLZ
-9	=ètə́n	=âtn	PRON	_	Case=Gen|Deixis=Prox|Number=Sing|Person=1|PronType=Prs	8	mod@top	_	AlignBegin=707056|AlignEnd=707122|GE=[1SG].[POS].|Gloss=1SG.POS.PROX|nWord=6|PROX]=|RX=[PRO]
+8-9	ɬə́ɣə̂nètə́n	_	_	_	_	_	_	_	_
+8	ɬə́ɣə́ni	ɬə	VERB	_	VerbForm=Vnoun	5	conj:dicto	_	AlignBegin=706924|AlignEnd=707186|ExtPos=NOUN|Gloss=go-NMLZ
+9	=âtə́n	=atn	PRON	_	Case=Gen|Deixis=Prox|Number=Sing|Person=1|PronType=Prs	8	mod@top	_	AlignBegin=707056|AlignEnd=707122|GE=[1SG].[POS].|Gloss=1SG.POS.PROX|nWord=6|PROX]=|RX=[PRO]
+10-11	də̀nâː	_	_	_	_	_	_	_	_
 10	də̀n	də̀n	NOUN	_	_	8	udep	_	AlignBegin=707186|AlignEnd=707360|Gloss=house
 11	âː	aː	PART	_	PartType=Int	5	mod	_	AlignBegin=707360|AlignEnd=707448|Gloss=Q
 12	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=707448|AlignEnd=707710|Gloss=PUNCT
@@ -6171,7 +6173,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 716358, 719843
-# text = Gòːdiya Máːlân Dʒoːnátân ɗan miɣá ɬə́ɣə̂n miːr ɓa =ʃí //
+# text = Gòːdiya Máːlân Dʒoːnátân ɗan miɣá ɬə́ɣə̂n miːr ɓaʃí //
 # text_ortho = Gòːdiya Máːlânːːː Dʒoːnátân  ɗan miká ɬə́kə̂n miːr ɓaʃí //
 # text_en =  Godiya Malan Jonathan where I go to take petrol.
 1	Gòːdiya	Gòːdiya	PROPN	_	_	0	root	_	AlignBegin=716358|AlignEnd=716820|Gloss=Godiya
@@ -6181,6 +6183,7 @@
 5	miɣá	ʧiká	AUX	_	Aspect=Prog|Number=Sing|Person=1	4	comp:obj	_	AlignBegin=719007|AlignEnd=719174|Gloss=1SG.PROG
 6	ɬə́ɣə̂n	ɬə	VERB	_	VerbForm=Vnoun	5	comp:aux	_	AlignBegin=719174|AlignEnd=719341|ExtPos=NOUN|Gloss=go-NMLZ
 7	miːr	miːr	NOUN	_	_	6	udep	_	AlignBegin=719341|AlignEnd=719508|Gloss=petrol
+8-9	ɓaʃí	_	_	_	_	_	_	_	_
 8	ɓa	ɓas	ADP	_	_	6	udep	_	AlignBegin=719508|AlignEnd=719592|Gloss=of
 9	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=719592|AlignEnd=719675|Gloss=3PL.OBJ
 10	//	//	PUNCT	_	_	5	punct	_	AlignBegin=719675|AlignEnd=719843|Gloss=PUNCT
