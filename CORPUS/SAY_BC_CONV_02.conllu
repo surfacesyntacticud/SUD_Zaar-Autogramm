@@ -487,7 +487,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 72058, 81274
-# text = zaːr ɗan àː ɲáːr =mí |c ʧáː súː mə̀ yèl ŋáː =wôs ǒːy < tá ɗan àː lə́ːr =mí mə́n ɗi ʧíɣə́y < tá nə ngə̌tn gaːm lápkə́nì mə̀ gàː =ʃì tə̀ ɬə̀ ʧík vàtì ŋâː ?//
+# text = zaːr ɗan àː ɲáːr =mí |c ʧáː súː mə̀ yèl ŋáː =wôs ǒːy < tá ɗan àː lə́ːrmí mə́nɗi ʧíɣə́y < tá nə ngə̌tn gaːm lápkə́nì mə̀ gàːʃì tə̀ ɬə̀ ʧík vàtì ŋâː ?//
 # text_ortho = zaːr ɗan àː ɲáːrmí |c ʧáː súː mə̀ yèl ŋáːwôsǒːy < tá ɗan àː lə́ːrmí mə́nɗi ʧiɣə́y < tá nə ngə̌tn gaːm lápkə́nì mə̀ gàːʃí tə̀ ɬə̀ ʧík vàtì ŋâː ?//
 # text_en =  The man who honours us (by) wanting us to see his son, then ... as he brought  him  to us like this, isn't it a shame that we should let them go like this empty-handed?
 1	zaːr	zaːr	NOUN	_	_	25	dislocated@top	_	AlignBegin=72058|AlignEnd=72328|Gloss=human
@@ -500,6 +500,7 @@
 8	súː	súː	VERB	_	VerbForm=Fin	7	comp:aux	_	AlignBegin=73678|AlignEnd=73947|Gloss=want
 9	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	8	parataxis@comp	_	AlignBegin=73947|AlignEnd=74216|Gloss=1PL.SUB
 10	yèl	yel	VERB	_	VerbForm=Fin	9	comp:aux	_	AlignBegin=74216|AlignEnd=74485|Gloss=see
+11-13	ŋáːwôsǒːy	_	_	_	_	_	_	_	_
 11	ŋáː	ŋáː	NOUN	_	_	10	comp:obj	_	AlignBegin=74485|AlignEnd=74552|Gloss=child
 12	=wôs	=wos	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	mod@poss	_	AlignBegin=74552|AlignEnd=74619|Gloss=3SG.POS
 13	ǒːy	ǒːy	PART	_	PartType=Emp	7	mod	_	AlignBegin=74619|AlignEnd=74686|Gloss=EMPH
@@ -507,8 +508,10 @@
 15	tá	tá	PART	_	_	16	discourse	_	AlignBegin=75519|AlignEnd=75755|Gloss=then
 16	ɗan	ɗan	SCONJ	_	_	2	conj:coord	_	AlignBegin=75755|AlignEnd=75991|Gloss=as
 17	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	16	comp:obj	_	AlignBegin=76227|AlignEnd=76478|Gloss=3SG.PERF
+18-19	lə́ːrmí	_	_	_	_	_	_	_	_
 18	lə́ːr	lə́ːr	VERB	_	VerbForm=Fin	17	comp:aux	_	AlignBegin=76478|AlignEnd=76604|Gloss=bring
 19	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	18	comp:obj	_	AlignBegin=76604|AlignEnd=76729|Gloss=1PL.OBJ
+20-21	mə́nɗi	_	_	_	_	_	_	_	_
 20	mə́n	mə́n	PART	_	Case=Ben	18	compound:prt	_	AlignBegin=76729|AlignEnd=76855|Gloss=BEN
 21	ɗi	ɗi	PART	_	_	18	compound:prt	_	AlignBegin=76855|AlignEnd=76980|Gloss=CTP
 22	ʧíɣə́y	ʧík	ADV	_	Aspect=Res	18	mod	_	AlignBegin=76980|AlignEnd=77106|Gloss=thus
@@ -519,6 +522,7 @@
 27	gaːm	gaːm	NOUN	_	_	28	udep	_	AlignBegin=78590|AlignEnd=78858|Gloss=head
 28	lápkə́nì	láp	VERB	_	VerbForm=Vnoun	26	mod	_	AlignBegin=78858|AlignEnd=78992|ExtPos=NOUN|Gloss=leave.NMLZ
 29	mə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=1	25	dislocated@subj	_	AlignBegin=79126|AlignEnd=79394|Gloss=1SG.SUB
+30-31	gàːʃì	_	_	_	_	_	_	_	_
 30	gàː	gaː	VERB	_	VerbForm=Fin	29	comp:aux	_	AlignBegin=79394|AlignEnd=79528|Gloss=leave
 31	=ʃì	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	30	comp:obj	_	AlignBegin=79528|AlignEnd=79662|Gloss=3PL.OBJ
 32	tə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=3	30	parataxis@mod	_	AlignBegin=79662|AlignEnd=79930|Gloss=3PL.SUB
@@ -542,7 +546,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 82279, 91601
-# text = yâːn mǎː yìsə́ŋə́y || ɗan mǎː yìsə́ŋə́y tu ʧàː mángə́n ɗì < mìː ɮìː gyáː ʧit kwâːn nàmbón mìː ɗǔy mə̀ və̀r kúnês tə̀ yél tsə̂r ʧít =wôpm ɗan myǎː ʧî ɗaː =mí //
+# text = yâːn mǎː yìsə́ŋə́y || ɗan mǎː yìsə́ŋə́y tu ʧàː mángə́n ɗì < mìː ɮìː gyáː ʧit kwâːn nàmbón mìː ɗǔy mə̀ və̀r kúnês tə̀ yél tsə̂r ʧítwôpm ɗan myǎː ʧî ɗaːmí //
 # text_ortho = yâːn mǎː yìsə́ŋə́y || ɗan mǎː yìsə́ŋə́y tu ʧàː mángə́nɗì < mìː ɮìː gyáː ʧit kwâːn nàmbón mìː ɗǔy mə̀ və̀r kúnês tə̀ yél tsə̂r ʧítwôpm ɗan myǎː ʧî ɗaːmí //
 # text_en =  If we had kown, if we had known that they were coming, we would have given them a bowl of acca that we would have pounded and given to the boy for him to see the grains of the acca that we eat here.
 1	yâːn	yâːn	SCONJ	_	_	13	mod	_	AlignBegin=82279|AlignEnd=82579|Gloss=if
@@ -571,11 +575,13 @@
 24	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	21	parataxis@conj	_	AlignBegin=89497|AlignEnd=89731|Gloss=3SG.SUB
 25	yél	yel	VERB	_	VerbForm=Fin	24	comp:aux	_	AlignBegin=89731|AlignEnd=89965|Gloss=see
 26	tsə̂r	tsə̂r	NOUN	_	_	25	comp:obj	_	AlignBegin=89965|AlignEnd=90199|Gloss=grain
+27-28	ʧítwôpm	_	_	_	_	_	_	_	_
 27	ʧít	ʧit	NOUN	_	_	26	mod	_	AlignBegin=90199|AlignEnd=90316|Gloss=acha
 28	=wôpm	=wopm	PRON	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	27	mod@poss	_	AlignBegin=90316|AlignEnd=90433|Gloss=1PL.POS
 29	ɗan	ɗan	SCONJ	_	PronType=Rel	27	mod@relcl	_	AlignBegin=90433|AlignEnd=90667|Gloss=REL
 30	myǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	29	comp:obj	_	AlignBegin=90667|AlignEnd=90901|Gloss=1PL.IMP
 31	ʧî	ʧi	VERB	_	VerbForm=Fin	30	comp:aux	_	AlignBegin=90901|AlignEnd=91135|Gloss=eat
+32-33	ɗaːmí	_	_	_	_	_	_	_	_
 32	ɗaː	ɗaː	ADP	_	Case=Gen	31	mod	_	AlignBegin=91135|AlignEnd=91252|Gloss=at
 33	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	32	comp:obj	_	AlignBegin=91252|AlignEnd=91369|Gloss=1PL.OBJ
 34	//	//	PUNCT	_	_	13	punct	_	AlignBegin=91369|AlignEnd=91601|Gloss=PUNCT
@@ -622,8 +628,8 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 96335, 103493
-# text = á gə̀t àː tá < myáː wu tu dàː mìː || dàː mìː ŋàl =tə̀ gyáː ŋaː gerʃí mə́n tá wò pol =ʃí ɣáy moɓ oː //
-# text_ortho = á gə̀tàː tá < myáː wu tu dàː mìː || dàː mìː ŋàltə̀ gyáː ŋaː gerʃí mə́n tá wò polʃí ɣáy moɓoː //
+# text = á gə̀t àː tá < myáː wu tu dàː mìː || dàː mìː ŋàltə̀ gyáː ŋaː gerʃí mə́n tá wò polʃíɣáy moɓoː //
+# text_ortho = á gə̀tàː tá < myáː wu tu dàː mìː || dàː mìː ŋàltə̀ gyáː ŋaː gerʃí mə́n tá wò polʃíɣáy moɓoː //
 # text_en =  According to me.. I say that.. if we ... if we had looked for some chickens for them, then they would have been more pleased.
 1	á	ká	ADP	_	_	6	discourse	_	AlignBegin=96335|AlignEnd=96596|Gloss=at
 2	gə̀t	gə̀tn	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	comp:obj	_	AlignBegin=96596|AlignEnd=96726|Gloss=3SG.POS
@@ -638,6 +644,7 @@
 11	||	||	PUNCT	_	_	12	punct	_	AlignBegin=99961|AlignEnd=100283|Gloss=PUNCT
 12	dàː	dàː	PART	_	Mood=Irr	9	conj:dicto	_	AlignBegin=100283|AlignEnd=100551|Gloss=CTF
 13	mìː	yí	AUX	_	Mood=Irr|Number=Plur|Person=1	12	comp:obj	_	AlignBegin=100551|AlignEnd=100819|Gloss=1PL.CTF
+14-15	ŋàltə̀	_	_	_	_	_	_	_	_
 14	ŋàl	ŋal	VERB	_	VerbForm=Fin	13	comp:aux	_	AlignBegin=100819|AlignEnd=100953|Gloss=look_for
 15	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	14	comp:ben	_	AlignBegin=100953|AlignEnd=101087|Gloss=3SG.OBJ
 16	gyáː	gyaː	DET	_	Number=Plur	18	det	_	AlignBegin=101087|AlignEnd=101355|Gloss=PL3
@@ -646,10 +653,12 @@
 19	mə́n	mə́n	PART	_	Case=Ben	14	compound:prt	_	AlignBegin=101891|AlignEnd=102159|Gloss=BEN
 20	tá	tá	PART	_	_	21	discourse	_	AlignBegin=102159|AlignEnd=102427|Gloss=then
 21	wò	wò	AUX	_	Number=Sing|Person=3|Tense=Fut	8	comp:obj	_	AlignBegin=102427|AlignEnd=102695|Gloss=3SG.FUT
+22-23	polʃíɣáy	_	_	_	_	_	_	_	_
 22	pol	pol	VERB	_	VerbForm=Fin	21	comp:aux	_	AlignBegin=102695|AlignEnd=102784|Gloss=please
 23	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	22	comp:ben	_	AlignBegin=102784|AlignEnd=102873|Gloss=3PL.OBJ
 24	káy	káy	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	22	comp:obl@agent	_	AlignBegin=102873|AlignEnd=102963|Gloss=ANAPH|wordform=ɣáy
-25	moɓ	mop	VERB	_	VerbForm=Fin	22	compound:svc	_	AlignBegin=102963|AlignEnd=103097|Gloss=surpass
+25-26	moɓoː	_	_	_	_	_	_	_	_
+25	mop	mop	VERB	_	VerbForm=Fin	22	compound:svc	_	AlignBegin=102963|AlignEnd=103097|Gloss=surpass
 26	oː	oː	PART	_	PartType=Emp	21	mod	_	AlignBegin=103097|AlignEnd=103231|Gloss=EMPH
 27	//	//	PUNCT	_	_	6	punct	_	AlignBegin=103231|AlignEnd=103493|Gloss=PUNCT
 
@@ -718,6 +727,7 @@
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=108210|AlignEnd=108384|Gloss=PUNCT
 5	dàː	dàː	PART	_	Mood=Irr	6	mod	_	AlignBegin=108384|AlignEnd=108601|Gloss=CTF
 6	mìː	yí	AUX	_	Mood=Irr|Number=Plur|Person=1	0	root	_	AlignBegin=108601|AlignEnd=108818|Gloss=1PL.CTF
+7-8	və̀rtə̀	_	_	_	_	_	_	_	_
 7	və̀r	vər	VERB	_	VerbForm=Fin	6	comp:aux	_	AlignBegin=108818|AlignEnd=108926|Gloss=give
 8	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	comp:ben	_	AlignBegin=108926|AlignEnd=109035|Gloss=3SG.OBJ
 9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=109035|AlignEnd=109251|Gloss=PUNCT
@@ -726,12 +736,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 109251, 110704
-# text = tôː ndzuːn âː ɗu =míː //
+# text = tôː ndzuːn âː ɗumíː //
 # text_ortho = tôː ndzuːnâː ɗumíː //
 # text_en =  Well I am ashamed.
 1	tôː	tòː	PART	_	_	3	discourse	_	AlignBegin=109251|AlignEnd=109542|Gloss=well
 2	ndzuːn	ndzǔːn	NOUN	_	_	3	subj	_	AlignBegin=109542|AlignEnd=109688|Gloss=shame
 3	âː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=109688|AlignEnd=109833|Gloss=3SG.PERF
+4-5	ɗumíː	_	_	_	_	_	_	_	_
 4	ɗu	ɗu	VERB	_	VerbForm=Fin	3	comp:aux	_	AlignBegin=110124|AlignEnd=110221|Gloss=beat
 5	=míː	=mí	PRON	_	Aspect=Res|Case=Acc|Number=Plur|Person=1|PronType=Prs	4	comp:obj	_	AlignBegin=110221|AlignEnd=110318|Gloss=1PL.OBJ
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=110415|AlignEnd=110704|Gloss=PUNCT
@@ -740,10 +751,11 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 109747, 110704
-# text = mìː və̀r =tə̀ gèri //
+# text = mìː və̀rtə̀ gèri //
 # text_ortho = mìː və̀rtə̀ gèri //
 # text_en =  We would have given him a chicken.
 1	mìː	yí	AUX	_	Mood=Irr|Number=Plur|Person=1	0	root	_	AlignBegin=109747|AlignEnd=109986|Gloss=1PL.CTF
+2-3	və̀rtə̀	_	_	_	_	_	_	_	_
 2	və̀r	vər	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=109986|AlignEnd=110106|Gloss=give
 3	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:ben	_	AlignBegin=110106|AlignEnd=110225|Gloss=3SG.OBJ
 4	gèri	gèri	NOUN	_	_	2	comp:obj	_	AlignBegin=110225|AlignEnd=110464|Gloss=chicken
@@ -753,17 +765,19 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 111852, 113651
-# text = tòː < ndzuːn âː ɗu =mí gòpm ŋgáy ɣənín ngən //
-# text_ortho = tôː < ndzuːn âː ɗumí gòpm ŋgáy ɣənín ngən //
+# text = tòː < ndzuːn âː ɗumí gòpmŋgáyɣəníngən //
+# text_ortho = tôː < ndzuːn âː ɗumí gòpmŋgáyɣəníngən //
 # text_en =  Well, we are ashamed of it.
 1	tòː	tòː	PART	_	_	4	discourse	_	AlignBegin=111852|AlignEnd=111980|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=111980|AlignEnd=112107|Gloss=PUNCT
 3	ndzuːn	ndzǔːn	NOUN	_	_	4	mod	_	AlignBegin=112107|AlignEnd=112261|Gloss=shame
 4	âː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=112261|AlignEnd=112416|Gloss=3SG.PERF
+5-6	ɗumí	_	_	_	_	_	_	_	_
 5	ɗu	ɗu	VERB	_	VerbForm=Fin	4	comp:aux	_	AlignBegin=112416|AlignEnd=112570|Gloss=beat
 6	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	comp:obj	_	AlignBegin=112570|AlignEnd=112725|Gloss=1PL.OBJ
+7-10	gòpmŋgáyɣəníngən	_	_	_	_	_	_	_	_
 7	gòpm	gòpm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	5	mod@top	_	AlignBegin=112725|AlignEnd=112802|Gloss=1PL.POS
-8	ŋgáy	káy	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	5	comp:obl	_	AlignBegin=112802|AlignEnd=112879|Gloss=ANAPH
+8	káy	káy	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	5	comp:obl	_	AlignBegin=112802|AlignEnd=112879|Gloss=ANAPH
 9	kənín	kənín	PART	_	Deixis=Prox|VerbType=Cop	4	mod	_	AlignBegin=112879|AlignEnd=112956|Gloss=EMPH|wordform=ɣənín
 10	kən	kən	PART	_	VerbType=Cop	4	mod	_	AlignBegin=112956|AlignEnd=113034|Gloss=EMPH|wordform=ngən
 11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=113343|AlignEnd=113651|Gloss=PUNCT
