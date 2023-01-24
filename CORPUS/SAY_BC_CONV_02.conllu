@@ -2061,7 +2061,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 280181, 283873
-# text = tôː < ɗúːni ŋâː < ngə́tn ɗan má ʃûːká =tə yáː ɣəní >+ dondə́ ʒà ɣá yaːɬə́n //
+# text = tôː < ɗúːni ŋâː < ngə́tn ɗan má ʃûːkátə yáː ɣəní >+ dondə́ ʒà ɣá yaːɬə́n //
 # text_ortho = tôː < ɗúːni ŋâː < ngə́tn ɗan má ʃûːkátə yáː ɣəní < dondə́ ʒà ɣá yâːɬə́n //
 # text_en =  Well, here indeed, what we are going to tell him, there is a shortage of water in this country.
 1	tôː	tòː	PART	_	_	12	discourse	_	AlignBegin=280181|AlignEnd=280308|Gloss=well
@@ -2072,6 +2072,7 @@
 6	ngə́tn	ngə́tn	NOUN	_	_	12	dislocated@subj	_	AlignBegin=281177|AlignEnd=281445|Gloss=thing
 7	ɗan	ɗan	SCONJ	_	PronType=Rel	6	mod@relcl	_	AlignBegin=281445|AlignEnd=281713|Gloss=REL
 8	má	wò	AUX	_	Number=Plur|Person=1|Tense=Fut	7	comp:obj	_	AlignBegin=281713|AlignEnd=281981|Gloss=1PL.FUT
+9-10	ʃûːkátə	_	_	_	_	_	_	_	_
 9	ʃûːká	ʃuːká	VERB	_	VerbForm=Fin	8	comp:aux	_	AlignBegin=281981|AlignEnd=282115|Gloss=sow
 10	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	comp:ben	_	AlignBegin=282115|AlignEnd=282249|Gloss=3SG.OBJ
 11	yáː	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	12	subj	_	AlignBegin=282249|AlignEnd=282383|Gloss=3SG
@@ -2087,10 +2088,11 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 285967, 287102
-# text = dondə́ ʒà =wòpə́n //
+# text = dondə́ ʒàwòpə́n //
 # text_ortho = dondə́ ʒàwòpə́n //
 # text_en =  We lack water.
 1	dondə́	dondə	NOUN	_	Definite=Cons	0	root	_	AlignBegin=285967|AlignEnd=286156|Gloss=poverty
+2-3	ʒàwòpə́n	_	_	_	_	_	_	_	_
 2	ʒà	ʒà	NOUN	_	_	1	mod	_	AlignBegin=286345|AlignEnd=286471|Gloss=water
 3	=wòpə́n	=wopm	PRON	_	Case=Gen|Deixis=Prox|Number=Plur|Person=1|PronType=Prs	2	mod	_	AlignBegin=286471|AlignEnd=286597|Gloss=1PL.POS
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=286723|AlignEnd=287102|Gloss=PUNCT
@@ -2099,7 +2101,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 287611, 290658
-# text = tòː < múrín àːtá fí kòːkàrí tu tə̀ ɓə̀l =mí bóːfôːl mə́n oː //
+# text = tòː < múrín àːtá fí kòːkàrí tu tə̀ ɓə̀lmí bóːfôːl mə́n oː //
 # text_ortho = tôː < múrín àːtá fí kòːkari tu tə̀ ɓə̀lmí bóːfôːl mə́noː //
 # text_en =  Well this man tried to have them drill a borehole.
 1	tòː	tòː	PART	_	_	4	discourse	_	AlignBegin=287611|AlignEnd=287793|Gloss=well
@@ -2110,6 +2112,7 @@
 6	kòːkàrí	kòːkàrí	NOUN	_	_	5	comp:obj@lvc	_	AlignBegin=288978|AlignEnd=289312|Gloss=effort|InIdiom=Yes
 7	tu	tu	SCONJ	_	Mood=Qot	5	comp:obj	_	AlignBegin=289312|AlignEnd=289536|Gloss=OPN
 8	tə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=3	7	comp:obj	_	AlignBegin=289536|AlignEnd=289760|Gloss=3PL.SUB
+9-10	ɓə̀lmí	_	_	_	_	_	_	_	_
 9	ɓə̀l	ɓəl	VERB	_	VerbForm=Fin	8	comp:aux	_	AlignBegin=289760|AlignEnd=289872|Gloss=dig
 10	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	comp:ben	_	AlignBegin=289872|AlignEnd=289984|Gloss=1PL.OBJ
 11	bóːfôːl	bóːfôːl	NOUN	_	_	9	comp:obj	_	AlignBegin=289984|AlignEnd=290208|Gloss=borehole
@@ -2271,15 +2274,17 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 311260, 313613
-# text = ngə́tn yóːɗan á nâː =mí mə́n ɗangənín gəndí //
+# text = ngə́tn yóːɗan á nâːmí mə́n ɗangəníngəndí //
 # text_ortho = ngə́tn yóːɗan á nâːmí mə́n ɗangənín gəndí //
 # text_en =  That's the thing that... happens to us nowadays.
 1	ngə́tn	ngə́tn	NOUN	_	_	8	subj	_	AlignBegin=311260|AlignEnd=311690|Gloss=thing
 2	yóːɗan	yóːɗan	PRON	_	PronType=Rel	1	comp:obj	_	AlignBegin=311690|AlignEnd=312119|Gloss=which
 3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	2	comp:obj	_	AlignBegin=312119|AlignEnd=312418|Gloss=3SG.AOR
+4-5	nâːmí	_	_	_	_	_	_	_	_
 4	nâː	naː	VERB	_	VerbForm=Fin	3	comp:aux	_	AlignBegin=312418|AlignEnd=312568|Gloss=become
 5	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	comp:obj	_	AlignBegin=312568|AlignEnd=312717|Gloss=1PL.OBJ
 6	mə́n	mə́n	PART	_	Case=Ben	4	compound:prt	_	AlignBegin=312717|AlignEnd=313016|Gloss=BEN
+7-8	ɗangəníngəndí	_	_	_	_	_	_	_	_
 7	ɗangənín	ɗangəní	ADV	_	Deixis=Prox|PronType=Dem	4	mod	_	AlignBegin=313016|AlignEnd=313116|Gloss=now.PROX
 8	kəndí	kəndí	PART	_	VerbType=Cop	0	root	_	AlignBegin=313216|AlignEnd=313315|Gloss=be|wordform=gəndí
 9	//	//	PUNCT	_	_	8	punct	_	AlignBegin=313315|AlignEnd=313613|Gloss=PUNCT
@@ -2369,12 +2374,13 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 328321, 329926
-# text = tòː < myáː fuː =ɣə //
+# text = tòː < myáː fuːɣə //
 # text_ortho = tôː < myáː fuːɣə //
 # text_en =  Well, I'm telling you...
 1	tòː	tòː	PART	_	_	3	discourse	_	AlignBegin=328321|AlignEnd=328547|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=328547|AlignEnd=328773|Gloss=PUNCT
 3	myáː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	0	root	_	AlignBegin=329289|AlignEnd=329501|Gloss=1SG.IMP
+4-5	fuːɣə	_	_	_	_	_	_	_	_
 4	fuː	fuː	VERB	_	VerbForm=Fin	3	comp:aux	_	AlignBegin=329501|AlignEnd=329607|Gloss=tell
 5	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	4	comp:obj	_	AlignBegin=329607|AlignEnd=329713|Gloss=2SG.OBJ|wordform==ɣə
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=329713|AlignEnd=329926|Gloss=PUNCT
@@ -2395,7 +2401,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 331065, 332786
-# text = nə myàːní ɗan àː fu sə́m =wòpíː oː //
+# text = nə myàːní ɗan àː fu sə́mwòpíː oː //
 # text_ortho = nə myàːní ɗan àː fu sə́mwòpíːyoː //
 # text_en =  We are the ones whose name he called.
 1	nə	nə	PART	_	VerbType=Cop	0	root	_	AlignBegin=331065|AlignEnd=331311|Gloss=be
@@ -2403,6 +2409,7 @@
 3	ɗan	ɗan	SCONJ	_	PronType=Rel	1	comp:cleft	_	AlignBegin=331557|AlignEnd=331803|Gloss=REL
 4	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	3	comp:obj	_	AlignBegin=331803|AlignEnd=332049|Gloss=3SG.PERF
 5	fu	fu	VERB	_	VerbForm=Fin	4	comp:aux	_	AlignBegin=332049|AlignEnd=332295|Gloss=say
+6-7	sə́mwòpíː	_	_	_	_	_	_	_	_
 6	sə́m	sə̂m	NOUN	_	Definite=Cons	5	comp:obj	_	AlignBegin=332295|AlignEnd=332357|Gloss=name
 7	=wòpíː	=wopm	PRON	_	Aspect=Res|Case=Gen|Number=Plur|Person=1|PronType=Prs	6	mod@poss	_	AlignBegin=332357|AlignEnd=332419|Gloss=1PL.POS.RES
 8	oː	oː	PART	_	PartType=Emp	1	mod	_	AlignBegin=332481|AlignEnd=332541|Gloss=EMPH
