@@ -2545,7 +2545,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 363543, 367877
-# text = tôː < mə̀ || mə̀ ngàː ʒà //= mə̀ ʃìn ɓas =mí //= mə̀ ʧòp =mí =wôpíː //= əndá mə̀ mbǔt ni mə̀ ndà kúʧi //
+# text = tôː < mə̀ || mə̀ ngàː ʒà //= mə̀ ʃìn ɓasmí //= mə̀ ʧòpmíwôpíː //= əndá mə̀ mbǔt ni mə̀ ndà kúʧi //
 # text_ortho = tôː < mə̀ || mə̀ ngàː ʒà //= mə̀ ʃìn ɓasmí //= mə̀ ʧòpmíwôpíː //= əndá mə̀ mbǔtni mə̀ ndà kúʧi //
 # text_en =  Well, we... we take some water and pour onto ourselves we wash before we lie down to sleep.
 1	tôː	tòː	PART	_	_	3	discourse	_	AlignBegin=363543|AlignEnd=363745|Gloss=well
@@ -2558,10 +2558,12 @@
 8	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=364861|AlignEnd=365015|Gloss=PUNCT
 9	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	5	parataxis@conj	_	AlignBegin=365015|AlignEnd=365169|Gloss=1PL.SUB
 10	ʃìn	ʃin	VERB	_	VerbForm=Fin	9	comp:aux	_	AlignBegin=365169|AlignEnd=365323|Gloss=pour
+11-12	ɓasmí	_	_	_	_	_	_	_	_
 11	ɓas	ɓas	ADP	_	_	10	comp:obl	_	AlignBegin=365323|AlignEnd=365400|Gloss=of
 12	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	comp:obj	_	AlignBegin=365400|AlignEnd=365477|Gloss=1PL.OBJ
 13	//=	//=	PUNCT	_	_	14	punct	_	AlignBegin=365477|AlignEnd=365635|Gloss=PUNCT
 14	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	9	parataxis@conj	_	AlignBegin=365635|AlignEnd=365909|Gloss=1PL.SUB
+15-17	ʧòpmíwôpíː	_	_	_	_	_	_	_	_
 15	ʧòp	ʧop	VERB	_	VerbForm=Fin	14	comp:aux	_	AlignBegin=365909|AlignEnd=365977|Gloss=wash
 16	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	15	comp:obj	_	AlignBegin=365977|AlignEnd=366045|Gloss=1PL.OBJ
 17	=wôpíː	=wopm	PRON	_	Aspect=Res|Case=Gen|Number=Plur|Person=1|PronType=Prs	16	mod	_	AlignBegin=366045|AlignEnd=366113|Gloss=1PL.POS.RES
@@ -2653,12 +2655,13 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 379433, 381955
-# text = kə yél kár də̀n =wòpm //= kə́ yél ŋamtsə́ ɗan myǎː ʃîn gáy ŋâː ?//
+# text = kə yél kár də̀nwòpm //= kə́ yél ŋamtsə́ ɗan myǎː ʃîngáy ŋâː ?//
 # text_ortho = kə yél kár də̀nwòpm //= kə́ yél ŋamtsə́ ɗan myǎː ʃîn gáy ŋâː ?//
 # text_en =  You see, the back of our house, you see the wood that we put there?
 1	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=379433|AlignEnd=379627|Gloss=2SG.AOR
 2	yél	yel	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=379627|AlignEnd=379821|Gloss=see
 3	kár	kár	ADP	_	_	2	comp:obj	_	AlignBegin=379821|AlignEnd=380015|Gloss=behind
+4-5	də̀nwòpm	_	_	_	_	_	_	_	_
 4	də̀n	də̀n	NOUN	_	_	3	compound	_	AlignBegin=380015|AlignEnd=380112|Gloss=house
 5	=wòpm	=wopm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	mod@poss	_	AlignBegin=380112|AlignEnd=380209|Gloss=1PL.POS
 6	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=380209|AlignEnd=380403|Gloss=PUNCT
@@ -2667,6 +2670,7 @@
 9	ŋamtsə́	ŋamtsə́	NOUN	_	_	8	comp:obj	_	AlignBegin=380791|AlignEnd=380985|Gloss=wood
 10	ɗan	ɗan	SCONJ	_	PronType=Rel	9	mod@relcl	_	AlignBegin=380985|AlignEnd=381179|Gloss=REL
 11	myǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	10	comp:obj	_	AlignBegin=381179|AlignEnd=381373|Gloss=1PL.IMP
+12-13	ʃîngáy	_	_	_	_	_	_	_	_
 12	ʃîn	ʃin	VERB	_	VerbForm=Fin	11	comp:aux	_	AlignBegin=381373|AlignEnd=381470|Gloss=pour
 13	káy	káy	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	12	comp:obl	_	AlignBegin=381470|AlignEnd=381567|Gloss=ANAPH|wordform=gáy
 14	ŋâː	ŋâː	PART	_	PartType=Int	7	mod	_	AlignBegin=381567|AlignEnd=381761|Gloss=Q
@@ -2710,10 +2714,11 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 386689, 388961
-# text = tôː ʤáːri =wòpm myǎː fîn gyaː ʤáːri ɲinʧi //
+# text = tôː ʤáːriwòpm myǎː fîn gyaː ʤáːri ɲinʧi //
 # text_ortho = tôː ʤáːriwòpm myǎː fîn < gyaː ʤáːri ɲinʧi //
 # text_en =  Well the business that we do, is locust-bean cakes.
 1	tôː	tòː	PART	_	_	4	discourse	_	AlignBegin=386689|AlignEnd=386930|Gloss=well
+2-3	ʤáːriwòpm	_	_	_	_	_	_	_	_
 2	ʤáːri	ʤáːri	NOUN	_	_	4	dislocated@top	_	AlignBegin=386930|AlignEnd=387050|Gloss=business
 3	=wòpm	=wopm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	2	mod@poss	_	AlignBegin=387050|AlignEnd=387171|Gloss=1PL.POS
 4	myǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	0	root	_	AlignBegin=387171|AlignEnd=387412|Gloss=1PL.IMP
@@ -2795,13 +2800,14 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 401318, 403858
-# text = ófìs kə̀ mə́n gút zǎːr =wôpm gòpm ŋəndí oː //
+# text = ófìs kə̀ mə́n gút zǎːrwôpm gòpmgəndí oː //
 # text_ortho = office kə̀ mə́n gút zǎːrwôpm gòpm gəndíyoː //
 # text_en =  That's the office of our zaar women.
 1	ófìs	ófîs	NOUN	_	Foreign=Yes	8	subj	_	AlignBegin=401318|AlignEnd=401625|Gloss=office|Lang=en
 2	kə̀	kə́	ADP	_	_	1	mod@poss	_	AlignBegin=401625|AlignEnd=401932|Gloss=of
 3	mə́n	mə́n	NOUN	_	Number=Plur	2	comp:obj	_	AlignBegin=401932|AlignEnd=402240|Gloss=people
 4	gút	guɗi	NOUN	_	Number=Plur	3	mod	_	AlignBegin=402240|AlignEnd=402644|Gloss=women
+5-7	gòpmgəndí	_	_	_	_	_	_	_	_
 5	zǎːr	zaːr	NOUN	_	Definite=Cons	4	compound	_	AlignBegin=402644|AlignEnd=402779|Gloss=human.CONS
 6	=wôpm	=wopm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	5	mod@poss	_	AlignBegin=402914|AlignEnd=403048|Gloss=1PL.POS
 7	gòpm	gòpm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	1	mod@poss	_	AlignBegin=403048|AlignEnd=403183|Gloss=1PL.POS
