@@ -1805,16 +1805,18 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 247320, 249111
-# text = tôː aː < má fí =tə̀ wúr ɣəní eː ?//
+# text = tôː aː < má fítə̀ wúrɣəní eː ?//
 # text_ortho = tôː aːːː < má fítə̀ wúr ɣəní eː ?//
 # text_en =  Well, how shall we do?
 1	tôː	tòː	PART	_	_	4	discourse	_	AlignBegin=247320|AlignEnd=247515|Gloss=well
 2	aː	aː	INTJ	_	_	4	discourse	_	AlignBegin=247515|AlignEnd=247710|Gloss=HESIT
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=247710|AlignEnd=247904|Gloss=PUNCT
 4	má	wò	AUX	_	Number=Plur|Person=1|Tense=Fut	0	root	_	AlignBegin=247904|AlignEnd=248206|Gloss=1PL.FUT
+5-6	fítə̀	_	_	_	_	_	_	_	_
 5	fí	fi	VERB	_	VerbForm=Fin	4	comp:aux	_	AlignBegin=248206|AlignEnd=248357|Gloss=do
 6	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=248357|AlignEnd=248508|Gloss=3SG.OBJ
-7	wúr	wuriː	ADV	_	PronType=Int	5	mod	_	AlignBegin=248508|AlignEnd=248609|Gloss=how?
+7-8	wúrɣəní	_	_	_	_	_	_	_	_
+7	wúr	wuri	ADV	_	PronType=Int	5	mod	_	AlignBegin=248508|AlignEnd=248609|Gloss=how?
 8	kəní	kəní	PART	_	VerbType=Cop	4	mod	_	AlignBegin=248609|AlignEnd=248710|Gloss=be|wordform=ɣəní
 9	eː	eː	PART	_	PartType=Int	4	mod	_	AlignBegin=248710|AlignEnd=248810|Gloss=Q
 10	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=248810|AlignEnd=249111|Gloss=PUNCT
@@ -1823,7 +1825,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 249111, 250627
-# text = gerʃí < kusun káwêy àː ɗak =ʃí //
+# text = gerʃí < kusun káwêy àː ɗaɣʃí //
 # text_ortho = gerʃí < kusun káwêy >+ àː ɗakʃí //
 # text_en =  The hens, it's only hunger  that is disturbing them.
 1	gerʃí	gèri	NOUN	_	Number=Plur	5	dislocated@comp	_	AlignBegin=249111|AlignEnd=249221|Gloss=chicken.PL
@@ -1831,6 +1833,7 @@
 3	kusun	kusun	NOUN	_	_	5	subj	_	AlignBegin=249549|AlignEnd=249768|Gloss=hunger
 4	káwêy	káwêy	ADV	_	_	3	discourse	_	AlignBegin=249768|AlignEnd=249987|Gloss=merely
 5	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=250206|AlignEnd=250346|Gloss=3SG.PERF
+6-7	ɗaɣʃí	_	_	_	_	_	_	_	_
 6	ɗak	ɗak	VERB	_	VerbForm=Fin	5	comp:aux	_	AlignBegin=250346|AlignEnd=250416|Gloss=refuse
 7	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=250416|AlignEnd=250486|Gloss=3PL.OBJ
 8	//	//	PUNCT	_	_	5	punct	_	AlignBegin=250486|AlignEnd=250627|Gloss=PUNCT
@@ -1849,7 +1852,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 251131, 253260
-# text = kyáː ndá vìːn < tə́ ʃîː tə́ lǎːp =kə ɗa gìp vìːnì //
+# text = kyáː ndá vìːn < tə́ ʃîː tə́ lǎːpkə ɗa gìp vìːnì //
 # text_ortho = kyáː ndá vìːn < tə́ ʃîː tə́ lǎːpkə ɗa gìp vìːnì //
 # text_en =  If you enter the room, they will enter and follow you into the room.
 1	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	5	parataxis@mod	_	AlignBegin=251131|AlignEnd=251297|Gloss=2SG.COND
@@ -1859,6 +1862,7 @@
 5	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=251795|AlignEnd=251978|Gloss=3PL.AOR
 6	ʃîː	ʃiː	VERB	_	VerbForm=Fin	5	comp:aux	_	AlignBegin=251978|AlignEnd=252161|Gloss=get_down
 7	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	5	parataxis@conj	_	AlignBegin=252161|AlignEnd=252344|Gloss=3PL.AOR
+8-9	lǎːpkə	_	_	_	_	_	_	_	_
 8	lǎːp	láːp	VERB	_	VerbForm=Fin	7	comp:obj	_	AlignBegin=252344|AlignEnd=252436|Gloss=follow
 9	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	8	comp:obj	_	AlignBegin=252436|AlignEnd=252527|Gloss=2SG.OBJ
 10	ɗa	ɗa	ADP	_	_	8	comp:obl	_	AlignBegin=252527|AlignEnd=252710|ExtPos=ADP|Gloss=at|Idiom=Yes
@@ -1870,10 +1874,11 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 253260, 255020
-# text = lóːkaʧí gìːr =wàːsə̀n gəní //
+# text = lóːkaʧí gìːrwàːsə̀ngəní //
 # text_ortho = lóːkaʧí gìːrwàːsə̀n gəní //
 # text_en =  That's when they are sick.
-1	lóːkaʧí	lóːkaʧí	NOUN	_	Foreign=Yes	4	subj	_	AlignBegin=253260|AlignEnd=253847|Gloss=time|Lang=hau
+1	lóːkaʧí	lóːkaʧí	NOUN	_	Definite=Cons	4	subj	_	AlignBegin=253260|AlignEnd=253847|Gloss=time
+2-5	gìːrwàːsə̀ngəní	_	_	_	_	_	_	_	_
 2	gìːr	gìːr	NOUN	_	_	1	mod	_	AlignBegin=253847|AlignEnd=254043|Gloss=illness
 3	=wàːsə̀n	=waːsən	PRON	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	mod@poss	_	AlignBegin=254043|AlignEnd=254239|Gloss=3PL.POS
 4	kəní	kəní	PART	_	VerbType=Cop	0	root	_	AlignBegin=254239|AlignEnd=254434|Gloss=be|wordform=gəní
@@ -1883,17 +1888,19 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 253798, 256129
-# text = kyáː ngáː kə ɮaː =ʃí mə́n < tə́ lǎːp =kə káwêy //
+# text = kyáː ngáː kə ɮaːʃí mə́n < tə́ lǎːpkə káwêy //
 # text_ortho = kyáː ngáː kə ɮaːʃí mə́n < tə́ lǎːpkə káwêy //
 # text_en =  If you take the medicine to give them they merely follow you.
 1	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	8	parataxis@mod	_	AlignBegin=253798|AlignEnd=254002|Gloss=2SG.COND
 2	ngáː	ngaː	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=254002|AlignEnd=254206|Gloss=fetch
 3	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	1	parataxis@conj	_	AlignBegin=254206|AlignEnd=254410|Gloss=2SG.AOR
+4-5	ɮaːʃí	_	_	_	_	_	_	_	_
 4	ɮaː	ɮaː	VERB	_	VerbForm=Fin	3	comp:aux	_	AlignBegin=254410|AlignEnd=254512|Gloss=scatter
 5	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=254512|AlignEnd=254614|Gloss=3PL.OBJ
 6	mə́n	mə́n	PART	_	Case=Ben	4	compound:prt	_	AlignBegin=254614|AlignEnd=254818|Gloss=BEN
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=254818|AlignEnd=255020|Gloss=PUNCT
 8	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=255280|AlignEnd=255492|Gloss=3PL.AOR
+9-10	lǎːpkə	_	_	_	_	_	_	_	_
 9	lǎːp	láːp	VERB	_	VerbForm=Fin	8	comp:aux	_	AlignBegin=255492|AlignEnd=255598|Gloss=follow
 10	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	9	comp:obj	_	AlignBegin=255598|AlignEnd=255704|Gloss=2SG.OBJ
 11	káwêy	káwêy	ADV	_	_	9	mod	_	AlignBegin=255704|AlignEnd=255916|Gloss=merely
