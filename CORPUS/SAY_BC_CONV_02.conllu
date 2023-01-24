@@ -1920,16 +1920,18 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 256584, 259055
-# text = tóː < gìːr =wàːsə̀n gəní < àː gàː =ʃí báː ʒà hŋ́ oː //
+# text = tóː < gìːrwàːsə̀ngəní < àː gàːʃí báː ʒà hŋ́ oː //
 # text_ortho = tóː < gìːrwàːsə̀n gəní < àː gàːʃí báː ʒà hŋ́oː //
 # text_en =  Well, their sickness, you leave them without water.
 1	tóː	tòː	PART	_	_	7	discourse	_	AlignBegin=256584|AlignEnd=256722|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=256722|AlignEnd=256861|Gloss=PUNCT
+3-5	gìːrwàːsə̀ngəní	_	_	_	_	_	_	_	_
 3	gìːr	gìːr	NOUN	_	_	7	dislocated@top	_	AlignBegin=256861|AlignEnd=256999|Gloss=illness
 4	=wàːsə̀n	=waːsən	PRON	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	3	mod@poss	_	AlignBegin=256999|AlignEnd=257137|Gloss=3PL.POS
 5	kəní	kəní	PART	_	VerbType=Cop	3	discourse	_	AlignBegin=257137|AlignEnd=257275|Gloss=be|wordform=gəní
 6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=257275|AlignEnd=257688|Gloss=PUNCT
 7	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=257688|AlignEnd=257964|Gloss=3SG.PERF
+8-9	gàːʃí	_	_	_	_	_	_	_	_
 8	gàː	gaː	VERB	_	VerbForm=Fin	7	comp:aux	_	AlignBegin=257964|AlignEnd=258102|Gloss=leave
 9	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=258102|AlignEnd=258240|Gloss=3PL.OBJ
 10	báː	báː	PART	_	Polarity=Neg	8	parataxis@mod	_	AlignBegin=258240|AlignEnd=258444|Gloss=there_is_no
@@ -1942,10 +1944,11 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 259721, 268194
-# text = yi ʃinə́n =ʃí gyáː ŋaː ʒà mə́n tə́ gyáː ŋaː ngətn gə́ wǔɣn =wáːsə̀n gá ʒà //= àː və̀r =ʃí ngə̌tn ʧíɣə́nì tôː bàː gìːr wò ngap gèri wón sòːséy //
+# text = yi ʃinə́nʃí gyáː ŋaː ʒà mə́n tə́ gyáː ŋaː ngətn gə́ wǔɣnwáːsə̀n gá ʒà //= àː və̀rʃí ngə̌tn ʧíɣə́nì tôː bàː gìːr wò ngap gèri wón sòːséy //
 # text_ortho = yì ʃinə́nʃí gyáː ŋaː ʒà mə́n tə́ gyáː ŋaː ngətn kə́ wǔknwáːsə̀n gá ʒà //= àː və̀rʃí ngə̌tn ʧíɣə́nì // tôː bàː gìːr wò ngap gèri wón sòːséy //
 # text_en =  We give them some water with some medicine inside the water, (then) you give them food, well, so that the disease won't affect the chicken too much.
 1	yi	yiː	AUX	_	Aspect=Iter	0	root	_	AlignBegin=259721|AlignEnd=260012|Gloss=ITER
+2-3	ʃinə́nʃí	_	_	_	_	_	_	_	_
 2	ʃinə́n	ʃin	VERB	_	Number=Plur|VerbForm=Fin	1	comp:aux	_	AlignBegin=260012|AlignEnd=260109|Gloss=pour-PL
 3	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	comp:ben	_	AlignBegin=260206|AlignEnd=260303|Gloss=3PL.OBJ
 4	gyáː	gyaː	DET	_	Number=Plur	6	det	_	AlignBegin=260303|AlignEnd=260526|Gloss=PL3
@@ -1957,15 +1960,17 @@
 10	ŋaː	ŋaː	PART	_	PartType=Int	11	mod	_	AlignBegin=261641|AlignEnd=261864|Gloss=VRT
 11	ngətn	ngə́tn	NOUN	_	_	6	conj:coord	_	AlignBegin=261864|AlignEnd=262087|Gloss=thing
 12	gə́	kə́	ADP	_	_	11	mod	_	AlignBegin=262087|AlignEnd=262311|Gloss=of
-13	wǔɣn	wukn	NOUN	_	Definite=Cons	12	comp:obj	_	AlignBegin=262311|AlignEnd=262463|Gloss=drug.CONS
+13	wǔknwáːsə̀n	_	_	_	_	_	_	_	_
+wǔɣn	wukn	NOUN	_	Definite=Cons	12	comp:obj	_	AlignBegin=262311|AlignEnd=262463|Gloss=drug.CONS
 14	=wáːsə̀n	=waːsən	PRON	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	mod	_	AlignBegin=262463|AlignEnd=262616|Gloss=3PL.POS
 15	ká	ká	ADP	_	_	2	comp:obl	_	AlignBegin=262616|AlignEnd=262921|Gloss=at|wordform=gá
 16	ʒà	ʒà	NOUN	_	_	15	comp:obj	_	AlignBegin=262921|AlignEnd=263226|Gloss=water
 17	//=	//=	PUNCT	_	_	18	punct	_	AlignBegin=263226|AlignEnd=263532|Gloss=PUNCT
 18	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	1	parataxis@conj	_	AlignBegin=264117|AlignEnd=264365|Gloss=3SG.PERF
+19-20	və̀rʃí	_	_	_	_	_	_	_	_
 19	və̀r	vər	VERB	_	VerbForm=Fin	18	comp:aux	_	AlignBegin=264365|AlignEnd=264489|Gloss=give
 20	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	comp:ben	_	AlignBegin=264489|AlignEnd=264613|Gloss=3PL.OBJ
-21	ngə̌tn	ngə́tn	NOUN	_	_	19	comp:obj	_	AlignBegin=264613|AlignEnd=264861|Gloss=thing
+21	ngə̌tn	ngətn	NOUN	_	Definite=Cons	19	comp:obj	_	AlignBegin=264613|AlignEnd=264861|Gloss=thing
 22	ʧíɣə́nì	ʧi	VERB	_	VerbForm=Vnoun	21	compound	_	AlignBegin=264861|AlignEnd=264985|ExtPos=NOUN|Gloss=eat.NMLZ
 23	tôː	tòː	PART	_	_	26	discourse	_	AlignBegin=265825|AlignEnd=266179|Gloss=well
 24	bàː	bàː	PART	_	Polarity=Neg	26	mod	_	AlignBegin=266179|AlignEnd=266533|Gloss=NEG
