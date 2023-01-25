@@ -902,14 +902,15 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 98186, 99378
-# text = kâːy < ʧáː pol =əm gáy sòːséy //
+# text = kâːy < ʧáː poləmgáy sòːséy //
 # text_ortho = kâːy < ʧáː poləmgáy sòːséy //
 # text_en =  My! I really like it.
 1	kâːy	kâːy	INTJ	_	_	3	discourse	_	AlignBegin=98186|AlignEnd=98264|Gloss=eh
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=98264|AlignEnd=98343|Gloss=PUNCT
 3	ʧáː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=98343|AlignEnd=98602|Gloss=3SG.IMP
+4-6	poləmgáy	_	_	_	_	_	_	_	_
 4	pol	pol	VERB	_	VerbForm=Fin	3	comp:obj	_	AlignBegin=98602|AlignEnd=98688|Gloss=please
-5	=əm	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	comp:ben	_	AlignBegin=98688|AlignEnd=98774|Gloss=1SG.OBJ
+5	=mə	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	comp:ben	_	AlignBegin=98688|AlignEnd=98774|Gloss=1SG.OBJ
 6	gáy	káy	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	4	comp:obl@agent	_	AlignBegin=98774|AlignEnd=98861|Gloss=ANAPH
 7	sòːséy	sòːséy	ADV	_	_	4	mod	_	AlignBegin=98861|AlignEnd=99120|Gloss=quite
 8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=99120|AlignEnd=99378|Gloss=PUNCT
@@ -946,13 +947,14 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 111747, 113056
-# text = ʧáː pol =əm á Kámʃâk fáː !//
+# text = ʧáː poləmgá Kámʃâk fáː !//
 # text_ortho = ʧáː poləm ká Kámʃâk fáː !//
 # text_en =  I like Kamshak I do!
 1	ʧáː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=111747|AlignEnd=111965|Gloss=3SG.IMP
+2-4	poləmgá	_	_	_	_	_	_	_	_
 2	pol	pol	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=111965|AlignEnd=112074|Gloss=please
-3	=əm	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	comp:ben	_	AlignBegin=112074|AlignEnd=112183|Gloss=1SG.OBJ
-4	á	ká	ADP	_	_	2	comp:obl@agent	_	AlignBegin=112183|AlignEnd=112401|Gloss=at
+3	=mə	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	comp:ben	_	AlignBegin=112074|AlignEnd=112183|Gloss=1SG.OBJ
+4	ká	ká	ADP	_	_	2	comp:obl@agent	_	AlignBegin=112183|AlignEnd=112401|Gloss=at
 5	Kámʃâk	Kámʃâk	PROPN	_	_	4	comp:obj	_	AlignBegin=112401|AlignEnd=112619|Gloss=Kamshak
 6	fáː	fáː	PART	_	_	1	discourse	_	AlignBegin=112619|AlignEnd=112837|Gloss=indeed
 7	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=112837|AlignEnd=113056|Gloss=PUNCT
@@ -981,18 +983,21 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 114732, 116392
-# text = yáː yel =mə̌ n < ʧáː fi =tə wusúŋ hŋ́ éy !//
+# text = yáː yelmə̌n < ʧáː fitə wusúŋ ŋéy !//
 # text_ortho = yâː yelmə̌n < ʧáː fitə wusúŋ hŋ́ éy !//
 # text_en =  If he does not see me he is not happy!
 1	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	6	parataxis@mod	_	AlignBegin=114732|AlignEnd=114947|Gloss=3SG.COND
+2-4	yelmə̌n	_	_	_	_	_	_	_	_
 2	yel	yel	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=114947|AlignEnd=115019|Gloss=see
-3	=mə̌	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	comp:obj	_	AlignBegin=115019|AlignEnd=115091|Gloss=1SG.OBJ
-4	n	hŋ́	PART	_	Polarity=Neg	2	mod	_	AlignBegin=115091|AlignEnd=115162|Gloss=NEG
+3	=mə	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	comp:obj	_	AlignBegin=115019|AlignEnd=115091|Gloss=1SG.OBJ
+4	hŋ́	hŋ́	PART	_	Polarity=Neg	2	mod	_	AlignBegin=115091|AlignEnd=115162|Gloss=NEG
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=115162|AlignEnd=115377|Gloss=PUNCT
 6	ʧáː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=115377|AlignEnd=115546|Gloss=3SG.IMP
+7-8	fitə	_	_	_	_	_	_	_	_
 7	fi	fi	VERB	_	VerbForm=Fin	6	comp:aux	_	AlignBegin=115546|AlignEnd=115630|Gloss=do
 8	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	comp:ben	_	AlignBegin=115630|AlignEnd=115715|Gloss=3SG.OBJ
 9	wusúŋ	wusúŋ	IDEO	_	_	7	comp:obj@lvc	_	AlignBegin=115715|AlignEnd=115884|ExtPos=NOUN|Gloss=nice
+10-11	ŋéy	_	_	_	_	_	_	_	_
 10	hŋ́	hŋ́	PART	_	Polarity=Neg	6	mod	_	AlignBegin=115884|AlignEnd=116053|Gloss=NEG
 11	éy	éy	INTJ	_	_	6	discourse	_	AlignBegin=116053|AlignEnd=116222|Gloss=indeed
 12	!//	!//	PUNCT	_	_	6	punct	_	AlignBegin=116222|AlignEnd=116392|Gloss=PUNCT
@@ -1001,11 +1006,12 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 115645, 117011
-# text = ɗan àːyí mə̀s =kə̀ mə́n ɗan gíː aː //
+# text = ɗan àːyí mə̀skə̀ mə́n ɗan gíː aː //
 # text_ortho = ɗan àːyí mə̀skə̀ mə́n ɗan gíyaː //
 # text_en =  As if he was dying like that.
 1	ɗan	ɗan	SCONJ	_	_	0	root	_	AlignBegin=115645|AlignEnd=115840|Gloss=as
 2	àːyí	àːyí	AUX	_	Aspect=Perf|Number=Sing|Person=3|Tense=Imm	1	comp:obj	_	AlignBegin=115840|AlignEnd=116035|Gloss=3SG.PERF.IMM
+3-4	mə̀skə̀	_	_	_	_	_	_	_	_
 3	mə̀s	məs	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=116035|AlignEnd=116133|Gloss=die
 4	=kə̀	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	3	comp:obj	_	AlignBegin=116133|AlignEnd=116230|Gloss=2SG.OBJ
 5	mə́n	mə́n	PART	_	Case=Ben	3	compound:prt	_	AlignBegin=116230|AlignEnd=116425|Gloss=BEN
@@ -1028,7 +1034,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 117548, 122636
-# text = ɗan dzàŋ gíː ɗan Jâk tà mân ɗúːníː |c ɗan mətáyáː kwáːn mə fúː =tə < raː ɗa àː mán wum =tə //
+# text = ɗan dzàŋ gíː ɗan Jâk tà mân ɗúːníː |c ɗan mətáyáː kwáːn mə fúːtə < raː ɗa àː mán wumtə //
 # text_ortho = ɗan dzàŋ gíː ɗan Jâk tà mân ɗúːníː < ɗam mətáyáː kwáːn mə fúːtə < raː ɗaː mán wumtə //
 # text_en =  Like that day when Jack came here, as I told him, he became angry.
 1	ɗan	ɗan	ADP	_	_	19	mod	_	AlignBegin=117548|AlignEnd=117754|Gloss=like
@@ -1044,6 +1050,7 @@
 11	mətáyáː	átâyáː	AUX	_	Aspect=Imp|Number=Sing|Person=1|Tense=Rem	10	comp:obj	_	AlignBegin=119969|AlignEnd=120173|Gloss=1SG.IMP.REM
 12	kwáːn	kon	VERB	_	Number=Plur|VerbForm=Fin	11	comp:aux	_	AlignBegin=120173|AlignEnd=120275|Gloss=say.PL
 13	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	11	conj:coord	_	AlignBegin=120377|AlignEnd=120581|Gloss=1SG.AOR
+14-15	fúːtə	_	_	_	_	_	_	_	_
 14	fúː	fuː	VERB	_	VerbForm=Fin	13	comp:aux	_	AlignBegin=120581|AlignEnd=120683|Gloss=tell
 15	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	14	comp:obj	_	AlignBegin=120683|AlignEnd=120785|Gloss=3SG.OBJ
 16	<	<	PUNCT	_	_	1	punct	_	AlignBegin=120785|AlignEnd=120990|Gloss=PUNCT
@@ -1051,6 +1058,7 @@
 18	ɗa	ɗan	ADV	_	_	19	mod	_	AlignBegin=121785|AlignEnd=121891|Gloss=then
 19	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=121891|AlignEnd=121998|Gloss=3SG.PERF
 20	mán	mán	VERB	_	VerbForm=Fin	19	comp:aux	_	AlignBegin=121998|AlignEnd=122211|Gloss=come|SVC=Yes
+21-22	wumtə	_	_	_	_	_	_	_	_
 21	wum	wum	VERB	_	VerbForm=Fin	20	compound:svc	_	AlignBegin=122211|AlignEnd=122317|Gloss=feel
 22	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	21	comp:obj	_	AlignBegin=122317|AlignEnd=122424|Gloss=3SG.OBJ
 23	//	//	PUNCT	_	_	19	punct	_	AlignBegin=122424|AlignEnd=122636|Gloss=PUNCT
@@ -1059,7 +1067,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 122636, 126349
-# text = kə yél yáːwón ɗan mìyǎː fúː =tə̀ < XX ɗan míyàː ŋáːs =tə ɣáyíː < kíː yèl láː áyǎː fi wuriː ?//
+# text = kə yél yáːwón ɗan mìyǎː fúːtə̀ < XX ɗan míyàː ŋáːstəɣáyíː < kíː yèl láː áyǎː fi wuriː ?//
 # text_ortho = kə́ yél yáːwón ɗan mìyǎː fúːtə̀ < XX ɗan míyàː ŋáːstəɣáyíː < kíː yèl láː áyǎː fi wuriː ?//
 # text_en =  You see today as we told him, XX as I was teasing him, did you see what he was doing?
 1	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	16	parataxis@discourse	_	AlignBegin=122636|AlignEnd=122811|Gloss=2SG.AOR
@@ -1067,15 +1075,17 @@
 3	yáːwón	yáːwón	ADV	_	PronType=Dem	16	mod	_	AlignBegin=122986|AlignEnd=123161|Gloss=today
 4	ɗan	ɗan	SCONJ	_	_	16	mod	_	AlignBegin=123161|AlignEnd=123336|Gloss=as
 5	mìyǎː	áyǎː	AUX	_	Aspect=Imp|Number=Plur|Person=1|Tense=Imm	4	comp:obj	_	AlignBegin=123336|AlignEnd=123511|Gloss=1PL.IMP.IMM
+6-7	fúːtə̀	_	_	_	_	_	_	_	_
 6	fúː	fuː	VERB	_	VerbForm=Fin	5	comp:aux	_	AlignBegin=123511|AlignEnd=123599|Gloss=tell
 7	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=123599|AlignEnd=123686|Gloss=3SG.OBJ
 8	<	<	PUNCT	_	_	4	punct	_	AlignBegin=123686|AlignEnd=123861|Gloss=PUNCT
 9	XX	XX	X	_	_	16	unk	_	AlignBegin=123861|AlignEnd=124134|Gloss=XX
 10	ɗan	ɗan	SCONJ	_	_	16	mod	_	AlignBegin=124134|AlignEnd=124407|Gloss=as
 11	míyàː	áyǎː	AUX	_	Aspect=Imp|Number=Sing|Person=1|Tense=Imm	10	comp:obj	_	AlignBegin=124407|AlignEnd=124680|Gloss=1SG.IMP.IMM
+12-14	ŋáːstəɣáyíː	_	_	_	_	_	_	_	_
 12	ŋáːs	ŋáːs	VERB	_	VerbForm=Fin	11	comp:aux	_	AlignBegin=124680|AlignEnd=124748|Gloss=tease
 13	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=124748|AlignEnd=124816|Gloss=3SG.OBJ
-14	ɣáyíː	káy	PRON	_	Aspect=Res|Case=Ins|Number=Sing|Person=3|PronType=Prs	12	comp:obl	_	AlignBegin=124816|AlignEnd=124884|Gloss=ANAPH.RES
+14	káyíː	káy	PRON	_	Aspect=Res|Case=Ins|Number=Sing|Person=3|PronType=Prs	12	comp:obl	_	AlignBegin=124816|AlignEnd=124884|Gloss=ANAPH.RES
 15	<	<	PUNCT	_	_	10	punct	_	AlignBegin=124953|AlignEnd=125226|Gloss=PUNCT
 16	kíː	áyí	AUX	_	Number=Sing|Person=2|Tense=Imm	0	root	_	AlignBegin=125226|AlignEnd=125386|Gloss=2SG.IMM
 17	yèl	yel	VERB	_	VerbForm=Fin	16	comp:obj	_	AlignBegin=125386|AlignEnd=125546|Gloss=see
@@ -1101,14 +1111,15 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 128571, 129966
-# text = kúníː àː məs ɓas =əm sòːséy //
+# text = kúníː àː məs ɓasəm sòːséy //
 # text_ortho = kúníː àː məs ɓasəm sòːséy //
 # text_en =  That boy had died for me.
 1	kúníː	kúni	NOUN	_	Deixis=Remt	2	subj	_	AlignBegin=128571|AlignEnd=128687|Gloss=boy
 2	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=128803|AlignEnd=129035|Gloss=3SG.PERF
 3	məs	məs	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=129035|AlignEnd=129267|Gloss=die
+4-5	ɓasəm	_	_	_	_	_	_	_	_
 4	ɓas	ɓas	ADP	_	_	3	comp:obl	_	AlignBegin=129267|AlignEnd=129383|Gloss=of
-5	=əm	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	comp:obj	_	AlignBegin=129383|AlignEnd=129499|Gloss=1SG.OBJ
+5	=mə	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	comp:obj	_	AlignBegin=129383|AlignEnd=129499|Gloss=1SG.OBJ
 6	sòːséy	sòːséy	ADV	_	_	3	mod	_	AlignBegin=129499|AlignEnd=129731|Gloss=quite
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=129731|AlignEnd=129966|Gloss=PUNCT
 
@@ -1162,12 +1173,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 133953, 135149
-# text = əndá yi ɓan zoːlé =tə //
+# text = əndá yi ɓan zoːlétə //
 # text_ortho = əndá yi ɓan zoːlétə //
 # text_en =  Then he was teasing him.
 1	əndá	kəndá	ADV	_	_	2	mod	_	AlignBegin=133953|AlignEnd=134192|Gloss=then
 2	yi	yiː	AUX	_	Aspect=Iter	0	root	_	AlignBegin=134192|AlignEnd=134431|Gloss=ITER
 3	ɓan	ɓan	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=134431|AlignEnd=134670|Gloss=DUR|SVC=Yes
+4-5	zoːlétə	_	_	_	_	_	_	_	_
 4	zoːlé	zoːlé	VERB	_	VerbForm=Fin	3	compound:svc	_	AlignBegin=134670|AlignEnd=134790|Gloss=challenge
 5	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=134790|AlignEnd=134909|Gloss=3SG.OBJ
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=134909|AlignEnd=135149|Gloss=PUNCT
@@ -1176,7 +1188,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 135149, 138114
-# text = Féːlêks ( kyâːn máː káː rigá kə yisə́ŋ =tə́y //) gíː < ŋaː laː ɓas =tə //
+# text = Féːlêks ( kyâːn máː káː rigá kə yisə́ŋtə́y //) gíː < ŋaː laː ɓastə //
 # text_ortho = Féːlêks < kyâːn máː káː rigá kə yisə́ŋtə́y < gíː < ŋaː laː ɓastə //
 # text_en =  Felix, as you yourself you knew him, this, it was not important for him.
 1	Féːlêks	Féːlêks	PROPN	_	_	15	dislocated@top	_	AlignBegin=135149|AlignEnd=135332|Gloss=Felix
@@ -1186,6 +1198,7 @@
 5	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	1	parataxis@parenth	_	AlignBegin=135911|AlignEnd=136109|Gloss=2SG.PERF
 6	rigá	rigá	VERB	_	VerbForm=Fin	5	comp:aux	_	AlignBegin=136109|AlignEnd=136307|Gloss=precede|SVC=Yes
 7	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	6	parataxis@comp	_	AlignBegin=136307|AlignEnd=136505|Gloss=2SG.AOR
+8-9	yisə́ŋtə́y	_	_	_	_	_	_	_	_
 8	yisə́ŋ	yisə́ŋ	VERB	_	VerbForm=Fin	7	comp:aux	_	AlignBegin=136505|AlignEnd=136571|Gloss=know
 9	=tə́y	=tə	PRON	_	Aspect=Res|Case=Acc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=136571|AlignEnd=136637|Gloss=3SG.OBJ.RES
 10	//)	//)	PUNCT	_	_	5	punct	_	AlignBegin=136703|AlignEnd=136901|Gloss=PUNCT
@@ -1193,6 +1206,7 @@
 12	<	<	PUNCT	_	_	11	punct	_	AlignBegin=137273|AlignEnd=137422|Gloss=PUNCT
 13	ŋaː	ŋaː	ADJ	_	_	14	mod	_	AlignBegin=137422|AlignEnd=137595|Gloss=small
 14	laː	laː	NOUN	_	_	15	subj	_	AlignBegin=137595|AlignEnd=137768|Gloss=work
+15-16	ɓastə	_	_	_	_	_	_	_	_
 15	ɓas	ɓas	ADP	_	_	0	root	_	AlignBegin=137768|AlignEnd=137854|Gloss=of
 16	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	15	comp:obj	_	AlignBegin=137854|AlignEnd=137941|Gloss=3SG.OBJ
 17	//	//	PUNCT	_	_	15	punct	_	AlignBegin=137941|AlignEnd=138114|Gloss=PUNCT
@@ -1216,13 +1230,14 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 141545, 147141
-# text = dzàŋ Kímsə < mətá yel =tə < vìː ɗa àː mán mbaː ɓas =tə ɗan kutu mur kə́ ázùmí dóːlêː káwêy //
+# text = dzàŋ Kímsə < mətá yeltə < vìː ɗa àː mán mbaː ɓastə ɗan kutu mur kə́ ázùmí dóːlêː káwêy //
 # text_ortho = dzàŋ Kímsə < mətá yeltə < vìː ɗaː mán mbaː ɓastə ɗan kutu mur kə́ ázùmí dóːlêː káwêy //
 # text_en =  On Tuesday, I saw him, his mouth had become dry like a man fasting seriously.
 1	dzàŋ	dzàŋ	NOUN	_	_	10	mod	_	AlignBegin=141545|AlignEnd=141773|Gloss=day
 2	Kímsə	Kímsə	PROPN	_	_	1	compound	_	AlignBegin=141773|AlignEnd=142001|Gloss=Kimsə
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=142001|AlignEnd=142228|Gloss=PUNCT
 4	mətá	átâ	AUX	_	Number=Sing|Person=1|Tense=Rem	10	parataxis@mod	_	AlignBegin=142228|AlignEnd=142432|Gloss=1SG.REM
+5-6	yeltə	_	_	_	_	_	_	_	_
 5	yel	yel	VERB	_	VerbForm=Fin	4	comp:aux	_	AlignBegin=142432|AlignEnd=142534|Gloss=see
 6	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=142534|AlignEnd=142636|Gloss=3SG.OBJ
 7	<	<	PUNCT	_	_	4	punct	_	AlignBegin=142636|AlignEnd=142841|Gloss=PUNCT
@@ -1231,6 +1246,7 @@
 10	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=143262|AlignEnd=143403|Gloss=3SG.PERF
 11	mán	mán	VERB	_	VerbForm=Fin	10	comp:aux	_	AlignBegin=143403|AlignEnd=143684|Gloss=come|SVC=Yes
 12	mbaː	mbaː	VERB	_	VerbForm=Fin	11	compound:svc	_	AlignBegin=143684|AlignEnd=143965|Gloss=be_white
+13-14	ɓastə	_	_	_	_	_	_	_	_
 13	ɓas	ɓas	ADP	_	_	12	comp:obl	_	AlignBegin=143965|AlignEnd=144105|Gloss=of
 14	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	AlignBegin=144105|AlignEnd=144246|Gloss=3SG.OBJ
 15	ɗan	ɗan	ADP	_	_	12	mod	_	AlignBegin=145488|AlignEnd=145695|ExtPos=SCONJ|Gloss=like|Idiom=Yes
@@ -1270,7 +1286,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 152103, 153893
-# text = á kámàːtá mə̀ kàp Ŋgas bét =wôpm éy !//
+# text = á kámàːtá mə̀ kàp Ŋgas bétwôpm éy !//
 # text_ortho = á kámàːtá mə̀ kàp Ŋgas bétwôpm éy !//
 # text_en =  We should marry ourselves Angas people!
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=152103|AlignEnd=152327|Gloss=3SG.AOR
@@ -1278,6 +1294,7 @@
 3	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	1	parataxis@subj	_	AlignBegin=152551|AlignEnd=152775|Gloss=1PL.SUB
 4	kàp	kap	VERB	_	VerbForm=Fin	3	comp:aux	_	AlignBegin=152775|AlignEnd=152999|Gloss=take
 5	Ŋgas	Ŋgas	PROPN	_	_	4	comp:obj	_	AlignBegin=152999|AlignEnd=153223|Gloss=Angas
+6-7	bétwôpm	_	_	_	_	_	_	_	_
 6	bét	bét	ADV	_	_	4	mod	_	AlignBegin=153223|AlignEnd=153335|Gloss=all
 7	=wôpm	=wopm	PRON	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	mod@poss	_	AlignBegin=153335|AlignEnd=153447|Gloss=1PL.POS
 8	éy	éy	INTJ	_	_	1	discourse	_	AlignBegin=153447|AlignEnd=153671|Gloss=indeed
@@ -1355,11 +1372,12 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 159367, 160333
-# text = á kóngə́n =wàːsə̀ŋ &//
+# text = á kóngə́nwàːsə̀ŋ &//
 # text_ortho = á kóngə́nwàːsə̀ŋ //
 # text_en =  According to them.
 1	á	ká	ADP	_	_	0	root@scrap	_	AlignBegin=159367|AlignEnd=159689|Gloss=at
-2	kóngə́n	kon	VERB	_	VerbForm=Vnoun	1	comp:obj	_	AlignBegin=159689|AlignEnd=159796|ExtPos=NOUN|Gloss=say.NMLZ
+2-3	kóngə́nwàːsə̀ŋ	_	_	_	_	_	_	_	_
+2	kóngə̂n	kon	VERB	_	VerbForm=Vnoun	1	comp:obj	_	AlignBegin=159689|AlignEnd=159796|ExtPos=NOUN|Gloss=say.NMLZ
 3	=wàːsə̀ŋ	=waːsən	PRON	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	mod@poss	_	AlignBegin=159903|AlignEnd=160011|Gloss=3PL.POS
 4	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=160011|AlignEnd=160333|Gloss=PUNCT
 
@@ -1367,12 +1385,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 160781, 165362
-# text = tòː < á kóngə̂n =wàːsə̀ŋ < mə̀ kàp Ŋgas àmáː súːɣə̂n gə̀tn < tt myáː súː mə̀ káp ni Bàtùràːye éy //
+# text = tòː < á kóngə̂nwàːsə̀ŋ < mə̀ kàp Ŋgas àmáː súːɣə̂n gə̀tn < tt myáː súː mə̀ káp ni Bàtùràːye éy //
 # text_ortho = tòː < á kóngə́nwàːsə̀ŋ < mə̀ kàp Ŋgas àmáː súːɣə́n gə̀tn < tt myáː súː mə̀ kápni Bàtùràːye éy //
 # text_en =  Well, according to what they say, we should marry Angas people but what I want, tut, I want to marry a European indeed.
 1	tòː	tòː	PART	_	_	7	discourse	_	AlignBegin=160781|AlignEnd=160879|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=160879|AlignEnd=160977|Gloss=PUNCT
 3	á	ká	ADP	_	_	7	mod	_	AlignBegin=160977|AlignEnd=161239|Gloss=at
+4-5	kóngə́nwàːsə̀ŋ	_	_	_	_	_	_	_	_
 4	kóngə̂n	kon	VERB	_	VerbForm=Vnoun	3	comp:obj	_	AlignBegin=161239|AlignEnd=161326|ExtPos=NOUN|Gloss=say.NMLZ
 5	=wàːsə̀ŋ	=waːsən	PRON	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	mod@poss	_	AlignBegin=161413|AlignEnd=161501|Gloss=3PL.POS
 6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=161501|AlignEnd=161762|Gloss=PUNCT
@@ -1397,10 +1416,11 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 167476, 168115
-# text = wò kap =kə́y ?//
+# text = wò kapkə́y ?//
 # text_ortho = wò kapkə́y ?//
 # text_en =  He will abduct you ?
 1	wò	wò	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=167476|AlignEnd=167689|Gloss=3SG.FUT
+2-3	kapkə́y	_	_	_	_	_	_	_	_
 2	kap	kap	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=167689|AlignEnd=167760|Gloss=take
 3	=kə́y	=kə	PRON	_	Aspect=Res|Case=Acc|Number=Sing|Person=2|PronType=Prs	2	comp:obj	_	AlignBegin=167760|AlignEnd=167831|Gloss=2SG.OBJ.RES
 4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=167902|AlignEnd=168115|Gloss=PUNCT
@@ -1432,15 +1452,16 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 170171, 171737
-# text = shi ya sa ʧáː pol =ɣə Féːlêks éy !//
+# text = shi ya sa ʧáː polɣə Féːlêks éy !//
 # text_ortho = shi ya sa ʧáː polɣə Féːlêks éy !//
 # text_en =  That's why you like Felix indeed!
 1	shi	shi	X	_	Foreign=Yes	4	discourse	_	AlignBegin=170171|AlignEnd=170294|Gloss=3SG.M|Lang=hau
 2	ya	ya	X	_	Foreign=Yes|Number=Sing	1	flat:foreign	_	AlignBegin=170294|AlignEnd=170417|Gloss=3.SG.PFV|Lang=hau
 3	sa	sa	X	_	Foreign=Yes|VerbForm=Fin	2	flat:foreign	_	AlignBegin=170417|AlignEnd=170540|Gloss=cause|Lang=hau
 4	ʧáː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=170540|AlignEnd=170832|Gloss=3SG.IMP
+5-6	polɣə	_	_	_	_	_	_	_	_
 5	pol	pol	VERB	_	VerbForm=Fin	4	comp:aux	_	AlignBegin=170832|AlignEnd=170978|Gloss=please
-6	=ɣə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	5	comp:ben	_	AlignBegin=170978|AlignEnd=171125|Gloss=2SG.OBJ
+6	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	5	comp:ben	_	AlignBegin=170978|AlignEnd=171125|Gloss=2SG.OBJ
 7	Féːlêks	Féːlêks	PROPN	_	_	5	comp:obl@agent	_	AlignBegin=171125|AlignEnd=171329|Gloss=Felix
 8	éy	éy	INTJ	_	_	4	discourse	_	AlignBegin=171329|AlignEnd=171533|Gloss=indeed
 9	!//	!//	PUNCT	_	_	4	punct	_	AlignBegin=171533|AlignEnd=171737|Gloss=PUNCT
@@ -1475,7 +1496,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 174223, 175923
-# text = éy < kyáː mân < ká mán fi maːndə tə́ kúnê =tn //
+# text = éy < kyáː mân < ká mán fi maːndə tə́ kúnêtn //
 # text_ortho = éy < kyáː mân < ká mán fî maːndə tə́ kúnêtn //
 # text_en =  Well, if you come, you will fight with my boy.
 1	éy	éy	INTJ	_	_	6	discourse	_	AlignBegin=174223|AlignEnd=174328|Gloss=indeed
@@ -1488,15 +1509,16 @@
 8	fi	fî	VERB	_	VerbForm=Fin	7	compound:svc	_	AlignBegin=175143|AlignEnd=175333|Gloss=do
 9	maːndə	maːndə	NOUN	_	_	8	comp:obj	_	AlignBegin=175333|AlignEnd=175525|Gloss=fight
 10	tə́	tə́	ADP	_	_	8	comp:obl	_	AlignBegin=175525|AlignEnd=175658|Gloss=with
-11	kúnê	kúni	NOUN	_	_	10	comp:obj	_	AlignBegin=175658|AlignEnd=175724|Gloss=boy
-12	=tn	=atn	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	mod@poss	_	AlignBegin=175724|AlignEnd=175791|Gloss=1SG.POS
+11-12	kúɲêtn	_	_	_	_	_	_	_	_
+11	kúni	kúni	NOUN	_	_	10	comp:obj	_	AlignBegin=175658|AlignEnd=175724|Gloss=boy
+12	=âtn	=atn	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	mod@poss	_	AlignBegin=175724|AlignEnd=175791|Gloss=1SG.POS
 13	//	//	PUNCT	_	_	6	punct	_	AlignBegin=175791|AlignEnd=175923|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_172-174
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 176496, 179007
-# text = wéy á < éy yâːn tá fî ni maːndə tə́ kúnê =tn < bâː dàːmuwa //
+# text = wéy á < éy yâːn tá fî ni maːndə tə́ kúnêtn < bâː dàːmuwa //
 # text_ortho = wéy á < éy yâːn tá fîn maːndə tə́ kúnêtn < ba damuwa //
 # text_en =  I said, well if he fights with my boy, <hau no problem. hau>
 1	wéy	wéy	PART	_	Mood=Qot	14	discourse	_	AlignBegin=176496|AlignEnd=176680|Gloss=EVD
@@ -1509,11 +1531,12 @@
 8	ni	ni	PART	_	Aspect=Inch	7	compound:prt	_	AlignBegin=177643|AlignEnd=177728|Gloss=INCH
 9	maːndə	maːndə	NOUN	_	_	7	comp:obj	_	AlignBegin=177728|AlignEnd=177898|Gloss=fight
 10	tə́	tə́	ADP	_	_	7	comp:obl	_	AlignBegin=177898|AlignEnd=178068|Gloss=with
-11	kúnê	kúni	NOUN	_	_	10	comp:obj	_	AlignBegin=178068|AlignEnd=178153|Gloss=boy
-12	=tn	=atn	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	mod@poss	_	AlignBegin=178153|AlignEnd=178238|Gloss=1SG.POS
+11-12	kúɲêtn	_	_	_	_	_	_	_	_
+11	kúni	kúni	NOUN	_	_	10	comp:obj	_	AlignBegin=178068|AlignEnd=178153|Gloss=boy
+12	=âtn	=atn	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	mod@poss	_	AlignBegin=178153|AlignEnd=178238|Gloss=1SG.POS
 13	<	<	PUNCT	_	_	5	punct	_	AlignBegin=178238|AlignEnd=178410|Gloss=PUNCT
-14	bâː	bâː	PART	_	Foreign=Yes	0	root	_	AlignBegin=178410|AlignEnd=178609|Gloss=no|Lang=hau
-15	dàːmuwa	dàːmuwa	NOUN	_	Foreign=Yes	14	comp:pred	_	AlignBegin=178609|AlignEnd=178808|Gloss=problem|Lang=hau
+14	bâː	bâː	X	_	Foreign=Yes	0	root	_	AlignBegin=178410|AlignEnd=178609|Gloss=no|Lang=hau
+15	dàːmuwa	dàːmuwa	X	_	Foreign=Yes	14	flat:foreign	_	AlignBegin=178609|AlignEnd=178808|Gloss=problem|Lang=hau
 16	//	//	PUNCT	_	_	14	punct	_	AlignBegin=178808|AlignEnd=179007|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_175-175
@@ -1531,22 +1554,25 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 179802, 181944
-# text = mə́ wúl =tə tu mi tə́ túr =âtn kúmá mi tə́ kúɲê =tn //
+# text = mə́ wúltə tu mi tə́ túrâtn kúmá mi tə́ kúɲêtn //
 # text_ortho = mə́ wúltə tu mi tə́ túrâtn kúmá mi tə́ kúɲêtn //
 # text_en =  I told him I have my husband and I have my boyfriend.
 1	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=179802|AlignEnd=179935|Gloss=1PL.AOR
+2-3	wúltə	_	_	_	_	_	_	_	_
 2	wúl	wul	VERB	_	VerbForm=Fin	1	comp:obj	_	AlignBegin=179935|AlignEnd=180001|Gloss=say
 3	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:ben	_	AlignBegin=180001|AlignEnd=180068|Gloss=3SG.OBJ
 4	tu	tu	SCONJ	_	Mood=Qot	2	comp:obj	_	AlignBegin=180068|AlignEnd=180202|Gloss=OPN
 5	mi	mi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	AlignBegin=180202|AlignEnd=180479|Gloss=1SG
 6	tə́	tə́	ADP	_	_	4	comp:obj	_	AlignBegin=180479|AlignEnd=180756|Gloss=with
+7-8	túrâtn	_	_	_	_	_	_	_	_
 7	túr	túr	NOUN	_	_	6	comp:obj	_	AlignBegin=180756|AlignEnd=180894|Gloss=husband
 8	=âtn	=atn	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	mod@poss	_	AlignBegin=180894|AlignEnd=181033|Gloss=1SG.POS
 9	kúmá	kúmá	CCONJ	_	_	11	cc	_	AlignBegin=181033|AlignEnd=181309|Gloss=also
 10	mi	mi	PRON	_	Number=Sing|Person=1|PronType=Prs	11	subj	_	AlignBegin=181309|AlignEnd=181468|Gloss=1SG
 11	tə́	tə́	ADP	_	_	6	conj:coord	_	AlignBegin=181468|AlignEnd=181627|Gloss=with
-12	kúɲê	kúni	NOUN	_	_	11	comp:obj	_	AlignBegin=181627|AlignEnd=181707|Gloss=boy
-13	=tn	=atn	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	mod@poss	_	AlignBegin=181707|AlignEnd=181786|Gloss=1SG.POS
+12-13	kúɲêtn	_	_	_	_	_	_	_	_
+12	kúni	kúni	NOUN	_	_	11	comp:obj	_	AlignBegin=181627|AlignEnd=181707|Gloss=boy
+13	=âtn	=atn	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	mod@poss	_	AlignBegin=181707|AlignEnd=181786|Gloss=1SG.POS
 14	//	//	PUNCT	_	_	1	punct	_	AlignBegin=181786|AlignEnd=181944|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_179-179
@@ -1578,7 +1604,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 182610, 184734
-# text = ín yǎː mân < séː àː mán fî maːndə ʧím =tə //
+# text = ín yǎː mân < séː àː mán fî maːndə ʧímtə //
 # text_ortho = ín yǎː mân < séː àː mán fî maːndə ʧímtə //
 # text_en =  If he comes, then he will fight with him.
 1	ín	ín	SCONJ	_	_	6	mod	_	AlignBegin=182610|AlignEnd=182807|Gloss=if
@@ -1591,6 +1617,7 @@
 8	fî	fi	VERB	_	VerbForm=Fin	7	compound:svc	_	AlignBegin=183971|AlignEnd=184162|Gloss=do
 9	maːndə	maːndə	NOUN	_	_	8	comp:obj@lvc	_	AlignBegin=184162|AlignEnd=184353|Gloss=fight
 10	ʧím	ʧím	ADP	_	_	8	comp:obl	_	AlignBegin=184353|AlignEnd=184449|Gloss=with
+11-12	ʧímtə	_	_	_	_	_	_	_	_
 11	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=184449|AlignEnd=184544|Gloss=3SG.OBJ
 12	//	//	PUNCT	_	_	6	punct	_	AlignBegin=184544|AlignEnd=184734|Gloss=PUNCT
 
@@ -1598,13 +1625,14 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 185007, 185918
-# text = wéy yáː nǎː wò ʧet =kə //
+# text = wéy yáː nǎː wò ʧetkə //
 # text_ortho = wéy yáː nǎː wò ʧetkə //
 # text_en =  He said that if it became (a game) he would ask you.
 1	wéy	wéy	PART	_	Mood=Qot	4	discourse	_	AlignBegin=185007|AlignEnd=185162|Gloss=EVD
 2	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	4	parataxis@mod	_	AlignBegin=185162|AlignEnd=185317|Gloss=3SG.COND
 3	nǎː	naː	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=185317|AlignEnd=185473|Gloss=become
 4	wò	wò	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=185473|AlignEnd=185621|Gloss=3SG.FUT
+5-6	ʧetkə	_	_	_	_	_	_	_	_
 5	ʧet	ʧet	VERB	_	VerbForm=Fin	4	comp:aux	_	AlignBegin=185621|AlignEnd=185695|Gloss=ask
 6	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	5	comp:ben	_	AlignBegin=185695|AlignEnd=185769|Gloss=2SG.OBJ
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=185769|AlignEnd=185918|Gloss=PUNCT
