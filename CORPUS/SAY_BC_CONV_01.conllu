@@ -1723,7 +1723,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 195638, 200960
-# text = áyí wul tu kóː yáː vòt =tíː |c yáː kát =tə̀ < yáː ɬǐː máː < wò su =tə́ ɗi bàː yâːn àː náːt =tə didididi tə́ ɬə́rə̌ŋ ŋ́ //
+# text = áyí wul tu kóː yáː vòttíː |c yáː káttə̀ < yáː ɬǐː máː < wò sutə́ɗi bàː yâːn àː náːttə didididi tə́  ɬə́rə̌ŋ //
 # text_ortho = áyí wùl tu kóː yáː vòttíː < yáː káttə̀ < yáː ɬǐː máː < wò sutə́ɗi bàː yâːn àː náːttənəni tə́ ɬə́rəŋə̌ŋ //
 # text_en =  He said that even if he beats him, if he chases him away, as soon as he has gone, he will come back if he hasn't tied him with a rope.
 1	áyí	áyí	AUX	_	Number=Sing|Person=3|Tense=Imm	0	root	_	AlignBegin=195638|AlignEnd=195785|Gloss=3SG.IMM
@@ -1731,10 +1731,12 @@
 3	tu	tu	SCONJ	_	Mood=Qot	2	comp:obj	_	AlignBegin=195932|AlignEnd=196079|Gloss=OPN
 4	kóː	kóː	SCONJ	_	_	17	mod	_	AlignBegin=196079|AlignEnd=196302|Gloss=or
 5	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	4	comp:obj	_	AlignBegin=196302|AlignEnd=196525|Gloss=3SG.COND
+5-6	vòttíː	_	_	_	_	_	_	_	_
 6	vòt	vot	VERB	_	VerbForm=Fin	5	comp:aux	_	AlignBegin=196525|AlignEnd=196599|Gloss=beat
 7	=tíː	=tə	PRON	_	Aspect=Res|Case=Acc|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=196599|AlignEnd=196673|Gloss=3SG.OBJ.RES
 8	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=196748|AlignEnd=196971|Gloss=PUNCT
 9	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	5	conj:coord	_	AlignBegin=196971|AlignEnd=197145|Gloss=3SG.COND
+10-11	káttə̀	_	_	_	_	_	_	_	_
 10	kát	kat	VERB	_	VerbForm=Fin	9	comp:obj	_	AlignBegin=197145|AlignEnd=197232|Gloss=drive_away
 11	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=197232|AlignEnd=197319|Gloss=3SG.OBJ
 12	<	<	PUNCT	_	_	4	punct	_	AlignBegin=197319|AlignEnd=197492|Gloss=PUNCT
@@ -1743,18 +1745,21 @@
 15	máː	máː	PART	_	_	13	discourse	_	AlignBegin=197956|AlignEnd=198188|Gloss=even
 16	<	<	PUNCT	_	_	13	punct	_	AlignBegin=198188|AlignEnd=198422|Gloss=PUNCT
 17	wò	wò	AUX	_	Number=Sing|Person=3|Tense=Fut	3	comp:obj	_	AlignBegin=198422|AlignEnd=198690|Gloss=3SG.FUT
+18-19	sutə́ɗi	_	_	_	_	_	_	_	_
 18	su	su	VERB	_	VerbForm=Fin	17	comp:aux	_	AlignBegin=198690|AlignEnd=198779|Gloss=return
 19	=tə́	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	18	comp:obj	_	AlignBegin=198779|AlignEnd=198868|Gloss=3SG.OBJ
 20	ɗi	ɗi	PART	_	_	18	compound:prt	_	AlignBegin=198868|AlignEnd=198957|Gloss=CTP
 21	bàː	bàː	PART	_	Polarity=Neg	22	mod	_	AlignBegin=198957|AlignEnd=199299|Gloss=NEG
 22	yâːn	yâːn	SCONJ	_	_	18	mod	_	AlignBegin=199299|AlignEnd=199641|Gloss=if
 23	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	22	comp:obj	_	AlignBegin=199641|AlignEnd=199983|Gloss=3SG.PERF
+24-25	náːttə	_	_	_	_	_	_	_	_
 24	náːt	nat	VERB	_	Number=Plur|VerbForm=Fin	23	comp:aux	_	AlignBegin=199983|AlignEnd=200069|Gloss=tie-PL
 25	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	24	comp:obj	_	AlignBegin=200069|AlignEnd=200155|Gloss=3SG.OBJ
 26	didididi	didididi	IDEO	_	_	24	mod	_	AlignBegin=200155|AlignEnd=200241|ExtPos=ADV|Gloss=tight
 27	tə́	tə́	ADP	_	_	24	comp:obl	_	AlignBegin=200327|AlignEnd=200538|Gloss=with
-28	ɬə́rə̌ŋ	ɬə́rəŋ	NOUN	_	_	27	comp:obj	_	AlignBegin=200538|AlignEnd=200644|Gloss=rope
-29	ŋ́	hŋ́	PART	_	Polarity=Neg	24	mod	_	AlignBegin=200644|AlignEnd=200749|Gloss=NEG
+28-29	ɬə́rə̌ŋ	_	_	_	_	_	_	_	_
+28	ɬə́rəŋ	ɬə́rəŋ	NOUN	_	_	27	comp:obj	_	AlignBegin=200538|AlignEnd=200644|Gloss=rope
+29	hŋ́	hŋ́	PART	_	Polarity=Neg	24	mod	_	AlignBegin=200644|AlignEnd=200749|Gloss=NEG
 30	//	//	PUNCT	_	_	1	punct	_	AlignBegin=200749|AlignEnd=200960|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_201-204
