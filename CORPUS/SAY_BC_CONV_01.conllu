@@ -1655,7 +1655,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 187235, 190445
-# text = wéy állâː tòː ín yâːn nə kúnê =tn ndá tá fî maːndə ʧím =tə < bâː dàːmuwa //
+# text = wéy állâː tòː ín yâːn nə kúɲêtn ndá tá fî maːndə ʧímtə < bâː dàːmuwa //
 # text_ortho = wéy állâː tòː < ín yâːn nə kúnêtn ndá tá fî maːndə ʧímtə < ba damuwa //
 # text_en =  I said in the name of God well, if my boy comes and they fight, <hau no problem hau>.
 1	wéy	wéy	PART	_	Mood=Qot	16	discourse	_	AlignBegin=187235|AlignEnd=187411|Gloss=EVD
@@ -1664,27 +1664,30 @@
 4	ín	ín	SCONJ	_	_	16	mod	_	AlignBegin=187939|AlignEnd=188122|ExtPos=SCONJ|Gloss=if|Idiom=Yes
 5	yâːn	yâːn	SCONJ	_	_	4	unk	_	AlignBegin=188122|AlignEnd=188305|Gloss=if|InIdiom=Yes
 6	nə	nə	PART	_	VerbType=Cop	4	comp:obj	_	AlignBegin=188305|AlignEnd=188488|Gloss=be
-7	kúnê	kúni	NOUN	_	_	6	comp:pred	_	AlignBegin=188488|AlignEnd=188580|Gloss=boy
-8	=tn	=atn	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	mod@poss	_	AlignBegin=188580|AlignEnd=188671|Gloss=1SG.POS
+7-8	kúɲêtn	_	_	_	_	_	_	_	_
+7	kúni	kúni	NOUN	_	_	6	comp:pred	_	AlignBegin=188488|AlignEnd=188580|Gloss=boy
+8	=âtn	=atn	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	mod@poss	_	AlignBegin=188580|AlignEnd=188671|Gloss=1SG.POS
 9	ndá	nda	VERB	_	VerbForm=Fin	6	comp:cleft	_	AlignBegin=188671|AlignEnd=188854|Gloss=enter
 10	tá	wò	AUX	_	Number=Plur|Person=3|Tense=Fut	6	conj:coord	_	AlignBegin=188854|AlignEnd=189037|Gloss=3PL.FUT
 11	fî	fi	VERB	_	VerbForm=Fin	10	comp:aux	_	AlignBegin=189037|AlignEnd=189220|Gloss=do
 12	maːndə	maːndə	NOUN	_	_	11	comp:obj@lvc	_	AlignBegin=189220|AlignEnd=189403|Gloss=fight
+13-14	ʧímtə	_	_	_	_	_	_	_	_
 13	ʧím	ʧím	ADP	_	_	11	comp:obl	_	AlignBegin=189403|AlignEnd=189495|Gloss=with
 14	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	AlignBegin=189495|AlignEnd=189586|Gloss=3SG.OBJ
 15	<	<	PUNCT	_	_	4	punct	_	AlignBegin=189586|AlignEnd=189765|Gloss=PUNCT
-16	bâː	bâː	PART	_	Foreign=Yes	0	root	_	AlignBegin=189765|AlignEnd=189992|Gloss=no|Lang=hau
-17	dàːmuwa	dàːmuwa	NOUN	_	Foreign=Yes	16	comp:pred	_	AlignBegin=189992|AlignEnd=190219|Gloss=problem|Lang=hau
+16	bâː	bâː	X	_	Foreign=Yes	0	root	_	AlignBegin=189765|AlignEnd=189992|Gloss=no|Lang=hau
+17	dàːmuwa	dàːmuwa	X	_	Foreign=Yes	16	flat:foreign	_	AlignBegin=189992|AlignEnd=190219|Gloss=problem|Lang=hau
 18	//	//	PUNCT	_	_	16	punct	_	AlignBegin=190219|AlignEnd=190445|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_189-189
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 190748, 191330
-# text = máːyí fùː =ɣə̀ &//
+# text = máːyí fùːɣə̀ &//
 # text_ortho = máːyí fùːɣə̀ &//
 # text_en =  I told you...
 1	máːyí	àːyí	AUX	_	Aspect=Perf|Number=Sing|Person=1|Tense=Imm	0	root@scrap	_	AlignBegin=190748|AlignEnd=190942|Gloss=1SG.PERF.IMM
+2-3	fùːɣə̀	_	_	_	_	_	_	_	_
 2	fùː	fuː	VERB	_	VerbForm=Fin	1	comp:obj	_	AlignBegin=190942|AlignEnd=191039|Gloss=tell
 3	=ɣə̀	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	comp:ben	_	AlignBegin=191039|AlignEnd=191136|Gloss=2SG.OBJ
 4	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=191136|AlignEnd=191330|Gloss=PUNCT
@@ -1693,10 +1696,11 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 191330, 195056
-# text = áyí wùl =tə̀ tu tá ín yáː mǎn turíː yáː mbiː ʃirə́ŋ kə́ːm =tə́ ɣáy fáː ?//
+# text = áyí wùltə̀ tu tá ín yáː mǎn turíː yáː mbiː ʃirə́ŋ kə́ːmtə́ɣáy fáː ?//
 # text_ortho = áyí wùltə̀ tu tá ín yáː mǎn < tuːrêy yáː mbîː ʃirə́ŋ kə́ːm tə́ɣáy fâː ?//
 # text_en =  Eh, he told him well if he comes, and that husband takes a stick and beats (him) with it, what then?
 1	áyí	áyí	AUX	_	Number=Sing|Person=3|Tense=Imm	0	root	_	AlignBegin=191330|AlignEnd=191616|Gloss=3SG.IMM
+1-4	wùltə̀	_	_	_	_	_	_	_	_
 2	wùl	wul	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=191616|AlignEnd=191759|Gloss=say
 3	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:ben	_	AlignBegin=191759|AlignEnd=191902|Gloss=3SG.OBJ
 4	tu	tu	SCONJ	_	Mood=Qot	2	comp:obj	_	AlignBegin=191902|AlignEnd=192187|Gloss=OPN
@@ -1706,11 +1710,12 @@
 8	mǎn	mán	VERB	_	VerbForm=Fin	7	comp:aux	_	AlignBegin=192730|AlignEnd=192911|Gloss=come
 9	turíː	tur	NOUN	_	Deixis=Remt	10	subj	_	AlignBegin=193092|AlignEnd=193226|Gloss=husband.DIST
 10	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	7	conj:coord	_	AlignBegin=193359|AlignEnd=193626|Gloss=3SG.COND
-11	mbiː	mbiː	VERB	_	VerbForm=Fin	10	comp:aux	_	AlignBegin=193626|AlignEnd=193893|Gloss=take
+11	mbiː	mbiː	VERB	_	VerbForm=Fin	10	comp:aux	_	AlignBegin=193626|AlignEnd=193893|Gloss=take|SVC=Yes
 12	ʃirə́ŋ	ʃirə́ŋ	NOUN	_	_	11	comp:obj	_	AlignBegin=193893|AlignEnd=194160|Gloss=stick
+13-15	kə́ːmtə́ɣáy	_	_	_	_	_	_	_	_
 13	kə́ːm	kə́ːm	VERB	_	VerbForm=Fin	11	compound:svc	_	AlignBegin=194160|AlignEnd=194427|Gloss=beat
 14	=tə́	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	AlignBegin=194427|AlignEnd=194532|Gloss=3SG.OBJ
-15	ɣáy	káy	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	13	comp:obl	_	AlignBegin=194532|AlignEnd=194637|Gloss=ANAPH
+15	káy	káy	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	13	comp:obl	_	AlignBegin=194532|AlignEnd=194637|Gloss=ANAPH
 16	fáː	fáː	PART	_	_	6	discourse	_	AlignBegin=194637|AlignEnd=194847|Gloss=indeed
 17	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=194847|AlignEnd=195056|Gloss=PUNCT
 
