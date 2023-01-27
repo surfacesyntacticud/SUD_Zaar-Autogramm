@@ -129,13 +129,13 @@
 4	fi	fi	VERB	_	_	3	comp:aux	_	AlignBegin=19746|AlignEnd=20109|GE=do|Gloss=do|nWord=4|RX=[V]
 5	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=20109|AlignEnd=20472|GE=[&//]|Gloss=PUNCT|nWord=5
 
-# sent_id = SAY_BC_INT_01_Religion_017-019
+# sent_id = SAY_BC_INT_01_Religion_017-018
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_Religion.WAV
-# sent_timecode = 20472, 25200
-# text = lóːkaʧês bàː màː kə́ːm mə̀ fì sə́ŋwaːrí hŋ́ séː deː mì nə məːri //
-# text_ortho = lóːkaʧês bàː màː kə́ːm mə̀ fì sə́ŋwaːrí hŋ́ séː deː mì nə məːri //
-# text_en = At that time, we could not... be religious chief  unless we were young (sic).
+# sent_timecode = 20472, 23680
+# text = lóːkaʧês bàː màː kə́ːm mə̀ fì sə́ŋwaːrí hŋ́ //
+# text_ortho = lóːkaʧês bàː màː kə́ːm mə̀ fì sə́ŋwaːrí hŋ́ //
+# text_en = At that time, we could not... be religious chief. 
 1	lóːkaʧês	lóːkaʧí	NOUN	_	_	3	mod	_	AlignBegin=20472|AlignEnd=20844|GE=time[DEF]|Gloss=time|MGloss=timeDEF|MSeg=lóːkaʧí-ês|nWord=1|RX=[N][ART]|wordform=lóːkaʧí
 2	báː	báː	PART	_	Polarity=Neg	3	mod	_	AlignBegin=20844|AlignEnd=21216|GE=[NEG1]|Gloss=NEG1|nWord=2|RX=[PTCL].[NEG]
 3	màː	à̀ː	AUX	_	Aspect=Perf|Number=Plur|Person=1	0	root	_	AlignBegin=21216|AlignEnd=21588|GE=[1PL].[CPL]|Gloss=1PL.CPL|nWord=3|RX=[PNTAM]
@@ -144,12 +144,21 @@
 6	fi	fi	VERB	_	_	5	comp:aux	_	AlignBegin=23065|AlignEnd=23270|GE=do|Gloss=do|nWord=6|RX=[V]
 7	sə́ŋwaːrí	sə́ŋwaːrí	NOUN	_	_	6	comp:obj	_	AlignBegin=23270|AlignEnd=23475|GE=chief_priest|Gloss=chief_priest|nWord=7|RX=[N]
 8	hŋ́	hŋ́	PART	_	Polarity=Neg	3	mod	_	AlignBegin=23475|AlignEnd=23680|GE=[NEG2]|Gloss=NEG2|nWord=8|RX=[PTCL].[NEG]
-9	séː	séː	SCONJ	_	_	3	mod	_	AlignBegin=24280|AlignEnd=24433|GE=except|Gloss=except|nWord=9|RX=[CONJ]
-10	déː	déː	ADV	_	_	9	mod	_	AlignBegin=24433|AlignEnd=24586|GE=anyway|Gloss=anyway|nWord=10|RX=[ADV]
-11	mì	mì	VERB	_	Number=Plur|Person=1|PronType=Prs	12	comp:obj	_	AlignBegin=24586|AlignEnd=24739|GE=[1PL].[be]|Gloss=1PL.be|nWord=11|RX=[PRO].[V*]
-12	nə	nə	PART	_	VerbType=Cop	9	comp:obj	_	AlignBegin=24739|AlignEnd=24892|GE=[COP1]|Gloss=be|nWord=12|RX=[PTCL].[SYNT]
-13	məːri	məːri	NOUN	_	Number=Plur	12	comp:pred	_	AlignBegin=24892|AlignEnd=25045|GE=children|Gloss=children|nWord=13|RX=[N].[PL]
-14	//	//	PUNCT	_	_	3	punct	_	AlignBegin=25045|AlignEnd=25200|GE=[//]|Gloss=PUNCT|nWord=14
+9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=23680|AlignEnd=23680|GE=[//]|Gloss=PUNCT|nWord=14
+
+# sent_id = SAY_BC_INT_01_Religion_019-019
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_Religion.WAV
+# sent_timecode = 23680, 25200
+# text = séː deː mì nə məːri //
+# text_ortho = séː deː mì nə məːri //
+# text_en = Then we were young.
+1	séː	séː	SCONJ	_	_	4	mod	_	AlignBegin=24280|AlignEnd=24433|GE=except|Gloss=except|nWord=9|RX=[CONJ]
+2	déː	déː	ADV	_	_	1	mod	_	AlignBegin=24433|AlignEnd=24586|GE=anyway|Gloss=anyway|nWord=10|RX=[ADV]
+3	mì	mì	VERB	_	Number=Plur|Person=1|PronType=Prs	4	subj	_	AlignBegin=24586|AlignEnd=24739|GE=[1PL].[be]|Gloss=1PL.be|nWord=11|RX=[PRO].[V*]
+4	nə	nə	PART	_	VerbType=Cop	0	root	_	AlignBegin=24739|AlignEnd=24892|GE=[COP1]|Gloss=be|nWord=12|RX=[PTCL].[SYNT]
+5	məːri	məːri	NOUN	_	Number=Plur	4	comp:pred	_	AlignBegin=24892|AlignEnd=25045|GE=children|Gloss=children|nWord=13|RX=[N].[PL]
+6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=25045|AlignEnd=25200|GE=[//]|Gloss=PUNCT|nWord=14
 
 # sent_id = SAY_BC_INT_01_Religion_020-020
 # speaker_id = SP1
