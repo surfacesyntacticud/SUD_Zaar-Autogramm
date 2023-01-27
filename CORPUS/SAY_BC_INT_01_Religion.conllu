@@ -185,7 +185,7 @@
 3	mə̀tàyáː	á̀tàyáâ	AUX	_	Aspect=Imp|Number=Plur|Person=1|Tense=Rem	0	root	_	AlignBegin=30686|AlignEnd=30869|GE=[1PL].[REM].[ICPL]|Gloss=1PL.REM.ICPL|nWord=3|RX=[PNTAM]
 4	fi	fi	VERB	_	_	3	comp:aux	_	AlignBegin=30869|AlignEnd=31052|GE=do|Gloss=do|nWord=4|RX=[V]
 5	wáːrês	wáːrês	NOUN	_	_	4	comp:obj	_	AlignBegin=31052|AlignEnd=31235|GE=fetish[DEF]|Gloss=fetish|MGloss=fetishDEF|MSeg=wâːr-ês|nWord=5|RX=[N][ART]|wordform=wâːr
-6	kàm	kàm	PART	_	_	4	compound:prt	_	AlignBegin=31235|AlignEnd=31418|GE=indeed|Gloss=indeed|nWord=6|RX=[PTCL].[TOP]
+6	kàm	kàm	PART	_	_	3	mod	_	AlignBegin=31235|AlignEnd=31418|GE=indeed|Gloss=indeed|nWord=6|RX=[PTCL].[TOP]
 7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=31418|AlignEnd=31601|GE=[//]|Gloss=PUNCT|nWord=7
 
 # sent_id = SAY_BC_INT_01_Religion_022-022
@@ -195,33 +195,34 @@
 # text = dòːmín ʧǎː ʧâː wâːr ɣá lə̂p volaŋ bàː ɣa kə́ːm gə ɮíː hŋ́ //
 # text_ortho = dòːmín ʧǎː ʧâː wâːr ká lə̂p volaŋ bàː ka kə́ːm ka ɮiː hŋ́ //
 # text_en = Because if they put a fetish in a groundnut field, you will not be able to remove them.
-1	dòːmín	dòːmín	SCONJ	_	_	2	mod	_	AlignBegin=32245|AlignEnd=32458|GE=because|Gloss=because|nWord=1|RX=[CONJ]
-2	ʧǎː	ʧǎː	AUX	_	Mood=Cond|Number=Plur|Person=3	0	root	_	AlignBegin=32458|AlignEnd=32671|GE=[3PL].[COND]|Gloss=3PL.COND|nWord=2|RX=[PNTAM]
+1	dòːmín	dòːmín	SCONJ	_	_	9	mod	_	AlignBegin=32245|AlignEnd=32458|GE=because|Gloss=because|nWord=1|RX=[CONJ]
+2	ʧǎː	ʧǎː	AUX	_	Mood=Cond|Number=Plur|Person=3	9	parataxis@mod	_	AlignBegin=32458|AlignEnd=32671|GE=[3PL].[COND]|Gloss=3PL.COND|nWord=2|RX=[PNTAM]
 3	ʧaː	ʧaː	VERB	_	_	2	comp:aux	_	AlignBegin=32671|AlignEnd=32884|GE=put|Gloss=put|nWord=3|RX=[V]
-4	wâːr	wâːr	NOUN	_	_	9	comp:aux	_	AlignBegin=32884|AlignEnd=33097|GE=fetish|Gloss=fetish|nWord=4|RX=[N]
-5	ɣá	ká	ADP	_	_	3	comp:obj	_	AlignBegin=33097|AlignEnd=33310|GE=at|Gloss=at|nWord=5|RX=[PREP]
-6	lə̂p	lə̂p	NOUN	_	_	9	comp:aux	_	AlignBegin=33310|AlignEnd=33523|GE=place|Gloss=place|nWord=6|RX=[N]
-7	volaŋ	volaŋ	NOUN	_	_	10	comp:obj	_	AlignBegin=33523|AlignEnd=33736|GE=groundnut|Gloss=groundnut|nWord=7|RX=[N]
+4	wâːr	wâːr	NOUN	_	_	3	comp:obj	_	AlignBegin=32884|AlignEnd=33097|GE=fetish|Gloss=fetish|nWord=4|RX=[N]
+5	ɣá	ká	ADP	_	_	3	comp:obl	_	AlignBegin=33097|AlignEnd=33310|GE=at|Gloss=at|nWord=5|RX=[PREP]
+6	lə̂p	lə̂p	NOUN	_	_	5	comp:obj	_	AlignBegin=33310|AlignEnd=33523|GE=place|Gloss=place|nWord=6|RX=[N]
+7	volaŋ	volaŋ	NOUN	_	_	6	compound	_	AlignBegin=33523|AlignEnd=33736|GE=groundnut|Gloss=groundnut|nWord=7|RX=[N]
 8	báː	báː	PART	_	Polarity=Neg	9	mod	_	AlignBegin=33736|AlignEnd=33949|GE=[NEG1]|Gloss=NEG1|nWord=8|RX=[PTCL].[NEG]
-9	ɣa	wò	AUX	_	Number=Sing|Person=2|Tense=Fut	2	parataxis@conj	_	AlignBegin=33949|AlignEnd=34162|GE=[2SG].[FUT]|Gloss=2SG.FUT|nWord=9|RX=[PNTAM]
+9	ɣa	wò	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=33949|AlignEnd=34162|GE=[2SG].[FUT]|Gloss=2SG.FUT|nWord=9|RX=[PNTAM]
 10	kə́ːm	kə́ːm	VERB	_	_	9	comp:aux	_	AlignBegin=34162|AlignEnd=34375|GE=be_able|Gloss=be_able|nWord=10|RX=[V].[V]
 11	gə	kə	AUX	_	Aspect=Aor|Number=Sing|Person=2	10	comp:obj	_	AlignBegin=34375|AlignEnd=34588|GE=[2SG].[FUT]|Gloss=2SG.FUT|nWord=11|RX=[PNTAM]
 12	ɮíː	ɮiː	VERB	_	_	11	comp:aux	_	AlignBegin=34588|AlignEnd=34801|GE=remove|Gloss=remove|nWord=12|RX=[V]
 13	hŋ́	hŋ́	PART	_	Polarity=Neg	9	mod	_	AlignBegin=34801|AlignEnd=35014|GE=[NEG2]|Gloss=NEG2|nWord=13|RX=[PTCL].[NEG]
-14	//	//	PUNCT	_	_	2	punct	_	AlignBegin=35014|AlignEnd=35226|GE=[//]|Gloss=PUNCT|nWord=14
+14	//	//	PUNCT	_	_	9	punct	_	AlignBegin=35014|AlignEnd=35226|GE=[//]|Gloss=PUNCT|nWord=14
 
 # sent_id = SAY_BC_INT_01_Religion_023-023
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_Religion.WAV
 # sent_timecode = 36080, 37292
-# text = dòːmín tàː ʧaː wâːr káy //
-# text_ortho = dòːmín tàː ʧaː wâːr káy //
+# text = dòːmín tàː ʧaː wâːrɣáy //
+# text_ortho = dòːmín tàː ʧaː wâːrɣáy //
 # text_en = Because they have put some fetish in it.
 1	dòːmín	dòːmín	SCONJ	_	_	2	mod	_	AlignBegin=36080|AlignEnd=36282|GE=because|Gloss=because|nWord=1|RX=[CONJ]
 2	tàː	à̀ː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=36282|AlignEnd=36484|GE=[3PL].[CPL]|Gloss=3PL.CPL|nWord=2|RX=[PNTAM]
 3	ʧaː	ʧaː	VERB	_	_	2	comp:aux	_	AlignBegin=36484|AlignEnd=36686|GE=put|Gloss=put|nWord=3|RX=[V]
+4-5	wâːrɣáy	_	_	_	_	_	_	_	_
 4	wâːr	wâːr	NOUN	_	_	3	comp:obj	_	AlignBegin=36686|AlignEnd=36888|GE=fetish|Gloss=fetish|nWord=4|RX=[N]
-5	káy	káy	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=36888|AlignEnd=37090|GE=[ANAPH]|Gloss=ANAPH|nWord=5|RX=[PRO].[ANAPH]
+5	ɣáy	káy	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=36888|AlignEnd=37090|GE=[ANAPH]|Gloss=ANAPH|nWord=5|RX=[PRO].[ANAPH]
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=37090|AlignEnd=37292|GE=[//]|Gloss=PUNCT|nWord=6
 
 # sent_id = SAY_BC_INT_01_Religion_024-028
