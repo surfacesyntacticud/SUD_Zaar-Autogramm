@@ -70,7 +70,7 @@
 25	ɗa	ɗa	ADP	_	_	20	comp:obl	_	AlignBegin=14897|AlignEnd=15082|Gloss=at
 26	||	||	PUNCT	_	_	27	punct	_	AlignBegin=15082|AlignEnd=15267|Gloss=PUNCT
 27	ɗa	ɗa	ADP	_	_	25	conj:dicto	_	AlignBegin=15657|AlignEnd=15862|Gloss=at
-28	Dʒòʃès	Dʒòs	PROPN	_	Deixis=Med	27	comp:obj	_	AlignBegin=15862|AlignEnd=16067|Gloss=Jos
+28	Dʒòʃès	Dʒòs	PROPN	_	Definite=Def	27	comp:obj	_	AlignBegin=15862|AlignEnd=16067|Gloss=Jos
 29	//	//	PUNCT	_	_	19	punct	_	AlignBegin=16067|AlignEnd=16271|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_014-015
@@ -431,7 +431,7 @@
 40	tsə̀tngə̀n	tsə́tn	VERB	_	VerbForm=Vnoun	39	compound	_	AlignBegin=76678|AlignEnd=76895|ExtPos=NOUN|Gloss=sit
 41	tə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=3	37	parataxis@mod	_	AlignBegin=77598|AlignEnd=78094|Gloss=3PL.SUB
 42	gǎːy	gaː	VERB	_	Aspect=Res|VerbForm=Fin	41	comp:aux	_	AlignBegin=78338|AlignEnd=78446|Gloss=leave
-43	ká	ká	ADP	_	_	42	mod	_	AlignBegin=78446|AlignEnd=78554|Gloss=at|wordform=ɣá
+43	ɣá	ká	ADP	_	_	42	mod	_	AlignBegin=78446|AlignEnd=78554|Gloss=at|wordform=ɣá
 44	lə̂p	lə̂p	NOUN	_	_	43	comp:obj	_	AlignBegin=78554|AlignEnd=78662|Gloss=place
 45	//	//	PUNCT	_	_	37	punct	_	AlignBegin=78662|AlignEnd=78769|Gloss=PUNCT
 
@@ -572,11 +572,12 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 96000, 96666
-# text = wò mán fi ni làː //
+# text = wò mán fini làː //
 # text_ortho = wò mán fini làː //
 # text_en =  He will do some work.
 1	wò	wò	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=96000|AlignEnd=96133|Gloss=3SG.FUT
-2	mán	man	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=96133|AlignEnd=96266|Gloss=come
+2	mán	man	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=96133|AlignEnd=96266|Gloss=come|SVC=Yes
+3-4	fini	_	_	_	_	_	_	_	_
 3	fi	fi	VERB	_	VerbForm=Fin	2	compound:svc	_	AlignBegin=96266|AlignEnd=96332|Gloss=do
 4	ni	ni	PART	_	Aspect=Inch	3	compound:prt	_	AlignBegin=96332|AlignEnd=96399|Gloss=INCH
 5	làː	laː	NOUN	_	_	3	comp:obj	_	AlignBegin=96399|AlignEnd=96532|Gloss=work
@@ -603,11 +604,11 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 98442, 102109
-# text = bàː wai ʧáː lə́ːr ni kúniwòsɗì tə̀ màn yèltə̀ hŋ́ |c àmáː ʧáː mân ni nə́ laː //
-# text_ortho = bàː wai ʧáː lə́ːrni kúniwòsɗì tə̀ màn yèltə̀ hŋ́ |c àmmáː ʧáː mânnəni nə́ laː //
-# text_en = He did not bring his son for them to look at, but he came for work.
+# text = bàː wai ʧáː lə́ːr ni kúniwòsɗì tə̀ màn yèltə̀ hŋ́ |c àmáː ʧáː mân nə́ níː nə́ laː //
+# text_ortho = bàː wai ʧáː lə́ːrni kúniwòsɗì tə̀ màn yèltə̀ hŋ́ |c àmmáː ʧáː mân nə́ níː nə́ laː //
+# text_en = He did not bring his son for them to look at, but what did he come for? for work.
 1	bàː	bàː	PART	_	Polarity=Neg	3	mod	_	AlignBegin=98442|AlignEnd=98645|Gloss=NEG
-2	wai	wai	PART	_	Foreign=Yes	3	mod	_	AlignBegin=98645|AlignEnd=98848|Gloss=wai|Lang=hau
+2	wey	wey	PART	_	Foreign=Yes	3	mod	_	AlignBegin=98645|AlignEnd=98848|Gloss=Qot|Lang=hau
 3	ʧáː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=98848|AlignEnd=99051|Gloss=3SG.IMP
 4	lə́ːr	lə́ːr	VERB	_	VerbForm=Fin	3	comp:aux	_	AlignBegin=99051|AlignEnd=99153|Gloss=bring
 5	ni	ni	PART	_	Aspect=Inch	4	compound:prt	_	AlignBegin=99153|AlignEnd=99254|Gloss=INCH
@@ -624,11 +625,12 @@
 14	|c	|c	PUNCT	_	_	16	punct	_	AlignBegin=100269|AlignEnd=100469|Gloss=PUNCT
 15	àmáː	àmáː	CCONJ	_	_	16	cc	_	AlignBegin=100469|AlignEnd=100780|Gloss=but
 16	ʧáː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	3	conj:coord	_	AlignBegin=100780|AlignEnd=101091|Gloss=3SG.IMP
-17	mân	man	VERB	_	VerbForm=Fin	16	comp:aux	_	AlignBegin=101091|AlignEnd=101247|Gloss=come
-18	ni	ni	PART	_	Aspect=Inch	17	compound:prt	_	AlignBegin=101247|AlignEnd=101402|Gloss=INCH
-19	nə́	nə́	ADP	_	_	17	mod	_	AlignBegin=101759|AlignEnd=101876|Gloss=for
-20	laː	laː	NOUN	_	_	19	comp:obj	_	AlignBegin=101876|AlignEnd=101993|Gloss=work
-21	//	//	PUNCT	_	_	3	punct	_	AlignBegin=101993|AlignEnd=102109|Gloss=PUNCT
+17	mân	man	VERB	_	VerbForm=Fin	16	comp:aux	_	AlignBegin=101091|Gloss=come
+18	nə́	nə́	ADP	_	_	17	mod	_	Gloss=for|AlignEnd=101247
+19	níː	níː	PRON	_	PronType=Int	18	comp:obj	_	AlignBegin=101247|AlignEnd=101402|Gloss=what
+20	nə́	nə́	ADP	_	_	18	conj:dicto	_	AlignBegin=101759|AlignEnd=101876|Gloss=for
+21	laː	laː	NOUN	_	_	20	comp:obj	_	AlignBegin=101876|AlignEnd=101993|Gloss=work
+22	//	//	PUNCT	_	_	3	punct	_	AlignBegin=101993|AlignEnd=102109|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_089-092
 # speaker_id = SP2
@@ -648,7 +650,7 @@
 8	àː	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=2	7	comp:obj	_	AlignBegin=104848|AlignEnd=105142|Gloss=2SG.SUB
 9	láːtsə́y	laːtsə́	VERB	_	Aspect=Res|VerbForm=Fin	8	comp:aux	_	AlignBegin=105142|AlignEnd=105436|Gloss=pass_by
 10	dón	dón	SCONJ	_	_	9	mod	_	AlignBegin=105735|AlignEnd=106113|Gloss=because
-11	lǎːs	laː	NOUN	_	Deixis=Med	13	subj	_	AlignBegin=106113|AlignEnd=106285|Gloss=work
+11	lǎːs	laː	NOUN	_	Definite=Def	13	subj	_	AlignBegin=106113|AlignEnd=106285|Gloss=work
 12	máː	máː	PART	_	_	11	mod	_	AlignBegin=106285|AlignEnd=106457|Gloss=even
 13	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	10	comp:obj	_	AlignBegin=106457|AlignEnd=106629|Gloss=3SG.SUB
 14	ndáráy	ndará	VERB	_	Aspect=Res|VerbForm=Fin	13	comp:obj	_	AlignBegin=106629|AlignEnd=106801|Gloss=be_proper
@@ -658,14 +660,14 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 106971, 109113
-# text = kyáːni máː lǎːs wò fiɣə mə́n ngə̂yngə̀y //
-# text_ortho = kyáːni máː lǎːs wò fiɣə mə́n ngə̂yngə̀y //
+# text = kyáːni máː lǎːs wò fiɣəmə́n ngə̂yngə̀y //
+# text_ortho = kyáːni máː lǎːs wò fiɣəmə́n ngə̂yngə̀y //
 # text_en =  For you even the work will be really easy for you.
 1	kyáːni	kyáːni	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	dislocated@comp	_	AlignBegin=106971|AlignEnd=107154|Gloss=2S
 2	máː	máː	PART	_	_	1	discourse	_	AlignBegin=107154|AlignEnd=107337|Gloss=even
-3	lǎːs	laː	NOUN	_	Deixis=Med	4	subj	_	AlignBegin=107337|AlignEnd=107520|Gloss=work
+3	lǎːs	laː	NOUN	_	Definite=Def	4	subj	_	AlignBegin=107337|AlignEnd=107520|Gloss=work
 4	wò	wò	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=107520|AlignEnd=107703|Gloss=3SG.FUT
-5-6	fiɣə	_	_	_	_	_	_	_	_
+5-7	fiɣəmə́n	_	_	_	_	_	_	_	_
 5	fi	fi	VERB	_	VerbForm=Fin	4	comp:aux	_	AlignBegin=107703|AlignEnd=107795|Gloss=do
 6	=ɣə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	5	comp:ben	_	AlignBegin=107795|AlignEnd=107887|Gloss=2SG.OBJ
 7	mə́n	mə́n	PART	_	Case=Ben	5	compound:prt	_	AlignBegin=108496|AlignEnd=108702|Gloss=BEN
@@ -676,11 +678,11 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 109113, 109969
-# text = wò fim mə́n keɓát //
-# text_ortho = wò fim mə́n keɓát //
+# text = wò fimmə́n keɓát //
+# text_ortho = wò fimmə́n keɓát //
 # text_en =  I will do it fast.
 1	wò	wò	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=109113|AlignEnd=109284|Gloss=3SG.FUT
-2-3	fim	_	_	_	_	_	_	_	_
+2-4	fimmə́n	_	_	_	_	_	_	_	_
 2	fi	fi	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=109284|AlignEnd=109370|Gloss=do
 3	=m	=mə	PRON	_	Case=Acc	2	comp:ben	_	AlignBegin=109370|AlignEnd=109455|Gloss=1SG.OBJ
 4	mə́n	mə́n	PART	_	Case=Ben	2	compound:prt	_	AlignBegin=109455|AlignEnd=109626|Gloss=BEN
@@ -691,12 +693,12 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 109969, 113788
-# text = tòː yáː fîɣə̀ mə́n keɓát kə yêl kúmá tòː kə yêl ngə́ʃês á ndârá ŋâː ?//
-# text_ortho = tòː yáː fîɣə̀ mə́n keɓát kə yêl kúmá tòː kə yél ngə́ʃês á ndârá ŋâː ?//
+# text = tòː yáː fîɣə̀mə́n keɓát kə yêl kúmá tòː kə yêl ngə́ʃês á ndârá ŋâː ?//
+# text_ortho = tòː yáː fîɣə̀mə́n keɓát kə yêl kúmá tòː kə yél ngə́ʃês á ndârá ŋâː ?//
 # text_en =  Well if you do it fast you will see that well, you will see that ... the thing is good won't you?
 1	tòː	tòː	PART	_	_	7	discourse	_	AlignBegin=109969|AlignEnd=110133|Gloss=well
 2	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	7	parataxis@mod	_	AlignBegin=110133|AlignEnd=110297|Gloss=3SG.COND
-3-4	fîɣə̀	_	_	_	_	_	_	_	_
+3-5	fîɣə̀mə́n	_	_	_	_	_	_	_	_
 3	fí	fi	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=110297|AlignEnd=110379|Gloss=do
 4	=ɣə̀	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	3	comp:ben	_	AlignBegin=110379|AlignEnd=110461|Gloss=2SG.OBJ
 5	mə́n	mə́n	PART	_	Case=Ben	3	compound:prt	_	AlignBegin=110461|AlignEnd=110625|Gloss=BEN
@@ -707,7 +709,7 @@
 10	tòː	tòː	PART	_	_	11	discourse	_	AlignBegin=111281|AlignEnd=111445|Gloss=well
 11	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	7	conj:dicto	_	AlignBegin=112400|AlignEnd=112660|Gloss=2SG.AOR
 12	yêl	yel	VERB	_	VerbForm=Fin	11	comp:aux	_	AlignBegin=112660|AlignEnd=112919|Gloss=see
-13	ngə́ʃês	ngə́ʃi	NOUN	_	Deixis=Med	14	subj	_	AlignBegin=112919|AlignEnd=113093|Gloss=thing.DEF
+13	ngə́ʃês	ngə́ʃi	NOUN	_	Definite=Def	14	subj	_	AlignBegin=112919|AlignEnd=113093|Gloss=thing.DEF
 14	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	12	parataxis@comp	_	AlignBegin=113093|AlignEnd=113267|Gloss=3SG.AOR
 15	ndârá	ndará	VERB	_	VerbForm=Fin	14	comp:aux	_	AlignBegin=113267|AlignEnd=113441|Gloss=be_proper
 16	ŋâː	ŋaː	PART	_	PartType=Int	11	mod	_	AlignBegin=113441|AlignEnd=113615|Gloss=Q
@@ -720,19 +722,19 @@
 # text = àmáː yâːn kənáː wu tu áʔà ba damuwa ká ɗyǎː ká ɬǐː //
 # text_ortho = àmáː yâːn kənáː wu tu áʔà ba damuwa ká ɗyǎː ká ɬǐː //
 # text_en =  But if... yesterday you said that OK <hau no problem hau>, you can go //
-1	àmáː	àmáː	CCONJ	_	_	2	discourse	_	AlignBegin=114315|AlignEnd=114677|Gloss=but
-2	yâːn	yâːn	SCONJ	_	_	0	root	_	AlignBegin=114677|AlignEnd=115038|Gloss=if
+1	àmáː	àmáː	CCONJ	_	_	9	discourse	_	AlignBegin=114315|AlignEnd=114677|Gloss=but
+2	yâːn	yâːn	SCONJ	_	_	9	mod	_	AlignBegin=114677|AlignEnd=115038|Gloss=if
 3	kənáː	ánáː	AUX	_	Number=Sing|Person=2|Tense=Rec	2	conj:dicto	_	AlignBegin=115304|AlignEnd=115445|Gloss=2SG.REC
 4	wu	wul	VERB	_	VerbForm=Fin	3	comp:aux	_	AlignBegin=115445|AlignEnd=115586|Gloss=say
 5	tu	tu	SCONJ	_	Mood=Qot	4	comp:obj	_	AlignBegin=115586|AlignEnd=115727|Gloss=OPN
-6	áʔà	áʔà	INTJ	_	_	7	discourse	_	AlignBegin=115727|AlignEnd=115923|Gloss=no
-7	ba	ba	PART	_	Foreign=Yes	5	comp:obj	_	AlignBegin=116173|AlignEnd=116325|ExtPos=INTJ|Gloss=no|Idiom=Yes|Lang=hau
-8	damuwa	damuwa	NOUN	_	Foreign=Yes	7	flat:foreign	_	AlignBegin=116325|AlignEnd=116477|Gloss=problem|InIdiom=Yes|Lang=hau
-9	ká	wò	AUX	_	Number=Plur|Person=2|Tense=Fut	7	parataxis@conj	_	AlignBegin=116477|AlignEnd=116629|Gloss=2PL.FUT
+6	áʔà	áʔà	X	_	Foreign=Yes	5	comp:obj	_	AlignBegin=115727|AlignEnd=115923|Gloss=no|Lang=hau
+7	ba	ba	X	_	Foreign=Yes	6	flat:foreign	_	AlignBegin=116173|AlignEnd=116325|ExtPos=INTJ|Gloss=no|Idiom=Yes|Lang=hau
+8	damuwa	damuwa	X	_	Foreign=Yes	7	flat:foreign	_	AlignBegin=116325|AlignEnd=116477|Gloss=problem|InIdiom=Yes|Lang=hau
+9	ká	wò	AUX	_	Number=Plur|Person=2|Tense=Fut	0	root	_	AlignBegin=116477|AlignEnd=116629|Gloss=2PL.FUT
 10	ɗyǎː	ɗyáː	VERB	_	VerbForm=Fin	9	comp:aux	_	AlignBegin=116629|AlignEnd=116781|Gloss=be_able|SVC=Yes
 11	ká	wò	AUX	_	Number=Plur|Person=2|Tense=Fut	10	parataxis@comp	_	AlignBegin=116781|AlignEnd=116933|Gloss=2PL.FUT
 12	ɬǐː	ɬə	VERB	_	Aspect=Res|VerbForm=Fin	11	comp:aux	_	AlignBegin=116933|AlignEnd=117085|Gloss=go-RES
-13	//	//	PUNCT	_	_	2	punct	_	AlignBegin=117085|AlignEnd=117234|Gloss=PUNCT
+13	//	//	PUNCT	_	_	9	punct	_	AlignBegin=117085|AlignEnd=117234|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_103-105
 # speaker_id = SP2
@@ -805,8 +807,9 @@
 8	ʤǎːnʤǎːn	ʤǎːnʤǎːn	ADV	_	_	6	conj:dicto	_	AlignBegin=123291|AlignEnd=123504|Gloss=tomorrow.INTENS
 9	ma	wò	AUX	_	Number=Sing|Person=1|Tense=Fut	4	comp:obj	_	AlignBegin=123504|AlignEnd=123717|Gloss=1SG.FUT
 10	ɬə́	ɬə	VERB	_	VerbForm=Fin	9	comp:aux	_	AlignBegin=123717|AlignEnd=123930|Gloss=go
-11	laːtsə́	laːtsə́	VERB	_	VerbForm=Fin	10	compound:svc	_	AlignBegin=123930|AlignEnd=124143|Gloss=pass_by
-12	gə̀tíː	gə̀tn	PRON	_	Aspect=Res|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	mod@top	_	AlignBegin=124143|AlignEnd=124356|Gloss=1SG.POSS.RES
+11-12	laːtsə́ gə̀tíː	_	_	_	_	_	_	_	_
+11	#laːtsə́-íː	laːtsə́	VERB	_	Aspect=Res|VerbForm=Fin	10	compound:svc	_	AlignBegin=123930|AlignEnd=124143|Gloss=pass_by.RES
+12	gə̀tn	gə̀tn	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	mod@top	_	AlignBegin=124143|AlignEnd=124356|Gloss=1SG.POSS
 13	də̀n	də̀n	NOUN	_	_	11	comp:goal	_	AlignBegin=124356|AlignEnd=124569|Gloss=house
 14	//	//	PUNCT	_	_	2	punct	_	AlignBegin=124569|AlignEnd=124779|Gloss=PUNCT
 
@@ -841,7 +844,7 @@
 1	ma	wò	AUX	_	Number=Sing|Person=1|Tense=Fut	0	root	_	AlignBegin=125510|AlignEnd=125662|Gloss=1SG.FUT
 2	mbút	mbút	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=125662|AlignEnd=125814|Gloss=spend_night
 3	ɗa	ɗa	ADP	_	_	2	comp:obj	_	AlignBegin=125814|AlignEnd=125966|Gloss=at
-4	Dʒòʃès	Dʒòs	PROPN	_	Deixis=Med	3	mod@poss	_	AlignBegin=125966|AlignEnd=126118|Gloss=Jos
+4	Dʒòʃès	Dʒòs	PROPN	_	Definite=Def	3	mod@poss	_	AlignBegin=125966|AlignEnd=126118|Gloss=Jos
 5	hŋ́	hŋ́	PART	_	Polarity=Neg	1	mod	_	AlignBegin=126118|AlignEnd=126270|Gloss=NEG
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=126270|AlignEnd=126420|Gloss=PUNCT
 
@@ -849,12 +852,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 126675, 127883
-# text = OK ʤǎːn ka laːtsə́y aː ?//
+# text = OK ʤǎːn ka laːtsə́yaː ?//
 # text_ortho = OK ʤǎːn ka laːtsə́yaː ?//
 # text_en =  <OK>, tomorrow you will move on?
 1	OK	OK	INTJ	_	Foreign=Yes	3	discourse	_	AlignBegin=126675|AlignEnd=126917|Gloss=OK|Lang=en
 2	ʤǎːn	ʤǎːn	ADV	_	PronType=Dem	3	mod	_	AlignBegin=126917|AlignEnd=127159|Gloss=tomorrow
 3	ka	wò	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=127159|AlignEnd=127401|Gloss=2SG.FUT
+4-5	laːtsə́yaː	_	_	_	_	_	_	_	_
 4	laːtsə́y	laːtsə́	VERB	_	Aspect=Res|VerbForm=Fin	3	comp:obj	_	AlignBegin=127401|AlignEnd=127563|Gloss=pass_by
 5	aː	aː	PART	_	PartType=Int	3	mod	_	AlignBegin=127563|AlignEnd=127643|Gloss=Q
 6	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=127643|AlignEnd=127883|Gloss=PUNCT
@@ -891,15 +895,17 @@
 6	ndârá	ndará	VERB	_	VerbForm=Fin	5	comp:aux	_	AlignBegin=130095|AlignEnd=130306|Gloss=be_proper
 7	dàː	dàː	PART	_	Mood=Irr	8	mod	_	AlignBegin=130306|AlignEnd=130555|Gloss=COUNT
 8	kîː	yí	AUX	_	Mood=Irr|Number=Sing|Person=2	5	subj	_	AlignBegin=130555|AlignEnd=130804|Gloss=2SG.CTF
-9	làːtsêʃíː	laːtsə́	VERB	_	Aspect=Res|Deixis=Med|VerbForm=Fin	8	comp:aux	_	AlignBegin=130804|AlignEnd=131053|Gloss=pass_by
-10	kàm	kàm	PART	_	_	9	mod	_	AlignBegin=131053|AlignEnd=131302|Gloss=indeed
-11	dón	dón	SCONJ	_	_	9	mod	_	AlignBegin=131302|AlignEnd=131551|Gloss=because
-12	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	15	parataxis@discourse	_	AlignBegin=131551|AlignEnd=131807|Gloss=2SG.AOR
-13	yísə́n	yisə́n	VERB	_	VerbForm=Fin	12	comp:aux	_	AlignBegin=131807|AlignEnd=132062|Gloss=know
-14	lǎːs	laː	NOUN	_	Deixis=Med	15	subj	_	AlignBegin=132706|AlignEnd=132918|Gloss=work
-15	nə	nə	PART	_	VerbType=Cop	11	comp:obj	_	AlignBegin=132918|AlignEnd=133130|Gloss=be
-16	laː	laː	NOUN	_	_	15	comp:pred	_	AlignBegin=133130|AlignEnd=133342|Gloss=work
-17	//	//	PUNCT	_	_	5	punct	_	AlignBegin=133342|AlignEnd=133552|Gloss=PUNCT
+9-10	làːtsêʃíː	_	_	_	_	_	_	_	_
+9	#làːtsə-íː	laːtsə́	VERB	_	Aspect=Res|Definite=Def|VerbForm=Fin	8	comp:aux	_	AlignBegin=130804|Gloss=pass_by.RES
+10	ʃí	ʃí	PRON	_	Person=3|PronType=Prs|Number=Plur|Case=Acc	9	comp:obj	_	Gloss=3.PL.OBJ|AlignEnd=131053
+11	kàm	kàm	PART	_	_	9	mod	_	AlignBegin=131053|AlignEnd=131302|Gloss=indeed
+12	dón	dón	SCONJ	_	_	9	mod	_	AlignBegin=131302|AlignEnd=131551|Gloss=because
+13	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	12	parataxis@discourse	_	AlignBegin=131551|AlignEnd=131807|Gloss=2SG.AOR
+14	yísə́n	yisə́n	VERB	_	VerbForm=Fin	13	comp:aux	_	AlignBegin=131807|AlignEnd=132062|Gloss=know
+15	lǎːs	laː	NOUN	_	Definite=Def	16	subj	_	AlignBegin=132706|AlignEnd=132918|Gloss=work
+16	nə	nə	PART	_	VerbType=Cop	12	comp:obj	_	AlignBegin=132918|AlignEnd=133130|Gloss=be
+17	laː	laː	NOUN	_	_	16	comp:pred	_	AlignBegin=133130|AlignEnd=133342|Gloss=work
+18	//	//	PUNCT	_	_	5	punct	_	AlignBegin=133342|AlignEnd=133552|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_124-124
 # speaker_id = SP1
@@ -1008,14 +1014,14 @@
 18	ɗan	ɗan	SCONJ	_	PronType=Rel	17	mod@relcl	_	AlignBegin=153115|AlignEnd=153346|Gloss=REL
 19	ɗan	ɗan	SCONJ	_	PronType=Rel	18	conj:dicto	_	AlignBegin=153558|AlignEnd=153696|Gloss=REL
 20	myáːyi	ʧáːyi	AUX	_	Aspect=ImpIter|Number=Sing|Person=1	19	comp:obj	_	AlignBegin=153696|AlignEnd=153834|Gloss=1SG.IMP.ITER
-21	fíː	fi	VERB	_	Aspect=Res|VerbForm=Fin	20	comp:aux	_	AlignBegin=153834|AlignEnd=153972|Gloss=do
+21	fíː	fi	VERB	_	Aspect=Res|VerbForm=Fin	20	comp:aux	_	AlignBegin=153834|AlignEnd=153972|Gloss=do.RES
 22	//	//	PUNCT	_	_	7	punct	_	AlignBegin=153972|AlignEnd=154108|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_145-149
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 155553, 161822
-# text = yâːn abin nan kúmá < myáː súː ma ɬə ni teː || teː yǎːɬ Saknsə́ teː gíː ɗan ʧì teː Púʤì //
+# text = yâːn abin nan kúmá < myáː súː ma ɬəni teː || teː yǎːɬ Saknsə́ teː gíː ɗan ʧì teː Púʤì //
 # text_ortho = yâːn abin nan kúmáːːː < myáː súː ma ɬəni teːːː || teː yǎːɬ Saknsə́ teː gíː ɗan ʧì teː púʤǐː //
 # text_en =  And  <hau that thing hau>  too... I want to go through... through the country of the Saknse over there who are near Tafawa Balewa.
 1	yâːn	yáːni	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	dislocated@top	_	AlignBegin=155553|AlignEnd=155865|Gloss=3SG.NOM
@@ -1026,6 +1032,7 @@
 6	myáː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	0	root	_	AlignBegin=158389|AlignEnd=158594|Gloss=1SG.IMP
 7	súː	súː	VERB	_	VerbForm=Fin	6	comp:aux	_	AlignBegin=158594|AlignEnd=158799|Gloss=want
 8	ma	wò	AUX	_	Number=Sing|Person=1|Tense=Fut	7	parataxis@comp	_	AlignBegin=158799|AlignEnd=159004|Gloss=1SG.FUT
+9-10	ɬəni	_	_	_	_	_	_	_	_
 9	ɬə	ɬə	VERB	_	VerbForm=Fin	8	comp:aux	_	AlignBegin=159004|AlignEnd=159106|Gloss=go
 10	ni	ni	PART	_	Aspect=Inch	9	compound:prt	_	AlignBegin=159106|AlignEnd=159209|Gloss=INCH
 11	teː	teː	ADP	_	_	9	comp:obl	_	AlignBegin=159209|AlignEnd=159414|Gloss=at
@@ -1045,7 +1052,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 162914, 164200
-# text = túnɗán mə ngúp bàː máː ɬə teː ɗánǐ n //
+# text = túnɗán mə ngúp bàː máː ɬə teː ɗánǐn //
 # text_ortho = túnɗán mə ngúp bàː  máː ɬə teː ɗánǐn //
 # text_en =  Since I started  I haven't been there.
 1	túnɗán	túnɗán	SCONJ	_	_	5	mod	_	AlignBegin=162914|AlignEnd=163057|Gloss=since
@@ -1055,31 +1062,33 @@
 5	máː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=163486|AlignEnd=163629|Gloss=1SG.PERF
 6	ɬə	ɬə	VERB	_	VerbForm=Fin	5	comp:aux	_	AlignBegin=163629|AlignEnd=163772|Gloss=go
 7	teː	teː	ADP	_	_	6	comp:obl	_	AlignBegin=163772|AlignEnd=163915|Gloss=at
+8-9	ɗánǐn	_	_	_	_	_	_	_	_
 8	ɗánǐ	ɗáni	ADV	_	_	7	comp:obj	_	AlignBegin=163915|AlignEnd=163987|Gloss=there
-9	n	hŋ́	PART	_	Polarity=Neg	5	mod	_	AlignBegin=163987|AlignEnd=164058|Gloss=NEG
+9	hŋ́	hŋ́	PART	_	Polarity=Neg	5	mod	_	AlignBegin=163987|AlignEnd=164058|Gloss=NEG
 10	//	//	PUNCT	_	_	5	punct	_	AlignBegin=164058|AlignEnd=164200|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_151-151
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 165300, 166001
-# text = bàː máː ɬə teː ɗánǐ n //
+# text = bàː máː ɬə teː ɗánǐn //
 # text_ortho = bàː máː ɬə teː ɗánǐn //
 # text_en =  I haven 't been there.
 1	bàː	bàː	PART	_	Polarity=Neg	2	mod	_	AlignBegin=165300|AlignEnd=165417|Gloss=NEG
 2	máː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=165417|AlignEnd=165534|Gloss=1SG.PERF
 3	ɬə	ɬə	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=165534|AlignEnd=165651|Gloss=go
 4	teː	teː	ADP	_	_	3	comp:obl	_	AlignBegin=165651|AlignEnd=165768|Gloss=at
+5-6	ɗánǐn	_	_	_	_	_	_	_	_
 5	ɗánǐ	ɗáni	ADV	_	PronType=Dem	4	comp:obj	_	AlignBegin=165768|AlignEnd=165826|Gloss=there
-6	n	hŋ́	PART	_	Polarity=Neg	2	mod	_	AlignBegin=165826|AlignEnd=165885|Gloss=NEG
+6	hŋ́	hŋ́	PART	_	Polarity=Neg	2	mod	_	AlignBegin=165826|AlignEnd=165885|Gloss=NEG
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=165885|AlignEnd=166001|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_152-153
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 166562, 168550
-# text = kúmá ma ɬə ʧet lə́p kə̀ Kullá Káyáː hə́ŋ oː //
-# text_ortho = kúmá ma ɬə́ ʧet lə̂p kə̀ Kullá Káyáː hə́n oː //
+# text = kúmá ma ɬə ʧet lə́p kə̀ Kullá Ɣáyáː hə́ŋoː //
+# text_ortho = kúmá ma ɬə́ ʧet lə̂p kə̀ Kullá Ɣáyáː hə́ŋoː //
 # text_en =  And I won't go and ask for the place of Kulla Kaya.
 1	kúmá	kúmá	PART	_	_	2	discourse	_	AlignBegin=166562|AlignEnd=166746|Gloss=also
 2	ma	wò	AUX	_	Number=Sing|Person=1|Tense=Fut	0	root	_	AlignBegin=166746|AlignEnd=166930|Gloss=1SG.FUT
@@ -1088,7 +1097,8 @@
 5	lə́p	lə̂p	NOUN	_	_	4	comp:obj	_	AlignBegin=167273|AlignEnd=167433|Gloss=place
 6	kə̀	kə́	ADP	_	_	5	mod	_	AlignBegin=167433|AlignEnd=167593|Gloss=of
 7	Kullá	Kullá	PROPN	_	_	6	comp:obj	_	AlignBegin=167593|AlignEnd=167753|Gloss=Kulla
-8	Káyáː	Káyáː	PROPN	_	_	7	flat:name	_	AlignBegin=167753|AlignEnd=167913|Gloss=Kaya
+8	Ɣáyáː	Káyáː	PROPN	_	_	7	flat:name	_	AlignBegin=167753|AlignEnd=167913|Gloss=Kaya
+9-10	hə́ŋoː	_	_	_	_	_	_	_	_
 9	hə́ŋ	hə́n	PART	_	Polarity=Neg	2	mod	_	AlignBegin=167913|AlignEnd=168073|Gloss=NEG
 10	oː	oː	PART	_	PartType=Emp	2	mod	_	AlignBegin=168073|AlignEnd=168233|Gloss=EMPH
 11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=168233|AlignEnd=168393|Gloss=PUNCT
@@ -1112,7 +1122,7 @@
 8	tu	tu	SCONJ	_	Mood=Qot	6	comp:obj	_	AlignBegin=170690|AlignEnd=170925|Gloss=OPN
 9	ɗan	ɗan	SCONJ	_	_	15	mod	_	AlignBegin=170925|AlignEnd=171101|Gloss=as
 10	ka	wò	AUX	_	Number=Sing|Person=2|Tense=Fut	9	comp:obj	_	AlignBegin=171101|AlignEnd=171277|Gloss=2SG.FUT
-11	ɬə̂ʃíː	ɬə	VERB	_	Aspect=Res|Deixis=Med|VerbForm=Fin	10	comp:aux	_	AlignBegin=171277|AlignEnd=171365|Gloss=go
+11	ɬə̂ʃíː	ɬə	VERB	_	Aspect=Res|Definite=Def|VerbForm=Fin	10	comp:aux	_	AlignBegin=171277|AlignEnd=171365|Gloss=go
 12	kóː	kóː	CCONJ	_	_	11	mod	_	AlignBegin=171453|AlignEnd=171629|Gloss=or
 13	<	<	PUNCT	_	_	9	punct	_	AlignBegin=171629|AlignEnd=171805|Gloss=PUNCT
 14	bàː	bàː	PART	_	Polarity=Neg	15	mod	_	AlignBegin=171805|AlignEnd=171984|Gloss=NEG
@@ -1202,14 +1212,15 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 181500, 182726
-# text = myâːn kúmá máː yel matsálâyʃíː //
-# text_ortho = myâːn kúmá máː yel matsálâyʃíː //
+# text = myâːn kúmá máː yel màtsàlêʃíː //
+# text_ortho = myâːn kúmá máː yel màtsàlêʃíː //
 # text_en =  As for me, I see the problems.
 1	myâːn	myáːni	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	dislocated@subj	_	AlignBegin=181500|AlignEnd=181704|Gloss=1SG
 2	kúmá	kúmá	PART	_	_	1	mod	_	AlignBegin=181704|AlignEnd=181908|Gloss=also
 3	máː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=181908|AlignEnd=182112|Gloss=1SG.PERF
-4	yel	yel	VERB	_	VerbForm=Fin	3	comp:aux	_	AlignBegin=182112|AlignEnd=182316|Gloss=see
-5	matsálâyʃíː	matsálay	NOUN	_	Aspect=Res|Deixis=Med|Foreign=Yes|Number=Plur	4	comp:obj	_	AlignBegin=182316|AlignEnd=182520|Gloss=problems.DEF.RES|Lang=hau
+4-5	yel màtsàlêʃíː	_	_	_	_	_	_	_	_
+4	#yel-íː	yel	VERB	_	Aspect=Res|VerbForm=Fin	3	comp:aux	_	AlignBegin=182112|AlignEnd=182316|Gloss=see.RES
+5	màtsàlês	màtsàlay	NOUN	_	Definite=Def|Number=Plur	4	comp:obj	_	AlignBegin=182316|AlignEnd=182520|Gloss=problems.DEF
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=182520|AlignEnd=182726|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_166-166
@@ -1228,7 +1239,7 @@
 # sent_timecode = 183539, 186890
 # text = ɗangəní kə yel < Bàːbá Súle < tàː ngúp sə̀yáːsawàːsə̀ŋə́y //
 # text_ortho = ɗangəní kə yel < bàːbá Súle < tàː ngúp sə̀yáːsawàːsə̀ŋə́y //
-# text_en =  Now you see, Baba Sule, they have started their politics.
+# text_en =  Now you see, Baba Sule, they have started that politics of theirs.
 1	ɗangəní	ɗangəní	ADV	_	PronType=Dem	8	mod	_	AlignBegin=183539|AlignEnd=183740|Gloss=now
 2	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	8	parataxis@discourse	_	AlignBegin=183740|AlignEnd=183941|Gloss=2SG.AOR
 3	yel	yel	VERB	_	VerbForm=Fin	2	comp:obj	_	AlignBegin=183941|AlignEnd=184142|Gloss=see
@@ -1238,9 +1249,8 @@
 7	<	<	PUNCT	_	_	5	punct	_	AlignBegin=184776|AlignEnd=184991|Gloss=PUNCT
 8	tàː	àː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=185698|AlignEnd=185996|Gloss=3PL.PERF
 9	ngúp	ngúp	VERB	_	VerbForm=Fin	8	comp:aux	_	AlignBegin=185996|AlignEnd=186294|Gloss=start
-10-11	sə̀yáːsawàːsə̀ŋə́y	_	_	_	_	_	_	_	_
 10	sə̀yáːsa	sə̀yáːsa	NOUN	_	_	9	comp:obj	_	AlignBegin=186294|AlignEnd=186592|Gloss=politics
-11	=wàːsə̀ŋə́y	=waːsən	PRON	_	Aspect=Res|Case=Gen|Number=Plur|Person=3|PronType=Prs	10	mod	_	AlignBegin=186393|AlignEnd=186492|Gloss=3PL.POS
+11	=wàːsə̀ŋə́y	=waːsən	PRON	_	Case=Gen|Deixis=Dist|Number=Plur|Person=3|PronType=Prs	10	mod	_	AlignBegin=186393|AlignEnd=186492|Gloss=3PL.POS.DIST
 12	//	//	PUNCT	_	_	8	punct	_	AlignBegin=186592|AlignEnd=186890|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_170-170
@@ -1268,19 +1278,19 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 188198, 190335
-# text = kə́ yisə́n laː kə́ sə̀yáːsa kúmá < kóːdzàngyóː ʧì ɣá dàtə̂pm //
-# text_ortho = kə́ yísə́n laː kə́ sə̀yáːsa kúmá < kóːdzàngyóː ʧìɣá dàtə̂pm //
+# text = kə́ yisə́n laː ɣə́ sə̀yáːsa kúmá < kóːdzàngyóː ʧì ɣá dàtə̂pm //
+# text_ortho = kə́ yísə́n laː ɣə́ sə̀yáːsa kúmá < kóːdzàngyóː ʧì ɣá dàtə̂pm //
 # text_en =  You know the work of politics too, everyday they are on the road.
 1	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	10	parataxis@discourse	_	AlignBegin=188198|AlignEnd=188371|Gloss=2PL.AOR
 2	yisə́n	yisə́n	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=188371|AlignEnd=188544|Gloss=know
 3	laː	laː	NOUN	_	_	2	comp:obj	_	AlignBegin=188544|AlignEnd=188717|Gloss=work
-4	kə́	kə́	ADP	_	_	3	mod	_	AlignBegin=188717|AlignEnd=188890|Gloss=of
+4	ɣə́	kə́	ADP	_	_	3	mod	_	AlignBegin=188717|AlignEnd=188890|Gloss=of
 5	sə̀yáːsa	sə̀yáːsa	NOUN	_	_	4	comp:obj	_	AlignBegin=188890|AlignEnd=189063|Gloss=politics
 6	kúmá	kúmá	PART	_	_	1	discourse	_	AlignBegin=189063|AlignEnd=189236|Gloss=also
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=189236|AlignEnd=189406|Gloss=PUNCT
 8	kóːdzàngyóː	kóːdzàngyóː	ADV	_	_	10	mod	_	AlignBegin=189406|AlignEnd=189638|Gloss=everyday
 9	ʧì	ʧì	PRON	_	Number=Plur|Person=3|PronType=Prs	10	subj	_	AlignBegin=189638|AlignEnd=189750|Gloss=3PL
-10	ká	ká	ADP	_	_	0	root	_	AlignBegin=189750|AlignEnd=189870|Gloss=at|wordform=ɣá
+10	ɣá	ká	ADP	_	_	0	root	_	AlignBegin=189750|AlignEnd=189870|Gloss=at|wordform=ɣá
 11	dàtə̂pm	dàtə̂pm	NOUN	_	_	10	comp:obj	_	AlignBegin=189870|AlignEnd=190102|Gloss=way
 12	//	//	PUNCT	_	_	10	punct	_	AlignBegin=190102|AlignEnd=190335|Gloss=PUNCT
 
@@ -1288,7 +1298,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 190081, 190613
-# text = kóːdzàngyóː kən //
+# text = kóːdzàngyóː ɣən //
 # text_ortho = kóːdzàngyòːkə̂n //
 # text_en =  Everyday indeed.
 1	kóːdzàngyóː	kóːdzàngyóː	ADV	_	_	2	mod	_	AlignBegin=190081|AlignEnd=190214|Gloss=everyday
@@ -1315,7 +1325,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 192556, 194982
-# text = yi nə tu nə gyóːɗan táːya wò ɬə́ːrɣə hár gyaː ngəʃín ə̌n //
+# text = yi nə tu nə gyóːɗan táːya wò ɬə́ːrɣə hár gyaː ngəʃínə̌n //
 # text_ortho = yin tu nə gyóːɗan táːya wò ɬə́ːrɣə hár gyáː ngəʃínə̌n //
 # text_en = I mean, it's the one whose  tyre will not take you up to these places..
 1	yi	yiː	AUX	_	Aspect=Iter	4	discourse	_	AlignBegin=192556|AlignEnd=192750|ExtPos=AUX|Gloss=ITER|Idiom=Yes
@@ -1330,8 +1340,9 @@
 9	=ɣə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	8	comp:obj	_	AlignBegin=194108|AlignEnd=194282|Gloss=2SG.OBJ
 10	hár	hár	ADP	_	_	8	comp:obl	_	AlignBegin=194282|AlignEnd=194456|Gloss=up_to
 11	gyaː	gyaː	DET	_	Number=Plur	12	det	_	AlignBegin=194456|AlignEnd=194630|Gloss=PL3
-12	ngəʃín	ngəʃí	NOUN	_	Deixis=Prox	10	comp:obj	_	AlignBegin=194630|AlignEnd=194762|Gloss=thing
-13	ə̌n	hŋ́	PART	_	Polarity=Neg	7	mod	_	AlignBegin=194762|AlignEnd=194804|Gloss=NEG
+12-13	ngəʃínə̌n	_	_	_	_	_	_	_	_
+12	ngəʃín	ngə́tn	NOUN	_	Deixis=Prox	10	comp:obj	_	AlignBegin=194630|AlignEnd=194762|Gloss=thing
+13	hŋ́	hŋ́	PART	_	Polarity=Neg	7	mod	_	AlignBegin=194762|AlignEnd=194804|Gloss=NEG
 14	//	//	PUNCT	_	_	4	punct	_	AlignBegin=194804|AlignEnd=194982|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_179-179
@@ -1348,7 +1359,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 195790, 197227
-# text = kúmá màːʃîn Bàːbá Súléy bàː kyáː ɬə tǔ n //
+# text = kúmá màːʃîn Bàːbá Súléy bàː kyáː ɬə tǔn //
 # text_ortho = kúm màːʃîn bàːbá súléy bàː kyáː ɬə́ tǔn //
 # text_en =  And Baba Suley's motorcycle, you haven't left yet.
 1	kúmá	kúmá	PART	_	_	6	discourse	_	AlignBegin=195790|AlignEnd=195950|Gloss=also
@@ -1357,47 +1368,51 @@
 4	Súléy	Súle	PROPN	_	Deixis=Remt	3	flat:name	_	AlignBegin=196270|AlignEnd=196430|Gloss=Sule
 5	bàː	bàː	PART	_	Polarity=Neg	6	mod	_	AlignBegin=196430|AlignEnd=196590|Gloss=NEG
 6	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	0	root	_	AlignBegin=196590|AlignEnd=196750|Gloss=2SG.COND
-7	ɬə	ɬə	VERB	_	VerbForm=Fin	6	comp:aux	_	AlignBegin=196750|AlignEnd=196910|Gloss=go
-8	tǔ	tu	VERB	_	VerbForm=Fin	7	compound:svc	_	AlignBegin=196910|AlignEnd=197070|Gloss=get
-9	n	hŋ́	PART	_	_	6	mod	_	AlignBegin=197070|AlignEnd=197227|Gloss=NEG
+7	ɬə	ɬə	VERB	_	VerbForm=Fin	6	comp:aux	_	AlignBegin=196750|AlignEnd=196910|Gloss=go|SVC=Yes
+8-9	tǔn	_	_	_	_	_	_	_	_
+8	tu	tu	VERB	_	VerbForm=Fin	7	compound:svc	_	AlignBegin=196910|AlignEnd=197070|Gloss=get
+9	hŋ́	hŋ́	PART	_	_	6	mod	_	AlignBegin=197070|AlignEnd=197227|Gloss=NEG
 10	//	//	PUNCT	_	_	6	punct	_	AlignBegin=197227|AlignEnd=197227|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_181-183
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 197772, 200262
-# text = dón kóː ka ɬə́ ɬə́ːt ni aː |c kóː ka ɬə́ fi ni wuriː < bàː káː yisə́nə̌n //
-# text_ortho = dón kóː ka ɬə́ ɬə́ːtnəɲaː |c kóː ka ɬə́ fini wuriː < bàː káː yisə́nə̌n //
-# text_en =  now whether you are going to fly, or what are you going to do, you don't know.
-1	dón	dón	SCONJ	_	_	17	discourse	_	AlignBegin=197772|AlignEnd=197967|Gloss=because
+# text = dón kóː ka ɬə́ ɬə́ːt nə́ níyaː |c kóː ka ɬə́ fini wuriː < bàː káː yisə́nə̌n //
+# text_ortho = dón kóː ka ɬə́ ɬə́ːtnə́níyaː |c kóː ka ɬə́ fini wuriː < bàː káː yisə́nə̌n //
+# text_en =  Now, why you are leaving or how, you don't know.
+1	dón	dón	SCONJ	_	_	18	discourse	_	AlignBegin=197772|AlignEnd=197967|Gloss=because
 2	kóː	kóː	CCONJ	_	_	3	cc@preconj	_	AlignBegin=197967|AlignEnd=198162|Gloss=or
-3	ka	wò	AUX	_	Number=Sing|Person=2|Tense=Fut	17	parataxis@mod	_	AlignBegin=198162|AlignEnd=198357|Gloss=2SG.FUT
+3	ka	wò	AUX	_	Number=Sing|Person=2|Tense=Fut	18	parataxis@mod	_	AlignBegin=198162|AlignEnd=198357|Gloss=2SG.FUT
 4	ɬə́	ɬə	VERB	_	VerbForm=Fin	3	comp:aux	_	AlignBegin=198357|AlignEnd=198552|Gloss=go
-5	ɬə́ːt	ɬə́ːt	VERB	_	VerbForm=Fin	4	compound:svc	_	AlignBegin=198552|AlignEnd=198617|Gloss=fly
-6	ni	ni	PART	_	Aspect=Inch	5	compound:prt	_	AlignBegin=198617|AlignEnd=198682|Gloss=INCH
-7	aː	aː	PART	_	PartType=Int	3	mod	_	AlignBegin=198682|AlignEnd=198747|Gloss=Q
-8	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=198747|AlignEnd=198940|Gloss=PUNCT
-9	kóː	kóː	CCONJ	_	_	10	cc	_	AlignBegin=198940|AlignEnd=199056|Gloss=or
-10	ka	wò	AUX	_	Number=Sing|Person=2|Tense=Fut	3	conj:coord	_	AlignBegin=199056|AlignEnd=199172|Gloss=2SG.FUT
-11	ɬə́	ɬə	VERB	_	VerbForm=Fin	10	comp:aux	_	AlignBegin=199172|AlignEnd=199288|Gloss=go
-12	fi	fi	VERB	_	VerbForm=Fin	11	compound:svc	_	AlignBegin=199288|AlignEnd=199346|Gloss=do
-13	ni	ni	PART	_	Aspect=Inch	12	compound:prt	_	AlignBegin=199346|AlignEnd=199404|Gloss=INCH
-14	wuriː	wuriː	ADV	_	PronType=Int	12	mod	_	AlignBegin=199404|AlignEnd=199520|Gloss=how
-15	<	<	PUNCT	_	_	10	punct	_	AlignBegin=199520|AlignEnd=199635|Gloss=PUNCT
-16	bàː	bàː	PART	_	Polarity=Neg	17	mod	_	AlignBegin=199635|AlignEnd=199792|Gloss=NEG
-17	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	0	root	_	AlignBegin=199792|AlignEnd=199949|Gloss=2SG.PERF
-18-19	yisə́nə̌n	_	_	_	_	_	_	_	_
-18	yisə́n	yisə́n	VERB	_	VerbForm=Fin	17	comp:aux	_	AlignBegin=199949|AlignEnd=200027|Gloss=know
-19	hŋ́	hŋ́	PART	_	Polarity=Neg	17	mod	_	AlignBegin=200027|AlignEnd=200106|Gloss=NEG
-20	//	//	PUNCT	_	_	17	punct	_	AlignBegin=200106|AlignEnd=200262|Gloss=PUNCT
+5	ɬə́ːt	ɬə́ːt	VERB	_	VerbForm=Fin	4	compound:svc	_	AlignBegin=198552|AlignEnd=198617|Gloss=leave
+6	nə́	nə́	ADP	_	_	5	mod	_	AlignBegin=198617|AlignEnd=198682|Gloss=for
+7-8	níyaː	_	_	_	_	_	_	_	_
+7	níː	níː	PART	_	PronType=Int	6	comp:obj	_	AlignBegin=198682|Gloss=what
+8	aː	aː	PART	_	PartType=Int	3	discourse	_	Gloss=VRT|AlignEnd=198747
+9	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=198747|AlignEnd=198940|Gloss=PUNCT
+10	kóː	kóː	CCONJ	_	_	11	cc	_	AlignBegin=198940|AlignEnd=199056|Gloss=or
+11	ka	wò	AUX	_	Number=Sing|Person=2|Tense=Fut	3	conj:coord	_	AlignBegin=199056|AlignEnd=199172|Gloss=2SG.FUT
+12	ɬə́	ɬə	VERB	_	VerbForm=Fin	11	comp:aux	_	AlignBegin=199172|AlignEnd=199288|Gloss=go
+13-14	fini	_	_	_	_	_	_	_	_
+13	fi	fi	VERB	_	VerbForm=Fin	12	compound:svc	_	AlignBegin=199288|AlignEnd=199346|Gloss=do
+14	ni	ni	PART	_	Aspect=Inch	13	compound:prt	_	AlignBegin=199346|AlignEnd=199404|Gloss=INCH
+15	wuriː	wuriː	ADV	_	PronType=Int	12	mod	_	AlignBegin=199404|AlignEnd=199520|Gloss=how
+16	<	<	PUNCT	_	_	3	punct	_	AlignBegin=199520|AlignEnd=199635|Gloss=PUNCT
+17	bàː	bàː	PART	_	Polarity=Neg	18	mod	_	AlignBegin=199635|AlignEnd=199792|Gloss=NEG
+18	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	0	root	_	AlignBegin=199792|AlignEnd=199949|Gloss=2SG.PERF
+19-20	yisə́nə̌n	_	_	_	_	_	_	_	_
+19	yisə́n	yisə́n	VERB	_	VerbForm=Fin	18	comp:aux	_	AlignBegin=199949|AlignEnd=200027|Gloss=know
+20	hŋ́	hŋ́	PART	_	Polarity=Neg	18	mod	_	AlignBegin=200027|AlignEnd=200106|Gloss=NEG
+21	//	//	PUNCT	_	_	18	punct	_	AlignBegin=200106|AlignEnd=200262|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_184-186
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 200262, 203942
-# text = kúm bàː káː fuː Òːgá tu ga shi < laː kə́ sə̀yáːsa àː ndaɣáy də̀nə̌n //
+# text = kúm bàː káː fuː Òːgá tu ga shi < laː ɣə́ sə̀yáːsa àː ndaráy də̀nə̌n //
 # text_ortho = kúm bàː káː fuː Òːgá tu ga shi < laː kə́ sə̀yáːsa àː ndakáy də̀nə̌n //
-# text_en =  And you did not tell Master that ... <that... > the work of politics has entered the house.
+# text_en = And you did not tell Master that ... <that... > politics is not good for the village.
 1	kúm	kúmá	PART	_	_	3	discourse	_	AlignBegin=200262|AlignEnd=200426|Gloss=also
 2	bàː	bàː	PART	_	Polarity=Neg	3	mod	_	AlignBegin=200426|AlignEnd=200590|Gloss=NEG
 3	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	0	root	_	AlignBegin=200590|AlignEnd=200754|Gloss=2SG.PERF
@@ -1408,16 +1423,14 @@
 8	shi	shi	X	_	Foreign=Yes	7	flat:foreign	_	AlignBegin=201438|AlignEnd=201628|Gloss=3SG.M|Lang=hau
 9	<	<	PUNCT	_	_	7	punct	_	AlignBegin=201628|AlignEnd=201818|Gloss=PUNCT
 10	laː	laː	NOUN	_	_	13	subj	_	AlignBegin=202715|AlignEnd=202890|Gloss=work
-11	kə́	kə́	ADP	_	_	10	mod	_	AlignBegin=202890|AlignEnd=203065|Gloss=of
+11	ɣə́	kə́	ADP	_	_	10	mod	_	AlignBegin=202890|AlignEnd=203065|Gloss=of
 12	sə̀yáːsa	sə̀yáːsa	NOUN	_	_	11	comp:obj	_	AlignBegin=203065|AlignEnd=203240|Gloss=politics
 13	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	6	comp:obj	_	AlignBegin=203240|AlignEnd=203415|Gloss=3SG.PERF
-14-15	ndaɣáy	_	_	_	_	_	_	_	_
-14	nda	nda	VERB	_	VerbForm=Fin	13	comp:aux	_	AlignBegin=203415|AlignEnd=203503|Gloss=enter
-15	káy	káy	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	14	comp:obl	_	AlignBegin=203503|AlignEnd=203590|Gloss=ANAPH|wordform=ɣáy
-16-17	də̀nə̌n	_	_	_	_	_	_	_	_
-16	də̀n	də̀n	NOUN	_	_	14	comp:goal	_	AlignBegin=203590|AlignEnd=203678|Gloss=house
-17	hŋ́	hŋ́	PART	_	Polarity=Neg	3	mod	_	AlignBegin=203678|AlignEnd=203765|Gloss=NEG
-18	//	//	PUNCT	_	_	3	punct	_	AlignBegin=203765|AlignEnd=203942|Gloss=PUNCT
+14	ndaráy	ndará	VERB	_	VerbForm=Fin|Aspect=Res	13	comp:aux	_	AlignBegin=203415|AlignEnd=203503|Gloss=be_good.RES
+15-16	də̀nə̌n	_	_	_	_	_	_	_	_
+15	də̀n	də̀n	NOUN	_	_	14	comp:goal	_	AlignBegin=203590|AlignEnd=203678|Gloss=house
+16	hŋ́	hŋ́	PART	_	Polarity=Neg	3	mod	_	AlignBegin=203678|AlignEnd=203765|Gloss=NEG
+17	//	//	PUNCT	_	_	3	punct	_	AlignBegin=203765|AlignEnd=203942|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_187-187
 # speaker_id = SP2
@@ -1483,7 +1496,7 @@
 8	ɗan	ɗan	SCONJ	_	_	7	comp:obj	_	AlignBegin=207838|AlignEnd=207976|ExtPos=SCONJ|Gloss=as|Idiom=Yes
 9	tu	tu	SCONJ	_	Mood=Qot	8	unk	_	AlignBegin=207976|AlignEnd=208114|Gloss=OPN|InIdiom=Yes
 10	kóː	kóː	CCONJ	_	_	9	unk	_	AlignBegin=208114|AlignEnd=208254|Gloss=or|InIdiom=Yes
-11	ngə́ʃês	ngə́ʃi	NOUN	_	Deixis=Med	18	dislocated@top	_	AlignBegin=208451|AlignEnd=208598|Gloss=thing.DEF
+11	ngə́ʃês	ngə́ʃi	NOUN	_	Definite=Def	18	dislocated@top	_	AlignBegin=208451|AlignEnd=208598|Gloss=thing.DEF
 12	yâːn	yâːn	SCONJ	_	_	18	mod	_	AlignBegin=208598|AlignEnd=208745|Gloss=if
 13	wò	wò	AUX	_	Number=Sing|Person=3|Tense=Fut	12	comp:obj	_	AlignBegin=208745|AlignEnd=208892|Gloss=3SG.FUT
 14	fi	fi	VERB	_	VerbForm=Fin	13	comp:aux	_	AlignBegin=208892|AlignEnd=209039|Gloss=do
@@ -1605,12 +1618,13 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 232598, 233926
-# text = ká mətá ngaː ɗi téː ɗôː ɣən oː !//
-# text_ortho = ká mətá ngáːɗi téːɗôːkəní oː !//
+# text = ká mətá ngáːɗi téː ɗôː ɣənoː !//
+# text_ortho = ká mətá ngáːɗi téː ɗôː ɣənoː !//
 # text_en =  where did I end up ?
 1	ká	ká	INTJ	_	_	2	discourse	_	AlignBegin=232598|AlignEnd=232745|Gloss=disapproval
 2	mətá	átâ	AUX	_	Number=Sing|Person=1|Tense=Rem	0	root	_	AlignBegin=232745|AlignEnd=232892|Gloss=1SG.REM
-3	ngaː	ngaː	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=232892|AlignEnd=232966|Gloss=fetch
+3-4	ngáːɗi	_	_	_	_	_	_	_	_
+3	ngáː	ngaː	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=232892|AlignEnd=232966|Gloss=fetch
 4	ɗi	ɗi	PART	_	_	3	compound:prt	_	AlignBegin=232966|AlignEnd=233039|Gloss=CTP
 5	téː	téː	ADP	_	_	3	comp:obl	_	AlignBegin=233484|AlignEnd=233500|Gloss=at
 6	ɗôː	ɗôː	ADV	_	PronType=Int	5	comp:obj	_	AlignBegin=233500|AlignEnd=233558|Gloss=where
@@ -1634,7 +1648,7 @@
 5	ɗa	ɗa	ADP	_	_	3	comp:obl	_	AlignBegin=234298|AlignEnd=234484|Gloss=at
 6	sə̂m	sə̂m	NOUN	_	_	5	comp:obj	_	AlignBegin=234484|AlignEnd=234671|Gloss=name
 7-8	lə́ɓêsòː	_	_	_	_	_	_	_	_
-7	lə́ɓês	lə̂p	NOUN	_	Deixis=Med	6	mod	_	AlignBegin=234671|AlignEnd=234819|Gloss=place
+7	lə́ɓês	lə̂p	NOUN	_	Definite=Def	6	mod	_	AlignBegin=234671|AlignEnd=234819|Gloss=place
 8	oː	oː	PART	_	PartType=Emp	2	mod	_	AlignBegin=234819|AlignEnd=234894|Gloss=EMPH
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=234894|AlignEnd=235117|Gloss=PUNCT
 
@@ -2136,7 +2150,7 @@
 18	nə	nə	PART	_	VerbType=Cop	17	unk	_	AlignBegin=296407|AlignEnd=296661|Gloss=be|InIdiom=Yes
 19	ráʃi	ráʃi	NOUN	_	_	17	comp:obj	_	AlignBegin=296661|AlignEnd=296915|Gloss=lack
 20	yisə́ngə̂n	yisə́n	VERB	_	VerbForm=Vnoun	19	mod	_	AlignBegin=296915|AlignEnd=297169|ExtPos=NOUN|Gloss=know
-21	dàtə́pês	dàtə̂pm	NOUN	_	Deixis=Med	20	mod	_	AlignBegin=297169|AlignEnd=297423|Gloss=way
+21	dàtə́pês	dàtə̂pm	NOUN	_	Definite=Def	20	mod	_	AlignBegin=297169|AlignEnd=297423|Gloss=way
 22	//	//	PUNCT	_	_	8	punct	_	AlignBegin=297423|AlignEnd=297677|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_276-276
@@ -2268,7 +2282,7 @@
 6	gə̌m	gəm	VERB	_	VerbForm=Fin	5	comp:aux	_	AlignBegin=314041|AlignEnd=314148|Gloss=put
 7	ɗi	ɗi	PART	_	_	6	compound:prt	_	AlignBegin=314148|AlignEnd=314255|Gloss=CTP
 8	ká	ká	ADP	_	_	6	comp:obl	_	AlignBegin=314255|AlignEnd=314469|Gloss=at|wordform=ɣá
-9	dàtə́pês	dàtə̂pm	NOUN	_	Deixis=Med	8	comp:obj	_	AlignBegin=314469|AlignEnd=314683|Gloss=way
+9	dàtə́pês	dàtə̂pm	NOUN	_	Definite=Def	8	comp:obj	_	AlignBegin=314469|AlignEnd=314683|Gloss=way
 10	<	<	PUNCT	_	_	4	punct	_	AlignBegin=314683|AlignEnd=314895|Gloss=PUNCT
 11	mətá	átâ	AUX	_	Number=Sing|Person=1|Tense=Rem	0	root	_	AlignBegin=314895|AlignEnd=315081|Gloss=1SG.REM
 12	ndá	nda	VERB	_	VerbForm=Fin	11	comp:aux	_	AlignBegin=315081|AlignEnd=315174|Gloss=enter
@@ -2537,7 +2551,7 @@
 2	ɬə	ɬə	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=336821|AlignEnd=336973|Gloss=go
 3	gə̀tn	gə̀tn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@top	_	AlignBegin=336973|AlignEnd=337125|Gloss=3SG.POS
 4	nə́	nə́	ADP	_	_	2	mod	_	AlignBegin=337125|AlignEnd=337277|Gloss=for
-5	awrês	awre	NOUN	_	Deixis=Med	4	comp:obj	_	AlignBegin=337277|AlignEnd=337353|Gloss=wedding
+5	awrês	awre	NOUN	_	Definite=Def	4	comp:obj	_	AlignBegin=337277|AlignEnd=337353|Gloss=wedding
 6	ǎːn	aː-hŋ́	PART	_	PartType=Int|Polarity=Neg	1	mod@relcl	_	AlignBegin=337353|AlignEnd=337391|Gloss=Q.NEG
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=337429|AlignEnd=337582|Gloss=PUNCT
 
@@ -2580,7 +2594,7 @@
 3	fuː	fuː	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=339724|AlignEnd=339825|Gloss=tell
 4	=ɣə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	3	comp:obj	_	AlignBegin=339825|AlignEnd=339926|Gloss=2SG.OBJ
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=339926|AlignEnd=340130|Gloss=PUNCT
-6	tə́pês	tə̂pm	NOUN	_	Deixis=Med	7	subj	_	AlignBegin=340130|AlignEnd=340358|Gloss=road
+6	tə́pês	tə̂pm	NOUN	_	Definite=Def	7	subj	_	AlignBegin=340130|AlignEnd=340358|Gloss=road
 7	kǔːs	kúːs	VERB	_	VerbForm=Fin	0	root	_	AlignBegin=340358|AlignEnd=340586|Gloss=be_ugly
 8	áy	áy	INTJ	_	_	7	comp:obj	_	AlignBegin=340586|AlignEnd=340814|Gloss=eh
 9	!//	!//	PUNCT	_	_	7	punct	_	AlignBegin=340814|AlignEnd=341042|Gloss=PUNCT
@@ -2728,7 +2742,7 @@
 # text_en =  I put the luggage like this.
 1	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	0	root	_	AlignBegin=357426|AlignEnd=357580|Gloss=1SG.AOR
 2	gaː	gaː	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=357580|AlignEnd=357734|Gloss=leave
-3	kaːyâː	kaːya	NOUN	_	Deixis=Med	2	comp:obj	_	AlignBegin=357734|AlignEnd=357888|Gloss=things
+3	kaːyâː	kaːya	NOUN	_	Definite=Def	2	comp:obj	_	AlignBegin=357734|AlignEnd=357888|Gloss=things
 4	tsə́n	tsəní	ADV	_	_	2	mod	_	AlignBegin=357888|AlignEnd=358042|Gloss=like_this
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=358042|AlignEnd=358195|Gloss=PUNCT
 
@@ -2777,7 +2791,7 @@
 1	bàː	bàː	PART	_	Polarity=Neg	2	mod	_	AlignBegin=361994|AlignEnd=362184|Gloss=NEG
 2	máːtá	àːtá	AUX	_	Aspect=Perf|Number=Sing|Person=1|Tense=Rem	0	root	_	AlignBegin=362184|AlignEnd=362374|Gloss=1SG.PERF.REM
 3	ɗyǎː	ɗyáː	VERB	_	VerbForm=Fin	2	comp:obj	_	AlignBegin=362374|AlignEnd=362564|Gloss=be_able
-4	màːʃínês	màːʃîn	NOUN	_	Deixis=Med	3	comp:obj	_	AlignBegin=362564|AlignEnd=362754|Gloss=motorbike
+4	màːʃínês	màːʃîn	NOUN	_	Definite=Def	3	comp:obj	_	AlignBegin=362564|AlignEnd=362754|Gloss=motorbike
 5	sòːséy	sòːséy	ADV	_	_	3	mod	_	AlignBegin=362754|AlignEnd=362849|Gloss=quite
 6	ǐn	hŋ́	PART	_	Polarity=Neg	2	mod	_	AlignBegin=362849|AlignEnd=362944|Gloss=NEG
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=362944|AlignEnd=363131|Gloss=PUNCT
@@ -2814,7 +2828,7 @@
 1	ɗan	ɗan	ADV	_	_	2	mod	_	AlignBegin=364616|AlignEnd=364772|Gloss=then
 2	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	0	root	_	AlignBegin=364772|AlignEnd=364928|Gloss=1SG.AOR
 3	mbíː	mbiː	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=364928|AlignEnd=365084|Gloss=take
-4	kaːyâs	kaːya	NOUN	_	Deixis=Med	3	comp:obj	_	AlignBegin=365084|AlignEnd=365240|Gloss=things
+4	kaːyâs	kaːya	NOUN	_	Definite=Def	3	comp:obj	_	AlignBegin=365084|AlignEnd=365240|Gloss=things
 5	káwây	káwây	ADV	_	_	3	mod	_	AlignBegin=365240|AlignEnd=365396|Gloss=merely
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=365396|AlignEnd=365554|Gloss=PUNCT
 
@@ -3064,7 +3078,7 @@
 # text_en =  We talked.
 1	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=390204|AlignEnd=390428|Gloss=1PL.AOR
 2	wûl	wul	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=390428|AlignEnd=390652|Gloss=say
-3	táːɗês	táːɗi	NOUN	_	Deixis=Med	2	mod	_	AlignBegin=390652|AlignEnd=390876|Gloss=chatting
+3	táːɗês	táːɗi	NOUN	_	Definite=Def	2	mod	_	AlignBegin=390652|AlignEnd=390876|Gloss=chatting
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=390876|AlignEnd=391101|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_386-386
@@ -3405,7 +3419,7 @@
 2	wò	wò	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=415989|AlignEnd=416157|Gloss=3SG.FUT
 3	ta	ta	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=416157|AlignEnd=416325|Gloss=climb
 4	ká	ká	ADP	_	_	3	comp:obl	_	AlignBegin=416325|AlignEnd=416493|Gloss=at|wordform=ɣá
-5	màːʃín	màːʃîn	NOUN	_	Deixis=Med	4	comp:obj	_	AlignBegin=416493|AlignEnd=416661|Gloss=motorbike
+5	màːʃín	màːʃîn	NOUN	_	Definite=Def	4	comp:obj	_	AlignBegin=416493|AlignEnd=416661|Gloss=motorbike
 6	máː	máː	PART	_	_	3	discourse	_	AlignBegin=416661|AlignEnd=416826|Gloss=even
 7	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	3	parataxis@mod	_	AlignBegin=416826|AlignEnd=417008|Gloss=3SG.SUB
 8	ɬə́	ɬə	VERB	_	VerbForm=Fin	7	comp:aux	_	AlignBegin=417008|AlignEnd=417190|Gloss=go
@@ -3487,7 +3501,7 @@
 3	wéy	wéy	PART	_	Mood=Qot	1	conj:dicto	_	AlignBegin=424150|AlignEnd=424335|Gloss=EVD
 4	mə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=1	0	root	_	AlignBegin=424335|AlignEnd=424520|Gloss=1SG.SUB
 5	fi	fi	VERB	_	VerbForm=Fin	4	comp:aux	_	AlignBegin=424520|AlignEnd=424705|Gloss=do
-6	páːʧêʃíː	páːʧi	NOUN	_	Aspect=Res|Deixis=Med	5	comp:obj@lvc	_	AlignBegin=424705|AlignEnd=424890|Gloss=puncture
+6	páːʧêʃíː	páːʧi	NOUN	_	Aspect=Res|Definite=Def	5	comp:obj@lvc	_	AlignBegin=424705|AlignEnd=424890|Gloss=puncture
 7	mə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=1	4	parataxis@conj	_	AlignBegin=424890|AlignEnd=425075|Gloss=1SG.SUB
 8-9	lə́ːrtə	_	_	_	_	_	_	_	_
 8	lə́ːr	lə́ːr	VERB	_	VerbForm=Fin	7	comp:aux	_	AlignBegin=425075|AlignEnd=425167|Gloss=bring
@@ -3554,7 +3568,7 @@
 3	átâ	átâ	AUX	_	Number=Sing|Person=3|Tense=Rem	0	root	_	AlignBegin=430934|AlignEnd=431082|Gloss=3SG.REM
 4	ta	ta	VERB	_	VerbForm=Fin	3	subj	_	AlignBegin=431082|AlignEnd=431230|Gloss=climb
 5	ká	ká	ADP	_	_	4	comp:obl	_	AlignBegin=431230|AlignEnd=431378|Gloss=at|wordform=ɣá
-6	màːʃínês	màːʃîn	NOUN	_	Deixis=Med	5	comp:obj	_	AlignBegin=431378|AlignEnd=431476|Gloss=motorbike
+6	màːʃínês	màːʃîn	NOUN	_	Definite=Def	5	comp:obj	_	AlignBegin=431378|AlignEnd=431476|Gloss=motorbike
 7	ə̌ŋ	hŋ́	PART	_	Polarity=Neg	5	mod	_	AlignBegin=431476|AlignEnd=431526|Gloss=NEG
 8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=431526|AlignEnd=431671|Gloss=PUNCT
 
@@ -3569,7 +3583,7 @@
 2	sánɗan	sánɗan	ADV	_	_	3	mod	_	AlignBegin=431600|AlignEnd=431780|Gloss=then
 3	kətá	átâ	AUX	_	Number=Sing|Person=2|Tense=Rem	0	root	_	AlignBegin=431780|AlignEnd=431960|Gloss=2SG.REM
 4	gamá	gamá	VERB	_	VerbForm=Fin	3	comp:aux	_	AlignBegin=431960|AlignEnd=432140|Gloss=finish
-5	páːʧêʃíː	páːʧi	NOUN	_	Aspect=Res|Deixis=Med	4	comp:obj	_	AlignBegin=432140|AlignEnd=432320|Gloss=puncture
+5	páːʧêʃíː	páːʧi	NOUN	_	Aspect=Res|Definite=Def	4	comp:obj	_	AlignBegin=432140|AlignEnd=432320|Gloss=puncture
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=432320|AlignEnd=432498|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_432-432
@@ -3909,7 +3923,7 @@
 6	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	16	parataxis@mod	_	AlignBegin=471851|AlignEnd=472007|Gloss=3SG.COND
 7	rigé	rigéː	VERB	_	VerbForm=Fin	6	comp:aux	_	AlignBegin=472007|AlignEnd=472163|Gloss=already|SVC=Yes
 8	ɬə	ɬə	VERB	_	VerbForm=Fin	7	compound:svc	_	AlignBegin=472163|AlignEnd=472319|Gloss=go
-9	ɗôːʃíː	ɗu	VERB	_	Aspect=Res|Deixis=Med|VerbForm=Fin	8	compound:svc	_	AlignBegin=472319|AlignEnd=472475|Gloss=get_drunk
+9	ɗôːʃíː	ɗu	VERB	_	Aspect=Res|Definite=Def|VerbForm=Fin	8	compound:svc	_	AlignBegin=472319|AlignEnd=472475|Gloss=get_drunk
 10	<	<	PUNCT	_	_	6	punct	_	AlignBegin=472475|AlignEnd=472631|Gloss=PUNCT
 11	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	16	parataxis@mod	_	AlignBegin=472631|AlignEnd=472715|Gloss=3SG.COND
 12	rigé	rigéː	VERB	_	VerbForm=Fin	11	comp:aux	_	AlignBegin=472715|AlignEnd=472799|Gloss=already|SVC=Yes
@@ -3917,7 +3931,7 @@
 14	rigé	rigéː	VERB	_	VerbForm=Fin	13	comp:aux	_	AlignBegin=472883|AlignEnd=472967|Gloss=already|SVC=Yes
 15	oː	oː	PART	_	PartType=Emp	13	discourse	_	AlignBegin=472967|AlignEnd=473051|Gloss=EMPH
 16	wul	wul	VERB	_	VerbForm=Fin	0	root	_	AlignBegin=473286|AlignEnd=473491|Gloss=say
-17	vèːʃíː	vìː	NOUN	_	Aspect=Res|Deixis=Med	16	comp:obj@lvc	_	AlignBegin=473491|AlignEnd=473696|Gloss=mouth
+17	vèːʃíː	vìː	NOUN	_	Aspect=Res|Definite=Def	16	comp:obj@lvc	_	AlignBegin=473491|AlignEnd=473696|Gloss=mouth
 18	//	//	PUNCT	_	_	16	punct	_	AlignBegin=473696|AlignEnd=473901|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_482-483
@@ -3929,7 +3943,7 @@
 # text_en =  Well, he does not know what he is sayingt (lit.: the words are gone).
 1	tòː	tòː	PART	_	_	4	discourse	_	AlignBegin=474522|AlignEnd=474618|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=474618|AlignEnd=474713|Gloss=PUNCT
-3	vèːs	vìː	NOUN	_	Deixis=Med	4	subj	_	AlignBegin=474938|AlignEnd=475221|Gloss=mouth
+3	vèːs	vìː	NOUN	_	Definite=Def	4	subj	_	AlignBegin=474938|AlignEnd=475221|Gloss=mouth
 4	laːtsíː	laːtsə́	VERB	_	Aspect=Res|VerbForm=Fin	0	root	_	AlignBegin=475221|AlignEnd=475409|Gloss=pass_by
 5	ɣəndí	kəndí	PART	_	VerbType=Cop	4	mod	_	AlignBegin=475409|AlignEnd=475504|Gloss=be|wordform=ɣəndí
 6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=475504|AlignEnd=475788|Gloss=PUNCT
@@ -4337,10 +4351,10 @@
 8	vìː	vìː	NOUN	_	_	7	comp:obj@lvc	_	AlignBegin=515586|AlignEnd=515652|Gloss=mouth
 9	ɣáyín	káy	PRON	_	Case=Ins|Deixis=Prox|Number=Sing|Person=3	7	comp:obl	_	AlignBegin=515652|AlignEnd=515783|Gloss=ANAPH|wordform=ɣáyín
 10	nə́	nə́	ADP	_	_	7	comp:obl	_	AlignBegin=515783|AlignEnd=515980|Gloss=for
-11	ngəʃínês	ngə́tn	NOUN	_	Deixis=Med	10	comp:obj	_	AlignBegin=515980|AlignEnd=516177|Gloss=thing
+11	ngəʃínês	ngə́tn	NOUN	_	Definite=Def	10	comp:obj	_	AlignBegin=515980|AlignEnd=516177|Gloss=thing
 12	<	<	PUNCT	_	_	5	punct	_	AlignBegin=516177|AlignEnd=516370|Gloss=PUNCT
 13	dón	dón	SCONJ	_	_	0	root	_	AlignBegin=516370|AlignEnd=516714|Gloss=because
-14	lǎːs	laː	NOUN	_	Deixis=Med	15	subj	_	AlignBegin=516714|AlignEnd=517057|Gloss=work
+14	lǎːs	laː	NOUN	_	Definite=Def	15	subj	_	AlignBegin=516714|AlignEnd=517057|Gloss=work
 15	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	13	comp:obj	_	AlignBegin=517057|AlignEnd=517215|Gloss=3SG.SUB
 16	ndə́ːríː	ndəːr	VERB	_	Aspect=Res|VerbForm=Fin	15	comp:obj	_	AlignBegin=517215|AlignEnd=517373|Gloss=be_ready
 17	//	//	PUNCT	_	_	13	punct	_	AlignBegin=517373|AlignEnd=517530|Gloss=PUNCT
@@ -4464,7 +4478,7 @@
 20	ɗa	ɗa	ADP	_	_	18	conj:dicto	_	AlignBegin=531495|AlignEnd=531712|Gloss=at
 21-22	àngwawôpès	_	_	_	_	_	_	_	_
 21	àngwa	àngwa	NOUN	_	_	20	comp:obj	_	AlignBegin=531712|AlignEnd=531929|Gloss=ward
-22	=wôpès	=wopm	PRON	_	Deixis=Med|Number=Plur|Person=1|Poss=Yes|PronType=Prs	21	mod@poss	_	AlignBegin=531784|AlignEnd=531856|Gloss=1PL.POS.DEF
+22	=wôpès	=wopm	PRON	_	Definite=Def|Number=Plur|Person=1|Poss=Yes|PronType=Prs	21	mod@poss	_	AlignBegin=531784|AlignEnd=531856|Gloss=1PL.POS.DEF
 23	//	//	PUNCT	_	_	2	punct	_	AlignBegin=531929|AlignEnd=532146|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_539-539
@@ -5634,7 +5648,7 @@
 1	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	7	parataxis@discourse	_	AlignBegin=660805|AlignEnd=660931|Gloss=2SG.AOR
 2	yísə́n	yisə́n	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=660931|AlignEnd=661057|Gloss=know
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=661057|AlignEnd=661183|Gloss=PUNCT
-4	Maláːrês	Malâːr	PROPN	_	Deixis=Med	7	dislocated@subj	_	AlignBegin=661657|AlignEnd=661905|Gloss=Malar
+4	Maláːrês	Malâːr	PROPN	_	Definite=Def	7	dislocated@subj	_	AlignBegin=661657|AlignEnd=661905|Gloss=Malar
 5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=661905|AlignEnd=662153|Gloss=PUNCT
 6	ʧì	ʧì	PRON	_	Number=Plur|Person=3|PronType=Prs	7	subj	_	AlignBegin=662153|AlignEnd=662301|Gloss=3PL
 7	mari	mari	IDEO	_	_	0	root	_	AlignBegin=662301|AlignEnd=662449|ExtPos=ADJ|Gloss=different
@@ -5692,7 +5706,7 @@
 # text = dàːmuwâs kən èː ɗan ʧáː ndá ɗi ɓaʃí ɣəndí //
 # text_ortho = dàːmuwâskən >+ èːːː ɗan ʧáː ndáɗi ɓaʃí kəndí //
 # text_en =  that's the problem er... what they have been having.
-1	dàːmuwâs	dàːmuwá	NOUN	_	Deixis=Med	2	subj	_	AlignBegin=668704|AlignEnd=668886|Gloss=problem
+1	dàːmuwâs	dàːmuwá	NOUN	_	Definite=Def	2	subj	_	AlignBegin=668704|AlignEnd=668886|Gloss=problem
 2	kən	kən	PART	_	VerbType=Cop	0	root	_	AlignBegin=668886|AlignEnd=668976|Gloss=be
 3	èː	èː	INTJ	_	_	2	discourse	_	AlignBegin=669249|AlignEnd=669860|Gloss=èː
 4	ɗan	ɗan	SCONJ	_	PronType=Rel	1	mod@relcl	_	AlignBegin=669860|AlignEnd=670072|Gloss=REL
@@ -5714,7 +5728,7 @@
 # text_en =  <I think> that's the reason.
 1	ina	ina	X	_	Foreign=Yes	4	discourse	_	AlignBegin=671130|AlignEnd=671352|Gloss=1s.IPFV|Lang=hau
 2	ʤin	ʤin	X	_	Foreign=Yes	1	flat:foreign	_	AlignBegin=671352|AlignEnd=671573|Gloss=perceive.NMLZ|Lang=hau
-3	dàlíːlês	dàlíːli	NOUN	_	Deixis=Med	4	subj	_	AlignBegin=671573|AlignEnd=671757|Gloss=reason
+3	dàlíːlês	dàlíːli	NOUN	_	Definite=Def	4	subj	_	AlignBegin=671573|AlignEnd=671757|Gloss=reason
 4	kəndí	kən	PART	_	_	0	root	_	AlignBegin=671941|AlignEnd=672125|Gloss=be
 5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=672125|AlignEnd=672125|Gloss=PUNCT
 
@@ -5727,7 +5741,7 @@
 # text_en =  Yes, that's the reason.
 1	yáwwàː	yáwwàː	INTJ	_	_	4	discourse	_	AlignBegin=671845|AlignEnd=672072|Gloss=OK
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=672072|AlignEnd=672299|Gloss=PUNCT
-3	dàlíːlês	dàlíːli	NOUN	_	Deixis=Med	4	subj	_	AlignBegin=672299|AlignEnd=672526|Gloss=reason
+3	dàlíːlês	dàlíːli	NOUN	_	Definite=Def	4	subj	_	AlignBegin=672299|AlignEnd=672526|Gloss=reason
 4	kəndí	kəndí	PART	_	_	0	root	_	AlignBegin=672753|AlignEnd=672982|Gloss=be
 5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=672982|AlignEnd=672982|Gloss=PUNCT
 
@@ -6381,7 +6395,7 @@
 3	mə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=1	2	parataxis@comp	_	AlignBegin=735530|AlignEnd=735621|Gloss=1SG.SUB
 4	ʧáː	yáː	VERB	_	VerbForm=Fin	3	comp:aux	_	AlignBegin=735621|AlignEnd=735712|Gloss=put
 5	ŋáː	ŋáː	NOUN	_	_	4	comp:ben	_	AlignBegin=735712|AlignEnd=735803|Gloss=child
-6	vwàːs	vwàː	NOUN	_	Deixis=Med	4	comp:obj	_	AlignBegin=735803|AlignEnd=735894|Gloss=belly
+6	vwàːs	vwàː	NOUN	_	Definite=Def	4	comp:obj	_	AlignBegin=735803|AlignEnd=735894|Gloss=belly
 7	//=	//=	PUNCT	_	_	8	punct	_	AlignBegin=735894|AlignEnd=735985|Gloss=PUNCT
 8	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	1	parataxis@conj	_	AlignBegin=735985|AlignEnd=736076|Gloss=3SG.PERF
 9	ɗaɣə́y	ɗak	VERB	_	Aspect=Res|VerbForm=Fin	8	comp:obj	_	AlignBegin=736076|AlignEnd=736167|Gloss=refuse
@@ -6806,7 +6820,7 @@
 6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=781368|AlignEnd=781557|Gloss=PUNCT
 7	tá	tá	ADV	_	_	8	mod	_	AlignBegin=781557|AlignEnd=781724|Gloss=then
 8	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	0	root	_	AlignBegin=781724|AlignEnd=781891|Gloss=2SG.PERF
-9	kaɓêʃíː	kap	VERB	_	Aspect=Res|Deixis=Med|VerbForm=Fin	8	comp:obj	_	AlignBegin=781891|AlignEnd=782058|Gloss=take
+9	kaɓêʃíː	kap	VERB	_	Aspect=Res|Definite=Def|VerbForm=Fin	8	comp:obj	_	AlignBegin=781891|AlignEnd=782058|Gloss=take
 10	ǎː	ŋaː	PART	_	PartType=Int	8	mod	_	AlignBegin=782058|AlignEnd=782142|Gloss=Q
 11	n	hŋ́	PART	_	Polarity=Neg	8	mod	_	AlignBegin=782142|AlignEnd=782225|Gloss=NEG
 12	?//	?//	PUNCT	_	_	8	punct	_	AlignBegin=782225|AlignEnd=782390|Gloss=PUNCT
@@ -6829,7 +6843,7 @@
 # text_ortho = káː kaɓêʃí ŋǎːn ?//
 # text_en =  Did you marry her?
 1	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	0	root	_	AlignBegin=783343|AlignEnd=783499|Gloss=2SG.PERF
-2	kaɓêʃíː	kap	VERB	_	Aspect=Res|Deixis=Med|VerbForm=Fin	1	comp:aux	_	AlignBegin=783499|AlignEnd=782058|Gloss=take
+2	kaɓêʃíː	kap	VERB	_	Aspect=Res|Definite=Def|VerbForm=Fin	1	comp:aux	_	AlignBegin=783499|AlignEnd=782058|Gloss=take
 3	ǎː	ŋaː	PART	_	PartType=Int	1	mod	_	AlignBegin=783655|AlignEnd=783733|Gloss=Q
 4	n	hŋ́	PART	_	Polarity=Neg	1	mod	_	AlignBegin=783733|AlignEnd=783811|Gloss=NEG
 5	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=783811|AlignEnd=783965|Gloss=PUNCT
@@ -7275,7 +7289,7 @@
 # text = Kaɗə́mês aː ?//
 # text_ortho = Kaɗə́mêsàː ?//
 # text_en =  Kadạm ?
-1	Kaɗə́mês	Kaɗə́m	PROPN	_	Deixis=Med	0	root	_	AlignBegin=829613|AlignEnd=829813|Gloss=Kaɗạm
+1	Kaɗə́mês	Kaɗə́m	PROPN	_	Definite=Def	0	root	_	AlignBegin=829613|AlignEnd=829813|Gloss=Kaɗạm
 2	aː	aː	PART	_	PartType=Int	1	discourse	_	AlignBegin=829813|AlignEnd=829913|Gloss=Q
 3	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=829913|AlignEnd=830214|Gloss=PUNCT
 
