@@ -3097,7 +3097,7 @@
 # sent_timecode = 391101, 391987
 # text = táːɗi mán ʧi mbíː //
 # text_ortho = táːɗi mán ʧi mbíː //
-# text_en =  The conversation came to an end,
+# text_en =  The conversation came to an end.
 1	táːɗi	táːɗi	NOUN	_	_	2	subj	_	AlignBegin=391101|AlignEnd=391278|Gloss=chatting
 2	mán	man	VERB	_	VerbForm=Fin	0	root	_	AlignBegin=391278|AlignEnd=391455|Gloss=come|SVC=Yes
 3	ʧi	ʧi	VERB	_	VerbForm=Fin	2	compound:svc	_	AlignBegin=391455|AlignEnd=391632|Gloss=eat
@@ -3293,7 +3293,7 @@
 # sent_timecode = 404334, 405509
 # text = tòː mə̀tà ɬə bàː mə́ gyàː də̀nə̌n //
 # text_ortho = tòː mə̀tà ɬə bàː mə́ gyàː də̀nə̌n //
-# text_en =  Well we left and did not go home.
+# text_en =  Well we left and did not branch to the house.
 1	tòː	tòː	PART	_	_	2	discourse	_	AlignBegin=404334|AlignEnd=404481|Gloss=well
 2	mə̀tà	átâ	AUX	_	Number=Plur|Person=1|Tense=Rem	0	root	_	AlignBegin=404481|AlignEnd=404628|Gloss=1PL.REM
 3	ɬə	ɬə	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=404628|AlignEnd=404775|Gloss=go
@@ -3790,15 +3790,16 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 452199, 452862
-# text = máː dap mə tul ɗán ǐn //
+# text = máː dap mə tul ɗánǐn //
 # text_ortho = máː dap mə tul ɗánǐn //
 # text_en =  I did not reach there.
 1	máː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=452199|AlignEnd=452309|Gloss=1SG.PERF
 2	dap	dap	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=452309|AlignEnd=452419|Gloss=follow
 3	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	2	parataxis@comp	_	AlignBegin=452419|AlignEnd=452529|Gloss=1SG.AOR
 4	tul	tul	VERB	_	VerbForm=Fin	3	comp:aux	_	AlignBegin=452529|AlignEnd=452639|Gloss=arrive
+5-6	ɗánǐn	_	_	_	_	_	_	_	_
 5	ɗán	ɗáni	ADV	_	PronType=Dem	4	comp:obj	_	AlignBegin=452639|AlignEnd=452694|Gloss=there
-6	ǐn	hń	PART	_	Polarity=Neg	1	mod	_	AlignBegin=452694|AlignEnd=452749|Gloss=NEG
+6	hń	hń	PART	_	Polarity=Neg	1	mod	_	AlignBegin=452694|AlignEnd=452749|Gloss=NEG
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=452749|AlignEnd=452862|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_458-461
@@ -3829,16 +3830,18 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 457081, 458141
-# text = mə wú tu Bàːbá tá ɗi ɣá màːʃín oː //
+# text = mə wú tu Bàːbá táɗi ɣá màːʃínoː //
 # text_ortho = mə wú tu Bàːbá táɗi ká màːʃínoː //
 # text_en =  I said Baba climb on the motorbike.
 1	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	0	root	_	AlignBegin=457081|AlignEnd=457151|Gloss=1SG.AOR
 2	wú	wul	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=457151|AlignEnd=457221|Gloss=say
 3	tu	tu	SCONJ	_	Mood=Qot	2	comp:obj	_	AlignBegin=457221|AlignEnd=457290|Gloss=OPN
 4	Bàːbá	Bàːbá	PROPN	_	_	5	vocative	_	AlignBegin=457290|AlignEnd=457460|Gloss=Baba
+5-6	táɗi	_	_	_	_	_	_	_	_
 5	tá	ta	VERB	_	Mood=Imp|VerbForm=Fin	3	comp:obj	_	AlignBegin=457460|AlignEnd=457545|Gloss=climb
 6	ɗi	ɗi	PART	_	_	5	compound:prt	_	AlignBegin=457545|AlignEnd=457630|Gloss=CTP
-7	ká	ká	ADP	_	_	5	comp:obl	_	AlignBegin=457630|AlignEnd=457800|Gloss=at|wordform=ɣá
+7	ɣá	ká	ADP	_	_	5	comp:obl	_	AlignBegin=457630|AlignEnd=457800|Gloss=at|wordform=ɣá
+8-9	màːʃínoː	_	_	_	_	_	_	_	_
 8	màːʃín	màːʃîn	NOUN	_	_	7	comp:obj	_	AlignBegin=457800|AlignEnd=457885|Gloss=motorbike
 9	oː	oː	PART	_	PartType=Emp	1	mod	_	AlignBegin=457885|AlignEnd=457970|Gloss=EMPH
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=457970|AlignEnd=458141|Gloss=PUNCT
@@ -3904,7 +3907,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 466407, 467962
-# text = káwây séː ə̀ː átâ mán táy ɗì ɣáy //
+# text = káwây séː ə̀ː átâ mán táyɗìɣáy //
 # text_ortho = káwây séː ə̀ːːː átâ mán táyɗi káy //
 # text_en =  Then er... he climbed on it.
 1	káwây	káwây	ADV	_	_	4	mod	_	AlignBegin=466407|AlignEnd=466599|Gloss=merely
@@ -3912,9 +3915,10 @@
 3	ə̀ː	ə̀ː	INTJ	_	_	4	discourse	_	AlignBegin=466792|AlignEnd=467187|Gloss=INTJ
 4	átâ	átâ	AUX	_	Number=Sing|Person=3|Tense=Rem	0	root	_	AlignBegin=467187|AlignEnd=467342|Gloss=3SG.REM
 5	mán	man	VERB	_	VerbForm=Fin	4	comp:aux	_	AlignBegin=467342|AlignEnd=467497|Gloss=come|SVC=Yes
-6	táy	ta	VERB	_	Aspect=Res|VerbForm=Fin	5	compound:svc	_	AlignBegin=467497|AlignEnd=467601|Gloss=climb
+6-8	táyɗìɣáy	_	_	_	_	_	_	_	_
+6	táy	ta	VERB	_	Aspect=Res|VerbForm=Fin	5	compound:svc	_	AlignBegin=467497|AlignEnd=467601|Gloss=climb.RES
 7	ɗì	ɗi	PART	_	_	6	compound:prt	_	AlignBegin=467601|AlignEnd=467652|Gloss=CTP
-8	káy	káy	PRON	_	Case=Ins|Number=Sing|Person=3	6	comp:obl	_	AlignBegin=467652|AlignEnd=467807|Gloss=3SG.ANAPH|wordform=ɣáy
+8	ɣáy	káy	PRON	_	Case=Ins|Number=Sing|Person=3	6	comp:obl	_	AlignBegin=467652|AlignEnd=467807|Gloss=3SG.ANAPH|wordform=ɣáy
 9	//	//	PUNCT	_	_	4	punct	_	AlignBegin=467807|AlignEnd=467962|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_475-477
@@ -3941,25 +3945,24 @@
 # text = tòː káː san gòs < yáː rigé ɬə ɗôːʃíː < yáː rigé yáː rigé oː wul vèːʃíː //
 # text_ortho = tòː káː san gòs < yâː rigé ɬə ɗôːʃíː < yâː rigé yâː rigé oː < wul vèːʃíː //
 # text_en =  Well you know him, when he has drunk beer, when he has (drunk),  he will talk.
-1	tòː	tòː	PART	_	_	16	discourse	_	AlignBegin=470945|AlignEnd=471098|Gloss=well
-2	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	16	parataxis@discourse	_	AlignBegin=471098|AlignEnd=471251|Gloss=2SG.PERF
+1	tòː	tòː	PART	_	_	11	discourse	_	AlignBegin=470945|AlignEnd=471098|Gloss=well
+2	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	11	parataxis@discourse	_	AlignBegin=471098|AlignEnd=471251|Gloss=2SG.PERF
 3	san	san	VERB	_	Foreign=Yes|VerbForm=Fin	2	comp:aux	_	AlignBegin=471251|AlignEnd=471404|Gloss=know|Lang=hau
 4	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	mod@top	_	AlignBegin=471404|AlignEnd=471557|Gloss=3SG.POS
 5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=471557|AlignEnd=471709|Gloss=PUNCT
-6	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	16	parataxis@mod	_	AlignBegin=471851|AlignEnd=472007|Gloss=3SG.COND
+6	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	11	parataxis@mod	_	AlignBegin=471851|AlignEnd=472007|Gloss=3SG.COND
 7	rigé	rigéː	VERB	_	VerbForm=Fin	6	comp:aux	_	AlignBegin=472007|AlignEnd=472163|Gloss=already|SVC=Yes
 8	ɬə	ɬə	VERB	_	VerbForm=Fin	7	compound:svc	_	AlignBegin=472163|AlignEnd=472319|Gloss=go
 9	ɗôːʃíː	ɗu	VERB	_	Aspect=Res|Definite=Def|VerbForm=Fin	8	compound:svc	_	AlignBegin=472319|AlignEnd=472475|Gloss=get_drunk
 10	<	<	PUNCT	_	_	6	punct	_	AlignBegin=472475|AlignEnd=472631|Gloss=PUNCT
-11	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	16	parataxis@mod	_	AlignBegin=472631|AlignEnd=472715|Gloss=3SG.COND
+11	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	0	root@mod	_	AlignBegin=472631|AlignEnd=472715|Gloss=3SG.COND
 12	rigé	rigéː	VERB	_	VerbForm=Fin	11	comp:aux	_	AlignBegin=472715|AlignEnd=472799|Gloss=already|SVC=Yes
-13	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	16	parataxis@mod	_	AlignBegin=472799|AlignEnd=472883|Gloss=3SG.COND
+13	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	11	conj:dicto	_	AlignBegin=472799|AlignEnd=472883|Gloss=3SG.COND
 14	rigé	rigéː	VERB	_	VerbForm=Fin	13	comp:aux	_	AlignBegin=472883|AlignEnd=472967|Gloss=already|SVC=Yes
-15	oː	oː	PART	_	PartType=Emp	13	discourse	_	AlignBegin=472967|AlignEnd=473051|Gloss=EMPH
-16	wul	wul	VERB	_	VerbForm=Fin	0	root	_	AlignBegin=473286|AlignEnd=473491|Gloss=say
-17	vèːʃíː	vìː	NOUN	_	Aspect=Res|Definite=Def	16	comp:obj@lvc	_	AlignBegin=473491|AlignEnd=473696|Gloss=mouth
-18	//	//	PUNCT	_	_	16	punct	_	AlignBegin=473696|AlignEnd=473901|Gloss=PUNCT
-
+15	oː	oː	PART	_	PartType=Emp	14	discourse	_	AlignBegin=472967|AlignEnd=473051|Gloss=EMPH
+16	wul	wul	VERB	_	VerbForm=Fin	14	compound:svc	_	AlignBegin=473286|AlignEnd=473491|Gloss=say|Idiom=Yes
+17	vèːʃíː	vìː	NOUN	_	Aspect=Res|Definite=Def	16	comp:obj	_	AlignBegin=473491|AlignEnd=473696|Gloss=mouth|InIdiom=Yes
+18	//	//	PUNCT	_	_	11	punct	_	AlignBegin=473696|AlignEnd=473901|Gloss=PUNCT
 # sent_id = SAY_BC_CONV_03_482-483
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
