@@ -262,13 +262,12 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 49071, 52547
 # text = yə́ddà ɗan myáː súː ngə́ʃês kəndí sábòːtu bàː myáː súː mə̀ dingá ɗúɣə̂n wurɓa //
-# text_ortho = yə́ddà ɗan myáː súː ngə́ʃêskəndí sábòːtu bàː myáː súː mə̀ díngá ɗúɣə̂n wurɓa //
+# text_ortho = yə́ddà ɗan myáː súː ngə́ʃês kəndí sábòːtu bàː myáː súː mə̀ díngá ɗúɣə̂n wurɓa //
 # text_en = That's how I want it because I do not want to waste money.
 1	yə́ddà	yə́ddà	ADV	_	PronType=Rel	6	subj	_	AlignBegin=49071|AlignEnd=49255|Gloss=how
 2	ɗan	ɗan	SCONJ	_	PronType=Rel	1	mod@relcl	_	AlignBegin=49255|AlignEnd=49439|Gloss=REL
 3	myáː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	2	comp:obj	_	AlignBegin=49439|AlignEnd=49623|Gloss=1SG.IMP
 4	súː	súː	VERB	_	VerbForm=Fin	3	comp:aux	_	AlignBegin=49623|AlignEnd=49809|Gloss=want
-5-6	ngə́ʃêskəndí	_	_	_	_	_	_	_	_
 5	ngə́ʃês	ngə́ʃi	NOUN	_	_	4	comp:obj	_	AlignBegin=49809|AlignEnd=50155|Gloss=thing.DEF
 6	kəndí	kəndí	PART	_	VerbType=Cop	0	root	_	AlignBegin=50155|AlignEnd=50329|Gloss=be
 7	sábòːtu	sábòːtu	SCONJ	_	_	6	mod	_	AlignBegin=50329|AlignEnd=50848|Gloss=because_of
@@ -1626,6 +1625,7 @@
 4	ɗi	ɗi	PART	_	_	3	compound:prt	_	AlignBegin=232966|AlignEnd=233039|Gloss=CTP
 5	téː	téː	ADP	_	_	3	comp:obl	_	AlignBegin=233484|AlignEnd=233500|Gloss=at
 6	ɗôː	ɗôː	ADV	_	PronType=Int	5	comp:obj	_	AlignBegin=233500|AlignEnd=233558|Gloss=where
+7-8	ɣənoː	_	_	_	_	_	_	_	_
 7	ɣən	kən	PART	_	VerbType=Cop	2	discourse	_	AlignBegin=233558|AlignEnd=233631|Gloss=be
 8	oː	oː	PART	_	PartType=Emp	2	discourse	_	AlignBegin=233631|AlignEnd=233778|Gloss=EMPH
 9	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=233778|AlignEnd=233926|Gloss=PUNCT
@@ -2407,7 +2407,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 327397, 328000
 # text = tòː ʧì mel ɣəndí //
-# text_ortho = tôː ʧì melɣəndí //
+# text_ortho = tôː ʧì mel ɣəndí //
 # text_en =  Well, they are close.
 1	tòː	tòː	PART	_	_	3	discourse	_	AlignBegin=327397|AlignEnd=327548|Gloss=well
 2	ʧì	ʧì	PRON	_	Number=Plur|Person=3|PronType=Prs	3	subj	_	AlignBegin=327548|AlignEnd=327699|Gloss=3PL
@@ -2916,7 +2916,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 373483, 374535
 # text = miːr káwây ŋ átâyáː ɓánəm mə́n //
-# text_ortho = miːr káwâykən átâyáː ɓánəm mə́n //
+# text_ortho = miːr káwây kən átâyáː ɓánəm mə́n //
 # text_en =  It's only the petrol that got finished.
 1	miːr	miːr	NOUN	_	_	3	comp:pred	_	AlignBegin=373483|AlignEnd=373658|Gloss=petrol
 2	káwây	káwây	ADV	_	_	1	mod	_	AlignBegin=373658|AlignEnd=373746|Gloss=merely
@@ -3152,7 +3152,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 395136, 395549
 # text = èː ɣən //
-# text_ortho = èːkən //
+# text_ortho = èː kən //
 # text_en =  Yes indeed.
 1	èː	èː	INTJ	_	_	0	root	_	AlignBegin=395136|AlignEnd=395239|Gloss=yes
 2	ɣən	kən	PART	_	VerbType=Cop	1	mod	_	AlignBegin=395239|AlignEnd=395342|Gloss=be
@@ -3242,7 +3242,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 400368, 401157
 # text = əndá kyáː fuːm gəndí //
-# text_ortho = kəndá kyáː fuːmkəndí //
+# text_ortho = kəndá kyáː fuːm kəndí //
 # text_en =  Then you told me.
 1	əndá	kəndá	ADV	_	_	2	mod	_	AlignBegin=400368|AlignEnd=400565|Gloss=then
 2	kyáː	ʧáː	AUX	_	Mood=Imp|Number=Sing|Person=2	0	root	_	AlignBegin=400565|AlignEnd=400762|Gloss=2SG.IPFV
@@ -3968,7 +3968,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 474522, 475788
 # text = tòː < vèːs laːtsíː ɣəndí //
-# text_ortho = tòː < vèːs làːtsə́ykəndí //
+# text_ortho = tòː < vèːs làːtsə́y kəndí //
 # text_en =  Well, he does not know what he is sayingt (lit.: the words are gone).
 1	tòː	tòː	PART	_	_	4	discourse	_	AlignBegin=474522|AlignEnd=474618|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=474618|AlignEnd=474713|Gloss=PUNCT
@@ -4521,7 +4521,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 532146, 532513
 # text = èː ɣən //
-# text_ortho = èːkən //
+# text_ortho = èː kən //
 # text_en =  Yes indeed.
 1	èː	èː	INTJ	_	_	0	root	_	AlignBegin=532146|AlignEnd=532238|Gloss=yes
 2	ɣən	kən	PART	_	VerbType=Cop	1	mod	_	AlignBegin=532238|AlignEnd=532330|Gloss=be
@@ -5753,7 +5753,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 668704, 671130
 # text = dàːmuwâs kən èː ɗan ʧáː ndáɗi ɓaʃí ɣəndí //
-# text_ortho = dàːmuwâskən >+ èːːː ɗan ʧáː ndáɗi ɓaʃí kəndí //
+# text_ortho = dàːmuwâs kən >+ èːːː ɗan ʧáː ndáɗi ɓaʃí kəndí //
 # text_en =  that's the problem er... what they have been having.
 1	dàːmuwâs	dàːmuwá	NOUN	_	Definite=Def	2	subj	_	AlignBegin=668704|AlignEnd=668886|Gloss=problem
 2	kən	kən	PART	_	VerbType=Cop	0	root	_	AlignBegin=668886|AlignEnd=668976|Gloss=be
@@ -6010,7 +6010,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 693155, 693794
 # text = á ɓâníː ɣəndí //
-# text_ortho = á ɓâníːkəndí //
+# text_ortho = á ɓâníː kəndí //
 # text_en =  it's over.
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=693155|AlignEnd=693315|Gloss=3SG.AOR
 2	ɓâníː	ɓán	VERB	_	Aspect=Res|VerbForm=Fin	1	comp:aux	_	AlignBegin=693315|AlignEnd=693475|Gloss=finish
@@ -6293,7 +6293,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 721199, 721608
 # text = èː ɣən //
-# text_ortho = èːkən //
+# text_ortho = èː kən //
 # text_en =  Yes.
 1	èː	èː	INTJ	_	_	0	root	_	AlignBegin=721199|AlignEnd=721301|Gloss=yes
 2	ɣən	kən	PART	_	VerbType=Cop	1	mod	_	AlignBegin=721301|AlignEnd=721403|Gloss=be
@@ -6944,8 +6944,8 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 787160, 789488
-# text = kápkə̂n gə̀t < yâːn káː rigá kə yísə́n gə̀t < káː kaptíːɣəndí oː //
-# text_ortho = kápkə̂n gə̀t < yâːn káː rigá kə yisə́n gə̀t >+ káː kaptíːɣəndyôː //
+# text = kápkə̂n gə̀t < yâːn káː rigá kə yísə́n gə̀t < káː kaptíː ɣəndyôː //
+# text_ortho = kápkə̂n gə̀t < yâːn káː rigá kə yisə́n gə̀t >+ káː kaptíː ɣəndyôː //
 # text_en =  To get married,  when you already know a woman, you get married.
 1	kápkə̂n	kap	VERB	_	VerbForm=Fin	11	dislocated@top	_	AlignBegin=787160|AlignEnd=787345|Gloss=take
 2	gə̀t	gə̀t	NOUN	_	_	1	udep	_	AlignBegin=787345|AlignEnd=787530|Gloss=wife
@@ -6958,9 +6958,10 @@
 9	gə̀t	gə̀t	NOUN	_	_	8	comp:obj	_	AlignBegin=788399|AlignEnd=788536|Gloss=wife
 10	<	<	PUNCT	_	_	11	punct	_	AlignBegin=788536|AlignEnd=788676|Gloss=PUNCT
 11	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	0	root	_	AlignBegin=788676|AlignEnd=788879|Gloss=2SG.PERF
-12-14	kaptíːɣəndí	_	_	_	_	_	_	_	_
+12-13	kaptíː	_	_	_	_	_	_	_	_
 12	kap	kap	VERB	_	VerbForm=Fin	11	comp:aux	_	AlignBegin=788879|AlignEnd=789082|Gloss=take
 13	=tíː	=tə	PRON	_	Aspect=Rs|Case=Acc|Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=788947|AlignEnd=789015|Gloss=3SG.OBJ
+14-15	ɣəndyôː	_	_	_	_	_	_	_	_
 14	ɣəndí	kəndí	PART	_	_	11	mod	_	AlignBegin=789015|AlignEnd=789388|Gloss=be
 15	oː	oː	PART	_	PartType=Emp	11	mod	_	AlignBegin=789388|AlignEnd=789488|Gloss=EMPH
 16	//	//	PUNCT	_	_	11	punct	_	AlignBegin=789488|AlignEnd=789488|Gloss=PUNCT
@@ -7538,7 +7539,7 @@
 13	ŋǎː	ŋaː	PART	_	PartType=Int	6	mod	_	AlignBegin=849893|AlignEnd=849970|Gloss=Q
 14	n	hń	PART	_	Polarity=Neg	6	mod	_	AlignBegin=849970|AlignEnd=850047|Gloss=NEG
 15	?//]	?//]	PUNCT	_	_	6	punct	_	AlignBegin=850047|AlignEnd=850201|Gloss=PUNCT
-16	//	//	PUNCT	_	_	1	punct	_	AlignBegin=850201|AlignEnd=850353|Gloss=PUNCT
+16	//	//	PUNCT	_	_	1	punct	_	AlignBegin=850201|AlignEnd=850353|Gloss=F
 
 # sent_id = SAY_BC_CONV_03_883-883
 # speaker_id = SP2
