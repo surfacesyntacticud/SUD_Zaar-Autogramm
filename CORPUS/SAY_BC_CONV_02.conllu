@@ -105,8 +105,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 15869, 17910
-# text = mə́ nat ŋamtsə́ ɗi < tôː mə́ máni mə́ mán tsə́tn ni //
-# text_ortho = mə́ nât ŋamtsə́ɗi < tôː mə́ máni mə́ mán tsə̌tnni //
+# text = mə́ nat ŋamtsə́ ɗi < tôː mə́ máni mə́ mán tsə́tnni //
+# text_ortho = mə́ nât ŋamtsə́ɗi < tôː mə́ máni mə́ mán tsə́tnni //
 # text_en =  After we collect wood, we come back and sit down.
 1	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	7	parataxis@mod	_	AlignBegin=15869|AlignEnd=16080|Gloss=1PL.AOR
 2	nat	nat	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=16080|AlignEnd=16291|Gloss=tie
@@ -118,6 +118,7 @@
 8	máni	máni	VERB	_	VerbForm=Fin	7	comp:aux	_	AlignBegin=17056|AlignEnd=17227|Gloss=come
 9	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	7	compound:svc	_	AlignBegin=17227|AlignEnd=17398|Gloss=1PL.AOR
 10	mán	mán	VERB	_	VerbForm=Fin	9	comp:aux	_	AlignBegin=17398|AlignEnd=17569|Gloss=come|SVC=Yes
+11-12	tsə́tnni	_	_	_	_	_	_	_	_
 11	tsə́tn	tsə́tn	VERB	_	VerbForm=Fin	10	compound:svc	_	AlignBegin=17569|AlignEnd=17655|Gloss=sit
 12	ni	ni	PART	_	Aspect=Inch	11	compound:prt	_	AlignBegin=17655|AlignEnd=17740|Gloss=INCH
 13	//	//	PUNCT	_	_	7	punct	_	AlignBegin=17740|AlignEnd=17910|Gloss=PUNCT
@@ -126,7 +127,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 19035, 23427
-# text = tòː < Mǎːm Móːmi kúmá < ɮàm ɗì gòs ɗì < ʧáː fin gòs koyarwa makaranta //
+# text = tòː < Mǎːm Móːmi kúmá < ɮàmɗì gòs ɗì < ʧáː fin gòs koyarwa makaranta //
 # text_ortho = tôː < mǎːm Móːmi kúmáːːː < ɮàmɗì gòsɗìːːː < ʧáː fin gòs koyarwa makaranta //
 # text_en =  Well, as for Momi's mother, when she comes back,  what she does,  is to teach children in school.
 1	tòː	tòː	PART	_	_	12	discourse	_	AlignBegin=19035|AlignEnd=19177|Gloss=well
@@ -135,6 +136,7 @@
 4	Móːmi	Móːmi	PROPN	_	_	3	flat:name	_	AlignBegin=20154|AlignEnd=20366|Gloss=Momi
 5	kúmá	kúmá	PART	_	_	3	discourse	_	AlignBegin=20366|AlignEnd=20578|Gloss=also
 6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=20578|AlignEnd=20791|Gloss=PUNCT
+7-8	ɮàmɗì	_	_	_	_	_	_	_	_
 7	ɮàm	ɮam	VERB	_	VerbForm=Fin	12	parataxis@mod	_	AlignBegin=20791|AlignEnd=20949|Gloss=return
 8	ɗì	ɗi	PART	_	_	7	compound:prt	_	AlignBegin=20949|AlignEnd=21106|Gloss=CTP
 9	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	mod@poss	_	AlignBegin=21106|AlignEnd=21264|Gloss=3SG.POS
@@ -3014,14 +3016,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 419600, 423845
-# text = myǎː sûmí gíːɗi //= mə́ mán tûːr náɣat //= mə́ ʧǐː //= mə́ fûːtáy nʤwâːtn //= tôː mə́ ndǎy kúʧi //
-# text_ortho = myǎː sûmí gíːɗi //= mə́ mán tûːr náɣat //= mə́ ʧǐː //= mə́ fûːtáy nʤwâːtn //= tôː mə́ ndǎy kúʧi //
+# text = myǎː sûmí gíː ɗi //= mə́ mán tûːr náɣat //= mə́ ʧǐː //= mə́ fûːtáy nʤwâːtn //= tôː mə́ ndǎy kúʧi //
+# text_ortho = myǎː sûmí gíː ɗi //= mə́ mán tûːr náɣat //= mə́ ʧǐː //= mə́ fûːtáy nʤwâːtn //= tôː mə́ ndǎy kúʧi //
 # text_en =  We come back from there,  then we cook food we eat, we rest a little, then we go to bed.
 1	myǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	0	root	_	AlignBegin=419600|AlignEnd=419802|Gloss=1PL.IMP
 2-3	sûmí	_	_	_	_	_	_	_	_
 2	sû	su	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=419802|AlignEnd=419903|Gloss=return
 3	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	2	comp:obj	_	AlignBegin=419903|AlignEnd=420004|Gloss=1PL.OBJ
-4-5	gíːɗi	_	_	_	_	_	_	_	_
 4	gíː	gíː	ADV	_	Deixis=Remt|PronType=Dem	2	comp:source	_	AlignBegin=420004|AlignEnd=420105|Gloss=there
 5	ɗi	ɗi	PART	_	_	2	compound:prt	_	AlignBegin=420105|AlignEnd=420206|Gloss=CTP
 6	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=420206|AlignEnd=420408|Gloss=PUNCT
