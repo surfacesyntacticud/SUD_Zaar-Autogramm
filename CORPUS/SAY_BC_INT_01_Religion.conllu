@@ -79,16 +79,18 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_Religion.WAV
 # sent_timecode = 13793, 15433
-# text = kóː ki nə sə́ŋwaːrí a: |c kóː ki nə niː ?//
-# text_ortho = kóː ki nə sə́ŋwaːrí a: |c kóː ki nə niː ?//
+# text = kóː ki nə sə́ŋwaːryâː |c kóː kin niː ?//
+# text_ortho = kóː ki nə sə́ŋwaːryâː |c kóː ki nə niː ?//
 # text_en = Were you a chief or what were you?
 1	kóː	kóː	CCONJ	_	_	3	cc@preconj	_	AlignBegin=13793|AlignEnd=13961|GE=or|Gloss=or|nWord=1|RX=[CONJ<]
 2	ki	ki	VERB	_	Number=Sing|Person=2|PronType=Prs	3	subj	_	AlignBegin=13961|AlignEnd=14129|GE=[2SG].[be]|Gloss=2SG.be|nWord=2|RX=[PRO].[V*]
 3	nə	nə	PART	_	VerbType=Cop	0	root	_	AlignBegin=14129|AlignEnd=14297|GE=[COP1]|Gloss=be|nWord=3|RX=[PTCL].[SYNT]
+3-4	sə́ŋwaːryâː	_	_	_	_	_	_	_	_
 4	sə́ŋwaːrí	sə́ŋwaːrí	NOUN	_	_	3	comp:pred	_	AlignBegin=14297|AlignEnd=14465|GE=chief_priest|Gloss=chief_priest|nWord=4|RX=[N]
 5	a:	a:	PART	_	PartType=Int	3	mod	_	AlignBegin=14465|AlignEnd=14633|GE=[VRT]|Gloss=VRT|nWord=5|RX=[PTCL].[ASS]
 6	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=14633|AlignEnd=14802|GE=$c|Gloss=PUNCT|nWord=6
 7	kóː	kóː	CCONJ	_	_	9	cc	_	AlignBegin=14802|AlignEnd=14928|GE=or|Gloss=or|nWord=7|RX=[CONJ<]
+8-9	kin	_	_	_	_	_	_	_	_
 8	ki	ki	VERB	_	Number=Sing|Person=2|PronType=Prs	9	subj	_	AlignBegin=14928|AlignEnd=15054|GE=[2SG].[be]|Gloss=2SG.be|nWord=8|RX=[PRO].[V*]
 9	nə	nə	PART	_	VerbType=Cop	3	conj:coord	_	AlignBegin=15054|AlignEnd=15180|GE=[COP1]|Gloss=be|nWord=9|RX=[PTCL].[SYNT]
 10	niː	niː	PRON	_	PronType=Int	9	comp:pred	_	AlignBegin=15180|AlignEnd=15306|GE=what|Gloss=what|nWord=10|RX=[PRO].[Q]
@@ -129,13 +131,13 @@
 4	fi	fi	VERB	_	_	3	comp:aux	_	AlignBegin=19746|AlignEnd=20109|GE=do|Gloss=do|nWord=4|RX=[V]
 5	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=20109|AlignEnd=20472|GE=[&//]|Gloss=PUNCT|nWord=5
 
-# sent_id = SAY_BC_INT_01_Religion_017-018
+# sent_id = SAY_BC_INT_01_Religion_017-019
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_Religion.WAV
-# sent_timecode = 20472, 23680
-# text = lóːkaʧês bàː màː kə́ːm mə̀ fì sə́ŋwaːrí hń //
-# text_ortho = lóːkaʧês bàː màː kə́ːm mə̀ fì sə́ŋwaːrí hń //
-# text_en = At that time, we could not... be religious chief. 
+# sent_timecode = 20472, 25200
+# text = lóːkaʧês bàː màː kə́ːm mə̀ fì sə́ŋwaːrí hń //+ séː deː mì nə məːri //
+# text_ortho = lóːkaʧês bàː màː kə́ːm mə̀ fì sə́ŋwaːrí hń //+ séː deː mì nə məːri //
+# text_en = At that time, we could not... be religious chief, except if [sic] we were young. 
 1	lóːkaʧês	lóːkaʧí	NOUN	_	_	3	mod	_	AlignBegin=20472|AlignEnd=20844|GE=time[DEF]|Gloss=time|MGloss=timeDEF|MSeg=lóːkaʧí-ês|nWord=1|RX=[N][ART]|wordform=lóːkaʧí
 2	báː	báː	PART	_	Polarity=Neg	3	mod	_	AlignBegin=20844|AlignEnd=21216|GE=[NEG1]|Gloss=NEG1|nWord=2|RX=[PTCL].[NEG]
 3	màː	à̀ː	AUX	_	Aspect=Perf|Number=Plur|Person=1	0	root	_	AlignBegin=21216|AlignEnd=21588|GE=[1PL].[CPL]|Gloss=1PL.CPL|nWord=3|RX=[PNTAM]
@@ -144,21 +146,13 @@
 6	fi	fi	VERB	_	_	5	comp:aux	_	AlignBegin=23065|AlignEnd=23270|GE=do|Gloss=do|nWord=6|RX=[V]
 7	sə́ŋwaːrí	sə́ŋwaːrí	NOUN	_	_	6	comp:obj	_	AlignBegin=23270|AlignEnd=23475|GE=chief_priest|Gloss=chief_priest|nWord=7|RX=[N]
 8	hń	hń	PART	_	Polarity=Neg	3	mod	_	AlignBegin=23475|AlignEnd=23680|GE=[NEG2]|Gloss=NEG2|nWord=8|RX=[PTCL].[NEG]
-9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=23680|AlignEnd=23680|GE=[//]|Gloss=PUNCT|nWord=14
-
-# sent_id = SAY_BC_INT_01_Religion_019-019
-# speaker_id = SP1
-# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_Religion.WAV
-# sent_timecode = 23680, 25200
-# text = séː deː mì nə məːri //
-# text_ortho = séː deː mì nə məːri //
-# text_en = Then we were young.
-1	séː	séː	SCONJ	_	_	4	mod	_	AlignBegin=24280|AlignEnd=24433|GE=except|Gloss=except|nWord=9|RX=[CONJ]
-2	déː	déː	ADV	_	_	1	mod	_	AlignBegin=24433|AlignEnd=24586|GE=anyway|Gloss=anyway|nWord=10|RX=[ADV]
-3	mì	mì	VERB	_	Number=Plur|Person=1|PronType=Prs	4	subj	_	AlignBegin=24586|AlignEnd=24739|GE=[1PL].[be]|Gloss=1PL.be|nWord=11|RX=[PRO].[V*]
-4	nə	nə	PART	_	VerbType=Cop	0	root	_	AlignBegin=24739|AlignEnd=24892|GE=[COP1]|Gloss=be|nWord=12|RX=[PTCL].[SYNT]
-5	məːri	məːri	NOUN	_	Number=Plur	4	comp:pred	_	AlignBegin=24892|AlignEnd=25045|GE=children|Gloss=children|nWord=13|RX=[N].[PL]
-6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=25045|AlignEnd=25200|GE=[//]|Gloss=PUNCT|nWord=14
+9	//+	//+	PUNCT	_	_	10	punct	_	AlignBegin=23680|AlignEnd=23680|GE=[//]|Gloss=PUNCT|nWord=14
+10	séː	séː	SCONJ	_	_	3	mod	_	AlignBegin=24280|AlignEnd=24433|GE=except|Gloss=except|nWord=9|RX=[CONJ]|Idiom=Yes
+11	déː	déː	ADV	_	_	10	unk	_	AlignBegin=24433|AlignEnd=24586|GE=anyway|Gloss=anyway|nWord=10|RX=[ADV]|InIdiom=Yes
+12	mì	mì	VERB	_	Number=Plur|Person=1|PronType=Prs	13	subj	_	AlignBegin=24586|AlignEnd=24739|GE=[1PL].[be]|Gloss=1PL.be|nWord=11|RX=[PRO].[V*]
+13	nə	nə	PART	_	VerbType=Cop	10	comp:obj	_	AlignBegin=24739|AlignEnd=24892|GE=[COP1]|Gloss=be|nWord=12|RX=[PTCL].[SYNT]
+14	məːri	məːri	NOUN	_	Number=Plur	13	comp:pred	_	AlignBegin=24892|AlignEnd=25045|GE=children|Gloss=children|nWord=13|RX=[N].[PL]
+15	//	//	PUNCT	_	_	3	punct	_	AlignBegin=25045|AlignEnd=25200|GE=[//]|Gloss=PUNCT|nWord=14
 
 # sent_id = SAY_BC_INT_01_Religion_020-020
 # speaker_id = SP1
@@ -223,13 +217,12 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_Religion.WAV
 # sent_timecode = 36080, 37292
-# text = dòːmín tàː ʧaː wâːrɣáy //
-# text_ortho = dòːmín tàː ʧaː wâːrɣáy //
+# text = dòːmín tàː ʧaː wâːr ɣáy //
+# text_ortho = dòːmín tàː ʧaː wâːr ɣáy //
 # text_en = Because they have put some fetish in it.
 1	dòːmín	dòːmín	SCONJ	_	_	2	mod	_	AlignBegin=36080|AlignEnd=36282|GE=because|Gloss=because|nWord=1|RX=[CONJ]
 2	tàː	à̀ː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=36282|AlignEnd=36484|GE=[3PL].[CPL]|Gloss=3PL.CPL|nWord=2|RX=[PNTAM]
 3	ʧaː	ʧaː	VERB	_	_	2	comp:aux	_	AlignBegin=36484|AlignEnd=36686|GE=put|Gloss=put|nWord=3|RX=[V]
-4-5	wâːrɣáy	_	_	_	_	_	_	_	_
 4	wâːr	wâːr	NOUN	_	_	3	comp:obj	_	AlignBegin=36686|AlignEnd=36888|GE=fetish|Gloss=fetish|nWord=4|RX=[N]
 5	ɣáy	káy	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=36888|AlignEnd=37090|GE=[ANAPH]|Gloss=ANAPH|nWord=5|RX=[PRO].[ANAPH]
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=37090|AlignEnd=37292|GE=[//]|Gloss=PUNCT|nWord=6
@@ -241,27 +234,27 @@
 # text = kóː nə yǎːr |c kóː nə páːtsə wón tə́ ŋgâː  <   tə́ || tə́ || tə́ dàp ká lə̂p volɲês //
 # text_ortho = kóː nə yǎːr |c kóː nə páːtsə wón tə́ ŋgâː  <   tə́ || tə́ || tə́ dàp ká lə̂p volɲês //
 # text_en = Whether it is straw, or some leaf they have taken,  they... they they tied them at the groundnut place.
-1	kóː	kóː	CCONJ	_	_	6	discourse	_	AlignBegin=37292|AlignEnd=37439|GE=or|Gloss=or|nWord=1|RX=[CONJ]
-2	nə	nə	PART	_	VerbType=Cop	6	discourse	_	AlignBegin=37439|AlignEnd=37586|GE=[COP1]|Gloss=be|nWord=2|RX=[PTCL].[SYNT]
-3	yǎːr	yǎːr	NOUN	_	_	6	comp:obj	_	AlignBegin=37586|AlignEnd=37733|GE=grass|Gloss=grass|nWord=3|RX=[N]
-4	|c	|c	PUNCT	_	_	2	punct	_	AlignBegin=37733|AlignEnd=37880|GE=$c|Gloss=PUNCT|nWord=4
-5	kóː	kóː	CCONJ	_	_	6	discourse	_	AlignBegin=38520|AlignEnd=38673|GE=or|Gloss=or|nWord=5|RX=[CONJ]
-6	nə	nə	PART	_	VerbType=Cop	0	root	_	AlignBegin=38673|AlignEnd=38826|GE=[COP1]|Gloss=be|nWord=6|RX=[PTCL].[SYNT]
-7	páːtsə	páːtsə	NOUN	_	_	6	comp:aux	_	AlignBegin=38826|AlignEnd=38979|GE=leaf|Gloss=leaf|nWord=7|RX=[N]
-8	wón	wón	DET	_	Definite=Spec	17	compound:prt	_	AlignBegin=38979|AlignEnd=39132|GE=[QLT]|Gloss=QLT|nWord=8|RX=[DET]
-9	tə́	tə́	AUX	_	Aspect=Aor|Number=Plur|Person=3	17	comp:obj	_	AlignBegin=39132|AlignEnd=39285|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=9|RX=[PNTAM]
-10	ŋgâː	Ŋgâː	VERB	_	_	18	comp:obj	_	AlignBegin=39285|AlignEnd=39438|GE=fetch|Gloss=fetch|nWord=10|RX=[V]
-11	<	<	PUNCT	_	_	2	punct	_	AlignBegin=39438|AlignEnd=39594|GE=[<]|Gloss=PUNCT|nWord=11
-12	tə́	tə́	AUX	_	Aspect=Aor|Number=Plur|Person=3	6	parataxis@mod	_	AlignBegin=39594|AlignEnd=39971|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=12|RX=[PNTAM]
-13	||	||	AUX	_	_	2	punct	_	AlignBegin=39971|AlignEnd=40348|GE=[$$]|nWord=13
-14	tə́	tə́	AUX	_	Aspect=Aor|Number=Plur|Person=3	6	parataxis@mod	_	AlignBegin=40348|AlignEnd=40504|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=14|RX=[PNTAM]
-15	||	||	AUX	_	_	2	punct	_	AlignBegin=40504|AlignEnd=40660|GE=[$$]|nWord=15
-16	tə́	tə́	AUX	_	Aspect=Aor|Number=Plur|Person=3	6	parataxis@mod	_	AlignBegin=40660|AlignEnd=40850|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=16|RX=[PNTAM]
-17	dàp	dàp	VERB	_	_	6	comp:aux	_	AlignBegin=40850|AlignEnd=41040|GE=tie|Gloss=tie|nWord=17|RX=[V]
-18	ká	ká	ADP	_	_	17	comp:obj	_	AlignBegin=41040|AlignEnd=41230|GE=at|Gloss=at|nWord=18|RX=[PREP]
+1	kóː	kóː	CCONJ	_	_	12	mod	_	AlignBegin=37292|AlignEnd=37439|GE=or|Gloss=or|nWord=1|RX=[CONJ]
+2	nə	nə	PART	_	VerbType=Cop	1	comp:obj	_	AlignBegin=37439|AlignEnd=37586|GE=[COP1]|Gloss=be|nWord=2|RX=[PTCL].[SYNT]
+3	yǎːr	yǎːr	NOUN	_	_	2	comp:pred	_	AlignBegin=37586|AlignEnd=37733|GE=grass|Gloss=grass|nWord=3|RX=[N]
+4	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=37733|AlignEnd=37880|GE=$c|Gloss=PUNCT|nWord=4
+5	kóː	kóː	CCONJ	_	_	6	cc	_	AlignBegin=38520|AlignEnd=38673|GE=or|Gloss=or|nWord=5|RX=[CONJ]
+6	nə	nə	PART	_	VerbType=Cop	1	conj:coord	_	AlignBegin=38673|AlignEnd=38826|GE=[COP1]|Gloss=be|nWord=6|RX=[PTCL].[SYNT]
+7	páːtsə	páːtsə	NOUN	_	_	6	comp:pred	_	AlignBegin=38826|AlignEnd=38979|GE=leaf|Gloss=leaf|nWord=7|RX=[N]
+8	wón	wón	DET	_	Definite=Spec	7	det	_	AlignBegin=38979|AlignEnd=39132|GE=[QLT]|Gloss=QLT|nWord=8|RX=[DET]
+9	tə́	tə́	AUX	_	Aspect=Aor|Number=Plur|Person=3	6	comp:cleft	_	AlignBegin=39132|AlignEnd=39285|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=9|RX=[PNTAM]
+10	ŋgâː	Ŋgâː	VERB	_	_	9	comp:aux	_	AlignBegin=39285|AlignEnd=39438|GE=fetch|Gloss=fetch|nWord=10|RX=[V]
+11	<	<	PUNCT	_	_	1	punct	_	AlignBegin=39438|AlignEnd=39594|GE=[<]|Gloss=PUNCT|nWord=11
+12	tə́	tə́	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=39594|AlignEnd=39971|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=12|RX=[PNTAM]
+13	||	||	PUNCT	_	_	14	punct	_	AlignBegin=39971|AlignEnd=40348|GE=[$$]|nWord=13|Gloss=PUNCT
+14	tə́	tə́	AUX	_	Aspect=Aor|Number=Plur|Person=3	12	conj:dicto	_	AlignBegin=40348|AlignEnd=40504|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=14|RX=[PNTAM]
+15	||	||	PUNCT	_	_	16	punct	_	AlignBegin=40504|AlignEnd=40660|GE=[$$]|nWord=15|Gloss=PUNCT
+16	tə́	tə́	AUX	_	Aspect=Aor|Number=Plur|Person=3	14	conj:dicto	_	AlignBegin=40660|AlignEnd=40850|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=16|RX=[PNTAM]
+17	dàp	dàp	VERB	_	_	16	comp:aux	_	AlignBegin=40850|AlignEnd=41040|GE=tie|Gloss=tie|nWord=17|RX=[V]
+18	ká	ká	ADP	_	_	17	comp:obl	_	AlignBegin=41040|AlignEnd=41230|GE=at|Gloss=at|nWord=18|RX=[PREP]
 19	lə̂p	lə̂p	NOUN	_	_	18	comp:obj	_	AlignBegin=41230|AlignEnd=41420|GE=place|Gloss=place|nWord=19|RX=[N]
-20	volɲês	Volɲês	NOUN	_	Definite=Def	17	comp:obj	_	AlignBegin=41420|AlignEnd=41610|GE=groundnut[DEF]|Gloss=groundnut|MGloss=groundnutDEF|MSeg=volaŋ-ês|nWord=20|RX=[N][ART]|wordform=volaŋ
-21	//	//	PUNCT	_	_	6	punct	_	AlignBegin=41610|AlignEnd=41800|GE=[//]|Gloss=PUNCT|nWord=21
+20	volɲês	Volɲês	NOUN	_	Definite=Def	19	mod	_	AlignBegin=41420|AlignEnd=41610|GE=groundnut[DEF]|Gloss=groundnut|MGloss=groundnutDEF|MSeg=volaŋ-ês|nWord=20|RX=[N][ART]|wordform=volaŋ
+21	//	//	PUNCT	_	_	12	punct	_	AlignBegin=41610|AlignEnd=41800|GE=[//]|Gloss=PUNCT|nWord=21
 
 # sent_id = SAY_BC_INT_01_Religion_029-029
 # speaker_id = SP1
