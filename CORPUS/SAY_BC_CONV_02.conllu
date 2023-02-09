@@ -1077,7 +1077,7 @@
 1	mì	mì	PRON	_	Number=Plur|Person=1|PronType=Prs	2	subj	_	AlignBegin=142293|AlignEnd=142400|Gloss=1PL
 2	nə	nə	PART	_	VerbType=Cop	0	root	_	AlignBegin=142400|AlignEnd=142507|Gloss=be
 3	mə́n	mə́n	NOUN	_	Number=Plur	2	comp:pred	_	AlignBegin=142507|AlignEnd=142721|Gloss=people
-4	dwaːndə	dwaːndə	NOUN	_	_	3	comp:obj	_	AlignBegin=142721|AlignEnd=142935|Gloss=poverty
+4	dwaːndə	dwaːndə	NOUN	_	_	3	compound	_	AlignBegin=142721|AlignEnd=142935|Gloss=poverty
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=142935|AlignEnd=143151|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_117-119
@@ -2056,7 +2056,7 @@
 # text_en =  Really, this man!
 1	á	á	INTJ	_	_	2	discourse	_	AlignBegin=274187|AlignEnd=274414|Gloss=eh
 2	múrín	múri	NOUN	_	Deixis=Prox	0	root	_	AlignBegin=274414|AlignEnd=274528|Gloss=man.PROX
-3	múrín	múri	NOUN	_	Deixis=Prox	2	comp:obj	_	AlignBegin=274641|AlignEnd=274755|Gloss=man.PROX
+3	múrín	múri	NOUN	_	Deixis=Prox	2	conj:redup	_	AlignBegin=274641|AlignEnd=274755|Gloss=man.PROX
 4	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=274868|AlignEnd=275094|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_224-224
@@ -2300,16 +2300,16 @@
 # sent_timecode = 311260, 313613
 # text = ngə́tn yóːɗan á nâːmí mə́n ɗangənín gəndí //
 # text_ortho = ngə́tn yóːɗan á nâːmímə́n ɗangənín gəndí //
-# text_en =  That's the thing that... happens to us nowadays.
+# text_en =  That's the thing that... happens to us, today's people.
 1	ngə́tn	ngə́tn	NOUN	_	_	8	subj	_	AlignBegin=311260|AlignEnd=311690|Gloss=thing
 2	yóːɗan	yóːɗan	PRON	_	PronType=Rel	1	mod@relcl	_	AlignBegin=311690|AlignEnd=312119|Gloss=which
 3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	2	comp:obj	_	AlignBegin=312119|AlignEnd=312418|Gloss=3SG.AOR
 4-5	nâːmí	_	_	_	_	_	_	_	_
 4	nâː	naː	VERB	_	VerbForm=Fin	3	comp:aux	_	AlignBegin=312418|AlignEnd=312568|Gloss=become
 5	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	comp:obj	_	AlignBegin=312568|AlignEnd=312717|Gloss=1PL.OBJ
-6	mə́n	mə́n	PART	_	Case=Ben	4	compound:prt	_	AlignBegin=312717|AlignEnd=313016|Gloss=BEN
-7	ɗangənín	ɗangəní	ADV	_	Deixis=Prox|PronType=Dem	4	mod	_	AlignBegin=313016|AlignEnd=313116|Gloss=now.PROX
-8	gəndí	kəndí	PART	_	VerbType=Cop	0	root	_	AlignBegin=313216|AlignEnd=313315|Gloss=be|wordform=gəndí
+6	mə́n	mə́n	PART	_	Case=Ben	5	conj:appos	_	AlignBegin=312717|AlignEnd=313016|Gloss=BEN
+7	ɗangənín	ɗangəní	ADV	_	Deixis=Prox|PronType=Dem	6	compound	_	AlignBegin=313016|AlignEnd=313116|Gloss=now.PROX
+8	gəndí	kəndí	PART	_	VerbType=Cop	0	root	_	AlignBegin=313216|AlignEnd=313315|Gloss=be
 9	//	//	PUNCT	_	_	8	punct	_	AlignBegin=313315|AlignEnd=313613|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_248-255
@@ -3176,13 +3176,13 @@
 # text = ngə́tn yóːɗan lǎːwopm gəndí //
 # text_ortho = ngə́tn yóːɗan lǎːwôpm gəndí //
 # text_en =  That's what our work is.
-1	ngə́tn	ngə́tn	NOUN	_	_	5	subj	_	AlignBegin=440739|AlignEnd=441145|Gloss=thing
-2	yóːɗan	yóːɗan	PRON	_	PronType=Rel	1	comp:obj	_	AlignBegin=441145|AlignEnd=441551|Gloss=which
+1	ngə́tn	ngə́tn	NOUN	_	_	0	root	_	AlignBegin=440739|AlignEnd=441145|Gloss=thing
+2	yóːɗan	yóːɗan	PRON	_	PronType=Rel	1	mod@relcl	_	AlignBegin=441145|AlignEnd=441551|Gloss=which
 3-4	lǎːwopm	_	_	_	_	_	_	_	_
-3	lǎː	laː	NOUN	_	Definite=Cons	2	comp:obj	_	AlignBegin=441551|AlignEnd=441733|Gloss=work.CONS
+3	lǎː	laː	NOUN	_	Definite=Cons	5	subj	_	AlignBegin=441551|AlignEnd=441733|Gloss=work.CONS
 4	=wopm	=wopm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	mod@poss	_	AlignBegin=441733|AlignEnd=441915|Gloss=1PL.POS
-5	gəndí	kəndí	PART	_	VerbType=Cop	0	root	_	AlignBegin=441915|AlignEnd=442098|Gloss=be|wordform=gəndí
-6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=442098|AlignEnd=442645|Gloss=PUNCT
+5	gəndí	kəndí	PART	_	VerbType=Cop	2	comp:obj	_	AlignBegin=441915|AlignEnd=442098|Gloss=be
+6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=442098|AlignEnd=442645|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_348-348
 # speaker_id = SP2
