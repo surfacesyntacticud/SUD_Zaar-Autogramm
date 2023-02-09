@@ -1616,9 +1616,9 @@
 # text_ortho = yàːʃí máː ɣáy < dóːléː tə̀ yàːl mari ʧík ɗan domin nə ngə́r yóːɗan ndwáːtsə ɬə̌ːrɣə ɣáy //
 # text_en =  As for them, they will certainly look different like this too because it is something that old age brings to you.
 1	yàːʃí	yàːʃí	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	dislocated@subj	_	AlignBegin=216911|AlignEnd=217179|Gloss=3PL.IDP
-2	máː	máː	PART	_	_	1	comp:obj	_	AlignBegin=217179|AlignEnd=217313|Gloss=even
-3	ɣáy	káy	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	1	discourse	_	AlignBegin=217313|AlignEnd=217447|Gloss=ANAPH|wordform=ɣáy
-4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=217447|AlignEnd=217716|Gloss=PUNCT
+2	máː	máː	PART	_	_	1	mod	_	AlignBegin=217179|AlignEnd=217313|Gloss=even
+3	ɣáy	káy	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	6	discourse	_	AlignBegin=217313|AlignEnd=217447|Gloss=ANAPH|wordform=ɣáy
+4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=217447|AlignEnd=217716|Gloss=PUNCT
 5	dóːlêː	dóːlêː	ADV	_	_	6	mod	_	AlignBegin=218187|AlignEnd=218396|Gloss=necessary
 6	tə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=3	0	root	_	AlignBegin=218396|AlignEnd=218605|Gloss=3PL.SUB
 7	yàːl	yel	VERB	_	Number=Plur|VerbForm=Fin	6	comp:aux	_	AlignBegin=218605|AlignEnd=218814|Gloss=watch-PL
@@ -2302,7 +2302,7 @@
 # text_ortho = ngə́tn yóːɗan á nâːmímə́n ɗangənín gəndí //
 # text_en =  That's the thing that... happens to us nowadays.
 1	ngə́tn	ngə́tn	NOUN	_	_	8	subj	_	AlignBegin=311260|AlignEnd=311690|Gloss=thing
-2	yóːɗan	yóːɗan	PRON	_	PronType=Rel	1	comp:obj	_	AlignBegin=311690|AlignEnd=312119|Gloss=which
+2	yóːɗan	yóːɗan	PRON	_	PronType=Rel	1	mod@relcl	_	AlignBegin=311690|AlignEnd=312119|Gloss=which
 3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	2	comp:obj	_	AlignBegin=312119|AlignEnd=312418|Gloss=3SG.AOR
 4-5	nâːmí	_	_	_	_	_	_	_	_
 4	nâː	naː	VERB	_	VerbForm=Fin	3	comp:aux	_	AlignBegin=312418|AlignEnd=312568|Gloss=become
@@ -3564,13 +3564,15 @@
 # sent_timecode = 490838, 492537
 # text = séː ílimi ɗa á mánín !//
 # text_ortho = séː ílimi ɗa á mánín !//
-# text_en =  If only knowledge should come!
-1	séː	séː	ADV	_	_	0	root	_	AlignBegin=490838|AlignEnd=491426|Gloss=only
-2	ílimi	ílimi	NOUN	_	_	1	comp:obj	_	AlignBegin=491426|AlignEnd=491648|Gloss=knowledge
+# text_en = And there is no education!
+1	séː	séː	ADV	_	_	2	discourse	_	AlignBegin=490838|AlignEnd=491426|Gloss=only
+2	ílimi	ílimi	NOUN	_	_	0	root:obj	_	AlignBegin=491426|AlignEnd=491648|Gloss=knowledge
 3	ɗa	ɗan	PART	_	_	2	mod@relcl	_	AlignBegin=491648|AlignEnd=491870|Gloss=be
 4	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	3	comp:obj	_	AlignBegin=491870|AlignEnd=492092|Gloss=3SG.AOR
-5	mánín	máni	VERB	_	Deixis=Prox|VerbForm=Fin	4	comp:aux	_	AlignBegin=492092|AlignEnd=492203|Gloss=come.PROX
-6	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=492314|AlignEnd=492537|Gloss=PUNCT
+5-6	mánín	_	_	_	_	_	_	_	_
+5	máni	máni	VERB	_	VerbForm=Fin	4	comp:aux	_	AlignBegin=492092|AlignEnd=492203|Gloss=come
+6	hŋ́	hŋ́	PART	_	_	_	_	_	_
+7	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=492314|AlignEnd=492537|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_391-392
 # speaker_id = SP2

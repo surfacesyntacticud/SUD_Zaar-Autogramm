@@ -750,7 +750,7 @@
 8	də̀n	də̀n	NOUN	_	_	7	mod	_	AlignBegin=118568|AlignEnd=118716|Gloss=house
 9	hár	hár	ADP	_	_	7	mod	_	AlignBegin=118716|AlignEnd=118904|Gloss=up_to
 10	dzàŋ	dzàŋ	NOUN	_	_	9	comp:obj	_	AlignBegin=118904|AlignEnd=119092|Gloss=day
-11	zúwa	zúwa	ADV	_	_	9	conj:dicto	_	AlignBegin=119092|AlignEnd=119280|Gloss=around
+11	zúwa	zúwa	ADP	_	_	9	conj:dicto	_	AlignBegin=119092|AlignEnd=119280|Gloss=around
 12	dzàŋ	dzàŋ	NOUN	_	_	11	comp:obj	_	AlignBegin=119280|AlignEnd=119468|Gloss=day
 13	Malâːr	Malâːr	PROPN	_	_	12	compound	_	AlignBegin=119468|AlignEnd=119656|Gloss=Malar
 14	//	//	PUNCT	_	_	6	punct	_	AlignBegin=119656|AlignEnd=119846|Gloss=PUNCT
@@ -1560,13 +1560,13 @@
 # sent_timecode = 221543, 222966
 # text = sábòːtu gáskyá gàri á fûpíː //
 # text_ortho = sábòːtu gáskyá gàrí á fûpíː //
-# text_en =  because really, the village is far.
-1	sábòːtu	sábòːtu	SCONJ	_	_	0	root	_	AlignBegin=221543|AlignEnd=222076|Gloss=because
-2	gáskyá	gáskyá	ADV	_	_	1	comp:obj	_	AlignBegin=222076|AlignEnd=222254|Gloss=truly
-3	gàri	gàri	NOUN	_	_	2	comp:obj	_	AlignBegin=222254|AlignEnd=222432|Gloss=town
-4	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	3	mod	_	AlignBegin=222432|AlignEnd=222610|Gloss=3SG.AOR
+# text_en =  Because, really, the village is far.
+1	sábòːtu	sábòːtu	SCONJ	_	_	4	discourse	_	AlignBegin=221543|AlignEnd=222076|Gloss=because
+2	gáskyá	gáskyá	ADV	_	_	4	discourse	_	AlignBegin=222076|AlignEnd=222254|Gloss=truly
+3	gàri	gàri	NOUN	_	_	4	subj	_	AlignBegin=222254|AlignEnd=222432|Gloss=town
+4	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=222432|AlignEnd=222610|Gloss=3SG.AOR
 5	fûpíː	fúpm	VERB	_	Aspect=Res|VerbForm=Fin	4	comp:obj	_	AlignBegin=222610|AlignEnd=222788|Gloss=be_far
-6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=222788|AlignEnd=222966|Gloss=PUNCT
+6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=222788|AlignEnd=222966|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_206-209
 # speaker_id = SP1
@@ -2839,7 +2839,7 @@
 # text = ɗan mə mbíː kaːyâs káwây < myǎː ríːɣə̂n < káy < átâ naː nʤwâːtn mə̀ ndǎːɗíyoː //
 # text_ortho = ɗan mə mbíː kaːyâs káwây < myǎː ríːkə̂n < káy < átâ naː nʤwâːtn mə̀ ndǎːɗíyoː //
 # text_en =  I had hardly taken the luggage, as we were moving, when suddenly, we almost fell.
-1	ɗan	ɗan	ADV	_	_	12	mod	_	AlignBegin=364616|AlignEnd=364772|Gloss=then
+1	ɗan	ɗan	SCONJ	_	_	12	mod	_	AlignBegin=364616|AlignEnd=364772|Gloss=then
 2	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	1	comp:obj	_	AlignBegin=364772|AlignEnd=364928|Gloss=1SG.AOR
 3	mbíː	mbiː	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=364928|AlignEnd=365084|Gloss=take
 4	kaːyâs	kaːya	NOUN	_	Definite=Def	3	comp:obj	_	AlignBegin=365084|AlignEnd=365240|Gloss=things
@@ -3728,7 +3728,7 @@
 # text_ortho = myáːnaː ʧi ká kîtn kə̀ || kîtn || á kîtn kə̀ gyaːːː ə̀ːːː Mànʧásta ɗáníː |a á lə̂p kafáwâːsə̀nə́y //
 # text_en =  I  had reached the field of field the field of... er... Manchester,  where they plant their  rice.
 1	myáːnaː	ʧáːnaː	AUX	_	Aspect=Conc|Number=Sing|Person=1	0	root	_	AlignBegin=443102|AlignEnd=443249|Gloss=1SG.CONC
-2	ʧi	ʧi	VERB	_	VerbForm=Fin	1	comp:obj	_	AlignBegin=443249|AlignEnd=443396|Gloss=eat
+2	ʧi	ʧi	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=443249|AlignEnd=443396|Gloss=eat
 3	ká	ká	ADP	_	_	2	comp:obl	_	AlignBegin=443396|AlignEnd=443543|Gloss=at|wordform=ɣá
 4	kítn	kîtn	NOUN	_	_	3	comp:obj	_	AlignBegin=443543|AlignEnd=443690|Gloss=field
 5	gə̀	kə́	ADP	_	_	4	mod@poss	_	AlignBegin=443690|AlignEnd=443837|Gloss=of
