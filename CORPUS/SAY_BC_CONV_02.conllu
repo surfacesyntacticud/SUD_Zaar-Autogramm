@@ -145,8 +145,8 @@
 12	ʧáː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=21736|AlignEnd=21941|Gloss=3SG.IMP
 13	fin	fin	VERB	_	VerbForm=Fin	12	comp:aux	_	AlignBegin=21941|AlignEnd=22043|Gloss=do
 14	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	13	mod@top	_	AlignBegin=22146|AlignEnd=22351|Gloss=3SG.POS
-15	koyarwa	koyarwa	VERB	_	Foreign=Yes|VerbForm=Vnoun	13	comp:obj	_	AlignBegin=22620|AlignEnd=22889|ExtPos=NOUN|Gloss=teach.[NMLZ]|Lang=hau
-16	makaranta	makaranta	NOUN	_	_	15	udep	_	AlignBegin=22889|AlignEnd=23158|Gloss=school
+15	koyarwa	koyarwa	X	_	Foreign=Yes|VerbForm=Vnoun	13	comp:obj	_	AlignBegin=22620|AlignEnd=22889|ExtPos=NOUN|Gloss=teach.[NMLZ]|Lang=hau
+16	makaranta	makaranta	X	_	Foreign=Yes	15	flat:foreign	_	AlignBegin=22889|AlignEnd=23158|Gloss=school|Lang=hau
 17	//	//	PUNCT	_	_	12	punct	_	AlignBegin=23158|AlignEnd=23427|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_020-020
@@ -526,7 +526,7 @@
 25	nə	nə	PART	_	VerbType=Cop	0	root	_	AlignBegin=78054|AlignEnd=78322|Gloss=be
 26	ngə̌tn	ngə́tn	NOUN	_	Definite=Cons	25	comp:pred	_	AlignBegin=78322|AlignEnd=78590|Gloss=thing
 27	gaːm	gaːm	NOUN	_	_	28	udep	_	AlignBegin=78590|AlignEnd=78858|Gloss=head
-28	lápkə́nì	láp	VERB	_	VerbForm=Vnoun	26	mod	_	AlignBegin=78858|AlignEnd=78992|ExtPos=NOUN|Gloss=leave.NMLZ
+28	lápkə́nì	láp	VERB	_	VerbForm=Vnoun	26	compound	_	AlignBegin=78858|AlignEnd=78992|ExtPos=NOUN|Gloss=leave.NMLZ
 29	mə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=1	25	dislocated@subj	_	AlignBegin=79126|AlignEnd=79394|Gloss=1SG.SUB
 30-31	gàːʃì	_	_	_	_	_	_	_	_
 30	gàː	gaː	VERB	_	VerbForm=Fin	29	comp:aux	_	AlignBegin=79394|AlignEnd=79528|Gloss=leave
@@ -1208,9 +1208,9 @@
 8	ʧǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=164253|AlignEnd=164417|Gloss=3PL.IMP
 9-10	súːtə	_	_	_	_	_	_	_	_
 9	súː	súː	VERB	_	VerbForm=Fin	8	comp:aux	_	AlignBegin=164417|AlignEnd=164499|Gloss=want
-10	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	comp:obj@x	_	AlignBegin=164499|AlignEnd=164581|Gloss=3SG.OBJ
+10	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	udep	_	AlignBegin=164499|AlignEnd=164581|Gloss=3SG.OBJ
 11-12	yélɣə́nìyòː	_	_	_	_	_	_	_	_
-11	yélɣə́nì	yel	VERB	_	VerbForm=Vnoun	9	udep	_	AlignBegin=164745|AlignEnd=164827|ExtPos=NOUN|Gloss=see.NMLZ
+11	yélɣə́nì	yel	VERB	_	VerbForm=Vnoun	9	comp:obj	_	AlignBegin=164745|AlignEnd=164827|ExtPos=NOUN|Gloss=see.NMLZ
 12	òː	oː	PART	_	PartType=Emp	8	mod	_	AlignBegin=164909|AlignEnd=165073|Gloss=EMPH
 13	//	//	PUNCT	_	_	8	punct	_	AlignBegin=165237|AlignEnd=165405|Gloss=PUNCT
 
@@ -1224,8 +1224,8 @@
 1	myǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	0	root	_	AlignBegin=164971|AlignEnd=165324|Gloss=1PL.IMP
 2-3	súːtə	_	_	_	_	_	_	_	_
 2	súː	súː	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=165324|AlignEnd=165500|Gloss=want
-3	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj@x	_	AlignBegin=165500|AlignEnd=165677|Gloss=3SG.OBJ
-4	yélɣə́nì	yel	VERB	_	VerbForm=Vnoun	2	udep	_	AlignBegin=165677|AlignEnd=165854|ExtPos=NOUN|Gloss=see.NMLZ
+3	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	udep	_	AlignBegin=165500|AlignEnd=165677|Gloss=3SG.OBJ
+4	yélɣə́nì	yel	VERB	_	VerbForm=Vnoun	2	comp:obj	_	AlignBegin=165677|AlignEnd=165854|ExtPos=NOUN|Gloss=see.NMLZ
 5	sòːséy	sòːséy	ADV	_	_	2	mod	_	AlignBegin=166031|AlignEnd=166283|Gloss=quite
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=166283|AlignEnd=166536|Gloss=PUNCT
 
@@ -1374,8 +1374,8 @@
 2	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=187450|AlignEnd=187648|Gloss=1PL.AOR
 3-4	dìngátə	_	_	_	_	_	_	_	_
 3	dìngá	dingá	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=187648|AlignEnd=187747|Gloss=keep_on|SVC=Yes
-4	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj@x	_	AlignBegin=187747|AlignEnd=187846|Gloss=3SG.OBJ
-5	yélɣə̂n	yel	VERB	_	VerbForm=Vnoun	3	udep	_	AlignBegin=187846|AlignEnd=187945|ExtPos=NOUN|Gloss=see.NMLZ
+4	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	udep	_	AlignBegin=187747|AlignEnd=187846|Gloss=3SG.OBJ
+5	yélɣə̂n	yel	VERB	_	VerbForm=Vnoun	3	comp:obj	_	AlignBegin=187846|AlignEnd=187945|ExtPos=NOUN|Gloss=see.NMLZ
 6	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	2	conj:coord	_	AlignBegin=188044|AlignEnd=188242|Gloss=1PL.AOR
 7	wû	wul	VERB	_	VerbForm=Fin	6	comp:aux	_	AlignBegin=188242|AlignEnd=188440|Gloss=say
 8	tu	tu	SCONJ	_	Mood=Qot	7	comp:obj	_	AlignBegin=188440|AlignEnd=188638|Gloss=OPN
@@ -1416,11 +1416,11 @@
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=193046|AlignEnd=193381|Gloss=PUNCT
 3	m̀ː	m̀ː	INTJ	_	_	4	discourse	_	AlignBegin=193381|AlignEnd=193600|Gloss=er
 4	myǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	0	root	_	AlignBegin=193600|AlignEnd=193819|Gloss=1PL.IMP
-5	nâː	naː	VERB	_	VerbForm=Fin	4	comp:aux	_	AlignBegin=193819|AlignEnd=194038|Gloss=remain|SVC=Yes
+5	nâː	naː	VERB	_	VerbForm=Fin	4	comp:aux	_	AlignBegin=193819|AlignEnd=194038|Gloss=remain
 6-7	ɓastə	_	_	_	_	_	_	_	_
 6	ɓas	ɓas	ADP	_	_	8	comp:obl	_	AlignBegin=194038|AlignEnd=194148|Gloss=of
 7	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=194148|AlignEnd=194257|Gloss=3SG.OBJ
-8	yélɣə́nì	yel	VERB	_	VerbForm=Vnoun	5	comp:obj	_	AlignBegin=194257|AlignEnd=194367|ExtPos=NOUN|Gloss=see.NMLZ
+8	yélɣə́nì	yel	VERB	_	VerbForm=Vnoun	5	comp:pred	_	AlignBegin=194257|AlignEnd=194367|ExtPos=NOUN|Gloss=see.NMLZ
 9	hn̂	hn̂	INTJ	_	_	4	discourse	_	AlignBegin=194695|AlignEnd=194914|Gloss=indeed
 10	!//	!//	PUNCT	_	_	4	punct	_	AlignBegin=194914|AlignEnd=195130|Gloss=PUNCT
 
