@@ -310,7 +310,7 @@
 5	ŋgaɓíː	ŋgap	VERB	_	Aspect=Res	4	comp:aux	_	AlignBegin=48200|AlignEnd=48560|GE=catch[RES]|Gloss=catch|MGloss=catchRES|MSeg=ngap-íː|nWord=5|RX=[V][TAM]|wordform=ngap
 6	kâːy	kâːy	INTJ	_	_	4	discourse	_	AlignBegin=48560|AlignEnd=48920|GE=eh|Gloss=eh|nWord=6|RX=[EXCL]
 7	dùmín	dòːmin	SCONJ	_	_	4	mod	_	AlignBegin=48920|AlignEnd=49280|GE=because|Gloss=because|nWord=7|RX=[CONJ]
-8	yáː	yáː	AUX	_	Mood=Cond|Number=Sing|Person=1	11	mod	_	AlignBegin=50043|AlignEnd=50215|GE=[3PL].[COND]|Gloss=1SG.COND|nWord=8|RX=[PNTAM]
+8	yáː	yáː	AUX	_	Mood=Cond|Number=Sing|Person=1	11	parataxis@mod	_	AlignBegin=50043|AlignEnd=50215|GE=[3PL].[COND]|Gloss=1SG.COND|nWord=8|RX=[PNTAM]
 9-10	ŋgâpkə́y	_	_	_	_	_	_	_	_
 9	#ngap-íː	ngap	VERB	_	Aspect=Res	8	comp:aux	_	AlignBegin=50215|AlignEnd=50559|GE=catch[RES]|Gloss=catch.RES|MGloss=catchRES|MSeg=ngap-íː|nWord=9|RX=[V][TAM]|wordform=ngap
 10	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	9	comp:obj	_	AlignBegin=54178|AlignEnd=54344|GE=[2SG].[OBJ]|Gloss=2SG.OBJ|Incorporated=Yes|nWord=6|RX=[PRO]
@@ -335,18 +335,18 @@
 # text_ortho = tôː kyáː mbútni < bàː ɣa mán kə́ːm ʃiʃí ɗǎŋ //
 # text_en = Well, if you went to bed, you wouldn't be able to get up again.
 1	tôː	tôː	PART	_	_	7	discourse	_	AlignBegin=53119|AlignEnd=53314|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
-2	kyáː	yaáː	AUX	_	Mood=Cond|Number=Sing|Person=2	7	parataxis@mod	_	AlignBegin=53314|AlignEnd=53509|GE=[2SG].[COND]|Gloss=2SG.COND|nWord=2|RX=[PNTAM]
+2	kyáː	yáː	AUX	_	Mood=Cond|Number=Sing|Person=2	7	parataxis@mod	_	AlignBegin=53314|AlignEnd=53509|GE=[2SG].[COND]|Gloss=2SG.COND|nWord=2|RX=[PNTAM]
 3-4	mbútni	_	_	_	_	_	_	_	_
 3	mbút	mbút	VERB	_	_	2	comp:aux	_	AlignBegin=53509|AlignEnd=53607|GE=lie_down|Gloss=lie_down|nWord=3|RX=[V]
-4	ni	ni	PART	_	Aspect=Inch	9	mod	_	AlignBegin=53607|AlignEnd=53704|GE=[INCH]|Gloss=INCH|nWord=3|RX=[PTCL].[EXT]|wordform=-ni
-5	<	<	PUNCT	_	_	7	punct	_	AlignBegin=53704|AlignEnd=53900|GE=[<]|Gloss=PUNCT|nWord=4
+4	ni	ni	PART	_	Aspect=Inch	3	compound:prt	_	AlignBegin=53607|AlignEnd=53704|GE=[INCH]|Gloss=INCH|nWord=3|RX=[PTCL].[EXT]|wordform=-ni
+5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=53704|AlignEnd=53900|GE=[<]|Gloss=PUNCT|nWord=4
 6	báː	báː	PART	_	Polarity=Neg	7	mod	_	AlignBegin=54512|AlignEnd=54656|GE=[NEG1]|Gloss=NEG1|nWord=5|RX=[PTCL].[NEG]
-7	ɣa	ka	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=54656|AlignEnd=54800|GE=[2SG].[FUT]|Gloss=2SG.FUT|nWord=6|RX=[PNTAM]
-8	mán	maan	VERB	_	_	2	comp:aux	_	AlignBegin=54800|AlignEnd=54944|GE=come|Gloss=come|nWord=7|RX=[V]|SVC=Yes
-9	kə́ːm	kə́ːm	VERB	_	_	8	comp:obj	_	AlignBegin=54944|AlignEnd=55088|GE=be_able|Gloss=be_able|nWord=8|RX=[V]
+7	ɣa	wò	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=54656|AlignEnd=54800|GE=[2SG].[FUT]|Gloss=2SG.FUT|nWord=6|RX=[PNTAM]
+8	mán	maan	VERB	_	_	7	comp:aux	_	AlignBegin=54800|AlignEnd=54944|GE=come|Gloss=come|nWord=7|RX=[V]|SVC=Yes
+9	kə́ːm	kə́ːm	VERB	_	_	8	compound:svc	_	AlignBegin=54944|AlignEnd=55088|GE=be_able|Gloss=be_able|nWord=8|RX=[V]
 10	ʃiʃí	ʃiʃí	VERB	_	_	9	comp:obj	_	AlignBegin=55088|AlignEnd=55232|GE=get_up|Gloss=get_up|nWord=9|RX=[V]
 11-12	ɗǎŋ	_	_	_	_	_	_	_	_
-11	ɗa	ɗa	PART	_	_	9	mod	_	AlignBegin=55232|AlignEnd=55376|GE=again|Gloss=again|nWord=10|RX=[ADV]
+11	ɗa	ɗa	PART	_	_	10	mod	_	AlignBegin=55232|AlignEnd=55376|GE=again|Gloss=again|nWord=10|RX=[ADV]
 12	hŋ́	hŋ́	PART	_	Polarity=Neg	7	mod	_	AlignBegin=55376|AlignEnd=55520|GE=[NEG2]|Gloss=NEG2|nWord=11|RX=[PTCL].[NEG]
 13	//	//	PUNCT	_	_	7	punct	_	AlignBegin=55520|AlignEnd=55660|GE=[//]|Gloss=PUNCT|nWord=12
 
@@ -358,33 +358,33 @@
 # text_ortho = ɗan murgi yáː ŋgápkə̀ kàmán á lə̌pm lim |c kóː lə̌pm watsə́may < tôː séː ʧǎː ndâ wâː ɗan tə́ ndâ wût ʧáːɣə̂n á yǎːr  XX &//
 # text_en = When the 'murgi' caught you, like... in June, or July, well then... they would take guinea-corn when... they started setting fire to the grass.
 1	ɗan	ɗan	SCONJ	_	_	17	mod	_	AlignBegin=56080|AlignEnd=56440|GE=when|Gloss=when|nWord=1|RX=[CONJ]
-2	murgi	Murgi	NOUN	_	_	12	comp:obj	_	AlignBegin=56440|AlignEnd=56800|GE=fetish_sp|Gloss=fetish_sp|nWord=2|RX=[N]
+2	murgi	Murgi	NOUN	_	_	3	subj	_	AlignBegin=56440|AlignEnd=56800|GE=fetish_sp|Gloss=fetish_sp|nWord=2|RX=[N]
 3	yáː	yáː	AUX	_	Mood=Cond|Number=Sing|Person=3	17	parataxis@mod	_	AlignBegin=56800|AlignEnd=57160|GE=[3SG].[COND]|Gloss=3SG.COND|nWord=3|RX=[PNTAM]
 4-5	ŋgápkə̀	_	_	_	_	_	_	_	_
-4	ngâp	ngâp	VERB	_	_	17	comp:aux	_	AlignBegin=57160|AlignEnd=57340|GE=catch|Gloss=catch|nWord=4|RX=[V]
+4	ngâp	ngap	VERB	_	_	3	comp:aux	_	AlignBegin=57160|AlignEnd=57340|GE=catch|Gloss=catch|nWord=4|RX=[V]
 5	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	4	comp:obj	_	AlignBegin=57340|AlignEnd=57520|GE=[2SG].[OBJ]|Gloss=2SG.OBJ|nWord=4|RX=[PRO]
-6	kàmán	kàmán	ADP	_	_	4	comp:obj	_	AlignBegin=57520|AlignEnd=57880|GE=like|Gloss=like|nWord=5|RX=[PREP]
-7	á	á	ADP	_	_	4	comp:obj	_	AlignBegin=58860|AlignEnd=59010|GE=at|Gloss=at|nWord=6|RX=[PREP]
-8	lə̌pm	lə̌pm	NOUN	_	_	17	comp:aux	_	AlignBegin=59010|AlignEnd=59160|GE=moon|Gloss=moon|nWord=7|RX=[N]
-9	lim	lim	NUM	_	_	4	comp:obj	_	AlignBegin=59160|AlignEnd=59310|GE=six|Gloss=six|nWord=8|RX=[NUM]
-10	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=59310|AlignEnd=59460|GE=$c|Gloss=PUNCT|nWord=9
-11	kóː	kóː	CCONJ	_	_	17	discourse	_	AlignBegin=60340|AlignEnd=60530|GE=or|Gloss=or|nWord=10|RX=[CONJ]
-12	lə̌pm	lə̌pm	NOUN	_	_	4	comp:obj	_	AlignBegin=60530|AlignEnd=60720|GE=month|Gloss=month|nWord=11|RX=[N]
-13	watsə́may	Watsə́may	NUM	_	_	4	comp:obj	_	AlignBegin=60720|AlignEnd=60910|GE=eight|Gloss=eight|nWord=12|RX=[NUM]
+6	kàmán	kàmán	ADP	_	_	4	mod	_	AlignBegin=57520|AlignEnd=57880|GE=like|Gloss=like|nWord=5|RX=[PREP]
+7	á	ká	ADP	_	_	6	comp:obj	_	AlignBegin=58860|AlignEnd=59010|GE=at|Gloss=at|nWord=6|RX=[PREP]
+8	lə̌pm	lə̌pm	NOUN	_	_	7	comp:aux	_	AlignBegin=59010|AlignEnd=59160|GE=moon|Gloss=moon|nWord=7|RX=[N]
+9	lim	lim	NUM	_	_	8	det	_	AlignBegin=59160|AlignEnd=59310|GE=six|Gloss=six|nWord=8|RX=[NUM]
+10	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=59310|AlignEnd=59460|GE=$c|Gloss=PUNCT|nWord=9
+11	kóː	kóː	CCONJ	_	_	12	cc	_	AlignBegin=60340|AlignEnd=60530|GE=or|Gloss=or|nWord=10|RX=[CONJ]
+12	lə̌pm	lə̌pm	NOUN	_	_	8	conj:coord	_	AlignBegin=60530|AlignEnd=60720|GE=month|Gloss=month|nWord=11|RX=[N]
+13	watsə́may	Watsə́may	NUM	_	_	12	det	_	AlignBegin=60720|AlignEnd=60910|GE=eight|Gloss=eight|nWord=12|RX=[NUM]
 14	<	<	PUNCT	_	_	1	punct	_	AlignBegin=60910|AlignEnd=61100|GE=[<]|Gloss=PUNCT|nWord=13
 15	tôː	tôː	PART	_	_	17	discourse	_	AlignBegin=61800|AlignEnd=62250|GE=[DM]|Gloss=DM|nWord=14|RX=[PTCL]
 16	séː	séː	ADV	_	_	17	mod	_	AlignBegin=62250|AlignEnd=62700|GE=then|Gloss=then|nWord=15|RX=[CONJ]
 17	ʧǎː	ʧǎː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=63160|AlignEnd=63532|GE=[3PL].[ICPL]|Gloss=3PL.ICPL|nWord=16|RX=[PNTAM]
 18	nda	nda	VERB	_	_	17	comp:aux	_	AlignBegin=63532|AlignEnd=63904|GE=take|Gloss=take|nWord=17|RX=[V].[V]
-19	wâː	wâː	NOUN	_	_	4	comp:obj	_	AlignBegin=63904|AlignEnd=64276|GE=guineacorn|Gloss=guineacorn|nWord=18|RX=[N]
-20	ɗan	ɗan	ADV	_	_	4	mod	_	AlignBegin=64276|AlignEnd=64648|GE=then|Gloss=then|nWord=19|RX=[CONJ]
-21	tə́	tə́	AUX	_	Aspect=Aor|Number=Plur|Person=3	20	comp:obj	_	AlignBegin=64648|AlignEnd=65020|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=20|RX=[PNTAM]
-22	nda	nda	VERB	_	_	17	comp:aux	_	AlignBegin=65020|AlignEnd=65392|GE=start|Gloss=start|nWord=21|RX=[V].[V]
-23	wût	wût	FIRE	_	_	4	comp:obj	_	AlignBegin=65392|AlignEnd=65764|GE=[N]|Gloss=N|nWord=22|RX=[FIRE]
-24	ʧáːɣə̂n	ʧáːɣə̂n	VERB	_	VerbForm=Vnoun	4	comp:obj	_	AlignBegin=65764|AlignEnd=66136|GE=put[NMLZ]|Gloss=put|MGloss=putNMLZ|MSeg=ʧaː-kə́nì|nWord=23|RX=[V][DER]|wordform=ʧaː
-25	á	ká	ADP	_	_	4	mod	_	AlignBegin=66136|AlignEnd=66508|GE=at|Gloss=at|nWord=24|RX=[PREP]
-26	yǎːr	yǎːr	NOUN	_	_	12	comp:obj	_	AlignBegin=66508|AlignEnd=66880|GE=grass|Gloss=grass|nWord=25|RX=[N]
-27	XX	kx	X	_	_	17	discourse	_	AlignBegin=66880|AlignEnd=67252|GE=[XX]|Gloss=XX|nWord=26|RX=[XX]
+19	wâː	wâː	NOUN	_	_	18	comp:obj	_	AlignBegin=63904|AlignEnd=64276|GE=guineacorn|Gloss=guineacorn|nWord=18|RX=[N]
+20	ɗan	ɗan	ADV	_	_	21	mod	_	AlignBegin=64276|AlignEnd=64648|GE=then|Gloss=then|nWord=19|RX=[CONJ]
+21	tə́	tə́	AUX	_	Aspect=Aor|Number=Plur|Person=3	17	parataxis@conj	_	AlignBegin=64648|AlignEnd=65020|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=20|RX=[PNTAM]
+22	nda	nda	VERB	_	_	21	comp:aux	_	AlignBegin=65020|AlignEnd=65392|GE=start|Gloss=start|nWord=21|RX=[V].[V]
+23	wût	wût	FIRE	_	_	24	comp:obj	_	AlignBegin=65392|AlignEnd=65764|GE=[N]|Gloss=N|nWord=22|RX=[FIRE]
+24	ʧáːɣə̂n	ʧáːɣə̂n	VERB	_	VerbForm=Vnoun	22	comp:obj	_	AlignBegin=65764|AlignEnd=66136|GE=put[NMLZ]|Gloss=put|MGloss=putNMLZ|MSeg=ʧaː-kə́nì|nWord=23|RX=[V][DER]|wordform=ʧaː
+25	á	ká	ADP	_	_	24	comp:obl	_	AlignBegin=66136|AlignEnd=66508|GE=at|Gloss=at|nWord=24|RX=[PREP]
+26	yǎːr	yǎːr	NOUN	_	_	25	comp:obj	_	AlignBegin=66508|AlignEnd=66880|GE=grass|Gloss=grass|nWord=25|RX=[N]
+27	XX	kx	X	_	_	17	unk@scrap	_	AlignBegin=66880|AlignEnd=67252|GE=[XX]|Gloss=XX|nWord=26|RX=[XX]
 28	//	//	PUNCT	_	_	17	punct	_	AlignBegin=67252|AlignEnd=67620|GE=[//]|Gloss=PUNCT|nWord=27
 
 # sent_id = SAY_BC_INT_01_Religion_041-042
