@@ -679,39 +679,40 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_Religion.WAV
 # sent_timecode = 115656, 118780
-# text = àmáː dzàŋ gíː ʧǎː ɬə wul vìː kə́ wâːr -ês -íː < tòː wûs -i tə́ pok -íː //
-# text_ortho = àmáː dzàŋ gíː ʧàː ɬə́ wûl vìk wàːrèʃíː < tôː wúʃi tə́ pôkə́y //
+# text = àmáː dzàŋ gíː ʧàː ɬə́ wûl vìk wàːrèʃíː < tôː wúʃi tə́ pôɣə́y //
+# text_ortho = àmáː dzàŋ gíː ʧàː ɬə́ wûl vìk wàːrèʃíː < tôː wúʃi tə́ pôɣə́y //
 # text_en = But the day that they went and did the ritual, well the ulcers would be finished.
-1	àmáː	àmáː	CCONJ	_	_	4	discourse	_	AlignBegin=115656|AlignEnd=115857|GE=but|Gloss=but|nWord=1|RX=[CONJ]
+1	àmáː	àmáː	CCONJ	_	_	13	discourse	_	AlignBegin=115656|AlignEnd=115857|GE=but|Gloss=but|nWord=1|RX=[CONJ]
 2	dzàŋ	dzàŋ	NOUN	_	_	4	mod	_	AlignBegin=115857|AlignEnd=116058|GE=day|Gloss=day|nWord=2|RX=[N]
-3	gíː	gíː	PRON	_	PronType=Dem	12	comp:obj	_	AlignBegin=116058|AlignEnd=116259|GE=[DIST]|Gloss=DIST|nWord=3|RX=[PRO].[DEICT]
-4	ʧǎː	ʧǎː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=116259|AlignEnd=116460|GE=[3PL].[ICPL]|Gloss=3PL.ICPL|nWord=4|RX=[PNTAM]
-5	ɬə	ɬ	VERB	_	_	4	comp:aux	_	AlignBegin=116620|AlignEnd=116816|GE=go|Gloss=go|nWord=5|RX=[V]
-6	wul	wul	VERB	_	_	12	compound:svc	_	AlignBegin=116816|AlignEnd=117012|GE=say|Gloss=say|nWord=6|RX=[V]
+3	gíː	gíː	PRON	_	PronType=Dem	2	mod	_	AlignBegin=116058|AlignEnd=116259|GE=[DIST]|Gloss=DIST|nWord=3|RX=[PRO].[DEICT]
+4	ʧǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	13	parataxis@mod	_	AlignBegin=116259|AlignEnd=116460|GE=[3PL].[ICPL]|Gloss=3PL.ICPL|nWord=4|RX=[PNTAM]
+5	ɬə	ɬə	VERB	_	_	4	comp:aux	_	AlignBegin=116620|AlignEnd=116816|GE=go|Gloss=go|nWord=5|RX=[V]|SVC=Yes
+6-9	wûl vìk wàːrèʃíː	_	_	_	_	_	_	_	_
+6	#wûl-íː	wul	VERB	_	Aspect=Res	5	compound:svc	_	AlignBegin=116816|AlignEnd=117012|GE=say|Gloss=say-RES|nWord=6|RX=[V]
 7	vìː	vìː	NOUN	_	_	6	comp:obj	_	AlignBegin=117012|AlignEnd=117110|GE=speech|Gloss=speech|nWord=7|RX=[N]
-8	kə́	á	ADP	_	_	12	comp:obj	_	AlignBegin=117110|AlignEnd=117208|GE=[POSL]|Gloss=of|nWord=7|RX=[PTCL]
-9	wâːr-ês-íː	wâːr-ês-íː	NOUN	_	PronType=Dem	4	comp:aux	_	AlignBegin=117208|AlignEnd=117404|GE=fetish[DEF][DIST]|Gloss=fetish|MGloss=fetishDEFDIST|MSeg=wâːr-ês-íː|nWord=8|RX=[N][ART][DEICT]|wordform=wâːr
-10	<	<	PUNCT	_	_	2	punct	_	AlignBegin=117404|AlignEnd=117600|GE=[<]|Gloss=PUNCT|nWord=9
-11	tôː	tôː	PART	_	_	4	discourse	_	AlignBegin=117980|AlignEnd=118140|GE=[DM]|Gloss=DM|nWord=10|RX=[PTCL]
-12	wûs-i	wûs-i	NOUN	_	_	4	comp:aux	_	AlignBegin=118140|AlignEnd=118300|GE=boil[INDF]|Gloss=boil|MGloss=boilINDF|MSeg=wûs-i|nWord=11|RX=[N][ART]|wordform=wûs
-13	tə́	tə́	AUX	_	Aspect=Aor|Number=Plur|Person=3	6	comp:obj	_	AlignBegin=118300|AlignEnd=118460|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=12|RX=[PNTAM]
-14	pok-íː	pok-íː	VERB	_	Aspect=Res	12	comp:obj	_	AlignBegin=118460|AlignEnd=118620|GE=finish[RES]|Gloss=finish|MGloss=finishRES|MSeg=pok-íː|nWord=13|RX=[V][TAM]|wordform=pok
-15	//	//	PUNCT	_	_	4	punct	_	AlignBegin=118620|AlignEnd=118780|GE=[//]|Gloss=PUNCT|nWord=14
+8	kə́	kə́́	ADP	_	_	7	mod	_	AlignBegin=117110|AlignEnd=117208|GE=[POSL]|Gloss=of|nWord=7|RX=[PTCL]
+9	wàːrès	wâːr	NOUN	_	Definite=Def	8	comp:obj	_	AlignBegin=117208|AlignEnd=117404|Gloss=fetish-DEF
+10	<	<	PUNCT	_	_	4	punct	_	AlignBegin=117404|AlignEnd=117600|GE=[<]|Gloss=PUNCT|nWord=9
+11	tôː	tôː	PART	_	_	13	discourse	_	AlignBegin=117980|AlignEnd=118140|GE=[DM]|Gloss=DM|nWord=10|RX=[PTCL]
+12	wúʃi	wûs	NOUN	_	Definite=Indef	13	subj	_	AlignBegin=118140|AlignEnd=118300|GE=boil[INDF]|Gloss=boil-INDF|MGloss=boilINDF|MSeg=wûs-i|nWord=11|RX=[N][ART]|wordform=wûs
+13	tə́	tə́	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=118300|AlignEnd=118460|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=12|RX=[PNTAM]
+14	pôɣə́y	pok	VERB	_	Aspect=Res	13	comp:aux	_	AlignBegin=118460|AlignEnd=118620|GE=finish[RES]|Gloss=finish|MGloss=finishRES|MSeg=pok-íː|nWord=13|RX=[V][TAM]|wordform=pok
+15	//	//	PUNCT	_	_	13	punct	_	AlignBegin=118620|AlignEnd=118780|GE=[//]|Gloss=PUNCT|nWord=14
 
 # sent_id = SAY_BC_INT_01_Religion_074-074
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_Religion.WAV
 # sent_timecode = 121096, 122560
-# text = wûs -i wûs -i wò máni ʧi kéni ɗa hŋ́ //
+# text = wúʃi wúʃi wò man ʧi kên ɗa hŋ́ //
 # text_ortho = wúʃi wúʃi wò man ʧi kên ɗa hŋ́ //
 # text_en = The ulcers would not continue.
-1	wûs-i	wûs-i	NOUN	_	_	3	comp:aux	_	AlignBegin=121096|AlignEnd=121259|GE=boil[INDF]|Gloss=boil|MGloss=boilINDF|MSeg=wûs-i|nWord=1|RX=[N][ART]|wordform=wûs
-2	wûs-i	wûs-i	NOUN	_	_	3	comp:aux	_	AlignBegin=121259|AlignEnd=121422|GE=boil[INDF]|Gloss=boil|MGloss=boilINDF|MSeg=wûs-i|nWord=2|RX=[N][ART]|wordform=wûs
-3	wò	woò	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=121422|AlignEnd=121585|GE=[3SG].[FUT]|Gloss=3SG.FUT|nWord=3|RX=[PNTAM]
-4	máni	máni	VERB	_	_	3	comp:aux	_	AlignBegin=121585|AlignEnd=121748|GE=come|Gloss=come|nWord=4|RX=[V]
-5	ʧi	ʧi	VERB	_	_	2	comp:obj	_	AlignBegin=121748|AlignEnd=121911|GE=eat|Gloss=eat|nWord=5|RX=[V]
-6	kéni	kéni	ADV	_	_	2	comp:obj	_	AlignBegin=121911|AlignEnd=122074|GE=in_front|Gloss=in_front|nWord=6|RX=[ADV]
-7	ɗa	ɗa	PART	_	_	2	mod	_	AlignBegin=122074|AlignEnd=122237|GE=again|Gloss=again|nWord=7|RX=[ADV]
+1	wúʃi	wûs	NOUN	_	_	3	subj	_	AlignBegin=121096|AlignEnd=121259|GE=boil[INDF]|Gloss=boil|MGloss=boilINDF|MSeg=wûs-i|nWord=1|RX=[N][ART]|wordform=wûs
+2	wúʃi	wûs	NOUN	_	_	1	compound:svc	_	AlignBegin=121259|AlignEnd=121422|GE=boil[INDF]|Gloss=boil|MGloss=boilINDF|MSeg=wûs-i|nWord=2|RX=[N][ART]|wordform=wûs
+3	wò	wò	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=121422|AlignEnd=121585|GE=[3SG].[FUT]|Gloss=3SG.FUT|nWord=3|RX=[PNTAM]
+4	mán	mán	VERB	_	_	3	comp:aux	_	AlignBegin=121585|AlignEnd=121748|GE=come|Gloss=come|nWord=4|RX=[V]
+5	ʧi	ʧi	VERB	_	_	4	compound:svc	_	AlignBegin=121748|AlignEnd=121911|GE=eat|Gloss=eat|nWord=5|RX=[V]|Idiom=Yes
+6	kên	kên	ADV	_	_	5	mod	_	AlignBegin=121911|AlignEnd=122074|GE=in_front|Gloss=in_front|nWord=6|RX=[ADV]|InIdiom=Yes
+7	ɗa	ɗa	PART	_	_	5	compound:prt	_	AlignBegin=122074|AlignEnd=122237|GE=again|Gloss=again|nWord=7|RX=[ADV]
 8	hŋ́	hŋ́	PART	_	Polarity=Neg	3	mod	_	AlignBegin=122237|AlignEnd=122400|GE=[NEG2]|Gloss=NEG2|nWord=8|RX=[PTCL].[NEG]
 9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=122400|AlignEnd=122560|GE=[//]|Gloss=PUNCT|nWord=9
 
@@ -719,66 +720,67 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_Religion.WAV
 # sent_timecode = 123600, 128749
-# text = murgi gòs kúmá < ngə́tn -ín eː < tun < gòs < nə yêr kən ʧǎː || nə yêr fuŋ ʧǎː ngaː tə́ ʧaː //
-# text_ortho = murgi gòs kúmá < ngəʃín eː < tún < gòs < nə yêr kən ʧǎː || nə yêr fuŋ ʧǎː ngâː tə́ ʧâː //
+# text = murgi gòs kúmá < ngəʃín eː < tún < gòs < nə yêr ɣən ʧǎː || nə yêr fuŋ ʧǎː ngâː tə́ ʧâː //
+# text_ortho = murgi gòs kúmá < ngəʃín eː < tún < gòs < nə yêr ɣən ʧǎː || nə yêr fuŋ ʧǎː ngâː tə́ ʧâː //
 # text_en = As for 'Murgi' er..., since... as for it, it is the thatch  that... it is the thatch of a granary that they take and put.
-1	murgi	Murgi	NOUN	_	_	12	comp:obj	_	AlignBegin=123600|AlignEnd=123818|GE=fetish_sp|Gloss=fetish_sp|nWord=1|RX=[N]
-2	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	18	comp:obj	_	AlignBegin=123818|AlignEnd=124036|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=2|RX=[PRO]
-3	kúmá	kúmá	PART	_	_	12	discourse	_	AlignBegin=124036|AlignEnd=124254|GE=too|Gloss=too|nWord=3|RX=[PTCL].[TOP]
-4	<	<	PUNCT	_	_	17	punct	_	AlignBegin=124254|AlignEnd=124472|GE=[<]|Gloss=PUNCT|nWord=4
-5	ngə́tn-ín	ngə́tn-ín	NOUN	_	PronType=Dem	12	comp:obj	_	AlignBegin=124472|AlignEnd=124690|GE=thing[PROX]|Gloss=thing|MGloss=thingPROX|MSeg=ngə́tn-ín|nWord=5|RX=[N][DEICT]|wordform=ngə́tn
+1	Murgi	Murgi	NOUN	_	_	12	dislocated@top	_	AlignBegin=123600|AlignEnd=123818|GE=fetish_sp|Gloss=fetish_sp|nWord=1|RX=[N]
+2	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	mod@top	_	AlignBegin=123818|AlignEnd=124036|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=2|RX=[PRO]
+3	kúmá	kúmá	PART	_	_	1	discourse	_	AlignBegin=124036|AlignEnd=124254|GE=too|Gloss=too|nWord=3|RX=[PTCL].[TOP]
+4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=124254|AlignEnd=124472|GE=[<]|Gloss=PUNCT|nWord=4
+5	ngəʃín	ngə́tn	NOUN	_	Deixis=Dist	12	dislocated@top	_	AlignBegin=124472|AlignEnd=124690|GE=thing[PROX]|Gloss=thing-DIST|MGloss=thingPROX|MSeg=ngə́tn-ín|nWord=5|RX=[N][DEICT]|wordform=ngə́tn
 6	eː	eː	INTJ	_	_	12	discourse	_	AlignBegin=124690|AlignEnd=124908|GE=[HESIT]|Gloss=HESIT|nWord=6|RX=[INTJ]
-7	<	<	PUNCT	_	_	12	punct	_	AlignBegin=124908|AlignEnd=125126|GE=[<]|Gloss=PUNCT|nWord=7
+7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=124908|AlignEnd=125126|GE=[<]|Gloss=PUNCT|nWord=7
 8	tun	tun	SCONJ	_	_	12	discourse	_	AlignBegin=125126|AlignEnd=125344|GE=since|Gloss=since|nWord=8|RX=[CONJ]
-9	<	<	PUNCT	_	_	12	punct	_	AlignBegin=125344|AlignEnd=125560|GE=[<]|Gloss=PUNCT|nWord=9
-10	gòs	Gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=125781|AlignEnd=125941|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=10|RX=[PRO]
-11	<	<	PUNCT	_	_	12	punct	_	AlignBegin=125941|AlignEnd=126100|GE=[<]|Gloss=PUNCT|nWord=11
+9	<	<	PUNCT	_	_	8	punct	_	AlignBegin=125344|AlignEnd=125560|GE=[<]|Gloss=PUNCT|nWord=9
+10	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	12	mod@top	_	AlignBegin=125781|AlignEnd=125941|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=10|RX=[PRO]
+11	<	<	PUNCT	_	_	10	punct	_	AlignBegin=125941|AlignEnd=126100|GE=[<]|Gloss=PUNCT|nWord=11
 12	nə	nə	PART	_	VerbType=Cop	0	root	_	AlignBegin=126900|AlignEnd=127037|GE=[COP1]|Gloss=be|nWord=12|RX=[PTCL].[SYNT]
-13	yêr	yêr	NOUN	_	_	12	comp:aux	_	AlignBegin=127037|AlignEnd=127174|GE=thatch|Gloss=thatch|nWord=13|RX=[N]
-14	kən	kən	PART	_	VerbType=Cop	13	comp:obj	_	AlignBegin=127174|AlignEnd=127311|GE=[COP2]|Gloss=be|nWord=14|RX=[PTCL].[SYNT].[HOM]
-15	ʧǎː	ʧǎː	AUX	_	Aspect=Imp|Number=Plur|Person=3	18	comp:obj	_	AlignBegin=127311|AlignEnd=127448|GE=[3PL].[ICPL]|Gloss=3PL.ICPL|nWord=15|RX=[PNTAM]
-16	||	||	AUX	_	_	12	punct	_	AlignBegin=127448|AlignEnd=127587|GE=[$$]|nWord=16
-17	nə	nə	PART	_	VerbType=Cop	12	mod	_	AlignBegin=127587|AlignEnd=127732|GE=[COP1]|Gloss=be|nWord=17|RX=[PTCL].[SYNT]
-18	yêr	yêr	NOUN	_	_	12	comp:aux	_	AlignBegin=127732|AlignEnd=127877|GE=thatch|Gloss=thatch|nWord=18|RX=[N]
-19	fuŋ	fuŋ	NOUN	_	_	14	comp:aux	_	AlignBegin=127877|AlignEnd=128022|GE=granary|Gloss=granary|nWord=19|RX=[N]
-20	ʧǎː	ʧǎː	AUX	_	Aspect=Imp|Number=Plur|Person=3	13	comp:obj	_	AlignBegin=128022|AlignEnd=128167|GE=[3PL].[ICPL]|Gloss=3PL.ICPL|nWord=20|RX=[PNTAM]
-21	ngaː	ngaː	VERB	_	_	12	comp:aux	_	AlignBegin=128167|AlignEnd=128312|GE=fetch|Gloss=fetch|nWord=21|RX=[V]
-22	tə́	tə́	AUX	_	Aspect=Aor|Number=Plur|Person=3	18	comp:obj	_	AlignBegin=128312|AlignEnd=128457|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=22|RX=[PNTAM]
-23	ʧaː	ʧaː	VERB	_	_	12	comp:aux	_	AlignBegin=128457|AlignEnd=128602|GE=put|Gloss=put|nWord=23|RX=[V]
+13	yêr	yêr	NOUN	_	_	12	comp:pred	_	AlignBegin=127037|AlignEnd=127174|GE=thatch|Gloss=thatch|nWord=13|RX=[N]
+14	ɣən	kən	PART	_	VerbType=Cop	13	mod	_	AlignBegin=127174|AlignEnd=127311|GE=[COP2]|Gloss=be|nWord=14|RX=[PTCL].[SYNT].[HOM]
+15	ʧǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	12	comp:cleft	_	AlignBegin=127311|AlignEnd=127448|GE=[3PL].[ICPL]|Gloss=3PL.ICPL|nWord=15|RX=[PNTAM]
+16	||	||	PUNCT	_	_	17	punct	_	AlignBegin=127448|AlignEnd=127587|GE=[$$]|nWord=16|Gloss=PUNCT
+17	nə	nə	PART	_	VerbType=Cop	12	conj:dicto	_	AlignBegin=127587|AlignEnd=127732|GE=[COP1]|Gloss=be|nWord=17|RX=[PTCL].[SYNT]
+18	yêr	yêr	NOUN	_	_	17	comp:pred	_	AlignBegin=127732|AlignEnd=127877|GE=thatch|Gloss=thatch|nWord=18|RX=[N]
+19	fuŋ	fuŋ	NOUN	_	_	18	compound	_	AlignBegin=127877|AlignEnd=128022|GE=granary|Gloss=granary|nWord=19|RX=[N]
+20	ʧǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	17	comp:cleft	_	AlignBegin=128022|AlignEnd=128167|GE=[3PL].[ICPL]|Gloss=3PL.ICPL|nWord=20|RX=[PNTAM]
+21	ngaː	ngaː	VERB	_	_	20	comp:aux	_	AlignBegin=128167|AlignEnd=128312|GE=fetch|Gloss=fetch|nWord=21|RX=[V]
+22	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	20	parataxis@conj	_	AlignBegin=128312|AlignEnd=128457|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=22|RX=[PNTAM]
+23	ʧaː	ʧaː	VERB	_	_	22	comp:aux	_	AlignBegin=128457|AlignEnd=128602|GE=put|Gloss=put|nWord=23|RX=[V]
 24	//	//	PUNCT	_	_	12	punct	_	AlignBegin=128602|AlignEnd=128749|GE=[//]|Gloss=PUNCT|nWord=24
 
 # sent_id = SAY_BC_INT_01_Religion_079-083
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_Religion.WAV
 # sent_timecode = 129920, 136260
-# text = tòː < yáːni yêr fuŋ -íː ɗan ʧǎː ngaː tə́ ʧaː ká lə̂p -íː > yáː ngap =kə gòs -íː < tòː < ndómtsə wò ngap =kə -íː //
-# text_ortho = tôː < yáːni yêr fuŋə́y ɗan ʧǎː ngâː tə́ ʧâː ká lə́ɓíː < yáː ngâpkə gòʃíː < tôː < ndómtsə wò ngapkíː //
+# text = tôː < yáːni yêr fuŋə́y ɗan ʧǎː ngâː tə́ ʧâː ɣá lə́ɓíː < yáː ngápkə gòʃíː < tôː < ndómtsə wò ngapkíː //
+# text_ortho = tôː < yáːni yêr fuŋə́y ɗan ʧǎː ngâː tə́ ʧâː ɣá lə́ɓíː < yáː ngápkə gòʃíː < tôː < ndómtsə wò ngapkíː //
 # text_en = Well, as for... that thatch from a granary that they take and put in that place, if it catches you, well,  leprosy will catch you.
 1	tôː	tôː	PART	_	_	22	discourse	_	AlignBegin=129920|AlignEnd=130100|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
-2	<	<	PUNCT	_	_	19	punct	_	AlignBegin=130100|AlignEnd=130280|GE=[<]|Gloss=PUNCT|nWord=2
-3	yáːni	yáːni	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	22	mod	_	AlignBegin=130800|AlignEnd=130971|GE=[3SG].[IDP]|Gloss=3SG.IDP|nWord=3|RX=[PRO]
-4	yêr	yêr	NOUN	_	_	22	comp:aux	_	AlignBegin=130971|AlignEnd=131142|GE=thatch|Gloss=thatch|nWord=4|RX=[N]
-5	fuŋ-íː	fuŋ-íː	NOUN	_	Aspect=Res	4	comp:obj	_	AlignBegin=131142|AlignEnd=131313|GE=granary[RES]|Gloss=granary|MGloss=granaryRES|MSeg=fuŋ-íː|nWord=5|RX=[N][TAM]|wordform=fuŋ
-6	ɗan	ɗan	SCONJ	_	_	15	compound:prt	_	AlignBegin=131313|AlignEnd=131484|GE=that|Gloss=REL|nWord=6|RX=[REL]
-7	ʧǎː	ʧǎː	AUX	_	Aspect=Imp|Number=Plur|Person=3	4	comp:obj	_	AlignBegin=131484|AlignEnd=131655|GE=[3PL].[ICPL]|Gloss=3PL.ICPL|nWord=7|RX=[PNTAM]
-8	ngaː	ngaː	VERB	_	_	22	comp:aux	_	AlignBegin=131655|AlignEnd=131826|GE=fetch|Gloss=fetch|nWord=8|RX=[V]
-9	tə́	tə́	AUX	_	Aspect=Aor|Number=Plur|Person=3	4	parataxis@mod	_	AlignBegin=131826|AlignEnd=131997|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=9|RX=[PNTAM]
-10	ʧaː	ʧaː	VERB	_	_	22	comp:aux	_	AlignBegin=131997|AlignEnd=132168|GE=put|Gloss=put|nWord=10|RX=[V]
-11	ká	ká	ADP	_	_	15	comp:obj	_	AlignBegin=132168|AlignEnd=132339|GE=at|Gloss=at|nWord=11|RX=[PREP]
-12	lə̂p-íː	lə̂p-íː	NOUN	_	PronType=Dem	15	comp:obj	_	AlignBegin=132339|AlignEnd=132510|GE=place[DIST]|Gloss=place|MGloss=placeDIST|MSeg=lə̂p-íː|nWord=12|RX=[N][DEICT]|wordform=lə̂p
-13	>	>	PUNCT	_	_	19	punct	_	AlignBegin=132510|AlignEnd=132681|GE=[>]|Gloss=PUNCT|nWord=13
-14	yáː	yáː	AUX	_	Mood=Cond|Number=Sing|Person=3	22	parataxis@mod	_	AlignBegin=132681|AlignEnd=132852|GE=[3SG].[COND]|Gloss=3SG.COND|nWord=14|RX=[PNTAM]
-15	ngap	ngap	VERB	_	_	22	comp:aux	_	AlignBegin=132852|AlignEnd=132938|GE=catch|Gloss=catch|nWord=15|RX=[V]
-16	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	15	comp:obj	_	AlignBegin=132938|AlignEnd=133023|GE=[2SG].[OBJ]|Gloss=2SG.OBJ|nWord=15|RX=[PRO]
-17	gòs-íː	gòs-íː	PRON	_	Aspect=Res|Case=Gen|Number=Sing|Person=3|PronType=Prs	15	comp:obj	_	AlignBegin=133023|AlignEnd=133194|GE=[3SG].[POS][RES]|Gloss=3SG.POS|MGloss=3SG.POSRES|MSeg=gòs-íː|nWord=16|RX=[PRO][TAM]|wordform=gòs
-18	<	<	PUNCT	_	_	19	punct	_	AlignBegin=133194|AlignEnd=133358|GE=[<]|Gloss=PUNCT|nWord=17
+2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=130100|AlignEnd=130280|GE=[<]|Gloss=PUNCT|nWord=2
+3	yáːni	yáːni	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	22	dislocated@top	_	AlignBegin=130800|AlignEnd=130971|GE=[3SG].[IDP]|Gloss=3SG.IDP|nWord=3|RX=[PRO]
+4	yêr	yêr	NOUN	_	_	3	conj:appos	_	AlignBegin=130971|AlignEnd=131142|GE=thatch|Gloss=thatch|nWord=4|RX=[N]
+5	fuŋə́y	fuŋ	NOUN	_	Deixis=Dist	4	compound	_	AlignBegin=131142|AlignEnd=131313|GE=granary[RES]|Gloss=granary-DIST|MSeg=fuŋ-íː|nWord=5|RX=[N][TAM]|wordform=fuŋ-DIST
+6	ɗan	ɗan	SCONJ	_	_	4	mod@relcl	_	AlignBegin=131313|AlignEnd=131484|GE=that|Gloss=REL|nWord=6|RX=[REL]
+7	ʧǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	6	comp:obj	_	AlignBegin=131484|AlignEnd=131655|GE=[3PL].[ICPL]|Gloss=3PL.ICPL|nWord=7|RX=[PNTAM]
+8	ngaː	ngaː	VERB	_	_	7	comp:aux	_	AlignBegin=131655|AlignEnd=131826|GE=fetch|Gloss=fetch|nWord=8|RX=[V]
+9	tə́	tə́	AUX	_	Aspect=Aor|Number=Plur|Person=3	7	conj:coord	_	AlignBegin=131826|AlignEnd=131997|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=9|RX=[PNTAM]
+10	ʧâː	ʧáː	VERB	_	_	9	comp:aux	_	AlignBegin=131997|AlignEnd=132168|GE=put|Gloss=put|nWord=10|RX=[V]
+11	ɣá	ká	ADP	_	_	10	comp:obl	_	AlignBegin=132168|AlignEnd=132339|GE=at|Gloss=at|nWord=11|RX=[PREP]
+12	lə́ɓíː	lə̂p	NOUN	_	Deixis=Dist	11	comp:obj	_	AlignBegin=132339|AlignEnd=132510|GE=place[DIST]|Gloss=place-DIST
+13	>	>	PUNCT	_	_	3	punct	_	AlignBegin=132510|AlignEnd=132681|GE=[>]|Gloss=PUNCT|nWord=13
+14	yáː	yáː	AUX	_	Mood=Cond|Number=Sing|Person=3	22	mod	_	AlignBegin=132681|AlignEnd=132852|GE=[3SG].[COND]|Gloss=3SG.COND|nWord=14|RX=[PNTAM]
+15-17	ngápkə gòʃíː	_	_	_	_	_	_	_	_
+15	#ngâp-íː	ngap	VERB	_	Aspect=Res	14	comp:aux	_	AlignBegin=132852|AlignEnd=132938|GE=catch|Gloss=catch-RES|nWord=15|RX=[V]
+16	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	15	comp:obj	_	AlignBegin=132938|AlignEnd=133023|GE=[2SG].[OBJ]|Gloss=2SG.OBJ|Incorporated=Yes|nWord=15|RX=[PRO]
+17	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	14	mod@top	_	AlignBegin=133023|AlignEnd=133194|GE=[3SG].[POS][RES]|Gloss=3SG.POS|MGloss=3SG.POS|MSeg=gòs-íː|nWord=16|RX=[PRO][TAM]
+18	<	<	PUNCT	_	_	14	punct	_	AlignBegin=133194|AlignEnd=133358|GE=[<]|Gloss=PUNCT|nWord=17
 19	tôː	tôː	PART	_	_	22	discourse	_	AlignBegin=134060|AlignEnd=134210|GE=[DM]|Gloss=DM|nWord=18|RX=[PTCL]
 20	<	<	PUNCT	_	_	19	punct	_	AlignBegin=134210|AlignEnd=134360|GE=[<]|Gloss=PUNCT|nWord=19
-21	ndómtsə	ndómtsə	NOUN	_	_	22	subj	_	AlignBegin=134480|AlignEnd=135052|GE=leper|Gloss=leper|nWord=20|RX=[N]
-22	wò	woò	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=135720|AlignEnd=135900|GE=[3SG].[FUT]|Gloss=3SG.FUT|nWord=21|RX=[PNTAM]
-23-24	ngap-íː	_	_	_	_	_	_	_	_
-23	ngap-íː	ngap-íː	VERB	_	Aspect=Res	22	comp:aux	_	AlignBegin=135900|AlignEnd=136080|GE=catch[RES]|Gloss=catch|MGloss=catchRES|MSeg=ngap-íː|nWord=22|RX=[V][TAM]|wordform=ngap
-24	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	15	comp:obj	_	AlignBegin=135960|AlignEnd=136020|GE=[2SG].[OBJ]|Gloss=2SG.OBJ|Incorporated=Yes|nWord=22|RX=[PRO]
+21	ndómtsə	ndómtsə	NOUN	_	_	22	subj	_	AlignBegin=134480|AlignEnd=135052|GE=leprosy|Gloss=leprosy|nWord=20|RX=[N]
+22	wò	wò	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=135720|AlignEnd=135900|GE=[3SG].[FUT]|Gloss=3SG.FUT|nWord=21|RX=[PNTAM]
+23-24	ngapkíː	_	_	_	_	_	_	_	_
+23	#ngap-íː	ngap	VERB	_	Aspect=Res	22	comp:aux	_	AlignBegin=135900|AlignEnd=136080|GE=catch[RES]|Gloss=catch-RES
+24	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	23	comp:obj	_	AlignBegin=135960|AlignEnd=136020|GE=[2SG].[OBJ]|Gloss=2SG.OBJ|Incorporated=Yes|nWord=22|RX=[PRO]
 25	//	//	PUNCT	_	_	22	punct	_	AlignBegin=136080|AlignEnd=136260|GE=[//]|Gloss=PUNCT|nWord=23
 
 # sent_id = SAY_BC_INT_01_Religion_084-084
