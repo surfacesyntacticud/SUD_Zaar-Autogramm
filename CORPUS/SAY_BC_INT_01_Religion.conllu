@@ -910,27 +910,28 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_Religion.WAV
 # sent_timecode = 163120, 163917
-# text = tòː ʧì gwàːsə̀ŋ ʧík -íː //
+# text = tòː tôː ʧì gwàːsə̀ŋ ʧǐː //
 # text_ortho = tôː ʧì gwàːsə̀ŋ ʧǐː //
 # text_en = Well, that's how it was.
-1	tôː	tôː	PART	_	_	2	discourse	_	AlignBegin=163120|AlignEnd=163279|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
-2	ʧì	ʧì	VERB	_	Number=Plur|Person=3|PronType=Prs	0	root	_	AlignBegin=163279|AlignEnd=163438|GE=[3PL].[be]|Gloss=3PL.be|nWord=2|RX=[V*]
-3	gwàːsə̀ŋ	gwàːsə̀ŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=163438|AlignEnd=163597|GE=[3PL].[POS]|Gloss=3PL.POS|nWord=3|RX=[PRO]
-4	ʧǐː	ʧǐː	ADV	_	_	2	mod	_	AlignBegin=163597|AlignEnd=163677|GE=thus|Gloss=thus|nWord=4|RX=[ADV]
-5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=163756|AlignEnd=163917|GE=[//]|Gloss=PUNCT|nWord=5
+1	tôː	tôː	PART	_	_	4	discourse	_	AlignBegin=163120|AlignEnd=163279|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
+2	ʧì	ʧì	VERB	_	Number=Plur|Person=3|PronType=Prs	4	subj	_	AlignBegin=163279|AlignEnd=163438|GE=[3PL].[be]|Gloss=3PL.be|nWord=2|RX=[V*]
+3	gwàːsə̀ŋ	gwàːsə̀ŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	mod@top	_	AlignBegin=163438|AlignEnd=163597|GE=[3PL].[POS]|Gloss=3PL.POS|nWord=3|RX=[PRO]
+4	ʧǐː	ʧík	ADV	_	_	0	root	_	AlignBegin=163597|AlignEnd=163677|GE=thus|Gloss=thus|nWord=4|RX=[ADV]
+5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=163756|AlignEnd=163917|GE=[//]|Gloss=PUNCT|nWord=5
 
 # sent_id = SAY_BC_INT_01_Religion_102-102
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_Religion.WAV
 # sent_timecode = 164860, 165661
-# text = wâːr ɗa átáyi kən //
-# text_ortho = wâːr ɗa átáyi kəndí //
+# text = wâːr ɗa átáyi ɣəndí //
+# text_ortho = wâːr ɗa átáyi ɣəndí //
 # text_en = Those were the fetishes.
-1	wâːr	wâːr	NOUN	_	_	3	mod	_	AlignBegin=164860|AlignEnd=165020|GE=fetish|Gloss=fetish|nWord=1|RX=[N]
-2	ɗa	ɗa	SCONJ	_	PronType=Rel	3	mod	_	AlignBegin=165020|AlignEnd=165180|GE=[REL]|Gloss=REL|nWord=2|RX=[REL].[HOM]
-3	átáyi	á́táyâ	ADV	_	_	0	root	_	AlignBegin=165180|AlignEnd=165340|GE=formerly|Gloss=formerly|nWord=3|RX=[ADV]
-4	kən	kən	PART	_	VerbType=Cop	3	comp:aux	_	AlignBegin=165340|AlignEnd=165500|GE=[COP2]|Gloss=be|nWord=4|RX=[PTCL].[SYNT].[HOM]
-5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=165500|AlignEnd=165661|GE=[//]|Gloss=PUNCT|nWord=5
+1	wâːr	wâːr	NOUN	_	_	5	subj	_	AlignBegin=164860|AlignEnd=165020|GE=fetish|Gloss=fetish|nWord=1|RX=[N]
+2	ɗa	ɗa	SCONJ	_	PronType=Rel	1	mod@relcl	_	AlignBegin=165020|AlignEnd=165180|GE=[REL]|Gloss=REL|nWord=2|RX=[REL].[HOM]
+3	átâ	á́tâ	AUX	_	Tense=Rem	2	comp:obj	_	AlignBegin=165180|GE=formerly|Gloss=formerly|nWord=3|RX=[ADV]
+4	yi	yi	VERB	_	_	3	comp:aux	_	Gloss=be|AlignEnd=165340
+5	ɣəndí	kəndí	PART	_	VerbType=Cop	0	root	_	AlignBegin=165340|AlignEnd=165500|GE=[COP2]|Gloss=be|nWord=4|RX=[PTCL].[SYNT].[HOM]
+6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=165500|AlignEnd=165661|GE=[//]|Gloss=PUNCT|nWord=5
 
 # sent_id = SAY_BC_INT_01_Religion_103-103
 # speaker_id = SP1
@@ -940,10 +941,10 @@
 # text_ortho = tôː mə̀tàyáː kə̌ːm mə́ tíːnì hŋ́ //
 # text_en = Well, we could not touch them.
 1	tôː	tôː	PART	_	_	2	discourse	_	AlignBegin=165661|AlignEnd=165827|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
-2	mə̀tàyáː	á̀tàyáâ	AUX	_	Aspect=Imp|Number=Plur|Person=1|Tense=Rem	0	root	_	AlignBegin=165827|AlignEnd=165993|GE=[1PL].[REM].[ICPL]|Gloss=1PL.REM.ICPL|nWord=2|RX=[PNTAM]
+2	mə̀tàyáː	átayáː	AUX	_	Aspect=Imp|Number=Plur|Person=1|Tense=Rem	0	root	_	AlignBegin=165827|AlignEnd=165993|GE=[1PL].[REM].[ICPL]|Gloss=1PL.REM.ICPL|nWord=2|RX=[PNTAM]
 3	kə́ːm	kə́ːm	VERB	_	_	2	comp:aux	_	AlignBegin=165993|AlignEnd=166159|GE=be_able|Gloss=be_able|nWord=3|RX=[V].[V]
-4	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	3	comp:obj	_	AlignBegin=166159|AlignEnd=166325|GE=[1PL].[AOR]|Gloss=1PL.AOR|nWord=4|RX=[PNTAM]
-5	təːn-i	təːn-i	VERB	_	_	2	comp:aux	_	AlignBegin=166325|AlignEnd=166491|GE=touch[INF]|Gloss=touch|MGloss=touchINF|MSeg=təːn-i|nWord=5|RX=[V][SUFX]|wordform=təːn
+4	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	3	parataxis:comp	_	AlignBegin=166159|AlignEnd=166325|GE=[1PL].[AOR]|Gloss=1PL.AOR|nWord=4|RX=[PNTAM]
+5	təːni	təːn	VERB	_	VerbForm=Inf	4	comp:aux	_	AlignBegin=166325|AlignEnd=166491|GE=touch[INF]|Gloss=touch|MGloss=touchINF|MSeg=təːn-i|nWord=5|RX=[V][SUFX]|wordform=təːn
 6	hŋ́	hŋ́	PART	_	Polarity=Neg	2	mod	_	AlignBegin=166491|AlignEnd=166657|GE=[NEG2]|Gloss=NEG2|nWord=6|RX=[PTCL].[NEG]
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=166657|AlignEnd=166820|GE=[//]|Gloss=PUNCT|nWord=7
 
@@ -954,26 +955,26 @@
 # text = ín kyáː təːn -i káp < tòː ʃíkèːnán //
 # text_ortho = ín kyáː tíːni káp < tôː ʃíkèːnán //
 # text_en = If you touched them,  that was it.
-1	ín	ín	SCONJ	_	_	2	discourse	_	AlignBegin=167760|AlignEnd=167903|GE=if|Gloss=if|nWord=1|RX=[CONJ]
-2	kyáː	yaáː	AUX	_	Mood=Cond|Number=Sing|Person=2	0	root	_	AlignBegin=167903|AlignEnd=168046|GE=[2SG].[COND]|Gloss=2SG.COND|nWord=2|RX=[PNTAM]
-3	təːn-i	təːn-i	VERB	_	_	2	comp:aux	_	AlignBegin=168046|AlignEnd=168189|GE=touch[INF]|Gloss=touch|MGloss=touchINF|MSeg=təːn-i|nWord=3|RX=[V][SUFX]|wordform=təːn
-4	káp	káp	ADV	_	_	3	mod	_	AlignBegin=168189|AlignEnd=168332|GE=all|Gloss=all|nWord=4|RX=[ADV]
+1	ín	ín	SCONJ	_	_	7	mod	_	AlignBegin=167760|AlignEnd=167903|GE=if|Gloss=if|nWord=1|RX=[CONJ]
+2	kyáː	yáː	AUX	_	Mood=Cond|Number=Sing|Person=2	1	comp:obj	_	AlignBegin=167903|AlignEnd=168046|GE=[2SG].[COND]|Gloss=2SG.COND|nWord=2|RX=[PNTAM]
+3	təːni	təːn	VERB	_	_	2	comp:aux	_	AlignBegin=168046|AlignEnd=168189|GE=touch[INF]|Gloss=touch|MGloss=touchINF|MSeg=təːn-i|nWord=3|RX=[V][SUFX]|wordform=təːn
+4	káp	káp	ADV	_	_	2	mod	_	AlignBegin=168189|AlignEnd=168332|GE=all|Gloss=all|nWord=4|RX=[ADV]
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=168332|AlignEnd=168475|GE=[<]|Gloss=PUNCT|nWord=5
-6	tôː	tôː	PART	_	_	2	discourse	_	AlignBegin=168475|AlignEnd=168677|GE=[DM]|Gloss=DM|nWord=6|RX=[PTCL]
-7	ʃíkèːnán	Ʃíkèːnán	ADV	_	_	2	comp:aux	_	AlignBegin=168677|AlignEnd=168879|GE=that's_it|Gloss=that's_it|nWord=7|RX=[ADV]
-8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=168879|AlignEnd=169081|GE=[//]|Gloss=PUNCT|nWord=8
+6	tôː	tôː	PART	_	_	7	discourse	_	AlignBegin=168475|AlignEnd=168677|GE=[DM]|Gloss=DM|nWord=6|RX=[PTCL]
+7	ʃíkèːnán	ʃíkèːnán	INTJ	_	_	0	root	_	AlignBegin=168677|AlignEnd=168879|GE=that's_it|Gloss=that's_it|nWord=7|RX=[ADV]
+8	//	//	PUNCT	_	_	7	punct	_	AlignBegin=168879|AlignEnd=169081|GE=[//]|Gloss=PUNCT|nWord=8
 
 # sent_id = SAY_BC_INT_01_Religion_106-106
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_Religion.WAV
 # sent_timecode = 169860, 170641
-# text = ngə́tn -i wò ngap =kə -íː //
+# text = ngəʃí wò ngapkíː //
 # text_ortho = ngəʃí wò ngapkíː //
-# text_en = the thing would catch you.
-1	ngə́tn-i	ngə́tn-i	NOUN	_	_	2	subj	_	AlignBegin=169860|AlignEnd=170055|GE=thing[INDF]|Gloss=thing|MGloss=thingINDF|MSeg=ngə́tn-i|nWord=1|RX=[N][ART]|wordform=ngə́tn
-2	wò	woò	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=170055|AlignEnd=170250|GE=[3SG].[FUT]|Gloss=3SG.FUT|nWord=2|RX=[PNTAM]
+# text_en = The thing would catch you.
+1	ngəʃí	ngə́tn	NOUN	_	Definite=Def	2	subj	_	AlignBegin=169860|AlignEnd=170055|GE=thing[INDF]|Gloss=thing-DEF|MGloss=thingINDF|MSeg=ngə́tn-i|nWord=1|RX=[N][ART]|wordform=ngə́tn
+2	wò	wò	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=170055|AlignEnd=170250|GE=[3SG].[FUT]|Gloss=3SG.FUT|nWord=2|RX=[PNTAM]
 3-4	ngap-íː	_	_	_	_	_	_	_	_
-3	ngap-íː	ngap-íː	VERB	_	Aspect=Res	2	comp:aux	_	AlignBegin=170250|AlignEnd=170445|GE=catch[RES]|Gloss=catch|MGloss=catchRES|MSeg=ngap-íː|nWord=3|RX=[V][TAM]|wordform=ngap
+3	#ngap-íː	ngap	VERB	_	Aspect=Res	2	comp:aux	_	AlignBegin=170250|AlignEnd=170445|GE=catch[RES]|Gloss=catch|MGloss=catchRES|MSeg=ngap-íː|nWord=3|RX=[V][TAM]|wordform=ngap
 4	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	3	comp:obj	_	AlignBegin=170315|AlignEnd=170380|GE=[2SG].[OBJ]|Gloss=2SG.OBJ|Incorporated=Yes|nWord=3|RX=[PRO]
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=170445|AlignEnd=170641|GE=[//]|Gloss=PUNCT|nWord=4
 
