@@ -1333,7 +1333,7 @@
 # sent_timecode = 227140, 229561
 # text = mə̀tàyáː fî ʤáːri wón gá sáːfǐn séː mə̀ ɬə̀ nə́ lǎː guzà //
 # text_ortho = mə̀tàyáː fî ʤáːri wón gá sáːfǐn séː mə̀ ɬə̀ nə́ lǎː guzà //
-# text_en = We did not do.. any job when we were pagans exept we went mining.
+# text_en = We did not do.. any job when we were pagans exept that we went tin mining.
 1	mə̀tàyáː	átayáː	AUX	_	Aspect=Imp|Number=Plur|Person=1|Tense=Rem	0	root	_	AlignBegin=227140|AlignEnd=227456|GE=[1PL].[REM].[ICPL]|Gloss=1PL.REM.ICPL|nWord=1|RX=[PNTAM]
 2	fî	fi	VERB	_	_	1	comp:aux	_	AlignBegin=227456|AlignEnd=227773|GE=do|Gloss=do|nWord=2|RX=[V]
 3	ʤáːri	ʤáːri	NOUN	_	_	2	comp:obj	_	AlignBegin=227773|AlignEnd=227967|GE=job|Gloss=job|nWord=3|RX=[N]
@@ -1354,12 +1354,12 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_Religion.WAV
 # sent_timecode = 231440, 232400
-# text = laː -́ guzà Baːríki bâː //
+# text = lǎː guzà Baːríki bâː //
 # text_ortho = lǎː guzà Baːríki bâː //
-# text_en = Mining at Bariki, no?
-1	laː-́	laː-́	NOUN	_	Case=Gen	0	root	_	AlignBegin=231440|AlignEnd=231632|GE=work[POS]|Gloss=work|MGloss=workof|MSeg=laːkə́|nWord=1|RX=[N][PTCL].[SYNT]|wordform=laː
-2	guzà	guzà	NOUN	_	_	1	comp:obj	_	AlignBegin=231632|AlignEnd=231824|GE=tin|Gloss=tin|nWord=2|RX=[N]
-3	Baːríki	Baːríki	NOUN	_	_	1	comp:obj	_	AlignBegin=231824|AlignEnd=232016|GE=[Barikin_Ladi]|Gloss=Barikin_Ladi|nWord=3|RX=[N].[P]
+# text_en = Tin mining at Bariki, no?
+1	lǎː	laː	NOUN	_	Definite=Cons	0	root	_	AlignBegin=231440|AlignEnd=231632|GE=work|Gloss=work
+2	guzà	guzà	NOUN	_	_	1	compound	_	AlignBegin=231632|AlignEnd=231824|GE=tin|Gloss=tin|nWord=2|RX=[N]
+3	Baːríki	Baːríki	PROPN	_	_	1	mod	_	AlignBegin=231824|AlignEnd=232016|GE=[Barikin_Ladi]|Gloss=Barikin_Ladi|nWord=3|RX=[N].[P]
 4	bâː	bâː	PART	_	PartType=Int|Polarity=Neg	1	mod	_	AlignBegin=232016|AlignEnd=232208|GE=[Q].[NEG]|Gloss=Q.NEG|nWord=4|RX=[PTCL].[ASS]
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=232208|AlignEnd=232400|GE=[//]|Gloss=PUNCT|nWord=5
 
@@ -1370,34 +1370,34 @@
 # text = gyáː Gànám < gyáː Kúːbǎ < gyáː Mìyàŋgá < gyáː Baːríkiláːdì //
 # text_ortho = gyáː Gànám < gyáː Kúːbǎ < gyáː Mìyàŋgá < gyáː Baːríkiláːdì //
 # text_en = Ganam, Kuba, Miyanga, Barikin Ladi.
-1	gyáː	gyáː	DET	_	Number=Plur	5	discourse	_	AlignBegin=233200|AlignEnd=233420|GE=[PL]|Gloss=PL|nWord=1|RX=[DET]
-2	Gànám	gànám	NOUN	_	_	5	comp:obj	_	AlignBegin=233420|AlignEnd=233640|GE=[Ganam]|Gloss=Ganam|nWord=2|RX=[N].[P]
-3	<	<	PUNCT	_	_	5	punct	_	AlignBegin=233640|AlignEnd=233860|GE=[<]|Gloss=PUNCT|nWord=3
-4	gyáː	gyáː	DET	_	Number=Plur	11	mod	_	AlignBegin=235100|AlignEnd=235198|GE=[PL]|Gloss=PL|nWord=4|RX=[DET]
-5	Kúːbǎ	kúːbǎ	NOUN	_	_	0	root	_	AlignBegin=235198|AlignEnd=235296|GE=[Kuba]|Gloss=Kuba|nWord=5|RX=[N].[P]
-6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=235296|AlignEnd=235393|GE=[<]|Gloss=PUNCT|nWord=6
-7	gyáː	gyáː	DET	_	Number=Plur	5	mod	_	AlignBegin=237040|AlignEnd=237313|GE=[PL]|Gloss=PL|nWord=7|RX=[DET]
-8	Mìyàŋgá	Mìyàŋgá	NOUN	_	_	5	comp:obj	_	AlignBegin=237313|AlignEnd=237586|GE=[Miyanga]|Gloss=Miyanga|nWord=8|RX=[N].[P]
-9	<	<	PUNCT	_	_	5	punct	_	AlignBegin=237586|AlignEnd=237860|GE=[<]|Gloss=PUNCT|nWord=9
-10	gyáː	gyáː	DET	_	Number=Plur	5	mod	_	AlignBegin=239160|AlignEnd=239647|GE=[PL]|Gloss=PL|nWord=10|RX=[DET]
-11	Baːríkiláːdì	Baːríkiláːdì	NOUN	_	_	5	comp:obj	_	AlignBegin=239647|AlignEnd=240134|GE=[Barikin_Ladi]|Gloss=Barikin_Ladi|nWord=11|RX=[N].[P]
-12	//	//	PUNCT	_	_	5	punct	_	AlignBegin=240134|AlignEnd=240620|GE=[//]|Gloss=PUNCT|nWord=12
+1	gyáː	gyáː	DET	_	Number=Plur	2	det	_	AlignBegin=233200|AlignEnd=233420|GE=[PL]|Gloss=PL|nWord=1|RX=[DET]
+2	Gànám	Gànám	PROPN	_	_	0	root	_	AlignBegin=233420|AlignEnd=233640|GE=[Ganam]|Gloss=Ganam|nWord=2|RX=[N].[P]
+3	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=233640|AlignEnd=233860|Gloss=PUNCT
+4	gyáː	gyáː	DET	_	Number=Plur	5	det	_	AlignBegin=235100|AlignEnd=235198|GE=[PL]|Gloss=PL|nWord=4|RX=[DET]
+5	Kúːbǎ	Kúːbǎ	PROPN	_	_	2	conj:coord	_	AlignBegin=235198|AlignEnd=235296|GE=[Kuba]|Gloss=Kuba|nWord=5|RX=[N].[P]
+6	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=235296|AlignEnd=235393|Gloss=PUNCT
+7	gyáː	gyáː	DET	_	Number=Plur	8	det	_	AlignBegin=237040|AlignEnd=237313|GE=[PL]|Gloss=PL|nWord=7|RX=[DET]
+8	Mìyàŋgá	Mìyàŋgá	PROPN	_	_	5	conj:coord	_	AlignBegin=237313|AlignEnd=237586|GE=[Miyanga]|Gloss=Miyanga|nWord=8|RX=[N].[P]
+9	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=237586|AlignEnd=237860|GE=[<]|Gloss=PUNCT|nWord=9
+10	gyáː	gyáː	DET	_	Number=Plur	11	det	_	AlignBegin=239160|AlignEnd=239647|GE=[PL]|Gloss=PL|nWord=10|RX=[DET]
+11	Baːríkiláːdì	Baːríkiláːdì	PROPN	_	_	8	conj:coord	_	AlignBegin=239647|AlignEnd=240134|GE=[Barikin_Ladi]|Gloss=Barikin_Ladi|nWord=11|RX=[N].[P]
+12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=240134|AlignEnd=240620|GE=[//]|Gloss=PUNCT|nWord=12
 
 # sent_id = SAY_BC_INT_01_Religion_150-150
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_Religion.WAV
 # sent_timecode = 240820, 242251
-# text = tàːtá buːɗé kə́ gàmbárí hŋ́ aː hŋ́ ?//
-# text_ortho = tàːtá bùːɗé kə́ gàmbárí hŋ́ aː hŋ́ ?//
+# text = tàːtá buːɗé kə́ gàmbárí hŋ́aː ?//
+# text_ortho = tàːtá buːɗé kə́ gàmbárí hŋ́ǎn ?//
 # text_en = Hadn't they opened that of Gambari ?
-1	tàːtá	tàːtá	AUX	_	Aspect=Perf|Number=Plur|Person=3|Tense=Rem	0	root	_	AlignBegin=240820|AlignEnd=240999|GE=[3PL].[CPL].[REM]|Gloss=3PL.CPL.REM|nWord=1|RX=[PNTAM]
+1	tàːtá	àːtá	AUX	_	Aspect=Perf|Number=Plur|Person=3|Tense=Rem	0	root	_	AlignBegin=240820|AlignEnd=240999|GE=[3PL].[CPL].[REM]|Gloss=3PL.CPL.REM|nWord=1|RX=[PNTAM]
 2	buːɗé	buːɗé	VERB	_	_	1	comp:aux	_	AlignBegin=240999|AlignEnd=241178|GE=open|Gloss=open|nWord=2|RX=[V]
-3	kə́	á	ADP	_	_	2	comp:obj	_	AlignBegin=241178|AlignEnd=241357|GE=[POSL]|Gloss=of|nWord=3|RX=[PTCL]
-4	Gàmbárí	gàmbárí	PROPN	_	_	2	comp:obj	_	AlignBegin=241357|AlignEnd=241536|GE=[Gambari]|Gloss=Gambari|nWord=4|RX=[N].[P]
+3	kə́	kə́	ADP	_	_	2	comp:obj	_	AlignBegin=241178|AlignEnd=241357|GE=[POSL]|Gloss=of|nWord=3|RX=[PTCL]
+4	Gàmbárí	Gàmbárí	PROPN	_	_	3	mod	_	AlignBegin=241357|AlignEnd=241536|GE=[Gambari]|Gloss=Gambari|nWord=4|RX=[N].[P]
+5-6	hŋ́aː	_	_	_	_	_	_	_	_
 5	hŋ́	hŋ́	PART	_	Polarity=Neg	1	mod	_	AlignBegin=241536|AlignEnd=241715|GE=[NEG2]|Gloss=NEG2|nWord=5|RX=[PTCL].[NEG]
 6	aː	aː	PART	_	_	1	mod	_	AlignBegin=241715|AlignEnd=241894|GE=[VRT]|Gloss=VRT|nWord=6|RX=[INTJ]
-7	hŋ́	hŋ́	PART	_	Polarity=Neg	1	mod	_	AlignBegin=241894|AlignEnd=242073|GE=[NEG2]|Gloss=NEG2|nWord=7|RX=[PTCL].[NEG]
-8	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=242073|AlignEnd=242251|GE=[?//]|Gloss=PUNCT|nWord=8
+7	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=242073|AlignEnd=242251|GE=[?//]|Gloss=PUNCT|nWord=8
 
 # sent_id = SAY_BC_INT_01_Religion_151-152
 # speaker_id = SP1
