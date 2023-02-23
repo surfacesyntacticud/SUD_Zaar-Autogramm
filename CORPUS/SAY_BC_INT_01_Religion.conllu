@@ -1851,7 +1851,7 @@
 # text_ortho = ḿː'm̀ː ḿː'm̀ː //
 # text_en = No no.
 1	ḿː'm̀ː	ḿː'm̀ː	INTJ	_	_	0	root	_	AlignBegin=321120|AlignEnd=321407|GE=no|Gloss=no|nWord=1|RX=[INTJ]
-2	ḿː'm̀ː	ḿː'm̀ː	INTJ	_	_	1	discourse	_	AlignBegin=321407|AlignEnd=321694|GE=no|Gloss=no|nWord=2|RX=[INTJ]
+2	ḿː'm̀ː	ḿː'm̀ː	INTJ	_	_	1	conj:redup	_	AlignBegin=321407|AlignEnd=321694|GE=no|Gloss=no|nWord=2|RX=[INTJ]
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=321694|AlignEnd=321980|GE=[//]|Gloss=PUNCT|nWord=3
 
 # sent_id = SAY_BC_INT_01_Religion_199-199
@@ -1861,10 +1861,10 @@
 # text = gíː gòs séː ín &//
 # text_ortho = gíː gòs séː ín &//
 # text_en = For those, you...
-1	gíː	gíː	PRON	_	PronType=Dem	0	root	_	AlignBegin=322180|AlignEnd=322351|GE=[DIST]|Gloss=DIST|nWord=1|RX=[PRO].[DEICT]
-2	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=322351|AlignEnd=322522|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=2|RX=[PRO]
-3	séː	séː	ADV	_	_	4	mod	_	AlignBegin=322522|AlignEnd=322693|GE=must|Gloss=must|nWord=3|RX=[CONJ]
-4	ín	ín	SCONJ	_	_	1	mod	_	AlignBegin=322693|AlignEnd=322864|GE=if|Gloss=if|nWord=4|RX=[CONJ]
+1	gíː	gíː	PRON	_	PronType=Dem	0	root@scrap	_	AlignBegin=322180|AlignEnd=322351|GE=[DIST]|Gloss=DIST|nWord=1|RX=[PRO].[DEICT]
+2	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	mod@top	_	AlignBegin=322351|AlignEnd=322522|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=2|RX=[PRO]
+3	séː	séː	ADV	_	_	1	unk@scrap	_	AlignBegin=322522|AlignEnd=322693|GE=must|Gloss=must|nWord=3|RX=[CONJ]|Idiom=Yes|ExtPos=SCONJ
+4	ín	ín	SCONJ	_	_	3	unk	_	AlignBegin=322693|AlignEnd=322864|GE=if|Gloss=if|nWord=4|RX=[CONJ]|InIdiom=Yes
 5	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=322864|AlignEnd=323037|GE=[&//]|Gloss=PUNCT|nWord=5
 
 # sent_id = SAY_BC_INT_01_Religion_200-200
@@ -1875,28 +1875,28 @@
 # text_ortho = bàː wò ngap ʧík //
 # text_en = It will not catch like this.
 1	báː	báː	PART	_	Polarity=Neg	2	mod	_	AlignBegin=323037|AlignEnd=323160|GE=[NEG1]|Gloss=NEG1|nWord=1|RX=[PTCL].[NEG]
-2	wò	woò	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=323160|AlignEnd=323283|GE=[3SG].[FUT]|Gloss=3SG.FUT|nWord=2|RX=[PNTAM]
+2	wò	wò	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=323160|AlignEnd=323283|GE=[3SG].[FUT]|Gloss=3SG.FUT|nWord=2|RX=[PNTAM]
 3	ngap	ngap	VERB	_	_	2	comp:aux	_	AlignBegin=323283|AlignEnd=323406|GE=catch|Gloss=catch|nWord=3|RX=[V]
-4	ʧík	ʧík	ADV	_	_	3	mod	_	AlignBegin=323406|AlignEnd=323529|GE=thus|Gloss=thus|nWord=4|RX=[ADV]
+4	ʧík	ʧík	ADV	_	_	2	mod	_	AlignBegin=323406|AlignEnd=323529|GE=thus|Gloss=thus|nWord=4|RX=[ADV]
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=323529|AlignEnd=323653|GE=[//]|Gloss=PUNCT|nWord=5
 
 # sent_id = SAY_BC_INT_01_Religion_201-201
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_Religion.WAV
 # sent_timecode = 323860, 325440
-# text = m̀ː gíː gòs séː ín ʧàːyi yeli =kə -íː káy //
-# text_ortho = m̀ː gíː gòs séː ín ʧàːyi yêlkíː káy //
+# text = m̀ː gíː gòs séː ín ʧàːyi yêlkíː ɣáy //
+# text_ortho = m̀ː gíː gòs séː ín ʧàːyi yêlkíː ɣáy //
 # text_en = Er... for this, they must see you doing it.
-1	m̀ː	m̀ː	INTJ	_	_	5	discourse	_	AlignBegin=323860|AlignEnd=324036|GE=[HESIT]|Gloss=HESIT|nWord=1|RX=[INTJ]
-2	gíː	gíː	PRON	_	PronType=Dem	5	comp:obj	_	AlignBegin=324036|AlignEnd=324212|GE=[DIST]|Gloss=DIST|nWord=2|RX=[PRO].[DEICT]
+1	m̀ː	m̀ː	INTJ	_	_	6	discourse	_	AlignBegin=323860|AlignEnd=324036|GE=[HESIT]|Gloss=HESIT|nWord=1|RX=[INTJ]
+2	gíː	gíː	PRON	_	PronType=Dem	6	dislocated@top	_	AlignBegin=324036|AlignEnd=324212|GE=[DIST]|Gloss=DIST|nWord=2|RX=[PRO].[DEICT]
 3	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=324212|AlignEnd=324388|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=3|RX=[PRO]
-4	séː	séː	ADV	_	_	2	mod	_	AlignBegin=324388|AlignEnd=324564|GE=must|Gloss=must|nWord=4|RX=[CONJ]
-5	ín	ín	SCONJ	_	_	0	root	_	AlignBegin=324564|AlignEnd=324740|GE=if|Gloss=if|nWord=5|RX=[CONJ]
-6	ʧàːyi	ʧàːyi	AUX	_	Aspect=Imp,Iter|Number=Plur|Person=3	5	comp:obj	_	AlignBegin=324740|AlignEnd=324916|GE=[3PL].[ICPL].[ITER]|Gloss=3PL.ICPL.ITER|nWord=6|RX=[PNTAM]
-7-8	yeli-íː	_	_	_	_	_	_	_	_
-7	yeli-íː	yeli-íː	VERB	_	Aspect=Res	6	comp:aux	_	AlignBegin=324916|AlignEnd=325092|GE=see[RES]|Gloss=see|MGloss=seeRES|MSeg=yeli-íː|nWord=7|RX=[V][TAM]|wordform=yeli
+4	séː	séː	ADV	_	_	6	mod	_	AlignBegin=324388|AlignEnd=324564|Gloss=must|Idiom=Yes|ExtPos=ADV
+5	ín	ín	SCONJ	_	_	4	unk	_	AlignBegin=324564|AlignEnd=324740|GE=if|Gloss=if|nWord=5|RX=[CONJ]
+6	ʧàːyi	ʧáːyi	AUX	_	Aspect=Imp,Iter|Number=Plur|Person=3	0	root	_	AlignBegin=324740|AlignEnd=324916|Gloss=3PL.ICPL.ITER
+7-8	yêlkíː	_	_	_	_	_	_	_	_
+7	#yêl-íː	yel	VERB	_	Aspect=Res	6	comp:aux	_	AlignBegin=324916|AlignEnd=325092|GE=see[RES]|Gloss=see|MGloss=seeRES|MSeg=yeli-íː|nWord=7|RX=[V][TAM]|wordform=yeli
 8	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	7	comp:obj	_	AlignBegin=324975|AlignEnd=325034|GE=[2SG].[OBJ]|Gloss=2SG.OBJ|Incorporated=Yes|nWord=7|RX=[PRO]
-9	káy	káy	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	2	mod	_	AlignBegin=325092|AlignEnd=325268|GE=[ANAPH]|Gloss=ANAPH|nWord=8|RX=[PRO].[ANAPH]
+9	ɣáy	káy	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	6	comp:obl	_	AlignBegin=325092|AlignEnd=325268|GE=[ANAPH]|Gloss=ANAPH|nWord=8|RX=[PRO].[ANAPH]
 10	//	//	PUNCT	_	_	6	punct	_	AlignBegin=325268|AlignEnd=325440|GE=[//]|Gloss=PUNCT|nWord=9
 
 # sent_id = SAY_BC_INT_01_Religion_202-202
