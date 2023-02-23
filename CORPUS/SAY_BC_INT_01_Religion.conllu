@@ -1746,37 +1746,38 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_Religion.WAV
 # sent_timecode = 307440, 308840
-# text = tòː < fuː zaːr -sə ʧík tòː < ʃíːkèːnán //
-# text_ortho = tôː < fuː zàrsə̀ ʧík tôː < ʃíːkèːnán //
-# text_en = Well, you told the people like this, and that was all.
+# text = tôː < fuː zàrsə̀ ʧík //= tôː < ʃíːkèːnán //
+# text_ortho = tôː < fuː zàrsə̀ ʧík //= tôː < ʃíːkèːnán //
+# text_en = Well, tell people like this, that's all.
 1	tôː	tôː	PART	_	_	3	discourse	_	AlignBegin=307440|AlignEnd=307596|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
-2	<	<	PUNCT	_	_	3	punct	_	AlignBegin=307596|AlignEnd=307752|GE=[<]|Gloss=PUNCT|nWord=2
-3	fuː	fuː	VERB	_	_	0	root	_	AlignBegin=307752|AlignEnd=307908|GE=tell|Gloss=tell|nWord=3|RX=[V]
-4	zaːr-sə	zaːr-sə	NOUN	_	Number=Plur	3	comp:obj	_	AlignBegin=307908|AlignEnd=308064|GE=person[PL]|Gloss=person|MGloss=personPL|MSeg=zaːr-sə|nWord=4|RX=[N][PL]|wordform=zaːr
-5	ʧík	ʧík	ADV	_	_	3	comp:obj	_	AlignBegin=308064|AlignEnd=308220|GE=thus|Gloss=thus|nWord=5|RX=[ADV]
-6	tôː	tôː	PART	_	_	3	discourse	_	AlignBegin=308220|AlignEnd=308376|GE=[DM]|Gloss=DM|nWord=6|RX=[PTCL]
-7	<	<	PUNCT	_	_	3	punct	_	AlignBegin=308376|AlignEnd=308532|GE=[<]|Gloss=PUNCT|nWord=7
-8	ʃíːkèːnán	Ʃíːkèːnán	INTJ	_	_	3	comp:obj	_	AlignBegin=308532|AlignEnd=308688|GE=that's_it|Gloss=that's_it|nWord=8|RX=[INTJ]
-9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=308688|AlignEnd=308840|GE=[//]|Gloss=PUNCT|nWord=9
+2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=307596|AlignEnd=307752|GE=[<]|Gloss=PUNCT|nWord=2
+3	fuː	fuː	VERB	_	Mood=Imp	0	root	_	AlignBegin=307752|AlignEnd=307908|GE=tell|Gloss=tell|nWord=3|RX=[V]
+4	zàrsə̀	zaːr	NOUN	_	Number=Plur	3	comp:obj	_	AlignBegin=307908|AlignEnd=308064|GE=person[PL]|Gloss=person|MGloss=personPL|MSeg=zaːr-sə|nWord=4|RX=[N][PL]|wordform=zaːr
+5	ʧík	ʧík	ADV	_	_	3	mod	_	AlignBegin=308064|AlignEnd=308220|GE=thus|Gloss=thus|nWord=5|RX=[ADV]
+6	//=	//=	PUNCT	_	_	9	_	_	Gloss=PUNCT|AlignBegin=308220|AlignEnd=308220
+7	tôː	tôː	PART	_	_	9	discourse	_	AlignBegin=308220|AlignEnd=308376|GE=[DM]|Gloss=DM|nWord=6|RX=[PTCL]
+8	<	<	PUNCT	_	_	7	punct	_	AlignBegin=308376|AlignEnd=308532|GE=[<]|Gloss=PUNCT|nWord=7
+9	ʃíːkèːnán	ʃíːkèːnán	INTJ	_	_	3	parataxis:conj	_	AlignBegin=308532|AlignEnd=308688|GE=that's_it|Gloss=that's_it|nWord=8|RX=[INTJ]
+10	//	//	PUNCT	_	_	3	punct	_	AlignBegin=308688|AlignEnd=308840|GE=[//]|Gloss=PUNCT|nWord=9
 
 # sent_id = SAY_BC_INT_01_Religion_190-191
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_Religion.WAV
 # sent_timecode = 309359, 310820
-# text = tá wul tu tòː < tə̀ fi =kə àdúwa mə́n káy //
-# text_ortho = tá wûl tu tôː < tə̀ fìkə̀ àdúwa mə́n káy //
-# text_en = They would say well, they will pray for you.
+# text = tá wûl tu tôː < tə̀ fìɣə̀ àdúwa mə́n gáy //
+# text_ortho = tá wûl tu tôː < tə̀ fìkə̀ àdúwa mə́n gáy //
+# text_en = They would say well, let them pray on it for you.
 1	tá	wò	AUX	_	Number=Plur|Person=3|Tense=Fut	3	comp:obj	_	AlignBegin=309359|AlignEnd=309463|GE=[3PL].[FUT]|Gloss=3PL.FUT|nWord=1|RX=[PNTAM]
 2	wul	wul	VERB	_	_	6	comp:aux	_	AlignBegin=309463|AlignEnd=309567|GE=say|Gloss=say|nWord=2|RX=[V]
 3	tu	tu	PART	_	_	7	comp:obj	_	AlignBegin=309567|AlignEnd=309671|GE=[COMP]|Gloss=COMP|nWord=3|RX=[PTCL]
 4	tòː	tòː	PART	_	_	6	discourse	_	AlignBegin=309671|AlignEnd=309775|GE=[DM]|Gloss=DM|nWord=4|RX=[PTCL]
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=309775|AlignEnd=309880|GE=[<]|Gloss=PUNCT|nWord=5
-6	tə̀	à	AUX	_	Mood=Sub|Number=Plur|Person=3	0	root	_	AlignBegin=309880|AlignEnd=310037|GE=[3PL].[SBJV]|Gloss=3PL.SBJV|nWord=6|RX=[PNTAM]
-7	fi	fi	VERB	_	_	6	comp:aux	_	AlignBegin=310037|AlignEnd=310115|GE=do|Gloss=do|nWord=7|RX=[V]
-8	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	7	comp:obj	_	AlignBegin=310115|AlignEnd=310194|GE=[2SG].[OBJ]|Gloss=2SG.OBJ|nWord=7|RX=[PRO]
+6	tə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=3	0	root	_	AlignBegin=309880|AlignEnd=310037|GE=[3PL].[SBJV]|Gloss=3PL.SBJV|nWord=6|RX=[PNTAM]
+7	fì	fi	VERB	_	_	6	comp:aux	_	AlignBegin=310037|AlignEnd=310115|GE=do|Gloss=do|nWord=7|RX=[V]
+8	=ɣə̀	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	7	comp:obj	_	AlignBegin=310115|AlignEnd=310194|GE=[2SG].[OBJ]|Gloss=2SG.OBJ|nWord=7|RX=[PRO]
 9	àdúwa	àdúwa	NOUN	_	_	7	comp:obj	_	AlignBegin=310194|AlignEnd=310351|GE=prayer|Gloss=prayer|nWord=8|RX=[N]
 10	mə́n	mə́n	PART	_	Case=Ben	7	compound:prt	_	AlignBegin=310351|AlignEnd=310508|GE=[BEN]|Gloss=BEN|nWord=9|RX=[PTCL]
-11	káy	káy	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	7	mod	_	AlignBegin=310508|AlignEnd=310665|GE=[ANAPH]|Gloss=ANAPH|nWord=10|RX=[PRO].[ANAPH]
+11	gáy	káy	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	7	mod	_	AlignBegin=310508|AlignEnd=310665|GE=[ANAPH]|Gloss=ANAPH|nWord=10|RX=[PRO].[ANAPH]
 12	//	//	PUNCT	_	_	6	punct	_	AlignBegin=310665|AlignEnd=310820|GE=[//]|Gloss=PUNCT|nWord=11
 
 # sent_id = SAY_BC_INT_01_Religion_192-192
@@ -2459,7 +2460,7 @@
 1	áː	á	INTJ	_	_	0	root	_	AlignBegin=425784|AlignEnd=426069|GE=[HESIT]|Gloss=HESIT|nWord=1|RX=[INTJ]
 2	dàlíːli	dàlíːli	N<	_	_	1	comp:aux	_	AlignBegin=426069|AlignEnd=426354|GE=reason|Gloss=reason|nWord=2|RX=[N<]
 3	gyáː	gyaaː	DET	_	Number=Plur	4	mod	_	AlignBegin=426354|AlignEnd=426639|GE=[PL]|Gloss=PL|nWord=3|RX=[DET]
-4	ngəʃí	ngə́tn	NOUN	_	Definite=Def	1	subj	_	AlignBegin=426639|AlignEnd=426924Gloss=thing|MGloss=thing.DEF
+4	ngəʃí	ngə́tn	NOUN	_	Definite=Def	1	subj	_	AlignBegin=426639|AlignEnd=426924|Gloss=thing.DEF
 5	ɗan	ɗan	SCONJ	_	_	7	compound:prt	_	AlignBegin=426924|AlignEnd=427209|GE=that|Gloss=REL|nWord=5|RX=[REL]
 6	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	5	comp:obj	_	AlignBegin=427209|AlignEnd=427494|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=6|RX=[PNTAM]
 7-9	ʧaː-íː	_	_	_	_	_	_	_	_
