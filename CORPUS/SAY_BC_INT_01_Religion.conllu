@@ -2034,19 +2034,20 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_Religion.WAV
 # sent_timecode = 346260, 348060
-# text = wàːtòː ngə́tn ɗa á pol =mə ká láːp -kə́nì ŋâː ?//
+# text = wàːtòː ngə́tn ɗa á pólə̀m á láːpkə̂n ŋâː ?//
 # text_ortho = wàːtòː ngə́tn ɗa á pólə̀m á láːpkə̂n ŋâː ?//
 # text_en = Well what I like in Christianity?
-1	wàːtòː	wàːtòː	PART	_	_	4	mod	_	AlignBegin=346260|AlignEnd=346460|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
-2	ngə́tn	ngə́tn	NOUN	_	_	4	subj	_	AlignBegin=346460|AlignEnd=346660|GE=thing|Gloss=thing|nWord=2|RX=[N]
-3	ɗa	ɗa	SCONJ	_	PronType=Rel	2	mod	_	AlignBegin=346660|AlignEnd=346860|GE=[REL]|Gloss=REL|nWord=3|RX=[REL].[HOM]
-4	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=346860|AlignEnd=347060|GE=[3SG].[AOR]|Gloss=3SG.AOR|nWord=4|RX=[PNTAM]
-5	pol	pol	VERB	_	_	4	comp:aux	_	AlignBegin=347060|AlignEnd=347160|GE=please|Gloss=please|nWord=5|RX=[V]
+1	wàːtòː	wàːtòː	PART	_	_	2	discourse	_	AlignBegin=346260|AlignEnd=346460|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
+2	ngə́tn	ngə́tn	NOUN	_	_	0	root	_	AlignBegin=346460|AlignEnd=346660|GE=thing|Gloss=thing|nWord=2|RX=[N]
+3	ɗa	ɗa	SCONJ	_	PronType=Rel	2	mod@relcl	_	AlignBegin=346660|AlignEnd=346860|GE=[REL]|Gloss=REL|nWord=3|RX=[REL].[HOM]
+4	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	3	comp:obj	_	AlignBegin=346860|AlignEnd=347060|GE=[3SG].[AOR]|Gloss=3SG.AOR|nWord=4|RX=[PNTAM]
+5-6	pólə̀m	_	_	_	_	_	_	_	_
+5	pôl	pol	VERB	_	_	4	comp:aux	_	AlignBegin=347060|AlignEnd=347160|GE=please|Gloss=please|nWord=5|RX=[V]
 6	=mə	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	comp:obj	_	AlignBegin=347160|AlignEnd=347260|GE=[1SG].[OBJ]|Gloss=1SG.OBJ|nWord=5|RX=[PRO]
-7	ká	wò	ADP	_	_	5	comp:obj	_	AlignBegin=347260|AlignEnd=347460|GE=at|Gloss=at|nWord=6|RX=[PREP]
-8	láːp-kə́nì	láːp-kə́nì	VERB	_	VerbForm=Vnoun	7	comp:aux	_	AlignBegin=347460|AlignEnd=347660|ExtPos=NOUN|Gloss=follow-NMLZ
-9	ŋâː	ŋâː	PART	_	PartType=Int|Polarity=Neg	4	mod	_	AlignBegin=347660|AlignEnd=347860|GE=[Q].[NEG]|Gloss=Q.NEG|nWord=8|RX=[PTCL].[ASS]
-10	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=347860|AlignEnd=348060|GE=[?//]|Gloss=PUNCT|nWord=9
+7	á	ká	ADP	_	_	5	comp:obl	_	AlignBegin=347260|AlignEnd=347460|Gloss=at
+8	láːpkə̂n	láːp	VERB	_	VerbForm=Vnoun	7	comp:aux	_	AlignBegin=347460|AlignEnd=347660|ExtPos=NOUN|Gloss=follow-NMLZ
+9	ŋâː	ŋâː	PART	_	PartType=Int|Polarity=Neg	2	mod	_	AlignBegin=347660|AlignEnd=347860|GE=[Q].[NEG]|Gloss=Q.NEG|nWord=8|RX=[PTCL].[ASS]
+10	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=347860|AlignEnd=348060|GE=[?//]|Gloss=PUNCT|nWord=9
 
 # sent_id = SAY_BC_INT_01_Religion_217-217
 # speaker_id = SP1
