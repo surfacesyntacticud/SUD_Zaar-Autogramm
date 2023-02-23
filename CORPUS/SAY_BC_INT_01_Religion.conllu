@@ -970,7 +970,7 @@
 # text = ngəʃí wò ngapkíː //
 # text_ortho = ngəʃí wò ngapkíː //
 # text_en = The thing would catch you.
-1	ngəʃí	ngə́tn	NOUN	_	Definite=Def	2	subj	_	AlignBegin=169860|AlignEnd=170055|GE=thing[INDF]|Gloss=thing-DEF|MGloss=thingINDF|MSeg=ngə́tn-i|nWord=1|RX=[N][ART]|wordform=ngə́tn
+1	ngəʃí	ngə́tn	NOUN	_	Definite=Def	2	subj	_	AlignBegin=169860|AlignEnd=170055|Gloss=thing-DEF|MGloss=thing.DEF
 2	wò	wò	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=170055|AlignEnd=170250|GE=[3SG].[FUT]|Gloss=3SG.FUT|nWord=2|RX=[PNTAM]
 3-4	ngap-íː	_	_	_	_	_	_	_	_
 3	#ngap-íː	ngap	VERB	_	Aspect=Res	2	comp:aux	_	AlignBegin=170250|AlignEnd=170445|GE=catch[RES]|Gloss=catch|MGloss=catchRES|MSeg=ngap-íː|nWord=3|RX=[V][TAM]|wordform=ngap
@@ -1713,42 +1713,34 @@
 12	m̀ː	m̀ː	INTJ	_	_	10	discourse	_	AlignBegin=302669|AlignEnd=302852|GE=[HESIT]|Gloss=HESIT|nWord=13|RX=[INTJ]
 13	&//	&//	PUNCT	_	_	10	punct	_	AlignBegin=302852|AlignEnd=303034|nWord=14|Gloss=PUNCT
 
-# sent_id = SAY_BC_INT_01_Religion_186-187
+# sent_id = SAY_BC_INT_01_Religion_186-188
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_Religion.WAV
-# sent_timecode = 303034, 304641
-# text = kúskə̀ ngəʃí ɗan kə fíː tôː < séː kyáː káɓíː //
-# text_ortho = kúskə̀ ngəʃí ɗan kə fíː tôː < séː kyáː káɓíː //
-# text_en = The bad thing that you had done, well,  you had to confess it.
+# sent_timecode = 303034, 306400
+# text = kúskə̀ ngəʃí ɗan kə fíː tôː < séː kyáː káɓíː < kə wul tu máː fi kúskə̀ ngə́tn wón tsəní //
+# text_ortho = kúskə̀ ngəʃí ɗan kə fíː tôː < séː kyáː káɓíː < kə wul tu máː fi kúskə̀ ngə́tn wón tsəní //
+# text_en = The bad thing that you had done, well,  if you confess it, you say I have done a bad thing like this.
 1	kúskə̀	kúskə̀	ADJ	_	_	2	mod	_	AlignBegin=303034|AlignEnd=303178|GE=evil|Gloss=evil|nWord=15|RX=[ADJ]
-2	ngəʃí	ngə́tn	NOUN	_	Definite=Cons	9	dislocated@comp	_	AlignBegin=303178|AlignEnd=303322|Gloss=thing
+2	ngəʃí	ngə́tn	NOUN	_	Definite=Def	12	dislocated@top	_	AlignBegin=303178|AlignEnd=303322|Gloss=thing.DEF
 3	ɗan	ɗan	SCONJ	_	_	2	mod@relcl	_	AlignBegin=303322|AlignEnd=303466|GE=that|Gloss=REL|nWord=17|RX=[REL]
 4	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	3	comp:obj	_	AlignBegin=303466|AlignEnd=303610|GE=[2SG].[AOR]|Gloss=2SG.AOR|nWord=18|RX=[PNTAM]
 5	fíː	fi	VERB	_	Aspect=Res	4	comp:aux	_	AlignBegin=303610|AlignEnd=303754|GE=do[RES]|Gloss=do|MGloss=doRES|MSeg=fi-íː|nWord=19|RX=[V][TAM]|wordform=fi
-6	tòː	tòː	PART	_	_	9	discourse	_	AlignBegin=303754|AlignEnd=303898|GE=[DM]|Gloss=DM|nWord=20|RX=[PTCL]
+6	tòː	tòː	PART	_	_	12	discourse	_	AlignBegin=303754|AlignEnd=303898|GE=[DM]|Gloss=DM|nWord=20|RX=[PTCL]
 7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=303898|AlignEnd=304041|GE=[<]|Gloss=PUNCT|nWord=21
-8	séː	séː	ADV	_	_	9	mod	_	AlignBegin=304041|AlignEnd=304191|GE=must|Gloss=must|nWord=22|RX=[CONJ]
-9	kyáː	yáː	AUX	_	Mood=Cond|Number=Sing|Person=2	0	root	_	AlignBegin=304191|AlignEnd=304341|GE=[2SG].[COND]|Gloss=2SG.COND|nWord=23|RX=[PNTAM]
+8	séː	séː	ADV	_	_	12	mod	_	AlignBegin=304041|AlignEnd=304191|GE=must|Gloss=must|nWord=22|RX=[CONJ]
+9	kyáː	yáː	AUX	_	Mood=Cond|Number=Sing|Person=2	12	mod	_	AlignBegin=304191|AlignEnd=304341|GE=[2SG].[COND]|Gloss=2SG.COND|nWord=23|RX=[PNTAM]
 10	káɓíː	kap	VERB	_	Aspect=Res	9	comp:aux	_	AlignBegin=304341|AlignEnd=304491|GE=take[RES]|Gloss=take-RES
-11	//	//	PUNCT	_	_	9	punct	_	AlignBegin=304491|AlignEnd=304641|GE=[//]|Gloss=PUNCT|nWord=25
-
-# sent_id = SAY_BC_INT_01_Religion_188-188
-# speaker_id = SP1
-# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_Religion.WAV
-# sent_timecode = 305120, 306400
-# text = kə wul tu máː fi kúskə̀ ngə́tn wón tsəní //
-# text_ortho = kə wul tu máː fî kúskə̀ ngə́tn wón tsə́n //
-# text_en = You said I have done a bad thing like this.
-1	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=305120|AlignEnd=305248|GE=[2SG].[AOR]|Gloss=2SG.AOR|nWord=1|RX=[PNTAM]
-2	wul	wul	VERB	_	_	1	comp:aux	_	AlignBegin=305248|AlignEnd=305376|GE=say|Gloss=say|nWord=2|RX=[V]
-3	tu	tu	PART	_	_	5	comp:obj	_	AlignBegin=305376|AlignEnd=305504|GE=[COMP]|Gloss=COMP|nWord=3|RX=[PTCL]
-4	máː	à́ː	AUX	_	Aspect=Perf|Number=Sing|Person=1	3	comp:obj	_	AlignBegin=305504|AlignEnd=305632|GE=[1SG].[CPL]|Gloss=1SG.CPL|nWord=4|RX=[PNTAM]
-5	fi	fi	VERB	_	_	1	comp:aux	_	AlignBegin=305632|AlignEnd=305760|GE=do|Gloss=do|nWord=5|RX=[V]
-6	kúskə̀	kúskə̀	ADJ	_	_	5	comp:obj	_	AlignBegin=305760|AlignEnd=305888|GE=evil|Gloss=evil|nWord=6|RX=[ADJ]
-7	ngə́tn	ngə́tn	NOUN	_	_	5	comp:obj	_	AlignBegin=305888|AlignEnd=306016|GE=thing|Gloss=thing|nWord=7|RX=[N]
-8	wón	wón	DET	_	Definite=Spec	5	compound:prt	_	AlignBegin=306016|AlignEnd=306144|GE=[QLT]|Gloss=QLT|nWord=8|RX=[DET]
-9	tsəní	tsəní	ADV	_	_	5	mod	_	AlignBegin=306144|AlignEnd=306272|GE=like_this|Gloss=like_this|nWord=9|RX=[ADV]
-10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=306272|AlignEnd=306400|GE=[//]|Gloss=PUNCT|nWord=10
+11	<	<	PUNCT	_	_	9	punct	_	AlignBegin=304491|AlignEnd=304641|GE=[//]|Gloss=PUNCT|nWord=25
+12	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=305120|AlignEnd=305248|GE=[2SG].[AOR]|Gloss=2SG.AOR|nWord=1|RX=[PNTAM]
+13	wul	wul	VERB	_	_	12	comp:aux	_	AlignBegin=305248|AlignEnd=305376|GE=say|Gloss=say|nWord=2|RX=[V]
+14	tu	tu	PART	_	_	13	comp:obj	_	AlignBegin=305376|AlignEnd=305504|GE=[COMP]|Gloss=COMP|nWord=3|RX=[PTCL]
+15	máː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=1	14	comp:obj	_	AlignBegin=305504|AlignEnd=305632|GE=[1SG].[CPL]|Gloss=1SG.CPL|nWord=4|RX=[PNTAM]
+16	fi	fi	VERB	_	_	15	comp:aux	_	AlignBegin=305632|AlignEnd=305760|GE=do|Gloss=do|nWord=5|RX=[V]
+17	kúskə̀	kúskə̀	ADJ	_	_	18	mod	_	AlignBegin=305760|AlignEnd=305888|GE=evil|Gloss=evil|nWord=6|RX=[ADJ]
+18	ngə́tn	ngə́tn	NOUN	_	_	16	comp:obj	_	AlignBegin=305888|AlignEnd=306016|GE=thing|Gloss=thing|nWord=7|RX=[N]
+19	wón	wón	DET	_	Definite=Spec	18	det	_	AlignBegin=306016|AlignEnd=306144|GE=[QLT]|Gloss=QLT|nWord=8|RX=[DET]
+20	tsəní	tsəní	ADV	_	_	16	mod	_	AlignBegin=306144|AlignEnd=306272|GE=like_this|Gloss=like_this|nWord=9|RX=[ADV]
+21	//	//	PUNCT	_	_	12	punct	_	AlignBegin=306272|AlignEnd=306400|GE=[//]|Gloss=PUNCT|nWord=10
 
 # sent_id = SAY_BC_INT_01_Religion_189-189
 # speaker_id = SP1
@@ -2467,7 +2459,7 @@
 1	áː	á	INTJ	_	_	0	root	_	AlignBegin=425784|AlignEnd=426069|GE=[HESIT]|Gloss=HESIT|nWord=1|RX=[INTJ]
 2	dàlíːli	dàlíːli	N<	_	_	1	comp:aux	_	AlignBegin=426069|AlignEnd=426354|GE=reason|Gloss=reason|nWord=2|RX=[N<]
 3	gyáː	gyaaː	DET	_	Number=Plur	4	mod	_	AlignBegin=426354|AlignEnd=426639|GE=[PL]|Gloss=PL|nWord=3|RX=[DET]
-4	ngə́tn-i	ngə́tn-i	NOUN	_	_	1	subj	_	AlignBegin=426639|AlignEnd=426924|GE=thing[INDF]|Gloss=thing|MGloss=thingINDF|MSeg=ngə́tn-i|nWord=4|RX=[N][ART]|wordform=ngə́tn
+4	ngəʃí	ngə́tn	NOUN	_	Definite=Def	1	subj	_	AlignBegin=426639|AlignEnd=426924Gloss=thing|MGloss=thing.DEF
 5	ɗan	ɗan	SCONJ	_	_	7	compound:prt	_	AlignBegin=426924|AlignEnd=427209|GE=that|Gloss=REL|nWord=5|RX=[REL]
 6	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	5	comp:obj	_	AlignBegin=427209|AlignEnd=427494|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=6|RX=[PNTAM]
 7-9	ʧaː-íː	_	_	_	_	_	_	_	_
