@@ -1194,7 +1194,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 162844, 165405
-# text = yǎː yêl zǎːr ʒèliyàː < tu ʧǎː súːtə yélɣə́nìyòː //
+# text = yǎː yêl zǎːr ʒèliyàː < tu ʧàː súːtə yélɣə́nìyòː //
 # text_ortho = yǎː yêl zǎːr ʒèliyàː < tu ʧàː súːtə yélɣə́nì òː //
 # text_en =  When they see a white man, they say they want to look at him.
 1	yǎː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=3	8	parataxis@mod	_	AlignBegin=162844|AlignEnd=163093|Gloss=3PL.COND
@@ -1205,10 +1205,10 @@
 5	àː	aː	PART	_	PartType=Int	1	mod	_	AlignBegin=163715|AlignEnd=163840|Gloss=VRT
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=163840|AlignEnd=164089|Gloss=PUNCT
 7	tu	tu	SCONJ	_	Mood=Qot	8	discourse	_	AlignBegin=164089|AlignEnd=164253|Gloss=OPN
-8	ʧǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=164253|AlignEnd=164417|Gloss=3PL.IMP
+8	ʧàː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=164253|AlignEnd=164417|Gloss=3PL.IMP
 9-10	súːtə	_	_	_	_	_	_	_	_
 9	súː	súː	VERB	_	VerbForm=Fin	8	comp:aux	_	AlignBegin=164417|AlignEnd=164499|Gloss=want
-10	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	mod	_	AlignBegin=164499|AlignEnd=164581|Gloss=3SG.OBJ
+10	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	comp:obj@x	_	AlignBegin=164499|AlignEnd=164581|Gloss=3SG.OBJ
 11-12	yélɣə́nìyòː	_	_	_	_	_	_	_	_
 11	yélɣə́nì	yel	VERB	_	VerbForm=Vnoun	9	comp:obj	_	AlignBegin=164745|AlignEnd=164827|ExtPos=NOUN|Gloss=see.NMLZ
 12	òː	oː	PART	_	PartType=Emp	8	mod	_	AlignBegin=164909|AlignEnd=165073|Gloss=EMPH
@@ -1224,7 +1224,7 @@
 1	myǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	0	root	_	AlignBegin=164971|AlignEnd=165324|Gloss=1PL.IMP
 2-3	súːtə	_	_	_	_	_	_	_	_
 2	súː	súː	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=165324|AlignEnd=165500|Gloss=want
-3	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	mod	_	AlignBegin=165500|AlignEnd=165677|Gloss=3SG.OBJ
+3	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj@x	_	AlignBegin=165500|AlignEnd=165677|Gloss=3SG.OBJ
 4	yélɣə́nì	yel	VERB	_	VerbForm=Vnoun	2	comp:obj	_	AlignBegin=165677|AlignEnd=165854|ExtPos=NOUN|Gloss=see.NMLZ
 5	sòːséy	sòːséy	ADV	_	_	2	mod	_	AlignBegin=166031|AlignEnd=166283|Gloss=quite
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=166283|AlignEnd=166536|Gloss=PUNCT
@@ -1374,14 +1374,14 @@
 2	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=187450|AlignEnd=187648|Gloss=1PL.AOR
 3-4	dìngátə	_	_	_	_	_	_	_	_
 3	dìngá	dingá	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=187648|AlignEnd=187747|Gloss=keep_on|SVC=Yes
-4	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	mod	_	AlignBegin=187747|AlignEnd=187846|Gloss=3SG.OBJ
+4	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj@x	_	AlignBegin=187747|AlignEnd=187846|Gloss=3SG.OBJ
 5	yélɣə̂n	yel	VERB	_	VerbForm=Vnoun	3	comp:obj	_	AlignBegin=187846|AlignEnd=187945|ExtPos=NOUN|Gloss=see.NMLZ
 6	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	2	conj:coord	_	AlignBegin=188044|AlignEnd=188242|Gloss=1PL.AOR
 7	wû	wul	VERB	_	VerbForm=Fin	6	comp:aux	_	AlignBegin=188242|AlignEnd=188440|Gloss=say
 8	tu	tu	SCONJ	_	Mood=Qot	7	comp:obj	_	AlignBegin=188440|AlignEnd=188638|Gloss=OPN
 9-10	kúniwòsə́n	_	_	_	_	_	_	_	_
-9	kúni	kúni	NOUN	_	_	11	subj	_	AlignBegin=188833|AlignEnd=188924|Gloss=boy
-10	=wòsə́n	=wos	PRON	_	Case=Gen|Deixis=Prox|Number=Sing|Person=3|PronType=Prs	9	mod@poss	_	AlignBegin=188924|AlignEnd=189015|Gloss=3SG.POS
+9	#kúni-ə́n	kúni	NOUN	_	Deixis=Prox	11	subj	_	AlignBegin=188833|AlignEnd=188924|Gloss=boy-PROX
+10	=wòs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	9	mod@poss	_	AlignBegin=188924|AlignEnd=189015|Gloss=3SG.POS
 11	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	8	comp:obj	_	AlignBegin=189107|AlignEnd=189381|Gloss=3SG.AOR
 12	ndârá	ndará	VERB	_	VerbForm=Fin	11	comp:aux	_	AlignBegin=189381|AlignEnd=189655|Gloss=be_proper
 13	nán	nán	ADV	_	_	12	mod	_	AlignBegin=189655|AlignEnd=189929|Gloss=really
@@ -1815,7 +1815,7 @@
 8	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	comp:obj@x	_	AlignBegin=245017|AlignEnd=245138|Gloss=1PL.OBJ
 9	ɣá	ká	ADP	_	_	7	comp:obl	_	AlignBegin=245138|AlignEnd=245381|Gloss=at|wordform=ɣá
 10	sə́ːɣə́nì	səː	VERB	_	VerbForm=Vnoun	9	comp:obj	_	AlignBegin=245381|AlignEnd=245503|ExtPos=NOUN|Gloss=breathe.NMLZ
-11	ɗa	ɗa	ADP	_	_	10	mod	_	AlignBegin=245624|AlignEnd=245867|Gloss=at
+11	ɗa	ɗa	ADP	_	_	10	comp:loc	_	AlignBegin=245624|AlignEnd=245867|Gloss=at
 12	də̀nì	də̀n	NOUN	_	Definite=Ind	11	comp:obj	_	AlignBegin=245867|AlignEnd=245989|Gloss=house
 13	//	//	PUNCT	_	_	6	punct	_	AlignBegin=246110|AlignEnd=246353|Gloss=PUNCT
 
