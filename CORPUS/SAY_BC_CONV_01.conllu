@@ -120,12 +120,14 @@
 # text = ʧì tə́ gyaː Sáːní báː ?//
 # text_ortho = ʧì tə́ gyaːːː Sáːní báː ?//
 # text_en =  Him and... Sani, no?
-1	ʧì	ʧì	PRON	_	Number=Plur|Person=3	2	subj	_	AlignBegin=10738|AlignEnd=10800|Gloss=3PL
-2	tə́	tə́	ADP	_	_	0	root	_	AlignBegin=10943|AlignEnd=11148|Gloss=with
-3	gyaː	gyaː	DET	_	Number=Plur	4	det	_	AlignBegin=11148|AlignEnd=11353|Gloss=PL3
-4	Sáːní	Sáːní	PROPN	_	_	2	comp:obj	_	AlignBegin=11353|AlignEnd=11555|Gloss=Sani
-5	báː	báː	PART	_	Polarity=Neg	2	discourse	_	AlignBegin=11555|AlignEnd=11757|Gloss=NEG
-6	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=11757|AlignEnd=11960|Gloss=PUNCT
+1-2	ʧì	_	_	_	_	_	_	_	_
+1	tə̀	tə̀	PRON	_	Number=Plur|Person=3	2	subj	_	AlignBegin=10738|Gloss=3PL
+2	yi	yi	VERB	_	_	0	root	_	Gloss=be|AlignEnd=10800
+3	tə́	tə́	ADP	_	_	2	comp:pred	_	AlignBegin=10943|AlignEnd=11148|Gloss=with
+4	gyaː	gyaː	DET	_	Number=Plur	5	det	_	AlignBegin=11148|AlignEnd=11353|Gloss=PL3
+5	Sáːní	Sáːní	PROPN	_	_	3	comp:obj	_	AlignBegin=11353|AlignEnd=11555|Gloss=Sani
+6	báː	báː	PART	_	Polarity=Neg	2	discourse	_	AlignBegin=11555|AlignEnd=11757|Gloss=NEG
+7	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=11757|AlignEnd=11960|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_015-015
 # speaker_id = SP1
@@ -1564,18 +1566,22 @@
 2	wúl	wul	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=179935|AlignEnd=180001|Gloss=say
 3	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:ben	_	AlignBegin=180001|AlignEnd=180068|Gloss=3SG.OBJ
 4	tu	tu	SCONJ	_	Mood=Qot	2	comp:obj	_	AlignBegin=180068|AlignEnd=180202|Gloss=OPN
-5	mi	mi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	AlignBegin=180202|AlignEnd=180479|Gloss=1SG
-6	tə́	tə́	ADP	_	_	4	comp:obj	_	AlignBegin=180479|AlignEnd=180756|Gloss=with
-7-8	túrâtn	_	_	_	_	_	_	_	_
-7	túr	túr	NOUN	_	_	6	comp:obj	_	AlignBegin=180756|AlignEnd=180894|Gloss=husband
-8	=âtn	=atn	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	mod@poss	_	AlignBegin=180894|AlignEnd=181033|Gloss=1SG.POS
-9	kúmá	kúmá	CCONJ	_	_	11	cc	_	AlignBegin=181033|AlignEnd=181309|Gloss=also
-10	mi	mi	PRON	_	Number=Sing|Person=1|PronType=Prs	11	subj	_	AlignBegin=181309|AlignEnd=181468|Gloss=1SG
-11	tə́	tə́	ADP	_	_	6	conj:coord	_	AlignBegin=181468|AlignEnd=181627|Gloss=with
-12-13	kúɲêtn	_	_	_	_	_	_	_	_
-12	kúni	kúni	NOUN	_	_	11	comp:obj	_	AlignBegin=181627|AlignEnd=181707|Gloss=boy
-13	=âtn	=atn	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	mod@poss	_	AlignBegin=181707|AlignEnd=181786|Gloss=1SG.POS
-14	//	//	PUNCT	_	_	1	punct	_	AlignBegin=181786|AlignEnd=181944|Gloss=PUNCT
+5-6	mi	_	_	_	_	_	_	_	_
+5	mə	mə	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	AlignBegin=180202|Gloss=1SG
+6	yi	yi	VERB	_	_	4	comp:obj	_	AlignEnd=180479|Gloss=be
+7	tə́	tə́	ADP	_	_	6	comp:pred	_	AlignBegin=180479|AlignEnd=180756|Gloss=with
+8-9	túrâtn	_	_	_	_	_	_	_	_
+8	túr	túr	NOUN	_	_	6	comp:obj	_	AlignBegin=180756|AlignEnd=180894|Gloss=husband
+9	=âtn	=atn	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	mod@poss	_	AlignBegin=180894|AlignEnd=181033|Gloss=1SG.POS
+10	kúmá	kúmá	CCONJ	_	_	12	cc	_	AlignBegin=181033|AlignEnd=181309|Gloss=also
+11-12	mi	_	_	_	_	_	_	_	_
+11	mə	mə	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	AlignBegin=181309|Gloss=1SG
+12	yi	yi	VERB	_	_	6	conj:coord	_	AlignEnd=181468|Gloss=be
+13	tə́	tə́	ADP	_	_	12	comp:pred	_	AlignBegin=181468|AlignEnd=181627|Gloss=with
+14-15	kúɲêtn	_	_	_	_	_	_	_	_
+14	kúni	kúni	NOUN	_	_	13	comp:obj	_	AlignBegin=181627|AlignEnd=181707|Gloss=boy
+15	=âtn	=atn	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	mod@poss	_	AlignBegin=181707|AlignEnd=181786|Gloss=1SG.POS
+16	//	//	PUNCT	_	_	1	punct	_	AlignBegin=181786|AlignEnd=181944|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_179-179
 # speaker_id = SP2
@@ -2536,11 +2542,13 @@
 9	məʃíː	məs	VERB	_	Aspect=Res|VerbForm=Fin	8	comp:aux	_	AlignBegin=290074|AlignEnd=290162|Gloss=die.RES
 10	àmáŋ	àmáː	CCONJ	_	_	14	cc	_	AlignBegin=290250|AlignEnd=290449|Gloss=but
 11-12	bàːbagòʃíː	_	_	_	_	_	_	_	_
-11	#bàːba-íː	bàːba	NOUN	_	Deixis=Remt	14	dislocated@subj	_	AlignBegin=290449|AlignEnd=290648|Gloss=father.DIST
-12	gòs	gòs	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	mod@poss	_	AlignBegin=290648|AlignEnd=290748|Gloss=3SG.POS
-13	ʧi	ʧi	PRON	_	Number=Sing|Person=3|PronType=Prs	14	subj	_	AlignBegin=290847|AlignEnd=291046|Gloss=3SG
-14	ɗa	ɗa	ADP	_	_	8	conj:coord	_	AlignBegin=291046|AlignEnd=291245|Gloss=be
-15	//	//	PUNCT	_	_	8	punct	_	AlignBegin=291245|AlignEnd=291445|Gloss=PUNCT
+11	bàːba	bàːba	NOUN	_	_	14	dislocated@subj	_	AlignBegin=290449|AlignEnd=290648|Gloss=father
+12	gòʃíː	gòs	PRON	_	Deixis=Remt|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	mod@poss	_	AlignBegin=290648|AlignEnd=290748|Gloss=3SG.POSS.DIST
+13-14	ʧi	_	_	_	_	_	_	_	_
+13	tə	tə	PRON	_	Number=Sing|Person=3|PronType=Prs	14	subj	_	AlignBegin=290847|Gloss=3SG
+14	yi	yi	VERB	_	_	8	conj:coord	_	AlignEnd=291046|Gloss=be
+15	ɗa	ɗa	ADP	_	_	14	comp:pred	_	AlignBegin=291046|AlignEnd=291245|Gloss=be
+16	//	//	PUNCT	_	_	8	punct	_	AlignBegin=291245|AlignEnd=291445|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_296-297
 # speaker_id = SP2
@@ -2549,18 +2557,20 @@
 # text = so < bàː ʧi tə́ gyóːɗan wò teːmakéʃín //
 # text_ortho = so < bàː ʧi tə́ gyóːɗan wò teːmakéʃín //
 # text_en =  <en So en>, he has noone to help him.
-1	so	so	CCONJ	_	Foreign=Yes	5	discourse	_	AlignBegin=292018|AlignEnd=292201|Gloss=so|Lang=en
+1	so	so	X	_	Foreign=Yes	5	discourse	_	AlignBegin=292018|AlignEnd=292201|Gloss=so|Lang=en
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=292201|AlignEnd=292384|Gloss=PUNCT
 3	bàː	bàː	PART	_	Polarity=Neg	5	mod	_	AlignBegin=292384|AlignEnd=292583|Gloss=NEG
-4	ʧi	ʧi	PRON	_	Number=Sing|Person=3|PronType=Prs	5	subj	_	AlignBegin=292583|AlignEnd=292782|Gloss=3SG
-5	tə́	tə́	ADP	_	_	0	root	_	AlignBegin=292782|AlignEnd=292981|Gloss=with
-6	gyóːɗan	gyóːɗan	PRON	_	PronType=Rel	5	comp:obj	_	AlignBegin=292981|AlignEnd=293180|Gloss=the_one_which
-7	wò	wò	AUX	_	Number=Sing|Person=3|Tense=Fut	6	mod@relcl	_	AlignBegin=293180|AlignEnd=293379|Gloss=3SG.FUT
-8-10	teːmakéʃín	_	_	_	_	_	_	_	_
-8	teːmaké	teːmaké	VERB	_	VerbForm=Fin	7	comp:aux	_	AlignBegin=293379|AlignEnd=293445|Gloss=help
-9	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=293445|AlignEnd=293511|Gloss=3PL.OBJ
-10	hŋ́	hŋ́	PART	_	Polarity=Neg	5	mod	_	AlignBegin=293511|AlignEnd=293578|Gloss=NEG
-11	//	//	PUNCT	_	_	5	punct	_	AlignBegin=293578|AlignEnd=293779|Gloss=PUNCT
+4-5	ʧi	_	_	_	_	_	_	_	_
+4	tə	tə	PRON	_	Number=Sing|Person=3|PronType=Prs	5	subj	_	AlignBegin=292583|Gloss=3SG
+5	yi	yi	VERB	_	_	0	root	_	AlignEnd=292782|Gloss=be
+6	tə́	tə́	ADP	_	_	5	comp:pred	_	AlignBegin=292782|AlignEnd=292981|Gloss=with
+7	gyóːɗan	gyóːɗan	PRON	_	PronType=Rel	6	comp:obj	_	AlignBegin=292981|AlignEnd=293180|Gloss=the_one_which
+8	wò	wò	AUX	_	Number=Sing|Person=3|Tense=Fut	7	mod@relcl	_	AlignBegin=293180|AlignEnd=293379|Gloss=3SG.FUT
+9-11	teːmakéʃín	_	_	_	_	_	_	_	_
+9	teːmaké	teːmaké	VERB	_	VerbForm=Fin	8	comp:aux	_	AlignBegin=293379|AlignEnd=293445|Gloss=help
+10	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=293445|AlignEnd=293511|Gloss=3PL.OBJ
+11	hŋ́	hŋ́	PART	_	Polarity=Neg	5	mod	_	AlignBegin=293511|AlignEnd=293578|Gloss=NEG
+12	//	//	PUNCT	_	_	5	punct	_	AlignBegin=293578|AlignEnd=293779|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_298-298
 # speaker_id = SP2
@@ -2569,7 +2579,7 @@
 # text = ʧáː súː &//
 # text_ortho = ʧáː súː &//
 # text_en =  He wants...
-1	ʧáː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=293779|AlignEnd=293987|Gloss=3SG.IMP
+1	ʧáː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root@scrap	_	AlignBegin=293779|AlignEnd=293987|Gloss=3SG.IMP
 2	súː	súː	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=293987|AlignEnd=294195|Gloss=want
 3	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=294195|AlignEnd=294403|Gloss=PUNCT
 
@@ -2657,9 +2667,9 @@
 # text_en =  If this thing is God's <hau making hau>, given what he has done, since he is serious about me, saying that he loves me, if he starts, well, <hau that's it hau>, I can marry him.
 1	ín	ín	SCONJ	_	_	35	mod	_	AlignBegin=306409|AlignEnd=306683|Gloss=if
 2	ngə́ʃês	ngə́ʃi	NOUN	_	Definite=Def	4	dislocated@subj	_	AlignBegin=306683|AlignEnd=306820|Gloss=thing.DEF
-3	yâːn	yáːni	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	subj	_	AlignBegin=306957|AlignEnd=307231|Gloss=3SG.IDP
+3	yâːn	yáːni	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	conj:appos	_	AlignBegin=306957|AlignEnd=307231|Gloss=3SG.IDP
 4	nə	nə	PART	_	VerbType=Cop	1	comp:obj	_	AlignBegin=307231|AlignEnd=307403|Gloss=be
-5	shiri	shiri	NOUN	_	Foreign=Yes	4	comp:pred	_	AlignBegin=307403|AlignEnd=307575|Gloss=plan|Lang=hau
+5	shiri	shiri	X	_	Foreign=Yes	4	comp:pred	_	AlignBegin=307403|AlignEnd=307575|Gloss=plan|Lang=hau
 6	Tʃôkn	Tʃôkn	PROPN	_	_	5	mod@poss	_	AlignBegin=307575|AlignEnd=307747|Gloss=God
 7	deː	deː	PART	_	_	4	discourse	_	AlignBegin=307747|AlignEnd=307919|Gloss=indeed
 8	<	<	PUNCT	_	_	1	punct	_	AlignBegin=307919|AlignEnd=308089|Gloss=PUNCT
