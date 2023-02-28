@@ -422,8 +422,8 @@
 4	ka	wò	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=72564|AlignEnd=72692|GE=[2SG].[FUT]|Gloss=2SG.FUT|nWord=4|RX=[PNTAM]
 5	fut	fut	VERB	_	_	4	comp:aux	_	AlignBegin=72692|AlignEnd=72820|GE=survive|Gloss=survive|nWord=5|RX=[V]
 6	hŋ́	hŋ́	PART	_	Polarity=Neg	4	mod	_	AlignBegin=72820|AlignEnd=72950|GE=[NEG2]|Gloss=NEG2|nWord=6|RX=[PTCL].[NEG]
-7	séː	séː	SCONJ	_	_	4	mod	_	AlignBegin=72950|AlignEnd=73091|GE=except|Gloss=except|Idiom=Yes|nWord=7|RX=[CONJ]
-8	déː	déː	ADV	_	_	7	unk	_	AlignBegin=73091|AlignEnd=73232|GE=only|Gloss=only|Idiom=Yes|nWord=8|RX=[ADV]
+7	séː	séː	SCONJ	_	_	4	mod	_	AlignBegin=72950|AlignEnd=73091|GE=except|Gloss=except|Idiom=Yes|nWord=7|RX=[CONJ]|ExtPos=SCONJ
+8	déː	déː	ADV	_	_	7	unk	_	AlignBegin=73091|AlignEnd=73232|GE=only|Gloss=only|nWord=8|RX=[ADV]|InIdiom=Yes
 9	ʧǎː	ʧáː	AUX	_	Mood=Cond|Number=Plur|Person=3	7	comp:obj	_	AlignBegin=73232|AlignEnd=73373|GE=[3PL].[COND]|Gloss=3PL.COND|nWord=9|RX=[PNTAM]
 10	ʧaː	ʧaː	VERB	_	_	9	comp:aux	_	AlignBegin=73373|AlignEnd=73514|GE=put|Gloss=put|nWord=10|RX=[V]
 11	wût	wût	FIRE	_	_	10	comp:obj	_	AlignBegin=73514|AlignEnd=73655|GE=[N]|Gloss=N|nWord=11|RX=[FIRE]
@@ -1894,8 +1894,8 @@
 1	m̀ː	m̀ː	INTJ	_	_	6	discourse	_	AlignBegin=323860|AlignEnd=324036|GE=[HESIT]|Gloss=HESIT|nWord=1|RX=[INTJ]
 2	gíː	gíː	PRON	_	PronType=Dem	6	dislocated@top	_	AlignBegin=324036|AlignEnd=324212|GE=[DIST]|Gloss=DIST|nWord=2|RX=[PRO].[DEICT]
 3	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=324212|AlignEnd=324388|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=3|RX=[PRO]
-4	séː	séː	ADV	_	_	6	mod	_	AlignBegin=324388|AlignEnd=324564|Gloss=must|Idiom=Yes|ExtPos=ADV
-5	ín	ín	SCONJ	_	_	4	unk	_	AlignBegin=324564|AlignEnd=324740|GE=if|Gloss=if|nWord=5|RX=[CONJ]
+4	séː	séː	ADV	_	_	6	mod	_	AlignBegin=324388|AlignEnd=324564|ExtPos=ADV|Gloss=must|Idiom=Yes
+5	ín	ín	SCONJ	_	_	4	unk	_	AlignBegin=324564|AlignEnd=324740|GE=if|Gloss=if|nWord=5|RX=[CONJ]|InIdiom=Yes
 6	ʧàːyi	ʧáːyi	AUX	_	Aspect=Imp,Iter|Number=Plur|Person=3	0	root	_	AlignBegin=324740|AlignEnd=324916|Gloss=3PL.ICPL.ITER
 7-8	yêlkíː	_	_	_	_	_	_	_	_
 7	#yêl-íː	yel	VERB	_	Aspect=Res	6	comp:aux	_	AlignBegin=324916|AlignEnd=325092|GE=see[RES]|Gloss=see|MGloss=seeRES|MSeg=yeli-íː|nWord=7|RX=[V][TAM]|wordform=yeli
@@ -2222,8 +2222,8 @@
 # text_en = But it was not like... er... as if there was something that we said that well... we were not following er... we were not following er... Jesus.
 1	àmáː	àmáː	CCONJ	_	_	3	discourse	_	AlignBegin=378460|AlignEnd=378740|GE=but|Gloss=but|nWord=1|RX=[CONJ]
 2	báː	báː	PART	_	Polarity=Neg	3	mod	_	AlignBegin=378740|AlignEnd=379020|GE=[NEG1]|Gloss=NEG1|nWord=2|RX=[PTCL].[NEG]
-3	ɗan	ɗan	ADP	_	_	0	root	_	AlignBegin=379020|AlignEnd=379300|Idiom=Yes|ExtPos=SCONJ|Gloss=as_if
-4	tu	tu	SCONJ	_	_	3	unk	_	AlignBegin=379300|AlignEnd=379580|GE=[COMP]|Gloss=COMP|nWord=4|RX=[PTCL]
+3	ɗan	ɗan	ADP	_	_	0	root	_	AlignBegin=379020|AlignEnd=379300|ExtPos=SCONJ|Gloss=as_if|Idiom=Yes
+4	tu	tu	SCONJ	_	_	3	unk	_	AlignBegin=379300|AlignEnd=379580|GE=[COMP]|Gloss=COMP|nWord=4|RX=[PTCL]|InIdiom=Yes
 5	əː	əː	INTJ	_	_	6	discourse	_	AlignBegin=380251|AlignEnd=381020|GE=[HESIT]|Gloss=HESIT|nWord=5|RX=[INTJ]
 6	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	3	comp:obj	_	AlignBegin=381400|AlignEnd=381587|Gloss=3SG.AOR
 7	fî	fi	VERB	_	_	6	comp:aux	_	AlignBegin=381587|AlignEnd=381774|GE=do|Gloss=do|nWord=7|RX=[V]
