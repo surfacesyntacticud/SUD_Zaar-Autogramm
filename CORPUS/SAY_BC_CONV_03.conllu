@@ -2369,7 +2369,7 @@
 4	eː	eː	PART	_	PartType=Int	2	mod	_	AlignBegin=321400|AlignEnd=321435|Gloss=Q
 5	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=321505|AlignEnd=321645|Gloss=PUNCT
 
-# sent_id = SAY_BC_CONV_03_305-309
+# sent_id = SAY_BC_CONV_03_309-309
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 321645, 324712
@@ -2377,11 +2377,11 @@
 # text_ortho = màːʃîn tá mán || màːʃîn tá mán marâm mə́n //
 # text_en =  The motorbike... the motorbike... broke down on me.
 1	màːʃîn	màːʃîn	NOUN	_	_	3	subj	_	AlignBegin=321922|AlignEnd=322104|Gloss=motorbike
-2	tá	tá	ADV	_	_	3	mod	_	AlignBegin=322104|AlignEnd=322286|Gloss=then
+2	tá	tá	PART	_	_	3	discourse	_	AlignBegin=322104|AlignEnd=322286|Gloss=then
 3	mán	man	VERB	_	VerbForm=Fin	0	root	_	AlignBegin=322286|AlignEnd=322468|Gloss=come|SVC=Yes
 4	||	||	PUNCT	_	_	7	punct	_	AlignBegin=322468|AlignEnd=322649|Gloss=PUNCT|SVC=Yes
 5	màːʃîn	màːʃîn	NOUN	_	_	7	subj	_	AlignBegin=322649|AlignEnd=322898|Gloss=motorbike
-6	tá	tá	ADV	_	_	7	mod	_	AlignBegin=322898|AlignEnd=323147|Gloss=then
+6	tá	tá	PART	_	_	7	discourse	_	AlignBegin=322898|AlignEnd=323147|Gloss=then
 7	mán	man	VERB	_	VerbForm=Fin	3	conj:dicto	_	AlignBegin=323147|AlignEnd=323396|Gloss=come|SVC=Yes
 8-9	marâm	_	_	_	_	_	_	_	_
 8	mará	mará	VERB	_	VerbForm=Fin	7	compound:svc	_	AlignBegin=324097|AlignEnd=324199|Gloss=spoil
@@ -2853,7 +2853,7 @@
 # text = ɗan mə mbíː kaːyâs káwây < myǎː ríːɣə̂n < káy < átâ naː nʤwâːtn mə̀ ndǎːɗíyoː //
 # text_ortho = ɗan mə mbíː kaːyâs káwây < myǎː ríːkə̂n < káy < átâ naː nʤwâːtn mə̀ ndǎːɗíyoː //
 # text_en =  I had hardly taken the luggage, as we were moving, when suddenly, we almost fell.
-1	ɗan	ɗan	SCONJ	_	_	12	mod	_	AlignBegin=364616|AlignEnd=364772|Gloss=then
+1	ɗan	ɗan	SCONJ	_	_	12	mod	_	AlignBegin=364616|AlignEnd=364772|Gloss=as
 2	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	1	comp:obj	_	AlignBegin=364772|AlignEnd=364928|Gloss=1SG.AOR
 3	mbíː	mbiː	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=364928|AlignEnd=365084|Gloss=take
 4	kaːyâs	kaːya	NOUN	_	Definite=Def	3	comp:obj	_	AlignBegin=365084|AlignEnd=365240|Gloss=things
@@ -3217,7 +3217,7 @@
 # text = tá níː túɣə̀ á dàtə́peː ?//
 # text_ortho = tá níː tûkə̀ á dàtə́peː ?//
 # text_en =  Well, what happened to you on the road?
-1	tá	tá	ADV	_	_	2	mod	_	AlignBegin=398140|AlignEnd=398304|Gloss=then
+1	tá	tá	PART	_	_	2	discourse	_	AlignBegin=398140|AlignEnd=398304|Gloss=then
 2	níː	níː	PRON	_	PronType=Int	0	root	_	AlignBegin=398304|AlignEnd=398468|Gloss=what
 3-4	túɣə̀	_	_	_	_	_	_	_	_
 3	tû	tu	VERB	_	VerbForm=Fin	2	comp:cleft	_	AlignBegin=398468|AlignEnd=398550|Gloss=meet
@@ -3659,7 +3659,7 @@
 6	màːʃîn	màːʃîn	NOUN	_	_	5	comp:obj	_	AlignBegin=433975|AlignEnd=434077|Gloss=motorbike
 7	hŋ́	hŋ́	PART	_	Polarity=Neg	4	mod	_	AlignBegin=434077|AlignEnd=434127|Gloss=NEG
 8	>	>	PUNCT	_	_	9	punct	_	AlignBegin=434127|AlignEnd=434279|Gloss=PUNCT
-9	séː	séː	ADP	_	_	4	mod	_	AlignBegin=434279|AlignEnd=434391|ExtPos=SCONJ|Gloss=until|Idiom=Yes
+9	séː	séː	ADP	_	_	4	mod	_	AlignBegin=434279|AlignEnd=434391|ExtPos=SCONJ|Gloss=not_until|Idiom=Yes
 10	ɗan	ɗan	SCONJ	_	_	9	unk	_	AlignBegin=434391|AlignEnd=434503|Gloss=as|InIdiom=Yes
 11	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	9	comp:obj	_	AlignBegin=434503|AlignEnd=434615|Gloss=1SG.AOR
 12	||	||	PUNCT	_	_	13	punct	_	AlignBegin=434615|AlignEnd=434729|Gloss=PUNCT
@@ -3946,7 +3946,7 @@
 3	tǎy	ta	VERB	_	Aspect=Res|VerbForm=Fin	2	comp:aux	_	AlignBegin=469375|AlignEnd=469527|Gloss=climb
 4	ɣáy	káy	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=469527|AlignEnd=469603|Gloss=ANAPH
 5	kwêy	káwây	ADV	_	_	3	mod	_	AlignBegin=469603|AlignEnd=469831|Gloss=merely
-6	séː	séː	ADV	_	_	3	mod	_	AlignBegin=469831|AlignEnd=470057|Gloss=then
+6	séː	séː	ADV	_	_	2	unk@scrap	_	AlignBegin=469831|AlignEnd=470057|Gloss=then
 7	èː	èː	INTJ	_	_	2	discourse	_	AlignBegin=470330|AlignEnd=470554|Gloss=èː
 8	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=470554|AlignEnd=470777|Gloss=PUNCT
 
@@ -5671,7 +5671,7 @@
 2	myâːn	myáːni	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	dislocated@comp	_	AlignBegin=655773|AlignEnd=655934|Gloss=1SG
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=655934|AlignEnd=656096|Gloss=PUNCT
 4	èː	èː	INTJ	_	_	6	discourse	_	AlignBegin=656573|AlignEnd=656874|Gloss=èː
-5	séː	séː	ADV	_	_	6	subj	_	AlignBegin=656874|AlignEnd=657001|Gloss=then
+5	séː	séː	ADV	_	_	6	mod	_	AlignBegin=656874|AlignEnd=657001|Gloss=then
 6	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=657001|AlignEnd=657128|Gloss=3PL.AOR
 7	||	||	PUNCT	_	_	8	punct	_	AlignBegin=657128|AlignEnd=657256|Gloss=PUNCT
 8	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	6	conj:dicto	_	AlignBegin=657256|AlignEnd=657463|Gloss=3PL.AOR
@@ -6707,7 +6707,7 @@
 # text = tá nə nîː ?//
 # text_ortho = tá nə nîː ?//
 # text_en =  Why is that?
-1	tá	tá	ADV	_	_	2	mod	_	AlignBegin=760458|AlignEnd=760535|Gloss=then
+1	tá	tá	ADV	_	_	2	discourse	_	AlignBegin=760458|AlignEnd=760535|Gloss=then
 2	nə	nə́	ADP	_	_	0	root	_	AlignBegin=760535|AlignEnd=760612|Gloss=for
 3	nîː	níː	PRON	_	PronType=Int	2	mod	_	AlignBegin=760612|AlignEnd=760689|Gloss=what
 4	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=760689|AlignEnd=760767|Gloss=PUNCT
@@ -6888,8 +6888,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 780250, 782390
-# text = tòː < gíː gòs kàm < tá káː kaɓêʃíː ǎː n ?//
-# text_ortho = tôː < gíː gòs kàm < tá káː kaɓêʃí ŋǎːn ?//
+# text = tòː < gíː gòs kàm < tá káː kaɓêʃíː ŋǎːn ?//
+# text_ortho = tôː < gíː gòs kàm < tá káː kaɓêʃíː ŋǎːn ?//
 # text_en =  Well, and you, did you marry her?
 1	tòː	tòː	PART	_	_	8	discourse	_	AlignBegin=780250|AlignEnd=780366|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=780366|AlignEnd=780482|Gloss=PUNCT
@@ -6897,11 +6897,12 @@
 4	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	mod@top	_	AlignBegin=780988|AlignEnd=781178|Gloss=3SG.POS
 5	kàm	kàm	PART	_	_	3	discourse	_	AlignBegin=781178|AlignEnd=781368|Gloss=indeed
 6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=781368|AlignEnd=781557|Gloss=PUNCT
-7	tá	tá	ADV	_	_	8	mod	_	AlignBegin=781557|AlignEnd=781724|Gloss=then
+7	tá	tá	PART	_	_	8	discourse	_	AlignBegin=781557|AlignEnd=781724|Gloss=then
 8	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	0	root	_	AlignBegin=781724|AlignEnd=781891|Gloss=2SG.PERF
 9	kaɓêʃíː	kap	VERB	_	Aspect=Res|Definite=Def|VerbForm=Fin	8	comp:aux	_	AlignBegin=781891|AlignEnd=782058|Gloss=take
-10	ǎː	ŋaː	PART	_	PartType=Int	8	mod	_	AlignBegin=782058|AlignEnd=782142|Gloss=Q
-11	n	hŋ́	PART	_	Polarity=Neg	8	mod	_	AlignBegin=782142|AlignEnd=782225|Gloss=NEG
+10-11	ŋǎːn	_	_	_	_	_	_	_	_
+10	ŋaː	ŋaː	PART	_	PartType=Int	8	mod	_	AlignBegin=782058|AlignEnd=782142|Gloss=Q
+11	hŋ́	hŋ́	PART	_	Polarity=Neg	8	mod	_	AlignBegin=782142|AlignEnd=782225|Gloss=NEG
 12	?//	?//	PUNCT	_	_	8	punct	_	AlignBegin=782225|AlignEnd=782390|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_815-815
@@ -6936,7 +6937,7 @@
 # text_en =  Get married before divorcing !
 1	kaɓíː	kap	VERB	_	Aspect=Res|Mood=Imp|VerbForm=Fin	0	root	_	AlignBegin=783965|AlignEnd=784137|Gloss=take
 2	ɣəndá	kəndá	ADV	_	_	3	mod	_	AlignBegin=784137|AlignEnd=784309|Gloss=then
-3	àː	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=2	1	parataxis@conj	_	AlignBegin=784309|AlignEnd=784481|Gloss=2SG.SUB
+3	àː	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=2	1	conj:coord	_	AlignBegin=784309|AlignEnd=784481|Gloss=2SG.SUB
 4	màn	man	VERB	_	VerbForm=Fin	3	comp:aux	_	AlignBegin=784481|AlignEnd=784653|Gloss=come|SVC=Yes
 5	ɓə̀ːlès	ɓəːl	VERB	_	VerbForm=Fin	4	compound:svc	_	AlignBegin=784653|AlignEnd=784825|Gloss=leave
 6	ɓà	ɓâ	INTJ	_	_	3	mod	_	AlignBegin=784825|AlignEnd=784997|Gloss=indeed
@@ -7128,7 +7129,7 @@
 7	hŋ́	hŋ́	PART	_	Polarity=Neg	4	mod	_	AlignBegin=803007|AlignEnd=803176|Gloss=NEG
 8	oː	oː	PART	_	PartType=Emp	4	mod	_	AlignBegin=803176|AlignEnd=803345|Gloss=EMPH
 9	<	<	PUNCT	_	_	4	punct	_	AlignBegin=803345|AlignEnd=803514|Gloss=PUNCT
-10	tá	tá	SCONJ	_	_	11	mod	_	AlignBegin=803514|AlignEnd=803683|Gloss=then
+10	tá	tá	PART	_	_	11	discourse	_	AlignBegin=803514|AlignEnd=803683|Gloss=then
 11	níː	níː	PRON	_	PronType=Int	0	root@scrap	_	AlignBegin=803683|AlignEnd=803852|Gloss=what
 12-13	ɬə́ːrɣə	_	_	_	_	_	_	_	_
 12	ɬə́ːr	ɬə	VERB	_	VerbForm=Fin	11	comp:cleft	_	AlignBegin=803852|AlignEnd=803964|Gloss=go-CAUS
@@ -7910,10 +7911,10 @@
 # text = tá tu ɓâ !//
 # text_ortho = tá tu ɓâː !//
 # text_en =  You don't say!
-1	tá	tá	ADV	_	_	2	discourse	_	AlignBegin=887893|AlignEnd=888034|Gloss=then
-2	tu	tu	SCONJ	_	Mood=Qot	0	root	_	AlignBegin=888034|AlignEnd=888175|Gloss=OPN
-3	ɓâ	ɓâ	INTJ	_	_	2	comp:obj	_	AlignBegin=888175|AlignEnd=888316|Gloss=indeed
-4	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=888316|AlignEnd=888457|Gloss=PUNCT
+1	tá	tá	ADV	_	_	0	root	_	AlignBegin=887893|AlignEnd=888034|Gloss=then|Idiom=Yes|ExtPos=INTJ
+2	tu	tu	SCONJ	_	Mood=Qot	1	unk	_	AlignBegin=888034|AlignEnd=888175|Gloss=OPN|InIdiom=Yes
+3	ɓâ	ɓâ	INTJ	_	_	2	unk	_	AlignBegin=888175|AlignEnd=888316|Gloss=indeed|InIdiom=Yes
+4	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=888316|AlignEnd=888457|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_923-923
 # speaker_id = SP2
