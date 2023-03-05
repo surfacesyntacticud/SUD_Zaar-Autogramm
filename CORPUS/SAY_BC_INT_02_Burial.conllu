@@ -525,20 +525,20 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_Burial.WAV
 # sent_timecode = 87380, 91180
-# text = tôː < kə́ || kə́ ɗû teː ɣə́y || teː gə̀ʃì tsə́n //
+# text = tôː < kə́ || kə́ ɗû teː ɣə́ || teː gə̀ʃì tsə́n //
 # text_ortho = tôː < kə́ || kə́ ɗû teː kə́ || teː gə̀ʃì tsə́n //
 # text_en = Well,  you...  you would beat it towards er... downstream like this.
 1	tòː	tòː	PART	_	_	3	discourse	_	AlignBegin=87380|AlignEnd=87533|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=87533|AlignEnd=87686|GE=[<]|Gloss=PUNCT|nWord=2
 3	kə́	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=88473|AlignEnd=88627|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=3|RX=[PNTAM]
-4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=88627|AlignEnd=88780|GE=[$$]|nWord=4|Gloss=PUNCT
+4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=88627|AlignEnd=88780|GE=[$$]|Gloss=PUNCT|nWord=4
 5	kə́	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	3	parataxis@conj	_	AlignBegin=88780|AlignEnd=89013|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=5|RX=[PNTAM]
 6	ɗû	ɗu	VERB	_	VerbForm=Fin	5	comp:aux	_	AlignBegin=89013|AlignEnd=89246|GE=beat|Gloss=beat|nWord=6|RX=[V]
-7	teː	teː	ADP	_	_	6	comp:obl	_	AlignBegin=89246|AlignEnd=89479|GE=around|Gloss=around|nWord=7|RX=[PREP]
-8	ɣə́y	ɣə́y	INTJ	_	_	7	comp:obj	_	AlignBegin=89479|AlignEnd=89712|GE=[2PL].[AOR]|Gloss=HESIT
-9	||	||	PUNCT	_	_	10	punct	_	AlignBegin=89712|AlignEnd=89947|GE=[$$]|nWord=9|Gloss=PUNCT
+7	teː	teː	ADP	_	_	6	comp:obl	_	AlignBegin=89246|AlignEnd=89479|Gloss=around|ExtPos=ADP|Idiom=Yes
+8	ɣə́	kə́	ADP	_	_	7	unk	_	AlignBegin=89479|AlignEnd=89712|Gloss=of|Idiom=Yes
+9	||	||	PUNCT	_	_	10	punct	_	AlignBegin=89712|AlignEnd=89947|GE=[$$]|Gloss=PUNCT|nWord=9
 10	teː	teː	ADP	_	_	7	conj:dicto	_	AlignBegin=90465|AlignEnd=90644|GE=around|Gloss=around|nWord=10|RX=[PREP]
-11	gə̀ʃì	gə̀ʃì	NOUN	_	_	10	comp:obj	_	AlignBegin=90644|AlignEnd=90823|GE=downstream|Gloss=downstream|nWord=11|RX=[ADV]
+11	gə̀ʃì	gə̀ʃì	ADV	_	_	10	comp:obj	_	AlignBegin=90644|AlignEnd=90823|GE=downstream|Gloss=downstream|nWord=11|RX=[ADV]
 12	tsə́n	tsəní	ADV	_	_	6	mod	_	AlignBegin=90823|AlignEnd=91002|GE=like_this|Gloss=like_this|nWord=12|RX=[ADV]
 13	//	//	PUNCT	_	_	3	punct	_	AlignBegin=91002|AlignEnd=91180|GE=[//]|Gloss=PUNCT|nWord=13
 
