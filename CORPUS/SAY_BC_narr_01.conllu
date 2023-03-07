@@ -1041,13 +1041,13 @@
 2	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	0	root	_	AlignBegin=142728|AlignEnd=142940|GE=[3SG].[SBJV]|Gloss=3SG.SBJV|nWord=2|RX=[PNTAM]
 3	gaː-íː	gaː-i	VERB	_	Aspect=Res|VerbForm=Fin	2	comp:aux	_	AlignBegin=142940|AlignEnd=143152|GE=leave[RES]|Gloss=leave|MGloss=leaveRES|MSeg=gaː-íː|nWord=3|RX=[V][ASP]|wordform=gaː
 4	ɓâ	ɓaâ	AUX	_	VerbForm=Fin	3	comp:obl	_	AlignBegin=143152|AlignEnd=143364|GE=indeed|Gloss=indeed|nWord=4|RX=[EXCL]
-5	ɬə	ɬə	VERB	_	VerbForm=Fin	4	comp:aux	_	AlignBegin=143364|AlignEnd=143576|GE=go|Gloss=go|nWord=5|RX=[V]
+5	ɬə	ɬə	VERB	_	VerbForm=Fin	4	comp:aux	_	AlignBegin=143364|AlignEnd=143576|GE=go|Gloss=go|nWord=5|RX=[V]|SVC=Yes
 6	mandá	mandá	VERB	_	VerbForm=Fin	5	compound:svc	_	AlignBegin=143576|AlignEnd=143788|GE=do_again|Gloss=do_again|nWord=6|RX=[AUX]|SVC=Yes
-7	fuː	fuː	VERB	_	VerbForm=Fin	6	comp:obj	_	AlignBegin=143788|AlignEnd=144000|GE=tell|Gloss=tell|nWord=7|RX=[V]
-8	naː	naː	PART	_	_	7	comp:obj	_	AlignBegin=144000|AlignEnd=144212|GE=he|Gloss=he|nWord=8|RX=[N]
-9	kâm	kâm	ADP	_	_	8	comp:pred	_	AlignBegin=144212|AlignEnd=144318|GE=friend|Gloss=friend|nWord=9|RX=[N]
-10	=wos	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	9	mod@poss	_	AlignBegin=144318|AlignEnd=144424|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=9|RX=[PRO]
-11	də̌ːr	də̌ːr	NOUN	_	_	7	mod	_	AlignBegin=144424|AlignEnd=144636|GE=lizard|Gloss=lizard|nWord=10|RX=[N]
+7	fuː	fuː	VERB	_	VerbForm=Fin	6	compound:svc	_	AlignBegin=143788|AlignEnd=144000|GE=tell|Gloss=tell|nWord=7|RX=[V]
+8	naː	naː	NOUN	_	_	7	comp:obj	_	AlignBegin=144000|AlignEnd=144212|GE=he|Gloss=he|nWord=8|RX=[N]
+9	kâm	kâm	NOUN	_	_	8	compound	_	AlignBegin=144212|AlignEnd=144318|GE=friend|Gloss=friend|nWord=9|RX=[N]
+10	=wos	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	8	mod@poss	_	AlignBegin=144318|AlignEnd=144424|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=9|RX=[PRO]
+11	də̌ːr	də̌ːr	NOUN	_	_	8	conj:appos	_	AlignBegin=144424|AlignEnd=144636|GE=lizard|Gloss=lizard|nWord=10|RX=[N]
 12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=144636|AlignEnd=144851|GE=[//]|Gloss=PUNCT|nWord=11
 
 
@@ -1070,16 +1070,16 @@
 # text = fuː naː kâm =wos də̌ːr tu tə̀ ɬə -íː ɗi //
 # text_ortho = fuː naː kámʃi də̌ːr tu tə̀ ɬǐːɗi //
 # text_en = He told his friend that they should go.
-1	fuː	fuː	PART	_	Mood=Imp	2	discourse	_	AlignBegin=146875|AlignEnd=147122|GE=tell|Gloss=tell|nWord=1|RX=[V]
-2	naː	naː	PART	_	Foreign=Yes	0	root	_	AlignBegin=147122|AlignEnd=147369|GE=he|Gloss=he|nWord=2|RX=[N]
-3	kâm	kâm	VERB	_	VerbForm=Fin	2	comp:pred	_	AlignBegin=147369|AlignEnd=147493|GE=friend|Gloss=friend|nWord=3|RX=[N]
-4	=wos	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	mod@top	_	AlignBegin=147493|AlignEnd=147616|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=3|RX=[PRO]
-5	də̌ːr	də̌ːr	NOUN	_	_	3	comp:obj	_	AlignBegin=147616|AlignEnd=147863|GE=lizard|Gloss=lizard|nWord=4|RX=[N]
-6	tu	tu	SCONJ	_	Mood=Qot	3	comp:obj	_	AlignBegin=147863|AlignEnd=148110|GE=[OPN]|Gloss=OPN|nWord=5|RX=[PTCL].[SYNT]
+1	fuː	fuː	VERB	_	Mood=Imp	0	root	_	AlignBegin=146875|AlignEnd=147122|GE=tell|Gloss=tell|nWord=1|RX=[V]
+2	naː	naː	NOUN	_	Foreign=Yes	1	comp:ben	_	AlignBegin=147122|AlignEnd=147369|GE=he|Gloss=he|nWord=2|RX=[N]
+3	kâm	kâm	NOUN	_	VerbForm=Fin	2	compound	_	AlignBegin=147369|AlignEnd=147493|GE=friend|Gloss=friend|nWord=3|RX=[N]
+4	=wos	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@poss	_	AlignBegin=147493|AlignEnd=147616|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=3|RX=[PRO]
+5	də̌ːr	də̌ːr	NOUN	_	_	2	conj:appos	_	AlignBegin=147616|AlignEnd=147863|GE=lizard|Gloss=lizard|nWord=4|RX=[N]
+6	tu	tu	SCONJ	_	Mood=Qot	1	comp:obj	_	AlignBegin=147863|AlignEnd=148110|GE=[OPN]|Gloss=OPN|nWord=5|RX=[PTCL].[SYNT]
 7	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	6	comp:obj	_	AlignBegin=148110|AlignEnd=148357|GE=[3PL].[SBJV]|Gloss=3PL.SBJV|nWord=6|RX=[PNTAM]
 8	ɬə-íː	ɬə-iə	VERB	_	Aspect=Res|VerbForm=Fin	7	comp:aux	_	AlignBegin=148357|AlignEnd=148521|GE=go[RES]|Gloss=go|MGloss=goRES|MSeg=ɬə-íː|nWord=7|RX=[V][ASP]|wordform=ɬə
 9	ɗi	ɗi	PART	_	_	8	compound:prt	_	AlignBegin=148521|AlignEnd=148604|GE=[DIR]|Gloss=CTP|nWord=7|RX=[PTCL].[EXT]
-10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=148604|AlignEnd=148853|GE=[//]|Gloss=PUNCT|nWord=8
+10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=148604|AlignEnd=148853|GE=[//]|Gloss=PUNCT|nWord=8
 
 
 # sent_id = SAY_BC_narr_01_118-118
@@ -1387,19 +1387,19 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_narr_01.WAV
 # sent_timecode = 188780, 190492
-# text = naː kâm kə́ longa kəndá á mán yáːwón oː //
-# text_ortho = naː kâm kə̀ longa əndá á mǎn yáːwónoː //
+# text = naː kâm gə́ longa ɣəndá á mán yáːwón oː //
+# text_ortho = naː kâm gə́ longa ɣəndá á mán yáːwón oː //
 # text_en = Rabbit's friend hasn't arrived yet. §
-1	naː	naː	PART	_	_	2	discourse	_	AlignBegin=188780|AlignEnd=188970|GE=thing|Gloss=thing|nWord=1|RX=[N]
-2	kâm	kâm	AUX	_	_	0	root	_	AlignBegin=188970|AlignEnd=189160|GE=friend|Gloss=friend|nWord=2|RX=[N]
-3	kə̀	à	AUX	_	Aspect=Aor|Number=Plur|Person=2	2	comp:aux	_	AlignBegin=189160|AlignEnd=189350|GE=[PosL]|Gloss=of|nWord=3|RX=[PTCL]
+1	naː	naː	NOUN	_	_	6	subj	_	AlignBegin=188780|AlignEnd=188970|GE=thing|Gloss=thing|nWord=1|RX=[N]
+2	kâm	kâm	NOUN	_	_	1	compound	_	AlignBegin=188970|AlignEnd=189160|GE=friend|Gloss=friend|nWord=2|RX=[N]
+3	gə́	kə́	AUX	_	Aspect=Aor|Number=Plur|Person=2	1	mod@poss	_	AlignBegin=189160|AlignEnd=189350|GE=[PosL]|Gloss=of|nWord=3|RX=[PTCL]
 4	longa	longa	VERB	_	Foreign=Yes	3	comp:obj	_	AlignBegin=189350|AlignEnd=189540|GE=rabbit|Gloss=rabbit|nWord=4|RX=[N]
-5	kəndá	kəndá	ADP	_	_	3	mod	_	AlignBegin=189540|AlignEnd=189730|GE=until|Gloss=until|nWord=5|RX=[CONJ]
-6	á	ká	ADP	_	_	3	mod	_	AlignBegin=189730|AlignEnd=189920|GE=eh|Gloss=eh|nWord=6|RX=[PNTAM]
+5	ɣəndá	kəndá	ADV	_	_	6	mod	_	AlignBegin=189540|AlignEnd=189730|GE=until|Gloss=until|nWord=5|RX=[CONJ]
+6	á	ká	ADP	_	_	0	root	_	AlignBegin=189730|AlignEnd=189920|GE=eh|Gloss=eh|nWord=6|RX=[PNTAM]
 7	mán	mán	VERB	_	VerbForm=Fin	6	comp:obj	_	AlignBegin=189920|AlignEnd=190110|GE=come|Gloss=come|nWord=7|RX=[V]
 8	yáːwón	yáːwón	PRON	_	PronType=Dem	7	mod	_	AlignBegin=190110|AlignEnd=190205|GE=today|Gloss=today|nWord=8|RX=[ADVDEICT]
-9	oː	oː	PART	_	PartType=Emp	2	mod	_	AlignBegin=190205|AlignEnd=190300|GE=[EMPH]|Gloss=EMPH|nWord=8|RX=[PTCL].[ASS]
-10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=190300|AlignEnd=190492|GE=[//]|Gloss=PUNCT|nWord=9
+9	oː	oː	PART	_	PartType=Emp	6	mod	_	AlignBegin=190205|AlignEnd=190300|GE=[EMPH]|Gloss=EMPH|nWord=8|RX=[PTCL].[ASS]
+10	//	//	PUNCT	_	_	6	punct	_	AlignBegin=190300|AlignEnd=190492|GE=[//]|Gloss=PUNCT|nWord=9
 
 
 # sent_id = SAY_BC_narr_01_147-147
@@ -2359,31 +2359,31 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_narr_01.WAV
 # sent_timecode = 297847, 304341
-# text = ngaːlá -íː naː kâm kə́ də̌ːr || naː kâm kə́ də̌ːr káwây |a longa < àː náːt ʃéːgè nâs gingə́ri =wos ɗi á yáːsəŋ //
-# text_ortho = ngaːláy naː kâm kə̀ də̌ːr || naː kâm kə̀ də̌ːr káwây |a longa < àː náːt ʃéːgè nâs gingə́riwòsɗì á yáːsəŋ //
+# text = ngaːláy naː kâm gə́ də̌ːr || naː kâm gə́ də̌ːr káwây |a longa < àː náːt ʃéːgè nâs gingə́riwòs ɗì á yáːsəŋ //
+# text_ortho = ngaːláy naː kâm gə́ də̌ːr || naː kâm gə́ də̌ːr káwây |a longa < àː náːt ʃéːgè nâs gingə́riwòs ɗì á yáːsəŋ //
 # text_en = A little later, Lizard's friend, Lizard's friend himself, Rabbit, he tied a big stinking baobab cake on his foot.
-1	ngaːlá-íː	ngaːlá-íː	VERB	_	_	15	subj	_	AlignBegin=297847|AlignEnd=298098|GE=spend_time[RES]|Gloss=spend_time|MGloss=spend_timeRES|MSeg=ngaːlá-íː|nWord=1|RX=[V][ASP]|wordform=ngaːlá
-2	naː	naː	PART	_	_	1	mod	_	AlignBegin=298098|AlignEnd=298349|GE=thing|Gloss=thing|nWord=2|RX=[N]
-3	kâm	kâm	AUX	_	_	1	mod	_	AlignBegin=298349|AlignEnd=298600|GE=friend|Gloss=friend|nWord=3|RX=[N]
-4	kə̀	à	AUX	_	_	3	comp:obj	_	AlignBegin=298600|AlignEnd=298851|GE=[PosL]|Gloss=of|nWord=4|RX=[PTCL]
+1	ngaːláy	ngaːlá	VERB	_	_	15	mod	_	AlignBegin=297847|AlignEnd=298098|GE=spend_time[RES]|Gloss=spend_time|MGloss=spend_timeRES|MSeg=ngaːlá-íː|nWord=1|RX=[V][ASP]|wordform=ngaːlá
+2	naː	naː	NOUN	_	_	15	subj	_	AlignBegin=298098|AlignEnd=298349|Gloss=type|nWord=2|RX=[N]
+3	kâm	kâm	NOUN	_	_	2	compound	_	AlignBegin=298349|AlignEnd=298600|GE=friend|Gloss=friend|nWord=3|RX=[N]
+4	gə́	kə́	AUX	_	_	2	mod@poss	_	AlignBegin=298600|AlignEnd=298851|GE=[PosL]|Gloss=of|nWord=4|RX=[PTCL]
 5	də̌ːr	də̌ːr	NOUN	_	_	4	comp:aux	_	AlignBegin=298851|AlignEnd=299102|GE=lizard|Gloss=lizard|nWord=5|RX=[N]
-6	||	||	PUNCT	_	_	8	punct	_	AlignBegin=299102|AlignEnd=299354|GE=[$$]|nWord=6
-7	naː	naː	PART	_	_	3	conj:dicto	_	AlignBegin=299354|AlignEnd=299559|GE=thing|Gloss=thing|nWord=7|RX=[N]
-8	kâm	kâm	AUX	_	_	3	conj:dicto	_	AlignBegin=299559|AlignEnd=299764|GE=friend|Gloss=friend|nWord=8|RX=[N]
-9	kə́	kə́	AUX	_	_	8	comp:obj	_	AlignBegin=299764|AlignEnd=299969|GE=[PosL]|Gloss=of|nWord=9|RX=[PTCL]
+6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=299102|AlignEnd=299354|nWord=6|Gloss=PUNCT
+7	naː	naː	PART	_	_	2	conj:dicto	_	AlignBegin=299354|AlignEnd=299559|GE=thing|Gloss=thing|nWord=7|RX=[N]
+8	kâm	kâm	AUX	_	_	7	compound	_	AlignBegin=299559|AlignEnd=299764|GE=friend|Gloss=friend|nWord=8|RX=[N]
+9	gə́	kə́	AUX	_	_	7	mod	_	AlignBegin=299764|AlignEnd=299969|GE=[PosL]|Gloss=of|nWord=9|RX=[PTCL]
 10	də̌ːr	də	NOUN	_	_	9	comp:obj	_	AlignBegin=299969|AlignEnd=300174|GE=lizard|Gloss=lizard|nWord=10|RX=[N]
-11	káwây	káwây	ADV	_	_	5	mod	_	AlignBegin=300174|AlignEnd=300379|GE=merely|Gloss=merely|nWord=11|RX=[ADV]
-12	|a	|a	PUNCT	_	_	13	punct	_	AlignBegin=300379|AlignEnd=300584|GE=$a|nWord=12
-13	longa	longa	NOUN	_	Foreign=Yes	8	comp:obj	_	AlignBegin=300856|AlignEnd=301070|GE=rabbit|Gloss=rabbit|nWord=13|RX=[N]
+11	káwây	káwây	ADV	_	_	7	mod	_	AlignBegin=300174|AlignEnd=300379|GE=merely|Gloss=merely|nWord=11|RX=[ADV]
+12	|a	|a	PUNCT	_	_	13	punct	_	AlignBegin=300379|AlignEnd=300584|nWord=12|Gloss=PUNCT
+13	longa	longa	NOUN	_	Foreign=Yes	7	conj:appos	_	AlignBegin=300856|AlignEnd=301070|GE=rabbit|Gloss=rabbit|nWord=13|RX=[N]
 14	<	<	PUNCT	_	_	2	punct	_	AlignBegin=301070|AlignEnd=301285|GE=[<]|Gloss=PUNCT|nWord=14
 15	àː	à̀ː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=302042|AlignEnd=302329|GE=[3SG].[CPL]|Gloss=3SG.CPL|nWord=15|RX=[PNTAM]
 16	náːt	naat	VERB	_	Number=Plur|VerbForm=Fin	15	comp:aux	_	AlignBegin=302329|AlignEnd=302616|GE=[tie].[PL]|Gloss=tie.PL|nWord=16|RX=[V].[PL]
-17	ʃéːgè	ʃéːgè	VERB	_	_	16	mod	_	AlignBegin=302616|AlignEnd=302903|GE=bastard|Gloss=bastard|Lang=hau|nWord=17|RX=[N].[X].[CSW].[HAU]
-18	nâs	nâ	NUM	_	_	17	mod	_	AlignBegin=302903|AlignEnd=303190|GE=big|Gloss=big|nWord=18|RX=[ADJ]
-19	gingə́ri	gingə	NOUN	_	Number=Plur	18	comp:obj	_	AlignBegin=303190|AlignEnd=303286|GE=baobab_cake|Gloss=baobab_cake|nWord=19|RX=[N]
+17	ʃéːgè	ʃéːgè	ADJ	_	_	19	mod	_	AlignBegin=302616|AlignEnd=302903|GE=bastard|Gloss=bastard|Lang=hau|nWord=17|RX=[N].[X].[CSW].[HAU]
+18	nâs	nâs	ADJ	_	_	19	mod	_	AlignBegin=302903|AlignEnd=303190|GE=big|Gloss=big|nWord=18|RX=[ADJ]
+19	gingə́ri	gingə́ri	NOUN	_	Number=Plur	16	comp:obj	_	AlignBegin=303190|AlignEnd=303286|GE=baobab_cake|Gloss=baobab_cake|nWord=19|RX=[N]
 20	=wos	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	19	mod@poss	_	AlignBegin=303286|AlignEnd=303382|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=19|RX=[PRO]
-21	ɗi	ɗi	PART	_	_	17	compound:prt	_	AlignBegin=303382|AlignEnd=303477|GE=[DIR]|Gloss=CTP|nWord=19|RX=[PTCL].[EXT]
-22	á	ká	AUX	_	_	17	comp:obl	_	AlignBegin=303477|AlignEnd=303764|GE=at|Gloss=at|nWord=20|RX=[PREP]
+21	ɗi	ɗi	PART	_	_	16	compound:prt	_	AlignBegin=303382|AlignEnd=303477|GE=[DIR]|Gloss=CTP|nWord=19|RX=[PTCL].[EXT]
+22	á	ká	AUX	_	_	16	comp:obl	_	AlignBegin=303477|AlignEnd=303764|GE=at|Gloss=at|nWord=20|RX=[PREP]
 23	yáːsəŋ	yáːsəŋ	VERB	_	Definite=Def	22	comp:obj	_	AlignBegin=303764|AlignEnd=304051|GE=leg|Gloss=leg|nWord=21|RX=[N]
 24	//	//	PUNCT	_	_	15	punct	_	AlignBegin=304051|AlignEnd=304341|GE=[//]|Gloss=PUNCT|nWord=22
 
@@ -2893,7 +2893,7 @@
 # text_ortho = ʃèː naː mel tə́ yâːn < tôː ʃèː ɮoptíːɗi //
 # text_en = Get close to it and then stick the spear into it.
 1	ʃèː	ʃèː	ADV	_	_	2	mod	_	AlignBegin=362035|AlignEnd=362225|GE=[X]|Gloss=X|nWord=1|RX=[PNTAM]
-2	naː	naː	PART	_	_	9	parataxis@mod	_	AlignBegin=362225|AlignEnd=362415|GE=become|Gloss=become|nWord=2|RX=[V]
+2	naː	naː	VERB	_	_	9	parataxis@mod	_	AlignBegin=362225|AlignEnd=362415|GE=become|Gloss=become|nWord=2|RX=[V]
 3	mel	mel	VERB	_	_	2	comp:pred	_	AlignBegin=362415|AlignEnd=362605|GE=close|Gloss=close|nWord=3|RX=[ADV]
 4	tə́	tə́	ADP	_	_	3	comp:obl	_	AlignBegin=362605|AlignEnd=362795|GE=with|Gloss=with|nWord=4|RX=[PREP]
 5	yáːni	yáːni	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=362795|AlignEnd=362985|GE=[3SG]|Gloss=3SG|nWord=5|RX=[PRO].[IDP]
@@ -5731,7 +5731,7 @@
 10	=wos	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	9	mod@poss	_	AlignBegin=718120|AlignEnd=718236|GE=[3SG].[POS]|Gloss=3SG.POS|Incorporated=Yes|nWord=8|RX=[PRO]
 11	á	á	ADP	_	Aspect=Aor|Number=Sing|Person=3	4	comp:cleft	_	AlignBegin=718353|AlignEnd=718502|GE=[3SG].[AOR]|Gloss=3SG.AOR|nWord=9|RX=[PNTAM]
 12	dap	dap	VERB	_	VerbForm=Fin	11	comp:aux	_	AlignBegin=718502|AlignEnd=718651|GE=follow|Gloss=follow|nWord=10|RX=[V]
-13	naː	naː	PART	_	_	12	comp:obj	_	AlignBegin=718651|AlignEnd=718725|GE=become|Gloss=become|nWord=11|RX=[V]
+13	naː	naː	VERB	_	_	12	compound:svc	_	AlignBegin=718651|AlignEnd=718725|GE=become|Gloss=become|nWord=11|RX=[V]
 14	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=718725|AlignEnd=718800|GE=[3SG].[OBJ]|Gloss=3SG.OBJ|nWord=11|RX=[PRO]
 15	mə́n	mə́n	PART	_	Case=Ben	12	compound:prt	_	AlignBegin=718800|AlignEnd=718949|GE=[BEN]|Gloss=BEN|nWord=12|RX=[PTCL]
 16	//	//	PUNCT	_	_	3	punct	_	AlignBegin=718949|AlignEnd=719097|GE=[//]|Gloss=PUNCT|nWord=13
@@ -5749,7 +5749,7 @@
 3	yáːwón	yáːwón	PRON	_	PronType=Dem	2	comp:obj	_	AlignBegin=719473|AlignEnd=719661|GE=today|Gloss=today|nWord=3|RX=[ADVDEICT]
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=719661|AlignEnd=719849|GE=[<]|Gloss=PUNCT|nWord=4
 5	də̌ːr	də̌r	NOUN	_	_	0	root	_	AlignBegin=719849|AlignEnd=720119|GE=lizard|Gloss=lizard|nWord=5|RX=[N]
-6	naː	naː	PART	_	_	5	mod	_	AlignBegin=720119|AlignEnd=720389|GE=become|Gloss=become|nWord=6|RX=[V]
+6	naː	naː	VERB	_	_	5	mod	_	AlignBegin=720119|AlignEnd=720389|GE=become|Gloss=become|nWord=6|RX=[V]
 7	gòʃíː	gòʃs	PRON	_	Deixis=Remt|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	comp:pred	_	AlignBegin=720389|AlignEnd=720659|GE=[3SG].[POS][DIST]|Gloss=3SG.POS|MGloss=3SG.POSDIST|MSeg=gòs-íː|nWord=7|RX=[PRO][PRO]|wordform=gòs
 8	ʧík	ʧík	PART	_	_	6	mod	_	AlignBegin=721114|AlignEnd=721266|GE=thus|Gloss=thus|nWord=8|RX=[ADV]
 9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=721266|AlignEnd=721418|GE=[//]|Gloss=PUNCT|nWord=9
