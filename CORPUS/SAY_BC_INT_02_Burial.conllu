@@ -760,10 +760,10 @@
 # sent_timecode = 116611, 119880
 # text = âː < ʧǎː gìːtíː ɓét á ɓâní ɣəndí < ɗan tə́ gìːtíː //= ɗan tə́ gə̌ːm riːŋə́y //
 # text_ortho = âː < ʧǎː gìːtíː ɓét á ɓâní kəndí < ɗan tə́ gìːtíː //= ɗan tə́ gə̌ːm riːŋə́y //
-# text_en = Ah, after they had buried him, it was over, they wouldbury him then they would start wailing.
-1	âː	âː	INTJ	_	_	12	discourse	_	AlignBegin=116611|AlignEnd=116783|GE=ah|Gloss=ah|nWord=1|RX=[INTJ]
+# text_en = Ah, after they had buried him completely, after they had buried him, then they would start wailing.
+1	âː	âː	INTJ	_	_	17	discourse	_	AlignBegin=116611|AlignEnd=116783|GE=ah|Gloss=ah|nWord=1|RX=[INTJ]
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=116783|AlignEnd=116955|GE=[<]|Gloss=PUNCT|nWord=2
-3	ʧǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	12	parataxis@mod	_	AlignBegin=116955|AlignEnd=117127|Gloss=3PL.ICPL
+3	ʧǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	17	parataxis@mod	_	AlignBegin=116955|AlignEnd=117127|Gloss=3PL.ICPL
 4-5	gìːtíː	_	_	_	_	_	_	_	_
 4	#gìː-íː	giː	VERB	_	Aspect=Res	3	comp:aux	_	AlignBegin=117127|AlignEnd=117299|Gloss=bury-RES
 5	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=117184|AlignEnd=117241|GE=[3SG].[OBJ]|Gloss=3SG.OBJ|Incorporated=Yes|nWord=4|RX=[PRO]
@@ -772,18 +772,18 @@
 8	ɓâní	ɓaní	VERB	_	_	7	comp:aux	_	AlignBegin=117643|AlignEnd=117815|GE=finish|Gloss=finish|nWord=7|RX=[V]
 9	ɣəndí	kəndí	PART	_	_	7	mod	_	AlignBegin=117815|AlignEnd=117987|GE=[COP2]|Gloss=be|nWord=8|RX=[PTCL].[SYNT]
 10	<	<	PUNCT	_	_	3	punct	_	AlignBegin=117987|AlignEnd=118159|GE=[<]|Gloss=PUNCT|nWord=9
-11	ɗan	ɗan	ADV	_	_	12	mod	_	AlignBegin=118159|AlignEnd=118331|GE=then|Gloss=then|nWord=10|RX=[ADV]
-12	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=118331|AlignEnd=118503|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=11|RX=[PNTAM]
+11	ɗan	ɗan	ADV	_	_	17	mod	_	AlignBegin=118159|AlignEnd=118331|GE=then|Gloss=then|nWord=10|RX=[ADV]
+12	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	11	comp:obj	_	AlignBegin=118331|AlignEnd=118503|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=11|RX=[PNTAM]
 13-14	gìːtíː	_	_	_	_	_	_	_	_
 13	#gìː-íː	giː	VERB	_	Aspect=Res	12	comp:aux	_	AlignBegin=118503|AlignEnd=118847|Gloss=bury-RES
 14	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	AlignBegin=118675|AlignEnd=118761|GE=[3SG].[OBJ]|Gloss=3SG.OBJ|Incorporated=Yes|nWord=13|RX=[PRO]
-15	//=	//=	PUNCT	_	_	17	punct	_	AlignBegin=118847|AlignEnd=119019|GE=[//]|Gloss=PUNCT|nWord=14
+15	<	<	PUNCT	_	_	11	punct	_	AlignBegin=118847|AlignEnd=119019|Gloss=PUNCT
 16	ɗan	ɗan	ADV	_	_	17	mod	_	AlignBegin=119019|AlignEnd=119191|GE=then|Gloss=then|nWord=15|RX=[ADV]
-17	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	12	conj:coord	_	AlignBegin=119191|AlignEnd=119363|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=16|RX=[PNTAM]
+17	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=119191|AlignEnd=119363|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=16|RX=[PNTAM]
 18-19	gə̌ːm riːŋə́y	_	_	_	_	_	_	_	_
 18	#gə̌ːm-íː	gə́ːm	VERB	_	Aspect=Res	17	comp:aux	_	AlignBegin=119363|AlignEnd=119535|Gloss=leave-RES
-19	riːŋ	riːŋ	NOUN	_	_	18	comp:obj	_	AlignBegin=119535|AlignEnd=119707|GE=shout[RES]|Gloss=shout|MGloss=shoutRES|MSeg=riːŋ-íː|nWord=18|RX=[N][TAM]|wordform=riːŋ
-20	//	//	PUNCT	_	_	12	punct	_	AlignBegin=119707|AlignEnd=119880|GE=[//]|Gloss=PUNCT|nWord=19
+19	riːŋ	riːŋ	NOUN	_	_	18	comp:obj	_	AlignBegin=119535|AlignEnd=119707|GE=shout[RES]|Gloss=shout|MGloss=shoutRES|MSeg=riːŋ-íː|nWord=18|RX=[N][TAM]
+20	//	//	PUNCT	_	_	17	punct	_	AlignBegin=119707|AlignEnd=119880|GE=[//]|Gloss=PUNCT|nWord=19
 
 # sent_id = SAY_BC_INT_02_Burial_085-085
 # speaker_id = SP2
@@ -845,26 +845,35 @@
 # text = mbútkə̂n &//
 # text_ortho = mbútkə̂n &//
 # text_en = Sleeping...
-1	mbútkə̂n &//	mbút	VERB	_	VerbForm=Vnoun	0	root	_	AlignBegin=124129|AlignEnd=124351|Gloss=spend_night-NMLZ|ExtPos=NOUN
+1	mbútkə̂n	mbút	VERB	_	VerbForm=Vnoun	0	root	_	AlignBegin=124129|AlignEnd=124351|Gloss=spend_night-NMLZ|ExtPos=NOUN
 2	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=124351|AlignEnd=124574|GE=[&//]|Gloss=PUNCT|nWord=2
 
-# sent_id = SAY_BC_INT_02_Burial_090-091
+# sent_id = SAY_BC_INT_02_Burial_090-090
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_Burial.WAV
 # sent_timecode = 124129, 126248
-# text = tá á fî wúr yáːwón ʧǎː mbûɗíː gyaː gèntsə̀ ?//
-# text_ortho = tá á fî wúr yáːwón ʧǎː mbûɗíː gyaː gèntsə̀ ?//
-# text_en = Then how is it now that they [women] sleep at their friend's?
+# text = tá á fî wúr ?//
+# text_ortho = tá á fî wúr ?//
+# text_en = Then how did they do?
 1	tá	tá	PART	_	_	2	discourse	_	AlignBegin=124129|AlignEnd=124337|GE=then|Gloss=then|nWord=1|RX=[ADV]
 2	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=124337|AlignEnd=124545|GE=[3SG].[AOR]|Gloss=3SG.AOR|nWord=2|RX=[PNTAM]
 3	fî	fi	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=124545|AlignEnd=124753|GE=do|Gloss=do|nWord=3|RX=[V]
 4	wúr	wuri	ADV	_	_	3	mod	_	AlignBegin=124753|AlignEnd=124961|GE=how|Gloss=how|nWord=4|RX=[ADV].[Q]
-5	yáːwón	yáːwón	PRON	_	PronType=Dem	6	mod	_	AlignBegin=124961|AlignEnd=125169|GE=today|Gloss=today|nWord=5|RX=[ADVDEICT]
-6	ʧǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	3	parataxis@comp	_	AlignBegin=125169|AlignEnd=125385|GE=[3PL].[ICPL]|Gloss=3PL.ICPL|nWord=6|RX=[PNTAM]
-7	mbûɗíː	mbút	VERB	_	VerbForm=Fin	6	comp:aux	_	AlignBegin=125385|AlignEnd=125601|GE=spend_night[RES]|Gloss=spend_night|MGloss=spend_nightRES|MSeg=mbút-íː|nWord=7|RX=[V][TAM]|wordform=mbút
-8	gyáː	gyáː	DET	_	Number=Plur	9	det	_	AlignBegin=125601|AlignEnd=125817|GE=[PL]|Gloss=PL|nWord=8|RX=[DET]
-9	gèntsə̀	gyaːt	DET	_	Number=Plur	7	comp@loc	_	AlignBegin=125817|AlignEnd=126033|GE=female_relative[PL]|Gloss=female_relative|MGloss=female_relativePL|MSeg=gyaːt-sə|nWord=9|RX=[N][PL]|wordform=gyaːt
-10	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=126033|AlignEnd=126248|GE=[?//]|Gloss=PUNCT|nWord=10
+10	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=126033|AlignEnd=126033|GE=[?//]|Gloss=PUNCT|nWord=10
+
+# sent_id = SAY_BC_INT_02_Burial_091-091
+# speaker_id = SP2
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_Burial.WAV
+# sent_timecode = 124961, 126248
+# text = yáːwón ʧǎː mbûɗíː gyaː gèntsə̀ //
+# text_ortho = yáːwón ʧǎː mbûɗíː gyaː gèntsə̀ //
+# text_en = Now, they [women] sleep at their friend's.
+1	yáːwón	yáːwón	ADV	_	PronType=Dem	2	mod	_	AlignBegin=124961|AlignEnd=125169|GE=today|Gloss=today|nWord=5|RX=[ADVDEICT]
+2	ʧǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root@comp	_	AlignBegin=125169|AlignEnd=125385|GE=[3PL].[ICPL]|Gloss=3PL.ICPL|nWord=6|RX=[PNTAM]
+3	mbûɗíː	mbút	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=125385|AlignEnd=125601|GE=spend_night[RES]|Gloss=spend_night|MGloss=spend_nightRES|MSeg=mbút-íː|nWord=7|RX=[V][TAM]|wordform=mbút
+4	gyáː	gyáː	DET	_	Number=Plur	5	det	_	AlignBegin=125601|AlignEnd=125817|GE=[PL]|Gloss=PL|nWord=8|RX=[DET]
+5	gèntsə̀	gyaːt	DET	_	Number=Plur	3	comp@loc	_	AlignBegin=125817|AlignEnd=126033|GE=female_relative[PL]|Gloss=female_relative|MGloss=female_relativePL|MSeg=gyaːt-sə|nWord=9|RX=[N][PL]|wordform=gyaːt
+6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=126033|AlignEnd=126248|GE=[?//]|Gloss=PUNCT|nWord=10
 
 # sent_id = SAY_BC_INT_02_Burial_092-092
 # speaker_id = SP2
@@ -889,7 +898,7 @@
 2	dâːmáː	dâːmáː	ADV	_	_	4	mod	_	AlignBegin=126905|AlignEnd=127101|GE=formerly|Gloss=formerly|Lang=hau|nWord=2|RX=[ADV].[BW].[HAU]
 3	gèntsə̀	gyaːt	NOUN	_	Number=Plur	4	subj	_	AlignBegin=127101|AlignEnd=127297|Gloss=female_relative
 4	tə̀tàyáː	átâyáː	AUX	_	Number=Plur|Person=3|Tense=Rem	0	root	_	AlignBegin=127297|AlignEnd=127493|GE=[3PL].[REM].[ICPL]|Gloss=3PL.REM.ICPL|nWord=4|RX=[PNTAM]
-5	mbûɗíː	mbút	VERB	_	Aspect=Res	4	comp:aux	_	AlignBegin=127493|AlignEnd=127689|GGloss=spend_night-RES
+5	mbûɗíː	mbút	VERB	_	Aspect=Res	4	comp:aux	_	AlignBegin=127493|AlignEnd=127689|Gloss=spend_night-RES
 6	áy	áy	INTJ	_	_	4	discourse	_	AlignBegin=127689|AlignEnd=127885|GE=indeed|Gloss=indeed|nWord=6|RX=[EXCL]
 7	!//	!//	PUNCT	_	_	4	punct	_	AlignBegin=127885|AlignEnd=128080|GE=[!//]|Gloss=PUNCT|nWord=7
 
@@ -1126,18 +1135,18 @@
 # text_en = Well,   then if it's a woman who has died,  where would they bury her?
 1	tòː	tòː	PART	_	_	9	discourse	_	AlignBegin=158840|AlignEnd=158996|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=158996|AlignEnd=159151|GE=[<]|Gloss=PUNCT|nWord=2
-3	gə̀t	gə̀t	NOUN	_	_	4	subj	_	AlignBegin=159151|AlignEnd=159324|GE=woman|Gloss=woman|nWord=3|RX=[N]
-4	kən	kən	AUX	_	VerbType=Cop	0	root	_	AlignBegin=159324|AlignEnd=159497|GE=[COP2]|Gloss=be|nWord=4|RX=[PTCL].[SYNT]
-5	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	4	parataxis@mod	_	AlignBegin=159497|AlignEnd=159670|GE=[3SG].[COND]|Gloss=3SG.COND|nWord=5|RX=[PNTAM]
+3	gə̀t	gə̀t	NOUN	_	_	4	comp:pred	_	AlignBegin=159151|AlignEnd=159324|GE=woman|Gloss=woman|nWord=3|RX=[N]
+4	kən	kən	AUX	_	VerbType=Cop	9	parataxis@mod	_	AlignBegin=159324|AlignEnd=159497|GE=[COP2]|Gloss=be|nWord=4|RX=[PTCL].[SYNT]
+5	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	4	comp:cleft	_	AlignBegin=159497|AlignEnd=159670|GE=[3SG].[COND]|Gloss=3SG.COND|nWord=5|RX=[PNTAM]
 6	məs	məs	VERB	_	VerbForm=Fin	5	comp:aux	_	AlignBegin=159670|AlignEnd=159843|GE=die|Gloss=die|nWord=6|RX=[V]
-7	kúmá	kúmá	PART	_	_	6	discourse	_	AlignBegin=159843|AlignEnd=160016|GE=too|Gloss=too|nWord=7|RX=[PTCL].[TOP]
+7	kúmá	kúmá	PART	_	_	4	discourse	_	AlignBegin=159843|AlignEnd=160016|GE=too|Gloss=too|nWord=7|RX=[PTCL].[TOP]
 8	<	<	PUNCT	_	_	4	punct	_	AlignBegin=160016|AlignEnd=160188|GE=[<]|Gloss=PUNCT|nWord=8
-9	tá	wò	PART	_	Number=Plur|Person=3|Tense=Fut	4	subj	_	AlignBegin=160188|AlignEnd=160333|GE=[3PL].[FUT]|Gloss=3PL.FUT|nWord=9|RX=[PNTAM]
-10	giː	gaː	VERB	_	VerbForm=Fin	9	comp:aux	_	AlignBegin=160333|AlignEnd=160405|GE=bury|Gloss=bury|nWord=10|RX=[V]
+9	tá	wò	PART	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=160188|AlignEnd=160333|GE=[3PL].[FUT]|Gloss=3PL.FUT|nWord=9|RX=[PNTAM]
+10	giː	giː	VERB	_	VerbForm=Fin	9	comp:aux	_	AlignBegin=160333|AlignEnd=160405|GE=bury|Gloss=bury|nWord=10|RX=[V]
 11	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=160405|AlignEnd=160478|GE=[3SG].[OBJ]|Gloss=3SG.OBJ|nWord=10|RX=[PRO]
 12	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	10	mod@top	_	AlignBegin=160478|AlignEnd=160623|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=11|RX=[PRO]
 13	ɗôː	ɗôː	PART	_	_	9	mod	_	AlignBegin=160623|AlignEnd=160768|GE=where|Gloss=where|nWord=12|RX=[ADV].[Q]
-14	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=160768|AlignEnd=160912|GE=[?//]|Gloss=PUNCT|nWord=13
+14	?//	?//	PUNCT	_	_	9	punct	_	AlignBegin=160768|AlignEnd=160912|GE=[?//]|Gloss=PUNCT|nWord=13
 
 # sent_id = SAY_BC_INT_02_Burial_120-120
 # speaker_id = SP1
@@ -2287,10 +2296,10 @@
 3	nə	nə	PART	_	VerbType=Cop	2	comp:obj	_	AlignBegin=337574|AlignEnd=337771|GE=[COP1]|Gloss=be|nWord=3|RX=[PTCL].[SYNT]
 4	ŋáː-i	ŋáː-i	NOUN	_	_	3	comp:pred	_	AlignBegin=337771|AlignEnd=337968|GE=child[INDF]|Gloss=child|MGloss=childINDF|MSeg=ŋáː-i|nWord=4|RX=[N][ART]|wordform=ŋáː
 5	fáː	fáː	VERB	_	_	4	mod	_	AlignBegin=337968|AlignEnd=338165|GE=indeed|Gloss=indeed|nWord=5|RX=[PTCL].[TOP]
-6	dàlíːli	dàlíːli	NOUN	_	_	10	comp:obj	_	AlignBegin=338165|AlignEnd=338362|GE=reason|Gloss=reason|Lang=hau|nWord=6|RX=[N].[BW].[HAU]
-7	niː	niː	PART	_	Aspect=Iter	6	compound:prt	_	AlignBegin=338362|AlignEnd=338559|GE=what|Gloss=what|nWord=7|RX=[PRO].[Q]
+6	dàlíːli	dàlíːli	NOUN	_	_	8	comp:pred	_	AlignBegin=338165|AlignEnd=338362|GE=reason|Gloss=reason|Lang=hau|nWord=6|RX=[N].[BW].[HAU]
+7	niː	niː	DET	_	PronType=Int	6	det	_	AlignBegin=338362|AlignEnd=338559|GE=what|Gloss=what|nWord=7|RX=[PRO].[Q]
 8	kən	kən	AUX	_	VerbType=Cop	0	root	_	AlignBegin=338559|AlignEnd=338756|GE=[COP2]|Gloss=be|nWord=8|RX=[PTCL].[SYNT]
-9	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	8	comp:obj	_	AlignBegin=338756|AlignEnd=338953|GE=[3SG].[AOR]|Gloss=3SG.AOR|nWord=9|RX=[PNTAM]
+9	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	8	comp:cleft	_	AlignBegin=338756|AlignEnd=338953|GE=[3SG].[AOR]|Gloss=3SG.AOR|nWord=9|RX=[PNTAM]
 10	ʧaː	ʧa	VERB	_	VerbForm=Fin	9	comp:aux	_	AlignBegin=338953|AlignEnd=339150|GE=put|Gloss=put|nWord=10|RX=[V]
 11	kə́	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	8	comp:aux	_	AlignBegin=339150|AlignEnd=339347|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=11|RX=[PNTAM]
 12	||	||	PUNCT	_	_	13	punct	_	AlignBegin=339347|AlignEnd=339544|GE=[$$]|nWord=12
