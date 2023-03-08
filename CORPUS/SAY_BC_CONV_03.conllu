@@ -264,7 +264,7 @@
 # text = yə́ddà ɗan myáː súː ngə́ʃês kəndí sábòːtu bàː myáː súː mə̀ dingá ɗúɣə̂n wurɓa //
 # text_ortho = yə́ddà ɗan myáː súː ngə́ʃês kəndí sábòːtu bàː myáː súː mə̀ díngá ɗúɣə̂n wurɓa //
 # text_en = That's how I want it because I do not want to waste money.
-1	yə́ddà	yə́ddà	ADV	_	PronType=Rel	6	subj	_	AlignBegin=49071|AlignEnd=49255|Gloss=how
+1	yə́ddà	yə́ddà	ADV	_	PronType=Rel	6	comp:pred	_	AlignBegin=49071|AlignEnd=49255|Gloss=how
 2	ɗan	ɗan	SCONJ	_	PronType=Rel	1	mod@relcl	_	AlignBegin=49255|AlignEnd=49439|Gloss=REL
 3	myáː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	2	comp:obj	_	AlignBegin=49439|AlignEnd=49623|Gloss=1SG.IMP
 4	súː	súː	VERB	_	VerbForm=Fin	3	comp:aux	_	AlignBegin=49623|AlignEnd=49809|Gloss=want
@@ -345,7 +345,7 @@
 # sent_timecode = 62628, 67390
 # text = yâːn tíː yi tu wò ɬə́ːrni kúniwòs əndá wò ɬíː yeltə tə̀ ɬə̀ yèltə̀ < tòː dàː kìː ɗyǎː kə́ ngâp dàtə̂pm tàːré //
 # text_ortho = yâːn tîː yì tu wò ɬə́ːrni kúniwòs < əndá wò yeltə tə̀ ɬə̀ yèltə̀ < tòː dàː kìː ɗyǎː kə́ ngâp dàtə̂pm tàːré //
-# text_en =  If he had said that he will bring his son when he comes to visit him for people to come and see him, well then you could have travelled with them.
+# text_en =  If he had said that he will bring his son if he comes to visit him for people to come and see him, well then you could have travelled with them.
 1	yâːn	yâːn	SCONJ	_	_	22	mod	_	AlignBegin=62628|AlignEnd=62769|Gloss=if
 2	tíː	yí	AUX	_	Mood=Irr|Number=Sing|Person=3	1	comp:obj	_	AlignBegin=62769|AlignEnd=62910|Gloss=3SG.COUNT
 3	yi	yi	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=62910|AlignEnd=63051|Gloss=be
@@ -357,7 +357,7 @@
 8-9	kúniwòs	_	_	_	_	_	_	_	_
 8	kúni	kúni	NOUN	_	_	6	comp:obj	_	AlignBegin=63474|AlignEnd=63544|Gloss=boy
 9	=wòs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	8	mod@poss	_	AlignBegin=63544|AlignEnd=63615|Gloss=3SG.POS
-10	əndá	kəndá	SCONJ	_	_	6	mod	_	AlignBegin=63754|AlignEnd=64015|Gloss=when
+10	əndá	indá	SCONJ	_	_	6	mod	_	AlignBegin=63754|AlignEnd=64015|Gloss=if
 11	wò	wò	AUX	_	Number=Sing|Person=3|Tense=Fut	10	comp:obj	_	AlignBegin=64015|AlignEnd=64250|Gloss=3SG.FUT
 12	ɬíː	ɬə	VERB	_	Aspect=Res|VerbForm=Fin	11	comp:aux	_	AlignBegin=64250|AlignEnd=64290|Gloss=go-RES
 13-14	yeltə	_	_	_	_	_	_	_	_
@@ -2778,8 +2778,8 @@
 # sent_timecode = 358658, 359496
 # text = yâːn ʧíɣ ɣəní á káːrâːn //
 # text_ortho = yâːn ʧíɣ ɣəní ɣá káːrâːn //
-# text_en =  Shen she was like this at the back.
-1	yâːn	yáːn	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	dislocated@subj	_	AlignBegin=358658|AlignEnd=358826|Gloss=3SG
+# text_en =  As for her, she was like this at the back.
+1	yâːn	yáːni	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	dislocated@subj	_	AlignBegin=358658|AlignEnd=358826|Gloss=3SG
 2	ʧíɣ	ʧík	ADV	_	_	3	comp:pred	_	AlignBegin=358826|AlignEnd=358910|Gloss=thus
 3	ɣəní	kəní	PART	_	VerbType=Cop	0	root	_	AlignBegin=358910|AlignEnd=358994|Gloss=be
 4	á	ká	ADP	_	_	3	dislocated@comp	_	AlignBegin=358994|AlignEnd=359162|Gloss=at|wordform=ɣá
@@ -5812,7 +5812,7 @@
 # text_en =  Yes, that's the reason.
 1	yáwwàː	yáwwàː	INTJ	_	_	4	discourse	_	AlignBegin=671845|AlignEnd=672072|Gloss=OK
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=672072|AlignEnd=672299|Gloss=PUNCT
-3	dàlíːlês	dàlíːli	NOUN	_	Definite=Def	4	subj	_	AlignBegin=672299|AlignEnd=672526|Gloss=reason
+3	dàlíːlês	dàlíːli	NOUN	_	Definite=Def	4	comp:pred	_	AlignBegin=672299|AlignEnd=672526|Gloss=reason
 4	kəndí	kəndí	PART	_	_	0	root	_	AlignBegin=672753|AlignEnd=672982|Gloss=be
 5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=672982|AlignEnd=672982|Gloss=PUNCT
 
@@ -6097,7 +6097,7 @@
 # text = dzàn níː ɣəněːn ?//
 # text_ortho = dzànːːː níːɣəněːn ?//
 # text_en =  When... was that?
-1	dzàn	dzàn	NOUN	_	_	3	subj	_	AlignBegin=697049|AlignEnd=697759|Gloss=day
+1	dzàn	dzàn	NOUN	_	_	3	comp:pred	_	AlignBegin=697049|AlignEnd=697759|Gloss=day
 2	níː	níː	PRON	_	PronType=Int	1	mod	_	AlignBegin=698456|AlignEnd=698513|Gloss=what
 3	ɣənín	kənín	PART	_	VerbType=Cop	0	root	_	AlignBegin=698513|AlignEnd=698570|Gloss=be
 4	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=698683|AlignEnd=698910|Gloss=PUNCT
