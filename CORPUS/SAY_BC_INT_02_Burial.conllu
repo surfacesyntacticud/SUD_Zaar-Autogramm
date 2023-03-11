@@ -1298,7 +1298,7 @@
 # sent_timecode = 176587, 181056
 # text = sə́ŋwaːrí yáː mə̂s < tá yâːn ʧi tə́ də̀n ɗan || ɗan || hár ɗan ŋaː ndúːri ɣáy < tá gìːtə̀ ɗân //
 # text_ortho = sə́ŋwaːrí yáː mə̂s < tá yâːn ʧi tə́ də̀n ɗan || ɗan || hár ɗan ŋaː ndúːri ɣáy < tá gìːtə̀ ɗân //
-# text_en = If a chief has died, then if he has a house that... that that has a small kitchen inside,  they would bury him there.
+# text_en = If a chief has died, then if he has a house that... that... with a small hut,  they would bury him there.
 1	sə́ŋwaːrí	sə́ŋwaːrí	NOUN	_	_	5	mod	_	AlignBegin=176587|AlignEnd=176739|GE=chief_priest|Gloss=chief_priest|nWord=1|RX=[N]
 2	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	1	comp:obj	_	AlignBegin=176739|AlignEnd=176891|GE=[3SG].[COND]|Gloss=3SG.COND|nWord=2|RX=[PNTAM]
 3	mə̂s	məs	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=176891|AlignEnd=177043|GE=die|Gloss=die|nWord=3|RX=[V]
@@ -1356,63 +1356,64 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_Burial.WAV
 # sent_timecode = 185125, 188031
-# text = tá miːtsə gòs < tòː wò fi mari aː || kóː tá waː -ni miːtsə nàmbóŋ //
-# text_ortho = tá miːtsə gòs < tòː wò fi mari aː || kóː tá wáːnì miːtsə nàmbóŋ //
+# text = tá miːtsə gòs < tòː wò fi mari aː || kóː tá wáː nì miːtsə nàmbóŋ ?//
+# text_ortho = tá miːtsə gòs < tòː wò fi mari aː || kóː tá wáː nì miːtsə nàmbóŋ ?//
 # text_en = Then his funeral, will it be different or... will they do the same funeral?
-1	tá	wò	AUX	_	Number=Plur|Person=3|Tense=Fut	6	mod	_	AlignBegin=185125|AlignEnd=185279|GE=then|Gloss=then|nWord=1|RX=[ADV]
-2	miːtsə	miːtsə	VERB	_	VerbForm=Fin	1	comp:aux	_	AlignBegin=185279|AlignEnd=185433|GE=burial|Gloss=burial|nWord=2|RX=[N]
-3	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@top	_	AlignBegin=185433|AlignEnd=185587|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=3|RX=[PRO]
-4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=185587|AlignEnd=185741|GE=[<]|Gloss=PUNCT|nWord=4
+1	tá	tá	ADV	_	Number=Plur|Person=3|Tense=Fut	6	discourse	_	AlignBegin=185125|AlignEnd=185279|GE=then|Gloss=then|nWord=1|RX=[ADV]
+2	miːtsə	miːtsə	VERB	_	VerbForm=Fin	6	dislocated@subj	_	AlignBegin=185279|AlignEnd=185433|GE=burial|Gloss=burial|nWord=2|RX=[N]
+3	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@poss	_	AlignBegin=185433|AlignEnd=185587|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=3|RX=[PRO]
+4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=185587|AlignEnd=185741|GE=[<]|Gloss=PUNCT|nWord=4
 5	tòː	tòː	PART	_	_	6	discourse	_	AlignBegin=185741|AlignEnd=185911|GE=[DM]|Gloss=DM|nWord=5|RX=[PTCL]
 6	wò	wò	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=185911|AlignEnd=186081|GE=[3SG].[FUT]|Gloss=3SG.FUT|nWord=6|RX=[PNTAM]
 7	fi	fi	VERB	_	VerbForm=Fin	6	comp:aux	_	AlignBegin=186081|AlignEnd=186251|GE=do|Gloss=do|nWord=7|RX=[V]
-8	mari	mari	X	_	_	7	comp:obj@lvc	_	AlignBegin=186251|AlignEnd=186421|GE=different|Gloss=different|nWord=8|RX=[ADV]
-9	aː	aː	PART	_	PartType=Int	7	mod	_	AlignBegin=186421|AlignEnd=186591|GE=[VRT]|Gloss=VRT|nWord=9|RX=[PTCL].[ASS]
-10	||	||	PUNCT	_	_	12	punct	_	AlignBegin=186591|AlignEnd=186761|GE=[$$]|nWord=10
-11	kóː	kóː	CCONJ	_	_	12	mod	_	AlignBegin=186761|AlignEnd=186930|GE=or|Gloss=or|nWord=11|RX=[COORD]
-12	tá	wò	AUX	_	Number=Plur|Person=3|Tense=Fut	6	mod	_	AlignBegin=186930|AlignEnd=187150|GE=[3PL].[FUT]|Gloss=3PL.FUT|nWord=12|RX=[PNTAM]
-13	waː	waː	PART	_	_	12	comp:aux	_	AlignBegin=187150|AlignEnd=187260|GE=perform|Gloss=perform|nWord=13|RX=[V]
-14	ni	ni	PART	_	Aspect=Iter	13	compound:prt	_	AlignBegin=187260|AlignEnd=187370|GE=[ITER]|Gloss=ITER|nWord=13|RX=[PTCL].[EXT]|wordform=-ni
-15	miːtsə	miːtsə	NOUN	_	_	14	comp:pred	_	AlignBegin=187370|AlignEnd=187590|GE=burial|Gloss=burial|nWord=14|RX=[N]
-16	nàmbóŋ	nàmbóŋ	NUM	_	_	15	mod	_	AlignBegin=187590|AlignEnd=187810|GE=one|Gloss=one|nWord=15|RX=[NUM]
-17	//	//	PUNCT	_	_	6	punct	_	AlignBegin=187810|AlignEnd=188031|GE=[//]|Gloss=PUNCT|nWord=16
+8	mari	mari	ADJ	_	_	7	comp:pred	_	AlignBegin=186251|AlignEnd=186421|GE=different|Gloss=different|nWord=8|RX=[ADV]
+9	aː	aː	PART	_	PartType=Int	6	mod	_	AlignBegin=186421|AlignEnd=186591|GE=[VRT]|Gloss=VRT|nWord=9|RX=[PTCL].[ASS]
+10	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=186591|AlignEnd=186761|Gloss=PUNCT
+11	kóː	kóː	CCONJ	_	_	12	cc	_	AlignBegin=186761|AlignEnd=186930|GE=or|Gloss=or|nWord=11|RX=[COORD]
+12	tá	wò	AUX	_	Number=Plur|Person=3|Tense=Fut	6	conj:coord	_	AlignBegin=186930|AlignEnd=187150|GE=[3PL].[FUT]|Gloss=3PL.FUT|nWord=12|RX=[PNTAM]
+13	wáː	waː	PART	_	_	12	comp:aux	_	AlignBegin=187150|AlignEnd=187260|GE=perform|Gloss=perform|nWord=13|RX=[V]
+14	nì	ni	PART	_	Aspect=Iter	13	compound:prt	_	AlignBegin=187260|AlignEnd=187370|GE=[ITER]|Gloss=ITER|nWord=13|RX=[PTCL].[EXT]|wordform=-ni
+15	miːtsə	miːtsə	NOUN	_	_	13	comp:obj	_	AlignBegin=187370|AlignEnd=187590|GE=burial|Gloss=burial|nWord=14|RX=[N]
+16	nàmbóŋ	nàmbóŋ	NUM	_	_	15	det	_	AlignBegin=187590|AlignEnd=187810|GE=one|Gloss=one|nWord=15|RX=[NUM]
+17	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=187810|AlignEnd=188031|GE=[//]|Gloss=PUNCT|nWord=16
 
 # sent_id = SAY_BC_INT_02_Burial_145-148
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_Burial.WAV
 # sent_timecode = 186930, 192400
-# text = áː'àː < miːtsə́ =wôs mari hŋ́ séː déː wu tu mumtsə́ -ês ɗanyâːlíː //
-# text_ortho = áː'àː < miːtsə́wôs mari hŋ́ séː déː wu tu mumtsês ɗanyâːlíː //
+# text = áː'àː < miːtsə́wôs mari hŋ́ séː déː wu tu munʧês ɗanyâːlíː //
+# text_ortho = áː'àː < miːtsə́wôs mari hŋ́ séː déː wu tu munʧês ɗanyâːlíː //
 # text_en = No,  his funeral is not different, except that those masquerades.
-1	áː'àː	áː'àː	INTJ	_	_	3	discourse	_	AlignBegin=186930|AlignEnd=187105|GE=no|Gloss=no|nWord=1|RX=[INTJ]
+1	áː'àː	áː'àː	INTJ	_	_	5	discourse	_	AlignBegin=186930|AlignEnd=187105|GE=no|Gloss=no|nWord=1|RX=[INTJ]
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=187105|AlignEnd=187280|GE=[<]|Gloss=PUNCT|nWord=2
-3	miːtsə́	miːtsə́	VERB	_	_	0	root	_	AlignBegin=188660|AlignEnd=188798|GE=burial|Gloss=burial|nWord=3|RX=[N]
-4	=wôs	=woos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	mod@poss	_	AlignBegin=188798|AlignEnd=188937|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=3|RX=[PRO]
-5	mari	mari	NOUN	_	_	3	conj:coord	_	AlignBegin=188937|AlignEnd=189214|GE=different|Gloss=different|nWord=4|RX=[ADV]
-6	hŋ́	hŋ́	PART	_	Polarity=Neg	3	mod	_	AlignBegin=189214|AlignEnd=189491|GE=[NEG2]|Gloss=NEG2|nWord=5|RX=[PTCL].[NEG]
-7	séː	séː	ADV	_	_	3	mod	_	AlignBegin=189491|AlignEnd=189768|GE=except|Gloss=except|nWord=6|RX=[CONJ]
-8	déː	déː	PART	_	_	9	mod	_	AlignBegin=189768|AlignEnd=190045|GE=indeed|Gloss=indeed|nWord=7|RX=[ADV]
-9	wu	wu	VERB	_	VerbForm=Fin	7	comp:obj	_	AlignBegin=190045|AlignEnd=190322|GE=say|Gloss=say|nWord=8|RX=[V]
-10	tu	tu	SCONJ	_	Mood=Qot	9	comp:obj	_	AlignBegin=190322|AlignEnd=190600|GE=[COMP]|Gloss=COMP|nWord=9|RX=[PTCL]
-11	mumtsə́-ês	mumtsə́-ês	NOUN	_	_	10	comp:obj	_	AlignBegin=191520|AlignEnd=191813|GE=masquerade[DEF]|Gloss=masquerade|MGloss=masqueradeDEF|MSeg=mumtsə́-ês|nWord=10|RX=[N][ART]|wordform=mumtsə́
-12	ɗanyâːlíː	ɗanyâːlíː	ADV	_	PronType=Dem	11	mod	_	AlignBegin=191813|AlignEnd=192106|GE=[DIST]|Gloss=DIST|nWord=11|RX=[DEICT]
-13	//	//	PUNCT	_	_	3	punct	_	AlignBegin=192106|AlignEnd=192400|GE=[//]|Gloss=PUNCT|nWord=12
+3-4	miːtsə́wôs	_	_	_	_	_	_	_	_
+3	miːtsə́	miːtsə	VERB	_	_	5	subj	_	AlignBegin=188660|AlignEnd=188798|GE=burial|Gloss=burial|nWord=3|RX=[N]
+4	=wôs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	mod@poss	_	AlignBegin=188798|AlignEnd=188937|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=3|RX=[PRO]
+5	mari	mari	ADJ	_	_	0	root	_	AlignBegin=188937|AlignEnd=189214|GE=different|Gloss=different|nWord=4|RX=[ADV]
+6	hŋ́	hŋ́	PART	_	Polarity=Neg	5	mod	_	AlignBegin=189214|AlignEnd=189491|GE=[NEG2]|Gloss=NEG2|nWord=5|RX=[PTCL].[NEG]
+7	séː	séː	ADP	_	_	5	mod	_	AlignBegin=189491|AlignEnd=189768|Gloss=except|Idiom=Yes|ExtPos=SCONJ
+8	déː	déː	PART	_	_	7	unk	_	AlignBegin=189768|AlignEnd=190045|InIdiom=Yes|Gloss=indeed
+9	wu	wu	VERB	_	_	11	discourse	_	AlignBegin=190045|AlignEnd=190322|Gloss=say|Idiom=Yes|ExtPos=PART
+10	tu	tu	SCONJ	_	Mood=Qot	9	comp:obj	_	AlignBegin=190322|AlignEnd=190600|Gloss=COMP|InIdiom=Yes
+11	munʧês	mumtsə́	NOUN	_	Definite=Def	7	comp:obj	_	AlignBegin=191520|AlignEnd=191813|Gloss=masquerade-DEF
+12	ɗanyâːlíː	ɗanyâːlíː	ADV	_	Deixis=DIST	11	mod	_	AlignBegin=191813|AlignEnd=192106|GE=[DIST]|Gloss=DIST
+13	//	//	PUNCT	_	_	5	punct	_	AlignBegin=192106|AlignEnd=192400|GE=[//]|Gloss=PUNCT|nWord=12
 
 # sent_id = SAY_BC_INT_02_Burial_149-150
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_Burial.WAV
 # sent_timecode = 193020, 196176
-# text = yâːn ʧáː fi -ni naːʤankâːy < tòː naːʤankâːy wò ɲol ɗi //
+# text = yâːn ʧáː fini Naːʤankâːy < tôː Naːʤankâːy wò ɲólɗi //
 # text_ortho = yâːn ʧáː fini naːʤankâːy < tôː naːʤankâːy wò ɲólɗi //
 # text_en = If he was doing Najankai (masquerade.sp), well Najankai will come out.
 1	yâːn	yâːn	SCONJ	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	mod	_	AlignBegin=193020|AlignEnd=193306|GE=if|Gloss=if|nWord=1|RX=[CONJ]
 2	ʧáː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	1	comp:obj	_	AlignBegin=193306|AlignEnd=193592|GE=[3SG].[ICPL]|Gloss=3SG.ICPL|nWord=2|RX=[PNTAM]
 3	fi	fi	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=193592|AlignEnd=193735|GE=do|Gloss=do|nWord=3|RX=[V]
 4	ni	ni	PART	_	Aspect=Iter	3	compound:prt	_	AlignBegin=193735|AlignEnd=193878|GE=[ITER]|Gloss=ITER|nWord=3|RX=[PTCL].[EXT]|wordform=-ni
-5	naːʤankâːy	naːʤankâːy	NOUN	_	_	3	comp:obj	_	AlignBegin=193878|AlignEnd=194164|GE=[Najankai]|Gloss=Najankai|nWord=4|RX=[NPR]
+5	Naːʤankâːy	Naːʤankâːy	PROPN	_	_	3	comp:obj	_	AlignBegin=193878|AlignEnd=194164|GE=[Najankai]|Gloss=Najankai|nWord=4|RX=[NPR]
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=194164|AlignEnd=194451|GE=[<]|Gloss=PUNCT|nWord=5
 7	tòː	tòː	PART	_	_	9	discourse	_	AlignBegin=195020|AlignEnd=195251|GE=[DM]|Gloss=DM|nWord=6|RX=[PTCL]
-8	naːʤankâːy	naːʤankâːy	NOUN	_	_	9	comp:aux	_	AlignBegin=195251|AlignEnd=195482|GE=[Najankai]|Gloss=Najankai|nWord=7|RX=[NPR]
+8	Naːʤankâːy	Naːʤankâːy	PROPN	_	_	9	subj	_	AlignBegin=195251|AlignEnd=195482|GE=[Najankai]|Gloss=Najankai|nWord=7|RX=[NPR]
 9	wò	wò	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=195482|AlignEnd=195713|GE=[3SG].[FUT]|Gloss=3SG.FUT|nWord=8|RX=[PNTAM]
 10	ɲol	ɲol	VERB	_	VerbForm=Fin	9	comp:aux	_	AlignBegin=195713|AlignEnd=195829|GE=go_out|Gloss=go_out|nWord=9|RX=[V]
 11	ɗi	ɗi	PART	_	_	10	compound:prt	_	AlignBegin=195829|AlignEnd=195944|GE=[CTP]|Gloss=CTP|nWord=9|RX=[PTCL]
@@ -1422,18 +1423,18 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_Burial.WAV
 # sent_timecode = 197571, 200068
-# text = yâːn ʧáː fi -ni naːtarɲi < naːtarɲi wò ɲol ɗi //
-# text_ortho = yâːn ʧáː fini naːtarɲi < naːtarɲi wò ɲólɗi //
-# text_en = If he was doing Natarnyi, well Natarnyi will come out.
+# text = yâːn ʧáː fi ni Naːtarɲi < Naːtarɲi wò ɲól ɗi //
+# text_ortho = yâːn ʧáː fi ni Naːtarɲi < Naːtarɲi wò ɲól ɗi //
+# text_en = If he was doing Natarnyi (masquerade.sp), well Natarnyi will come out.
 1	yâːn	yâːn	SCONJ	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	mod	_	AlignBegin=197571|AlignEnd=197805|GE=if|Gloss=if|nWord=1|RX=[CONJ]
 2	ʧáː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	1	comp:obj	_	AlignBegin=197805|AlignEnd=198039|GE=[3SG].[ICPL]|Gloss=3SG.ICPL|nWord=2|RX=[PNTAM]
 3	fi	fi	VERB	_	VerbForm=Fin	2	comp:aux	_	AlignBegin=198039|AlignEnd=198156|GE=do|Gloss=do|nWord=3|RX=[V]
 4	ni	ni	PART	_	Aspect=Iter	3	compound:prt	_	AlignBegin=198156|AlignEnd=198273|GE=[ITER]|Gloss=ITER|nWord=3|RX=[PTCL].[EXT]|wordform=-ni
-5	naːtarɲi	naːtarɲi	NOUN	_	_	3	comp:obj	_	AlignBegin=198273|AlignEnd=198507|GE=[Natarnyi]|Gloss=Natarnyi|nWord=4|RX=[N].[P]
-6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=198507|AlignEnd=198742|GE=[<]|Gloss=PUNCT|nWord=5
-7	naːtarɲi	naːtarɲi	NOUN	_	_	8	subj	_	AlignBegin=199009|AlignEnd=199274|GE=[Natarnyi]|Gloss=Natarnyi|nWord=6|RX=[N].[P]
+5	Naːtarɲi	Naːtarɲi	PROPN	_	_	3	comp:obj	_	AlignBegin=198273|AlignEnd=198507|GE=[Natarnyi]|Gloss=Natarnyi|nWord=4|RX=[N].[P]
+6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=198507|AlignEnd=198742|GE=[<]|Gloss=PUNCT|nWord=5
+7	Naːtarɲi	Naːtarɲi	PROPN	_	_	8	subj	_	AlignBegin=199009|AlignEnd=199274|GE=[Natarnyi]|Gloss=Natarnyi|nWord=6|RX=[N].[P]
 8	wò	wò	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=199274|AlignEnd=199539|GE=[3SG].[FUT]|Gloss=3SG.FUT|nWord=7|RX=[PNTAM]
-9	ɲol	ɲol	VERB	_	VerbForm=Fin	8	comp:aux	_	AlignBegin=199539|AlignEnd=199671|GE=go_out|Gloss=go_out|nWord=8|RX=[V]
+9	ɲól	ɲol	VERB	_	VerbForm=Fin	8	comp:aux	_	AlignBegin=199539|AlignEnd=199671|GE=go_out|Gloss=go_out|nWord=8|RX=[V]
 10	ɗi	ɗi	PART	_	_	9	compound:prt	_	AlignBegin=199671|AlignEnd=199804|GE=[CTP]|Gloss=CTP|nWord=8|RX=[PTCL]
 11	//	//	PUNCT	_	_	8	punct	_	AlignBegin=199804|AlignEnd=200068|GE=[//]|Gloss=PUNCT|nWord=9
 
@@ -1443,31 +1444,31 @@
 # sent_timecode = 200869, 203190
 # text = yâːn nə mùnàk < tòː tá ɲom mùnàk //= tə́ mán gaː //
 # text_ortho = yâːn nə mùnàk < tôː tá ɲôm mùnàk //= tə́ mán gàː //
-# text_en = If it was Munak well they would take Munak and wear it.
+# text_en = If it was Munak (masquerade.sp) well they would take Munak and wear it.
 1	yâːn	yâːn	SCONJ	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	mod	_	AlignBegin=200869|AlignEnd=201039|GE=if|Gloss=if|nWord=1|RX=[CONJ]
 2	nə	nə	PART	_	VerbType=Cop	1	comp:obj	_	AlignBegin=201039|AlignEnd=201209|GE=[COP1]|Gloss=be|nWord=2|RX=[PTCL].[SYNT]
-3	mùnàk	mùnàk	NOUN	_	_	2	comp:pred	_	AlignBegin=201209|AlignEnd=201379|GE=masquerade.sp|Gloss=masquerade.sp|nWord=3|RX=[N].[P]
+3	Mùnàk	Mùnàk	PROPN	_	_	2	comp:pred	_	AlignBegin=201209|AlignEnd=201379|Gloss=Munak
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=201379|AlignEnd=201550|GE=[<]|Gloss=PUNCT|nWord=4
 5	tòː	tòː	PART	_	_	6	discourse	_	AlignBegin=201873|AlignEnd=202028|GE=[DM]|Gloss=DM|nWord=5|RX=[PTCL]
 6	tá	wò	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=202028|AlignEnd=202183|GE=[3PL].[FUT]|Gloss=3PL.FUT|nWord=6|RX=[PNTAM]
 7	ɲom	ɲom	VERB	_	VerbForm=Fin	6	comp:aux	_	AlignBegin=202183|AlignEnd=202338|GE=take|Gloss=take|nWord=7|RX=[V]
-8	mùnàk	mùnàk	NOUN	_	_	7	comp:obj	_	AlignBegin=202338|AlignEnd=202493|GE=masquerade.sp|Gloss=masquerade.sp|nWord=8|RX=[N].[P]
-9	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=202493|AlignEnd=202650|GE=[//]|Gloss=PUNCT|nWord=9
-10	tə́	á	ADP	_	Aspect=Aor|Number=Plur|Person=3	7	comp:obl	_	AlignBegin=202650|AlignEnd=202785|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=10|RX=[PNTAM]
-11	mán	mán	VERB	_	VerbForm=Fin	10	comp:aux	_	AlignBegin=202785|AlignEnd=202920|GE=come|Gloss=come|nWord=11|RX=[V]
-12	gaː	gaː	PART	_	_	11	comp:obl	_	AlignBegin=202920|AlignEnd=203055|GE=put|Gloss=put|nWord=12|RX=[V]
+8	Mùnàk	Mùnàk	PROPN	_	_	7	comp:obj	_	AlignBegin=202338|AlignEnd=202493|Gloss=Munak
+9	//=	//=	PUNCT	_	_	10	punct	_	AlignBegin=202493|AlignEnd=202650|GE=[//]|Gloss=PUNCT|nWord=9
+10	tə́	á	ADP	_	Aspect=Aor|Number=Plur|Person=3	7	parataxis@conj	_	AlignBegin=202650|AlignEnd=202785|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=10|RX=[PNTAM]
+11	mán	mán	VERB	_	VerbForm=Fin	10	comp:aux	_	AlignBegin=202785|AlignEnd=202920|Gloss=come|SVC=Yes
+12	gaː	gaː	PART	_	_	11	compound:svc	_	AlignBegin=202920|AlignEnd=203055|GE=put|Gloss=put|nWord=12|RX=[V]
 13	//	//	PUNCT	_	_	6	punct	_	AlignBegin=203055|AlignEnd=203190|GE=[//]|Gloss=PUNCT|nWord=13
 
 # sent_id = SAY_BC_INT_02_Burial_156-156
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_Burial.WAV
 # sent_timecode = 204232, 204953
-# text = mùnàk kən //
-# text_ortho = mùnàk kən //
-# text_en = Munak indeed.
-1	mùnàk	mùnàk	INTJ	_	_	0	root	_	AlignBegin=204232|AlignEnd=204472|GE=masquerade.sp|Gloss=masquerade.sp|nWord=1|RX=[N].[P]
+# text = Mùnàk kən !//
+# text_ortho = Mùnàk kən !//
+# text_en = Munak indeed!
+1	Mùnàk	Mùnàk	PROPN	_	_	0	root	_	AlignBegin=204232|AlignEnd=204472|Gloss=Munak|nWord=1
 2	kən	kən	PART	_	_	1	mod	_	AlignBegin=204472|AlignEnd=204712|GE=[COP2]|Gloss=be|nWord=2|RX=[PTCL].[SYNT]
-3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=204712|AlignEnd=204953|GE=[//]|Gloss=PUNCT|nWord=3
+3	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=204712|AlignEnd=204953|GE=[//]|Gloss=PUNCT|nWord=3
 
 # sent_id = SAY_BC_INT_02_Burial_157-159
 # speaker_id = SP1
