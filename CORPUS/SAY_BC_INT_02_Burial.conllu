@@ -1553,21 +1553,21 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_Burial.WAV
 # sent_timecode = 221183, 225795
-# text = tòː dzàŋ mará -kə́nì miːtsə -ês < dzàŋ gíː ká fi mátaŋ sosai da sosai //
+# text = tôː dzàŋ marákə̂n miːʧês < dzàŋ gíː ɣá fî mátaŋ sosai da sosai //
 # text_ortho = tôː dzàŋ marákə̂n miːʧês < dzàŋ gíː ká fî mátaŋ sosai da sosai //
 # text_en = Well on the day of the end of the burial, that day you would do matang pppplenty.
 1	tòː	tòː	PART	_	_	8	discourse	_	AlignBegin=221183|AlignEnd=221418|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
 2	dzàŋ	dzàŋ	NOUN	_	_	8	mod	_	AlignBegin=221418|AlignEnd=221653|GE=day|Gloss=day|nWord=2|RX=[N]
-3	maráɣə̂n	mará	NOUN	_	VerbForm=Vnoun	8	comp:aux	_	AlignBegin=221653|AlignEnd=221888|ExtPos=NOUN|Gloss=spoil|nWord=3
-4	miːtsə-ês	miːtsə-ês	VERB	_	_	3	comp:obj	_	AlignBegin=221888|AlignEnd=222123|GE=burial[DEF]|Gloss=burial|MGloss=burialDEF|MSeg=miːtsə-ês|nWord=4|RX=[N][ART]|wordform=miːtsə
+3	maráɣə̂n	mará	VERB	_	VerbForm=Vnoun	2	mod	_	AlignBegin=221653|AlignEnd=221888|ExtPos=NOUN|Gloss=spoil-NMLZ
+4	miːʧês	miːtsə	VERB	_	_	3	comp:obj	_	AlignBegin=221888|AlignEnd=222123|Gloss=burial-DEF
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=222123|AlignEnd=222359|GE=[<]|Gloss=PUNCT|nWord=5
 6	dzàŋ	dzàŋ	NOUN	_	_	8	mod	_	AlignBegin=223379|AlignEnd=223647|GE=day|Gloss=day|nWord=6|RX=[N]
-7	gíː	kíː	PRON	_	PronType=Dem	6	det	_	AlignBegin=223647|AlignEnd=223915|GE=[DIST]|Gloss=DIST|nWord=7|RX=[PRO].[DEICT]
-8	ká	à́	AUX	_	Aspect=Perf|Number=Sing|Person=2	0	root	_	AlignBegin=223915|AlignEnd=224183|GE=[2PL].[FUT]|Gloss=2PL.FUT|nWord=8|RX=[PNTAM]
-9	fi	fi	VERB	_	_	8	comp:aux	_	AlignBegin=224183|AlignEnd=224451|GE=do|Gloss=do|nWord=9|RX=[V]
+7	gíː	gíː	DET	_	Deixis=Dist	6	det	_	AlignBegin=223647|AlignEnd=223915|Gloss=DIST
+8	ɣá	wò	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=223915|AlignEnd=224183|Gloss=2PL.FUT
+9	fî	fi	VERB	_	_	8	comp:aux	_	AlignBegin=224183|AlignEnd=224451|GE=do|Gloss=do|nWord=9|RX=[V]
 10	mátaŋ	mátaŋ	NOUN	_	_	9	comp:obj	_	AlignBegin=224451|AlignEnd=224719|GE=ritual_flogging|Gloss=ritual_flogging|nWord=10|RX=[N]
 11	sosai	sosai	ADV	_	_	9	mod	_	AlignBegin=224719|AlignEnd=224987|GE=very_well|Gloss=very_well|Language=hau|nWord=11|RX=[X].[CSW].[HAU]
-12	da	da	ADP	_	Foreign=Yes	9	mod	_	AlignBegin=224987|AlignEnd=225255|GE=with|Gloss=with|Language=hau|nWord=12|RX=[X].[CSW].[HAU]
+12	da	da	ADP	_	Foreign=Yes	11	flat:foreign	_	AlignBegin=224987|AlignEnd=225255|GE=with|Gloss=with|Language=hau|nWord=12|RX=[X].[CSW].[HAU]
 13	sosai	sosai	ADV	_	_	12	flat:foreign	_	AlignBegin=225255|AlignEnd=225523|GE=very_well|Gloss=very_well|Language=hau|nWord=13|RX=[X].[CSW].[HAU]
 14	//	//	PUNCT	_	_	8	punct	_	AlignBegin=225523|AlignEnd=225795|GE=[//]|Gloss=PUNCT|nWord=14
 
@@ -1575,42 +1575,44 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_Burial.WAV
 # sent_timecode = 227412, 230257
-# text = múr -ín < kə́ || kə ɮiː kâːm =wâː ɗi //= tòː kə́ fi mátaŋ káy //
+# text = murín < kə́ || kə ɮiː kámâːɗì //= tôː kə́ fî mátaŋ káy //
 # text_ortho = murín < kə́ || kə ɮiː kámâːɗì //= tôː kə́ fî mátaŋ káy //
 # text_en = That is you would... you would pull your friend tôː kə́ fî mátaŋ gáy //
-1	mur-ín	mur-ín	NOUN	_	_	3	dislocated@top	_	AlignBegin=227412|AlignEnd=227780|GE=man[PROX]|Gloss=man|MGloss=manPROX|MSeg=muri-ín|nWord=1|RX=[N][DEICT]|wordform=mur
+1	murín	mur	NOUN	_	Deixis=Prox	3	dislocated@top	_	AlignBegin=227412|AlignEnd=227780|Gloss=man-PROX
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=227780|AlignEnd=228148|GE=[<]|Gloss=PUNCT|nWord=2
 3	kə́	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=228148|AlignEnd=228310|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=3|RX=[PNTAM]
-4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=228310|AlignEnd=228472|GE=[$$]|nWord=4
-5	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	3	parataxis@conj	_	AlignBegin=228472|AlignEnd=228674|GE=[2SG].[AOR]|Gloss=2SG.AOR|nWord=5|RX=[PNTAM]
+4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=228310|AlignEnd=228472|Gloss=PUNCT
+5	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	3	conj:dicto	_	AlignBegin=228472|AlignEnd=228674|Gloss=2SG.AOR
 6	ɮiː	ɮi	VERB	_	_	5	comp:aux	_	AlignBegin=228674|AlignEnd=228876|GE=pull|Gloss=pull|nWord=6|RX=[V]
-7	kâːm	kâːm	NOUN	_	_	6	compound:svc	_	AlignBegin=228876|AlignEnd=228943|GE=friend|Gloss=friend|nWord=7|RX=[N]
-8	=wâː	=wopm	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	7	mod@poss	_	AlignBegin=228943|AlignEnd=229010|GE=[2SG].[POS]|Gloss=2SG.POS|nWord=7|RX=[PRO]
+7-9	kámâːɗì	_	_	_	_	_	_	_	_
+7	kâːm	kâːm	NOUN	_	_	6	comp:obj	_	AlignBegin=228876|AlignEnd=228943|GE=friend|Gloss=friend|nWord=7|RX=[N]
+8	=wâː	=waː	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	7	mod@poss	_	AlignBegin=228943|AlignEnd=229010|Gloss=2SG.POS
 9	ɗi	ɗi	PART	_	_	6	compound:prt	_	AlignBegin=229010|AlignEnd=229078|GE=[CTP]|Gloss=CTP|nWord=7|RX=[PTCL]
 10	//=	//=	PUNCT	_	_	12	punct	_	AlignBegin=229078|AlignEnd=229280|GE=[//]|Gloss=PUNCT|nWord=8
 11	tòː	tòː	PART	_	_	12	discourse	_	AlignBegin=229280|AlignEnd=229443|GE=[DM]|Gloss=DM|nWord=9|RX=[PTCL]
 12	kə́	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	3	parataxis@conj	_	AlignBegin=229443|AlignEnd=229606|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=10|RX=[PNTAM]
-13	fi	fi	VERB	_	_	12	comp:aux	_	AlignBegin=229606|AlignEnd=229769|GE=do|Gloss=do|nWord=11|RX=[V]
+13	fî	fi	VERB	_	_	12	comp:aux	_	AlignBegin=229606|AlignEnd=229769|GE=do|Gloss=do|nWord=11|RX=[V]
 14	mátaŋ	mátaŋ	NOUN	_	_	13	comp:obj@lvc	_	AlignBegin=229769|AlignEnd=229932|GE=ritual_flogging|Gloss=ritual_flogging|nWord=12|RX=[N]
-15	káy	káy	PART	_	_	13	mod	_	AlignBegin=229932|AlignEnd=230095|GE=[ANAPH]|Gloss=ANAPH|nWord=13|RX=[PRO].[ANAPH]
+15	gáy	káy	PRON	_	_	13	comp:obl	_	AlignBegin=229932|AlignEnd=230095|Gloss=ANAPH
 16	//	//	PUNCT	_	_	3	punct	_	AlignBegin=230095|AlignEnd=230257|GE=[//]|Gloss=PUNCT|nWord=14
 
 # sent_id = SAY_BC_INT_02_Burial_174-175
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_Burial.WAV
 # sent_timecode = 231258, 233221
-# text = tòː yâːn ʧǎː ʧim =tə ká vìː válti tu ʃéro //
-# text_ortho = tôː yâːn ʧǎː ʧímtə̀ ká vìː válti tu ʃéro //
+# text = tôː yâːn ʧǎː ʧímtə ɣá vìː Válti tu ʃéro //
+# text_ortho = tôː yâːn ʧǎː ʧímtə ɣá vìː Válti tu ʃéro //
 # text_en = Well that's what they call in Hausa 'shoro'.
 1	tòː	tòː	PART	_	_	3	discourse	_	AlignBegin=231258|AlignEnd=231445|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
-2	yâːn	yâːn	SCONJ	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	mod	_	AlignBegin=231445|AlignEnd=231632|GE=if|Gloss=if|nWord=2|RX=[CONJ]
+2	yâːn	yáːni	SCONJ	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	dislocated:comp	_	AlignBegin=231445|AlignEnd=231632|Gloss=3SG
 3	ʧǎː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=231632|AlignEnd=231819|GE=[3PL].[ICPL]|Gloss=3PL.ICPL|nWord=3|RX=[PNTAM]
-4	ʧim	ʧim	VERB	_	_	3	comp:aux	_	AlignBegin=231819|AlignEnd=231913|GE=call|Gloss=call|nWord=4|RX=[V]
+4-5	ʧímtə	_	_	_	_	_	_	_	_
+4	ʧîm	ʧim	VERB	_	_	3	comp:aux	_	AlignBegin=231819|AlignEnd=231913|GE=call|Gloss=call|nWord=4|RX=[V]
 5	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=231913|AlignEnd=232006|GE=[3SG].[OBJ]|Gloss=3SG.OBJ|nWord=4|RX=[PRO]
-6	ká	ká	ADP	_	_	4	comp:obl	_	AlignBegin=232006|AlignEnd=232193|GE=at|Gloss=at|nWord=5|RX=[PREP]
-7	vìː	vìː	NOUN	_	_	6	comp:obj	_	AlignBegin=232193|AlignEnd=232380|GE=speech|Gloss=speech|nWord=6|RX=[N]
-8	válti	válti	NOUN	_	_	6	comp:obj	_	AlignBegin=232380|AlignEnd=232567|GE=[Muslim]|Gloss=Muslim|nWord=7|RX=[N]
-9	tu	tu	PART	_	Mood=Qot	8	comp:obj	_	AlignBegin=232567|AlignEnd=232785|GE=[COMP]|Gloss=COMP|nWord=8|RX=[PTCL]
+6	ɣá	ká	ADP	_	_	4	comp:obl	_	AlignBegin=232006|AlignEnd=232193|GE=at|Gloss=at|nWord=5|RX=[PREP]
+7	vìː	vìː	NOUN	_	_	6	comp:obj	_	AlignBegin=232193|AlignEnd=232380|Gloss=language
+8	Válti	Válti	PROPN	_	_	7	compound	_	AlignBegin=232380|AlignEnd=232567|Gloss=Muslim
+9	tu	tu	PART	_	Mood=Qot	4	comp:pred	_	AlignBegin=232567|AlignEnd=232785|GE=[COMP]|Gloss=COMP|nWord=8|RX=[PTCL]
 10	ʃéro	ʃéro	ADV	_	_	9	comp:obj	_	AlignBegin=232785|AlignEnd=233003|GE=flogging|Gloss=flogging|Lang=hau|nWord=9|RX=[N].[BW].[HAU]
 11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=233003|AlignEnd=233221|GE=[//]|Gloss=PUNCT|nWord=10
 
