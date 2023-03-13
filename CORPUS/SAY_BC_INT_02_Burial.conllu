@@ -1817,11 +1817,11 @@
 1	yâːn	yâːn	SCONJ	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	mod	_	AlignBegin=259346|AlignEnd=259497|GE=if|Gloss=if|nWord=1|RX=[CONJ]
 2	nə	nə	PART	_	VerbType=Cop	1	comp:obj	_	AlignBegin=259497|AlignEnd=259648|GE=[COP1]|Gloss=be|nWord=2|RX=[PTCL].[SYNT]
 3	gùŋ	gùŋ	PRON	_	_	2	comp:pred	_	AlignBegin=259648|AlignEnd=259799|GE=chief|Gloss=chief|nWord=3|RX=[N]
-4	kàm	kàm	PART	_	_	2	discourse	_	AlignBegin=259799|AlignEnd=259950|GE=indeed|Gloss=indeed|nWord=4|RX=[PTCL].[TOP]
+4	kàm	kàm	PART	_	_	1	discourse	_	AlignBegin=259799|AlignEnd=259950|GE=indeed|Gloss=indeed|nWord=4|RX=[PTCL].[TOP]
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=259950|AlignEnd=260100|GE=[<]|Gloss=PUNCT|nWord=5
 6	tá	wò	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=260775|AlignEnd=261010|GE=[3PL].[FUT]|Gloss=3PL.FUT|nWord=6|RX=[PNTAM]
 7	fuː	fuː	VERB	_	_	6	comp:aux	_	AlignBegin=261010|AlignEnd=261245|GE=tell|Gloss=tell|nWord=7|RX=[V]
-8	zaːrsə	zaːr	NOUN	_	_	7	comp:ben	_	AlignBegin=261245|AlignEnd=261480|Gloss=person
+8	zaːrsə	zaːr	NOUN	_	Number=Plur	7	comp:ben	_	AlignBegin=261245|AlignEnd=261480|Gloss=person-PL
 9	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	7	parataxis@comp	_	AlignBegin=261480|AlignEnd=261715|GE=[3PL].[SBJV]|Gloss=3PL.SBJV|nWord=9|RX=[PNTAM]
 10	màn	máni	VERB	_	_	9	comp:aux	_	AlignBegin=261715|AlignEnd=261950|GE=come|Gloss=come|nWord=10|RX=[V]
 11	mondá	mondá	ADJ	_	_	10	comp:pred	_	AlignBegin=261950|AlignEnd=262185|GE=many|Gloss=many|nWord=11|RX=[ADV]
@@ -1859,16 +1859,16 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_Burial.WAV
 # sent_timecode = 269276, 270567
-# text = séː tə̀yì mân //= murín tə́ mân wurə́ //
+# text = séː tə̀yì mân //= murín tə̀ mán wurə́ //
 # text_ortho = séː tə̀yì mân //= murín tə̀ mán wurə́ //
-# text_en = Then they would come to offer their condolences.
+# text_en = Then they would come, this man would offer his condolences.
 1	séː	séː	ADV	_	_	2	mod	_	AlignBegin=269276|AlignEnd=269419|GE=then|Gloss=then|nWord=1|RX=[ADV]
 2	tə̀yì	tə̀yì	PRON	_	Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=269419|AlignEnd=269562|GE=[3PL].[SBJV].[ITER]|Gloss=3PL.SBJV.ITER|nWord=2|RX=[PNTAM]
-3	mân	máni	VERB	_	_	2	comp:aux	_	AlignBegin=269562|AlignEnd=269705|GE=come|Gloss=come|nWord=3|RX=[V]
+3	mân	man	VERB	_	_	2	comp:aux	_	AlignBegin=269562|AlignEnd=269705|Gloss=come
 4	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=269705|AlignEnd=269848|GE=[//]|Gloss=PUNCT|nWord=4
-5	murín	múr	NOUN	_	_	6	subj	_	AlignBegin=269848|AlignEnd=269991|GE=man[PROX]|Gloss=man|MGloss=manPROX|MSeg=muri-ín|nWord=5|RX=[N][DEICT]|wordform=mur
-6	tə́	á	AUX	_	Mood=Sub|Number=Sing|Person=3	2	parataxis@conj	_	AlignBegin=269991|AlignEnd=270134|GE=[3SG].[SBJV]|Gloss=3SG.SBJV|nWord=6|RX=[PNTAM]
-7	mân	máni	VERB	_	_	6	comp:aux	_	AlignBegin=270134|AlignEnd=270277|Gloss=come|SVC=Yes
+5	murín	mur	NOUN	_	Deixis=Prox	6	subj	_	AlignBegin=269848|AlignEnd=269991|GE=man[PROX]|Gloss=man-PROX
+6	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	2	parataxis@conj	_	AlignBegin=269991|AlignEnd=270134|GE=[3SG].[SBJV]|Gloss=3SG.SBJV|nWord=6|RX=[PNTAM]
+7	mán	mán	VERB	_	_	6	comp:aux	_	AlignBegin=270134|AlignEnd=270277|Gloss=come|SVC=Yes
 8	wurə́	wurə́	VERB	_	_	7	compound:svc	_	AlignBegin=270277|AlignEnd=270420|Gloss=greet
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=270420|AlignEnd=270567|GE=[//]|Gloss=PUNCT|nWord=9
 
@@ -1876,15 +1876,15 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_Burial.WAV
 # sent_timecode = 270839, 271720
-# text = múr -ín tə̀ máni //= tə̀ mán wurə́ //
+# text = murín tə̀ mân //= tə̀ mán wurə́ //
 # text_ortho = murín tə̀ mân //= tə̀ mán wurə́ //
-# text_en = They would come to offer their condolences
-1	mur-ín	mur-ín	NOUN	_	_	2	subj	_	AlignBegin=270839|AlignEnd=270949|GE=man[PROX]|Gloss=man|MGloss=manPROX|MSeg=muri-ín|nWord=1|RX=[N][DEICT]|wordform=mur
+# text_en = This man would come, he would offer his condolences
+1	murín	mur	NOUN	_	Deixis=Prox	2	subj	_	AlignBegin=270839|AlignEnd=270949|Gloss=man-PROX
 2	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	0	root	_	AlignBegin=270949|AlignEnd=271059|GE=[3SG].[SBJV]|Gloss=3SG.SBJV|nWord=2|RX=[PNTAM]
-3	máni	máan	VERB	_	_	2	comp:aux	_	AlignBegin=271059|AlignEnd=271169|GE=come|Gloss=come|nWord=3|RX=[V]
+3	mân	man	VERB	_	_	2	comp:aux	_	AlignBegin=271059|AlignEnd=271169|GE=come|Gloss=come|nWord=3|RX=[V]
 4	//=	//=	PUNCT	_	_	5	punct	_	AlignBegin=271169|AlignEnd=271279|GE=[//]|Gloss=PUNCT|nWord=4
-5	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	3	parataxis@mod	_	AlignBegin=271279|AlignEnd=271389|GE=[3SG].[SBJV]|Gloss=3SG.SBJV|nWord=5|RX=[PNTAM]
-6	mán	mán	VERB	_	_	5	comp:aux	_	AlignBegin=271389|AlignEnd=271499|GE=come|Gloss=come|nWord=6|RX=[V]
+5	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	2	parataxis@mod	_	AlignBegin=271279|AlignEnd=271389|GE=[3SG].[SBJV]|Gloss=3SG.SBJV|nWord=5|RX=[PNTAM]
+6	mán	mán	VERB	_	_	5	comp:aux	_	AlignBegin=271389|AlignEnd=271499|GE=come|Gloss=come|SVC=Yes
 7	wurə́	wurə́	NOUN	_	_	6	compound:svc	_	AlignBegin=271499|AlignEnd=271609|GE=greet|Gloss=greet|nWord=7|RX=[V]
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=271609|AlignEnd=271720|GE=[//]|Gloss=PUNCT|nWord=8
 
@@ -1896,27 +1896,27 @@
 # text_ortho = tôː séː dzàŋ marákə̂n miːtsə //
 # text_en = Then came the last day of the funeral.§
 1	tòː	tòː	PART	_	_	3	discourse	_	AlignBegin=272625|AlignEnd=272823|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
-2	séː	séː	ADV	_	_	3	unk	_	AlignBegin=272823|AlignEnd=273021|GE=until|Gloss=until|nWord=2|RX=[PREP]
+2	séː	séː	ADV	_	_	3	mod	_	AlignBegin=272823|AlignEnd=273021|GE=until|Gloss=until|nWord=2|RX=[PREP]
 3	dzàŋ	dzàŋ	NOUN	_	_	0	root	_	AlignBegin=273021|AlignEnd=273219|GE=day|Gloss=day|nWord=3|RX=[N]
-4	maráɣə̂n	mará	VERB	_	VerbForm=Vnoun	3	compound	_	AlignBegin=273219|AlignEnd=273417|ExtPos=NOUN|Gloss=spoil|nWord=4
-5	miːtsə	miːtsə	NOUN	_	_	4	mod	_	AlignBegin=273417|AlignEnd=273615|GE=burial|Gloss=burial|nWord=5|RX=[N]
+4	maráɣə̂n	mará	VERB	_	VerbForm=Vnoun	3	mod	_	AlignBegin=273219|AlignEnd=273417|ExtPos=NOUN|Gloss=spoil-NMLZ|nWord=4
+5	miːtsə	miːtsə	NOUN	_	_	4	comp:obj	_	AlignBegin=273417|AlignEnd=273615|GE=burial|Gloss=burial|nWord=5|RX=[N]
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=273615|AlignEnd=273813|GE=[//]|Gloss=PUNCT|nWord=6
 
 # sent_id = SAY_BC_INT_02_Burial_198-198
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_Burial.WAV
 # sent_timecode = 274472, 276362
-# text = báː tá waː kapkə́ gùŋ gòs vyaː -kə́nì mâːy -i hŋ́ //
-# text_ortho = bàː tá wâː kapkə́ gùŋ gòs vyàːkə̀n máːyi hŋ́ //
+# text = bàː tá wâː kapkə́ gùŋ gòs vyàːɣə̀n mâːy hŋ́ //
+# text_ortho = bàː tá wâː kapkə́ gùŋ gòs vyàːɣə̀n mâːy hŋ́ //
 # text_en = They would not do the funeral for three days for their king.
-1	báː	báː	PART	_	Polarity=Neg	2	mod	_	AlignBegin=274472|AlignEnd=274661|GE=[NEG1]|Gloss=NEG1|nWord=1|RX=[PTCL].[NEG]
+1	bàː	bàː	PART	_	Polarity=Neg	2	mod	_	AlignBegin=274472|AlignEnd=274661|Gloss=NEG
 2	tá	wò	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=274661|AlignEnd=274850|GE=[3PL].[FUT]|Gloss=3PL.FUT|nWord=2|RX=[PNTAM]
-3	waː	waː	PART	_	_	2	comp:aux	_	AlignBegin=274850|AlignEnd=275039|GE=perform|Gloss=perform|nWord=3|RX=[V]
-4	kapkə́	kapkə́	VERB	_	_	3	compound:svc	_	AlignBegin=275039|AlignEnd=275228|GE=for|Gloss=for|nWord=4|RX=[PREP]
-5	gùŋ	gùŋ	VERB	_	_	4	comp:obj	_	AlignBegin=275228|AlignEnd=275417|GE=chief|Gloss=chief|nWord=5|RX=[N]
-6	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	mod@top	_	AlignBegin=275417|AlignEnd=275606|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=6|RX=[PRO]
-7	vyaː-kə́nì	vyaː-kə́nì	NOUN	_	_	5	comp:obj	_	AlignBegin=275606|AlignEnd=275795|GE=spend_day[NMLZ]|Gloss=spend_day|MGloss=spend_dayNMLZ|MSeg=vyaː-kə́nì|nWord=7|RX=[V][DER]|wordform=vyaː
-8	mâːy-i	mâːy-i	PART	_	_	7	mod	_	AlignBegin=275795|AlignEnd=275984|GE=three[INDF]|Gloss=three|MGloss=threeINDF|MSeg=mâːy-i|nWord=8|RX=[NUM][ART]|wordform=mâːy
+3	wâː	waː	VERB	_	_	2	comp:aux	_	AlignBegin=274850|AlignEnd=275039|GE=perform|Gloss=perform|nWord=3|RX=[V]
+4	kapkə́	kapkə́	ADP	_	_	3	comp:obl	_	AlignBegin=275039|AlignEnd=275228|GE=for|Gloss=for|nWord=4|RX=[PREP]
+5	gùŋ	gùŋ	NOUN	_	_	4	comp:obj	_	AlignBegin=275228|AlignEnd=275417|GE=chief|Gloss=chief|nWord=5|RX=[N]
+6	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	mod@poss	_	AlignBegin=275417|AlignEnd=275606|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=6|RX=[PRO]
+7	vyàːɣə̀n	vyaː	VERB	_	_	3	mod	_	AlignBegin=275606|AlignEnd=275795|GE=spend_day[NMLZ]|Gloss=spend_day|MGloss=spend_dayNMLZ|MSeg=vyaː-kə́nì|nWord=7|RX=[V][DER]|wordform=vyaː
+8	mâːy	mâːy	NUM	_	_	7	det	_	AlignBegin=275795|AlignEnd=275984|GE=three[INDF]|Gloss=three
 9	hŋ́	hŋ́	PART	_	Polarity=Neg	2	mod	_	AlignBegin=275984|AlignEnd=276173|GE=[NEG2]|Gloss=NEG2|nWord=9|RX=[PTCL].[NEG]
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=276173|AlignEnd=276362|GE=[//]|Gloss=PUNCT|nWord=10
 
@@ -2209,7 +2209,7 @@
 # text_ortho = tá mân tə́ mán wâː ɓét //
 # text_en = They will come and dance indeed.
 1	tá	wò	PART	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=324220|AlignEnd=324356|GE=[3PL].[FUT]|Gloss=3PL.FUT|nWord=1|RX=[PNTAM]
-2	máni	máan	VERB	_	_	1	comp:aux	_	AlignBegin=324356|AlignEnd=324492|GE=come|Gloss=come|nWord=2|RX=[V]
+2	máni	mán	VERB	_	_	1	comp:aux	_	AlignBegin=324356|AlignEnd=324492|GE=come|Gloss=come|nWord=2|RX=[V]
 3	tə́	tə́	ADP	_	_	2	mod	_	AlignBegin=324492|AlignEnd=324628|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=3|RX=[PNTAM]
 4	mán	mán	VERB	_	_	3	comp:aux	_	AlignBegin=324628|AlignEnd=324764|GE=come|Gloss=come|nWord=4|RX=[V]
 5	waː	waː	PART	_	_	4	compound:svc	_	AlignBegin=324764|AlignEnd=324900|GE=perform|Gloss=perform|nWord=5|RX=[V]
