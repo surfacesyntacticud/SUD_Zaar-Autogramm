@@ -1924,13 +1924,13 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_Burial.WAV
 # sent_timecode = 277220, 278121
-# text = wò fi -íː vyaː -kə́nì wupsə //
-# text_ortho = wò fíː vyàːkə̀n wupsə //
+# text = wò fíː vyàːɣə̀n wupsə // 
+# text_ortho = wò fíː vyàːɣə̀n wupsə // 
 # text_en = It would last for four days.
 1	wò	wò	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=277220|AlignEnd=277400|GE=[3SG].[FUT]|Gloss=3SG.FUT|nWord=1|RX=[PNTAM]
-2	fi-íː	fi-íː	VERB	_	_	1	comp:aux	_	AlignBegin=277400|AlignEnd=277580|GE=do[RES]|Gloss=do|MGloss=doRES|MSeg=fi-íː|nWord=2|RX=[V][TAM]|wordform=fi
-3	vyaː-kə́nì	vyaː-kə́nì	NOUN	_	_	2	comp:obj	_	AlignBegin=277580|AlignEnd=277760|GE=spend_day[NMLZ]|Gloss=spend_day|MGloss=spend_dayNMLZ|MSeg=vyaː-kə́nì|nWord=3|RX=[V][DER]|wordform=vyaː
-4	wupsə	wupsə	NOUN	_	_	2	comp:obj	_	AlignBegin=277760|AlignEnd=277940|GE=four|Gloss=four|nWord=4|RX=[NUM]
+2	fíː	fi	VERB	_	Aspect=Res	1	comp:aux	_	AlignBegin=277400|AlignEnd=277580|Gloss=do-RES
+3	vyàːɣə̀n	vyaː	VERB	_	VerbForm=Vnoun	2	comp:obj	_	AlignBegin=277580|AlignEnd=277760|ExtPos=NOUN|Gloss=spend_day-NMLZ
+4	wupsə	wupsə	NUM	_	_	3	det	_	AlignBegin=277760|AlignEnd=277940|GE=four|Gloss=four|nWord=4|RX=[NUM]
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=277940|AlignEnd=278121|GE=[//]|Gloss=PUNCT|nWord=5
 
 # sent_id = SAY_BC_INT_02_Burial_200-200
@@ -1957,18 +1957,18 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_Burial.WAV
 # sent_timecode = 279780, 281616
-# text = kapkə́ gùŋ gòs tá fi -íː vyaː -kə́nì wupsə ʧǎː waː -kə́nì //
-# text_ortho = kapkə́ gùŋ gòs tá fǐː vyàːkə̀n wupsə ʧǎː wáːkə̂n //
+# text = kapkə́ gùŋ gòs tá fǐː vyàːɣə̀n wupsə ʧǎː wáːɣə̂n //
+# text_ortho = kapkə́ gùŋ gòs tá fǐː vyàːɣə̀n wupsə ʧǎː wáːɣə̂n //
 # text_en = For the village chief, they would spend four days mourning.
-1	kapkə́	kapkə́	NOUN	_	_	4	mod	_	AlignBegin=279780|AlignEnd=279970|GE=for|Gloss=for|nWord=1|RX=[PREP]
+1	kapkə́	kapkə́	ADP	_	_	4	dislocated@mod	_	AlignBegin=279780|AlignEnd=279970|GE=for|Gloss=for|nWord=1|RX=[PREP]
 2	gùŋ	gùŋ	NOUN	_	_	1	comp:obj	_	AlignBegin=279970|AlignEnd=280160|GE=chief|Gloss=chief|nWord=2|RX=[N]
-3	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	mod@poss	_	AlignBegin=280160|AlignEnd=280350|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=3|RX=[PRO]
+3	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@poss	_	AlignBegin=280160|AlignEnd=280350|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=3|RX=[PRO]
 4	tá	wò	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=280350|AlignEnd=280540|GE=[3PL].[FUT]|Gloss=3PL.FUT|nWord=4|RX=[PNTAM]
-5	fi-íː	fi-íː	VERB	_	_	4	comp:aux	_	AlignBegin=280540|AlignEnd=280730|GE=do[RES]|Gloss=do|MGloss=doRES|MSeg=fi-íː|nWord=5|RX=[V][ASP]|wordform=fi
-6	vyaː-kə́nì	vyaː-kə́nì	NOUN	_	_	5	comp:obj	_	AlignBegin=280730|AlignEnd=280920|GE=spend_day[NMLZ]|Gloss=spend_day|MGloss=spend_dayNMLZ|MSeg=vyaː-kə́nì|nWord=6|RX=[V][DER]|wordform=vyaː
-7	wupsə	wupsə	NOUN	_	_	5	mod	_	AlignBegin=280920|AlignEnd=281108|GE=four|Gloss=four|nWord=7|RX=[NUM]
-8	ʧǎː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	4	parataxis@mod	_	AlignBegin=281108|AlignEnd=281277|GE=[3PL].[ICPL]|Gloss=3PL.ICPL|nWord=8|RX=[PNTAM]
-9	waː-kə́nì	waː-kə́nì	VERB	_	_	8	comp:aux	_	AlignBegin=281277|AlignEnd=281446|GE=perform[NMLZ]|Gloss=perform|MGloss=performNMLZ|MSeg=waː-kə́nì|nWord=9|RX=[V][DER]|wordform=waː
+5	fǐː	fi	VERB	_	_	4	comp:aux	_	AlignBegin=280540|AlignEnd=280730|GE=do[RES]|Gloss=do|MGloss=doRES|MSeg=fi-íː|nWord=5|RX=[V][ASP]|wordform=fi
+6	vyàːɣə̀n	vyaː	VERB	_	VerbForm=Vnoun	5	comp:obj	_	AlignBegin=280730|AlignEnd=280920|Gloss=spend_day-NMLZ|ExtPos=NOUN
+7	wupsə	wupsə	NUM	_	_	6	det	_	AlignBegin=280920|AlignEnd=281108|GE=four|Gloss=four|nWord=7|RX=[NUM]
+8	ʧǎː	ʧiká	AUX	_	Aspect=Prog|Number=Sing|Person=3	5	parataxis@mod	_	AlignBegin=281108|AlignEnd=281277|Gloss=3S.CONT
+9	wáːɣə̂n	waː	VERB	_	VerbForm=Vnoun	8	comp:aux	_	AlignBegin=281277|AlignEnd=281446|Gloss=perform-NMLZ|ExtPos=NOUN
 10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=281446|AlignEnd=281616|GE=[//]|Gloss=PUNCT|nWord=10
 
 # sent_id = SAY_BC_INT_02_Burial_204-205
