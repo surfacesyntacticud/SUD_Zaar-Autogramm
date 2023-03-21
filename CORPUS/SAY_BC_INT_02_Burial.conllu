@@ -2308,7 +2308,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_Burial.WAV
 # sent_timecode = 337180, 340960
-# text = èː ɗan nə ŋáː -i fáː dàlíːli niː kən á ʧaː kə́ || kə́ fi ká gòs hŋ́ eː ?//
+# text = èː ɗan nə ŋáːy fáː dàlíːli nîŋ á ʧâː ɣə́ || kə́ fî ɣá gòs hŋ́eː ?// 
 # text_ortho = èː ɗan nə ŋáːy fáː dàlíːli níː kən á ʧâː kə́ || kə́ fî ká gòs hŋ́ eː ?//
 # text_en = Yes, since he is young indeed, what is the reason why you... didn't do [it] at his [burial]?
 1	èː	èː	INTJ	_	_	8	discourse	_	AlignBegin=337180|AlignEnd=337377|GE=[HESIT]|Gloss=HESIT|nWord=1|RX=[INTJ]
@@ -2317,17 +2317,19 @@
 4	ŋáːy	ŋáː	NOUN	_	Definite=Ind	3	comp:pred	_	AlignBegin=337771|AlignEnd=337968|Gloss=child|wordform=ŋáː
 5	fáː	fáː	PART	_	_	2	mod	_	AlignBegin=337968|AlignEnd=338165|GE=indeed|Gloss=indeed|nWord=5|RX=[PTCL].[TOP]
 6	dàlíːli	dàlíːli	NOUN	_	_	8	comp:pred	_	AlignBegin=338165|AlignEnd=338362|GE=reason|Gloss=reason|Lang=hau|nWord=6|RX=[N].[BW].[HAU]
-7	niː	niː	DET	_	PronType=Int	6	det	_	AlignBegin=338362|AlignEnd=338559|GE=what|Gloss=what|nWord=7|RX=[PRO].[Q]
-8	kən	kən	PART	_	VerbType=Cop	0	root	_	AlignBegin=338559|AlignEnd=338756|GE=[COP2]|Gloss=be|nWord=8|RX=[PTCL].[SYNT]
+7-8	nîŋ	_	_	_	_	_	_	_	_
+7	níː	níː	DET	_	PronType=Int	6	det	_	AlignBegin=338362|AlignEnd=338559|GE=what|Gloss=what|nWord=7|RX=[PRO].[Q]
+8	ɣən	kən	PART	_	VerbType=Cop	0	root	_	AlignBegin=338559|AlignEnd=338756|GE=[COP2]|Gloss=be|nWord=8|RX=[PTCL].[SYNT]
 9	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	8	comp:cleft	_	AlignBegin=338756|AlignEnd=338953|GE=[3SG].[AOR]|Gloss=3SG.AOR|nWord=9|RX=[PNTAM]
-10	ʧaː	ʧa	VERB	_	_	9	comp:aux	_	AlignBegin=338953|AlignEnd=339150|GE=put|Gloss=put|nWord=10|RX=[V]
-11	kə́	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	8	comp:aux	_	AlignBegin=339150|AlignEnd=339347|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=11|RX=[PNTAM]
-12	||	||	PUNCT	_	_	13	punct	_	AlignBegin=339347|AlignEnd=339544|GE=[$$]|nWord=12
+10	ʧâː	ʧa	VERB	_	_	9	comp:aux	_	AlignBegin=338953|AlignEnd=339150|GE=put|Gloss=put|nWord=10|RX=[V]
+11	ɣə́	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	10	parataxis:aux@comp	_	AlignBegin=339150|AlignEnd=339347|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=11|RX=[PNTAM]
+12	||	||	PUNCT	_	_	13	punct	_	AlignBegin=339347|AlignEnd=339544|GE=[$$]|nWord=12|Gloss=PUNCT
 13	kə́	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	11	conj:dicto	_	AlignBegin=339746|AlignEnd=339919|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=13|RX=[PNTAM]
-14	fi	fi	VERB	_	_	13	comp:aux	_	AlignBegin=339919|AlignEnd=340092|GE=do|Gloss=do|nWord=14|RX=[V]
-15	ká	ká	ADP	_	_	14	comp:obl	_	AlignBegin=340092|AlignEnd=340265|GE=at|Gloss=at|nWord=15|RX=[PREP]
+14	fî	fi	VERB	_	_	13	comp:aux	_	AlignBegin=339919|AlignEnd=340092|GE=do|Gloss=do|nWord=14|RX=[V]
+15	ɣá	ká	ADP	_	_	14	mod	_	AlignBegin=340092|AlignEnd=340265|GE=at|Gloss=at|nWord=15|RX=[PREP]
 16	gòs	gòs	PRON	_	_	15	comp:obj	_	AlignBegin=340265|AlignEnd=340438|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=16|RX=[PRO]
-17	hŋ́	hŋ́	PART	_	Polarity=Neg	13	mod	_	AlignBegin=340438|AlignEnd=340611|GE=[NEG2]|Gloss=NEG2|nWord=17|RX=[PTCL].[NEG]
+17-18	hŋ́eː	_	_	_	_	_	_	_	_
+17	hŋ́	hŋ́	PART	_	Polarity=Neg	14	mod	_	AlignBegin=340438|AlignEnd=340611|GE=[NEG2]|Gloss=NEG2|nWord=17|RX=[PTCL].[NEG]
 18	eː	eː	PART	_	_	8	mod	_	AlignBegin=340611|AlignEnd=340784|GE=[Q]|Gloss=Q|nWord=18|RX=[PTCL].[ASS]
 19	?//	?//	PUNCT	_	_	8	punct	_	AlignBegin=340784|AlignEnd=340960|GE=[?//]|Gloss=PUNCT|nWord=19
 
