@@ -2385,11 +2385,11 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_Burial.WAV
 # sent_timecode = 345380, 345962
-# text = nə ŋaː -́ ɬəɓə́r //
+# text = nə ŋǎː ɬəɓə́r //
 # text_ortho = nə ŋǎː ɬəɓə́r //
 # text_en = He is a young man.
 1	nə	nə	PART	_	VerbType=Cop	0	root	_	AlignBegin=345380|AlignEnd=345526|GE=[COP1]|Gloss=be|nWord=1|RX=[PTCL].[SYNT]
-2	ŋaː-́	ŋaː-́	NOUN	_	_	1	comp:pred	_	AlignBegin=345526|AlignEnd=345672|GE=small[POS]|Gloss=small|MGloss=smallof|MSeg=ŋaːkə́|nWord=2|RX=[ADJ][PTCL].[SYNT]|wordform=ŋaː
+2	ŋǎː	ŋaː	ADJ	_	Definite=Cons	3	mod	_	AlignBegin=345526|AlignEnd=345672|Gloss=young|nWord=2
 3	ɬəɓə́r	ɬəɓə́r	VERB	_	_	1	comp:pred	_	AlignBegin=345672|AlignEnd=345818|GE=young_man|Gloss=young_man|nWord=3|RX=[N]
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=345818|AlignEnd=345962|GE=[//]|Gloss=PUNCT|nWord=4
 
@@ -2397,14 +2397,16 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_Burial.WAV
 # sent_timecode = 346965, 347669
-# text = ʧi tə́ wum -kə́nì raː //
-# text_ortho = ʧi tə́ wúmgə̂n raː //
+# text = ʧì tə́ wúmgə̂n raː áy // 
+# text_ortho = ʧì tə́ wúmgə̂n raː áy //
 # text_en = They are sad.
-1	ʧi	ʧi	INTJ	_	_	0	root	_	AlignBegin=346965|AlignEnd=347106|GE=[3PL].[be]|Gloss=3PL.be|nWord=1|RX=[V*]
-2	tə́	tə́	ADP	_	_	1	comp:obl	_	AlignBegin=347106|AlignEnd=347247|GE=with|Gloss=with|nWord=2|RX=[PREP]
-3	wum-kə́nì	wum-kə́nì	VERB	_	_	2	comp:aux	_	AlignBegin=347247|AlignEnd=347388|GE=feel[NMLZ]|Gloss=feel|MGloss=feelNMLZ|MSeg=wum-kə́nì|nWord=3|RX=[V][DER]|wordform=wum
-4	raː	raː	PART	_	_	3	mod	_	AlignBegin=347388|AlignEnd=347529|GE=heart|Gloss=heart|nWord=4|RX=[N]
-5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=347529|AlignEnd=347669|GE=[//]|Gloss=PUNCT|nWord=5
+1-2	ʧì	_	_	_	_	_	_	_	_
+1	tə̀	tə̀	PRON	_	_	2	subj	_	AlignBegin=346965|Gloss=3PL
+2	yi	yi	VERB	_	_	0	root	_	AlignEnd=347106|Gloss=be
+3	tə́	tə́	ADP	_	_	2	comp:pred	_	AlignBegin=347106|AlignEnd=347247|GE=with|Gloss=with|nWord=2|RX=[PREP]
+4	wúmgə̂n	wum	VERB	_	VerbForm=Vnoun	3	comp:obj	_	AlignBegin=347247|AlignEnd=347388|Gloss=feel-NMLZ|ExtPos=NOUN
+5	raː	raː	PART	_	_	4	compound	_	AlignBegin=347388|AlignEnd=347529|GE=heart|Gloss=heart|nWord=4|RX=[N]
+6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=347529|AlignEnd=347669|GE=[//]|Gloss=PUNCT|nWord=5
 
 # sent_id = SAY_BC_INT_02_Burial_254-254
 # speaker_id = SP1
