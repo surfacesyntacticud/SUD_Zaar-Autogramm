@@ -2536,31 +2536,47 @@
 16	hŋ́	hŋ́	PART	_	Polarity=Neg	4	mod	_	AlignBegin=365185|AlignEnd=365342|GE=[NEG2]|Gloss=NEG2|nWord=16|RX=[PTCL].[NEG]
 17	//	//	PUNCT	_	_	4	punct	_	AlignBegin=365342|AlignEnd=365500|GE=[//]|Gloss=PUNCT|nWord=17
 
-# sent_id = SAY_BC_INT_02_Burial_267-270
+# sent_id = SAY_BC_INT_02_Burial_267-267
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_Burial.WAV
-# sent_timecode = 366400, 372023
+# sent_timecode = 366400, 368168
+# text = àmá ɗan Gòːdiya kàm < kây //!
+# text_ortho = àmá ɗan Gòːdiya kàm < kây //!
+# text_en = But for Godiya, my!
+1	àmá	àmá	CCONJ	_	_	0	discourse	_	AlignBegin=366400|AlignEnd=366626|GE=but|Gloss=but|nWord=1|RX=[COORD]
+2	ɗan	ɗan	SCONJ	_	_	0	mod	_	AlignBegin=366626|AlignEnd=366852|GE=like|Gloss=like|nWord=2|RX=[PREP]
+3	Gòːdiya	Gòːdiya	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	0	mod@top	_	AlignBegin=366852|AlignEnd=367078|GE=[Godiya]|Gloss=Godiya|nWord=3|RX=[N].[P]
+4	kàm	kàm	PART	_	_	0	mod	_	AlignBegin=367078|AlignEnd=367304|GE=indeed|Gloss=indeed|nWord=4|RX=[PTCL].[TOP]
+5	<	<	PUNCT	_	_	0	punct	_	AlignBegin=367304|AlignEnd=367531|GE=[<]|Gloss=PUNCT|nWord=5
+6	kây	kây	INTJ	_	_	0	discourse	_	AlignBegin=367820|AlignEnd=367994|GE=eh|Gloss=eh|nWord=6|RX=[EXCL]
+7	!//	!//	PUNCT	_	_	0	punct	_	AlignBegin=367994|AlignEnd=368168|GE=[<]|Gloss=PUNCT|nWord=7
+
+# sent_id = SAY_BC_INT_02_Burial_268-268
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_Burial.WAV
+# sent_timecode = 369150, 369882
 # text = àmá ɗan gòːdiya kàm < kây < áy kóː vìː < tá waː -ni miːtsə -i gyàkgyàk kúrûm //
 # text_ortho = àmá ɗan gòːdiya kàm < kây < áy kóː vìː < tá wâːnì miːtsəy gyàkgyàk kúrûm //
 # text_en = But for Godiya on the contrary, eh! eh, they wouldn't even talk, they would only be wailing.
-1	àmá	àmá	CCONJ	_	_	12	discourse	_	AlignBegin=366400|AlignEnd=366626|GE=but|Gloss=but|nWord=1|RX=[COORD]
-2	ɗan	ɗan	SCONJ	_	_	6	mod	_	AlignBegin=366626|AlignEnd=366852|GE=like|Gloss=like|nWord=2|RX=[PREP]
-3	gòːdiya	gòːdiya	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	2	mod@top	_	AlignBegin=366852|AlignEnd=367078|GE=[Godiya]|Gloss=Godiya|nWord=3|RX=[N].[P]
-4	kàm	kàm	PART	_	_	2	mod	_	AlignBegin=367078|AlignEnd=367304|GE=indeed|Gloss=indeed|nWord=4|RX=[PTCL].[TOP]
-5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=367304|AlignEnd=367531|GE=[<]|Gloss=PUNCT|nWord=5
-6	kây	kây	INTJ	_	_	12	discourse	_	AlignBegin=367820|AlignEnd=367994|GE=eh|Gloss=eh|nWord=6|RX=[EXCL]
-7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=367994|AlignEnd=368168|GE=[<]|Gloss=PUNCT|nWord=7
-8	áy	áy	INTJ	_	_	12	discourse	_	AlignBegin=369150|AlignEnd=369333|GE=indeed|Gloss=indeed|nWord=8|RX=[EXCL]
-9	kóː	kóː	CCONJ	_	_	12	cc	_	AlignBegin=369333|AlignEnd=369516|GE=even|Gloss=even|Lang=hau|nWord=9|RX=[PREP].[BW].[HAU]
-10	vìː	vìː	NOUN	_	_	15	mod	_	AlignBegin=369516|AlignEnd=369699|GE=speech|Gloss=speech|nWord=10|RX=[N]
-11	<	<	PUNCT	_	_	6	punct	_	AlignBegin=369699|AlignEnd=369882|GE=[<]|Gloss=PUNCT|nWord=11
-12	tá	wò	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=370500|AlignEnd=370754|GE=[3PL].[FUT]|Gloss=3PL.FUT|nWord=12|RX=[PNTAM]
-13	waː	waː	PART	_	_	12	comp:aux	_	AlignBegin=370754|AlignEnd=370881|GE=perform|Gloss=perform|nWord=13|RX=[V]
-14	ni	ni	PART	_	Aspect=Iter	15	compound:prt	_	AlignBegin=370881|AlignEnd=371008|GE=[ITER]|Gloss=ITER|nWord=13|RX=[PTCL].[EXT]|wordform=-ni
-15	miːtsə-i	miːtsə-i	VERB	_	_	13	compound:svc	_	AlignBegin=371008|AlignEnd=371262|GE=burial[IND]|Gloss=burial|MGloss=burialIND|MSeg=miːtsə-i|nWord=14|RX=[N][ART]|wordform=miːtsə
-16	gyàkgyàk	gyàkgyàk	DET	_	_	15	mod	_	AlignBegin=371262|AlignEnd=371516|GE=anyhow|Gloss=anyhow|nWord=15|RX=[IDEOPH]
-17	kúrûm	kúrûm	NOUN	_	_	15	mod	_	AlignBegin=371516|AlignEnd=371770|GE=only|Gloss=only|nWord=16|RX=[ADV]
-18	//	//	PUNCT	_	_	12	punct	_	AlignBegin=371770|AlignEnd=372023|GE=[//]|Gloss=PUNCT|nWord=17
+1	áy	áy	INTJ	_	_	0	discourse	_	AlignBegin=369150|AlignEnd=369333|GE=indeed|Gloss=indeed|nWord=8|RX=[EXCL]
+2	kóː	kóː	CCONJ	_	_	0	cc	_	AlignBegin=369333|AlignEnd=369516|GE=even|Gloss=even|Lang=hau|nWord=9|RX=[PREP].[BW].[HAU]
+3	vìː	vìː	NOUN	_	_	0	mod	_	AlignBegin=369516|AlignEnd=369699|GE=speech|Gloss=speech|nWord=10|RX=[N]
+4	!//	!//	PUNCT	_	_	0	punct	_	AlignBegin=369699|AlignEnd=369882|GE=[<]|Gloss=PUNCT|nWord=11
+
+# sent_id = SAY_BC_INT_02_Burial_269-270
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_Burial.WAV
+# sent_timecode = 370500, 372023
+# text = àmá ɗan gòːdiya kàm < kây < áy kóː vìː < tá waː -ni miːtsə -i gyàkgyàk kúrûm //
+# text_ortho = àmá ɗan gòːdiya kàm < kây < áy kóː vìː < tá wâːnì miːtsəy gyàkgyàk kúrûm //
+# text_en = But for Godiya on the contrary, eh! eh, they wouldn't even talk, they would only be wailing.
+1	tá	wò	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=370500|AlignEnd=370754|GE=[3PL].[FUT]|Gloss=3PL.FUT|nWord=12|RX=[PNTAM]
+2	waː	waː	PART	_	_	0	comp:aux	_	AlignBegin=370754|AlignEnd=370881|GE=perform|Gloss=perform|nWord=13|RX=[V]
+3	ni	ni	PART	_	Aspect=Iter	0	compound:prt	_	AlignBegin=370881|AlignEnd=371008|GE=[ITER]|Gloss=ITER|nWord=13|RX=[PTCL].[EXT]|wordform=-ni
+4	miːtsə-i	miːtsə-i	VERB	_	_	0	compound:svc	_	AlignBegin=371008|AlignEnd=371262|GE=burial[IND]|Gloss=burial|MGloss=burialIND|MSeg=miːtsə-i|nWord=14|RX=[N][ART]|wordform=miːtsə
+5	gyàkgyàk	gyàkgyàk	DET	_	_	0	mod	_	AlignBegin=371262|AlignEnd=371516|GE=anyhow|Gloss=anyhow|nWord=15|RX=[IDEOPH]
+6	kúrûm	kúrûm	NOUN	_	_	0	mod	_	AlignBegin=371516|AlignEnd=371770|GE=only|Gloss=only|nWord=16|RX=[ADV]
+7	//	//	PUNCT	_	_	0	punct	_	AlignBegin=371770|AlignEnd=372023|GE=[//]|Gloss=PUNCT|nWord=17
 
 # sent_id = SAY_BC_INT_02_Burial_271-274
 # speaker_id = SP1
