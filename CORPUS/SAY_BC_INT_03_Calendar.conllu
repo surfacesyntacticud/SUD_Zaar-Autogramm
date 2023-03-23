@@ -97,19 +97,21 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 18300, 21700
-# text = m̀ː < lə̌pm < mì tə́ lə̌pm -́ káʃi mâːy //
-# text_ortho = m̀ː < lə̌pm < mì tə́ lə̌pm káʃi máːyi //
+# text = m̀ː < lə̌pm < mì tə́ lə̌pm káʃi mâːy //
+# text_ortho = m̀ː < lə̌pm < mì tə́ lə̌pm káʃi mâːy //
 # text_en = Well,  festivals,  we had ... three types of festivals.
-1	m̀ː	m̀ː	INTJ	_	_	5	discourse	_	AlignBegin=18300|AlignEnd=18580|GE=yes|Gloss=yes|nWord=1|RX=[INTJ]
+1	m̀ː	m̀ː	INTJ	_	_	6	discourse	_	AlignBegin=18300|AlignEnd=18580|GE=yes|Gloss=yes|nWord=1|RX=[INTJ]
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=18580|AlignEnd=18860|GE=[<]|Gloss=PUNCT|nWord=2
-3	lə̌pm	lə̌pm	NOUN	_	_	5	dislocated@top	_	AlignBegin=19900|AlignEnd=19982|GE=festival|Gloss=festival|nWord=3|RX=[N]
+3	lə̌pm	lə̌pm	NOUN	_	_	6	dislocated@top	_	AlignBegin=19900|AlignEnd=19982|GE=festival|Gloss=festival|nWord=3|RX=[N]
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=19982|AlignEnd=20064|GE=[<]|Gloss=PUNCT|nWord=4
-5	mì	mì	AUX	_	Number=Plur|Person=1|PronType=Prs	0	root	_	AlignBegin=20064|AlignEnd=20381|GE=[1PL].[be]|Gloss=1PL.be|nWord=5|RX=[PRO].[V*]
-6	tə́	tə́	ADP	_	_	5	parataxis@conj	_	AlignBegin=20381|AlignEnd=20698|GE=with|Gloss=with|nWord=6|RX=[PREP]
-7	lə̌pm-́	lə̌pm-́	VERB	_	_	6	comp:aux	_	AlignBegin=20698|AlignEnd=21015|GE=festival[POS]|Gloss=festival|MGloss=festivalof|MSeg=lə̌pmkə́|nWord=7|RX=[N][PTCL].[SYNT]|wordform=lə̌pm
-8	káʃi	káʃi	ADV	_	_	7	mod	_	AlignBegin=21015|AlignEnd=21243|GE=times|Gloss=times|nWord=8|RX=[N]
-9	mâːy	mâːy	PART	_	_	6	mod	_	AlignBegin=21243|AlignEnd=21471|GE=three|Gloss=three|nWord=9|RX=[NUM]
-10	//	//	PUNCT	_	_	5	punct	_	AlignBegin=21471|AlignEnd=21700|GE=[//]|Gloss=PUNCT|nWord=10
+5-6	mì	_	_	_	_	_	_	_	_
+5	mə̀	mə̀	PRON	_	Number=Plur|Person=1|PronType=Prs	6	subj	_	AlignBegin=20064|Gloss=1PL
+6	yi	yi	VERB	_	_	0	root	_	AlignEnd=20381|Gloss=be
+7	tə́	tə́	ADP	_	_	6	comp:pred	_	AlignBegin=20381|AlignEnd=20698|GE=with|Gloss=with|nWord=6|RX=[PREP]
+8	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	7	comp:obj	_	AlignBegin=20698|AlignEnd=21015|Gloss=festival-CONS|wordform=lə̌pm
+9	káʃi	káʃi	NOUN	_	_	8	mod	_	AlignBegin=21015|AlignEnd=21243|GE=times|Gloss=times|nWord=8|RX=[N]
+10	mâːy	mâːy	NUM	_	_	9	det	_	AlignBegin=21243|AlignEnd=21471|GE=three|Gloss=three|nWord=9|RX=[NUM]
+11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=21471|AlignEnd=21700|GE=[//]|Gloss=PUNCT|nWord=10
 
 # sent_id = SAY_BC_INT_03_Calendar_015-016
 # speaker_id = SP1
