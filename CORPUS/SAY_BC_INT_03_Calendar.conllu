@@ -205,48 +205,48 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 40320, 44280
-# text = tòː tá nger -ə́n gàːl -sə //+ nə́ durkə́ lə̌pm -ês //
-# text_ortho = tôː tá ngyǎːr galtsə́ //+ nə́ durkə́ ləpês //
-# text_en = Well,  they would slaughter cows because of the festival.
-1	tòː	tòː	PART	_	_	2	discourse	_	AlignBegin=40320|AlignEnd=40680|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
-2	tá	wò	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=41020|AlignEnd=41225|GE=[3PL].[FUT]|Gloss=3PL.FUT|nWord=2|RX=[PNTAM]
-3	ngyǎːr	ngyǎaː	VERB	_	_	2	comp:aux	_	AlignBegin=41225|AlignEnd=41327|GE=[slaughter].[PL]|Gloss=slaughter.PL|nWord=3|RX=[V]
-4	gàːl-sə	gàːl-sə	NOUN	_	_	3	comp:obj	_	AlignBegin=41430|AlignEnd=41635|GE=cow[PL]|Gloss=cow|MGloss=cowPL|MSeg=gàːl-sə|nWord=4|RX=[N][PL]|wordform=gàːl
+# text = tôː ká ngyǎːr galtsə́ //+ nə́ durɣə́ ləpês //
+# text_ortho = tôː ká ngyǎːr galtsə́ //+ nə́ durɣə́ ləpês //
+# text_en = Well,  you would slaughter cows because of the festival.
+1	tôː	tôː	PART	_	_	2	discourse	_	AlignBegin=40320|AlignEnd=40680|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
+2	ká	wò	AUX	_	Number=Plur|Person=2|Tense=Fut	0	root	_	AlignBegin=41020|AlignEnd=41225|Gloss=2PL.FUT
+3	ngyǎːr	nger	VERB	_	Number=Plur	2	comp:aux	_	AlignBegin=41225|AlignEnd=41327|Gloss=slaughter.PLAC
+4	galtsə́	gàːl	NOUN	_	Number=Plur	3	comp:obj	_	AlignBegin=41430|AlignEnd=41635|Gloss=cow-PL
 5	//+	//+	PUNCT	_	_	6	punct	_	AlignBegin=41635|AlignEnd=41840|GE=[//+]|Gloss=PUNCT|nWord=5
-6	nə́	nə́	ADP	_	_	3	mod	_	AlignBegin=43560|AlignEnd=43740|GE=for|Gloss=for|nWord=6|RX=[PREP]
-7	durkə́	durkə́	VERB	_	_	6	comp:obj	_	AlignBegin=43740|AlignEnd=43920|GE=concerning|Gloss=concerning|nWord=7|RX=[PREP]
-8	lə̌pm-ês	lə̌pm-ês	NOUN	_	_	7	comp:obj	_	AlignBegin=43920|AlignEnd=44100|GE=festival[DEF]|Gloss=festival|MGloss=festivalDEF|MSeg=lə̌pm-ês|nWord=8|RX=[N][ART]|wordform=lə̌pm
+6	nə́	nə́	ADP	_	_	3	mod	_	AlignBegin=43560|AlignEnd=43740|Gloss=for|Idiom=Yes|ExtPos=ADP
+7	durɣə́	durkə́	ADP	_	_	6	unk	_	AlignBegin=43740|AlignEnd=43920|Gloss=concerning|InIdiom=Yes
+8	ləpês	lə̌pm	NOUN	_	Definite=Def	6	comp:obj	_	AlignBegin=43920|AlignEnd=44100|Gloss=festival-DEF
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=44100|AlignEnd=44280|GE=[//]|Gloss=PUNCT|nWord=9
 
 # sent_id = SAY_BC_INT_03_Calendar_027-028
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 45360, 47220
-# text = tòː kə́ mbə́ɬəŋ -i < nə lə̌pm zaːr //
+# text = tòː kə́ mbə́ɬi < nə lə̌pm zaːr //
 # text_ortho = tòː kə́ mbə́ɬi < nə lə̌pm zaːr //
-# text_en = Well the second,  is the Zár festival.
-1	tòː	tòː	PART	_	_	5	discourse	_	AlignBegin=45360|AlignEnd=45540|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
-2	kə́	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	5	parataxis@discourse	_	AlignBegin=45540|AlignEnd=45720|GE=[POSL]|Gloss=of|nWord=2|RX=[PTCL]
-3	mbə́ɬəŋ-i	mbə́ɬəŋ-	VERB	_	Aspect=Res	2	comp:aux	_	AlignBegin=45720|AlignEnd=45900|GE=two[IND]|Gloss=two|MGloss=twoIND|MSeg=mbə́ɬəŋ-i|nWord=3|RX=[NUM][ART]|wordform=mbə́ɬəŋ
+# text_en = Well the second,  is the Zaar festival.
+1	tòː	tòː	PART	_	_	5	discourse	_	AlignBegin=45360|AlignEnd=45540|Gloss=DM
+2	kə́	á	ADP	_	Aspect=Aor|Number=Sing|Person=2	5	dislocated@subj	_	AlignBegin=45540|AlignEnd=45720|GE=[POSL]|Gloss=of
+3	mbə́ɬi	mbə́ɬəŋ	NUM	_	Definite=Ind	2	comp:obj	_	AlignBegin=45720|AlignEnd=45900|Gloss=two-IND
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=45900|AlignEnd=46080|GE=[<]|Gloss=PUNCT|nWord=4
-5	nə	nə	PART	_	VerbType=Cop	0	root	_	AlignBegin=46440|AlignEnd=46635|GE=[COP1]|Gloss=be|nWord=5|RX=[PTCL].[SYNT]
-6	lə̌pm	lə̌pm	VERB	_	_	5	comp:pred	_	AlignBegin=46635|AlignEnd=46830|GE=festival|Gloss=festival|nWord=6|RX=[N]
-7	zaːr	zaːr	NOUN	_	_	6	mod	_	AlignBegin=46830|AlignEnd=47025|GE=[Zár]|Gloss=Zár|nWord=7|RX=[N].[P]
+5	nə	nə	PART	_	VerbType=Cop	0	root	_	AlignBegin=46440|AlignEnd=46635|GE=[COP1]|Gloss=be
+6	lə̌pm	lə̌pm	VERB	_	Definite=Cons	5	comp:pred	_	AlignBegin=46635|AlignEnd=46830|Gloss=festival-CONS
+7	zaːr	zaːr	NOUN	_	_	6	mod	_	AlignBegin=46830|AlignEnd=47025|GE=[Zár]|Gloss=Zaar
 8	//	//	PUNCT	_	_	5	punct	_	AlignBegin=47025|AlignEnd=47220|GE=[//]|Gloss=PUNCT|nWord=8
 
 # sent_id = SAY_BC_INT_03_Calendar_029-029
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 49060, 50176
-# text = tòː yáːni máː yi ʧík sát //
-# text_ortho = tòː yâːn máː yi ʧík sát //
+# text = tòː yâːn máː yi ʧík sát // 
+# text_ortho = tòː yâːn máː yi ʧík sát // 
 # text_en = Well it too is just like this.
-1	tòː	tòː	PART	_	_	4	discourse	_	AlignBegin=49060|AlignEnd=49219|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
-2	yáːni	yáːni	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	dislocated@subj	_	AlignBegin=49219|AlignEnd=49378|GE=[3SG].[IDP]|Gloss=3SG.IDP|nWord=2|RX=[PRO]
-3	máː	máː	PART	_	_	4	mod	_	AlignBegin=49378|AlignEnd=49537|GE=also|Gloss=also|nWord=3|RX=[PTCL].[TOP]
+1	tôː	tôː	PART	_	_	4	discourse	_	AlignBegin=49060|AlignEnd=49219|Gloss=DM
+2	yâːn	yáːni	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	dislocated@subj	_	AlignBegin=49219|AlignEnd=49378|Gloss=3SG.IDP
+3	máː	máː	PART	_	_	2	mod	_	AlignBegin=49378|AlignEnd=49537|GE=also|Gloss=also|nWord=3|RX=[PTCL].[TOP]
 4	yi	yi	VERB	_	_	0	root	_	AlignBegin=49537|AlignEnd=49696|GE=be|Gloss=be|nWord=4|RX=[V]
-5	ʧík	ʧík	VERB	_	_	4	comp:aux	_	AlignBegin=49696|AlignEnd=49855|GE=thus|Gloss=thus|nWord=5|RX=[ADV]
-6	sát	sát	X	_	Foreign=Yes	5	mod	_	AlignBegin=49855|AlignEnd=50014|GE=quiet|Gloss=quiet|nWord=6|RX=[IDEOPH]
+5	ʧík	ʧík	VERB	_	_	4	comp:pred	_	AlignBegin=49696|AlignEnd=49855|GE=thus|Gloss=thus|nWord=5|RX=[ADV]
+6	sát	sát	IDEO	_	_	4	mod	_	AlignBegin=49855|AlignEnd=50014|Gloss=indeed
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=50014|AlignEnd=50176|GE=[//]|Gloss=PUNCT|nWord=7
 
 # sent_id = SAY_BC_INT_03_Calendar_030-031
