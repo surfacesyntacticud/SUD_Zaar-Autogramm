@@ -526,30 +526,31 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 88300, 89374
-# text = má tuːr nákat nə́ lə̌pm ngas //
-# text_ortho = má tûːr nákat nə́ lə̌pm ngas //
+# text = má tûːr náɣat nə́ lə̌pm Ngas // 
+# text_ortho = má tûːr náɣat nə́ lə̌pm Ngas // 
 # text_en = We used to cook food for the Angas festival.
 1	má	wò	AUX	_	Number=Plur|Person=1|Tense=Fut	0	root	_	AlignBegin=88300|AlignEnd=88453|GE=[1PL].[FUT]|Gloss=1PL.FUT|nWord=1|RX=[PNTAM]
-2	tuːr	tuːr	VERB	_	_	1	comp:aux	_	AlignBegin=88453|AlignEnd=88606|GE=cook|Gloss=cook|nWord=2|RX=[V]
-3	nákat	nákat	NOUN	_	_	2	comp:obj	_	AlignBegin=88606|AlignEnd=88759|GE=food|Gloss=food|nWord=3|RX=[N]
+2	tûːr	tuːr	VERB	_	_	1	comp:aux	_	AlignBegin=88453|AlignEnd=88606|GE=cook|Gloss=cook|nWord=2|RX=[V]
+3	náɣat	náɣat	NOUN	_	_	2	comp:obj	_	AlignBegin=88606|AlignEnd=88759|GE=food|Gloss=food|nWord=3|RX=[N]
 4	nə́	nə́	ADP	_	_	2	comp:obl	_	AlignBegin=88759|AlignEnd=88912|GE=for|Gloss=for|nWord=4|RX=[PREP]
-5	lə̌pm	lə̌pm	NOUN	_	_	4	comp:obj	_	AlignBegin=88912|AlignEnd=89065|GE=festival|Gloss=festival|nWord=5|RX=[N]
-6	ngas	ngas	PART	_	_	2	mod	_	AlignBegin=89065|AlignEnd=89218|GE=[Angas]|Gloss=Angas|nWord=6|RX=[N].[P]
+5	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	4	comp:obj	_	AlignBegin=88912|AlignEnd=89065|GE=festival|Gloss=festival|nWord=5|RX=[N]
+6	Ngas	Ngas	PROPN	_	_	5	mod	_	AlignBegin=89065|AlignEnd=89218|Gloss=Angas
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=89218|AlignEnd=89374|GE=[//]|Gloss=PUNCT|nWord=7
 
 # sent_id = SAY_BC_INT_03_Calendar_054-055
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 89374, 91765
-# text = kə́ kaŋ -ni bìki -ês kən a: hŋ́ ?//
-# text_ortho = kə́ kâŋnì bə̀kês kəndí ŋaː hŋ́ ?//
-# text_en = You gathered... for the festival, didn't you?
+# text = kə́ kâŋ nə́ bə̀kês kəndí ŋǎːn ?//
+# text_ortho = kə́ kâŋ nə́ bə̀kês kəndí ŋǎːn ?//
+# text_en = You gathered for... the festival, didn't you?
 1	kə́	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=89374|AlignEnd=89857|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=1|RX=[PNTAM]
-2	kaŋ	kaŋ	VERB	_	_	1	comp:aux	_	AlignBegin=89857|AlignEnd=90099|GE=join|Gloss=join|nWord=2|RX=[V]
-3	ni	ni	PART	_	Aspect=Iter	2	compound:prt	_	AlignBegin=90099|AlignEnd=90340|GE=[ITER]|Gloss=ITER|nWord=2|RX=[PTCL].[EXT]|wordform=-ni
-4	bìki-ês	bìki-ês	NOUN	_	_	2	comp:obj	_	AlignBegin=90800|AlignEnd=90993|GE=celebration[DEF]|Gloss=celebration|MGloss=celebrationDEF|MSeg=bìki-ês|nWord=3|RX=[N][ART]|wordform=bìki
-5	kən	kən	PART	_	VerbType=Cop	2	comp:obl	_	AlignBegin=90993|AlignEnd=91186|GE=[COP2]|Gloss=be|nWord=4|RX=[PTCL].[SYNT].[HOM]
-6	a:	a:	PART	_	PartType=Int	5	mod	_	AlignBegin=91186|AlignEnd=91379|GE=[VRT]|Gloss=VRT|nWord=5|RX=[PTCL].[ASS]
+2	kâŋ	kaŋ	VERB	_	_	1	comp:aux	_	AlignBegin=89857|AlignEnd=90099|GE=join|Gloss=join|nWord=2|RX=[V]
+3	nə́	nə́	PART	_	_	2	mod	_	AlignBegin=90099|AlignEnd=90340|Gloss=for
+4	bə̀kês	bə̀ki	NOUN	_	Definite=Def	3	comp:obj	_	AlignBegin=90800|AlignEnd=90993|Gloss=celebration
+5	kəndí	kəndí	PART	_	VerbType=Cop	3	mod	_	AlignBegin=90993|AlignEnd=91186|GE=[COP2]|Gloss=be|nWord=4|RX=[PTCL].[SYNT].[HOM]
+6-7	ŋǎːn	_	_	_	_	_	_	_	_
+6	ŋa:	a:	PART	_	PartType=Int	5	mod	_	AlignBegin=91186|AlignEnd=91379|GE=[VRT]|Gloss=VRT|nWord=5|RX=[PTCL].[ASS]
 7	hŋ́	hŋ́	PART	_	Polarity=Neg	1	mod	_	AlignBegin=91379|AlignEnd=91572|GE=[NEG2]|Gloss=NEG2|nWord=6|RX=[PTCL].[NEG]
 8	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=91572|AlignEnd=91765|GE=[?//]|Gloss=PUNCT|nWord=7
 
