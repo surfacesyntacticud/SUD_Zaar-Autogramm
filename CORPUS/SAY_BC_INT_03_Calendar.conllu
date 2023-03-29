@@ -568,28 +568,28 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 92392, 97740
-# text = kàmán yàːʃí mə́n malâːr -i máː < lə̌pm zaːr máː < tá tuːr gyáː ɗûː //= tá tuːr gyáː nákat //
+# text = kàmán yàːʃí mə́n Maláːri máː < lə̌pm Zaːr máː < tá tûːr gyáː ɗûː //= tá tûːr gyáː nákat //
 # text_ortho = kàmán yàːʃí mə́n malâːri máː < lə̌pm zaːr máː < tá tûːr gyáː ɗûː //= tá tûːr gyáː nákat //
-# text_en = Like them, those people of Malar... at the Angas festival,  they would brew beer, they would cook food.
-1	kàmán	kàmán	PART	_	_	11	discourse	_	AlignBegin=92392|AlignEnd=93065|GE=like|Gloss=like|nWord=1|RX=[PREP]
-2	yàːʃí	yàːʃí	VERB	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	parataxis@mod	_	AlignBegin=93538|AlignEnd=93856|GE=[3PL].[IDP]|Gloss=3PL.IDP|nWord=2|RX=[PRO]
-3	mə́n	mə́n	PART	_	Case=Ben	2	compound:prt	_	AlignBegin=93856|AlignEnd=94174|GE=people|Gloss=people|nWord=3|RX=[N].[PL]
-4	malâːr-i	malâːr-i	NOUN	_	Definite=Def	3	compound	_	AlignBegin=94174|AlignEnd=94492|GE=[Malar][IND]|Gloss=Malar|MGloss=MalarIND|MSeg=malâːr-i|nWord=4|RX=[N].[P][ART]|wordform=malâːr
-5	máː	máː	PART	_	_	2	discourse	_	AlignBegin=94492|AlignEnd=94810|GE=also|Gloss=also|nWord=5|RX=[PTCL].[TOP]
+# text_en = Like them, those people of Malar... at the Zaar festival,  they would brew beer, they would cook food.
+1	kàmán	kàmán	ADP	_	_	11	discourse	_	AlignBegin=92392|AlignEnd=93065|GE=like|Gloss=like|nWord=1|RX=[PREP]
+2	yàːʃí	yàːʃí	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	dislocated@subj	_	AlignBegin=93538|AlignEnd=93856|GE=[3PL].[IDP]|Gloss=3PL.IDP|nWord=2|RX=[PRO]
+3	mə́n	múr	PART	_	Number=Plur	2	conj:appos	_	AlignBegin=93856|AlignEnd=94174|Gloss=people
+4	Maláːri	Malâːr	PROPN	_	Definite=Ind	3	compound	_	AlignBegin=94174|AlignEnd=94492|GE=[Malar][IND]|Gloss=Malar-IND
+5	máː	máː	PART	_	_	3	mod	_	AlignBegin=94492|AlignEnd=94810|GE=also|Gloss=also|nWord=5|RX=[PTCL].[TOP]
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=94810|AlignEnd=95128|GE=[<]|Gloss=PUNCT|nWord=6
 7	lə̌pm	lə̌pm	NOUN	_	_	11	mod	_	AlignBegin=95128|AlignEnd=95316|GE=festival|Gloss=festival|nWord=7|RX=[N]
-8	zaːr	zaːr	NOUN	_	_	2	mod	_	AlignBegin=95316|AlignEnd=95504|GE=[Zár]|Gloss=Zár|nWord=8|RX=[N].[P]
+8	Zaːr	Zaːr	PROPN	_	_	7	mod	_	AlignBegin=95316|AlignEnd=95504|Gloss=Zaar
 9	máː	máː	PART	_	_	7	mod	_	AlignBegin=95504|AlignEnd=95692|GE=also|Gloss=also|nWord=9|RX=[PTCL].[TOP]
-10	<	<	PUNCT	_	_	1	punct	_	AlignBegin=95692|AlignEnd=95880|GE=[<]|Gloss=PUNCT|nWord=10
+10	<	<	PUNCT	_	_	7	punct	_	AlignBegin=95692|AlignEnd=95880|GE=[<]|Gloss=PUNCT|nWord=10
 11	tá	wò	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=96280|AlignEnd=96426|GE=[3PL].[FUT]|Gloss=3PL.FUT|nWord=11|RX=[PNTAM]
-12	tuːr	tuːr	VERB	_	_	11	comp:aux	_	AlignBegin=96426|AlignEnd=96572|GE=cook|Gloss=cook|nWord=12|RX=[V]
-13	gyáː	gyáː	DET	_	Number=Plur	19	det	_	AlignBegin=96572|AlignEnd=96718|GE=[PL]|Gloss=PL|nWord=13|RX=[DET]
-14	ɗûː	ɗû	VERB	_	_	16	comp:aux	_	AlignBegin=96718|AlignEnd=96864|GE=beer|Gloss=beer|nWord=14|RX=[N]
-15	//=	//=	PUNCT	_	_	11	punct	_	AlignBegin=96864|AlignEnd=97010|GE=[//]|Gloss=PUNCT|nWord=15
+12	tûːr	tuːr	VERB	_	_	11	comp:aux	_	AlignBegin=96426|AlignEnd=96572|GE=cook|Gloss=cook|nWord=12|RX=[V]
+13	gyáː	gyáː	DET	_	Number=Plur	14	det	_	AlignBegin=96572|AlignEnd=96718|GE=[PL]|Gloss=PL|nWord=13|RX=[DET]
+14	ɗûː	ɗû	VERB	_	_	12	comp:obj	_	AlignBegin=96718|AlignEnd=96864|GE=beer|Gloss=beer|nWord=14|RX=[N]
+15	//=	//=	PUNCT	_	_	16	punct	_	AlignBegin=96864|AlignEnd=97010|GE=[//]|Gloss=PUNCT|nWord=15
 16	tá	wò	AUX	_	Number=Plur|Person=3|Tense=Fut	11	parataxis@conj	_	AlignBegin=97010|AlignEnd=97156|GE=[3PL].[FUT]|Gloss=3PL.FUT|nWord=16|RX=[PNTAM]
-17	tuːr	tuːr	VERB	_	_	16	comp:aux	_	AlignBegin=97156|AlignEnd=97302|GE=cook|Gloss=cook|nWord=17|RX=[V]
+17	tûːr	tuːr	VERB	_	_	16	comp:aux	_	AlignBegin=97156|AlignEnd=97302|GE=cook|Gloss=cook|nWord=17|RX=[V]
 18	gyáː	gyáː	DET	_	Number=Plur	19	det	_	AlignBegin=97302|AlignEnd=97448|GE=[PL]|Gloss=PL|nWord=18|RX=[DET]
-19	nákat	nákat	NOUN	_	_	17	comp:obj	_	AlignBegin=97448|AlignEnd=97594|GE=food|Gloss=food|nWord=19|RX=[N]
+19	náɣat	náɣat	NOUN	_	_	17	comp:obj	_	AlignBegin=97448|AlignEnd=97594|Gloss=food
 20	//	//	PUNCT	_	_	11	punct	_	AlignBegin=97594|AlignEnd=97740|GE=[//]|Gloss=PUNCT|nWord=20
 
 # sent_id = SAY_BC_INT_03_Calendar_061-062
