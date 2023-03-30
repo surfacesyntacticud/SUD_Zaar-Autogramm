@@ -596,61 +596,64 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 98320, 102547
-# text = tôː myàːní máː < ʧǎː nda gwàːsə̀ŋ -í < tôː má som =ʃí káy ɓét ʧík dòmín yàːre -ês yi vìː nàmbóŋ ɗangəní //
-# text_ortho = tôː myàːní máː < ʧǎː ndâ gwàːsə̀ŋə́y < tôː má sômʃí káy ɓét ʧík dòmín yàːrês yi vìː nàmbóŋ ɗangəní //
+# text = tôː myàːní máː < ʧǎː ndâ gwàːsə̀ŋə́y < tôː má sômʃíɣáy ɓét ʧík dùmín yàːrês yi vìː nàmbóŋ ɗaŋgəní // 
+# text_ortho = tôː myàːní máː < ʧǎː ndâ gwàːsə̀ŋə́y < tôː má sômʃíɣáy ɓét ʧík dùmín yàːrês yi vìː nàmbóŋ ɗaŋgəní // 
 # text_en = Well, we too, if they start their [festival] we would help them like this because  we have the same language now.
 1	tôː	tôː	PART	_	_	10	discourse	_	AlignBegin=98320|AlignEnd=98476|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
 2	myàːní	myàːní	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	dislocated@subj	_	AlignBegin=98476|AlignEnd=98632|GE=[1PL].[IDP]|Gloss=1PL.IDP|nWord=2|RX=[PRO]
 3	máː	máː	PART	_	_	2	discourse	_	AlignBegin=98632|AlignEnd=98788|GE=also|Gloss=also|nWord=3|RX=[PTCL].[TOP]
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=98788|AlignEnd=98944|GE=[<]|Gloss=PUNCT|nWord=4
-5	ʧǎː	ʧǎː	VERB	_	_	10	comp:aux	_	AlignBegin=98944|AlignEnd=99100|GE=[3PL].[COND]|Gloss=3PL.COND|nWord=5|RX=[PNTAM]
-6	nda	nda	VERB	_	_	10	comp:aux	_	AlignBegin=99100|AlignEnd=99256|GE=start|Gloss=start|nWord=6|RX=[N]
-7	gwàːsə̀ŋ-íː	gwàːsə̀ŋ-iaː	NOUN	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=99256|AlignEnd=99412|GE=[3PL].[POS][DIST]|Gloss=3PL.POS|MGloss=3PL.POSDIST|MSeg=gwàːsə̀ŋ-íː|nWord=7|RX=[PRO][TAM]|wordform=gwàːsə̀ŋ
-8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=99412|AlignEnd=99568|GE=[<]|Gloss=PUNCT|nWord=8
+5	ʧǎː	ʧáː	AUX	_	_	10	comp:aux	_	AlignBegin=98944|AlignEnd=99100|GE=[3PL].[COND]|Gloss=3PL.COND|nWord=5|RX=[PNTAM]
+6	ndâ	nda	VERB	_	_	5	comp:aux	_	AlignBegin=99100|AlignEnd=99256|GE=start|Gloss=start|nWord=6|RX=[N]
+7	gwàːsə̀ŋə́y	gwàːsə̀ŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=99256|AlignEnd=99412|GE=[3PL].[POS][DIST]|Gloss=3PL.POS|MGloss=3PL.POSDIST|MSeg=gwàːsə̀ŋ-íː|nWord=7|RX=[PRO][TAM]|wordform=gwàːsə̀ŋ
+8	<	<	PUNCT	_	_	5	punct	_	AlignBegin=99412|AlignEnd=99568|GE=[<]|Gloss=PUNCT|nWord=8
 9	tôː	tôː	PART	_	_	10	discourse	_	AlignBegin=99568|AlignEnd=99724|GE=[DM]|Gloss=DM|nWord=9|RX=[PTCL]
 10	má	wò	AUX	_	Number=Plur|Person=1|Tense=Fut	0	root	_	AlignBegin=99724|AlignEnd=99880|GE=[1PL].[FUT]|Gloss=1PL.FUT|nWord=10|RX=[PNTAM]
-11	som	som	VERB	_	_	10	comp:aux	_	AlignBegin=99880|AlignEnd=99958|GE=help|Gloss=help|nWord=11|RX=[V]
+11-13	sômʃíɣáy	_	_	_	_	_	_	_	_
+11	sôm	som	VERB	_	_	10	comp:aux	_	AlignBegin=99880|AlignEnd=99958|GE=help|Gloss=help|nWord=11|RX=[V]
 12	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=99958|AlignEnd=100036|GE=[3PL].[OBJ]|Gloss=3PL.OBJ|nWord=11|RX=[PRO]
-13	káy	káy	ADP	_	_	11	comp:obl	_	AlignBegin=100036|AlignEnd=100192|GE=[ANAPH]|Gloss=ANAPH|nWord=12|RX=[PRO].[ANAPH]
-14	ɓét	ɓét	ADP	_	_	11	mod	_	AlignBegin=100192|AlignEnd=100348|GE=all|Gloss=all|nWord=13|RX=[ADV]
-15	ʧík	ʧík	ADV	_	_	14	mod	_	AlignBegin=100348|AlignEnd=100504|GE=thus|Gloss=thus|nWord=14|RX=[ADV]
-16	dòmín	dòmín	ADV	_	_	11	mod	_	AlignBegin=100504|AlignEnd=100660|GE=because|Gloss=because|nWord=15|RX=[CONJ]
-17	yàːre-ês	yàːre-ês	NOUN	_	_	20	mod	_	AlignBegin=101160|AlignEnd=101391|GE=language[DEF]|Gloss=language|MGloss=languageDEF|MSeg=yàːre-ês|nWord=16|RX=[N][ART]|wordform=yàːre
-18	yi	yi	AUX	_	Aspect=Iter	11	parataxis@mod	_	AlignBegin=101391|AlignEnd=101622|GE=be|Gloss=be|nWord=17|RX=[V*]
+13	ɣáy	káy	PRON	_	_	11	comp:obl	_	AlignBegin=100036|AlignEnd=100192|GE=[ANAPH]|Gloss=ANAPH|nWord=12|RX=[PRO].[ANAPH]
+14	ɓét	ɓét	ADV	_	_	11	mod	_	AlignBegin=100192|AlignEnd=100348|GE=all|Gloss=all|nWord=13|RX=[ADV]
+15	ʧík	ʧík	ADV	_	_	11	mod	_	AlignBegin=100348|AlignEnd=100504|GE=thus|Gloss=thus|nWord=14|RX=[ADV]
+16	dòmín	dòmín	SCONJ	_	_	11	mod	_	AlignBegin=100504|AlignEnd=100660|GE=because|Gloss=because|nWord=15|RX=[CONJ]
+17	yàːrês	yàːre	NOUN	_	_	18	subj	_	AlignBegin=101160|AlignEnd=101391|GE=language[DEF]|Gloss=language|MGloss=languageDEF|MSeg=yàːre-ês|nWord=16|RX=[N][ART]|wordform=yàːre
+18	yi	yi	VERB	_	_	16	comp:obj	_	AlignBegin=101391|AlignEnd=101622|GE=be|Gloss=be|nWord=17|RX=[V*]
 19	vìː	vìː	NOUN	_	_	18	comp:pred	_	AlignBegin=101622|AlignEnd=101853|GE=mouth|Gloss=mouth|nWord=18|RX=[N]
-20	nàmbóŋ	nàmbóŋ	NUM	_	_	18	comp:pred	_	AlignBegin=101853|AlignEnd=102084|GE=one|Gloss=one|nWord=19|RX=[NUM]
-21	ɗangəní	ɗangəní	ADV	_	PronType=Dem	18	mod	_	AlignBegin=102084|AlignEnd=102315|GE=now|Gloss=now|nWord=20|RX=[ADVDEICT]
+20	nàmbóŋ	nàmbóŋ	NUM	_	_	19	det	_	AlignBegin=101853|AlignEnd=102084|GE=one|Gloss=one|nWord=19|RX=[NUM]
+21	ɗangəní	ɗangəní	ADV	_	_	18	mod	_	AlignBegin=102084|AlignEnd=102315|GE=now|Gloss=now|nWord=20|RX=[ADVDEICT]
 22	//	//	PUNCT	_	_	10	punct	_	AlignBegin=102315|AlignEnd=102547|GE=[//]|Gloss=PUNCT|nWord=21
 
 # sent_id = SAY_BC_INT_03_Calendar_063-064
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 102296, 106720
-# text = tôː dèy kə́ kə́ fi -kə́nì lə̌pm -́ zaːr < ka vər =mə fasára =wôs a: ɗan kə́ ʧaː ɗan kyǎː fi =tə !//
-# text_ortho = tôː dèk kə̀ fíkə̂n lə̌pm zaːr < ka vərəm fasárawòs aː ɗan kə́ ʧâː ɗan kyǎː fítə̀ !//
-# text_en = Well the reason for doing the Zár festival,  explain the reason why you do it!
-1	tôː	tôː	PART	_	_	9	discourse	_	AlignBegin=102296|AlignEnd=102502|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
-2	dèy	dèy	NOUN	_	_	9	mod	_	AlignBegin=102502|AlignEnd=102605|GE=reason|Gloss=reason|nWord=2|RX=[N]
-3	kə́	á	AUX	_	_	2	mod	_	AlignBegin=102605|AlignEnd=102708|GE=[POSL]|Gloss=of|nWord=2|RX=[PTCL]
-4	kə́	á	AUX	_	_	3	parataxis@conj	_	AlignBegin=102708|AlignEnd=102914|GE=[POSL]|Gloss=of|nWord=3|RX=[PTCL]
-5	fi-kə́nì	fi-kə́ni	VERB	_	VerbForm=Vnoun	4	comp:aux	_	AlignBegin=102914|AlignEnd=103120|GE=do[NMLZ]|Gloss=do|MGloss=doNMLZ|MSeg=fi-kə́nì|nWord=4|RX=[V][DER]|wordform=fi
-6	lə̌pm-́	lə̌pm-́	NOUN	_	_	5	comp:obj	_	AlignBegin=103120|AlignEnd=103326|GE=festival[POS]|Gloss=festival|MGloss=festivalof|MSeg=lə̌pmkə́|nWord=5|RX=[N][PNTAM]|wordform=lə̌pm
-7	zaːr	zaːr	NOUN	_	_	4	comp:obj	_	AlignBegin=103326|AlignEnd=103532|GE=[Zár]|Gloss=Zár|nWord=6|RX=[N].[P]
-8	<	<	PUNCT	_	_	7	punct	_	AlignBegin=103532|AlignEnd=103740|GE=[<]|Gloss=PUNCT|nWord=7
-9	ka	wò	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=103860|AlignEnd=104120|GE=[2SG].[FUT]|Gloss=2SG.FUT|nWord=8|RX=[PNTAM]
-10	vər	vər	VERB	_	_	9	comp:aux	_	AlignBegin=104120|AlignEnd=104250|GE=give|Gloss=give|nWord=9|RX=[V]
-11	=mə	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	comp:ben	_	AlignBegin=104250|AlignEnd=104380|GE=[1SG].[OBJ]|Gloss=1SG.OBJ|nWord=9|RX=[PRO]
-12	fasára	fasára	NOUN	_	_	17	comp:obj	_	AlignBegin=104380|AlignEnd=104510|GE=reason|Gloss=reason|Lang=hau|nWord=10|RX=[N].[BW].[HAU]
-13	=wôs	=wopm	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	12	mod@poss	_	AlignBegin=104510|AlignEnd=104640|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=10|RX=[PRO]
-14	a:	a:	PART	_	PartType=Int	9	mod	_	AlignBegin=104640|AlignEnd=104900|GE=[VRT]|Gloss=VRT|nWord=11|RX=[PTCL].[ASS]
-15	ɗan	ɗan	SCONJ	_	_	9	mod	_	AlignBegin=104900|AlignEnd=105160|GE=that|Gloss=REL|nWord=12|RX=[REL]
-16	kə́	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	15	comp:obj	_	AlignBegin=105160|AlignEnd=105420|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=13|RX=[PNTAM]
-17	ʧaː	ʧaː	VERB	_	_	16	comp:aux	_	AlignBegin=105420|AlignEnd=105680|GE=put|Gloss=put|nWord=14|RX=[V]
-18	ɗan	ɗan	SCONJ	_	_	9	mod	_	AlignBegin=105680|AlignEnd=105940|GE=as|Gloss=as|nWord=15|RX=[CONJ]
-19	kyǎː	yaáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	18	comp:obj	_	AlignBegin=105940|AlignEnd=106200|GE=[2PL].[ICPL]|Gloss=2PL.ICPL|nWord=16|RX=[PNTAM]
-20	fi	fi	VERB	_	_	19	comp:aux	_	AlignBegin=106200|AlignEnd=106330|GE=do|Gloss=do|nWord=17|RX=[V]
-21	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	AlignBegin=106330|AlignEnd=106460|GE=[3SG].[OBJ]|Gloss=3SG.OBJ|nWord=17|RX=[PRO]
-22	!//	!//	PUNCT	_	_	9	punct	_	AlignBegin=106460|AlignEnd=106720|GE=[!//]|Gloss=PUNCT|nWord=18
+# text = tòː dèk kə̀ fíɣə̂n lə̌pm zaːr < ka vərəm fasárawòsàː ɗaŋ kə́ ʧâː ɗaŋ kyǎː fítə // 
+# text_ortho = tòː dèk kə̀ fíɣə̂n lə̌pm zaːr < ka vərəm fasárawòsàː ɗaŋ kə́ ʧâː ɗaŋ kyǎː fítə // 
+# text_en = Well the reason for doing the Zaar festival,  explain the reason why you do it!
+1	tôː	tôː	PART	_	_	8	discourse	_	AlignBegin=102296|AlignEnd=102502|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
+2	dèk	dèy	NOUN	_	_	8	dislocated@top	_	AlignBegin=102502|AlignEnd=102605|Gloss=reason
+3	kə̀	kə́	ADP	_	_	2	mod	_	AlignBegin=102708|AlignEnd=102914|Gloss=of
+4	fíɣə̂n	fi	VERB	_	VerbForm=Vnoun	3	comp:obj	_	AlignBegin=102914|AlignEnd=103120|ExtPos=NOUN|Gloss=do-NMLZ
+5	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	4	comp:obj	_	AlignBegin=103120|AlignEnd=103326|Gloss=festival-CONS
+6	Zaːr	Zaːr	PROPN	_	_	5	mod	_	AlignBegin=103326|AlignEnd=103532|Gloss=Zaar
+7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=103532|AlignEnd=103740|GE=[<]|Gloss=PUNCT|nWord=7
+8	ka	wò	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=103860|AlignEnd=104120|GE=[2SG].[FUT]|Gloss=2SG.FUT|nWord=8|RX=[PNTAM]
+9-10	vərəm	_	_	_	_	_	_	_	_
+9	vər	vər	VERB	_	_	8	comp:aux	_	AlignBegin=104120|AlignEnd=104250|GE=give|Gloss=give|nWord=9|RX=[V]
+10	=mə	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	comp:ben	_	AlignBegin=104250|AlignEnd=104380|GE=[1SG].[OBJ]|Gloss=1SG.OBJ|nWord=9|RX=[PRO]
+11-13	fasárawòsàː	_	_	_	_	_	_	_	_
+11	fasára	fasára	NOUN	_	_	9	comp:obj	_	AlignBegin=104380|AlignEnd=104510|GE=reason|Gloss=reason|Lang=hau|nWord=10|RX=[N].[BW].[HAU]
+12	=wôs	=wopm	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	11	mod@poss	_	AlignBegin=104510|AlignEnd=104640|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=10|RX=[PRO]
+13	a:	a:	PART	_	PartType=Int	8	mod	_	AlignBegin=104640|AlignEnd=104900|GE=[VRT]|Gloss=VRT|nWord=11|RX=[PTCL].[ASS]
+14	ɗan	ɗan	SCONJ	_	_	11	mod@relcl	_	AlignBegin=104900|AlignEnd=105160|GE=that|Gloss=REL|nWord=12|RX=[REL]
+15	kə́	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	14	comp:obj	_	AlignBegin=105160|AlignEnd=105420|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=13|RX=[PNTAM]
+16	ʧâː	ʧaː	VERB	_	_	15	comp:aux	_	AlignBegin=105420|AlignEnd=105680|GE=put|Gloss=put|nWord=14|RX=[V]
+17	ɗan	ɗan	SCONJ	_	_	16	mod	_	AlignBegin=105680|AlignEnd=105940|GE=as|Gloss=as|nWord=15|RX=[CONJ]
+18	kyǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	17	comp:obj	_	AlignBegin=105940|AlignEnd=106200|GE=[2PL].[ICPL]|Gloss=2PL.ICPL|nWord=16|RX=[PNTAM]
+19-20	fítə	_	_	_	_	_	_	_	_
+19	fî	fi	VERB	_	_	18	comp:aux	_	AlignBegin=106200|AlignEnd=106330|GE=do|Gloss=do|nWord=17|RX=[V]
+20	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	AlignBegin=106330|AlignEnd=106460|GE=[3SG].[OBJ]|Gloss=3SG.OBJ|nWord=17|RX=[PRO]
+21	!//	!//	PUNCT	_	_	8	punct	_	AlignBegin=106460|AlignEnd=106720|GE=[!//]|Gloss=PUNCT|nWord=18
 
 # sent_id = SAY_BC_INT_03_Calendar_065-068
 # speaker_id = SP1
