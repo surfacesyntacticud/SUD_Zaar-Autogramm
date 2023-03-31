@@ -902,21 +902,22 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 150260, 155860
-# text = tôː àkwéy gyáː ɲamri tsəní < ʧàːyí zak lə̌pm -i gwàːsə̀ŋ tu lə̌pm -́ geɗí //
-# text_ortho = tôː àkwéy gyáː ɲamri tsə́n < ʧàːyí zak ləpí gwàːsə̀ŋ tu lə̌pm geɗí //
+# text = tôː àkwéy gyáː ɲamri tsə́n < ʧàːyí zak ləpígwàːsə̀ŋ tu lə̌pm geɗí //
+# text_ortho = tôː àkwéy gyáː ɲamri tsə́n < ʧàːyí zak ləpígwàːsə̀ŋ tu lə̌pm geɗí //
 # text_en = Well there are some Igbos like this  who used to celebrate their festival named  the Yam festival.
 1	tôː	tôː	PART	_	_	7	discourse	_	AlignBegin=150260|AlignEnd=150560|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
 2	àkwéy	àkwéy	CCONJ	_	_	7	discourse	_	AlignBegin=150560|AlignEnd=150860|GE=there_is|Gloss=there_is|Lang=hau|nWord=2|RX=[PTCL].[BW].[HAU]
 3	gyáː	gyáː	DET	_	Number=Plur	4	det	_	AlignBegin=150860|AlignEnd=151160|GE=[PL]|Gloss=PL|nWord=3|RX=[DET]
 4	ɲamri	ɲamri	VERB	_	_	2	comp:aux	_	AlignBegin=151160|AlignEnd=151460|GE=[Igbo]|Gloss=Igbo|nWord=4|RX=[N]
-5	tsəní	tsəní	ADV	_	_	4	mod	_	AlignBegin=151460|AlignEnd=151760|GE=like_this|Gloss=like_this|nWord=5|RX=[ADV]
+5	tsə́n	tsəní	ADV	_	_	4	mod	_	AlignBegin=151460|AlignEnd=151760|GE=like_this|Gloss=like_this|nWord=5|RX=[ADV]
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=151760|AlignEnd=152060|GE=[<]|Gloss=PUNCT|nWord=6
-7	ʧàːyí	ʧàːyí	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=152380|AlignEnd=152756|GE=[3PL].[ICPL].[ITER]|Gloss=3PL.ICPL.ITER|nWord=7|RX=[PNTAM]
+7	ʧàːyí	ʧáːyi	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=152380|AlignEnd=152756|GE=[3PL].[ICPL].[ITER]|Gloss=3PL.ICPL.ITER|nWord=7|RX=[PNTAM]
 8	zak	zak	VERB	_	_	7	comp:aux	_	AlignBegin=152756|AlignEnd=153132|GE=celebrate|Gloss=celebrate|nWord=8|RX=[V]
-9	lə̌pm-i	lə̌pm-i	NOUN	_	_	8	comp:obj	_	AlignBegin=153132|AlignEnd=153508|GE=festival[IND]|Gloss=festival|MGloss=festivalIND|MSeg=lə̌pm-i|nWord=9|RX=[N][ART]|wordform=lə̌pm
-10	gwàːsə̀ŋ	gwàːsə̀ŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	9	mod@poss	_	AlignBegin=153508|AlignEnd=153884|GE=[3PL].[POS]|Gloss=3PL.POS|nWord=10|RX=[PRO]
+9-10	ləpígwàːsə̀ŋ	_	_	_	_	_	_	_	_
+9	ləpí	lə̌pm	NOUN	_	Definite=Ind	8	comp:obj	_	AlignBegin=153132|AlignEnd=153508|Gloss=festival-IND
+10	=gwàːsə̀ŋ	=gwàːsə̀ŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	9	mod@poss	_	AlignBegin=153508|AlignEnd=153884|GE=[3PL].[POS]|Gloss=3PL.POS|nWord=10|RX=[PRO]
 11	tu	tu	SCONJ	_	Mood=Qot	9	mod@relcl	_	AlignBegin=153884|AlignEnd=154260|GE=[COMP]|Gloss=COMP|nWord=11|RX=[PTCL]
-12	lə̌pm-́	lə̌pm-́	NOUN	_	_	11	comp:obj	_	AlignBegin=155160|AlignEnd=155393|GE=festival[POS]|Gloss=festival|MGloss=festivalof|MSeg=lə̌pmkə́|nWord=12|RX=[N][PNTAM]|wordform=lə̌pm
+12	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	11	comp:obj	_	AlignBegin=155160|AlignEnd=155393|Gloss=festival-CONS
 13	geɗí	geɗí	NOUN	_	Number=Plur	12	mod	_	AlignBegin=155393|AlignEnd=155626|GE=tuber|Gloss=tuber|nWord=13|RX=[B]
 14	//	//	PUNCT	_	_	7	punct	_	AlignBegin=155626|AlignEnd=155860|GE=[//]|Gloss=PUNCT|nWord=14
 
@@ -924,30 +925,30 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 157500, 158580
-# text = èː tôː gíː ɗakás //
-# text_ortho = èː tôː gíː ɗakás //
+# text = èː tôː gíː ɗaɣás //
+# text_ortho = èː tôː gíː ɗaɣás //
 # text_en = Yes, well, remains this one.
 1	èː	èː	INTJ	_	_	3	discourse	_	AlignBegin=157500|AlignEnd=157716|GE=[HESIT]|Gloss=HESIT|nWord=1|RX=[INTJ]
 2	tôː	tôː	PART	_	_	3	discourse	_	AlignBegin=157716|AlignEnd=157932|GE=[DM]|Gloss=DM|nWord=2|RX=[PTCL]
 3	gíː	gíː	PRON	_	Deixis=Remt|PronType=Dem	0	root	_	AlignBegin=157932|AlignEnd=158148|GE=[DIST]|Gloss=DIST|nWord=3|RX=[PRO].[DEICT]
-4	ɗakás	ɗakás	ADV	_	_	3	mod	_	AlignBegin=158148|AlignEnd=158364|GE=be_unfinished|Gloss=be_unfinished|nWord=4|RX=[V]
+4	ɗaɣás	ɗaɣás	VERB	_	_	3	mod	_	AlignBegin=158148|AlignEnd=158364|GE=be_unfinished|Gloss=be_unfinished|nWord=4|RX=[V]
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=158364|AlignEnd=158580|GE=[//]|Gloss=PUNCT|nWord=5
 
 # sent_id = SAY_BC_INT_03_Calendar_098-099
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 160380, 162740
-# text = lə̌pm geɗí < gwàːsə̀ŋ ʧǎː giː geɗí kən //
-# text_ortho = lə̌pm geɗí < gwàːsə̀ŋ ʧǎː gìː geɗí kəndí //
+# text = lə̌pm geɗí < gwàːsə̀ŋ ʧǎː gìː geɗí ɣəndí // 
+# text_ortho = lə̌pm geɗí < gwàːsə̀ŋ ʧǎː gìː geɗí ɣəndí //
 # text_en = The yam festival,  they do farm yam.
 1	lə̌pm	lə̌pm	NOUN	_	_	5	subj	_	AlignBegin=160380|AlignEnd=160640|GE=festival|Gloss=festival|nWord=1|RX=[N]
 2	geɗí	geɗí	NOUN	_	Number=Plur	1	compound	_	AlignBegin=160640|AlignEnd=160900|GE=tuber|Gloss=tuber|nWord=2|RX=[B]
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=160900|AlignEnd=161160|GE=[<]|Gloss=PUNCT|nWord=3
 4	gwàːsə̀ŋ	gwàːsə̀ŋ	PRON	_	_	5	dislocated@top	_	AlignBegin=161400|AlignEnd=161623|GE=[3PL].[POS]|Gloss=3PL.POS|nWord=4|RX=[PRO]
 5	ʧǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=161623|AlignEnd=161846|GE=[3PL].[ICPL]|Gloss=3PL.ICPL|nWord=5|RX=[PNTAM]
-6	giː	giː	VERB	_	_	5	comp:aux	_	AlignBegin=161846|AlignEnd=162069|GE=plough|Gloss=plough|nWord=6|RX=[V]
+6	gìː	giː	VERB	_	_	5	comp:aux	_	AlignBegin=161846|AlignEnd=162069|GE=plough|Gloss=plough|nWord=6|RX=[V]
 7	geɗí	geɗí	PRON	_	VerbType=Cop	6	comp:obj	_	AlignBegin=162069|AlignEnd=162292|GE=tuber|Gloss=tuber|nWord=7|RX=[B]
-8	kən	kən	PART	_	VerbType=Cop	6	mod	_	AlignBegin=162292|AlignEnd=162515|GE=[COP2]|Gloss=be|nWord=8|RX=[PTCL].[SYNT].[HOM]
+8	ɣəndí	kəndí	PART	_	VerbType=Cop	6	mod	_	AlignBegin=162292|AlignEnd=162515|GE=[COP2]|Gloss=be|nWord=8|RX=[PTCL].[SYNT].[HOM]
 9	//	//	PUNCT	_	_	5	punct	_	AlignBegin=162515|AlignEnd=162740|GE=[//]|Gloss=PUNCT|nWord=9
 
 # sent_id = SAY_BC_INT_03_Calendar_101-101
@@ -964,32 +965,32 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 162860, 166720
-# text = yâwwàː geɗí yáː ɲáŋ -íː < tôː tə́ zak lə̌pm káy //
+# text = yâwwàː geɗí yáː ɲâŋə́y < tôː tə́ zàk lə̌pm gáy //
 # text_ortho = yâwwàː geɗí yáː ɲâŋə́y < tôː tə́ zàk lə̌pm káy //
 # text_en = That's right, when the yams are ripe  well, they celebrated the festival with it.
 1	yâwwàː	yâwwàː	SCONJ	_	_	7	mod	_	AlignBegin=162860|AlignEnd=163173|GE=[OK]|Gloss=OK|nWord=1|RX=[INTJ]
 2	geɗí	geɗí	PRON	_	Number=Plur	1	comp:aux	_	AlignBegin=163173|AlignEnd=163486|GE=tuber|Gloss=tuber|nWord=2|RX=[B]
 3	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	7	parataxis@mod	_	AlignBegin=163486|AlignEnd=163799|GE=[3SG].[COND]|Gloss=3SG.COND|nWord=3|RX=[PNTAM]
-4	ɲáŋ-íː	ɲáŋ-íː	VERB	_	_	3	comp:aux	_	AlignBegin=163799|AlignEnd=164112|GE=be_ripe[RES]|Gloss=be_ripe|MGloss=be_ripeRES|MSeg=ɲáŋ-íː|nWord=4|RX=[V][TAM]|wordform=ɲáŋ
+4	ɲâŋə́y	ɲáŋ	VERB	_	Aspect=Res	3	comp:aux	_	AlignBegin=163799|AlignEnd=164112|Gloss=be_ripe-RES
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=164112|AlignEnd=164426|GE=[<]|Gloss=PUNCT|nWord=5
 6	tôː	tôː	PART	_	_	7	discourse	_	AlignBegin=165700|AlignEnd=165870|GE=[DM]|Gloss=DM|nWord=6|RX=[PTCL]
 7	tə́	tə́	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=165870|AlignEnd=166040|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=7|RX=[PNTAM]
-8	zak	zak	VERB	_	_	7	comp:aux	_	AlignBegin=166040|AlignEnd=166210|GE=celebrate|Gloss=celebrate|nWord=8|RX=[V]
+8	zàk	zak	VERB	_	_	7	comp:aux	_	AlignBegin=166040|AlignEnd=166210|GE=celebrate|Gloss=celebrate|nWord=8|RX=[V]
 9	lə̌pm	lə̌pm	NOUN	_	_	8	comp:obj	_	AlignBegin=166210|AlignEnd=166380|GE=festival|Gloss=festival|nWord=9|RX=[N]
-10	káy	káy	PART	_	_	8	mod	_	AlignBegin=166380|AlignEnd=166550|GE=[ANAPH]|Gloss=ANAPH|nWord=10|RX=[PRO].[ANAPH]
+10	gáy	káy	PRON	_	_	8	comp:obl	_	AlignBegin=166380|AlignEnd=166550|GE=[ANAPH]|Gloss=ANAPH|nWord=10|RX=[PRO].[ANAPH]
 11	//	//	PUNCT	_	_	7	punct	_	AlignBegin=166550|AlignEnd=166720|GE=[//]|Gloss=PUNCT|nWord=11
 
 # sent_id = SAY_BC_INT_03_Calendar_103-103
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 166900, 167560
-# text = tə́ zak lə̌pm káy //
-# text_ortho = tə́ zàk lə̌pm káy //
+# text = tə́ zàk lə̌pm gáy //
+# text_ortho = tə́ zàk lə̌pm gáy // 
 # text_en = they celebrate their festival with it.
 1	tə́	tə́	AUX	_	_	2	discourse	_	AlignBegin=166900|AlignEnd=167032|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=1|RX=[PNTAM]
-2	zak	zak	VERB	_	_	0	root	_	AlignBegin=167032|AlignEnd=167164|GE=celebrate|Gloss=celebrate|nWord=2|RX=[V]
+2	zàk	zak	VERB	_	_	0	root	_	AlignBegin=167032|AlignEnd=167164|GE=celebrate|Gloss=celebrate|nWord=2|RX=[V]
 3	lə̌pm	lə̌pm	NOUN	_	_	2	comp:obj	_	AlignBegin=167164|AlignEnd=167296|GE=festival|Gloss=festival|nWord=3|RX=[N]
-4	káy	káy	PART	_	_	2	mod	_	AlignBegin=167296|AlignEnd=167428|GE=[ANAPH]|Gloss=ANAPH|nWord=4|RX=[PRO].[ANAPH]
+4	gáy	káy	PRON	_	_	2	comp:obl	_	AlignBegin=167296|AlignEnd=167428|GE=[ANAPH]|Gloss=ANAPH|nWord=4|RX=[PRO].[ANAPH]
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=167428|AlignEnd=167560|GE=[//]|Gloss=PUNCT|nWord=5
 
 # sent_id = SAY_BC_INT_03_Calendar_104-104
