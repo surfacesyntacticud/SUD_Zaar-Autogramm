@@ -835,17 +835,19 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 137340, 140080
-# text = yáːni dèy =wôs < ɓét kən tu lə̌pm Zaːr oː //
-# text_ortho = yâːn dèːwòs < ɓét kəndí tu lə̌pm Zaːr oː //
+# text = yâːn dèːwòs < ɓét kəndí tu lə̌pm Zaːroː //
+# text_ortho = yâːn dèːwòs < ɓét kəndí tu lə̌pm Zaːroː //
 # text_en = Its reason,  all there is is the Zaar festival.
-1	yáːni	yáːni	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	dislocated@subj	_	AlignBegin=137340|AlignEnd=137758|GE=[3SG].[IDP]|Gloss=3SG.IDP|nWord=1|RX=[PRO]
+1	yâːn	yáːni	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	dislocated@subj	_	AlignBegin=137340|AlignEnd=137758|GE=[3SG].[IDP]|Gloss=3SG.IDP|nWord=1|RX=[PRO]
+2-3	dèːwòs	_	_	_	_	_	_	_	_
 2	dèy	dèy	NOUN	_	_	1	mod	_	AlignBegin=137758|AlignEnd=137967|GE=reason|Gloss=reason|nWord=2|RX=[N]
 3	=wôs	=wopm	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@poss	_	AlignBegin=137967|AlignEnd=138176|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=2|RX=[PRO]
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=138176|AlignEnd=138595|GE=[<]|Gloss=PUNCT|nWord=3
 5	ɓét	ɓét	VERB	_	_	6	mod	_	AlignBegin=138595|AlignEnd=138807|GE=all|Gloss=all|nWord=4|RX=[ADV]
-6	kən	kən	PART	_	_	0	root	_	AlignBegin=138807|AlignEnd=139019|GE=[COP2]|Gloss=be|nWord=5|RX=[PTCL].[SYNT].[HOM]
+6	kəndí	kəndí	PART	_	_	0	root	_	AlignBegin=138807|AlignEnd=139019|GE=[COP2]|Gloss=be|nWord=5|RX=[PTCL].[SYNT].[HOM]
 7	tu	tu	SCONJ	_	Mood=Qot	6	unk	_	AlignBegin=139019|AlignEnd=139231|GE=[COMP]|Gloss=COMP|nWord=6|RX=[PTCL]
-8	lə̌pm	lə̌pm	NOUN	_	_	7	comp:obj	_	AlignBegin=139231|AlignEnd=139443|GE=festival|Gloss=festival|nWord=7|RX=[N]
+8	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	7	comp:obj	_	AlignBegin=139231|AlignEnd=139443|Gloss=festival-CONS
+9-10	Zaːroː	_	_	_	_	_	_	_	_
 9	Zaːr	Zaːr	NOUN	_	_	8	compound	_	AlignBegin=139443|AlignEnd=139655|GE=[Zaar]|Gloss=Zaar|nWord=8|RX=[N].[P]
 10	oː	oː	PART	_	PartType=Emp	5	mod	_	AlignBegin=139655|AlignEnd=139867|GE=[EMPH]|Gloss=EMPH|nWord=9|RX=[PTCL].[ASS]
 11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=139867|AlignEnd=140080|GE=[//]|Gloss=PUNCT|nWord=10
@@ -854,44 +856,46 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 140620, 141500
-# text = dèy =wôs ɓét kən //
+# text = dèːwòs ɓét kəndí // 
 # text_ortho = dèːwòs ɓét kəndí //
 # text_en = That's its only reason.
+1-2	dèːwòs	_	_	_	_	_	_	_	_
 1	dèy	dèy	NOUN	_	_	3	comp:pred	_	AlignBegin=140620|AlignEnd=140730|GE=reason|Gloss=reason|nWord=1|RX=[N]
-2	=wôs	=wopm	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	mod@poss	_	AlignBegin=140730|AlignEnd=140840|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=1|RX=[PRO]
+2	=wôs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	mod@poss	_	AlignBegin=140730|AlignEnd=140840|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=1|RX=[PRO]
 3	ɓét	ɓét	PART	_	_	0	root	_	AlignBegin=140840|AlignEnd=141060|GE=all|Gloss=all|nWord=2|RX=[ADV]
-4	kən	kən	PART	_	VerbType=Cop	3	mod	_	AlignBegin=141060|AlignEnd=141280|GE=[COP2]|Gloss=be|nWord=3|RX=[PTCL].[SYNT].[HOM]
+4	kəndí	kən	PART	_	VerbType=Cop	3	mod	_	AlignBegin=141060|AlignEnd=141280|GE=[COP2]|Gloss=be|nWord=3|RX=[PTCL].[SYNT].[HOM]
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=141280|AlignEnd=141500|GE=[//]|Gloss=PUNCT|nWord=4
 
 # sent_id = SAY_BC_INT_03_Calendar_088-093
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 142040, 149800
-# text = lə̌pm Zaːr < m̀ː gistə́ < myàːyí fi =tə gistə́ || deːdéː ká wótan || dǎː máː tôː wátan tára kóː góːma //
-# text_ortho = lə̌pm Zaːr < m̀ː gistə́ < myàːyí fitə gistə́ || deːdéː ká wótan || dǎː máː tôː wótan tára kóː góːma //
+# text = lə̌pm Zaːr < m̀ː gistə́ < myàːyí fitə gistə́ || deːdéː á wátan || dǎː máː tôː wátan tára kóː góːma //
+# text_ortho = lə̌pm Zaːr < m̀ː gistə́ < myàːyí fitə gistə́ || deːdéː á wátan || dǎː máː tôː wátan tára kóː góːma //
 # text_en = The Zaar festival,  er... in the dry season,  we did it in the dry  season exacly in < the month of ...>  Well actually in September or October .
-1	lə̌pm	lə̌pm	NOUN	_	_	7	mod	_	AlignBegin=142040|AlignEnd=142287|GE=festival|Gloss=festival|nWord=1|RX=[N]
-2	Zaːr	Zaːr	PROPN	_	_	1	compound	_	AlignBegin=142287|AlignEnd=142534|GE=[Zaar]|Gloss=Zaar|nWord=2|RX=[N].[P]
+1	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	7	mod	_	AlignBegin=142040|AlignEnd=142287|Gloss=festival-CONS
+2	Zaːr	Zaːr	PROPN	_	_	1	compound	_	AlignBegin=142287|AlignEnd=142534|GE=[Zaar]|Gloss=Zaar
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=142534|AlignEnd=142781|GE=[<]|Gloss=PUNCT|nWord=3
 4	m̀ː	m̀ː	INTJ	_	_	7	discourse	_	AlignBegin=142781|AlignEnd=143579|GE=[HESIT]|Gloss=HESIT|nWord=4|RX=[INTJ]
 5	gistə́	gistə́	VERB	_	_	1	compound	_	AlignBegin=143579|AlignEnd=143819|GE=harvest_season|Gloss=harvest_season|nWord=5|RX=[N]
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=143819|AlignEnd=144060|GE=[<]|Gloss=PUNCT|nWord=6
-7	myàːyí	ʧàːyí	AUX	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	AlignBegin=144960|AlignEnd=145180|GE=[1PL].[ICPL].[ITER]|Gloss=1PL.ICPL.ITER|nWord=7|RX=[PNTAM]
+7	myàːyí	ʧáːyi	AUX	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	root	_	AlignBegin=144960|AlignEnd=145180|GE=[1PL].[ICPL].[ITER]|Gloss=1PL.ICPL.ITER|nWord=7|RX=[PNTAM]
+8-9	fitə	_	_	_	_	_	_	_	_
 8	fi	fi	VERB	_	_	7	comp:aux	_	AlignBegin=145180|AlignEnd=145290|GE=do|Gloss=do|nWord=8|RX=[V]
 9	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	comp:ben	_	AlignBegin=145290|AlignEnd=145400|GE=[3SG].[OBJ]|Gloss=3SG.OBJ|nWord=8|RX=[PRO]
 10	gistə́	gistə́	VERB	_	_	8	comp:obj	_	AlignBegin=145400|AlignEnd=145620|GE=harvest_season|Gloss=harvest_season|nWord=9|RX=[N]
 11	||	||	PUNCT	_	_	12	punct	_	AlignBegin=145620|AlignEnd=145840|GE=[$$]|Gloss=PUNCT|nWord=10
 12	deːdéː	deːdéː	SCONJ	_	_	20	mod	_	AlignBegin=146200|AlignEnd=146525|GE=exactly|Gloss=exactly|Lang=hau|nWord=11|RX=[X].[CSW].[HAU]
-13	ká	ká	AUX	_	_	12	comp:obj	_	AlignBegin=146525|AlignEnd=146850|GE=at|Gloss=at|nWord=12|RX=[PREP]
-14	wótan	wótan	DET	_	Definite=Spec	13	comp:obj	_	AlignBegin=146850|AlignEnd=147175|GE=month_of|Gloss=month_of|Lang=hau|nWord=13|RX=[X].[CSW].[HAU]
+13	á	ká	AUX	_	_	12	comp:obj	_	AlignBegin=146525|AlignEnd=146850|GE=at|Gloss=at|nWord=12|RX=[PREP]
+14	wátan	wátan	DET	_	Definite=Spec	13	comp:obj	_	AlignBegin=146850|AlignEnd=147175|GE=month_of|Gloss=month_of|Lang=hau|nWord=13|RX=[X].[CSW].[HAU]
 15	||	||	PUNCT	_	_	16	punct	_	AlignBegin=147175|AlignEnd=147500|GE=[$$]|Gloss=PUNCT|Lang=hau|nWord=14
-16	dǎː	dǎː	INTJ	_	_	20	conj:dicto	_	AlignBegin=147760|AlignEnd=148015|GE=formerly|Gloss=formerly|Lang=hau|nWord=15|RX=[ADV].[X].[CSW].[HAU]
+16	dǎː	dǎː	ADV	_	_	20	conj:dicto	_	AlignBegin=147760|AlignEnd=148015|GE=formerly|Gloss=formerly|Lang=hau|nWord=15|RX=[ADV].[X].[CSW].[HAU]
 17	máː	máː	PART	_	_	16	discourse	_	AlignBegin=148015|AlignEnd=148270|GE=just|Gloss=just|Lang=hau|nWord=16|RX=[PTCL].[X].[CSW].[HAU]
 18	tôː	tôː	PART	_	_	20	discourse	_	AlignBegin=148270|AlignEnd=148525|GE=well|Gloss=well|Lang=hau|nWord=17|RX=[PTCL].[X].[CSW].[HAU]
-19	wátan	wátan	PRON	_	_	22	comp:obj	_	AlignBegin=148525|AlignEnd=148780|GE=month|Gloss=month|Lang=hau|nWord=18|RX=[N].[X].[CSW].[HAU]
-20	tára	tára	ADP	_	_	19	cc	_	AlignBegin=148780|AlignEnd=149035|GE=nine|Gloss=nine|Lang=hau|nWord=19|RX=[NUM].[X].[CSW].[HAU]
+19	wátan	wátan	NOUN	_	_	22	comp:obj	_	AlignBegin=148525|AlignEnd=148780|GE=month|Gloss=month|Lang=hau|nWord=18|RX=[N].[X].[CSW].[HAU]
+20	tára	tára	NUM	_	_	19	det	_	AlignBegin=148780|AlignEnd=149035|GE=nine|Gloss=nine|Lang=hau|nWord=19|RX=[NUM].[X].[CSW].[HAU]
 21	kóː	kóː	CCONJ	_	_	20	cc	_	AlignBegin=149035|AlignEnd=149290|GE=[COORD]|Gloss=COORD|Lang=hau|nWord=20|RX=[CONJ].[X].[CSW].[HAU]
-22	góːma	góːma	PART	_	_	7	discourse	_	AlignBegin=149290|AlignEnd=149545|GE=ten|Gloss=ten|Lang=hau|nWord=21|RX=[NUM].[X].[CSW].[HAU]
+22	góːma	góːma	NUM	_	_	7	discourse	_	AlignBegin=149290|AlignEnd=149545|GE=ten|Gloss=ten|Lang=hau|nWord=21|RX=[NUM].[X].[CSW].[HAU]
 23	//	//	PUNCT	_	_	7	punct	_	AlignBegin=149545|AlignEnd=149800|GE=[//]|Gloss=PUNCT|nWord=22
 
 # sent_id = SAY_BC_INT_03_Calendar_094-096
