@@ -1155,29 +1155,33 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 183360, 188040
-# text = ín yâːn wâː ta hŋ́ èː wâː ta -íː < àː ɲáŋ hŋ́ < dóːlêː àː fi tə́ gə̀rə́ wâː //
+# text = ín yâːn wâː tâ hŋ́ || èː wâː táy < àː ɲáŋ hŋ́ < dóːlyâː fì tə́ gə̀rə́ wâː // 
 # text_ortho = ín yâːn wâː tâ hŋ́ èː wâː táy < àː ɲáŋ hŋ́ < dóːlêː àː fì tə́ gə̀rə́ wâː //
 # text_en = If the guineacorn has not grown,  er... the guineacorn has grown  but is not ripe,  you must do it with old guineacorn.
-1	ín	ín	SCONJ	_	_	15	mod	_	AlignBegin=183360|AlignEnd=183564|GE=if|Gloss=if|nWord=1|RX=[CONJ]
-2	yâːn	yâːn	SCONJ	_	_	15	mod	_	AlignBegin=183564|AlignEnd=183768|GE=if|Gloss=if|nWord=2|RX=[CONJ]
-3	wâː	wâː	NOUN	_	_	4	subj	_	AlignBegin=183768|AlignEnd=183972|GE=guineacorn|Gloss=guineacorn|nWord=3|RX=[N]
-4	ta	ta	PART	_	_	2	comp:obj	_	AlignBegin=183972|AlignEnd=184176|GE=climb|Gloss=climb|nWord=4|RX=[V]
-5	hŋ́	hŋ́	PART	_	Polarity=Neg	4	mod	_	AlignBegin=184176|AlignEnd=184380|GE=[NEG2]|Gloss=NEG2|nWord=5|RX=[PTCL].[NEG]
-6	èː	èː	INTJ	_	_	4	discourse	_	AlignBegin=184680|AlignEnd=184885|GE=[HESIT]|Gloss=HESIT|nWord=6|RX=[INTJ]
-7	wâː	wâː	NOUN	_	_	8	subj	_	AlignBegin=184885|AlignEnd=185090|GE=guineacorn|Gloss=guineacorn|nWord=7|RX=[N]
-8	ta-íː	ta-íː	VERB	_	Aspect=Res	4	parataxis@conj	_	AlignBegin=185090|AlignEnd=185295|GE=climb[RES]|Gloss=climb|MGloss=climbRES|MSeg=ta-íː|nWord=8|RX=[V][TAM]|wordform=ta
-9	<	<	PUNCT	_	_	8	punct	_	AlignBegin=185295|AlignEnd=185500|GE=[<]|Gloss=PUNCT|nWord=9
-10	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	1	comp:obj	_	AlignBegin=185900|AlignEnd=186070|GE=[3SG].[CPL]|Gloss=3SG.CPL|nWord=10|RX=[PNTAM]
-11	ɲáŋ	ɲáŋ	VERB	_	_	15	comp:aux	_	AlignBegin=186070|AlignEnd=186240|GE=be_ripe|Gloss=be_ripe|nWord=11|RX=[V]
-12	hŋ́	hŋ́	PART	_	Polarity=Neg	15	mod	_	AlignBegin=186240|AlignEnd=186410|GE=[NEG2]|Gloss=NEG2|nWord=12|RX=[PTCL].[NEG]
-13	<	<	PUNCT	_	_	1	punct	_	AlignBegin=186410|AlignEnd=186580|GE=[<]|Gloss=PUNCT|nWord=13
-14	dóːlêː	dóːlêː	ADV	_	_	15	mod	_	AlignBegin=187100|AlignEnd=187234|GE=necessary|Gloss=necessary|nWord=14|RX=[ADV]
-15	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=187234|AlignEnd=187368|GE=[2SG].[SBJV]|Gloss=2SG.SBJV|nWord=15|RX=[PNTAM]
-16	fi	fi	VERB	_	_	15	comp:aux	_	AlignBegin=187368|AlignEnd=187502|GE=do|Gloss=do|nWord=16|RX=[V]
-17	tə́	tə́	ADP	_	_	16	comp:obl	_	AlignBegin=187502|AlignEnd=187636|GE=with|Gloss=with|nWord=17|RX=[PREP]
-18	gə̀rə́	gə̀rə́	ADJ	_	_	16	mod	_	AlignBegin=187636|AlignEnd=187770|GE=old|Gloss=old|nWord=18|RX=[ADJ]
-19	wâː	wâː	NOUN	_	_	16	comp:obj	_	AlignBegin=187770|AlignEnd=187904|GE=guineacorn|Gloss=guineacorn|nWord=19|RX=[N]
-20	//	//	PUNCT	_	_	15	punct	_	AlignBegin=187904|AlignEnd=188040|GE=[//]|Gloss=PUNCT|nWord=20
+1	ín	ín	SCONJ	_	_	17	mod	_	AlignBegin=183360|AlignEnd=183564|ExtPos=SCONJ|GE=if|Gloss=if|Idiom=Yes|nWord=1|RX=[CONJ]
+2	yâːn	yâːn	SCONJ	_	_	1	unk	_	AlignBegin=183564|AlignEnd=183768|GE=if|Gloss=if|nWord=2|RX=[CONJ]
+3-4	wâː	_	_	_	_	_	_	_	_
+3	wâː	wâː	NOUN	_	_	4	subj	_	AlignBegin=183768|GE=guineacorn|Gloss=guineacorn|nWord=3|RX=[N]
+4	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	1	comp:obj	_	AlignEnd=183972|Gloss=3SG.AOR
+5	tâ	ta	PART	_	_	4	comp:aux	_	AlignBegin=183972|AlignEnd=184176|GE=climb|Gloss=climb|nWord=4|RX=[V]
+6	hŋ́	hŋ́	PART	_	Polarity=Neg	5	mod	_	AlignBegin=184176|AlignEnd=184380|GE=[NEG2]|Gloss=NEG2|nWord=5|RX=[PTCL].[NEG]
+7	||	||	PUNCT	_	_	10	punct	_	AlignBegin=184380|AlignEnd=184380|Gloss=PUNCT
+8	èː	èː	INTJ	_	_	10	discourse	_	AlignBegin=184680|AlignEnd=184885|GE=[HESIT]|Gloss=HESIT|nWord=6|RX=[INTJ]
+9-10	wâː	_	_	_	_	_	_	_	_
+9	wâː	wâː	NOUN	_	_	10	subj	_	AlignBegin=184885|GE=guineacorn|Gloss=guineacorn|nWord=7|RX=[N]
+10	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	4	conj:dicto	_	AlignEnd=185090|Gloss=3SG.CPL
+11	táy	ta	VERB	_	Aspect=Res	10	comp:aux	_	AlignBegin=185090|AlignEnd=185295|GE=climb[RES]|Gloss=climb|MGloss=climbRES|MSeg=ta-íː|nWord=8|RX=[V][TAM]|wordform=ta
+12	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	10	parataxis@mod	_	AlignBegin=185900|AlignEnd=186070|GE=[3SG].[CPL]|Gloss=3SG.CPL|nWord=10|RX=[PNTAM]
+13	ɲáŋ	ɲáŋ	VERB	_	_	12	comp:aux	_	AlignBegin=186070|AlignEnd=186240|GE=be_ripe|Gloss=be_ripe|nWord=11|RX=[V]
+14	hŋ́	hŋ́	PART	_	Polarity=Neg	13	mod	_	AlignBegin=186240|AlignEnd=186410|GE=[NEG2]|Gloss=NEG2|nWord=12|RX=[PTCL].[NEG]
+15	<	<	PUNCT	_	_	1	punct	_	AlignBegin=186410|AlignEnd=186580|GE=[<]|Gloss=PUNCT|nWord=13
+16	dóːlêː	dóːlêː	ADV	_	_	17	mod	_	AlignBegin=187100|AlignEnd=187234|GE=necessary|Gloss=necessary|nWord=14|RX=[ADV]
+17	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=187234|AlignEnd=187368|GE=[2SG].[SBJV]|Gloss=2SG.SBJV|nWord=15|RX=[PNTAM]
+18	fi	fi	VERB	_	_	17	comp:aux	_	AlignBegin=187368|AlignEnd=187502|GE=do|Gloss=do|nWord=16|RX=[V]
+19	tə́	tə́	ADP	_	_	18	comp:obl	_	AlignBegin=187502|AlignEnd=187636|GE=with|Gloss=with|nWord=17|RX=[PREP]
+20	gə̀rə́	gə̀rə́	ADJ	_	_	21	mod	_	AlignBegin=187636|AlignEnd=187770|GE=old|Gloss=old|nWord=18|RX=[ADJ]
+21	wâː	wâː	NOUN	_	_	18	comp:obj	_	AlignBegin=187770|AlignEnd=187904|GE=guineacorn|Gloss=guineacorn|nWord=19|RX=[N]
+22	//	//	PUNCT	_	_	17	punct	_	AlignBegin=187904|AlignEnd=188040|GE=[//]|Gloss=PUNCT|nWord=20
 
 # sent_id = SAY_BC_INT_03_Calendar_120-123
 # speaker_id = SP1
