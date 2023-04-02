@@ -1278,8 +1278,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 204280, 209000
-# text = kə ɬə́ giː ŋaː ŋgə́rwâː //= tôː kə káp gyáː wâːs ɗì ɣáy //= kə	mán tûːr ɗûː ɣáy nə́ lə̌pm Zaːr //
-# text_ortho = kə́ ɬə́ giː ŋaː ŋgə́rwâː //= tôː kə kap gyáː wâːs ɗì ɣáy //= kə́ mán tûːr ɗûː ɣáy nə́ lə̌pm Zaːr //
+# text = kə ɬə́ gìː ŋaː ŋgə́rwâː //= tôː kə káp gyáː wâːs ɗì ɣáy //= kə	mán tûːr ɗûː ɣáy nə́ lə̌pm Zaːr //
+# text_ortho = kə́ ɬə́ gìː ŋaː ŋgə́rwâː //= tôː kə kap gyáː wâːs ɗì ɣáy //= kə́ mán tûːr ɗûː ɣáy nə́ lə̌pm Zaːr //
 # text_en = You go and do some farming you buy some guineacorn with it  you come and brew some beer with it for the Zaar festival.
 1	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=204280|AlignEnd=204508|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=1|RX=[PNTAM]
 2	ɬə́	ɬə	VERB	_	_	1	comp:aux	_	AlignBegin=204508|AlignEnd=204736|GE=go|Gloss=go|nWord=2|RX=[V]
@@ -1288,34 +1288,33 @@
 5-6	ŋgə́rwâː	_	_	_	_	_	_	_	_
 5	ŋgə́r	ngə́tn	NOUN	_	_	3	comp:obj	_	AlignBegin=205192|AlignEnd=205306|GE=thing|Gloss=thing|nWord=5|RX=[N]
 6	=wâː	=wâː	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	mod@poss	_	AlignBegin=205306|AlignEnd=205420|GE=[2SG].[POS]|Gloss=2SG.POS|nWord=5|RX=[PRO]
-7	//=	//=	PUNCT	_	_	9	root	_	AlignBegin=205420|AlignEnd=205420
+7	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=205420|AlignEnd=205420|Gloss=PUNCT
 8	tôː	tôː	PART	_	_	9	discourse	_	AlignBegin=205420|AlignEnd=205648|GE=[DM]|Gloss=DM|nWord=6|RX=[PTCL]
-9	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	1	parataxis@conj	_	AlignBegin=205648|AlignEnd=205876|GE=[2SG].[AOR]|Gloss=2SG.AOR|nWord=7|RX=[PNTAM]
-10	káp	kap	VERB	_	_	9	comp:aux	_	AlignBegin=205876|AlignEnd=206104|GE=take|Gloss=take|nWord=8|RX=[V]
-11	gyáː	gyáː	DET	_	Number=Plur	12	det	_	AlignBegin=206104|AlignEnd=206332|GE=[PL]|Gloss=PL|nWord=9|RX=[DET]
-12	wâːs	wâː	NOUN	_	Definite=Def	10	comp:obj	_	AlignBegin=206332|AlignEnd=206484|Gloss=guineacorn-DEF
-13	ɗì	ɗi	PART	_	_	12	compound:prt	_	AlignBegin=206484|AlignEnd=206560|GE=[CTP]|Gloss=CTP|nWord=10|RX=[PTCL]
-14	ɣáy	káy	PRON	_	Person=3	10	comp:obl	_	AlignBegin=206560|AlignEnd=206788|Gloss=ANAPH
-15	//=	//=	PUNCT	_	_	16	punct	_	AlignBegin=206788|AlignEnd=207020|GE=[//]|Gloss=PUNCT|nWord=12
-16	kə	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	9	parataxis@conj	_	AlignBegin=207520|AlignEnd=207684|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=13|RX=[PNTAM]
-17	mán	máni	VERB	_	_	16	comp:aux	_	AlignBegin=207684|AlignEnd=207848|GE=come|Gloss=come|nWord=14|RX=[V]
-18	tûːr	tuːr	VERB	_	_	17	compound:svc	_	AlignBegin=207848|AlignEnd=208012|GE=cook|Gloss=cook|nWord=15|RX=[V]
-19	ɗûː	ɗûː	NOUN	_	_	18	comp:obj	_	AlignBegin=208012|AlignEnd=208176|GE=beer|Gloss=beer|nWord=16|RX=[N]
-20	ɣáy	káy	PRON	_	Person=3	18	comp:obl	_	AlignBegin=208176|AlignEnd=208340|GE=[ANAPH]|Gloss=ANAPH|nWord=17|RX=[PRO].[ANAPH]
-21	nə́	nə́	ADP	_	_	18	comp:obl	_	AlignBegin=208340|AlignEnd=208504|GE=for|Gloss=for|nWord=18|RX=[PREP]
-22	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	21	comp:obj	_	AlignBegin=208504|AlignEnd=208668|Gloss=festival-CONS
-23	Zaːr	Zaːr	PROPN	_	_	22	compound	_	AlignBegin=208668|AlignEnd=208832|GE=[Zaar]|Gloss=Zaar|nWord=20|RX=[N].[P]
-24	//	//	PUNCT	_	_	1	punct	_	AlignBegin=208832|AlignEnd=209000|GE=[//]|Gloss=PUNCT|nWord=21
+9	kap	kap	VERB	_	_	1	parataxis@conj	_	AlignBegin=205876|AlignEnd=206104|GE=take|Gloss=take|nWord=8|RX=[V]
+10	ŋaː	ŋaː	ADJ	_	_	11	det	_	AlignBegin=206104|AlignEnd=206332|Gloss=small
+11	wâːs	wâː	NOUN	_	Definite=Def	9	comp:obj	_	AlignBegin=206332|AlignEnd=206484|Gloss=guineacorn-DEF
+12	ɗì	ɗi	PART	_	_	11	compound:prt	_	AlignBegin=206484|AlignEnd=206560|GE=[CTP]|Gloss=CTP|nWord=10|RX=[PTCL]
+13	ɣáy	káy	PRON	_	Person=3	9	comp:obl	_	AlignBegin=206560|AlignEnd=206788|Gloss=ANAPH
+14	//=	//=	PUNCT	_	_	15	punct	_	AlignBegin=206788|AlignEnd=207020|GE=[//]|Gloss=PUNCT|nWord=12
+15	kə	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	9	parataxis@conj	_	AlignBegin=207520|AlignEnd=207684|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=13|RX=[PNTAM]
+16	mán	máni	VERB	_	_	15	comp:aux	_	AlignBegin=207684|AlignEnd=207848|GE=come|Gloss=come|nWord=14|RX=[V]
+17	tûːr	tuːr	VERB	_	_	16	compound:svc	_	AlignBegin=207848|AlignEnd=208012|GE=cook|Gloss=cook|nWord=15|RX=[V]
+18	ɗûː	ɗûː	NOUN	_	_	17	comp:obj	_	AlignBegin=208012|AlignEnd=208176|GE=beer|Gloss=beer|nWord=16|RX=[N]
+19	ɣáy	káy	PART	_	Polarity=Neg	17	comp:obl	_	AlignBegin=208176|AlignEnd=208340|GE=[ANAPH]|Gloss=ANAPH|nWord=17|RX=[PRO].[ANAPH]
+20	nə́	nə́	ADP	_	_	17	comp:obl	_	AlignBegin=208340|AlignEnd=208504|GE=for|Gloss=for|nWord=18|RX=[PREP]
+21	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	20	comp:obj	_	AlignBegin=208504|AlignEnd=208668|Gloss=festival-CONS
+22	Zaːr	Zaːr	PROPN	_	_	21	compound	_	AlignBegin=208668|AlignEnd=208832|GE=[Zaar]|Gloss=Zaar|nWord=20|RX=[N].[P]
+23	//	//	PUNCT	_	_	1	punct	_	AlignBegin=208832|AlignEnd=209000|GE=[//]|Gloss=PUNCT|nWord=21
 
 # sent_id = SAY_BC_INT_03_Calendar_130-130
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 209880, 210680
-# text = tôː átâ yi gòs ʧík -íː //
+# text = tôː átâ yi gòs ʧǐː́ // 
 # text_ortho = tôː átâ yi gòs ʧǐː //
 # text_en = Well that's how it used to be.
 1	tôː	tôː	PART	_	_	2	discourse	_	AlignBegin=209880|AlignEnd=210013|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
-2	átâ	á́taâ	AUX	_	Number=Sing|Person=3|Tense=Rem	0	root	_	AlignBegin=210013|AlignEnd=210146|GE=[3SG].[REM]|Gloss=3SG.REM|nWord=2|RX=[PNTAM]
+2	átâ	átâ	AUX	_	Number=Sing|Person=3|Tense=Rem	0	root	_	AlignBegin=210013|AlignEnd=210146|GE=[3SG].[REM]|Gloss=3SG.REM|nWord=2|RX=[PNTAM]
 3	yi	yi	VERB	_	_	2	comp:aux	_	AlignBegin=210146|AlignEnd=210279|GE=be|Gloss=be|nWord=3|RX=[V]
 4	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	mod@top	_	AlignBegin=210279|AlignEnd=210412|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=4|RX=[PRO]
 5	ʧǐː	ʧík	ADV	_	_	3	comp:pred	_	AlignBegin=210412|AlignEnd=210478|GE=thus|Gloss=thus|nWord=5|RX=[ADV]
@@ -1325,15 +1324,15 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 211480, 212760
-# text = tôː kə́ riːp gyáː bèndí muːri //
-# text_ortho = tôː kə́ rîːp gyaː bèndí muːri //
+# text = tôː ɣə́ rîːp gyaː bèndí muːri // 
+# text_ortho = tôː ɣə́ rîːp gyaː bèndí muːri // 
 # text_en = Well you sewed a new loincloth.
 1	tôː	tôː	PART	_	_	2	discourse	_	AlignBegin=211480|AlignEnd=211663|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
-2	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	0	root	_	AlignBegin=211663|AlignEnd=211846|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=2|RX=[PNTAM]
-3	riːp	riːp	VERB	_	_	2	comp:aux	_	AlignBegin=211846|AlignEnd=212029|GE=sew|Gloss=sew|nWord=3|RX=[V]
-4	gyáː	gyáː	DET	_	Number=Plur	5	det	_	AlignBegin=212029|AlignEnd=212212|GE=[PL]|Gloss=PL|nWord=4|RX=[DET]
+2	ɣə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	0	root	_	AlignBegin=211663|AlignEnd=211846|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=2|RX=[PNTAM]
+3	rîːp	riːp	VERB	_	_	2	comp:aux	_	AlignBegin=211846|AlignEnd=212029|GE=sew|Gloss=sew|nWord=3|RX=[V]
+4	gyaː	gyáː	DET	_	Number=Plur	5	det	_	AlignBegin=212029|AlignEnd=212212|GE=[PL]|Gloss=PL|nWord=4|RX=[DET]
 5	bèndí	bèndi	NOUN	_	_	3	comp:obj	_	AlignBegin=212212|AlignEnd=212395|GE=loin_cloth|Gloss=loin_cloth|nWord=5|RX=[N]
-6	muːri	muːri	NOUN	_	Definite=Ind	3	comp:obj	_	AlignBegin=212395|AlignEnd=212578|GE=new|Gloss=new|nWord=6|RX=[ADJ]
+6	muːri	muːri	ADJ	_	Definite=Ind	5	mod	_	AlignBegin=212395|AlignEnd=212578|GE=new|Gloss=new|nWord=6|RX=[ADJ]
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=212578|AlignEnd=212760|GE=[//]|Gloss=PUNCT|nWord=7
 
 # sent_id = SAY_BC_INT_03_Calendar_132-133
@@ -1342,39 +1341,39 @@
 # sent_timecode = 213320, 214680
 # text = kə́ ɗiːp lâːt kə́ muːri //
 # text_ortho = kə́ ɗîːp lâːt kə́ muːri //
-# text_en = You bought a skin (leather loincloth) a new one.
+# text_en = You bought a new skin (leather loincloth).
 1	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	0	root	_	AlignBegin=213320|AlignEnd=213500|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=1|RX=[PNTAM]
-2	ɗiːp	ɗiːp	VERB	_	_	1	comp:aux	_	AlignBegin=213500|AlignEnd=213680|GE=buy|Gloss=buy|nWord=2|RX=[V]
+2	ɗîːp	ɗiːp	VERB	_	_	1	comp:aux	_	AlignBegin=213500|AlignEnd=213680|GE=buy|Gloss=buy|nWord=2|RX=[V]
 3	lâːt	lâːt	NOUN	_	_	2	comp:obj	_	AlignBegin=213680|AlignEnd=213860|GE=skin|Gloss=skin|nWord=3|RX=[N]
-4	kə́	kə́	ADP	_	_	2	mod	_	AlignBegin=214200|AlignEnd=214360|GE=[POSL]|Gloss=of|nWord=4|RX=[PTCL]
-5	muːri	muːri	VERB	_	_	4	comp:obj	_	AlignBegin=214360|AlignEnd=214520|GE=new|Gloss=new|nWord=5|RX=[ADJ]
+4	kə́	kə́	ADP	_	_	3	mod	_	AlignBegin=214200|AlignEnd=214360|GE=[POSL]|Gloss=of|nWord=4|RX=[PTCL]
+5	muːri	muːri	ADJ	_	_	4	comp:obj	_	AlignBegin=214360|AlignEnd=214520|GE=new|Gloss=new|nWord=5|RX=[ADJ]
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=214520|AlignEnd=214680|GE=[//]|Gloss=PUNCT|nWord=6
 
 # sent_id = SAY_BC_INT_03_Calendar_134-136
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 215380, 219900
-# text = gyáː mə́n yóːɗan ʧǎː ʧaː gwàːsə̀ŋ lûː < tôː tə́ ɗiːp gyáː lûː nə́ durkə́ m̀ː pol -kə́nì lə̌pm Zaːr //
-# text_ortho = gyáː mə́n yóːɗan ʧǎː ʧâː gwàːsə̀ŋ lûː < tôː tə́ ɗîːp gyáː lûː nə́ durkə́ m̀ː pólkə̂n lə̌pm Zaːr //
+# text = gyáː mə́n yóːɗan ʧǎː ʧâː gwàːsə̀ŋ lûː < tôː tə́ ɗîːp gyáː lûː nə́ durɣə́ m̀ː pólɣə̂n lə̌pm Zaːr //
+# text_ortho = gyáː mə́n yóːɗan ʧǎː ʧâː gwàːsə̀ŋ lûː < tôː tə́ ɗîːp gyáː lûː nə́ durɣə́ m̀ː pólɣə̂n lə̌pm Zaːr //
 # text_en = Those who wear a gown  well they would buy a gown  to celebrate the Zaar festival.
 1	gyáː	gyáː	DET	_	Number=Plur	2	det	_	AlignBegin=215380|AlignEnd=215527|GE=[PL]|Gloss=PL|nWord=1|RX=[DET]
-2	mə́n	mə́n	NOUN	_	Number=Plur	10	dislocated@comp	_	AlignBegin=215527|AlignEnd=215674|GE=people|Gloss=people|nWord=2|RX=[N].[PL]
+2	mə́n	mə́n	NOUN	_	Number=Plur	10	dislocated@subj	_	AlignBegin=215527|AlignEnd=215674|GE=people|Gloss=people|nWord=2|RX=[N].[PL]
 3	yóːɗan	yóːɗan	PRON	_	PronType=Rel	2	mod@relcl	_	AlignBegin=215674|AlignEnd=215821|GE=which|Gloss=which|nWord=3|RX=[PROREL]
 4	ʧǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	3	comp:obj	_	AlignBegin=215821|AlignEnd=215968|GE=[3PL].[ICPL]|Gloss=3PL.ICPL|nWord=4|RX=[PNTAM]
-5	ʧaː	ʧaː	VERB	_	_	4	comp:aux	_	AlignBegin=215968|AlignEnd=216115|GE=put|Gloss=put|nWord=5|RX=[V]
-6	gwàːsə̀ŋ	gwàːsə̀ŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	17	mod@poss	_	AlignBegin=216115|AlignEnd=216262|GE=[3PL].[POS]|Gloss=3PL.POS|nWord=6|RX=[PRO]
-7	lûː	lûː	NOUN	_	_	17	comp:obj	_	AlignBegin=216262|AlignEnd=216409|GE=shirt|Gloss=shirt|nWord=7|RX=[N]
+5	ʧâː	ʧaː	VERB	_	_	4	comp:aux	_	AlignBegin=215968|AlignEnd=216115|GE=put|Gloss=put|nWord=5|RX=[V]
+6	gwàːsə̀ŋ	gwàːsə̀ŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	5	mod@top	_	AlignBegin=216115|AlignEnd=216262|GE=[3PL].[POS]|Gloss=3PL.POS|nWord=6|RX=[PRO]
+7	lûː	lûː	NOUN	_	_	5	comp:obj	_	AlignBegin=216262|AlignEnd=216409|GE=shirt|Gloss=shirt|nWord=7|RX=[N]
 8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=216409|AlignEnd=216559|GE=[<]|Gloss=PUNCT|nWord=8
 9	tôː	tôː	PART	_	_	10	discourse	_	AlignBegin=216559|AlignEnd=216735|GE=[DM]|Gloss=DM|nWord=9|RX=[PTCL]
 10	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=216735|AlignEnd=216911|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=10|RX=[PNTAM]
-11	ɗiːp	ɗiːp	VERB	_	_	10	comp:aux	_	AlignBegin=216911|AlignEnd=217087|GE=buy|Gloss=buy|nWord=11|RX=[V]
-12	gyáː	gyáː	DET	_	Number=Plur	17	det	_	AlignBegin=217087|AlignEnd=217263|GE=[PL]|Gloss=PL|nWord=12|RX=[DET]
+11	ɗîːp	ɗiːp	VERB	_	_	10	comp:aux	_	AlignBegin=216911|AlignEnd=217087|GE=buy|Gloss=buy|nWord=11|RX=[V]
+12	gyáː	gyáː	DET	_	Number=Plur	13	det	_	AlignBegin=217087|AlignEnd=217263|GE=[PL]|Gloss=PL|nWord=12|RX=[DET]
 13	lûː	lûː	NOUN	_	_	11	comp:obj	_	AlignBegin=217263|AlignEnd=217440|GE=shirt|Gloss=shirt|nWord=13|RX=[N]
-14	nə́	nə́	ADP	_	_	11	comp:obj	_	AlignBegin=218200|AlignEnd=218443|GE=for|Gloss=for|nWord=14|RX=[PREP]
-15	durkə́	Durkə́	ADP	_	_	14	comp:obj	_	AlignBegin=218443|AlignEnd=218686|GE=concerning|Gloss=concerning|nWord=15|RX=[PREP]
+14	nə́	nə́	ADP	_	_	11	mod	_	AlignBegin=218200|AlignEnd=218443|Gloss=for|Idiom=Yes|ExtPos=ADP
+15	durɣə́	durkə́	ADP	_	_	14	unk	_	AlignBegin=218443|AlignEnd=218686|Gloss=concerning|InIdiom=Yes
 16	m̀ː	m̀ː	INTJ	_	_	17	discourse	_	AlignBegin=218686|AlignEnd=218929|GE=[HESIT]|Gloss=HESIT|nWord=16|RX=[INTJ]
-17	pol-kə́nì	pol-kə́nì	VERB	_	_	10	comp:aux	_	AlignBegin=218929|AlignEnd=219172|GE=please[NMLZ]|Gloss=please|MGloss=pleaseNMLZ|MSeg=pol-kə́nì|nWord=17|RX=[V][DER]|wordform=pol
-18	lə̌pm	lə̌pm	NOUN	_	_	17	comp:obj	_	AlignBegin=219172|AlignEnd=219415|GE=festival|Gloss=festival|nWord=18|RX=[N]
+17	pólɣə̂n	pol	VERB	_	VerbForm=Vnoun	14	comp:obj	_	AlignBegin=218929|AlignEnd=219172|Gloss=please-NMLZ|ExtPos=NOUN
+18	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	17	comp:obj	_	AlignBegin=219172|AlignEnd=219415|Gloss=festival-CONS
 19	Zaːr	Zaːr	PROPN	_	_	18	compound	_	AlignBegin=219415|AlignEnd=219658|GE=[Zaar]|Gloss=Zaar|nWord=19|RX=[N].[P]
 20	//	//	PUNCT	_	_	10	punct	_	AlignBegin=219658|AlignEnd=219900|GE=[//]|Gloss=PUNCT|nWord=20
 
@@ -2325,7 +2324,7 @@
 # text_ortho = tôː átâ yi gòs < ʧikə́y lə̌pm Zaːr yi ʧǐː //
 # text_en = Well at that time,  that's how the Zaar festival was.
 1	tôː	tôː	PART	_	_	9	discourse	_	AlignBegin=365540|AlignEnd=365649|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
-2	átâ	á́taâ	AUX	_	Number=Sing|Person=3|Tense=Rem	9	parataxis@mod	_	AlignBegin=365649|AlignEnd=365758|GE=[3SG].[REM]|Gloss=3SG.REM|nWord=2|RX=[PNTAM]
+2	átâ	átâ	AUX	_	Number=Sing|Person=3|Tense=Rem	9	parataxis@mod	_	AlignBegin=365649|AlignEnd=365758|GE=[3SG].[REM]|Gloss=3SG.REM|nWord=2|RX=[PNTAM]
 3	yi	yi	VERB	_	_	2	comp:aux	_	AlignBegin=365758|AlignEnd=365867|GE=be|Gloss=be|nWord=3|RX=[V]
 4	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	mod@top	_	AlignBegin=365867|AlignEnd=365976|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=4|RX=[PRO]
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=365976|AlignEnd=366087|GE=[<]|Gloss=PUNCT|nWord=5
