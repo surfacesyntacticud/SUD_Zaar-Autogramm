@@ -1235,73 +1235,77 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 197342, 200520
-# text = àmá wâː ɲáŋ hŋ́ < dóːlêː àː gaː àː fi tə́ gə̀rə́ wâː //
+# text = àmá wâː ɲáŋ hŋ́ < dóːlêː àː gàː àː fì̀ tə́ gə̀rə́ wâː //
 # text_ortho = àmá wâː ɲáŋ hŋ́ < dóːlêː àː gàː àː fì̀ tə́ gə̀rə́ wâː //
 # text_en = But if the guineacorn is not ripe,  you must do it with old guineacorn.
-1	àmá	àmá	CCONJ	_	_	7	discourse	_	AlignBegin=197342|AlignEnd=197610|GE=but|Gloss=but|nWord=1|RX=[CONJ]
-2	wâː	wâː	NOUN	_	_	7	subj	_	AlignBegin=197610|AlignEnd=197878|GE=guineacorn|Gloss=guineacorn|nWord=2|RX=[N]
-3	ɲáŋ	ɲáŋ	VERB	_	_	2	mod	_	AlignBegin=197878|AlignEnd=198146|GE=be_ripe|Gloss=be_ripe|nWord=3|RX=[V]
-4	hŋ́	hŋ́	PART	_	Polarity=Neg	7	mod	_	AlignBegin=198146|AlignEnd=198414|GE=[NEG2]|Gloss=NEG2|nWord=4|RX=[PTCL].[NEG]
-5	<	<	PUNCT	_	_	7	punct	_	AlignBegin=198414|AlignEnd=198680|GE=[<]|Gloss=PUNCT|nWord=5
-6	dóːlêː	dóːlêː	PART	_	_	7	mod	_	AlignBegin=198860|AlignEnd=199044|GE=necessary|Gloss=necessary|nWord=6|RX=[ADV]
-7	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=199044|AlignEnd=199228|GE=[2PL].[SBJV]|Gloss=2PL.SBJV|nWord=7|RX=[PNTAM]
-8	gàː	gaː	VERB	_	_	7	comp:aux	_	AlignBegin=199228|AlignEnd=199412|GE=leave|Gloss=leave|nWord=8|RX=[V]
-9	àː	tə̀	AUX	_	Aspect=Perf|Number=Sing|Person=3	7	parataxis@conj	_	AlignBegin=199412|AlignEnd=199596|GE=[2PL].[SBJV]|Gloss=2PL.SBJV|nWord=9|RX=[PNTAM]
-10	fì	fì	VERB	_	_	9	comp:aux	_	AlignBegin=199596|AlignEnd=199780|GE=do|Gloss=do|nWord=10|RX=[V]
-11	tə́	tə́	ADP	_	_	10	mod	_	AlignBegin=199780|AlignEnd=199964|GE=with|Gloss=with|nWord=11|RX=[PREP]
-12	gə̀rə́	gə̀rə́	ADJ	_	_	13	mod	_	AlignBegin=199964|AlignEnd=200148|GE=old|Gloss=old|nWord=12|RX=[ADJ]
-13	wâː	wâː	NOUN	_	_	11	comp:obj	_	AlignBegin=200148|AlignEnd=200332|GE=guineacorn|Gloss=guineacorn|nWord=13|RX=[N]
-14	//	//	PUNCT	_	_	7	punct	_	AlignBegin=200332|AlignEnd=200520|GE=[//]|Gloss=PUNCT|nWord=14
+1	àmá	àmá	CCONJ	_	_	8	discourse	_	AlignBegin=197342|AlignEnd=197610|GE=but|Gloss=but|nWord=1|RX=[CONJ]
+2-3	wâː	_	_	_	_	_	_	_	_
+2	wâː	wâː	NOUN	_	_	3	subj	_	AlignBegin=197610|GE=guineacorn|Gloss=guineacorn|nWord=2|RX=[N]
+3	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	8	parataxis@mod	_	AlignEnd=197878|Gloss=3SG.CMPL
+4	ɲáŋ	ɲáŋ	VERB	_	_	3	comp:aux	_	AlignBegin=197878|AlignEnd=198146|GE=be_ripe|Gloss=be_ripe|nWord=3|RX=[V]
+5	hŋ́	hŋ́	PART	_	Polarity=Neg	4	mod	_	AlignBegin=198146|AlignEnd=198414|GE=[NEG2]|Gloss=NEG2|nWord=4|RX=[PTCL].[NEG]
+6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=198414|AlignEnd=198680|GE=[<]|Gloss=PUNCT|nWord=5
+7	dóːlêː	dóːlêː	ADV	_	_	8	mod	_	AlignBegin=198860|AlignEnd=199044|GE=necessary|Gloss=necessary|nWord=6|RX=[ADV]
+8	àː	àː	AUX	_	Mood=Sub|Number=Plur|Person=2	0	root	_	AlignBegin=199044|AlignEnd=199228|Gloss=2PL.SBJV
+9	gàː	gaː	VERB	_	_	8	comp:aux	_	AlignBegin=199228|AlignEnd=199412|GE=leave|Gloss=leave|nWord=8|RX=[V]
+10	àː	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=2	8	parataxis@conj	_	AlignBegin=199412|AlignEnd=199596|Gloss=2PL.SBJV
+11	fì	fì	VERB	_	_	10	comp:aux	_	AlignBegin=199596|AlignEnd=199780|GE=do|Gloss=do|nWord=10|RX=[V]
+12	tə́	tə́	ADP	_	_	11	comp:obl	_	AlignBegin=199780|AlignEnd=199964|GE=with|Gloss=with|nWord=11|RX=[PREP]
+13	gə̀rə́	gə̀rə́	ADJ	_	_	14	mod	_	AlignBegin=199964|AlignEnd=200148|GE=old|Gloss=old|nWord=12|RX=[ADJ]
+14	wâː	wâː	NOUN	_	_	12	comp:obj	_	AlignBegin=200148|AlignEnd=200332|GE=guineacorn|Gloss=guineacorn|nWord=13|RX=[N]
+15	//	//	PUNCT	_	_	8	punct	_	AlignBegin=200332|AlignEnd=200520|GE=[//]|Gloss=PUNCT|nWord=14
 
 # sent_id = SAY_BC_INT_03_Calendar_127-127
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 201780, 203320
-# text = kóː yâːn kə yír hŋ́ < ka ɬə -í nə́ godəgo <
-# text_ortho = kóː yâːn kə yír hŋ́ <  ka ɬíː nə́ godəgo <
+# text = kóː yâːn kə yír hŋ́ <  ka ɬíː nə́ godəgo //
+# text_ortho = kóː yâːn kə yír hŋ́ <  ka ɬíː nə́ godəgo //
 # text_en = Or if you don't have any, you go and work for money
 1	kóː	kóː	CCONJ	_	_	7	discourse	_	AlignBegin=201780|AlignEnd=201920|GE=[COORD]|Gloss=COORD|Lang=hau|nWord=1|RX=[CONJ].[BW].[HAU]
 2	yâːn	yâːn	SCONJ	_	_	7	mod	_	AlignBegin=201920|AlignEnd=202060|GE=if|Gloss=if|nWord=2|RX=[CONJ]
 3	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	2	comp:obj	_	AlignBegin=202060|AlignEnd=202200|GE=[2SG].[AOR]|Gloss=2SG.AOR|nWord=3|RX=[PNTAM]
 4	yír	yír	VERB	_	_	3	comp:aux	_	AlignBegin=202200|AlignEnd=202340|GE=have|Gloss=have|nWord=4|RX=[V*]
-5	hŋ́	hŋ́	PART	_	Polarity=Neg	3	mod	_	AlignBegin=202340|AlignEnd=202480|GE=[NEG2]|Gloss=NEG2|nWord=5|RX=[PTCL].[NEG]
+5	hŋ́	hŋ́	PART	_	Polarity=Neg	4	mod	_	AlignBegin=202340|AlignEnd=202480|GE=[NEG2]|Gloss=NEG2|nWord=5|RX=[PTCL].[NEG]
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=202480|AlignEnd=202620|GE=[<]|Gloss=PUNCT|nWord=6
 7	ka	wò	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=202620|AlignEnd=202760|GE=[2SG].[FUT]|Gloss=2SG.FUT|nWord=7|RX=[PNTAM]
-8	ɬə-íː	ɬə-í	VERB	_	Aspect=Res	7	comp:aux	_	AlignBegin=202760|AlignEnd=202900|GE=go[RES]|Gloss=go|MGloss=goRES|MSeg=ɬə-íː|nWord=8|RX=[V][TAM]|wordform=ɬə
+8	ɬíː	ɬə	VERB	_	Aspect=Res	7	comp:aux	_	AlignBegin=202760|AlignEnd=202900|GE=go[RES]|Gloss=go|MGloss=goRES|MSeg=ɬə-íː|nWord=8|RX=[V][TAM]|wordform=ɬə
 9	nə́	nə́	ADP	_	_	8	comp:obl	_	AlignBegin=202900|AlignEnd=203040|GE=for|Gloss=for|nWord=9|RX=[PREP]
 10	godəgo	godəgo	NOUN	_	_	9	comp:obj	_	AlignBegin=203040|AlignEnd=203180|GE=seasonal_work|Gloss=seasonal_work|nWord=10|RX=[N]
-11	<	<	PUNCT	_	_	7	punct	_	AlignBegin=203180|AlignEnd=203320|GE=[<]|Gloss=PUNCT|nWord=11
+11	//	//	PUNCT	_	_	7	punct	_	AlignBegin=203180|AlignEnd=203320|GE=[<]|Gloss=PUNCT|nWord=11
 
 # sent_id = SAY_BC_INT_03_Calendar_128-129
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 204280, 209000
-# text = kə́ ɬə giː ŋaː ngə́tn =wâː tôː kə kap gyáː wâː -ês ɗi káy //= kə́ máni tuːr ɗûː káy nə́ lə̌pm Zaːr //
-# text_ortho = kə́ ɬə́ giː ŋaː ngə́tnwâː tôː kə kap gyáː wâːsɗì káy //= kə́ mán tûːr ɗûː káy nə́ lə̌pm Zaːr //
+# text = kə ɬə́ giː ŋaː ŋgə́rwâː //= tôː kə káp gyáː wâːs ɗì ɣáy //= kə	mán tûːr ɗûː ɣáy nə́ lə̌pm Zaːr //
+# text_ortho = kə́ ɬə́ giː ŋaː ŋgə́rwâː //= tôː kə kap gyáː wâːs ɗì ɣáy //= kə́ mán tûːr ɗûː ɣáy nə́ lə̌pm Zaːr //
 # text_en = You go and do some farming you get some guineacorn with it  you come and brew some beer with it for the Zaar festival.
-1	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	8	parataxis@conj	_	AlignBegin=204280|AlignEnd=204508|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=1|RX=[PNTAM]
-2	ɬə	ɬə	VERB	_	_	1	comp:aux	_	AlignBegin=204508|AlignEnd=204736|GE=go|Gloss=go|nWord=2|RX=[V]
+1	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	8	parataxis@conj	_	AlignBegin=204280|AlignEnd=204508|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=1|RX=[PNTAM]
+2	ɬə́	ɬə	VERB	_	_	1	comp:aux	_	AlignBegin=204508|AlignEnd=204736|GE=go|Gloss=go|nWord=2|RX=[V]
 3	giː	giː	VERB	_	_	2	compound:svc	_	AlignBegin=204736|AlignEnd=204964|GE=plough|Gloss=plough|nWord=3|RX=[V]
 4	ŋaː	ŋaː	ADJ	_	_	5	mod	_	AlignBegin=204964|AlignEnd=205192|GE=little|Gloss=little|nWord=4|RX=[ADJ]
-5	ngə́tn	ngə́tn	NOUN	_	_	9	comp:obj	_	AlignBegin=205192|AlignEnd=205306|GE=thing|Gloss=thing|nWord=5|RX=[N]
-6	=wâː	=waos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	mod@poss	_	AlignBegin=205306|AlignEnd=205420|GE=[2SG].[POS]|Gloss=2SG.POS|nWord=5|RX=[PRO]
-7	tôː	tôː	PART	_	_	8	discourse	_	AlignBegin=205420|AlignEnd=205648|GE=[DM]|Gloss=DM|nWord=6|RX=[PTCL]
-8	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=205648|AlignEnd=205876|GE=[2SG].[AOR]|Gloss=2SG.AOR|nWord=7|RX=[PNTAM]
-9	kap	kap	VERB	_	_	8	comp:aux	_	AlignBegin=205876|AlignEnd=206104|GE=take|Gloss=take|nWord=8|RX=[V]
-10	gyáː	gyaaː	DET	_	Number=Plur	5	det	_	AlignBegin=206104|AlignEnd=206332|GE=[PL]|Gloss=PL|nWord=9|RX=[DET]
-11	wâː-ês	wâː-ês	NOUN	_	_	5	compound	_	AlignBegin=206332|AlignEnd=206484|GE=guineacorn[DEF]|Gloss=guineacorn|MGloss=guineacornDEF|MSeg=wâː-ês|nWord=10|RX=[N][ART]|wordform=wâː
-12	ɗi	ɗi	PART	_	_	5	compound:prt	_	AlignBegin=206484|AlignEnd=206560|GE=[CTP]|Gloss=CTP|nWord=10|RX=[PTCL]
-13	káy	káy	PART	_	_	8	discourse	_	AlignBegin=206560|AlignEnd=206788|GE=[ANAPH]|Gloss=ANAPH|nWord=11|RX=[PRO].[ANAPH]
-14	//=	//=	PUNCT	_	_	15	punct	_	AlignBegin=206788|AlignEnd=207020|GE=[//]|Gloss=PUNCT|nWord=12
-15	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	8	parataxis@conj	_	AlignBegin=207520|AlignEnd=207684|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=13|RX=[PNTAM]
-16	máni	máni	VERB	_	_	15	comp:aux	_	AlignBegin=207684|AlignEnd=207848|GE=come|Gloss=come|nWord=14|RX=[V]
-17	tuːr	tuːr	VERB	_	_	16	compound:svc	_	AlignBegin=207848|AlignEnd=208012|GE=cook|Gloss=cook|nWord=15|RX=[V]
-18	ɗûː	ɗûː	NOUN	_	_	17	mod	_	AlignBegin=208012|AlignEnd=208176|GE=beer|Gloss=beer|nWord=16|RX=[N]
-19	káy	káy	PART	_	Polarity=Neg	15	mod	_	AlignBegin=208176|AlignEnd=208340|GE=[ANAPH]|Gloss=ANAPH|nWord=17|RX=[PRO].[ANAPH]
-20	nə́	nə́	ADP	_	_	17	mod	_	AlignBegin=208340|AlignEnd=208504|GE=for|Gloss=for|nWord=18|RX=[PREP]
-21	lə̌pm	lə̌pm	NOUN	_	_	20	comp:obj	_	AlignBegin=208504|AlignEnd=208668|GE=festival|Gloss=festival|nWord=19|RX=[N]
-22	Zaːr	Zaːr	PROPN	_	_	21	compound	_	AlignBegin=208668|AlignEnd=208832|GE=[Zaar]|Gloss=Zaar|nWord=20|RX=[N].[P]
-23	//	//	PUNCT	_	_	8	punct	_	AlignBegin=208832|AlignEnd=209000|GE=[//]|Gloss=PUNCT|nWord=21
+5-6	ŋgə́rwâː	_	_	_	_	_	_	_	_
+5	ŋgə́r	ngə́tn	NOUN	_	_	9	comp:obj	_	AlignBegin=205192|AlignEnd=205306|GE=thing|Gloss=thing|nWord=5|RX=[N]
+6	=wâː	=wâː	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	mod@poss	_	AlignBegin=205306|AlignEnd=205420|GE=[2SG].[POS]|Gloss=2SG.POS|nWord=5|RX=[PRO]
+7	//=	//=	PUNCT	_	_	0	_	_	AlignBegin=205420|AlignEnd=205420
+8	tôː	tôː	PART	_	_	8	discourse	_	AlignBegin=205420|AlignEnd=205648|GE=[DM]|Gloss=DM|nWord=6|RX=[PTCL]
+9	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=205648|AlignEnd=205876|GE=[2SG].[AOR]|Gloss=2SG.AOR|nWord=7|RX=[PNTAM]
+10	káp	kap	VERB	_	_	8	comp:aux	_	AlignBegin=205876|AlignEnd=206104|GE=take|Gloss=take|nWord=8|RX=[V]
+11	gyáː	gyáː	DET	_	Number=Plur	5	det	_	AlignBegin=206104|AlignEnd=206332|GE=[PL]|Gloss=PL|nWord=9|RX=[DET]
+12	wâːs	wâː	NOUN	_	Definite=Def	5	compound	_	AlignBegin=206332|AlignEnd=206484|Gloss=guineacorn-DEF
+13	ɗì	ɗi	PART	_	_	5	compound:prt	_	AlignBegin=206484|AlignEnd=206560|GE=[CTP]|Gloss=CTP|nWord=10|RX=[PTCL]
+14	ɣáy	káy	PART	_	_	8	discourse	_	AlignBegin=206560|AlignEnd=206788|GE=[ANAPH]|Gloss=ANAPH|nWord=11|RX=[PRO].[ANAPH]
+15	//=	//=	PUNCT	_	_	15	punct	_	AlignBegin=206788|AlignEnd=207020|GE=[//]|Gloss=PUNCT|nWord=12
+16	kə	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	8	parataxis@conj	_	AlignBegin=207520|AlignEnd=207684|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=13|RX=[PNTAM]
+17	mán	máni	VERB	_	_	15	comp:aux	_	AlignBegin=207684|AlignEnd=207848|GE=come|Gloss=come|nWord=14|RX=[V]
+18	tûːr	tuːr	VERB	_	_	16	compound:svc	_	AlignBegin=207848|AlignEnd=208012|GE=cook|Gloss=cook|nWord=15|RX=[V]
+19	ɗûː	ɗûː	NOUN	_	_	17	mod	_	AlignBegin=208012|AlignEnd=208176|GE=beer|Gloss=beer|nWord=16|RX=[N]
+20	ɣáy	káy	PART	_	Polarity=Neg	15	mod	_	AlignBegin=208176|AlignEnd=208340|GE=[ANAPH]|Gloss=ANAPH|nWord=17|RX=[PRO].[ANAPH]
+21	nə́	nə́	ADP	_	_	17	mod	_	AlignBegin=208340|AlignEnd=208504|GE=for|Gloss=for|nWord=18|RX=[PREP]
+22	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	20	comp:obj	_	AlignBegin=208504|AlignEnd=208668|Gloss=festival-CONS
+23	Zaːr	Zaːr	PROPN	_	_	21	compound	_	AlignBegin=208668|AlignEnd=208832|GE=[Zaar]|Gloss=Zaar|nWord=20|RX=[N].[P]
+24	//	//	PUNCT	_	_	8	punct	_	AlignBegin=208832|AlignEnd=209000|GE=[//]|Gloss=PUNCT|nWord=21
 
 # sent_id = SAY_BC_INT_03_Calendar_130-130
 # speaker_id = SP1
@@ -2057,9 +2061,9 @@
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=316212|AlignEnd=316460|GE=[<]|Gloss=PUNCT|nWord=5
 6	ká	wò	AUX	_	Number=Plur|Person=2|Tense=Fut	0	root	_	AlignBegin=317280|AlignEnd=317610|GE=[2PL].[FUT]|Gloss=2PL.FUT|nWord=6|RX=[PNTAM]
 7	ɲom	ɲom	VERB	_	_	6	comp:aux	_	AlignBegin=317610|AlignEnd=317940|GE=take|Gloss=take|nWord=7|RX=[V]
-8	gyáː	gyaaː	DET	_	Number=Plur	9	det	_	AlignBegin=317940|AlignEnd=318270|GE=[PL]|Gloss=PL|nWord=8|RX=[DET]
+8	gyáː	gyáː	DET	_	Number=Plur	9	det	_	AlignBegin=317940|AlignEnd=318270|GE=[PL]|Gloss=PL|nWord=8|RX=[DET]
 9	tákoɓí	tákoɓí	VERB	_	Foreign=Yes	7	comp:obj	_	AlignBegin=318270|AlignEnd=318600|GE=sword|Gloss=sword|Lang=hau|nWord=9|RX=[N].[BW].[HAU]
-10	gyáː	gyaaː	DET	_	Number=Plur	9	det	_	AlignBegin=319300|AlignEnd=319600|GE=[PL]|Gloss=PL|nWord=10|RX=[DET]
+10	gyáː	gyáː	DET	_	Number=Plur	9	det	_	AlignBegin=319300|AlignEnd=319600|GE=[PL]|Gloss=PL|nWord=10|RX=[DET]
 11	kipm	kipm	NOUN	_	_	9	mod	_	AlignBegin=319600|AlignEnd=319900|GE=quiver|Gloss=quiver|nWord=11|RX=[N]
 12	gyáː	gyáː	DET	_	Number=Plur	13	det	_	AlignBegin=320120|AlignEnd=320630|GE=[PL]|Gloss=PL|nWord=12|RX=[DET]
 13	ʤìːr	ʤìːr	NOUN	_	_	9	mod	_	AlignBegin=320630|AlignEnd=321140|GE=large_hoe|Gloss=large_hoe|nWord=13|RX=[N]
@@ -2934,7 +2938,7 @@
 1	dùmín	dùmín	SCONJ	_	_	2	discourse	_	AlignBegin=461940|AlignEnd=462662|GE=because|Gloss=because|nWord=1|RX=[CONJ]
 2	tàː	àː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=462662|AlignEnd=462862|GE=[3PL].[CPL]|Gloss=3PL.CPL|nWord=2|RX=[PNTAM]
 3	tuːr	tuːr	VERB	_	_	2	comp:aux	_	AlignBegin=462862|AlignEnd=463062|GE=cook|Gloss=cook|nWord=3|RX=[V]
-4	gyáː	gyaaː	DET	_	Number=Plur	5	det	_	AlignBegin=463062|AlignEnd=463262|GE=[PL]|Gloss=PL|nWord=4|RX=[DET]
+4	gyáː	gyáː	DET	_	Number=Plur	5	det	_	AlignBegin=463062|AlignEnd=463262|GE=[PL]|Gloss=PL|nWord=4|RX=[DET]
 5	ɗûː	ɗûː	NOUN	_	_	3	comp:obj	_	AlignBegin=463262|AlignEnd=463462|GE=beer|Gloss=beer|nWord=5|RX=[N]
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=463462|AlignEnd=463660|GE=[//]|Gloss=PUNCT|nWord=6
 
@@ -2947,7 +2951,7 @@
 # text_en = You would cook some food,  eat, and famine would run away.
 1	ká	wò	AUX	_	Number=Plur|Person=2|Tense=Fut	0	root	_	AlignBegin=464420|AlignEnd=464563|GE=[2PL].[FUT]|Gloss=2PL.FUT|nWord=1|RX=[PNTAM]
 2	tuːr	tuːr	VERB	_	_	1	comp:aux	_	AlignBegin=464563|AlignEnd=464706|GE=cook|Gloss=cook|nWord=2|RX=[V]
-3	gyáː	gyaaː	DET	_	Number=Plur	2	comp:obj	_	AlignBegin=464706|AlignEnd=464849|GE=[PL]|Gloss=PL|nWord=3|RX=[DET]
+3	gyáː	gyáː	DET	_	Number=Plur	2	comp:obj	_	AlignBegin=464706|AlignEnd=464849|GE=[PL]|Gloss=PL|nWord=3|RX=[DET]
 4	nákat	nákat	NOUN	_	_	2	comp:obj	_	AlignBegin=464849|AlignEnd=464992|GE=food|Gloss=food|nWord=4|RX=[N]
 5	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=464992|AlignEnd=465135|GE=[//]|Gloss=PUNCT|nWord=5
 6	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	1	parataxis@conj	_	AlignBegin=465135|AlignEnd=465333|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=6|RX=[PNTAM]
