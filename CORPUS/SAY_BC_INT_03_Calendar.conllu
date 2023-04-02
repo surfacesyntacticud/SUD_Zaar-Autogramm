@@ -661,29 +661,29 @@
 # sent_timecode = 107560, 114220
 # text = èː tôː lə̌pm Zaːr yâːn ʧi tu á vònì < ə́ŋ gá fítə̀ < nə́ pólɣə́nì ɣəndí //
 # text_ortho = èː tôː lə̌pm Zaːr yâːn ʧi tu á vònì < ə́ŋ gá fítə̀ < nə́ pólɣə́nì ɣəndí //
-# text_en = Yes, well the Zaar festival means that...  every year if you do it it's because of happiness.
-1	èː	èː	INTJ	_	_	3	discourse	_	AlignBegin=107560|AlignEnd=107800|GE=[HESIT]|Gloss=HESIT|nWord=1|RX=[INTJ]
-2	tôː	tôː	PART	_	_	3	discourse	_	AlignBegin=107800|AlignEnd=108040|GE=[DM]|Gloss=DM|nWord=2|RX=[PTCL]
-3	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	16	mod	_	AlignBegin=108040|AlignEnd=108280|Gloss=festival-CONS
-4	Zaːr	Zaːr	NOUN	_	_	5	subj	_	AlignBegin=108280|AlignEnd=108520|GE=[Zaar]|Gloss=Zaar|nWord=4|RX=[N].[P]
-5	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	3	mod	_	AlignBegin=108520|AlignEnd=108760|GE=[3SG].[IDP]|Gloss=3SG.IDP|nWord=5|RX=[PRO]
+# text_en = Yes, well the Zaar festival if you do it every year, it's because you're happy.
+1	èː	èː	INTJ	_	_	19	discourse	_	AlignBegin=107560|AlignEnd=107800|GE=[HESIT]|Gloss=HESIT|nWord=1|RX=[INTJ]
+2	tôː	tôː	PART	_	_	19	discourse	_	AlignBegin=107800|AlignEnd=108040|GE=[DM]|Gloss=DM|nWord=2|RX=[PTCL]
+3	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	19	dislocated@top	_	AlignBegin=108040|AlignEnd=108280|Gloss=festival-CONS
+4	Zaːr	Zaːr	NOUN	_	_	3	compound	_	AlignBegin=108280|AlignEnd=108520|GE=[Zaar]|Gloss=Zaar|nWord=4|RX=[N].[P]
+5	yâːn	yâːn	SCONJ	_	_	19	mod	_	AlignBegin=108520|AlignEnd=108760|Gloss=if
 6-7	ʧi	_	_	_	_	_	_	_	_
-6	tə	tə	PRON	_	_	5	mod@relcl	_	AlignBegin=108760|Gloss=3SG
-7	yi	yi	VERB	_	_	0	root	_	AlignEnd=109000|Gloss=be
-8	tu	tu	SCONJ	_	Mood=Qot	6	unk	_	AlignBegin=109000|AlignEnd=109240|GE=[COMP]|Gloss=COMP|nWord=7|RX=[PTCL]
-9	á	ká	ADP	_	_	7	comp:obj	_	AlignBegin=110040|AlignEnd=110193|GE=at|Gloss=at|nWord=8|RX=[PREP]
-10	vònì	vòn	NOUN	_	Definite=Ind	8	comp:aux	_	AlignBegin=110193|AlignEnd=110346|Gloss=year-IND
+6	tə	tə	PRON	_	_	7	subj	_	AlignBegin=108760|Gloss=3SG
+7	yi	yi	VERB	_	_	5	comp:obj	_	AlignEnd=109000|Gloss=be
+8	tu	tu	SCONJ	_	Mood=Qot	7	compound:prt	_	AlignBegin=109000|AlignEnd=109240|GE=[COMP]|Gloss=COMP|nWord=7|RX=[PTCL]
+9	á	ká	ADP	_	_	7	comp:pred	_	AlignBegin=110040|AlignEnd=110193|GE=at|Gloss=at|nWord=8|RX=[PREP]
+10	vònì	vòn	NOUN	_	Definite=Ind	9	comp:obj	_	AlignBegin=110193|AlignEnd=110346|Gloss=year-IND
 11	<	<	PUNCT	_	_	5	punct	_	AlignBegin=110346|AlignEnd=110500|GE=[<]|Gloss=PUNCT|nWord=10
-12	ə́ŋ	ín	SCONJ	_	_	16	mod	_	AlignBegin=111640|AlignEnd=111790|GE=if|Gloss=if|nWord=11|RX=[CONJ]
-13	gá	wò	AUX	_	Aspect=Perf|Number=Sing|Person=2	7	comp:obj	_	AlignBegin=111790|AlignEnd=111940|GE=[2PL].[FUT]|Gloss=2PL.FUT|nWord=12|RX=[PNTAM]
+12	ə́ŋ	ín	SCONJ	_	_	19	mod	_	AlignBegin=111640|AlignEnd=111790|GE=if|Gloss=if|nWord=11|RX=[CONJ]
+13	gá	wò	AUX	_	Aspect=Perf|Number=Sing|Person=2	12	comp:obj	_	AlignBegin=111790|AlignEnd=111940|GE=[2PL].[FUT]|Gloss=2PL.FUT|nWord=12|RX=[PNTAM]
 14-15	fítə̀	_	_	_	_	_	_	_	_
-14	fí	fi	VERB	_	_	12	comp:aux	_	AlignBegin=111940|AlignEnd=112015|GE=do|Gloss=do|nWord=13|RX=[V]
-15	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	13	comp:ben	_	AlignBegin=112015|AlignEnd=112090|GE=[3SG].[OBJ]|Gloss=3SG.OBJ|nWord=13|RX=[PRO]
-16	<	<	PUNCT	_	_	11	punct	_	AlignBegin=112090|AlignEnd=112240|GE=[<]|Gloss=PUNCT|nWord=14
-17	nə́	nə́	ADP	_	_	0	root	_	AlignBegin=113240|AlignEnd=113485|GE=for|Gloss=for|nWord=15|RX=[PREP]
-18	pólɣə́nì	pol	VERB	_	VerbForm=Vnoun	16	comp:obj	_	AlignBegin=113485|AlignEnd=113730|ExtPos=NOUN|Gloss=please-NMLZ
-19	ɣəndí	kəndí	PART	_	VerbType=Cop	16	mod	_	AlignBegin=113730|AlignEnd=113975|GE=[COP2]|Gloss=be|nWord=17|RX=[PTCL].[SYNT].[HOM]
-20	//	//	PUNCT	_	_	16	punct	_	AlignBegin=113975|AlignEnd=114220|GE=[//]|Gloss=PUNCT|nWord=18
+14	fí	fi	VERB	_	_	13	comp:aux	_	AlignBegin=111940|AlignEnd=112015|GE=do|Gloss=do|nWord=13|RX=[V]
+15	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	14	comp:obj	_	AlignBegin=112015|AlignEnd=112090|GE=[3SG].[OBJ]|Gloss=3SG.OBJ|nWord=13|RX=[PRO]
+16	<	<	PUNCT	_	_	12	punct	_	AlignBegin=112090|AlignEnd=112240|GE=[<]|Gloss=PUNCT|nWord=14
+17	nə́	nə́	ADP	_	_	19	comp:pred	_	AlignBegin=113240|AlignEnd=113485|GE=for|Gloss=for|nWord=15|RX=[PREP]
+18	pólɣə́nì	pol	VERB	_	VerbForm=Vnoun	17	comp:obj	_	AlignBegin=113485|AlignEnd=113730|ExtPos=NOUN|Gloss=please-NMLZ
+19	ɣəndí	kəndí	PART	_	VerbType=Cop	0	root	_	AlignBegin=113730|AlignEnd=113975|GE=[COP2]|Gloss=be|nWord=17|RX=[PTCL].[SYNT].[HOM]
+20	//	//	PUNCT	_	_	19	punct	_	AlignBegin=113975|AlignEnd=114220|GE=[//]|Gloss=PUNCT|nWord=18
 
 # sent_id = SAY_BC_INT_03_Calendar_069-072
 # speaker_id = SP1
