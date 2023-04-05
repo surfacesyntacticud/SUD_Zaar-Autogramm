@@ -1291,7 +1291,7 @@
 7	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=205420|AlignEnd=205420|Gloss=PUNCT
 8	tôː	tôː	PART	_	_	9	discourse	_	AlignBegin=205420|AlignEnd=205648|GE=[DM]|Gloss=DM|nWord=6|RX=[PTCL]
 9	kap	kap	VERB	_	_	1	parataxis@conj	_	AlignBegin=205876|AlignEnd=206104|GE=take|Gloss=take|nWord=8|RX=[V]
-10	ŋaː	ŋaː	ADJ	_	_	11	det	_	AlignBegin=206104|AlignEnd=206332|Gloss=small
+10	ŋaː	ŋaː	ADJ	_	_	11	mod	_	AlignBegin=206104|AlignEnd=206332|Gloss=small
 11	wâːs	wâː	NOUN	_	Definite=Def	9	comp:obj	_	AlignBegin=206332|AlignEnd=206484|Gloss=guineacorn-DEF
 12	ɗì	ɗi	PART	_	_	11	compound:prt	_	AlignBegin=206484|AlignEnd=206560|GE=[CTP]|Gloss=CTP|nWord=10|RX=[PTCL]
 13	ɣáy	káy	PRON	_	Person=3|PronType=Prs	9	comp:obl	_	AlignBegin=206560|AlignEnd=206788|Gloss=ANAPH
@@ -1408,32 +1408,33 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 228120, 233240
-# text = kóː ka ɗyáː ɣa tunáy tu gín ʧǎːyi gòs ká ləpí gín < gín ləpí giníyaː kóː kə́ yǐr gwàːn ləpǐŋaː tòː ?// 
+# text = kóː ka ɗyáː ka tuná tu gín ʧǎːyi gòs ká ləpí gín < gín ləpí giníyaː kóː kə́ yǐr gwàːn ləpǐŋaː tòː ?// 
 # text_ortho = kóː ka ɗyáː ɣa tunáy tu gín ʧǎːyi gòs ká ləpí gín < gín ləpí gíni aː kóː kə́ yǐr gwàːn ləpǐŋ aː tòː ?// 
 # text_en = Or can you remember that this one, they would do it at... in this month,  this one in this month or  didn't you have a month well ?
 1	kóː	kóː	CCONJ	_	_	2	discourse	_	AlignBegin=228120|AlignEnd=228308|GE=[COORD]|Gloss=COORD|Lang=hau|nWord=1|RX=[CONJ].[BW].[HAU]
 2	ka	wò	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=228308|AlignEnd=228496|GE=[2SG].[FUT]|Gloss=2SG.FUT|nWord=2|RX=[PNTAM]
 3	ɗyáː	ɗyáː	VERB	_	_	2	comp:aux	_	AlignBegin=228496|AlignEnd=228684|GE=succeed|Gloss=succeed|nWord=3|RX=[V]
-4	ɣa	wò	AUX	_	Number=Sing|Person=2|Tense=Fut	6	comp:obj	_	AlignBegin=228684|AlignEnd=228872|GE=[2SG].[FUT]|Gloss=2SG.FUT|nWord=4|RX=[PNTAM]
-5	tunáy	tuná	VERB	_	Aspect=Res	2	comp:aux	_	AlignBegin=228872|AlignEnd=229060|GE=remember[RES]|Gloss=remember|Lang=hau|MGloss=rememberRES|MSeg=tuná-íː|nWord=5|RX=[V].[BW].[HAU][TAM]|wordform=tuná
-6	tu	tu	PART	_	_	15	mod@relcl	_	AlignBegin=229060|AlignEnd=229248|GE=[COMP]|Gloss=COMP|nWord=6|RX=[PTCL]
+4	ka	wò	AUX	_	Number=Sing|Person=2|Tense=Fut	6	comp:obj	_	AlignBegin=228684|AlignEnd=228872|GE=[2SG].[FUT]|Gloss=2SG.FUT|nWord=4|RX=[PNTAM]
+5	tuná	tuná	VERB	_	Aspect=Res	2	comp:aux	_	AlignBegin=228872|AlignEnd=229060|GE=remember[RES]|Gloss=remember|Lang=hau|MGloss=rememberRES|MSeg=tuná-íː|nWord=5|RX=[V].[BW].[HAU][TAM]|wordform=tuná
+6	tu	tu	SCONJ	_	_	15	mod@relcl	_	AlignBegin=229060|AlignEnd=229248|GE=[COMP]|Gloss=COMP|nWord=6|RX=[PTCL]
 7	gín	giní	PRON	_	PronType=Dem	14	comp:obj	_	AlignBegin=229248|AlignEnd=229436|GE=[PROX]|Gloss=PROX|nWord=7|RX=[PRO].[DEICT]
 8	ʧǎːyi	ʧáːyi	AUX	_	Aspect=Imp|Number=Plur|Person=3	6	comp:obj	_	AlignBegin=229436|AlignEnd=229624|GE=[3PL].[ICPL].[ITER]|Gloss=3PL.ICPL.ITER|nWord=8|RX=[PNTAM]
 9	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	8	mod@top	_	AlignBegin=229624|AlignEnd=229812|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=9|RX=[PRO]
 10	ká	ká	ADP	_	_	6	comp:obj	_	AlignBegin=229812|AlignEnd=230002|GE=at|Gloss=at|nWord=10|RX=[PREP]
-11	lə̌pm-i	lə̌pm-i	NOUN	_	_	10	comp:obj	_	AlignBegin=230002|AlignEnd=230287|GE=festival[IND]|Gloss=festival|MGloss=festivalIND|MSeg=lə̌pm-i|nWord=11|RX=[N][ART]|wordform=lə̌pm
-12	giní	giní	DET	_	PronType=Dem	15	det	_	AlignBegin=230287|AlignEnd=230572|GE=[PROX]|Gloss=PROX|nWord=12|RX=[PRO].[DEICT]
+11	ləpí	lə̌pm	NOUN	_	Definite=Ind	10	comp:obj	_	AlignBegin=230002|AlignEnd=230287|Gloss=festival-INDF
+12	gín	giní	DET	_	PronType=Dem	15	det	_	AlignBegin=230287|AlignEnd=230572|GE=[PROX]|Gloss=PROX|nWord=12|RX=[PRO].[DEICT]
 13	<	<	PUNCT	_	_	14	punct	_	AlignBegin=230572|AlignEnd=230856|GE=[<]|Gloss=PUNCT|nWord=13
-14	giní	giní	PRON	_	PronType=Dem	2	dislocated@subj	_	AlignBegin=230856|AlignEnd=231068|GE=[PROX]|Gloss=PROX|nWord=14|RX=[PRO].[DEICT]
-15	ləpí	lə̌pm	NOUN	_	_	14	comp:obj	_	AlignBegin=231068|AlignEnd=231280|GE=festival[IND]|Gloss=festival|MGloss=festivalIND|MSeg=lə̌pm-i|nWord=15|RX=[N][ART]|wordform=lə̌pm
+14	gín	giní	PRON	_	PronType=Dem	2	dislocated@subj	_	AlignBegin=230856|AlignEnd=231068|GE=[PROX]|Gloss=PROX|nWord=14|RX=[PRO].[DEICT]
+15	ləpí	lə̌pm	NOUN	_	Definite=Ind	14	comp:obj	_	AlignBegin=231068|AlignEnd=231280|Gloss=festival-INDF
 16-17	gíniyaː	_	_	_	_	_	_	_	_
 16	giní	giní	DET	_	Number=Plur	15	det	_	AlignBegin=231280|AlignEnd=231492|GE=[PROX]|Gloss=PROX|nWord=16|RX=[PRO].[DEICT]
 17	a:	a:	PART	_	PartType=Int	14	mod	_	AlignBegin=231492|AlignEnd=231704|GE=[VRT]|Gloss=VRT|nWord=17|RX=[PTCL].[ASS]
 18	kóː	kóː	CCONJ	_	_	14	discourse	_	AlignBegin=231704|AlignEnd=231916|GE=[COORD]|Gloss=COORD|Lang=hau|nWord=18|RX=[CONJ].[BW].[HAU]
 19	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	6	comp:obj	_	AlignBegin=231916|AlignEnd=232082|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=19|RX=[PNTAM]
-20	yír	yír	VERB	_	_	19	comp:aux	_	AlignBegin=232082|AlignEnd=232248|GE=have|Gloss=have|nWord=20|RX=[V*]
+20	yǐr	yír	VERB	_	_	19	comp:aux	_	AlignBegin=232082|AlignEnd=232248|GE=have|Gloss=have|nWord=20|RX=[V*]
 21	gwàːn	gwàːn	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	15	mod@poss	_	AlignBegin=232248|AlignEnd=232414|GE=[2PL].[POS]|Gloss=2PL.POS|nWord=21|RX=[PRO]
-22	lə̌pm-i	lə̌pm-i	NOUN	_	_	20	comp:obj	_	AlignBegin=232414|AlignEnd=232580|GE=festival[IND]|Gloss=festival|MGloss=festivalIND|MSeg=lə̌pm-i|nWord=22|RX=[N][ART]|wordform=lə̌pm
+22-24	ləpǐŋaː	_	_	_	_	_	_	_	_	_
+22	ləpí	lə̌pm	NOUN	_	Definite=Ind	20	comp:obj	_	AlignBegin=232414|AlignEnd=232580|Gloss=festival-INDF
 23	hŋ́	hŋ́	PART	_	Polarity=Neg	2	mod	_	AlignBegin=232580|AlignEnd=232746|GE=[NEG2]|Gloss=NEG2|nWord=23|RX=[PTCL].[NEG]
 24	a:	a:	PART	_	PartType=Int	2	mod	_	AlignBegin=232746|AlignEnd=232912|GE=[VRT]|Gloss=VRT|nWord=24|RX=[PTCL].[ASS]
 25	tôː	tôː	PART	_	_	2	discourse	_	AlignBegin=232912|AlignEnd=233078|GE=[DM]|Gloss=DM|nWord=25|RX=[PTCL]
@@ -1445,27 +1446,29 @@
 # sent_timecode = 233900, 235300
 # text = ɗan kàmán ɗan ?//
 # text_ortho = ɗan kàmán ɗan ?//
-# text_en = Like... ?
-1	ɗan	ɗan	ADV	_	_	0	root	_	AlignBegin=233900|AlignEnd=234250|GE=like|Gloss=like|nWord=1|RX=[PREP]
-2	kàmán	kàmán	ADP	_	_	1	unk	_	AlignBegin=234250|AlignEnd=234600|GE=like|Gloss=like|nWord=2|RX=[PREP]
-3	ɗan	ɗan	ADV	_	_	2	comp:obj	_	AlignBegin=234600|AlignEnd=234950|GE=like|Gloss=like|nWord=3|RX=[PREP]
-4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=234950|AlignEnd=235300|GE=[?//]|Gloss=PUNCT|nWord=4
+# text_en = Like... like... ?
+1	ɗan	ɗan	ADP	_	_	0	root	_	AlignBegin=233900|AlignEnd=234250|GE=like|Gloss=like|nWord=1|RX=[PREP]
+2	||	||	PUNCT	_	_	3	punct	_	AlignBegin=234250|AlignEnd=234250|Gloss=PUNCT
+3	kàmán	kàmán	ADP	_	_	1	unk	_	AlignBegin=234250|AlignEnd=234600|GE=like|Gloss=like
+4	ɗan	ɗan	ADP	_	_	2	comp:obj	_	AlignBegin=234600|AlignEnd=234950|GE=like|Gloss=like
+5	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=234950|AlignEnd=235300|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_146-147
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 235540, 239480
-# text = ɗan kíː kwáːn =ʃí gùdá mâːy < lə̌pm -́ Zaːr tə́ lə̌pm -́ ngas tə́ lə̌pm -́ níːwóneː ?//
-# text_ortho = ɗan kíː kwǎːnʃí gùdá máːyi < lə̌pm Zaːr tə́ lə̌pm ngas tə́ lə̌pm níːwóneː ?//
+# text = ɗaŋ kíː kwǎːnʃí gùdá máːyi < lə̌pm zaːr tə́ lə̌pm ŋgas tə́ lə̌pm níːwóneː // 
+# text_ortho = ɗaŋ kíː kwǎːnʃí gùdá máːyi < lə̌pm zaːr tə́ lə̌pm ŋgas tə́ lə̌pm níːwóneː //
 # text_en = Like you counted three,  the Zaar festival, the Angas festival, etc. ?
 1	ɗan	ɗan	SCONJ	_	_	8	mod	_	AlignBegin=235540|AlignEnd=235777|GE=as|Gloss=as|nWord=1|RX=[CONJ]
 2	kíː	íː	AUX	_	Number=Sing|Person=2|Tense=Imm	1	comp:obj	_	AlignBegin=235777|AlignEnd=236014|GE=[2SG].[IMM]|Gloss=2SG.IMM|nWord=2|RX=[PNTAM]
-3	kwáːn	kwáːn	VERB	_	Number=Plur	2	comp:aux	_	AlignBegin=236014|AlignEnd=236132|GE=count|Gloss=count|nWord=3|RX=[V].[PLAC]
+3-4	kwǎːnʃí	_	_	_	_	_	_	_	_
+3	kwǎːn	kwáːn	VERB	_	Number=Plur	2	comp:aux	_	AlignBegin=236014|AlignEnd=236132|Gloss=count.PLAC
 4	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=236132|AlignEnd=236251|GE=[3PL].[OBJ]|Gloss=3PL.OBJ|nWord=3|RX=[PRO]
-5	gùdá	gùdá	PRON	_	PronType=Int	3	comp:obj	_	AlignBegin=236251|AlignEnd=236488|GE=unit|Gloss=unit|Lang=hau|nWord=4|RX=[N].[BW].[HAU]
-6	mâːy	mâːy	NUM	_	_	8	mod	_	AlignBegin=236488|AlignEnd=236725|GE=three|Gloss=three|nWord=5|RX=[NUM]
+5	gùdá	gùdá	NOUN	_	_	3	comp:obj	_	AlignBegin=236251|AlignEnd=236488|Gloss=unit
+6	máːyi	mâːy	NUM	_	_	8	det	_	AlignBegin=236488|AlignEnd=236725|GE=three|Gloss=three|nWord=5|RX=[NUM]
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=236725|AlignEnd=236960|GE=[<]|Gloss=PUNCT|nWord=6
-8	lə̌pm-́	lə̌pm-́	NOUN	_	Definite=Cons	0	root	_	AlignBegin=237140|AlignEnd=237400|GE=festival[POS]|Gloss=festival|MGloss=festivalof|MSeg=lə̌pmkə́|nWord=7|RX=[N][PTCL].[SYNT]|wordform=lə̌pm
+8	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	0	root	_	AlignBegin=237140|AlignEnd=237400|Gloss=festival-CONS
 9	Zaːr	Zaːr	PROPN	_	_	8	compound	_	AlignBegin=237400|AlignEnd=237660|GE=[Zaar]|Gloss=Zaar|nWord=8|RX=[N].[P]
 10	tə́	tə́	ADP	_	_	8	mod	_	AlignBegin=237660|AlignEnd=237920|GE=with|Gloss=with|nWord=9|RX=[PREP]
 11	lə̌pm-́	lə̌pm-́	NOUN	_	Definite=Cons	8	comp:obj	_	AlignBegin=237920|AlignEnd=238180|GE=festival[POS]|Gloss=festival|MGloss=festivalof|MSeg=lə̌pmkə́|nWord=10|RX=[N][PTCL].[SYNT]|wordform=lə̌pm
