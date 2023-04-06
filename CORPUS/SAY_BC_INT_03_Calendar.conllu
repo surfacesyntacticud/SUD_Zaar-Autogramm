@@ -1361,7 +1361,7 @@
 3	yóːɗan	yóːɗan	PRON	_	PronType=Rel	2	mod@relcl	_	AlignBegin=215674|AlignEnd=215821|GE=which|Gloss=which|nWord=3|RX=[PROREL]
 4	ʧǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	3	comp:obj	_	AlignBegin=215821|AlignEnd=215968|GE=[3PL].[ICPL]|Gloss=3PL.ICPL|nWord=4|RX=[PNTAM]
 5	ʧâː	ʧaː	VERB	_	_	4	comp:aux	_	AlignBegin=215968|AlignEnd=216115|GE=put|Gloss=put|nWord=5|RX=[V]
-6	gwàːsə̀ŋ	gwàːsə̀ŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	5	mod@top	_	AlignBegin=216115|AlignEnd=216262|GE=[3PL].[POS]|Gloss=3PL.POS|nWord=6|RX=[PRO]
+6	gwàːsə̀ŋ	gwàːsə̀ŋ	DET	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	7	det	_	AlignBegin=216115|AlignEnd=216262|GE=[3PL].[POS]|Gloss=3PL.POS|nWord=6|RX=[PRO]
 7	lûː	lûː	NOUN	_	_	5	comp:obj	_	AlignBegin=216262|AlignEnd=216409|GE=shirt|Gloss=shirt|nWord=7|RX=[N]
 8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=216409|AlignEnd=216559|GE=[<]|Gloss=PUNCT|nWord=8
 9	tôː	tôː	PART	_	_	10	discourse	_	AlignBegin=216559|AlignEnd=216735|GE=[DM]|Gloss=DM|nWord=9|RX=[PTCL]
@@ -1369,10 +1369,10 @@
 11	ɗîːp	ɗiːp	VERB	_	_	10	comp:aux	_	AlignBegin=216911|AlignEnd=217087|GE=buy|Gloss=buy|nWord=11|RX=[V]
 12	gyáː	gyáː	DET	_	Number=Plur	13	det	_	AlignBegin=217087|AlignEnd=217263|GE=[PL]|Gloss=PL|nWord=12|RX=[DET]
 13	lûː	lûː	NOUN	_	_	11	comp:obj	_	AlignBegin=217263|AlignEnd=217440|GE=shirt|Gloss=shirt|nWord=13|RX=[N]
-14	nə́	nə́	ADP	_	_	11	mod	_	AlignBegin=218200|AlignEnd=218443|Gloss=for|Idiom=Yes|ExtPos=ADP
+14	nə́	nə́	ADP	_	_	11	mod	_	AlignBegin=218200|AlignEnd=218443|ExtPos=ADP|Gloss=for|Idiom=Yes
 15	durɣə́	durkə́	ADP	_	_	14	unk	_	AlignBegin=218443|AlignEnd=218686|Gloss=concerning|InIdiom=Yes
 16	m̀ː	m̀ː	INTJ	_	_	17	discourse	_	AlignBegin=218686|AlignEnd=218929|GE=[HESIT]|Gloss=HESIT|nWord=16|RX=[INTJ]
-17	pólɣə̂n	pol	VERB	_	VerbForm=Vnoun	14	comp:obj	_	AlignBegin=218929|AlignEnd=219172|Gloss=please-NMLZ|ExtPos=NOUN
+17	pólɣə̂n	pol	VERB	_	VerbForm=Vnoun	14	comp:obj	_	AlignBegin=218929|AlignEnd=219172|ExtPos=NOUN|Gloss=please-NMLZ
 18	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	17	comp:obj	_	AlignBegin=219172|AlignEnd=219415|Gloss=festival-CONS
 19	Zaːr	Zaːr	PROPN	_	_	18	compound	_	AlignBegin=219415|AlignEnd=219658|GE=[Zaar]|Gloss=Zaar|nWord=19|RX=[N].[P]
 20	//	//	PUNCT	_	_	10	punct	_	AlignBegin=219658|AlignEnd=219900|GE=[//]|Gloss=PUNCT|nWord=20
@@ -1505,7 +1505,7 @@
 # sent_timecode = 241086, 241973
 # text = lə̌pm Žàːr bàː ?//
 # text_ortho = lə̌pm Žàːr bàː ?//
-# text_en = The Jar festival?
+# text_en = What about the Jar festival?
 1	lə̌pm	lə̌pm	NOUN	_	_	0	root	_	AlignBegin=241086|AlignEnd=241308|GE=festival|Gloss=festival|nWord=1|RX=[N]
 2	Žàːr	Žàːr	PROPN	_	_	1	compound	_	AlignBegin=241308|AlignEnd=241530|GE=[Jar]|Gloss=Jar|nWord=2|RX=[N].[P]
 3	bàː	bàː	PART	_	Polarity=Neg	1	mod	_	AlignBegin=241530|AlignEnd=241752|GE=[NEG1]|Gloss=NEG1|nWord=3|RX=[PTCL].[NEG]
@@ -1528,33 +1528,36 @@
 # text = tôː yàːʃí lə̌pm &//
 # text_ortho = tôː yàːʃí lə̌pm &//
 # text_en = Well, as for them, the festival...
-1	tôː	tôː	PART	_	_	2	discourse	_	AlignBegin=242660|AlignEnd=242951|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
-2	yàːʃí	yàːʃí	PRON	_	Definite=Cons	0	root@scrap	_	AlignBegin=242951|AlignEnd=243242|GE=[3PL].[IDP]|Gloss=3PL.IDP|nWord=2|RX=[PRO]
-3	lə̌pm	lə̌pm	NOUN	_	_	2	mod	_	AlignBegin=243242|AlignEnd=243533|GE=festival|Gloss=festival|nWord=3|RX=[N]
-4	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=243533|AlignEnd=243825|GE=[&//]|Gloss=PUNCT|nWord=4
+1	tôː	tôː	PART	_	_	3	discourse	_	AlignBegin=242660|AlignEnd=242951|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
+2	yàːʃí	yàːʃí	PRON	_	Definite=Cons	3	dislocated@top	_	AlignBegin=242951|AlignEnd=243242|GE=[3PL].[IDP]|Gloss=3PL.IDP|nWord=2|RX=[PRO]
+3	lə̌pm	lə̌pm	NOUN	_	_	0	root@scrap	_	AlignBegin=243242|AlignEnd=243533|GE=festival|Gloss=festival|nWord=3|RX=[N]
+4	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=243533|AlignEnd=243825|GE=[&//]|Gloss=PUNCT|nWord=4
 
 # sent_id = SAY_BC_INT_03_Calendar_153-153
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 243825, 246820
-# text = mársəŋ ʧǎː fi =tə lə̌pm Žàːr bàː gwàːsə̀ŋ wâː fi ngə́tn wón hŋ́ áy //
-# text_ortho = mársəŋ ʧǎː fítə̀ lə̌pm Žàːr bàː gwàːsə̀ŋ wâː fi ngə́tn wónə̌ŋ áy //
-# text_en = Lusa, when they do the Jar festival, their guineacorn hasn't done anything indeed.
-1	mársəŋ	mársəŋ	NOUN	_	_	2	subj	_	AlignBegin=243825|AlignEnd=244055|GE=[Lusa]|Gloss=Lusa|nWord=1|RX=[N]
+# text = Mársəŋ ʧǎː fítə tə́ lə̌pm Žàːr bàː gwàːsə̀ŋ wâː fi ngə́tn wónə̌ŋ áy //
+# text_ortho = Mársəŋ ʧǎː fítə tə́ lə̌pm Žàːr bàː gwàːsə̀ŋ wâː fi ngə́tn wónə̌ŋ áy //
+# text_en = Lusa, when they do it during the Jar festival, their guineacorn hasn't done anything indeed.
+1	Mársəŋ	Mársəŋ	PROPN	_	_	2	subj	_	AlignBegin=243825|AlignEnd=244055|GE=[Lusa]|Gloss=Lusa|nWord=1|RX=[N]
 2	ʧǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=244055|AlignEnd=244285|GE=[3PL].[COND]|Gloss=3PL.COND|nWord=2|RX=[PNTAM]
-3	fi	fi	VERB	_	_	2	comp:aux	_	AlignBegin=244285|AlignEnd=244400|GE=do|Gloss=do|nWord=3|RX=[V]
+3-4	fítə	_	_	_	_	_	_	_	_
+3	fî	fi	VERB	_	_	2	comp:aux	_	AlignBegin=244285|AlignEnd=244400|GE=do|Gloss=do|nWord=3|RX=[V]
 4	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:ben	_	AlignBegin=244400|AlignEnd=244515|GE=[3SG].[OBJ]|Gloss=3SG.OBJ|nWord=3|RX=[PRO]
-5	lə̌pm	lə̌pm	NOUN	_	_	3	comp:obj	_	AlignBegin=244515|AlignEnd=244745|GE=festival|Gloss=festival|nWord=4|RX=[N]
-6	Žàːr	Žàːr	PROPN	_	_	5	compound	_	AlignBegin=244745|AlignEnd=244975|GE=[Jar]|Gloss=Jar|nWord=5|RX=[N].[P]
-7	bàː	bàː	PART	_	Polarity=Neg	2	mod	_	AlignBegin=244975|AlignEnd=245205|GE=[NEG1]|Gloss=NEG1|nWord=6|RX=[PTCL].[NEG]
-8	gwàːsə̀ŋ	gwàːsə̀ŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	10	mod@top	_	AlignBegin=245205|AlignEnd=245435|GE=[3PL].[POS]|Gloss=3PL.POS|nWord=7|RX=[PRO]
-9	wâː	wâː	NOUN	_	_	2	subj	_	AlignBegin=245435|AlignEnd=245665|GE=guineacorn|Gloss=guineacorn|nWord=8|RX=[N]
-10	fi	fi	VERB	_	_	9	compound:svc	_	AlignBegin=245665|AlignEnd=245895|GE=do|Gloss=do|nWord=9|RX=[V]
-11	ngə́tn	ngə́tn	NOUN	_	_	10	comp:obj	_	AlignBegin=245895|AlignEnd=246125|GE=thing|Gloss=thing|nWord=10|RX=[N]
-12	wón	wón	DET	_	Definite=Spec	11	det	_	AlignBegin=246125|AlignEnd=246240|GE=[SPEC]|Gloss=SPEC|nWord=11|RX=[DET]
-13	hŋ́	hŋ́	PART	_	Polarity=Neg	2	mod	_	AlignBegin=246240|AlignEnd=246355|GE=[NEG2]|Gloss=NEG2|nWord=11|RX=[PTCL].[NEG]
-14	áy	áy	INTJ	_	_	2	discourse	_	AlignBegin=246355|AlignEnd=246585|GE=indeed|Gloss=indeed|nWord=12|RX=[EXCL]
-15	//	//	PUNCT	_	_	2	punct	_	AlignBegin=246585|AlignEnd=246820|GE=[//]|Gloss=PUNCT|nWord=13
+5	tə́	tə́	ADP	_	_	0	root	_	AlignBegin=244515|AlignEnd=244600|Gloss=with
+6	lə̌pm	lə̌pm	NOUN	_	_	3	comp:obj	_	AlignBegin=244600|AlignEnd=244745|Gloss=festival
+7	Žàːr	Žàːr	PROPN	_	_	5	compound	_	AlignBegin=244745|AlignEnd=244975|GE=[Jar]|Gloss=Jar|nWord=5|RX=[N].[P]
+8	bàː	bàː	PART	_	Polarity=Neg	2	mod	_	AlignBegin=244975|AlignEnd=245205|GE=[NEG1]|Gloss=NEG1|nWord=6|RX=[PTCL].[NEG]
+9	gwàːsə̀ŋ	gwàːsə̀ŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	10	mod@top	_	AlignBegin=245205|AlignEnd=245435|GE=[3PL].[POS]|Gloss=3PL.POS|nWord=7|RX=[PRO]
+10	wâː	wâː	NOUN	_	_	2	subj	_	AlignBegin=245435|AlignEnd=245665|GE=guineacorn|Gloss=guineacorn|nWord=8|RX=[N]
+11	fi	fi	VERB	_	_	9	compound:svc	_	AlignBegin=245665|AlignEnd=245895|GE=do|Gloss=do|nWord=9|RX=[V]
+12	ngə́tn	ngə́tn	NOUN	_	_	10	comp:obj	_	AlignBegin=245895|AlignEnd=246125|GE=thing|Gloss=thing|nWord=10|RX=[N]
+13-14	wónə̌ŋ	_	_	_	_	_	_	_	_
+13	wón	wón	DET	_	Definite=Spec	11	det	_	AlignBegin=246125|AlignEnd=246240|GE=[SPEC]|Gloss=SPEC|nWord=11|RX=[DET]
+14	hŋ́	hŋ́	PART	_	Polarity=Neg	2	mod	_	AlignBegin=246240|AlignEnd=246355|GE=[NEG2]|Gloss=NEG2|nWord=11|RX=[PTCL].[NEG]
+15	áy	áy	INTJ	_	_	2	discourse	_	AlignBegin=246355|AlignEnd=246585|GE=indeed|Gloss=indeed|nWord=12|RX=[EXCL]
+16	//	//	PUNCT	_	_	2	punct	_	AlignBegin=246585|AlignEnd=246820|GE=[//]|Gloss=PUNCT|nWord=13
 
 # sent_id = SAY_BC_INT_03_Calendar_154-154
 # speaker_id = SP2
