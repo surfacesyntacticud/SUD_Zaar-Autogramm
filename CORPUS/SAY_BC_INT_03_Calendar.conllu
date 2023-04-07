@@ -1801,13 +1801,14 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 277020, 278532
-# text = kyáːni deː tə́ ʧaː =ʃí -ni káwêy ?//
-# text_ortho = kyâːn deː tə́ ʧâːʃíni káwêy ?//
-# text_en = You just did it?
-1	kyáːni	kyáːni	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	dislocated@comp	_	AlignBegin=277020|AlignEnd=277272|GE=[2SG].[IDP]|Gloss=2SG.IDP|nWord=1|RX=[PRO]
+# text = kyâːn deː tə́ ʧâːʃí ni káwêy ?// 
+# text_ortho = kyâːn deː tə́ ʧâːʃí ni káwêy ?//
+# text_en = As for you, they merely did it?
+1	kyâːn	kyáːni	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	dislocated@comp	_	AlignBegin=277020|AlignEnd=277272|Gloss=2SG.IDP
 2	deː	deː	PART	_	_	1	discourse	_	AlignBegin=277272|AlignEnd=277524|GE=as_for|Gloss=as_for|nWord=2|RX=[PTCL].[TOP]
 3	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=277524|AlignEnd=277776|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=3|RX=[PNTAM]
-4	ʧaː	ʧaː	VERB	_	_	3	comp:aux	_	AlignBegin=277776|AlignEnd=277860|GE=put|Gloss=put|nWord=4|RX=[V]
+4-5	ʧâːʃí	_	_	_	_	_	_	_	_
+4	ʧâː	ʧaː	VERB	_	_	3	comp:aux	_	AlignBegin=277776|AlignEnd=277860|GE=put|Gloss=put|nWord=4|RX=[V]
 5	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=277860|AlignEnd=277944|GE=[3PL].[OBJ]|Gloss=3PL.OBJ|nWord=4|RX=[PRO]
 6	ni	ni	PART	_	Aspect=Iter	4	compound:prt	_	AlignBegin=277944|AlignEnd=278028|GE=[ITER]|Gloss=ITER|nWord=4|RX=[PTCL].[EXT]|wordform=-ni
 7	káwêy	káwêy	ADV	_	_	4	mod	_	AlignBegin=278028|AlignEnd=278280|GE=merely|Gloss=merely|nWord=5|RX=[ADV]
@@ -1817,45 +1818,45 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 278532, 286660
-# text = dàlíːli =wôs ɓét kən tu tôː ( yâwwàː //) pol -kə́nì tu əː m̀ː Tʃokn ɲolár =mí ɗi tə́ rây tə́ laːfíya kúrûm //
-# text_ortho = dàlíːliwòs ɓét kəndí tu tôː ( yâwwàː //) pólkə̂n tu əː m̀ː Tʃokn ɲolár =mí ɗi tə́ rây tə́ laːfíya kúrûm //
-# text_en = Its reason, well,  (yes!)  we were pleased er...  that God had kept us alive and in good health. §
-1	dàlíːli	dàlíːli	NOUN	_	_	4	comp:pred	_	AlignBegin=278532|AlignEnd=278686|GE=reason|Gloss=reason|Lang=hau|nWord=1|RX=[N].[BW].[HAU]
-2	=wôs	=woos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	mod@poss	_	AlignBegin=278686|AlignEnd=278839|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=1|RX=[PRO]
+# text = dàlíːliwòs ɓét kəndí tu tôː yâwwàː pólɣə̂n tu əː m̀ː Tʃokn ɲolármíɗi tə́ rây tə́ laːfíya kúrûm // 
+# text_ortho = dàlíːliwòs ɓét kəndí tu tôː yâwwàː pólɣə̂n tu əː m̀ː Tʃokn ɲolármíɗi tə́ rây tə́ laːfíya kúrûm //
+# text_en = Its reason, well, yes, we were pleased er...  that God had kept us alive and in good health.
+1-2	dàlíːliwòs	_	_	_	_	_	_	_	_
+1	dàlíːli	dàlíːli	NOUN	_	_	4	subj	_	AlignBegin=278532|AlignEnd=278686|GE=reason|Gloss=reason|Lang=hau|nWord=1|RX=[N].[BW].[HAU]
+2	=wòs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	mod@poss	_	AlignBegin=278686|AlignEnd=278839|GE=[3SG].[POS]|Gloss=3SG.POS|nWord=1|RX=[PRO]
 3	ɓét	ɓét	ADV	_	_	1	mod	_	AlignBegin=278839|AlignEnd=279146|GE=all|Gloss=all|nWord=2|RX=[ADV]
-4	kən	kən	PART	_	VerbType=Cop	0	root	_	AlignBegin=279146|AlignEnd=279453|GE=[COP2]|Gloss=be|nWord=3|RX=[PTCL].[SYNT].[HOM]
-5	tu	tu	PART	_	_	1	mod@relcl	_	AlignBegin=279453|AlignEnd=279760|GE=[COMP]|Gloss=COMP|nWord=4|RX=[PTCL]
-6	tôː	tòː	PART	_	_	4	discourse	_	AlignBegin=279760|AlignEnd=280067|GE=[DM]|Gloss=DM|nWord=5|RX=[PTCL]
-7	(	(	PUNCT	_	_	8	punct	_	AlignBegin=280067|AlignEnd=280372|GE=[(]|Gloss=PUNCT|nWord=6|RX=[(]
-8	yâwwàː	yâwwàː	INTJ	_	_	4	discourse	_	AlignBegin=280372|AlignEnd=280584|GE=yes|Gloss=yes|nWord=7|RX=[INTJ]
-9	//)	//)	PUNCT	_	_	8	punct	_	AlignBegin=280584|AlignEnd=280796|GE=[//)]|Gloss=PUNCT|nWord=8|RX=[//)]
-10	pol-kə́nì	pol-kə́nì	VERB	_	_	4	comp:pred	_	AlignBegin=280796|AlignEnd=281522|GE=please[NMLZ]|Gloss=please|MGloss=pleaseNMLZ|MSeg=pol-kə́nì|nWord=9|RX=[V][DER]|wordform=pol
-11	tu	tu	PART	_	_	10	comp:obj	_	AlignBegin=281522|AlignEnd=282248|GE=[COMP]|Gloss=COMP|nWord=10|RX=[PTCL]
-12	əː	əː	INTJ	_	_	15	discourse	_	AlignBegin=282248|AlignEnd=282974|GE=[HESIT]|Gloss=HESIT|nWord=11|RX=[INTJ]
-13	m̀ː	m̀ː	INTJ	_	_	15	discourse	_	AlignBegin=282974|AlignEnd=283700|GE=[HESIT]|Gloss=HESIT|nWord=12|RX=[INTJ]
-14	Tʃokn	Tʃokn	NOUN	_	_	15	subj	_	AlignBegin=284120|AlignEnd=284656|GE=[God]|Gloss=God|nWord=13|RX=[N].[P]
-15	ɲolár	ɲolár	VERB	_	_	5	comp:obj	_	AlignBegin=284656|AlignEnd=284924|GE=go_out[CAUS]|Gloss=go_out|MGloss=go_outCAUS|MSeg=ɲol-ár|nWord=14|RX=[V][DER]|wordform=ɲol
-16	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	15	comp:obj	_	AlignBegin=284924|AlignEnd=285058|GE=[1PL].[OBJ]|Gloss=1PL.OBJ|nWord=14|RX=[PRO]
-17	ɗi	ɗi	PART	_	_	15	compound:prt	_	AlignBegin=285058|AlignEnd=285192|GE=[CTP]|Gloss=CTP|nWord=14|RX=[PTCL]
-18	tə́	tə́	ADP	_	_	15	mod	_	AlignBegin=285192|AlignEnd=285437|GE=with|Gloss=with|nWord=15|RX=[PREP]
-19	rây	rây	NOUN	_	_	18	comp:obj	_	AlignBegin=285437|AlignEnd=285682|GE=life|Gloss=life|nWord=16|RX=[N]
-20	tə́	tə́	ADP	_	_	19	cc	_	AlignBegin=285682|AlignEnd=285927|GE=with|Gloss=with|nWord=17|RX=[PREP]
-21	laːfíya	laːfíya	NOUN	_	_	15	comp:obj	_	AlignBegin=285927|AlignEnd=286172|GE=good_health|Gloss=good_health|Lang=hau|nWord=18|RX=[N].[BW].[HAU]
-22	kúrûm	kúrûm	ADV	_	_	19	mod	_	AlignBegin=286172|AlignEnd=286417|GE=only|Gloss=only|nWord=19|RX=[ADV]
-23	//	//	PUNCT	_	_	4	punct	_	AlignBegin=286417|AlignEnd=286660|GE=[//]|Gloss=PUNCT|nWord=20
+4	kəndí	kəndí	PART	_	VerbType=Cop	0	root	_	AlignBegin=279146|AlignEnd=279453|Gloss=be
+5	tu	tu	PART	_	_	4	comp:pred	_	AlignBegin=279453|AlignEnd=279760|Gloss=COMP
+6	tôː	tôː	PART	_	_	8	discourse	_	AlignBegin=279760|AlignEnd=280067|Gloss=DM
+7	yâwwàː	yâwwàː	INTJ	_	_	8	discourse	_	AlignBegin=280372|AlignEnd=280584|GE=yes|Gloss=yes|nWord=7|RX=[INTJ]
+8	pólɣə̂ǹ	pol	VERB	_	_	5	comp:obj	_	AlignBegin=280796|AlignEnd=281522|GE=please[NMLZ]|Gloss=please|MGloss=pleaseNMLZ|MSeg=pol-kə́nì|nWord=9|RX=[V][DER]|wordform=pol
+9	tu	tu	PART	_	_	8	comp:obj	_	AlignBegin=281522|AlignEnd=282248|GE=[COMP]|Gloss=COMP|nWord=10|RX=[PTCL]
+10	əː	əː	INTJ	_	_	13	discourse	_	AlignBegin=282248|AlignEnd=282974|GE=[HESIT]|Gloss=HESIT|nWord=11|RX=[INTJ]
+11	m̀ː	m̀ː	INTJ	_	_	13	discourse	_	AlignBegin=282974|AlignEnd=283700|GE=[HESIT]|Gloss=HESIT|nWord=12|RX=[INTJ]
+12	Tʃokn	Tʃokn	PROPN	_	_	13	subj	_	AlignBegin=284120|AlignEnd=284656|GE=[God]|Gloss=God|nWord=13|RX=[N].[P]
+13-15	ɲolármíɗi	_	_	_	_	_	_	_	_
+13	ɲolár	ɲol	VERB	_	_	9	comp:obj	_	AlignBegin=284656|AlignEnd=284924|Gloss=go_out-CAUS
+14	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	13	comp:obj	_	AlignBegin=284924|AlignEnd=285058|GE=[1PL].[OBJ]|Gloss=1PL.OBJ|nWord=14|RX=[PRO]
+15	ɗi	ɗi	PART	_	_	13	compound:prt	_	AlignBegin=285058|AlignEnd=285192|GE=[CTP]|Gloss=CTP|nWord=14|RX=[PTCL]
+16	tə́	tə́	ADP	_	_	13	comp:obl	_	AlignBegin=285192|AlignEnd=285437|GE=with|Gloss=with|nWord=15|RX=[PREP]
+17	rây	rây	NOUN	_	_	16	comp:obj	_	AlignBegin=285437|AlignEnd=285682|GE=life|Gloss=life|nWord=16|RX=[N]
+18	tə́	tə́	ADP	_	_	19	cc	_	AlignBegin=285682|AlignEnd=285927|GE=with|Gloss=with|nWord=17|RX=[PREP]
+19	laːfíya	laːfíya	NOUN	_	_	17	conj:coord	_	AlignBegin=285927|AlignEnd=286172|GE=good_health|Gloss=good_health|Lang=hau|nWord=18|RX=[N].[BW].[HAU]
+20	kúrûm	kúrûm	ADV	_	_	8	mod	_	AlignBegin=286172|AlignEnd=286417|GE=only|Gloss=only|nWord=19|RX=[ADV]
+21	//	//	PUNCT	_	_	4	punct	_	AlignBegin=286417|AlignEnd=286660|GE=[//]|Gloss=PUNCT|nWord=20
 
 # sent_id = SAY_BC_INT_03_Calendar_182-182
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 287240, 288376
-# text = tôː kəndá ká fi gíː //
-# text_ortho = tôː kəndá ká fî gíː //
+# text = tôː ɣəndá ká fî gíː //
+# text_ortho = tôː ɣəndá ká fî gíː //
 # text_en = Well that's why you would do it.
 1	tôː	tôː	PART	_	_	3	discourse	_	AlignBegin=287240|AlignEnd=287429|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
 2	kəndá	kəndá	ADV	_	_	3	mod	_	AlignBegin=287429|AlignEnd=287618|GE=then|Gloss=then|nWord=2|RX=[CONJ].[HOM]
 3	ká	wò	AUX	_	Number=Plur|Person=2|Tense=Fut	0	root	_	AlignBegin=287618|AlignEnd=287807|GE=[2PL].[FUT]|Gloss=2PL.FUT|nWord=3|RX=[PNTAM]
 4	fi	fi	VERB	_	_	3	comp:aux	_	AlignBegin=287807|AlignEnd=287996|GE=do|Gloss=do|nWord=4|RX=[V]
-5	gíː	gíː	PRON	_	PronType=Dem	4	comp:obj	_	AlignBegin=287996|AlignEnd=288185|GE=[DIST]|Gloss=DIST|nWord=5|RX=[PRO].[DEICT]
+5	gíː	gíː	PRON	_	PronType=Dem	4	comp:obj	_	AlignBegin=287996|AlignEnd=288185|Gloss=DIST
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=288185|AlignEnd=288376|GE=[//]|Gloss=PUNCT|nWord=6
 
 # sent_id = SAY_BC_INT_03_Calendar_185-185
@@ -1872,7 +1873,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 287683, 292559
-# text = bàː kə́ yír kóː sáːfi wón ɗan giní ɗa myǎː fi kə́rmə̂s tu myǎː tuná məs -kə́nì yésu káy ?//
+# text = bàː kə́ yǐr kóː sáːfi wón ɗan gín ɗa myǎː fî kə́rmə̂s myǎː tûná mə́skə́nì Yésu ɣáy ?//
 # text_ortho = bàː kə́ yǐr kóː sáːfi wón ɗan gín ɗa myǎː fî kə́rmə̂s tu myǎː tûná mə́skə́nì yésu káy ?//
 # text_en = Didn't you have  some rite like the one we do at Christmas when  we... remember  Jesus's death?
 1	bàː	bàː	PART	_	Polarity=Neg	2	mod	_	AlignBegin=287683|AlignEnd=287853|GE=[NEG1]|Gloss=NEG1|nWord=1|RX=[PTCL].[NEG]
