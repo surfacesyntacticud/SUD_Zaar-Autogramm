@@ -1938,10 +1938,10 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 294980, 295831
-# text = ká gíː ?//
+# text = á gíː ?//
 # text_ortho = á gíː ?//
 # text_en = In this?
-1	ká	ká	ADP	_	_	0	root	_	AlignBegin=294980|AlignEnd=295264|GE=at|Gloss=at|nWord=1|RX=[PREP]
+1	á	ká	ADP	_	_	0	root	_	AlignBegin=294980|AlignEnd=295264|GE=at|Gloss=at|nWord=1|RX=[PREP]
 2	gíː	gíː	PRON	_	PronType=Dem	1	comp:obj	_	AlignBegin=295264|AlignEnd=295548|GE=[DIST]|Gloss=DIST|nWord=2|RX=[PRO].[DEICT]
 3	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=295548|AlignEnd=295831|GE=[?//]|Gloss=PUNCT|nWord=3
 
@@ -1950,39 +1950,38 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 295831, 296440
 # text = kə́ tuná káy ?//
-# text_ortho = kə́ tûná káy ?//
-# text_en = You would celebrate it?
-1	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	0	root	_	AlignBegin=295831|AlignEnd=295983|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=1|RX=[PNTAM]
-2	tuná	tuná	VERB	_	_	1	comp:aux	_	AlignBegin=295983|AlignEnd=296135|GE=remember|Gloss=remember|Lang=hau|nWord=2|RX=[V].[BW].[HAU]
-3	káy	káy	PART	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	2	mod	_	AlignBegin=296135|AlignEnd=296287|GE=[ANAPH]|Gloss=ANAPH|nWord=3|RX=[PRO].[ANAPH]
+# text_ortho = kə túná ɣáy ?//
+# text_en = Do you remember?
+1	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=295831|AlignEnd=295983|Gloss=2SG.AOR
+2	túná	tuná	VERB	_	_	1	comp:aux	_	AlignBegin=295983|AlignEnd=296135|GE=remember|Gloss=remember
+3	ɣáy	káy	PART	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	2	comp@expl	_	AlignBegin=296135|AlignEnd=296287|Gloss=ANAPH
 4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=296287|AlignEnd=296440|GE=[?//]|Gloss=PUNCT|nWord=4
 
 # sent_id = SAY_BC_INT_03_Calendar_193-194
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 296840, 299220
-# text = wàːtòː kàmán < fuŋ <
-# text_ortho = wàːtòː kàmán < fuŋ <
-# text_en = That is like...  the granary.
-1	wàːtòː	wàːtòː	SCONJ	_	_	0	root	_	AlignBegin=296840|AlignEnd=297508|GE=[DM]|Gloss=DM|Lang=hau|nWord=1|RX=[PTCL].[BW].[HAU]
-2	kàmán	kàmán	ADP	_	_	1	unk	_	AlignBegin=297508|AlignEnd=298176|GE=like|Gloss=like|nWord=2|RX=[PREP]
-3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=298176|AlignEnd=298843|GE=[<]|Gloss=PUNCT|nWord=3
-4	fuŋ	fuŋ	NOUN	_	_	1	mod	_	AlignBegin=298843|AlignEnd=299031|GE=granary|Gloss=granary|nWord=4|RX=[N]
-5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=299031|AlignEnd=299220|GE=[<]|Gloss=PUNCT|nWord=5
+# text = wàːtòː kàmán fuŋ ?//
+# text_ortho = wàːtòː kàmán fuŋ ?//
+# text_en = That is like...  the granary?
+1	wàːtòː	wàːtòː	PART	_	_	2	discourse	_	AlignBegin=296840|AlignEnd=297508|GE=[DM]|Gloss=DM|Lang=hau|nWord=1|RX=[PTCL].[BW].[HAU]
+2	kàmán	kàmán	ADP	_	_	0	root	_	AlignBegin=297508|AlignEnd=298176|GE=like|Gloss=like|nWord=2|RX=[PREP]
+3	fuŋ	fuŋ	NOUN	_	_	2	comp:obj	_	AlignBegin=298843|AlignEnd=299031|GE=granary|Gloss=granary|nWord=4|RX=[N]
+4	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=299031|AlignEnd=299220|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_195-195
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 300280, 302060
-# text = ɗan káː nal fuŋ -í ŋâː ?//
-# text_ortho = ɗan káː nal fuŋə́y ŋâː ?//
-# text_en = As you built a granary?
-1	ɗan	ɗan	ADV	_	_	2	mod	_	AlignBegin=300280|AlignEnd=300577|GE=as|Gloss=as|nWord=1|RX=[CONJ]
-2	káː	à́ː	AUX	_	Aspect=Perf|Number=Sing|Person=2	0	root	_	AlignBegin=300577|AlignEnd=300874|GE=[2SG].[CPL]|Gloss=2SG.CPL|nWord=2|RX=[PNTAM]
+# text = ɗan káː nal fuŋ ŋâː ?//
+# text_ortho = ɗan káː nal fuŋ ŋâː ?//
+# text_en = When you build a granary?
+1	ɗan	ɗan	SCONJ	_	_	0	root	_	AlignBegin=300280|AlignEnd=300577|GE=as|Gloss=as
+2	káː	à́ː	AUX	_	Aspect=Perf|Number=Sing|Person=2	1	comp:obj	_	AlignBegin=300577|AlignEnd=300874|GE=[2SG].[CPL]|Gloss=2SG.CPL
 3	nal	nal	VERB	_	_	2	comp:aux	_	AlignBegin=300874|AlignEnd=301171|GE=build|Gloss=build|nWord=3|RX=[V]
-4	fuŋ-íː	fuŋ-íː	NOUN	_	Deixis=Dist	3	comp:obj	_	AlignBegin=301171|AlignEnd=301468|GE=granary[DIST]|Gloss=granary|MGloss=granaryDIST|MSeg=fuŋ-íː|nWord=4|RX=[N][TAM]|wordform=fuŋ
-5	ŋâː	ŋâː	PART	_	PartType=Int	2	mod	_	AlignBegin=301468|AlignEnd=301765|GE=[Q].[NEG]|Gloss=Q.NEG|nWord=5|RX=[PTCL].[ASS]
-6	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=301765|AlignEnd=302060|GE=[?//]|Gloss=PUNCT|nWord=6
+4	fuŋ	fuŋ	NOUN	_	_	3	comp:obj	_	AlignBegin=301171|AlignEnd=301468|Gloss=granary
+5	ŋâː	ŋâː	PART	_	PartType=Int	1	mod	_	AlignBegin=301468|AlignEnd=301765|Gloss=Q
+6	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=301765|AlignEnd=302060|GE=[?//]|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_196-199
 # speaker_id = SP1
