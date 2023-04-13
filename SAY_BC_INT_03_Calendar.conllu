@@ -15,8 +15,8 @@
 7-8	fúːmí	_	_	_	_	_	_	_	_
 7	fúː	fuː	VERB	_	_	6	comp:aux	_	AlignBegin=4934|AlignEnd=5081|GE=tell|Gloss=tell|nWord=7|RX=[V]
 8	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	comp:ben	_	AlignBegin=5081|AlignEnd=5228|GE=[1PL].[OBJ]|Gloss=1PL.OBJ|nWord=7|RX=[PRO]
-9	yáddà	yáddà	SCONJ	_	PronType=Rel	7	mod	_	AlignBegin=5228|AlignEnd=5522|Gloss=how|Idiom=Yes|ExtPos=SCONJ
-10	ɗan	ɗan	SCONJ	_	_	9	unk	_	AlignBegin=5522|AlignEnd=5816|InIdiom=Yes|Gloss=that
+9	yáddà	yáddà	SCONJ	_	PronType=Rel	7	mod	_	AlignBegin=5228|AlignEnd=5522|ExtPos=SCONJ|Gloss=how|Idiom=Yes
+10	ɗan	ɗan	SCONJ	_	_	9	unk	_	AlignBegin=5522|AlignEnd=5816|Gloss=that|InIdiom=Yes
 11	kə̀tàyáː	átayáː	AUX	_	Number=Sing|Person=2|Tense=Rem	9	comp:obj	_	AlignBegin=5816|AlignEnd=6110|GE=[2PL].[REM].[ICPL]|Gloss=2PL.REM.ICPL|nWord=10|RX=[PNTAM]
 12	fî	fi	VERB	_	_	11	comp:aux	_	AlignBegin=6110|AlignEnd=6404|GE=do|Gloss=do|nWord=11|RX=[V]
 13	gyáː	gyáː	DET	_	Number=Plur	14	det	_	AlignBegin=6404|AlignEnd=6700|GE=[PL]|Gloss=PL|nWord=12|RX=[DET]
@@ -75,7 +75,7 @@
 # text = àː kwáːnmí mə́n //
 # text_ortho = àː kwáːnmí mə́n //
 # text_en = Tell us.
-1	àː	tə̀	AUX	_	Number=Sing|Person=2|Mood=Sub	0	root	_	AlignBegin=14760|AlignEnd=14975|Gloss=2SG.SBJV
+1	àː	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=2	0	root	_	AlignBegin=14760|AlignEnd=14975|Gloss=2SG.SBJV
 2-3	kwáːnmí	_	_	_	_	_	_	_	_
 2	kwáːn	kon	VERB	_	Number=Plur	1	comp:aux	_	AlignBegin=14975|AlignEnd=15083|Gloss=say-PL
 3	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	comp:ben	_	AlignBegin=15083|AlignEnd=15190|GE=[1PL].[OBJ]|Gloss=1PL.OBJ|nWord=2|RX=[PRO]
@@ -86,8 +86,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 16760, 17331
-# text = ləpâː ?// 
-# text_ortho = ləpâː ?// 
+# text = ləpâː ?//
+# text_ortho = ləpâː ?//
 # text_en = Festivals?
 1-2	ləpâː	_	_	_	_	_	_	_	_
 1	lə̌pm	lə̌pm	NOUN	_	_	0	root	_	AlignBegin=16760|AlignEnd=16950|GE=festival|Gloss=festival|nWord=1|RX=[N]
@@ -118,8 +118,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 23800, 28360
-# text = kə́ nàmbóɲi ɗan tá fâːrá fíɣə̂n lə̌pm <  myǎː ʧímtə tu lə̌pm ʒàːr // 
-# text_ortho = kə́ nàmbóɲi ɗan tá fâːrá fíɣə̂n lə̌pm <  myǎː ʧîmtə̀ tu lə̌pm ʒàːr // 
+# text = kə́ nàmbóɲi ɗan tá fâːrá fíɣə̂n lə̌pm <  myǎː ʧímtə tu lə̌pm ʒàːr //
+# text_ortho = kə́ nàmbóɲi ɗan tá fâːrá fíɣə̂n lə̌pm <  myǎː ʧîmtə̀ tu lə̌pm ʒàːr //
 # text_en = The first one that they started celebrating,  we called it the Jar festival.
 1	kə́	kə́	ADP	_	_	9	parataxis@discourse	_	AlignBegin=23800|AlignEnd=24110|Gloss=of
 2	nàmbóɲi	nàmbóŋ	NUM	_	Definite=Ind	1	comp:obj	_	AlignBegin=24110|AlignEnd=24420|Gloss=one-IND
@@ -142,7 +142,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 30140, 32160
-# text = àmá mə́n yóːɗan ʧǎː fî nə mə́n Mársəŋ // 
+# text = àmá mə́n yóːɗan ʧǎː fî nə mə́n Mársəŋ //
 # text_ortho = àmá mə́n yóːɗan ʧǎː fî nə mə́n Mársəŋ //
 # text_en = But the people who did it were the people of Lusa.
 1	àmá	àmá	CCONJ	_	_	6	discourse	_	AlignBegin=30140|AlignEnd=30364|GE=but|Gloss=but|nWord=1|RX=[CONJ]
@@ -213,7 +213,7 @@
 3	ngyǎːr	nger	VERB	_	Number=Plur	2	comp:aux	_	AlignBegin=41225|AlignEnd=41327|Gloss=slaughter.PLAC
 4	galtsə́	gàːl	NOUN	_	Number=Plur	3	comp:obj	_	AlignBegin=41430|AlignEnd=41635|Gloss=cow-PL
 5	//+	//+	PUNCT	_	_	6	punct	_	AlignBegin=41635|AlignEnd=41840|GE=[//+]|Gloss=PUNCT|nWord=5
-6	nə́	nə́	ADP	_	_	3	mod	_	AlignBegin=43560|AlignEnd=43740|Gloss=for|Idiom=Yes|ExtPos=ADP
+6	nə́	nə́	ADP	_	_	3	mod	_	AlignBegin=43560|AlignEnd=43740|ExtPos=ADP|Gloss=for|Idiom=Yes
 7	durɣə́	durkə́	ADP	_	_	6	unk	_	AlignBegin=43740|AlignEnd=43920|Gloss=concerning|InIdiom=Yes
 8	ləpês	lə̌pm	NOUN	_	Definite=Def	6	comp:obj	_	AlignBegin=43920|AlignEnd=44100|Gloss=festival-DEF
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=44100|AlignEnd=44280|GE=[//]|Gloss=PUNCT|nWord=9
@@ -238,8 +238,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 49060, 50176
-# text = tôː yâːn máː yi ʧík sát // 
-# text_ortho = tôː yâːn máː yi ʧík sát // 
+# text = tôː yâːn máː yi ʧík sát //
+# text_ortho = tôː yâːn máː yi ʧík sát //
 # text_en = Well it too is just like this.
 1	tôː	tôː	PART	_	_	4	discourse	_	AlignBegin=49060|AlignEnd=49219|Gloss=DM
 2	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	4	dislocated@subj	_	AlignBegin=49219|AlignEnd=49378|Gloss=3SG.IDP
@@ -253,12 +253,12 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 50176, 52480
-# text = ká tûːr ɣá ɗûː //= kə́ ŋgyǎːr galtsə́ // 
-# text_ortho = ká tûːr ɣá ɗûː //= kə́ ŋgyǎːr galtsə́ // 
+# text = ká tûːr ɣá ɗûː //= kə́ ŋgyǎːr galtsə́ //
+# text_ortho = ká tûːr ɣá ɗûː //= kə́ ŋgyǎːr galtsə́ //
 # text_en = You would brew beer  and slaughter cows.
 1	ká	à́	AUX	_	Aspect=Perf|Number=Sing|Person=2	0	root	_	AlignBegin=50176|AlignEnd=50353|GE=[2PL].[FUT]|Gloss=2PL.FUT|nWord=1|RX=[PNTAM]
 2	tûːr	tuːr	VERB	_	_	1	comp:aux	_	AlignBegin=50353|AlignEnd=50530|GE=cook|Gloss=cook|nWord=2|RX=[V]
-3	ɣá	ká	ADP	_	_	2	comp:obl	_	AlignBegin=50530|AlignEnd=50707|nWord=3|Gloss=at
+3	ɣá	ká	ADP	_	_	2	comp:obl	_	AlignBegin=50530|AlignEnd=50707|Gloss=at|nWord=3
 4	ɗûː	ɗûː	NOUN	_	_	3	comp:obj	_	AlignBegin=50707|AlignEnd=50884|GE=beer|Gloss=beer|nWord=4|RX=[N]
 5	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=50884|AlignEnd=51060|GE=[//]|Gloss=PUNCT|nWord=5
 6	kə́	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	1	parataxis@conj	_	AlignBegin=51620|AlignEnd=51835|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=6|RX=[PNTAM]
@@ -270,8 +270,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 53940, 55140
-# text = tôː kə́ máːyi nə lə̌pm Ngas // 
-# text_ortho = tôː kə́ máːyi nə lə̌pm Ngas // 
+# text = tôː kə́ máːyi nə lə̌pm Ngas //
+# text_ortho = tôː kə́ máːyi nə lə̌pm Ngas //
 # text_en = Well the third one is the Angas festival.
 1	tôː	tôː	PART	_	_	4	discourse	_	AlignBegin=53940|AlignEnd=54111|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
 2	kə́	kə́	ADP	_	_	4	subj	_	AlignBegin=54111|AlignEnd=54282|Gloss=of
@@ -291,7 +291,7 @@
 1	kúmá	kúmá	PART	_	_	10	discourse	_	AlignBegin=56420|AlignEnd=56670|GE=and|Gloss=and|nWord=1|RX=[CONJ]
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=56670|AlignEnd=56920|GE=[<]|Gloss=PUNCT|nWord=2
 3	yàːʃí	yàːʃí	PRON	_	_	10	dislocated@top	_	AlignBegin=57460|AlignEnd=57703|GE=[3PL].[IDP]|Gloss=3PL.IDP|nWord=3|RX=[PRO]
-4	kàmán	kàmán	ADP	_	_	6	mod	_	AlignBegin=57703|AlignEnd=57946|Gloss=like|Idiom=Yes|ExtPos=ADV
+4	kàmán	kàmán	ADP	_	_	6	mod	_	AlignBegin=57703|AlignEnd=57946|ExtPos=ADV|Gloss=like|Idiom=Yes
 5	mìsáːli	mìsáːli	NOUN	_	_	4	unk	_	AlignBegin=57946|AlignEnd=58189|Gloss=example|InIdiom=Yes
 6	mə́n	múr	NOUN	_	Number=Plur	3	conj:appos	_	AlignBegin=58189|AlignEnd=58432|Gloss=people
 7	Malâːr	Malâːr	PROPN	_	Definite=Def	6	compound	_	AlignBegin=58432|AlignEnd=58675|GE=[Malar]|Gloss=Malar|nWord=7|RX=[N].[P]
@@ -311,7 +311,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 62580, 64700
-# text = tôː myàːní kúmá < myàːyí nat kâːrwàːsə̀ŋ háy yànzú // 
+# text = tôː myàːní kúmá < myàːyí nat kâːrwàːsə̀ŋ háy yànzú //
 # text_ortho = tôː myàːní kúmá < myàːyí nat kâːrwàːsə̀ŋ hár yànzú //
 # text_en = Well and us, we used to support them up till now.
 1	tôː	tôː	PART	_	_	5	discourse	_	AlignBegin=62580|AlignEnd=62792|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
@@ -364,7 +364,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 71068, 71760
-# text = tôː átâ yi ʧǐː // 
+# text = tôː átâ yi ʧǐː //
 # text_ortho = tôː átâ yi ʧǐː //
 # text_en = Well that's how it was.
 1	tôː	tôː	PART	_	_	2	discourse	_	AlignBegin=71068|AlignEnd=71206|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
@@ -397,7 +397,7 @@
 5	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	4	comp:obj	_	AlignBegin=73148|AlignEnd=73310|GE=[2SG].[CPL]|Gloss=2SG.CPL|nWord=5|RX=[PNTAM]
 6	ʧim	ʧim	VERB	_	_	5	comp:aux	_	AlignBegin=73310|AlignEnd=73472|GE=call|Gloss=call|nWord=6|RX=[V]
 7	tu	tu	SCONJ	_	Mood=Qot	6	comp:obj	_	AlignBegin=73472|AlignEnd=73634|GE=[COMP]|Gloss=COMP|nWord=7|RX=[PTCL]
-8	lə̌pm	lə̌pm	NOUN	_	_	7	comp:obj	_	AlignBegin=73634|AlignEnd=73796|GE=festival[POS]|Gloss=festival|MGloss=festivalof|MSeg=lə̌pmkə́|nWord=8|RX=[N][PNTAM]|wordform=lə̌pm
+8	lə̌pm	lə̌pm	NOUN	_	_	7	comp:obj	_	AlignBegin=73634|AlignEnd=73796|GE=festival[POS]|Gloss=festival|MGloss=festivalof|MSeg=lə̌pmkə́|nWord=8|RX=[N][PNTAM]
 9-10	Ngasǒːy	_	_	_	_	_	_	_	_
 9	Ngas	Ngas	PROPN	_	_	8	mod	_	AlignBegin=73796|AlignEnd=73958|GE=[Angas]|Gloss=Angas|nWord=9|RX=[N].[P]
 10	ǒːy	oː	PART	_	PartType=Emp	2	discourse	_	AlignBegin=73958|AlignEnd=74120|Gloss=EMPH
@@ -442,7 +442,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 78540, 80280
-# text = gíː nə kə́ Ngas kəndí kə mbíː kə gə́m ŋgə́r gwàːn // 
+# text = gíː nə kə́ Ngas kəndí kə mbíː kə gə́m ŋgə́r gwàːn //
 # text_ortho = gíː nə kə́ Ngas kəndí kə mbíː kə gə́m ŋgə́r gwàːn //
 # text_en = That one is the Angasawa's that you took for yourself.
 1	gíː	gíː	PRON	_	PronType=Dem	2	dislocated@top	_	AlignBegin=78540|AlignEnd=78685|GE=[DIST]|Gloss=DIST|nWord=1|RX=[PRO].[DEICT]
@@ -482,14 +482,14 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 83430, 85200
-# text = tòː ŋgə́tn wón nə lə̌pm Ngas ɗúːniyaː ?// 
-# text_ortho = tòː ŋgə́tn wón nə lə̌pm Ngas ɗúːniyaː ?// 
+# text = tòː ŋgə́tn wón nə lə̌pm Ngas ɗúːniyaː ?//
+# text_ortho = tòː ŋgə́tn wón nə lə̌pm Ngas ɗúːniyaː ?//
 # text_en = Well is there something here for the Angas festival?
 1	tôː	tôː	PART	_	_	2	discourse	_	AlignBegin=83430|AlignEnd=83607|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
 2	ngə́tn	ngə́tn	NOUN	_	_	0	root	_	AlignBegin=83607|AlignEnd=83784|GE=thing|Gloss=thing|nWord=2|RX=[N]
 3	wón	wón	DET	_	Definite=Spec	2	det	_	AlignBegin=83784|AlignEnd=83961|GE=[SPEC]|Gloss=SPEC|nWord=3|RX=[DET]
 4	nə́	nə́	ADP	_	_	2	mod	_	AlignBegin=83961|AlignEnd=84138|Gloss=for
-5	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	4	comp:pred	_	AlignBegin=84315|AlignEnd=84492|GE=festival[POS]|Gloss=festival|MGloss=festivalof|MSeg=lə̌pmkə́|nWord=6|RX=[N][PNTAM]|wordform=lə̌pm
+5	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	4	comp:pred	_	AlignBegin=84315|AlignEnd=84492|GE=festival[POS]|Gloss=festival|MGloss=festivalof|MSeg=lə̌pmkə́|nWord=6|RX=[N][PNTAM]
 6	Ngas	Ngas	PROPN	_	_	5	mod	_	AlignBegin=84492|AlignEnd=84669|Gloss=Angas
 7	ɗúːni	ɗúːni	ADV	_	PronType=Dem	2	mod	_	AlignBegin=84669|AlignEnd=84846|GE=here|Gloss=here|nWord=8|RX=[ADVDEICT]
 8	a:	a:	PART	_	PartType=Int	2	mod	_	AlignBegin=84846|AlignEnd=85023|GE=[VRT]|Gloss=VRT|nWord=9|RX=[PTCL].[ASS]
@@ -526,8 +526,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 88300, 89374
-# text = má tûːr náɣat nə́ lə̌pm Ngas // 
-# text_ortho = má tûːr náɣat nə́ lə̌pm Ngas // 
+# text = má tûːr náɣat nə́ lə̌pm Ngas //
+# text_ortho = má tûːr náɣat nə́ lə̌pm Ngas //
 # text_en = We used to cook food for the Angas festival.
 1	má	wò	AUX	_	Number=Plur|Person=1|Tense=Fut	0	root	_	AlignBegin=88300|AlignEnd=88453|GE=[1PL].[FUT]|Gloss=1PL.FUT|nWord=1|RX=[PNTAM]
 2	tûːr	tuːr	VERB	_	_	1	comp:aux	_	AlignBegin=88453|AlignEnd=88606|GE=cook|Gloss=cook|nWord=2|RX=[V]
@@ -596,8 +596,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 98320, 102547
-# text = tôː myàːní máː < ʧǎː ndâ gwàːsə̀ŋə́y < tôː má sômʃíɣáy ɓét ʧík dùmín yàːrês yi vìː nàmbóŋ ɗaŋgəní // 
-# text_ortho = tôː myàːní máː < ʧǎː ndâ gwàːsə̀ŋə́y < tôː má sômʃíɣáy ɓét ʧík dùmín yàːrês yi vìː nàmbóŋ ɗaŋgəní // 
+# text = tôː myàːní máː < ʧǎː ndâ gwàːsə̀ŋə́y < tôː má sômʃíɣáy ɓét ʧík dùmín yàːrês yi vìː nàmbóŋ ɗaŋgəní //
+# text_ortho = tôː myàːní máː < ʧǎː ndâ gwàːsə̀ŋə́y < tôː má sômʃíɣáy ɓét ʧík dùmín yàːrês yi vìː nàmbóŋ ɗaŋgəní //
 # text_en = Well, we too, if they start their [festival] we would help them like this because  we have the same language now.
 1	tôː	tôː	PART	_	_	10	discourse	_	AlignBegin=98320|AlignEnd=98476|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
 2	myàːní	myàːní	PRON	_	Number=Sing|Person=1|PronType=Prs	10	dislocated@subj	_	AlignBegin=98476|AlignEnd=98632|GE=[1PL].[IDP]|Gloss=1PL.IDP|nWord=2|RX=[PRO]
@@ -627,8 +627,8 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 102296, 106720
-# text = tòː dèk kə̀ fíɣə̂n lə̌pm Zaːr < ka vərəm fasárawòsàː ɗaŋ kə́ ʧâː ɗaŋ kyǎː fítə // 
-# text_ortho = tòː dèk kə̀ fíɣə̂n lə̌pm Zaːr < ka vərəm fasárawòsàː ɗaŋ kə́ ʧâː ɗaŋ kyǎː fítə // 
+# text = tòː dèk kə̀ fíɣə̂n lə̌pm Zaːr < ka vərəm fasárawòsàː ɗaŋ kə́ ʧâː ɗaŋ kyǎː fítə //
+# text_ortho = tòː dèk kə̀ fíɣə̂n lə̌pm Zaːr < ka vərəm fasárawòsàː ɗaŋ kə́ ʧâː ɗaŋ kyǎː fítə //
 # text_en = Well the reason for doing the Zaar festival,  explain the reason why you do it!
 1	tôː	tôː	PART	_	_	8	discourse	_	AlignBegin=102296|AlignEnd=102502|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
 2	dèk	dèy	NOUN	_	_	8	dislocated@top	_	AlignBegin=102502|AlignEnd=102605|Gloss=reason
@@ -801,9 +801,9 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 132320, 137120
-# text = ŋaː dèːwòs ʧíː yi ɗa tu dèk ŋgəʃín ɗan myǎːyi zaktíː < yâːn yi ɣənín //= yâːn yi ɣənín // 
+# text = ŋaː dèːwòs ʧíː yi ɗa tu dèk ŋgəʃín ɗan myǎːyi zaktíː < yâːn yi ɣənín //= yâːn yi ɣənín //
 # text_ortho = ŋaː dèːwòs ʧíː yi ɗa tu dèk ŋgəʃín ɗan myǎːyi zaktíː < yâːn yi ɣənín //= yâːn yi ɣənín //
-# text_en = Would there be any reason like the reason why we used to celebrate is such and such? 
+# text_en = Would there be any reason like the reason why we used to celebrate is such and such?
 1	ŋaː	ŋaː	ADJ	_	_	2	mod	_	AlignBegin=132320|AlignEnd=132543|GE=small|Gloss=small
 2-3	dèːwòs	_	_	_	_	_	_	_	_
 2	dèy	dèy	NOUN	_	_	4	subj	_	AlignBegin=132543|AlignEnd=132655|GE=reason|Gloss=reason
@@ -856,7 +856,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 140620, 141500
-# text = dèːwòs ɓét kəndí // 
+# text = dèːwòs ɓét kəndí //
 # text_ortho = dèːwòs ɓét kəndí //
 # text_en = That's its only reason.
 1-2	dèːwòs	_	_	_	_	_	_	_	_
@@ -938,7 +938,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 160380, 162740
-# text = lə̌pm geɗí < gwàːsə̀ŋ ʧǎː gìː geɗí ɣəndí // 
+# text = lə̌pm geɗí < gwàːsə̀ŋ ʧǎː gìː geɗí ɣəndí //
 # text_ortho = lə̌pm geɗí < gwàːsə̀ŋ ʧǎː gìː geɗí ɣəndí //
 # text_en = The yam festival,  they do farm yam.
 1	lə̌pm	lə̌pm	NOUN	_	_	5	subj	_	AlignBegin=160380|AlignEnd=160640|GE=festival|Gloss=festival|nWord=1|RX=[N]
@@ -985,7 +985,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 166900, 167560
 # text = tə́ zàk lə̌pm gáy //
-# text_ortho = tə́ zàk lə̌pm gáy // 
+# text_ortho = tə́ zàk lə̌pm gáy //
 # text_en = they celebrate their festival with it.
 1	tə́	tə́	AUX	_	_	2	discourse	_	AlignBegin=166900|AlignEnd=167032|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=1|RX=[PNTAM]
 2	zàk	zak	VERB	_	_	0	root	_	AlignBegin=167032|AlignEnd=167164|GE=celebrate|Gloss=celebrate|nWord=2|RX=[V]
@@ -1051,7 +1051,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 171510, 172602
 # text = kə́ ʧáːni mbútkə́nì káwêy ?//
-# text_ortho = kə́ ʧáːni mbútkə́nì káwêy ?// 
+# text_ortho = kə́ ʧáːni mbútkə́nì káwêy ?//
 # text_en = (Or) did you just fix the date ?
 1	kə́	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=171510|AlignEnd=171728|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=1|RX=[PNTAM]
 2-3	ʧáːni	_	_	_	_	_	_	_	_
@@ -1086,8 +1086,8 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 173266, 178640
-# text = àmá kúmá myǎː yêl kyàːyi fi tu < wâː yáːyi ɲaŋə́y < ká ɬâː kə́ fî ɣáy // 
-# text_ortho = àmá kúmá myǎː yêl kyàːyi fi tu < wâː yáːyi ɲaŋə́y < ká ɬâː kə́ fî ɣáy // 
+# text = àmá kúmá myǎː yêl kyàːyi fi tu < wâː yáːyi ɲaŋə́y < ká ɬâː kə́ fî ɣáy //
+# text_ortho = àmá kúmá myǎː yêl kyàːyi fi tu < wâː yáːyi ɲaŋə́y < ká ɬâː kə́ fî ɣáy //
 # text_en = But we used to see that you used to do  when guineacorn was ripe,  you would harvest it and do [the festival].
 1	àmá	àmá	CCONJ	_	_	13	discourse	_	AlignBegin=173266|AlignEnd=173533|GE=but|Gloss=but|nWord=1|RX=[CONJ]
 2	kúmá	kúmá	PART	_	_	13	discourse	_	AlignBegin=173533|AlignEnd=173800|GE=and|Gloss=and|nWord=2|RX=[CONJ]
@@ -1155,7 +1155,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 183360, 188040
-# text = ín yâːn wâː tâ hŋ́ || èː wâː táy < àː ɲáŋ hŋ́ < dóːlyâː fì tə́ gə̀rə́ wâː // 
+# text = ín yâːn wâː tâ hŋ́ || èː wâː táy < àː ɲáŋ hŋ́ < dóːlyâː fì tə́ gə̀rə́ wâː //
 # text_ortho = ín yâːn wâː tâ hŋ́ èː wâː táy < àː ɲáŋ hŋ́ < dóːlêː àː fì tə́ gə̀rə́ wâː //
 # text_en = If the guineacorn has not grown,  er... the guineacorn has grown  but is not ripe,  you must do it with old guineacorn.
 1	ín	ín	SCONJ	_	_	17	mod	_	AlignBegin=183360|AlignEnd=183564|ExtPos=SCONJ|GE=if|Gloss=if|Idiom=Yes|nWord=1|RX=[CONJ]
@@ -1310,7 +1310,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 209880, 210680
-# text = tôː átâ yi gòs ʧǐː́ // 
+# text = tôː átâ yi gòs ʧǐː́ //
 # text_ortho = tôː átâ yi gòs ʧǐː //
 # text_en = Well that's how it used to be.
 1	tôː	tôː	PART	_	_	2	discourse	_	AlignBegin=209880|AlignEnd=210013|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
@@ -1324,8 +1324,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 211480, 212760
-# text = tôː ɣə́ rîːp gyaː bèndí muːri // 
-# text_ortho = tôː ɣə́ rîːp gyaː bèndí muːri // 
+# text = tôː ɣə́ rîːp gyaː bèndí muːri //
+# text_ortho = tôː ɣə́ rîːp gyaː bèndí muːri //
 # text_en = Well you sewed a new loincloth.
 1	tôː	tôː	PART	_	_	2	discourse	_	AlignBegin=211480|AlignEnd=211663|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
 2	ɣə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	0	root	_	AlignBegin=211663|AlignEnd=211846|GE=[2PL].[AOR]|Gloss=2PL.AOR|nWord=2|RX=[PNTAM]
@@ -1386,7 +1386,7 @@
 # text_en = Well,  this one is asking  when did you do them?
 1	tôː	tòː	PART	_	_	4	discourse	_	AlignBegin=221360|AlignEnd=221530|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=221530|AlignEnd=221700|GE=[<]|Gloss=PUNCT|nWord=2
-3	ginín	ginín	PRON	_	PronType=Dem|Deixis=Prox	4	dislocated@top	_	AlignBegin=222280|AlignEnd=222497|Gloss=PROX
+3	ginín	ginín	PRON	_	Deixis=Prox|PronType=Dem	4	dislocated@top	_	AlignBegin=222280|AlignEnd=222497|Gloss=PROX
 4	ʧáː	ʧáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=222497|AlignEnd=222714|GE=[3SG].[ICPL]|Gloss=3SG.ICPL|nWord=4|RX=[PNTAM]
 5	ʧet	ʧet	VERB	_	_	4	comp:aux	_	AlignBegin=222714|AlignEnd=222931|GE=ask|Gloss=ask|nWord=5|RX=[V]
 6	ɗúːni	ɗúːni	ADV	_	PronType=Dem	5	mod	_	AlignBegin=222931|AlignEnd=223148|GE=here|Gloss=here|nWord=6|RX=[ADVDEICT]
@@ -1408,8 +1408,8 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 228120, 233240
-# text = kóː ka ɗyáː ɣa tuná tu gín ʧáː yi gòs ká ləpí gín < gín ləpí giníyaː kóː kə́ yǐr gwàːn ləpǐŋaː tôː ?// 
-# text_ortho = kóː ka ɗyáː ɣa tuná tu gín ʧáː yi gòs ká ləpí gín < gín ləpí gíni aː kóː kə́ yǐr gwàːn ləpǐŋ aː tôː ?// 
+# text = kóː ka ɗyáː ɣa tuná tu gín ʧáː yi gòs ká ləpí gín < gín ləpí giníyaː kóː kə́ yǐr gwàːn ləpǐŋaː tôː ?//
+# text_ortho = kóː ka ɗyáː ɣa tuná tu gín ʧáː yi gòs ká ləpí gín < gín ləpí gíni aː kóː kə́ yǐr gwàːn ləpǐŋ aː tôː ?//
 # text_en = Or can you remember that this one, they would do it at... in this month,  this one in this month or  didn't you have a month, well ?
 1	kóː	kóː	CCONJ	_	_	2	cc@preconj	_	AlignBegin=228120|AlignEnd=228308|GE=[COORD]|Gloss=COORD|Lang=hau|nWord=1|RX=[CONJ].[BW].[HAU]
 2	ka	wò	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=228308|AlignEnd=228496|GE=[2SG].[FUT]|Gloss=2SG.FUT|nWord=2|RX=[PNTAM]
@@ -1450,7 +1450,7 @@
 # text_en = Like... like... ?
 1	ɗan	ɗan	ADP	_	_	0	root	_	AlignBegin=233900|AlignEnd=234250|GE=like|Gloss=like|nWord=1|RX=[PREP]
 2	||	||	PUNCT	_	_	3	punct	_	AlignBegin=234250|AlignEnd=234250|Gloss=PUNCT
-3	kàmán	kàmán	ADP	_	_	1	conj:dicto	_	AlignBegin=234250|AlignEnd=234600|Gloss=like|ExtPos=ADP|Idiom=Yes
+3	kàmán	kàmán	ADP	_	_	1	conj:dicto	_	AlignBegin=234250|AlignEnd=234600|ExtPos=ADP|Gloss=like|Idiom=Yes
 4	ɗan	ɗan	ADP	_	_	3	unk	_	AlignBegin=234600|AlignEnd=234950|Gloss=like|InIdiom=Yes
 5	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=234950|AlignEnd=235300|Gloss=PUNCT
 
@@ -1458,9 +1458,9 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 235540, 239480
-# text = ɗaŋ kíː kwǎːnʃí gùdá máːyi > lə̌pm Zaːr tə́ lə̌pm Ngas tə́ lə̌pm níːwóneː // 
+# text = ɗaŋ kíː kwǎːnʃí gùdá máːyi > lə̌pm Zaːr tə́ lə̌pm Ngas tə́ lə̌pm níːwóneː //
 # text_ortho = ɗaŋ kíː kwǎːnʃí gùdá máːyi > lə̌pm zaːr tə́ lə̌pm ŋgas tə́ lə̌pm níːwóneː //
-# text_en = Like you counted three,  the Zaar festival, the Angas festival, etc. 
+# text_en = Like you counted three,  the Zaar festival, the Angas festival, etc.
 1	ɗan	ɗan	SCONJ	_	_	2	discourse	_	AlignBegin=235540|AlignEnd=235777|GE=as|Gloss=as|nWord=1|RX=[CONJ]
 2	kíː	áyí	AUX	_	Number=Sing|Person=2|Tense=Imm	0	root:obj	_	AlignBegin=235777|AlignEnd=236014|GE=[2SG].[IMM]|Gloss=2SG.IMM|nWord=2|RX=[PNTAM]
 3-4	kwǎːnʃí	_	_	_	_	_	_	_	_
@@ -1472,10 +1472,10 @@
 8	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	5	conj:appos	_	AlignBegin=237140|AlignEnd=237400|Gloss=festival-CONS
 9	Zaːr	Zaːr	PROPN	_	_	8	compound	_	AlignBegin=237400|AlignEnd=237660|GE=[Zaar]|Gloss=Zaar|nWord=8|RX=[N].[P]
 10	tə́	tə́	ADP	_	_	11	cc	_	AlignBegin=237660|AlignEnd=237920|GE=with|Gloss=with|nWord=9|RX=[PREP]
-11	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	8	conj:coord	_	AlignBegin=237920|AlignEnd=238180|GE=festival[POS]|Gloss=festival|MGloss=festivalof|MSeg=lə̌pmkə́|nWord=10|RX=[N][PTCL].[SYNT]|wordform=lə̌pm
+11	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	8	conj:coord	_	AlignBegin=237920|AlignEnd=238180|GE=festival[POS]|Gloss=festival|MGloss=festivalof|MSeg=lə̌pmkə́|nWord=10|RX=[N][PTCL].[SYNT]
 12	Ngas	Ngas	PROPN	_	_	11	compound	_	AlignBegin=238180|AlignEnd=238440|GE=[Angas]|Gloss=Angas|nWord=11|RX=[N].[P]
 13	tə́	tə́	ADP	_	_	14	cc	_	AlignBegin=238440|AlignEnd=238700|GE=with|Gloss=with|nWord=12|RX=[PREP]
-14	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	11	conj:coord	_	AlignBegin=238700|AlignEnd=238960|GE=festival[POS]|Gloss=festival|MGloss=festivalof|MSeg=lə̌pmkə́|nWord=13|RX=[N][PTCL].[SYNT]|wordform=lə̌pm
+14	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	11	conj:coord	_	AlignBegin=238700|AlignEnd=238960|GE=festival[POS]|Gloss=festival|MGloss=festivalof|MSeg=lə̌pmkə́|nWord=13|RX=[N][PTCL].[SYNT]
 15	níːwóneː	níːwóneː	PRON	_	PronType=Int	14	compound	_	AlignBegin=238960|AlignEnd=239220|GE=whoever|Gloss=whoever|nWord=14|RX=[PRO].[UNIV]
 16	//	//	PUNCT	_	_	2	punct	_	AlignBegin=239220|AlignEnd=239480|GE=[?//]|Gloss=PUNCT|nWord=15
 
@@ -1565,8 +1565,8 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 246940, 249440
-# text = èː tôː tá fítə kàmán ɗan lóːkaʧí gyòː ɣəŋ kéːloː ?// 
-# text_ortho = èː tôː tá fítə kàmán ɗan lóːkaʧí gyòː ɣəŋ kéːloː ?// 
+# text = èː tôː tá fítə kàmán ɗan lóːkaʧí gyòː ɣəŋ kéːloː ?//
+# text_ortho = èː tôː tá fítə kàmán ɗan lóːkaʧí gyòː ɣəŋ kéːloː ?//
 # text_en = Yes, well, they would do it at what time according to you?
 1	èː	èː	INTJ	_	_	3	discourse	_	AlignBegin=246940|AlignEnd=247132|GE=[HESIT]|Gloss=HESIT|nWord=1|RX=[INTJ]
 2	tôː	tôː	PART	_	_	3	discourse	_	AlignBegin=247132|AlignEnd=247324|GE=[DM]|Gloss=DM|nWord=2|RX=[PTCL]
@@ -1575,7 +1575,7 @@
 4	fî	fi	VERB	_	_	3	comp:aux	_	AlignBegin=247516|AlignEnd=247612|GE=do|Gloss=do|nWord=4|RX=[V]
 5	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=247612|AlignEnd=247708|GE=[3SG].[OBJ]|Gloss=3SG.OBJ|nWord=4|RX=[PRO]
 6	kàmán	kàmán	ADP	_	_	4	mod	_	AlignBegin=247708|AlignEnd=247900|Gloss=like|Idiom=Yes
-7	ɗan	ɗan	ADP	_	_	6	unk	_	AlignBegin=247900|AlignEnd=248092|GE=like|Gloss=like|nWord=6|RX=[PREP]|InIdiom=Yes
+7	ɗan	ɗan	ADP	_	_	6	unk	_	AlignBegin=247900|AlignEnd=248092|GE=like|Gloss=like|InIdiom=Yes|nWord=6|RX=[PREP]
 8	lóːkaʧí	lóːkaʧí	NOUN	_	_	6	comp:obj	_	AlignBegin=248092|AlignEnd=248284|GE=time|Gloss=time|nWord=7|RX=[N]
 9	gyôː	gyôː	DET	_	PronType=Int	8	det	_	AlignBegin=248284|AlignEnd=248476|GE=which|Gloss=which|nWord=8|RX=[PRO].[Q]
 10	ɣəŋ	kən	PART	_	VerbType=Cop	3	mod	_	AlignBegin=248476|AlignEnd=248668|GE=[COP2]|Gloss=be|nWord=9|RX=[PTCL].[SYNT].[HOM]
@@ -1759,7 +1759,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 271227, 272620
-# text = gòs ɗan ʧǎː fítə ɣəndí // 
+# text = gòs ɗan ʧǎː fítə ɣəndí //
 # text_ortho = m̀ːhḿː < gòs ɗan ʧǎː fítə̀ kəndí //
 # text_en = Mmm for them, that's what they are doing.
 1	m̀ːhḿː	m̀ːhḿː	INTJ	_	_	8	discourse	_	AlignBegin=271227|AlignEnd=271400|Gloss=OK
@@ -1801,7 +1801,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 277020, 278532
-# text = kyâːn deː tə́ ʧâːʃí ni káwêy ?// 
+# text = kyâːn deː tə́ ʧâːʃí ni káwêy ?//
 # text_ortho = kyâːn deː tə́ ʧâːʃí ni káwêy ?//
 # text_en = As for you, they merely did it?
 1	kyâːn	kyáːni	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	dislocated@comp	_	AlignBegin=277020|AlignEnd=277272|Gloss=2SG.IDP
@@ -1818,7 +1818,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 278532, 286660
-# text = dàlíːliwòs ɓét kəndí tu tôː yâwwàː pólɣə̂n tu əː m̀ː Tʃokn ɲolármíɗi tə́ rây tə́ laːfíya kúrûm // 
+# text = dàlíːliwòs ɓét kəndí tu tôː yâwwàː pólɣə̂n tu əː m̀ː Tʃokn ɲolármíɗi tə́ rây tə́ laːfíya kúrûm //
 # text_ortho = dàlíːliwòs ɓét kəndí tu tôː yâwwàː pólɣə̂n tu əː m̀ː Tʃokn ɲolármíɗi tə́ rây tə́ laːfíya kúrûm //
 # text_en = Its reason, well, yes, we were pleased er...  that God had kept us alive and in good health.
 1-2	dàlíːliwòs	_	_	_	_	_	_	_	_
@@ -1891,7 +1891,7 @@
 13	tu	tu	PART	_	_	11	mod	_	AlignBegin=290181|AlignEnd=290405|GE=[COMP]|Gloss=COMP|nWord=13|RX=[PTCL]
 14	myǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	13	comp:obj	_	AlignBegin=290405|AlignEnd=290923|GE=[1PL].[ICPL]|Gloss=1PL.ICPL|nWord=14|RX=[PNTAM]
 15	tûná	tuná	VERB	_	_	14	comp:aux	_	AlignBegin=290923|AlignEnd=291440|GE=remember|Gloss=remember|Lang=hau|nWord=15|RX=[V].[BW].[HAU]
-16	mə́skə́nì 	məs	VERB	_	VerbForm=Vnoun	15	comp:obj	_	AlignBegin=291440|AlignEnd=291720|Gloss=die-NMLZ|ExtPos=NOUN
+16	mə́skə́nì 	məs	VERB	_	VerbForm=Vnoun	15	comp:obj	_	AlignBegin=291440|AlignEnd=291720|ExtPos=NOUN|Gloss=die-NMLZ
 17	Yésu	Yésu	PROPN	_	_	16	mod	_	AlignBegin=291720|AlignEnd=292000|Gloss=Jesus
 18	ɣáy	káy	PRON	_	Person=3|PronType=Prs	15	comp@expl	_	AlignBegin=292000|AlignEnd=292280|Gloss=ANAPH
 19	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=292280|AlignEnd=292559|GE=[?//]|Gloss=PUNCT|nWord=19
@@ -1910,7 +1910,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_Calendar.WAV
 # sent_timecode = 292559, 294740
-# text = kóː mə́ tûná wâːrwòpm wón gáy tsəní ?// 
+# text = kóː mə́ tûná wâːrwòpm wón gáy tsəní ?//
 # text_ortho = kóː mə́ tûná wâːrwòpm wón gáy tsəní ?//
 # text_en = Or we would celebrate some ritual in it like this ?
 1	kóː	kóː	CCONJ	_	_	2	discourse	_	AlignBegin=292559|AlignEnd=292832|GE=[COORD]|Gloss=COORD|Lang=hau|nWord=1|RX=[CONJ].[BW].[HAU]
@@ -3242,3 +3242,4 @@
 9	òːhó	Òːhó	PROPN	_	_	5	mod	_	AlignBegin=502886|AlignEnd=503044|Gloss=indeed
 10	kàm	kàm	PART	_	_	8	mod	_	AlignBegin=503044|AlignEnd=503202|GE=indeed|Gloss=indeed|nWord=12|RX=[PTCL].[TOP]
 11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=503202|AlignEnd=503363|GE=[//]|Gloss=PUNCT|nWord=13
+
