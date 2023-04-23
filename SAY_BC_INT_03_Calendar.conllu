@@ -1990,24 +1990,24 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
 # sent_timecode = 302360, 307518
 # text = tôː < ɗôːs ɗan tə́ tûːríː < dzàŋ gíː gə̀dès < wò ngaː ŋaː ndə́ːʧi gáːy //
-# text_ortho = tôː < ɗôːs ɗan tə́ tûːríː < dzàŋ gíː gə̀dès < wò ngaː ŋaː ndə́ːʧi gáːy //
+# text_ortho = tôː < ɗôːs ɗan tə́ tûːríː < dzàŋ gíː gə̀dès < wò ngaː ŋaː ndə́ːʧi  gáːy //
 # text_en = Well,  the beer that they brewed,  that day, the woman would take some dregs and keep them.
 1	tôː	tôː	PART	_	_	11	discourse	_	AlignBegin=302360|AlignEnd=302760|Gloss=DM
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=302760|AlignEnd=303160|Gloss=PUNCT
 3	ɗôːs	ɗûː	NOUN	_	Definite=Def	11	mod	_	AlignBegin=303340|AlignEnd=303632|Gloss=beer-DEF
 4	ɗan	ɗan	SCONJ	_	_	3	mod@relcl	_	AlignBegin=303632|AlignEnd=303924|Gloss=REL
 5	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	4	comp:obj	_	AlignBegin=303924|AlignEnd=304216|Gloss=3PL.AOR
-6	tûːríː	tuːr	VERB	_	Aspect=Res	11	comp:aux	_	AlignBegin=304216|AlignEnd=304508|Gloss=cook-RES
-7	dzàŋ	dzàŋ	NOUN	_	_	6	comp:obj	_	AlignBegin=304920|AlignEnd=305150|Gloss=day
+6	tûːríː	tuːr	VERB	_	Aspect=Res	5	comp:aux	_	AlignBegin=304216|AlignEnd=304508|Gloss=cook-RES
+7	dzàŋ	dzàŋ	NOUN	_	_	11	mod	_	AlignBegin=304920|AlignEnd=305150|Gloss=day
 8	gíː	gíː	DET	_	Deixis=Dist|PronType=Dem	7	det	_	AlignBegin=305150|AlignEnd=305380|Gloss=DIST
-9	gə̀dès	gə̀t	NOUN	_	_	6	comp:obj	_	AlignBegin=305380|AlignEnd=305610|Gloss=woman|wordform=gə̀t
-10	<	<	PUNCT	_	_	3	punct	_	AlignBegin=305610|AlignEnd=305840|Gloss=PUNCT
+9	gə̀dès	gə̀t	NOUN	_	_	11	dislocated@subj	_	AlignBegin=305380|AlignEnd=305610|Gloss=woman-DEF
+10	<	<	PUNCT	_	_	9	punct	_	AlignBegin=305610|AlignEnd=305840|Gloss=PUNCT
 11	wò	wò	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=306280|AlignEnd=306486|Gloss=3SG.FUT
 12	ngaː	ngaː	VERB	_	_	11	comp:aux	_	AlignBegin=306486|AlignEnd=306692|Gloss=fetch
 13	ŋaː	ŋaː	ADJ	_	_	14	mod	_	AlignBegin=306692|AlignEnd=306898|Gloss=little
-14	ndə́ːʧi	ndə́ːʧi	NOUN	_	_	6	comp:obj	_	AlignBegin=306898|AlignEnd=307104|Gloss=dregs
+14	ndə́ːʧi	ndə́ːʧi	NOUN	_	_	12	comp:obj	_	AlignBegin=306898|AlignEnd=307104|Gloss=dregs
 15	gáːy	gaː	VERB	_	Aspect=Res	12	parataxis@conj	_	AlignBegin=307104|AlignEnd=307518|Gloss=leave-RES
-15	//	//	PUNCT	_	_	11	punct	_	AlignBegin=307518|AlignEnd=307518|Gloss=PUNCT
+16	//	//	PUNCT	_	_	11	punct	_	AlignBegin=307518|AlignEnd=307518|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_200-201
 # speaker_id = SP1
