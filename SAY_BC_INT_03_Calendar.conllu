@@ -2097,33 +2097,32 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
 # sent_timecode = 324500, 332585
-# text = tôː kyǎː ʃin-íː ɗaɗáni < tôː kyǎː máni < tôː kə́ kír kə́ máni //= kə́ ɬə kə́ wul álálá álálá álálá álálá //
+# text = tôː kyǎː ʃíníː ɗaɗáni < tôː kyǎː máni < tôː kə́ kǐr kə́ mân //= kə́ ɬə́ kə́ wûl álálá álálálá álálálá álálálá //
 # text_ortho = tôː kyǎː ʃíníː ɗaɗáni < tôː kyǎː máni < tôː kə́ kǐr kə́ mân //= kə́ ɬə́ kə́ wûl álálá álálálá álálálá álálálá //
-# text_en = Well after you have piled them there,  well,  when you go,  you would run and go  and say "alala alalala,  alalala,  alalala".
+# text_en = Well after you have piled them there, well, when you go, you would run and go and say "alala alalala, alalala, alalala".
 1	tôː	tôː	PART	_	_	11	discourse	_	AlignBegin=324500|AlignEnd=324692|Gloss=DM
-2	kyǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	11	parataxis@mod	_	AlignBegin=324692|AlignEnd=324884|Gloss=2PL.COND
-3	ʃin-íː	ʃin-ə	VERB	_	Aspect=Res	2	comp:aux	_	AlignBegin=324884|AlignEnd=325076|Gloss=pour|wordform=ʃin
+2	kyǎː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=2	11	mod	_	AlignBegin=324692|AlignEnd=324884|Gloss=2PL.COND
+3	ʃíníː	ʃin	VERB	_	Aspect=Res	2	comp:aux	_	AlignBegin=324884|AlignEnd=325076|Gloss=pour|wordform=ʃin
 4	ɗaɗáni	ɗaɗáni	ADV	_	PronType=Dem	3	comp:goal	_	AlignBegin=325076|AlignEnd=325268|Gloss=there
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=325268|AlignEnd=325460|Gloss=PUNCT
 6	tôː	tôː	PART	_	_	11	discourse	_	AlignBegin=326400|AlignEnd=326800|Gloss=DM
-7	kyǎː	yaáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	11	parataxis@mod	_	AlignBegin=326920|AlignEnd=327087|Gloss=2PL.COND
+7	kyǎː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=2	11	mod	_	AlignBegin=326920|AlignEnd=327087|Gloss=2PL.COND
 8	máni	máni	VERB	_	_	7	comp:aux	_	AlignBegin=327087|AlignEnd=327254|Gloss=come
 9	<	<	PUNCT	_	_	7	punct	_	AlignBegin=327254|AlignEnd=327420|Gloss=PUNCT
 10	tôː	tôː	PART	_	_	11	discourse	_	AlignBegin=328180|AlignEnd=328310|Gloss=DM
 11	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	0	root	_	AlignBegin=328310|AlignEnd=328440|Gloss=2PL.AOR
-12	kír	kír	VERB	_	_	11	comp:aux	_	AlignBegin=328440|AlignEnd=328570|Gloss=run
-13	kə́	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	12	parataxis@comp	_	AlignBegin=328570|AlignEnd=328700|Gloss=2PL.AOR
-14	máni	máni	VERB	_	_	13	comp:aux	_	AlignBegin=328700|AlignEnd=328830|Gloss=come
-15	//=	//=	PUNCT	_	_	16	punct	_	AlignBegin=328830|AlignEnd=328960|Gloss=PUNCT
-16	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	11	parataxis@conj	_	AlignBegin=329620|AlignEnd=329764|Gloss=2PL.AOR
-17	ɬə	ɬə	VERB	_	_	16	comp:aux	_	AlignBegin=329764|AlignEnd=329908|Gloss=go
-18	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	21	comp:obj	_	AlignBegin=329908|AlignEnd=330052|Gloss=2PL.AOR
-19	wul	wul	VERB	_	_	18	comp:aux	_	AlignBegin=330052|AlignEnd=330197|Gloss=say
-20	álálá	álálá	INTJ	_	_	17	comp:obj	_	AlignBegin=330197|AlignEnd=330739|Gloss=ululation
-21	álálá	álálá	INTJ	_	_	12	comp:obj	_	AlignBegin=330739|AlignEnd=331280|Gloss=ululation
-22	álálá	álálá	INTJ	_	_	21	comp:obj	_	AlignBegin=331280|AlignEnd=331954|Gloss=ululation
-23	álálá	álálá	INTJ	_	_	22	flat:foreign	_	AlignBegin=331954|AlignEnd=332270|Gloss=ululation
-24	//	//	PUNCT	_	_	11	punct	_	AlignBegin=332270|AlignEnd=332585|Gloss=PUNCT
+12	kǐr	kír	VERB	_	_	11	comp:aux	_	AlignBegin=328440|AlignEnd=328570|Gloss=run
+13	kə́	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	11	conj:coord	_	AlignBegin=328570|AlignEnd=328700|Gloss=2PL.AOR
+14	mân	máni	VERB	_	_	13	comp:aux	_	AlignBegin=328700|AlignEnd=328830|Gloss=come
+15	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	13	conj:coord	_	AlignBegin=329620|AlignEnd=329764|Gloss=2PL.AOR
+16	ɬə́	ɬə	VERB	_	_	15	comp:aux	_	AlignBegin=329764|AlignEnd=329908|Gloss=go
+17	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	15	conj:coord	_	AlignBegin=329908|AlignEnd=330052|Gloss=2PL.AOR
+18	wûl	wul	VERB	_	_	17	comp:aux	_	AlignBegin=330052|AlignEnd=330197|Gloss=say
+19	álálá	álálá	INTJ	_	_	18	comp:obj	_	AlignBegin=330197|AlignEnd=330739|Gloss=ululation
+20	álálá	álálá	INTJ	_	_	19	conj:coord	_	AlignBegin=330739|AlignEnd=331280|Gloss=ululation
+21	álálá	álálá	INTJ	_	_	20	conj:coord	_	AlignBegin=331280|AlignEnd=331954|Gloss=ululation
+22	álálá	álálá	INTJ	_	_	21	conj:coord	_	AlignBegin=331954|AlignEnd=332270|Gloss=ululation
+23	//	//	PUNCT	_	_	11	punct	_	AlignBegin=332270|AlignEnd=332585|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_218-220
 # speaker_id = SP1
