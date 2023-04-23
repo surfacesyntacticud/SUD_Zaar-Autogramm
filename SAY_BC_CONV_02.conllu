@@ -15,7 +15,7 @@
 7	ɗan	ɗan	SCONJ	_	PronType=Rel	5	mod@relcl	_	AlignBegin=2391|AlignEnd=2684|Gloss=REL
 8-9	mì	_	_	_	_	_	_	_	_
 8	mə̀	mə̀	PRON	_	Number=Plur|Person=1|PronType=Prs	9	subj	_	AlignBegin=2684|Gloss=1PL
-9	yi	yi	VERB	_	_	7	comp:obj@relcl	_	AlignEnd=2977|Gloss=be
+9	yi	yi	VERB	_	_	7	comp:obj	_	AlignEnd=2977|Gloss=be
 10	ɗûːn	ɗúːni	ADV	_	PronType=Dem	9	comp:pred	_	AlignBegin=2977|AlignEnd=3270|Gloss=here
 11	<	<	PUNCT	_	_	4	punct	_	AlignBegin=3270|AlignEnd=3565|Gloss=PUNCT
 12	myǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	18	parataxis@mod	_	AlignBegin=3985|AlignEnd=4194|Gloss=1PL.IMP
@@ -1624,8 +1624,8 @@
 # text_en =  As for them, they will certainly look different like this too because it is something that old age brings to you.
 1	yàːʃí	yàːʃí	PRON	_	Number=Plur|Person=3|PronType=Prs	6	dislocated@subj	_	AlignBegin=216911|AlignEnd=217179|Gloss=3PL.IDP
 2	máː	máː	PART	_	_	1	mod	_	AlignBegin=217179|AlignEnd=217313|Gloss=even
-3	ɣáy	káy	PRON	_	Person=3|PronType=Prs	6	comp@expl	_	AlignBegin=217313|AlignEnd=217447|Gloss=ANAPH
-4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=217447|AlignEnd=217716|Gloss=PUNCT
+3	ɣây	kây	INTJ	_	_	1	mod	_	AlignBegin=217313|AlignEnd=217447|Gloss=EXPL
+4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=217447|AlignEnd=217716|Gloss=PUNCT
 5	dóːlêː	dóːlêː	ADV	_	_	6	mod	_	AlignBegin=218187|AlignEnd=218396|Gloss=necessary
 6	tə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=3	0	root	_	AlignBegin=218396|AlignEnd=218605|Gloss=3PL.SUB
 7	yàːl	yel	VERB	_	Number=Plur	6	comp:aux	_	AlignBegin=218605|AlignEnd=218814|Gloss=watch-PL
@@ -2067,7 +2067,7 @@
 # text_en =  Really, this man!
 1	á	á	INTJ	_	_	2	discourse	_	AlignBegin=274187|AlignEnd=274414|Gloss=eh
 2	múrín	múri	NOUN	_	Deixis=Prox	0	root	_	AlignBegin=274414|AlignEnd=274528|Gloss=man.PROX
-3	múrín	múri	NOUN	_	Deixis=Prox	2	conj:redup	_	AlignBegin=274641|AlignEnd=274755|Gloss=man.PROX
+3	múrín	múri	NOUN	_	Deixis=Prox	2	compound:redup	_	AlignBegin=274641|AlignEnd=274755|Gloss=man.PROX
 4	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=274868|AlignEnd=275094|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_224-224
@@ -3034,7 +3034,7 @@
 2-3	sûmí	_	_	_	_	_	_	_	_
 2	sû	su	VERB	_	_	1	comp:aux	_	AlignBegin=419802|AlignEnd=419903|Gloss=return
 3	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	2	comp:obj	_	AlignBegin=419903|AlignEnd=420004|Gloss=1PL.OBJ
-4	gíː	gíː	ADV	_	Deixis=Remt|PronType=Dem	2	comp:source	_	AlignBegin=420004|AlignEnd=420105|Gloss=there
+4	gíː	gíː	PRON	_	Deixis=Remt|PronType=Dem	2	comp:source	_	AlignBegin=420004|AlignEnd=420105|Gloss=that
 5	ɗi	ɗi	PART	_	_	2	compound:prt	_	AlignBegin=420105|AlignEnd=420206|Gloss=CTP
 6	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=420206|AlignEnd=420408|Gloss=PUNCT
 7	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	1	parataxis@conj	_	AlignBegin=420408|AlignEnd=420610|Gloss=1PL.AOR
@@ -3585,7 +3585,7 @@
 # text_ortho = séː ílimi ɗa á mánín !//
 # text_en = And there is no education!
 1	séː	séː	ADV	_	_	2	discourse	_	AlignBegin=490838|AlignEnd=491426|Gloss=only
-2	ílimi	ílimi	NOUN	_	_	0	root:obj	_	AlignBegin=491426|AlignEnd=491648|Gloss=knowledge
+2	ílimi	ílimi	NOUN	_	_	0	root	_	AlignBegin=491426|AlignEnd=491648|Gloss=knowledge
 3	ɗa	ɗan	PART	_	_	2	mod@relcl	_	AlignBegin=491648|AlignEnd=491870|Gloss=be
 4	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	3	comp:obj	_	AlignBegin=491870|AlignEnd=492092|Gloss=3SG.AOR
 5-6	mánín	_	_	_	_	_	_	_	_
