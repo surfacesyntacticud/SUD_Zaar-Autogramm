@@ -2290,19 +2290,19 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
 # sent_timecode = 359160, 364060
-# text = tá fî páːtsə raːs //= tə́ ʃîn ká ndə́ːtsə́y //
+# text = tá fî páːtsə raːs //= tə́ ʃîn á ndə́ːtsə́y //
 # text_ortho = tá fî páːtsə raːs //= tə́ ʃîn ká ndə́ːtsə́y //
 # text_en = They would make some locustbean leaves and dip them in the dregs.
 1	tá	wò	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=359160|AlignEnd=359430|Gloss=3PL.FUT
-2	fi	fi	VERB	_	_	1	comp:aux	_	AlignBegin=359430|AlignEnd=359700|Gloss=do
+2	fî	fi	VERB	_	_	1	comp:aux	_	AlignBegin=359430|AlignEnd=359700|Gloss=do
 3	páːtsə	páːtsə	NOUN	_	_	2	comp:obj	_	AlignBegin=359700|AlignEnd=359970|Gloss=leaf
 4	raːs	Raːs	NOUN	_	_	3	compound	_	AlignBegin=359970|AlignEnd=360240|Gloss=locust_bean
-5	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=360240|AlignEnd=360510|Gloss=PUNCT
-6	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	1	parataxis@conj	_	AlignBegin=360510|AlignEnd=360780|Gloss=3PL.AOR
+5	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=360240|AlignEnd=360510|Gloss=PUNCT
+6	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	1	conj:coord	_	AlignBegin=360510|AlignEnd=360780|Gloss=3PL.AOR
 7	ʃîn	ʃin	VERB	_	_	6	comp:aux	_	AlignBegin=360780|AlignEnd=361050|Gloss=pour
-8	ká	ká	ADP	_	_	7	comp:obj	_	AlignBegin=361050|AlignEnd=361320|Gloss=at
-9	ndə́ːʧi-íː	də́ːʧi	NOUN	_	Deixis=Dist	8	comp:obj	_	AlignBegin=361320|AlignEnd=361590|Gloss=dregs|wordform=ndə́ːʧi
-10	//	//	PUNCT	_	_	0	punct	_	AlignBegin=361590|AlignEnd=361860|Gloss=PUNCT
+8	á	ká	ADP	_	_	7	comp:obj	_	AlignBegin=361050|AlignEnd=361320|Gloss=at
+9	ndə́ːtsə́y	ndə́ːʧi	NOUN	_	Deixis=Dist	8	comp:obj	_	AlignBegin=361320|AlignEnd=361590|Gloss=dregs-DIST
+10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=361590|AlignEnd=361860|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_238-239
 # speaker_id = SP1
@@ -2310,40 +2310,52 @@
 # sent_timecode = 362060, 364060
 # text = tôː tə́ ɗûkí mə́n ká gəːp //= tə́ ɗúkə̀ mə́n ɗûːn //
 # text_ortho = tôː tə́ ɗûkí mə́n ká gəːp //= tə́ ɗúkə̀ mə́n ɗûːn //
+# text_en = Then they would flog you on the chest [with it], they would beat you there.
+# user_id = bernard.l.caron
+# timestamp = 1682288956111
+# sent_id = SAY_BC_INT_03_Calendar_238-239
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
+# sent_timecode = 362060, 364060
+# text = tôː tə́ ɗûkí mə́n ká gəːp //= tə́ ɗúkə mə́n ɗûːn //
+# text_ortho = tôː tə́ ɗûkí mə́n ká gəːp //= tə́ ɗúkə mə́n ɗûːn //
 # text_en = Then they would flog you on the chest [with it],  they would beat you there.
-1	tôː	tôː	PART	_	_	0	discourse	_	AlignBegin=362060|AlignEnd=362194|Gloss=DM
-2	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	6	parataxis@conj	_	AlignBegin=362194|AlignEnd=362328|Gloss=3PL.AOR
-3	ɗu	ɗu	VERB	_	_	0	comp:aux	_	AlignBegin=362328|AlignEnd=362395|Gloss=beat
-4	=kí	=kí	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	0	comp:obj	_	AlignBegin=362395|AlignEnd=362462|Gloss=2PL.OBJ
-5	mə́n	mə́n	PART	_	Case=Ben	0	compound:prt	_	AlignBegin=362462|AlignEnd=362596|Gloss=BEN
-6	ká	ká	ADP	_	_	0	comp:obl	_	AlignBegin=362596|AlignEnd=362730|Gloss=at
-7	gəːp	gəːp	NOUN	_	_	0	comp:obj	_	AlignBegin=362730|AlignEnd=362864|Gloss=chest
-8	//=	//=	PUNCT	_	_	0	punct	_	AlignBegin=362864|AlignEnd=363000|Gloss=PUNCT
-9	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	parataxis@conj	_	AlignBegin=363340|AlignEnd=363484|Gloss=3PL.AOR
-10	ɗu	ɗu	VERB	_	_	0	comp:aux	_	AlignBegin=363484|AlignEnd=363556|Gloss=beat
-11	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	0	comp:obj	_	AlignBegin=363556|AlignEnd=363628|Gloss=2SG.OBJ
-12	mə́n	mə́n	PART	_	Case=Ben	0	compound:prt	_	AlignBegin=363628|AlignEnd=363772|Gloss=BEN
-13	ɗúːni	ɗúːni	ADV	_	PronType=Dem	0	mod	_	AlignBegin=363772|AlignEnd=363916|Gloss=here
-14	//	//	PUNCT	_	_	0	punct	_	AlignBegin=363916|AlignEnd=364060|Gloss=PUNCT
+1	tôː	tôː	PART	_	_	2	discourse	_	AlignBegin=362060|AlignEnd=362194|Gloss=DM
+2	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=362194|AlignEnd=362328|Gloss=3PL.AOR
+3-4	ɗûkí	_	_	_	_	_	_	_	_
+3	ɗû	ɗu	VERB	_	_	2	comp:aux	_	AlignBegin=362328|AlignEnd=362395|Gloss=beat
+4	=kí	=kí	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	3	comp:ben	_	AlignBegin=362395|AlignEnd=362462|Gloss=2PL.OBJ
+5	mə́n	mə́n	PART	_	Case=Ben	3	compound:prt	_	AlignBegin=362462|AlignEnd=362596|Gloss=BEN
+6	ká	ká	ADP	_	_	3	comp:obl	_	AlignBegin=362596|AlignEnd=362730|Gloss=at
+7	gəːp	gəːp	NOUN	_	_	6	comp:obj	_	AlignBegin=362730|AlignEnd=362864|Gloss=chest
+8	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=362864|AlignEnd=363000|Gloss=PUNCT
+9	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	2	conj:coord	_	AlignBegin=363340|AlignEnd=363484|Gloss=3PL.AOR
+10-11	ɗúkə	_	_	_	_	_	_	_	_
+10	ɗû	ɗu	VERB	_	_	9	comp:aux	_	AlignBegin=363484|AlignEnd=363556|Gloss=beat
+11	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	10	comp:ben	_	AlignBegin=363556|AlignEnd=363628|Gloss=2SG.OBJ
+12	mə́	mə́n	PART	_	Case=Ben	10	compound:prt	_	AlignBegin=363628|AlignEnd=363772|Gloss=BEN
+13	ɗûːn	ɗúːni	ADV	_	PronType=Dem	10	mod	_	AlignBegin=363772|AlignEnd=363916|Gloss=here
+14	//	//	PUNCT	_	_	2	punct	_	AlignBegin=363916|AlignEnd=364060|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_240-241
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
 # sent_timecode = 365540, 366900
-# text = tôː átâ yi gòs < ʧikə́y lə̌pm Zaːr yi ʧǐː //
-# text_ortho = tôː átâ yi gòs < ʧikə́y lə̌pm Zaːr yi ʧǐː //
+# text = tôː átá yi gòs < ʧiɣə́y lə̌pm Zaːr ʧǐː //
+# text_ortho = tôː átâ yi gòs < ʧikə́y lə̌pm Zaːr ʧǐː //
 # text_en = Well at that time,  that's how the Zaar festival was.
-1	tôː	tôː	PART	_	_	9	discourse	_	AlignBegin=365540|AlignEnd=365649|Gloss=DM
-2	átâ	átâ	AUX	_	Number=Sing|Person=3|Tense=Rem	9	parataxis@mod	_	AlignBegin=365649|AlignEnd=365758|Gloss=3SG.REM
-3	yi	yi	VERB	_	_	2	comp:aux	_	AlignBegin=365758|AlignEnd=365867|Gloss=be
-4	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	mod@top	_	AlignBegin=365867|AlignEnd=365976|Gloss=3SG.POS
+1	tôː	tôː	PART	_	_	6	discourse	_	AlignBegin=365540|AlignEnd=365649|Gloss=DM
+2	átá	átâ	AUX	_	Number=Sing|Person=3|Tense=Rem	6	mod	_	AlignBegin=365649|AlignEnd=365758|Gloss=3SG.REM|Idiom=Yes|ExtPos=ADV
+3	yi	yi	VERB	_	_	2	comp:aux	_	AlignBegin=365758|AlignEnd=365867|Gloss=be|InIdiom=Yes
+4	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	mod@top	_	AlignBegin=365867|AlignEnd=365976|Gloss=3SG.POS|InIdiom=Yes
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=365976|AlignEnd=366087|Gloss=PUNCT
-6	ʧikə́y	ʧikə́y	ADV	_	Deixis=Dist	9	subj	_	AlignBegin=366087|AlignEnd=366155|Gloss=thus
-7	lə̌pm	lə̌pm	NOUN	_	_	9	dislocated@subj	_	AlignBegin=366223|AlignEnd=366359|Gloss=festival
+6	ʧikə́y	ʧikə́y	ADV	_	Deixis=Dist	0	root	_	AlignBegin=366087|AlignEnd=366155|Gloss=thus
+7	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	10	dislocated@subj	_	AlignBegin=366223|AlignEnd=366359|Gloss=festival
 8	Zaːr	Zaːr	PROPN	_	_	7	compound	_	AlignBegin=366359|AlignEnd=366495|Gloss=Zaar
-9	yi	yi	VERB	_	Aspect=Iter	0	root	_	AlignBegin=366495|AlignEnd=366631|Gloss=be
-10	ʧǐː	ʧík	ADV	_	_	9	comp:pred	_	AlignBegin=366631|AlignEnd=366699|Gloss=thus
-11	//	//	PUNCT	_	_	9	punct	_	AlignBegin=366767|AlignEnd=366900|Gloss=PUNCT
+9-10	ʧǐː	_	_	_	_	_	_	_	_
+9	tə	tə	PRON	_	Aspect=Iter	10	subj	_	AlignBegin=366495|AlignEnd=366631|Gloss=be
+10	yi	yi	VERB	_	_	6	comp:cleft	_	AlignBegin=366631|AlignEnd=366699|Gloss=thus
+11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=366767|AlignEnd=366900|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_242-242
 # speaker_id = SP2
