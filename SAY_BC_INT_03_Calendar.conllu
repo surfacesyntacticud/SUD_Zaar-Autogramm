@@ -2381,15 +2381,16 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
 # sent_timecode = 368301, 369320
-# text = tôː kə́ kat nə niː káy eː ?//
-# text_ortho = tôː kə́ kât nə níː káy eː ?//
+# text = tôː kə́ kât ni níː ɣáyeː ?// 
+# text_ortho = tôː kə́ kât ni níː ɣáyeː ?// 
 # text_en = Well what did you rub on it [your body]?
 1	tôː	tôː	PART	_	_	2	discourse	_	AlignBegin=368301|AlignEnd=368428|Gloss=DM
 2	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	0	root	_	AlignBegin=368428|AlignEnd=368555|Gloss=2PL.AOR
-3	kat	kat	VERB	_	_	2	comp:aux	_	AlignBegin=368555|AlignEnd=368682|Gloss=rub
-4	nə	nə	PART	_	VerbType=Cop	3	comp:obj	_	AlignBegin=368682|AlignEnd=368809|Gloss=be
+3	kât	kat	VERB	_	_	2	comp:aux	_	AlignBegin=368555|AlignEnd=368682|Gloss=rub
+4	ni	ni	PART	_	Aspect=Iter	3	compound:prt	_	AlignBegin=368682|AlignEnd=368809|Gloss=ITER
 5	niː	niː	PRON	_	PronType=Int	3	comp:obj	_	AlignBegin=368809|AlignEnd=368936|Gloss=what
-6	káy	káy	PART	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	3	mod	_	AlignBegin=368936|AlignEnd=369063|Gloss=ANAPH
+6-7	ɣáyeː	_	_	_	_	_	_	_	_
+6	ɣáy	káy	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	AlignBegin=368936|AlignEnd=369063|Gloss=ANAPH
 7	eː	eː	PART	_	PartType=Int	2	mod	_	AlignBegin=369063|AlignEnd=369190|Gloss=Q
 8	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=369190|AlignEnd=369320|Gloss=PUNCT
 
@@ -2398,7 +2399,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
 # sent_timecode = 370180, 370780
 # text = ə̀ːhə́ː ?//
-# text_ortho = ə̀ːhə́ː  ?//
+# text_ortho = ə̀ːhə́ː ?//
 # text_en = What?
 1	ə̀ːhə́ː	ə̀ːhə́ː	INTJ	_	_	0	root	_	AlignBegin=370180|AlignEnd=370480|Gloss=what
 2	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=370480|AlignEnd=370780|Gloss=PUNCT
@@ -2407,10 +2408,11 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
 # sent_timecode = 372720, 373986
-# text = giní-ês a: ?//
-# text_ortho = ginês aː ?//
+# text = ginésàː ?//
+# text_ortho = ginésàː ?//
 # text_en = This one?
-1	giní-ês	giní-ês	PRON	_	Foreign=Yes	0	root	_	AlignBegin=372720|AlignEnd=373142|Gloss=PROX|wordform=giní
+1-2	ginésàː	_	_	_	_	_	_	_	_
+1	ginês	giní	PRON	_	Definite=Def|PronType=Dem	0	root	_	AlignBegin=372720|AlignEnd=373142|Gloss=PROX
 2	a:	a:	PART	_	PartType=Int	1	mod	_	AlignBegin=373142|AlignEnd=373564|Gloss=VRT
 3	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=373564|AlignEnd=373986|Gloss=PUNCT
 
@@ -2421,21 +2423,22 @@
 # text = wàːtòː nə fyáːli //
 # text_ortho = wàːtòː nə fyáːli //
 # text_en = Well it's luck.
-1	wàːtòː	wàːtòː	SCONJ	_	_	2	discourse	_	AlignBegin=373986|AlignEnd=374420|Gloss=DM|Lang=hau
+1	wàːtòː	wàːtòː	PART	_	_	2	discourse	_	AlignBegin=373986|AlignEnd=374420|Gloss=DM
 2	nə	nə	PART	_	VerbType=Cop	0	root	_	AlignBegin=374420|AlignEnd=374854|Gloss=be
-3	fyáːli	fyáːli	NOUN	_	_	2	comp:pred	_	AlignBegin=374854|AlignEnd=375288|Gloss=white
+3	fyáːli	fyáːli	ADJ	_	_	2	comp:pred	_	AlignBegin=374854|AlignEnd=375288|Gloss=white
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=375288|AlignEnd=375723|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_248-248
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
 # sent_timecode = 374382, 375723
-# text = àːlàmú níː kən eː ?//
-# text_ortho = àːlàmú níː kəndí eː ?//
+# text = àːlàmú níː ɣəndêː ?// 
+# text_ortho = àːlàmú níː ɣəndêː ?// 
 # text_en = What does it signify?
-1	àːlàmú	àːlàmú	NOUN	_	Foreign=Yes	3	comp:pred	_	AlignBegin=374382|AlignEnd=374650|Gloss=meaning|Lang=hau
+1	àːlàmú	àːlàmú	NOUN	_	_	3	comp:pred	_	AlignBegin=374382|AlignEnd=374650|Gloss=meaning|Lang=hau
 2	níː	níː	PRON	_	PronType=Int	1	mod	_	AlignBegin=374650|AlignEnd=374918|Gloss=what
-3	kən	kən	PART	_	VerbType=Cop	0	root	_	AlignBegin=374918|AlignEnd=375186|Gloss=be
+3-4	ɣəndêː	_	_	_	_	_	_	_	_
+3	ɣəndí	kəndí	PART	_	VerbType=Cop	0	root	_	AlignBegin=374918|AlignEnd=375186|Gloss=be
 4	eː	eː	PART	_	PartType=Int	3	mod	_	AlignBegin=375186|AlignEnd=375454|Gloss=Q
 5	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=375454|AlignEnd=375723|Gloss=PUNCT
 
@@ -2446,8 +2449,8 @@
 # text = àlàːmú fyáːli //
 # text_ortho = àlàːmú fyáːli //
 # text_en = It signifies luck.
-1	àlàːmú	àlàːmú	X	_	Foreign=Yes	0	root	_	AlignBegin=375723|AlignEnd=376015|Gloss=meaning|Lang=hau
-2	fyáːli	fyáːli	X	_	_	1	flat:foreign	_	AlignBegin=376015|AlignEnd=376307|Gloss=luck
+1	àlàːmú	àlàːmú	NOUN	_	_	0	root	_	AlignBegin=375723|AlignEnd=376015|Gloss=meaning|Lang=hau
+2	fyáːli	fyáːli	ADJ	_	_	1	mod	_	AlignBegin=376015|AlignEnd=376307|Gloss=luck
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=376307|AlignEnd=376599|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_251-251
