@@ -2264,14 +2264,14 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
 # sent_timecode = 353240, 357920
-# text = tôː < əː ndə́ːtsə́y ɗányâːl ɗan nə fyáːlíː < tôː tá fî páːtsə raːs ɗan gín tsəní //
-# text_ortho = tôː < əː ndə́ːtsə́y ɗányâːl ɗan nə fyáːlíː < tôː tá fî páːtsə raːs ɗan gín tsəní //
+# text = tôː < əː ndə́ːtsə́y ɗáɲâːl ɗan nə fyáːlíː < tôː tá fî páːtsə raːs ɗan gín tsəní //
+# text_ortho = tôː < əː ndə́ːtsə́y ɗáɲâːl ɗan nə fyáːlíː < tôː tá fî páːtsə raːs ɗan gín tsəní //
 # text_en = Well er... those dregs that are white well they would pick some locustbean leaves like this.
 1	tôː	tôː	PART	_	_	11	discourse	_	AlignBegin=353240|AlignEnd=353450|Gloss=DM
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=353450|AlignEnd=353660|Gloss=PUNCT
 3	əː	əː	INTJ	_	_	11	discourse	_	AlignBegin=353980|AlignEnd=354229|Gloss=HESIT
 4	ndə́ːtsə́y	ndə́ːʧi	NOUN	_	Deixis=Dist	11	dislocated@top	_	AlignBegin=354229|AlignEnd=354478|Gloss=dregs|wordform=ndə́ːʧi
-5	ɗányâːl	ɗányâːl	ADV	_	_	4	mod	_	AlignBegin=354478|AlignEnd=354727|Gloss=as_it_is
+5	ɗáɲâːl	ɗáɲâːl	ADV	_	_	4	mod	_	AlignBegin=354478|AlignEnd=354727|Gloss=as_it_is
 6	ɗan	ɗan	SCONJ	_	_	4	mod@relcl	_	AlignBegin=354727|AlignEnd=354976|Gloss=REL
 7	nə	nə	PART	_	VerbType=Cop	6	comp:obj	_	AlignBegin=354976|AlignEnd=355225|Gloss=be
 8	fyáːlíː	fyáːli-íː	ADJ	_	Deixis=Dist	7	comp:pred	_	AlignBegin=355225|AlignEnd=355474|Gloss=white|wordform=fyáːli
@@ -2566,7 +2566,7 @@
 4	káyi	káyi	AUX	_	Aspect=ImpIter|Number=Plur|Person=3	0	root:obj	_	AlignBegin=395676|AlignEnd=395943|Gloss=2SG.FUT.ITER
 5	fi	fi	VERB	_	_	4	comp:aux	_	AlignBegin=395943|AlignEnd=396210|Gloss=do
 6	gíː	gíː	PRON	_	PronType=Dem|Deixis=Dist	5	comp:obj	_	AlignBegin=396210|AlignEnd=396477|Gloss=DIST
-7	ɗáɲâːlíː	ɗányâːl	ADV	_	PronType=Dem	5	mod	_	AlignBegin=396477|AlignEnd=396744|Gloss=as_it_is|wordform=ɗányâːl
+7	ɗáɲâːlíː	ɗáɲâːl	ADV	_	PronType=Dem	5	mod	_	AlignBegin=396477|AlignEnd=396744|Gloss=as_it_is|wordform=ɗáɲâːl
 8	ʧiɣə́y	ʧík	ADV	_	_	5	mod	_	AlignBegin=396744|AlignEnd=396878|Gloss=thus
 9	//	//	PUNCT	_	_	4	punct	_	AlignBegin=397011|AlignEnd=397280|Gloss=PUNCT
 
@@ -2639,28 +2639,29 @@
 # text = kə́ kusuŋ ʧi mari //
 # text_ortho = kə́ kusuŋ ʧi mari //
 # text_en = That of famine is different.
-1	kə́	á	ADP	_	_	0	root	_	AlignBegin=405197|AlignEnd=405374|Gloss=of
-2	kusuŋ	kusuŋ	VERB	_	_	1	comp:aux	_	AlignBegin=405374|AlignEnd=405551|Gloss=hunger
-3	ʧi	ʧi	X	_	Foreign=Yes	2	mod	_	AlignBegin=405551|AlignEnd=405728|Gloss=3SG.be
-4	mari	mari	ADV	_	_	3	mod	_	AlignBegin=405728|AlignEnd=405905|Gloss=different
-5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=405905|AlignEnd=406080|Gloss=PUNCT
+1	kə́	kə́	ADP	_	_	4	dislocated@subj	_	AlignBegin=405197|AlignEnd=405374|Gloss=of
+2	kusuŋ	kusuŋ	NOUN	_	_	1	comp:obj	_	AlignBegin=405374|AlignEnd=405551|Gloss=hunger
+3-4	ʧi	_	_	_	_	_	_	_	_
+3	tə	tə	PRON	_	_	4	subj	_	AlignBegin=405551|Gloss=3SG
+4	yi	yi	VERB	_	_	0	root	_	AlignEnd=405728|Gloss=be
+5	mari	mari	ADJ	_	_	4	comp:pred	_	AlignBegin=405728|AlignEnd=405905|Gloss=different
+6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=405905|AlignEnd=406080|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_271-271
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
 # sent_timecode = 407260, 409420
-# text = kə́ kusuŋ dzàŋ lə̌pm Zaːr-ês ɗan-́ yaːl-íː ŋâː ?//
-# text_ortho = kə́ kusuŋ dzàŋ lə̌pm zaːrês ɗán yâːlíː ŋâː ?//
+# text = kə́ kusuŋ dzàŋ lə̌pm Zaːrês ɗáɲâːlí ŋâː ?//
+# text_ortho = kə́ kusuŋ dzàŋ lə̌pm zaːrês ɗáɲâːlí ŋâː ?//
 # text_en = That of famine on the day of the Zaar festival?
-1	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	0	root	_	AlignBegin=407260|AlignEnd=407500|Gloss=of
+1	kə́	kə́	ADP	_	Aspect=Aor|Number=Plur|Person=2	0	root	_	AlignBegin=407260|AlignEnd=407500|Gloss=of
 2	kusuŋ	kusuŋ	NOUN	_	_	1	comp:aux	_	AlignBegin=407500|AlignEnd=407740|Gloss=hunger
 3	dzàŋ	dzàŋ	NOUN	_	_	2	mod	_	AlignBegin=407740|AlignEnd=407980|Gloss=day
-4	lə̌pm	lə̌pm	NOUN	_	_	2	comp:obj	_	AlignBegin=407980|AlignEnd=408220|Gloss=festival
-5	Zaːr-ês	Zaːr-ês	NOUN	_	_	4	mod	_	AlignBegin=408220|AlignEnd=408460|Gloss=Zaar|wordform=Zaːr
-6	ɗan-́	ɗan-́	ADV	_	PronType=Dem	2	mod	_	AlignBegin=408460|AlignEnd=408700|Gloss=REL|wordform=ɗan
-7	yaːl-íː	yaːl-i	VERB	_	Deixis=Dist	2	comp:obj	_	AlignBegin=408700|AlignEnd=408940|Gloss=look|wordform=yaːl
-8	ŋâː	ŋâː	PART	_	PartType=Int	1	mod	_	AlignBegin=408940|AlignEnd=409180|Gloss=Q.NEG
-9	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=409180|AlignEnd=409420|Gloss=PUNCT
+4	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	3	mod	_	AlignBegin=407980|AlignEnd=408220|Gloss=festival-CONS
+5	Zaːr-ês	Zaːr-ês	PROPN	_	_	4	compound	_	AlignBegin=408220|AlignEnd=408460|Gloss=Zaar|wordform=Zaːr
+6	ɗáɲâːlí	ɗáɲâːl	ADV	_	_	2	mod	_	AlignBegin=408460|AlignEnd=408700|Gloss=like_this
+7	ŋâː	ŋâː	PART	_	PartType=Int	1	mod	_	AlignBegin=408940|AlignEnd=409180|Gloss=Q
+8	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=409180|AlignEnd=409420|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_272-273
 # speaker_id = SP1
@@ -2674,83 +2675,67 @@
 3	gə́	kə́	ADP	_	_	2	mod	_	AlignBegin=412580|AlignEnd=413200|Gloss=of
 4	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=413200|AlignEnd=413820|Gloss=PUNCT
 
-# sent_id = SAY_BC_INT_03_Calendar_274-284
+# sent_id = SAY_BC_INT_03_Calendar_274-288
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
-# sent_timecode = 414640, 434065
-# text = ma wul tu dzàŋ gíː ɗan tə́ bəs ɗûː-íː < tôː dzàŋ gíː tə́ ɓíɬndi < ká ɲom gyáː ngértsə kot kóː gyáː pyaːɗa kóː gyáː ʃit kóː burgàl //= tôː kə́ dingá kítâr ɗan ɗúːni hár kə́ ɬə-íː ɗan wuːr-́ vùŋ //
-# text_ortho = ma wu tu dzàŋ gíː ɗan tə́ bə̀s ɗúːy < tôː dzàŋ gíː tə́ ɓíɬndi < ká ɲôm gyáː ngértsə kot kóː gyáː pyaːɗa kóː gyáː ʃit kóː burgàl //= tôː kə́ dìngá kítâr ɗan ɗûːn hár kə́ ɬǐː ɗan wǔːr vùŋ //
-# text_en = Let me say... the day that they brew the beer, well, that day in the morning you would take pot... sherds or ladles or stirring sticks or swizzle sticks, then you would start running as if from here you would go to... like the Vung mountain.
-1	ma	wò	AUX	_	Number=Sing|Person=1|Tense=Fut	0	root	_	AlignBegin=414640|AlignEnd=414914|Gloss=1SG.FUT
-2	wul	wul	VERB	_	_	1	comp:aux	_	AlignBegin=414914|AlignEnd=415188|Gloss=say
+# sent_timecode = 414640, 436511
+# text = ma wu tu dzàŋ gíː ɗan tə́ bə̀s ɗúːy < tôː dzàŋ gíː tə́ ɓíɬndi < ká ɲôm gyáː ngértsə kot kóː gyáː pyaːɗa kóː gyáː ʃit kóː burgàl |c tôː kə́ dìngá kítâr ɗan ɗûːn hár kə́ ɬǐː ɗan Wǔːr Vùŋ || tarí wón || yâwwàː tarí wón Vùŋ || dàtə̂pm Vùŋ //
+# text_ortho = ma wu tu dzàŋ gíː ɗan tə́ bə̀s ɗúːy < tôː dzàŋ gíː tə́ ɓíɬndi < ká ɲôm gyáː ngértsə kot kóː gyáː pyaːɗa kóː gyáː ʃit kóː burgàl |c tôː kə́ dìngá kítâr ɗan ɗûːn hár kə́ ɬǐː ɗan Wǔːr Vùŋ || tarí wón || yâwwàː tarí wón Vùŋ || dàtə̂pm Vùŋ ||
+# text_en = Let me say, the day that they brew the beer, well, that day in the morning, you would take potsherds or ladles or stirring sticks or swizzle sticks, then you would keep running from here until you reached like the Vung mountain, some flat rock, OK, some flat rock at Vung on the road to Vung.
+1	ma	wò	AUX	_	Number=Sing|Person=1|Tense=Fut	17	parataxis@discourse	_	AlignBegin=414640|AlignEnd=414914|Gloss=1SG.FUT
+2	wu	wul	VERB	_	_	1	comp:aux	_	AlignBegin=414914|AlignEnd=415188|Gloss=say
 3	tu	tu	PART	_	_	2	comp:obj	_	AlignBegin=415188|AlignEnd=415463|Gloss=COMP
-4	dzàŋ	dzàŋ	NOUN	_	_	17	dislocated@mod	_	AlignBegin=415463|AlignEnd=415640|Gloss=day
-5	gíː	gíː	DET	_	PronType=Dem	4	det	_	AlignBegin=415640|AlignEnd=415817|Gloss=DIST
+4	dzàŋ	dzàŋ	NOUN	_	_	17	mod	_	AlignBegin=415463|AlignEnd=415640|Gloss=day
+5	gíː	gíː	DET	_	PronType=Dem|Deixis=Dist	4	det	_	AlignBegin=415640|AlignEnd=415817|Gloss=DIST
 6	ɗan	ɗan	SCONJ	_	_	4	mod@relcl	_	AlignBegin=415817|AlignEnd=415994|Gloss=REL
 7	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	6	comp:obj	_	AlignBegin=415994|AlignEnd=416171|Gloss=3PL.AOR
-8	bəs	bəs	VERB	_	_	7	comp:aux	_	AlignBegin=416171|AlignEnd=416348|Gloss=boil
-9	ɗûː-íː	ɗûː-t	NOUN	_	Deixis=Dist	8	comp:obj	_	AlignBegin=416348|AlignEnd=416525|Gloss=beer|wordform=ɗûː
-10	<	<	PUNCT	_	_	12	punct	_	AlignBegin=416525|AlignEnd=416700|Gloss=PUNCT
+8	bə̀s	bəs	VERB	_	_	7	comp:aux	_	AlignBegin=416171|AlignEnd=416348|Gloss=boil
+9	ɗúːy	ɗûː-t	NOUN	_	Deixis=Dist	8	comp:obj	_	AlignBegin=416348|AlignEnd=416525|Gloss=beer-DIST
+10	<	<	PUNCT	_	_	4	punct	_	AlignBegin=416525|AlignEnd=416700|Gloss=PUNCT
 11	tôː	tôː	PART	_	_	17	discourse	_	AlignBegin=418040|AlignEnd=418500|Gloss=DM
 12	dzàŋ	dzàŋ	NOUN	_	_	17	dislocated@mod	_	AlignBegin=418960|AlignEnd=419152|Gloss=day
-13	gíː	gíː	DET	_	PronType=Dem	12	det	_	AlignBegin=419152|AlignEnd=419344|Gloss=DIST
-14	tə́	tə́	ADP	_	_	12	cc	_	AlignBegin=419344|AlignEnd=419536|Gloss=with
-15	ɓíɬndi	ɓíɬndi	VERB	_	_	12	conj:coord	_	AlignBegin=419536|AlignEnd=419728|Gloss=morning
+13	gíː	gíː	DET	_	PronType=Dem|Deixis=Dist	12	det	_	AlignBegin=419152|AlignEnd=419344|Gloss=DIST
+14	tə́	tə́	ADP	_	_	12	mod	_	AlignBegin=419344|AlignEnd=419536|Gloss=with
+15	ɓíɬndi	ɓíɬndi	VERB	_	_	14	comp:obj	_	AlignBegin=419536|AlignEnd=419728|Gloss=morning
 16	<	<	PUNCT	_	_	12	punct	_	AlignBegin=419728|AlignEnd=419920|Gloss=PUNCT
-17	ká	wò	AUX	_	Number=Plur|Person=2|Tense=Fut	3	comp:obj	_	AlignBegin=421680|AlignEnd=422285|Gloss=2PL.FUT
-18	ɲom	ɲom	VERB	_	_	17	comp:aux	_	AlignBegin=422285|AlignEnd=422890|Gloss=take
+17	ká	wò	AUX	_	Number=Plur|Person=2|Tense=Fut	0	root	_	AlignBegin=421680|AlignEnd=422285|Gloss=2PL.FUT
+18	ɲôm	ɲom	VERB	_	_	17	comp:aux	_	AlignBegin=422285|AlignEnd=422890|Gloss=take
 19	gyáː	gyáː	DET	_	Number=Plur	20	det	_	AlignBegin=422890|AlignEnd=423495|Gloss=PL
 20	ngértsə	ngértsə	NOUN	_	_	18	comp:obj	_	AlignBegin=423495|AlignEnd=424100|Gloss=broken_pieces
-21	kot	kot	NOUN	_	_	18	comp:obj	_	AlignBegin=424600|AlignEnd=424820|Gloss=calabash
+21	kot	kot	NOUN	_	_	20	compound	_	AlignBegin=424600|AlignEnd=424820|Gloss=calabash
 22	kóː	kóː	CCONJ	_	_	24	cc	_	AlignBegin=425760|AlignEnd=426133|Gloss=COORD|Lang=hau
 23	gyáː	gyáː	DET	_	Number=Plur	24	det	_	AlignBegin=426133|AlignEnd=426506|Gloss=PL
-24	pyaːɗa	pyaːɗa	NOUN	_	Foreign=Yes	18	comp:obj	_	AlignBegin=426506|AlignEnd=426880|Gloss=ladle
+24	pyaːɗa	pyaːɗa	NOUN	_	Foreign=Yes	20	conj:coord	_	AlignBegin=426506|AlignEnd=426880|Gloss=ladle
 25	kóː	kóː	CCONJ	_	_	27	cc	_	AlignBegin=427400|AlignEnd=427613|Gloss=COORD|Lang=hau
 26	gyáː	gyáː	DET	_	Number=Plur	27	det	_	AlignBegin=427613|AlignEnd=427826|Gloss=PL
-27	ʃit	ʃit	NOUN	_	_	20	conj:coord	_	AlignBegin=427826|AlignEnd=428040|Gloss=stirring_stick
-28	kóː	kóː	CCONJ	_	_	27	cc	_	AlignBegin=428635|AlignEnd=428870|Gloss=COORD|Lang=hau
+27	ʃit	ʃit	NOUN	_	_	24	conj:coord	_	AlignBegin=427826|AlignEnd=428040|Gloss=stirring_stick
+28	kóː	kóː	CCONJ	_	_	29	cc	_	AlignBegin=428635|AlignEnd=428870|Gloss=COORD|Lang=hau
 29	burgàl	burgàl	NOUN	_	_	27	conj:coord	_	AlignBegin=428870|AlignEnd=429105|Gloss=swizzle_stick
-30	//=	//=	PUNCT	_	_	32	punct	_	AlignBegin=429105|AlignEnd=429340|Gloss=PUNCT
+30	|c	|c	PUNCT	_	_	32	punct	_	AlignBegin=429105|AlignEnd=429340|Gloss=PUNCT
 31	tôː	tôː	PART	_	_	32	discourse	_	AlignBegin=430300|AlignEnd=430569|Gloss=DM
-32	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	3	comp:obj	_	AlignBegin=430569|AlignEnd=430838|Gloss=2PL.AOR
-33	dingá	dingá	VERB	_	_	32	comp:aux	_	AlignBegin=430838|AlignEnd=431107|Gloss=continue
+32	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	17	conj:coord	_	AlignBegin=430569|AlignEnd=430838|Gloss=2PL.AOR
+33	dìngá	dingá	VERB	_	_	32	comp:aux	_	AlignBegin=430838|AlignEnd=431107|Gloss=continue
 34	kítâr	kítâr	NOUN	_	_	33	comp:obj	_	AlignBegin=431107|AlignEnd=431376|Gloss=running
-35	ɗan	ɗan	ADP	_	_	33	mod	_	AlignBegin=431376|AlignEnd=431645|Gloss=like
-36	ɗúːni	ɗúːni	ADV	_	PronType=Dem	33	mod	_	AlignBegin=431645|AlignEnd=431914|Gloss=here
-37	hár	hár	ADP	_	_	32	mod	_	AlignBegin=431914|AlignEnd=432183|Gloss=up_to
-38	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	35	comp:obj	_	AlignBegin=432183|AlignEnd=432452|Gloss=2PL.AOR
-39	ɬə-íː	ɬə-í	VERB	_	Aspect=Res	32	comp:aux	_	AlignBegin=432452|AlignEnd=432720|Gloss=go|wordform=ɬə
+35	ɗan	ɗan	ADP	_	_	34	mod	_	AlignBegin=431376|AlignEnd=431645|Gloss=like
+36	ɗúːni	ɗúːni	ADV	_	PronType=Dem	35	comp:obj	_	AlignBegin=431645|AlignEnd=431914|Gloss=here
+37	hár	hár	SCONJ	_	_	33	mod	_	AlignBegin=431914|AlignEnd=432183|Gloss=until
+38	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	37	comp:obj	_	AlignBegin=432183|AlignEnd=432452|Gloss=2PL.AOR
+39	ɬǐː	ɬə	VERB	_	Aspect=Res	38	comp:aux	_	AlignBegin=432452|AlignEnd=432720|Gloss=go-RES
 40	ɗan	ɗan	ADP	_	_	39	mod	_	AlignBegin=433320|AlignEnd=433506|Gloss=like
-41	wuːr-́	wuːr-́	NOUN	_	Definite=Cons	39	comp:obj	_	AlignBegin=433506|AlignEnd=433692|Gloss=mountain|wordform=wuːr
-42	vùŋ	vùŋ	NOUN	_	_	41	compound	_	AlignBegin=433692|AlignEnd=433878|Gloss=Vung
-43	//	//	PUNCT	_	_	17	punct	_	AlignBegin=433878|AlignEnd=434065|Gloss=PUNCT
-
-# sent_id = SAY_BC_INT_03_Calendar_285-285
-# speaker_id = SP1
-# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
-# sent_timecode = 434065, 434685
-# text = tarí wón yâwwàː //
-# text_ortho = tarí wón yâwwàː //
-# text_en = Some flat rock, OK.
-1	tarí	tarí	NOUN	_	_	0	root	_	AlignBegin=434065|AlignEnd=434220|Gloss=flat_rock
-2	wón	wón	DET	_	Definite=Spec	1	det	_	AlignBegin=434220|AlignEnd=434375|Gloss=SPEC
-3	yâwwàː	yâwwàː	INTJ	_	_	1	discourse	_	AlignBegin=434375|AlignEnd=434530|Gloss=OK
-4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=434530|AlignEnd=434685|Gloss=PUNCT
-
-# sent_id = SAY_BC_INT_03_Calendar_286-288
-# speaker_id = SP1
-# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
-# sent_timecode = 434685, 436511
-# text = tarí wón vùŋ // dàtə̂pm vùŋ //
-# text_ortho = tarí wón vùŋ // dàtə̂pm vùŋ //
-# text_en = Some flat rock at Vung on the road to Vung.
-1	tarí	tarí	NOUN	_	Definite=Cons	0	root	_	AlignBegin=434685|AlignEnd=434969|Gloss=flat_rock
-2	wón	wón	DET	_	Definite=Spec	1	det	_	AlignBegin=434969|AlignEnd=435254|Gloss=SPEC
-3	vùŋ	vùŋ	NOUN	_	_	1	mod	_	AlignBegin=435254|AlignEnd=435422|Gloss=Vung
-4	//	//	PUNCT	_	_	5	punct	_	AlignBegin=435422|AlignEnd=435590|Gloss=PUNCT
-5	dàtə̂pm	dàtə̂pm	NOUN	_	_	1	mod	_	AlignBegin=435590|AlignEnd=435897|Gloss=road
-6	vùŋ	vùŋ	NOUN	_	_	5	compound	_	AlignBegin=435897|AlignEnd=436204|Gloss=Vung
-7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=436204|AlignEnd=436511|Gloss=PUNCT
+41	Wǔːr	Wúːr	PROPN	_	Definite=Cons	40	comp:obj	_	AlignBegin=433506|AlignEnd=433692|Gloss=Mountain|wordform=wuːr
+42	Vùŋ	Vùŋ	PROPN	_	_	41	flat:name	_	AlignBegin=433692|AlignEnd=433878|Gloss=Vung
+43	||	||	PUNCT	_	_	17	punct	_	AlignBegin=433878|AlignEnd=434065|Gloss=PUNCT
+44	tarí	tarí	NOUN	_	_	0	root	_	AlignBegin=434065|AlignEnd=434220|Gloss=flat_rock
+45	wón	wón	DET	_	Definite=Spec	0	det	_	AlignBegin=434220|AlignEnd=434375|Gloss=SPEC
+46	||	||	PUNCT	_	_	0	punct	_	AlignBegin=434530|AlignEnd=434685|Gloss=PUNCT
+47	yâwwàː	yâwwàː	INTJ	_	_	0	discourse	_	AlignBegin=434375|AlignEnd=434530|Gloss=OK
+48	tarí	tarí	NOUN	_	Definite=Cons	0	root	_	AlignBegin=434685|AlignEnd=434969|Gloss=flat_rock
+49	wón	wón	DET	_	Definite=Spec	0	det	_	AlignBegin=434969|AlignEnd=435254|Gloss=SPEC
+50	Vùŋ	Vùŋ	PROPN	_	_	0	mod	_	AlignBegin=435254|AlignEnd=435422|Gloss=Vung
+51	||	||	PUNCT	_	_	0	punct	_	AlignBegin=435422|AlignEnd=435590|Gloss=PUNCT
+52	dàtə̂pm	dàtə̂pm	NOUN	_	_	0	mod	_	AlignBegin=435590|AlignEnd=435897|Gloss=road
+53	Vùŋ	Vùŋ	PROPN	_	_	0	compound	_	AlignBegin=435897|AlignEnd=436204|Gloss=Vung
+54	//	//	PUNCT	_	_	0	punct	_	AlignBegin=436204|AlignEnd=436511|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_289-291
 # speaker_id = SP1
