@@ -2797,52 +2797,54 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
 # sent_timecode = 444106, 445400
-# text = àmá ʤìni gíː ɗan kusuŋ-́ fi fáː <
-# text_ortho = àmá ʤìni gíː ɗan kusúŋ fî fáː <
-# text_en = But it's the year that there is famine.
-1	àmá	àmá	CCONJ	_	_	2	discourse	_	AlignBegin=444106|AlignEnd=444268|Gloss=but
-2	ʤìni	ʤìni	NOUN	_	_	0	root	_	AlignBegin=444268|AlignEnd=444430|Gloss=year
+# text = àmá ʤìni gíː ɗan kusúŋ fî fáː //!
+# text_ortho = àmá ʤìni gíː ɗan kusúŋ fî fáː //!
+# text_en = But it's the year that there is famine!
+1	àmá	àmá	CCONJ	_	_	4	discourse	_	AlignBegin=444106|AlignEnd=444268|Gloss=but
+2	ʤìni	ʤìni	NOUN	_	_	4	dislocated@top	_	AlignBegin=444268|AlignEnd=444430|Gloss=year
 3	gíː	gíː	DET	_	PronType=Dem	2	det	_	AlignBegin=444430|AlignEnd=444592|Gloss=DIST
-4	ɗan	ɗan	SCONJ	_	_	2	mod@relcl	_	AlignBegin=444592|AlignEnd=444754|Gloss=REL
-5	kusuŋ-́	kusuŋ-́	NOUN	_	_	4	comp:obj	_	AlignBegin=444754|AlignEnd=444916|Gloss=hunger|wordform=kusuŋ
-6	fi	fi	VERB	_	_	5	mod	_	AlignBegin=444916|AlignEnd=445078|Gloss=do
-7	fáː	fáː	PART	_	_	2	mod	_	AlignBegin=445078|AlignEnd=445240|Gloss=indeed
-8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=445240|AlignEnd=445400|Gloss=PUNCT
+4	ɗan	ɗan	SCONJ	_	_	0	root	_	AlignBegin=444592|AlignEnd=444754|Gloss=REL
+5-6	kusúŋ	_	_	_	_	_	_	_	_
+5	kusuŋ	kusuŋ	NOUN	_	_	6	subj	_	AlignBegin=444754|Gloss=hunger|wordform=kusuŋ
+6	_́	á	AUX	_	Aspect=Aor	0	_	_	AlignEnd=444916|Gloss=3SG.AOR
+7	fî	fi	VERB	_	_	4	comp:obj	_	AlignBegin=444916|AlignEnd=445078|Gloss=do
+8	fáː	fáː	PART	_	_	4	mod	_	AlignBegin=445078|AlignEnd=445240|Gloss=indeed
+9	//!	//!	PUNCT	_	_	4	punct	_	AlignBegin=445240|AlignEnd=445400|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_296-296
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
 # sent_timecode = 446008, 447320
-# text = àmá bàː kóː dzàŋ gyòː hŋ́ oː //
-# text_ortho = àmá bàː kóː dzàŋ gyòː hŋ́ oː //
+# text = àmá bàː kóː dzàŋ gyòː hŋ́ oː //!
+# text_ortho = àmá bàː kóː dzàŋ gyòː hŋ́ oː //!
 # text_en = But it's not any time!
 1	àmá	àmá	CCONJ	_	_	4	discourse	_	AlignBegin=446008|AlignEnd=446172|Gloss=but
 2	bàː	bàː	PART	_	Polarity=Neg	4	mod	_	AlignBegin=446172|AlignEnd=446336|Gloss=NEG1
-3	kóː	kóː	CCONJ	_	_	4	cc	_	AlignBegin=446336|AlignEnd=446500|Gloss=UNIV
+3	kóː	kóː	DET	_	_	4	det	_	AlignBegin=446336|AlignEnd=446500|Gloss=UNIV
 4	dzàŋ	dzàŋ	NOUN	_	_	0	root	_	AlignBegin=446500|AlignEnd=446664|Gloss=day
-5	gyòː	gyòː	DET	_	Number=Plur	4	det	_	AlignBegin=446664|AlignEnd=446828|Gloss=UNIV
+5	gyòː	gyòː	DET	_	Number=Plur	4	det	_	AlignBegin=446664|AlignEnd=446828|Gloss=PLUR
 6	hŋ́	hŋ́	PART	_	Polarity=Neg	4	mod	_	AlignBegin=446828|AlignEnd=446992|Gloss=NEG2
 7	oː	oː	PART	_	PartType=Emp	4	mod	_	AlignBegin=446992|AlignEnd=447156|Gloss=EMPH
-8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=447156|AlignEnd=447320|Gloss=PUNCT
+8	//!	//!	PUNCT	_	_	4	punct	_	AlignBegin=447156|AlignEnd=447320|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_297-297
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
 # sent_timecode = 447460, 449240
-# text = ʤìni gíː ɗan kusuŋ yáː fi kəndá ʧîː fi gíː //
-# text_ortho = ʤìni gíː ɗan kusuŋ yáː fî kəndá ʧîː fi gíː //
+# text = ʤìni gíː ɗaŋ kusuŋ yáː fî ɣəndá ʧîː fi gíː //
+# text_ortho = ʤìni gíː ɗaŋ kusuŋ yáː fî ɣəndá ʧîː fi gíː //
 # text_en = It's only the year that there is a famine that they do this.
-1	ʤìni	ʤìni	NOUN	_	_	8	subj	_	AlignBegin=447460|AlignEnd=447622|Gloss=year
+1	ʤìni	ʤìni	NOUN	_	_	7	comp:pred	_	AlignBegin=447460|AlignEnd=447622|Gloss=year
 2	gíː	gíː	DET	_	PronType=Dem	1	det	_	AlignBegin=447622|AlignEnd=447784|Gloss=DIST
 3	ɗan	ɗan	SCONJ	_	PronType=Rel	1	mod@relcl	_	AlignBegin=447784|AlignEnd=447946|Gloss=REL
 4	kusuŋ	kusuŋ	NOUN	_	_	5	subj	_	AlignBegin=447946|AlignEnd=448108|Gloss=hunger
 5	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	3	comp:obj	_	AlignBegin=448108|AlignEnd=448270|Gloss=3SG.ICPL
 6	fi	fi	VERB	_	_	5	comp:aux	_	AlignBegin=448270|AlignEnd=448432|Gloss=do
-7	kəndá	kəndá	ADV	_	_	6	mod	_	AlignBegin=448432|AlignEnd=448594|Gloss=then
-8	ʧîː	yí	AUX	_	Mood=Irr|Number=Sing|Person=3	0	root	_	AlignBegin=448594|AlignEnd=448756|Gloss=3PL.ITER
+7	kəndá	kəndá	PART	_	_	0	root	_	AlignBegin=448432|AlignEnd=448594|Gloss=then
+8	ʧîː	yí	AUX	_	Mood=Irr|Number=Sing|Person=3	7	comp:cleft	_	AlignBegin=448594|AlignEnd=448756|Gloss=3PL.ITER
 9	fi	fi	VERB	_	_	8	comp:aux	_	AlignBegin=448756|AlignEnd=448918|Gloss=do
 10	gíː	gíː	DET	_	PronType=Dem	9	comp:obj	_	AlignBegin=448918|AlignEnd=449080|Gloss=DIST
-11	//	//	PUNCT	_	_	8	punct	_	AlignBegin=449080|AlignEnd=449240|Gloss=PUNCT
+11	//	//	PUNCT	_	_	7	punct	_	AlignBegin=449080|AlignEnd=449240|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_298-298
 # speaker_id = SP1
