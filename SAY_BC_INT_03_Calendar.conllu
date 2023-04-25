@@ -2797,9 +2797,10 @@
 3	gíː	gíː	DET	_	PronType=Dem	2	det	_	AlignBegin=444430|AlignEnd=444592|Gloss=DIST
 4	ɗan	ɗan	SCONJ	_	_	0	root	_	AlignBegin=444592|AlignEnd=444754|Gloss=REL
 5	kusúŋ	kusuŋ	NOUN	_	Definite=Cons	6	subj	_	AlignBegin=444754|Gloss=hunger
-6	fî	fi	VERB	_	_	4	comp:obj	_	AlignBegin=444916|AlignEnd=445078|Gloss=do
-7	fáː	fáː	PART	_	_	4	mod	_	AlignBegin=445078|AlignEnd=445240|Gloss=indeed
-8	//!	//!	PUNCT	_	_	4	punct	_	AlignBegin=445240|AlignEnd=445400|Gloss=PUNCT
+6	*X	*X	AUX	_	0	_	_	_	_
+7	fî	fi	VERB	_	_	4	comp:obj	_	AlignBegin=444916|AlignEnd=445078|Gloss=do
+8	fáː	fáː	PART	_	_	4	mod	_	AlignBegin=445078|AlignEnd=445240|Gloss=indeed
+9	//!	//!	PUNCT	_	_	4	punct	_	AlignBegin=445240|AlignEnd=445400|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_296-296
 # speaker_id = SP1
@@ -2912,31 +2913,31 @@
 # sent_timecode = 458838, 463660
 # text = á lə̌pm Zaːri ɓét >+ tá kât tá kât kusɲi //+ dùmín tàː tuːr gyáː ɗûː //
 # text_ortho = á lə̌pm zaːri ɓét >+ tá kât tá kât kusɲi //+ dùmín tàː tuːr gyáː ɗûː //
-# text_en = During the Zaar festival indeed, they would chase famine away because they have brewed beer. 
-1	ká	ká	ADP	_	_	6	parataxis@conj	_	AlignBegin=458838|AlignEnd=459006|Gloss=at
-2	lə̌pm	lə̌pm	NOUN	_	_	6	comp:aux	_	AlignBegin=459006|AlignEnd=459174|Gloss=festival
-3	Zaːri	Zaːri	PROPN	_	_	2	mod	_	AlignBegin=459174|AlignEnd=459342|Gloss=Zaar|wordform=Zaːr
-4	ɓét	ɓét	ADV	_	_	2	mod	_	AlignBegin=459342|AlignEnd=459510|Gloss=all
-5	>+	>+	PUNCT	_	_	1	punct	_	AlignBegin=459510|AlignEnd=459676|Gloss=PUNCT
-6	tá	wò	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=459676|AlignEnd=459966|Gloss=3PL.FUT
+# text_en = It's only during the Zaari festival they would chase famine away because they have brewed beer. 
+1	á	ká	ADP	_	_	0	root	_	AlignBegin=458838|AlignEnd=459006|Gloss=at
+2	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	1	comp:obj	_	AlignBegin=459006|AlignEnd=459174|Gloss=festival-CONS
+3	Zaːri	Zaːri	PROPN	_	_	2	compound	_	AlignBegin=459174|AlignEnd=459342|Gloss=Zaar|wordform=Zaːri
+4	ɓét	ɓét	ADV	_	_	1	mod	_	AlignBegin=459342|AlignEnd=459510|Gloss=all
+5	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=459510|AlignEnd=459676|Gloss=PUNCT
+6	tá	wò	AUX	_	Number=Plur|Person=3|Tense=Fut	1	comp:cleft	_	AlignBegin=459676|AlignEnd=459966|Gloss=3PL.FUT
 7	kat	kat	VERB	_	_	6	comp:aux	_	AlignBegin=459966|AlignEnd=460256|Gloss=drive_away
-8	tá	wò	AUX	_	Number=Plur|Person=3|Tense=Fut	7	parataxis@comp	_	AlignBegin=460256|AlignEnd=460417|Gloss=3PL.FUT
-9	kat	kat	VERB	_	_	6	comp:aux	_	AlignBegin=460417|AlignEnd=460578|Gloss=drive_away
-10	kusuŋ-i	kusuŋ-i	NOUN	_	_	9	comp:obj	_	AlignBegin=460578|AlignEnd=460739|Gloss=hunger|wordform=kusuŋ
-11	//+	//+	PUNCT	_	_	6	punct	_	AlignBegin=460739|AlignEnd=460900|Gloss=PUNCT
-12	dùmín	dùmín	SCONJ	_	_	0	discourse	_	AlignBegin=461940|AlignEnd=462662|Gloss=because
-13	tàː	àː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=462662|AlignEnd=462862|Gloss=3PL.CPL
-14	tuːr	tuːr	VERB	_	_	0	comp:aux	_	AlignBegin=462862|AlignEnd=463062|Gloss=cook
-15	gyáː	gyáː	DET	_	Number=Plur	0	det	_	AlignBegin=463062|AlignEnd=463262|Gloss=PL
-16	ɗûː	ɗûː	NOUN	_	_	0	comp:obj	_	AlignBegin=463262|AlignEnd=463462|Gloss=beer
-17	//	//	PUNCT	_	_	0	punct	_	AlignBegin=463462|AlignEnd=463660|Gloss=PUNCT
+8	tá	wò	AUX	_	Number=Plur|Person=3|Tense=Fut	6	conj:dicto	_	AlignBegin=460256|AlignEnd=460417|Gloss=3PL.FUT
+9	kât	kat	VERB	_	_	8	comp:aux	_	AlignBegin=460417|AlignEnd=460578|Gloss=drive_away
+10	kusɲi	kusuŋ	NOUN	_	Definite=Ind	9	comp:obj	_	AlignBegin=460578|AlignEnd=460739|Gloss=hunger|wordform=kusuŋ-IND
+11	//+	//+	PUNCT	_	_	12	punct	_	AlignBegin=460739|AlignEnd=460900|Gloss=PUNCT
+12	dùmín	dùmín	SCONJ	_	_	1	mod	_	AlignBegin=461940|AlignEnd=462662|Gloss=because
+13	tàː	àː	AUX	_	Aspect=Perf|Number=Plur|Person=3	12	comp:obj	_	AlignBegin=462662|AlignEnd=462862|Gloss=3PL.CPL
+14	tuːr	tuːr	VERB	_	_	13	comp:aux	_	AlignBegin=462862|AlignEnd=463062|Gloss=cook
+15	gyáː	gyáː	DET	_	Number=Plur	16	det	_	AlignBegin=463062|AlignEnd=463262|Gloss=PL
+16	ɗûː	ɗûː	NOUN	_	_	14	comp:obj	_	AlignBegin=463262|AlignEnd=463462|Gloss=beer
+17	//	//	PUNCT	_	_	1	punct	_	AlignBegin=463462|AlignEnd=463660|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_308-309
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
 # sent_timecode = 464420, 466520
-# text = ká tuːr gyáː nákat //= kə́ ʧi tôː kusuŋ-́ kír-íː kən //
-# text_ortho = ká tûːr gyáː nákat //= kə́ ʧî tôː kusúŋ kîríː kəndí //
+# text = ká tuːr gyáː nákat //= kə́ ʧî tôː kusúŋ kîríː ɣəndí //
+# text_ortho = ká tûːr gyáː náɣat //= kə́ ʧî tôː kusúŋ kîríː kəndí //
 # text_en = You would cook some food, eat, and famine would run away.
 1	ká	wò	AUX	_	Number=Plur|Person=2|Tense=Fut	0	root	_	AlignBegin=464420|AlignEnd=464563|Gloss=2PL.FUT
 2	tuːr	tuːr	VERB	_	_	1	comp:aux	_	AlignBegin=464563|AlignEnd=464706|Gloss=cook
@@ -2947,9 +2948,10 @@
 7	ʧi	ʧi	VERB	_	_	1	comp:aux	_	AlignBegin=465333|AlignEnd=465531|Gloss=eat
 8	tôː	tôː	PART	_	_	6	discourse	_	AlignBegin=465531|AlignEnd=465729|Gloss=DM
 9	kusuŋ-́	kusuŋ-́	NOUN	_	Definite=Cons	2	comp:obj	_	AlignBegin=465729|AlignEnd=465927|Gloss=hunger|wordform=kusuŋ
-10	kír-íː	ír	VERB	_	Deixis=Dist	9	mod	_	AlignBegin=465927|AlignEnd=466125|Gloss=run|wordform=kír
-11	kən	kən	PART	_	VerbType=Cop	1	mod	_	AlignBegin=466125|AlignEnd=466323|Gloss=be
-12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=466323|AlignEnd=466520|Gloss=PUNCT
+10	*X	*X	AUX	_	0	_	_	_	_
+11	kír-íː	ír	VERB	_	Aspect=Res	9	mod	_	AlignBegin=465927|AlignEnd=466125|Gloss=run-RES|wordform=kír
+12	kən	kən	PART	_	VerbType=Cop	1	mod	_	AlignBegin=466125|AlignEnd=466323|Gloss=be
+13	//	//	PUNCT	_	_	1	punct	_	AlignBegin=466323|AlignEnd=466520|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_310-313
 # speaker_id = SP1
