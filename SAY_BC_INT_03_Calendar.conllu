@@ -1363,7 +1363,7 @@
 3	yóːɗan	yóːɗan	PRON	_	PronType=Rel	2	mod@relcl	_	AlignBegin=215674|AlignEnd=215821|Gloss=which
 4	ʧǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	3	comp:obj	_	AlignBegin=215821|AlignEnd=215968|Gloss=3PL.ICPL
 5	ʧâː	ʧaː	VERB	_	_	4	comp:aux	_	AlignBegin=215968|AlignEnd=216115|Gloss=put
-6	gwàːsə̀ŋ	gwàːsə̀ŋ	DET	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	7	det	_	AlignBegin=216115|AlignEnd=216262|Gloss=3PL.POS
+6	gwàːsə̀ŋ	gwàːsə̀ŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	5	mod@top	_	AlignBegin=216115|AlignEnd=216262|Gloss=3PL.POS
 7	lûː	lûː	NOUN	_	_	5	comp:obj	_	AlignBegin=216262|AlignEnd=216409|Gloss=shirt
 8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=216409|AlignEnd=216559|Gloss=PUNCT
 9	tôː	tôː	PART	_	_	10	discourse	_	AlignBegin=216559|AlignEnd=216735|Gloss=DM
@@ -1385,7 +1385,7 @@
 # sent_timecode = 221360, 227700
 # text = tôː < ginín ʧáː ʧet ɗúːni ɗa tu ká lóːkaʧí gyôː ɣəŋ kyàːyi fiʃíɣáyoː ?//
 # text_ortho = tôː < ginín ʧáː ʧet ɗûːn ɗa tu < á lóːkaʧí gyóː kən < kyàːyi fiʃí káy oː ?//
-# text_en = Well, this one is asking when did you do them?
+# text_en = Well, this one, they are asking here when did you do them?
 1	tôː	tòː	PART	_	_	4	discourse	_	AlignBegin=221360|AlignEnd=221530|Gloss=DM
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=221530|AlignEnd=221700|Gloss=PUNCT
 3	ginín	ginín	PRON	_	Deixis=Prox|PronType=Dem	4	dislocated@top	_	AlignBegin=222280|AlignEnd=222497|Gloss=PROX
@@ -1393,7 +1393,7 @@
 5	ʧet	ʧet	VERB	_	_	4	comp:aux	_	AlignBegin=222714|AlignEnd=222931|Gloss=ask
 6	ɗúːni	ɗúːni	ADV	_	PronType=Dem	5	mod	_	AlignBegin=222931|AlignEnd=223148|Gloss=here
 7	ɗa	ɗa	PART	_	_	5	compound:prt	_	AlignBegin=223148|AlignEnd=223365|Gloss=again
-8	tu	tu	PART	_	Mood=Qot	5	comp:obj	_	AlignBegin=223365|AlignEnd=223582|Gloss=COMP
+8	tu	tu	SCONJ	_	Mood=Qot	5	comp:obj	_	AlignBegin=223365|AlignEnd=223582|Gloss=COMP
 9	ká	ká	ADP	_	_	12	comp:pred	_	AlignBegin=224760|AlignEnd=225000|Gloss=at
 10	lóːkaʧí	lóːkaʧí	NOUN	_	Definite=Cons	9	comp:obj	_	AlignBegin=225000|AlignEnd=225240|Gloss=time
 11	gyôː	gyoôː	DET	_	PronType=Int	10	det	_	AlignBegin=225240|AlignEnd=225480|Gloss=which
@@ -1541,27 +1541,27 @@
 # sent_timecode = 243825, 246820
 # text = Mársəŋ ʧǎː fítə tə́ lə̌pm Žàːr bàː gwàːsə̀ŋ wâː fi ngə́tn wónə̌ŋ áy //
 # text_ortho = Mársəŋ ʧǎː fítə tə́ lə̌pm Žàːr bàː gwàːsə̀ŋ wâː fi ngə́tn wónə̌ŋ áy //
-# text_en = Lusa, when they do it, at the Jar festival, their guineacorn isn't ripe indeed.
-1	Mársəŋ	Mársəŋ	PROPN	_	_	11	dislocated@top	_	AlignBegin=243825|AlignEnd=244055|Gloss=Lusa
-2	ʧǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	11	parataxis@mod	_	AlignBegin=244055|AlignEnd=244285|Gloss=3PL.IPFV
+# text_en = Lusa, they do it at the Jar festival, when for them, the guineacorn isn't ripe indeed.
+1	Mársəŋ	Mársəŋ	PROPN	_	_	2	dislocated@top	_	AlignBegin=243825|AlignEnd=244055|Gloss=Lusa
+2	ʧǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=244055|AlignEnd=244285|Gloss=3PL.IPFV
 3-4	fítə	_	_	_	_	_	_	_	_
 3	fî	fi	VERB	_	_	2	comp:aux	_	AlignBegin=244285|AlignEnd=244400|Gloss=do
 4	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=244400|AlignEnd=244515|Gloss=3SG.OBJ
-5	tə́	tə́	ADP	_	_	11	mod	_	AlignBegin=244515|AlignEnd=244600|Gloss=with
+5	tə́	tə́	ADP	_	_	3	mod	_	AlignBegin=244515|AlignEnd=244600|Gloss=with
 6	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	5	comp:obj	_	AlignBegin=244600|AlignEnd=244745|Gloss=festival-CONS
 7	Žàːr	Žàːr	PROPN	_	_	6	compound	_	AlignBegin=244745|AlignEnd=244975|Gloss=Jar
 8	bàː	bàː	PART	_	Polarity=Neg	11	mod	_	AlignBegin=244975|AlignEnd=245205|Gloss=NEG1
-9	gwàːsə̀ŋ	gwàːsə̀ŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	10	mod@poss	_	AlignBegin=245205|AlignEnd=245435|Gloss=3PL.POS
+9	gwàːsə̀ŋ	gwàːsə̀ŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	11	mod@top	_	AlignBegin=245205|AlignEnd=245435|Gloss=3PL.POS
 10-11	wâː	_	_	_	_	_	_	_	_
 10	wâː	wâː	NOUN	_	_	11	subj	_	AlignBegin=245435|AlignEnd=245665|Gloss=guineacorn
-11	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	Gloss=3SG.CMPL
+11	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	2	parataxis@mod	_	Gloss=3SG.CMPL
 12	fi	fi	VERB	_	_	11	comp:aux	_	AlignBegin=245665|AlignEnd=245895|Gloss=do
 13	ngə́tn	ngə́tn	NOUN	_	_	12	comp:obj	_	AlignBegin=245895|AlignEnd=246125|Gloss=thing
 14-15	wónə̌ŋ	_	_	_	_	_	_	_	_
 14	wón	wón	DET	_	Definite=Spec	13	det	_	AlignBegin=246125|AlignEnd=246240|Gloss=SPEC
 15	hŋ́	hŋ́	PART	_	Polarity=Neg	11	mod	_	AlignBegin=246240|AlignEnd=246355|Gloss=NEG2
 16	áy	áy	INTJ	_	_	11	discourse	_	AlignBegin=246355|AlignEnd=246585|Gloss=indeed
-17	//	//	PUNCT	_	_	11	punct	_	AlignBegin=246585|AlignEnd=246820|Gloss=PUNCT
+17	//	//	PUNCT	_	_	2	punct	_	AlignBegin=246585|AlignEnd=246820|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_154-154
 # speaker_id = SP2
