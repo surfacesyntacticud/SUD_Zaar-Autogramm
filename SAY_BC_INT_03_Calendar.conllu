@@ -1978,7 +1978,7 @@
 # sent_timecode = 300280, 302060
 # text = ɗan káː nal fuŋ ŋâː ?//
 # text_ortho = ɗan káː nal fuŋ ŋâː ?//
-# text_en = When you build a granary?
+# text_en = When you built a granary?
 1	ɗan	ɗan	SCONJ	_	_	0	root	_	AlignBegin=300280|AlignEnd=300577|Gloss=as
 2	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	1	comp:obj	_	AlignBegin=300577|AlignEnd=300874|Gloss=2SG.CPL
 3	nal	nal	VERB	_	_	2	comp:aux	_	AlignBegin=300874|AlignEnd=301171|Gloss=build
@@ -2014,30 +2014,31 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
 # sent_timecode = 308071, 312349
-# text = ndə́ːʧi gíː ɗan nə mbóri bàː ɲáŋ hŋ́ fáː < ɗan tə́ mbur =tə fyá# || tə́ mbúrtə̀ kyáːɗíː //
+# text = ndə́ːʧi gíː ɗan nə mbóri bàː ɲáŋ hŋ́ fáː < ɗan tə́ mbúrtə fyá~ || tə́ mbúrtə̀ kyáːɗíː //
 # text_ortho = ndə́ːʧi gíː ɗan nə mbóri bàː ɲáŋ hŋ́ fáː < ɗan tə́ mbúrtə̀ fyá# || tə́ mbúrtə̀ kyáːɗíː //
 # text_en = These dregs and the new beer that is not finished brewing yet then they would mix it with ... they would mix them quickly .
-1	ndə́ːʧi	ndə́ːʧi	NOUN	_	_	7	dislocated@subj	_	AlignBegin=308071|AlignEnd=308258|Gloss=dregs
-2	gíː	gíː	DET	_	PronType=Dem|Deixis=Dist	1	det	_	AlignBegin=308258|AlignEnd=308445|Gloss=DIST
+1	ndə́ːʧi	ndə́ːʧi	NOUN	_	_	13	dislocated@comp	_	AlignBegin=308071|AlignEnd=308258|Gloss=dregs
+2	gíː	gíː	DET	_	Deixis=Dist|PronType=Dem	1	det	_	AlignBegin=308258|AlignEnd=308445|Gloss=DIST
 3	ɗan	ɗan	SCONJ	_	_	1	mod@relcl	_	AlignBegin=308445|AlignEnd=308632|Gloss=REL
 4	nə	nə	PART	_	VerbType=Cop	3	comp:obj	_	AlignBegin=308632|AlignEnd=308819|Gloss=be
 5	mbóri	mbóri	ADJ	_	_	4	comp:pred	_	AlignBegin=308819|AlignEnd=309006|Gloss=half_cooked
 6-7	bàː	_	_	_	_	_	_	_	_
 6	bàː	bàː	PART	_	Polarity=Neg	7	mod	_	AlignBegin=309006|Gloss=NEG1
-7	àː	àː	AUX	_	Aspect=Perf	13	parataxis@mod	_	AlignEnd=309193|Gloss=3SG.CPL
+7	àː	àː	AUX	_	Aspect=Perf	4	conj:dicto	_	AlignEnd=309193|Gloss=3SG.CPL
 8	ɲáŋ	ɲáŋ	VERB	_	_	7	comp:aux	_	AlignBegin=309193|AlignEnd=309380|Gloss=be_cooked
 9	hŋ́	hŋ́	PART	_	Polarity=Neg	7	mod	_	AlignBegin=309380|AlignEnd=309567|Gloss=NEG2
 10	fáː	fáː	PART	_	_	7	discourse	_	AlignBegin=309567|AlignEnd=309754|Gloss=indeed
-11	<	<	PUNCT	_	_	7	punct	_	AlignBegin=309754|AlignEnd=309940|Gloss=PUNCT
+11	<	<	PUNCT	_	_	1	punct	_	AlignBegin=309754|AlignEnd=309940|Gloss=PUNCT
 12	ɗan	ɗan	ADV	_	_	13	mod	_	AlignBegin=310420|AlignEnd=310659|Gloss=then
 13	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=310659|AlignEnd=310898|Gloss=3PL.AOR
-14	mbur	mbur	VERB	_	_	13	comp:aux	_	AlignBegin=310898|AlignEnd=311018|Gloss=mix
+14-15	mbúrtə	_	_	_	_	_	_	_	_	
+14	mbûr	mbur	VERB	_	_	13	comp:aux	_	AlignBegin=310898|AlignEnd=311018|Gloss=mix
 15	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	14	comp:obj	_	AlignBegin=311018|AlignEnd=311137|Gloss=3SG.OBJ
 16	fyá~	fyá~	IDEO	_	_	14	mod	_	AlignBegin=311137|AlignEnd=311376|Gloss=quickly
 17	||	||	PUNCT	_	_	18	punct	_	AlignBegin=311376|AlignEnd=311616|Gloss=PUNCT
 18	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	13	conj:dicto	_	AlignBegin=311616|AlignEnd=311799|Gloss=3PL.AOR
 19-20	mbúrtə̀ kyáːɗíː	_	_	_	_	_	_	_	_
-19	*mbûr-íː	mbur	VERB	_	Aspect=Res	18	comp:aux	_	AlignBegin=311799|AlignEnd=311891|Gloss=mix-RES|wordform=#mbûr-íː
+19	*mbûr-íː	mbur	VERB	_	Aspect=Res	18	comp:aux	_	AlignBegin=311799|AlignEnd=311891|Gloss=mix-RES|wordform=mbûr
 20	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	AlignBegin=311891|AlignEnd=311982|Gloss=3SG.OBJ
 21	kyâːt	kyâːt	IDEO	_	_	19	mod	_	AlignBegin=311982|AlignEnd=312165|Gloss=quickly
 22	//	//	PUNCT	_	_	13	punct	_	AlignBegin=312165|AlignEnd=312349|Gloss=PUNCT
