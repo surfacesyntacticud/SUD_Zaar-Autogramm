@@ -56,8 +56,8 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
 # sent_timecode = 11213, 14000
-# text = tôː kə̀tà yír gyáː gwàːn káʃi wuriː //
-# text_ortho = tôː kə̀tà yír gyáː gwàːn káʃi wuriː //
+# text = tôː kə̀tà yír gyáː gwàːn káʃi wuriː ?//
+# text_ortho = tôː kə̀tà yír gyáː gwàːn káʃi wuriː ?//
 # text_en = Well how many types did you have?
 1	tôː	tôː	PART	_	_	2	discourse	_	AlignBegin=11213|AlignEnd=11486|Gloss=DM
 2	kə̀tà	átâ	AUX	_	Number=Plur|Person=2|Tense=Rem	0	root	_	AlignBegin=11486|AlignEnd=11759|Gloss=2PL.REM
@@ -66,21 +66,21 @@
 5	gwàːn	gwàːn	PRON	_	Number=Plur	3	comp:obj	_	AlignBegin=12305|AlignEnd=12580|Gloss=2PL.POS
 6	káʃi	káʃi	NOUN	_	_	5	mod	_	AlignBegin=13280|AlignEnd=13520|Gloss=type
 7	wuriː	wuri	DET	_	PronType=Int	6	det	_	AlignBegin=13520|AlignEnd=13760|Gloss=how_many
-8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=13760|AlignEnd=14000|Gloss=PUNCT
+8	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=13760|AlignEnd=14000|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_009-009
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
 # sent_timecode = 14760, 15620
-# text = àː kwáːnmí mə́n <
-# text_ortho = àː kwáːnmí mə́n //
+# text = àː kwáːnmí mə́n !//
+# text_ortho = àː kwáːnmí mə́n !//
 # text_en = Tell us.
 1	àː	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=2	0	root	_	AlignBegin=14760|AlignEnd=14975|Gloss=2SG.SBJV
 2-3	kwáːnmí	_	_	_	_	_	_	_	_
 2	kwáːn	kon	VERB	_	Number=Plur	1	comp:aux	_	AlignBegin=14975|AlignEnd=15083|Gloss=say-PL
 3	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	comp:ben	_	AlignBegin=15083|AlignEnd=15190|Gloss=1PL.OBJ
 4	mə́n	mə́n	PART	_	Case=Ben	2	compound:prt	_	AlignBegin=15190|AlignEnd=15405|Gloss=BEN
-5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=15405|AlignEnd=15620|Gloss=PUNCT
+5	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=15405|AlignEnd=15620|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_010-010
 # speaker_id = SP1
@@ -263,7 +263,7 @@
 5	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=50884|AlignEnd=51060|Gloss=PUNCT
 6	kə́	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	1	parataxis@conj	_	AlignBegin=51620|AlignEnd=51835|Gloss=2PL.AOR
 7	ngyǎːr	nger	VERB	_	Number=Plur	6	comp:aux	_	AlignBegin=51835|AlignEnd=51943|Gloss=slaughter.PL
-8	galtsə́	gàːl	NOUN	_	_	7	comp:obj	_	AlignBegin=52050|AlignEnd=52265|Gloss=cow|wordform=gàːl
+8	galtsə́	gàːl	NOUN	_	_	7	comp:obj	_	AlignBegin=52050|AlignEnd=52265|Gloss=cow.PL
 9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=52265|AlignEnd=52480|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_032-032
@@ -432,10 +432,10 @@
 2	gìt	git	VERB	_	_	1	comp:aux	_	AlignBegin=76382|AlignEnd=76490|Gloss=show
 3	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	comp:ben	_	AlignBegin=76490|AlignEnd=76599|Gloss=1PL.OBJ
 4	tu	tu	SCONJ	_	Mood=Qot	2	comp:obj	_	AlignBegin=76599|AlignEnd=76816|Gloss=COMP
-5	nə	nə	PART	_	VerbType=Cop	2	compound:prt	_	AlignBegin=76816|AlignEnd=77033|Gloss=be
-6	gwàːn	gwàːn	PRON	_	_	5	comp:pred	_	AlignBegin=77033|AlignEnd=77250|Gloss=2PL.POS
-7	hŋ́	hŋ́	PART	_	Polarity=Neg	1	mod	_	AlignBegin=77250|AlignEnd=77467|Gloss=NEG2
-8	gəndí	kəndí	PART	_	_	1	mod	_	AlignBegin=77467|AlignEnd=77684|Gloss=be
+5	nə	nə	PART	_	VerbType=Cop	4	comp:obj	_	AlignBegin=76816|AlignEnd=77033|Gloss=be
+6	gwàːn	gwàːn	PRON	_	PronType=Prs	5	comp:pred	_	AlignBegin=77033|AlignEnd=77250|Gloss=2PL.POS
+7	hŋ́	hŋ́	PART	_	Polarity=Neg	5	mod	_	AlignBegin=77250|AlignEnd=77467|Gloss=NEG2
+8	gəndí	kəndí	PART	_	_	5	mod	_	AlignBegin=77467|AlignEnd=77684|Gloss=be
 9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=77684|AlignEnd=77900|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_046-046
@@ -501,11 +501,11 @@
 # sent_timecode = 85440, 86180
 # text = èː myàːní ɣə̂n ?//
 # text_ortho = èː myàːní ɣə̂n ?//
-# text_en = Yes, for us?
-1	èː	èː	INTJ	_	_	2	discourse	_	AlignBegin=85440|AlignEnd=85625|Gloss=yes
-2	myàːní	myàːáːni	PRON	_	Number=Sing|Person=1|PronType=Prs	0	root	_	AlignBegin=85625|AlignEnd=85810|Gloss=1PL.IDP
-3	ɣə̂n	kən	PART	_	VerbType=Cop	2	mod	_	AlignBegin=85810|AlignEnd=85995|Gloss=be
-4	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=85995|AlignEnd=86180|Gloss=PUNCT
+# text_en = Yes,for us?
+1	èː	èː	INTJ	_	_	3	discourse	_	AlignBegin=85440|AlignEnd=85625|Gloss=yes
+2	myàːní	myàːáːni	PRON	_	Number=Sing|Person=1|PronType=Prs	3	comp:pred	_	AlignBegin=85625|AlignEnd=85810|Gloss=1PL.IDP
+3	ɣə̂n	kən	PART	_	VerbType=Cop	0	root	_	AlignBegin=85810|AlignEnd=85995|Gloss=be
+4	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=85995|AlignEnd=86180|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_051-052
 # speaker_id = SP1
@@ -550,7 +550,7 @@
 4	bə̀kês	bə̀ki	NOUN	_	Definite=Def	3	comp:obj	_	AlignBegin=90800|AlignEnd=90993|Gloss=celebration
 5	kəndí	kəndí	PART	_	VerbType=Cop	3	mod	_	AlignBegin=90993|AlignEnd=91186|Gloss=be
 6-7	ŋǎːn	_	_	_	_	_	_	_	_
-6	ŋa:	a:	PART	_	PartType=Int	5	mod	_	AlignBegin=91186|AlignEnd=91379|Gloss=VRT
+6	ŋa:	a:	PART	_	PartType=Int	1	mod	_	AlignBegin=91186|AlignEnd=91379|Gloss=VRT
 7	hŋ́	hŋ́	PART	_	Polarity=Neg	1	mod	_	AlignBegin=91379|AlignEnd=91572|Gloss=NEG2
 8	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=91572|AlignEnd=91765|Gloss=PUNCT
 
@@ -692,10 +692,10 @@
 # text = dùmín < Tʃokŋ á ɗyǎːkí́ hár ɣə́ mân á ləpí gíː < tôː ká fî lə̌pm Zaːr //
 # text_ortho = dùmín < Tʃokŋ á ɗyǎːkí́ hár ɣə́ mân á ləpí gíː < tôː ká fî lə̌pm Zaːr //
 # text_en = Because God has enabled you to reach that month, well, you would do the Zaar festival.
-1	dùmín	dùmín	ADV	_	_	4	discourse	_	AlignBegin=114580|AlignEnd=115070|Gloss=because
-2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=115070|AlignEnd=115560|Gloss=PUNCT
+1	dùmín	dùmín	ADV	_	_	15	mod	_	AlignBegin=114580|AlignEnd=115070|Gloss=because
+2	<	<	PUNCT	_	_	4	punct	_	AlignBegin=115070|AlignEnd=115560|Gloss=PUNCT
 3	Tʃokŋ	Tʃokŋ	PROPN	_	_	4	subj	_	AlignBegin=116560|AlignEnd=116933|Gloss=God
-4	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=116933|AlignEnd=117306|Gloss=3SG.AOR
+4	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	1	comp:obj	_	AlignBegin=116933|AlignEnd=117306|Gloss=3SG.AOR
 5-6	ɗyǎːkí́	_	_	_	_	_	_	_	_
 5	ɗyǎː	ɗyáː	VERB	_	_	4	comp:aux	_	AlignBegin=117306|AlignEnd=117493|Gloss=be_able
 6	=kí	=kí	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	5	comp:obj	_	AlignBegin=117493|AlignEnd=117680|Gloss=2PL.OBJ
@@ -705,13 +705,13 @@
 10	á	ká	ADP	_	_	9	comp:obl	_	AlignBegin=119040|AlignEnd=119200|Gloss=at
 11	ləpí	lə̌pm	NOUN	_	Definite=Ind	10	comp:obj	_	AlignBegin=119200|AlignEnd=119360|Gloss=festival-IND
 12	gíː	gíː	DET	_	PronType=Dem	11	det	_	AlignBegin=119360|AlignEnd=119520|Gloss=DIST
-13	<	<	PUNCT	_	_	4	punct	_	AlignBegin=119520|AlignEnd=119680|Gloss=PUNCT
+13	<	<	PUNCT	_	_	1	punct	_	AlignBegin=119520|AlignEnd=119680|Gloss=PUNCT
 14	tôː	tôː	PART	_	_	15	discourse	_	AlignBegin=120060|AlignEnd=120283|Gloss=DM
-15	ká	wò	AUX	_	Aspect=Perf|Number=Sing|Person=2	4	parataxis@conj	_	AlignBegin=120283|AlignEnd=120506|Gloss=2PL.FUT
+15	ká	wò	AUX	_	Aspect=Perf|Number=Sing|Person=2	0	root	_	AlignBegin=120283|AlignEnd=120506|Gloss=2PL.FUT
 16	fî	fi	VERB	_	_	15	comp:aux	_	AlignBegin=120506|AlignEnd=120729|Gloss=do
 17	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	16	comp:obj	_	AlignBegin=120729|AlignEnd=120952|Gloss=festival-CONS
 18	Zaːr	Zaːr	PROPN	_	_	17	mod	_	AlignBegin=120952|AlignEnd=121175|Gloss=Zaar
-19	//	//	PUNCT	_	_	4	punct	_	AlignBegin=121175|AlignEnd=121400|Gloss=PUNCT
+19	//	//	PUNCT	_	_	15	punct	_	AlignBegin=121175|AlignEnd=121400|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_073-076
 # speaker_id = SP1
@@ -725,7 +725,7 @@
 3	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=123665|AlignEnd=123865|Gloss=2PL.SBJV
 4	yìsə́ŋə́y	yìsə́ŋ	VERB	_	Aspect=Res	3	comp:aux	_	AlignBegin=123865|AlignEnd=124065|Gloss=know|wordform=yìsə́ŋ
 5	tu	tu	SCONJ	_	Mood=Qot	4	comp:obj	_	AlignBegin=124065|AlignEnd=124265|Gloss=COMP
-6	Tʃokn	Tʃokn	PROPN	_	_	5	comp:obj	_	AlignBegin=124265|AlignEnd=124465|Gloss=God
+6	Tʃokn	Tʃokn	PROPN	_	_	7	subj	_	AlignBegin=124265|AlignEnd=124465|Gloss=God
 7	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	5	comp:obj	_	AlignBegin=124465|AlignEnd=124665|Gloss=3SG.AOR
 8-9	lə̌ːrkí	_	_	_	_	_	_	_	_
 8	lə̌ːr	lə́ːr	VERB	_	_	7	comp:aux	_	AlignBegin=124665|AlignEnd=124732|Gloss=bring
@@ -761,7 +761,7 @@
 # text_en = Yes, every festival, God has kept you alive.
 1	èː	èː	INTJ	_	_	7	discourse	_	AlignBegin=127520|AlignEnd=127731|Gloss=HESIT
 2	tôː	tôː	PART	_	_	7	discourse	_	AlignBegin=127731|AlignEnd=127942|Gloss=DM
-3	kóː	kóː	DET	_	_	7	discourse	_	AlignBegin=127942|AlignEnd=128153|Gloss=UNIV
+3	kóː	kóː	DET	_	_	7	mod	_	AlignBegin=127942|AlignEnd=128153|Gloss=UNIV
 4	ləpí	lə̌pm	NOUN	_	Definite=Ind	3	mod	_	AlignBegin=128153|AlignEnd=128364|Gloss=festival-IND
 5	gyòː	gyòː	DET	_	Number=Plur	4	det	_	AlignBegin=128364|AlignEnd=128575|Gloss=UNIV
 6	máː	máː	PART	_	_	3	mod	_	AlignBegin=128575|AlignEnd=128786|Gloss=also
@@ -772,7 +772,7 @@
 10	=kí	=kí	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	9	comp:obj	_	AlignBegin=129278|AlignEnd=129348|Gloss=2PL.OBJ
 11	ɗi	ɗi	PART	_	_	9	compound:prt	_	AlignBegin=129348|AlignEnd=129419|Gloss=CTP
 12	áy	áy	INTJ	_	_	7	discourse	_	AlignBegin=129419|AlignEnd=129630|Gloss=indeed
-13	//	//	PUNCT	_	_	6	punct	_	AlignBegin=129630|AlignEnd=129843|Gloss=PUNCT
+13	//	//	PUNCT	_	_	7	punct	_	AlignBegin=129630|AlignEnd=129843|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_079-079
 # speaker_id = SP1
@@ -840,16 +840,16 @@
 # text_en = Its reason, all there is is the Zaar festival.
 1	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	6	dislocated@subj	_	AlignBegin=137340|AlignEnd=137758|Gloss=3SG.IDP
 2-3	dèːwòs	_	_	_	_	_	_	_	_
-2	dèy	dèy	NOUN	_	_	1	mod	_	AlignBegin=137758|AlignEnd=137967|Gloss=reason
+2	dèy	dèy	NOUN	_	_	1	conj:appos	_	AlignBegin=137758|AlignEnd=137967|Gloss=reason
 3	=wôs	=wopm	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@poss	_	AlignBegin=137967|AlignEnd=138176|Gloss=3SG.POS
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=138176|AlignEnd=138595|Gloss=PUNCT
-5	ɓét	ɓét	VERB	_	_	6	mod	_	AlignBegin=138595|AlignEnd=138807|Gloss=all
+5	ɓét	ɓét	VERB	_	_	6	comp:pred	_	AlignBegin=138595|AlignEnd=138807|Gloss=all
 6	kəndí	kəndí	PART	_	_	0	root	_	AlignBegin=138807|AlignEnd=139019|Gloss=be
-7	tu	tu	SCONJ	_	Mood=Qot	6	unk	_	AlignBegin=139019|AlignEnd=139231|Gloss=COMP
-8	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	7	comp:obj	_	AlignBegin=139231|AlignEnd=139443|Gloss=festival-CONS
+7	tu	tu	PART	_	Mood=Qot	8	mod	_	AlignBegin=139019|AlignEnd=139231|Gloss=EVID
+8	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	6	comp:cleft	_	AlignBegin=139231|AlignEnd=139443|Gloss=festival-CONS
 9-10	Zaːroː	_	_	_	_	_	_	_	_
 9	Zaːr	Zaːr	NOUN	_	_	8	compound	_	AlignBegin=139443|AlignEnd=139655|Gloss=Zaar
-10	oː	oː	PART	_	PartType=Emp	5	mod	_	AlignBegin=139655|AlignEnd=139867|Gloss=EMPH
+10	oː	oː	PART	_	PartType=Emp	6	mod	_	AlignBegin=139655|AlignEnd=139867|Gloss=EMPH
 11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=139867|AlignEnd=140080|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_087-087
@@ -860,11 +860,12 @@
 # text_ortho = dèːwòs ɓét kəndí //
 # text_en = That's its only reason.
 1-2	dèːwòs	_	_	_	_	_	_	_	_
-1	dèy	dèy	NOUN	_	_	3	comp:pred	_	AlignBegin=140620|AlignEnd=140730|Gloss=reason
+1-2	dèːwòs	_	_	_	_	_	_	_	_
+1	dèy	dèy	NOUN	_	_	4	dislocated@subj	_	AlignBegin=140620|AlignEnd=140730|Gloss=reason
 2	=wôs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	mod@poss	_	AlignBegin=140730|AlignEnd=140840|Gloss=3SG.POS
-3	ɓét	ɓét	PART	_	_	0	root	_	AlignBegin=140840|AlignEnd=141060|Gloss=all
-4	kəndí	kən	PART	_	VerbType=Cop	3	mod	_	AlignBegin=141060|AlignEnd=141280|Gloss=be
-5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=141280|AlignEnd=141500|Gloss=PUNCT
+3	ɓét	ɓét	PART	_	_	4	comp:pred	_	AlignBegin=140840|AlignEnd=141060|Gloss=all
+4	kəndí	kən	PART	_	VerbType=Cop	0	root	_	AlignBegin=141060|AlignEnd=141280|Gloss=be
+5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=141280|AlignEnd=141500|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_088-093
 # speaker_id = SP1
@@ -877,25 +878,25 @@
 2	Zaːr	Zaːr	PROPN	_	_	1	compound	_	AlignBegin=142287|AlignEnd=142534|Gloss=Zaar
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=142534|AlignEnd=142781|Gloss=PUNCT
 4	m̀ː	m̀ː	INTJ	_	_	7	discourse	_	AlignBegin=142781|AlignEnd=143579|Gloss=HESIT
-5	gistə́	gistə́	VERB	_	_	1	compound	_	AlignBegin=143579|AlignEnd=143819|Gloss=harvest_season
-6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=143819|AlignEnd=144060|Gloss=PUNCT
+5	gistə́	gistə́	NOUN	_	_	7	mod	_	AlignBegin=143579|AlignEnd=143819|Gloss=harvest_season
+6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=143819|AlignEnd=144060|Gloss=PUNCT
 7	myàːyí	ʧáːyi	AUX	_	Number=Plur|Person=1|PronType=Prs	0	root	_	AlignBegin=144960|AlignEnd=145180|Gloss=1PL.ICPL.ITER
 8-9	fitə	_	_	_	_	_	_	_	_
 8	fi	fi	VERB	_	_	7	comp:aux	_	AlignBegin=145180|AlignEnd=145290|Gloss=do
-9	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	comp:ben	_	AlignBegin=145290|AlignEnd=145400|Gloss=3SG.OBJ
-10	gistə́	gistə́	VERB	_	_	8	comp:obj	_	AlignBegin=145400|AlignEnd=145620|Gloss=harvest_season
-11	||	||	PUNCT	_	_	12	punct	_	AlignBegin=145620|AlignEnd=145840|Gloss=PUNCT
-12	deːdéː	deːdéː	SCONJ	_	_	20	mod	_	AlignBegin=146200|AlignEnd=146525|Gloss=exactly|Lang=hau
-13	á	ká	AUX	_	_	12	comp:obj	_	AlignBegin=146525|AlignEnd=146850|Gloss=at
+9	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=145290|AlignEnd=145400|Gloss=3SG.OBJ
+10	gistə́	gistə́	NOUN	_	_	8	mod	_	AlignBegin=145400|AlignEnd=145620|Gloss=harvest_season
+11	|a	|a	PUNCT	_	_	13	punct	_	AlignBegin=145620|AlignEnd=145840|Gloss=PUNCT
+12	deːdéː	deːdéː	ADV	_	_	13	mod	_	AlignBegin=146200|AlignEnd=146525|Gloss=exactly|Lang=hau
+13	á	ká	AUX	_	_	10	conj:appos	_	AlignBegin=146525|AlignEnd=146850|Gloss=at
 14	wátan	wátan	DET	_	Definite=Spec	13	comp:obj	_	AlignBegin=146850|AlignEnd=147175|Gloss=month_of|Lang=hau
-15	||	||	PUNCT	_	_	16	punct	_	AlignBegin=147175|AlignEnd=147500|Gloss=PUNCT|Lang=hau
-16	dǎː	dǎː	ADV	_	_	20	conj:dicto	_	AlignBegin=147760|AlignEnd=148015|Gloss=formerly|Lang=hau
-17	máː	máː	PART	_	_	16	discourse	_	AlignBegin=148015|AlignEnd=148270|Gloss=just|Lang=hau
-18	tôː	tôː	PART	_	_	20	discourse	_	AlignBegin=148270|AlignEnd=148525|Gloss=well|Lang=hau
-19	wátan	wátan	NOUN	_	_	22	comp:obj	_	AlignBegin=148525|AlignEnd=148780|Gloss=month|Lang=hau
+15	||	||	PUNCT	_	_	19	punct	_	AlignBegin=147175|AlignEnd=147500|Gloss=PUNCT|Lang=hau
+16	dǎː	dǎː	ADV	_	Foreign=Yes	19	mod	_	AlignBegin=147760|AlignEnd=148015|Gloss=formerly|Lang=hau|Idiom=Yes|ExtPos=ADV
+17	máː	máː	PART	_	Foreign=Yes	16	unk	_	AlignBegin=148015|AlignEnd=148270|Gloss=just|Lang=hau|InIdiom=Yes
+18	tôː	tôː	PART	_	_	19	discourse	_	AlignBegin=148270|AlignEnd=148525|Gloss=well|Lang=hau
+19	wátan	wátan	NOUN	_	_	14	conj:dicto	_	AlignBegin=148525|AlignEnd=148780|Gloss=month|Lang=hau
 20	tára	tára	NUM	_	_	19	det	_	AlignBegin=148780|AlignEnd=149035|Gloss=nine|Lang=hau
-21	kóː	kóː	CCONJ	_	_	20	cc	_	AlignBegin=149035|AlignEnd=149290|Gloss=COORD|Lang=hau
-22	góːma	góːma	NUM	_	_	7	discourse	_	AlignBegin=149290|AlignEnd=149545|Gloss=ten|Lang=hau
+21	kóː	kóː	CCONJ	_	_	22	cc	_	AlignBegin=149035|AlignEnd=149290|Gloss=COORD|Lang=hau
+22	góːma	góːma	NUM	_	_	20	conj:coord	_	AlignBegin=149290|AlignEnd=149545|Gloss=ten|Lang=hau
 23	//	//	PUNCT	_	_	7	punct	_	AlignBegin=149545|AlignEnd=149800|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_094-096
@@ -906,7 +907,7 @@
 # text_ortho = tôː àkwéy gyáː ɲamri tsə́n < ʧàːyí zak ləpígwàːsə̀ŋ tu lə̌pm geɗí //
 # text_en = Well there are some Igbos like this who used to celebrate their festival named the Yam festival.
 1	tôː	tôː	PART	_	_	7	discourse	_	AlignBegin=150260|AlignEnd=150560|Gloss=DM
-2	àkwéy	àkwéy	PART	_	_	7	discourse	_	AlignBegin=150560|AlignEnd=150860|Gloss=there_is|Lang=hau
+2	àkwéy	àkwéy	PART	_	_	7	parataxis@top	_	AlignBegin=150560|AlignEnd=150860|Gloss=there_is|Lang=hau
 3	gyáː	gyáː	DET	_	Number=Plur	4	det	_	AlignBegin=150860|AlignEnd=151160|Gloss=PL
 4	Nyamri	Nyamri	PROPN	_	_	2	comp:pred	_	AlignBegin=151160|AlignEnd=151460|Gloss=Igbo
 5	tsə́n	tsəní	ADV	_	_	4	mod	_	AlignBegin=151460|AlignEnd=151760|Gloss=like_this
@@ -916,8 +917,8 @@
 9-10	ləpígwàːsə̀ŋ	_	_	_	_	_	_	_	_
 9	ləpí	lə̌pm	NOUN	_	Definite=Ind	8	comp:obj	_	AlignBegin=153132|AlignEnd=153508|Gloss=festival-IND
 10	=gwàːsə̀ŋ	=gwàːsə̀ŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	9	mod@poss	_	AlignBegin=153508|AlignEnd=153884|Gloss=3PL.POS
-11	tu	tu	SCONJ	_	Mood=Qot	9	mod@relcl	_	AlignBegin=153884|AlignEnd=154260|Gloss=COMP
-12	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	11	comp:obj	_	AlignBegin=155160|AlignEnd=155393|Gloss=festival-CONS
+11	tu	tu	PART	_	Mood=Qot	9	mod@relcl	_	AlignBegin=153884|AlignEnd=154260|Gloss=EVID
+12	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	11	comp:pred	_	AlignBegin=155160|AlignEnd=155393|Gloss=festival-CONS
 13	geɗí	geɗí	NOUN	_	Number=Plur	12	mod	_	AlignBegin=155393|AlignEnd=155626|Gloss=tuber
 14	//	//	PUNCT	_	_	7	punct	_	AlignBegin=155626|AlignEnd=155860|Gloss=PUNCT
 
@@ -928,11 +929,11 @@
 # text = èː tôː gíː ɗaɣás //
 # text_ortho = èː tôː gíː ɗaɣás //
 # text_en = Yes, well, remains this one.
-1	èː	èː	INTJ	_	_	3	discourse	_	AlignBegin=157500|AlignEnd=157716|Gloss=HESIT
-2	tôː	tôː	PART	_	_	3	discourse	_	AlignBegin=157716|AlignEnd=157932|Gloss=DM
-3	gíː	gíː	PRON	_	Deixis=Remt|PronType=Dem	0	root	_	AlignBegin=157932|AlignEnd=158148|Gloss=DIST
-4	ɗaɣás	ɗaɣás	VERB	_	_	3	mod	_	AlignBegin=158148|AlignEnd=158364|Gloss=be_unfinished
-5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=158364|AlignEnd=158580|Gloss=PUNCT
+1	èː	èː	INTJ	_	_	4	discourse	_	AlignBegin=157500|AlignEnd=157716|Gloss=HESIT
+2	tôː	tôː	PART	_	_	4	discourse	_	AlignBegin=157716|AlignEnd=157932|Gloss=DM
+3	gíː	gíː	PRON	_	Deixis=Remt|PronType=Dem	4	subj	_	AlignBegin=157932|AlignEnd=158148|Gloss=DIST
+4	ɗaɣás	ɗaɣás	VERB	_	_	0	root	_	AlignBegin=158148|AlignEnd=158364|Gloss=be_unfinished
+5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=158364|AlignEnd=158580|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_098-099
 # speaker_id = SP1
@@ -948,7 +949,7 @@
 5	ʧǎː	ʧáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=161623|AlignEnd=161846|Gloss=3PL.ICPL
 6	gìː	giː	VERB	_	_	5	comp:aux	_	AlignBegin=161846|AlignEnd=162069|Gloss=plough
 7	geɗí	geɗí	PRON	_	VerbType=Cop	6	comp:obj	_	AlignBegin=162069|AlignEnd=162292|Gloss=tuber
-8	ɣəndí	kəndí	PART	_	VerbType=Cop	6	mod	_	AlignBegin=162292|AlignEnd=162515|Gloss=be
+8	ɣəndí	kəndí	PART	_	VerbType=Cop	5	mod	_	AlignBegin=162292|AlignEnd=162515|Gloss=be
 9	//	//	PUNCT	_	_	5	punct	_	AlignBegin=162515|AlignEnd=162740|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_101-101
@@ -991,7 +992,7 @@
 2	zàk	zak	VERB	_	_	0	root	_	AlignBegin=167032|AlignEnd=167164|Gloss=celebrate
 3	lə̌pm	lə̌pm	NOUN	_	_	2	comp:obj	_	AlignBegin=167164|AlignEnd=167296|Gloss=festival
 4	gáy	káy	PRON	_	Person=3|PronType=Prs	2	comp@expl	_	AlignBegin=167296|AlignEnd=167428|Gloss=ANAPH
-5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=167428|AlignEnd=167560|Gloss=PUNCT
+5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=167428|AlignEnd=167560|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_104-104
 # speaker_id = SP2
@@ -1000,13 +1001,13 @@
 # text = tôː gwàːn kúmá tu lə̌pm Zaːr //
 # text_ortho = tôː gwàːn kúmá tu lə̌pm Zaːr //
 # text_en = well, yours is called the Zaar festival.
-1	tôː	tôː	PART	_	_	5	discourse	_	AlignBegin=167820|AlignEnd=168040|Gloss=DM
-2	gwàːn	gwàːn	PRON	_	Number=Plur|Person=2	4	comp:obj	_	AlignBegin=168040|AlignEnd=168260|Gloss=2PL.POS
+1	tôː	tôː	PART	_	_	4	discourse	_	AlignBegin=167820|AlignEnd=168040|Gloss=DM
+2	gwàːn	gwàːn	PRON	_	Number=Plur|Person=2	4	dislocated@top	_	AlignBegin=168040|AlignEnd=168260|Gloss=2PL.POS
 3	kúmá	kúmá	PART	_	_	2	discourse	_	AlignBegin=168260|AlignEnd=168480|Gloss=too
-4	tu	tu	SCONJ	_	Mood=Qot	0	root	_	AlignBegin=168480|AlignEnd=168700|Gloss=COMP
-5	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	4	comp:obj	_	AlignBegin=168700|AlignEnd=168920|Gloss=festival-CONS
+4	tu	tu	PART	_	Mood=Qot	0	root	_	AlignBegin=168480|AlignEnd=168700|Gloss=COMP
+5	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	4	comp:pred	_	AlignBegin=168700|AlignEnd=168920|Gloss=festival-CONS
 6	Zaːr	Zaːr	NOUN	_	_	5	compound	_	AlignBegin=168920|AlignEnd=169140|Gloss=Zaar
-7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=169140|AlignEnd=169360|Gloss=PUNCT
+7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=169140|AlignEnd=169360|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_105-105
 # speaker_id = SP1
@@ -1089,24 +1090,22 @@
 # text = àmá kúmá myǎː yêl kyàːyi fi tu < wâː yáːyi ɲaŋə́y < ká ɬâː kə́ fî ɣáy //
 # text_ortho = àmá kúmá myǎː yêl kyàːyi fi tu < wâː yáːyi ɲaŋə́y < ká ɬâː kə́ fî ɣáy //
 # text_en = But we used to see that you used to do when guineacorn was ripe, you would harvest it and do [the festival].
-1	àmá	àmá	CCONJ	_	_	13	discourse	_	AlignBegin=173266|AlignEnd=173533|Gloss=but
-2	kúmá	kúmá	PART	_	_	13	discourse	_	AlignBegin=173533|AlignEnd=173800|Gloss=and
-3	myǎː	ʧáː	AUX	_	Number=Plur|Person=1|PronType=Prs	13	dislocated@subj	_	AlignBegin=173800|AlignEnd=174067|Gloss=1PL.ICPL
+1	àmá	àmá	CCONJ	_	_	3	discourse	_	AlignBegin=173266|AlignEnd=173533|Gloss=but
+2	kúmá	kúmá	PART	_	_	3	discourse	_	AlignBegin=173533|AlignEnd=173800|Gloss=and
+3	myǎː	ʧáː	AUX	_	Number=Plur|Person=1|PronType=Prs	0	root	_	AlignBegin=173800|AlignEnd=174067|Gloss=1PL.ICPL
 4	yêl	yeli	VERB	_	_	3	comp:aux	_	AlignBegin=174067|AlignEnd=174334|Gloss=see
-5	kyàːyi	ʧáːyi	AUX	_	Mood=Cnd|Number=Sing|Person=2	4	comp:obj	_	AlignBegin=174334|AlignEnd=174601|Gloss=2PL.ICPL.ITER
-6	fi	fi	VERB	_	_	4	comp:obj	_	AlignBegin=174601|AlignEnd=174868|Gloss=do
-7	tu	tu	SCONJ	_	Mood=Qot	4	comp:obj	_	AlignBegin=174868|AlignEnd=175135|Gloss=COMP
-8	<	<	PUNCT	_	_	10	punct	_	AlignBegin=175135|AlignEnd=175400|Gloss=PUNCT
-9	wâː	wâː	NOUN	_	_	13	discourse	_	AlignBegin=175960|AlignEnd=176350|Gloss=guineacorn
-10	yáːyi	yáːyi	AUX	_	Aspect=Iter|Mood=Cnd|Number=Sing|Person=3	13	parataxis@mod	_	AlignBegin=176350|AlignEnd=176740|Gloss=3SG.COND.ITER
-11	ɲaŋə́y	ɲáŋ	VERB	_	Aspect=Res	10	comp:aux	_	AlignBegin=176740|AlignEnd=177130|Gloss=be_ripe|wordform=ɲáŋ
-12	<	<	PUNCT	_	_	10	punct	_	AlignBegin=177130|AlignEnd=177520|Gloss=PUNCT
-13	ká	wò	AUX	_	Aspect=Perf|Number=Sing|Person=2	0	root	_	AlignBegin=177820|AlignEnd=177957|Gloss=2PL.FUT
-14	ɬâː	ɬaː	VERB	_	_	13	comp:aux	_	AlignBegin=177957|AlignEnd=178094|Gloss=cut
-15	kə́	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	14	parataxis@comp	_	AlignBegin=178094|AlignEnd=178231|Gloss=2PL.AOR
-16	fî	fi	VERB	_	_	15	comp:aux	_	AlignBegin=178231|AlignEnd=178368|Gloss=do
-17	ɣáy	káy	PRON	_	Person=3|PronType=Prs	16	comp@expl	_	AlignBegin=178368|AlignEnd=178505|Gloss=ANAPH
-18	//	//	PUNCT	_	_	13	punct	_	AlignBegin=178505|AlignEnd=178640|Gloss=PUNCT
+5	kyàːyi	ʧáːyi	AUX	_	Mood=Cnd|Number=Sing|Person=2	4	parataxis@comp	_	AlignBegin=174334|AlignEnd=174601|Gloss=2PL.ICPL.ITER
+6	fi	fi	VERB	_	_	5	comp:aux	_	AlignBegin=174601|AlignEnd=174868|Gloss=do
+7	tu	tu	SCONJ	_	Mood=Qot	6	comp:obj	_	AlignBegin=174868|AlignEnd=175135|Gloss=COMP
+8	wâː	wâː	NOUN	_	_	9	subj	_	AlignBegin=175960|AlignEnd=176350|Gloss=guineacorn
+9	yáːyi	yáːyi	AUX	_	Aspect=Iter|Mood=Cnd|Number=Sing|Person=3	11	parataxis@mod	_	AlignBegin=176350|AlignEnd=176740|Gloss=3SG.COND.ITER
+10	ɲaŋə́y	ɲáŋ	VERB	_	Aspect=Res	9	comp:aux	_	AlignBegin=176740|AlignEnd=177130|Gloss=be_ripe|wordform=ɲáŋ
+11	ká	wò	AUX	_	Aspect=Perf|Number=Sing|Person=2	7	comp:obj	_	AlignBegin=177820|AlignEnd=177957|Gloss=2PL.FUT
+12	ɬâː	ɬaː	VERB	_	_	11	comp:aux	_	AlignBegin=177957|AlignEnd=178094|Gloss=cut
+13	kə́	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	11	parataxis@conj	_	AlignBegin=178094|AlignEnd=178231|Gloss=2PL.AOR
+14	fî	fi	VERB	_	_	13	comp:aux	_	AlignBegin=178231|AlignEnd=178368|Gloss=do
+15	ɣáy	káy	PRON	_	Person=3|PronType=Prs	14	comp@expl	_	AlignBegin=178368|AlignEnd=178505|Gloss=ANAPH
+16	//	//	PUNCT	_	_	3	punct	_	AlignBegin=178505|AlignEnd=178640|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_114-114
 # speaker_id = SP1
@@ -1118,8 +1117,8 @@
 1	èː	èː	INTJ	_	_	2	discourse	_	AlignBegin=179300|AlignEnd=179450|Gloss=HESIT
 2	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	0	root	_	AlignBegin=179450|AlignEnd=179600|Gloss=3SG.COND
 3	fǐː	fi	VERB	_	Aspect=Res	2	comp:aux	_	AlignBegin=179600|AlignEnd=179750|Gloss=do-RES
-4	dà	dà	ADP	_	_	3	comp:obl	_	AlignBegin=179750|AlignEnd=179900|Gloss=ready|Lang=hau
-5	wuri	wuri	NOUN	_	_	4	comp:obj	_	AlignBegin=179900|AlignEnd=180050|Gloss=readiness|Lang=hau
+4	dà	dà	ADP	_	_	3	mod	_	AlignBegin=179750|AlignEnd=179900|Gloss=with
+5	wuri	wuri	NOUN	_	_	4	comp:obj	_	AlignBegin=179900|AlignEnd=180050|Gloss=readiness
 6	bâː	bâː	PART	_	Polarity=Neg	2	mod	_	AlignBegin=180050|AlignEnd=180200|Gloss=Q.NEG
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=180200|AlignEnd=180349|Gloss=PUNCT
 
@@ -1132,11 +1131,11 @@
 # text_en = Why, if you did it during the rain season, when the guineacorn is not ripe yet, did you do it?
 1	niː	niː	PRON	_	PronType=Int	2	subj	_	AlignBegin=180115|AlignEnd=180289|Gloss=what
 2	ʧaː	ʧaː	VERB	_	_	0	root	_	AlignBegin=180289|AlignEnd=180463|Gloss=put
-3	kyǎː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=2	13	parataxis@mod	_	AlignBegin=180463|AlignEnd=180637|Gloss=2PL.COND
+3	kyǎː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=2	13	mod	_	AlignBegin=180463|AlignEnd=180637|Gloss=2PL.COND
 4	fî	fi	VERB	_	_	3	comp:aux	_	AlignBegin=180637|AlignEnd=180811|Gloss=do
-5	ɣá	ká	ADP	_	_	4	comp:obl	_	AlignBegin=180811|AlignEnd=180985|Gloss=at
+5	ɣá	ká	ADP	_	_	4	mod	_	AlignBegin=180811|AlignEnd=180985|Gloss=at
 6	waːɬə́ŋ	waːɬə́ŋ	NOUN	_	_	5	comp:obj	_	AlignBegin=180985|AlignEnd=181159|Gloss=dry_season
-7	ɗan	ɗan	SCONJ	_	_	13	mod	_	AlignBegin=181159|AlignEnd=181333|Gloss=as
+7	ɗan	ɗan	SCONJ	_	_	4	mod	_	AlignBegin=181159|AlignEnd=181333|Gloss=as
 8-9	wâː	_	_	_	_	_	_	_	_
 8	wâː	wâː	PART	_	_	9	subj	_	AlignBegin=181333|AlignEnd=181507|Gloss=guineacorn
 9	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	7	comp:obj	_	AlignBegin=181507|AlignEnd=181681|Gloss=3SG.CPL
@@ -1205,7 +1204,8 @@
 12	Zaːri	Zaːr	NOUN	_	Definite=Ind	11	compound	_	AlignBegin=191054|AlignEnd=191202|Gloss=Zaar-IND
 13	gón	gón	DET	_	Definite=Spec	11	det	_	AlignBegin=191202|AlignEnd=191350|Gloss=SPEC
 14	<	<	PUNCT	_	_	10	punct	_	AlignBegin=191350|AlignEnd=191500|Gloss=PUNCT
-15	wâː	wâː	NOUN	_	_	16	subj	_	AlignBegin=191820|AlignEnd=192000|Gloss=guineacorn
+15	wâː	wâː	NOUN	_	_	16	subj	_	AlignBegin=191820|Gloss=guineacorn
+16	àː	àː	AUX	_	_	0	_	_	AlignEnd=192000|Gloss=3SG.CMPL
 16	ɲaŋə́y	ɲáŋ	VERB	_	Aspect=Res	19	parataxis@mod	_	AlignBegin=192000|AlignEnd=192180|Gloss=be_ripe|wordform=ɲáŋ
 17	<	<	PUNCT	_	_	16	punct	_	AlignBegin=192180|AlignEnd=192360|Gloss=PUNCT
 18	tôː	tôː	PART	_	_	19	discourse	_	AlignBegin=193140|AlignEnd=193378|Gloss=DM
@@ -2804,12 +2804,10 @@
 2	ʤìni	ʤìni	NOUN	_	_	4	dislocated@top	_	AlignBegin=444268|AlignEnd=444430|Gloss=year
 3	gíː	gíː	DET	_	PronType=Dem	2	det	_	AlignBegin=444430|AlignEnd=444592|Gloss=DIST
 4	ɗan	ɗan	SCONJ	_	_	0	root	_	AlignBegin=444592|AlignEnd=444754|Gloss=REL
-5-6	kusúŋ	_	_	_	_	_	_	_	_
-5	kusuŋ	kusuŋ	NOUN	_	_	6	subj	_	AlignBegin=444754|Gloss=hunger|wordform=kusuŋ
-6	_́	á	AUX	_	Aspect=Aor	0	_	_	AlignEnd=444916|Gloss=3SG.AOR
-7	fî	fi	VERB	_	_	4	comp:obj	_	AlignBegin=444916|AlignEnd=445078|Gloss=do
-8	fáː	fáː	PART	_	_	4	mod	_	AlignBegin=445078|AlignEnd=445240|Gloss=indeed
-9	//!	//!	PUNCT	_	_	4	punct	_	AlignBegin=445240|AlignEnd=445400|Gloss=PUNCT
+5	kusúŋ	kusuŋ	NOUN	_	Definite=Cons	6	subj	_	AlignBegin=444754|Gloss=hunger
+6	fî	fi	VERB	_	_	4	comp:obj	_	AlignBegin=444916|AlignEnd=445078|Gloss=do
+7	fáː	fáː	PART	_	_	4	mod	_	AlignBegin=445078|AlignEnd=445240|Gloss=indeed
+8	//!	//!	PUNCT	_	_	4	punct	_	AlignBegin=445240|AlignEnd=445400|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_296-296
 # speaker_id = SP1
