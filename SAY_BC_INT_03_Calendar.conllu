@@ -3185,13 +3185,13 @@
 # sent_timecode = 498860, 500544
 # text = yáːni átáyi gùŋ kùsɲì aː ?//
 # text_ortho = yáːni átáyi gùŋ kùsɲì aː ?//
-# text_en = He is the king of famine, isn't he?
+# text_en = Isn't he the king of famine?
 1	yáːni	yáːni	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=498860|AlignEnd=499141|Gloss=3SG.IDP
 2-3	átáyi	_	_	_	_	_	_	_	_
 2	átâ	átâ	AUX	_	Number=Sing|Person=3|Tense=Rem	1	comp:cleft	_	AlignBegin=499141|Gloss=formerly
-3	yi	yi	VERB	_	_	0	root	_	AlignEnd=499422|Gloss=be
-4	gùŋ	gùŋ	NOUN	_	_	2	comp:aux	_	AlignBegin=499422|AlignEnd=499703|Gloss=chief
-5	kùsɲì	kusuŋ	NOUN	_	Definite=Ind	3	mod	_	AlignBegin=499703|AlignEnd=499984|Gloss=hunger-INDEF
+3	yi	yi	VERB	_	_	2	comp:aux	_	AlignEnd=499422|Gloss=be
+4	gùŋ	gùŋ	NOUN	_	_	3	comp:pred	_	AlignBegin=499422|AlignEnd=499703|Gloss=chief
+5	kùsɲì	kusuŋ	NOUN	_	Definite=Ind	4	mod	_	AlignBegin=499703|AlignEnd=499984|Gloss=hunger-INDEF
 6	a:	a:	PART	_	PartType=Int	1	mod	_	AlignBegin=499984|AlignEnd=500265|Gloss=VRT
 7	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=500265|AlignEnd=500544|Gloss=PUNCT
 
@@ -3209,18 +3209,18 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
 # sent_timecode = 500544, 503363
-# text = òhôː < kóː nə gùŋ kusɲi a: kóːnaːgyòː òːhó kàm //
+# text = òhôː < kóː nə gùŋ kusɲi aː kóːnaːgyòː òːhó kàm //
 # text_ortho = òhôː < kóː nə gùŋ kusɲi aː kóːnaːgyòː òːhó kàm //
 # text_en = Oho, or it is the king of famine, for every one indeed!
 1	òhôː	òhôː	INTJ	_	_	4	discourse	_	AlignBegin=500544|AlignEnd=500899|Gloss=oho
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=500899|AlignEnd=501254|Gloss=PUNCT
-3	kóː	kóː	CCONJ	_	_	4	discourse	_	AlignBegin=501549|AlignEnd=501722|Gloss=whether|Lang=hau
+3	kóː	kóː	CCONJ	_	_	4	discourse	_	AlignBegin=501549|AlignEnd=501722|Gloss=or|Lang=hau
 4	nə	nə	PART	_	VerbType=Cop	0	root	_	AlignBegin=501722|AlignEnd=501895|Gloss=be
 5	gùŋ	gùŋ	NOUN	_	_	4	comp:pred	_	AlignBegin=501895|AlignEnd=502068|Gloss=chief
-6	kusɲi	kusɲi	NOUN	_	_	5	compound	_	AlignBegin=502068|AlignEnd=502241|Gloss=hunger|wordform=kusuŋ
+6	kusɲi	kusuŋ	NOUN	_	Definite=Ind	5	mod	_	AlignBegin=502068|AlignEnd=502241|Gloss=hunger-INDEF|wordform=kusuŋ
 7	a:	a:	PART	_	PartType=Int	4	mod	_	AlignBegin=502241|AlignEnd=502412|Gloss=VRT
-8	kóːnaːgyòː	kóːnaːgyòː	CCONJ	_	_	5	mod	_	AlignBegin=502412|AlignEnd=502886|Gloss=anyone
-9	òːhó	Òːhó	PROPN	_	_	5	mod	_	AlignBegin=502886|AlignEnd=503044|Gloss=indeed
-10	kàm	kàm	PART	_	_	8	mod	_	AlignBegin=503044|AlignEnd=503202|Gloss=indeed
-11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=503202|AlignEnd=503363|Gloss=PUNCT
+8	kóːnaːgyòː	kóːnaːgyòː	PRON	_	PronType=Ind	4	dislocated@mod	_	AlignBegin=502412|AlignEnd=502886|Gloss=anyhow
+9	òːhó	Òːhó	PROPN	_	_	4	mod	_	AlignBegin=502886|AlignEnd=503044|Gloss=indeed
+10	kàm	kàm	PART	_	_	4	mod	_	AlignBegin=503044|AlignEnd=503202|Gloss=indeed
+11	!//	!//	PUNCT	_	_	4	punct	_	AlignBegin=503202|AlignEnd=503363|Gloss=PUNCT
 
