@@ -445,11 +445,11 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 55290, 57352
-# text = á wul tu [ èː //= ŋaː ràboɣáy bét sòːséy //] //
+# text = ́ wû tu [ èː //= ŋaː ràboɣáy ɓét sòːséy //] //
 # text_ortho = á wû tu [ èː //= ŋaː ràboɣáy ɓét sòːséy //] //
 # text_en = He said "Yes you can have a share all right."
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=55290|AlignEnd=55368|Gloss=3SG.AOR
-2	wul	wul	VERB	_	_	1	comp:aux	_	AlignBegin=55368|AlignEnd=55446|Gloss=say
+2	wû	wul	VERB	_	_	1	comp:aux	_	AlignBegin=55368|AlignEnd=55446|Gloss=say
 3	tu	tu	SCONJ	_	Mood=Qot	2	comp:obj	_	AlignBegin=55446|AlignEnd=55524|Gloss=OPN
 4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=55524|AlignEnd=55602|Gloss=PUNCT
 5	èː	èː	INTJ	_	_	3	comp:obj	_	AlignBegin=55602|AlignEnd=55680|Gloss=yes
@@ -458,7 +458,7 @@
 8-9	ràboɣáy	_	_	_	_	_	_	_	_
 8	ràbo	ràbo	NOUN	_	_	9	subj	_	AlignBegin=56067|AlignEnd=56222|Gloss=share
 9	ɣáy	káy	PRON	_	Person=3|PronType=Prs	5	parataxis@conj	_	AlignBegin=56222|AlignEnd=56377|Gloss=ANAPH
-10	bét	bét	ADV	_	_	9	mod	_	AlignBegin=56377|AlignEnd=56686|Gloss=all
+10	ɓét	bét	ADV	_	_	9	mod	_	AlignBegin=56377|AlignEnd=56686|Gloss=all
 11	sòːséy	sòːséy	ADV	_	_	9	mod	_	AlignBegin=56686|AlignEnd=57019|Gloss=quite
 12	//]	//]	PUNCT	_	_	5	punct	_	AlignBegin=57019|AlignEnd=57352|Gloss=PUNCT
 13	//	//	PUNCT	_	_	1		_	Gloss=PUNCT
@@ -1351,22 +1351,24 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 193114, 194950
-# text = yâːn kàː tu ŋaː sâː káy < tòː ɓes =əm ɗi oː //
-# text_ortho = yâːn kàː tu ŋaː sâːkáy < tôː ɓèsə́mɗyoː //
+# text = yâːn kàː tu ŋaː sâːɣáy < tôː ɓèsə́mɗyoː //
+# text_ortho = yâːn kàː tu ŋaː sâːɣáy < tôː ɓèsə́mɗyoː //
 # text_en = If you have any possibility, well give me some.
 1	yâːn	yâːn	SCONJ	_	Number=Sing|Person=3|PronType=Prs	9	mod	_	AlignBegin=193114|AlignEnd=193298|Gloss=if
 2	kàː	àː	AUX	_	Aspect=Aor|Number=Sing|Person=2	1	comp:obj	_	AlignBegin=193298|AlignEnd=193482|Gloss=2PL.PERF
 3	tu	tu	VERB	_	_	2	comp:aux	_	AlignBegin=193482|AlignEnd=193666|Gloss=get
 4	ŋaː	ŋaː	ADJ	_	_	5	mod	_	AlignBegin=193666|AlignEnd=193850|Gloss=small
+5-6	sâːɣáy	_	_	_	_	_	_	_	_
 5	sâː	sâː	NOUN	_	_	3	comp:obj	_	AlignBegin=193850|AlignEnd=193942|Gloss=chance
-6	káy	káy	PRON	_	Person=3|PronType=Prs	5	comp@expl	_	AlignBegin=193942|AlignEnd=194034|Gloss=ANAPH
+6	ɣáy	káy	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	AlignBegin=193942|AlignEnd=194034|Gloss=ANAPH
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=194034|AlignEnd=194218|Gloss=PUNCT
 8	tòː	tòː	PART	_	_	9	discourse	_	AlignBegin=194218|AlignEnd=194400|Gloss=well
-9	ɓes	ɓes	VERB	_	_	0	root	_	AlignBegin=194400|AlignEnd=194469|Gloss=give_piece
-10	=əm	=əm	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	comp:obj	_	AlignBegin=194469|AlignEnd=194538|Gloss=1SG.OBJ
+9-12	ɓèsə́mɗyoː	_	_	_	_	_	_	_	_
+9	ɓès	ɓes	VERB	_	Mood=Imp	0	root	_	AlignBegin=194400|AlignEnd=194469|Gloss=give_piece
+10	=ə́m	=əm	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	comp:obj	_	AlignBegin=194469|AlignEnd=194538|Gloss=1SG.OBJ
 11	ɗi	ɗi	PART	_	_	9	compound:prt	_	AlignBegin=194538|AlignEnd=194607|Gloss=CTP
 12	oː	oː	PART	_	PartType=Emp	9	mod	_	AlignBegin=194607|AlignEnd=194675|Gloss=EMPH
-13	//	//	PUNCT	_	_	9	punct	_	AlignBegin=194675|AlignEnd=194950|Gloss=PUNCT
+13	!//	!//	PUNCT	_	_	9	punct	_	AlignBegin=194675|AlignEnd=194950|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_153-153
 # speaker_id = SP2
