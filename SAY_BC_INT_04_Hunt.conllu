@@ -2,18 +2,20 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 1060, 3504
-# text = myǎː ʧet tu kə̀tàyáː fi naːr =wâːn wuriː tánnâŋ eː ?//
-# text_ortho = myǎː ʧêt tu kə̀tàyáː fî nǎːrwâːn wuriː tánnâŋ eː ?//
+# text = myǎː ʧêt tu kə̀tàyáː fî nǎːrwâːn wuriː tánnâŋeː ?//
+# text_ortho = myǎː ʧêt tu kə̀tàyáː fî nǎːrwâːn wuriː tánnâŋeː ?//
 # text_en = We are asking how did you use to hunt?
 1	myǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	0	root	_	AlignBegin=1060|AlignEnd=1296|Gloss=1PL.IMP
 2	ʧet	ʧet	VERB	_	_	1	comp:aux	_	AlignBegin=1296|AlignEnd=1532|Gloss=ask
 3	tu	tu	SCONJ	_	Mood=Qot	2	comp:obj	_	AlignBegin=1532|AlignEnd=1768|Gloss=COMP
 4	kə̀tàyáː	ta-yáː	AUX	_	Aspect=Imp|Number=Plur|Person=2|Tense=Rem	3	comp:obj	_	AlignBegin=1768|AlignEnd=2016|Gloss=2PL.REM.IMP
-5	fi	fi	VERB	_	_	4	comp:aux	_	AlignBegin=2016|AlignEnd=2264|Gloss=do
-6	naːr	naːr	NOUN	_	_	5	comp:obj	_	AlignBegin=2264|AlignEnd=2388|Gloss=hunting
-7	=wâːn	=waaːn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	mod@poss	_	AlignBegin=2388|AlignEnd=2512|Gloss=2PL.POS
+5	fî	fi	VERB	_	_	4	comp:aux	_	AlignBegin=2016|AlignEnd=2264|Gloss=do
+6-7	nǎːrwâːn	_	_	_	_	_	_	_	_
+6	nǎːr	naːr	NOUN	_	_	5	comp:obj	_	AlignBegin=2264|AlignEnd=2388|Gloss=hunting
+7	=wâːn	=waːn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	mod@poss	_	AlignBegin=2388|AlignEnd=2512|Gloss=2PL.POS
 8	wuriː	wuriː	ADV	_	PronType=Int	5	mod	_	AlignBegin=2512|AlignEnd=2760|Gloss=how
-9	tánnâŋ	tánnâŋ	ADV	_	_	4	mod	_	AlignBegin=2760|AlignEnd=3008|Gloss=really
+9-10	tánnâŋeː	_	_	_	_	_	_	_	_
+9	tánnâŋ	tánnâŋ	ADV	_	_	5	mod	_	AlignBegin=2760|AlignEnd=3008|Gloss=really
 10	eː	eː	PART	_	_	1	mod	_	AlignBegin=3008|AlignEnd=3256|Gloss=Q
 11	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=3256|AlignEnd=3504|Gloss=PUNCT
 
@@ -167,9 +169,9 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 29940, 31500
-# text = kyáː tu ɬûː kə mbwáːy //= kə lə́ːríːɗi //
-# text_ortho = kyáː tu ɬûː kə mbwáːy //= kə lə́ːríːɗi //
-# text_en = If you found some animal you would shoot it  and take it back.
+# text = kyáː tu ɬûː kə mbwáːy |c kə lə́ːríːɗi //
+# text_ortho = kyáː tu ɬûː kə mbwáːy |c kə lə́ːríːɗi //
+# text_en = If you found some animal you would shoot it and take it back.
 1	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	4	mod	_	AlignBegin=29940|AlignEnd=30113|Gloss=2SG.CND
 2	tu	tu	VERB	_	_	1	comp:aux	_	AlignBegin=30113|AlignEnd=30286|Gloss=meet
 3	ɬûː	ɬûː	NOUN	_	_	2	comp:obj	_	AlignBegin=30286|AlignEnd=30459|Gloss=animal
@@ -240,14 +242,14 @@
 26	ká	ká	ADP	_	_	23	conj:dicto	_	AlignBegin=43829|AlignEnd=44073|Gloss=at
 27-28	yaːɬ-íː	_	_	_	_	_	_	_	_
 27	yaːɬ-́-íː	yaːɬ-́-í	NOUN	_	Definite=Cons	32	comp:obj	_	AlignBegin=44073|AlignEnd=44317|Gloss=country|wordform=yaːɬ
-28	=wâːn	=waaːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	27	mod@poss	_	AlignBegin=44195|AlignEnd=44256|Gloss=2PL.POS
+28	=wâːn	=waːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	27	mod@poss	_	AlignBegin=44195|AlignEnd=44256|Gloss=2PL.POS
 29	|c	|c	PUNCT	_	_	32	punct	_	AlignBegin=44317|AlignEnd=44560|Gloss=PUNCT
 30	kóː	kóː	CCONJ	_	_	32	discourse	_	AlignBegin=45220|AlignEnd=45371|Gloss=or|Lang=hau
 31	kwǎː	kwǎː	PART	_	Polarity=Neg	2	mod	_	AlignBegin=45371|AlignEnd=45522|Gloss=else|Lang=hau
 32	ká	ká	ADP	_	_	23	parataxis@conj	_	AlignBegin=45522|AlignEnd=45673|Gloss=at
 33-34	wuːr-íː	_	_	_	_	_	_	_	_
 33	wuːr-́-íː	wuːr-́-í	NOUN	_	Deixis=Remt	32	comp:obj	_	AlignBegin=45673|AlignEnd=45824|Gloss=sacred_groove|wordform=wuːr
-34	=wâːn	=waaːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	33	mod@poss	_	AlignBegin=45749|AlignEnd=45787|Gloss=2PL.POS
+34	=wâːn	=waːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	33	mod@poss	_	AlignBegin=45749|AlignEnd=45787|Gloss=2PL.POS
 35	//]	//]	PUNCT	_	_	20	punct	_	AlignBegin=45824|AlignEnd=45975|Gloss=PUNCT
 36	//]	//]	PUNCT	_	_	2	punct	_	AlignBegin=45975|AlignEnd=46126|Gloss=PUNCT
 37	//	//	PUNCT	_	_	2	punct	_	AlignBegin=46126|AlignEnd=46280|Gloss=PUNCT
@@ -260,7 +262,7 @@
 # text_ortho = tôː zàrsə̀ tá ɲwǎːlɗi mondá //
 # text_en = Well people would gather plenty.
 1	tòː	tòː	PART	_	_	3	discourse	_	AlignBegin=47320|AlignEnd=47549|Gloss=DM
-2	zaːr-sə	Zaaːr	NOUN	_	Number=Plur	3	subj	_	AlignBegin=47549|AlignEnd=47778|Gloss=person|wordform=zaːr
+2	zaːr-sə	Zaːr	NOUN	_	Number=Plur	3	subj	_	AlignBegin=47549|AlignEnd=47778|Gloss=person|wordform=zaːr
 3	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=47778|AlignEnd=48007|Gloss=3PL.FUT
 4	ɲwáːl	ɲwáol	VERB	_	_	3	comp:aux	_	AlignBegin=48007|AlignEnd=48121|Gloss=go_out
 5	ɗi	ɗi	PART	_	_	4	compound:prt	_	AlignBegin=48121|AlignEnd=48236|Gloss=CTP
@@ -297,7 +299,7 @@
 2	ki	ki	SCONJ	_	Number=Sing|Person=2|PronType=Prs	6	subj	_	AlignBegin=56020|AlignEnd=56216|Gloss=2SG.be
 3	tə́	tə́	ADP	_	_	2	comp:obj	_	AlignBegin=56216|AlignEnd=56413|Gloss=with
 4	kipm-́	kipm-	NOUN	_	_	6	comp:obj	_	AlignBegin=56413|AlignEnd=56633|Gloss=quiver|wordform=kipm
-5	=wâːn	=waaːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	4	mod@poss	_	AlignBegin=56633|AlignEnd=56744|Gloss=2PL.POS
+5	=wâːn	=waːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	4	mod@poss	_	AlignBegin=56633|AlignEnd=56744|Gloss=2PL.POS
 6	tə́	tə́	ADP	_	_	0	root	_	AlignBegin=56744|AlignEnd=57075|Gloss=with
 7	rôm	rôm	NOUN	_	_	6	comp:aux	_	AlignBegin=57075|AlignEnd=57241|Gloss=axe
 8	=wâːn	=wâːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	7	mod@poss	_	AlignBegin=57241|AlignEnd=57406|Gloss=2PL.POS
@@ -932,7 +934,7 @@
 3	yír	yír	VERB	_	_	2	comp:aux	_	AlignBegin=152081|AlignEnd=152470|Gloss=have
 4	gùŋ	gùŋ	NOUN	_	_	3	comp:obj	_	AlignBegin=152470|AlignEnd=152704|Gloss=chief
 5	pìːs	pìː	NOUN	_	_	3	comp:obj	_	AlignBegin=152704|AlignEnd=152821|Gloss=arrow
-6	=wâːn	=waaːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	5	mod@poss	_	AlignBegin=152821|AlignEnd=152938|Gloss=2PL.POS
+6	=wâːn	=waːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	5	mod@poss	_	AlignBegin=152821|AlignEnd=152938|Gloss=2PL.POS
 7	hŋ́	hŋ́	PART	_	Polarity=Neg	2	mod	_	AlignBegin=152938|AlignEnd=153172|Gloss=NEG2
 8	kən	kən	PART	_	_	2	discourse	_	AlignBegin=153172|AlignEnd=153406|Gloss=be
 9	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=153406|AlignEnd=153639|Gloss=PUNCT
@@ -1647,7 +1649,7 @@
 3	naː	naː	VERB	_	_	2	comp:aux	_	AlignBegin=260454|AlignEnd=260611|Gloss=become
 4	nə	nə	PART	_	VerbType=Cop	3	parataxis@comp	_	AlignBegin=260611|AlignEnd=260768|Gloss=be
 5	ʤìːr	ʤìːr	NOUN	_	_	4	comp:pred	_	AlignBegin=260768|AlignEnd=260846|Gloss=large_hoe
-6	=wâːn	=waaːn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	mod@poss	_	AlignBegin=260846|AlignEnd=260925|Gloss=2PL.POS
+6	=wâːn	=waːn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	mod@poss	_	AlignBegin=260846|AlignEnd=260925|Gloss=2PL.POS
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=260925|AlignEnd=261080|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_188-188
