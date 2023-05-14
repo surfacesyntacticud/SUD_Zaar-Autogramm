@@ -167,19 +167,20 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 29940, 31500
-# text = kyáː tu ɬûː kə mbwaː -íː //= kə lə́ːr -íː ɗi //
+# text = kyáː tu ɬûː kə mbwáːy //= kə lə́ːríːɗi //
 # text_ortho = kyáː tu ɬûː kə mbwáːy //= kə lə́ːríːɗi //
 # text_en = If you found some animal you would shoot it  and take it back.
-1	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	0	root	_	AlignBegin=29940|AlignEnd=30113|Gloss=2SG.CND
+1	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	4	mod	_	AlignBegin=29940|AlignEnd=30113|Gloss=2SG.CND
 2	tu	tu	VERB	_	_	1	comp:aux	_	AlignBegin=30113|AlignEnd=30286|Gloss=meet
 3	ɬûː	ɬûː	NOUN	_	_	2	comp:obj	_	AlignBegin=30286|AlignEnd=30459|Gloss=animal
-4	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	1	parataxis@conj	_	AlignBegin=30459|AlignEnd=30632|Gloss=2SG.AOR
-5	mbwaː-íː	bwaː-	VERB	_	Aspect=Res	4	comp:aux	_	AlignBegin=30632|AlignEnd=30805|Gloss=shoot|wordform=mbwaː
-6	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=30805|AlignEnd=30979|Gloss=PUNCT
-7	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	1	parataxis@conj	_	AlignBegin=30979|AlignEnd=31153|Gloss=2SG.AOR
-8	lə́ːr-íː	lə́ːr-íː	VERB	_	Aspect=Res	7	comp:aux	_	AlignBegin=31153|AlignEnd=31269|Gloss=bring|wordform=lə́ːr
+4	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=30459|AlignEnd=30632|Gloss=2SG.AOR
+5	mbwáːy	mbwaː	VERB	_	Aspect=Res	4	comp:aux	_	AlignBegin=30632|AlignEnd=30805|Gloss=shoot|wordform=mbwaː
+6	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=30805|AlignEnd=30979|Gloss=PUNCT
+7	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	4	conj:coord	_	AlignBegin=30979|AlignEnd=31153|Gloss=2SG.AOR
+8-9	lə́ːríːɗi	_	_	_	_	_	_	_	_
+8	lə́ːríː	lə́ːr	VERB	_	Aspect=Res	7	comp:aux	_	AlignBegin=31153|AlignEnd=31269|Gloss=bring|wordform=lə́ːr
 9	ɗi	ɗi	PART	_	_	8	compound:prt	_	AlignBegin=31269|AlignEnd=31327|Gloss=CTP
-10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=31327|AlignEnd=31500|Gloss=PUNCT
+10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=31327|AlignEnd=31500|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_025-028
 # speaker_id = SP1
@@ -2240,7 +2241,7 @@
 # text = kàː taɓá kə́ fi a: ?//
 # text_ortho = kàː taɓá kə́ fí aː ?//
 # text_en = Have you ever done it?
-1	kàː	àː	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=355920|AlignEnd=356055|Gloss=2SG.PERF
+1	kàː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	0	root	_	AlignBegin=355920|AlignEnd=356055|Gloss=2SG.PERF
 2	taɓá	taɓá	VERB	_	_	1	comp:aux	_	AlignBegin=356055|AlignEnd=356190|Gloss=have_already
 3	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	1	parataxis@conj	_	AlignBegin=356190|AlignEnd=356325|Gloss=2PL.AOR
 4	fi	fi	VERB	_	_	3	comp:aux	_	AlignBegin=356325|AlignEnd=356460|Gloss=do
