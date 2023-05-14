@@ -81,7 +81,7 @@
 9	ngə́tn	ngə́tn	NOUN	_	_	7	mod	_	AlignBegin=13366|AlignEnd=13498|Gloss=thing
 10	=wôs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	9	mod@poss	_	AlignBegin=13498|AlignEnd=13629|Gloss=3SG.POS
 11	ngap	ngap	VERB	_	_	7	conj:coord	_	AlignBegin=13629|AlignEnd=13892|Gloss=take
-12	mbwáːɣə̂n	mbwaː	VERB	_	VerbForm=Vnoun	11	comp:obj	_	AlignBegin=13892|AlignEnd=14153|Gloss=shoot-NMLZ|wordform=mbwaː|ExtPos=NOUN
+12	mbwáːɣə̂n	mbwaː	VERB	_	VerbForm=Vnoun	11	comp:obj	_	AlignBegin=13892|AlignEnd=14153|ExtPos=NOUN|Gloss=shoot-NMLZ|wordform=mbwaː
 13-14	ngə́taː	_	_	_	_	_	_	_	_
 13	ngə́tn	ngə́tn	NOUN	_	_	12	comp:obj	_	AlignBegin=14153|AlignEnd=14249|Gloss=thing
 14	a:	a:	PART	_	PartType=Int	4	mod	_	AlignBegin=14249|AlignEnd=14346|Gloss=VRT
@@ -114,11 +114,11 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 19835, 20522
-# text = mə̀ wum bàyáːni //
-# text_ortho = mə̀ wùm bàyáːni //
+# text = mə̀ wùm bàyáːni // 
+# text_ortho = mə̀ wùm bàyáːni // 
 # text_en = Let's hear the explanation.
 1	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	0	root	_	AlignBegin=19835|AlignEnd=20007|Gloss=1PL.SUB
-2	wum	wum	VERB	_	_	1	comp:aux	_	AlignBegin=20007|AlignEnd=20179|Gloss=hear
+2	wùm	wum	VERB	_	_	1	comp:aux	_	AlignBegin=20007|AlignEnd=20179|Gloss=hear
 3	bàyáːni	bàyáːni	PRON	_	Foreign=Yes	2	comp:obj	_	AlignBegin=20179|AlignEnd=20351|Gloss=explanation|Lang=hau
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=20351|AlignEnd=20522|Gloss=PUNCT
 
@@ -129,15 +129,17 @@
 # text = èː tòː < gíː ʧì káʃi mbə́ɬəŋ áy !//
 # text_ortho = èː tôː < gíː ʧì káʃi mbə́ɬəŋ áy !//
 # text_en = Well er... there are two different things.
-1	èː	èː	INTJ	_	_	5	discourse	_	AlignBegin=21188|AlignEnd=21455|Gloss=HESIT
-2	tòː	tòː	PART	_	_	5	discourse	_	AlignBegin=21455|AlignEnd=21722|Gloss=DM
+1	èː	èː	INTJ	_	_	6	discourse	_	AlignBegin=21188|AlignEnd=21455|Gloss=HESIT
+2	tòː	tòː	PART	_	_	6	discourse	_	AlignBegin=21455|AlignEnd=21722|Gloss=DM
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=21722|AlignEnd=21988|Gloss=PUNCT
-4	gíː	gíː	PRON	_	PronType=Dem	5	subj	_	AlignBegin=22280|AlignEnd=22525|Gloss=REM
-5	ʧì	ʧì	VERB	_	_	0	root	_	AlignBegin=22525|AlignEnd=22770|Gloss=3PL.be
-6	káʃi	káʃi	NOUN	_	_	5	comp:obj	_	AlignBegin=22770|AlignEnd=23015|Gloss=times
-7	mbə́ɬəŋ	mbə	NUM	_	_	6	det	_	AlignBegin=23015|AlignEnd=23260|Gloss=two
-8	áy	áy	INTJ	_	_	5	discourse	_	AlignBegin=23260|AlignEnd=23505|Gloss=indeed
-9	!//	!//	PUNCT	_	_	5	punct	_	AlignBegin=23505|AlignEnd=23752|Gloss=PUNCT
+4	gíː	gíː	PRON	_	Deixis=Rem|PronType=Dem	6	subj	_	AlignBegin=22280|AlignEnd=22525|Gloss=REM
+5-6	ʧì	_	_	_	_	_	_	_	_
+5	tə̀	tə̀	PRON	_	_	6	root	_	AlignBegin=22525|AlignEnd=22770|Gloss=3PL
+6	yi	yi	VERB	_	_	0	root	_	AlignBegin=22525|AlignEnd=22770|Gloss=be
+7	káʃi	káʃi	NOUN	_	_	6	comp:pred	_	AlignBegin=22770|AlignEnd=23015|Gloss=times
+8	mbə́ɬəŋ	mbə́ɬəŋ	NUM	_	_	7	det	_	AlignBegin=23015|AlignEnd=23260|Gloss=two
+9	áy	áy	INTJ	_	_	6	discourse	_	AlignBegin=23260|AlignEnd=23505|Gloss=indeed
+10	!//	!//	PUNCT	_	_	6	punct	_	AlignBegin=23505|AlignEnd=23752|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_019-020
 # speaker_id = SP1
