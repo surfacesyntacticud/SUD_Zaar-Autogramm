@@ -145,7 +145,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 24440, 26463
-# text = gyáː gón ka ʃiʃí ngə́tn =wâː tə́ =wâː nda -íː námtsə //
+# text = gyáː gón ka ʃiʃí ngə́tnwâː tə́ kǐpmwâː ndáy námtsə //
 # text_ortho = gyáː gón ka ʃiʃí ngə́tnwâː tə́ kǐpmwâː ndáy námtsə //
 # text_en = Sometimes you would go on your own with your quiver and go to the bush.
 1	gyáː	gyáː	DET	_	Number=Plur	2	det	_	AlignBegin=24440|AlignEnd=24649|Gloss=PL
@@ -155,10 +155,12 @@
 5	ngə́tn	ngə́tn	NOUN	_	_	4	comp:obj	_	AlignBegin=25276|AlignEnd=25380|Gloss=thing
 6	=wâː	=wâː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	5	mod@poss	_	AlignBegin=25380|AlignEnd=25484|Gloss=2SG.POS
 7	tə́	tə́	ADP	_	_	5	mod	_	AlignBegin=25484|AlignEnd=25680|Gloss=with
-8	=wâː	=wâː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	7	comp:obj	_	AlignBegin=25680|AlignEnd=25876|Gloss=2SG.POS
-9	nda-íː	nda-íː	VERB	_	Aspect=Res	4	compound:svc	_	AlignBegin=25876|AlignEnd=26072|Gloss=enter|wordform=nda
-10	námtsə	námtsə	NOUN	_	_	9	comp:obj	_	AlignBegin=26072|AlignEnd=26268|Gloss=bush
-11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=26268|AlignEnd=26463|Gloss=PUNCT
+8-9	kǐpmwâː	_	_	_	_	_	_	_	_
+8	kǐpm	kipm	NOUN	_	_	7	comp:obj	_	AlignBegin=25680|AlignEnd=25700|Gloss=quiver
+9	=wâː	=wâː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	8	mod@poss	_	AlignBegin=25700|AlignEnd=25876|Gloss=2SG.POS
+10	ndáy	nda	VERB	_	Aspect=Res	4	compound:svc	_	AlignBegin=25876|AlignEnd=26072|Gloss=enter-RES|wordform=nda
+11	námtsə	námtsə	NOUN	_	_	10	comp:loc	_	AlignBegin=26072|AlignEnd=26268|Gloss=bush
+12	//	//	PUNCT	_	_	3	punct	_	AlignBegin=26268|AlignEnd=26463|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_021-022
 # speaker_id = SP1
