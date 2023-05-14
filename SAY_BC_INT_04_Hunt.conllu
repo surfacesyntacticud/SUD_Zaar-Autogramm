@@ -225,8 +225,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 38680, 46280
-# text = tôː kə fúː zàrsə̀ || kə́ fûː kamsaːwàːn tu [ tôː dzàŋ gín fáː < dzàŋ gíː < má fî naːr á gàri || á yǎːɬwâːníː `|c kóː kwǎː á wǔːrwâːníː //] //
-# text_ortho = tôː kə fûː zàrsə̀ [ kə́ fûː kamsaːwàːn tu [ tôː dzàŋ gín fáː < dzàŋ gíː < má fî naːr á gàri || á yǎːɬwâːníː `|c kóː kwǎː á wǔːrwâːníː //] //] //
+# text = tôː kə fúː zàrsə̀ || kə́ fûː kamsaːwàːn tu [ tôː dzàŋ gín fáː < dzàŋ gíː < má fî naːr á gàri || á yǎːɬwâːníː |c kóː kwǎː á wǔːrwâːníː //] //
+# text_ortho = tôː kə fûː zàrsə̀ [ kə́ fûː kamsaːwàːn tu [ tôː dzàŋ gín fáː < dzàŋ gíː < má fî naːr á gàri || á yǎːɬ wâːníː `|c kóː kwǎː á wǔːrwâːníː //] //] //
 # text_en = Well you would tell people, "Tell your friends:  "On such and such a day,  on that day we will go hunting at ... at your place or else on your mountain." "
 1	tôː	tôː	PART	_	_	2	discourse	_	AlignBegin=38680|AlignEnd=38833|Gloss=DM
 2	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=38833|AlignEnd=38986|Gloss=2SG.AOR
@@ -237,33 +237,33 @@
 7	fuː	fuː	VERB	_	_	6	comp:aux	_	AlignBegin=39598|AlignEnd=39751|Gloss=tell
 8-9	kamsaːwàːn	_	_	_	_	_	_	_	_
 8	kamsə	kâːm	NOUN	_	_	7	comp:ben	_	AlignBegin=39751|AlignEnd=39853|Gloss=friend|wordform=kâːm
-9	=wàːn	=wâːn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	8	mod@poss	_	AlignBegin=39853|AlignEnd=39904|Gloss=2PL.POS
+9	=wàːn	=waːn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	8	mod@poss	_	AlignBegin=39853|AlignEnd=39904|Gloss=2PL.POS
 10	tu	tu	SCONJ	_	Mood=Qot	7	comp:obj	_	AlignBegin=39904|AlignEnd=40057|Gloss=COMP
 11	[	[	PUNCT	_	_	20	punct	_	AlignBegin=40057|AlignEnd=40210|Gloss=PUNCT
 12	tôː	tôː	PART	_	_	20	discourse	_	AlignBegin=40210|AlignEnd=40363|Gloss=DM
 13	dzàŋ	dzàŋ	NOUN	_	_	20	mod	_	AlignBegin=41100|AlignEnd=41338|Gloss=day
-14	giní	giní	DET	_	PronType=Dem	13	det	_	AlignBegin=41338|AlignEnd=41576|Gloss=PROX
+14	gín	giní	DET	_	PronType=Dem	13	det	_	AlignBegin=41338|AlignEnd=41576|Gloss=PROX
 15	fáː	fáː	PART	_	_	13	mod	_	AlignBegin=41576|AlignEnd=41814|Gloss=indeed
 16	||	||	PUNCT	_	_	17	punct	_	AlignBegin=41814|AlignEnd=42050|Gloss=PUNCT
 17	dzàŋ	dzàŋ	NOUN	_	_	13	conj:dicto	_	AlignBegin=42050|AlignEnd=42182|Gloss=day
 18	gíː	gíː	DET	_	PronType=Dem	17	det	_	AlignBegin=42182|AlignEnd=42314|Gloss=REM
 19	<	<	PUNCT	_	_	13	punct	_	AlignBegin=42314|AlignEnd=42446|Gloss=PUNCT
 20	má	a	AUX	_	Number=Plur|Person=1|Tense=Fut	10	comp:obj	_	AlignBegin=42446|AlignEnd=42578|Gloss=1PL.FUT
-21	fi	fi	VERB	_	_	20	comp:aux	_	AlignBegin=42578|AlignEnd=42710|Gloss=do
+21	fî	fi	VERB	_	_	20	comp:aux	_	AlignBegin=42578|AlignEnd=42710|Gloss=do
 22	naːr	naːr	NOUN	_	_	21	comp:obj	_	AlignBegin=42710|AlignEnd=42840|Gloss=hunting
-23	ká	ká	ADP	_	_	21	mod	_	AlignBegin=43140|AlignEnd=43370|Gloss=at
+23	á	ká	ADP	_	_	21	mod	_	AlignBegin=43140|AlignEnd=43370|Gloss=at
 24	gàri	gàri	NOUN	_	_	23	comp:obj	_	AlignBegin=43370|AlignEnd=43600|Gloss=village
 25	||	||	PUNCT	_	_	26	punct	_	AlignBegin=43600|AlignEnd=43829|Gloss=PUNCT
-26	ká	ká	ADP	_	_	23	conj:dicto	_	AlignBegin=43829|AlignEnd=44073|Gloss=at
-27-28	yaːɬ-íː	_	_	_	_	_	_	_	_
-27	yaːɬ-́-íː	yaːɬ-́-í	NOUN	_	Definite=Cons	26	comp:obj	_	AlignBegin=44073|AlignEnd=44317|Gloss=country|wordform=yaːɬ
+26	á	ká	ADP	_	_	23	conj:dicto	_	AlignBegin=43829|AlignEnd=44073|Gloss=at
+27-28	yǎːɬwâːníː	_	_	_	_	_	_	_	_
+27	*yǎːɬ-íː	yaːɬ	NOUN	_	Definite=Cons|Deixis=Remt	26	comp:obj	_	AlignBegin=44073|AlignEnd=44317|Gloss=country-CONS-REMT|wordform=yaːɬ
 28	=wâːn	=waːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	27	mod@poss	_	AlignBegin=44195|AlignEnd=44256|Gloss=2PL.POS
 29	|c	|c	PUNCT	_	_	32	punct	_	AlignBegin=44317|AlignEnd=44560|Gloss=PUNCT
-30	kóː	kóː	CCONJ	_	_	32	cc	_	AlignBegin=45220|AlignEnd=45371|Gloss=or|Idiom=Yes|ExtPos=CCONJ
+30	kóː	kóː	CCONJ	_	_	32	cc	_	AlignBegin=45220|AlignEnd=45371|ExtPos=CCONJ|Gloss=or|Idiom=Yes
 31	kwǎː	kwǎː	PART	_	_	30	mod	_	AlignBegin=45371|AlignEnd=45522|Gloss=else|InIdiom=Yes
-32	ká	ká	ADP	_	_	26	conj:coord	_	AlignBegin=45522|AlignEnd=45673|Gloss=at
-33-34	wuːr-íː	_	_	_	_	_	_	_	_
-33	wuːr-́-íː	wuːr-́-í	NOUN	_	Deixis=Remt	32	comp:obj	_	AlignBegin=45673|AlignEnd=45824|Gloss=sacred_groove|wordform=wuːr
+32	á	ká	ADP	_	_	26	conj:coord	_	AlignBegin=45522|AlignEnd=45673|Gloss=at
+33-34	wǔːrwâːníː	_	_	_	_	_	_	_	_
+33	*wǔːr-íː	wuːr	NOUN	_	Definite=Cons|Deixis=Remt	32	comp:obj	_	AlignBegin=45673|AlignEnd=45824|Gloss=sacred_groove-CONS-REMT|wordform=wuːr
 34	=wâːn	=waːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	33	mod@poss	_	AlignBegin=45749|AlignEnd=45787|Gloss=2PL.POS
 35	//]	//]	PUNCT	_	_	20	punct	_	AlignBegin=45824|AlignEnd=45975|Gloss=PUNCT
 36	//	//	PUNCT	_	_	2	punct	_	AlignBegin=46126|AlignEnd=46280|Gloss=PUNCT
