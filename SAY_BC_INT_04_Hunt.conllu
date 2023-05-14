@@ -2,7 +2,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 1060, 3504
-# text = myǎː ʧêt tu kə̀tàyáː fî nǎːrwâːn wuriː tánnâŋeː ?//
+# text = myǎː ʧêt tu kə̀tàyáː fî nǎːrwâːn wuriː tánnáŋèː ?// 
 # text_ortho = myǎː ʧêt tu kə̀tàyáː fî nǎːrwâːn wuriː tánnâŋeː ?//
 # text_en = We are asking how did you use to hunt?
 1	myǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	0	root	_	AlignBegin=1060|AlignEnd=1296|Gloss=1PL.IMP
@@ -14,7 +14,7 @@
 6	nǎːr	naːr	NOUN	_	_	5	comp:obj	_	AlignBegin=2264|AlignEnd=2388|Gloss=hunting
 7	=wâːn	=waːn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	mod@poss	_	AlignBegin=2388|AlignEnd=2512|Gloss=2PL.POS
 8	wuriː	wuriː	ADV	_	PronType=Int	5	mod	_	AlignBegin=2512|AlignEnd=2760|Gloss=how
-9-10	tánnâŋeː	_	_	_	_	_	_	_	_
+9-10	tánnáŋèː	_	_	_	_	_	_	_	_
 9	tánnâŋ	tánnâŋ	ADV	_	_	5	mod	_	AlignBegin=2760|AlignEnd=3008|Gloss=really
 10	eː	eː	PART	_	_	1	mod	_	AlignBegin=3008|AlignEnd=3256|Gloss=Q
 11	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=3256|AlignEnd=3504|Gloss=PUNCT
@@ -23,45 +23,51 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 3780, 10012
-# text = kə̀tàyáː fi -ni tə́ káɗi -sə -i a: |c kóː kə̀tàyáː fi -ni tə́ mâm a: |c kóː nə bəndígà a: |c kóː kúmá kə̀tà yír gyáː ngə́tn -i gón a: ?//
-# text_ortho = kə̀tàyáː fîn tə́ kaɗaŋʃí aː |c kóː kə̀tàyáː fîn tə́ mámaː |c kóː nə bindígà aː |c kóː kúmá kə̀tà yír gyáː ngə́ʃi gón aː ?//
-# text_en = Did you use to hunt with dogs or did you use to hunt with bows of with guns or else did you have other things?
+# text = kə̀tàyáː fîn tə́ kaɗaŋʃyâː |c kóː kə̀tàyáː fîn tə́ mámaː |c kóː nə bəndígàː |c kóː kúmá kə̀tà yír gyáː ŋgə́ʃi gónaː ?// 
+# text_ortho = kə̀tàyáː fîn tə́ kaɗaŋʃyâː |c kóː kə̀tàyáː fîn tə́ mámaː |c kóː nə bindígàː |c kóː kúmá kə̀tà yír gyáː ngə́ʃi gón aː ?//
+# text_en = Did you use to hunt with dogs or did you use to hunt with bows of with guns or else did you have some other things?
 1	kə̀tàyáː	ta-yáː	AUX	_	Aspect=Imp|Number=Plur|Person=2|Tense=Rem	0	root	_	AlignBegin=3780|AlignEnd=4007|Gloss=2PL.REM.IMP
-2	fi	fi	VERB	_	_	1	comp:aux	_	AlignBegin=4007|AlignEnd=4121|Gloss=do
+2-3	fîn	_	_	_	_	_	_	_	_
+2	fî	fi	VERB	_	_	1	comp:aux	_	AlignBegin=4007|AlignEnd=4121|Gloss=do
 3	ni	ni	PART	_	Aspect=Iter	2	compound:prt	_	AlignBegin=4121|AlignEnd=4234|Gloss=ITER|wordform=-ni
-4	tə́	tə́	ADP	_	_	2	comp:obj	_	AlignBegin=4234|AlignEnd=4462|Gloss=with
-5	káɗi-sə-i	káɗi-sə-i	NOUN	_	Definite=Ind	2	comp:obj	_	AlignBegin=4462|AlignEnd=4710|Gloss=dog|wordform=káɗi
-6	a:	a:	PART	_	PartType=Int	9	mod	_	AlignBegin=4710|AlignEnd=4958|Gloss=VRT
+4	tə́	tə́	ADP	_	_	2	comp:obl	_	AlignBegin=4234|AlignEnd=4462|Gloss=with
+5-6	kaɗaŋʃyâː	_	_	_	_	_	_	_	_
+5	kaɗaŋʃí	káɗi	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=4462|AlignEnd=4710|Gloss=dog.PL|wordform=káɗi
+6	a:	a:	PART	_	PartType=Int	1	mod	_	AlignBegin=4710|AlignEnd=4958|Gloss=VRT
 7	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=4958|AlignEnd=5205|Gloss=PUNCT
 8	kóː	kóː	CCONJ	_	_	9	cc	_	AlignBegin=5205|AlignEnd=5453|Gloss=or|Lang=hau
 9	kə̀tàyáː	ta-yáː	AUX	_	Aspect=Imp|Number=Plur|Person=2|Tense=Rem	1	conj:coord	_	AlignBegin=5453|AlignEnd=5701|Gloss=2PL.REM.IMP
-10	fi	fi	VERB	_	_	9	comp:aux	_	AlignBegin=5701|AlignEnd=5825|Gloss=do
+10-11	fîn	_	_	_	_	_	_	_	_
+10	fî	fi	VERB	_	_	9	comp:aux	_	AlignBegin=5701|AlignEnd=5825|Gloss=do
 11	ni	ni	PART	_	Aspect=Iter	10	compound:prt	_	AlignBegin=5825|AlignEnd=5949|Gloss=ITER|wordform=-ni
-12	tə́	tə́	ADP	_	_	10	comp:obj	_	AlignBegin=5949|AlignEnd=6197|Gloss=with
+12	tə́	tə́	ADP	_	_	10	comp:obl	_	AlignBegin=5949|AlignEnd=6197|Gloss=with
+13-14	mámaː	_	_	_	_	_	_	_	_
 13	mâm	mâm	NOUN	_	_	12	comp:obj	_	AlignBegin=6197|AlignEnd=6321|Gloss=bow
 14	a:	a:	PART	_	PartType=Int	9	mod	_	AlignBegin=6321|AlignEnd=6445|Gloss=VRT
 15	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=6445|AlignEnd=6690|Gloss=PUNCT
 16	kóː	kóː	CCONJ	_	_	17	cc	_	AlignBegin=6690|AlignEnd=6878|Gloss=or|Lang=hau
+17-18	bindígàː	_	_	_	_	_	_	_	_
 17	nə	nə	PART	_	VerbType=Cop	9	conj:coord	_	AlignBegin=6878|AlignEnd=7066|Gloss=be
 18	bəndígà	bəndígà	NOUN	_	_	17	comp:pred	_	AlignBegin=7066|AlignEnd=7254|Gloss=gun|Lang=hau
 19	a:	a:	PART	_	PartType=Int	17	mod	_	AlignBegin=7254|AlignEnd=7442|Gloss=VRT
 20	|c	|c	PUNCT	_	_	23	punct	_	AlignBegin=7442|AlignEnd=7630|Gloss=PUNCT
-21	kóː	kóː	CCONJ	_	_	17	cc	_	AlignBegin=7630|AlignEnd=7922|Gloss=or|Lang=hau
-22	kúmá	kúmá	PART	_	_	23	discourse	_	AlignBegin=7922|AlignEnd=8215|Gloss=and|Lang=hau
+21	kóː	kóː	CCONJ	_	_	23	cc	_	AlignBegin=7630|AlignEnd=7922|Gloss=or|Lang=hau|Idiom=Yes|ExtPos=CCONJ
+22	kúmá	kúmá	PART	_	_	21	unk	_	AlignBegin=7922|AlignEnd=8215|Gloss=else|Lang=hau|InIdiom=Yes
 23	kə̀tà	ta	AUX	_	Number=Sing|Person=2|Tense=Rem	17	conj:coord	_	AlignBegin=8900|AlignEnd=9059|Gloss=2PL.REM
 24	yír	yír	VERB	_	_	23	comp:aux	_	AlignBegin=9059|AlignEnd=9218|Gloss=have
 25	gyáː	gyáː	DET	_	Number=Plur	26	det	_	AlignBegin=9218|AlignEnd=9377|Gloss=PL
-26	ngə́tn-i	ngə́tn-i	NOUN	_	_	24	comp:obj	_	AlignBegin=9377|AlignEnd=9536|Gloss=thing|wordform=ngə́tn
-27	gón	gón	DET	_	Definite=Spec	24	comp:obj	_	AlignBegin=9536|AlignEnd=9695|Gloss=SPEC
-28	a:	a:	PART	_	PartType=Int	17	mod	_	AlignBegin=9695|AlignEnd=9854|Gloss=VRT
+26	ŋgə́ʃi	ngə́tn	NOUN	_	Definite=Ind	24	comp:obj	_	AlignBegin=9377|AlignEnd=9536|Gloss=thing|wordform=ngə́tn
+27-28	gónaː	_	_	_	_	_	_	_	_
+27	gón	gón	DET	_	Definite=Spec	26	det	_	AlignBegin=9536|AlignEnd=9695|Gloss=SPEC
+28	a:	a:	PART	_	PartType=Int	23	mod	_	AlignBegin=9695|AlignEnd=9854|Gloss=VRT
 29	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=9854|AlignEnd=10012|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_009-015
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 10155, 19694
-# text = kúmá zaːr < wò ɗyáː fi nda ndə̂ːr ngə́tn =wôs ngap mbwaː -kə́nì ngə́tn a: |c kóː séː gùŋ pîːs =wâːn yáː wul tu [ tòː dzàŋ tsəní má ɬə ɗa //] a: |c kóː yi wuriː ?//
-# text_ortho = kúmá zaːr < wò ɗyáː fi nda ndə̂ːr ngə́tnwôs ngap mbwáːkə̂n ngə́taː |c kóː séː gùŋ pîːswàːn yáː wûl tu [ tôː dzàŋ tsə́n má ɬə́ ɗa //] aː |c kóː yi wuriː ?//
+# text = kúmá zaːr < wò ɗyáː fi nda ndə̂ːr ngə́tnwôs ngap mbwáːɣə̂n ngə́taː |c kóː séː gùŋ pîːswàːn yáː wûl tu [ tôː dzàŋ tsə́n má ɬə́ ɗa //] aː |c kóː yi wuriː ?//
+# text_ortho = kúmá zaːr < wò ɗyáː fi nda ndə̂ːr ngə́tnwôs ngap mbwáːɣə̂n ngə́taː |c kóː séː gùŋ pîːswàːn yáː wûl tu [ tôː dzàŋ tsə́n má ɬə́ ɗa //] aː |c kóː yi wuriː ?//
 # text_en = And people would be able to  go into the bush on their own and start shooting on their own, or must your chief  hunter say  on such a day we will go  or how was it?
 1	kúmá	kúmá	PART	_	_	4	discourse	_	AlignBegin=10155|AlignEnd=10360|Gloss=and
 2	zaːr	zaːr	NOUN	_	_	4	dislocated@top	_	AlignBegin=10360|AlignEnd=10565|Gloss=person
@@ -69,35 +75,38 @@
 4	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=11160|AlignEnd=11484|Gloss=3SG.FUT
 5	ɗyáː	ɗyáː	VERB	_	_	4	comp:aux	_	AlignBegin=11484|AlignEnd=11808|Gloss=can
 6	fi	fi	VERB	_	_	5	compound:svc	_	AlignBegin=11808|AlignEnd=12131|Gloss=do
-7	nda	nda	VERB	_	_	6	compound:svc	_	AlignBegin=12840|AlignEnd=13103|Gloss=enter
-8	ndə̂ːr	ndə̂ːr	NOUN	_	_	7	comp:obj	_	AlignBegin=13103|AlignEnd=13366|Gloss=bush
-9	ngə́tn	ngə́tn	NOUN	_	_	7	comp:obj	_	AlignBegin=13366|AlignEnd=13498|Gloss=thing
-10	=wôs	=woos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	9	mod@poss	_	AlignBegin=13498|AlignEnd=13629|Gloss=3SG.POS
-11	ngap	ngap	VERB	_	_	6	compound:svc	_	AlignBegin=13629|AlignEnd=13892|Gloss=take
-12	mbwaː-kə́nì	mbwaː-kə́nì	VERB	_	_	11	comp:obj	_	AlignBegin=13892|AlignEnd=14153|Gloss=shoot|wordform=mbwaː
-13	ngə́tn	ngə́tn	NOUN	_	_	11	comp:obj	_	AlignBegin=14153|AlignEnd=14249|Gloss=thing
+7	nda	nda	VERB	_	_	6	comp:obj	_	AlignBegin=12840|AlignEnd=13103|Gloss=enter
+8	ndə̂ːr	ndə̂ːr	NOUN	_	_	7	comp:loc	_	AlignBegin=13103|AlignEnd=13366|Gloss=bush
+9-10	ngə́tnwôs	_	_	_	_	_	_	_	_
+9	ngə́tn	ngə́tn	NOUN	_	_	7	mod	_	AlignBegin=13366|AlignEnd=13498|Gloss=thing
+10	=wôs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	9	mod@poss	_	AlignBegin=13498|AlignEnd=13629|Gloss=3SG.POS
+11	ngap	ngap	VERB	_	_	7	conj:coord	_	AlignBegin=13629|AlignEnd=13892|Gloss=take
+12	mbwáːɣə̂n	mbwaː	VERB	_	VerbForm=Vnoun	11	comp:obj	_	AlignBegin=13892|AlignEnd=14153|Gloss=shoot-NMLZ|wordform=mbwaː|ExtPos=NOUN
+13-14	ngə́taː	_	_	_	_	_	_	_	_
+13	ngə́tn	ngə́tn	NOUN	_	_	12	comp:obj	_	AlignBegin=14153|AlignEnd=14249|Gloss=thing
 14	a:	a:	PART	_	PartType=Int	4	mod	_	AlignBegin=14249|AlignEnd=14346|Gloss=VRT
-15	|c	|c	PUNCT	_	_	35	punct	_	AlignBegin=14346|AlignEnd=14539|Gloss=PUNCT
-16	kóː	kóː	CCONJ	_	_	35	cc	_	AlignBegin=14539|AlignEnd=14732|Gloss=or|Lang=hau
-17	séː	séː	ADV	_	_	35	mod	_	AlignBegin=14732|AlignEnd=14925|Gloss=must
+15	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=14346|AlignEnd=14539|Gloss=PUNCT
+16	kóː	kóː	CCONJ	_	_	17	cc	_	AlignBegin=14539|AlignEnd=14732|Gloss=or|Lang=hau
+17	séː	séː	SCONJ	_	_	4	conj:coord	_	AlignBegin=14732|AlignEnd=14925|Gloss=must
 18	gùŋ	gùŋ	NOUN	_	_	21	subj	_	AlignBegin=14925|AlignEnd=15116|Gloss=chief
+19-20	pîːswàːn	_	_	_	_	_	_	_	_
 19	pîːs	pîːs	NOUN	_	_	18	mod	_	AlignBegin=15646|AlignEnd=15750|Gloss=arrow
 20	=wâːn	=wâːn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	19	mod@poss	_	AlignBegin=15750|AlignEnd=15855|Gloss=2PL.POS
-21	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	4	conj:coord	_	AlignBegin=15855|AlignEnd=16064|Gloss=3SG.CND
-22	wul	wul	VERB	_	_	21	comp:aux	_	AlignBegin=16064|AlignEnd=16273|Gloss=say
+21	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	17	comp:obj	_	AlignBegin=15855|AlignEnd=16064|Gloss=3SG.CND
+22	wûl	wul	VERB	_	_	21	comp:aux	_	AlignBegin=16064|AlignEnd=16273|Gloss=say
 23	tu	tu	PART	_	_	22	comp:obj	_	AlignBegin=16273|AlignEnd=16482|Gloss=COMP
 24	[	[	PUNCT	_	_	28	punct	_	AlignBegin=16482|AlignEnd=16691|Gloss=PUNCT
-25	tòː	tòː	PART	_	_	21	discourse	_	AlignBegin=16691|AlignEnd=16900|Gloss=DM
-26	dzàŋ	dzàŋ	NOUN	_	_	21	mod	_	AlignBegin=17480|AlignEnd=17605|Gloss=day
-27	tsəní	tsəní	ADV	_	_	26	det	_	AlignBegin=17605|AlignEnd=17730|Gloss=like_this
+25	tòː	tòː	PART	_	_	28	discourse	_	AlignBegin=16691|AlignEnd=16900|Gloss=DM
+26	dzàŋ	dzàŋ	NOUN	_	_	28	mod	_	AlignBegin=17480|AlignEnd=17605|Gloss=day
+27	tsə́n	tsəní	ADV	_	_	26	mod	_	AlignBegin=17605|AlignEnd=17730|Gloss=like_this
 28	má	a	AUX	_	Number=Plur|Person=1|Tense=Fut	23	comp:obj	_	AlignBegin=17730|AlignEnd=17855|Gloss=1PL.FUT
-29	ɬə	ɬə	VERB	_	_	28	comp:aux	_	AlignBegin=17855|AlignEnd=17980|Gloss=go
+29	ɬə́	ɬə	VERB	_	_	28	comp:aux	_	AlignBegin=17855|AlignEnd=17980|Gloss=go
 30	ɗa	ɗa	PART	_	_	29	compound:prt	_	AlignBegin=17980|AlignEnd=18105|Gloss=again
 31	//]	//]	PUNCT	_	_	28	punct	_	AlignBegin=18105|AlignEnd=18230|Gloss=PUNCT
-32	a:	a:	PART	_	PartType=Int	4	mod	_	AlignBegin=18230|AlignEnd=18355|Gloss=VRT
+32	a:	a:	PART	_	PartType=Int	17	mod	_	AlignBegin=18230|AlignEnd=18355|Gloss=VRT
 33	|c	|c	PUNCT	_	_	35	punct	_	AlignBegin=18355|AlignEnd=18480|Gloss=PUNCT
 34	kóː	kóː	CCONJ	_	_	35	cc	_	AlignBegin=19025|AlignEnd=19192|Gloss=or|Lang=hau
-35	yi	yi	VERB	_	_	4	conj:coord	_	AlignBegin=19192|AlignEnd=19359|Gloss=be
+35	yi	yi	VERB	_	_	17	conj:coord	_	AlignBegin=19192|AlignEnd=19359|Gloss=be
 36	wuriː	wuriː	ADV	_	PronType=Int	35	comp:pred	_	AlignBegin=19359|AlignEnd=19526|Gloss=how
 37	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=19526|AlignEnd=19694|Gloss=PUNCT
 
