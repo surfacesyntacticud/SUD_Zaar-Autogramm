@@ -515,16 +515,18 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 90520, 91540
-# text = tôː ʧi gòs ká tsə́tn -kə́nì ʧík //
-# text_ortho = tôː ʧi gòs á tsə́tngə̂n ʧík //
+# text = tôː ʧi gòs ɣá tsə́tngə̂n ʧík // 
+# text_ortho = tôː ʧi gòs ɣá tsə́tngə̂n ʧík // 
 # text_en = Well it is just lying there.
-1	tôː	tôː	PART	_	_	4	discourse	_	AlignBegin=90520|AlignEnd=90666|Gloss=DM
-2	ʧi	ʧi	PRON	_	_	4	dislocated@subj	_	AlignBegin=90666|AlignEnd=90812|Gloss=3SG.be
-3	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@top	_	AlignBegin=90812|AlignEnd=90958|Gloss=3SG.POS
-4	ká	ká	ADP	_	_	0	root	_	AlignBegin=90958|AlignEnd=91104|Gloss=at
-5	tsə́tn-kə́nì	tsə́tn-k	VERB	_	VerbForm=Vnoun	4	comp:aux	_	AlignBegin=91104|AlignEnd=91250|Gloss=sit|wordform=tsə́tn
-6	ʧík	ʧík	ADV	_	_	4	mod	_	AlignBegin=91250|AlignEnd=91396|Gloss=thus
-7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=91396|AlignEnd=91540|Gloss=PUNCT
+1	tôː	tôː	PART	_	_	3	discourse	_	AlignBegin=90520|AlignEnd=90666|Gloss=DM
+2-3	ʧi	_	_	_	_	_	_	_	_
+2	tə	tə	PRON	_	_	3	subj@subj	_	AlignBegin=90666|Gloss=3SG
+3	yi	yi	VERB	_	_	0	root	_	AlignEnd=90812|Gloss=be
+4	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	mod@top	_	AlignBegin=90812|AlignEnd=90958|Gloss=3SG.POS
+5	ɣá	ká	ADP	_	_	3	comp:pred	_	AlignBegin=90958|AlignEnd=91104|Gloss=at
+6	tsə́tngə̂n	tsə́tn	VERB	_	VerbForm=Vnoun	5	comp:obj	_	AlignBegin=91104|AlignEnd=91250|Gloss=sit|wordform=tsə́tn
+7	ʧík	ʧík	ADV	_	_	3	mod	_	AlignBegin=91250|AlignEnd=91396|Gloss=thus
+8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=91396|AlignEnd=91540|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_065-072
 # speaker_id = SP1
