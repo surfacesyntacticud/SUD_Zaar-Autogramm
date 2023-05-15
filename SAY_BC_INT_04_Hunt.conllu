@@ -308,33 +308,37 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 53620, 57883
-# text = èː ki tə́ kipm -́ =wâːn tə́ rôm =wâːn tə́ pîːs //
-# text_ortho = èː ki tə́ kǐpmwâːn tə́ rômwàːn tə́ pîːs //
+# text = èː ki tə́ kǐpmwâːn tə́ rômwàːn tə́ pîːs //
+# text_ortho = èː ki tə́ kǐpmwâːn tə́ rômwàːn tə́ pîːs //
 # text_en = Er... you would have your quiver and your axe and your arrows.
-1	èː	èː	INTJ	_	_	6	discourse	_	AlignBegin=53620|AlignEnd=54420|Gloss=HESIT
-2	ki	ki	SCONJ	_	Number=Sing|Person=2|PronType=Prs	6	subj	_	AlignBegin=56020|AlignEnd=56216|Gloss=2SG.be
-3	tə́	tə́	ADP	_	_	2	comp:obj	_	AlignBegin=56216|AlignEnd=56413|Gloss=with
-4	kipm-́	kipm-	NOUN	_	_	6	comp:obj	_	AlignBegin=56413|AlignEnd=56633|Gloss=quiver|wordform=kipm
-5	=wâːn	=waːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	4	mod@poss	_	AlignBegin=56633|AlignEnd=56744|Gloss=2PL.POS
-6	tə́	tə́	ADP	_	_	0	root	_	AlignBegin=56744|AlignEnd=57075|Gloss=with
-7	rôm	rôm	NOUN	_	_	6	comp:aux	_	AlignBegin=57075|AlignEnd=57241|Gloss=axe
-8	=wâːn	=wâːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	7	mod@poss	_	AlignBegin=57241|AlignEnd=57406|Gloss=2PL.POS
-9	tə́	tə́	ADP	_	_	7	mod	_	AlignBegin=57406|AlignEnd=57565|Gloss=with
-10	pîːs	pîːs	NOUN	_	_	7	comp:obj	_	AlignBegin=57565|AlignEnd=57724|Gloss=arrow
-11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=57724|AlignEnd=57883|Gloss=PUNCT
+1	èː	èː	INTJ	_	_	3	discourse	_	AlignBegin=53620|AlignEnd=54420|Gloss=HESIT
+2-3	ki	_	_	_	_	_	_	_	_
+2	kə	kə	PRON	_	Number=Sing|Person=2|PronType=Prs	3	subj	_	AlignBegin=56020|Gloss=2SG
+3	yi	yi	VERB	_	_	0	conj:coord	_	AlignEnd=56216|Gloss=be
+4	tə́	tə́	ADP	_	_	3	comp:pred	_	AlignBegin=56216|AlignEnd=56413|Gloss=with
+5-6	kǐpmwâːn	_	_	_	_	_	_	_	_
+5	kǐpm	kipm-	NOUN	_	Definite=Cons	4	comp:obj	_	AlignBegin=56413|AlignEnd=56633|Gloss=quiver-CONS|wordform=kipm
+6	=wâːn	=wâːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	5	mod@poss	_	AlignBegin=56633|AlignEnd=56744|Gloss=2PL.POS
+7	tə́	tə́	ADP	_	_	4	conj:coord	_	AlignBegin=56744|AlignEnd=57075|Gloss=with
+8-9	rômwàːn	_	_	_	_	_	_	_	_
+8	rôm	rôm	NOUN	_	Definite=Cons	7	comp:obj	_	AlignBegin=57075|AlignEnd=57241|Gloss=axe-CONS
+9	=wàːn	=wâːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	8	mod@poss	_	AlignBegin=57241|AlignEnd=57406|Gloss=2PL.POS
+10	tə́	tə́	ADP	_	_	7	conj:coord	_	AlignBegin=57406|AlignEnd=57565|Gloss=with
+11	pîːs	pîːs	NOUN	_	_	10	comp:obj	_	AlignBegin=57565|AlignEnd=57724|Gloss=arrow
+12	//	//	PUNCT	_	_	3	punct	_	AlignBegin=57724|AlignEnd=57883|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_042-043
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 59140, 60458
-# text = tôː < kəndá kə́ ɲwáːl //
-# text_ortho = tôː < kəndá kə́ ɲwǎːl //
+# text = tôː < kəndá ɣə́ ɲwǎːl //
+# text_ortho = tôː < kəndá ɣə́ ɲwǎːl //
 # text_en = Well then you would walk around.
 1	tôː	tôː	PART	_	_	4	discourse	_	AlignBegin=59140|AlignEnd=59328|Gloss=DM
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=59328|AlignEnd=59517|Gloss=PUNCT
 3	kəndá	kəndá	ADV	_	_	4	mod	_	AlignBegin=59808|AlignEnd=59970|Gloss=then
-4	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	0	root	_	AlignBegin=59970|AlignEnd=60132|Gloss=2PL.AOR
-5	ɲwáːl	ɲwáːl	VERB	_	_	4	comp:aux	_	AlignBegin=60132|AlignEnd=60294|Gloss=go_out
+4	ɣə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	0	root	_	AlignBegin=59970|AlignEnd=60132|Gloss=2PL.AOR
+5	ɲwǎːl	ɲol	VERB	_	Number=PLUR	4	comp:aux	_	AlignBegin=60132|AlignEnd=60294|Gloss=go_out-PLUR
 6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=60294|AlignEnd=60458|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_044-045
