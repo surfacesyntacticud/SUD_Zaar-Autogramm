@@ -56,7 +56,9 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
+
 Contributors: Kahane, Sylvain; Guillaume, Bruno; Caron, Bernard; Jiang, Katharine; Davan, Marvellous S.
+
 Contributing: here
 Contact: bruno.guillaume@inria.fr
 ===============================================================================
