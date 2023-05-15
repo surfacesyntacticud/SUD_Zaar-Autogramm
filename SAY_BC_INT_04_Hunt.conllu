@@ -32,7 +32,7 @@
 3	ni	ni	PART	_	Aspect=Iter	2	compound:prt	_	AlignBegin=4121|AlignEnd=4234|Gloss=ITER|wordform=-ni
 4	tə́	tə́	ADP	_	_	2	comp:obl	_	AlignBegin=4234|AlignEnd=4462|Gloss=with
 5-6	kaɗaŋʃyâː	_	_	_	_	_	_	_	_
-5	kaɗaŋʃí	káɗi	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=4462|AlignEnd=4710|Gloss=dog.PL|wordform=káɗi
+5	kaɗaŋʃí	káɗi	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=4462|AlignEnd=4710|Gloss=dog.PLUR|wordform=káɗi
 6	a:	a:	PART	_	PartType=Int	1	mod	_	AlignBegin=4710|AlignEnd=4958|Gloss=VRT
 7	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=4958|AlignEnd=5205|Gloss=PUNCT
 8	kóː	kóː	CCONJ	_	_	9	cc	_	AlignBegin=5205|AlignEnd=5453|Gloss=or|Lang=hau
@@ -55,7 +55,7 @@
 22	kúmá	kúmá	PART	_	_	21	unk	_	AlignBegin=7922|AlignEnd=8215|Gloss=else|Lang=hau|InIdiom=Yes
 23	kə̀tà	ta	AUX	_	Number=Sing|Person=2|Tense=Rem	17	conj:coord	_	AlignBegin=8900|AlignEnd=9059|Gloss=2PL.REM
 24	yír	yír	VERB	_	_	23	comp:aux	_	AlignBegin=9059|AlignEnd=9218|Gloss=have
-25	gyáː	gyáː	DET	_	Number=Plur	26	det	_	AlignBegin=9218|AlignEnd=9377|Gloss=PL
+25	gyáː	gyáː	DET	_	Number=Plur	26	det	_	AlignBegin=9218|AlignEnd=9377|Gloss=PLUR
 26	ŋgə́ʃi	ngə́tn	NOUN	_	Definite=Ind	24	comp:obj	_	AlignBegin=9377|AlignEnd=9536|Gloss=thing|wordform=ngə́tn
 27-28	gónaː	_	_	_	_	_	_	_	_
 27	gón	gón	DET	_	Definite=Spec	26	det	_	AlignBegin=9536|AlignEnd=9695|Gloss=SPEC
@@ -148,7 +148,7 @@
 # text = gyáː gón ka ʃiʃí ngə́tnwâː tə́ kǐpmwâː ndáy námtsə //
 # text_ortho = gyáː gón ka ʃiʃí ngə́tnwâː tə́ kǐpmwâː ndáy námtsə //
 # text_en = Sometimes you would go on your own with your quiver and go to the bush.
-1	gyáː	gyáː	DET	_	Number=Plur	2	det	_	AlignBegin=24440|AlignEnd=24649|Gloss=PL
+1	gyáː	gyáː	DET	_	Number=Plur	2	det	_	AlignBegin=24440|AlignEnd=24649|Gloss=PLUR
 2	gón	gón	PRON	_	Definite=Spec	3	dislocated@top	_	AlignBegin=24649|AlignEnd=24858|Gloss=SPEC
 3	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=24858|AlignEnd=25067|Gloss=2SG.FUT
 4	ʃiʃí	ʃiʃí	VERB	_	_	3	comp:aux	_	AlignBegin=25067|AlignEnd=25276|Gloss=leave
@@ -272,13 +272,14 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 47320, 48694
-# text = tôː zaːr -sə tá ɲwáːl ɗi mondá //
-# text_ortho = tôː zàrsə̀ tá ɲwǎːlɗi mondá //
+# text = tôː zàrsə̀ tá ɲwǎːlɗi mondá //
+# text_ortho = tôː zàrsə̀ tá ɲwǎːlɗi mondá //
 # text_en = Well people would gather plenty.
 1	tôː	tôː	PART	_	_	3	discourse	_	AlignBegin=47320|AlignEnd=47549|Gloss=DM
 2	zaːr-sə	Zaːr	NOUN	_	Number=Plur	3	subj	_	AlignBegin=47549|AlignEnd=47778|Gloss=person|wordform=zaːr
 3	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=47778|AlignEnd=48007|Gloss=3PL.FUT
-4	ɲwáːl	ɲwáol	VERB	_	_	3	comp:aux	_	AlignBegin=48007|AlignEnd=48121|Gloss=go_out
+4-5	ɲwǎːlɗi	_	_	_	_	_	_	_	_
+4	ɲwǎːl	ɲol	VERB	_	Number=Plur	3	comp:aux	_	AlignBegin=48007|AlignEnd=48121|Gloss=go_out-PLUR
 5	ɗi	ɗi	PART	_	_	4	compound:prt	_	AlignBegin=48121|AlignEnd=48236|Gloss=CTP
 6	mondá	mondá	ADV	_	_	4	mod	_	AlignBegin=48236|AlignEnd=48465|Gloss=many
 7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=48465|AlignEnd=48694|Gloss=PUNCT
@@ -295,10 +296,10 @@
 3	ɲwáːl	ɲwáol	VERB	_	_	2	comp:aux	_	AlignBegin=49870|AlignEnd=49952|Gloss=go_out
 4	ɗi	ɗi	PART	_	_	3	compound:prt	_	AlignBegin=49952|AlignEnd=50035|Gloss=CTP
 5	tə́	tə́	ADP	_	_	3	comp:obl	_	AlignBegin=50035|AlignEnd=50200|Gloss=with
-6	gyáː	gyáː	DET	_	Number=Plur	7	det	_	AlignBegin=50200|AlignEnd=50365|Gloss=PL
+6	gyáː	gyáː	DET	_	Number=Plur	7	det	_	AlignBegin=50200|AlignEnd=50365|Gloss=PLUR
 7	kipm	kipm	NOUN	_	_	5	comp:obj	_	AlignBegin=50365|AlignEnd=50530|Gloss=quiver
 8	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=50530|AlignEnd=50698|Gloss=PUNCT
-9	gyáː	gyáː	DET	_	Number=Plur	10	det	_	AlignBegin=51600|AlignEnd=51773|Gloss=PL
+9	gyáː	gyáː	DET	_	Number=Plur	10	det	_	AlignBegin=51600|AlignEnd=51773|Gloss=PLUR
 10	rôm	rôm	NOUN	_	_	7	conj:coord	_	AlignBegin=51773|AlignEnd=51946|Gloss=axe
 11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=51946|AlignEnd=52120|Gloss=PUNCT
 
@@ -543,15 +544,15 @@
 9	ɗan	ɗan	ADP	_	_	40	mod	_	AlignBegin=95327|AlignEnd=95673|Gloss=like
 10	kímsə	kímsə	NOUN	_	_	19	comp:obj	_	AlignBegin=95673|AlignEnd=96020|Gloss=Boi
 11	tə́	tə́	ADP	_	_	8	comp:obj	_	AlignBegin=97140|AlignEnd=97316|Gloss=with
-12	gyáː	gyáː	DET	_	Number=Plur	13	det	_	AlignBegin=97316|AlignEnd=97492|Gloss=PL
+12	gyáː	gyáː	DET	_	Number=Plur	13	det	_	AlignBegin=97316|AlignEnd=97492|Gloss=PLUR
 13	mə́n	mə́n	NOUN	_	Number=Plur	11	comp:obj	_	AlignBegin=97492|AlignEnd=97668|Gloss=people
 14	tə́	tə́	ADP	_	_	13	cc	_	AlignBegin=98880|AlignEnd=99060|Gloss=with
-15	gyáː	gyáː	DET	_	Number=Plur	16	det	_	AlignBegin=99060|AlignEnd=99240|Gloss=PL
+15	gyáː	gyáː	DET	_	Number=Plur	16	det	_	AlignBegin=99060|AlignEnd=99240|Gloss=PLUR
 16	mə́n	mə́n	NOUN	_	Number=Plur	13	conj:coord	_	AlignBegin=99240|AlignEnd=99420|Gloss=people
 17	koblaŋ	koblaŋ	NOUN	_	_	16	mod	_	AlignBegin=99420|AlignEnd=99600|Gloss=Koblang
 18	<	<	PUNCT	_	_	21	punct	_	AlignBegin=99600|AlignEnd=99780|Gloss=PUNCT
 19	tə́	tə́	ADP	_	_	8	comp:obj	_	AlignBegin=100300|AlignEnd=100451|Gloss=with
-20	gyáː	gyáː	DET	_	Number=Plur	21	det	_	AlignBegin=100451|AlignEnd=100602|Gloss=PL
+20	gyáː	gyáː	DET	_	Number=Plur	21	det	_	AlignBegin=100451|AlignEnd=100602|Gloss=PLUR
 21	mə́n	mə́n	NOUN	_	Number=Plur	8	comp:obj	_	AlignBegin=100602|AlignEnd=100753|Gloss=people
 22	ʒímʃí	ʒímʃí	IDEO	_	_	21	mod	_	AlignBegin=100753|AlignEnd=100904|Gloss=Zhimshi
 23	|c	|c	PUNCT	_	_	24	punct	_	AlignBegin=100904|AlignEnd=101055|Gloss=PUNCT
@@ -564,7 +565,7 @@
 30	ketsar	ketsar	NOUN	_	_	29	comp:obj	_	AlignBegin=101961|AlignEnd=102112|Gloss=Ketsar
 31	<	<	PUNCT	_	_	32	punct	_	AlignBegin=102112|AlignEnd=102260|Gloss=PUNCT
 32	tə́	tə́	ADP	_	_	21	cc	_	AlignBegin=103020|AlignEnd=103160|Gloss=with
-33	gyáː	gyáː	DET	_	Number=Plur	34	det	_	AlignBegin=103160|AlignEnd=103300|Gloss=PL
+33	gyáː	gyáː	DET	_	Number=Plur	34	det	_	AlignBegin=103160|AlignEnd=103300|Gloss=PLUR
 34	mə́n	mə́n	NOUN	_	Number=Plur	21	mod	_	AlignBegin=103300|AlignEnd=103440|Gloss=people
 35	malâːr	malâːr	NOUN	_	_	34	compound	_	AlignBegin=103440|AlignEnd=103580|Gloss=Malar
 36	ɗan	ɗan	SCONJ	_	_	34	mod	_	AlignBegin=103580|AlignEnd=103720|Gloss=REL
@@ -659,7 +660,7 @@
 4	taːrá	taːrá	VERB	_	_	3	comp:aux	_	AlignBegin=116080|AlignEnd=116160|Gloss=gather|Lang=hau
 5	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=116160|AlignEnd=116240|Gloss=3PL.OBJ
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=116240|AlignEnd=116400|Gloss=PUNCT
-7	gyáː	gyáː	DET	_	Number=Plur	9	det	_	AlignBegin=117100|AlignEnd=117259|Gloss=PL
+7	gyáː	gyáː	DET	_	Number=Plur	9	det	_	AlignBegin=117100|AlignEnd=117259|Gloss=PLUR
 8	gón	gón	DET	_	Definite=Spec	9	comp:obj	_	AlignBegin=117259|AlignEnd=117418|Gloss=SPEC
 9	ɗan	ɗan	ADV	_	_	0	root	_	AlignBegin=117418|AlignEnd=117577|Gloss=like
 10	ɗúːni	ɗúːni	ADV	_	PronType=Dem	9	mod	_	AlignBegin=117577|AlignEnd=117736|Gloss=here
@@ -727,7 +728,7 @@
 # text_ortho = hár gyaː gón ʧàːyí fi || ká fî maːndə káy áy //
 # text_en = Some even ... you would fight over it indeed.
 1	hár	hár	ADP	_	_	4	discourse	_	AlignBegin=124760|AlignEnd=124963|Gloss=up_to
-2	gyáː	gyáː	DET	_	Number=Plur	3	det	_	AlignBegin=124963|AlignEnd=125166|Gloss=PL
+2	gyáː	gyáː	DET	_	Number=Plur	3	det	_	AlignBegin=124963|AlignEnd=125166|Gloss=PLUR
 3	gón	gón	PRON	_	Definite=Spec	4	subj	_	AlignBegin=125166|AlignEnd=125369|Gloss=SPEC
 4	ʧàːyí	yáː-yíː	AUX	_	Aspect=Imp-Iter|Number=Plur|Person=3	0	root	_	AlignBegin=125369|AlignEnd=125572|Gloss=3PL.IMP.ITER
 5	fi	fi	VERB	_	_	4	comp:aux	_	AlignBegin=125572|AlignEnd=125775|Gloss=do
@@ -775,7 +776,7 @@
 3	dap	dap	VERB	_	_	2	comp:aux	_	AlignBegin=130102|AlignEnd=130243|Gloss=follow
 4	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	2	conj:coord	_	AlignBegin=130243|AlignEnd=130384|Gloss=2PL.AOR
 5	fi	fi	VERB	_	_	4	comp:aux	_	AlignBegin=130384|AlignEnd=130526|Gloss=do
-6	kyǎː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=2	5	parataxis@comp	_	AlignBegin=130526|AlignEnd=130674|Gloss=2.PL.CONT
+6	kyǎː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=2	5	parataxis@comp	_	AlignBegin=130526|AlignEnd=130674|Gloss=2.PLUR.CONT
 7	maːndə	maːndə	NOUN	_	_	6	comp:aux	_	AlignBegin=130674|AlignEnd=130822|Gloss=fight
 8	káy	káy	PRON	_	Person=3|PronType=Prs	5	comp@expl	_	AlignBegin=130822|AlignEnd=130970|Gloss=ANAPH
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=130970|AlignEnd=131120|Gloss=PUNCT
@@ -1055,7 +1056,7 @@
 7	tàːtá	àːt-ta	AUX	_	Aspect=Perf|Number=Plur|Person=3|Tense=Rem	4	comp:obj	_	AlignBegin=170857|AlignEnd=171218|Gloss=3PL.PERF.REM
 8	lə́ːr	lə́ːr	VERB	_	_	7	comp:aux	_	AlignBegin=171218|AlignEnd=171398|Gloss=bring
 9	=kí	=kí	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	8	comp:obj	_	AlignBegin=171398|AlignEnd=171579|Gloss=2PL.OBJ
-10	gyáː	gyáː	DET	_	Number=Plur	11	det	_	AlignBegin=171579|AlignEnd=171940|Gloss=PL
+10	gyáː	gyáː	DET	_	Number=Plur	11	det	_	AlignBegin=171579|AlignEnd=171940|Gloss=PLUR
 11	piská-ín	piská-i	VERB	_	Aspect=Res	8	comp:obj	_	AlignBegin=171940|AlignEnd=172110|Gloss=arrows|wordform=piská
 12	mə́n	mə́n	PART	_	Case=Ben	8	compound:prt	_	AlignBegin=172110|AlignEnd=172195|Gloss=BEN
 13	ɗi	ɗi	PART	_	_	8	compound:prt	_	AlignBegin=172195|AlignEnd=172280|Gloss=CTP
@@ -1685,7 +1686,7 @@
 # text_en = Did you forge arrows with it?
 1	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	0	root	_	AlignBegin=261761|AlignEnd=261913|Gloss=2PL.AOR
 2	vat	vat	VERB	_	_	1	comp:aux	_	AlignBegin=261913|AlignEnd=262065|Gloss=forge
-3	gyáː	gyáː	DET	_	Number=Plur	4	det	_	AlignBegin=262065|AlignEnd=262217|Gloss=PL
+3	gyáː	gyáː	DET	_	Number=Plur	4	det	_	AlignBegin=262065|AlignEnd=262217|Gloss=PLUR
 4	pîːs	pîi	NOUN	_	_	2	comp:obj	_	AlignBegin=262217|AlignEnd=262369|Gloss=arrow
 5	káy	káy	PRON	_	Person=3|PronType=Prs	1	discourse	_	AlignBegin=262369|AlignEnd=262521|Gloss=ANAPH
 6	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=262521|AlignEnd=262673|Gloss=PUNCT
@@ -1822,7 +1823,7 @@
 1	kə̀tà	ta	AUX	_	Number=Sing|Person=2|Tense=Rem	0	root	_	AlignBegin=280200|AlignEnd=280561|Gloss=2PL.REM
 2	yír	yír	VERB	_	_	1	comp:aux	_	AlignBegin=280561|AlignEnd=280922|Gloss=have
 3	sáːfi	sáːfi	NOUN	_	_	2	comp:obj	_	AlignBegin=280922|AlignEnd=281283|Gloss=magic|Lang=hau
-4	gyáː	gyáː	DET	_	Number=Plur	5	det	_	AlignBegin=281283|AlignEnd=281644|Gloss=PL
+4	gyáː	gyáː	DET	_	Number=Plur	5	det	_	AlignBegin=281283|AlignEnd=281644|Gloss=PLUR
 5	naːr	naːr	NOUN	_	_	8	comp:obj	_	AlignBegin=281644|AlignEnd=281824|Gloss=hunting
 6	=wâːn	=wâːn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	mod@poss	_	AlignBegin=281824|AlignEnd=282005|Gloss=2PL.POS
 7	ɗan	ɗan	SCONJ	_	_	5	mod@relcl	_	AlignBegin=282005|AlignEnd=282366|Gloss=REL
@@ -1873,7 +1874,7 @@
 # text_ortho = èː gyaː gíː tà yi ɗa //
 # text_en = Yes, that used to exist.
 1	èː	èː	INTJ	_	_	4	discourse	_	AlignBegin=290094|AlignEnd=290269|Gloss=yes
-2	gyáː	gyáː	DET	_	Number=Plur	3	det	_	AlignBegin=290269|AlignEnd=290444|Gloss=PL
+2	gyáː	gyáː	DET	_	Number=Plur	3	det	_	AlignBegin=290269|AlignEnd=290444|Gloss=PLUR
 3	gíː	gíː	PRON	_	Deixis=Remt|PronType=Dem	4	subj	_	AlignBegin=290444|AlignEnd=290619|Gloss=REM
 4	tà	ta	AUX	_	Tense=Rem	0	root	_	AlignBegin=290619|AlignEnd=290794|Gloss=REM
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=290794|AlignEnd=290969|Gloss=be
@@ -1972,7 +1973,7 @@
 1	báː	báː	PART	_	Polarity=Neg	2	mod	_	AlignBegin=305133|AlignEnd=305323|Gloss=NEG1
 2	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	0	root	_	AlignBegin=305323|AlignEnd=305513|Gloss=2PL.AOR
 3	yír	yír	VERB	_	_	2	comp:aux	_	AlignBegin=305513|AlignEnd=305703|Gloss=have
-4	gyáː	gyáː	DET	_	Number=Plur	5	det	_	AlignBegin=305703|AlignEnd=305893|Gloss=PL
+4	gyáː	gyáː	DET	_	Number=Plur	5	det	_	AlignBegin=305703|AlignEnd=305893|Gloss=PLUR
 5	ngə́tn	ngə́tn	NOUN	_	_	3	comp:obj	_	AlignBegin=305893|AlignEnd=306083|Gloss=thing
 6	wón	wón	DET	_	Definite=Spec	5	det	_	AlignBegin=306083|AlignEnd=306273|Gloss=SPEC
 7	tu	tu	SCONJ	_	Mood=Qot	5	mod@relcl	_	AlignBegin=306273|AlignEnd=306463|Gloss=COMP
@@ -2001,10 +2002,10 @@
 2	tə̀tàyáː	ta-yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3|Tense=Rem	0	root	_	AlignBegin=309868|AlignEnd=310046|Gloss=3PL.REM.IMP
 3	ʧop	ʧop	VERB	_	_	2	comp:aux	_	AlignBegin=310046|AlignEnd=310224|Gloss=wash
 4	tə́	tə́	ADP	_	_	3	comp:obl	_	AlignBegin=310224|AlignEnd=310402|Gloss=with
-5	gyáː	gyáː	DET	_	Number=Plur	4	comp:obj	_	AlignBegin=310402|AlignEnd=310580|Gloss=PL
+5	gyáː	gyáː	DET	_	Number=Plur	4	comp:obj	_	AlignBegin=310402|AlignEnd=310580|Gloss=PLUR
 6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=310580|AlignEnd=310757
 7	tə́	tə́	ADP	_	_	4	conj:dicto	_	AlignBegin=310757|AlignEnd=310938|Gloss=with
-8	gyáː	gyáː	DET	_	Number=Plur	9	det	_	AlignBegin=310938|AlignEnd=311119|Gloss=PL
+8	gyáː	gyáː	DET	_	Number=Plur	9	det	_	AlignBegin=310938|AlignEnd=311119|Gloss=PLUR
 9	ŋantsə́	ŋantsə́	NOUN	_	_	7	comp:obj	_	AlignBegin=311119|AlignEnd=311300|Gloss=wood
 10	wón	wón	DET	_	Definite=Spec	9	det	_	AlignBegin=311300|AlignEnd=311481|Gloss=SPEC
 11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=311481|AlignEnd=311660|Gloss=PUNCT
@@ -2061,7 +2062,7 @@
 # text_en = He would do some little  potions.
 1	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=316860|AlignEnd=317176|Gloss=3SG.FUT
 2	fi	fi	VERB	_	_	1	comp:aux	_	AlignBegin=317176|AlignEnd=317492|Gloss=do
-3	gyáː	gyáː	DET	_	Number=Plur	5	det	_	AlignBegin=317492|AlignEnd=317808|Gloss=PL
+3	gyáː	gyáː	DET	_	Number=Plur	5	det	_	AlignBegin=317492|AlignEnd=317808|Gloss=PLUR
 4	ŋaː	ŋaː	ADJ	_	_	5	mod	_	AlignBegin=317808|AlignEnd=318123|Gloss=little
 5	wukn	wukn	NOUN	_	_	2	comp:obj	_	AlignBegin=318123|AlignEnd=318269|Gloss=medicine
 6	wón	wón	DET	_	Definite=Spec	5	det	_	AlignBegin=318269|AlignEnd=318415|Gloss=SPEC
