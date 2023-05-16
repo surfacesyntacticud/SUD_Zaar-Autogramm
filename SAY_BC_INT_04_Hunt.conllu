@@ -644,7 +644,7 @@
 3	fáː	fáː	PART	_	_	1	mod	_	AlignBegin=113422|AlignEnd=113613|Gloss=indeed
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=113613|AlignEnd=113804|Gloss=PUNCT
 5	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=114220|AlignEnd=114368|Gloss=3SG.FUT
-6	fíː	fi	VERB	_	Aspect=Res	5	comp:aux	_	AlignBegin=114368|AlignEnd=114516|Gloss=do|wordform=fi
+6	fíː	fi	VERB	_	Aspect=Res	5	comp:aux	_	AlignBegin=114368|AlignEnd=114516|Gloss=do-RES|wordform=fi
 7	ɗan	ɗan	ADP	_	_	6	mod	_	AlignBegin=114516|AlignEnd=114664|Gloss=like|ExtPos=ADP|Idiom=Yes
 8	teː	teː	ADP	_	_	7	conj:obj	_	AlignBegin=114664|AlignEnd=114812|Gloss=around|InIdiom=Yes
 9	ɮarí	ɮarí	NOUN	_	_	7	comp:obj	_	AlignBegin=114812|AlignEnd=114960|Gloss=river_bank
@@ -657,25 +657,25 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 115600, 118688
-# text = ɗan zaːr -sə tàː taːrá =ʃí < gyáː gón ɗan ɗúːni hár wàːné ɮarí gìmsə̀ a: //
-# text_ortho = ɗan zàrsə̀ tàː taːráʃí < gyaː gón ɗan ɗûːn hár wàːné ɮarí gìmsə̀ aː //
-# text_en = As people meet some of them like from here to around Gimsa.
-1	ɗan	ɗan	SCONJ	_	_	9	mod	_	AlignBegin=115600|AlignEnd=115760|Gloss=as
-2	zaːr-sə	zaːr-sə	NOUN	_	Number=Plur	3	subj	_	AlignBegin=115760|AlignEnd=115920|Gloss=person|wordform=zaːr
-3	tàː	àː	AUX	_	Aspect=Perf|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=115920|AlignEnd=116080|Gloss=3PL.PERF
+# text = ɗan zàrsə̀ tàː taːráʃí < gyaːgón ɗa ɗûːn hár waːní ɮarí Gìmsàː // 
+# text_ortho = ɗan zàrsə̀ tàː taːráʃí < gyaːgón ɗa ɗûːn hár waːní ɮarí Gìmsàː //
+# text_en = And people join them, some from here, and others from across Gimsə.
+1	ɗan	ɗan	ADV	_	_	3	mod	_	AlignBegin=115600|AlignEnd=115760|Gloss=then
+2	zàrsə̀	zaːr	NOUN	_	Number=Plur	3	subj	_	AlignBegin=115760|AlignEnd=115920|Gloss=person|wordform=zaːr
+3	tàː	àː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=115920|AlignEnd=116080|Gloss=3PL.PERF
+4-5	taːráʃí	_	_	_	_	_	_
 4	taːrá	taːrá	VERB	_	_	3	comp:aux	_	AlignBegin=116080|AlignEnd=116160|Gloss=gather|Lang=hau
 5	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=116160|AlignEnd=116240|Gloss=3PL.OBJ
-6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=116240|AlignEnd=116400|Gloss=PUNCT
-7	gyáː	gyáː	DET	_	Number=Plur	9	det	_	AlignBegin=117100|AlignEnd=117259|Gloss=PLUR
-8	gón	gón	DET	_	Definite=Spec	9	comp:obj	_	AlignBegin=117259|AlignEnd=117418|Gloss=SPEC
-9	ɗan	ɗan	ADV	_	_	0	root	_	AlignBegin=117418|AlignEnd=117577|Gloss=like
-10	ɗúːni	ɗúːni	ADV	_	PronType=Dem	9	mod	_	AlignBegin=117577|AlignEnd=117736|Gloss=here
-11	hár	hár	ADP	_	_	9	mod	_	AlignBegin=117736|AlignEnd=117895|Gloss=up_to
-12	wàːné	wàːné	DET	_	_	13	comp:obj	_	AlignBegin=117895|AlignEnd=118054|Gloss=whatever
-13	ɮarí	ɮarí	ADP	_	_	9	comp:obj	_	AlignBegin=118054|AlignEnd=118213|Gloss=across
-14	gìmsə̀	gìmsə̀	NOUN	_	_	13	comp:obj	_	AlignBegin=118213|AlignEnd=118372|Gloss=Gimsə
-15	a:	a:	PART	_	PartType=Int	9	mod	_	AlignBegin=118372|AlignEnd=118531|Gloss=VRT
-16	//	//	PUNCT	_	_	1	punct	_	AlignBegin=118531|AlignEnd=118688|Gloss=PUNCT
+6	//=	//=	PUNCT	_	_	8	punct	_	AlignBegin=116240|AlignEnd=116400|Gloss=PUNCT
+7	gyaːgón	gyaːgón	PRON	_	Definite=Spec|Number=Plur	8	subj	_	AlignBegin=117259|AlignEnd=117418|Gloss=SPEC
+8	ɗa	ɗa	ADP	_	_	3	parataxis@conj	_	AlignBegin=117418|AlignEnd=117577|Gloss=at
+9	ɗûːn	ɗúːni	ADV	_	PronType=Dem	8	mod	_	AlignBegin=117577|AlignEnd=117736|Gloss=here
+10	hár	hár	ADP	_	_	12	cc	_	AlignBegin=117736|AlignEnd=117895|Gloss=up_to
+11	waːní	waːní	PRON	_	_	12	subj	_	AlignBegin=117895|AlignEnd=118054|Gloss=whovever
+12	ɮarí	ɮarí	ADP	_	_	8	conj:coord	_	AlignBegin=118054|AlignEnd=118213|Gloss=across
+13	Gìmsə̀	Gìmsə̀	PROPN	_	_	12	comp:obj	_	AlignBegin=118213|AlignEnd=118372|Gloss=Gimsə
+14	a:	a:	PART	_	PartType=Int	8	mod	_	AlignBegin=118372|AlignEnd=118531|Gloss=VRT
+15	//	//	PUNCT	_	_	3	punct	_	AlignBegin=118531|AlignEnd=118688|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_082-082
 # speaker_id = SP1
