@@ -860,8 +860,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 140380, 143760
-# text = yàːʃí < mə́n námtsə káwêy tá wul tu tôː gàyyà ɗúːni oː //
-# text_ortho = yàːʃí < mə́n námtsə káwêy tá wûl tu tóː gàyyà ɗúːni oː //
+# text = yàːʃí < mə́n námtsə káwêy tá wûl tu tôː gàyyà ɗúːni oː //
+# text_ortho = yàːʃí < mə́n námtsə káwêy tá wûl tu tôː gàyyà ɗúːni oː //
 # text_en = Them, the bush people,  they will only say  there's a communal hunting here.
 1	yàːʃí	yàːʃí	PRON	_	Number=Sing|Person=3|PronType=Prs	6	dislocated@subj	_	AlignBegin=140380|AlignEnd=140670|Gloss=3PL.IDP
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=140670|AlignEnd=140960|Gloss=PUNCT
@@ -869,7 +869,7 @@
 4	námtsə	námtsə	NOUN	_	_	3	compound	_	AlignBegin=141250|AlignEnd=141541|Gloss=bush
 5	káwêy	káwêy	ADV	_	_	3	mod	_	AlignBegin=141541|AlignEnd=141675|Gloss=merely
 6	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=141675|AlignEnd=141809|Gloss=3PL.FUT
-7	wul	wul	VERB	_	_	6	comp:aux	_	AlignBegin=141809|AlignEnd=141943|Gloss=say
+7	wûl	wul	VERB	_	_	6	comp:aux	_	AlignBegin=141809|AlignEnd=141943|Gloss=say
 8	tu	tu	PART	_	_	7	comp:obj	_	AlignBegin=141943|AlignEnd=142077|Gloss=COMP
 9	tôː	tôː	PART	_	_	10	discourse	_	AlignBegin=142077|AlignEnd=142211|Gloss=DM
 10	gàyyà	gàyyà	NOUN	_	_	8	comp:obj	_	AlignBegin=143100|AlignEnd=143265|Gloss=communal_work|Lang=hau
@@ -884,11 +884,13 @@
 # text = naːr máː ʧi ʧík //
 # text_ortho = naːr máː ʧi ʧík //
 # text_en = Individual hunting too is like this,
-1	naːr	naːr	NOUN	_	_	2	subj	_	AlignBegin=144540|AlignEnd=144672|Gloss=hunting
-2	máː	máː	PART	_	_	0	root	_	AlignBegin=144672|AlignEnd=144804|Gloss=also
-3	ʧi	ʧi	VERB	_	_	2	comp:aux	_	AlignBegin=144804|AlignEnd=144936|Gloss=3SG.be
-4	ʧík	ʧík	ADV	_	_	3	mod	_	AlignBegin=144936|AlignEnd=145068|Gloss=thus
-5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=145068|AlignEnd=145201|Gloss=PUNCT
+1	naːr	naːr	NOUN	_	_	4	dislocated@subj	_	AlignBegin=144540|AlignEnd=144672|Gloss=hunting
+2	máː	máː	PART	_	_	1	mod	_	AlignBegin=144672|AlignEnd=144804|Gloss=also
+3-4	ʧi	_	_	_	_	_	_	_	_
+3	tə	tə	VERB	_	_	4	subj	_	AlignBegin=144804|Gloss=3SG.be
+4	yi	yi	VERB	_	_	0	root	_	AlignEnd=144936|Gloss=be
+5	ʧík	ʧík	ADV	_	_	4	mod	_	AlignBegin=144936|AlignEnd=145068|Gloss=thus
+6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=145068|AlignEnd=145201|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_103-103
 # speaker_id = SP1
