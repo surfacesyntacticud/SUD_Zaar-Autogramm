@@ -791,16 +791,16 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 131900, 133040
-# text = yáː ɗak ɗa hŋ́ máː < ɬûː -íː wò láːp ʒà //
+# text = yáː ɗâk ɗǎŋ máː < ɬúːy wò láːp ʒà //
 # text_ortho = yáː ɗâk ɗa hŋ́ máː < ɬúːy wò láːp ʒà //
-# text_en = If he's not careful,  the meat will be lost,
-1	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	8	parataxis@mod	_	AlignBegin=131900|AlignEnd=131996|Gloss=3SG.CND
-2	ɗak	ɗak	VERB	_	_	1	comp:aux	_	AlignBegin=131996|AlignEnd=132092|Gloss=be_careful
+# text_en = If he's not careful,  the meat will be lost.
+1	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	8	mod	_	AlignBegin=131900|AlignEnd=131996|Gloss=3SG.CND
+2	ɗâk	ɗak	VERB	_	_	1	comp:aux	_	AlignBegin=131996|AlignEnd=132092|Gloss=be_careful
 3	ɗa	ɗa	PART	_	_	2	compound:prt	_	AlignBegin=132092|AlignEnd=132188|Gloss=again
 4	hŋ́	hŋ́	PART	_	Polarity=Neg	1	mod	_	AlignBegin=132188|AlignEnd=132284|Gloss=NEG2
-5	máː	máː	PART	_	_	1	discourse	_	AlignBegin=132284|AlignEnd=132380|Gloss=also
+5	máː	máː	PART	_	_	1	mod	_	AlignBegin=132284|AlignEnd=132380|Gloss=also
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=132380|AlignEnd=132474|Gloss=PUNCT
-7	ɬûː-íː	ɬûː-iiː	VERB	_	_	8	comp:aux	_	AlignBegin=132474|AlignEnd=132587|Gloss=animal|wordform=ɬûː
+7	ɬúːy	ɬûː	NOUN	_	Deixis=Remt	8	subj	_	AlignBegin=132474|AlignEnd=132587|Gloss=animal-REMT|wordform=ɬûː
 8	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=132587|AlignEnd=132700|Gloss=3SG.FUT
 9	láːp	láːp	VERB	_	_	8	comp:aux	_	AlignBegin=132700|AlignEnd=132813|Gloss=follow
 10	ʒà	ʒà	NOUN	_	_	9	comp:obj	_	AlignBegin=132813|AlignEnd=132926|Gloss=water
@@ -810,12 +810,12 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 133200, 134079
-# text = tá basák =tə -íː káwêy //
+# text = tá bàsáɣtíː káwêy // 
 # text_ortho = tá bàsáktíː káwêy //
 # text_en = they will merely throw it away.
 1	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=133200|AlignEnd=133420|Gloss=3PL.FUT
-2-3	basák-íː	_	_	_	_	_	_	_	_
-2	basák-íː	basák-iiː	VERB	_	Aspect=Res	1	comp:aux	_	AlignBegin=133420|AlignEnd=133640|Gloss=scatter|wordform=basák
+2-3	bàsáɣtíː	_	_	_	_	_	_	_	_
+2	*bàsák-íː	basák-iiː	VERB	_	Aspect=Res	1	comp:aux	_	AlignBegin=133420|AlignEnd=133640|Gloss=scatter|wordform=basák
 3	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=133493|AlignEnd=133566|Gloss=3SG.OBJ|Incorporated=Yes
 4	káwêy	káwêy	ADV	_	_	2	mod	_	AlignBegin=133640|AlignEnd=133860|Gloss=merely
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=133860|AlignEnd=134079|Gloss=PUNCT
