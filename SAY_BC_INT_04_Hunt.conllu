@@ -951,30 +951,32 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 151303, 153639
-# text = báː kə̀tà yír gùŋ pìːs =wâːn hŋ́ kən ?//
-# text_ortho = bàː kə̀tà yír gùŋ pìːswàːn hŋ́ kəndí ?//
+# text = báː kə̀tà yír gùŋ pìːswàːn hŋ́ gəndí ?// 
+# text_ortho = báː kə̀tà yír gùŋ pìːswàːn hŋ́ gəndí ?//
 # text_en = Didn't you use to have your hunting chief?
 1	báː	báː	PART	_	Polarity=Neg	2	mod	_	AlignBegin=151303|AlignEnd=151692|Gloss=NEG1
-2	kə̀tà	ta	AUX	_	Number=Sing|Person=2|Tense=Rem	0	root	_	AlignBegin=151692|AlignEnd=152081|Gloss=2PLUR.REM
+2	kə̀tà	ta	AUX	_	Number=Sing|Person=2|Tense=Rem	0	root	_	AlignBegin=151692|AlignEnd=152081|Gloss=2PL.REM
 3	yír	yír	VERB	_	_	2	comp:aux	_	AlignBegin=152081|AlignEnd=152470|Gloss=have
-4	gùŋ	gùŋ	NOUN	_	_	3	comp:obj	_	AlignBegin=152470|AlignEnd=152704|Gloss=chief
-5	pìːs	pìː	NOUN	_	_	3	comp:obj	_	AlignBegin=152704|AlignEnd=152821|Gloss=arrow
-6	=wâːn	=waːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	5	mod@poss	_	AlignBegin=152821|AlignEnd=152938|Gloss=2PLUR.POS
+4	gùŋ	gùŋ	NOUN	_	Definite=Cons	3	comp:obj	_	AlignBegin=152470|AlignEnd=152704|Gloss=chief-CONS
+5-6	pìːswàːn	_	_	_	_	_	_	_	_
+5	pìːs	pîːs	NOUN	_	Definite=Cons	4	compound	_	AlignBegin=152704|AlignEnd=152821|Gloss=arrow
+6	=wàːn	=waːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	4	mod@poss	_	AlignBegin=152821|AlignEnd=152938|Gloss=2PL.POS
 7	hŋ́	hŋ́	PART	_	Polarity=Neg	2	mod	_	AlignBegin=152938|AlignEnd=153172|Gloss=NEG2
-8	kən	kən	PART	_	_	2	discourse	_	AlignBegin=153172|AlignEnd=153406|Gloss=be
+8	gəndí	kəndí	PART	_	_	2	discourse	_	AlignBegin=153172|AlignEnd=153406|Gloss=be
 9	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=153406|AlignEnd=153639|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_109-110
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 155120, 156528
-# text = m̀ː gùŋ pîːs a: ?//
-# text_ortho = m̀ː gùŋ pìːs aː ?//
-# text_en = Er,  the chief of war?
+# text = m̀ː gùŋ pìːsàː ?//
+# text_ortho = m̀ː gùŋ pìːsàː ?//
+# text_en = Er, a chief of war?
 1	m̀ː	m̀ː	INTJ	_	_	2	discourse	_	AlignBegin=155120|AlignEnd=155838|Gloss=yes
-2	gùŋ	gùŋ	NOUN	_	_	0	root	_	AlignBegin=155838|AlignEnd=156010|Gloss=chief
-3	pîːs	pî	NUM	_	_	2	mod	_	AlignBegin=156010|AlignEnd=156182|Gloss=arrow
-4	a:	a:	PART	_	PartType=Int	2	mod	_	AlignBegin=156182|AlignEnd=156354|Gloss=VRT
+2	gùŋ	gùŋ	NOUN	_	Definite=Cons	0	root	_	AlignBegin=155838|AlignEnd=156010|Gloss=chief-CONS
+3-4	pìːsaː	_	_	_	_	_	_	_	_
+3	pìːs	pîːs	NUM	_	Definite=Cons	2	mod	_	AlignBegin=156010|AlignEnd=156182|Gloss=arrow
+4	à:	a:	PART	_	PartType=Int	2	mod	_	AlignBegin=156182|AlignEnd=156354|Gloss=VRT
 5	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=156354|AlignEnd=156528|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_111-111
