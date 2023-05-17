@@ -738,7 +738,7 @@
 2	gyaːgón	gyaːgón	PRON	_	Definite=Spec|Number=Plur	3	subj	_	AlignBegin=125166|AlignEnd=125369|Gloss=SPEC
 3	ʧàːyí	yáː-yiː	AUX	_	Aspect=Imp+Iter|Number=Plur|Person=3	0	root	_	AlignBegin=125369|AlignEnd=125572|Gloss=3PL.IMP.ITER
 4	fi	fi	VERB	_	_	3	comp:aux	_	AlignBegin=125572|AlignEnd=125775|Gloss=do
-5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=125775|AlignEnd=125976
+5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=125775|AlignEnd=125976|Gloss=PUNCT
 6	ká	a	AUX	_	Number=Plur|Person=2|Tense=Fut	3	conj:dicto	_	AlignBegin=125976|AlignEnd=126127|Gloss=2PL.FUT
 7	fî	fi	VERB	_	_	6	comp:aux	_	AlignBegin=126127|AlignEnd=126278|Gloss=do
 8	maːndə	maːndə	NOUN	_	_	7	comp:obj@lvc	_	AlignBegin=126278|AlignEnd=126429|Gloss=fight
@@ -750,25 +750,25 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 127020, 129136
-# text = múr -ín wul tu myáːni >+ mə mbwaː //= múr -ín wul tu myáːni >+ mə mbwaː //
+# text = murín wul tu myáːni >+ mə mbwáː //= murín wul tu myâːn >+ mə mbwáː //
 # text_ortho = murín wul tu myáːni >+ mə mbwáː //= murín wul tu myâːn >+ mə mbwáː //
 # text_en = This man says it's me who killed it;  this man will say it's me who killed it.
-1	mur-ín	mur-i	NOUN	_	Deixis=Prox	6	dislocated@top	_	AlignBegin=127020|AlignEnd=127160|Gloss=man|wordform=mur
-2	wul	wul	VERB	_	_	1	comp:aux	_	AlignBegin=127160|AlignEnd=127300|Gloss=say
+1	murín	múr	NOUN	_	Deixis=Prox	2	subj	_	AlignBegin=127020|AlignEnd=127160|Gloss=man|wordform=mur
+2	wul	wul	VERB	_	_	0	root	_	AlignBegin=127160|AlignEnd=127300|Gloss=say
 3	tu	tu	PART	_	_	2	comp:obj	_	AlignBegin=127300|AlignEnd=127440|Gloss=COMP
 4	myáːni	myáːni	PRON	_	Number=Sing|Person=1|PronType=Prs	3	comp:obj	_	AlignBegin=127440|AlignEnd=127579|Gloss=1SG.IDP
 5	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=127579|AlignEnd=127718|Gloss=PUNCT
-6	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	0	root	_	AlignBegin=127718|AlignEnd=127857|Gloss=1SG.AOR
+6	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	4	comp:cleft	_	AlignBegin=127718|AlignEnd=127857|Gloss=1SG.AOR
 7	mbwaː	mbwaː	VERB	_	_	6	comp:aux	_	AlignBegin=127857|AlignEnd=127996|Gloss=shoot
-8	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=127996|AlignEnd=128134|Gloss=PUNCT
-9	múr-ín	múr-i	NOUN	_	Deixis=Prox	6	subj	_	AlignBegin=128134|AlignEnd=128259|Gloss=man|wordform=múr
-10	wul	wul	VERB	_	_	9	comp:aux	_	AlignBegin=128259|AlignEnd=128384|Gloss=say
+8	//=	//=	PUNCT	_	_	10	punct	_	AlignBegin=127996|AlignEnd=128134|Gloss=PUNCT
+9	murín	múr	NOUN	_	Deixis=Prox	10	subj	_	AlignBegin=128134|AlignEnd=128259|Gloss=man|wordform=múr
+10	wul	wul	VERB	_	_	2	parataxis@conj	_	AlignBegin=128259|AlignEnd=128384|Gloss=say
 11	tu	tu	PART	_	_	10	comp:obj	_	AlignBegin=128384|AlignEnd=128509|Gloss=COMP
-12	myáːni	myáːni	PRON	_	Number=Sing|Person=1|PronType=Prs	11	comp:obj	_	AlignBegin=128509|AlignEnd=128634|Gloss=1SG.IDP
+12	myâːn	myáːni	PRON	_	Number=Sing|Person=1|PronType=Prs	11	comp:obj	_	AlignBegin=128509|AlignEnd=128634|Gloss=1SG.IDP
 13	>+	>+	PUNCT	_	_	14	punct	_	AlignBegin=128634|AlignEnd=128759|Gloss=PUNCT
-14	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	6	parataxis@conj	_	AlignBegin=128759|AlignEnd=128884|Gloss=1SG.AOR
+14	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	12	comp:cleft@conj	_	AlignBegin=128759|AlignEnd=128884|Gloss=1SG.AOR
 15	mbwaː	mbwaː	VERB	_	_	14	comp:aux	_	AlignBegin=128884|AlignEnd=129009|Gloss=shoot
-16	//	//	PUNCT	_	_	6	punct	_	AlignBegin=129009|AlignEnd=129136|Gloss=PUNCT
+16	//	//	PUNCT	_	_	2	punct	_	AlignBegin=129009|AlignEnd=129136|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_091-092
 # speaker_id = SP1
