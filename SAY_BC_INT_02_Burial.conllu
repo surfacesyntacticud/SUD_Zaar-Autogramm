@@ -243,10 +243,10 @@
 9	ɗáni	ɗân	ADV	_	PronType=Dem	8	comp:obj	_	AlignBegin=39406|AlignEnd=39581|Gloss=there
 10	<	<	PUNCT	_	_	4	punct	_	AlignBegin=39581|AlignEnd=39757|Gloss=PUNCT
 11	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=40612|AlignEnd=40787|Gloss=3SG.FUT
-12	wul	wul	VERB	_	_	11	comp:aux	_	AlignBegin=40787|AlignEnd=40962|Gloss=say
-13	vìː	vìː	NOUN	_	_	12	comp:obj@lvc	_	AlignBegin=40962|AlignEnd=41137|Gloss=speech
-14	wón	wón	DET	_	Definite=Spec	13	det	_	AlignBegin=41137|AlignEnd=41312|Gloss=SPEC
-15	tu	tu	PART	_	Mood=Qot	13	mod@relcl	_	AlignBegin=41312|AlignEnd=41489|Gloss=COMP
+12	wul	wul	VERB	_	_	11	comp:aux	_	AlignBegin=40787|AlignEnd=40962|Gloss=say|Idiom=Yes|ExtPos=VERB
+13	vìː	vìː	NOUN	_	_	12	comp	_	AlignBegin=40962|AlignEnd=41137|Gloss=speech|InIdiom=Yes
+14	wón	wón	DET	_	Definite=Spec	13	det	_	AlignBegin=41137|AlignEnd=41312|Gloss=SPEC|InIdiom=Yes
+15	tu	tu	SCONJ	_	Mood=Qot	12	comp:obj	_	AlignBegin=41312|AlignEnd=41489|Gloss=COMP
 16	[	[	PUNCT	_	_	24	punct	_	AlignBegin=41489|AlignEnd=41625|Gloss=PUNCT
 17	tôː	tôː	PART	_	_	24	discourse	_	AlignBegin=41625|AlignEnd=41761|Gloss=DM
 18	ngə́tn	ngə́tn	NOUN	_	_	21	dislocated@subj	_	AlignBegin=41761|AlignEnd=41897|Gloss=thing
@@ -1609,11 +1609,11 @@
 4-5	ʧímtə	_	_	_	_	_	_	_	_
 4	ʧîm	ʧim	VERB	_	_	3	comp:aux	_	AlignBegin=231819|AlignEnd=231913|Gloss=call
 5	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=231913|AlignEnd=232006|Gloss=3SG.OBJ
-6	ɣá	ká	ADP	_	_	4	comp:obl	_	AlignBegin=232006|AlignEnd=232193|Gloss=at
+6	ɣá	ká	ADP	_	_	4	mod	_	AlignBegin=232006|AlignEnd=232193|Gloss=at
 7	vìː	vìː	NOUN	_	_	6	comp:obj	_	AlignBegin=232193|AlignEnd=232380|Gloss=language
 8	Válti	Válti	PROPN	_	_	7	compound	_	AlignBegin=232380|AlignEnd=232567|Gloss=Muslim
 9	tu	tu	ADP	_	Mood=Qot	4	comp:pred	_	AlignBegin=232567|AlignEnd=232785|Gloss=COMP
-10	ʃéro	ʃéro	ADV	_	_	9	comp:obj	_	AlignBegin=232785|AlignEnd=233003|Gloss=flogging|Lang=hau
+10	ʃéro	ʃéro	NOUN	_	_	9	comp:obj	_	AlignBegin=232785|AlignEnd=233003|Gloss=flogging|Lang=hau
 11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=233003|AlignEnd=233221|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_176-176
@@ -1724,8 +1724,8 @@
 2-3	ʧéɗəm	_	_	_	_	_	_	_	_
 2	ʧêt	ʧet	VERB	_	_	1	comp:aux	_	AlignBegin=249109|AlignEnd=249193|Gloss=ask
 3	=mə	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	comp:ben	_	AlignBegin=249193|AlignEnd=249278|Gloss=1SG.OBJ
-4	tu	tu	ADP	_	Mood=Qot	2	comp:obj	_	AlignBegin=249278|AlignEnd=249447|Gloss=COMP
-5	gìːɣə̀n	giː	VERB	_	_	4	comp:obj	_	AlignBegin=249447|AlignEnd=249616|Gloss=bury-NMLZ
+4	tu	tu	ADP	_	Mood=Qot	2	comp:obl	_	AlignBegin=249278|AlignEnd=249447|Gloss=COMP
+5	gìːɣə̀n	giː	VERB	_	VerbForm=Vnoun	4	comp:obj	_	AlignBegin=249447|AlignEnd=249616|Gloss=bury-NMLZ|ExtPos=NOUN
 6	múr	múr	PART	_	_	5	comp:obj	_	AlignBegin=249616|AlignEnd=249785|Gloss=man
 7	vàr	vàrì	ADJ	_	_	6	mod	_	AlignBegin=249785|AlignEnd=249954|Gloss=big
 8	ɗan	ɗan	SCONJ	_	_	6	mod@relcl	_	AlignBegin=249954|AlignEnd=250123|Gloss=REL
@@ -2725,14 +2725,14 @@
 # sent_timecode = 392704, 395970
 # text = kây hár mop tu ɗan gyáː Mádaːkí Dúːkìyá máː bàː tá wâː ɮàr ɣáy hŋ́ //
 # text_ortho = kây hár mop tu ɗan gyáː Mádaːkí Dúːkìyá máː bàː tá wâː ɮàr ɣáy hŋ́ //
-# text_en = Eh, even somebody older than Madaki Dukiya, they will not dance for him.
+# text_en = Eh, even somebody older than like Madaki Dukiya, they will not dance for him.
 1	kây	kây	INTJ	_	_	11	discourse	_	AlignBegin=392704|AlignEnd=392910|Gloss=eh
 2	hár	hár	ADV	_	_	3	mod	_	AlignBegin=392910|AlignEnd=393116|Gloss=even
 3	mop	mop	VERB	_	_	11	mod	_	AlignBegin=393116|AlignEnd=393322|Gloss=surpass
-4	tu	tu	SCONJ	_	Mood=Qot	3	comp:obj	_	AlignBegin=393322|AlignEnd=393528|ExtPos=ADP|Gloss=COMP|Idiom=Yes
+4	tu	tu	SCONJ	_	Mood=Qot	7	discourse	_	AlignBegin=393322|AlignEnd=393528|ExtPos=ADP|Gloss=COMP|Idiom=Yes
 5	ɗan	ɗan	ADP	_	_	4	unk	_	AlignBegin=393528|AlignEnd=393734|Gloss=like|InIdiom=Yes
 6	gyáː	gyáː	DET	_	Number=Plur	7	det	_	AlignBegin=393734|AlignEnd=393940|Gloss=PLUR
-7	Mádaːkí	Mádaːkí	PROPN	_	Aspect=Res	4	comp:obj	_	AlignBegin=393940|AlignEnd=394146|Gloss=Madaki
+7	Mádaːkí	Mádaːkí	PROPN	_	Aspect=Res	3	comp:obj	_	AlignBegin=393940|AlignEnd=394146|Gloss=Madaki
 8	Dúːkìyá	Dúːkìyá	NOUN	_	_	7	flat:name	_	AlignBegin=394146|AlignEnd=394352|Gloss=Dukiya
 9	máː	máː	PART	_	_	7	mod	_	AlignBegin=394352|AlignEnd=394558|Gloss=even
 10	bàː	bàː	PART	_	Polarity=Neg	11	mod	_	AlignBegin=394558|AlignEnd=394761|Gloss=NEG1
