@@ -862,7 +862,7 @@
 # sent_timecode = 140380, 143760
 # text = yàːʃí < mə́n námtsə káwêy tá wûl tu tôː gàyyà ɗúːni oː //
 # text_ortho = yàːʃí < mə́n námtsə káwêy tá wûl tu tôː gàyyà ɗúːni oː //
-# text_en = Them, the bush people,  they will only say  there's a communal hunting here.
+# text_en = Them, the bush people,  they will only say  there's a communal hunting today.
 1	yàːʃí	yàːʃí	PRON	_	Number=Sing|Person=3|PronType=Prs	6	dislocated@subj	_	AlignBegin=140380|AlignEnd=140670|Gloss=3PLUR.IDP
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=140670|AlignEnd=140960|Gloss=PUNCT
 3	mə́n	múr	NOUN	_	Number=Plur	6	dislocated@subj	_	AlignBegin=140960|AlignEnd=141250|Gloss=people
@@ -1046,32 +1046,35 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 166920, 167600
-# text = yáːni < ʧi gùŋ mâm //
-# text_ortho = yâːn < ʧi gùŋ màm //
-# text_en = He was the chief of the bow.
-1	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	4	dislocated@top	_	AlignBegin=166920|AlignEnd=167033|Gloss=3SG.IDP
+# text = yâːn < ʧi gùŋ màm // 
+# text_ortho = yâːn < ʧi gùŋ màm // 
+# text_en = He was the chief of the bows.
+1	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	4	dislocated@top	_	AlignBegin=166920|AlignEnd=167033|Gloss=3SG.IDP
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=167033|AlignEnd=167146|Gloss=PUNCT
-3	ʧi	ʧi	VERB	_	_	0	root	_	AlignBegin=167146|AlignEnd=167259|Gloss=3SG.be
-4	gùŋ	gùŋ	NOUN	_	_	3	comp:obj	_	AlignBegin=167259|AlignEnd=167372|Gloss=chief
-5	mâm	mâm	NOUN	_	_	4	mod	_	AlignBegin=167372|AlignEnd=167485|Gloss=bow
-6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=167485|AlignEnd=167600|Gloss=PUNCT
+3-4	ʧi	_	_	_	_	_	_	_	_
+3	tə	tə	PRON	_	_	4	subj	_	AlignBegin=167146|AlignEnd=167259|Gloss=3SG.be
+4	yi	yi	VERB	_	_	0	root	_	AlignBegin=157706|AlignEnd=157811|Gloss=be
+5	gùŋ	gùŋ	NOUN	_	Definite=Cons	4	comp:pred	_	AlignBegin=167259|AlignEnd=167372|Gloss=chief-CONS
+6	màm	mâm	NOUN	_	_	5	compound	_	AlignBegin=167372|AlignEnd=167485|Gloss=bow
+7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=167485|AlignEnd=167600|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_121-125
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 168540, 173960
-# text = tôː < lóːkaʧí yóːɗan báː tuːraːwa tàːtá lə́ːr =kí gyáː piská -ín mə́n ɗi hŋ́ < kə̀tàyáː fi naːr tə́ niː koː eː ?//
+# text = tôː < lóːkaʧí yóːɗan bàː Tuːraːwa tàːtá lə̌ːrkí gyáː piskán mə́nɗi hŋ́ < kə̀tàyáː fî naːr tə́ niː koː eː ?//
 # text_ortho = tôː < lóːkaʧí yóːɗan bàː tuːraːwa tàːtá lə̌ːrkí gyáː piskán mə́nɗi hŋ́ < kə̀tàyáː fî naːr tə́ niː koː eː ?//
 # text_en = Well,  when... the Europeans had not yet brought you...  those arrows,  with what did you use to hunt indeed?
 1	tôː	tôː	PART	_	_	16	discourse	_	AlignBegin=168540|AlignEnd=168770|Gloss=DM
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=168770|AlignEnd=169000|Gloss=PUNCT
 3	lóːkaʧí	lóːkaʧí	NOUN	_	_	16	mod	_	AlignBegin=169480|AlignEnd=169819|Gloss=time
 4	yóːɗan	yóːɗan	PRON	_	PronType=Rel	3	mod@relcl	_	AlignBegin=169819|AlignEnd=170158|Gloss=which
-5	báː	báː	PART	_	_	16	mod	_	AlignBegin=170158|AlignEnd=170496|Gloss=NEG1
-6	tuːraːwa	tuːraːwa	NOUN	_	_	7	subj	_	AlignBegin=170496|AlignEnd=170857|Gloss=Europeans
-7	tàːtá	àːt-ta	AUX	_	Aspect=Perf|Number=Plur|Person=3|Tense=Remt	4	comp:obj	_	AlignBegin=170857|AlignEnd=171218|Gloss=3PLUR.PERF.REMT
-8	lə́ːr	lə́ːr	VERB	_	_	7	comp:aux	_	AlignBegin=171218|AlignEnd=171398|Gloss=bring
-9	=kí	=kí	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	8	comp:obj	_	AlignBegin=171398|AlignEnd=171579|Gloss=2PLUR.OBJ
+5	báː	báː	PART	_	_	7	mod	_	AlignBegin=170158|AlignEnd=170496|Gloss=NEG1
+6	Tuːraːwa	Tuːraːwa	PROPN	_	Number=Plur	7	subj	_	AlignBegin=170496|AlignEnd=170857|Gloss=Europeans
+7	tàːtá	àː-ta	AUX	_	Aspect=Perf|Number=Plur|Person=3|Tense=Remt	4	comp:obj	_	AlignBegin=170857|AlignEnd=171218|Gloss=3PLUR.PERF.REMT
+8-9	lə̌ːrkí	_	_	_	_	_	_	_	_
+8	lə̌ːr	lə́ːr	VERB	_	_	7	comp:aux	_	AlignBegin=171218|AlignEnd=171398|Gloss=bring
+9	=kí	=kí	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	8	comp:ben	_	AlignBegin=171398|AlignEnd=171579|Gloss=2PLUR.OBJ
 10	gyáː	gyáː	DET	_	Number=Plur	11	det	_	AlignBegin=171579|AlignEnd=171940|Gloss=PLUR
 11	piská-ín	piská-i	VERB	_	Aspect=Res	8	comp:obj	_	AlignBegin=171940|AlignEnd=172110|Gloss=arrows|wordform=piská
 12	mə́n	mə́n	PART	_	Case=Ben	8	compound:prt	_	AlignBegin=172110|AlignEnd=172195|Gloss=BEN
@@ -1422,7 +1425,7 @@
 12	ɗan	ɗan	SCONJ	_	_	11	mod	_	AlignBegin=220131|AlignEnd=220349|Gloss=REL
 13	báː	báː	PART	_	_	6	mod	_	AlignBegin=220349|AlignEnd=220568|Gloss=NEG1
 14	tuːraːwa	tuːraːwa	NOUN	_	_	15	subj	_	AlignBegin=220568|AlignEnd=220800|Gloss=Europeans
-15	tàːtá	àːt-ta	AUX	_	Aspect=Perf|Number=Plur|Person=3|Tense=Remt	9	comp:obj	_	AlignBegin=220800|AlignEnd=221032|Gloss=3PLUR.PERF.REMT
+15	tàːtá	àː-ta	AUX	_	Aspect=Perf|Number=Plur|Person=3|Tense=Remt	9	comp:obj	_	AlignBegin=220800|AlignEnd=221032|Gloss=3PLUR.PERF.REMT
 16	lə́ːr	lə́ːr	VERB	_	_	15	comp:aux	_	AlignBegin=221032|AlignEnd=221264|Gloss=bring
 17	gwàːsə̀ŋ-ín	gwàːsə̀ŋ-ín	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	16	comp:obj	_	AlignBegin=221264|AlignEnd=221418|Gloss=3PLUR.POS|wordform=gwàːsə̀ŋ
 18	ɗi	ɗi	PART	_	_	16	compound:prt	_	AlignBegin=221418|AlignEnd=221496|Gloss=CTP
