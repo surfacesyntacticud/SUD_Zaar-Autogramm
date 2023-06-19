@@ -1704,14 +1704,14 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 261761, 262673
-# text = kə́ vat gyáː pîːs káy ?//
+# text = kə́ vàt gyáː pîːs káy ?//
 # text_ortho = kə́ vàt gyáː pîːs káy ?//
 # text_en = Did you forge arrows with it?
 1	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	0	root	_	AlignBegin=261761|AlignEnd=261913|Gloss=2PLUR.AOR
-2	vat	vat	VERB	_	_	1	comp:aux	_	AlignBegin=261913|AlignEnd=262065|Gloss=forge
+2	vàt	vat	VERB	_	_	1	comp:aux	_	AlignBegin=261913|AlignEnd=262065|Gloss=forge
 3	gyáː	gyáː	DET	_	Number=Plur	4	det	_	AlignBegin=262065|AlignEnd=262217|Gloss=PLUR
-4	pîːs	pîi	NOUN	_	_	2	comp:obj	_	AlignBegin=262217|AlignEnd=262369|Gloss=arrow
-5	káy	káy	PRON	_	Person=3|PronType=Prs	1	discourse	_	AlignBegin=262369|AlignEnd=262521|Gloss=ANAPH
+4	pîːs	pîːs	NOUN	_	_	2	comp:obj	_	AlignBegin=262217|AlignEnd=262369|Gloss=arrow
+5	káy	káy	PRON	_	Person=3|PronType=Prs	2	comp@expl	_	AlignBegin=262369|AlignEnd=262521|Gloss=ANAPH
 6	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=262521|AlignEnd=262673|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_190-190
@@ -1731,23 +1731,23 @@
 # text = m̀ː //
 # text_ortho = m̀ː //
 # text_en = Er...
-1	m̀ː	m̀ː	INTJ	_	_	0	root	_	AlignBegin=263719|AlignEnd=263829|Gloss=HESIT
-2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=263829|AlignEnd=263940|Gloss=PUNCT
+1	m̀ː	m̀ː	INTJ	_	_	0	root@scrap	_	AlignBegin=263719|AlignEnd=263829|Gloss=HESIT
+2	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=263829|AlignEnd=263940|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_192-194
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 264280, 267517
-# text = mə́n ngə́tn -ín < tə̀tàyáː máni tuːr ngə́tn -ês máː //
+# text = mə́n ngáraŋkín < tə̀tàyáː mán tûːr ngáraŋkês máː //
 # text_ortho = mə́n ngáraŋkín < tə̀tàyáː mán tûːr ngáraŋkês máː //
 # text_en = The people of that thing... they used to come... and cook this thing too...
 1	mə́n	mə́n	NOUN	_	Number=Plur	4	dislocated@subj	_	AlignBegin=264280|AlignEnd=264593|Gloss=people
-2	ngə́tn-ín	ngə́tn-í	NOUN	_	Definite=Ind	1	compound	_	AlignBegin=264593|AlignEnd=264906|Gloss=thing|wordform=ngə́tn
+2	ngáraŋkín	ngə́tn	NOUN	_	Definite=Ind	1	compound	_	AlignBegin=264593|AlignEnd=264906|Gloss=thing-IND|wordform=ngə́tn
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=264906|AlignEnd=265218|Gloss=PUNCT
 4	tə̀tàyáː	ta-yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3|Tense=Remt	0	root	_	AlignBegin=265218|AlignEnd=265759|Gloss=3PLUR.REMT.IMP
-5	máni	máni	VERB	_	_	4	comp:aux	_	AlignBegin=265759|AlignEnd=266300|Gloss=come
-6	tuːr	tuːr	VERB	_	_	5	compound:svc	_	AlignBegin=266640|AlignEnd=266859|Gloss=cook
-7	ngə́tn-ês	ngə́tn-ês	NOUN	_	_	6	comp:obj	_	AlignBegin=266859|AlignEnd=267078|Gloss=thing|wordform=ngə́tn
+5	mán	máni	VERB	_	_	4	comp:aux	_	AlignBegin=265759|AlignEnd=266300|Gloss=come
+6	tûːr	tuːr	VERB	_	_	5	compound:svc	_	AlignBegin=266640|AlignEnd=266859|Gloss=cook
+7	ngáraŋkês	ngə́tn	NOUN	_	Definite=Def	6	comp:obj	_	AlignBegin=266859|AlignEnd=267078|Gloss=thing-DEF|wordform=ngə́tn
 8	máː	máː	PART	_	_	4	mod	_	AlignBegin=267078|AlignEnd=267297|Gloss=also
 9	//	//	PUNCT	_	_	4	punct	_	AlignBegin=267297|AlignEnd=267517|Gloss=PUNCT
 
@@ -1761,40 +1761,34 @@
 1	m̀ː	m̀ː	INTJ	_	_	0	root	_	AlignBegin=271300|AlignEnd=271510|Gloss=yes
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=271510|AlignEnd=271720|Gloss=PUNCT
 
-# sent_id = SAY_BC_INT_04_Hunt_195-199
+# sent_id = SAY_BC_INT_04_Hunt_195-200
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
-# sent_timecode = 267517, 272195
-# text = mə́n ( ʧǎː ʧim =tə tu niː kən ?//) goːbarawa < èː
-# text_ortho = mə́n ( ʧǎː ʧímtə̀ tu níː kən ?//) goːbarawa < èː
-# text_en = the people of... (What did they call them?)  the Gobir people,  er...
-1	mə́n	múr	NOUN	_	Number=Plur	3	dislocated@subj	_	AlignBegin=267517|AlignEnd=268020|Gloss=people
+# sent_timecode = 267517, 273580
+# text = mə́n ( ʧǎː ʧímtə tu níː ɣən ?//= Goːbarawa > èː //) tôː tə̀tàyáː tûːr wǔːr gə̀ʃì ɗûːn // 
+# text_ortho = mə́n ( ʧǎː ʧímtə̀ tu níː kən ?//) goːbarawa < èː < tôː tə̀tàyáː tûːr wǔːr gə̀ʃì ɗûːn //
+# text_en = the people of... (What did they call them?)  the Gobir people, yes... well they used to melt it in the east hills, here.
+1	mə́n	múr	NOUN	_	Number=Plur	0	root	_	AlignBegin=267517|AlignEnd=268020|Gloss=people
 2	(	(	PUNCT	_	_	3	punct	_	AlignBegin=269236|AlignEnd=269389|Gloss=PUNCT
-3	ʧǎː	yá̌ː	AUX	_	Aspect=Imp|Number=Plur|Person=3	12	mod	_	AlignBegin=269389|AlignEnd=269542|Gloss=3PLUR.IMP
-4	ʧim	ʧim	VERB	_	_	3	comp:aux	_	AlignBegin=269542|AlignEnd=269618|Gloss=call
-5	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=269618|AlignEnd=269695|Gloss=3SG.OBJ
-6	tu	tu	ADP	_	_	4	comp:pred	_	AlignBegin=269695|AlignEnd=269848|Gloss=COMP
-7	niː	niː	PRON	_	PronType=Int	6	comp:obj	_	AlignBegin=269848|AlignEnd=270001|Gloss=what
-8	kən	kən	PART	_	_	4	mod	_	AlignBegin=270001|AlignEnd=270154|Gloss=be
-9	?//)	?//)	PUNCT	_	_	3	punct	_	AlignBegin=270154|AlignEnd=270308|Gloss=PUNCT
-10	goːbarawa	goːbarawa	NOUN	_	_	3	vocative	_	AlignBegin=270308|AlignEnd=270574|Gloss=Gobirawa
-11	<	<	PUNCT	_	_	10	punct	_	AlignBegin=270574|AlignEnd=270840|Gloss=PUNCT
-12	èː	èː	INTJ	_	_	0	root	_	AlignBegin=271900|AlignEnd=272195|Gloss=HESIT
-
-# sent_id = SAY_BC_INT_04_Hunt_200-200
-# speaker_id = SP1
-# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
-# sent_timecode = 272195, 273580
-# text = tôː tə̀tàyáː tuːr wuːr -́ gə̀ʃì ɗúːni //
-# text_ortho = tôː tə̀tàyáː tûːr wǔːr gə̀ʃì ɗûːn //
-# text_en = well they used to melt it in the mountain, in the east, here.
-1	tôː	tôː	PART	_	_	2	discourse	_	AlignBegin=272195|AlignEnd=272393|Gloss=DM
-2	tə̀tàyáː	ta-yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3|Tense=Remt	0	root	_	AlignBegin=272393|AlignEnd=272591|Gloss=3PLUR.REMT.IMP
-3	tuːr	tuːr	VERB	_	_	2	comp:aux	_	AlignBegin=272591|AlignEnd=272789|Gloss=cook
-4	wuːr-́	wuːr-	NOUN	_	_	3	comp:obj	_	AlignBegin=272789|AlignEnd=272987|Gloss=mountain|wordform=wuːr
-5	gə̀ʃì	gə̀ʃì	ADV	_	_	3	comp:obj	_	AlignBegin=272987|AlignEnd=273185|Gloss=downhill
-6	ɗúːni	ɗúːni	ADV	_	PronType=Dem	3	mod	_	AlignBegin=273185|AlignEnd=273383|Gloss=here
-7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=273383|AlignEnd=273580|Gloss=PUNCT
+3	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	10	parataxis@parenth	_	AlignBegin=269389|AlignEnd=269542|Gloss=3PLUR.IMP
+4	ʧímtə	_	_	_	_	_	_	_	_
+5	ʧîm	ʧim	VERB	_	_	3	comp:aux	_	AlignBegin=269542|AlignEnd=269618|Gloss=call
+6	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=269618|AlignEnd=269695|Gloss=3SG.OBJ
+7	tu	tu	ADP	_	_	4	comp:pred	_	AlignBegin=269695|AlignEnd=269848|Gloss=COMP
+8	níː	níː	PRON	_	PronType=Int	6	comp:obj	_	AlignBegin=269848|AlignEnd=270001|Gloss=what
+9	ɣən	kən	PART	_	_	4	mod	_	AlignBegin=270001|AlignEnd=270154|Gloss=be
+10	?//=	?//=	PUNCT	_	_	3	punct	_	AlignBegin=270154|AlignEnd=270308|Gloss=PUNCT
+11	Goːbarawa	Goːbarawa	PROPN	_	_	1	compound	_	AlignBegin=270308|AlignEnd=270574|Gloss=Gobirawa
+12	>	>	PUNCT	_	_	12	punct	_	AlignBegin=270574|AlignEnd=270840|Gloss=PUNCT
+13	èː	èː	INTJ	_	_	0	dislocated@discourse	_	AlignBegin=271900|AlignEnd=272195|Gloss=yes
+14	//)	//)	PUNCT	_	_	0	punct	_	AlignBegin=272195|AlignEnd=272195|Gloss=PUNCT
+15	tôː	tôː	PART	_	_	0	discourse	_	AlignBegin=272195|AlignEnd=272393|Gloss=DM
+16	tə̀tàyáː	ta-yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3|Tense=Remt	0	root	_	AlignBegin=272393|AlignEnd=272591|Gloss=3PLUR.REMT.IMP
+17	tûːr	tuːr	VERB	_	_	0	comp:aux	_	AlignBegin=272591|AlignEnd=272789|Gloss=cook
+18	wǔːr	wuːr	NOUN	_	Definite=Cons	0	comp:obj	_	AlignBegin=272789|AlignEnd=272987|Gloss=mountain|wordform=wuːr
+19	gə̀ʃì	gə̀ʃì	ADV	_	_	0	comp:obj	_	AlignBegin=272987|AlignEnd=273185|Gloss=downhill
+20	ɗûːn	ɗúːni	ADV	_	PronType=Dem	0	mod	_	AlignBegin=273185|AlignEnd=273383|Gloss=here
+21	//	//	PUNCT	_	_	0	punct	_	AlignBegin=273383|AlignEnd=273580|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_201-202
 # speaker_id = SP1
