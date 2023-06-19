@@ -1835,54 +1835,55 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 280200, 285610
-# text = kə̀tà yír sáːfi gyáː naːr =wâːn ɗan tu ma ʧi kóː ngə́tn -i giní //= ma ɬə ɗyáː naːr -íː sòːséy a: ?//
-# text_ortho = kə̀tà yír sáːfi gyáː nǎːrwâːn ɗan tu ma ʧi kóː ngə́ʃi gín //= ma ɬə ɗyáː naːríː sòːséy aː ?//
-# text_en = Did you have some hunting magic that I would eat or that thing that I would ... be able to hunt well?
-1	kə̀tà	ta	AUX	_	Number=Sing|Person=2|Tense=Rem	0	root	_	AlignBegin=280200|AlignEnd=280561|Gloss=2PLUR.REMT
+# text = kə̀tà yír sáːfi gyáː nǎːrwâːn ɗan tu ma ʧi kóː ngə́ʃi gín ma ɬə ɗyáː naːríː sòːséy aː ?//
+# text_ortho = kə̀tà yír sáːfi gyáː nǎːrwâːn ɗan tu ma ʧi kóː ngə́ʃi gín ma ɬə ɗyáː naːríː sòːséy aː ?//
+# text_en = Did you have some hunting magic which I would win with or that thing which I could ... hunt well with?
+1	kə̀tà	ta	AUX	_	Number=Sing|Person=2|Tense=Remt	0	root	_	AlignBegin=280200|AlignEnd=280561|Gloss=2PLUR.REMT
 2	yír	yír	VERB	_	_	1	comp:aux	_	AlignBegin=280561|AlignEnd=280922|Gloss=have
 3	sáːfi	sáːfi	NOUN	_	_	2	comp:obj	_	AlignBegin=280922|AlignEnd=281283|Gloss=magic|Lang=hau
 4	gyáː	gyáː	DET	_	Number=Plur	5	det	_	AlignBegin=281283|AlignEnd=281644|Gloss=PLUR
-5	naːr	naːr	NOUN	_	_	8	comp:obj	_	AlignBegin=281644|AlignEnd=281824|Gloss=hunting
+5-6	nǎːrwâːn	_	_	_	_	_	_	_	_
+5	nǎːr	naːr	NOUN	_	Definite=Cons	3	mod	_	AlignBegin=281644|AlignEnd=281824|Gloss=hunting
 6	=wâːn	=wâːn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	mod@poss	_	AlignBegin=281824|AlignEnd=282005|Gloss=2PLUR.POS
-7	ɗan	ɗan	SCONJ	_	_	5	mod@relcl	_	AlignBegin=282005|AlignEnd=282366|Gloss=REL
-8	tu	tu	SCONJ	_	_	2	comp:obj	_	AlignBegin=282366|AlignEnd=282730|Gloss=COMP
-9	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	8	comp:obj	_	AlignBegin=282730|AlignEnd=282945|Gloss=1SG.FUT
+7	ɗan	ɗan	SCONJ	_	_	3	mod@relcl	_	AlignBegin=282005|AlignEnd=282366|Gloss=REL|Idiom=Yes|ExtPos=SCONJ
+8	tu	tu	SCONJ	_	_	7	unk	_	AlignBegin=282366|AlignEnd=282730|Gloss=COMP|InIdiom=Yes
+9	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	7	comp:obj	_	AlignBegin=282730|AlignEnd=282945|Gloss=1SG.FUT
 10	ʧi	ʧi	VERB	_	_	9	comp:aux	_	AlignBegin=282945|AlignEnd=283160|Gloss=eat
-11	kóː	kóː	CCONJ	_	_	12	mod	_	AlignBegin=283160|AlignEnd=283375|Gloss=or|Lang=hau
-12	ngə́tn-i	ngə́tn-i	NOUN	_	_	7	comp:obj	_	AlignBegin=283375|AlignEnd=283590|Gloss=thing|wordform=ngə́tn
-13	giní	giní	DET	_	PronType=Dem	5	comp:obj	_	AlignBegin=283590|AlignEnd=283805|Gloss=PROX
-14	//=	//=	PUNCT	_	_	15	punct	_	AlignBegin=283805|AlignEnd=284020|Gloss=PUNCT
-15	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	9	parataxis@conj	_	AlignBegin=284020|AlignEnd=284235|Gloss=1SG.FUT
-16	ɬə	ɬə	VERB	_	_	15	comp:aux	_	AlignBegin=284235|AlignEnd=284449|Gloss=go
-17	ɗyáː	ɗyáː	VERB	_	_	16	compound:svc	_	AlignBegin=284449|AlignEnd=284681|Gloss=can
-18	naːr-íː	naːr-íː	NOUN	_	Deixis=Remt	17	comp:obj	_	AlignBegin=284681|AlignEnd=284913|Gloss=hunting|wordform=naːr
-19	sòːséy	sòːséy	ADV	_	_	17	mod	_	AlignBegin=284913|AlignEnd=285145|Gloss=quite
-20	a:	a:	PART	_	PartType=Int	1	mod	_	AlignBegin=285145|AlignEnd=285377|Gloss=VRT
-21	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=285377|AlignEnd=285610|Gloss=PUNCT
+11	kóː	kóː	CCONJ	_	_	12	cc	_	AlignBegin=283160|AlignEnd=283375|Gloss=or|Lang=hau
+12	ngə́ʃi	ngə́tn	NOUN	_	_	3	conj:coord	_	AlignBegin=283375|AlignEnd=283590|Gloss=thing|wordform=ngə́tn
+13	gín	giní	DET	_	Deixis=Prox|PronType=Dem	12	det	_	AlignBegin=283590|AlignEnd=283805|Gloss=PROX
+14	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	12	mod@relcl	_	AlignBegin=284020|AlignEnd=284235|Gloss=1SG.FUT
+15	ɬə	ɬə	VERB	_	_	14	comp:aux	_	AlignBegin=284235|AlignEnd=284449|Gloss=go
+16-17	ɗyáː naːríː	_	_	_	_	_	_	_	_
+16	*ɗyáː-íː	ɗyáː	VERB	_	Aspect=Res	15	compound:svc	_	AlignBegin=284449|AlignEnd=284681|Gloss=can-RES
+17	naːr	naːr	NOUN	_	_	16	comp:obj	_	AlignBegin=284681|AlignEnd=284913|Gloss=hunting|wordform=naːr
+18	sòːséy	sòːséy	ADV	_	_	16	mod	_	AlignBegin=284913|AlignEnd=285145|Gloss=quite
+19	a:	a:	PART	_	PartType=Int	1	mod	_	AlignBegin=285145|AlignEnd=285377|Gloss=VRT
+20	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=285377|AlignEnd=285610|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_207-209
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 285610, 290094
-# text = kóː ma ɬya wukn -i giní //= ma ɬə ɗyáː ma tu ngə́tn -́ ndə̂ːr -íː sòːséy a: ?//
-# text_ortho = kóː ma ɬya wuki gín //= ma ɬə ɗyáː ma tu ngə̌tn ndə́ːríː sòːséy aː ?//
+# text = kóː ma ɬya wuki gín ma ɬə ɗyáː ma tu ngə̌tn ndə́ːríː sòːséy aː ?//
+# text_ortho = kóː ma ɬya wuki gín ma ɬə ɗyáː ma tu ngə̌tn ndə́ːríː sòːséy aː ?//
 # text_en = Or I would drink some potion that would enable me to...  get plenty of bush meat?
 1	kóː	kóː	CCONJ	_	_	2	discourse	_	AlignBegin=285610|AlignEnd=285792|Gloss=or|Lang=hau
 2	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	0	root	_	AlignBegin=285792|AlignEnd=285974|Gloss=1SG.FUT
 3	ɬya	ɬya	VERB	_	_	2	comp:aux	_	AlignBegin=285974|AlignEnd=286156|Gloss=drink
-4	wukn-i	wukn-i	NOUN	_	Definite=Ind	3	comp:obj	_	AlignBegin=286156|AlignEnd=286338|Gloss=poison|wordform=wukn
-5	giní	giní	DET	_	PronType=Dem	3	comp:obj	_	AlignBegin=286338|AlignEnd=286520|Gloss=PROX
-6	//=	//=	PUNCT	_	_	2	punct	_	AlignBegin=286520|AlignEnd=286700|Gloss=PUNCT
-7	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	2	parataxis@conj	_	AlignBegin=287580|AlignEnd=287810|Gloss=1SG.FUT
-8	ɬə	ɬə	VERB	_	_	7	comp:aux	_	AlignBegin=287810|AlignEnd=288040|Gloss=go
-9	ɗyáː	ɗyáː	VERB	_	_	8	compound:svc	_	AlignBegin=288040|AlignEnd=288270|Gloss=can
-10	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	2	parataxis@conj	_	AlignBegin=288270|AlignEnd=288500|Gloss=1SG.FUT
-11	tu	tu	VERB	_	_	10	comp:aux	_	AlignBegin=288900|AlignEnd=289099|Gloss=get
-12	ngə́tn-́	ngə́tn-	NOUN	_	_	11	comp:obj	_	AlignBegin=289099|AlignEnd=289298|Gloss=thing|wordform=ngə́tn
-13	ndə̂ːr-íː	ndə̂ːr-	NOUN	_	Deixis=Remt	12	compound	_	AlignBegin=289298|AlignEnd=289497|Gloss=bush|wordform=ndə̂ːr
-14	sòːséy	sòːséy	ADV	_	_	11	mod	_	AlignBegin=289497|AlignEnd=289696|Gloss=quite
-15	a:	a:	PART	_	PartType=Int	2	mod	_	AlignBegin=289696|AlignEnd=289895|Gloss=VRT
-16	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=289895|AlignEnd=290094|Gloss=PUNCT
+4	wuki	wukn	NOUN	_	Definite=Ind	3	comp:obj	_	AlignBegin=286156|AlignEnd=286338|Gloss=poison|wordform=wukn
+5	gín	giní	DET	_	Deixis=Prox|PronType=Dem	4	det	_	AlignBegin=286338|AlignEnd=286520|Gloss=PROX
+6	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	4	mod@relcl	_	AlignBegin=287580|AlignEnd=287810|Gloss=1SG.FUT
+7	ɬə	ɬə	VERB	_	_	6	comp:aux	_	AlignBegin=287810|AlignEnd=288040|Gloss=go
+8	ɗyáː	ɗyáː	VERB	_	_	7	compound:svc	_	AlignBegin=288040|AlignEnd=288270|Gloss=can
+9	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	8	parataxis@comp	_	AlignBegin=288270|AlignEnd=288500|Gloss=1SG.FUT
+10-12	tu ngə̌tn ndə́ːríː	_	_	_	_	_	_	_	_
+10	*tu-íː	tu	VERB	_	Aspect=RES	9	comp:aux	_	AlignBegin=288900|AlignEnd=289099|Gloss=get-RES
+11	ngə̌tn	ngə́tn	NOUN	_	Definite=Cons	10	comp:obj	_	AlignBegin=289099|AlignEnd=289298|Gloss=thing|wordform=ngə́tn
+12	ndə̂ːr	ndə̂ːrss	NOUN	_	_	11	compound	_	AlignBegin=289298|AlignEnd=289497|Gloss=bush|wordform=ndə̂ːr
+13	sòːséy	sòːséy	ADV	_	_	10	mod	_	AlignBegin=289497|AlignEnd=289696|Gloss=quite
+14	a:	a:	PART	_	PartType=Int	2	mod	_	AlignBegin=289696|AlignEnd=289895|Gloss=VRT
+15	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=289895|AlignEnd=290094|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_210-210
 # speaker_id = SP1
