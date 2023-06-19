@@ -1582,25 +1582,25 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 249360, 251380
-# text = tôː ɗân kəndá < ʧîː mandá tə́ mbíːtə̀ //= tə́ ngyǎːríː //= tə́ ngyǎːríː //
-# text_ortho = tôː ɗân kəndá < ʧîː mandá tə́ mbíːtə̀ //= tə́ ngyǎːríː //= tə́ ngyǎːríː //
+# text = tôː ɗân əndá < ʧîː mandá mbíːtə //= tə́ ngyǎːríː //= tə́ ngyǎːríː //
+# text_ortho = tôː ɗân kəndá < ʧîː mandá mbíːtə̀ //= tə́ ngyǎːríː //= tə́ ngyǎːríː //
 # text_en = Well then, there,  they would come and takei t and cut it up cut it up.
-1	tôː	tôː	PART	_	_	11	discourse	_	AlignBegin=249360|AlignEnd=249478|Gloss=DM
-2	ɗáni	ɗáni	ADV	_	PronType=Dem	11	mod	_	AlignBegin=249478|AlignEnd=249596|Gloss=there
-3	kəndá	kəndá	PART	_	_	2	discourse	_	AlignBegin=249596|AlignEnd=249714|Gloss=then
-4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=249714|AlignEnd=249834|Gloss=PUNCT
-5	ʧîː	yí	AUX	_	Mood=Irr|Number=Sing|Person=3	7	comp:aux	_	AlignBegin=249834|AlignEnd=249962|Gloss=3PLUR.ITER
+1	tôː	tôː	PART	_	_	5	discourse	_	AlignBegin=249360|AlignEnd=249478|Gloss=DM
+2	ɗân	ɗáni	ADV	_	PronType=Dem	5	mod	_	AlignBegin=249478|AlignEnd=249596|Gloss=there
+3	əndá	kəndá	ADV	_	_	5	mod	_	AlignBegin=249596|AlignEnd=249714|Gloss=then
+4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=249714|AlignEnd=249834|Gloss=PUNCT
+5	ʧîː	yí	AUX	_	Aspect=Iter|Number=Sing|Person=3	0	root	_	AlignBegin=249834|AlignEnd=249962|Gloss=3PLUR.ITER
 6	mandá	mandá	VERB	_	_	5	comp:aux	_	AlignBegin=249962|AlignEnd=250090|Gloss=come_back
-7	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=250090|AlignEnd=250218|Gloss=3PLUR.AOR
-8	mbiː	mbiː	VERB	_	_	7	comp:aux	_	AlignBegin=250218|AlignEnd=250282|Gloss=take
-9	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=250282|AlignEnd=250346|Gloss=3SG.OBJ
-10	//=	//=	PUNCT	_	_	11	punct	_	AlignBegin=250346|AlignEnd=250475|Gloss=PUNCT
-11	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	7	parataxis@conj	_	AlignBegin=250475|AlignEnd=250641|Gloss=3PLUR.AOR
-12	ngyǎːríː	ngyáːr	VERB	_	Aspect=Res	11	comp:aux	_	AlignBegin=250641|AlignEnd=250807|Gloss=cut-RES|wordform=ngyáːr
-13	//=	//=	PUNCT	_	_	14	punct	_	AlignBegin=250807|AlignEnd=250974|Gloss=PUNCT
-14	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	11	parataxis@conj	_	AlignBegin=250974|AlignEnd=251109|Gloss=3PLUR.AOR
-15	ngyáːr-íː	ngyáːrer	VERB	_	Aspect=Res	14	comp:aux	_	AlignBegin=251109|AlignEnd=251244|Gloss=cut|wordform=ngyáːr
-16	//	//	PUNCT	_	_	11	punct	_	AlignBegin=251244|AlignEnd=251380|Gloss=PUNCT
+7-8	mbíːtə	_	_	_	_	_	_	_	_
+7	mbîː	mbiː	VERB	_	_	6	compound:svc	_	AlignBegin=250218|AlignEnd=250282|Gloss=take
+8	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=250282|AlignEnd=250346|Gloss=3SG.OBJ
+9	//=	//=	PUNCT	_	_	10	punct	_	AlignBegin=250346|AlignEnd=250475|Gloss=PUNCT
+10	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	5	parataxis@conj	_	AlignBegin=250475|AlignEnd=250641|Gloss=3PLUR.AOR
+11	ngyǎːríː	ngyáːrer	VERB	_	Aspect=Res	10	comp:aux	_	AlignBegin=250641|AlignEnd=250807|Gloss=cut-RES|wordform=ngyáːr
+12	//=	//=	PUNCT	_	_	13	punct	_	AlignBegin=250807|AlignEnd=250974|Gloss=PUNCT
+13	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	10	parataxis@conj	_	AlignBegin=250974|AlignEnd=251109|Gloss=3PLUR.AOR
+14	ngyǎːríː	ngyáːrer	VERB	_	Aspect=Res	13	comp:aux	_	AlignBegin=251109|AlignEnd=251244|Gloss=cut-RES|wordform=ngyáːr
+15	//	//	PUNCT	_	_	5	punct	_	AlignBegin=251244|AlignEnd=251380|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_182-182
 # speaker_id = SP1
