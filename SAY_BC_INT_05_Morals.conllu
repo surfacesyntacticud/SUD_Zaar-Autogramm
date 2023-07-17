@@ -171,28 +171,28 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 24060, 28320
-# text = tòː tá ʤwáːm =mí =wôpm -íː //= tə́ wul [ tòː kyàːní məːri -ín < tá fi lə̌pm zaːr kən //] //
+# text =tôː tá ʤwǎːmmíwôpíː //= tə́ wû [ tôː kyàːní məːrín < tá fî lə̌pm Zaːr ɣəní //] //
 # text_ortho = tôː tá ʤwǎːmmíwôpíː //= tə́ wû [ tôː kyàːní məːrín < tá fî lə̌pm zaːr kəní //] //
 # text_en = Well, they would gather us,  and say 'Well you, children they will do the Zár festival."
 1	tòː	tòː	PART	_	_	2	discourse	_	AlignBegin=24060|AlignEnd=24320|Gloss=DM
 2	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=24320|AlignEnd=24580|Gloss=3PL.FUT
-3-5	ʤwáːm-íː	_	_	_	_	_	_	_	_
-3	ʤwáːm-íː	ʤwáːm-́pm	VERB	_	Aspect=Res	2	comp:aux	_	AlignBegin=24580|AlignEnd=24840|Gloss=gather|wordform=ʤwáːm
+3-5	ʤwǎːmmíwôpíː	_	_	_	_	_	_	_	_
+3	*ʤwǎːm-íː	ʤwáːm	VERB	_	Aspect=Res|Number=Plur	2	comp:aux	_	AlignBegin=24580|AlignEnd=24840|Gloss=gather.PL-RES|wordform=ʤwáːm
 4	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	comp:obj	_	AlignBegin=24645|AlignEnd=24710|Gloss=1PL.OBJ|Incorporated=Yes
-5	=wôpm	=woopm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	4	mod@top	_	AlignBegin=24710|AlignEnd=24775|Gloss=1PL.POS|Incorporated=Yes
+5	=wôpm	=woopm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	mod@top	_	AlignBegin=24710|AlignEnd=24775|Gloss=1PL.POS|Incorporated=Yes
 6	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=24840|AlignEnd=25100|Gloss=PUNCT
 7	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	2	parataxis@conj	_	AlignBegin=25440|AlignEnd=25571|Gloss=3PL.AOR
-8	wul	wul	VERB	_	_	7	comp:aux	_	AlignBegin=25571|AlignEnd=25702|Gloss=say
+8	wû	wul	VERB	_	_	7	comp:aux	_	AlignBegin=25571|AlignEnd=25702|Gloss=say
 9	[	[	PUNCT	_	_	14	punct	_	AlignBegin=25702|AlignEnd=25833|Gloss=PUNCT
-10	tòː	tòː	PART	_	_	14	discourse	_	AlignBegin=25833|AlignEnd=25964|Gloss=DM
-11	kyàːní	kyàːáːni	PRON	_	Number=Sing|Person=2|PronType=Prs	14	parataxis@mod	_	AlignBegin=25964|AlignEnd=26095|Gloss=2PL.IDP
-12	məːri-ín	məːri-ii	NOUN	_	Definite=Cons|Number=Plur	15	comp:obj	_	AlignBegin=26095|AlignEnd=26226|Gloss=children|wordform=məːri
+10	tôː	tòː	PART	_	_	14	discourse	_	AlignBegin=25833|AlignEnd=25964|Gloss=DM
+11	kyàːní	kyàːáːni	PRON	_	Number=Sing|Person=2|PronType=Prs	14	vocative	_	AlignBegin=25964|AlignEnd=26095|Gloss=2PL.IDP
+12	məːri-ín	məːri-ii	NOUN	_	Definite=Cons|Number=Plur	11	conj:appos	_	AlignBegin=26095|AlignEnd=26226|Gloss=children|wordform=məːri
 13	<	<	PUNCT	_	_	11	punct	_	AlignBegin=26226|AlignEnd=26360|Gloss=PUNCT
-14	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	2	discourse	_	AlignBegin=27460|AlignEnd=27583|Gloss=3PL.FUT
-15	fi	fi	VERB	_	_	7	comp:aux	_	AlignBegin=27583|AlignEnd=27706|Gloss=do
+14	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	8	parataxis@comp	_	AlignBegin=27460|AlignEnd=27583|Gloss=3PL.FUT
+15	fî	fi	VERB	_	_	14	comp:aux	_	AlignBegin=27583|AlignEnd=27706|Gloss=do
 16	lə̌pm	lə̌pm	NOUN	_	_	15	comp:obj	_	AlignBegin=27706|AlignEnd=27829|Gloss=festival
-17	zaːr	zaːr	NOUN	_	_	16	compound	_	AlignBegin=27829|AlignEnd=27952|Gloss=Zár
-18	kən	kən	PART	_	VerbType=Cop	14	mod	_	AlignBegin=27952|AlignEnd=28075|Gloss=be
+17	Zaːr	Zaːr	PROPN	_	_	16	compound	_	AlignBegin=27829|AlignEnd=27952|Gloss=Zaar
+18	ɣəní	kəní	PART	_	_	14	mod	_	AlignBegin=27952|AlignEnd=28075|Gloss=be
 19	//]	//]	PUNCT	_	_	14	punct	_	AlignBegin=28075|AlignEnd=28198|Gloss=PUNCT
 20	//	//	PUNCT	_	_	2	punct	_	AlignBegin=28198|AlignEnd=28320|Gloss=PUNCT
 
@@ -320,7 +320,7 @@
 4	myǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	3	comp:obj	_	AlignBegin=51991|AlignEnd=52148|Gloss=1PL.IMP
 5	fuː	fuː	VERB	_	_	4	comp:aux	_	AlignBegin=52148|AlignEnd=52226|Gloss=tell
 6	=kí	=kí	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	5	comp:obj	_	AlignBegin=52226|AlignEnd=52305|Gloss=2PL.OBJ
-7	kən	kən	PART	_	VerbType=Cop	2	mod	_	AlignBegin=52305|AlignEnd=52462|Gloss=be
+7	kən	kən	PART	_	_	2	mod	_	AlignBegin=52305|AlignEnd=52462|Gloss=be
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=52462|AlignEnd=52620|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_038-040
@@ -348,7 +348,7 @@
 16	tòː	tòː	PART	_	_	11	discourse	_	AlignBegin=56749|AlignEnd=56967|Gloss=DM
 17	pol-kə́nì	pol-kə́nì	VERB	_	_	0	root	_	AlignBegin=56967|AlignEnd=57113|Gloss=please|wordform=pol
 18	=wôpm	=woopm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	17	mod@poss	_	AlignBegin=57113|AlignEnd=57185|Gloss=1PL.POS
-19	kən	kən	PART	_	VerbType=Cop	9	mod	_	AlignBegin=57185|AlignEnd=57403|Gloss=be
+19	kən	kən	PART	_	_	9	mod	_	AlignBegin=57185|AlignEnd=57403|Gloss=be
 20	//	//	PUNCT	_	_	11	punct	_	AlignBegin=57403|AlignEnd=57620|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_041-042
@@ -720,7 +720,7 @@
 # text = nə ɬərti -́ -ín ka ɓəl fáː //
 # text_ortho = nə ɬərtín ka ɓəl fáː //
 # text_en = It's this root you will dig indeed.
-1	nə	nə	PART	_	VerbType=Cop	0	root	_	AlignBegin=112779|AlignEnd=112943|Gloss=be
+1	nə	nə	PART	_	_	0	root	_	AlignBegin=112779|AlignEnd=112943|Gloss=be
 2	ɬərti-ín	ɬərti-í	NOUN	_	Definite=Ind	1	comp:pred	_	AlignBegin=112943|AlignEnd=113107|Gloss=root|wordform=ɬərti
 3	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	2	parataxis@conj	_	AlignBegin=113107|AlignEnd=113271|Gloss=2SG.FUT
 4	ɓəl	ɓəl	VERB	_	_	3	comp:aux	_	AlignBegin=113271|AlignEnd=113435|Gloss=dig
@@ -785,7 +785,7 @@
 # text_en = Well this is what will make this very medicine.
 1	tòː	tòː	PART	_	_	2	discourse	_	AlignBegin=119420|AlignEnd=119593|Gloss=DM
 2	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=119593|AlignEnd=119766|Gloss=3SG.IDP
-3	kən	kən	PART	_	VerbType=Cop	2	parataxis@parenth	_	AlignBegin=119766|AlignEnd=119939|Gloss=be
+3	kən	kən	PART	_	_	2	parataxis@parenth	_	AlignBegin=119766|AlignEnd=119939|Gloss=be
 4	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	2	comp:cleft	_	AlignBegin=119939|AlignEnd=120112|Gloss=3SG.FUT
 5	fi	fi	VERB	_	_	4	comp:aux	_	AlignBegin=120112|AlignEnd=120285|Gloss=do
 6	wukn-i	wukn-i	NOUN	_	_	5	comp:obj	_	AlignBegin=120285|AlignEnd=120458|Gloss=medicine|wordform=wukn
@@ -924,7 +924,7 @@
 # text_en = But they did not like us to just fight  anyhow like this.
 1	àmá	àmá	CCONJ	_	_	3	discourse	_	AlignBegin=139100|AlignEnd=139321|Gloss=but
 2	báː	báː	PART	_	Polarity=Neg	3	mod	_	AlignBegin=139321|AlignEnd=139542|Gloss=NEG1
-3	nə	nə	PART	_	VerbType=Cop	0	root	_	AlignBegin=139542|AlignEnd=139763|Gloss=be
+3	nə	nə	PART	_	_	0	root	_	AlignBegin=139542|AlignEnd=139763|Gloss=be
 4	súː-kə́nì	súː-kə́nì	VERB	_	_	3	comp:pred	_	AlignBegin=139763|AlignEnd=139911|Gloss=like|wordform=súː
 5	=wáːsə̀ŋ	=waːsən	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	4	mod@poss	_	AlignBegin=139911|AlignEnd=139984|Gloss=3PL.POS
 6	tu	tu	SCONJ	_	Mood=Qot	4	mod	_	AlignBegin=139984|AlignEnd=140205|Gloss=COMP
@@ -1774,7 +1774,7 @@
 6	kóː	kóː	CCONJ	_	_	9	cc	_	AlignBegin=263006|AlignEnd=263239|Gloss=or|Lang=hau
 7	kúmá	kúmá	PART	_	_	9	discourse	_	AlignBegin=263239|AlignEnd=263472|Gloss=and|Lang=hau
 8	gwàː	gwàː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	9	dislocated@top	_	AlignBegin=263472|AlignEnd=263637|Gloss=2SG.POS
-9	kən	kən	PART	_	VerbType=Cop	1	discourse	_	AlignBegin=263637|AlignEnd=263802|Gloss=be
+9	kən	kən	PART	_	_	1	discourse	_	AlignBegin=263637|AlignEnd=263802|Gloss=be
 10	kətá	taa	AUX	_	Number=Sing|Person=2|Tense=Rem	9	comp:cleft	_	AlignBegin=263802|AlignEnd=263967|Gloss=2SG.REM
 11	vər	vər	VERB	_	_	10	comp:aux	_	AlignBegin=263967|AlignEnd=264132|Gloss=give
 12	ʧík	ʧík	ADV	_	_	11	mod	_	AlignBegin=264132|AlignEnd=264297|Gloss=thus
@@ -1815,7 +1815,7 @@
 2	ɗiːp	ɗiːp	VERB	_	_	1	comp:aux	_	AlignBegin=267803|AlignEnd=268006|Gloss=buy
 3	m̀ː	m̀ː	INTJ	_	_	4	discourse	_	AlignBegin=268006|AlignEnd=268209|Gloss=HESIT
 4	táwri	táwri	NOUN	_	_	5	comp:pred	_	AlignBegin=268209|AlignEnd=268600|Gloss=castrated_goat
-5	nə	nə	PART	_	VerbType=Cop	2	parataxis@comp	_	AlignBegin=268960|AlignEnd=269120|Gloss=be
+5	nə	nə	PART	_	_	2	parataxis@comp	_	AlignBegin=268960|AlignEnd=269120|Gloss=be
 6	vàrì	vàri	ADJ	_	Definite=Ind	5	comp:pred	_	AlignBegin=269120|AlignEnd=269280|Gloss=big
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=269280|AlignEnd=269440|Gloss=PUNCT
 
