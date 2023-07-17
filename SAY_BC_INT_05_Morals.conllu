@@ -53,32 +53,36 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 9895, 15336
-# text = tə̀tàyáː taːrá =kí tə́ kúːp =kí kóː tə́ ɬə git =kí gyáː wukn ndə̂ːr a: kóː tə́ ɬə git =kí -ni gyáː niː ?//
+# text = tə̀tàyáː tâːrákí tə́ kǔːpkí kóː tə́ ɬə́ gìtkí gyáː wuɣn ndə̂ːr aː kóː tə́ ɬə́ gìtkíni gyáː nîː ?//
 # text_ortho = tə̀tàyáː tâːrákí tə́ kǔːpkí kóː tə́ ɬə́ gìtkí gyáː wukn ndə̂ːr aː kóː tə́ ɬə́ gìtkíni gyáː nîː ?//
-# text_en = They used to gather you to teach  you or they went and showed you some magic in the bush,  or they went and showed you whatever?
+# text_en = They used to gather you to teach  you or they went and showed you some magic in the bush,  or they went and showed you what?
 1	tə̀tàyáː	ta-yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3|Tense=Rem	0	root	_	AlignBegin=9895|AlignEnd=10347|Gloss=3PL.REM.IMP
-2	taːrá	taːrá	VERB	_	_	1	comp:aux	_	AlignBegin=10347|AlignEnd=10573|Gloss=gather|Lang=hau
+2-3	tâːrákí	_	_	_	_	_	_	_	_
+2	tâːrá	taːrá	VERB	_	_	1	comp:aux	_	AlignBegin=10347|AlignEnd=10573|Gloss=gather|Lang=hau
 3	=kí	=kí	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	comp:obj	_	AlignBegin=10573|AlignEnd=10800|Gloss=2PL.OBJ
 4	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	1	parataxis@conj	_	AlignBegin=11458|AlignEnd=11676|Gloss=3PL.AOR
-5	kúːp	kúːp	VERB	_	_	4	comp:aux	_	AlignBegin=11676|AlignEnd=11785|Gloss=teach
+5-6	kǔːpkí	_	_	_	_	_	_	_	_
+5	kǔːp	kúːp	VERB	_	_	4	comp:aux	_	AlignBegin=11676|AlignEnd=11785|Gloss=teach
 6	=kí	=kí	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	5	comp:ben	_	AlignBegin=11785|AlignEnd=11894|Gloss=2PL.OBJ
 7	kóː	kóː	CCONJ	_	_	8	cc	_	AlignBegin=11894|AlignEnd=12112|Gloss=or|Lang=hau
-8	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	1	conj:coord	_	AlignBegin=12112|AlignEnd=12330|Gloss=3PL.AOR
+8	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	4	conj:coord	_	AlignBegin=12112|AlignEnd=12330|Gloss=3PL.AOR
 9	ɬə	ɬə	VERB	_	_	8	comp:aux	_	AlignBegin=12330|AlignEnd=12548|Gloss=go
-10	git	git	VERB	_	_	9	compound:svc	_	AlignBegin=12548|AlignEnd=12657|Gloss=show
+10-11	gìtkí	_	_	_	_	_	_	_	_
+10	gìt	git	VERB	_	_	9	compound:svc	_	AlignBegin=12548|AlignEnd=12657|Gloss=show
 11	=kí	=kí	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	10	comp:obj	_	AlignBegin=12657|AlignEnd=12766|Gloss=2PL.OBJ
 12	gyáː	gyáː	DET	_	Number=Plur	13	det	_	AlignBegin=12766|AlignEnd=12984|Gloss=PL
-13	wukn	wukn	NOUN	_	_	10	comp:obj	_	AlignBegin=12984|AlignEnd=13202|Gloss=medicine
+13	wuɣn	wukn	NOUN	_	_	10	comp:obj	_	AlignBegin=12984|AlignEnd=13202|Gloss=medicine
 14	ndə̂ːr	ndə̂ːr	NOUN	_	_	10	comp:obj@lvc	_	AlignBegin=13202|AlignEnd=13420|Gloss=bush
 15	a:	a:	PART	_	PartType=Int	8	mod	_	AlignBegin=13420|AlignEnd=13635|Gloss=VRT
 16	kóː	kóː	CCONJ	_	_	17	cc	_	AlignBegin=13635|AlignEnd=13878|Gloss=or|Lang=hau
 17	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	8	conj:coord	_	AlignBegin=13878|AlignEnd=14121|Gloss=3PL.AOR
 18	ɬə	ɬə	VERB	_	_	17	comp:aux	_	AlignBegin=14121|AlignEnd=14364|Gloss=go
+19-21	gìtkíni	_	_	_	_	_	_	_	_
 19	git	git	VERB	_	_	18	compound:svc	_	AlignBegin=14364|AlignEnd=14445|Gloss=show
 20	=kí	=kí	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	19	comp:obj	_	AlignBegin=14445|AlignEnd=14526|Gloss=2PL.OBJ
 21	ni	ni	PART	_	Aspect=Iter	19	compound:prt	_	AlignBegin=14526|AlignEnd=14607|Gloss=ITER|wordform=-ni
 22	gyáː	gyáː	DET	_	Number=Plur	23	det	_	AlignBegin=14607|AlignEnd=14850|Gloss=PL
-23	niː	niː	PRON	_	PronType=Int	19	comp:obj	_	AlignBegin=14850|AlignEnd=15093|Gloss=what
+23	nîː	niː	PRON	_	PronType=Int	19	comp:obj	_	AlignBegin=14850|AlignEnd=15093|Gloss=what
 24	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=15093|AlignEnd=15336|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_011-011
