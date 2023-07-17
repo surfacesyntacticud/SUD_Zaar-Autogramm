@@ -2,7 +2,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 1840, 9895
-# text = tòː < lóːkaʧí ɗan káː kap gə̀t hŋ́ -íː < ʧáː ʧet tu gyáː bàːbá =wâːn kóː gyáː dàːdá =wâːn < tə̀tàyáː kúːp =kə -íː ngə́tn wón ɗan makaranta ?//
+# text = tôː < lóːkaʧí ɗan káː kap gə̀t hŋ́íː < ʧáː ʧet tu gyáː bàːbáwâːn kóː gyáː dàːdáwâːn < tə̀tàyáː kǔːpkíː ngə́r wón ɗan makaranta ?//
 # text_ortho = tôː < lóːkaʧí ɗan káː kap gə̀t hŋ́ ŋíː < ʧáː ʧet tu gyáː bàːbáwâːn kóː gyáː dàːdáwâːn < tə̀tàyáː kǔːpkíː ngə́r wón ɗan makaranta ?//
 # text_en = Well when you had not married yet he is asking whether your fathers or your grandfathers they used to teach you something like school.
 1	tòː	tòː	PART	_	_	10	discourse	_	AlignBegin=1840|AlignEnd=1927|Gloss=DM
@@ -10,26 +10,30 @@
 3	lóːkaʧí	lóːkaʧí	NOUN	_	_	10	mod	_	AlignBegin=2014|AlignEnd=2199|Gloss=time
 4	ɗan	ɗan	SCONJ	_	_	3	mod@relcl	_	AlignBegin=2199|AlignEnd=2384|Gloss=REL
 5	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	4	comp:obj	_	AlignBegin=2384|AlignEnd=2569|Gloss=2SG.PERF
-6	kap	kap	VERB	_	_	5	comp:aux	_	AlignBegin=2569|AlignEnd=2754|Gloss=take
+6-8	kap gə̀t hŋ́íː	_	_	_	_	_	_	_	_
+6	*kap-íː	kap	VERB	_	Aspect=Res	5	comp:aux	_	AlignBegin=2569|AlignEnd=2754|Gloss=take-RES
 7	gə̀t	gə̀t	NOUN	_	_	6	comp:obj	_	AlignBegin=2754|AlignEnd=2939|Gloss=wife
-8	hŋ́-íː	hŋ́-íː	PART	_	Polarity=Neg	14	mod	_	AlignBegin=2939|AlignEnd=3309|Gloss=NEG2|wordform=hŋ́
+8	hŋ́	hŋ́	PART	_	Polarity=Neg	5	mod	_	AlignBegin=2939|AlignEnd=3309|Gloss=NEG2|wordform=hŋ́
 9	<	<	PUNCT	_	_	3	punct	_	AlignBegin=3309|AlignEnd=3496|Gloss=PUNCT
 10	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=3496|AlignEnd=3755|Gloss=3SG.IMP
 11	ʧet	ʧet	VERB	_	_	10	comp:aux	_	AlignBegin=3755|AlignEnd=4014|Gloss=ask
 12	tu	tu	SCONJ	_	_	11	comp:obj	_	AlignBegin=4014|AlignEnd=4273|Gloss=COMP
 13	gyáː	gyáː	DET	_	Number=Plur	14	det	_	AlignBegin=5260|AlignEnd=5530|Gloss=PL
+14-15	bàːbáwâːn	_	_	_	_	_	_	_	_
 14	bàːbá	bàːbá	NOUN	_	_	21	subj	_	AlignBegin=5530|AlignEnd=5665|Gloss=father
 15	=wâːn	=waːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	14	mod@poss	_	AlignBegin=5665|AlignEnd=5800|Gloss=2PL.POS
 16	kóː	kóː	CCONJ	_	_	18	cc	_	AlignBegin=5800|AlignEnd=6070|Gloss=or|Lang=hau
 17	gyáː	gyáː	DET	_	Number=Plur	18	det	_	AlignBegin=6070|AlignEnd=6340|Gloss=PL
+18-19	dàːdáwâːn	_	_	_	_	_	_	_	_
 18	dàːdá	dàːdá	NOUN	_	_	14	conj:coord	_	AlignBegin=6340|AlignEnd=6475|Gloss=Dada
 19	=wâːn	=waːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	18	mod@poss	_	AlignBegin=6475|AlignEnd=6610|Gloss=2PL.POS
 20	<	<	PUNCT	_	_	18	punct	_	AlignBegin=6610|AlignEnd=6880|Gloss=PUNCT
 21	tə̀tàyáː	ta-yáː	AUX	_	Number=Plur|Person=3|Tense=Rem	12	comp:obj	_	AlignBegin=7420|AlignEnd=8148|Gloss=3PL.REM.IMP
 22-23	kúːp-íː	_	_	_	_	_	_	_	_
-22	kúːp-íː	kúːp-iiː	VERB	_	Aspect=Res	21	comp:aux	_	AlignBegin=8148|AlignEnd=8876|Gloss=teach|wordform=kúːp
-23	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	22	comp:obj	_	AlignBegin=8391|AlignEnd=8634|Gloss=2SG.OBJ|Incorporated=Yes
-24	ngə́tn	ngə́tn	NOUN	_	_	22	comp:obj	_	AlignBegin=8876|AlignEnd=9080|Gloss=thing
+22-23	kǔːpkíː	_	_	_	_	_	_	_	_
+22	*kǔːp-íː	kúːp	VERB	_	Aspect=Res	21	comp:aux	_	AlignBegin=8148|AlignEnd=8876|Gloss=teach|wordform=kúːp
+23	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	22	comp:ben	_	AlignBegin=8391|AlignEnd=8634|Gloss=2SG.OBJ|Incorporated=Yes
+24	ngə́r	ngə́tn	NOUN	_	_	22	comp:obj	_	AlignBegin=8876|AlignEnd=9080|Gloss=thing
 25	wón	wón	DET	_	Definite=Spec	24	det	_	AlignBegin=9080|AlignEnd=9284|Gloss=SPEC
 26	ɗan	ɗan	ADP	_	_	24	mod	_	AlignBegin=9284|AlignEnd=9488|Gloss=REL
 27	makaranta	makaranta	NOUN	_	_	26	comp:obj	_	AlignBegin=9488|AlignEnd=9692|Gloss=school
