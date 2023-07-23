@@ -354,7 +354,7 @@
 16	<	<	PUNCT	_	_	20	punct	_	AlignBegin=56524|AlignEnd=56749|Gloss=PUNCT
 17	tòː	tòː	PART	_	_	20	discourse	_	AlignBegin=56749|AlignEnd=56967|Gloss=DM
 18-19	pólɣə̂nwòpm	_	_	_	_	_	_	_	_
-18	pólɣə̂n	pol	VERB	_	_	20	comp:pred	_	AlignBegin=56967|AlignEnd=57113|Gloss=please-NMLZ|wordform=pol
+18	pólɣə̂n	pol	VERB	_	VerbForm=Part	20	comp:pred	_	AlignBegin=56967|AlignEnd=57113|Gloss=please-NMLZ|wordform=pol|ExtPos=NOUN
 19	=wòpm	=wopm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	18	mod@poss	_	AlignBegin=57113|AlignEnd=57185|Gloss=1PL.POS
 20	ŋgəndí	kəndí	PART	_	_	10	comp:obj	_	AlignBegin=57185|AlignEnd=57403|Gloss=be
 21	//	//	PUNCT	_	_	0	punct	_	AlignBegin=57403|AlignEnd=57620|Gloss=PUNCT
@@ -365,13 +365,13 @@
 # sent_timecode = 59100, 61460
 # text = dòmín gə̀t vum -kə́nì átâ yi ká gíː //
 # text_ortho = dòmín gə̀t vùmgə̀nì átâ yi á gíː //
-# text_en = because there used to be some wife snatching there.§
+# text_en = Because there used to be some wife snatching there.
 1	dòmín	dòmín	SCONJ	_	_	4	discourse	_	AlignBegin=59100|AlignEnd=59900|Gloss=because
-2	gə̀t	gə̀t	NOUN	_	_	3	compound	_	AlignBegin=60240|AlignEnd=60414|Gloss=woman
-3	vùmgə̀nì	vùmgə	VERB	_	VerbForm=Vnoun	4	subj	_	AlignBegin=60414|AlignEnd=60588|ExtPos=NOUN|Gloss=snatch
-4	átâ	́taa	AUX	_	Number=Sing|Person=3|Tense=Rem	0	root	_	AlignBegin=60588|AlignEnd=60762|Gloss=3SG.REM
+2	gə̀t	gə̀t	NOUN	_	_	4	subj	_	AlignBegin=60240|AlignEnd=60414|Gloss=woman
+3	vùmgə̀nì	vum	VERB	_	VerbForm=Vnoun	2	compound	_	AlignBegin=60414|AlignEnd=60588|ExtPos=NOUN|Gloss=snatch
+4	átâ	ta	AUX	_	Number=Sing|Person=3|Tense=Rem	0	root	_	AlignBegin=60588|AlignEnd=60762|Gloss=3SG.REM
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=60762|AlignEnd=60936|Gloss=be
-6	ɣá	ká	ADP	_	_	5	comp:pred	_	AlignBegin=60936|AlignEnd=61110|Gloss=at
+6	á	ká	ADP	_	_	5	comp:pred	_	AlignBegin=60936|AlignEnd=61110|Gloss=at
 7	gíː	gíː	PRON	_	PronType=Dem	6	comp:obj	_	AlignBegin=61110|AlignEnd=61284|Gloss=REM
 8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=61284|AlignEnd=61460|Gloss=PUNCT
 
@@ -379,30 +379,33 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 61680, 65720
-# text = ʧi tə́ ndará -kə́nì sòːséy ɗan ka vum -íː |c àmá daː -i kúmá wò ɬiː =tə káy fáː gòs -íː ɗan kə vum -íː //
+# text = ʧi tə́ ndaráɣə̂n sòːséy ɗan ka vumíː |c àmá dàːʃí kúmá wò ɬiːtə ɣáy fáː gòʃíː ɗan kə vúmíː //
 # text_ortho = ʧi tə́ ndarákə̂n sòːséy ɗan ka vumíː |c àmá dàːʃí kúmá wò ɬiːtə káy fáː gòʃíː ɗan kə vúmíː //
 # text_en = It was really good when you snatched [somebody's wife] but the husband would be angry indeed as you snatched her.
-1	ʧi	ʧi	VERB	_	_	2	mod	_	AlignBegin=61680|AlignEnd=61962|Gloss=3SG.be
-2	tə́	á	ADP	_	_	0	root	_	AlignBegin=61962|AlignEnd=62244|Gloss=with
-3	ndará-kə́nì	ndará-kə́nì	VERB	_	_	2	comp:aux	_	AlignBegin=62244|AlignEnd=62526|Gloss=be_proper|wordform=ndará
-4	sòːséy	sòːséy	ADV	_	_	13	mod	_	AlignBegin=62526|AlignEnd=62806|Gloss=quite
-5	ɗan	ɗan	SCONJ	_	_	3	mod	_	AlignBegin=62806|AlignEnd=62960|Gloss=as
-6	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	5	comp:obj	_	AlignBegin=62960|AlignEnd=63114|Gloss=2SG.FUT
-7	vum-íː	vum-íː	VERB	_	Aspect=Res	2	comp:aux	_	AlignBegin=63114|AlignEnd=63268|Gloss=snatch|wordform=vum
-8	|c	|c	PUNCT	_	_	2	punct	_	AlignBegin=63268|AlignEnd=63420|Gloss=PUNCT
-9	àmá	àmá	CCONJ	_	_	12	discourse	_	AlignBegin=63840|AlignEnd=63997|Gloss=but
-10	daː-i	daː-i	NOUN	_	_	12	mod	_	AlignBegin=63997|AlignEnd=64154|Gloss=person|wordform=daː
-11	kúmá	kúmá	PART	_	_	10	discourse	_	AlignBegin=64154|AlignEnd=64311|Gloss=too
-12	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	5	comp:obj	_	AlignBegin=64311|AlignEnd=64468|Gloss=3SG.FUT
-13	ɬiː	ɬi	VERB	_	_	12	comp:aux	_	AlignBegin=64468|AlignEnd=64546|Gloss=upset
-14	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	AlignBegin=64546|AlignEnd=64625|Gloss=3SG.OBJ
-15	káy	káy	PRON	_	Person=3|PronType=Prs	13	comp@expl	_	AlignBegin=64625|AlignEnd=64782|Gloss=ANAPH
-16	fáː	fáː	PART	_	_	13	mod	_	AlignBegin=64782|AlignEnd=64939|Gloss=indeed
-17	gòs-íː	gòs-íː	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	13	mod@top	_	AlignBegin=64939|AlignEnd=65096|Gloss=3SG.POS|wordform=gòs
-18	ɗan	ɗan	SCONJ	_	_	13	mod	_	AlignBegin=65096|AlignEnd=65253|Gloss=as
-19	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	12	parataxis@conj	_	AlignBegin=65253|AlignEnd=65410|Gloss=2SG.AOR
-20	vum-íː	vum-íː	VERB	_	Aspect=Res	12	comp:aux	_	AlignBegin=65410|AlignEnd=65567|Gloss=snatch|wordform=vum
-21	//	//	PUNCT	_	_	2	punct	_	AlignBegin=65567|AlignEnd=65720|Gloss=PUNCT
+1-2	ʧi	_	_	_	_	_	_	_	_
+1	tə	tə	VERB	_	_	2	subj	_	AlignBegin=61680|Gloss=3SG
+2	yi	yi	VERB	_	_	0	root	_	AlignEnd=61962|Gloss=be
+3	tə́	á	ADP	_	_	2	comp:pred	_	AlignBegin=61962|AlignEnd=62244|Gloss=with
+4	ndaráɣə̂n	ndará-kə́nì	VERB	_	_	3	comp:obj	_	AlignBegin=62244|AlignEnd=62526|Gloss=be_proper|wordform=ndará
+5	sòːséy	sòːséy	ADV	_	_	2	mod	_	AlignBegin=62526|AlignEnd=62806|Gloss=quite
+6	ɗan	ɗan	SCONJ	_	_	2	mod	_	AlignBegin=62806|AlignEnd=62960|Gloss=as
+7	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	6	comp:obj	_	AlignBegin=62960|AlignEnd=63114|Gloss=2SG.FUT
+8	vumíː	vum	VERB	_	Aspect=Res	7	comp:aux	_	AlignBegin=63114|AlignEnd=63268|Gloss=snatch-RES|wordform=vum
+9	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=63268|AlignEnd=63420|Gloss=PUNCT
+10	àmá	àmá	CCONJ	_	_	13	cc	_	AlignBegin=63840|AlignEnd=63997|Gloss=but
+11	dàːʃí	daː	NOUN	_	_	13	subj	_	AlignBegin=63997|AlignEnd=64154|Gloss=person-DEF|wordform=daː
+12	kúmá	kúmá	PART	_	_	11	discourse	_	AlignBegin=64154|AlignEnd=64311|Gloss=too
+13-17	 ɬiːtə ɣáy fáː gòʃíː	_	_	_	_	_	_	_	_
+13	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	2	conj:coord	_	AlignBegin=64311|AlignEnd=64468|Gloss=3SG.FUT
+14	*ɬiː-íː	ɬiː	VERB	_	Aspect=Res	13	comp:aux	_	AlignBegin=64468|AlignEnd=64546|Gloss=upset-RES
+15	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	14	comp:obj	_	AlignBegin=64546|AlignEnd=64625|Gloss=3SG.OBJ
+16	ɣáy	káy	PRON	_	Person=3|PronType=Prs	14	comp@expl	_	AlignBegin=64625|AlignEnd=64782|Gloss=ANAPH
+17	fáː	fáː	PART	_	_	14	mod	_	AlignBegin=64782|AlignEnd=64939|Gloss=indeed
+18	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	14	mod@top	_	AlignBegin=64939|AlignEnd=65096|Gloss=3SG.POS
+19	ɗan	ɗan	SCONJ	_	_	14	mod	_	AlignBegin=65096|AlignEnd=65253|Gloss=as
+20	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	19	comp:obj	_	AlignBegin=65253|AlignEnd=65410|Gloss=2SG.AOR
+21	vumíː	vum	VERB	_	Aspect=Res	20	comp:aux	_	AlignBegin=65410|AlignEnd=65567|Gloss=snatch-RES|wordform=vum
+22	//	//	PUNCT	_	_	2	punct	_	AlignBegin=65567|AlignEnd=65720|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_046-046
 # speaker_id = SP1
