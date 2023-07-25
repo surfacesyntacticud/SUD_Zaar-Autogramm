@@ -494,8 +494,8 @@
 8	tu	tu	SCONJ	_	Mood=Qot	3	comp:obj	_	AlignBegin=75006|AlignEnd=75238|Gloss=COMP
 9	[	[	PUNCT	_	_	10	punct	_	AlignBegin=75238|AlignEnd=75384|Gloss=PUNCT
 10-11	mǎːnɗi	_	_	_	_	_	_	_	_
-10	mǎːn	man	VERB	_	Mood=Imp|Number=Plur	8	comp:obj	_	AlignBegin=75384|AlignEnd=75433|Gloss=come.IMP.PL
-11	ɗi	ɗi	PART	_	_	10	compound:prt	_	AlignBegin=75482|AlignEnd=75530|Gloss=CTP
+10	mǎːn	máni	VERB	_	Mood=Imp|Number=Plur	8	comp:obj	_	AlignBegin=75384|AlignEnd=75433|Gloss=come.IMP.PL
+11	ɗi	ɗi	PART	_	_	10	mod	_	AlignBegin=75482|AlignEnd=75530|Gloss=CTP
 12	!//=	!//=	PUNCT	_	_	13	punct	_	AlignBegin=75530|AlignEnd=75675|Gloss=PUNCT
 13	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	10	parataxis@conj	_	AlignBegin=75675|AlignEnd=75837|Gloss=1PL.SUB
 14	ɬə́n	ɬə	VERB	_	Mood=Imp|Number=Plur	13	comp:aux	_	AlignBegin=75837|AlignEnd=75999|Gloss=go.IMP.PL
@@ -504,12 +504,12 @@
 17	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	13	parataxis@conj	_	AlignBegin=76325|AlignEnd=76593|Gloss=1PL.SUB
 18-19	gìtkí	_	_	_	_	_	_	_	_
 18	gìt	git	VERB	_	_	17	comp:aux	_	AlignBegin=76593|AlignEnd=76727|Gloss=show
-19	=kí	=kí	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	18	comp:ben	_	AlignBegin=76727|AlignEnd=76861|Gloss=2PL.OBJ
+19	=kí	=kí	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	18	comp:ben	_	AlignBegin=76727|AlignEnd=76861|Gloss=2PL.OBJ
 20	gyáː	gyáː	DET	_	Number=Plur	21	det	_	AlignBegin=76861|AlignEnd=77252|Gloss=PL
 21	ŋantsə́	ŋantsə́	NOUN	_	_	18	comp:obj	_	AlignBegin=77252|AlignEnd=77655|Gloss=wood
 22	kóː	kóː	CCONJ	_	_	24	cc	_	AlignBegin=77655|AlignEnd=77808|Gloss=or|Lang=hau
 23	gyáː	gyáː	DET	_	Number=Plur	24	det	_	AlignBegin=77808|AlignEnd=77961|Gloss=PL
-24	ngə́ʃi	ngə́tn	NOUN	_	Definite=Ind	21	conj:coord	_	AlignBegin=77961|AlignEnd=78114|Gloss=thing.IND|wordform=ngə́tn
+24	ngə́ʃi	ngə́tn	NOUN	_	Definite=Def	21	conj:coord	_	AlignBegin=77961|AlignEnd=78114|Gloss=thing.DEF|wordform=ngə́tn
 25	gón	gón	DET	_	Definite=Spec	24	det	_	AlignBegin=78114|AlignEnd=78267|Gloss=SPEC
 26	!//]	!//]	PUNCT	_	_	10	punct	_	AlignBegin=78267|AlignEnd=78420|Gloss=PUNCT
 27	hŋ́	hŋ́	PART	_	Polarity=Neg	10	mod	_	AlignBegin=78420|AlignEnd=78573|Gloss=NEG2
@@ -520,14 +520,14 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 79360, 80193
-# text = áː gíː tá ká &//
-# text_ortho = áː gíː tá ká &//
-# text_en = Er... that, then, you...
+# text = áː gíː ta ɣá &//
+# text_ortho = áː gíː ta ɣá &//
+# text_en = Er... that...
 1	áː	áː	INTJ	_	_	4	discourse	_	AlignBegin=79360|AlignEnd=79527|Gloss=HESIT
-2	gíː	gíː	PRON	_	PronType=Dem	4	dislocated	_	AlignBegin=79527|AlignEnd=79694|Gloss=REM
-3	tá	a	ADV	_	_	4	mod	_	AlignBegin=79694|AlignEnd=79861|Gloss=then
-4	ɣá	a	AUX	_	Number=Plur|Person=2|Tense=Fut	0	root@scrap	_	AlignBegin=79861|AlignEnd=80028|Gloss=2PL.FUT
-5	&//	&//	PUNCT	_	_	4	punct	_	AlignBegin=80028|AlignEnd=80193|Gloss=PUNCT
+2	gíː	gíː	PRON	_	Deictic=Dist|PronType=Dem	3	subj	_	AlignBegin=79527|AlignEnd=79694|Gloss=that
+3	ta	a	AUX	_	Tense=Rem	0	root@scrap	_	AlignBegin=79694|AlignEnd=79861|Gloss=REM
+4	ɣá~	X	X	_	_	3	unk	_	AlignBegin=79861|AlignEnd=80028|Gloss=2PL.FUT
+5	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=80028|AlignEnd=80193|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_060-063
 # speaker_id = SP1
