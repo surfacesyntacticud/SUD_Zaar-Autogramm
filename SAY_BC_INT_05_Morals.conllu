@@ -831,16 +831,17 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 122901, 124023
-# text = ngə́tn ɗan mə̀tàyáː fi =tə kən //
-# text_ortho = ngə́tn ɗan mə̀tàyáː fítə̀ kəndí //
+# text = ngə́tn ɗan mə̀tàyáː fítə ɣəndí //
+# text_ortho = ngə́tn ɗan mə̀tàyáː fítə ɣəndí //
 # text_en = That's what we used to do.
-1	ngə́tn	ngə́tn	NOUN	_	_	0	root	_	AlignBegin=122901|AlignEnd=123088|Gloss=thing
+1	ngə́tn	ngə́tn	NOUN	_	_	6	comp:pred	_	AlignBegin=122901|AlignEnd=123088|Gloss=thing
 2	ɗan	ɗan	SCONJ	_	_	1	mod@relcl	_	AlignBegin=123088|AlignEnd=123275|Gloss=REL
 3	mə̀tàyáː	ta-yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1|Tense=Rem	2	comp:obj	_	AlignBegin=123275|AlignEnd=123462|Gloss=1PL.REM.IMP
-4	fi	fi	VERB	_	_	3	comp:aux	_	AlignBegin=123462|AlignEnd=123556|Gloss=do
+4-5	fítə̀	_	_	_	_	_	_	_	_
+4	fî	fi	VERB	_	_	3	comp:aux	_	AlignBegin=123462|AlignEnd=123556|Gloss=do
 5	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=123556|AlignEnd=123649|Gloss=3SG.OBJ
-6	kən	kən	PART	_	_	1	mod	_	AlignBegin=123649|AlignEnd=123836|Gloss=be
-7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=123836|AlignEnd=124023|Gloss=PUNCT
+6	ɣəndí	kəndí	PART	_	_	0	root	_	AlignBegin=123649|AlignEnd=123836|Gloss=be
+7	//	//	PUNCT	_	_	6	punct	_	AlignBegin=123836|AlignEnd=124023|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_100-100
 # speaker_id = SP1
