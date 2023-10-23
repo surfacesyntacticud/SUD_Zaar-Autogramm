@@ -852,7 +852,7 @@
 # text_en = We used to study that well.
 1	mə̀tà	ta	AUX	_	Number=Plur|Person=1|Tense=Rem	0	root	_	AlignBegin=124023|AlignEnd=124230|Gloss=1PL.REM
 2	kúːp	kúːp	VERB	_	_	1	comp:aux	_	AlignBegin=124230|AlignEnd=124437|Gloss=learn
-3	gíː	gíː	PRON	_	PronType=Dem	2	comp:obj	_	AlignBegin=124437|AlignEnd=124644|Gloss=REM
+3	gíː	gíː	PRON	_	Deixis=Dist|PronType=Dem	2	comp:obj	_	AlignBegin=124437|AlignEnd=124644|Gloss=REM
 4	sòːséy	sòːséy	ADV	_	_	2	mod	_	AlignBegin=124644|AlignEnd=124851|Gloss=quite
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=124851|AlignEnd=125060|Gloss=PUNCT
 
@@ -860,43 +860,45 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 125060, 126780
-# text = tə̀tàyáː kúːp =mí káy ká gíː ɗányâːl -íː //
-# text_ortho = tə̀tàyáː kǔːpmí káy á gíː ɗányâːlíː //
+# text = tə̀tàyáː kǔːpmí ɣáy á gíː ɗányâːlíː //
+# text_ortho = tə̀tàyáː kǔːpmí ɣáy á gíː ɗányâːlíː //
 # text_en = They used to teach us about that very thing.
 1	tə̀tàyáː	ta-yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3|Tense=Rem	0	root	_	AlignBegin=125060|AlignEnd=125300|Gloss=3PL.REM.IMP
-2	kúːp	kúːp	VERB	_	_	1	comp:aux	_	AlignBegin=125300|AlignEnd=125420|Gloss=teach
+2-3	kǔːpmí	_	_	_	_	_	_	_	_
+2	kǔːp	kúːp	VERB	_	_	1	comp:aux	_	AlignBegin=125300|AlignEnd=125420|Gloss=teach
 3	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	comp:ben	_	AlignBegin=125420|AlignEnd=125540|Gloss=1PL.OBJ
-4	káy	káy	PRON	_	Person=3|PronType=Prs	2	comp@expl	_	AlignBegin=125540|AlignEnd=125780|Gloss=ANAPH
+4	ɣáy	káy	PRON	_	Person=3|PronType=Prs	2	comp@expl	_	AlignBegin=125540|AlignEnd=125780|Gloss=ANAPH
 5	ká	ká	ADP	_	_	2	comp:obl	_	AlignBegin=126100|AlignEnd=126270|Gloss=at
-6	gíː	gíː	PRON	_	PronType=Dem	5	comp:obj	_	AlignBegin=126270|AlignEnd=126440|Gloss=REM
-7	ɗányâːl-íː	ɗányâːl-íː	DET	_	PronType=Dem	2	mod	_	AlignBegin=126440|AlignEnd=126610|Gloss=as_it_is|wordform=ɗányâːl
+6	gíː	gíː	PRON	_	Deixis=Dist|PronType=Dem	5	comp:obj	_	AlignBegin=126270|AlignEnd=126440|Gloss=REM
+7	ɗányâːlíː	ɗányâːlí	DET	_	Deixis=Dist|PronType=Dem	2	mod	_	AlignBegin=126440|AlignEnd=126610|Gloss=as_it_is|wordform=ɗányâːl
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=126610|AlignEnd=126780|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_103-106
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 127580, 131640
-# text = dàgà ɗáni < séː tə́ kúːp =mí káy tu [ tòː ɮə́ːr -ə́n < àː giː -ə́n kîtn ndaːrá //] //
-# text_ortho = dàgà ɗân < séː tə́ kǔːpmí káy tu [ tôː ɮə̀ːrə́n < àː gǐːn kîtn ndaːrá //] //
+# text = dàgà ɗân < séː tə́ kǔːpmí ɣáy tu [ tôː ɮə̀ːrə́n < àː gǐːn kîtn ndaːrá //] //
+# text_ortho = dàgà ɗân < séː tə́ kǔːpmí ɣáy tu [ tôː ɮə̀ːrə́n < àː gǐːn kîtn ndaːrá //] //
 # text_en = After that they taught us well, "Settle down and be good farmers."
 1	dàgà	dàgà	ADP	_	_	5	mod	_	AlignBegin=127580|AlignEnd=127740|Gloss=from
-2	ɗáni	ɗáni	ADV	_	PronType=Dem	5	mod	_	AlignBegin=127740|AlignEnd=127900|Gloss=there
+2	ɗáni	ɗáni	ADV	_	PronType=Dem	1	comp:obj	_	AlignBegin=127740|AlignEnd=127900|Gloss=there
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=127900|AlignEnd=128060|Gloss=PUNCT
 4	séː	séː	ADV	_	_	5	mod	_	AlignBegin=128300|AlignEnd=128472|Gloss=must
 5	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=128472|AlignEnd=128644|Gloss=3PL.AOR
-6	kúːp	kúːp	VERB	_	_	5	comp:aux	_	AlignBegin=128644|AlignEnd=128730|Gloss=teach
+6-7	kǔːpmí	_	_	_	_	_	_	_	_
+6	kǔːp	kúːp	VERB	_	_	5	comp:aux	_	AlignBegin=128644|AlignEnd=128730|Gloss=teach
 7	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	comp:ben	_	AlignBegin=128730|AlignEnd=128816|Gloss=1PL.OBJ
-8	káy	káy	PRON	_	Person=3|PronType=Prs	6	comp@expl	_	AlignBegin=128816|AlignEnd=128988|Gloss=ANAPH
+8	ɣáy	káy	PRON	_	Person=3|PronType=Prs	6	comp@expl	_	AlignBegin=128816|AlignEnd=128988|Gloss=ANAPH
 9	tu	tu	SCONJ	_	Mood=Qot	6	comp:obj	_	AlignBegin=128988|AlignEnd=129160|Gloss=COMP
-10	[	[	PUNCT	_	_	14	punct	_	AlignBegin=130160|AlignEnd=130268|Gloss=PUNCT
-11	tòː	tòː	PART	_	_	14	discourse	_	AlignBegin=130268|AlignEnd=130376|Gloss=DM
-12	 ɮə̀ːrə́n	 ɮə̀	VERB	_	VerbForm=Vnoun	14	dislocated@subj	_	AlignBegin=130376|AlignEnd=130430|Gloss=stay.IMP.PL
-13	<	<	PUNCT	_	_	12	punct	_	AlignBegin=130484|AlignEnd=130590|Gloss=PUNCT
-14	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	9	comp:obj	_	AlignBegin=130590|AlignEnd=130765|Gloss=2PL.SUB
-15	gǐːn	giaː	VERB	_	Number=Plur	14	comp:aux	_	AlignBegin=130765|AlignEnd=130853|Gloss=plough.IMP.PL
-16	kîtn	kîtn	NOUN	_	_	15	comp:pred	_	AlignBegin=130940|AlignEnd=131115|Gloss=farm
-17	ndaːrá	ndaːrá	ADJ	_	_	16	mod	_	AlignBegin=131115|AlignEnd=131290|Gloss=nice
-18	//]	//]	PUNCT	_	_	14	punct	_	AlignBegin=131290|AlignEnd=131465|Gloss=PUNCT
+10	[	[	PUNCT	_	_	12	punct	_	AlignBegin=130160|AlignEnd=130268|Gloss=PUNCT
+11	tòː	tòː	PART	_	_	12	discourse	_	AlignBegin=130268|AlignEnd=130376|Gloss=DM
+12	 ɮə̀ːrə́n	 ɮə́ːr	VERB	_	Mood=Imp|Number=Plur|Person=2	9	comp:obj	_	AlignBegin=130376|AlignEnd=130430|Gloss=stay.IMP.PL
+13	//=	//=	PUNCT	_	_	14	punct	_	AlignBegin=130484|AlignEnd=130590|Gloss=PUNCT
+14	àː	àː	AUX	_	Mood=Sub|Number=Plur|Person=2	12	parataxis@conj	_	AlignBegin=130590|AlignEnd=130765|Gloss=2PL.SUB
+15	gǐːn	giː	VERB	_	Number=Plur	14	comp:aux	_	AlignBegin=130765|AlignEnd=130853|Gloss=plough.PL
+16	kîtn	kîtn	NOUN	_	_	15	comp:obj	_	AlignBegin=130940|AlignEnd=131115|Gloss=farm
+17	ndaːrá	ndaːrá	ADV	_	_	15	mod	_	AlignBegin=131115|AlignEnd=131290|Gloss=nicely
+18	//]	//]	PUNCT	_	_	12	punct	_	AlignBegin=131290|AlignEnd=131465|Gloss=PUNCT
 19	//	//	PUNCT	_	_	5	punct	_	AlignBegin=131465|AlignEnd=131640|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_107-107
