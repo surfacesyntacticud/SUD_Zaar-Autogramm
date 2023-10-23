@@ -171,7 +171,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 24060, 28320
-# text =tôː tá ʤwǎːmmíwôpíː //= tə́ wû [ tôː kyàːní məːrín < tá fî lə̌pm Zaːr ɣəní //] //
+# text = tôː tá ʤwǎːmmíwôpíː //= tə́ wû [ tôː kyàːní məːrín < tá fî lə̌pm Zaːr ɣəní //] //
 # text_ortho = tôː tá ʤwǎːmmíwôpíː //= tə́ wû [ tôː kyàːní məːrín < tá fî lə̌pm zaːr kəní //] //
 # text_en = Well, they would gather us, and say 'Well you, children they will do the Zaar festival."
 1	tòː	tòː	PART	_	_	2	discourse	_	AlignBegin=24060|AlignEnd=24320|Gloss=DM
@@ -286,7 +286,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 47100, 50320
 # text = yâːn ká fî ngə́tn wón máː |c má yîn~ || myàː mán wôskát < tôː mə̀ tùtə̀ ndaːrá //
-# text_ortho = yâːn ká fî ngə́tn wón máː |c má yîn# || myàː mán wôskát < tôː mə̀ tùtə̀ ndaːrá //
+# text_ortho = yâːn ká fî ngə́tn wón máː |c má yîn~ || myàː mán wôskát < tôː mə̀ tùtə̀ ndaːrá //
 # text_en = "If you do anything wrong, we will... if we start investigating, we'll find out."
 1	yâːn	yâːn	SCONJ	_	_	16	mod	_	AlignBegin=47100|AlignEnd=47254|Gloss=if
 2	ká	a	AUX	_	Number=Plur|Person=2|Tense=Fut	1	comp:obj	_	AlignBegin=47254|AlignEnd=47408|Gloss=2PL.FUT
@@ -300,14 +300,14 @@
 10	||	||	PUNCT	_	_	11	punct	_	AlignBegin=48451|AlignEnd=48588
 11	myàː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	8	conj:dicto	_	AlignBegin=48588|AlignEnd=48801|Gloss=1PL.CND
 12	mán	máni	VERB	_	_	11	comp:aux	_	AlignBegin=48801|AlignEnd=49014|Gloss=come
-13	wôskát	woskát	IDEO	_	_	12	compound:svc	_	AlignBegin=49014|AlignEnd=49201|Gloss=investigate
+13	wôskát	woskát	IDEO	_	_	12	mod	_	AlignBegin=49014|AlignEnd=49201|Gloss=investigate
 14	<	<	PUNCT	_	_	1	punct	_	AlignBegin=49201|AlignEnd=49388|Gloss=PUNCT
 15	tòː	tòː	PART	_	_	16	discourse	_	AlignBegin=49388|AlignEnd=49575|Gloss=DM
 16	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	0	root	_	AlignBegin=49575|AlignEnd=49762|Gloss=1PL.SUB
 17-18	tùtə̀	_	_	_	_	_	_	_	_
 17	tù	tu	VERB	_	_	16	comp:aux	_	AlignBegin=49762|AlignEnd=49856|Gloss=get
 18	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	17	comp:obj	_	AlignBegin=49856|AlignEnd=49949|Gloss=3SG.OBJ
-19	ndaːrá	ndaːrá	ADJ	_	_	17	mod	_	AlignBegin=49949|AlignEnd=50136|Gloss=nice
+19	ndaːrá	ndaːrá	ADJ	_	_	17	comp:pred@x	_	AlignBegin=49949|AlignEnd=50136|Gloss=nice
 20	//	//	PUNCT	_	_	16	punct	_	AlignBegin=50136|AlignEnd=50320|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_037-037
@@ -649,7 +649,7 @@
 # text = tə́ gyáː wǔɣn mâːm ɗan gə̀t yáː ɓwâː < tôː máːmi màráy // tôː < ma ngaː wuki mán vər gə̀ɗès //
 # text_ortho = tə́ gyáː wǔkn mâːm ɗan gə̀t yáː ɓwâː < tôː máːmi màráy // tôː < ma ngaː wuki mán vər gə̀ɗès //
 # text_en = And that medicine for breasts that... if a woman has given birth, her breasts hurt, well, I would fetch the medicine and go and give it to the woman.
-1	tə́	tə́	ADP	_	_	3	cc	_	AlignBegin=96560|AlignEnd=96770|Gloss=with
+1	tə́	tə́	ADP	_	_	16	discourse	_	AlignBegin=96560|AlignEnd=96770|Gloss=with
 2	gyáː	gyáː	DET	_	Number=Plur	3	det	_	AlignBegin=96770|AlignEnd=96980|Gloss=PL
 3	wǔɣn	wukn	NOUN	_	Definite=Cons	16	dislocated@comp	_	AlignBegin=96980|AlignEnd=97190|Gloss=medicine|wordform=wukn
 4	mâːm	mâːm	NOUN	_	_	3	compound	_	AlignBegin=97190|AlignEnd=97400|Gloss=breast
@@ -681,14 +681,14 @@
 # text_en = Well the breast would be fine, and flow freely.
 1	tòː	tòː	PART	_	_	4	discourse	_	AlignBegin=103080|AlignEnd=103226|Gloss=DM
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=103226|AlignEnd=103373|Gloss=PUNCT
-3	mâːm-i	mâːm-i	NOUN	_	_	4	discourse	_	AlignBegin=103373|AlignEnd=103598|Gloss=breast|wordform=mâːm
+3	máːmi	mâːm	NOUN	_	_	4	discourse	_	AlignBegin=103373|AlignEnd=103598|Gloss=breast|wordform=mâːm
 4	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=103598|AlignEnd=103823|Gloss=3SG.FUT
-5	fi-íː	fi-íː	VERB	_	_	4	comp:aux	_	AlignBegin=103823|AlignEnd=104048|Gloss=do|wordform=fi
-6	ndaːrá	ndaːrá	IDEO	_	_	5	comp:obj	_	AlignBegin=104048|AlignEnd=104273|Gloss=nice
+5	fíː	fi	VERB	_	Aspect=Res	4	comp:aux	_	AlignBegin=103823|AlignEnd=104048|Gloss=do|wordform=fi
+6	ndaːrá	ndaːrá	IDEO	_	_	5	comp:pred	_	AlignBegin=104048|AlignEnd=104273|Gloss=nice
 7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=104273|AlignEnd=104500|Gloss=PUNCT
-8	fi	fi	VERB	_	_	4	conj:coord	_	AlignBegin=104620|AlignEnd=104773|Gloss=do
-9	sàlàlà	sàlàlà	NOUN	_	_	8	comp:obj	_	AlignBegin=104773|AlignEnd=104926|Gloss=watery_kunu
-10	//	//	PUNCT	_	_	3	punct	_	AlignBegin=104926|AlignEnd=105080|Gloss=PUNCT
+8	fi	fi	VERB	_	_	5	conj:coord	_	AlignBegin=104620|AlignEnd=104773|Gloss=do
+9	sàlàlà	sàlàlà	NOUN	_	_	8	comp:pred	_	AlignBegin=104773|AlignEnd=104926|Gloss=watery_kunu
+10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=104926|AlignEnd=105080|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_082-082
 # speaker_id = SP1
@@ -707,32 +707,33 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 107033, 112360
-# text = átayáː fuː =mí || tòː wul tu ŋantsə́ -i giní < gwàːs -i giní < ka ɓəl gwàːs -i giní tə́ giní tə́ giní tə́ giní //
+# text = átayáː fuːmí || tôː wul tu ŋanʧí giní < gwàːʃì gín < ka ɓəl gwàːʃì gín tə́ gín tə́ gín tə́ gín //
 # text_ortho = átayáː fuːmí || tôː wul tu ŋanʧí giní < gwàːʃì gín < ka ɓəl gwàːʃì gín tə́ gín tə́ gín tə́ gín //
 # text_en = He told us well they said that... this tree, as for it, you would dig this tree and this and this and this.
 1	átayáː	ta-ayáː	AUX	_	Aspect=Imp|Number=Sing|Person=3|Tense=Rem	0	root	_	AlignBegin=107033|AlignEnd=107289|Gloss=3SG.REM.IMP
+2-3	fuːmí	_	_	_	_	_	_	_	_
 2	fuː	fuː	VERB	_	_	1	comp:aux	_	AlignBegin=107289|AlignEnd=107417|Gloss=tell
 3	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	comp:obj	_	AlignBegin=107417|AlignEnd=107545|Gloss=1PL.OBJ
 4	||	||	PUNCT	_	_	6	punct	_	AlignBegin=107545|AlignEnd=107800|Gloss=PUNCT
-5	tòː	tòː	PART	_	_	1	discourse	_	AlignBegin=107800|AlignEnd=107927|Gloss=DM
-6	wul	wul	VERB	_	_	1	comp:aux	_	AlignBegin=107927|AlignEnd=108054|Gloss=say
+5	tòː	tòː	PART	_	_	6	discourse	_	AlignBegin=107800|AlignEnd=107927|Gloss=DM
+6	wul	wul	VERB	_	_	1	conj:dicto	_	AlignBegin=107927|AlignEnd=108054|Gloss=say
 7	tu	tu	SCONJ	_	_	6	comp:obj	_	AlignBegin=108054|AlignEnd=108180|Gloss=COMP
-8	ŋantsə́-i	ŋantsə́-i	NOUN	_	_	15	comp:obj	_	AlignBegin=108700|AlignEnd=108927|Gloss=wood|wordform=ŋantsə́
-9	giní	giní	PRON	_	PronType=Dem	2	comp:obj	_	AlignBegin=108927|AlignEnd=109154|Gloss=PROX
-10	<	<	PUNCT	_	_	6	punct	_	AlignBegin=109154|AlignEnd=109380|Gloss=PUNCT
-11	gwàːs-i	gwàːs-i	NOUN	_	_	14	dislocated@top	_	AlignBegin=109520|AlignEnd=109687|Gloss=tree|wordform=gwàːs
-12	giní	giní	DET	_	PronType=Dem	8	det	_	AlignBegin=109687|AlignEnd=109854|Gloss=PROX
+8	ŋanʧí	ŋantsə́	NOUN	_	Definite=Ind	14	dislocated@top	_	AlignBegin=108700|AlignEnd=108927|Gloss=wood|wordform=ŋantsə́
+9	giní	giní	PRON	_	PronType=Dem	8	det	_	AlignBegin=108927|AlignEnd=109154|Gloss=PROX
+10	<	<	PUNCT	_	_	8	punct	_	AlignBegin=109154|AlignEnd=109380|Gloss=PUNCT
+11	gwàːʃì	gwàːs	NOUN	_	Definite=Ind	14	dislocated@top	_	AlignBegin=109520|AlignEnd=109687|Gloss=tree|wordform=gwàːs
+12	gín	giní	DET	_	PronType=Dem	11	det	_	AlignBegin=109687|AlignEnd=109854|Gloss=PROX
 13	<	<	PUNCT	_	_	11	punct	_	AlignBegin=109854|AlignEnd=110020|Gloss=PUNCT
 14	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	7	comp:obj	_	AlignBegin=110680|AlignEnd=110866|Gloss=2SG.FUT
-15	ɓəl	ɓəl	VERB	_	_	1	comp:aux	_	AlignBegin=110866|AlignEnd=111052|Gloss=dig
-16	gwàːs-i	gwàːs-i	NOUN	_	_	15	comp:obj	_	AlignBegin=111052|AlignEnd=111238|Gloss=tree|wordform=gwàːs
-17	giní	giní	DET	_	PronType=Dem	8	det	_	AlignBegin=111238|AlignEnd=111424|Gloss=PROX
-18	tə́	tə́	ADP	_	_	14	conj:coord	_	AlignBegin=111424|AlignEnd=111558|Gloss=with
-19	giní	giní	PRON	_	PronType=Dem	18	comp:obj	_	AlignBegin=111558|AlignEnd=111692|Gloss=PROX
-20	tə́	tə́	ADP	_	_	19	cc	_	AlignBegin=111692|AlignEnd=111826|Gloss=with
-21	giní	giní	PRON	_	PronType=Dem	20	comp:obj	_	AlignBegin=111826|AlignEnd=111960|Gloss=PROX
-22	tə́	tə́	ADP	_	_	21	cc	_	AlignBegin=111960|AlignEnd=112094|Gloss=with
-23	giní	giní	PRON	_	PronType=Dem	22	comp:obj	_	AlignBegin=112094|AlignEnd=112228|Gloss=PROX
+15	ɓəl	ɓəl	VERB	_	_	14	comp:aux	_	AlignBegin=110866|AlignEnd=111052|Gloss=dig
+16	gwàːʃì	gwàːs	NOUN	_	Definite=Ind	15	comp:obj	_	AlignBegin=111052|AlignEnd=111238|Gloss=tree|wordform=gwàːs
+17	gín	giní	DET	_	PronType=Dem	16	det	_	AlignBegin=111238|AlignEnd=111424|Gloss=PROX
+18	tə́	tə́	ADP	_	_	19	conj:coord	_	AlignBegin=111424|AlignEnd=111558|Gloss=with
+19	gín	giní	PRON	_	PronType=Dem	16	conj:coord	_	AlignBegin=111558|AlignEnd=111692|Gloss=PROX
+20	tə́	tə́	ADP	_	_	21	cc	_	AlignBegin=111692|AlignEnd=111826|Gloss=with
+21	gín	giní	PRON	_	PronType=Dem	19	conj:coord	_	AlignBegin=111826|AlignEnd=111960|Gloss=PROX
+22	tə́	tə́	ADP	_	_	23	cc	_	AlignBegin=111960|AlignEnd=112094|Gloss=with
+23	gín	giní	PRON	_	PronType=Dem	21	conj:coord	_	AlignBegin=112094|AlignEnd=112228|Gloss=PROX
 24	//	//	PUNCT	_	_	1	punct	_	AlignBegin=112228|AlignEnd=112360|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_089-089
