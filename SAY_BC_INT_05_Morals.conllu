@@ -892,7 +892,7 @@
 9	tu	tu	SCONJ	_	Mood=Qot	6	comp:obj	_	AlignBegin=128988|AlignEnd=129160|Gloss=COMP
 10	[	[	PUNCT	_	_	12	punct	_	AlignBegin=130160|AlignEnd=130268|Gloss=PUNCT
 11	tòː	tòː	PART	_	_	12	discourse	_	AlignBegin=130268|AlignEnd=130376|Gloss=DM
-12	 ɮə̀ːrə́n	 ɮə́ːr	VERB	_	Mood=Imp|Number=Plur|Person=2	9	comp:obj	_	AlignBegin=130376|AlignEnd=130430|Gloss=stay.IMP.PL
+12	 ɮə̀ːrə́n	 ɮə́ːr	VERB	_	Mood=Imp|Number=Plur	9	comp:obj	_	AlignBegin=130376|AlignEnd=130430|Gloss=stay.IMP.PL
 13	//=	//=	PUNCT	_	_	14	punct	_	AlignBegin=130484|AlignEnd=130590|Gloss=PUNCT
 14	àː	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=2	12	parataxis@conj	_	AlignBegin=130590|AlignEnd=130765|Gloss=2PL.SUB
 15	gǐːn	giː	VERB	_	Number=Plur	14	comp:aux	_	AlignBegin=130765|AlignEnd=130853|Gloss=plough.PL
@@ -905,11 +905,11 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 131980, 132740
-# text = giː -ə́n kîtn sòːséy //
+# text = gǐːn kîtn sòːséy //
 # text_ortho = gǐːn kîtn sòːséy //
 # text_en = "Be good farmers."
-1	gǐːn	gǐiní	PRON	_	Deixis=Prox|PronType=Dem	0	root	_	AlignBegin=131980|AlignEnd=132075|Gloss=plough.IMP.PL
-2	kîtn	kîtn	NOUN	_	_	1	comp:pred	_	AlignBegin=132170|AlignEnd=132360|Gloss=farm
+1	gǐːn	giː	VERB	_	Mood=Imp|Number=Plur	0	root	_	AlignBegin=131980|AlignEnd=132075|Gloss=plough.IMP.PL
+2	kîtn	kîtn	NOUN	_	_	1	comp:obj	_	AlignBegin=132170|AlignEnd=132360|Gloss=farm
 3	sòːséy	sòːséy	ADV	_	_	1	mod	_	AlignBegin=132360|AlignEnd=132550|Gloss=quite
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=132550|AlignEnd=132740|Gloss=PUNCT
 
@@ -917,11 +917,11 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 133980, 135040
-# text = káɗâ àː tsə́tn ʧík hŋ́ //
+# text = káɗá àː tsə̌tn ʧík hŋ́ //
 # text_ortho = káɗá àː tsə̌tn ʧík hŋ́ //
 # text_en = "Don't just sit like that."
-1	káɗâ	káɗâ	PART	_	Polarity=Neg	2	mod	_	AlignBegin=133980|AlignEnd=134157|Gloss=NEG3
-2	àː	tə̀	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=134157|AlignEnd=134334|Gloss=2PL.SUB
+1	káɗá	káɗâ	PART	_	Polarity=Neg	2	mod	_	AlignBegin=133980|AlignEnd=134157|Gloss=NEG3
+2	àː	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=2	0	root	_	AlignBegin=134157|AlignEnd=134334|Gloss=2PL.SUB
 3	tsə̌tn	tsə́tn	VERB	_	_	2	comp:aux	_	AlignBegin=134334|AlignEnd=134511|Gloss=sit
 4	ʧík	ʧík	ADV	_	_	3	mod	_	AlignBegin=134511|AlignEnd=134688|Gloss=thus
 5	hŋ́	hŋ́	PART	_	Polarity=Neg	2	mod	_	AlignBegin=134688|AlignEnd=134865|Gloss=NEG2
@@ -931,34 +931,35 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 136300, 137460
-# text = tòː gíː tə̀tàyáː fuː =mí ʧík -íː //
+# text = tôː gíː tə̀tàyáː fûːmí ʧǐː //
 # text_ortho = tôː gíː tə̀tàyáː fûːmí ʧǐː //
 # text_en = That's what they used to tell us like that.
-1	tòː	tòː	PART	_	_	3	discourse	_	AlignBegin=136300|AlignEnd=136493|Gloss=DM
-2	gíː	gíː	PRON	_	Deixis=Dist|PronType=Dem	3	subj	_	AlignBegin=136493|AlignEnd=136686|Gloss=REM
-3	tə̀tàyáː	ta-yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3|Tense=Rem	0	root	_	AlignBegin=136686|AlignEnd=136879|Gloss=3PL.REM.IMP
-4	fuː	fuː	VERB	_	_	3	comp:aux	_	AlignBegin=136879|AlignEnd=136975|Gloss=tell
+1	tòː	tòː	PART	_	_	2	discourse	_	AlignBegin=136300|AlignEnd=136493|Gloss=DM
+2	gíː	gíː	PRON	_	Deixis=Dist|PronType=Dem	0	root	_	AlignBegin=136493|AlignEnd=136686|Gloss=REM
+3	tə̀tàyáː	ta-yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3|Tense=Rem	2	comp:cleft	_	AlignBegin=136686|AlignEnd=136879|Gloss=3PL.REM.IMP
+4-5	fûːmí	_	_	_	_	_	_	_	_
+4	fûː	fuː	VERB	_	_	3	comp:aux	_	AlignBegin=136879|AlignEnd=136975|Gloss=tell
 5	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	comp:ben	_	AlignBegin=136975|AlignEnd=137072|Gloss=1PL.OBJ
 6	ʧǐː	ʧík	ADV	_	_	4	mod	_	AlignBegin=137072|AlignEnd=137168|Gloss=thus
-7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=137265|AlignEnd=137460|Gloss=PUNCT
+7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=137265|AlignEnd=137460|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_110-112
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 139100, 141700
-# text = àmá báː nə súː -kə́nì =wáːsə̀ŋ tu mìː fi maːndə káwêy bàrkàdè tsəní hŋ́ //
-# text_ortho = àmá bàː nə súːkə̂nwàːsə̀ŋ tu mə̀yì fi maːndə káwêy bàrkàdè tsə́n hŋ́ //
+# text = àmá bàː nə súːɣə̂nwàːsə̀ŋ tu mə̀yì fi maːndə káwêy bàrkàdè tsə́n hŋ́ //
+# text_ortho = àmá bàː nə súːɣə̂nwàːsə̀ŋ tu mə̀yì fi maːndə káwêy bàrkàdè tsə́n hŋ́ //
 # text_en = But they did not like us to just fight anyhow like this.
 1	àmá	àmá	CCONJ	_	_	3	discourse	_	AlignBegin=139100|AlignEnd=139321|Gloss=but
-2	báː	báː	PART	_	Polarity=Neg	3	mod	_	AlignBegin=139321|AlignEnd=139542|Gloss=NEG1
+2	bàː	báː	PART	_	Polarity=Neg	3	mod	_	AlignBegin=139321|AlignEnd=139542|Gloss=NEG1
 3	nə	nə	PART	_	_	0	root	_	AlignBegin=139542|AlignEnd=139763|Gloss=be
-4	súː-kə́nì	súː-kə́nì	VERB	_	_	3	comp:pred	_	AlignBegin=139763|AlignEnd=139911|Gloss=like|wordform=súː
-5	=wáːsə̀ŋ	=waːsən	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	4	mod@poss	_	AlignBegin=139911|AlignEnd=139984|Gloss=3PL.POS
+4	súːɣə̂n	súː	VERB	_	VerbForm=Vnoun	3	comp:pred	_	AlignBegin=139763|AlignEnd=139911|ExtPos=NOUN|Gloss=like|wordform=súː
+5	=wàːsə̀ŋ	=waːsən	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	4	mod@poss	_	AlignBegin=139911|AlignEnd=139984|Gloss=3PL.POS
 6	tu	tu	SCONJ	_	Mood=Qot	4	mod	_	AlignBegin=139984|AlignEnd=140205|Gloss=COMP
 7	mìː	yí	AUX	_	Mood=Irr|Number=Plur|Person=1	6	comp:obj	_	AlignBegin=140205|AlignEnd=140426|Gloss=IRR.1PL
 8	fi	fi	VERB	_	_	7	comp:aux	_	AlignBegin=140426|AlignEnd=140647|Gloss=do
 9	maːndə	maːndə	NOUN	_	_	8	comp:obj@lvc	_	AlignBegin=140647|AlignEnd=140868|Gloss=fight
-10	káwêy	káwêy	ADV	_	_	3	mod	_	AlignBegin=140868|AlignEnd=141103|Gloss=merely
+10	káwêy	káwêy	ADV	_	_	8	mod	_	AlignBegin=140868|AlignEnd=141103|Gloss=merely
 11	bàrkàdè	bàrkàdè	ADV	_	_	8	mod	_	AlignBegin=141103|AlignEnd=141252|Gloss=anyhow
 12	tsəní	tsəní	ADV	_	_	8	mod	_	AlignBegin=141252|AlignEnd=141401|Gloss=like_this
 13	hŋ́	hŋ́	PART	_	Polarity=Neg	3	mod	_	AlignBegin=141401|AlignEnd=141550|Gloss=NEG2
