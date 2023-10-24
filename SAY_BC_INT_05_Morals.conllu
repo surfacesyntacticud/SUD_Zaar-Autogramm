@@ -953,6 +953,7 @@
 1	àmá	àmá	CCONJ	_	_	3	discourse	_	AlignBegin=139100|AlignEnd=139321|Gloss=but
 2	bàː	báː	PART	_	Polarity=Neg	3	mod	_	AlignBegin=139321|AlignEnd=139542|Gloss=NEG1
 3	nə	nə	PART	_	_	0	root	_	AlignBegin=139542|AlignEnd=139763|Gloss=be
+4-5	súːɣə̂nwàːsə̀ŋ	_	_	_	_	_	_	_	_
 4	súːɣə̂n	súː	VERB	_	VerbForm=Vnoun	3	comp:pred	_	AlignBegin=139763|AlignEnd=139911|ExtPos=NOUN|Gloss=like|wordform=súː
 5	=wàːsə̀ŋ	=waːsən	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	4	mod@poss	_	AlignBegin=139911|AlignEnd=139984|Gloss=3PL.POS
 6	tu	tu	SCONJ	_	Mood=Qot	4	mod	_	AlignBegin=139984|AlignEnd=140205|Gloss=COMP
@@ -960,8 +961,8 @@
 8	fi	fi	VERB	_	_	7	comp:aux	_	AlignBegin=140426|AlignEnd=140647|Gloss=do
 9	maːndə	maːndə	NOUN	_	_	8	comp:obj@lvc	_	AlignBegin=140647|AlignEnd=140868|Gloss=fight
 10	káwêy	káwêy	ADV	_	_	8	mod	_	AlignBegin=140868|AlignEnd=141103|Gloss=merely
-11	bàrkàdè	bàrkàdè	ADV	_	_	8	mod	_	AlignBegin=141103|AlignEnd=141252|Gloss=anyhow
-12	tsəní	tsəní	ADV	_	_	8	mod	_	AlignBegin=141252|AlignEnd=141401|Gloss=like_this
+11	bàrkàdè	bàrkàdè	IDEO	_	_	8	mod	_	AlignBegin=141103|AlignEnd=141252|Gloss=anyhow
+12	tsə́n	tsəní	ADV	_	_	8	mod	_	AlignBegin=141252|AlignEnd=141401|Gloss=like_this
 13	hŋ́	hŋ́	PART	_	Polarity=Neg	3	mod	_	AlignBegin=141401|AlignEnd=141550|Gloss=NEG2
 14	//	//	PUNCT	_	_	3	punct	_	AlignBegin=141550|AlignEnd=141700|Gloss=PUNCT
 
@@ -969,17 +970,17 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 143100, 144720
-# text = maːndə séː tə̀ ɲol ɗi ká dàtə̂pm -i wón mari //
-# text_ortho = maːndə séː tə̀ ɲólɗi ká dàtə́pi wón mari //
-# text_en = Fighting must come about in a certain way.§
-1	maːndə	maːndə	NOUN	_	_	3	mod	_	AlignBegin=143100|AlignEnd=143280|Gloss=fight
+# text = maːndə séː tə̀ ɲólɗi á dàtə́pi gwón mari //
+# text_ortho = maːndə séː tə̀ ɲólɗi á dàtə́pi gwón mari //
+# text_en = Fighting must come about in a certain way.
+1	maːndə	maːndə	NOUN	_	_	3	dislocated@subj	_	AlignBegin=143100|AlignEnd=143280|Gloss=fight
 2	séː	séː	ADV	_	_	3	mod	_	AlignBegin=143280|AlignEnd=143460|Gloss=must
 3	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	0	root	_	AlignBegin=143460|AlignEnd=143640|Gloss=3SG.SUB
 4	ɲol	ɲol	VERB	_	_	3	comp:aux	_	AlignBegin=143640|AlignEnd=143730|Gloss=go_out
 5	ɗi	ɗi	PART	_	_	4	compound:prt	_	AlignBegin=143730|AlignEnd=143820|Gloss=CTP
-6	ká	ká	ADP	_	_	4	comp:obl	_	AlignBegin=143820|AlignEnd=144000|Gloss=at
-7	dàtə̂pm-i	dàtə̂pm-i	NOUN	_	_	6	comp:obj	_	AlignBegin=144000|AlignEnd=144180|Gloss=road|wordform=dàtə̂pm
-8	wón	wón	DET	_	Definite=Spec	7	det	_	AlignBegin=144180|AlignEnd=144360|Gloss=SPEC
+6	á	ká	ADP	_	_	4	comp:obl	_	AlignBegin=143820|AlignEnd=144000|Gloss=at
+7	dàtə́pi	dàtə̂pm	NOUN	_	Definite=Ind	6	comp:obj	_	AlignBegin=144000|AlignEnd=144180|Gloss=road|wordform=dàtə̂pm
+8	gwón	gwón	DET	_	Definite=Spec	7	det	_	AlignBegin=144180|AlignEnd=144360|Gloss=SPEC
 9	mari	mari	ADJ	_	_	7	mod	_	AlignBegin=144360|AlignEnd=144540|Gloss=different
 10	//	//	PUNCT	_	_	3	punct	_	AlignBegin=144540|AlignEnd=144720|Gloss=PUNCT
 
@@ -990,29 +991,29 @@
 # text = àmá kyàːní məːri kàm báːbu !//
 # text_ortho = àmá kyàːní məːri kàm báːbu !//
 # text_en = But for you, children, no way!
-1	àmá	àmá	CCONJ	_	_	2	discourse	_	AlignBegin=145040|AlignEnd=145247|Gloss=but
-2	kyàːní	kyàːáːni	PRON	_	Number=Sing|Person=2|PronType=Prs	0	root	_	AlignBegin=145247|AlignEnd=145454|Gloss=2PL.IDP
-3	məːri	məːri	NOUN	_	Number=Plur	2	dislocated@comp	_	AlignBegin=145454|AlignEnd=145661|Gloss=children
-4	kàm	kàm	PART	_	_	2	discourse	_	AlignBegin=145661|AlignEnd=145868|Gloss=indeed
-5	báːbu	báːbu	INTJ	_	_	2	mod	_	AlignBegin=145868|AlignEnd=146075|Gloss=no_way|Lang=hau
-6	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=146075|AlignEnd=146280|Gloss=PUNCT
+1	àmá	àmá	CCONJ	_	_	5	discourse	_	AlignBegin=145040|AlignEnd=145247|Gloss=but
+2	kyàːní	kyàːní	PRON	_	Number=Sing|Person=2|PronType=Prs	5	dislocated@top	_	AlignBegin=145247|AlignEnd=145454|Gloss=2PL.IDP
+3	məːri	məːri	NOUN	_	Number=Plur	2	vocative	_	AlignBegin=145454|AlignEnd=145661|Gloss=children
+4	kàm	kàm	PART	_	_	3	discourse	_	AlignBegin=145661|AlignEnd=145868|Gloss=indeed
+5	báːbu	báːbu	INTJ	_	_	0	root	_	AlignBegin=145868|AlignEnd=146075|Gloss=no_way|Lang=hau
+6	!//	!//	PUNCT	_	_	5	punct	_	AlignBegin=146075|AlignEnd=146280|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_115-115
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 147860, 149980
-# text = tòː kyáːni ɗan káː ndwaːtsə́ -íː yáːwón káː git gyáː gón ?//
+# text = tòː kyâːn ɗan káː ndwaːtsə́y yáːwón káː git gyaː gón ?//
 # text_ortho = tòː kyâːn ɗan káː ndwaːtsə́y yáːwón káː git gyaː gón ?//
-# text_en = Well, you who are old now, did you show some?
+# text_en = Well, you who are old now, did you teach some?
 1	tòː	tòː	PART	_	_	7	discourse	_	AlignBegin=147860|AlignEnd=148053|Gloss=DM
-2	kyáːni	kyáːni	PRON	_	Number=Sing|Person=2|PronType=Prs	7	dislocated@subj	_	AlignBegin=148053|AlignEnd=148246|Gloss=2SG.IDP
+2	kyáːni	kyáːni	PRON	_	Number=Sing|Person=2|PronType=Prs	7	vocative	_	AlignBegin=148053|AlignEnd=148246|Gloss=2SG.IDP
 3	ɗan	ɗan	SCONJ	_	_	2	mod@relcl	_	AlignBegin=148246|AlignEnd=148439|Gloss=as
 4	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	3	comp:obj	_	AlignBegin=148439|AlignEnd=148632|Gloss=2SG.PERF
-5	ndwaːtsə́-íː	dwaːtsə́-	VERB	_	Aspect=Res	4	comp:aux	_	AlignBegin=148632|AlignEnd=148825|Gloss=grow_old|wordform=ndwaːtsə́
-6	yáːwón	yáːwón	ADV	_	PronType=Dem	7	mod	_	AlignBegin=148825|AlignEnd=149018|Gloss=today
+5	ndwaːtsə́y	ndwaːtsə́-	VERB	_	Aspect=Res	4	comp:aux	_	AlignBegin=148632|AlignEnd=148825|Gloss=grow_old|wordform=ndwaːtsə́
+6	yáːwón	yáːwón	ADV	_	PronType=Dem	4	mod	_	AlignBegin=148825|AlignEnd=149018|Gloss=today
 7	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	0	root	_	AlignBegin=149018|AlignEnd=149211|Gloss=2SG.PERF
-8	git	git	VERB	_	_	7	comp:aux	_	AlignBegin=149211|AlignEnd=149404|Gloss=show
-9	gyáː	gyáː	DET	_	Number=Plur	8	comp:obj	_	AlignBegin=149404|AlignEnd=149597|Gloss=PL
+8	git	git	VERB	_	_	7	comp:aux	_	AlignBegin=149211|AlignEnd=149404|Gloss=teach
+9	gyáː	gyáː	DET	_	Number=Plur	10	det	_	AlignBegin=149404|AlignEnd=149597|Gloss=PL
 10	gón	gón	PRON	_	Definite=Spec	8	comp:obj	_	AlignBegin=149597|AlignEnd=149790|Gloss=SPEC
 11	?//	?//	PUNCT	_	_	7	punct	_	AlignBegin=149790|AlignEnd=149980|Gloss=PUNCT
 
@@ -1020,28 +1021,28 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 151440, 151740
-# text = m̀ːhm̂ː //
-# text_ortho = m̀ːhm̂ː //
-# text_en = OK.
-1	m̀ːhm̂ː	m̀ːhm̂ː	INTJ	_	_	0	root	_	AlignBegin=151440|AlignEnd=151590|Gloss=OK
-2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=151590|AlignEnd=151740|Gloss=PUNCT
+# text = m̀ːhm̂ː ?//
+# text_ortho = m̀ːhm̂ː ?//
+# text_en = What?
+1	m̀ːhm̂ː	m̀ːhm̂ː	INTJ	_	_	0	root	_	AlignBegin=151440|AlignEnd=151590|Gloss=What?
+2	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=151590|AlignEnd=151740|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_117-118
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 152020, 154360
-# text = káː git gyáː gón wukn -ês ɗan tə̀tà git =kə -íː ?//
+# text = káː git gyaː gón wukês ɗan tə̀tà gìtkíː ?//
 # text_ortho = káː git gyaː gón wukês ɗan tə̀tà gìtkíː ?//
-# text_en = Did you show some... medicine that they had shown you?
+# text_en = Did you teach some... medicine that they had taught you?
 1	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	0	root	_	AlignBegin=152020|AlignEnd=152286|Gloss=2SG.PERF
-2	git	git	VERB	_	_	1	comp:aux	_	AlignBegin=152286|AlignEnd=152552|Gloss=show
+2	git	git	VERB	_	_	1	comp:aux	_	AlignBegin=152286|AlignEnd=152552|Gloss=teach
 3	gyáː	gyáː	DET	_	Number=Plur	2	comp:obj	_	AlignBegin=152552|AlignEnd=152818|Gloss=PL
 4	gón	gón	DET	_	Definite=Spec	2	comp:obj	_	AlignBegin=152818|AlignEnd=153082|Gloss=SPEC
-5	wukn-ês	wukn-ês	NOUN	_	_	2	comp:obj	_	AlignBegin=153082|AlignEnd=153338|Gloss=medicine|wordform=wukn
+5	wukês	wukn	NOUN	_	_	2	comp:obj	_	AlignBegin=153082|AlignEnd=153338|Gloss=medicine|wordform=wukn
 6	ɗan	ɗan	SCONJ	_	_	2	mod	_	AlignBegin=153338|AlignEnd=153594|Gloss=REL
 7	tə̀tà	ta	AUX	_	Number=Plur|Person=3|Tense=Rem	6	comp:obj	_	AlignBegin=153594|AlignEnd=153850|Gloss=3PL.REM
-8-9	git-íː	_	_	_	_	_	_	_	_
-8	git-íː	git-íː	VERB	_	Aspect=Res	7	comp:aux	_	AlignBegin=153850|AlignEnd=154106|Gloss=show|wordform=git
+8-9	gìtkíː	_	_	_	_	_	_	_	_
+8	*gìt-íː	git	VERB	_	Aspect=Res	7	comp:aux	_	AlignBegin=153850|AlignEnd=154106|Gloss=teach|wordform=git
 9	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	8	comp:obj	_	AlignBegin=153935|AlignEnd=154020|Gloss=2SG.OBJ|Incorporated=Yes
 10	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=154106|AlignEnd=154360|Gloss=PUNCT
 
@@ -1049,11 +1050,11 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 154360, 154573
-# text = èː <
-# text_ortho = èː <
+# text = èː //
+# text_ortho = èː //
 # text_en = Yes.
 1	èː	èː	INTJ	_	_	0	root	_	AlignBegin=154360|AlignEnd=154466|Gloss=yes
-2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=154466|AlignEnd=154573|Gloss=PUNCT
+2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=154466|AlignEnd=154573|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_120-120
 # speaker_id = SP1
