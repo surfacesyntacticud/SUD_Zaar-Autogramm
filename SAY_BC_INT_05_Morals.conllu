@@ -1101,17 +1101,18 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 158380, 159900
-# text = èː < káp =wáːsə̀ŋ < tàː yisə́ŋ =ʃí =wáːsə̀ŋ -íː //
+# text = èː < kápwáːsə̀ŋ < tàː yisə́ŋʃíwâːsə̀ŋíː //
 # text_ortho = èː < kápwáːsə̀ŋ < tàː yisə́ŋʃíwâːsə̀ŋíː //
 # text_en = Yes, all of them they knew them.
 1	èː	èː	INTJ	_	_	6	discourse	_	AlignBegin=158380|AlignEnd=158542|Gloss=yes
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=158542|AlignEnd=158705|Gloss=PUNCT
-3	káp	káp	ADV	_	_	6	dislocated@top	_	AlignBegin=158705|AlignEnd=158797|Gloss=all
+3-4	kápwáːsə̀ŋ	_	_	_	_	_	_	_	_
+3	káp	káp	PRON	_	_	6	dislocated@subj	_	AlignBegin=158705|AlignEnd=158797|Gloss=all
 4	=wáːsə̀ŋ	=waːsən	PRON	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	3	mod@poss	_	AlignBegin=158797|AlignEnd=158889|Gloss=3PL.POS
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=158889|AlignEnd=159073|Gloss=PUNCT
 6	tàː	àː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=159073|AlignEnd=159349|Gloss=3PL.PERF
-7-9	yisə́ŋ-íː	_	_	_	_	_	_	_	_
-7	yisə́ŋ-íː	yisə́ŋ-íː	VERB	_	_	6	comp:aux	_	AlignBegin=159349|AlignEnd=159625|Gloss=know|wordform=yisə́ŋ
+7-9	yisə́ŋʃíwâːsə̀ŋíː	_	_	_	_	_	_	_	_
+7	*yisə́ŋ-íː	yisə́ŋ	VERB	_	_	6	comp:aux	_	AlignBegin=159349|AlignEnd=159625|Gloss=know|wordform=yisə́ŋ
 8	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=159418|AlignEnd=159487|Gloss=3PL.OBJ|Incorporated=Yes
 9	=wáːsə̀ŋ	=waːsən	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	8	mod@emp	_	AlignBegin=159487|AlignEnd=159556|Gloss=3PL.POS|Incorporated=Yes
 10	//	//	PUNCT	_	_	6	punct	_	AlignBegin=159625|AlignEnd=159900|Gloss=PUNCT
