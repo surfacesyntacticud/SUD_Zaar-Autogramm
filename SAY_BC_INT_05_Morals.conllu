@@ -1357,7 +1357,7 @@
 5	vìː	vìː	NOUN	_	_	8	dislocated@subj	_	AlignBegin=194079|AlignEnd=194264|Gloss=speech
 6	Tʃokn	Tʃokn	PROPN	_	_	5	compound	_	AlignBegin=194264|AlignEnd=194449|Gloss=God
 7	ɗa	ɗan	ADV	_	_	8	mod	_	AlignBegin=194449|AlignEnd=194634|Gloss=then
-8	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=194634|AlignEnd=194819|Gloss=3SG.AOR
+8	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root@scrap	_	AlignBegin=194634|AlignEnd=194819|Gloss=3SG.AOR
 9	mân	máni	VERB	_	_	8	comp:aux	_	AlignBegin=194819|AlignEnd=195006|Gloss=come
 10-11	ɓasəm	_	_	_	_	_	_	_	_
 10	ɓas	ɓas	ADP	_	_	9	mod	_	AlignBegin=195006|AlignEnd=195112|Gloss=at
@@ -1368,61 +1368,73 @@
 14	tə	tə	PRON	_	Number=Sing|Person=3|PronType=Prs	13	unk	_	AlignBegin=195642|AlignEnd=195854|Gloss=3SG|InIdiom=Yes
 15	yi	yi	VERB	_	_	14	unk	_	AlignBegin=195642|AlignEnd=195854|Gloss=be|InIdiom=Yes
 16	tu	tu	SCONJ	_	_	15	unk	_	AlignBegin=195854|AlignEnd=196066|Gloss=COMP|InIdiom=Yes
-17	//	//	PUNCT	_	_	8	punct	_	AlignBegin=196066|AlignEnd=196280|Gloss=PUNCT
+17	&//	&//	PUNCT	_	_	8	punct	_	AlignBegin=196066|AlignEnd=196280|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_149-151
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 192860, 199080
-# text = èː mə̀tàyáː ʧim =tə tu Harúːna Màːy //
-# text_ortho = mə̀tàyáː ʧímtə̀ tu Harúːna Màːy //
+# text = èː mə̀tàyáː ʧímtə tu Harúːna Màːy //
+# text_ortho = èː mə̀tàyáː ʧímtə tu Harúːna Màːy //
 # text_en = Er... we called him Haruna Mai.
-1	èː	èː	INTJ	_	_	2	discourse	_	AlignBegin=197580|AlignEnd=197796|Gloss=HESIT
+1	èː	èː	INTJ	_	_	2	discourse	_	AlignBegin=197580|AlignEnd=197796|Gloss=yes
 2	mə̀tàyáː	ta-yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1|Tense=Rem	0	root	_	AlignBegin=197796|AlignEnd=198012|Gloss=1PL.REM.IMP
-3	ʧim	ʧim	VERB	_	_	2	comp:aux	_	AlignBegin=198012|AlignEnd=198120|Gloss=call
+3-4	ʧímtə	_	_	_	_	_	_	_	_
+3	ʧîm	ʧim	VERB	_	_	2	comp:aux	_	AlignBegin=198012|AlignEnd=198120|Gloss=call
 4	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=198120|AlignEnd=198228|Gloss=3SG.OBJ
 5	tu	tu	ADP	_	Mood=Qot	3	comp:pred	_	AlignBegin=198228|AlignEnd=198442|Gloss=COMP
 6	Harúːna	Harúːna	PROPN	_	_	5	comp:obj	_	AlignBegin=198442|AlignEnd=198655|Gloss=Harúːna
 7	Màːy	Màːy	PROPN	_	_	6	flat:name	_	AlignBegin=198655|AlignEnd=198868|Gloss=Màːy
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=198868|AlignEnd=199080|Gloss=PUNCT
 
-# sent_id = SAY_BC_INT_05_Morals_152-156
+# sent_id = SAY_BC_INT_05_Morals_152-154
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
-# sent_timecode = 200340, 204836
-# text = tòː < káː sán < átâ lə́ːr ʤìːr vat -kə́nì ɗi // tòː < báː á yisə́ŋ lâːt -i vuː -kə́nì hŋ́ //
-# text_ortho = tòː < káː sán < átâ lə́ːr ʤìːr vàtkə̀nɗì // tôː < bàː á yîsə́ŋ láːɗi vùːkə̀nì hŋ́ //
-# text_en = Well, < you know > , he brought smithery [to the village]. Well, he didn't know how to use bellows.
+# sent_timecode = 200340, 202540
+# text = tòː < káː sán < átâ lə́ːr ʤìːr vàtkə̀nɗì //
+# text_ortho = tòː < káː sán < átâ lə́ːr ʤìːr vàtkə̀nɗì //
+# text_en = Well, < you know > , he brought smithery [to the village].
 1	tòː	tòː	PART	_	_	6	discourse	_	AlignBegin=200340|AlignEnd=200692|Gloss=DM
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=200692|AlignEnd=200834|Gloss=PUNCT
-3	káː	káː	AUX	_	Aspect=Perf|Number=Sing|Person=2	6	discourse	_	AlignBegin=200834|AlignEnd=200976|Gloss=2SG.PERF|Lang=hau
-4	sán	sán	ADV	_	_	6	comp:aux	_	AlignBegin=200976|AlignEnd=201118|Gloss=know|Lang=hau
+3	káː	káː	AUX	_	Aspect=Perf|Number=Sing|Person=2	6	dislocated@discourse	_	AlignBegin=200834|AlignEnd=200976|Gloss=2SG.PERF|Lang=hau
+4	sán	sán	ADV	_	_	3	comp:aux	_	AlignBegin=200976|AlignEnd=201118|Gloss=know|Lang=hau
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=201118|AlignEnd=201262|Gloss=PUNCT
 6	átâ	ta	AUX	_	Number=Sing|Person=3|Tense=Rem	0	root	_	AlignBegin=201262|AlignEnd=201518|Gloss=3SG.REM
 7	lə́ːr	lə́ːr	VERB	_	_	6	comp:aux	_	AlignBegin=201518|AlignEnd=201774|Gloss=bring
 8	ʤìːr	ʤìːr	NOUN	_	_	7	comp:obj	_	AlignBegin=201774|AlignEnd=202030|Gloss=large_hoe
-9	vat-kə́nì	vat-kə	VERB	_	VerbForm=Vnoun	7	comp:obj	_	AlignBegin=202030|AlignEnd=202200|Gloss=forge|wordform=vat
+9-10	vàtkə̀nɗì	_	_	_	_	_	_	_	_
+9	vàtkə̀n	vat	VERB	_	VerbForm=Vnoun	7	comp:obj	_	AlignBegin=202030|AlignEnd=202200|ExtPos=NOUN|Gloss=forge|wordform=vat
 10	ɗi	ɗi	PART	_	_	7	compound:prt	_	AlignBegin=202200|AlignEnd=202286|Gloss=CTP
 11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=202286|AlignEnd=202540|Gloss=PUNCT
-12	tòː	tòː	PART	_	_	6	discourse	_	AlignBegin=203580|AlignEnd=203678|Gloss=DM
-13	<	<	PUNCT	_	_	12	punct	_	AlignBegin=203678|AlignEnd=203777|Gloss=PUNCT
-14	báː	báː	PART	_	_	6	mod	_	AlignBegin=203777|AlignEnd=203928|Gloss=NEG1
-15	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	6	parataxis@conj	_	AlignBegin=203928|AlignEnd=204079|Gloss=3SG.AOR
-16	yisə́ŋ	yisə́ŋ	VERB	_	_	6	comp:aux	_	AlignBegin=204079|AlignEnd=204230|Gloss=know
-17	lâːt-i	lâːt-i	NOUN	_	_	7	comp:obj	_	AlignBegin=204230|AlignEnd=204381|Gloss=skin|wordform=lâːt
-18	vuː-kə́nì	vuː-kə́nì	VERB	_	_	7	comp:obj	_	AlignBegin=204381|AlignEnd=204532|Gloss=blow|wordform=vuː
-19	hŋ́	hŋ́	PART	_	Polarity=Neg	15	mod	_	AlignBegin=204532|AlignEnd=204683|Gloss=NEG2
-20	//	//	PUNCT	_	_	6	punct	_	AlignBegin=204683|AlignEnd=204836|Gloss=PUNCT
+
+# sent_id = SAY_BC_INT_05_Morals_155-156
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
+# sent_timecode = 203580, 204836
+# text = tôː < bàː á yîsə́ŋ láːɗi vùːɣə̌n //
+# text_ortho = tôː < bàː á yîsə́ŋ láːɗi vùːɣə̌n //
+# text_en = Well, he didn't know how to use bellows.
+1	tòː	tòː	PART	_	_	4	discourse	_	AlignBegin=203580|AlignEnd=203678|Gloss=DM
+2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=203678|AlignEnd=203777|Gloss=PUNCT
+3	báː	báː	PART	_	_	4	mod	_	AlignBegin=203777|AlignEnd=203928|Gloss=NEG1
+4	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=203928|AlignEnd=204079|Gloss=3SG.AOR
+5	yisə́ŋ	yisə́ŋ	VERB	_	_	4	comp:aux	_	AlignBegin=204079|AlignEnd=204230|Gloss=know
+6	láːɗi	lâːt	NOUN	_	Definite=Ind	7	compound	_	AlignBegin=204230|AlignEnd=204381|Gloss=skin|wordform=lâːt
+7-8	vùːɣə̌n	_	_	_	_	_	_	_	_
+7	vùːɣə̀n	vuː	VERB	_	VerbForm=Vnoun	5	comp:obj	_	AlignBegin=204381|AlignEnd=204532|Gloss=blow|wordform=vuː
+8	hŋ́	hŋ́	PART	_	Polarity=Neg	4	mod	_	AlignBegin=204532|AlignEnd=204683|Gloss=NEG2
+9	//	//	PUNCT	_	_	4	punct	_	AlignBegin=204683|AlignEnd=204836|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_157-157
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 204836, 205209
-# text = tòː átâ fuː =mə //
+# text = tôː átâ fuːm //
 # text_ortho = tôː átâ fuːm //
 # text_en = Well, he told me.
 1	tòː	tòː	PART	_	_	2	discourse	_	AlignBegin=204836|AlignEnd=204929|Gloss=DM
 2	átâ	ta	AUX	_	Number=Sing|Person=3|Tense=Rem	0	root	_	AlignBegin=204929|AlignEnd=205022|Gloss=3SG.REM
+3-4	fuːm	_	_	_	_	_	_	_	_
 3	fuː	fuː	VERB	_	_	2	comp:aux	_	AlignBegin=205022|AlignEnd=205068|Gloss=tell
 4	=mə	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	comp:ben	_	AlignBegin=205068|AlignEnd=205115|Gloss=1SG.OBJ
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=205115|AlignEnd=205209|Gloss=PUNCT
@@ -1431,48 +1443,50 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 205209, 207640
-# text = myáːni mətá vuː =tə lâːt -i mə́n kəndá ʧǎː vat =tə vaːt mə́n káy //
-# text_ortho = myâːn mətá vuːtə láːɗi mə́n əndá ʧàː vàttə̀ vaːt mə́n káy //
-# text_en = Myself, I blew the bellows for him then he forged.
-1	myáːni	myáːni	PRON	_	Number=Sing|Person=1|PronType=Prs	2	dislocated@subj	_	AlignBegin=205209|AlignEnd=205412|Gloss=1SG.IDP
+# text = myâːn mətá vuːtə láːɗi mə́n ɣəndá ʧǎː vàttə̀ vaːt mə́n gáy // 
+# text_ortho = myâːn mətá vuːtə láːɗi mə́n ɣəndá ʧǎː vàttə̀ vaːt mə́n káy //
+# text_en = Myself, I blew the bellows for him then they forged.
+1	myâːn	myáːni	PRON	_	Number=Sing|Person=1|PronType=Prs	2	dislocated@subj	_	AlignBegin=205209|AlignEnd=205412|Gloss=1SG.IDP
 2	mətá	taa	AUX	_	Number=Sing|Person=1|Tense=Rem	0	root	_	AlignBegin=205412|AlignEnd=205514|Gloss=1SG.REM
-3	vuː	vuːl	VERB	_	_	2	comp:aux	_	AlignBegin=205514|AlignEnd=205615|Gloss=blow
+3-4	vuːtə	_	_	_	_	_	_	_	_
+3	vuː	vuː	VERB	_	_	2	comp:aux	_	AlignBegin=205514|AlignEnd=205615|Gloss=blow
 4	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=205615|AlignEnd=205717|Gloss=3SG.OBJ
-5	lâːt-i	lâːt-i	NOUN	_	_	3	comp:obj	_	AlignBegin=205717|AlignEnd=205920|Gloss=skin|wordform=lâːt
+5	láːɗi	lâːt-i	NOUN	_	Definite=Ind	3	comp:obj	_	AlignBegin=205717|AlignEnd=205920|Gloss=skin|wordform=lâːt
 6	mə́n	mə́n	PART	_	Case=Ben	3	compound:prt	_	AlignBegin=205920|AlignEnd=206021|Gloss=BEN
-7	kəndá	kəndá	SCONJ	_	_	3	mod	_	AlignBegin=206224|AlignEnd=206326|Gloss=then
-8	ʧǎː	yá̌ː	AUX	_	Aspect=Imp|Number=Sing|Person=3	7	comp:obj	_	AlignBegin=206326|AlignEnd=206427
-9	vat	vat	VERB	_	_	8	comp:aux	_	AlignBegin=206630|AlignEnd=206698|Gloss=forge
-10	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=206698|AlignEnd=206766|Gloss=3SG.OBJ
-11	vaːt	vaːt	IDEO	_	_	9	comp:obj	_	AlignBegin=206766|AlignEnd=206833
+7	ɣəndá	kəndá	SCONJ	_	_	3	mod	_	AlignBegin=206224|AlignEnd=206326|Gloss=then
+8	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	7	comp:obj	_	AlignBegin=206326|AlignEnd=206427
+9-10	vàttə̀	_	_	_	_	_	_	_	_
+9	vàt	vat	VERB	_	_	8	comp:aux	_	AlignBegin=206630|AlignEnd=206698|Gloss=blow
+10	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	comp:ben	_	AlignBegin=206698|AlignEnd=206766|Gloss=3SG.OBJ
+11	vaːt	vaːt	IDEO	_	_	9	comp:obj	_	AlignBegin=206766|AlignEnd=206833|Gloss=smithery
 12	mə́n	mə́n	PART	_	Case=Ben	9	compound:prt	_	AlignBegin=207036|AlignEnd=207138|Gloss=BEN
-13	káy	káy	PRON	_	Person=3|PronType=Prs	9	comp@expl	_	AlignBegin=207138|AlignEnd=207239
+13	gáy	káy	PRON	_	Person=3|PronType=Prs	9	comp@expl	_	AlignBegin=207138|AlignEnd=207239
 14	//	//	PUNCT	_	_	2	punct	_	AlignBegin=207442|AlignEnd=207640|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_159-164
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 208260, 214700
-# text = tòː kəndá átâ faːrá =mə fuː -kə́nì tun èː dubu -́ nàmbóŋ tə́ ɗàrí tókndam tə́ tàlàːtín dà bákwey //
+# text = tôː ɣəndá átâ faːrâm fúːɣə̂n tun èː dubú nàmbóŋ tə́ ɗàrí tókndam tə́ tàlàːtín dà bákwey //
 # text_ortho = tôː kəndá átâ faːrâm fúːkə̂n tún èː dubú nâmbóŋ tə́ ɗàrí tókndam tə́ tàlàːtín dà bákwey //
 # text_en = Well then he started converting me in... 1937.
 1	tòː	tòː	PART	_	_	3	discourse	_	AlignBegin=208260|AlignEnd=208489|Gloss=DM
-2	kəndá	kəndá	SCONJ	_	_	3	mod	_	AlignBegin=208489|AlignEnd=208718|Gloss=then
+2	əndá	kəndá	ADV	_	_	3	mod	_	AlignBegin=208489|AlignEnd=208718|Gloss=then
 3	átâ	ta	AUX	_	Number=Sing|Person=3|Tense=Rem	0	root	_	AlignBegin=208718|AlignEnd=208947|Gloss=3SG.REM
 4	faːrá	faːrá	VERB	_	_	3	comp:aux	_	AlignBegin=208947|AlignEnd=209061|Gloss=begin
 5	=mə	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	comp:ben	_	AlignBegin=209061|AlignEnd=209176|Gloss=1SG.OBJ
 6	fuː-kə́nì	fuː-kə́nì	VERB	_	_	4	comp:obj	_	AlignBegin=209176|AlignEnd=209406|Gloss=tell|wordform=fuː
-7	tun	tun	SCONJ	_	_	3	conj:coord	_	AlignBegin=209406|AlignEnd=209800|Gloss=since|Lang=hau
-8	èː	èː	INTJ	_	_	7	discourse	_	AlignBegin=210780|AlignEnd=211242|Gloss=HESIT
-9	dubu-́	dubu-́	DET	_	_	7	comp:obj	_	AlignBegin=211242|AlignEnd=211626|Gloss=thousand|wordform=dubu
+7	tun	tun	SCONJ	_	_	3	mod	_	AlignBegin=209406|AlignEnd=209800|Gloss=since|Lang=hau
+8	èː	èː	INTJ	_	_	9	discourse	_	AlignBegin=210780|AlignEnd=211242|Gloss=HESIT
+9	dubú	dubu	DET	_	Definite=Cons	7	comp:obj	_	AlignBegin=211242|AlignEnd=211626|Gloss=thousand|wordform=dubu
 10	nàmbóŋ	nàmbóŋ	NUM	_	_	9	det	_	AlignBegin=211626|AlignEnd=212010|Gloss=one
-11	tə́	tə́	ADP	_	_	7	comp:obj	_	AlignBegin=212010|AlignEnd=212394|Gloss=with
-12	ɗàrí	ɗàrí	NUM	_	_	7	comp:obj	_	AlignBegin=212394|AlignEnd=212780|Gloss=hundred
-13	tókndam	tókndam	NUM	_	_	12	comp:obj	_	AlignBegin=212940|AlignEnd=213276|Gloss=nine
-14	tə́	tə́	ADP	_	_	7	comp:obj	_	AlignBegin=213276|AlignEnd=213613|Gloss=with
-15	tàlàːtín	tàlàːtín	ADV	_	_	14	comp:obj	_	AlignBegin=213613|AlignEnd=213885|Gloss=thirty
-16	dà	dà	ADP	_	Foreign=Yes	7	mod	_	AlignBegin=213885|AlignEnd=214157|Gloss=there_is|Lang=hau
-17	bákwey	bákwey	NUM	_	_	16	comp:obj	_	AlignBegin=214157|AlignEnd=214429|Gloss=seven|Lang=hau
+11	tə́	tə́	ADP	_	_	12	cc	_	AlignBegin=212010|AlignEnd=212394|Gloss=with
+12	ɗàrí	ɗàrí	NUM	_	_	9	conj:coord	_	AlignBegin=212394|AlignEnd=212780|Gloss=hundred
+13	tókndam	tókndam	NUM	_	_	12	det	_	AlignBegin=212940|AlignEnd=213276|Gloss=nine
+14	tə́	tə́	ADP	_	_	15	cc	_	AlignBegin=213276|AlignEnd=213613|Gloss=with
+15	tàlàːtín	tàlàːtín	NUM	_	Foreign=Yes	12	conj:coord	_	AlignBegin=213613|AlignEnd=213885|Gloss=thirty|Lang=hau
+16	dà	dà	ADP	_	Foreign=Yes	15	flat:num	_	AlignBegin=213885|AlignEnd=214157|Gloss=there_is|Lang=hau
+17	bákwey	bákwey	NUM	_	Foreign=Yes	16	flat:num	_	AlignBegin=214157|AlignEnd=214429|Gloss=seven|Lang=hau
 18	//	//	PUNCT	_	_	3	punct	_	AlignBegin=214429|AlignEnd=214700|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_165-165
