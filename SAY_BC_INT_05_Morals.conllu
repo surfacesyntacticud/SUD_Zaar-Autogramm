@@ -1211,13 +1211,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 171258, 172620
-# text = ka faːrá tə́ zaːr -sə wuriː ?//
-# text_ortho = ka fáːrá tə́ zàrsə̀ wuriː ?//
+# text = kə fáːrá tə́ zàrsə̀ wuriː ?//
+# text_ortho = kə fáːrá tə́ zàrsə̀ wuriː ?//
 # text_en = How many people did you start with?
-1	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=171258|AlignEnd=171485|Gloss=2SG.FUT
-2	faːrá	faːrá	VERB	_	_	1	comp:aux	_	AlignBegin=171485|AlignEnd=171712|Gloss=start
+1	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=171258|AlignEnd=171485|Gloss=2SG.AOR
+2	fáːrá	faːrá	VERB	_	_	1	comp:aux	_	AlignBegin=171485|AlignEnd=171712|Gloss=start
 3	tə́	tə́	ADP	_	_	2	comp:obj	_	AlignBegin=171712|AlignEnd=171939|Gloss=with
-4	zaːr-sə	zaːr-s	NOUN	_	Number=Plur	3	comp:obj	_	AlignBegin=171939|AlignEnd=172166|Gloss=person|wordform=zaːr
+4	zàrsə̀	zaːr-s	NOUN	_	Number=Plur	3	comp:obj	_	AlignBegin=171939|AlignEnd=172166|Gloss=person|wordform=zaːr
 5	wuriː	wuriː	DET	_	PronType=Int	2	mod	_	AlignBegin=172166|AlignEnd=172393|Gloss=how_many
 6	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=172393|AlignEnd=172620|Gloss=PUNCT
 
@@ -1225,15 +1225,17 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 176320, 177740
-# text = kə ʤáː -ni rá'ayí =wáːsə̀ŋ a: kóː ?//
-# text_ortho = kə ʤáːni rá'ayíwâːsə̀ŋ aː kóː ?//
+# text = kə ʤáːni rá'ayíwâːsə̀ŋàː kóː ?//
+# text_ortho = kə ʤáːni rá'ayíwâːsə̀ŋàː kóː ?//
 # text_en = Did you convert them?
-1	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=176320|AlignEnd=176557|Gloss=2SG.AOR
+1	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=171258|AlignEnd=171485|Gloss=2SG.AOR
+2-3	ʤáːni	_	_	_	_	_	_	_	_
 2	ʤáː	ʤáː	VERB	_	_	1	comp:aux	_	AlignBegin=176557|AlignEnd=176675|Gloss=pull
 3	ni	ni	PART	_	Aspect=Iter	2	compound:prt	_	AlignBegin=176675|AlignEnd=176794|Gloss=ITER|wordform=-ni
+4-6	rá'ayíwâːsə̀ŋàː	_	_	_	_	_	_	_	_
 4	rá'ayí	rá'ayí	NOUN	_	Definite=Cons	2	comp:obj	_	AlignBegin=176794|AlignEnd=176912|Gloss=opinion|Lang=hau
 5	=wáːsə̀ŋ	=waːsən	PRON	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	mod@poss	_	AlignBegin=176912|AlignEnd=177031|Gloss=3PL.POS
-6	a:	a:	PART	_	PartType=Int	1	mod	_	AlignBegin=177031|AlignEnd=177268|Gloss=VRT
+6	à:	a:	PART	_	PartType=Int	1	mod	_	AlignBegin=177031|AlignEnd=177268|Gloss=VRT
 7	kóː	kóː	CCONJ	_	_	1	discourse	_	AlignBegin=177268|AlignEnd=177505|Gloss=Q|Lang=hau
 8	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=177505|AlignEnd=177740|Gloss=PUNCT
 
@@ -1251,21 +1253,22 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 178400, 181700
-# text = mətáyǎː ʤwáːm =ʃí mə fuː =ʃí -íː dòmín tə̀ láːp m̀ː ʧokn //
-# text_ortho = mətáyáː ʤwáːmʃí mə fuːʃíː dòmín tə̀ lǎːp m̀ː ʧokn //
-# text_en = I gathered them and talked to them. so that they should follow God.
+# text = mətáyáː ʤwáːmʃí mə fuːʃíː dòmín tə̀ lǎːp m̀ː Tʃokn //
+# text_ortho = mətáyáː ʤwáːmʃí mə fuːʃíː dòmín tə̀ lǎːp m̀ː Tʃokn //
+# text_en = I gathered them and talked to them so that they should follow God.
 1	mətáyǎː	ta-yǎː	AUX	_	Aspect=Imp|Number=Plur|Person=1|Tense=Rem	0	root	_	AlignBegin=178400|AlignEnd=178755|Gloss=1SG.REM.IMP
+2-3	ʤwáːmʃí	_	_	_	_	_	_	_	_
 2	ʤwáːm	ʤwáːm	VERB	_	_	1	comp:aux	_	AlignBegin=178755|AlignEnd=178933|Gloss=gather
 3	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=178933|AlignEnd=179110|Gloss=3PL.OBJ
 4	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	1	parataxis@conj	_	AlignBegin=179110|AlignEnd=179465|Gloss=1SG.AOR
-5-6	fuː-íː	_	_	_	_	_	_	_	_
-5	fuː-íː	fuː-íː	VERB	_	Aspect=Res	4	comp:aux	_	AlignBegin=179465|AlignEnd=179820|Gloss=tell|wordform=fuː
+5-6	fuːʃíː	_	_	_	_	_	_	_	_
+5	*fuː-íː	fuː-íː	VERB	_	Aspect=Res	4	comp:aux	_	AlignBegin=179465|AlignEnd=179820|Gloss=tell|wordform=fuː
 6	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=179583|AlignEnd=179701|Gloss=3PL.OBJ|Incorporated=Yes
-7	dòmín	dòmín	SCONJ	_	_	2	mod	_	AlignBegin=180120|AlignEnd=180410|Gloss=because
+7	dòmín	dòmín	SCONJ	_	_	5	mod	_	AlignBegin=180120|AlignEnd=180410|Gloss=because
 8	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	7	comp:obj	_	AlignBegin=180410|AlignEnd=180700|Gloss=3PL.SUB
-9	láːp	láːp	VERB	_	_	8	comp:aux	_	AlignBegin=180700|AlignEnd=180990|Gloss=follow
+9	lǎːp	láːp	VERB	_	_	8	comp:aux	_	AlignBegin=180700|AlignEnd=180990|Gloss=follow
 10	m̀ː	m̀ː	INTJ	_	_	11	discourse	_	AlignBegin=180990|AlignEnd=181280|Gloss=HESIT
-11	ʧokn	ʧokn	NOUN	_	_	9	comp:obj	_	AlignBegin=181480|AlignEnd=181590|Gloss=God
+11	Tʃokn	Tʃokn	PROPN	_	_	9	comp:obj	_	AlignBegin=181480|AlignEnd=181590|Gloss=God
 12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=181590|AlignEnd=181700|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_139-140
