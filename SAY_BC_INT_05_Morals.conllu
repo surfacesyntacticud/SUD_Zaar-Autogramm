@@ -1275,35 +1275,38 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 182680, 184360
-# text = yáːni tu ʧokn ʧi ɗa //
-# text_ortho = yâːn tu ʧokn ʧi ɗa //
+# text = yâːn tu Tʃokn ʧi ɗa //
+# text_ortho = yâːn tu Tʃokn ʧi ɗa //
 # text_en = That is to say... God exists.
-1	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=182680|AlignEnd=183120|Gloss=3SG.IDP
+1	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=182680|AlignEnd=183120|Gloss=3SG.IDP
 2	tu	tu	SCONJ	_	Mood=Qot	1	comp:cleft	_	AlignBegin=183120|AlignEnd=183560|Gloss=COMP
 3	ʧokn	ʧokn	NOUN	_	_	2	comp:obj	_	AlignBegin=183840|AlignEnd=183970|Gloss=God
-4	ʧi	ʧi	VERB	_	_	2	comp:obj	_	AlignBegin=183970|AlignEnd=184100|Gloss=3SG.be
-5	ɗa	ɗa	ADP	_	_	4	compound:prt	_	AlignBegin=184100|AlignEnd=184230|Gloss=at
-6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=184230|AlignEnd=184360|Gloss=PUNCT
+4-5	ʧi	_	_	_	_	_	_	_	_
+4	tə	tə	PRON	_	Number=Sing|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=183970|AlignEnd=184100|Gloss=3SG.be
+5	yi	yi	VERB	_	_	2	comp:obj	_	AlignBegin=183970|AlignEnd=184100|Gloss=3SG.be
+6	ɗa	ɗa	ADP	_	_	4	compound:prt	_	AlignBegin=184100|AlignEnd=184230|Gloss=at
+7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=184230|AlignEnd=184360|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_141-143
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 184500, 187620
-# text = kúmá yéːsu < yáːni á máni vər rây =wôs nə́ myàːní //
-# text_ortho = kúmá yéːsu < yáːni á mán və̀r râywòs nə́ myàːní //
+# text = kúmá Yéːsu < yáːni á mán və̀r râywòs nə́ myàːní //
+# text_ortho = kúmá Yéːsu < yáːni á mán və̀r râywòs nə́ myàːní //
 # text_en = and Jesus came to give his life for us.
-1	kúmá	kúmá	PART	_	_	5	discourse	_	AlignBegin=184500|AlignEnd=184700|Gloss=and
-2	yéːsu	yéːsu	INTJ	_	_	5	dislocated@subj	_	AlignBegin=184700|AlignEnd=184900|Gloss=Jesus
+1	kúmá	kúmá	PART	_	_	4	discourse	_	AlignBegin=184500|AlignEnd=184700|Gloss=and
+2	Yéːsu	Yéːsu	INTJ	_	_	4	dislocated@subj	_	AlignBegin=184700|AlignEnd=184900|Gloss=Jesus
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=184900|AlignEnd=185100|Gloss=PUNCT
-4	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	5	dislocated@subj	_	AlignBegin=185940|AlignEnd=186215|Gloss=3SG.IDP
-5	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=186215|AlignEnd=186490|Gloss=3SG.AOR
-6	máni	máni	VERB	_	_	5	comp:aux	_	AlignBegin=186490|AlignEnd=186765|Gloss=come
-7	vər	vər	VERB	_	_	6	compound:svc	_	AlignBegin=186765|AlignEnd=186936|Gloss=give
+4	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=185940|AlignEnd=186215|Gloss=3SG.IDP
+5	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	4	comp:cleft	_	AlignBegin=186215|AlignEnd=186490|Gloss=3SG.AOR
+6	mán	máni	VERB	_	_	5	comp:aux	_	AlignBegin=186490|AlignEnd=186765|Gloss=come
+7	və̀r	vər	VERB	_	_	6	compound:svc	_	AlignBegin=186765|AlignEnd=186936|Gloss=give
+8-9	râywòs	_	_	_	_	_	_	_	_
 8	rây	rây	NOUN	_	_	7	comp:obj	_	AlignBegin=186936|AlignEnd=187022|Gloss=life
 9	=wôs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	8	mod@poss	_	AlignBegin=187022|AlignEnd=187107|Gloss=3SG.POS
 10	nə́	nə́	ADP	_	_	7	comp:obl	_	AlignBegin=187107|AlignEnd=187278|Gloss=for
 11	myàːní	myàːní	PRON	_	Number=Plur|Person=1|PronType=Prs	10	comp:obj	_	AlignBegin=187278|AlignEnd=187449|Gloss=1PL.IDP
-12	//	//	PUNCT	_	_	5	punct	_	AlignBegin=187449|AlignEnd=187620|Gloss=PUNCT
+12	//	//	PUNCT	_	_	4	punct	_	AlignBegin=187449|AlignEnd=187620|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_144-144
 # speaker_id = SP1
@@ -1343,15 +1346,15 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 192860, 199080
-# text = tòː dàgà ɗáni < vìː ʧokn ɗa á máni ɓas =mə ɗúːni yáːni ʧi tu &//
-# text_ortho = tôː dàgà ɗáni < vìː ʧokn ɗa á máni ɓasəm ɗúːni yâːn ʧi tu &//
+# text = tòː dàgà ɗáni < vìː Tʃokn ɗa á máni ɓas =mə ɗúːni yáːni ʧi tu &//
+# text_ortho = tôː dàgà ɗáni < vìː Tʃokn ɗa á máni ɓasəm ɗúːni yâːn ʧi tu &//
 # text_en = Well from there... God's word that came to us, that is to say... &// .
 1	tòː	tòː	PART	_	_	8	discourse	_	AlignBegin=192860|AlignEnd=193165|Gloss=DM
 2	dàgà	dàgà	ADP	_	_	8	mod	_	AlignBegin=193165|AlignEnd=193470|Gloss=from
 3	ɗáni	ɗáni	ADV	_	PronType=Dem	2	comp:obj	_	AlignBegin=193470|AlignEnd=193775|Gloss=there
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=193775|AlignEnd=194079|Gloss=PUNCT
 5	vìː	vìː	NOUN	_	_	8	subj	_	AlignBegin=194079|AlignEnd=194264|Gloss=speech
-6	ʧokn	ʧokn	IDEO	_	_	5	mod	_	AlignBegin=194264|AlignEnd=194449|Gloss=God
+6	Tʃokn	Tʃokn	NOUN	_	_	5	mod	_	AlignBegin=194264|AlignEnd=194449|Gloss=God
 7	ɗa	ɗan	SCONJ	_	_	5	mod@relcl	_	AlignBegin=194449|AlignEnd=194634|Gloss=REL
 8	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root@scrap	_	AlignBegin=194634|AlignEnd=194819|Gloss=3SG.AOR
 9	máni	máni	VERB	_	_	8	comp:aux	_	AlignBegin=194819|AlignEnd=195006|Gloss=come
