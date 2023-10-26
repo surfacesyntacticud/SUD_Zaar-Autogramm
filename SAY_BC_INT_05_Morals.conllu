@@ -247,8 +247,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 39080, 45740
-# text = tôː < ɬyǎn ɗûːwàːn < deːdéː |c àmá káɗá àː ɬyà ɗûː tə̀ móp karfíwâːn < àː ɬə̀ fì ngə́r wón ɗan bàː á ndârá hŋ́ //
-# text_ortho = tôː < ɬyǎn ɗûːwàːn < deːdéː |c àmá káɗá àː ɬyà ɗûː tə̀ móp karfíwâːn < àː ɬə̀ fì ngə́tn wón ɗan bàː á ndârá hŋ́ //
+# text = tôː < ɬyǎn ɗûːwàːn < deːdéː |c àmá káɗá àː ɬyà ɗûː tə̀ móp karfíwâːn |c àː ɬə̀ fì ngə́r wón ɗan bàː á ndârá hŋ́ //
+# text_ortho = tôː < ɬyǎn ɗûːwàːn deːdéː |c àmá káɗá àː ɬyà ɗûː tə̀ móp karfíwâːn |c àː ɬə̀ fì ngə́tn wón ɗan bàː á ndârá hŋ́ //
 # text_en = "Well, drink your beer very well but don't drink more beer than you can stand lest you do anything wrong."
 1	tòː	tòː	PART	_	_	3	discourse	_	AlignBegin=39080|AlignEnd=39190|Gloss=DM
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=39190|AlignEnd=39300|Gloss=PUNCT
@@ -268,7 +268,7 @@
 15-16	karfíwâːn	_	_	_	_	_	_	_	_
 15	karfí	karfi	NOUN	_	Definite=Cons	14	comp:obj	_	AlignBegin=43391|AlignEnd=43507|Gloss=strength|wordform=karfi
 16	=wâːn	=waːn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	15	mod@poss	_	AlignBegin=43507|AlignEnd=43564|Gloss=2PL.POS
-17	<	<	PUNCT	_	_	18	punct	_	AlignBegin=43564|AlignEnd=43740|Gloss=PUNCT
+17	|c	|c	PUNCT	_	_	18	punct	_	AlignBegin=43564|AlignEnd=43740|Gloss=PUNCT
 18	àː	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=2	10	conj:coord	_	AlignBegin=44380|AlignEnd=44504|Gloss=2PL.SUB
 19	ɬə̀	ɬə	VERB	_	_	18	comp:aux	_	AlignBegin=44504|AlignEnd=44628|Gloss=go
 20	fì	fi	VERB	_	_	19	compound:svc	_	AlignBegin=44628|AlignEnd=44752|Gloss=do
@@ -307,7 +307,7 @@
 17-18	tùtə̀	_	_	_	_	_	_	_	_
 17	tù	tu	VERB	_	_	16	comp:aux	_	AlignBegin=49762|AlignEnd=49856|Gloss=get
 18	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	17	comp:obj	_	AlignBegin=49856|AlignEnd=49949|Gloss=3SG.OBJ
-19	ndaːrá	ndaːrá	ADJ	_	_	17	comp:pred@x	_	AlignBegin=49949|AlignEnd=50136|Gloss=nice
+19	ndaːrá	ndaːrá	ADV	_	_	17	mod	_	AlignBegin=49949|AlignEnd=50136|Gloss=nice
 20	//	//	PUNCT	_	_	16	punct	_	AlignBegin=50136|AlignEnd=50320|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_037-037
@@ -324,15 +324,15 @@
 5-6	fúːkí	_	_	_	_	_	_	_	_
 5	fúː	fuː	VERB	_	_	4	comp:aux	_	AlignBegin=52148|AlignEnd=52226|Gloss=tell
 6	=kí	=kí	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	5	comp:obj	_	AlignBegin=52226|AlignEnd=52305|Gloss=2PL.OBJ
-7	ɣəndí	kən	PART	_	_	0	root	_	AlignBegin=52305|AlignEnd=52462|Gloss=be
+7	ɣəndí	kəndí	PART	_	_	0	root	_	AlignBegin=52305|AlignEnd=52462|Gloss=be
 8	//	//	PUNCT	_	_	7	punct	_	AlignBegin=52462|AlignEnd=52620|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_038-040
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 53500, 57620
-# text = ngə́tn ɗan ká fítə̀ káwêy yâːn ʧi tu əː kyáː vûm gə̀ɗɗì < tôː pólɣə̂nwòpm ŋgəndí //
-# text_ortho = ngə́tn ɗan ká fítə̀ káwêy yâːn ʧi tu əː kyáː vûm gə̀tɗì < tôː pólɣə̂nwòpm kəndí //
+# text = ngə́tn ɗan ká fítə̀ káwêy yâːn ʧi tu əː kyáː vûm gə̀ɗɗì < tôː pólɣə̂nwòpm gəndí //
+# text_ortho = ngə́tn ɗan ká fítə̀ káwêy yâːn ʧi tu əː kyáː vûm gə̀ɗɗì < tôː pólɣə̂nwòpm gəndí //
 # text_en = The only thing that you will do is if... you snatch [somebody's] wife, well, that's what we like.
 1	ngə́tn	ngə́tn	NOUN	_	_	9	dislocated@subj	_	AlignBegin=53500|AlignEnd=53672|Gloss=thing
 2	ɗan	ɗan	SCONJ	_	_	1	mod@relcl	_	AlignBegin=53672|AlignEnd=53844|Gloss=REL
@@ -357,14 +357,14 @@
 18-19	pólɣə̂nwòpm	_	_	_	_	_	_	_	_
 18	pólɣə̂n	pol	VERB	_	VerbForm=Part	20	comp:pred	_	AlignBegin=56967|AlignEnd=57113|Gloss=please-NMLZ|wordform=pol|ExtPos=NOUN
 19	=wòpm	=wopm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	18	mod@poss	_	AlignBegin=57113|AlignEnd=57185|Gloss=1PL.POS
-20	ŋgəndí	kəndí	PART	_	_	10	comp:obj	_	AlignBegin=57185|AlignEnd=57403|Gloss=be
+20	gəndí	kəndí	PART	_	_	10	comp:obj	_	AlignBegin=57185|AlignEnd=57403|Gloss=be
 21	//	//	PUNCT	_	_	0	punct	_	AlignBegin=57403|AlignEnd=57620|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_041-042
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 59100, 61460
-# text = dòmín gə̀t vum -kə́nì átâ yi ká gíː //
+# text = dòmín gə̀t vùmgə̀nì átâ yi á gíː //
 # text_ortho = dòmín gə̀t vùmgə̀nì átâ yi á gíː //
 # text_en = Because there used to be some wife snatching there.
 1	dòmín	dòmín	SCONJ	_	_	4	discourse	_	AlignBegin=59100|AlignEnd=59900|Gloss=because
@@ -396,8 +396,8 @@
 10	àmá	àmá	CCONJ	_	_	13	cc	_	AlignBegin=63840|AlignEnd=63997|Gloss=but
 11	dàːʃí	daː	NOUN	_	_	13	subj	_	AlignBegin=63997|AlignEnd=64154|Gloss=person-DEF|wordform=daː
 12	kúmá	kúmá	PART	_	_	11	discourse	_	AlignBegin=64154|AlignEnd=64311|Gloss=too
-13-17	 ɬiːtə ɣáy fáː gòʃíː	_	_	_	_	_	_	_	_
 13	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	2	conj:coord	_	AlignBegin=64311|AlignEnd=64468|Gloss=3SG.FUT
+14-18	 ɬiːtə ɣáy fáː gòʃíː	_	_	_	_	_	_	_	_
 14	*ɬiː-íː	ɬiː	VERB	_	Aspect=Res	13	comp:aux	_	AlignBegin=64468|AlignEnd=64546|Gloss=upset-RES
 15	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	14	comp:obj	_	AlignBegin=64546|AlignEnd=64625|Gloss=3SG.OBJ
 16	ɣáy	káy	PRON	_	Person=3|PronType=Prs	14	comp@expl	_	AlignBegin=64625|AlignEnd=64782|Gloss=ANAPH
@@ -482,7 +482,7 @@
 # sent_timecode = 73626, 78881
 # text = bàː tə̀tàyáː kǔːpkí gyáː ngə́tn wón tu [ mǎːnɗi !//= mə̀ ɬə̌n ndə̂ːr !//= mə̀ gìtkí gyáː ŋantsə́ kóː gyáː ngə́ʃi gón !//] hŋ́ aː ?//
 # text_ortho = bàː tə̀tàyáː kǔːpkí gyáː ngə́tn wón tu [ mǎːndi !//= mə̀ ɬə̌n ndə̂ːr !//= mə̀ gìtkí gyáː ŋantsə́ kóː gyáː ngə́ʃi gón !//] hŋ́ aː ?//
-# text_en = Didn't they used to teach you like "Come, let's go to the bush let's show you some trees or some things." ?
+# text_en = Didn't they use to teach you "Come, let's go to the bush let's show you some trees or some things." ?
 1	báː	báː	PART	_	Polarity=Neg	2	mod	_	AlignBegin=73626|AlignEnd=73856|Gloss=NEG1
 2	tə̀tàyáː	ta-yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3|Tense=Rem	0	root	_	AlignBegin=73856|AlignEnd=74086|Gloss=3PL.REM.IMP
 3-4	kǔːpkí	_	_	_	_	_	_	_	_
@@ -498,7 +498,7 @@
 11	ɗi	ɗi	PART	_	_	10	mod	_	AlignBegin=75482|AlignEnd=75530|Gloss=CTP
 12	!//=	!//=	PUNCT	_	_	13	punct	_	AlignBegin=75530|AlignEnd=75675|Gloss=PUNCT
 13	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	10	parataxis@conj	_	AlignBegin=75675|AlignEnd=75837|Gloss=1PL.SUB
-14	ɬə́n	ɬə	VERB	_	Mood=Imp|Number=Plur	13	comp:aux	_	AlignBegin=75837|AlignEnd=75999|Gloss=go.IMP.PL
+14	ɬə̌n	ɬə	VERB	_	Mood=Imp|Number=Plur	13	comp:aux	_	AlignBegin=75837|AlignEnd=75999|Gloss=go.IMP.PL
 15	ndə̂ːr	ndə̂ːr	NOUN	_	_	14	compound:svc	_	AlignBegin=75999|AlignEnd=76161|Gloss=bush
 16	!//=	!//=	PUNCT	_	_	17	punct	_	AlignBegin=76161|AlignEnd=76325|Gloss=PUNCT
 17	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	13	parataxis@conj	_	AlignBegin=76325|AlignEnd=76593|Gloss=1PL.SUB
@@ -562,7 +562,7 @@
 # text_en = That medicine for rubbing on the stomach which DogonYaro is using, well me, I used to collect it.
 1	gyáː	gyáː	DET	_	Number=Plur	2	det	_	AlignBegin=85160|AlignEnd=85372|Gloss=PL
 2-9	wukn kə́ vwàː vwàːtkə̀n ɗan dogoɲáːro ʧáː vwàːɗín	_	_	_	_	_	_	_	_
-2	*wuɣn-ín	wukn	NOUN	_	Deictic=Prox	14	dislocated@comp	_	AlignBegin=85372|AlignEnd=85584|Gloss=medicine-PROX
+2	*wukn-ín	wukn	NOUN	_	Deictic=Prox	14	dislocated@comp	_	AlignBegin=85372|AlignEnd=85584|Gloss=medicine-PROX
 3	kə́	á	ADP	_	_	2	mod	_	AlignBegin=85584|AlignEnd=85796|Gloss=of
 4	vwàː	vwàː	NOUN	_	_	3	comp:obj	_	AlignBegin=85796|AlignEnd=86008|Gloss=belly
 5	vwàːtkə̀n	vwaːt	VERB	_	VerbForm=Vnoun	4	compound	_	AlignBegin=86008|AlignEnd=86220|Gloss=massage|wordform=vwaːt|ExtPos=NOUN
@@ -626,9 +626,9 @@
 4	farfaːɗa	farfaːɗa	NOUN	_	_	3	mod	_	AlignBegin=93800|AlignEnd=94000|Gloss=epilepsy
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=94000|AlignEnd=94200|Gloss=PUNCT
 6	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	0	root	_	AlignBegin=94460|AlignEnd=94710|Gloss=1SG.AOR
-7	yísə́ŋ	yisə́ŋ	VERB	_	_	6	comp:aux	_	AlignBegin=94710|AlignEnd=94960|Gloss=know
-8-9	ngáːɣə́nwòʃíː	_	_	_	_	_	_	_	_
-8	*ngáːɣə́n-íː	ngaː	VERB	_	Deixis=Dist|VerbForm=Vnoun	7	comp:obj	_	AlignBegin=94960|AlignEnd=95210|Gloss=fetch-NMLZ-DIST|wordform=ngaː|ExtPos=NOUN
+7-9	yísə́ŋ ngáːɣə́nwòʃíː	_	_	_	_	_	_	_	_
+7	*yísə́ŋ-íː	yisə́ŋ	VERB	_	Aspect=Res	6	comp:aux	_	AlignBegin=94710|AlignEnd=94960|Gloss=know-Res
+8	ngáːɣə̂n	ngaː	VERB	_	VerbForm=Vnoun	7	comp:obj	_	AlignBegin=94960|AlignEnd=95210|Gloss=fetch-NMLZ-DIST|wordform=ngaː|ExtPos=NOUN
 9	=wôs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	8	mod@poss	_	AlignBegin=95084|AlignEnd=95146|Gloss=3SG.POS
 10	//	//	PUNCT	_	_	6	punct	_	AlignBegin=95210|AlignEnd=95460|Gloss=PUNCT
 
@@ -646,8 +646,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 96560, 102800
-# text = tə́ gyáː wǔɣn mâːm ɗan gə̀t yáː ɓwâː < tôː máːmi màráy // tôː < ma ngaː wuki mán vər gə̀ɗès //
-# text_ortho = tə́ gyáː wǔkn mâːm ɗan gə̀t yáː ɓwâː < tôː máːmi màráy // tôː < ma ngaː wuki mán vər gə̀ɗès //
+# text = tə́ gyáː wǔɣn mâːm ɗan gə̀t yáː ɓwâː < tôː máːmi màráy < tôː < ma ngaː wuki mán vər gə̀ɗès //
+# text_ortho = tə́ gyáː wǔkn mâːm ɗan gə̀t yáː ɓwâː < tôː máːmi màráy < tôː < ma ngaː wuki mán vər gə̀ɗès //
 # text_en = And that medicine for breasts that... if a woman has given birth, her breasts hurt, well, I would fetch the medicine and go and give it to the woman.
 1	tə́	tə́	ADP	_	_	16	discourse	_	AlignBegin=96560|AlignEnd=96770|Gloss=with
 2	gyáː	gyáː	DET	_	Number=Plur	3	det	_	AlignBegin=96770|AlignEnd=96980|Gloss=PL
@@ -676,8 +676,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 103080, 105080
-# text = tòː < mâːm -i wò fi -íː ndaːrá // fi sàlàlà //
-# text_ortho = tôː < máːmi wò fíː ndaːrá // fi sàlàlà //
+# text = tôː < máːmi wò fíː ndaːrá |c fi sàlàlà //
+# text_ortho = tôː < máːmi wò fíː ndaːrá |c fi sàlàlà //
 # text_en = Well the breast would be fine, and flow freely.
 1	tòː	tòː	PART	_	_	4	discourse	_	AlignBegin=103080|AlignEnd=103226|Gloss=DM
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=103226|AlignEnd=103373|Gloss=PUNCT
@@ -707,8 +707,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
 # sent_timecode = 107033, 112360
-# text = átayáː fuːmí || tôː wul tu ŋanʧí giní < gwàːʃì gín < ka ɓəl gwàːʃì gín tə́ gín tə́ gín tə́ gín //
-# text_ortho = átayáː fuːmí || tôː wul tu ŋanʧí giní < gwàːʃì gín < ka ɓəl gwàːʃì gín tə́ gín tə́ gín tə́ gín //
+# text = átayáː fuːmí || tôː wul tu ŋanʧí giní || gwàːʃì gín < ka ɓəl gwàːʃì gín tə́ gín tə́ gín tə́ gín //
+# text_ortho = átayáː fuːmí || tôː wul tu ŋanʧí giní || gwàːʃì gín < ka ɓəl gwàːʃì gín tə́ gín tə́ gín tə́ gín //
 # text_en = He told us well they said that... this tree, as for it, you would dig this tree and this and this and this.
 1	átayáː	ta-ayáː	AUX	_	Aspect=Imp|Number=Sing|Person=3|Tense=Rem	0	root	_	AlignBegin=107033|AlignEnd=107289|Gloss=3SG.REM.IMP
 2-3	fuːmí	_	_	_	_	_	_	_	_
@@ -720,10 +720,10 @@
 7	tu	tu	SCONJ	_	_	6	comp:obj	_	AlignBegin=108054|AlignEnd=108180|Gloss=COMP
 8	ŋanʧí	ŋantsə́	NOUN	_	Definite=Ind	14	dislocated@top	_	AlignBegin=108700|AlignEnd=108927|Gloss=wood|wordform=ŋantsə́
 9	giní	giní	PRON	_	Deixis=Prox|PronType=Dem	8	det	_	AlignBegin=108927|AlignEnd=109154|Gloss=PROX
-10	<	<	PUNCT	_	_	8	punct	_	AlignBegin=109154|AlignEnd=109380|Gloss=PUNCT
-11	gwàːʃì	gwàːs	NOUN	_	Definite=Ind	14	dislocated@top	_	AlignBegin=109520|AlignEnd=109687|Gloss=tree|wordform=gwàːs
+10	||	||	PUNCT	_	_	8	punct	_	AlignBegin=109154|AlignEnd=109380|Gloss=PUNCT
+11	gwàːʃì	gwàːs	NOUN	_	Definite=Ind	8	conj:dicto	_	AlignBegin=109520|AlignEnd=109687|Gloss=tree|wordform=gwàːs
 12	gín	giní	DET	_	Deixis=Prox|PronType=Dem	11	det	_	AlignBegin=109687|AlignEnd=109854|Gloss=PROX
-13	<	<	PUNCT	_	_	11	punct	_	AlignBegin=109854|AlignEnd=110020|Gloss=PUNCT
+13	<	<	PUNCT	_	_	8	punct	_	AlignBegin=109854|AlignEnd=110020|Gloss=PUNCT
 14	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	7	comp:obj	_	AlignBegin=110680|AlignEnd=110866|Gloss=2SG.FUT
 15	ɓəl	ɓəl	VERB	_	_	14	comp:aux	_	AlignBegin=110866|AlignEnd=111052|Gloss=dig
 16	gwàːʃì	gwàːs	NOUN	_	Definite=Ind	15	comp:obj	_	AlignBegin=111052|AlignEnd=111238|Gloss=tree|wordform=gwàːs
@@ -760,14 +760,14 @@
 1	m̀ː	m̀ː	INTJ	_	_	0	root	_	AlignBegin=114060|AlignEnd=114170|Gloss=yes
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=114170|AlignEnd=114279|Gloss=PUNCT
 
-# sent_id = SAY_BC_INT_05_Morals_091-094
+# sent_id = SAY_BC_INT_05_Morals_091-096
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
-# sent_timecode = 114740, 117485
-# text = ka ɓəlni gyáː ɬərtí giní tə́ ɬərtí gín tə́ ɬərtí gín |c tôː àː háɗáy //
-# text_ortho = ka ɓəlni gyáː ɬərtí giní tə́ ɬərtí gín tə́ ɬərtí gín |c tôː àː háɗáy //
-# text_en = You would dig this root, and this one and this one, then you would mix them.
-1	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	15	parataxis@mod	_	AlignBegin=114740|AlignEnd=114973|Gloss=2SG.FUT
+# sent_timecode = 114740, 118654
+# text = ka ɓəlni gyáː ɬərtí giní tə́ ɬərtí gín tə́ ɬərtí gín |c àː háɗáy |c àː gámáʃíwâːsə̀ŋíː //
+# text_ortho = ka ɓəlni gyáː ɬərtí giní tə́ ɬərtí gín tə́ ɬərtí gín |c àː háɗáy |c àː gámáʃíwâːsə̀ŋíː //
+# text_en = You would dig this root, and this one and this one, you would join them, you would... mix them together.
+1	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=114740|AlignEnd=114973|Gloss=2SG.FUT
 2-3	ɓəlni	_	_	_	_	_	_	_	_
 2	ɓəl	ɓəl	VERB	_	_	1	comp:aux	_	AlignBegin=114973|AlignEnd=115089|Gloss=dig
 3	ni	ni	PART	_	Aspect=Iter	2	compound:prt	_	AlignBegin=115089|AlignEnd=115206|Gloss=ITER|wordform=-ni
@@ -776,29 +776,20 @@
 6	giní	giní	DET	_	PronType=Dem	5	det	_	AlignBegin=115672|AlignEnd=115903|Gloss=PROX
 7	tə́	tə́	ADP	_	_	8	cc	_	AlignBegin=115903|AlignEnd=116097|Gloss=with
 8	ɬərtí	ɬətər	NOUN	_	Definite=Ind	5	conj:coord	_	AlignBegin=116097|AlignEnd=116291|Gloss=root|wordform=ɬərti
-9	giní	giní	DET	_	PronType=Dem	8	det	_	AlignBegin=116291|AlignEnd=116484|Gloss=PROX
+9	gín	giní	DET	_	PronType=Dem	8	det	_	AlignBegin=116291|AlignEnd=116484|Gloss=PROX
 10	tə́	tə́	ADP	_	_	11	cc	_	AlignBegin=116484|AlignEnd=116616|Gloss=with
 11	ɬərtí	ɬətər	NOUN	_	Definite=Ind	8	conj:coord	_	AlignBegin=116616|AlignEnd=116748|Gloss=root|wordform=ɬərti
-12	giní	giní	DET	_	PronType=Dem	11	det	_	AlignBegin=116748|AlignEnd=116880|Gloss=PROX
-13	<	<	PUNCT	_	_	1	punct	_	AlignBegin=116880|AlignEnd=117014|Gloss=PUNCT
-14	tòː	tòː	PART	_	_	15	discourse	_	AlignBegin=117014|AlignEnd=117132|Gloss=DM
-15	àː	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=2	0	root	_	AlignBegin=117132|AlignEnd=117250|Gloss=2SG.SUB
-16	haɗáy	haɗá	VERB	_	Aspect=Res	15	comp:aux	_	AlignBegin=117250|AlignEnd=117368|Gloss=join|wordform=haɗá
-17	//	//	PUNCT	_	_	15	punct	_	AlignBegin=117368|AlignEnd=117485|Gloss=PUNCT
-
-# sent_id = SAY_BC_INT_05_Morals_095-096
-# speaker_id = SP1
-# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
-# sent_timecode = 117485, 118654
-# text = àː gámáʃíwâːsə̀ŋíː //
-# text_ortho = àː gámáʃíwâːsə̀ŋíː //
-# text_en = You would... mix them together.
-1	àː	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=2	0	root	_	AlignBegin=117485|AlignEnd=117894|Gloss=2SG.SUB
-2-5	gámáʃíwâːsə̀ŋíː	_	_	_	_	_	_	_	_
-2	*gamá-íː	gamá	VERB	_	Aspect=Res	1	comp:aux	_	AlignBegin=117894|AlignEnd=118274|Gloss=gather|wordform=gamá
-3	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=117989|AlignEnd=118084|Gloss=3PL.OBJ|Incorporated=Yes
-4	=wâːsəŋ	=waːsən	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	mod@emp	_	AlignBegin=118084|AlignEnd=118179|Gloss=3PL.POS|Incorporated=Yes
-5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=118274|AlignEnd=118654|Gloss=PUNCT
+12	gín	giní	DET	_	PronType=Dem	11	det	_	AlignBegin=116748|AlignEnd=116880|Gloss=PROX
+13	|c	|c	PUNCT	_	_	14	punct	_	AlignBegin=116880|AlignEnd=117014|Gloss=PUNCT
+14	àː	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=2	1	conj:coord	_	AlignBegin=117132|AlignEnd=117250|Gloss=2SG.SUB
+15	haɗáy	haɗá	VERB	_	Aspect=Res	14	comp:aux	_	AlignBegin=117250|AlignEnd=117368|Gloss=join|wordform=haɗá
+16	|c	|c	PUNCT	_	_	14	punct	_	AlignBegin=117368|AlignEnd=117485|Gloss=PUNCT
+17	àː	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=2	14	conj:coord	_	AlignBegin=117485|AlignEnd=117894|Gloss=2SG.SUB
+18-20	gámáʃíwâːsə̀ŋíː	_	_	_	_	_	_	_	_
+18	*gamá-íː	gamá	VERB	_	Aspect=Res	17	comp:aux	_	AlignBegin=117894|AlignEnd=118274|Gloss=gather|wordform=gamá
+19	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	18	comp:obj	_	AlignBegin=117989|AlignEnd=118084|Gloss=3PL.OBJ|Incorporated=Yes
+20	=wâːsəŋ	=waːsən	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	18	mod@emp	_	AlignBegin=118084|AlignEnd=118179|Gloss=3PL.POS|Incorporated=Yes
+21	//	//	PUNCT	_	_	1	punct	_	AlignBegin=118274|AlignEnd=118654|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_05_Morals_097-097
 # speaker_id = SP1
