@@ -218,25 +218,27 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 29568, 30577
-# text = àː mbiː longa -i //
-# text_ortho = àː mbiː longay //
+# text = àː mbiː longáy //
+# text_ortho = àː mbiː longáy //
 # text_en = He had taken Rabbit.
 1	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=29568|AlignEnd=29820|Gloss=3SG.PERF
-2	mbiː	mbiː	VERB	_	_	1	comp:aux	_	AlignBegin=29820|AlignEnd=30072|Gloss=take
-3	longa-i	longa-i	NOUN	_	_	2	comp:obj	_	AlignBegin=30072|AlignEnd=30324|Gloss=rabbit|wordform=longa
+2-3	mbiː longáy	_	_	_	_	_	_	_	_
+2	*mbiː-íː	mbiː	VERB	_	Aspect=Res	1	comp:aux	_	AlignBegin=29820|AlignEnd=30072|Gloss=take-Res
+3	longa	longa	NOUN	_	_	2	comp:obj	_	AlignBegin=30072|AlignEnd=30324|Gloss=rabbit|wordform=longa
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=30324|AlignEnd=30577|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_020-020
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 31094, 32508
-# text = á mbiː longa -íː á kâːr //
+# text = á mbîː longáy á kâːr //
 # text_ortho = á mbîː longáy á kâːr //
 # text_en = He carried Rabbit on his back.
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=31094|AlignEnd=31330|Gloss=3SG.Aor
-2	mbiː	mbiː	VERB	_	_	1	comp:aux	_	AlignBegin=31330|AlignEnd=31566|Gloss=take
-3	longa-íː	longa-íː	NOUN	_	_	2	comp:obj	_	AlignBegin=31566|AlignEnd=31802|Gloss=rabbit|wordform=longa
-4	á	á	ADP	_	_	2	mod	_	AlignBegin=31802|AlignEnd=32038|Gloss=at
+2-3	mbîː longáy	_	_	_	_	_	_	_	_
+2	*mbîː-íː	mbiː	VERB	_	Aspect=Res	1	comp:aux	_	AlignBegin=31330|AlignEnd=31566|Gloss=take-Res
+3	longa	longa	NOUN	_	_	2	comp:obj	_	AlignBegin=31566|AlignEnd=31802|Gloss=rabbit|wordform=longa
+4	á	á	ADP	_	_	2	comp:obl	_	AlignBegin=31802|AlignEnd=32038|Gloss=at
 5	kâːr	kâːr	ADV	_	_	4	comp:obj	_	AlignBegin=32038|AlignEnd=32274|Gloss=back
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=32274|AlignEnd=32508|Gloss=PUNCT
 
@@ -244,21 +246,20 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 33486, 37641
-# text = tə́ ɬə -íː tə́ ɬə nə́ nda dǔːm ʧaː -kə́nì lâːr gyáː gutʒey //
-# text_ortho = tə́ ɬǐː tə́ ɬə́n ndâ dǔːm ʧáːkə̂n lâːr gyaː gutʒey //
-# text_en = They went and started gathering honey In Gutzhey's valley.
-1	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=33486|AlignEnd=33752|Gloss=3PL.Aor
-2	ɬə-íː	ɬə-í	VERB	_	Aspect=Res	1	comp:aux	_	AlignBegin=33752|AlignEnd=34018|Gloss=go|wordform=ɬə
-3	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	1	conj:coord	_	AlignBegin=34018|AlignEnd=34284|Gloss=3PL.Aor
-4	ɬə	ɬə	VERB	_	_	3	comp:aux	_	AlignBegin=34284|AlignEnd=34417|Gloss=go
-5	nə́	nə́	ADP	_	_	4	comp:obj	_	AlignBegin=34417|AlignEnd=34550|Gloss=for
-6	nda	nda	VERB	_	_	5	comp:obj	_	AlignBegin=34550|AlignEnd=34816|Gloss=enter
-7	dǔːm	dǔːm	NOUN	_	_	6	comp:obj	_	AlignBegin=34816|AlignEnd=35082|Gloss=honey
-8	ʧaː-kə́nì	ʧaː-kə́nì	VERB	_	_	4	compound:svc	_	AlignBegin=35082|AlignEnd=35346|Gloss=collect|wordform=ʧaː
-9	lâːr	lâːr	NOUN	_	_	8	comp:obj	_	AlignBegin=36739|AlignEnd=36965|Gloss=river
-10	gyáː	gyáː	DET	_	Number=Plur	11	det	_	AlignBegin=36965|AlignEnd=37191|Gloss=PL3
-11	gutʒey	Gutʒey	NOUN	_	Definite=Ind	8	comp:obj	_	AlignBegin=37191|AlignEnd=37417|Gloss=Gutzhey
-12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=37417|AlignEnd=37641|Gloss=PUNCT
+# text = tə́ ɬǐː tə́ ɬə̂ ndâ dǔːm ʧáːɣə̂n lâːr gyaː Gutʒey //
+# text_ortho = tə́ ɬǐː tə́ ɬə̂ ndâ dǔːm ʧáːɣə̂n lâːr gyaː Gutʒey //
+# text_en = They went and started gathering honey in Gutzhey's valley.
+1	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=33486|AlignEnd=33752|Gloss=3PL.AOR
+2	ɬǐː	ɬə	VERB	_	Aspect=Res	1	comp:aux	_	AlignBegin=33752|AlignEnd=34018|Gloss=go|wordform=ɬə
+3	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	1	parataxis@conj	_	AlignBegin=34018|AlignEnd=34284|Gloss=3PL.AOR
+4	ɬə̂	ɬə	VERB	_	_	3	comp:aux	_	AlignBegin=34284|AlignEnd=34417|Gloss=go
+5	ndâ	nda	VERB	_	_	4	compound:svc	_	AlignBegin=34550|AlignEnd=34816|Gloss=enter
+6	dǔːm	dǔːm	NOUN	_	_	7	compound	_	AlignBegin=34816|AlignEnd=35082|Gloss=honey
+7	ʧáːɣə̂n	ʧaː	VERB	_	_	5	comp:obj	_	AlignBegin=35082|AlignEnd=35346|ExtPos=NOUN|Gloss=collect|wordform=ʧaː
+8	lâːr	lâːr	NOUN	_	_	5	comp:loc	_	AlignBegin=36739|AlignEnd=36965|Gloss=river
+9	gyáː	gyáː	DET	_	Number=Plur	10	det	_	AlignBegin=36965|AlignEnd=37191|Gloss=PL3
+10	Gutʒey	Gutʒey	PROPN	_	Definite=Ind	8	mod	_	AlignBegin=37191|AlignEnd=37417|Gloss=Gutzhey
+11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=37417|AlignEnd=37641|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_023-023
 # speaker_id = SP2
