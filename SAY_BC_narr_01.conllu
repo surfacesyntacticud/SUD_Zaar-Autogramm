@@ -428,7 +428,7 @@
 # sent_timecode = 53014, 54014
 # text = bâː ngə́r wón ɗan tá fǐŋ //
 # text_ortho = bâː ngə́r wón ɗan tá fǐŋ //
-# text_en = There is nothing that they will do.
+# text_en = Wouldn't they do something? 
 1	bâː	bâː	PART	_	_	2	mod	_	AlignBegin=53014|AlignEnd=53157|Gloss=NEG1
 2	ngə́r	ngə́tn	NOUN	_	_	0	root	_	AlignBegin=53157|AlignEnd=53300|Gloss=thing
 3	wón	wón	DET	_	Definite=Spec	2	det	_	AlignBegin=53300|AlignEnd=53443|Gloss=SPEC
@@ -493,7 +493,7 @@
 # sent_timecode = 58480, 59540
 # text = kóː ma tu gón ma ɓəːɗyǎːn ?//
 # text_ortho = kóː ma tu gón ma ɓəːɗyǎːn ?//
-# text_en = Or can't I get some more to taste?
+# text_en = Or can't I get something to taste?
 1	kóː	kóː	CCONJ	_	_	2	discourse	_	AlignBegin=58480|AlignEnd=58631|Gloss=or
 2	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	0	root	_	AlignBegin=58631|AlignEnd=58782|Gloss=1SG.FUT
 3	tu	tu	VERB	_	_	2	comp:aux	_	AlignBegin=58782|AlignEnd=58933|Gloss=get
@@ -511,7 +511,7 @@
 # sent_timecode = 59540, 61151
 # text = séː < tə́ wúltə tu èːyòː //
 # text_ortho = séː < tə́ wúltə tu èːyòː //
-# text_en = Then... < they told him yes.
+# text_en = Then... they told him yes.
 1	séː	séː	ADV	_	_	3	mod	_	AlignBegin=59540|AlignEnd=59968|Gloss=then
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=59968|AlignEnd=60396|Gloss=PUNCT
 3	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=60396|AlignEnd=60540|Gloss=3PL.Aor
@@ -543,8 +543,8 @@
 10	vèːs	vìː	NOUN	_	_	9	comp:obj	_	AlignBegin=63889|AlignEnd=64138|Gloss=mouth|wordform=vìː
 11	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	9	mod	_	AlignBegin=64138|AlignEnd=64320|Gloss=1PL.SUB
 12-13	gə̀mgə̀	_	_	_	_	_	_	_	_
-12	gəm	gəm	VERB	_	_	11	comp:aux	_	AlignBegin=64320|AlignEnd=64411|Gloss=put
-13	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	12	comp:obj	_	AlignBegin=64411|AlignEnd=64502|Gloss=2SG.OBJ
+12	gə̀m	gəm	VERB	_	_	11	comp:aux	_	AlignBegin=64320|AlignEnd=64411|Gloss=put
+13	=kə̀	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	12	comp:ben	_	AlignBegin=64411|AlignEnd=64502|Gloss=2SG.OBJ
 14-17	mə́nɗiɣáyoː	_	_	_	_	_	_	_	_
 14	mə́n	mə́n	PART	_	Case=Ben	12	compound:prt	_	AlignBegin=64502|AlignEnd=64548|Gloss=BEN
 15	ɗi	ɗi	PART	_	_	12	compound:prt	_	AlignBegin=64548|AlignEnd=64594|Gloss=CTP
@@ -557,33 +557,35 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 65047, 67573
-# text = séː tə́ fi ŋaː gón nə ʒà -i kwǎː ŋaː gwaɬka -i máy kyâw //
-# text_ortho = séː tə́ fî ŋaː gón nə ʒèy kwàː ŋaː gwaɬkay máy kyâw //
-# text_en = Then they put a little honey shining and good.
+# text = séː tə́ fî ŋaː gón nə ʒèy kwaː ŋaː gwaɬkay máy kyâw //
+# text_ortho = séː tə́ fî ŋaː gón nə ʒèy kwaː ŋaː gwaɬkay máy kyâw //
+# text_en = Then they took a little honey, shining and good.
 1	séː	séː	ADV	_	_	2	mod	_	AlignBegin=65047|AlignEnd=65225|Gloss=then
 2	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=65225|AlignEnd=65403|Gloss=3PL.Aor
-3	fi	fi	VERB	_	_	2	comp:aux	_	AlignBegin=65403|AlignEnd=65581|Gloss=do
-4	ŋaː	ŋaː	NOUN	_	_	3	comp:obj	_	AlignBegin=65581|AlignEnd=65759|Gloss=little
+3	fî	fi	VERB	_	_	2	comp:aux	_	AlignBegin=65403|AlignEnd=65581|Gloss=do
+4	ŋaː	ŋaː	ADJ	_	_	5	mod	_	AlignBegin=65581|AlignEnd=65759|Gloss=little
 5	gón	gón	DET	_	Definite=Spec	3	comp:obj	_	AlignBegin=65759|AlignEnd=65937|Gloss=SPEC
-6	nə	nə	PART	_	_	3	mod	_	AlignBegin=65937|AlignEnd=66115|Gloss=of
-7	ʒà-i	ʒà-i	NOUN	_	_	3	comp:obj	_	AlignBegin=66115|AlignEnd=66292|Gloss=honey|wordform=ʒà
-8	kwǎː	kwǎː	PART	_	PartType=Emp	6	mod	_	AlignBegin=66292|AlignEnd=66506|Gloss=EMPH
-9	ŋaː	ŋaː	ADJ	_	_	6	mod	_	AlignBegin=66506|AlignEnd=66720|Gloss=small
-10	gwaɬka-i	gwaɬka-i	NOUN	_	_	6	comp:pred	_	AlignBegin=66720|AlignEnd=66934|Gloss=shining|wordform=gwaɬka
-11	máy	máy	X	_	Foreign=Yes	6	comp:pred	_	AlignBegin=66934|AlignEnd=67148|Gloss=with|Lang=hau
-12	kyâw	kyâw	X	_	Foreign=Yes	11	flat:foreign	_	AlignBegin=67148|AlignEnd=67362|Gloss=goodness|Lang=hau
+6	nə	nə	PART	_	_	5	mod	_	AlignBegin=65937|AlignEnd=66115|Gloss=of
+7	ʒèy	ʒà	NOUN	_	Definite=Ind	6	comp:obj	_	AlignBegin=66115|AlignEnd=66292|ExtPos=ADJ|Gloss=honey|wordform=ʒà
+8	kwaː	kuwa	CCONJ	_	Foreign=Yes	10	cc	_	AlignBegin=66292|AlignEnd=66506|Gloss=also|Lang=hau
+9	ŋaː	ŋaː	ADJ	_	_	10	mod	_	AlignBegin=66506|AlignEnd=66720|Gloss=small
+10	gwaɬkay	gwaɬka	NOUN	_	_	6	conj:coord	_	AlignBegin=66720|AlignEnd=66934|ExtPos=ADJ|Gloss=quartzite|wordform=gwaɬka
+11	máy	máy	X	_	Foreign=Yes	10	mod	_	AlignBegin=66934|AlignEnd=67148|ExtPos=ADJ|Gloss=with|Idiom=Yes|Lang=hau
+12	kyâw	kyâw	X	_	Foreign=Yes	11	flat:foreign	_	AlignBegin=67148|AlignEnd=67362|Gloss=goodness|InIdiom=Yes|Lang=hau
 13	//	//	PUNCT	_	_	2	punct	_	AlignBegin=67362|AlignEnd=67573|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_056-056
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 68270, 68932
-# text = tə́ gəm =tə mə́n ɗi //
+# text = tə́ gə̀mtə̀ mə́nɗi //
 # text_ortho = tə́ gə̀mtə̀ mə́nɗi //
 # text_en = They gave it to him.
 1	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=68270|AlignEnd=68436|Gloss=3PL.Aor
-2	gəm	gəm	VERB	_	_	1	comp:aux	_	AlignBegin=68436|AlignEnd=68519|Gloss=put
-3	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=68519|AlignEnd=68602|Gloss=3SG.OBJ
+2-3	gə̀mtə̀	_	_	_	_	_	_	_	_
+2	gə̀m	gəm	VERB	_	_	1	comp:aux	_	AlignBegin=68436|AlignEnd=68519|Gloss=put
+3	=tə᷅	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:ben	_	AlignBegin=68519|AlignEnd=68602|Gloss=3SG.OBJ
+4-5	mə́nɗi	_	_	_	_	_	_	_	_
 4	mə́n	mə́n	PART	_	Case=Ben	2	compound:prt	_	AlignBegin=68602|AlignEnd=68685|Gloss=BEN
 5	ɗi	ɗi	PART	_	_	2	compound:prt	_	AlignBegin=68685|AlignEnd=68768|Gloss=CTP
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=68768|AlignEnd=68932|Gloss=PUNCT
@@ -592,28 +594,29 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 68932, 70187
-# text = á ʧi á wum myak -kə́nì -ês -íː //
+# text = á ʧî á wûm myákkə́nèʃíː //
 # text_ortho = á ʧî á wûm myákkə́nèʃíː //
-# text_en = He ate it and felt how sweet it was.
+# text_en = He swallowed and enjoyed the sweetness.
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=68932|AlignEnd=69141|Gloss=3SG.Aor
-2	ʧi	ʧi	VERB	_	_	1	comp:aux	_	AlignBegin=69141|AlignEnd=69350|Gloss=eat
-3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	1	parataxis@subj	_	AlignBegin=69350|AlignEnd=69559|Gloss=3SG.Aor
-4	wum	wum	VERB	_	_	3	comp:aux	_	AlignBegin=69559|AlignEnd=69768|Gloss=feel
-5	myak-kə́nì-ês-íː	myak-kə́nì-ês	VERB	_	VerbForm=Vnoun	4	comp:obj	_	AlignBegin=69768|AlignEnd=69977|Gloss=be_sweet|wordform=myak
+2	ʧî	ʧi	VERB	_	_	1	comp:aux	_	AlignBegin=69141|AlignEnd=69350|Gloss=eat
+3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	1	parataxis@conj	_	AlignBegin=69350|AlignEnd=69559|Gloss=3SG.Aor
+4-5	wûm myákkə́nèʃíː
+4	*wûm-íː	wum	VERB	_	Aspect=Res	3	comp:aux	_	AlignBegin=69559|AlignEnd=69768|Gloss=feel-Res
+5	myákkə́nès	myak	VERB	Definite=Def	VerbForm=Vnoun	4	comp:obj	_	AlignBegin=69768|AlignEnd=69977|ExtPos=NOUN|Gloss=be_sweet-NMLZ|wordform=myak
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=69977|AlignEnd=70187|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_058-059
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 71310, 73000
-# text = séː á wul tu ʔḿ ʔḿ ʔḿ ʔḿ //
+# text = séː á wû tu ʔḿ ʔḿ ʔḿ ʔḿ //
 # text_ortho = séː á wû tu ʔḿ ʔḿ ʔḿ ʔḿ //
-# text_en = Then he said Mm mm mm mm.
+# text_en = Then he said "Mm mm mm mm."
 1	séː	séː	ADV	_	_	2	mod	_	AlignBegin=71310|AlignEnd=71446|Gloss=then
 2	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=71446|AlignEnd=71582|Gloss=3SG.Aor
-3	wul	wul	VERB	_	_	2	comp:aux	_	AlignBegin=71582|AlignEnd=71718|Gloss=say
+3	wû	wul	VERB	_	_	2	comp:aux	_	AlignBegin=71582|AlignEnd=71718|Gloss=say
 4	tu	tu	SCONJ	_	Mood=Qot	3	comp:obj	_	AlignBegin=71718|AlignEnd=71856|Gloss=OPN
-5	ʔḿ	ʔḿ	INTJ	_	_	4	discourse	_	AlignBegin=71856|AlignEnd=72085|Gloss=good
+5	ʔḿ	ʔḿ	INTJ	_	_	4	comp:obj	_	AlignBegin=71856|AlignEnd=72085|Gloss=good
 6	ʔḿ	ʔḿ	INTJ	_	_	5	compound:redup	_	AlignBegin=72085|AlignEnd=72314|Gloss=good
 7	ʔḿ	ʔḿ	INTJ	_	_	6	compound:redup	_	AlignBegin=72314|AlignEnd=72543|Gloss=good
 8	ʔḿ	ʔḿ	INTJ	_	_	7	compound:redup	_	AlignBegin=72543|AlignEnd=72772|Gloss=good
@@ -623,16 +626,17 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 73000, 74607
-# text = gáskyá < dǔːm =waːn -ə́n yi káy sòːséy oː !//
-# text_ortho = gáskyá < dǔːmwâːnə́n yikáy sòːséyoː !//
-# text_en = To tell the truth, that honey of yours is really good
+# text = gáskyá < dǔːmwâːnə́n yi ɣáy sòːséyoː !//
+# text_ortho = gáskyá < dǔːmwâːnə́n yi ɣáy sòːséyoː !//
+# text_en = "To tell the truth, that honey of yours is really good!"
 1	gáskyá	gáskyá	ADV	_	_	5	discourse	_	AlignBegin=73000|AlignEnd=73152|Gloss=truly
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=73152|AlignEnd=73304|Gloss=PUNCT
-3-4	dǔːm-ə́n	_	_	_	_	_	_	_	_
-3	dǔːm-ə́n	dǔːm	NOUN	_	VerbForm=Vnoun	5	subj	_	AlignBegin=73304|AlignEnd=73630|Gloss=honey|wordform=dǔːm
-4	=waːn	=waːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	3	mod@poss	_	AlignBegin=73413|AlignEnd=73522|Gloss=2PL.POS|Incorporated=Yes
+3-4	dǔːmwâːnə́n	_	_	_	_	_	_	_	_
+3	*dǔːm-ə́n	dǔːm	NOUN	_	Deixis=Prox	5	subj	_	AlignBegin=73304|AlignEnd=73630|Gloss=honey-Prox|wordform=dǔːm
+4	=wâːn	=waːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	3	mod@poss	_	AlignBegin=73413|AlignEnd=73522|Gloss=2PL.POS|Incorporated=Yes
 5	yi	yi	VERB	_	_	0	root	_	AlignBegin=73630|AlignEnd=73793|Gloss=be
 6	káy	káy	PRON	_	Person=3|PronType=Prs	5	comp:pred	_	AlignBegin=73793|AlignEnd=73956|Gloss=ANAPH
+7-8	sòːséyoː	_	_	_	_	_	_	_	_
 7	sòːséy	sòːséy	ADV	_	_	5	mod	_	AlignBegin=73956|AlignEnd=74119|Gloss=quite
 8	oː	oː	PART	_	PartType=Emp	5	mod	_	AlignBegin=74119|AlignEnd=74282|Gloss=EMPH
 9	!//	!//	PUNCT	_	_	5	punct	_	AlignBegin=74282|AlignEnd=74607|Gloss=PUNCT
@@ -641,30 +645,31 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 74857, 75446
-# text = dǔːm -ês káy !//
+# text = duːmês káy !//
 # text_ortho = duːmês káy !//
 # text_en = That's honeyǃ
-1	dǔːm-ês	dǔːm-ês	NOUN	_	_	0	root	_	AlignBegin=74857|AlignEnd=75053|Gloss=honey|wordform=dǔːm
-2	káy	káy	INTJ	_	_	1	discourse	_	AlignBegin=75053|AlignEnd=75249|Gloss=wow
-3	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=75249|AlignEnd=75446|Gloss=PUNCT
+1	duːmês	dǔːm	NOUN	_	Definite=Def	2	comp:pred	_	AlignBegin=74857|AlignEnd=75053|Gloss=honey-Def|wordform=dǔːm
+2	káy	káy	INTJ	_	_	0	root	_	AlignBegin=75053|AlignEnd=75249|Gloss=ANAPH
+3	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=75249|AlignEnd=75446|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_063-066
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 76504, 79281
-# text = séː á wul tu [ tòː < fi -ə́n ɗi ŋaː laplap !//] //
+# text = séː á wû tu [ tôː < fǐnɗi ŋaː laplap !//] //
 # text_ortho = séː á wû tu [ tòː < fǐnɗi ŋaː laplap !//] //
 # text_en = Then... he said "Well give me plenty!"
 1	séː	séː	ADV	_	_	2	mod	_	AlignBegin=76504|AlignEnd=77508|Gloss=then
 2	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=77883|AlignEnd=77969|Gloss=3SG.Aor
-3	wul	wul	VERB	_	_	2	comp:aux	_	AlignBegin=77969|AlignEnd=78055|Gloss=say
+3	wû	wul	VERB	_	_	2	comp:aux	_	AlignBegin=77969|AlignEnd=78055|Gloss=say
 4	tu	tu	SCONJ	_	Mood=Qot	3	comp:obj	_	AlignBegin=78055|AlignEnd=78141|Gloss=OPN
 5	[	[	PUNCT	_	_	8	punct	_	AlignBegin=78141|AlignEnd=78226|Gloss=PUNCT
-6	tòː	tòː	PART	_	_	8	discourse	_	AlignBegin=78226|AlignEnd=78298|Gloss=well
+6	tôː	tòː	PART	_	_	8	discourse	_	AlignBegin=78226|AlignEnd=78298|Gloss=well
 7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=78298|AlignEnd=78371|Gloss=PUNCT
-8	fǐn	fii	VERB	_	Deixis=Prox	4	comp:obj	_	AlignBegin=78371|AlignEnd=78432|Gloss=do.IMP.PL
+8-9	fǐnɗi	_	_	_	_	_	_	_	_
+8	fǐn	fi	VERB	_	Mood=Imp|Number=Plur	4	comp:obj	_	AlignBegin=78371|AlignEnd=78432|Gloss=do.IMP.PL
 9	ɗi	ɗi	PART	_	_	8	compound:prt	_	AlignBegin=78493|AlignEnd=78553|Gloss=CTP
-10	ŋaː	ŋaː	ADJ	_	_	8	mod	_	AlignBegin=78553|AlignEnd=78735|Gloss=small
+10	ŋaː	ŋaː	ADV	_	_	11	mod	_	AlignBegin=78553|AlignEnd=78735|Gloss=small
 11	laplap	laplap	IDEO	_	_	8	mod	_	AlignBegin=78735|AlignEnd=78917|Gloss=heavy
 12	!//]	!//]	PUNCT	_	_	2	punct	_	AlignBegin=78917|AlignEnd=79099|Gloss=PUNCT
 13	//	//	PUNCT	_	_	2	punct	_	AlignBegin=79099|AlignEnd=79281|Gloss=PUNCT
@@ -673,18 +678,20 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 79281, 81548
-# text = tə̀ mor =tə //= tə̀ yú# || yúkn vìː -ês -íː ɓâ !//
-# text_ortho = tə̀ mórtə̀ //= tə̀ yú# || yúkn vèːʃíː ɓâ !//
+# text = tə̀ mórtə //= tə̀ yú# || yúkn vèːʃíː ɓâ !//
+# text_ortho = tə̀ mórtə //= tə̀ yú# || yúkn vèːʃíː ɓâ !//
 # text_en = Let it satisfy him and fill ... fill his mouthǃ
 1	tə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=3	0	root	_	AlignBegin=79281|AlignEnd=79515|Gloss=1SG.Aor
-2	mor	mor	VERB	_	_	1	comp:aux	_	AlignBegin=79515|AlignEnd=79632|Gloss=please
+2-3	mórtə	_	_	_	_	_	_	_	_
+2	môr	mor	VERB	_	_	1	comp:aux	_	AlignBegin=79515|AlignEnd=79632|Gloss=please
 3	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=79632|AlignEnd=79749|Gloss=3SG.OBJ
 4	//=	//=	PUNCT	_	_	5	punct	_	AlignBegin=79749|AlignEnd=79983|Gloss=PUNCT
 5	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	1	parataxis@mod	_	AlignBegin=79983|AlignEnd=80171|Gloss=3SG.Aor
 6	yú#	yú#	VERB	_	_	5	comp:aux	_	AlignBegin=80171|AlignEnd=80359|Gloss=HESIT
 7	||	||	PUNCT	_	_	8	punct	_	AlignBegin=80359|AlignEnd=80548
-8	yúkn	yúkn	VERB	_	_	6	conj:dicto	_	AlignBegin=80548|AlignEnd=80798|Gloss=fill
-9	vìː-ês-íː	vìː-ês-íː	NOUN	_	Deixis=Dist	8	comp:obj	_	AlignBegin=80798|AlignEnd=81048|Gloss=mouth|wordform=vìː
+8-9	yúkn vèːʃíː	_	_	_	_	_	_	_	_
+8	*yúkn-íː	yúkn	VERB	_	Aspect=Res	6	conj:dicto	_	AlignBegin=80548|AlignEnd=80798|Gloss=fill-Res
+9	vèːs	vìː	NOUN	_	Deixis=Dist	8	comp:obj	_	AlignBegin=80798|AlignEnd=81048|Gloss=mouth-Dist|wordform=vìː
 10	ɓâ	ɓâ	INTJ	_	_	8	discourse	_	AlignBegin=81048|AlignEnd=81298|Gloss=indeed
 11	!//	!//	PUNCT	_	_	5	punct	_	AlignBegin=81298|AlignEnd=81548|Gloss=PUNCT
 
