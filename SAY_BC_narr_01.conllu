@@ -104,7 +104,7 @@
 # text_en = They will go to gather honey.
 1	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=13847|AlignEnd=14048|Gloss=FUT.3PL
 2	ɬə̂	ɬə	VERB	_	_	1	comp:aux	_	AlignBegin=14048|AlignEnd=14249|Gloss=go
-3	nə́	nə́	ADP	_	_	2	comp:obl	_	AlignBegin=14249|AlignEnd=14450|Gloss=for
+3	nə́	nə́	ADP	_	_	2	mod	_	AlignBegin=14249|AlignEnd=14450|Gloss=for
 4	ʧáːɣə̂n	ʧaː	VERB	_	VerbForm=Vnoun	3	comp:obj	_	AlignBegin=14450|AlignEnd=14651|ExtPos=NOUN|Gloss=collect|wordform=ʧaː
 5	dǔːm	dǔːm	NOUN	_	_	4	comp:obj	_	AlignBegin=14651|AlignEnd=14852|Gloss=honey
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=14852|AlignEnd=15051|Gloss=PUNCT
@@ -142,7 +142,7 @@
 # text_en = They will go to gather honey.
 1	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=18851|AlignEnd=19040|Gloss=3SG.FUT
 2	ɬə	ɬə	VERB	_	_	1	comp:aux	_	AlignBegin=19040|AlignEnd=19229|Gloss=go
-3	nə́	nə́	ADP	_	_	2	comp:obl	_	AlignBegin=19229|AlignEnd=19418|Gloss=for
+3	nə́	nə́	ADP	_	_	2	mod	_	AlignBegin=19229|AlignEnd=19418|Gloss=for
 4	ʧáːɣə̂n	ʧaː	VERB	_	VerbForm=Vnoun	3	comp:obj	_	AlignBegin=19418|AlignEnd=19607|ExtPos=NOUN|Gloss=collect|wordform=ʧaː
 5	dǔːm	dǔːm	NOUN	_	_	4	comp:obj	_	AlignBegin=19607|AlignEnd=19796|Gloss=honey
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=19796|AlignEnd=19985|Gloss=PUNCT
@@ -255,7 +255,7 @@
 4	ɬə̂	ɬə	VERB	_	_	3	comp:aux	_	AlignBegin=34284|AlignEnd=34417|Gloss=go
 5	ndâ	nda	VERB	_	_	4	compound:svc	_	AlignBegin=34550|AlignEnd=34816|Gloss=enter
 6	dǔːm	dǔːm	NOUN	_	_	7	compound	_	AlignBegin=34816|AlignEnd=35082|Gloss=honey
-7	ʧáːɣə̂n	ʧaː	VERB	_	_	5	comp:obj	_	AlignBegin=35082|AlignEnd=35346|ExtPos=NOUN|Gloss=collect|wordform=ʧaː
+7	ʧáːɣə̂n	ʧaː	VERB	_	VerbForm=Vnoun<+	5	comp:obj	_	AlignBegin=35082|AlignEnd=35346|ExtPos=NOUN|Gloss=collect|wordform=ʧaː
 8	lâːr	lâːr	NOUN	_	_	5	comp:loc	_	AlignBegin=36739|AlignEnd=36965|Gloss=river
 9	gyáː	gyáː	DET	_	Number=Plur	10	det	_	AlignBegin=36965|AlignEnd=37191|Gloss=PL3
 10	Gutʒey	Gutʒey	PROPN	_	Definite=Ind	8	mod	_	AlignBegin=37191|AlignEnd=37417|Gloss=Gutzhey
@@ -275,19 +275,19 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 39235, 41803
-# text = yáwwàː tòː < ngaːlá -i kura kúmá àː mán nə́ fi -kə́nì ʒà //
-# text_ortho = yáwwàː tòː < ngaːláy kura kúmá àː mân nə́ fíkə̂n ʒà //
+# text = yáwwàː yáwwàː tòː < ngaːláy kura kúmá àː mân nə́ fíɣə̂n ʒà //
+# text_ortho = yáwwàː tòː < ngaːláy kura kúmá àː mân nə́ fíɣə̂n ʒà //
 # text_en = All right, then Hyena came to fetch water.
 1	yáwwàː	yáwwàː	INTJ	_	_	7	discourse	_	AlignBegin=39235|AlignEnd=39485|Gloss=OK
 2	tòː	tòː	PART	_	_	7	discourse	_	AlignBegin=39485|AlignEnd=39735|Gloss=well
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=39735|AlignEnd=39984|Gloss=PUNCT
-4	ngaːlá-i	ngaːlá-i	VERB	_	_	7	comp:aux	_	AlignBegin=39984|AlignEnd=40224|Gloss=spend_time|wordform=ngaːlá
-5	kura	kura	NOUN	_	Foreign=Yes	4	mod	_	AlignBegin=40224|AlignEnd=40464|Gloss=hyena
-6	kúmá	kúmá	PART	_	_	7	discourse	_	AlignBegin=40464|AlignEnd=40704|Gloss=also
+4	ngaːláy	ngaːlá	VERB	_	Aspect=Res	7	dislocated@mod	_	AlignBegin=39984|AlignEnd=40224|Gloss=spend_time-Res|wordform=ngaːlá
+5	kura	kura	NOUN	_	Foreign=Yes	7	dislocated@subj	_	AlignBegin=40224|AlignEnd=40464|Gloss=hyena
+6	kúmá	kúmá	PART	_	_	5	discourse	_	AlignBegin=40464|AlignEnd=40704|Gloss=also
 7	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=40704|AlignEnd=40943|Gloss=3SG.PERF
-8	mán	mán	VERB	_	_	7	comp:aux	_	AlignBegin=40943|AlignEnd=41115|Gloss=come
-9	nə́	nə́	ADP	_	_	8	parataxis@comp	_	AlignBegin=41115|AlignEnd=41287|Gloss=for
-10	fi-kə́nì	fi-kə́nì	VERB	_	_	9	comp:obj	_	AlignBegin=41287|AlignEnd=41459|Gloss=do|wordform=fi
+8	mân	máni	VERB	_	_	7	comp:aux	_	AlignBegin=40943|AlignEnd=41115|Gloss=come
+9	nə́	nə́	ADP	_	_	8	mod	_	AlignBegin=41115|AlignEnd=41287|Gloss=for
+10	fíɣə̂n	fi	VERB	_	VerbForm=Vnoun	9	comp:obj	_	AlignBegin=41287|AlignEnd=41459|ExtPos=NOUN|Gloss=do|wordform=fi
 11	ʒà	ʒà	NOUN	_	_	10	comp:obj	_	AlignBegin=41459|AlignEnd=41631|Gloss=water
 12	//	//	PUNCT	_	_	7	punct	_	AlignBegin=41631|AlignEnd=41803|Gloss=PUNCT
 
@@ -295,38 +295,39 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 42113, 42499
-# text = èː kən //
-# text_ortho = èː kən //
+# text = èː ɣən //
+# text_ortho = èː ɣən //
 # text_en = Indeed.
 1	èː	èː	INTJ	_	_	0	root	_	AlignBegin=42113|AlignEnd=42242|Gloss=yes
-2	kən	kən	PART	_	_	1	mod	_	AlignBegin=42242|AlignEnd=42371|Gloss=be
+2	ɣən	kən	PART	_	_	1	mod	_	AlignBegin=42242|AlignEnd=42371|Gloss=be
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=42371|AlignEnd=42499|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_028-028
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 42624, 44046
-# text = mbə́rgə̀ptə á mán nə́ ɬyaː -kə́nì ʒà kən //
-# text_ortho = mbə́rgə̀ptə á mân nə́ ɬyáːkə̂n ʒà kən //
+# text = mbə́rgə̀ptə á mân nə́ ɬyáɣə̂n ʒà ɣən //
+# text_ortho = mbə́rgə̀ptə á mân nə́ ɬyáɣə̂n ʒà ɣən //
 # text_en = Hyena came to drink water indeed.
 1	mbə́rgə̀ptə	mbə́rgə̀ptə	NOUN	_	_	2	subj	_	AlignBegin=42624|AlignEnd=42802|Gloss=hyena
 2	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=42802|AlignEnd=42980|Gloss=3SG.Aor
-3	mán	mán	VERB	_	_	2	comp:aux	_	AlignBegin=42980|AlignEnd=43158|Gloss=come
+3	mân	máni	VERB	_	_	2	comp:aux	_	AlignBegin=42980|AlignEnd=43158|Gloss=come
 4	nə́	nə́	ADP	_	_	3	mod	_	AlignBegin=43158|AlignEnd=43336|Gloss=for
-5	ɬyaː-kə́nì	ɬyaː-kə́ni	VERB	_	VerbForm=Vnoun	4	comp:obj	_	AlignBegin=43336|AlignEnd=43514|Gloss=drink|wordform=ɬyaː
+5	ɬyáɣə̂n	ɬya	VERB	_	VerbForm=Vnoun	4	mod	_	AlignBegin=43336|AlignEnd=43514|ExtPos=NOUN|Gloss=drink|wordform=ɬyaː
 6	ʒà	ʒà	NOUN	_	_	5	comp:obj	_	AlignBegin=43514|AlignEnd=43692|Gloss=water
-7	kən	kən	PART	_	_	2	mod	_	AlignBegin=43692|AlignEnd=43870|Gloss=be
+7	ɣən	kən	PART	_	_	2	mod	_	AlignBegin=43692|AlignEnd=43870|Gloss=be
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=43870|AlignEnd=44046|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_029-029
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 44563, 45154
-# text = á mán tu =ʃí //
-# text_ortho = á mán tuʃí //
+# text = á má tuʃí //
+# text_ortho = á má tuʃí //
 # text_en = He arrived and met them.
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=44563|AlignEnd=44711|Gloss=3SG.Aor
-2	mán	mán	VERB	_	_	1	comp:aux	_	AlignBegin=44711|AlignEnd=44859|Gloss=come|SVC=Yes
+2	má	mán	VERB	_	_	1	comp:aux	_	AlignBegin=44711|AlignEnd=44859|Gloss=come|SVC=Yes
+3-4	tuʃí	_	_	_	_	_	_	_	_
 3	tu	tu	VERB	_	_	2	compound:svc	_	AlignBegin=44859|AlignEnd=44933|Gloss=meet
 4	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=44933|AlignEnd=45007|Gloss=3PL.OBJ
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=45007|AlignEnd=45154|Gloss=PUNCT
@@ -335,15 +336,16 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 45445, 46783
-# text = nə gyáː núː ʧǎː ʧaː dǔːm -ə́n oː //
+# text = nə gyáː nûː ʧàː ʧâː duːmə́noː //
 # text_ortho = nə gyáː nûː ʧàː ʧâː duːmə́noː //
 # text_en = Who is it gathering honey here?
 1	nə	nə	PART	_	_	0	root	_	AlignBegin=45445|AlignEnd=45636|Gloss=be
 2	gyáː	gyáː	DET	_	Number=Plur	3	det	_	AlignBegin=45636|AlignEnd=45827|Gloss=PL3
-3	núː	núː	PRON	_	PronType=Int	1	comp:pred	_	AlignBegin=45827|AlignEnd=46018|Gloss=who
+3	nûː	núː	PRON	_	PronType=Int	1	comp:pred	_	AlignBegin=45827|AlignEnd=46018|Gloss=who
 4	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	1	comp:cleft	_	AlignBegin=46018|AlignEnd=46209|Gloss=3PL.IMP
-5	ʧaː	ʧaː	VERB	_	_	4	comp:aux	_	AlignBegin=46209|AlignEnd=46400|Gloss=collect
-6	dǔːm-ə́n	dǔːm	NOUN	_	VerbForm=Vnoun	5	comp:obj	_	AlignBegin=46400|AlignEnd=46528|Gloss=honey|wordform=dǔːm
+5	ʧâː	ʧaː	VERB	_	_	4	comp:aux	_	AlignBegin=46209|AlignEnd=46400|Gloss=collect
+6-7	duːmə́noː	_	_	_	_	_	_	_	_
+6	duːmə́n	dǔːm	NOUN	_	Deixis=Prox	5	comp:obj	_	AlignBegin=46400|AlignEnd=46528|Gloss=honey|wordform=dǔːm
 7	oː	oː	PART	_	PartType=Emp	1	mod	_	AlignBegin=46528|AlignEnd=46591|Gloss=EMPH
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=46591|AlignEnd=46783|Gloss=PUNCT
 
@@ -363,27 +365,28 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 47406, 47984
-# text = kyàːní gyáː núː ?//
+# text = kyàːní gyáː nûː ?//
 # text_ortho = kyàːní gyáː nûː ?//
 # text_en = You, who are you?
-1	kyàːní	kyàːáːni	PRON	_	Number=Sing|Person=2|PronType=Prs	0	root	_	AlignBegin=47406|AlignEnd=47550|Gloss=2PL
-2	gyáː	gyáː	DET	_	Number=Plur	1	det	_	AlignBegin=47550|AlignEnd=47694|Gloss=PL3
-3	núː	núː	PRON	_	PronType=Int	1	mod	_	AlignBegin=47694|AlignEnd=47838|Gloss=who
-4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=47838|AlignEnd=47984|Gloss=PUNCT
+1	kyàːní	kyàːní	PRON	_	Number=Sing|Person=2|PronType=Prs	3	dislocated@subj	_	AlignBegin=47406|AlignEnd=47550|Gloss=2PL
+2	gyáː	gyáː	DET	_	Number=Plur	3	det	_	AlignBegin=47550|AlignEnd=47694|Gloss=PL3
+3	nûː	núː	PRON	_	PronType=Int	0	root	_	AlignBegin=47694|AlignEnd=47838|Gloss=who
+4	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=47838|AlignEnd=47984|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_033-034
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 47984, 49400
-# text = myàːní gyáː mbàraːt tə́ longa oː //
+# text = myàːní gyaː mbàraːt tə́ longoː //
 # text_ortho = myàːní gyaː mbàraːt tə́ longoː //
 # text_en = Us, Crownbird and Rabbit.
-1	myàːní	myàːní	PRON	_	Number=Plur|Person=1|PronType=Prs	4	dislocated@subj	_	AlignBegin=47984|AlignEnd=48252|Gloss=1PL
+1	myàːní	myàːní	PRON	_	Number=Plur|Person=1|PronType=Prs	3	dislocated@subj	_	AlignBegin=47984|AlignEnd=48252|Gloss=1PL
 2	gyáː	gyáː	DET	_	Number=Plur	3	det	_	AlignBegin=48252|AlignEnd=48520|Gloss=PL3
-3	mbàraːt	mbàraːt	NOUN	_	_	0	root	_	AlignBegin=48520|AlignEnd=48789|Gloss=crownbird
-4	tə́	tə́	ADP	_	_	3	mod	_	AlignBegin=48789|AlignEnd=48993|Gloss=with
-5	longa	longa	NOUN	_	_	4	comp:obj	_	AlignBegin=48993|AlignEnd=49095|Gloss=rabbit
-6	oː	oː	PART	_	PartType=Emp	4	mod	_	AlignBegin=49095|AlignEnd=49197|Gloss=EMPH
+3	mbàraːt	mbàraːt	NOUN	_	_	0	root	_	AlignBegin=48520|AlignEnd=48789|Gloss=crown-bird
+4	tə́	tə́	ADP	_	_	5	cc	_	AlignBegin=48789|AlignEnd=48993|Gloss=with
+5-6	longoː	_	_	_	_	_	_	_	_
+5	longa	longa	NOUN	_	_	3	conj:coord	_	AlignBegin=48993|AlignEnd=49095|Gloss=rabbit
+6	oː	oː	PART	_	PartType=Emp	3	mod	_	AlignBegin=49095|AlignEnd=49197|Gloss=EMPH
 7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=49197|AlignEnd=49400|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_035-035
