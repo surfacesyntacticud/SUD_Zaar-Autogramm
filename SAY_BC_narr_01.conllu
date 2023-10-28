@@ -449,19 +449,19 @@
 1	ŋaː	ŋaː	ADJ	_	_	4	mod	_	AlignBegin=54014|AlignEnd=54192|Gloss=small
 2	||	||	PUNCT	_	_	3	punct	_	AlignBegin=54192|AlignEnd=54370|Gloss=PUNCT
 3	ŋaː	ŋaː	ADJ	_	_	1	conj:dicto	_	AlignBegin=54370|AlignEnd=54600|Gloss=small
-4	ràbo	ràbo	NOUN	_	_	0	root	_	AlignBegin=54600|AlignEnd=54715|Gloss=share
-5	ɣáy	káy	PRON	_	Person=3|PronType=Prs	4	comp:expl	_	AlignBegin=54715|AlignEnd=54830|Gloss=ANAPH
+4	ràbo	ràbo	NOUN	_	_	5	comp:pred	_	AlignBegin=54600|AlignEnd=54715|Gloss=share
+5	ɣáy	káy	PRON	_	Person=3|PronType=Prs	0	root	_	AlignBegin=54715|AlignEnd=54830|Gloss=ANAPH
 6-7	ŋǎːn	_	_	_	_	_	_	_	_
-6	ŋaː	ŋaː	PART	_	PartType=Int	4	mod	_	AlignBegin=54830|AlignEnd=54945|Gloss=VRT
-7	hŋ́	hŋ́	PART	_	Polarity=Neg	4	mod	_	AlignBegin=54945|AlignEnd=55060|Gloss=NEG2
-8	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=55060|AlignEnd=55290|Gloss=PUNCT
+6	ŋaː	ŋaː	PART	_	PartType=Int	5	mod	_	AlignBegin=54830|AlignEnd=54945|Gloss=VRT
+7	hŋ́	hŋ́	PART	_	Polarity=Neg	5	mod	_	AlignBegin=54945|AlignEnd=55060|Gloss=NEG2
+8	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=55060|AlignEnd=55290|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_041-043
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 55290, 57352
-# text = ́ wû tu [ èː //= ŋaː ràboɣáy ɓét sòːséy //] //
-# text_ortho = á wû tu [ èː //= ŋaː ràboɣáy ɓét sòːséy //] //
+# text = ́á wû tu [ èː //= ŋaː ràbo ɣáy ɓét sòːséy //] //
+# text_ortho = á wû tu [ èː //= ŋaː ràbo ɣáy ɓét sòːséy //] //
 # text_en = He said "Yes you can have a share all right."
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=55290|AlignEnd=55368|Gloss=3SG.Aor
 2	wû	wul	VERB	_	_	1	comp:aux	_	AlignBegin=55368|AlignEnd=55446|Gloss=say
@@ -470,8 +470,7 @@
 5	èː	èː	INTJ	_	_	3	comp:obj	_	AlignBegin=55602|AlignEnd=55680|Gloss=yes
 6	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=55680|AlignEnd=55757|Gloss=PUNCT
 7	ŋaː	ŋaː	ADJ	_	_	8	mod	_	AlignBegin=55757|AlignEnd=56067|Gloss=small
-8-9	ràboɣáy	_	_	_	_	_	_	_	_
-8	ràbo	ràbo	NOUN	_	_	9	subj	_	AlignBegin=56067|AlignEnd=56222|Gloss=share
+8	ràbo	ràbo	NOUN	_	_	9	comp:pred	_	AlignBegin=56067|AlignEnd=56222|Gloss=share
 9	ɣáy	káy	PRON	_	Person=3|PronType=Prs	5	parataxis@conj	_	AlignBegin=56222|AlignEnd=56377|Gloss=ANAPH
 10	ɓét	bét	ADV	_	_	9	mod	_	AlignBegin=56377|AlignEnd=56686|Gloss=all
 11	sòːséy	sòːséy	ADV	_	_	9	mod	_	AlignBegin=56686|AlignEnd=57019|Gloss=quite
@@ -492,15 +491,16 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 58480, 59540
-# text = kóː ma tu gón ma ɓət -íː aː hŋ́ ?//
-# text_ortho = kóː ma tu gón ma ɓəɗyǎːn ?//
+# text = kóː ma tu gón ma ɓəːɗyǎːn ?//
+# text_ortho = kóː ma tu gón ma ɓəːɗyǎːn ?//
 # text_en = Or can't I get some more to taste?
 1	kóː	kóː	CCONJ	_	_	2	discourse	_	AlignBegin=58480|AlignEnd=58631|Gloss=or
 2	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	0	root	_	AlignBegin=58631|AlignEnd=58782|Gloss=1SG.FUT
 3	tu	tu	VERB	_	_	2	comp:aux	_	AlignBegin=58782|AlignEnd=58933|Gloss=get
 4	gón	gón	PRON	_	Definite=Spec	3	comp:obj	_	AlignBegin=58933|AlignEnd=59084|Gloss=SPEC
 5	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	2	parataxis@conj	_	AlignBegin=59084|AlignEnd=59235|Gloss=1SG.FUT
-6	ɓət-íː	ɓət-íː	VERB	_	Aspect=Res	5	comp:aux	_	AlignBegin=59235|AlignEnd=59311|Gloss=move|wordform=ɓət
+6-8	ɓəːɗyǎːn	_	_	_	_	_	_	_	_
+6	ɓəːɗíː	ɓəːt	VERB	_	Aspect=Res	5	comp:aux	_	AlignBegin=59235|AlignEnd=59311|Gloss=taste-Res|wordform=ɓəːt
 7	aː	aː	PART	_	PartType=Int	2	mod	_	AlignBegin=59311|AlignEnd=59349|Gloss=VRT
 8	hŋ́	hŋ́	PART	_	Polarity=Neg	2	mod	_	AlignBegin=59349|AlignEnd=59386|Gloss=NEG
 9	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=59386|AlignEnd=59540|Gloss=PUNCT
