@@ -509,13 +509,14 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 59540, 61151
-# text = séː < tə́ wul =tə tu èː oː //
-# text_ortho = séː < tə́ wúltə̀ tu èːyòː //
+# text = séː < tə́ wúltə tu èːyòː //
+# text_ortho = séː < tə́ wúltə tu èːyòː //
 # text_en = Then... < they told him yes.
 1	séː	séː	ADV	_	_	3	mod	_	AlignBegin=59540|AlignEnd=59968|Gloss=then
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=59968|AlignEnd=60396|Gloss=PUNCT
 3	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=60396|AlignEnd=60540|Gloss=3PL.Aor
-4	wul	wul	VERB	_	_	3	comp:aux	_	AlignBegin=60540|AlignEnd=60612|Gloss=say
+4-5	wúltə	_	_	_	_	_	_	_	_
+4	wûl	wul	VERB	_	_	3	comp:aux	_	AlignBegin=60540|AlignEnd=60612|Gloss=say
 5	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:ben	_	AlignBegin=60612|AlignEnd=60684|Gloss=3SG.OBJ
 6	tu	tu	SCONJ	_	Mood=Qot	4	comp:obj	_	AlignBegin=60684|AlignEnd=60829|Gloss=OPN
 7	èː	èː	INTJ	_	_	6	discourse	_	AlignBegin=60829|AlignEnd=60909|Gloss=yes
@@ -526,27 +527,30 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 62192, 65047
-# text = séː tə́ wul =tə tu [ tôː < buːɗé vìː -ês mə̀ gəm =kə mə́n ɗi káy oː //] //
-# text_ortho = séː tə́ wúltə̀ tu [ tôː < buːɗé vèːs mə̀ gə̀mkə̀ mə́nɗikáyoː //] //
+# text = séː tə́ wúltə tu [ tôː < buːɗé vèːs mə̀ gə̀mgə̀ mə́nɗiɣáyoː !//] //
+# text_ortho = séː tə́ wúltə tu [ tôː < buːɗé vèːs mə̀ gə̀mgə̀ mə́nɗiɣáyoː !//] //
 # text_en = Then they told him "Well open (your) mouth for us to pour some into it."
 1	séː	séː	ADV	_	_	2	mod	_	AlignBegin=62192|AlignEnd=62786|Gloss=then
 2	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=63047|AlignEnd=63140|Gloss=3PL.Aor
-3	wul	wul	VERB	_	_	2	comp:aux	_	AlignBegin=63140|AlignEnd=63186|Gloss=say
-4	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=63186|AlignEnd=63233|Gloss=3SG.OBJ
+3-4	wúltə	_	_	_	_	_	_	_	_
+3	wûl	wul	VERB	_	_	2	comp:aux	_	AlignBegin=63140|AlignEnd=63186|Gloss=say
+4	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:ben	_	AlignBegin=63186|AlignEnd=63233|Gloss=3SG.OBJ
 5	tu	tu	SCONJ	_	Mood=Qot	3	comp:obj	_	AlignBegin=63233|AlignEnd=63326|Gloss=COMP
 6	[	[	PUNCT	_	_	9	punct	_	AlignBegin=63326|AlignEnd=63418|Gloss=PUNCT
-7	tôː	tòː	PART	_	_	2	discourse	_	AlignBegin=63418|AlignEnd=63529|Gloss=well
+7	tôː	tòː	PART	_	_	9	discourse	_	AlignBegin=63418|AlignEnd=63529|Gloss=well
 8	<	<	PUNCT	_	_	7	punct	_	AlignBegin=63529|AlignEnd=63640|Gloss=PUNCT
-9	buːɗé	buːɗé	SCONJ	_	_	2	mod	_	AlignBegin=63640|AlignEnd=63889|Gloss=open
-10	vìː-ês	vìː-ês	NOUN	_	_	12	comp:obj@lvc	_	AlignBegin=63889|AlignEnd=64138|Gloss=mouth|wordform=vìː
-11	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	9	comp:obj	_	AlignBegin=64138|AlignEnd=64320|Gloss=1PL.SUB
-12	gəm	gəm	VERB	_	_	2	comp:aux	_	AlignBegin=64320|AlignEnd=64411|Gloss=put
+9	buːɗé	buːɗé	VERB	_	Mood=Imp	5	comp:obj	_	AlignBegin=63640|AlignEnd=63889|Gloss=open
+10	vèːs	vìː	NOUN	_	_	9	comp:obj	_	AlignBegin=63889|AlignEnd=64138|Gloss=mouth|wordform=vìː
+11	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	9	mod	_	AlignBegin=64138|AlignEnd=64320|Gloss=1PL.SUB
+12-13	gə̀mgə̀	_	_	_	_	_	_	_	_
+12	gəm	gəm	VERB	_	_	11	comp:aux	_	AlignBegin=64320|AlignEnd=64411|Gloss=put
 13	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	12	comp:obj	_	AlignBegin=64411|AlignEnd=64502|Gloss=2SG.OBJ
+14-17	mə́nɗiɣáyoː	_	_	_	_	_	_	_	_
 14	mə́n	mə́n	PART	_	Case=Ben	12	compound:prt	_	AlignBegin=64502|AlignEnd=64548|Gloss=BEN
 15	ɗi	ɗi	PART	_	_	12	compound:prt	_	AlignBegin=64548|AlignEnd=64594|Gloss=CTP
-16	káy	káy	PRON	_	Person=3|PronType=Prs	12	comp:obl@expl	_	AlignBegin=64594|AlignEnd=64640|Gloss=ANAPH
-17	oː	oː	PART	_	PartType=Emp	2	mod	_	AlignBegin=64640|AlignEnd=64684|Gloss=EMPH
-18	//]	//]	PUNCT	_	_	2	punct	_	AlignBegin=64684|AlignEnd=64866|Gloss=PUNCT
+16	ɣáy	káy	PRON	_	Person=3|PronType=Prs	12	comp:obl@expl	_	AlignBegin=64594|AlignEnd=64640|Gloss=ANAPH
+17	oː	oː	PART	_	PartType=Emp	9	mod	_	AlignBegin=64640|AlignEnd=64684|Gloss=EMPH
+18	!//]	!//]	PUNCT	_	_	9	punct	_	AlignBegin=64684|AlignEnd=64866|Gloss=PUNCT
 19	//	//	PUNCT	_	_	2	punct	_	AlignBegin=64866|AlignEnd=65047|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_054-055
