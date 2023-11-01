@@ -1040,19 +1040,19 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 146875, 148853
-# text = fuː naː kâm =wos də̌ːr tu tə̀ ɬə -íː ɗi //
+# text = fuː naː kámʃi də̌ːr tu tə̀ ɬǐːɗi //
 # text_ortho = fuː naː kámʃi də̌ːr tu tə̀ ɬǐːɗi //
 # text_en = He told his friend that they should go.
 1	fuː	fuː	VERB	_	_	0	root	_	AlignBegin=146875|AlignEnd=147122|Gloss=tell
-2	naː	naː	NOUN	_	_	1	comp:obj	_	AlignBegin=147122|AlignEnd=147369|Gloss=he
-3	kâm	kâm	ADP	_	_	2	comp:obj	_	AlignBegin=147369|AlignEnd=147493|Gloss=friend
-4	=wos	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@poss	_	AlignBegin=147493|AlignEnd=147616|Gloss=3SG.POS
-5	də̌ːr	də̌ːr	NOUN	_	_	1	mod	_	AlignBegin=147616|AlignEnd=147863|Gloss=lizard
-6	tu	tu	SCONJ	_	Mood=Qot	1	mod	_	AlignBegin=147863|AlignEnd=148110|Gloss=OPN
-7	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	6	comp:obj	_	AlignBegin=148110|AlignEnd=148357|Gloss=3Plur.SUB
-8	ɬə-íː	ɬə-í	VERB	_	Aspect=Res	7	comp:aux	_	AlignBegin=148357|AlignEnd=148521|Gloss=go|wordform=ɬə
-9	ɗi	ɗi	PART	_	_	8	compound:prt	_	AlignBegin=148521|AlignEnd=148604|Gloss=CTP
-10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=148604|AlignEnd=148853|Gloss=PUNCT
+2	naː	naː	NOUN	_	_	1	comp:ben	_	AlignBegin=147122|AlignEnd=147369|ExtPos=NOUN|Gloss=he|Idiom=Yes
+3	kámʃi	kámʃi	NOUN	_	Definite=Ind	2	unk	_	AlignBegin=147369|AlignEnd=147493|Gloss=friend|InIdiom=Yes
+4	də̌ːr	də̌ːr	NOUN	_	_	2	conj:appos	_	AlignBegin=147616|AlignEnd=147863|Gloss=lizard
+5	tu	tu	SCONJ	_	Mood=Qot	1	comp:obj	_	AlignBegin=147863|AlignEnd=148110|Gloss=OPN
+6	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	5	comp:obj	_	AlignBegin=148110|AlignEnd=148357|Gloss=3Plur.SUB
+6-7	ɬǐːɗi	_	_	_	_	_	_	_	_
+7	ɬǐː	ɬə-í	VERB	_	Aspect=Res	6	comp:aux	_	AlignBegin=148357|AlignEnd=148521|Gloss=go-Res|wordform=ɬə
+8	ɗi	ɗi	PART	_	_	7	compound:prt	_	AlignBegin=148521|AlignEnd=148604|Gloss=CTP
+9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=148604|AlignEnd=148853|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_118-118
 # speaker_id = SP2
@@ -1068,16 +1068,17 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 149116, 151633
-# text = tá tə̀ mán ʧìká d# || dǔːm -i oː !//
-# text_ortho = tá tə̀ màn ʧàː d# || duːmíyoː !//
-# text_en = They would collect ... h... honey!
+# text = tá tə̀ mà ʧàː d~ || duːmíyoː !//
+# text_ortho = tá tə̀ mà ʧàː d~ || duːmíyoː !//
+# text_en = Then they  collected... h... honey!
 1	tá	tá	PART	_	_	2	discourse	_	AlignBegin=149116|AlignEnd=149377|Gloss=then
 2	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	0	root	_	AlignBegin=149377|AlignEnd=149638|Gloss=3Plur.SUB
-3	mán	mán	VERB	_	_	2	comp:aux	_	AlignBegin=149638|AlignEnd=149899|Gloss=come|SVC=Yes
-4	ʧìká	ʧìká	VERB	_	_	3	compound:svc	_	AlignBegin=149899|AlignEnd=150159|Gloss=3Plur.Prog
-5	d#	d#	ADP	_	_	4	mod	_	AlignBegin=150778|AlignEnd=150992|Gloss=HESIT
+3	mà	mán	VERB	_	_	2	comp:aux	_	AlignBegin=149638|AlignEnd=149899|Gloss=come|SVC=Yes
+4	ʧàː	ʧaː	VERB	_	_	3	compound:svc	_	AlignBegin=149899|AlignEnd=150159|Gloss=collect
+5	d~	dǔːm	NOUN	_	_	4	comp:obj	_	AlignBegin=150778|AlignEnd=150992|Gloss=HESIT
 6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=150992|AlignEnd=151206
-7	dǔːm-i	dǔːm-i	NOUN	_	_	5	conj:dicto	_	AlignBegin=151206|AlignEnd=151348|Gloss=honey|wordform=dǔːm
+7-8	duːmíyoː	_	_	_	_	_	_	_	_
+7	duːmí	dǔːm	NOUN	_	Definite=Ind	5	conj:dicto	_	AlignBegin=151206|AlignEnd=151348|Gloss=honey-Ind|wordform=dǔːm
 8	oː	oː	PART	_	PartType=Emp	2	mod	_	AlignBegin=151348|AlignEnd=151420|Gloss=EMPH
 9	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=151420|AlignEnd=151633|Gloss=PUNCT
 
@@ -1267,7 +1268,7 @@
 1	ʃèː	ʃèː	ADJ	_	_	10	dislocated@subj	_	AlignBegin=178572|AlignEnd=178814|Gloss=X
 2	gyáː	gyáː	DET	_	Number=Plur	3	det	_	AlignBegin=178814|AlignEnd=179056|Gloss=3Plur
 3	daːkâm	daːkâm	NOUN	_	_	1	comp:obj	_	AlignBegin=179056|AlignEnd=179177|Gloss=friend
-4	=âtn	=âtn	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	mod@poss	_	AlignBegin=179177|AlignEnd=179298|Gloss=1SG.POS|wordform=_
+4	=âtn	=atn	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	mod@poss	_	AlignBegin=179177|AlignEnd=179298|Gloss=1SG.POS|wordform=_
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=179298|AlignEnd=179542|Gloss=PUNCT
 6	ká	ká	INTJ	_	_	10	discourse	_	AlignBegin=180005|AlignEnd=180033|Gloss=disapproval
 7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=180033|AlignEnd=180061|Gloss=PUNCT
@@ -2395,7 +2396,7 @@
 6	!//	!//	PUNCT	_	_	5	punct	_	AlignBegin=318726|AlignEnd=318882|Gloss=PUNCT
 7	ʃèː	ʃèː	AUX	_	_	3	comp:obj	_	AlignBegin=319711|AlignEnd=319976|Gloss=X
 8	daːkâm	daːkâm	NOUN	_	_	7	comp:aux	_	AlignBegin=319976|AlignEnd=320108|Gloss=friend
-9	=âtn	=âtn	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	8	mod@poss	_	AlignBegin=320108|AlignEnd=320241|Gloss=1SG.POS|wordform=_
+9	=âtn	=atn	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	8	mod@poss	_	AlignBegin=320108|AlignEnd=320241|Gloss=1SG.POS|wordform=_
 10	ʃèː	ʃèː	AUX	_	_	7	parataxis@conj	_	AlignBegin=320241|AlignEnd=320506|Gloss=X
 11	fi	fi	VERB	_	_	10	comp:aux	_	AlignBegin=320506|AlignEnd=320638|Gloss=do
 12	ni	ni	PART	_	Aspect=Iter	11	compound:prt	_	AlignBegin=320638|AlignEnd=320771|Gloss=ITER|wordform=-ni
@@ -2652,7 +2653,7 @@
 9	[	[	PUNCT	_	_	14	punct	_	AlignBegin=347165|AlignEnd=347330|Gloss=PUNCT
 10	ʃèː	ʃèː	IDEO	_	_	14	parataxis@conj	_	AlignBegin=347330|AlignEnd=347493|Gloss=X
 11	daːkâm	daːkâm	NOUN	_	_	10	comp:obj	_	AlignBegin=347493|AlignEnd=347591|Gloss=friend
-12	=âtn	=âtn	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	11	mod@poss	_	AlignBegin=347591|AlignEnd=347689|Gloss=1SG.POS|wordform=_
+12	=âtn	=atn	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	11	mod@poss	_	AlignBegin=347591|AlignEnd=347689|Gloss=1SG.POS|wordform=_
 13	<	<	PUNCT	_	_	10	punct	_	AlignBegin=347689|AlignEnd=347885|Gloss=PUNCT
 14	ʃèː	ʃèː	AUX	_	_	8	comp:obj	_	AlignBegin=347885|AlignEnd=348081|Gloss=X
 15	fuː	fuː	VERB	_	_	14	comp:aux	_	AlignBegin=348081|AlignEnd=348179|Gloss=tell
@@ -3115,7 +3116,7 @@
 10	yel-i	yel-i	VERB	_	_	9	comp:aux	_	AlignBegin=404699|AlignEnd=404836|Gloss=see|wordform=yel
 11	<	<	PUNCT	_	_	9	punct	_	AlignBegin=404836|AlignEnd=404972|Gloss=PUNCT
 12	daːkâm	daːkâm	NOUN	_	_	17	dislocated@top	_	AlignBegin=404972|AlignEnd=405076|Gloss=friend
-13	=âtn	=âtn	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	12	mod@poss	_	AlignBegin=405076|AlignEnd=405180|Gloss=1SG.POS|wordform=_
+13	=âtn	=atn	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	12	mod@poss	_	AlignBegin=405076|AlignEnd=405180|Gloss=1SG.POS|wordform=_
 14	<	<	PUNCT	_	_	12	punct	_	AlignBegin=405180|AlignEnd=405388|Gloss=PUNCT
 15	ʃèː	ʃèː	INTJ	_	_	17	mod	_	AlignBegin=405388|AlignEnd=405596|Gloss=X
 16	vwàràŋ	vwàràŋ	NOUN	_	_	17	mod	_	AlignBegin=405596|AlignEnd=405779|Gloss=blood
@@ -3936,7 +3937,7 @@
 # text_en = My man, did you taste the meat?
 1	ʃèː	ʃèː	ADJ	_	_	4	mod	_	AlignBegin=515169|AlignEnd=515391|Gloss=X
 2	múr	múr	NOUN	_	_	4	comp:aux	_	AlignBegin=515391|AlignEnd=515502|Gloss=man
-3	=âtn	=âtn	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	mod@poss	_	AlignBegin=515502|AlignEnd=515613|Gloss=1SG.POS|wordform=_
+3	=âtn	=atn	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	mod@poss	_	AlignBegin=515502|AlignEnd=515613|Gloss=1SG.POS|wordform=_
 4	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	0	root	_	AlignBegin=515613|AlignEnd=515835|Gloss=2SG.PERF
 5	wum	wum	VERB	_	_	4	comp:aux	_	AlignBegin=515835|AlignEnd=516057|Gloss=feel
 6	ʃèː	ʃèː	IDEO	_	_	5	comp:obj	_	AlignBegin=516057|AlignEnd=516279|Gloss=X
@@ -4358,7 +4359,7 @@
 2	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	1	comp:obj	_	AlignBegin=560155|AlignEnd=560403|Gloss=3SG.Aor
 3	ɮiː	ɮi	VERB	_	_	2	comp:aux	_	AlignBegin=560403|AlignEnd=560651|Gloss=take
 4	ɬûː	ɬûː	NOUN	_	_	3	comp:obj	_	AlignBegin=560651|AlignEnd=560899|Gloss=meat
-5	=wòʃíː	=waʃin	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	4	mod@poss	_	AlignBegin=560734|AlignEnd=560817|Gloss=3SG.POS-RES|Incorporated=Yes
+5	=wòʃíː	=wos	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	4	mod@poss	_	AlignBegin=560734|AlignEnd=560817|Gloss=3SG.POS-RES|Incorporated=Yes
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=560899|AlignEnd=561145|Gloss=PUNCT
 7	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=561386|AlignEnd=561605|Gloss=3SG.Aor
 8	ɬə̌ːríː	ɬə̌	VERB	_	Aspect=Res|Voice=Cau	7	comp:aux	_	AlignBegin=561605|AlignEnd=561824|Gloss=go|wordform=ɬə
@@ -4571,15 +4572,15 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 587456, 588302
-# text = tə̀ ɬə nə́ ngə́tn -ês =was -íː //
-# text_ortho = tə̀ ɬə̀ nə́ ngətnʃíwâːʃíː //
+# text = tə̀ ɬə̀ nə́ ngətnʃíwôːʃíː //
+# text_ortho = tə̀ ɬə̀ nə́ ngətnʃíwôːʃíː //
 # text_en = They would go about his business.
 1	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	0	root	_	AlignBegin=587456|AlignEnd=587625|Gloss=3Plur.SUB
 2	ɬə	ɬə	VERB	_	_	1	comp:aux	_	AlignBegin=587625|AlignEnd=587794|Gloss=go
 3	nə́	nə́	ADP	_	_	2	comp:obl	_	AlignBegin=587794|AlignEnd=587963|Gloss=for
 4-5	ngə́tn-íː	_	_	_	_	_	_	_	_
 4	ngə́tn-ês-íː	ngə́tn-ês-iaː	NOUN	_	Definite=Cons	3	comp:obj	_	AlignBegin=587963|AlignEnd=588132|Gloss=thing|wordform=ngə́tn
-5	=was	=was	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	mod@poss	_	AlignBegin=588047|AlignEnd=588089|Gloss=3SG.POS
+5	=wôs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	mod@poss	_	AlignBegin=588047|AlignEnd=588089|Gloss=3SG.POS
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=588132|AlignEnd=588302|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_463-466
@@ -4604,7 +4605,7 @@
 13	nə́	nə́	ADP	_	_	12	comp:obl	_	AlignBegin=588302|AlignEnd=589025|Gloss=for
 14-15	zànʧé-íː	_	_	_	_	_	_	_	_
 14	zànʧé-íː	Zànʧeaːr	NOUN	_	Definite=Cons	13	comp:obj	_	AlignBegin=589025|AlignEnd=589331|Gloss=matter|wordform=zànʧé
-15	=waːsəŋ	=waːsn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	14	mod@poss	_	AlignBegin=589127|AlignEnd=589229|Gloss=3Plur.POS|Incorporated=Yes
+15	=wâːsə̀ŋ	=waːsəŋ	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	14	mod@poss	_	AlignBegin=589127|AlignEnd=589229|Gloss=3Plur.POS|Incorporated=Yes
 16	oː	oː	PART	_	PartType=Emp	6	mod	_	AlignBegin=589331|AlignEnd=589435|Gloss=EMPH
 17	!//	!//	PUNCT	_	_	6	punct	_	AlignBegin=589435|AlignEnd=589846|Gloss=PUNCT
 

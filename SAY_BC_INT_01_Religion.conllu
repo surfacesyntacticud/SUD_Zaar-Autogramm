@@ -859,7 +859,7 @@
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=154550|AlignEnd=154980|Gloss=PUNCT
 5	tə́	tə́	ADP	_	_	3	conj:dicto	_	AlignBegin=155680|AlignEnd=155875|Gloss=with
 6	kéni	kéni	NOUN	_	_	5	comp:obj	_	AlignBegin=155875|AlignEnd=155973|Gloss=front
-7	=wâː	=wâː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	6	mod@poss	_	AlignBegin=155973|AlignEnd=156070|Gloss=2SG.POS
+7	=wâː	=waː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	6	mod@poss	_	AlignBegin=155973|AlignEnd=156070|Gloss=2SG.POS
 8	məʃí	məs	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	6	mod	_	AlignBegin=156070|AlignEnd=156265|Gloss=die.PAST.PTCL.PASS
 9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=156265|AlignEnd=156460|Gloss=PUNCT
 
@@ -884,8 +884,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_RELIGION.WAV
 # sent_timecode = 159740, 162480
-# text = tôː àmá ʧǎː wûl vìk wàːrèʃíː < tə́ yeli =wôs < ka ʃiʃí //
-# text_ortho = tôː àmá ʧǎː wûl vìk wàːrèʃíː < tə́ yelí =wôs < ka ʃiʃí //
+# text = tôː àmá ʧǎː wûl vìk wàːrèʃíː < tə́ yelíwôs < ka ʃiʃí //
+# text_ortho = tôː àmá ʧǎː wûl vìk wàːrèʃíː < tə́ yelíwôs < ka ʃiʃí //
 # text_en = But if they did the ritual, as you see it, you will rise.
 1	tôː	tôː	PART	_	_	13	discourse	_	AlignBegin=159740|AlignEnd=159909|Gloss=DM
 2	àmá	àmá	CCONJ	_	_	13	discourse	_	AlignBegin=159909|AlignEnd=160078|Gloss=but
@@ -897,8 +897,9 @@
 7	wâːrês	wâːr	NOUN	_	Definite=Def	6	comp:obj	_	AlignBegin=160585|AlignEnd=160754|Gloss=fetish-Def
 8	<	<	PUNCT	_	_	3	punct	_	AlignBegin=160754|AlignEnd=160920|Gloss=PUNCT
 9	tə́	tə́	ADP	_	_	13	mod	_	AlignBegin=161460|AlignEnd=161600|Gloss=with
+10-11	yelíwôs	_	_	_	_	_	_	_	_
 10	yeli	yel	VERB	_	_	9	comp:obj	_	AlignBegin=161600|AlignEnd=161740|Gloss=see
-11	=wôs	=wôs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	10	mod@poss	_	AlignBegin=161740|AlignEnd=161880|Gloss=3SG.POS
+11	=wôs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	10	mod@poss	_	AlignBegin=161740|AlignEnd=161880|Gloss=3SG.POS
 12	<	<	PUNCT	_	_	9	punct	_	AlignBegin=161880|AlignEnd=162022|Gloss=PUNCT
 13	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=162022|AlignEnd=162175|Gloss=2SG.FUT
 14	ʃiʃí	ʃiʃí	VERB	_	_	13	comp:aux	_	AlignBegin=162175|AlignEnd=162328|Gloss=get_up
@@ -982,13 +983,14 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_RELIGION.WAV
 # sent_timecode = 171660, 178820
-# text = kúmá á kâːr =wôs < kyáː ɬíː ŋáːlɣə̂n < kə ɬə mará ŋaː gə̀t wáːni < ka kə́ːm kə ndá ɗi də̀n hŋ́ dòːmín Wóːrɓə̀ɮə̀ŋ //
+# text = kúmá á káːrwòs < kyáː ɬíː ŋáːlkə̂n < kə ɬə́ mará ŋaː gə̀t wáːni < ka kə́ːm kə ndá ɗi də̀n hŋ́ dòːmín Wóːrɓə̀ɮə̀ŋ //
 # text_ortho = kúmá á káːrwòs < kyáː ɬíː ŋáːlkə̂n < kə ɬə́ mará ŋaː gə̀t wáːni < ka kə́ːm kə ndá ɗi də̀n hŋ́ dòːmín Wóːrɓə̀ɮə̀ŋ //
 # text_en = And after it, if you went around and you spoilt somebody's daughter, you could not go home because of the fetish outside the house.
 1	kúmá	kúmá	PART	_	_	17	discourse	_	AlignBegin=171660|AlignEnd=171840|Gloss=and
 2	á	ká	ADP	_	_	17	mod	_	AlignBegin=171840|AlignEnd=172020|Gloss=at
+3-4	káːrwòs	_	_	_	_	_	_	_	_
 3	kâːr	kâːr	NOUN	_	_	2	comp:obj	_	AlignBegin=172020|AlignEnd=172110|Gloss=back
-4	=wôs	=woos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	mod@poss	_	AlignBegin=172110|AlignEnd=172200|Gloss=3SG.POS
+4	=wos	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	mod@poss	_	AlignBegin=172110|AlignEnd=172200|Gloss=3SG.POS
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=172200|AlignEnd=172380|Gloss=PUNCT
 6	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	17	mod	_	AlignBegin=173280|AlignEnd=173455|Gloss=2SG.CND
 7	ɬíː	ɬə	VERB	_	Aspect=Res	6	comp:aux	_	AlignBegin=173455|AlignEnd=173630|Gloss=go
@@ -1184,7 +1186,7 @@
 # text_en = Our people that they call Zaar do not steal.
 1-2	zǎːrwôpm	_	_	_	_	_	_	_	_
 1	zǎːr	Zaːr	NOUN	_	Definite=Cons	9	subj	_	AlignBegin=202360|AlignEnd=202472|Gloss=person.CONS
-2	=wôpm	=wôpm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	1	mod@poss	_	AlignBegin=202472|AlignEnd=202529|Gloss=1Plur.POS
+2	=wôpm	=wopm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	1	mod@poss	_	AlignBegin=202472|AlignEnd=202529|Gloss=1Plur.POS
 3	ɗan	ɗan	SCONJ	_	_	1	mod@relcl	_	AlignBegin=202529|AlignEnd=202698|Gloss=REL
 4	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	3	comp:obj	_	AlignBegin=202698|AlignEnd=202867|Gloss=3Plur.AOR
 5-6	ʧímtə̀	_	_	_	_	_	_	_	_
@@ -1550,7 +1552,7 @@
 17-19	ʧâːʃíwâːʃíː	_	_	_	_	_	_	_	_
 17	*ʧâː-íː	ʧaː	VERB	_	Aspect=Res	16	comp:aux	_	AlignBegin=270088|AlignEnd=270594|Gloss=put-RES
 18	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	comp:obj	_	AlignBegin=270257|AlignEnd=270369|Gloss=3Plur.OBJ
-19	=wâːsən	=waːsən	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	17	mod@emp	_	AlignBegin=270369|AlignEnd=270481|Gloss=3Plur.POS|Incorporated=Yes
+19	=wâːsən	=waːsəŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	17	mod@emp	_	AlignBegin=270369|AlignEnd=270481|Gloss=3Plur.POS|Incorporated=Yes
 20	<	<	PUNCT	_	_	22	punct	_	AlignBegin=270594|AlignEnd=270931|Gloss=PUNCT
 21	kúmá	kúmá	PART	_	_	22	cc	_	AlignBegin=271720|AlignEnd=272306|Gloss=and
 22	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	16	conj:coord	_	AlignBegin=272306|AlignEnd=272429|Gloss=2SG.AOR
@@ -1560,7 +1562,7 @@
 26	yelíː	yel	VERB	_	Aspect=Res	25	comp:aux	_	AlignBegin=272836|AlignEnd=272997|Gloss=see-RES
 27	tə́	tə́	ADP	_	_	26	comp:obl	_	AlignBegin=272997|AlignEnd=273158|Gloss=with
 28	yîr	yîr	NOUN	_	_	27	comp:obj	_	AlignBegin=273158|AlignEnd=273238|Gloss=eye
-29	=wâː	=wâː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	28	mod@poss	_	AlignBegin=273238|AlignEnd=273319|Gloss=2SG.POS
+29	=wâː	=waː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	28	mod@poss	_	AlignBegin=273238|AlignEnd=273319|Gloss=2SG.POS
 30	<	<	PUNCT	_	_	2	punct	_	AlignBegin=273319|AlignEnd=273480|Gloss=PUNCT
 31	kúmá	kúmá	PART	_	_	32	discourse	_	AlignBegin=273480|AlignEnd=273672|Gloss=and
 32	tə̀tàyáː	ta-yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3|Tense=Rem	0	root	_	AlignBegin=273672|AlignEnd=273864|Gloss=3Plur.REM.IMP
@@ -1690,7 +1692,7 @@
 5-7	káp lêːfíwǎːy	_	_	_	_	_	_	_	_
 5	*káp-íː	kap	VERB	_	Aspect=Res	4	comp:aux	_	AlignBegin=298880|AlignEnd=299105|Gloss=take-RES
 6	lêːfí	lêːfí	NOUN	_	Aspect=Res	5	comp:obj	_	AlignBegin=299105|AlignEnd=299330|Gloss=fault
-7	=wâː	=wâː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	6	mod@poss	_	AlignBegin=299180|AlignEnd=299255|Gloss=2SG.POS|Incorporated=Yes
+7	=wâː	=waː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	6	mod@poss	_	AlignBegin=299180|AlignEnd=299255|Gloss=2SG.POS|Incorporated=Yes
 8	kàm	kàm	PART	_	_	4	mod	_	AlignBegin=299330|AlignEnd=299555|Gloss=indeed
 9	//	//	PUNCT	_	_	4	punct	_	AlignBegin=299555|AlignEnd=299780|Gloss=PUNCT
 
@@ -2137,7 +2139,7 @@
 1	kúmá	kúmá	PART	_	_	4	discourse	_	AlignBegin=361000|AlignEnd=361312|Gloss=and
 2-3	làːmíːriwòpm	_	_	_	_	_	_	_	_
 2	làːmíːri	làːmíːri	NOUN	_	_	4	subj	_	AlignBegin=361312|AlignEnd=361468|Gloss=behaviour
-3	=wôpm	=wôpm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	2	mod@poss	_	AlignBegin=361468|AlignEnd=361624|Gloss=1Plur.POS
+3	=wôpm	=wopm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	2	mod@poss	_	AlignBegin=361468|AlignEnd=361624|Gloss=1Plur.POS
 4	átayáː	ta-yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3|Tense=Rem	0	root	_	AlignBegin=361624|AlignEnd=361936|Gloss=3SG.REM.IMP
 5	gìt	git	VERB	_	_	4	comp:aux	_	AlignBegin=361936|AlignEnd=362248|Gloss=show
 6	tu	tu	SCONJ	_	_	5	comp:obj	_	AlignBegin=362248|AlignEnd=362562|Gloss=COMP
@@ -2269,18 +2271,20 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_RELIGION.WAV
 # sent_timecode = 391580, 399380
-# text = tôː bàmbánʧi =wòs ɗan á mán ʧâː marimarí =wôs yâːn ʧi tu má fî sáːfi ɗa hŋ́ ɗan má fî wâːr ɗa hŋ́ //
+# text = ôː bàmbánʧiwòs ɗan á mán ʧâː marimaríwôs yâːn ʧi tu má fî sáːfi ɗa hŋ́ ɗan má fî wâːr ɗa hŋ́ //
 # text_ortho = tôː bàmbánʧiwòs ɗan á mán ʧâː marimaríwôs yâːn ʧi tu má fî sáːfi ɗa hŋ́ ɗan má fî wâːr ɗa hŋ́ //
 # text_en = Well the difference that came to differenciate them is that we would not be pagans any more, as we would not do the rituals any more.
 1	tôː	tôː	PART	_	_	12	discourse	_	AlignBegin=391580|AlignEnd=391860|Gloss=DM
+2-3	bàmbánʧiwòs	_	_	_	_	_	_	_	_
 2	bàmbánʧi	bàmbánʧi	NOUN	_	_	12	dislocated@subj	_	AlignBegin=391860|AlignEnd=392000|Gloss=difference
-3	=wòs	=wôs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@poss	_	AlignBegin=392000|AlignEnd=392140|Gloss=3SG.POS
+3	=wòs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@poss	_	AlignBegin=392000|AlignEnd=392140|Gloss=3SG.POS
 4	ɗan	ɗan	SCONJ	_	_	2	mod@relcl	_	AlignBegin=392140|AlignEnd=392420|Gloss=REL
 5	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	4	comp:obj	_	AlignBegin=392420|AlignEnd=392700|Gloss=3SG.AOR
 6	mán	mán	VERB	_	_	5	comp:aux	_	AlignBegin=392700|AlignEnd=392980|Gloss=come|SVC=Yes
 7	ʧâː	ʧaː	VERB	_	_	6	compound:svc	_	AlignBegin=392980|AlignEnd=393260|Gloss=put
+8-9	marimaríwôs	_	_	_	_	_	_	_	_
 8	marimarí	marimarí	NOUN	_	_	7	comp:obj	_	AlignBegin=393260|AlignEnd=393400|Gloss=difference
-9	=wôs	=wôs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	8	mod@poss	_	AlignBegin=393400|AlignEnd=393540|Gloss=3SG.POS
+9	=wôs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	8	mod@poss	_	AlignBegin=393400|AlignEnd=393540|Gloss=3SG.POS
 10	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	12	dislocated@subj	_	AlignBegin=393540|AlignEnd=393820|Gloss=3SG.IDP
 11-12	ʧi	_	_	_	_	_	_	_	_
 11	tə	tə	PRON	_	Number=Sing|Person=3|PronType=Prs	12	subj	_	AlignBegin=393820|Gloss=3SG
@@ -2500,7 +2504,7 @@
 7-9	ʧâːʃíwâːʃíː	_	_	_	_	_	_	_	_
 7	*ʧâː-íː	ʧaː	VERB	_	PronType=Dem	6	comp:aux	_	AlignBegin=427494|AlignEnd=427779|Gloss=put
 8	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=427565|AlignEnd=427636|Gloss=3Plur.OBJ|Incorporated=Yes
-9	=wáːsə̀ŋ	=waːsən	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	7	mod@emp	_	AlignBegin=427636|AlignEnd=427707|Gloss=3Plur.POS|Incorporated=Yes
+9	=wáːsə̀ŋ	=waːsəŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	7	mod@emp	_	AlignBegin=427636|AlignEnd=427707|Gloss=3Plur.POS|Incorporated=Yes
 10	<	<	PUNCT	_	_	2	punct	_	AlignBegin=427779|AlignEnd=428062|Gloss=PUNCT
 11	yáwwàː	yáwwàː	INTJ	_	_	18	discourse	_	AlignBegin=428780|AlignEnd=429113|Gloss=OK
 12	<	<	PUNCT	_	_	11	punct	_	AlignBegin=429113|AlignEnd=429446|Gloss=PUNCT
@@ -2513,7 +2517,7 @@
 19	yél	yel	VERB	_	_	18	comp:aux	_	AlignBegin=430507|AlignEnd=430714|Gloss=see
 20-21	ndaráɣə̂nwòs	_	_	_	_	_	_	_	_
 20	ndaráɣə̂n	ndará	VERB	_	VerbForm=Vnoun	22	subj	_	AlignBegin=430714|AlignEnd=430852|ExtPos=NOUN|Gloss=be_proper-NMLZ
-21	=wòs	=wôs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	20	mod@poss	_	AlignBegin=430852|AlignEnd=430921|Gloss=3SG.POS
+21	=wòs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	20	mod@poss	_	AlignBegin=430852|AlignEnd=430921|Gloss=3SG.POS
 22	nə	nə	PART	_	_	19	parataxis@comp	_	AlignBegin=430921|AlignEnd=431128|Gloss=be
 23	gyôː	gyôː	DET	_	PronType=Int	22	comp:pred	_	AlignBegin=431128|AlignEnd=431335|Gloss=which
 24	?//	?//	PUNCT	_	_	18	punct	_	AlignBegin=431335|AlignEnd=431540|Gloss=PUNCT
