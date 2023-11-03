@@ -1437,42 +1437,43 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 194950, 198098
-# text = bàː máː < bàː máː daːmá tə́ gíː máː |a ɗan ngə́tn wón ɗan kə̀tà fi =mə hŋ́ oː //
-# text_ortho = bàː máː < bàː máː daːmá tə́ gíː máː |a ɗan ngə́tn wón ɗan kə̀tà fim hŋ́oː //
+# text = bàː máː < bàː máː daːmá tə́ gíː máː |a ɗan ngə́tn wón ɗan kə̀tà fim hŋ́ oː //
+# text_ortho = bàː máː < bàː máː daːmá tə́ gíː máː |a ɗan ngə́tn wón ɗan kə̀tà fim hŋ́ oː //
 # text_en = I don't ... I don't even care about that ... the little thing you did to me.
 1	bàː	bàː	PART	_	Polarity=Neg	2	mod	_	AlignBegin=194950|AlignEnd=195153|Gloss=NEG1
-2	máː	máː	PART	_	_	5	discourse	_	AlignBegin=195153|AlignEnd=195356|Gloss=even
-3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=195356|AlignEnd=195559|Gloss=PUNCT
+2	máː	máː	PART	_	_	0	root	_	AlignBegin=195153|AlignEnd=195356|Gloss=even
+3	||	||	PUNCT	_	_	5	punct	_	AlignBegin=195356|AlignEnd=195559|Gloss=PUNCT
 4	bàː	bàː	PART	_	Polarity=Neg	5	mod	_	AlignBegin=195559|AlignEnd=195738|Gloss=NEG1
-5	máː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=195738|AlignEnd=195917|Gloss=1SG.PERF
+5	máː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=1	2	conj:dicto	_	AlignBegin=195738|AlignEnd=195917|Gloss=1SG.PERF
 6	daːmá	daːmá	VERB	_	_	5	comp:aux	_	AlignBegin=195917|AlignEnd=196096|Gloss=bother
 7	tə́	tə́	ADP	_	_	6	comp:obl	_	AlignBegin=196096|AlignEnd=196275|Gloss=with
 8	gíː	gíː	PRON	_	PronType=Dem	7	comp:obj	_	AlignBegin=196275|AlignEnd=196454|Gloss=REM
-9	máː	máː	PART	_	_	6	discourse	_	AlignBegin=196454|AlignEnd=196633|Gloss=even
-10	|a	|a	PUNCT	_	_	11	punct	_	AlignBegin=196633|AlignEnd=196810
-11	ɗan	ɗan	ADP	_	_	12	mod	_	AlignBegin=196810|AlignEnd=196971|Gloss=little
-12	ngə́tn	ngə́tn	NOUN	_	_	6	comp:obj	_	AlignBegin=196971|AlignEnd=197132|Gloss=thing
+9	máː	máː	ADV	_	_	5	mod	_	AlignBegin=196454|AlignEnd=196633|Gloss=even
+10	|a	|a	PUNCT	_	_	12	punct	_	AlignBegin=196633|AlignEnd=196810
+11	ɗan	ɗan	ADJ	_	_	12	mod	_	AlignBegin=196810|AlignEnd=196971|Gloss=little
+12	ngə́tn	ngə́tn	NOUN	_	_	8	conj:appos	_	AlignBegin=196971|AlignEnd=197132|Gloss=thing
 13	wón	wón	DET	_	Definite=Spec	12	det	_	AlignBegin=197132|AlignEnd=197293|Gloss=SPEC
 14	ɗan	ɗan	SCONJ	_	PronType=Rel	12	mod@relcl	_	AlignBegin=197293|AlignEnd=197454|Gloss=REL
 15	kə̀tà	ta	AUX	_	Number=Sing|Person=2|Tense=Rem	14	comp:obj	_	AlignBegin=197454|AlignEnd=197615|Gloss=2Plur.REM
+16-17	fim	_	_	_	_	_	_	_	_
 16	fi	fi	VERB	_	_	15	comp:aux	_	AlignBegin=197615|AlignEnd=197695|Gloss=do
-17	=mə	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	comp:ben	_	AlignBegin=197695|AlignEnd=197776|Gloss=1SG.OBJ
+17	=m	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	comp:ben	_	AlignBegin=197695|AlignEnd=197776|Gloss=1SG.OBJ
 18	hŋ́	hŋ́	PART	_	Polarity=Neg	5	mod	_	AlignBegin=197776|AlignEnd=197856|Gloss=NEG2
 19	oː	oː	PART	_	PartType=Emp	5	mod	_	AlignBegin=197856|AlignEnd=197937|Gloss=EMPH
-20	//	//	PUNCT	_	_	5	punct	_	AlignBegin=197937|AlignEnd=198098|Gloss=PUNCT
+20	//	//	PUNCT	_	_	2	punct	_	AlignBegin=197937|AlignEnd=198098|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_156-156
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 197345, 199018
-# text = káː yisə́ŋ gòs tə́ dùm -kə́nì vwàː áy //
+# text = káː yisə́ŋ gòs tə́ dùmkə̀n vwàː áy //
 # text_ortho = káː yisə́ŋ gòs tə́ dùmkə̀n vwàː áy //
 # text_en = You know, as for him, he is courageous.
 1	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	4	parataxis@discourse	_	AlignBegin=197345|AlignEnd=197554|Gloss=2SG.PERF
 2	yisə́ŋ	yisə́ŋ	VERB	_	_	1	comp:aux	_	AlignBegin=197554|AlignEnd=197763|Gloss=know
-3	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@emp	_	AlignBegin=197763|AlignEnd=197972|Gloss=3SG.POS
+3	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	mod@emp	_	AlignBegin=197763|AlignEnd=197972|Gloss=3SG.POS
 4	tə́	á	ADP	_	_	0	root	_	AlignBegin=197972|AlignEnd=198181|Gloss=with
-5	dùm-kə́nì	dùm-kə	VERB	_	VerbForm=Vnoun	4	comp:aux	_	AlignBegin=198181|AlignEnd=198390|Gloss=tighten|wordform=dùm
+5	dùmkə̀n	dùm	VERB	_	VerbForm=Vnoun	4	comp:obj	_	AlignBegin=198181|AlignEnd=198390|Gloss=tighten|wordform=dùm
 6	vwàː	vwàː	NOUN	_	_	5	comp:obj	_	AlignBegin=198390|AlignEnd=198599|Gloss=belly
 7	áy	áy	INTJ	_	_	4	discourse	_	AlignBegin=198599|AlignEnd=198808|Gloss=eh
 8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=198808|AlignEnd=199018|Gloss=PUNCT
@@ -1481,29 +1482,30 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 199018, 199864
-# text = á dùm vwàː káy //
-# text_ortho = á dùm vwàːkáy //
+# text = á dùm vwàːɣáy //
+# text_ortho = á dùm vwàːɣáy //
 # text_en = He is very courageous.
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=199018|AlignEnd=199230|Gloss=3SG.Aor
 2	dùm	dùm	VERB	_	_	1	comp:aux	_	AlignBegin=199230|AlignEnd=199442|Gloss=???
-3	vwàː	vwàː	NOUN	_	_	2	comp:obj	_	AlignBegin=199442|AlignEnd=199548|Gloss=belly
-4	káy	káy	PRON	_	Person=3|PronType=Prs	2	comp:obl@expl	_	AlignBegin=199548|AlignEnd=199654|Gloss=ANAPH
+3-4	vwàːɣáy	_	_	_	_	_	_	_	_
+3	vwàː	vwàː	NOUN	_	_	2	comp:obj@lvc	_	AlignBegin=199442|AlignEnd=199548|Gloss=belly
+4	ɣáy	káy	PRON	_	Person=3|PronType=Prs	2	comp:obl@expl	_	AlignBegin=199548|AlignEnd=199654|Gloss=ANAPH
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=199654|AlignEnd=199864|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_158-158
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 200618, 202203
-# text = tôː séː gyáː longa ɗan tə́ fi ʧík //
+# text = tôː séː gyáː longa ɗan tə́ fî ʧikə́y //
 # text_ortho = tôː séː gyáː longa ɗan tə́ fî ʧikə́y //
 # text_en = Well then Rabbit did like that.
 1	tôː	tòː	PART	_	_	6	discourse	_	AlignBegin=200618|AlignEnd=200794|Gloss=well
-2	séː	séː	ADV	_	_	4	mod	_	AlignBegin=200794|AlignEnd=200970|Gloss=then
+2	séː	séː	ADV	_	_	6	mod	_	AlignBegin=200794|AlignEnd=200970|Gloss=then
 3	gyáː	gyáː	DET	_	Number=Plur	4	det	_	AlignBegin=200970|AlignEnd=201146|Gloss=3Plur
-4	longa	longa	NOUN	_	_	0	root	_	AlignBegin=201146|AlignEnd=201322|Gloss=rabbit
-5	ɗan	ɗan	ADV	_	_	4	mod	_	AlignBegin=201322|AlignEnd=201498|Gloss=as
-6	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	5	comp:obj	_	AlignBegin=201498|AlignEnd=201674|Gloss=3Plur.Aor
-7	fi	fi	VERB	_	_	6	comp:aux	_	AlignBegin=201674|AlignEnd=201850|Gloss=do
+4	longa	longa	NOUN	_	_	6	subj	_	AlignBegin=201146|AlignEnd=201322|Gloss=rabbit
+5	ɗan	ɗan	ADV	_	_	6	mod	_	AlignBegin=201322|AlignEnd=201498|Gloss=as
+6	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=201498|AlignEnd=201674|Gloss=3Plur.Aor
+7	fî	fi	VERB	_	_	6	comp:aux	_	AlignBegin=201674|AlignEnd=201850|Gloss=do
 8	ʧík	ʧík	ADV	_	_	7	mod	_	AlignBegin=201850|AlignEnd=202026|Gloss=thus
 9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=202026|AlignEnd=202203|Gloss=PUNCT
 
@@ -1511,38 +1513,42 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 202203, 205264
-# text = ʧì tə́ də̌ːr < tə́ mbiː tə́ gəm =tə mə́n ɗi ɓə́p ŋaː ʒà -i //
+# text = ʧì tə́ də̌ːr < tə́ mbîː tə́ gə̀mtə̀ mə́nɗi ɓə́p ŋaː ʒèy //
 # text_ortho = ʧì tə́ də̌ːr < tə́ mbîː tə́ gə̀mtə̀ mə́nɗi ɓə́p ŋaː ʒèy //
 # text_en = Him and Lizard they took (some honey) and dropped on him a little honey.
-1	ʧì	ʧì	VERB	_	_	5	mod	_	AlignBegin=202203|AlignEnd=202446|Gloss=3Plur.be
-2	tə́ 	tə́ 	ADP	_	_	5	conj:coord	_	AlignBegin=202446|AlignEnd=202689|Gloss=with
-3	də̌ːr	də̌ːr	NOUN	_	_	2	comp:obj	_	AlignBegin=202689|AlignEnd=202932|Gloss=lizard
-4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=202932|AlignEnd=203174|Gloss=PUNCT
-5	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=203174|AlignEnd=203424|Gloss=3Plur.Aor
-6	mbiː	mbiː	VERB	_	_	5	comp:aux	_	AlignBegin=203424|AlignEnd=203674|Gloss=take
-7	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	5	parataxis@conj	_	AlignBegin=203674|AlignEnd=203924|Gloss=3Plur.Aor
-8	gəm	gəm	VERB	_	_	5	comp:aux	_	AlignBegin=203924|AlignEnd=204049|Gloss=put
-9	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=204049|AlignEnd=204174|Gloss=3SG.OBJ
-10	mə́n	mə́n	PART	_	Case=Ben	8	compound:prt	_	AlignBegin=204174|AlignEnd=204299|Gloss=BEN
-11	ɗi	ɗi	PART	_	_	8	compound:prt	_	AlignBegin=204299|AlignEnd=204424|Gloss=CTP
-12	ɓə́p	ɓə́p	IDEO	_	_	8	mod	_	AlignBegin=204424|AlignEnd=204671|Gloss=falling
-13	ŋaː	ŋaː	ADJ	_	_	8	mod	_	AlignBegin=204671|AlignEnd=204869|Gloss=small
-14	ʒà-i	ʒà-i	NOUN	_	_	8	comp:obj	_	AlignBegin=204869|AlignEnd=205067|Gloss=water|wordform=ʒà
-15	//	//	PUNCT	_	_	5	punct	_	AlignBegin=205067|AlignEnd=205264|Gloss=PUNCT
+1-2	ʧì	_	_	_	_	_	_	_	_
+1	tə̀	tə̀	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=202203|AlignEnd=202446|Gloss=3Plur
+2	yî	yi	VERB	_	_	1	comp:aux	_	AlignBegin=202203|AlignEnd=202446|Gloss=be
+3	tə́ 	tə́ 	ADP	_	_	2	comp:pred	_	AlignBegin=202446|AlignEnd=202689|Gloss=with
+4	də̌ːr	də̌ːr	NOUN	_	_	3	comp:obj	_	AlignBegin=202689|AlignEnd=202932|Gloss=lizard
+5	//=	//	PUNCT	_	_	6	punct	_	AlignBegin=202932|AlignEnd=203174|Gloss=PUNCT
+6	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	1	parataxis@conj	_	AlignBegin=203174|AlignEnd=203424|Gloss=3Plur.Aor
+7	mbiː	mbiː	VERB	_	_	6	comp:aux	_	AlignBegin=203424|AlignEnd=203674|Gloss=take
+8	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	6	parataxis@conj	_	AlignBegin=203674|AlignEnd=203924|Gloss=3Plur.Aor
+9-10	gə̀mtə̀	_	_	_	_	_	_	_	_
+9	gə̀m	gəm	VERB	_	_	8	comp:aux	_	AlignBegin=203924|AlignEnd=204049|Gloss=put
+10	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	comp:ben	_	AlignBegin=204049|AlignEnd=204174|Gloss=3SG.OBJ
+11-12	mə́nɗi	_	_	_	_	_	_	_	_
+11	mə́n	mə́n	PART	_	Case=Ben	9	compound:prt	_	AlignBegin=204174|AlignEnd=204299|Gloss=BEN
+12	ɗi	ɗi	PART	_	_	9	compound:prt	_	AlignBegin=204299|AlignEnd=204424|Gloss=CTP
+13	ɓə́p	ɓə́p	IDEO	_	_	9	mod	_	AlignBegin=204424|AlignEnd=204671|Gloss=falling
+14	ŋaː	ŋaː	ADJ	_	_	15	mod	_	AlignBegin=204671|AlignEnd=204869|Gloss=small
+15	ʒèy	ʒà	NOUN	_	Definite=Ind	9	comp:obj	_	AlignBegin=204869|AlignEnd=205067|Gloss=water-Ind|wordform=ʒà
+16	//	//	PUNCT	_	_	6	punct	_	AlignBegin=205067|AlignEnd=205264|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_162-163
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 205943, 206959
-# text = á ŋəːr vìː -ês //= á ʧi -íː //
+# text = á ŋə̂ːr vèːs //= á ʧǐː //
 # text_ortho = á ŋə̂ːr vèːs //= á ʧǐː //
 # text_en = He opened his mouth and he ate.
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=205943|AlignEnd=206091|Gloss=3SG.Aor
-2	ŋəːr	ŋəːr	VERB	_	_	1	comp:aux	_	AlignBegin=206091|AlignEnd=206239|Gloss=open
-3	vìː-ês	vìː-ês	NOUN	_	_	2	comp:obj	_	AlignBegin=206239|AlignEnd=206387|Gloss=mouth|wordform=vìː
+2	ŋə̂ːr	ŋəːr	VERB	_	_	1	comp:aux	_	AlignBegin=206091|AlignEnd=206239|Gloss=open
+3	vèːs	vìː	NOUN	_	_	2	comp:obj	_	AlignBegin=206239|AlignEnd=206387|Gloss=mouth|wordform=vìː
 4	//=	//=	PUNCT	_	_	5	punct	_	AlignBegin=206387|AlignEnd=206533|Gloss=PUNCT
 5	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	1	parataxis@conj	_	AlignBegin=206533|AlignEnd=206675|Gloss=3SG.Aor
-6	ʧi-íː	ʧi-íː	VERB	_	Aspect=Res	5	comp:aux	_	AlignBegin=206675|AlignEnd=206817|Gloss=eat|wordform=ʧi
+6	ʧǐː	ʧi	VERB	_	Aspect=Res	5	comp:aux	_	AlignBegin=206675|AlignEnd=206817|Gloss=eat-Res|wordform=ʧi
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=206817|AlignEnd=206959|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_164-164
