@@ -1698,21 +1698,23 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 223008, 225096
-# text = á wul tu nə longa nə kyàːní kì tə́ də̌ːr ŋaː ?//
-# text_ortho = á wú tu nə longa nə kyàːní kì tə́ də̌ːr ŋâː ?//
+# text = á wû tu nə longa nə kyàːní kì tə́ də̌ːr ŋâː ?//
+# text_ortho = á wû tu nə longa nə kyàːní kì tə́ də̌ːr ŋâː ?//
 # text_en = He said, it's you Rabbit, you and Monitor?
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=223008|AlignEnd=223182|Gloss=3SG.Aor
-2	wul	wul	VERB	_	_	1	comp:aux	_	AlignBegin=223182|AlignEnd=223356|Gloss=say
+2	wû	wul	VERB	_	_	1	comp:aux	_	AlignBegin=223182|AlignEnd=223356|Gloss=say
 3	tu	tu	SCONJ	_	_	2	comp:obj	_	AlignBegin=223356|AlignEnd=223530|Gloss=OPN
 4	nə	nə	PART	_	_	3	comp:obj	_	AlignBegin=223530|AlignEnd=223704|Gloss=be
 5	longa	longa	NOUN	_	_	4	comp:pred	_	AlignBegin=223704|AlignEnd=223878|Gloss=rabbit
 6	nə	nə	PART	_	_	4	parataxis@conj	_	AlignBegin=223878|AlignEnd=224052|Gloss=be
 7	kyàːní	kyàːní	PRON	_	Number=Sing|Person=2|PronType=Prs	6	comp:pred	_	AlignBegin=224052|AlignEnd=224226|Gloss=2Plur
-8	kì	kì	PRON	_	Number=Plur|Person=1|PronType=Prs	6	comp:pred	_	AlignBegin=224226|AlignEnd=224400|Gloss=2Plur.be
-9	tə́	tə́	ADP	_	_	8	mod	_	AlignBegin=224400|AlignEnd=224574|Gloss=with
-10	də̌ːr	də̌ːr	NOUN	_	_	9	comp:obj	_	AlignBegin=224574|AlignEnd=224748|Gloss=lizard
-11	ŋaː	ŋaː	PART	_	PartType=Int	1	mod	_	AlignBegin=224748|AlignEnd=224922|Gloss=VRT
-12	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=224922|AlignEnd=225096|Gloss=PUNCT
+8-9	kì	_	_	_	_	_	_	_	_
+8	kə̀	kə̀	PRON	_	Number=Plur|Person=1|PronType=Prs	9	subj	_	AlignBegin=224226|AlignEnd=224400|Gloss=2Plur
+9	yi	yi	VERB	_	_	6	parataxis@conj	_	AlignBegin=224226|AlignEnd=224400|Gloss=be
+10	tə́	tə́	ADP	_	_	9	comp:pred	_	AlignBegin=224400|AlignEnd=224574|Gloss=with
+11	də̌ːr	də̌ːr	NOUN	_	_	10	comp:obj	_	AlignBegin=224574|AlignEnd=224748|Gloss=lizard
+12	ŋâː	ŋaː	PART	_	PartType=Int	4	mod	_	AlignBegin=224748|AlignEnd=224922|Gloss=VRT
+13	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=224922|AlignEnd=225096|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_175-175
 # speaker_id = SP1
@@ -1721,9 +1723,9 @@
 # text = tu m̀ː //
 # text_ortho = tu m̀ː //
 # text_en = He said yes.
-1	tu	tu	SCONJ	_	Mood=Qot	0	root	_	AlignBegin=225096|AlignEnd=225195|Gloss=OPN
-2	m̀ː	m̀ː	INTJ	_	_	1	discourse	_	AlignBegin=225195|AlignEnd=225294|Gloss=BKL
-3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=225294|AlignEnd=225392|Gloss=PUNCT
+1	tu	tu	PART	_	Mood=Qot	2	mod	_	AlignBegin=225096|AlignEnd=225195|Gloss=OPN
+2	m̀ː	m̀ː	INTJ	_	_	0	root	_	AlignBegin=225195|AlignEnd=225294|Gloss=BKL
+3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=225294|AlignEnd=225392|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_176-176
 # speaker_id = SP2
@@ -1739,15 +1741,17 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 226734, 228534
-# text = ká ɬə́ːt -ni ɗan kə́ mbàraːt -íː aː ?//
+# text = ká ɬə̌ːtni ɗan kə́ mbaràːɗíyaː ?//
 # text_ortho = ká ɬə̌ːtni ɗan kə́ mbaràːɗíyaː ?//
 # text_en = Are you going to fly like Crownbird ?
 1	ká	a	AUX	_	Number=Plur|Person=2|Tense=Fut	0	root	_	AlignBegin=226734|AlignEnd=227034|Gloss=2Plur.FUT
-2	ɬə́ːt	ɬə́ː	VERB	_	_	1	comp:aux	_	AlignBegin=227034|AlignEnd=227184|Gloss=fly
+2-3	ɬə̌ːtni	_	_	_	_	_	_	_	_
+2	ɬə̌ːt	ɬə́ː	VERB	_	_	1	comp:aux	_	AlignBegin=227034|AlignEnd=227184|Gloss=fly
 3	ni	ni	PART	_	Aspect=Iter	2	compound:prt	_	AlignBegin=227184|AlignEnd=227334|Gloss=ITER|wordform=-ni
-4	ɗan	ɗan	ADP	_	_	2	comp:obl	_	AlignBegin=227334|AlignEnd=227634|Gloss=like
-5	kə́	á	ADP	_	_	4	comp:obj	_	AlignBegin=227634|AlignEnd=227934|Gloss=of
-6	mbàraːt-íː	bàraːt-	NOUN	_	Deixis=Dist	5	comp:obj	_	AlignBegin=227934|AlignEnd=228134|Gloss=crownbird|wordform=mbàraːt
+4	ɗan	ɗan	ADP	_	_	2	mod	_	AlignBegin=227334|AlignEnd=227634|Gloss=like
+5	kə́	kə́	ADP	_	_	4	comp:obj	_	AlignBegin=227634|AlignEnd=227934|Gloss=of
+6-7	mbaràːɗíyaː	_	_	_	_	_	_	_	_
+6	mbàraːɗíː	mbàraːt	NOUN	_	Deixis=Dist	5	comp:obj	_	AlignBegin=227934|AlignEnd=228134|Gloss=crownbird-Dist|wordform=mbàraːt
 7	aː	aː	PART	_	_	1	mod	_	AlignBegin=228134|AlignEnd=228234|Gloss=VRT
 8	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=228234|AlignEnd=228534|Gloss=PUNCT
 
