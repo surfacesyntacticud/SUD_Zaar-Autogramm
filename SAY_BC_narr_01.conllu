@@ -1496,8 +1496,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 200618, 202203
-# text = tôː séː gyáː longa ɗan tə́ fî ʧikə́y //
-# text_ortho = tôː séː gyáː longa ɗan tə́ fî ʧikə́y //
+# text = tôː séː gyáː longa ɗan tə́ fî ʧiɣə́y //
+# text_ortho = tôː séː gyáː longa ɗan tə́ fî ʧiɣə́y //
 # text_en = Well then Rabbit did like that.
 1	tôː	tòː	PART	_	_	6	discourse	_	AlignBegin=200618|AlignEnd=200794|Gloss=well
 2	séː	séː	ADV	_	_	6	mod	_	AlignBegin=200794|AlignEnd=200970|Gloss=then
@@ -1506,7 +1506,7 @@
 5	ɗan	ɗan	ADV	_	_	6	mod	_	AlignBegin=201322|AlignEnd=201498|Gloss=as
 6	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=201498|AlignEnd=201674|Gloss=3Plur.Aor
 7	fî	fi	VERB	_	_	6	comp:aux	_	AlignBegin=201674|AlignEnd=201850|Gloss=do
-8	ʧík	ʧík	ADV	_	_	7	mod	_	AlignBegin=201850|AlignEnd=202026|Gloss=thus
+8	ʧiɣə́y	ʧík	ADV	_	Deixis=Dist	7	mod	_	AlignBegin=201850|AlignEnd=202026|Gloss=thus-Dist
 9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=202026|AlignEnd=202203|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_159-161
@@ -1557,9 +1557,9 @@
 # sent_timecode = 207940, 210423
 # text = tə̀ fìtə́ɗi ŋaː lapláp tə̀ mor tə̀ yúɣn kongâːʃíː //
 # text_ortho = tə̀ fìtə́ɗi ŋaː lapláp tə̀ mor tə̀ yúɣn kongâːʃíː //
-# text_en = They fed him a good quantity, he filled his cheeks.
+# text_en = They fed him a good quantity, in order to please (him) and fill his cheeks.
 1	tə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=3	0	root	_	AlignBegin=207940|AlignEnd=208188|Gloss=3SG.SUB
-2-4	fìtə́ɗi	_	_	_	_	_                            	_	_	_
+2-4	fìtə́ɗi	_	_	_	_	_	_	_	_
 2	fi	fi	VERB	_	_	1	comp:aux	_	AlignBegin=208188|AlignEnd=208271|Gloss=do
 3	=tə́	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=208271|AlignEnd=208354|Gloss=3SG.OBJ
 4	ɗi	ɗi	PART	_	_	2	compound:prt	_	AlignBegin=208354|AlignEnd=208436|Gloss=CTP
@@ -1569,8 +1569,8 @@
 8	mor	mor	VERB	_	_	7	comp:aux	_	AlignBegin=209180|AlignEnd=209428|Gloss=please
 9	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	7	parataxis@conj	_	AlignBegin=209428|AlignEnd=209676|Gloss=3SG.SUB
 10-11	yúɣn kongâːʃíː	_	_	_	_	_	_	_	_
-10	*yúɣn-íː	yúkn	VERB	_	_	9	comp:aux	_	AlignBegin=209676|AlignEnd=209924|Gloss=INTJ
-11	kongâs	kongâː	NOUN	_	Deixis=Dist	10	comp:obj	_	AlignBegin=209924|AlignEnd=210172|Gloss=cheek|wordform=kongâː
+10	*yúɣn-íː	yúkn	VERB	_	_	9	comp:aux	_	AlignBegin=209676|AlignEnd=209924|Gloss=fill
+11	kongâs	kongâː	NOUN	_	Definite=Def 	10	comp:obj	_	AlignBegin=209924|AlignEnd=210172|Gloss=cheek-Def|wordform=kongâː
 12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=210172|AlignEnd=210423|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_165-165
@@ -1597,24 +1597,26 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 211941, 214548
-# text = ɗan tə́ fi gíː ɗi X < tə́ mán fi =tə mə́n ɗi nə nâs -áŋʃi ɗaɗa ŋâː //
-# text_ortho = ɗan tə́ fî gíːɗi X < tə́ man fitə mə́nɗi nə nasáŋʃi ɗaɗa ŋâː //
-# text_en = As they did this, they... started putting him plenty of honey again.
+# text = ɗan tə́ fî gíːɗi XX < tə́ man fitə mə́nɗi nə nasáŋʃi ɗaɗa ŋâː //
+# text_ortho = ɗan tə́ fî gíːɗi XX < tə́ man fitə mə́nɗi nə nasáŋʃi ɗaɗa ŋâː //
+# text_en = After they had done this XX, they started putting him plenty of honey again.
 1	ɗan	ɗan	SCONJ	_	_	8	mod	_	AlignBegin=211941|AlignEnd=212113|Gloss=as
 2	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=212113|AlignEnd=212285|Gloss=3Plur.Aor
 3	fi	fi	VERB	_	_	2	comp:aux	_	AlignBegin=212285|AlignEnd=212457|Gloss=do
 4	gíː	gíː	PRON	_	PronType=Dem	3	comp:obj	_	AlignBegin=212457|AlignEnd=212543|Gloss=REM
 5	ɗi	ɗi	PART	_	_	3	compound:prt	_	AlignBegin=212543|AlignEnd=212629|Gloss=CTP
-6	X	X	X	_	_	10	mod	_	AlignBegin=212629|AlignEnd=212801|Gloss=X
-7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=212801|AlignEnd=212972|Gloss=PUNCT
+6	XX	XX	X	_	_	3	unk	_	AlignBegin=212629|AlignEnd=212801|Gloss=X
+7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=212801|AlignEnd=212972|Gloss=PUNCT
 8	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=212972|AlignEnd=213147|Gloss=3Plur.Aor
 9	mán	mán	VERB	_	_	8	comp:aux	_	AlignBegin=213147|AlignEnd=213322|Gloss=come|SVC=Yes
+10-11	fitə	_	_	_	_	_	_	_	_
 10	fi	fi	VERB	_	_	9	compound:svc	_	AlignBegin=213322|AlignEnd=213410|Gloss=do
-11	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=213410|AlignEnd=213497|Gloss=3SG.OBJ
+11	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	10	comp:ben	_	AlignBegin=213410|AlignEnd=213497|Gloss=3SG.OBJ
+12-13	mə́nɗi	_	_	_	_	_	_	_	_
 12	mə́n	mə́n	PART	_	Case=Ben	10	compound:prt	_	AlignBegin=213497|AlignEnd=213585|Gloss=BEN
 13	ɗi	ɗi	PART	_	_	10	compound:prt	_	AlignBegin=213585|AlignEnd=213672|Gloss=CTP
-14	nə	nə	PART	_	_	10	compound:prt	_	AlignBegin=213672|AlignEnd=213847|Gloss=be
-15	nâs-áŋʃi	nâs-áŋʃi	NUM	_	_	14	comp:pred	_	AlignBegin=213847|AlignEnd=214022|Gloss=big|wordform=nâs
+14	nə	nə	PART	_	_	10	comp:obj	_	AlignBegin=213672|AlignEnd=213847|ExtPos=NOUN|Gloss=be|Idiom=Yes
+15	nasáŋʃi	nâs	ADJ	_	Number=Plur	14	compound	_	AlignBegin=213847|AlignEnd=214022|Gloss=big|InIdiom=Yes|wordform=nâs
 16	ɗaɗa	ɗaɗa	ADV	_	_	10	mod	_	AlignBegin=214022|AlignEnd=214197|Gloss=again
 17	ŋâː	ŋâː	PART	_	PartType=Int	8	mod	_	AlignBegin=214197|AlignEnd=214372|Gloss=VRT
 18	//	//	PUNCT	_	_	8	punct	_	AlignBegin=214372|AlignEnd=214548|Gloss=PUNCT
@@ -1623,7 +1625,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 215126, 218559
-# text = mán bullú vìː -ês -íː < á wul tu [ áy máːtá fi hàkuri ká gíː yáːwón ma fi hàkuri ká gín hə́n //] //
+# text = mán bullú vèːʃíː < á wú tu [ áy máːtá fî hàkuri ká gíː yáːwón ma fi hàkuri ká gínə̌n //] //
 # text_ortho = mán bullú vèːʃíː < á wú tu [ áy máːtá fî hàkuri ká gíː yáːwón ma fi hàkuri ká gínə̌n //] //
 # text_en = As his mouth started burning he said eh, I endured that one, I will not endure this one.
 1	mán	maan	VERB	_	_	5	mod	_	AlignBegin=215126|AlignEnd=215263|Gloss=come|SVC=Yes
