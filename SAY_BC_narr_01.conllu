@@ -1339,34 +1339,34 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 186259, 188097
-# text = nə gyáː mbàraːt tə́ longa |c àmá nə le# <
-# text_ortho = nə gyaː mbàraːt tə́ longa |c àmâː nə le# <
+# text = nə gyáː mbàraːt tə́ longa |c àmá nə le~ &//
+# text_ortho = nə gyaː mbàraːt tə́ longa |c àmâː nə le~ &//
 # text_en = It was Crownbird and Rabbit, but R....
 1	nə	nə	PART	_	_	0	root	_	AlignBegin=186259|AlignEnd=186489|Gloss=be
 2	gyáː	gyáː	DET	_	Number=Plur	3	det	_	AlignBegin=186489|AlignEnd=186719|Gloss=3Plur
 3	mbàraːt	mbàraːt	NOUN	_	_	1	comp:pred	_	AlignBegin=186719|AlignEnd=186949|Gloss=crownbird
-4	tə́	tə́	ADP	_	_	1	comp:cleft	_	AlignBegin=186949|AlignEnd=187113|Gloss=with
-5	longa	longa	NOUN	_	_	4	comp:obj	_	AlignBegin=187113|AlignEnd=187277|Gloss=rabbit
+4	tə́	tə́	ADP	_	_	5	cc	_	AlignBegin=186949|AlignEnd=187113|Gloss=with
+5	longa	longa	NOUN	_	_	3	conj:coord	_	AlignBegin=187113|AlignEnd=187277|Gloss=rabbit
 6	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=187277|AlignEnd=187441|Gloss=PUNCT
 7	àmá	àmá	CCONJ	_	_	8	cc	_	AlignBegin=187441|AlignEnd=187605|Gloss=but
 8	nə	nə	PART	_	_	1	conj:coord	_	AlignBegin=187605|AlignEnd=187769|Gloss=be
-9	le#	le#	NOUN	_	_	8	comp:pred	_	AlignBegin=187769|AlignEnd=187933|Gloss=HESIT
-10	<	<	PUNCT	_	_	1	punct	_	AlignBegin=187933|AlignEnd=188097|Gloss=PUNCT
+9	le~	le~	NOUN	_	_	8	comp:pred	_	AlignBegin=187769|AlignEnd=187933|Gloss=HESIT
+10	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=187933|AlignEnd=188097|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_146-146
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 188780, 190492
-# text = naː kâm gə́ longa ɣəndá á mán yáːwón oː //
-# text_ortho = naː kâm gə́ longa ɣəndá á mán yáːwón oː //
-# text_en = Rabbit's friend hasn't arrived yet. §
+# text = naːkâm gə̀ loŋga əndá á mǎn yáːwón oː //
+# text_ortho = naːkâm gə̀ loŋga əndá á mǎn yáːwón oː //
+# text_en = Rabbit's friend hasn't arrived yet. 
 1	naː	naː	NOUN	_	_	6	subj	_	AlignBegin=188780|AlignEnd=188970|Gloss=thing
-2	kâm	kâm	ADP	_	_	1	mod	_	AlignBegin=188970|AlignEnd=189160|Gloss=friend
-3	gə́	kə́	ADP	_	_	2	mod@poss	_	AlignBegin=189160|AlignEnd=189350|Gloss=of
+2	kâm	kâːm	NOUN	_	_	1	compound	_	AlignBegin=188970|AlignEnd=189160|Gloss=friend
+3	gə́	kə́	ADP	_	_	1	mod@poss	_	AlignBegin=189160|AlignEnd=189350|Gloss=of
 4	longa	longa	NOUN	_	_	3	comp:obj	_	AlignBegin=189350|AlignEnd=189540|Gloss=rabbit
-5	ɣəndá	kəndá	ADV	_	_	6	mod	_	AlignBegin=189540|AlignEnd=189730|Gloss=until
+5	əndá	kəndá	ADV	_	_	6	mod	_	AlignBegin=189540|AlignEnd=189730|Gloss=until
 6	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=189730|AlignEnd=189920|Gloss=eh
-7	mán	mán	VERB	_	_	6	comp:aux	_	AlignBegin=189920|AlignEnd=190110|Gloss=come
+7	mǎn	máni	VERB	_	_	6	comp:aux	_	AlignBegin=189920|AlignEnd=190110|Gloss=come
 8	yáːwón	yáːwón	ADV	_	PronType=Dem	7	mod	_	AlignBegin=190110|AlignEnd=190205|Gloss=today
 9	oː	oː	PART	_	PartType=Emp	6	mod	_	AlignBegin=190205|AlignEnd=190300|Gloss=EMPH
 10	//	//	PUNCT	_	_	6	punct	_	AlignBegin=190300|AlignEnd=190492|Gloss=PUNCT
@@ -1375,9 +1375,10 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 191116, 191414
-# text = ʧík aː ?//
-# text_ortho = ʧíkâː ?//
+# text = ʧíɣâː ?//
+# text_ortho = ʧíɣâː ?//
 # text_en = Is that so?
+1-2	ʧíɣâː	_	_	_	_	_	_	_	_
 1	ʧík	ʧík	ADV	_	_	0	root	_	AlignBegin=191116|AlignEnd=191190|Gloss=thus
 2	aː	aː	PART	_	_	1	mod	_	AlignBegin=191190|AlignEnd=191265|Gloss=VRT
 3	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=191265|AlignEnd=191414|Gloss=PUNCT
@@ -1389,13 +1390,13 @@
 # text = tu èː tòː < bâː dàːmuwa //
 # text_ortho = tu èː tòː < bâː dàːmuwa //
 # text_en = He said well... no problem.
-1	tu	tu	SCONJ	_	Mood=Qot	5	discourse	_	AlignBegin=191414|AlignEnd=191518|Gloss=OPN
-2	èː	èː	INTJ	_	_	5	discourse	_	AlignBegin=191518|AlignEnd=191622|Gloss=yes
-3	tòː	tòː	PART	_	_	5	discourse	_	AlignBegin=191622|AlignEnd=191726|Gloss=well
-4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=191726|AlignEnd=191832|Gloss=PUNCT
-5	bâː	bâː	X	_	Foreign=Yes	0	root	_	AlignBegin=191832|AlignEnd=191989|Gloss=NEG|Lang=hau
+1	tu	tu	PART	_	Mood=Qot	2	mod	_	AlignBegin=191414|AlignEnd=191518|Gloss=OPN
+2	èː	èː	INTJ	_	_	0	root	_	AlignBegin=191518|AlignEnd=191622|Gloss=yes
+3	tòː	tòː	PART	_	_	2	discourse	_	AlignBegin=191622|AlignEnd=191726|Gloss=well
+4	//=	//=	PUNCT	_	_	3	punct	_	AlignBegin=191726|AlignEnd=191832|Gloss=PUNCT
+5	bâː	bâː	X	_	Foreign=Yes	2	parataxis@conj	_	AlignBegin=191832|AlignEnd=191989|Gloss=NEG|Lang=hau
 6	dàːmuwa	dàːmuwa	X	_	Foreign=Yes	5	flat:foreign	_	AlignBegin=191989|AlignEnd=192146|Gloss=problem|Lang=hau
-7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=192146|AlignEnd=192302|Gloss=PUNCT
+7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=192146|AlignEnd=192302|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_150-151
 # speaker_id = SP1
@@ -1405,14 +1406,14 @@
 # text_ortho = yâːn kàː tu ŋaː sâːɣáy < tòː ɓèsə́mɗyoː //
 # text_en = If you have any possibility, well give me some.
 1	yâːn	yâːn	SCONJ	_	Number=Sing|Person=3|PronType=Prs	9	mod	_	AlignBegin=193114|AlignEnd=193298|Gloss=if
-2	kàː	àː	AUX	_	Aspect=Aor|Number=Sing|Person=2	1	comp:obj	_	AlignBegin=193298|AlignEnd=193482|Gloss=2Plur.PERF
+2	kàː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	1	comp:obj	_	AlignBegin=193298|AlignEnd=193482|Gloss=2Plur.PERF
 3	tu	tu	VERB	_	_	2	comp:aux	_	AlignBegin=193482|AlignEnd=193666|Gloss=get
 4	ŋaː	ŋaː	ADJ	_	_	5	mod	_	AlignBegin=193666|AlignEnd=193850|Gloss=small
 5-6	sâːɣáy	_	_	_	_	_	_	_	_
 5	sâː	sâː	NOUN	_	_	3	comp:obj	_	AlignBegin=193850|AlignEnd=193942|Gloss=chance
 6	ɣáy	káy	PRON	_	Person=3|PronType=Prs	3	comp:obl@expl	_	AlignBegin=193942|AlignEnd=194034|Gloss=ANAPH
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=194034|AlignEnd=194218|Gloss=PUNCT
-8	tòː	tòː	PART	_	_	9	discourse	_	AlignBegin=194218|AlignEnd=194400|Gloss=well
+8	tôː	tòː	PART	_	_	9	discourse	_	AlignBegin=194218|AlignEnd=194400|Gloss=well
 9-12	ɓèsə́mɗyoː	_	_	_	_	_	_	_	_
 9	ɓès	ɓes	VERB	_	Mood=Imp	0	root	_	AlignBegin=194400|AlignEnd=194469|Gloss=give_piece
 10	=ə́m	=əm	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	comp:obj	_	AlignBegin=194469|AlignEnd=194538|Gloss=1SG.OBJ
@@ -1426,7 +1427,7 @@
 # sent_timecode = 194950, 195559
 # text = mán ʧet ɗaɗa //
 # text_ortho = man ʧet ɗaɗa //
-# text_en = He came to ask again.
+# text_en = He asked again.
 1	mán	mán	VERB	_	_	0	root	_	AlignBegin=194950|AlignEnd=195072|Gloss=come|SVC=Yes
 2	ʧet	ʧet	VERB	_	_	1	compound:svc	_	AlignBegin=195072|AlignEnd=195194|Gloss=ask
 3	ɗaɗa	ɗaɗa	ADV	_	_	2	mod	_	AlignBegin=195194|AlignEnd=195316|Gloss=again
