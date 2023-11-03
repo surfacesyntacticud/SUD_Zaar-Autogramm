@@ -1096,51 +1096,54 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 152757, 153995
-# text = dǔːm -i tà pok naː -íː aː hŋ́ ?//
+# text = duːmí tá pok náːy ǎːn ?//	
 # text_ortho = duːmí tá pok náːyǎːn ?//
-# text_en = Isn't the honey finished?
-1	dǔːm-i	dǔːm-i	NOUN	_	_	0	root	_	AlignBegin=152757|AlignEnd=153005|Gloss=honey|wordform=dǔːm
-2	tà	ta	X	_	Tense=Rem	1	comp:obj	_	AlignBegin=153005|AlignEnd=153253|Gloss=REM
-3	pok	pok	VERB	_	_	1	comp:obj	_	AlignBegin=153253|AlignEnd=153501|Gloss=be_over
-4	naː-íː	naː-íː	VERB	_	Aspect=Res	3	comp:obj	_	AlignBegin=153501|AlignEnd=153625|Gloss=remain|wordform=naː
-5	aː	aː	PART	_	PartType=Int	1	mod	_	AlignBegin=153625|AlignEnd=153687|Gloss=VRT
-6	hŋ́	hŋ́	PART	_	Polarity=Neg	2	mod	_	AlignBegin=153687|AlignEnd=153749|Gloss=NEG2
-7	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=153749|AlignEnd=153995|Gloss=PUNCT
+# text_en = Wasn't the honey finished then?
+1	duːmí	dǔːm	NOUN	_	Definite=Ind	3	subj	_	AlignBegin=152757|AlignEnd=153005|Gloss=honey|wordform=dǔːm
+2	tá	tá	ADV	_	_	3	mod	_	AlignBegin=153005|AlignEnd=153253|Gloss=then
+3	pok	pok	VERB	_	_	0	root	_	AlignBegin=153253|AlignEnd=153501|Gloss=be_over
+4	náːy	naː	VERB	_	Aspect=Res	3	compound:svc	_	AlignBegin=153501|AlignEnd=153625|Gloss=remain-Res|wordform=naː
+5-6	ǎːn	_	_	_	_	_	_	_	_
+5	aː	aː	PART	_	PartType=Int	3	mod	_	AlignBegin=153625|AlignEnd=153687|Gloss=VRT
+6	hŋ́	hŋ́	PART	_	Polarity=Neg	3	mod	_	AlignBegin=153687|AlignEnd=153749|Gloss=NEG2
+7	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=153749|AlignEnd=153995|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_122-124
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 153995, 156699
-# text = dǔːm -ês < á mbút -íː mbə́ɬəŋ < tə́ mandá tə́ su =ʃí tə́ fi ʒà -íː //
+# text = duːmês < á mbûɗíː mbə́ɬəŋ < tə́ mândá tə́ sûʃí tə́ fî ʒěy //
 # text_ortho = duːmês < á mbûɗíː mbə́ɬəŋ < tə́ mândá tə́ sûʃí tə́ fî ʒěy //
-# text_en = The bees, after two days, they had made some more honey.
-1	dǔːm-ês	dǔːm-ês	NOUN	_	_	7	mod	_	AlignBegin=153995|AlignEnd=154211|Gloss=honey|wordform=dǔːm
+# text_en = The bees, after two days, they had returned again and made honey.
+1	duːmês	dǔːm	NOUN	_	_	7	dislocated@subj	_	AlignBegin=153995|AlignEnd=154211|Gloss=honey|wordform=dǔːm
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=154211|AlignEnd=154427|Gloss=PUNCT
-3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	7	mod	_	AlignBegin=154427|AlignEnd=154645|Gloss=3SG.Aor
-4	mbút-íː	mbút-í	VERB	_	Aspect=Res	3	comp:aux	_	AlignBegin=154645|AlignEnd=154863|Gloss=spend_night|wordform=mbút
-5	mbə́ɬəŋ	mbə	NUM	_	_	10	comp:obj	_	AlignBegin=154863|AlignEnd=155081|Gloss=two
+3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	7	parataxis@mod	_	AlignBegin=154427|AlignEnd=154645|Gloss=3SG.Aor
+4	mbûɗíː	mbút	VERB	_	Aspect=Res	3	comp:aux	_	AlignBegin=154645|AlignEnd=154863|Gloss=spend_night|wordform=mbút
+5	mbə́ɬəŋ	mbə́ɬəŋ	NUM	_	_	4	mod	_	AlignBegin=154863|AlignEnd=155081|Gloss=two
 6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=155081|AlignEnd=155300|Gloss=PUNCT
 7	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=155300|AlignEnd=155475|Gloss=3Plur.Aor
-8	mandá	mandá	VERB	_	_	7	comp:aux	_	AlignBegin=155475|AlignEnd=155650|Gloss=do_again|SVC=Yes
-9	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	8	parataxis@comp	_	AlignBegin=155650|AlignEnd=155825|Gloss=3Plur.Aor
-10	su	su	VERB	_	_	7	comp:aux	_	AlignBegin=155825|AlignEnd=155913|Gloss=return
+8	mândá	mandá	VERB	_	_	7	comp:aux	_	AlignBegin=155475|AlignEnd=155650|Gloss=do_again|SVC=Yes
+9	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	7	parataxis@conj	_	AlignBegin=155650|AlignEnd=155825|Gloss=3Plur.Aor
+10-11	sûʃí	_	_	_	_	_	_	_	_
+10	sû	su	VERB	_	_	9	comp:aux	_	AlignBegin=155825|AlignEnd=155913|Gloss=return
 11	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=155913|AlignEnd=156000|Gloss=3Plur.OBJ
-12	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	3	conj:coord	_	AlignBegin=156000|AlignEnd=156175|Gloss=3Plur.Aor
-13	fi	fi	VERB	_	_	12	comp:aux	_	AlignBegin=156175|AlignEnd=156350|Gloss=do
-14	ʒà-íː	ʒà-íː	NOUN	_	_	13	comp:obj	_	AlignBegin=156350|AlignEnd=156525|Gloss=water|wordform=ʒà
+12	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	9	parataxis@conj	_	AlignBegin=156000|AlignEnd=156175|Gloss=3Plur.Aor
+13	fî	fi	VERB	_	_	12	comp:aux	_	AlignBegin=156175|AlignEnd=156350|Gloss=do
+14	ʒěy	ʒà	NOUN	_	Deixis=Dist	13	comp:obj	_	AlignBegin=156350|AlignEnd=156525|Gloss=water-Dist|wordform=ʒà
 15	//	//	PUNCT	_	_	7	punct	_	AlignBegin=156525|AlignEnd=156699|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_125-125
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 155300, 157274
-# text = XX tə́ yíː káy //
-# text_ortho = XX tə́ yîːkáy //
+# text = XX tə́ yǐːɣáy //
+# text_ortho = XX tə́ yǐːɣáy //
 # text_en = XX they had made some.
-1	XX	XX	X	_	_	2	discourse	_	AlignBegin=155300|AlignEnd=155695|Gloss=XX
+1	XX	XX	X	_	_	2	unk@scrap	_	AlignBegin=155300|AlignEnd=155695|Gloss=XX
 2	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=155695|AlignEnd=156090|Gloss=3Plur.Aor
-3	yíː	yíi	VERB	_	_	2	comp:aux	_	AlignBegin=156090|AlignEnd=156288|Gloss=produce
-4	káy	káy	PRON	_	Person=3|PronType=Prs	3	comp:obl@expl	_	AlignBegin=156288|AlignEnd=156485|Gloss=ANAPH
+3-4	yǐːɣáy	_	_	_	_	_	_	_	_
+3	yǐː	yi	VERB	_	Aspect=Res	2	comp:aux	_	AlignBegin=156090|AlignEnd=156288|Gloss=produce-Res
+4	ɣáy	káy	PRON	_	Person=3|PronType=Prs	3	comp:obl@expl	_	AlignBegin=156288|AlignEnd=156485|Gloss=ANAPH
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=156880|AlignEnd=157274|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_126-126
@@ -1157,45 +1160,46 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 159207, 160210
-# text = séː ɗan tə́ mán -i //
+# text = séː ɗan tə́ mǎni //
 # text_ortho = séː ɗan tə́ mǎni //
 # text_en = Then they came back.
 1	séː	séː	ADV	_	_	3	mod	_	AlignBegin=159207|AlignEnd=159408|Gloss=then
-2	ɗan	ɗan	ADV	_	_	0	root	_	AlignBegin=159408|AlignEnd=159609|Gloss=then
-3	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	2	comp:obj	_	AlignBegin=159609|AlignEnd=159810|Gloss=3Plur.Aor
-4	mán-i	mán-i	VERB	_	_	3	comp:aux	_	AlignBegin=159810|AlignEnd=160011|Gloss=come|wordform=mán
+2	ɗan	ɗan	ADV	_	_	3	mod	_	AlignBegin=159408|AlignEnd=159609|Gloss=then
+3	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=159609|AlignEnd=159810|Gloss=3Plur.Aor
+4	mǎni	máni	VERB	_	_	3	comp:aux	_	AlignBegin=159810|AlignEnd=160011|Gloss=come|wordform=mán
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=160011|AlignEnd=160210|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_128-129
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 160969, 162872
-# text = ɗan tə́ mán -i < séː ʧìká ʧaː -kə́nì //
-# text_ortho = ɗan tə́ mǎni < séː ʧàː ʧáːkə̂n //
-# text_en = When they came back then... they were collecting (honey).
+# text = ɗan tə́ mǎni < séː ʧàː ʧáːɣə̂n //
+# text_ortho = ɗan tə́ mǎni < séː ʧàː ʧáːɣə̂n //
+# text_en = After they came back then... they were collecting (honey).
 1	ɗan	ɗan	SCONJ	_	_	6	mod	_	AlignBegin=160969|AlignEnd=161166|Gloss=as
 2	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=161166|AlignEnd=161363|Gloss=3Plur.Aor
-3	mán-i	mán-i	VERB	_	_	2	comp:aux	_	AlignBegin=161363|AlignEnd=161560|Gloss=come|wordform=mán
+3	mǎni	máni	VERB	_	_	2	comp:aux	_	AlignBegin=161363|AlignEnd=161560|Gloss=come|wordform=mán
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=161560|AlignEnd=161757|Gloss=PUNCT
 5	séː	séː	ADV	_	_	6	mod	_	AlignBegin=161757|AlignEnd=161956|Gloss=then
-6	ʧìká	yi-ká	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	AlignBegin=161956|AlignEnd=162261|Gloss=3Plur.Prog
-7	ʧaː-kə́nì	ʧaː-kə́nì	VERB	_	VerbForm=Vnoun	6	comp:aux	_	AlignBegin=162261|AlignEnd=162566|Gloss=collect|wordform=ʧaː
+6	ʧàː	yi-ká	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	AlignBegin=161956|AlignEnd=162261|Gloss=3Plur.Prog
+7	ʧáːɣə̂n	ʧaː	VERB	_	VerbForm=Vnoun	6	comp:aux	_	AlignBegin=162261|AlignEnd=162566|Gloss=collect-NMLZ|wordform=ʧaː
 8	//	//	PUNCT	_	_	6	punct	_	AlignBegin=162566|AlignEnd=162872|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_130-131
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 163093, 165940
-# text = longa á fi mbíɬəŋ mbàraːt //= náːt -íː ɗi //
-# text_ortho = longa á fi mbíɬəŋ mbàraːt //= náːɗíːɗi //
-# text_en = Rabbit made some Crownbird's feathers he tied them on.
+# text = longa àː fi mbíɬəŋ mbàraːt //= náːɗíːɗi //
+# text_ortho = longa àː fi mbíɬəŋ mbàraːt //= náːɗíːɗi //
+# text_en = Rabbit made some Crownbird's feathers and weaved them on.
 1	longa	longa	NOUN	_	_	2	mod	_	AlignBegin=163093|AlignEnd=163422|Gloss=rabbit
-2	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=163422|AlignEnd=163751|Gloss=3SG.Ado
+2	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=163422|AlignEnd=163751|Gloss=3SG.Perf
 3	fi	fi	VERB	_	_	2	comp:aux	_	AlignBegin=163751|AlignEnd=164080
-4	mbíɬəŋ	mbíɬəŋ	VERB	_	_	3	comp:obj	_	AlignBegin=164080|AlignEnd=164409|Gloss=feathers
-5	mbàraːt	mbàraːt	NOUN	_	_	3	comp:obj@lvc	_	AlignBegin=164409|AlignEnd=164738|Gloss=crownbird
+4	mbíɬəŋ	mbíɬəŋ	NOUN	_	_	3	comp:obj	_	AlignBegin=164080|AlignEnd=164409|Gloss=feathers
+5	mbàraːt	mbàraːt	NOUN	_	_	4	compound	_	AlignBegin=164409|AlignEnd=164738|Gloss=crownbird
 6	//=	//=	PUNCT	_	_	2	punct	_	AlignBegin=164738|AlignEnd=165069|Gloss=PUNCT
-7	náːt-íː	náːt-at	VERB	_	Aspect=Res	2	parataxis@conj	_	AlignBegin=165069|AlignEnd=165359|Gloss=tie.Plur|wordform=náːt
+7-8	náːɗíːɗi		_	_	_	_	_	_	_
+7	náːɗíː	nat	VERB	_	Aspect=Res|Number=Plur	2	parataxis@conj	_	AlignBegin=165069|AlignEnd=165359|Gloss=tie.Plur-Res|wordform=nat
 8	ɗi	ɗi	PART	_	_	7	compound:prt	_	AlignBegin=165359|AlignEnd=165505|Gloss=CTP
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=165505|AlignEnd=165940|Gloss=PUNCT
 
@@ -1203,14 +1207,17 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 166774, 168690
-# text = náːt -íː ɗi náːt -íː ɗi náːt -íː ɗi //
+# text = náːɗíːɗi náːɗíːɗi náːɗíːɗi //
 # text_ortho = náːɗíːɗi náːɗíːɗi náːɗíːɗi //
-# text_en = He tied and tied and tied.
-1	náːt-íː	náːt-at	VERB	_	Aspect=Res	0	root	_	AlignBegin=166774|AlignEnd=167094|Gloss=tie.Plur|wordform=náːt
+# text_en = He weaved and weaved and weaved.
+1-2	náːɗíːɗi		_	_	_	_	_	_	_
+1	náːɗíː	nat	VERB	_	Aspect=Res|Number=Plur	0	root	_	AlignBegin=166774|AlignEnd=167094|Gloss=tie.Plur-Res|wordform=nat
 2	ɗi	ɗi	PART	_	_	1	compound:prt	_	AlignBegin=167094|AlignEnd=167253|Gloss=CTP
-3	náːt-íː	náːt-at	VERB	_	Aspect=Res	1	parataxis@conj	_	AlignBegin=167253|AlignEnd=167573|Gloss=tie.Plur|wordform=náːt
+3-4	náːɗíːɗi		_	_	_	_	_	_	_
+3	náːɗíː	nat	VERB	_	Aspect=Res|Number=Plur	1	parataxis@conj	_	AlignBegin=167253|AlignEnd=167573|Gloss=tie.Plur-Res|wordform=nat
 4	ɗi	ɗi	PART	_	_	3	compound:prt	_	AlignBegin=167573|AlignEnd=167732|Gloss=CTP
-5	náːt-íː	náːt-at	VERB	_	Aspect=Res	3	mod	_	AlignBegin=167732|AlignEnd=168052|Gloss=tie.Plur|wordform=náːt
+5-6	náːɗíːɗi		_	_	_	_	_	_	_
+5	náːɗíː	nat	VERB	_	Aspect=Res|Number=Plur	3	mod	_	AlignBegin=167732|AlignEnd=168052|Gloss=tie.Plur-Res|wordform=nat
 6	ɗi	ɗi	PART	_	_	5	mod	_	AlignBegin=168052|AlignEnd=168211|Gloss=CTP
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=168211|AlignEnd=168690|Gloss=PUNCT
 
