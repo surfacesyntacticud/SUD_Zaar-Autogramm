@@ -1506,7 +1506,7 @@
 5	ɗan	ɗan	ADV	_	_	6	mod	_	AlignBegin=201322|AlignEnd=201498|Gloss=as
 6	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=201498|AlignEnd=201674|Gloss=3Plur.Aor
 7	fî	fi	VERB	_	_	6	comp:aux	_	AlignBegin=201674|AlignEnd=201850|Gloss=do
-8	ʧiɣə́y	ʧík	ADV	_	Deixis=Dist	7	mod	_	AlignBegin=201850|AlignEnd=202026|Gloss=thus-Dist
+8	ʧiɣə́y	ʧík	ADV	_	Deixis=Dist	7	mod	_	AlignBegin=201850|AlignEnd=202026|Gloss=like_that
 9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=202026|AlignEnd=202203|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_159-161
@@ -1625,30 +1625,32 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 215126, 218559
-# text = mán bullú vèːʃíː < á wú tu [ áy máːtá fî hàkuri ká gíː yáːwón ma fi hàkuri ká gínə̌n //] //
-# text_ortho = mán bullú vèːʃíː < á wú tu [ áy máːtá fî hàkuri ká gíː yáːwón ma fi hàkuri ká gínə̌n //] //
+# text = mán bullú vèːʃíː < á wû tu [ áy máːtá fî hàkuri á gíː yáːwón ma fi hàkuri á gínə̌ŋ  //] //
+# text_ortho = mán bullú vèːʃíː < á wû tu [ áy máːtá fî hàkuri á gíː yáːwón ma fi hàkuri á gínə̌ŋ  //] //
 # text_en = As his mouth started burning he said eh, I endured that one, I will not endure this one.
-1	mán	maan	VERB	_	_	5	mod	_	AlignBegin=215126|AlignEnd=215263|Gloss=come|SVC=Yes
-2	bullú	bullú	VERB	_	_	1	compound:svc	_	AlignBegin=215263|AlignEnd=215400|Gloss=burn
-3	vìː-ês-íː	vìː-ês-íː	NOUN	_	Definite=Ind	2	comp:obj	_	AlignBegin=215400|AlignEnd=215537|Gloss=mouth|wordform=vìː
+1	mán	mán	VERB	_	_	5	mod	_	AlignBegin=215126|AlignEnd=215263|Gloss=come|SVC=Yes
+2-3	bullú vèːʃíː	_	_	_	_	_	_	_	_
+2	*bullú-íː	bullú	VERB	_	Aspect=Res	1	compound:svc	_	AlignBegin=215263|AlignEnd=215400|Gloss=burn-Res
+3	vèːs	vìː	NOUN	_	Definite=Def	2	comp:obj	_	AlignBegin=215400|AlignEnd=215537|Gloss=mouth|wordform=vìː
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=215537|AlignEnd=215674|Gloss=PUNCT
 5	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=215674|AlignEnd=215811|Gloss=eh
-6	wul	wul	VERB	_	_	5	comp:aux	_	AlignBegin=215811|AlignEnd=215948|Gloss=say
+6	wû	wul	VERB	_	_	5	comp:aux	_	AlignBegin=215811|AlignEnd=215948|Gloss=say
 7	tu	tu	SCONJ	_	Mood=Qot	6	comp:obj	_	AlignBegin=215948|AlignEnd=216085|Gloss=OPN
 8	[	[	PUNCT	_	_	10	punct	_	AlignBegin=216085|AlignEnd=216219|Gloss=PUNCT
 9	áy	áy	INTJ	_	_	10	discourse	_	AlignBegin=216219|AlignEnd=216375|Gloss=eh
-10	máːtá	àːt-ta	AUX	_	Aspect=Perf|Number=Sing|Person=1|Tense=Rem	7	comp:obj	_	AlignBegin=216375|AlignEnd=216531|Gloss=1SG.PERF.REM
+10	máːtá	àː-ta	AUX	_	Aspect=Perf|Number=Sing|Person=1|Tense=Rem	7	comp:obj	_	AlignBegin=216375|AlignEnd=216531|Gloss=1SG.PERF.REM
 11	fi	fi	VERB	_	_	10	comp:aux	_	AlignBegin=216531|AlignEnd=216687|Gloss=do
 12	hàkuri	hàkuri	NOUN	_	_	11	comp:obj	_	AlignBegin=216687|AlignEnd=216843|Gloss=patience
-13	ká	ká	ADP	_	_	11	comp:obl	_	AlignBegin=216843|AlignEnd=216999|Gloss=at
+13	á	ká	ADP	_	_	11	comp:obl	_	AlignBegin=216843|AlignEnd=216999|Gloss=at
 14	gíː	gíː	PRON	_	PronType=Dem	13	comp:obj	_	AlignBegin=216999|AlignEnd=217155|Gloss=REM
 15	yáːwón	yáːwón	ADV	_	PronType=Dem	16	mod	_	AlignBegin=217155|AlignEnd=217311|Gloss=today
-16	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	7	comp:obj	_	AlignBegin=217311|AlignEnd=217467|Gloss=1SG.FUT
+16	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	10	parataxis@conj	_	AlignBegin=217311|AlignEnd=217467|Gloss=1SG.FUT
 17	fi	fi	VERB	_	_	16	comp:aux	_	AlignBegin=217467|AlignEnd=217623|Gloss=do
 18	hàkuri	hàkuri	NOUN	_	_	17	comp:obj	_	AlignBegin=217623|AlignEnd=217779|Gloss=patience
-19	ká	ká	ADP	_	_	17	comp:obl	_	AlignBegin=217935|AlignEnd=218091|Gloss=at
-20	gín	giiní	PRON	_	PronType=Dem	19	comp:obj	_	AlignBegin=218091|AlignEnd=218169|Gloss=PROX
-21	hə́n	hə́n	PART	_	Polarity=Neg	10	mod	_	AlignBegin=218169|AlignEnd=218247|Gloss=NEG2
+19	á	ká	ADP	_	_	17	comp:obl	_	AlignBegin=217935|AlignEnd=218091|Gloss=at
+20-21	gínə̌ŋ	_	_	_	_	_	_	_	_
+20	gín	giní	PRON	_	PronType=Dem	19	comp:obj	_	AlignBegin=218091|AlignEnd=218169|Gloss=PROX
+21	hə́ŋ	hə́ŋ	PART	_	Polarity=Neg	16	mod	_	AlignBegin=218169|AlignEnd=218247|Gloss=NEG2
 22	//]	//]	PUNCT	_	_	10	punct	_	AlignBegin=218247|AlignEnd=218403|Gloss=PUNCT
 23	//	//	PUNCT	_	_	5	punct	_	AlignBegin=218403|AlignEnd=218559|Gloss=PUNCT
 
@@ -1656,39 +1658,40 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 217982, 220244
-# text = longa kən ʧáː ʧaː =tə káy kəndí //
-# text_ortho = longa kən ʧáː ʧaːtəkáy kəndí //
-# text_en = It's Rabbit who has patience.
+# text = longa ɣən ʧáː ʧaːtəɣáy ɣəndí ?//
+# text_ortho = longa ɣən ʧáː ʧaːtəɣáy ɣəndí ?//
+# text_en = It's Rabbit who did it to him?
 1	longa	longa	NOUN	_	_	2	mod	_	AlignBegin=217982|AlignEnd=218359|Gloss=rabbit
-2	kən	kən	PART	_	_	0	root	_	AlignBegin=218359|AlignEnd=218736|Gloss=be
+2	ɣən	kən	PART	_	_	0	root	_	AlignBegin=218359|AlignEnd=218736|Gloss=be
 3	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	2	comp:cleft	_	AlignBegin=218736|AlignEnd=219113|Gloss=3SG.PERF
+4-6	ʧaːtəɣáy	_	_	_	_	_	_	_	_
 4	ʧaː	ʧaː	VERB	_	_	3	comp:aux	_	AlignBegin=219113|AlignEnd=219239|Gloss=put
 5	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=219239|AlignEnd=219365|Gloss=3SG.OBJ
-6	káy	káy	PRON	_	Person=3|PronType=Prs	4	comp:obl@expl	_	AlignBegin=219365|AlignEnd=219490|Gloss=ANAPH
-7	kəndí	kəndí	PART	_	_	2	mod	_	AlignBegin=219490|AlignEnd=219867|Gloss=be
+6	ɣáy	káy	PRON	_	Person=3|PronType=Prs	4	comp:obl@expl	_	AlignBegin=219365|AlignEnd=219490|Gloss=ANAPH
+7	ɣəndí	kəndí	PART	_	_	2	mod	_	AlignBegin=219490|AlignEnd=219867|Gloss=be
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=219867|AlignEnd=220244|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_172-172
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 219566, 220243
-# text = èː //
+# text = yèː //
 # text_ortho = yèː //
 # text_en = Yes.
-1	èː	èː	INTJ	_	_	0	root	_	AlignBegin=219566|AlignEnd=219904|Gloss=yes|Lang=en
+1	yèː	èː	INTJ	_	_	0	root	_	AlignBegin=219566|AlignEnd=219904|Gloss=yes|Lang=en
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=219904|AlignEnd=220243|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_173-173
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 221716, 223008
-# text = á ɮə̀ːr -íː ɗa gwàːs -i //
+# text = á ɮə̀ːríː ɗa gwàːʃì //
 # text_ortho = á ɮə̀ːríː ɗa gwàːʃì //
-# text_en = He stopped near the tree.
+# text_en = He stopped at the tree.
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=221716|AlignEnd=221974|Gloss=3SG.Aor
-2	ɮə̀ːr-íː	ɮə̀ːr-	VERB	_	Aspect=Res	1	comp:aux	_	AlignBegin=221974|AlignEnd=222232|Gloss=stay_still|wordform=ɮə̀ːr
-3	ɗa	ɗa	ADP	_	_	2	comp:obl	_	AlignBegin=222232|AlignEnd=222490|Gloss=at
-4	gwàːs-i	gwàːs-i	NOUN	_	_	3	comp:obj	_	AlignBegin=222490|AlignEnd=222748|Gloss=tree|wordform=gwàːs
+2	ɮə̀ːríː	ɮə̀ːr	VERB	_	Aspect=Res	1	comp:aux	_	AlignBegin=221974|AlignEnd=222232|Gloss=stay_still-Res|wordform=ɮə̀ːr
+3	ɗa	ɗa	ADP	_	_	2	mod	_	AlignBegin=222232|AlignEnd=222490|Gloss=at
+4	gwàːʃì	gwàːs	NOUN	_	Definite=Ind	3	comp:obj	_	AlignBegin=222490|AlignEnd=222748|Gloss=tree|wordform=gwàːs
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=222748|AlignEnd=223008|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_174-174
