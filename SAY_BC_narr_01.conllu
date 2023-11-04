@@ -1759,17 +1759,19 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 228534, 230091
-# text = káːtá tu mbàraːt àːtá ʧiːʧé =kə -íː //
-# text_ortho = káːtá tû mbàraːt àːtá ʧîːʧékə́y //
-# text_en = You found Crownbird last time he saved you.
-1	káːtá	àːtá	AUX	_	Aspect=Perf|Number=Plur|Person=3|Tense=Rem	0	root	_	AlignBegin=228534|AlignEnd=228794|Gloss=2SG.PERF.REM
-2	tu	tu	VERB	_	_	1	comp:aux	_	AlignBegin=228794|AlignEnd=229054|Gloss=meet
+# text = káːtá tû mbàraːɗàːtá ʧîːʧéɣə́y //
+# text_ortho = káːtá tû mbàraːɗàːtá ʧîːʧéɣə́y //
+# text_en = You found Crownbird who saved you.
+1	káːtá	àː-ta	AUX	_	Aspect=Perf|Number=Plur|Person=3|Tense=Rem	0	root	_	AlignBegin=228534|AlignEnd=228794|Gloss=2SG.PERF.REM
+2	tû	tu	VERB	_	_	1	comp:aux	_	AlignBegin=228794|AlignEnd=229054|Gloss=meet
+3-5	mbàraːɗàːtá	_	_	_	_	_	_	_	_
 3	mbàraːt	mbàraːt	NOUN	_	_	2	comp:obj	_	AlignBegin=229054|AlignEnd=229314|Gloss=crownbird
-4	àːtá	àːt-ta	AUX	_	Aspect=Perf|Number=Sing|Person=3|Tense=Rem	2	parataxis@comp	_	AlignBegin=229314|AlignEnd=229574|Gloss=3SG.PERF.REM
-5-6	ʧiːʧé-íː	_	_	_	_	_	_	_	_
-5	ʧiːʧé-íː	ʧiːʧé-iiː	VERB	_	Aspect=Res	4	comp:aux	_	AlignBegin=229574|AlignEnd=229834|Gloss=save|wordform=ʧiːʧé
-6	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	5	comp:obj	_	AlignBegin=229661|AlignEnd=229748|Gloss=2SG.OBJ|Incorporated=Yes
-7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=229834|AlignEnd=230091|Gloss=PUNCT
+4	ɗa	ɗa	SCONJ	_	_	3	mod@relcl	_	AlignBegin=229054|AlignEnd=229314|Gloss=REL
+5	àːtá	àː-ta	AUX	_	Aspect=Perf|Number=Sing|Person=3|Tense=Rem	4	comp:obj	_	AlignBegin=229314|AlignEnd=229574|Gloss=3SG.PERF.REM
+6-7	ʧîːʧéɣə́y	_	_	_	_	_	_	_	_
+6	*ʧiːʧé-íː	ʧiːʧé	VERB	_	Aspect=Res	5	comp:aux	_	AlignBegin=229574|AlignEnd=229834|Gloss=save-Res|wordform=ʧiːʧé
+7	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	6	comp:obj	_	AlignBegin=229661|AlignEnd=229748|Gloss=2SG.OBJ|Incorporated=Yes
+8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=229834|AlignEnd=230091|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_179-179
 # speaker_id = SP1
