@@ -1880,11 +1880,11 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 242448, 243531
-# text = mbiː ʧaː -íː á kópti //
+# text = mbiː ʧáːy á kópti //
 # text_ortho = mbiː ʧáːy á kópti //
 # text_en = He took them and put them on his shoulders.
 1	mbiː	mbiː	VERB	_	_	0	root	_	AlignBegin=242448|AlignEnd=242665|Gloss=take
-2	ʧaː-íː	ʧaː-í	VERB	_	Aspect=Res	1	compound:svc	_	AlignBegin=242665|AlignEnd=242882|Gloss=put|wordform=ʧaː
+2	ʧáːy	ʧaː	VERB	_	Aspect=Res	1	compound:svc	_	AlignBegin=242665|AlignEnd=242882|Gloss=put|wordform=ʧaː
 3	á	ká	ADP	_	_	2	comp:obl	_	AlignBegin=242882|AlignEnd=243099|Gloss=at
 4	kópti	kópti	NOUN	_	_	3	comp:obj	_	AlignBegin=243099|AlignEnd=243316|Gloss=shoulder
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=243316|AlignEnd=243531|Gloss=PUNCT
@@ -1893,53 +1893,54 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 244422, 249098
-# text = mbiː ʧaː -íː á teː ŋaː &//
+# text = mbiː ʧáːy á teː ŋaː &//
 # text_ortho = mbiː ʧáːy á teː ŋaː &//
 # text_en = He took them and put them on th...
-1	mbiː	mbiː	VERB	_	_	0	root	_	AlignBegin=244422|AlignEnd=244625|Gloss=take
-2	ʧaː-íː	ʧaː-iə	VERB	_	Aspect=Res	1	comp:aux	_	AlignBegin=244625|AlignEnd=244828|Gloss=put|wordform=ʧaː
-3	á	ká	ADP	_	_	2	comp:obl	_	AlignBegin=244828|AlignEnd=245031|Gloss=at
-4	teː	teː	ADP	_	_	3	unk	_	AlignBegin=245031|AlignEnd=245234|Gloss=at
-5	ŋaː	ŋaː	NOUN	_	_	3	comp:obj	_	AlignBegin=245234|AlignEnd=245437|Gloss=small
+1	mbiː	mbiː	VERB	_	_	0	root@scrap	_	AlignBegin=244422|AlignEnd=244625|Gloss=take
+2	ʧáːy	ʧaː	VERB	_	Aspect=Res	1	compound:svc	_	AlignBegin=244625|AlignEnd=244828|Gloss=put|wordform=ʧaː
+3	á	ká	ADP	_	_	2	comp:obl	_	AlignBegin=244828|AlignEnd=245031|ExtPos=ADP|Gloss=at|Idiom=Yes
+4	teː	teː	ADP	_	_	3	unk	_	AlignBegin=245031|AlignEnd=245234|Gloss=at|InIdiom=Yes
+5	ŋaː	ŋaː	ADJ	_	_	3	comp:obj	_	AlignBegin=245234|AlignEnd=245437|Gloss=small
 6	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=245437|AlignEnd=245638|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_189-189
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 244422, 249098
-# text = àː tuː gón ɗi ŋaː látsámbàr ɗan kutu nə gyópti gyáː núː wón oː ?//
-# text_ortho = mbiː àː tuː gónɗi ŋaː látsámbàr ɗan kutu nə gyópti gyaː núː wónowoː ?//
+# text = àː tuː gónɗi ŋaː látsámbàr ɗan kutu nə gyópti gyaː núː wón oː hoː ?//
+# text_ortho = àː tuː gónɗi ŋaː látsámbàr ɗan kutu nə gyópti gyaː núː wón oː hoː ?//
 # text_en = He weaved some more, very small, something like whose wrapper ?
 1	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=246026|AlignEnd=246262|Gloss=3SG.PERF
 2	tuː	tuː	VERB	_	_	1	comp:aux	_	AlignBegin=246262|AlignEnd=246498|Gloss=weave
 3	gón	gón	PRON	_	Definite=Spec	2	comp:obj	_	AlignBegin=246498|AlignEnd=246616|Gloss=SPEC
 4	ɗi	ɗi	PART	_	_	2	compound:prt	_	AlignBegin=246616|AlignEnd=246734|Gloss=CTP
 5	ŋaː	ŋaː	ADJ	_	_	6	mod	_	AlignBegin=246734|AlignEnd=246970|Gloss=small
-6	látsámbàr	látsámbàr	NOUN	_	_	1	subj	_	AlignBegin=246970|AlignEnd=247206|Gloss=small
-7	ɗan	ɗan	SCONJ	_	_	6	mod@relcl	_	AlignBegin=247206|AlignEnd=247442|Gloss=like
-8	kutu	kutu	SCONJ	_	_	7	unk	_	AlignBegin=247442|AlignEnd=247678|Gloss=as_if
-9	nə	nə	PART	_	_	7	comp:obj	_	AlignBegin=247678|AlignEnd=247914|Gloss=be
-10	gyópti	gyópti	DET	_	Number=Plur	9	comp:pred	_	AlignBegin=247914|AlignEnd=248150|Gloss=wrapper
+6	látsámbàr	látsámbàr	IDEO	_	_	3	conj:appos	_	AlignBegin=246970|AlignEnd=247206|Gloss=small
+7	ɗan	ɗan	ADP	_	_	6	mod	_	AlignBegin=247206|AlignEnd=247442|Gloss=like
+8	kutu	kutu	ADP	_	_	7	unk	_	AlignBegin=247442|AlignEnd=247678|Gloss=as_if
+9	nə	nə	ADP	_	_	7	comp:obj	_	AlignBegin=247678|AlignEnd=247914|Gloss=be
+10	gyópti	gyópti	DET	_	Number=Plur	9	comp:obj	_	AlignBegin=247914|AlignEnd=248150|Gloss=wrapper
 11	gyáː	gyáː	DET	_	Number=Plur	12	det	_	AlignBegin=248150|AlignEnd=248386|Gloss=3Plur
-12	núː	núː	PRON	_	PronType=Int	9	comp:pred	_	AlignBegin=248386|AlignEnd=248622|Gloss=who
-13	wón	wón	DET	_	Definite=Spec	12	det	_	AlignBegin=248622|AlignEnd=248740|Gloss=SPEC
-14	oː	oː	PART	_	PartType=Emp	9	mod	_	AlignBegin=248740|AlignEnd=248858|Gloss=EMPH
-15	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=248858|AlignEnd=249098|Gloss=PUNCT
+12	núː	núː	PRON	_	PronType=Int	10	mod	_	AlignBegin=248386|AlignEnd=248622|Gloss=who
+13	wón	wón	DET	_	Definite=Spec	10	det	_	AlignBegin=248622|AlignEnd=248740|Gloss=SPEC
+14	oː	oː	PART	_	PartType=Emp	1	mod	_	AlignBegin=248622|AlignEnd=248740|Gloss=EMPH
+15	hoː	hoː	PART	_	PartType=Int	1	mod	_	AlignBegin=248740|AlignEnd=248858|Gloss=EMPH
+16	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=248858|AlignEnd=249098|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_190-190
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 249892, 251179
-# text = á mbiː ʧaː -íː á teː ʧikn -i gín //
+# text = á mbîː ʧáːy á teː ʧiki gín //
 # text_ortho = á mbîː ʧáːy á teː ʧiki gín //
 # text_en = He took them and put them on this thigh.
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=249892|AlignEnd=250053|Gloss=at
-2	mbiː	mbiː	VERB	_	_	1	comp:aux	_	AlignBegin=250053|AlignEnd=250214|Gloss=take
-3	ʧaː-íː	ʧaː-íː	VERB	_	Aspect=Res	2	comp:obj	_	AlignBegin=250214|AlignEnd=250375|Gloss=put|wordform=ʧaː
-4	á	ká	ADP	_	_	2	comp:obl	_	AlignBegin=250375|AlignEnd=250536|Gloss=at
-5	teː	teː	ADP	_	_	4	unk	_	AlignBegin=250536|AlignEnd=250697|Gloss=at
-6	ʧikn-i	ʧikn-i	NOUN	_	_	4	comp:obj	_	AlignBegin=250697|AlignEnd=250858|Gloss=thigh|wordform=ʧikn
-7	gín	gín	DET	_	PronType=Dem	6	det	_	AlignBegin=250858|AlignEnd=251019|Gloss=PROX
+2	mbîː	mbiː	VERB	_	_	1	comp:aux	_	AlignBegin=250053|AlignEnd=250214|Gloss=take
+3	ʧáːy	ʧaː	VERB	_	Aspect=Res	2	compound:svc	_	AlignBegin=250214|AlignEnd=250375|Gloss=put|wordform=ʧaː
+4	á	ká	ADP	_	_	3	comp:obl	_	AlignBegin=250375|AlignEnd=250536|ExtPos=ADP|Gloss=at|Idiom=Yes
+5	teː	teː	ADP	_	_	4	unk	_	AlignBegin=250536|AlignEnd=250697|Gloss=at|InIdiom=Yes
+6	ʧiki	ʧikn	NOUN	_	Definite=Ind	4	comp:obj	_	AlignBegin=250697|AlignEnd=250858|Gloss=thigh-Ind|wordform=ʧikn
+7	gín	gín	PRON	_	PronType=Dem	4	conj:appos	_	AlignBegin=250858|AlignEnd=251019|Gloss=PROX
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=251019|AlignEnd=251179|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_191-191
@@ -1949,44 +1950,52 @@
 # text = ʃíː kèː nán //
 # text_ortho = ʃíː kèː náŋ //
 # text_en = OK.
-1	ʃíː	ʃíː	VERB	_	_	0	root	_	AlignBegin=252662|AlignEnd=252896|Gloss=3SG|Lang=hau
-2	kèː	kèː	VERB	_	_	1	comp:aux	_	AlignBegin=252896|AlignEnd=253130|Gloss=be|Lang=hau
-3	nán	nán	ADV	_	_	2	comp:obj	_	AlignBegin=253130|AlignEnd=253364|Gloss=ANAPH|Lang=hau
+1	ʃíː	ʃíː	X	_	Foreign=Yes	0	root	_	AlignBegin=252662|AlignEnd=252896|Gloss=3SG|Lang=hau
+2	kèː	kèː	X	_	Foreign=Yes	1	flat:foreign	_	AlignBegin=252896|AlignEnd=253130|Gloss=be|Lang=hau
+3	nán	nán	X	_	Foreign=Yes	2	flat:foreign	_	AlignBegin=253130|AlignEnd=253364|Gloss=ANAPH|Lang=hau
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=253364|AlignEnd=253599|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_192-192
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 254762, 256310
-# text = ɗan tə́ ɗagá ɬə́ːt -kə́nì //
+# text = ɗan tə́ ɗágá ɬə́ːtkə́nì //
 # text_ortho = ɗan tə́ ɗágá ɬə́ːtkə́nì //
 # text_en = Then they flew away.
-1	ɗan	ɗan	SCONJ	_	_	2	mod	_	AlignBegin=254762|AlignEnd=255072|Gloss=then
+1	ɗan	ɗan	ADV	_	_	2	mod	_	AlignBegin=254762|AlignEnd=255072|Gloss=then
 2	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=255072|AlignEnd=255382|Gloss=3Plur.Aor
 3	ɗagá	ɗagá	VERB	_	_	2	comp:aux	_	AlignBegin=255382|AlignEnd=255692|Gloss=lift
-4	ɬə́ːt-kə́nì	ɬə́ːt-k	VERB	_	VerbForm=Vnoun	3	comp:obj	_	AlignBegin=255692|AlignEnd=256002|Gloss=fly|wordform=ɬə́ːt
+4	ɬə́ːtkə́nì	ɬə́ːt	VERB	_	VerbForm=Vnoun	3	comp:obj	_	AlignBegin=255692|AlignEnd=256002|ExtPos=NOUN|Gloss=fly|wordform=ɬə́ːt
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=256002|AlignEnd=256310|Gloss=PUNCT
 
-# sent_id = SAY_BC_narr_01_193-197
+# sent_id = SAY_BC_narr_01_193-194
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
-# sent_timecode = 256857, 260176
-# text = ɗan tə́ ɬə́ːt || tə́ ɬə́ːt || ɗa á ɗagá ɬə́ːt -kə́nì tsəní &//
-# text_ortho = ɗan tə́ ɬə̌ːt || tə́ ɬə̌ːt || ɗa á ɗâgá ɬə́ːtkə̂n tsə́n &//
-# text_en = As they flew away... they flew away... as he flew away like this...
+# sent_timecode = 256857, 258079
+# text = ɗan tə́ ɬə́ːt || tə́ ɬə́ːt &//
+# text_ortho = ɗan tə́ ɬə̌ːt || tə́ ɬə̌ːt &//
+# text_en = As they flew away... they flew away... 
 1	ɗan 	ɗan 	SCONJ	_	_	2	mod	_	AlignBegin=256857|AlignEnd=257045|Gloss=as
-2	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=257045|AlignEnd=257233|Gloss=3Plur.Aor
+2	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root@scrap	_	AlignBegin=257045|AlignEnd=257233|Gloss=3Plur.Aor
 3	ɬə́ːt 	ɬə́ːt	VERB	_	_	2	comp:aux	_	AlignBegin=257233|AlignEnd=257421|Gloss=fly
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=257421|AlignEnd=257607
 5	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	2	conj:dicto	_	AlignBegin=257680|AlignEnd=257813|Gloss=3Plur.Aor
 6	ɬə́ːt	ɬə́ː	VERB	_	_	5	comp:aux	_	AlignBegin=257813|AlignEnd=257946|Gloss=fly
-7	||	||	PUNCT	_	_	9	punct	_	AlignBegin=257946|AlignEnd=258079
-8	ɗa	ɗa	SCONJ	_	_	5	mod	_	AlignBegin=258079|AlignEnd=258298|Gloss=as
-9	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	8	comp:obj	_	AlignBegin=258298|AlignEnd=258517|Gloss=3SG.Aor
-10	ɗagá	ɗagá	VERB	_	_	9	comp:aux	_	AlignBegin=258517|AlignEnd=258736|Gloss=lift
-11	ɬə́ːt-kə́nì	ɬə́ːt-kə́ni	VERB	_	_	10	comp:obj	_	AlignBegin=258736|AlignEnd=258955|Gloss=fly|wordform=ɬə́ːt
-12	tsəní	tsəní	ADV	_	_	11	mod	_	AlignBegin=258955|AlignEnd=259174|Gloss=like_this
-13	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=259174|AlignEnd=259393|Gloss=PUNCT
+7	&//	&//	PUNCT	_	_	9	punct	_	AlignBegin=257946|AlignEnd=258079
+
+# sent_id = SAY_BC_narr_01_195-197
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
+# sent_timecode = 258079, 260176
+# text = ɗa á ɗâgá ɬə́ːtkə̂n tsə́n &//
+# text_ortho = ɗa á ɗâgá ɬə́ːtkə̂n tsə́n &//
+# text_en = As he flew away like this...
+1	ɗa	ɗan	ADV	_	_	0	mod	_	AlignBegin=258079|AlignEnd=258298|Gloss=as
+2	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	conj:dicto	_	AlignBegin=258298|AlignEnd=258517|Gloss=3SG.Aor
+3	ɗagá	ɗagá	VERB	_	_	0	comp:aux	_	AlignBegin=258517|AlignEnd=258736|Gloss=lift
+4	ɬə́ːt-kə́nì	ɬə́ːt-kə́ni	VERB	_	_	0	comp:obj	_	AlignBegin=258736|AlignEnd=258955|Gloss=fly|wordform=ɬə́ːt
+5	tsəní	tsəní	ADV	_	_	0	mod	_	AlignBegin=258955|AlignEnd=259174|Gloss=like_this
+6	&//	&//	PUNCT	_	_	0	punct	_	AlignBegin=259174|AlignEnd=259393|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_196-196
 # speaker_id = SP2
