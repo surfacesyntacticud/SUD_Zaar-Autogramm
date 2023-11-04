@@ -1972,15 +1972,15 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 256857, 258079
-# text = ɗan tə́ ɬə́ːt || tə́ ɬə́ːt &//
+# text = ɗan tə́ ɬə̌ːt || tə́ ɬə̌ːt &//
 # text_ortho = ɗan tə́ ɬə̌ːt || tə́ ɬə̌ːt &//
 # text_en = As they flew away... they flew away... 
 1	ɗan 	ɗan 	SCONJ	_	_	2	mod	_	AlignBegin=256857|AlignEnd=257045|Gloss=as
 2	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root@scrap	_	AlignBegin=257045|AlignEnd=257233|Gloss=3Plur.Aor
-3	ɬə́ːt 	ɬə́ːt	VERB	_	_	2	comp:aux	_	AlignBegin=257233|AlignEnd=257421|Gloss=fly
+3	ɬə̌ːt 	ɬə́ːt	VERB	_	_	2	comp:aux	_	AlignBegin=257233|AlignEnd=257421|Gloss=fly
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=257421|AlignEnd=257607
 5	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	2	conj:dicto	_	AlignBegin=257680|AlignEnd=257813|Gloss=3Plur.Aor
-6	ɬə́ːt	ɬə́ː	VERB	_	_	5	comp:aux	_	AlignBegin=257813|AlignEnd=257946|Gloss=fly
+6	ɬə̌ːt	ɬə́ː	VERB	_	_	5	comp:aux	_	AlignBegin=257813|AlignEnd=257946|Gloss=fly
 7	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=257946|AlignEnd=258079
 
 # sent_id = SAY_BC_narr_01_195-197
@@ -1990,12 +1990,12 @@
 # text = ɗa á ɗâgá ɬə́ːtkə̂n tsə́n &//
 # text_ortho = ɗa á ɗâgá ɬə́ːtkə̂n tsə́n &//
 # text_en = As he flew away like this...
-1	ɗa	ɗan	ADV	_	_	0	mod	_	AlignBegin=258079|AlignEnd=258298|Gloss=as
-2	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	conj:dicto	_	AlignBegin=258298|AlignEnd=258517|Gloss=3SG.Aor
-3	ɗagá	ɗagá	VERB	_	_	0	comp:aux	_	AlignBegin=258517|AlignEnd=258736|Gloss=lift
-4	ɬə́ːt-kə́nì	ɬə́ːt-kə́ni	VERB	_	_	0	comp:obj	_	AlignBegin=258736|AlignEnd=258955|Gloss=fly|wordform=ɬə́ːt
-5	tsəní	tsəní	ADV	_	_	0	mod	_	AlignBegin=258955|AlignEnd=259174|Gloss=like_this
-6	&//	&//	PUNCT	_	_	0	punct	_	AlignBegin=259174|AlignEnd=259393|Gloss=PUNCT
+1	ɗa	ɗan	ADV	_	_	0	root@scrap	_	AlignBegin=258079|AlignEnd=258298|Gloss=as
+2	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	1	comp:obj	_	AlignBegin=258298|AlignEnd=258517|Gloss=3SG.Aor
+3	ɗagá	ɗagá	VERB	_	_	2	comp:aux	_	AlignBegin=258517|AlignEnd=258736|Gloss=lift
+4	ɬə́ːtkə̂n	ɬə́ːt	VERB	_	VerbForm=Vnoun	3	comp:obj	_	AlignBegin=258736|AlignEnd=258955|ExtPos=NOUN|Gloss=fly|wordform=ɬə́ːt
+5	tsə́n	tsəní	ADV	_	_	4	mod	_	AlignBegin=258955|AlignEnd=259174|Gloss=like_this
+6	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=259174|AlignEnd=259393|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_196-196
 # speaker_id = SP2
@@ -2004,40 +2004,41 @@
 # text = kǎː < tá də̌ːr fáː ?//
 # text_ortho = kǎː < tá də̌ːr fâː ?//
 # text_en = Well, what about Lizard then?
-1	kǎː	kǎː	INTJ	_	_	3	discourse	_	AlignBegin=258511|AlignEnd=258671|Gloss=what
+1	kǎː	kǎː	INTJ	_	_	4	discourse	_	AlignBegin=258511|AlignEnd=258671|Gloss=what
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=258671|AlignEnd=258831|Gloss=PUNCT
-3	tá	tá	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=258831|AlignEnd=258991|Gloss=then
-4	də̌ːr	də̌ːr	NOUN	_	_	3	comp:aux	_	AlignBegin=258991|AlignEnd=259151|Gloss=lizard
-5	fáː	fáː	PART	_	_	3	mod	_	AlignBegin=259151|AlignEnd=259311|Gloss=indeed
-6	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=259311|AlignEnd=259471|Gloss=PUNCT
+3	tá	tá	ADV	_	Number=Plur|Person=3|Tense=Fut	4	mod	_	AlignBegin=258831|AlignEnd=258991|Gloss=then
+4	də̌ːr	də̌ːr	NOUN	_	_	0	root	_	AlignBegin=258991|AlignEnd=259151|Gloss=lizard
+5	fáː	fáː	PART	_	_	4	discourse	_	AlignBegin=259151|AlignEnd=259311|Gloss=indeed
+6	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=259311|AlignEnd=259471|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_198-198
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 260176, 261877
-# text = èː < də̌ːr fáː ta -íː á kâːr longa //
+# text = èː < də̌ːr fâː táy á kâːr longa //
 # text_ortho = èː < də̌ːr fâː táy á kâːr longa //
 # text_en = Yes, Lizard indeed he climbed on Rabbit's back.
-1	èː	èː	INTJ	_	_	5	discourse	_	AlignBegin=259814|AlignEnd=259995|Gloss=yes
-2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=259995|AlignEnd=260176|Gloss=PUNCT
-3	də̌ːr	də̌ːr	NOUN	_	_	5	mod	_	AlignBegin=260176|AlignEnd=260419|Gloss=lizard
-4	fáː	fáː	PART	_	_	5	discourse	_	AlignBegin=260419|AlignEnd=260662|Gloss=indeed
-5	ta-íː	ta-íː	VERB	_	Aspect=Res	0	root	_	AlignBegin=260662|AlignEnd=260905|Gloss=climb|wordform=ta
+1	èː	èː	INTJ	_	_	0	root	_	AlignBegin=259814|AlignEnd=259995|Gloss=yes
+2	//=	//=	PUNCT	_	_	1	punct	_	AlignBegin=259995|AlignEnd=260176|Gloss=PUNCT
+3	də̌ːr	də̌ːr	NOUN	_	_	5	dislocated@subj	_	AlignBegin=260176|AlignEnd=260419|Gloss=lizard
+4	fáː	fáː	PART	_	_	3	mod	_	AlignBegin=260419|AlignEnd=260662|Gloss=indeed
+5	táy	ta	VERB	_	Aspect=Res	1	parataxis:conj	_	AlignBegin=260662|AlignEnd=260905|Gloss=climb-Res|wordform=ta
 6	á	ká	ADP	_	_	5	comp:obl	_	AlignBegin=260905|AlignEnd=261148|Gloss=at
-7	kâːr	kâːr	ADV	_	_	6	comp:obj	_	AlignBegin=261148|AlignEnd=261391|Gloss=back
-8	longa	longa	NOUN	_	_	6	comp:obj	_	AlignBegin=261391|AlignEnd=261634|Gloss=rabbit
+7	kâːr	kâːr	NOUN	_	_	6	comp:obj	_	AlignBegin=261148|AlignEnd=261391|Gloss=back
+8	longa	longa	NOUN	_	_	7	mod	_	AlignBegin=261391|AlignEnd=261634|Gloss=rabbit
 9	//	//	PUNCT	_	_	5	punct	_	AlignBegin=261634|AlignEnd=261877|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_199-199
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 262084, 262866
-# text = àː mbiː də̌ːr -íː //
+# text = àː mbiː dəːríː //
 # text_ortho = àː mbiː dəːríː //
 # text_en = He took Lizard.
 1	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=262084|AlignEnd=262280|Gloss=3SG.PERF
-2	mbiː	mbiː	VERB	_	_	1	comp:aux	_	AlignBegin=262280|AlignEnd=262476|Gloss=take
-3	də̌ːr-íː	də̌ːr-íː	NOUN	_	_	2	comp:obj@lvc	_	AlignBegin=262476|AlignEnd=262672|Gloss=lizard|wordform=də̌ːr
+2-3	mbiː dəːríː	_	_	_	_	_	_	_	_
+2	*mbiː-í	mbiː	VERB	_	Aspect=Res	1	comp:aux	_	AlignBegin=262280|AlignEnd=262476|Gloss=take-Res
+3	də̌ːr	də̌ːr	NOUN	_	_	2	comp:obj	_	AlignBegin=262476|AlignEnd=262672|Gloss=lizard|wordform=də̌ːr
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=262672|AlignEnd=262866|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_200-201
