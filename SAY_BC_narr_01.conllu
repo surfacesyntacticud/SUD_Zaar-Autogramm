@@ -1618,7 +1618,7 @@
 14	nə	nə	PART	_	_	10	comp:obj	_	AlignBegin=213672|AlignEnd=213847|ExtPos=NOUN|Gloss=be|Idiom=Yes
 15	nasáŋʃi	nâs	ADJ	_	Number=Plur	14	compound	_	AlignBegin=213847|AlignEnd=214022|Gloss=big|InIdiom=Yes|wordform=nâs
 16	ɗaɗa	ɗaɗa	ADV	_	_	10	mod	_	AlignBegin=214022|AlignEnd=214197|Gloss=again
-17	ŋâː	ŋâː	PART	_	PartType=Int	8	mod	_	AlignBegin=214197|AlignEnd=214372|Gloss=VRT
+17	ŋâː	ŋaː	PART	_	PartType=Int	8	mod	_	AlignBegin=214197|AlignEnd=214372|Gloss=VRT
 18	//	//	PUNCT	_	_	8	punct	_	AlignBegin=214372|AlignEnd=214548|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_169-170
@@ -1777,19 +1777,23 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 230542, 232355
-# text = tá ká ɬə́ːt -ni yáːwón kì ʧím =ʃí aː //
+# text = tá ká ɬə̌ːtnəni yáːwón kì ʧímʃâː //
 # text_ortho = tá ká ɬə̌ːtnəni yáːwón kì ʧímʃâː //
 # text_en = Are you going to fly today with him?
-1	tá	tá	PART	_	_	2	discourse	_	AlignBegin=230542|AlignEnd=230801|Gloss=then
+1	tá	tá	ADV	_	_	2	mod	_	AlignBegin=230542|AlignEnd=230801|Gloss=then
 2	ká	a	AUX	_	Number=Plur|Person=2|Tense=Fut	0	root	_	AlignBegin=230801|AlignEnd=231060|Gloss=2Plur.FUT
-3	ɬə́ːt	ɬə́ː	VERB	_	_	2	comp:aux	_	AlignBegin=231060|AlignEnd=231190|Gloss=fly
+3-4	ɬə̌ːtnəni	_	_	_	_	_	_	_	_
+3	ɬə̌ːtn	ɬə́ːt	VERB	_	Number=Plur	2	comp:aux	_	AlignBegin=231060|AlignEnd=231190|Gloss=fly-Plur
 4	ni	ni	PART	_	Aspect=Iter	3	compound:prt	_	AlignBegin=231190|AlignEnd=231319|Gloss=ITER|wordform=-ni
 5	yáːwón	yáːwón	ADV	_	PronType=Dem	3	mod	_	AlignBegin=231319|AlignEnd=231578|Gloss=today
-6	kì	kì	VERB	_	Number=Plur|Person=1|PronType=Prs	3	parataxis@mod	_	AlignBegin=231578|AlignEnd=231837|Gloss=2Plur.be
-7	ʧím	ʧím	ADP	_	_	3	comp:obl	_	AlignBegin=231837|AlignEnd=231923|Gloss=with
-8	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=231923|AlignEnd=232009|Gloss=3Plur.OBJ
-9	aː	aː	PART	_	PartType=Int	2	mod	_	AlignBegin=232009|AlignEnd=232096|Gloss=VRT
-10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=232096|AlignEnd=232355|Gloss=PUNCT
+6-7	kì	_	_	_	_	_	_	_	_
+6	kə̀	kə̀	PRON	_	Number=Plur|Person=2|PronType=Prs	3	parataxis@mod	_	AlignBegin=231578|AlignEnd=231837|Gloss=2Plur
+7	yi	yi	VERB	_	_	6	comp:aux	_	AlignBegin=231578|AlignEnd=231837|Gloss=be
+8-10	ʧímʃâː	_	_	_	_	_	_	_	_
+8	ʧím	ʧím	ADP	_	_	7	comp:pred	_	AlignBegin=231837|AlignEnd=231923|Gloss=with
+9	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=231923|AlignEnd=232009|Gloss=3Plur.OBJ
+10	aː	aː	PART	_	PartType=Int	2	mod	_	AlignBegin=232009|AlignEnd=232096|Gloss=VRT
+11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=232096|AlignEnd=232355|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_180-180
 # speaker_id = SP2
@@ -1805,14 +1809,15 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 233897, 235204
-# text = àː nat gyòmɬì ɗi ŋǎː ?//
+# text = àː nat gyòmɬìɗì ŋǎː ?//
 # text_ortho = àː nat gyòmɬìɗì ŋǎː ?//
-# text_en = Didn't he tie some wings?
+# text_en = Didn't he tie wings?
 1	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=233897|AlignEnd=234158|Gloss=3SG.PERF
 2	nat	nat	VERB	_	_	1	comp:aux	_	AlignBegin=234158|AlignEnd=234419|Gloss=tie
+3-4	gyòmɬìɗì	_	_	_	_	_	_	_	_
 3	gyòmɬì	gyòmɬì	NOUN	_	_	2	comp:obj	_	AlignBegin=234419|AlignEnd=234549|Gloss=wing
-4	ɗi	ɗi	PART	_	_	2	compound:prt	_	AlignBegin=234549|AlignEnd=234680|Gloss=CTP
-5	ŋǎː	ŋǎː	PART	_	PartType=Int	1	mod	_	AlignBegin=234680|AlignEnd=234941|Gloss=VRT
+4	ɗì	ɗi	PART	_	_	2	compound:prt	_	AlignBegin=234549|AlignEnd=234680|Gloss=CTP
+5	ŋǎː	ŋaː	PART	_	PartType=Int	1	mod	_	AlignBegin=234680|AlignEnd=234941|Gloss=VRT
 6	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=234941|AlignEnd=235204|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_182-182
@@ -1829,13 +1834,13 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 235579, 236586
-# text = àː tu gyòmɬì̊ mbàraːt //
-# text_ortho = àː tu gyòmɬì̊ mbàraːt //
-# text_en = He got some Crownbird feathers.
+# text = àː tu gyòmɬì mbàraːt //
+# text_ortho = àː tu gyòmɬì mbàraːt //
+# text_en = He found some Crownbird feathers.
 1	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=235579|AlignEnd=235780|Gloss=3SG.PERF
 2	tu	tu	VERB	_	_	1	comp:aux	_	AlignBegin=235780|AlignEnd=235981|Gloss=get
-3	gyòmɬì̊	gyòmɬì̊	PRON	_	Number=Plur	2	comp:obj	_	AlignBegin=235981|AlignEnd=236182|Gloss=wing
-4	mbàraːt	mbàraːt	NOUN	_	_	2	comp:obj	_	AlignBegin=236182|AlignEnd=236383|Gloss=crownbird
+3	gyòmɬì	gyòmɬì	NOUN	_	Number=Plur	2	comp:obj	_	AlignBegin=235981|AlignEnd=236182|Gloss=wing
+4	mbàraːt	mbàraːt	NOUN	_	_	3	mod	_	AlignBegin=236182|AlignEnd=236383|Gloss=crownbird
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=236383|AlignEnd=236586|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_184-184
@@ -1844,31 +1849,32 @@
 # sent_timecode = 238660, 239262
 # text = á mbiː //
 # text_ortho = á mbîː //
-# text_en = He took the wings.
+# text_en = He took (them).
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=238660|AlignEnd=238861|Gloss=3SG.Aor
-2	mbiː	mbiː	VERB	_	_	1	comp:aux	_	AlignBegin=238861|AlignEnd=239062|Gloss=take
+2	mbîː	mbiː	VERB	_	_	1	comp:aux	_	AlignBegin=238861|AlignEnd=239062|Gloss=take
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=239062|AlignEnd=239262|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_185-186
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 239262, 241991
-# text = ɗan tə́ ʧaː dǔːm -ês -íː á mbiː gyòmɬì mbàraːt |c ʧaː -íː á kópti //
+# text = ɗan tə́ ʧâː duːmêːʃíː á mbìː gyòmɬì mbàraːt |c ʧáːy á kópti //
 # text_ortho = ɗan tə́ ʧâː duːmêːʃíː á mbìː gyòmɬì mbàraːt |c ʧáːy á kópti //
 # text_en = As they were gathering the honey he took Crownbird's feathers (and) put them on his shoulders.
-1	ɗan	ɗan	SCONJ	_	_	2	mod	_	AlignBegin=239262|AlignEnd=239488|Gloss=as
-2	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=239488|AlignEnd=239714|Gloss=3Plur.Aor
-3	ʧaː	ʧaː	VERB	_	_	2	comp:aux	_	AlignBegin=239714|AlignEnd=239940|Gloss=collect
-4	dǔːm-ês-íː	dǔːm-ês-íː	NOUN	_	Aspect=Res	3	comp:obj	_	AlignBegin=239940|AlignEnd=240166|Gloss=honey|wordform=dǔːm
-5	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	3	parataxis@comp	_	AlignBegin=240166|AlignEnd=240392|Gloss=3SG.Aor
-6	mbiː	mbiː	VERB	_	_	2	comp:aux	_	AlignBegin=240392|AlignEnd=240618|Gloss=take
-7	gyòmɬì	gyòmɬì	DET	_	Number=Plur	6	comp:obj	_	AlignBegin=240618|AlignEnd=240844|Gloss=wing
-8	mbàraːt	mbàraːt	NOUN	_	_	6	comp:obj	_	AlignBegin=240844|AlignEnd=241070|Gloss=crownbird
+1	ɗan	ɗan	SCONJ	_	_	5	mod	_	AlignBegin=239262|AlignEnd=239488|Gloss=as
+2	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=239488|AlignEnd=239714|Gloss=3Plur.Aor
+3-4	ʧâː duːmêːʃíː	_	_	_	_	_	_	_	_
+3	*ʧâː-íː	ʧaː	VERB	_	Aspect=Res	2	comp:aux	_	AlignBegin=239714|AlignEnd=239940|Gloss=collect-Res
+4	dǔːmês	dǔːm	NOUN	_	Definite=Def	3	comp:obj	_	AlignBegin=239940|AlignEnd=240166|Gloss=honey|wordform=dǔːm
+5	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=240166|AlignEnd=240392|Gloss=3SG.Aor
+6	mbìː	mbiː	VERB	_	_	5	comp:aux	_	AlignBegin=240392|AlignEnd=240618|Gloss=take
+7	gyòmɬì	gyòmɬì	NOUN	_	Number=Plur	6	comp:obj	_	AlignBegin=240618|AlignEnd=240844|Gloss=wing
+8	mbàraːt	mbàraːt	NOUN	_	_	7	mod	_	AlignBegin=240844|AlignEnd=241070|Gloss=crownbird
 9	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=241070|AlignEnd=241293|Gloss=PUNCT
-10	ʧaː-íː	ʧaː-íː	VERB	_	Aspect=Res	5	conj:coord	_	AlignBegin=241293|AlignEnd=241467|Gloss=put|wordform=ʧaː
+10	ʧáːy	ʧaː	VERB	_	Aspect=Res	5	conj:coord	_	AlignBegin=241293|AlignEnd=241467|Gloss=put-Res|wordform=ʧaː
 11	á	ká	ADP	_	_	10	comp:obl	_	AlignBegin=241467|AlignEnd=241641|Gloss=at
 12	kópti	kópti	NOUN	_	_	11	comp:obj	_	AlignBegin=241641|AlignEnd=241815|Gloss=shoulder
-13	//	//	PUNCT	_	_	2	punct	_	AlignBegin=241815|AlignEnd=241991|Gloss=PUNCT
+13	//	//	PUNCT	_	_	5	punct	_	AlignBegin=241815|AlignEnd=241991|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_187-187
 # speaker_id = SP1
@@ -2234,7 +2240,7 @@
 4	ɓəl-kə́nì	ɓəl-k	VERB	_	VerbForm=Vnoun	3	comp:obj	_	AlignBegin=288309|AlignEnd=288429|Gloss=dig|wordform=ɓəl
 5	gìr	gìr	NOUN	_	_	6	mod	_	AlignBegin=288549|AlignEnd=288669|Gloss=hole
 6	ngála-i	ngála-i	NOUN	_	_	3	compound:svc	_	AlignBegin=288669|AlignEnd=288789|Gloss=crab|wordform=ngála
-7	ŋâː	ŋâː	PART	_	PartType=Int	2	mod	_	AlignBegin=288789|AlignEnd=288909|Gloss=VRT
+7	ŋâː	ŋaː	PART	_	PartType=Int	2	mod	_	AlignBegin=288789|AlignEnd=288909|Gloss=VRT
 8	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=288909|AlignEnd=289028|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_218-219
@@ -2694,7 +2700,7 @@
 16	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	15	comp:ben	_	AlignBegin=348179|AlignEnd=348277|Gloss=2SG.OBJ
 17	wàːyo	wàːyo	NOUN	_	_	15	comp:obj	_	AlignBegin=348277|AlignEnd=348473|Gloss=trick
 18	wón	wón	DET	_	Definite=Spec	17	det	_	AlignBegin=348473|AlignEnd=348669|Gloss=SPEC
-19	ŋâː	ŋâː	PART	_	PartType=Int	14	mod	_	AlignBegin=348669|AlignEnd=348865|Gloss=VRT
+19	ŋâː	ŋaː	PART	_	PartType=Int	14	mod	_	AlignBegin=348669|AlignEnd=348865|Gloss=VRT
 20	?//]	?//]	PUNCT	_	_	6	punct	_	AlignBegin=348865|AlignEnd=349061|Gloss=PUNCT
 21	//	//	PUNCT	_	_	6	punct	_	AlignBegin=349061|AlignEnd=349254|Gloss=PUNCT
 
@@ -3155,7 +3161,7 @@
 15	ʃèː	ʃèː	INTJ	_	_	17	mod	_	AlignBegin=405388|AlignEnd=405596|Gloss=X
 16	vwàràŋ	vwàràŋ	NOUN	_	_	17	mod	_	AlignBegin=405596|AlignEnd=405779|Gloss=blood
 17	kyâːt	kyâːt	IDEO	_	_	3	mod	_	AlignBegin=405779|AlignEnd=405962|Gloss=fast
-18	ŋâː	ŋâː	PART	_	PartType=Int	17	mod	_	AlignBegin=405962|AlignEnd=406145|Gloss=VRT
+18	ŋâː	ŋaː	PART	_	PartType=Int	17	mod	_	AlignBegin=405962|AlignEnd=406145|Gloss=VRT
 19	//=	//=	PUNCT	_	_	2	punct	_	AlignBegin=406145|AlignEnd=406329|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_313-313
