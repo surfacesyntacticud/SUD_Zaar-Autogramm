@@ -2162,53 +2162,57 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 279522, 283500
-# text = də̌ːr ɗa á kat kə̀kə̀rʧi kə̀kə̀rʧi kə̀kə̀rʧi < ɬə nə́ nda -íː gìr ngála ɗa lâːr -i ɗaɗân ndzwǎːt //
-# text_ortho = də̌ːr ɗa á kât kə̀kə̀rʧi kə̀kə̀rʧi kə̀kə̀rʧi < ɬə́ nə́ ndáy gìr ngàlá ɗa láːri ɗaɗân ndzwǎːt //
-# text_en = Lizard who was plodding along managed to slip into Crab's burrow.
-1	də̌ːr	də̌ːr	NOUN	_	_	9	mod	_	AlignBegin=279522|AlignEnd=279722|Gloss=lizard
-2	ɗa	ɗa	SCONJ	_	PronType=Rel	1	mod@relcl	_	AlignBegin=279722|AlignEnd=279922|Gloss=REL
-3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	2	comp:obj	_	AlignBegin=279922|AlignEnd=280122|Gloss=3SG.Aor
-4	kat	kat	VERB	_	_	3	comp:aux	_	AlignBegin=280122|AlignEnd=280321|Gloss=drive_away
-5	kə̀kə̀rʧi	kə̀kə̀rʧi	NOUN	_	_	11	comp:obj	_	AlignBegin=280321|AlignEnd=280636|Gloss=shuffle
+# text = də̌ːr ɗǎː kât < ɬə́n ndáy gìr ŋgàlá ɗa láːri ɗaɗân ndzwǎːt //
+# text_ortho = də̌ːr ɗǎː kât < ɬə́n ndáy gìr ŋgàlá ɗa láːri ɗaɗân ndzwǎːt //
+# text_en = Lizard who was plodding along went to slip into Crab's burrow.
+1	də̌ːr	də̌ːr	NOUN	_	_	3	dislocated@subj	_	AlignBegin=279522|AlignEnd=279722|Gloss=lizard
+2-3	ɗǎː	_	_	_	_	_	_	_	_
+2	ɗa	ɗan	ADV	_	PronType=Rel	3	mod	_	AlignBegin=279722|AlignEnd=279922|Gloss=REL
+3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=279922|AlignEnd=280122|Gloss=3SG.Aor
+4	kât	kat	VERB	_	_	3	comp:aux	_	AlignBegin=280122|AlignEnd=280321|Gloss=drive_away
+5	kə̀kə̀rʧi	kə̀kə̀rʧi	NOUN	_	_	4	mod	_	AlignBegin=280321|AlignEnd=280636|Gloss=shuffle
 6	kə̀kə̀rʧi	kə̀kə̀rʧi	IDEO	_	_	5	compound:redup	_	AlignBegin=280636|AlignEnd=280951|Gloss=shuffle
-7	kə̀kə̀rʧi	kə̀kə̀rʧi	IDEO	_	_	5	compound:redup	_	AlignBegin=280951|AlignEnd=281266|Gloss=shuffle
-8	<	<	PUNCT	_	_	1	punct	_	AlignBegin=281266|AlignEnd=281582|Gloss=PUNCT
-9	ɬə	ɬə	VERB	_	_	0	root	_	AlignBegin=281582|AlignEnd=281774|Gloss=go
-10	nə́	nə́	ADP	_	_	9	parataxis@comp	_	AlignBegin=281774|AlignEnd=281966|Gloss=for
-11	nda-íː	nda-iiː	VERB	_	Aspect=Res	10	comp:aux	_	AlignBegin=281966|AlignEnd=282158|Gloss=enter|wordform=nda
-12	gìr	gìr	NOUN	_	_	13	comp:obj	_	AlignBegin=282158|AlignEnd=282350|Gloss=hole
-13	ngála	ngála	VERB	_	_	10	comp:obj	_	AlignBegin=282350|AlignEnd=282542|Gloss=crab
-14	ɗa	ɗa	ADP	_	_	13	comp:obj	_	AlignBegin=282542|AlignEnd=282734|Gloss=at
-15	lâːr-i	lâːr-i	NOUN	_	_	13	comp:obj	_	AlignBegin=282734|AlignEnd=282926|Gloss=river|wordform=lâːr
-16	ɗaɗân	ɗaɗân	ADV	_	PronType=Dem	13	mod	_	AlignBegin=282926|AlignEnd=283118|Gloss=again
-17	ndzwǎːt	ndzwǎːt	IDEO	_	_	13	mod	_	AlignBegin=283118|AlignEnd=283310|Gloss=quick
-18	//	//	PUNCT	_	_	9	punct	_	AlignBegin=283310|AlignEnd=283500|Gloss=PUNCT
+7	kə̀kə̀rʧi	kə̀kə̀rʧi	IDEO	_	_	6	compound:redup	_	AlignBegin=280951|AlignEnd=281266|Gloss=shuffle
+8	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=281266|AlignEnd=281582|Gloss=PUNCT
+9-10	ɬə́n	_	_	_	_	_	_	_	_
+9	ɬə	ɬə	VERB	_	_	3	parataxis@conj	_	AlignBegin=281582|AlignEnd=281774|Gloss=go
+10	nə́	nə́	SCONJ	_	_	9	mod	_	AlignBegin=281774|AlignEnd=281966|Gloss=for
+11	ndáy	nda	VERB	_	Aspect=Res	10	comp:obj	_	AlignBegin=281966|AlignEnd=282158|Gloss=enter-Res|wordform=nda
+12	gìr	gìr	NOUN	_	_	11	comp:goal	_	AlignBegin=282158|AlignEnd=282350|Gloss=hole
+13	ŋgàlá	ngála	NOUN	_	_	12	compound	_	AlignBegin=282350|AlignEnd=282542|Gloss=crab
+14	ɗa	ɗa	ADP	_	_	11	mod	_	AlignBegin=282542|AlignEnd=282734|Gloss=at
+15	láːri	lâːr	NOUN	_	Definite=Ind	14	comp:obj	_	AlignBegin=282734|AlignEnd=282926|Gloss=river-Ind|wordform=lâːr
+16	ɗaɗân	ɗaɗân	ADV	_	PronType=Dem	11	mod	_	AlignBegin=282926|AlignEnd=283118|Gloss=again
+17	ndzwǎːt	ndzwǎːt	IDEO	_	_	11	mod	_	AlignBegin=283118|AlignEnd=283310|Gloss=quick
+18	//	//	PUNCT	_	_	3	punct	_	AlignBegin=283310|AlignEnd=283500|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_214-214
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 283913, 284979
-# text = yáːni máː á tu lə̂p waːt -kə́nì -íː //
-# text_ortho = yâːn máː á tû lə̂p wàːtkə̀níː //
-# text_en = Did he find a place to hide?
-1	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	3	dislocated@subj	_	AlignBegin=283913|AlignEnd=284065|Gloss=3SG
+# text = yâːn máː tû lə́p wàːtkə̀níː //
+# text_ortho = yâːn máː á tû lə́p wàːtkə̀níː //
+# text_en = Did he find a hiding place?
+1	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	3	dislocated@subj	_	AlignBegin=283913|AlignEnd=284065|Gloss=3SG
 2	máː	máː	PART	_	_	1	discourse	_	AlignBegin=284065|AlignEnd=284217|Gloss=even
 3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=284217|AlignEnd=284369|Gloss=3SG.Aor
-4	tu	tu	VERB	_	_	3	comp:aux	_	AlignBegin=284369|AlignEnd=284521|Gloss=get
+4-6	tû lə́p wàːtkə̀níː	_	_	_	_	_	_	_	_
+4	*tû-íː	tu	VERB	_	Aspect=Res	3	comp:aux	_	AlignBegin=284369|AlignEnd=284521|Gloss=get-Res
 5	lə́p	lə̂p	NOUN	_	_	4	comp:obj	_	AlignBegin=284521|AlignEnd=284673|Gloss=place
-6	wàːtkə̀níː	wàːtkə̀	NOUN	_	VerbForm=Vnoun	5	mod	_	AlignBegin=284673|AlignEnd=284825|ExtPos=NOUN|Gloss=hide
+6	wàːtkə̀n	waːt	NOUN	_	VerbForm=Vnoun	5	compound	_	AlignBegin=284673|AlignEnd=284825|ExtPos=NOUN|Gloss=hide
 7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=284825|AlignEnd=284979|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_215-215
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 284979, 285827
-# text = tu lə̂p waːt -kə́nì -íː //
-# text_ortho = tu lə̂p wàːtkə̀níː //
-# text_en = He found a place to hide.
-1	tu	tu	SCONJ	_	Mood=Qot	0	root	_	AlignBegin=284979|AlignEnd=285191|Gloss=get
-2	lə́p	lə́p	NOUN	_	_	1	comp:pred	_	AlignBegin=285191|AlignEnd=285403|Gloss=place
-3	wàːtkə̀níː	wàːtkə	VERB	_	VerbForm=Vnoun	2	mod	_	AlignBegin=285403|AlignEnd=285615|ExtPos=NOUN|Gloss=hide
+# text = tu lə́p wàːtkə̀níː //
+# text_ortho = tu lə́p wàːtkə̀níː //
+# text_en = He found a hiding place.
+1-3	tu lə́p wàːtkə̀níː
+1	*tu-íː	tu	tu	VERB	_	Mood=Qot	0	root	_	AlignBegin=284979|AlignEnd=285191|Gloss=get-Res
+2	lə́p	lə̂p	NOUN	_	_	1	comp:obj	_	AlignBegin=285191|AlignEnd=285403|Gloss=place
+3	wàːtkə̀n	waːt	VERB	_	VerbForm=Vnoun	2	compound	_	AlignBegin=285403|AlignEnd=285615|ExtPos=NOUN|Gloss=hide
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=285615|AlignEnd=285827|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_216-216
