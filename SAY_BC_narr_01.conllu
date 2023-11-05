@@ -2045,68 +2045,58 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 263459, 266667
-# text = ɗan á ɗagá tsəní káwây tə̀ ɬə́ːt < tá bàː mbíɬəŋ gyòmɬì káː -íː //
-# text_ortho = ɗan á ɗâgá tsə́n káwây tə̀ ɬə̌ːt < tá bàː mbíɬəŋ gyòmɬì kǎːy //
-# text_en = He had hardly flewn away like this when the feathers fell down.
-1	ɗan	ɗan	SCONJ	_	_	0	root	_	AlignBegin=263459|AlignEnd=263662|Gloss=then
+# text = ɗan á ɗâgá tsə́n káwây tə̀ ɬə̌ːt < tá bàː mbíːɬəŋ gyòmɬì kǎːy //
+# text_ortho = ɗan á ɗâgá tsə́n káwây tə̀ ɬə̌ːt < tá bàː mbíːɬəŋ gyòmɬì kǎːy //
+# text_en = He had hardly taken off like this to fly away when the feathers fell down.
+1	ɗan	ɗan	SCONJ	_	_	13	mod	_	AlignBegin=263459|AlignEnd=263662|Gloss=then
 2	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	1	comp:obj	_	AlignBegin=263662|AlignEnd=263865|Gloss=3SG.Aor
 3	ɗagá	ɗagá	VERB	_	_	2	comp:aux	_	AlignBegin=263865|AlignEnd=264068|Gloss=lift
-4	tsəní	tsəní	ADV	_	_	3	comp:obj	_	AlignBegin=264068|AlignEnd=264271|Gloss=like_this
+4	tsəní	tsəní	ADV	_	_	3	mod	_	AlignBegin=264068|AlignEnd=264271|Gloss=like_this
 5	káwây	káwây	ADV	_	_	3	mod	_	AlignBegin=264271|AlignEnd=264474|Gloss=merely
-6	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	2	parataxis@subj	_	AlignBegin=264474|AlignEnd=264677|Gloss=3SG.SUB
+6	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	3	mod	_	AlignBegin=264474|AlignEnd=264677|Gloss=3SG.SUB
 7	ɬə́ːt	ɬə́ː	VERB	_	_	6	comp:aux	_	AlignBegin=264677|AlignEnd=264880|Gloss=fly
-8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=264880|AlignEnd=265080|Gloss=PUNCT
-9	tá	tá	ADV	_	_	2	discourse	_	AlignBegin=265080|AlignEnd=265344|Gloss=then
+8	<	<	PUNCT	_	_	1	punct	_	AlignBegin=264880|AlignEnd=265080|Gloss=PUNCT
+9	tá	tá	ADV	_	_	13	mod	_	AlignBegin=265080|AlignEnd=265344|Gloss=then
 10	bàː	bàː	PART	_	Polarity=Neg	13	mod	_	AlignBegin=265344|AlignEnd=265608|Gloss=NEG1
-11	mbíɬəŋ	mbíɬə	VERB	_	_	2	subj	_	AlignBegin=265608|AlignEnd=265872|Gloss=feathers
-12	gyòmɬì	gyòmɬì	NOUN	_	Number=Plur	11	comp:obj	_	AlignBegin=265872|AlignEnd=266136|Gloss=wing
-13	káː-íː	káː-íː	DET	_	Aspect=Perf|Number=Sing|Person=2	11	parataxis@conj	_	AlignBegin=266136|AlignEnd=266400|Gloss=drop|wordform=káː
-14	//	//	PUNCT	_	_	2	punct	_	AlignBegin=266400|AlignEnd=266667|Gloss=PUNCT
+11	mbíːɬəŋ	mbíːɬəŋ	NOUN	_	_	13	subj	_	AlignBegin=265608|AlignEnd=265872|Gloss=feathers
+12	gyòmɬì	gyòmɬì	NOUN	_	Number=Plur	11	compound	_	AlignBegin=265872|AlignEnd=266136|Gloss=wing
+13	kǎːy	káː	VERB	_	Aspect=Perf|Number=Sing|Person=2	0	root	_	AlignBegin=266136|AlignEnd=266400|Gloss=drop-Res|wordform=káː
+14	//	//	PUNCT	_	_	13	punct	_	AlignBegin=266400|AlignEnd=266667|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_202-202
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 267155, 268806
-# text = ʧì yi vùktsùk yâːɬ //
+# text = ʧì vùktsùk yâːɬ //
 # text_ortho = ʧì vùktsùk yâːɬ //
 # text_en = He fell down on the ground.
-1	ʧì	ʧì	PRON	_	_	2	subj	_	AlignBegin=267155|AlignEnd=267361|Gloss=3Plur.be
+1-2	ʧì	_	_	_	_	_	_	_	_
+1	tə̀	tə̀	PRON	_	Number=Plur|Person=3|PronType=Prs	2	subj	_	AlignBegin=267155|AlignEnd=267361|Gloss=3Plur
 2	yi	yi	VERB	_	_	0	root	_	AlignBegin=267361|AlignEnd=267568|Gloss=be
 3	vùktsùk	vùktsùk	IDEO	_	_	2	comp:pred	_	AlignBegin=267568|AlignEnd=267981|Gloss=fall_down
-4	yâːɬ	yâːɬ	NOUN	_	_	2	comp:pred	_	AlignBegin=267981|AlignEnd=268394|Gloss=earth
+4	yâːɬ	yâːɬ	NOUN	_	_	2	comp:loc	_	AlignBegin=267981|AlignEnd=268394|Gloss=earth
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=268394|AlignEnd=268806|Gloss=PUNCT
 
-# sent_id = SAY_BC_narr_01_203-203
+# sent_id = SAY_BC_narr_01_203-204
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
-# sent_timecode = 269348, 270341
-# text = yáːni ʧáː máːn -íː < longa ʧi yi bùk bùk bùk bùk //
-# text_ortho = yâːn ʧáː máːníː < longa ʧi bùk bùk bùk bùk //
-# text_en = He who was walking, Rabbit ran ran ran.
-1	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	7	dislocated@subj	_	AlignBegin=269348|AlignEnd=269438|Gloss=3SG
-2	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	1	comp:cleft	_	AlignBegin=269438|AlignEnd=269528|Gloss=3SG.IMP
-3	máːn-íː	máːn-ian	VERB	_	Aspect=Res	2	comp:aux	_	AlignBegin=269528|AlignEnd=269618|Gloss=go|wordform=máːn
-4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=269618|AlignEnd=269708|Gloss=PUNCT
-5	longa	longa	NOUN	_	_	7	subj	_	AlignBegin=269708|AlignEnd=269798|Gloss=rabbit
-6	ʧi	ʧi	PART	_	_	5	mod	_	AlignBegin=269798|AlignEnd=269843|Gloss=3SG.be
-7	yi	yi	VERB	_	_	0	root	_	AlignBegin=269843|AlignEnd=269888|Gloss=be
+# sent_timecode = 269348, 272609
+# text = yâːn ʧáː máni //= longa ʧi bùk bùk bùk bùk //
+# text_ortho = yâːn ʧáː máni //= longa ʧi bùk bùk bùk bùk //
+# text_en = He was walking; Rabbit ran ran ran.
+1	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	2	dislocated@subj	_	AlignBegin=269348|AlignEnd=269438|Gloss=3SG
+2	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=269438|AlignEnd=269528|Gloss=3SG.IMP
+3	máni	máni	VERB	_	_	2	comp:aux	_	AlignBegin=269528|AlignEnd=269618|Gloss=go
+4	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=269618|AlignEnd=269708|Gloss=PUNCT
+5	longa	longa	NOUN	_	_	7	dislocated@subj	_	AlignBegin=269708|AlignEnd=269798|Gloss=rabbit
+6-7	ʧi	_	_	_	_	_	_	_	_
+6	tə	tə	PART	_	Number=Sing|Person=3|PronType=Prs	7	subj	_	AlignBegin=269798|AlignEnd=269843|Gloss=3SG
+7	yi	yi	VERB	_	_	2	parataxis@conj	_	AlignBegin=269843|AlignEnd=269888|Gloss=be
 8	bùk	bùk	IDEO	_	_	7	comp:pred	_	AlignBegin=269888|AlignEnd=269978|Gloss=run
 9	bùk	bùk	IDEO	_	_	8	compound:redup	_	AlignBegin=269978|AlignEnd=270068|Gloss=run
 10	bùk	bùk	IDEO	_	_	9	compound:redup	_	AlignBegin=270068|AlignEnd=270158|Gloss=run
 11	bùk	bùk	IDEO	_	_	10	compound:redup	_	AlignBegin=270158|AlignEnd=270248|Gloss=run
-12	//	//	PUNCT	_	_	7	punct	_	AlignBegin=270248|AlignEnd=270341|Gloss=PUNCT
-
-# sent_id = SAY_BC_narr_01_204-204
-# speaker_id = SP1
-# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
-# sent_timecode = 270341, 272609
-# text = ɗan tə́ ɬ# &//
-# text_ortho = ɗan tə́ ɬ# &//
-# text_en = Then they...
-1	ɗan	ɗan	SCONJ	_	_	2	mod	_	AlignBegin=270341|AlignEnd=270566|Gloss=then
-2	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=270566|AlignEnd=270791|Gloss=3Plur.Aor
-3	ɬ#	ɬ#	VERB	_	_	2	comp:aux	_	AlignBegin=270791|AlignEnd=271016|Gloss=HESIT
-4	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=271016|AlignEnd=271241|Gloss=PUNCT
+12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=270248|AlignEnd=270341|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_205-205
 # speaker_id = SP1
