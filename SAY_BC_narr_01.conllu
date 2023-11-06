@@ -2250,18 +2250,18 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 288487, 290641
-# text = kura < ɗan á datsə́ =tə -íː < ɬə -íː də̀n //
+# text = a < ɗan á dàtsə́tíː < ɬíː də̀n //
 # text_ortho = kura < ɗan á dàtsə́tíː < ɬíː də̀n //
 # text_en = When Hyena had finished filling [the burrow], he went home.
-1	kura	kura	X	_	Foreign=Yes	8	discourse	_	AlignBegin=288487|AlignEnd=288667|Gloss=hyena|Lang=hau
+1	kura	kura	NOUN	_	Foreign=Yes	8	dislocated@subj	_	AlignBegin=288487|AlignEnd=288667|Gloss=hyena|Lang=hau
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=288667|AlignEnd=288847|Gloss=PUNCT
 3	ɗan	ɗan	SCONJ	_	_	8	mod	_	AlignBegin=288847|AlignEnd=289028|Gloss=as
 4	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	3	comp:obj	_	AlignBegin=289028|AlignEnd=289297|Gloss=3SG.Aor
-5-6	datsə́-íː	_	_	_	_	_	_	_	_
-5	datsə́-íː	atsə́-	VERB	_	Aspect=Res	4	comp:aux	_	AlignBegin=289297|AlignEnd=289566|Gloss=INTJ|wordform=datsə́
+5-6	dàtsə́tíː	_	_	_	_	_	_	_	_
+5	*datsə́-íː	datsə	VERB	_	Aspect=Res	4	comp:aux	_	AlignBegin=289297|AlignEnd=289566|Gloss=fill_up-Res|wordform=datsə́
 6	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=289387|AlignEnd=289477|Gloss=3SG.OBJ|Incorporated=Yes
 7	<	<	PUNCT	_	_	3	punct	_	AlignBegin=289566|AlignEnd=289835|Gloss=PUNCT
-8	ɬə-íː	ɬə-í	VERB	_	Aspect=Res|Mood=Imp	0	root	_	AlignBegin=289835|AlignEnd=290104|Gloss=go|wordform=ɬə
+8	ɬíː	ɬə	VERB	_	Aspect=Res|Mood=Imp	0	root	_	AlignBegin=289835|AlignEnd=290104|Gloss=go-Res|wordform=ɬə
 9	də̀n	də̀n	NOUN	_	_	8	comp:goal	_	AlignBegin=290104|AlignEnd=290373|Gloss=house
 10	//	//	PUNCT	_	_	8	punct	_	AlignBegin=290373|AlignEnd=290641|Gloss=PUNCT
 
@@ -2269,34 +2269,36 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 291062, 295060
-# text = ɬə nə́ mbiː makapta ɗi man ɓəl ɓəl ɓəl ɓəl ɓəl //
+# text = ɬə́n mbiː makaptáɗi má ɓəl ɓəl ɓəl ɓəl ɓəl //
 # text_ortho = ɬə́n mbiː makaptáɗi má ɓəl ɓəl ɓəl ɓəl ɓəl //
 # text_en = He went to take his big hoe and started digging, digging, digging, digging. dig dig dig dig.
+1-2	ɬə́n	_	_	_	_	_	_	_	_
 1	ɬə	ɬə	VERB	_	_	0	root	_	AlignBegin=291062|AlignEnd=291238|Gloss=go
-2	nə́	nə́	ADP	_	_	1	parataxis@comp	_	AlignBegin=291238|AlignEnd=291413|Gloss=for
-3	mbiː	mbiː	VERB	_	_	2	comp:aux	_	AlignBegin=291413|AlignEnd=291764|Gloss=take
-4	makapta	makapta	NOUN	_	_	3	comp:obj	_	AlignBegin=291764|AlignEnd=291940|Gloss=hoe|Lang=hau
+2	nə́	nə́	SCONJ	_	_	1	mod	_	AlignBegin=291238|AlignEnd=291413|Gloss=for
+3	mbiː	mbiː	VERB	_	_	2	comp:obj	_	AlignBegin=291413|AlignEnd=291764|Gloss=take
+4-5	makaptáɗi	_	_	_	_	_	_	_	_
+4	makaptá	makapta	NOUN	_	_	3	comp:obj	_	AlignBegin=291764|AlignEnd=291940|Gloss=hoe|Lang=hau
 5	ɗi	ɗi	PART	_	_	3	compound:prt	_	AlignBegin=291940|AlignEnd=292115|Gloss=CTP
-6	man	man	VERB	_	_	5	comp:obj	_	AlignBegin=292115|AlignEnd=292466|Gloss=come
+6	má	mán	VERB	_	_	1	parataxis@conj	_	AlignBegin=292115|AlignEnd=292466|Gloss=come
 7	ɓəl	ɓəl	VERB	_	_	6	compound:svc	_	AlignBegin=292466|AlignEnd=292819|Gloss=dig
-8	ɓəl	ɓəl	IDEO	_	_	7	compound:redup	_	AlignBegin=292819|AlignEnd=293146|Gloss=dig
-9	ɓəl	ɓəl	IDEO	_	_	8	compound:redup	_	AlignBegin=293525|AlignEnd=293883|Gloss=dig
-10	ɓəl	ɓəl	IDEO	_	_	9	compound:redup	_	AlignBegin=294150|AlignEnd=294447|Gloss=dig
-11	ɓəl	ɓəl	IDEO	_	_	10	compound:redup	_	AlignBegin=294697|AlignEnd=294879|Gloss=dig
+8	ɓəl	ɓəl	VERB	_	_	7	compound:redup	_	AlignBegin=292819|AlignEnd=293146|Gloss=dig
+9	ɓəl	ɓəl	VERB	_	_	8	compound:redup	_	AlignBegin=293525|AlignEnd=293883|Gloss=dig
+10	ɓəl	ɓəl	VERB	_	_	9	compound:redup	_	AlignBegin=294150|AlignEnd=294447|Gloss=dig
+11	ɓəl	ɓəl	VERB	_	_	10	compound:redup	_	AlignBegin=294697|AlignEnd=294879|Gloss=dig
 12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=294879|AlignEnd=295060|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_225-225
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 295560, 296751
-# text = àː mán ɓəl hár lə́pvàːkə̀n //
-# text_ortho = àː mán ɓəl hár lə́pvàːkə̀n //
+# text = àː mán ɓəl hár lə́pvàːɣə̀n //
+# text_ortho = àː mán ɓəl hár lə́pvàːɣə̀n //
 # text_en = He dug until he began sweating.
 1	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=295560|AlignEnd=295758|Gloss=3SG.PERF
 2	mán	mán	VERB	_	_	1	comp:aux	_	AlignBegin=295758|AlignEnd=295956|Gloss=come|SVC=Yes
 3	ɓəl	ɓəl	VERB	_	_	2	compound:svc	_	AlignBegin=295956|AlignEnd=296154|Gloss=dig
 4	hár	hár	ADP	_	_	3	mod	_	AlignBegin=296154|AlignEnd=296352|Gloss=until
-5	lə́pvàːkə̀n	lə́pvàːkə̀n	VERB	_	_	4	comp:obj	_	AlignBegin=296352|AlignEnd=296550|Gloss=sweat
+5	lə́pvàːɣə̀n	lə́pvàːɣə̀n	NOUN	_	_	4	comp:obj	_	AlignBegin=296352|AlignEnd=296550|Gloss=sweat
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=296550|AlignEnd=296751|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_226-229
