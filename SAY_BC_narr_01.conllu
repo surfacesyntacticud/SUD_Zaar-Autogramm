@@ -2603,7 +2603,7 @@
 # text_ortho = ʃèːkára wuriː ?//
 # text_en = How how old is it?
 1	ʃèːkára	ʃèːkára	NOUN	_	_	0	root	_	AlignBegin=335763|AlignEnd=336008|Gloss=year
-2	wuriː	wuriː	DET	_	PronType=Int	1	mod	_	AlignBegin=336008|AlignEnd=336253|Gloss=how
+2	wuriː	wuriː	DET	_	PronType=Int	1	det	_	AlignBegin=336008|AlignEnd=336253|Gloss=how
 3	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=336253|AlignEnd=336498|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_256-256
@@ -2613,27 +2613,27 @@
 # text = ʃèː buːɗé mə̀ yéli oː !//
 # text_ortho = ʃèː buːɗé mə̀ yélyoː !//
 # text_en = Open, let me see!
-1	ʃèː	ʃèː	VERB	_	_	0	root	_	AlignBegin=336715|AlignEnd=336862|Gloss=X
-2	buːɗé	buːɗé	VERB	_	_	1	comp:aux	_	AlignBegin=336862|AlignEnd=337009|Gloss=open
-3	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	1	parataxis@mod	_	AlignBegin=337009|AlignEnd=337156|Gloss=1SG.SUB
+1	ʃèː	ʃèː	VERB	_	_	2	discourse	_	AlignBegin=336715|AlignEnd=336862|Gloss=X
+2	buːɗé	buːɗé	VERB	_	_	0	root	_	AlignBegin=336862|AlignEnd=337009|Gloss=open
+3	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	2	parataxis@mod	_	AlignBegin=337009|AlignEnd=337156|Gloss=1SG.SUB
 4	yéli	yéli	VERB	_	_	3	comp:aux	_	AlignBegin=337156|AlignEnd=337230|Gloss=see
 5	oː	oː	PART	_	PartType=Emp	3	mod	_	AlignBegin=337230|AlignEnd=337303|Gloss=EMPH
-6	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=337303|AlignEnd=337452|Gloss=PUNCT
+6	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=337303|AlignEnd=337452|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_257-258
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 337452, 339894
-# text = ɗan á buːɗé tsəní káwây < ə̂ːm !//
+# text = ɗan á bùːɗé tsə́n káwây < ə̂ːm !//
 # text_ortho = ɗan á bùːɗé tsə́n káwây < ə̂ːm !//
 # text_en = As soon as he opened it like this, uugh!
-1	ɗan	ɗan	SCONJ	_	_	0	root	_	AlignBegin=337452|AlignEnd=337702|Gloss=as
+1	ɗan	ɗan	SCONJ	_	_	7	mod	_	AlignBegin=337452|AlignEnd=337702|Gloss=as
 2	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	1	comp:obj	_	AlignBegin=337702|AlignEnd=337952|Gloss=3SG.Aor
 3	buːɗé	buːɗé	VERB	_	_	2	comp:aux	_	AlignBegin=337952|AlignEnd=338202|Gloss=open
-4	tsəní	tsəní	ADV	_	_	3	comp:obj	_	AlignBegin=338202|AlignEnd=338452|Gloss=like_this
-5	káwây	káwây	ADV	_	_	2	mod	_	AlignBegin=338452|AlignEnd=338702|Gloss=merely
+4	tsə́n	tsəní	ADV	_	_	3	mod:obj	_	AlignBegin=338202|AlignEnd=338452|Gloss=like_this
+5	káwây	káwây	ADV	_	_	3	mod	_	AlignBegin=338452|AlignEnd=338702|Gloss=merely
 6	<	<	PUNCT	_	_	7	punct	_	AlignBegin=338702|AlignEnd=338950|Gloss=PUNCT
-7	ə̂ːm	ə̂ːm	INTJ	_	_	1	discourse	_	AlignBegin=338950|AlignEnd=339422|Gloss=ugh
+7	ə̂ːm	ə̂ːm	INTJ	_	_	0	root	_	AlignBegin=338950|AlignEnd=339422|Gloss=ugh
 8	!//	!//	PUNCT	_	_	7	punct	_	AlignBegin=339422|AlignEnd=339894|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_259-259
