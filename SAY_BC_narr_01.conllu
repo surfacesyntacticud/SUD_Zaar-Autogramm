@@ -76,7 +76,7 @@
 2	ɬə́ɣə́nì	ɬə	VERB	_	VerbForm=Vnoun	1	comp:aux	_	AlignBegin=7906|AlignEnd=8214|ExtPos=NOUN|Gloss=go|wordform=ɬə
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=8214|AlignEnd=8521|Gloss=PUNCT
 4	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=8870|AlignEnd=9148|Gloss=1Plur.Aor
-5	tû̂	tu	VERB	_	_	4	comp:aux	_	AlignBegin=9148|AlignEnd=9426|Gloss=meet
+5	tû	tu	VERB	_	_	4	comp:aux	_	AlignBegin=9148|AlignEnd=9426|Gloss=meet
 6	gyáː	gyáː	DET	_	Number=Plur	7	det	_	AlignBegin=9426|AlignEnd=9704|Gloss=3Plur
 7	longa	longa	NOUN	_	_	5	comp:obj	_	AlignBegin=9704|AlignEnd=9982|Gloss=rabbit
 8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=9982|AlignEnd=10259|Gloss=PUNCT
@@ -2208,8 +2208,8 @@
 # text = tu lə́p wàːtkə̀níː //
 # text_ortho = tu lə́p wàːtkə̀níː //
 # text_en = He found a hiding place.
-1-3	tu lə́p wàːtkə̀níː
-1	*tu-íː	tu	tu	VERB	_	Aspect=Res	0	root	_	AlignBegin=284979|AlignEnd=285191|Gloss=get-Res
+1-3	tu lə́p wàːtkə̀níː	_	_	_	_	_	_	_	_
+1	*tu-íː	tu	VERB	_	Aspect=Res	0	root	_	AlignBegin=284979|AlignEnd=285191|Gloss=get-Res
 2	lə́p	lə̂p	NOUN	_	_	1	comp:obj	_	AlignBegin=285191|AlignEnd=285403|Gloss=place
 3	wàːtkə̀n	waːt	VERB	_	VerbForm=Vnoun	2	compound	_	AlignBegin=285403|AlignEnd=285615|ExtPos=NOUN|Gloss=hide
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=285615|AlignEnd=285827|Gloss=PUNCT
@@ -2223,8 +2223,11 @@
 # text_en = Let me start... Let me start digging Crab's burrow.
 1	mə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=1	0	root	_	AlignBegin=286319|AlignEnd=286500|Gloss=1SG.Sub
 2	ndá	nda	VERB	_	_	1	comp:aux	_	AlignBegin=286500|AlignEnd=286681|Gloss=enter
-6	ɓə́lɣə̂n	ɓəl	VERB	_	VerbForm=Vnoun	5	comp:obj	_	AlignBegin=287224|AlignEnd=287405|ExtPos=NOUN|Gloss=dig|wordform=ɓəl-NMLZ
-7	gìr	gìr	NOUN	_	_	5	comp:obj	_	AlignBegin=287405|AlignEnd=287586|Gloss=hole
+3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=286681|AlignEnd=286681|Gloss=PUCT
+4	mə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=1	1	conj:dicto	_	AlignBegin=286681|AlignEnd=286952|Gloss=1SG.Sub
+5	ndá	nda	VERB	_	_	4	comp:aux	_	AlignBegin=286500|AlignEnd=287224|Gloss=enter
+6	ɓə́lɣə̂n	ɓəl	VERB	_	VerbForm=Vnoun	5	comp:obj	_	AlignBegin=286952|AlignEnd=287405|ExtPos=NOUN|Gloss=dig|wordform=ɓəl-NMLZ
+7	gìr	gìr	NOUN	_	_	6	comp:obj	_	AlignBegin=287405|AlignEnd=287586|Gloss=hole
 8	ngàlây	ngála	VERB	_	_	7	compound	_	AlignBegin=287586|AlignEnd=287767|Gloss=crab|wordform=ngála
 9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=287767|AlignEnd=287949|Gloss=PUNCT
 
@@ -2304,8 +2307,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 297847, 304341
-# text = ngaːláy naːkâm gə́ də̌ːr || naːkâm gə́ də̌ːr káwây |a longa < àː náːt ʃéːgè nâs gingə́riwòs ɗì á yáːsəŋ //
-# text_ortho = ngaːláy naːkâm gə́ də̌ːr || naːkâm gə́ də̌ːr káwây |a longa < àː náːt ʃéːgè nâs gingə́riwòs ɗì á yáːsəŋ //
+# text = ngaːláy naːkâm gə́ də̌ːr || naːkâm gə́ də̌ːr káwây |a longa < àː náːt ʃéːgè nâs gingə́riwòsɗì á yáːsəŋ //
+# text_ortho = ngaːláy naːkâm gə́ də̌ːr || naːkâm gə́ də̌ːr káwây |a longa < àː náːt ʃéːgè nâs gingə́riwòsɗì á yáːsəŋ //
 # text_en = A little later, Lizard's friend, Lizard's friend himself, Rabbit, he tied a big stinking baobab cake on his foot.
 1	ngaːláy	ngaːlá	VERB	_	Aspect=Res	13	mod	_	AlignBegin=297847|AlignEnd=298098|ExtPos=ADV|Gloss=spend_time-Res|wordform=ngaːlá
 2	naːkâm	naːkâm	NOUN	_	_	13	mod	_	AlignBegin=298098|AlignEnd=298349|Gloss=friend
@@ -2320,11 +2323,13 @@
 11	longa	longa	NOUN	_	_	6	conj:appos	_	AlignBegin=300856|AlignEnd=301070|Gloss=rabbit
 12	<	<	PUNCT	_	_	2	punct	_	AlignBegin=301070|AlignEnd=301285|Gloss=PUNCT
 13	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=302042|AlignEnd=302329|Gloss=3SG.PERF
+14-19	náːt ʃéːgè nâs gingə́riwòs ɗi	_	_	_	_	_	_	_	_
 14	náːt	nat	VERB	_	Number=Plur	13	comp:aux	_	AlignBegin=302329|AlignEnd=302616|Gloss=tie.Plur
-15	ʃéːgè	ʃéːgè	ADJ	_	_	16	mod	_	AlignBegin=302616|AlignEnd=302903|Gloss=bastard|Lang=hau
-16	nâs	naa	VERB	_	_	17	mod	_	AlignBegin=302903|AlignEnd=303190|Gloss=big
+15	ʃéːgè	ʃéːgè	NOUN	_	_	17	mod	_	AlignBegin=302616|AlignEnd=302903|ExtPos=ADJ|Gloss=bastard|Lang=hau
+16	nâs	nâs	ADJ	_	_	17	mod	_	AlignBegin=302903|AlignEnd=303190|Gloss=big
+17-19	gingə́riwòsɗì	_	_	_	_	_	_	_	_
 17	gingə́ri	gingə́ri	NOUN	_	_	14	comp:obj	_	AlignBegin=303190|AlignEnd=303286|Gloss=baobab_cake
-18	=wos	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	17	mod@poss	_	AlignBegin=303286|AlignEnd=303382|Gloss=3SG.POS
+18	=wòs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	17	mod@poss	_	AlignBegin=303286|AlignEnd=303382|Gloss=3SG.POS
 19	ɗi	ɗi	PART	_	_	14	compound:prt	_	AlignBegin=303382|AlignEnd=303477|Gloss=CTP
 20	á	ká	ADP	_	_	14	comp:obl	_	AlignBegin=303477|AlignEnd=303764|Gloss=at
 21	yáːsəŋ	yáːsəŋ	NOUN	_	_	20	comp:obj	_	AlignBegin=303764|AlignEnd=304051|Gloss=leg
@@ -2334,60 +2339,65 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 304341, 305316
-# text = múkdùs ʒoɣŋʒógɣŋ !//
-# text_ortho = múkdùs ʒoɣŋʒógɣŋ !//
+# text = múɣdùs ʒoɣŋʒógɣŋ !//
+# text_ortho = múɣdùs ʒoɣŋʒógɣŋ !//
 # text_en = A big stench!
-1	múkdùs	múkdùs	NOUN	_	_	0	root	_	AlignBegin=304341|AlignEnd=304666|Gloss=stench
-2	ʒoɣŋʒógɣŋ	Ʒoɣŋʒógɣŋ	IDEO	_	_	1	mod	_	AlignBegin=304666|AlignEnd=304991|Gloss=smell
+1	múɣdùs	múkdùs	NOUN	_	_	0	root	_	AlignBegin=304341|AlignEnd=304666|Gloss=stench
+2	ʒoɣŋʒógɣŋ	ʒoɣŋʒógɣŋ	IDEO	_	_	1	mod	_	AlignBegin=304666|AlignEnd=304991|Gloss=smell
 3	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=304991|AlignEnd=305316|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_231-231
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 306069, 306764
-# text = ʒokn -kə́nì !//
-# text_ortho = ʒòknkə̀nì !//
+# text = ʒòɣŋgə̀nì !//
+# text_ortho = ʒòɣŋgə̀nì !//
 # text_en = What a smell!
-1	ʒokn-kə́nì	ʒokn-kə́nì	VERB	_	VerbForm=Vnoun	0	root	_	AlignBegin=306069|AlignEnd=306417|Gloss=smell|wordform=ʒokn
+1	ʒòɣŋgə̀nì	ʒokn	VERB	_	VerbForm=Vnoun	0	root	_	AlignBegin=306069|AlignEnd=306417|ExtPos=NOUN|Gloss=smell|wordform=ʒokn
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=306417|AlignEnd=306764|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_232-235
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 307913, 313790
-# text = nda ríː -kə́nì ɗi tə́ ŋaː ʃirə́ŋ =wos kwàrkyàk kwàrkyàk kwàrkyàk séː á tul -íː ɗi //
-# text_ortho = nda ríːnkə́ndì tə́ ŋaː ʃirə́ŋwôs kwàrkyàk kwàrkyàk kwàrkyàk séː á tûlíːɗi //
+# text = nda ríːngə́ndì tə́ ŋaː ʃirə́ŋwôs kwàrkyàk kwàrkyàk kwàrkyàk séː á tûlíːɗi //
+# text_ortho = nda ríːngə́ndì tə́ ŋaː ʃirə́ŋwôs kwàrkyàk kwàrkyàk kwàrkyàk séː á tûlíːɗi //
 # text_en = He started walking with his stick, limping, limping, limping, until he arrived.
 1	nda	nda	VERB	_	_	0	root	_	AlignBegin=307913|AlignEnd=308226|Gloss=enter
-2	ríː-kə́nì	ríː-kə	VERB	_	VerbForm=Vnoun	1	comp:obj	_	AlignBegin=308226|AlignEnd=308434|Gloss=walk|wordform=ríː
+2-3	ríːngə́ndì	_	_	_	_	_	_	_	_
+2	ríːngə̂n	ríː	VERB	_	Number=Plur|VerbForm=Vnoun	1	comp:obj	_	AlignBegin=308226|AlignEnd=308434|Gloss=walk.Plur |wordform=ríː
 3	ɗi	ɗi	PART	_	_	2	compound:prt	_	AlignBegin=308434|AlignEnd=308539|Gloss=CTP
 4	tə́	tə́	ADP	_	_	2	comp:obl	_	AlignBegin=308539|AlignEnd=308852|Gloss=with
-5	ŋaː	ŋaː	ADJ	_	_	4	comp:obj	_	AlignBegin=308852|AlignEnd=309165|Gloss=small
+5	ŋaː	ŋaː	ADJ	_	_	6	mod	_	AlignBegin=308852|AlignEnd=309165|Gloss=small
+6-7	ʃirə́ŋwôs	_	_	_	_	_	_	_	_
 6	ʃirə́ŋ	ʃirə́ŋ	NOUN	_	_	4	comp:obj	_	AlignBegin=309165|AlignEnd=309321|Gloss=stick
-7	=wos	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	mod@poss	_	AlignBegin=309321|AlignEnd=309476|Gloss=3SG.POS
+7	=wôs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	mod@poss	_	AlignBegin=309321|AlignEnd=309476|Gloss=3SG.POS
 8	kwàrkyàk	kwàrkyàk	IDEO	_	_	2	mod	_	AlignBegin=310327|AlignEnd=310742|Gloss=limping
 9	kwàrkyàk	kwàrkyàk	IDEO	_	_	8	compound:redup	_	AlignBegin=311612|AlignEnd=312061|Gloss=limping
 10	kwàrkyàk	kwàrkyàk	IDEO	_	_	9	compound:redup	_	AlignBegin=312747|AlignEnd=312956|Gloss=limping
 11	séː	séː	ADV	_	_	12	mod	_	AlignBegin=312956|AlignEnd=313165|Gloss=then
-12	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	1	comp:obj	_	AlignBegin=313165|AlignEnd=313374|Gloss=3SG.Aor
-13	tul-íː	tul-íː	VERB	_	Aspect=Res	12	comp:aux	_	AlignBegin=313374|AlignEnd=313514|Gloss=arrive|wordform=tul
-14	ɗi	ɗi	PART	_	_	2	compound:prt	_	AlignBegin=313514|AlignEnd=313583|Gloss=CTP
+12	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	1	parataxis@conj	_	AlignBegin=313165|AlignEnd=313374|Gloss=3SG.Aor
+13-14	tûlíːɗi	_	_	_	_	_	_	_	_
+13	tûlíː	tul	VERB	_	Aspect=Res	12	comp:aux	_	AlignBegin=313374|AlignEnd=313514|Gloss=arrive-Res|wordform=tul
+14	ɗi	ɗi	PART	_	_	12	compound:prt	_	AlignBegin=313514|AlignEnd=313583|Gloss=CTP
 15	//	//	PUNCT	_	_	1	punct	_	AlignBegin=313583|AlignEnd=313790|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_236-236
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 313790, 315142
-# text = àːyí yel lə̂p yóːɗan ʧí yi káy ?//
-# text_ortho = àːyí yè lə̂p yóːɗan ʧìːyìkáy ?//
-# text_en = Had seen where they were?
-1	àːyí	ːyii	AUX	_	Number=Sing|Person=3|Tense=Imm	0	root	_	AlignBegin=313790|AlignEnd=314015|Gloss=3SG.PERF.IMM
-2	yel	yel	VERB	_	_	1	comp:aux	_	AlignBegin=314015|AlignEnd=314240|Gloss=see
+# text = àːyí yè lə̂p yóːɗan ʧìː yìɣáy ?//
+# text_ortho = àːyí yè lə̂p yóːɗan ʧìː yìɣáy ?//
+# text_en = Had he seen where they were?
+1	àːyí	àː-yi	AUX	_	Number=Sing|Person=3|Tense=Imm	0	root	_	AlignBegin=313790|AlignEnd=314015|Gloss=3SG.PERF.IMM
+2	yè	yel	VERB	_	_	1	comp:aux	_	AlignBegin=314015|AlignEnd=314240|Gloss=see
 3	lə̂p	lə̂p	NOUN	_	_	2	comp:obj	_	AlignBegin=314240|AlignEnd=314465|Gloss=place
 4	yóːɗan	yóːɗan	PRON	_	PronType=Rel	3	mod@relcl	_	AlignBegin=314465|AlignEnd=314690|Gloss=where
-5	ʧì	ʧì	VERB	_	_	4	comp:obj	_	AlignBegin=314690|AlignEnd=314765|Gloss=3Plur.be|wordform=ʧí
-6	káy	káy	PRON	_	Person=3|PronType=Prs	2	comp:obl@expl	_	AlignBegin=314840|AlignEnd=314915|Gloss=ANAPH
-7	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=314915|AlignEnd=315142|Gloss=PUNCT
+5	ʧìː	yi	AUX	_	Number=Plur|Person=3|Tense=Imm	4	comp:obj	_	AlignBegin=314690|AlignEnd=314765|Gloss=3Plur.Imm
+6-7	yìɣáy	_	_	_	_	_	_	_	_
+6	yì	yi	VERB	_	_	5	comp:aux	_	AlignBegin=314690|AlignEnd=314765|Gloss=be
+7	ɣáy	káy	PRON	_	Person=3|PronType=Prs	6	comp:pred	_	AlignBegin=314840|AlignEnd=314915|Gloss=ANAPH
+8	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=314915|AlignEnd=315142|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_237-237
 # speaker_id = SP1
@@ -2403,23 +2413,25 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 315478, 316371
-# text = àː yel lə̂p -ês -íː //
+# text = àː ye lə́ɓeʃíː //
 # text_ortho = àː ye lə́ɓeʃíː //
 # text_en = He had seen the place.
 1	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=315478|AlignEnd=315701|Gloss=3SG.PERF
-2	yel	yel	VERB	_	_	1	comp:aux	_	AlignBegin=315701|AlignEnd=315924|Gloss=see
-3	lə̂p-ês-íː	lə̂p-ês-íː	NOUN	_	_	2	comp:obj	_	AlignBegin=315924|AlignEnd=316147|Gloss=place|wordform=lə̂p
+2-3	ye lə́ɓeʃíː	_	_	_	_	_	_	_	_
+2	*ye-íː	yel	VERB	_	Aspect=Res	1	comp:aux	_	AlignBegin=315701|AlignEnd=315924|Gloss=see-Res
+3	lə́ɓês	lə̂p	NOUN	_	Definite=Def	2	comp:obj	_	AlignBegin=315924|AlignEnd=316147|Gloss=place-Def|wordform=lə̂p
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=316147|AlignEnd=316371|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_239-239
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 317129, 317745
-# text = á tul -íː ɗi //
+# text = á tûlíːɗi //
 # text_ortho = á tûlíːɗi //
 # text_en = He arrived.
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=317129|AlignEnd=317334|Gloss=3SG.Aor
-2	tul-íː	tul-íː	VERB	_	_	1	comp:aux	_	AlignBegin=317334|AlignEnd=317470|Gloss=arrive|wordform=tul
+2-3	tûlíːɗi	_	_	_	_	_	_	_	_
+2	tûlíː	tul	VERB	_	Aspect=Res	1	comp:aux	_	AlignBegin=317334|AlignEnd=317470|Gloss=arrive-Res|wordform=tul
 3	ɗi	ɗi	PART	_	_	2	compound:prt	_	AlignBegin=317470|AlignEnd=317539|Gloss=CTP
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=317539|AlignEnd=317745|Gloss=PUNCT
 
@@ -2427,26 +2439,29 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 318177, 322100
-# text = á wul tu [ ká !// ʃèː daːkâm =atn ʃèː fi -ni wàhála -ə́n -íː ɗúːni tsəní eː ?//] //
-# text_ortho = á wû tu [ ká !// ʃèː daːkámâtn ʃèː fini wàhálaníː ɗûːn tsənêː ?//] //
+# text = á wû tu [ ká < ʃèː daːkámâtn ʃèː fini wàhálaníː ɗûːn tsənêː ?//] //
+# text_ortho = á wû tu [ ká < ʃèː daːkámâtn ʃèː fini wàhálaníː ɗûːn tsənêː ?//] //
 # text_en = He said "What! My friend, why are you suffering here for?"
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=318177|AlignEnd=318275|Gloss=3SG.Aor
-2	wul	wul	VERB	_	_	1	comp:aux	_	AlignBegin=318275|AlignEnd=318373|Gloss=say
+2	wû	wul	VERB	_	_	1	comp:aux	_	AlignBegin=318275|AlignEnd=318373|Gloss=say
 3	tu	tu	SCONJ	_	Mood=Qot	2	comp:obj	_	AlignBegin=318373|AlignEnd=318471|Gloss=OPN
-4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=318471|AlignEnd=318570|Gloss=PUNCT
-5	ká	ká	INTJ	_	_	3	discourse	_	AlignBegin=318570|AlignEnd=318726|Gloss=disapproval
-6	!//	!//	PUNCT	_	_	5	punct	_	AlignBegin=318726|AlignEnd=318882|Gloss=PUNCT
-7	ʃèː	ʃèː	AUX	_	_	3	comp:obj	_	AlignBegin=319711|AlignEnd=319976|Gloss=X
-8	daːkâm	daːkâm	NOUN	_	_	7	comp:aux	_	AlignBegin=319976|AlignEnd=320108|Gloss=friend
+4	[	[	PUNCT	_	_	10	punct	_	AlignBegin=318471|AlignEnd=318570|Gloss=PUNCT
+5	ká	ká	INTJ	_	_	10	discourse	_	AlignBegin=318570|AlignEnd=318726|Gloss=disapproval
+6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=318726|AlignEnd=318882|Gloss=PUNCT
+7	ʃèː	ʃèː	X	_	_	10	vocative	_	AlignBegin=319711|AlignEnd=319976|Gloss=X
+8-9	daːkámâtn	_	_	_	_	_	_	_	_
+8	daːkâm	daːkâm	NOUN	_	_	7	conj:appos	_	AlignBegin=319976|AlignEnd=320108|Gloss=friend
 9	=âtn	=atn	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	8	mod@poss	_	AlignBegin=320108|AlignEnd=320241|Gloss=1SG.POS|wordform=_
-10	ʃèː	ʃèː	AUX	_	_	7	parataxis@conj	_	AlignBegin=320241|AlignEnd=320506|Gloss=X
-11	fi	fi	VERB	_	_	10	comp:aux	_	AlignBegin=320506|AlignEnd=320638|Gloss=do
+10	ʃèː	ʃèː	X	_	_	3	comp:obj	_	AlignBegin=320241|AlignEnd=320506|Gloss=X
+11-13	fini wàhálaníː	_	_	_	_	_	_	_	_
+11	*fi-íː	fi	VERB	_	Aspect=Res	10	comp:cleft	_	AlignBegin=320506|AlignEnd=320638|Gloss=do-Res
 12	ni	ni	PART	_	Aspect=Iter	11	compound:prt	_	AlignBegin=320638|AlignEnd=320771|Gloss=ITER|wordform=-ni
-13	wàhála-ə́n-íː	wàhála-əaː	NOUN	_	Deixis=Dist	11	comp:obj	_	AlignBegin=320771|AlignEnd=321036|Gloss=suffering|wordform=wàhála
+13	wàhálán	wàhála	NOUN	_	Deixis=Prox	11	comp:obj	_	AlignBegin=320771|AlignEnd=321036|Gloss=suffering-Prix|wordform=wàhála
 14	ɗúːni	ɗúːni	ADV	_	PronType=Dem	11	mod	_	AlignBegin=321036|AlignEnd=321301|Gloss=here
+15-16	tsənêː	_	_	_	_	_	_	_	_
 15	tsəní	tsəní	ADV	_	_	11	mod	_	AlignBegin=321301|AlignEnd=321433|Gloss=like_this
-16	eː	eː	PART	_	_	7	mod	_	AlignBegin=321433|AlignEnd=321566|Gloss=Q
-17	?//]	?//]	PUNCT	_	_	1	punct	_	AlignBegin=321566|AlignEnd=321831|Gloss=PUNCT
+16	eː	eː	PART	_	_	10	mod	_	AlignBegin=321433|AlignEnd=321566|Gloss=Q
+17	?//]	?//]	PUNCT	_	_	10	punct	_	AlignBegin=321566|AlignEnd=321831|Gloss=PUNCT
 18	//	//	PUNCT	_	_	1	punct	_	AlignBegin=321831|AlignEnd=322100|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_243-245
