@@ -2563,35 +2563,37 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 331182, 333298
-# text = ʃèː yel =kə -ni á wàhála gín máː |c ʃèː máni oː !//
-# text_ortho = ʃèː yelkənyǎː wàhála gín máː |c ʃèː mányoː !//
-# text_en = I saw this suffering and I came.
-1	ʃèː	ʃèː	X	_	_	0	root	_	AlignBegin=331182|AlignEnd=331413|Gloss=X
-2	yel	yel	VERB	_	_	1	comp:aux	_	AlignBegin=331413|AlignEnd=331471|Gloss=see
-3	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	comp:obj	_	AlignBegin=331471|AlignEnd=331529|Gloss=2SG.OBJ
-4	ni	ni	PART	_	Aspect=Iter	2	compound:prt	_	AlignBegin=331529|AlignEnd=331587|Gloss=ITER|wordform=-ni
-5	á	ká	ADP	_	_	2	comp:obl	_	AlignBegin=331587|AlignEnd=331644|Gloss=at
-6	wàhála	wàhála	NOUN	_	_	5	comp:obj	_	AlignBegin=331644|AlignEnd=331875|Gloss=suffering
+# text = ʃèː yelɣənyǎː wàhála gín máː //= ʃèː mányoː !//
+# text_ortho = ʃèː yelɣənyǎː wàhála gín máː //= ʃèː mányoː !//
+# text_en = See! This very calamity! Come !
+1	ʃèː	ʃèː	X	_	_	2	discourse	_	AlignBegin=331182|AlignEnd=331413|Gloss=X
+2-3	yelɣənyǎː	_	_	_	_	_	_	_	_
+2	yel	yel	VERB	_	Mood=Imp	0	root	_	AlignBegin=331413|AlignEnd=331471|Gloss=see
+3	ɣəní	kəní	PART	_	Aspect=Iter	2	compound:prt	_	AlignBegin=331529|AlignEnd=331587|Gloss=be
+4	aː	aː	PART	_	_	2	mod	_	AlignBegin=331587|AlignEnd=331644|Gloss=VRT
+5	!//=	!//=	PUNCT	_	_	6	mod	_	AlignBegin=331587|AlignEnd=331644|Gloss=PUNCT
+6	wàhála	wàhála	NOUN	_	_	2	parataxis@conj	_	AlignBegin=331644|AlignEnd=331875|Gloss=calamity
 7	gín	gín	DET	_	PronType=Dem	6	det	_	AlignBegin=331875|AlignEnd=332106|Gloss=PROX
-8	máː	máː	PART	_	_	2	discourse	_	AlignBegin=332106|AlignEnd=332337|Gloss=even
-9	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=332337|AlignEnd=332569|Gloss=PUNCT
-10	ʃèː	ʃèː	X	_	_	5	comp:obj	_	AlignBegin=332569|AlignEnd=332812|Gloss=X
-11	máni	máni	VERB	_	_	10	comp:aux	_	AlignBegin=332812|AlignEnd=332934|Gloss=come
-12	oː	oː	PART	_	PartType=Emp	10	mod	_	AlignBegin=332934|AlignEnd=333055|Gloss=EMPH
-13	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=333055|AlignEnd=333298|Gloss=PUNCT
+8	máː	máː	PART	_	_	6	discourse	_	AlignBegin=332106|AlignEnd=332337|Gloss=even
+9	!//=	!//=	PUNCT	_	_	11	punct	_	AlignBegin=332337|AlignEnd=332569|Gloss=PUNCT
+10	ʃèː	ʃèː	X	_	_	11	discourse	_	AlignBegin=332569|AlignEnd=332812|Gloss=X
+11-12	mányoː	_	_	_	_	_	_	_	_
+11	máni	máni	VERB	_	_	6	parataxis@conj	_	AlignBegin=332812|AlignEnd=332934|Gloss=come
+12	oː	oː	PART	_	PartType=Emp	11	mod	_	AlignBegin=332934|AlignEnd=333055|Gloss=EMPH
+13	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=333055|AlignEnd=333298|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_254-254
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 334814, 335763
-# text = ʃèː yel -i gyòkɗi máː !//
+# text = ʃèː yeli gyòkɗi máː !//
 # text_ortho = ʃèː yeli gyòkɗi máː !//
 # text_en = See this ulcer!
-1	ʃèː	ʃèː	X	_	_	0	root	_	AlignBegin=334814|AlignEnd=335004|Gloss=X
-2	yel-i	yel-i	VERB	_	_	1	comp:aux	_	AlignBegin=335004|AlignEnd=335194|Gloss=see|wordform=yel
-3	gyòkɗi	gyòkɗi	DET	_	Number=Plur	2	comp:obj	_	AlignBegin=335194|AlignEnd=335384|Gloss=abcess
-4	máː	máː	PART	_	_	1	discourse	_	AlignBegin=335384|AlignEnd=335574|Gloss=even
-5	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=335574|AlignEnd=335763|Gloss=PUNCT
+1	ʃèː	ʃèː	X	_	_	2	discourse	_	AlignBegin=334814|AlignEnd=335004|Gloss=X
+2	yeli	yel	VERB	_	Mood=Imp	0	root	_	AlignBegin=335004|AlignEnd=335194|Gloss=see-Imp
+3	gyòkɗi	gyòkɗi	NOUN	_	_	2	comp:obj	_	AlignBegin=335194|AlignEnd=335384|Gloss=abcess
+4	máː	máː	PART	_	_	2	discourse	_	AlignBegin=335384|AlignEnd=335574|Gloss=even
+5	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=335574|AlignEnd=335763|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_255-255
 # speaker_id = SP1
