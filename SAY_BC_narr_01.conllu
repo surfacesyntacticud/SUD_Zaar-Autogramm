@@ -2827,7 +2827,7 @@
 # sent_timecode = 362035, 364298
 # text = ʃèː naː mel tə́ yâːn < tòː ʃèː ɮoptíːɗi //
 # text_ortho = ʃèː naː mel tə́ yâːn < tòː ʃèː ɮoptíːɗi //
-# text_en = Whenyou are close to it, then stick the spear into it.
+# text_en = When you are close to it, then stick the spear into it.
 1	ʃèː	ʃèː	X	_	_	8	mod	_	AlignBegin=362035|AlignEnd=362225|Gloss=X
 2	naː	naː	VERB	_	_	1	comp:aux	_	AlignBegin=362225|AlignEnd=362415|Gloss=become
 3	mel	mel	ADV	_	_	2	mod	_	AlignBegin=362415|AlignEnd=362605|Gloss=close
@@ -2846,47 +2846,46 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 364298, 365890
-# text = tôː ʃèː mbiː =tə gíː X séː vìː //
+# text = tôː ʃèː mbiːtə gíː X séː vìː //
 # text_ortho = tôː ʃèː mbiːtə gíː X séː vìː //
-# text_en = Well go and get it and stick it into his mouth.
+# text_en = Well take it there and (stick it into his) mouth.
 1	tôː	tòː	PART	_	_	2	discourse	_	AlignBegin=364298|AlignEnd=364497|Gloss=well
 2	ʃèː	ʃèː	X	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=364497|AlignEnd=364696|Gloss=X
 3	mbiː	mbiː	VERB	_	_	2	comp:aux	_	AlignBegin=364696|AlignEnd=364796|Gloss=take
 4	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=364796|AlignEnd=364895|Gloss=3SG.OBJ
 5	gíː	gíː	PRON	_	PronType=Dem	3	comp:obj	_	AlignBegin=364895|AlignEnd=365094|Gloss=REM
-6	X	X	X	_	_	3	unk@scrap	_	AlignBegin=365094|AlignEnd=365293|Gloss=X
-7	séː	séː	ADP	_	_	3	mod	_	AlignBegin=365293|AlignEnd=365492|Gloss=until
-8	vìː	vìː	NOUN	_	_	7	comp:obj	_	AlignBegin=365492|AlignEnd=365691|Gloss=mouth
+6	X	X	X	_	_	3	parataxis@conj	_	AlignBegin=365094|AlignEnd=365293|Gloss=X
+7	séː	séː	ADP	_	_	6	unk	_	AlignBegin=365293|AlignEnd=365492|Gloss=until
+8	vìː	vìː	NOUN	_	_	7	unk	_	AlignBegin=365492|AlignEnd=365691|Gloss=mouth
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=365691|AlignEnd=365890|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_279-279
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 368195, 368814
-# text = kura kap -íː //
+# text = kura kàɓíː //
 # text_ortho = kura kàɓíː //
 # text_en = Hyena agreed.
-1	kura	kura	X	_	Foreign=Yes	0	root	_	AlignBegin=368195|AlignEnd=368401|Gloss=hyena|Lang=hau
-2	kap-íː	kap-íː	VERB	_	Aspect=Res	1	comp:aux	_	AlignBegin=368401|AlignEnd=368607|Gloss=take|wordform=kap
-3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=368607|AlignEnd=368814|Gloss=PUNCT
+1	kura	kura	NOUN	_	Foreign=Yes	2	subj	_	AlignBegin=368195|AlignEnd=368401|Gloss=hyena|Lang=hau
+2	kàɓíː	kap	VERB	_	Aspect=Res	0	root	_	AlignBegin=368401|AlignEnd=368607|Gloss=take|wordform=kap
+3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=368607|AlignEnd=368814|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_280-281
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 369021, 371329
-# text = mbə́rgə̀ptəŋ ɗan á kap -íː ɗan á < kír káwây //
-# text_ortho = mbə́rgə̀ptəŋ ɗan á kâɓíː ɗan á < kǐr káwây //
+# text = mbə́rgə̀ptəŋ ɗan á kâɓíː ɗan á kǐr káwây //
+# text_ortho = mbə́rgə̀ptəŋ ɗan á kâɓíː ɗan á kǐr káwây //
 # text_en = As Hyena agreed, he ran straight away.
-1	mbə́rgə̀ptəŋ	mbə́rgə̀ptəŋ	NOUN	_	_	8	comp:obj	_	AlignBegin=369021|AlignEnd=369219|Gloss=hyena
-2	ɗan	ɗan	SCONJ	_	_	1	mod@relcl	_	AlignBegin=369219|AlignEnd=369417|Gloss=as
+1	mbə́rgə̀ptəŋ	mbə́rgə̀ptəŋ	NOUN	_	_	6	dislocated@subj	_	AlignBegin=369021|AlignEnd=369219|Gloss=hyena
+2	ɗan	ɗan	SCONJ	_	_	6	mod	_	AlignBegin=369219|AlignEnd=369417|Gloss=as
 3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	2	comp:obj	_	AlignBegin=369417|AlignEnd=369615|Gloss=3SG.Aor
-4	kap-íː	kap-íː	VERB	_	Aspect=Res	3	comp:aux	_	AlignBegin=369615|AlignEnd=369813|Gloss=take|wordform=kap
-5	ɗan	ɗan	SCONJ	_	_	4	mod	_	AlignBegin=369813|AlignEnd=370011|Gloss=as
-6	á	á	INTJ	_	Aspect=Aor|Number=Sing|Person=3	5	comp:obj	_	AlignBegin=370011|AlignEnd=370209|Gloss=3SG.Aor
-7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=370209|AlignEnd=370405|Gloss=PUNCT
-8	kír	kír	VERB	_	_	0	root	_	AlignBegin=370644|AlignEnd=370872|Gloss=run
-9	káwây	káwây	ADV	_	_	8	mod	_	AlignBegin=370872|AlignEnd=371100|Gloss=merely
-10	//	//	PUNCT	_	_	8	punct	_	AlignBegin=371100|AlignEnd=371329|Gloss=PUNCT
+4	kâɓíː	kap	VERB	_	Aspect=Res	3	comp:aux	_	AlignBegin=369615|AlignEnd=369813|Gloss=take|wordform=kap
+5	ɗan	ɗan	ADV	_	_	6	mod	_	AlignBegin=369813|AlignEnd=370011|Gloss=as
+6	á	á	INTJ	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=370011|AlignEnd=370209|Gloss=3SG.Aor
+7	kǐr	kír	VERB	_	_	6	comp:aux	_	AlignBegin=370644|AlignEnd=370872|Gloss=run
+8	káwây	káwây	ADV	_	_	7	mod	_	AlignBegin=370872|AlignEnd=371100|Gloss=merely
+9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=371100|AlignEnd=371329|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_282-284
 # speaker_id = SP1
