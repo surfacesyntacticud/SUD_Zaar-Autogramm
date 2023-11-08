@@ -3066,13 +3066,14 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 389001, 389935
-# text = àːyí ngaː =tə ká gíː ɗan //
-# text_ortho = àːyí ngàːtə̀ ká gíː ɗan //
+# text = ǎː ŋgàːtə̀ ɣá gíː ɗan //
+# text_ortho = ǎː ŋgàːtə̀ ɣá gíː ɗan //
 # text_en = He had already made him suffer.
-1	àːyí	ːyii	AUX	_	Number=Sing|Person=3|Tense=Imm	0	root	_	AlignBegin=389001|AlignEnd=389157|Gloss=3SG.PERF.IMM
-2	ngaː	ngaː	VERB	_	_	1	comp:aux	_	AlignBegin=389157|AlignEnd=389235|Gloss=take_food
-3	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=389235|AlignEnd=389313|Gloss=3SG.OBJ
-4	ká	ká	ADP	_	_	2	comp:obl	_	AlignBegin=389313|AlignEnd=389469|Gloss=at
+1	ǎː	yiː	AUX	_	Number=Sing|Person=3|Tense=Imm	0	root	_	AlignBegin=389001|AlignEnd=389157|Gloss=3SG.PERF.IMM
+2-3	_	_	_	_	_	_	_	_
+2	ngàː	ngaː	VERB	_	_	1	comp:aux	_	AlignBegin=389157|AlignEnd=389235|Gloss=take_food
+3	=tə̀̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=389235|AlignEnd=389313|Gloss=3SG.OBJ
+4	ɣá	ká	ADP	_	_	2	comp:obl	_	AlignBegin=389313|AlignEnd=389469|Gloss=at
 5	gíː	gíː	PRON	_	PronType=Dem	4	comp:obj	_	AlignBegin=389469|AlignEnd=389625|Gloss=REM
 6	ɗan	ɗan	ADV	_	_	2	mod	_	AlignBegin=389625|AlignEnd=389781|Gloss=again
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=389781|AlignEnd=389935|Gloss=PUNCT
@@ -3081,11 +3082,11 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 390214, 390628
-# text = èː kən !//
-# text_ortho = èː kən !//
+# text = èː ɣən !//
+# text_ortho = èː ɣən !//
 # text_en = Yes indeed!
 1	èː	èː	INTJ	_	_	0	root	_	AlignBegin=390214|AlignEnd=390352|Gloss=yes
-2	kən	kən	PART	_	_	1	mod	_	AlignBegin=390352|AlignEnd=390490|Gloss=be
+2	ɣən	kən	PART	_	_	1	mod	_	AlignBegin=390352|AlignEnd=390490|Gloss=be
 3	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=390490|AlignEnd=390628|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_299-299
@@ -3102,69 +3103,70 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 392018, 395887
-# text = ɗan á kap -íː káwây ɗan tə́ man tə́ ɓəl tə́ ɓəl tə́ ɓəl //
+# text = ɗan á kâɓíː káwây ɗan tə́ mǎn tə́ ɓə̂l tə́ ɓə̂l tə́ ɓə̂l //
 # text_ortho = ɗan á kâɓíː káwây ɗan tə́ mǎn tə́ ɓə̂l tə́ ɓə̂l tə́ ɓə̂l //
 # text_en = As he took it, then... they went on digging, digging, digging.
-1	ɗan	ɗan	SCONJ	_	_	2	mod	_	AlignBegin=392018|AlignEnd=392361|Gloss=as
-2	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=392361|AlignEnd=392704|Gloss=3SG.Aor
-3	kap-íː	kap-p	VERB	_	Aspect=Res	2	comp:aux	_	AlignBegin=392704|AlignEnd=393047|Gloss=take|wordform=kap
+1	ɗan	ɗan	SCONJ	_	_	6	mod	_	AlignBegin=392018|AlignEnd=392361|Gloss=as
+2	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	1	comp:obj	_	AlignBegin=392361|AlignEnd=392704|Gloss=3SG.Aor
+3	kâɓíː	kap	VERB	_	Aspect=Res	2	comp:aux	_	AlignBegin=392704|AlignEnd=393047|Gloss=take|wordform=kap
 4	káwây	káwây	ADV	_	_	2	mod	_	AlignBegin=393047|AlignEnd=393390|Gloss=merely
-5	ɗan	ɗan	SCONJ	_	_	2	mod	_	AlignBegin=393390|AlignEnd=393732|Gloss=then
-6	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=393732|AlignEnd=393906|Gloss=3Plur.Aor
-7	man	man	VERB	_	_	6	comp:aux	_	AlignBegin=393906|AlignEnd=394081|Gloss=come|SVC=Yes
-8	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	6	conj:coord	_	AlignBegin=394081|AlignEnd=394339|Gloss=3Plur..Aor
-9	ɓəl	ɓəl	VERB	_	_	2	comp:aux	_	AlignBegin=394339|AlignEnd=394597|Gloss=dig
+5	ɗan	ɗan	ADV	_	_	6	mod	_	AlignBegin=393390|AlignEnd=393732|Gloss=then
+6	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=393732|AlignEnd=393906|Gloss=3Plur.Aor
+7	mǎn	mán	VERB	_	_	6	comp:aux	_	AlignBegin=393906|AlignEnd=394081|Gloss=come
+8	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	6	parataxis@conj	_	AlignBegin=394081|AlignEnd=394339|Gloss=3Plur..Aor
+9	ɓə̂l	ɓəl	VERB	_	_	8	comp:aux	_	AlignBegin=394339|AlignEnd=394597|Gloss=dig
 10	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	8	parataxis@conj	_	AlignBegin=394597|AlignEnd=394855|Gloss=3Plur.Aor
-11	ɓəl	ɓəl	VERB	_	_	10	comp:aux	_	AlignBegin=394855|AlignEnd=395113|Gloss=dig
+11	ɓə̂l	ɓəl	VERB	_	_	10	comp:aux	_	AlignBegin=394855|AlignEnd=395113|Gloss=dig
 12	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	10	parataxis@conj	_	AlignBegin=395113|AlignEnd=395371|Gloss=3Plur.Aor
-13	ɓəl	ɓəl	VERB	_	_	12	comp:aux	_	AlignBegin=395371|AlignEnd=395629|Gloss=dig
+13	ɓə̂l	ɓəl	VERB	_	_	12	comp:aux	_	AlignBegin=395371|AlignEnd=395629|Gloss=dig
 14	//	//	PUNCT	_	_	6	punct	_	AlignBegin=395629|AlignEnd=395887|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_303-304
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 397233, 398980
-# text = séː ɗan tə́ || á ɮop gwaːr -i káy //
-# text_ortho = séː ɗan tə́ || á ɮòp gwaːrikáy //
+# text = séː ɗan tə́ || á ɮòp gwaːriɣáy //
+# text_ortho = séː ɗan tə́ || á ɮòp gwaːriɣáy //
 # text_en = Then they... he (Hyena) stuck the spear into (the burrow).
-1	séː	séː	ADV	_	_	2	mod	_	AlignBegin=397233|AlignEnd=397427|Gloss=then
-2	ɗan	ɗan	SCONJ	_	_	0	root	_	AlignBegin=397427|AlignEnd=397621|Gloss=as
-3	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	2	comp:obj	_	AlignBegin=397621|AlignEnd=397815|Gloss=3Plur.Aor
-4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=397815|AlignEnd=398010
-5	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	2	comp:obj	_	AlignBegin=398010|AlignEnd=398252|Gloss=3SG.Aor
-6	ɮop	ɮop	VERB	_	_	5	comp:aux	_	AlignBegin=398252|AlignEnd=398494|Gloss=thrust
-7	gwaːr-i	gwaːr-i	NOUN	_	_	6	comp:obj	_	AlignBegin=398494|AlignEnd=398656|Gloss=spear|wordform=gwaːr
-8	káy	káy	PRON	_	Person=3|PronType=Prs	6	comp:obl@expl	_	AlignBegin=398656|AlignEnd=398736|Gloss=ANAPH
-9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=398736|AlignEnd=398980|Gloss=PUNCT
+1	séː	séː	ADV	_	_	3	mod	_	AlignBegin=397233|AlignEnd=397427|Gloss=then
+2	ɗan	ɗan	ADV	_	_	3	mod	_	AlignBegin=397427|AlignEnd=397621|Gloss=then
+3	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=397621|AlignEnd=397815|Gloss=3Plur.Aor
+4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=397815|AlignEnd=398010|Gloss=PUNCT
+5	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	3	conj:dicto	_	AlignBegin=398010|AlignEnd=398252|Gloss=3SG.Aor
+6	ɮòp	ɮop	VERB	_	_	5	comp:aux	_	AlignBegin=398252|AlignEnd=398494|Gloss=thrust
+7-8	gwaːriɣáy	_	_	_	_	_	_	_	_
+7	gwaːri	gwaːr	NOUN	_	Definite=Ind	6	comp:obj	_	AlignBegin=398494|AlignEnd=398656|Gloss=spear|wordform=gwaːr
+8	ɣáy	káy	PRON	_	Person=3|PronType=Prs	6	comp:obl@expl	_	AlignBegin=398656|AlignEnd=398736|Gloss=ANAPH
+9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=398736|AlignEnd=398980|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_305-306
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 399637, 401737
-# text = séː á kat =tə yâːpm kə́ ʒèlì mə́n ɗi káy //
-# text_ortho = séː á kâttə̀ yâːpm kə̀ ʒèlì mə́ndikáy //
+# text = séː á kâttə̀ yâːpm kə̀ ʒèlì mə́ndiɣáy //
+# text_ortho = séː á kâttə̀ yâːpm kə̀ ʒèlì mə́ndiɣáy //
 # text_en = Then he [Monitor] threw... red clay onto it (the spear).
 1	séː	séː	ADV	_	_	2	mod	_	AlignBegin=399637|AlignEnd=399983|Gloss=then
 2	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=399983|AlignEnd=400329|Gloss=3SG.Aor
 3	kat	kat	VERB	_	_	2	comp:aux	_	AlignBegin=400329|AlignEnd=400502|Gloss=drive_away
-4	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=400502|AlignEnd=400675|Gloss=3SG.OBJ
+4	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:ben	_	AlignBegin=400502|AlignEnd=400675|Gloss=3SG.OBJ
 5	yâːpm	yâːpm	NOUN	_	_	3	comp:obj	_	AlignBegin=400675|AlignEnd=400887|Gloss=earth.sp
-6	kə̀	á	ADP	_	_	3	comp:obj	_	AlignBegin=400887|AlignEnd=401099|Gloss=of
+6	kə̀	kə́	ADP	_	_	5	mod	_	AlignBegin=400887|AlignEnd=401099|Gloss=of
 7	ʒèlì	ʒèlì	ADJ	_	_	6	comp:obj	_	AlignBegin=401099|AlignEnd=401311|Gloss=red
 8	mə́n	mə́n	PART	_	Case=Ben	3	compound:prt	_	AlignBegin=401311|AlignEnd=401382|Gloss=BEN
 9	ɗi	ɗi	PART	_	_	3	compound:prt	_	AlignBegin=401382|AlignEnd=401453|Gloss=CTP
-10	káy	káy	PRON	_	Person=3|PronType=Prs	3	comp:obl@expl	_	AlignBegin=401453|AlignEnd=401523|Gloss=ANAPH
+10	ɣáy	káy	PRON	_	Person=3|PronType=Prs	3	comp:obl@expl	_	AlignBegin=401453|AlignEnd=401523|Gloss=ANAPH
 11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=401523|AlignEnd=401737|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_307-307
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 402704, 403256
-# text = á wul tu ʃèː &//
+# text = á wûl tu ʃèː &//
 # text_ortho = á wûl tu ʃèː &//
 # text_en = He said, well ...
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root@scrap	_	AlignBegin=402704|AlignEnd=402814|Gloss=3SG.Aor
-2	wul	wul	VERB	_	_	1	comp:aux	_	AlignBegin=402814|AlignEnd=402924|Gloss=say
+2	wûl	wul	VERB	_	_	1	comp:aux	_	AlignBegin=402814|AlignEnd=402924|Gloss=say
 3	tu	tu	SCONJ	_	Mood=Qot	2	comp:obj	_	AlignBegin=402924|AlignEnd=403034|Gloss=OPN
 4	ʃèː	ʃèː	X	_	_	3	comp:obj	_	AlignBegin=403034|AlignEnd=403144|Gloss=X
 5	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=403144|AlignEnd=403256|Gloss=PUNCT
@@ -3173,102 +3175,109 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 403256, 406329
-# text = tôː ʃèː longa wul =tə tu [ tôː ʃèː yel -i < daːkâm =atn < ʃèː vwàràŋ kyâːt ŋâː //=
-# text_ortho = tôː ʃèː longa wùltə̀ tu [ tôː ʃèː yeli < daːkámâtn < ʃèː vwàràŋ kyâːt ŋâː //=
-# text_en = Well... Rabbit told him Well see, my friend, blood already?"
-1	tôː	tòː	PART	_	_	2	discourse	_	AlignBegin=403256|AlignEnd=403484|Gloss=well
-2	ʃèː	ʃèː	X	_	_	0	root	_	AlignBegin=403484|AlignEnd=403712|Gloss=X
-3	longa	longa	NOUN	_	_	2	comp:obj	_	AlignBegin=403712|AlignEnd=403890|Gloss=rabbit
-4	wul	wul	VERB	_	_	3	compound:svc	_	AlignBegin=403890|AlignEnd=403979|Gloss=say
-5	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=403979|AlignEnd=404068|Gloss=3SG.OBJ
+# text_ortho = tôː ʃèː longa wùltə̀ tu [ tôː ʃèː yeli < daːkámâtn < ʃèː vwàràŋ kyâːt ŋâː !//] //
+# text_ortho = tôː ʃèː longa wùltə̀ tu [ tôː ʃèː yeli < daːkámâtn < ʃèː vwàràŋ kyâːt ŋâː !//] //
+# text_en = Well... Rabbit told him "Well see, my friend, blood already!"
+1	tôː	tòː	PART	_	_	4	discourse	_	AlignBegin=403256|AlignEnd=403484|Gloss=well
+2	ʃèː	ʃèː	X	_	_	4	discourse	_	AlignBegin=403484|AlignEnd=403712|Gloss=X
+3	longa	longa	NOUN	_	_	4	subj	_	AlignBegin=403712|AlignEnd=403890|Gloss=rabbit
+4-5	wùltə̀	_	_	_	_	_	_	_	_
+4	wùl	wul	VERB	_	_	0	root	_	AlignBegin=403890|AlignEnd=403979|Gloss=say
+5	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=403979|AlignEnd=404068|Gloss=3SG.OBJ
 6	tu	tu	SCONJ	_	Mood=Qot	4	comp:obj	_	AlignBegin=404068|AlignEnd=404246|Gloss=OPN
-7	[	[	PUNCT	_	_	2	punct	_	AlignBegin=404246|AlignEnd=404425|Gloss=PUNCT
-8	tôː	tôː	PART	_	_	2	discourse	_	AlignBegin=404425|AlignEnd=404562|Gloss=well
-9	ʃèː	ʃèː	X	_	_	2	parataxis@mod	_	AlignBegin=404562|AlignEnd=404699|Gloss=X
-10	yel-i	yel-i	VERB	_	_	9	comp:aux	_	AlignBegin=404699|AlignEnd=404836|Gloss=see|wordform=yel
-11	<	<	PUNCT	_	_	9	punct	_	AlignBegin=404836|AlignEnd=404972|Gloss=PUNCT
-12	daːkâm	daːkâm	NOUN	_	_	17	dislocated@top	_	AlignBegin=404972|AlignEnd=405076|Gloss=friend
+7	[	[	PUNCT	_	_	10	punct	_	AlignBegin=404246|AlignEnd=404425|Gloss=PUNCT
+8	tôː	tôː	PART	_	_	10	discourse	_	AlignBegin=404425|AlignEnd=404562|Gloss=well
+9	ʃèː	ʃèː	X	_	_	10	discourse	_	AlignBegin=404562|AlignEnd=404699|Gloss=X
+10	yeli	yeli	VERB	_	Mood=Imp	6	comp:obj	_	AlignBegin=404699|AlignEnd=404836|Gloss=see.Imp|wordform=yel
+11	<	<	PUNCT	_	_	16	punct	_	AlignBegin=404836|AlignEnd=404972|Gloss=PUNCT
+12-13	daːkámâtn	_	_	_	_	_	_	_	_
+12	daːkâm	daːkâm	NOUN	_	_	16	vocative	_	AlignBegin=404972|AlignEnd=405076|Gloss=friend
 13	=âtn	=atn	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	12	mod@poss	_	AlignBegin=405076|AlignEnd=405180|Gloss=1SG.POS|wordform=_
 14	<	<	PUNCT	_	_	12	punct	_	AlignBegin=405180|AlignEnd=405388|Gloss=PUNCT
-15	ʃèː	ʃèː	X	_	_	17	mod	_	AlignBegin=405388|AlignEnd=405596|Gloss=X
-16	vwàràŋ	vwàràŋ	NOUN	_	_	17	mod	_	AlignBegin=405596|AlignEnd=405779|Gloss=blood
-17	kyâːt	kyâːt	IDEO	_	_	3	mod	_	AlignBegin=405779|AlignEnd=405962|Gloss=fast
-18	ŋâː	ŋaː	PART	_	PartType=Int	17	mod	_	AlignBegin=405962|AlignEnd=406145|Gloss=VRT
-19	//=	//=	PUNCT	_	_	2	punct	_	AlignBegin=406145|AlignEnd=406329|Gloss=PUNCT
+15	ʃèː	ʃèː	X	_	_	16	discourse	_	AlignBegin=405388|AlignEnd=405596|Gloss=X
+16	vwàràŋ	vwàràŋ	NOUN	_	_	10	parataxis@conj	_	AlignBegin=405596|AlignEnd=405779|Gloss=blood
+17	kyâːt	kyâːt	IDEO	_	_	16	mod	_	AlignBegin=405779|AlignEnd=405962|Gloss=fast
+18	ŋâː	ŋaː	PART	_	PartType=Int	16	mod	_	AlignBegin=405962|AlignEnd=406145|Gloss=VRT
+19	!//]	!//]	PUNCT	_	_	10	punct	_	AlignBegin=406145|AlignEnd=406329|Gloss=PUNCT
+20	//	//	PUNCT	_	_	4	punct	_	AlignBegin=406145|AlignEnd=406329|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_313-313
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 406605, 408022
-# text = ʃèː ɮop =tə hár ʃèː fi vwàràŋ oː !//] //
-# text_ortho = ʃèː ɮoptə hár ʃèː fi vwàràŋòː !//] //
-# text_en = Stab him utill he bleeds.
-1	ʃèː	ʃèː	X	_	_	0	root	_	AlignBegin=406605|AlignEnd=406782|Gloss=X
-2	ɮop	ɮop	VERB	_	_	1	comp:aux	_	AlignBegin=406782|AlignEnd=406870|Gloss=thrust
+# text = ʃèː ɮoptə hár ʃèː fi vwàràŋòː !//
+# text_ortho = ʃèː ɮoptə hár ʃèː fi vwàràŋòː !//
+# text_en = Stab him utill he bleeds! [Hyena said.]
+1	ʃèː	ʃèː	X	_	_	2	discourse	_	AlignBegin=406605|AlignEnd=406782|Gloss=X
+2-3	ɮoptə	_	_	_	_	_	_	_	_
+2	ɮop	ɮop	VERB	_	Mood=Imp	0	root	_	AlignBegin=406782|AlignEnd=406870|Gloss=stab-Imp
 3	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=406870|AlignEnd=406959|Gloss=3SG.OBJ
-4	hár	hár	ADP	_	_	2	mod	_	AlignBegin=406959|AlignEnd=407136|Gloss=until
+4	hár	hár	SCONJ	_	_	2	mod	_	AlignBegin=406959|AlignEnd=407136|Gloss=until
 5	ʃèː	ʃèː	X	_	_	4	comp:obj	_	AlignBegin=407136|AlignEnd=407313|Gloss=X
 6	fi	fi	VERB	_	_	5	comp:aux	_	AlignBegin=407313|AlignEnd=407490|Gloss=do
-7	vwàràŋ	vwàràŋ	NOUN	_	_	6	comp:obj	_	AlignBegin=407490|AlignEnd=407578|Gloss=blood
-8	oː	oː	PART	_	PartType=Emp	1	mod	_	AlignBegin=407578|AlignEnd=407667|Gloss=EMPH
-9	!//]	!//]	PUNCT	_	_	1	punct	_	AlignBegin=407667|AlignEnd=407844|Gloss=PUNCT
-10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=407844|AlignEnd=408022|Gloss=PUNCT
+7	vwàràŋ	vwàràŋ	NOUN	_	_	6	comp:obj@lvc	_	AlignBegin=407490|AlignEnd=407578|Gloss=blood
+8	oː	oː	PART	_	PartType=Emp	2	mod	_	AlignBegin=407578|AlignEnd=407667|Gloss=EMPH
+9	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=407667|AlignEnd=407844|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_315-315
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 409437, 410097
-# text = XX mará -íː //
+# text = XX maráy //
 # text_ortho = XX maráy //
-# text_en = You will spoil it.
+# text_en = [You will] spoil it.
 1	XX	XX	X	_	_	0	root	_	AlignBegin=409437|AlignEnd=409657|Gloss=XX
-2	mará-íː	mará-íː	VERB	_	Aspect=Res	1	comp:aux	_	AlignBegin=409657|AlignEnd=409877|Gloss=spoil|wordform=mará
+2	maráy	mará	VERB	_	Aspect=Res	1	comp:aux	_	AlignBegin=409657|AlignEnd=409877|Gloss=spoil-Res|wordform=mará
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=409877|AlignEnd=410097|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_314-318
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 409161, 414480
-# text = á wul tu [ ʃèː || ʃèː mará ɬûː -íː !//= ʃèː mará ɬûː -íː !//= ʃèː ɓəl =kə oː !//] //
-# text_ortho = á wû tu [ ʃèː || ʃèː mará ɬúːy !//= ʃèː mará ɬúːy !//= ʃèː ɓəlkə́yoː !//] //
-# text_en = He said ... you will spoil the meat. You will spoil the meat. Go on digging!"
+# text = á wû tu [ ʃèː || ʃèː mará ɬúːy !//= ʃèː mará ɬúːy !//= ʃèː ɓəlɣáyoː !//] //
+# text_ortho = á wû tu [ ʃèː || ʃèː mará ɬúːy !//= ʃèː mará ɬúːy !//= ʃèː ɓəlɣáyoː !//] //
+# text_en = He [rabbit] said "You... you will spoil the meat. You will spoil the meat. Go on digging!"
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=409161|AlignEnd=409219|Gloss=3SG.Aor
-2	wul	wul	VERB	_	_	1	comp:aux	_	AlignBegin=409219|AlignEnd=409277|Gloss=say
+2	wû	wu	VERB	_	_	1	comp:aux	_	AlignBegin=409219|AlignEnd=409277|Gloss=say
 3	tu	tu	SCONJ	_	Mood=Qot	2	comp:obj	_	AlignBegin=409277|AlignEnd=409335|Gloss=OPN
-4	[	[	PUNCT	_	_	8	punct	_	AlignBegin=409335|AlignEnd=409393|Gloss=PUNCT
-5	ʃèː	ʃèː	PART	_	_	1	subj	_	AlignBegin=409393|AlignEnd=409451|Gloss=X
+4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=409335|AlignEnd=409393|Gloss=PUNCT
+5	ʃèː	ʃèː	X	_	_	3	comp:obj	_	AlignBegin=409393|AlignEnd=409451|Gloss=X
 6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=409509|AlignEnd=409568
 7	ʃèː	ʃèː	X	_	_	5	conj:dicto	_	AlignBegin=410097|AlignEnd=410317|Gloss=X
-8	mará	mará	VERB	_	_	5	comp:obj	_	AlignBegin=410317|AlignEnd=410537|Gloss=spoil
-9	ɬûː-íː	ɬûː-iə	NOUN	_	Deixis=Dist	8	comp:obj	_	AlignBegin=410537|AlignEnd=410757|Gloss=meat|wordform=ɬûː
-10	!//=	!//=	PUNCT	_	_	7	punct	_	AlignBegin=410757|AlignEnd=410979|Gloss=PUNCT
-11	ʃèː	ʃèː	X	_	_	12	subj	_	AlignBegin=411377|AlignEnd=411582|Gloss=X
-12	mará	mará	VERB	_	_	8	parataxis@conj	_	AlignBegin=411582|AlignEnd=411787|Gloss=spoil
-13	ɬûː-íː	ɬûː-í	NOUN	_	Deixis=Dist	16	comp:obj	_	AlignBegin=411787|AlignEnd=411992|Gloss=meat|wordform=ɬûː
-14	!//=	!//=	PUNCT	_	_	12	punct	_	AlignBegin=411992|AlignEnd=412196|Gloss=PUNCT
-15	ʃèː	ʃèː	X	_	_	12	subj	_	AlignBegin=413585|AlignEnd=413809|Gloss=X
+8-9	mará ɬúːy	_	_	_	_	_	_	_	_
+8	*mará-íː	mará	VERB	_	Aspect=Res	7	comp:aux	_	AlignBegin=410317|AlignEnd=410537|Gloss=spoil-Res
+9	ɬûː	ɬûː	NOUN	_	Deixis=Dist	8	comp:obj	_	AlignBegin=410537|AlignEnd=410757|Gloss=meat|wordform=ɬúː
+10	!//=	!//=	PUNCT	_	_	11	punct	_	AlignBegin=410757|AlignEnd=410979|Gloss=PUNCT
+11	ʃèː	ʃèː	X	_	_	7	parataxis@conj	_	AlignBegin=411377|AlignEnd=411582|Gloss=X
+12-13	mará ɬúːy	_	_	_	_	_	_	_	_
+12	*mará-íː	mará	VERB	_	Aspect=Res	8	parataxis@conj	_	AlignBegin=411582|AlignEnd=411787|Gloss=spoil-Res
+13	ɬûː	ɬûː	NOUN	_	Deixis=Dist	12	comp:obj	_	AlignBegin=411787|AlignEnd=411992|Gloss=meat|wordform=ɬûː
+14	!//=	!//=	PUNCT	_	_	15	punct	_	AlignBegin=411992|AlignEnd=412196|Gloss=PUNCT
+15	ʃèː	ʃèː	X	_	_	11	parataxis@conj	_	AlignBegin=413585|AlignEnd=413809|Gloss=X
 16	ɓəl	ɓəl	VERB	_	_	15	comp:aux	_	AlignBegin=413809|AlignEnd=413884|Gloss=dig
-17	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	16	comp:obj	_	AlignBegin=413884|AlignEnd=413959|Gloss=2SG.OBJ
+17	ɣáy	káy	PRON	_	Number=Sing|Person=3	16	comp:obl@expl	_	AlignBegin=413884|AlignEnd=413959|Gloss=ANAPH
 18	oː	oː	PART	_	PartType=Emp	16	mod	_	AlignBegin=413959|AlignEnd=414033|Gloss=EMPH
-19	!//]	!//]	PUNCT	_	_	1	punct	_	AlignBegin=414033|AlignEnd=414257|Gloss=PUNCT
+19	!//]	!//]	PUNCT	_	_	5	punct	_	AlignBegin=414033|AlignEnd=414257|Gloss=PUNCT
 20	//	//	PUNCT	_	_	1	punct	_	AlignBegin=414257|AlignEnd=414480|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_319-319
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 414928, 416110
-# text = ɗan tə́ ɓəl káy //= tə́ ɓəl káy <
-# text_ortho = ɗan tə́ ɓə̂lkáy //= tə́ ɓə̂lkáy <
-# text_en = Then they dug, they dug,
-1	ɗan	ɗan	SCONJ	_	_	2	mod	_	AlignBegin=414928|AlignEnd=415097|Gloss=as
+# text = ɗan tə́ ɓə̂lɣáy //= tə́ ɓə̂lɣáy //
+# text_ortho = ɗan tə́ ɓə̂lɣáy //= tə́ ɓə̂lɣáy //
+# text_en = Then they dug, they dug. 
+1	ɗan	ɗan	ADV	_	_	2	mod	_	AlignBegin=414928|AlignEnd=415097|Gloss=as
 2	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=415097|AlignEnd=415266|Gloss=3Plur.Aor
-3	ɓəl	ɓəl	VERB	_	_	2	comp:aux	_	AlignBegin=415266|AlignEnd=415350|Gloss=dig
-4	káy	káy	PRON	_	Person=3|PronType=Prs	3	comp:obl@expl	_	AlignBegin=415350|AlignEnd=415435|Gloss=ANAPH
+3-4	ɓə̂lɣáy	_	_	_	_	_	_	_	_
+3	ɓə̂l	ɓəl	VERB	_	_	2	comp:aux	_	AlignBegin=415266|AlignEnd=415350|Gloss=dig
+4	ɣáy	káy	PRON	_	Person=3|PronType=Prs	3	comp:obl@expl	_	AlignBegin=415350|AlignEnd=415435|Gloss=ANAPH
 5	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=415435|AlignEnd=415604|Gloss=PUNCT
-6	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	2	conj:coord	_	AlignBegin=415604|AlignEnd=415773|Gloss=3Plur.Aor
-7	ɓəl	ɓəl	VERB	_	_	6	comp:aux	_	AlignBegin=415773|AlignEnd=415857|Gloss=dig
-8	káy	káy	PRON	_	Person=3|PronType=Prs	7	comp:obl@expl	_	AlignBegin=415857|AlignEnd=415942|Gloss=ANAPH
-9	<	<	PUNCT	_	_	2	punct	_	AlignBegin=415942|AlignEnd=416110|Gloss=PUNCT
+6-7	ɓə̂lɣáy	_	_	_	_	_	_	_	_
+6	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	2	parataxis@conj	_	AlignBegin=415604|AlignEnd=415773|Gloss=3Plur.Aor
+7	ɓə̂l	ɓəl	VERB	_	_	6	comp:aux	_	AlignBegin=415773|AlignEnd=415857|Gloss=dig
+8	ɣáy	káy	PRON	_	Person=3|PronType=Prs	7	comp:obl@expl	_	AlignBegin=415857|AlignEnd=415942|Gloss=ANAPH
+9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=415942|AlignEnd=416110|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_320-321
 # speaker_id = SP1
