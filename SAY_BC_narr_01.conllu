@@ -2504,17 +2504,18 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 325682, 326777
-# text = á wû tu ʃèː myáːnyaː ?//
-# text_ortho = á wû tu ʃèː myáːnyaː ?//
-# text_en = He said me?
+# text = á wû tu [ʃèː myáːnyaː ?//] //
+# text_ortho = á wû tu [ʃèː myáːnyaː ?//] //
+# text_en = He said "Is it me?"
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=325682|AlignEnd=325864|Gloss=3SG.Aor
 2	wû	wul	VERB	_	_	1	comp:aux	_	AlignBegin=325864|AlignEnd=326046|Gloss=say
 3	tu	tu	SCONJ	_	Mood=Qot	2	comp:obj	_	AlignBegin=326046|AlignEnd=326228|Gloss=OPN
-4	ʃèː	ʃèː	X	_	_	3	comp:obj	_	AlignBegin=326228|AlignEnd=326410|Gloss=X
-5-6	myáːnyaː	_	_	_	_	_	_	_	_
-5	myáːni	myáːni	PRON	_	Number=Sing|Person=1|PronType=Prs	4	comp:pred	_	AlignBegin=326410|AlignEnd=326501|Gloss=1SG
-6	aː	aː	PART	_	PartType=Int	1	mod	_	AlignBegin=326501|AlignEnd=326592|Gloss=VRT
-7	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=326592|AlignEnd=326777|Gloss=PUNCT
+4	[	[	SCONJ	_	_	5	punct	_	AlignBegin=326046|AlignEnd=326228|Gloss=PUNCT
+5	ʃèː	ʃèː	X	_	_	3	comp:obj	_	AlignBegin=326228|AlignEnd=326410|Gloss=X
+6	myáːni	myáːni	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp:pred	_	AlignBegin=326410|AlignEnd=326501|Gloss=1SG
+7	aː	aː	PART	_	PartType=Int	5	mod	_	AlignBegin=326501|AlignEnd=326592|Gloss=VRT
+8	?//]	?//]	PUNCT	_	PartType=Int	5	punct	_	AlignBegin=326501|AlignEnd=326592|Gloss=PUNCT
+9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=326592|AlignEnd=326777|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_248-248
 # speaker_id = SP1
@@ -2522,7 +2523,7 @@
 # sent_timecode = 327236, 328032
 # text = ʃèː myâːn ?//= yeləm !//
 # text_ortho = ʃèː myâːn ?//= yeləm !//
-# text_en = Me? look at me!
+# text_en = "Is it me? Look at me!".
 1	ʃèː	ʃèː	X	_	_	2	discourse	_	AlignBegin=327236|AlignEnd=327395|Gloss=X
 2	myâːn	myáːni	PRON	_	Number=Sing|Person=1|PronType=Prs	0	root	_	AlignBegin=327395|AlignEnd=327554|Gloss=1SG
 3	?//=	?//=	PUNCT	_	_	4	punct	_	AlignBegin=327554|AlignEnd=327713|Gloss=PUNCT
