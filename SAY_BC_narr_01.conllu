@@ -3228,8 +3228,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 409161, 414480
-# text = á wû tu [ ʃèː || ʃèː mará ɬúːy !//= ʃèː mará ɬúːy !//= ʃèː ɓəlɣáyoː !//] //
-# text_ortho = á wû tu [ ʃèː || ʃèː mará ɬúːy !//= ʃèː mará ɬúːy !//= ʃèː ɓəlɣáyoː !//] //
+# text = á wû tu [ ʃèː || ʃèː mará ɬúːy !//= ʃèː mará ɬúːy !//= ʃèː ɓəlɣáy oː !//] //
+# text_ortho = á wû tu [ ʃèː || ʃèː mará ɬúːy !//= ʃèː mará ɬúːy !//= ʃèː ɓəlɣáy oː !//] //
 # text_en = He [Rabbit] said "You... you will spoil the meat. You will spoil the meat. Go on digging!"
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=409161|AlignEnd=409219|Gloss=3SG.Aor
 2	wû	wu	VERB	_	_	1	comp:aux	_	AlignBegin=409219|AlignEnd=409277|Gloss=say
@@ -3445,12 +3445,12 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 440907, 441755
-# text = ʃèː su gwaːr -i káwây !//
+# text = ʃèː su gwaːri káwây !//
 # text_ortho = ʃèː su gwaːri káwây !//
 # text_en = Just throw away the spear!
 1	ʃèː	ʃèː	X	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=440907|AlignEnd=441077|Gloss=X
 2	su	su	VERB	_	_	1	comp:aux	_	AlignBegin=441077|AlignEnd=441247|Gloss=throw_away.IMP
-3	gwaːr-i	gwaːr-i	NOUN	_	_	2	comp:obj	_	AlignBegin=441247|AlignEnd=441417|Gloss=spear|wordform=gwaːr
+3	gwaːri	gwaːr	NOUN	_	Definite=Ind	2	comp:obj	_	AlignBegin=441247|AlignEnd=441417|Gloss=spear-Ind|wordform=gwaːr
 4	káwây	káwây	ADV	_	_	2	mod	_	AlignBegin=441417|AlignEnd=441587|Gloss=merely
 5	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=441587|AlignEnd=441755|Gloss=PUNCT
 
@@ -3458,10 +3458,10 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 441755, 442224
-# text = gəm -íː káwây !//
+# text = gəmíː káwây !//
 # text_ortho = gəmíː káwây !//
 # text_en = just leave it!
-1	gəm-íː	gəm-íː	VERB	_	Aspect=Res	0	root	_	AlignBegin=441755|AlignEnd=441911|Gloss=put.IMP|wordform=gəm
+1	gəmíː	gəm	VERB	_	Mood=Imp|Aspect=Res	0	root	_	AlignBegin=441755|AlignEnd=441911|Gloss=put.IMP|wordform=gəm
 2	káwây	káwây	ADV	_	_	1	mod	_	AlignBegin=441911|AlignEnd=442067|Gloss=merely
 3	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=442067|AlignEnd=442224|Gloss=PUNCT
 
@@ -3469,25 +3469,26 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 442224, 444246
-# text = ʃèː àː naː mel //= ʃèː ʧaː tâːs //= ʃèː ngap =tə -íː káy káwây oː !//
-# text_ortho = ʃèː àː naː mel //= ʃèː ʧaː tâːs //= ʃèː ngaptíːkáy káwâyòː !//
+# text = ʃèː àː náː mel //= ʃèː ʧaː tâːs //= ʃèː ŋgaptíːɣáy káwâyòː !//
+# text_ortho = ʃèː àː náː mel //= ʃèː ʧaː tâːs //= ʃèː ŋgaptíːɣáy káwâyòː !//
 # text_en = Get closer, put your hand and just catch it.
 1	ʃèː	ʃèː	PART	_	_	2	mod	_	AlignBegin=442224|AlignEnd=442362|Gloss=X
 2	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=442362|AlignEnd=442500|Gloss=2SG.SUB
-3	naː	naː	VERB	_	_	2	comp:aux	_	AlignBegin=442500|AlignEnd=442638|Gloss=become
+3	náː	naː	VERB	_	_	2	comp:aux	_	AlignBegin=442500|AlignEnd=442638|Gloss=become
 4	mel	mel	ADV	_	_	3	comp:pred	_	AlignBegin=442638|AlignEnd=442776|Gloss=close
-5	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=442776|AlignEnd=442914|Gloss=PUNCT
-6	ʃèː	ʃèː	X	_	_	7	subj	_	AlignBegin=442914|AlignEnd=443039|Gloss=X
-7	ʧaː	ʧaː	VERB	_	_	2	parataxis@conj	_	AlignBegin=443039|AlignEnd=443164|Gloss=put
-8	tâːs	taûː	NOUN	_	_	7	compound:svc	_	AlignBegin=443164|AlignEnd=443289|Gloss=hand
-9	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=443289|AlignEnd=443415|Gloss=PUNCT
-10	ʃèː	ʃèː	X	_	_	7	parataxis@conj	_	AlignBegin=443415|AlignEnd=443623|Gloss=X
-11-12	ngap-íː	_	_	_	_	_	_	_	_
-11	ngap-íː	ngap-iiː	VERB	_	Aspect=Res	10	comp:aux	_	AlignBegin=443623|AlignEnd=443779|Gloss=hold|wordform=ngap
+5	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=442776|AlignEnd=442914|Gloss=PUNCT
+6	ʃèː	ʃèː	X	_	_	2	parataxis@conj	_	AlignBegin=442914|AlignEnd=443039|Gloss=X
+7	ʧaː	ʧaː	VERB	_	_	6	comp:aux	_	AlignBegin=443039|AlignEnd=443164|Gloss=put
+8	tâːs	taûː	NOUN	_	_	7	comp:obj	_	AlignBegin=443164|AlignEnd=443289|Gloss=hand
+9	//=	//=	PUNCT	_	_	10	punct	_	AlignBegin=443289|AlignEnd=443415|Gloss=PUNCT
+10	ʃèː	ʃèː	X	_	_	6	parataxis@conj	_	AlignBegin=443415|AlignEnd=443623|Gloss=X
+11-12	ŋgaptíːɣáy	_	_	_	_	_	_	_	_
+11	*ngap-íː	ngap	VERB	_	Aspect=Res	10	comp:aux	_	AlignBegin=443623|AlignEnd=443779|Gloss=hold-Res|wordform=ngap
 12	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=443675|AlignEnd=443727|Gloss=3SG.OBJ|Incorporated=Yes
-13	káy	káy	PRON	_	Person=3|PronType=Prs	11	comp:obl@expl	_	AlignBegin=443779|AlignEnd=443831|Gloss=ANAPH
+13	ɣáy	káy	PRON	_	Person=3|PronType=Prs	11	comp:obl@expl	_	AlignBegin=443779|AlignEnd=443831|Gloss=ANAPH
+14-15	káwâyòː	_	_	_	_	_	_	_	_
 14	káwây	káwây	ADV	_	_	11	mod	_	AlignBegin=443831|AlignEnd=443935|Gloss=merely
-15	oː	oː	PART	_	PartType=Emp	10	mod	_	AlignBegin=443935|AlignEnd=444039|Gloss=EMPH
+15	òː	oː	PART	_	PartType=Emp	10	mod	_	AlignBegin=443935|AlignEnd=444039|Gloss=EMPH
 16	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=444039|AlignEnd=444246|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_340-340
@@ -3514,12 +3515,12 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 445483, 446831
-# text = ʧaː gaːm tsəní káwây //
+# text = ʧaː gaːm tsə́n káwây //
 # text_ortho = ʧaː gaːm tsə́n káwây //
 # text_en = He just put his head.
 1	ʧaː	ʧaː	VERB	_	_	0	root	_	AlignBegin=445483|AlignEnd=445753|Gloss=put
-2	gaːm	gaːm	VERB	_	_	1	comp:aux	_	AlignBegin=445753|AlignEnd=446023|Gloss=head
-3	tsəní	tsəní	ADV	_	_	2	mod	_	AlignBegin=446023|AlignEnd=446293|Gloss=like_this
+2	gaːm	gaːm	NOUN	_	_	1	comp:obj	_	AlignBegin=445753|AlignEnd=446023|Gloss=head
+3	tsə́n	tsəní	ADV	_	_	1	mod	_	AlignBegin=446023|AlignEnd=446293|Gloss=like_this
 4	káwây	káwây	ADV	_	_	1	mod	_	AlignBegin=446293|AlignEnd=446563|Gloss=merely
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=446563|AlignEnd=446831|Gloss=PUNCT
 
@@ -3527,20 +3528,20 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 446831, 448990
-# text = ɗan ɗə́kər ʧaː gaːm tsəní < tə̀ yíː mbəs tsəní káwây //
+# text = ɗan ɗə́kər ʧaː gaːm tsə́n < tə̀ yíː mbəs tsə́n káwây //
 # text_ortho = ɗan ɗə́kər ʧaː gaːm tsə́n < tə̀ yíː mbəs tsə́n káwây //
 # text_en = When the fool put his head like this, he put his claws like this.
 1	ɗan	ɗan	SCONJ	_	_	7	mod	_	AlignBegin=446831|AlignEnd=447019|Gloss=as
-2	ɗə́ɣər	ɗə́ɣər	ADV	_	_	3	mod	_	AlignBegin=447019|AlignEnd=447207|Gloss=mad|wordform=ɗə́kər
+2	ɗə́ɣər	ɗə́ɣər	NOUN	_	_	3	subj	_	AlignBegin=447019|AlignEnd=447207|Gloss=mad|wordform=ɗə́kər
 3	ʧaː	ʧaː	VERB	_	_	1	comp:obj	_	AlignBegin=447207|AlignEnd=447395|Gloss=put
-4	gaːm	gaːm	NOUN	_	_	3	comp:aux	_	AlignBegin=447395|AlignEnd=447583|Gloss=head
-5	tsəní	tsəní	ADV	_	_	3	mod	_	AlignBegin=447583|AlignEnd=447771|Gloss=like_this
+4	gaːm	gaːm	NOUN	_	_	3	comp:obj	_	AlignBegin=447395|AlignEnd=447583|Gloss=head
+5	tsə́n	tsəní	ADV	_	_	3	mod	_	AlignBegin=447583|AlignEnd=447771|Gloss=like_this
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=447771|AlignEnd=447957|Gloss=PUNCT
 7	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	0	root	_	AlignBegin=447957|AlignEnd=448129|Gloss=3SG.SUB
-8	yíː	yíi	VERB	_	_	7	comp:aux	_	AlignBegin=448129|AlignEnd=448301|Gloss=produce
-9	mbəs	mbəs	VERB	_	_	8	comp:pred	_	AlignBegin=448301|AlignEnd=448473|Gloss=claw
-10	tsəní	tsəní	ADV	_	_	8	mod	_	AlignBegin=448473|AlignEnd=448645|Gloss=like_this
-11	káwây	káwây	ADV	_	_	7	mod	_	AlignBegin=448645|AlignEnd=448817|Gloss=merely
+8	yíː	yíː	VERB	_	_	7	comp:aux	_	AlignBegin=448129|AlignEnd=448301|Gloss=produce
+9	mbəs	mbəs	VERB	_	_	8	comp:obj	_	AlignBegin=448301|AlignEnd=448473|Gloss=claw
+10	tsə́n	tsəní	ADV	_	_	8	mod	_	AlignBegin=448473|AlignEnd=448645|Gloss=like_this
+11	káwây	káwây	ADV	_	_	8	mod	_	AlignBegin=448645|AlignEnd=448817|Gloss=merely
 12	//	//	PUNCT	_	_	7	punct	_	AlignBegin=448817|AlignEnd=448990|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_346-346
@@ -3557,18 +3558,18 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 449723, 455130
-# text = də̌ːr ʧi yi kaláp tə́ zàrgàwúya ɗa gìːr -i də̀də́r də̀də́r //
+# text = də̌ːr ʧi kaláp tə́ zàrgàwúya ɗa gìːrì də̀də́r də̀də́r //
 # text_ortho = də̌ːr ʧi kaláp tə́ zàrgàwúya ɗa gìːrì də̀də́r də̀də́r //
 # text_en = Monitor quickly used the collar in the burrow, pulling, pulling.
-1	də̌ːr	də̌ːr	NOUN	_	_	3	mod	_	AlignBegin=449723|AlignEnd=450080|Gloss=lizard
-2	ʧi	ʧi	PRON	_	_	3	subj	_	AlignBegin=450080|AlignEnd=450258|Gloss=3SG.be
-3	yi	yi	VERB	_	_	0	root	_	AlignBegin=450258|AlignEnd=450437|Gloss=be
-4	kaláp	kaláp	ADV	_	_	3	comp:pred	_	AlignBegin=450437|AlignEnd=450794|Gloss=quick
-5	tə́	tə́	ADP	_	_	4	mod	_	AlignBegin=450794|AlignEnd=451151|Gloss=with
+1	də̌ːr	də̌ːr	NOUN	_	_	2	subj	_	AlignBegin=449723|AlignEnd=450080|Gloss=lizard
+2	ʧi	ʧi	PRON	_	_	0	root	_	AlignBegin=450080|AlignEnd=450258|Gloss=3SG.be
+3	yi	yi	VERB	_	_	2	comp:aux	_	AlignBegin=450258|AlignEnd=450437|Gloss=be
+4	kaláp	kaláp	IDEO	_	_	3	comp:pred	_	AlignBegin=450437|AlignEnd=450794|Gloss=quick
+5	tə́	tə́	ADP	_	_	3	comp:obl	_	AlignBegin=450794|AlignEnd=451151|Gloss=with
 6	zàrgàwúya	zàrgàwúya	NOUN	_	_	5	comp:obj	_	AlignBegin=451151|AlignEnd=451506|Gloss=dog_collar|Lang=hau
-7	ɗa	ɗa	ADP	_	_	4	mod	_	AlignBegin=452191|AlignEnd=452507|Gloss=at
-8	gìːr-i	gìːr-i	NOUN	_	_	7	comp:obj	_	AlignBegin=452507|AlignEnd=452822|Gloss=hole|wordform=gìːr
-9	də̀də́r	də̀də́r	IDEO	_	_	4	compound:redup	_	AlignBegin=453425|AlignEnd=454058|Gloss=pulling
+7	ɗa	ɗa	ADP	_	_	3	mod	_	AlignBegin=452191|AlignEnd=452507|Gloss=at
+8	gìːrì	gìːr	NOUN	_	Definite=Ind	7	comp:obj	_	AlignBegin=452507|AlignEnd=452822|Gloss=hole|wordform=gìːr
+9	də̀də́r	də̀də́r	IDEO	_	_	3	comp:pred	_	AlignBegin=453425|AlignEnd=454058|Gloss=pulling
 10	də̀də́r	də̀də́r	IDEO	_	_	9	compound:redup	_	AlignBegin=454384|AlignEnd=454757|Gloss=pulling
 11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=454757|AlignEnd=455130|Gloss=PUNCT
 
@@ -3576,44 +3577,45 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 455546, 456067
-# text = á yíː mbəs -íː //
+# text = á yîː mbəʃíː //
 # text_ortho = á yîː mbəʃíː //
 # text_en = He used his claws.
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=455546|AlignEnd=455676|Gloss=3SG.Aor
-2	yíː	yíː	VERB	_	_	1	comp:aux	_	AlignBegin=455676|AlignEnd=455806|Gloss=produce
-3	mbəs-íː	mbəsút	VERB	_	Aspect=Res	2	compound:svc	_	AlignBegin=455806|AlignEnd=455936|Gloss=claw|wordform=mbəs
+2-3	yîː mbəʃíː	_	_	_	_	_	_	_	_
+2	*yîː-íː	yiː	VERB	_	Aspect=Res	1	comp:aux	_	AlignBegin=455676|AlignEnd=455806|Gloss=produce-Res
+3	mbəs	mbəs	NOUN	_	_	2	comp:obj	_	AlignBegin=455806|AlignEnd=455936|Gloss=claw|wordform=mbəs
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=455936|AlignEnd=456067|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_351-351
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 456067, 456909
-# text = nə núː mop kâm =wos ?//
+# text = nə núː môp kámʃi ?//
 # text_ortho = nə núː môp kámʃi ?//
-# text_en = Who is the strongest?
+# text_en = Who is stronger than his friend?
 1	nə	nə	PART	_	_	0	root	_	AlignBegin=456067|AlignEnd=456235|Gloss=be
 2	núː	núː	PRON	_	PronType=Int	1	comp:pred	_	AlignBegin=456235|AlignEnd=456403|Gloss=who
-3	mop	mop	VERB	_	_	1	comp:cleft	_	AlignBegin=456403|AlignEnd=456571|Gloss=surpass
-4	kâm	kâm	NOUN	_	_	3	comp:obj	_	AlignBegin=456571|AlignEnd=456655|Gloss=friend
-5	=wos	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=456655|AlignEnd=456739|Gloss=3SG.POS
-6	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=456739|AlignEnd=456909|Gloss=PUNCT
+3	môp	mop	VERB	_	_	1	comp:cleft	_	AlignBegin=456403|AlignEnd=456571|Gloss=surpass
+4	kámʃi	kâm	NOUN	_	Case=Gen|Number=Sing|Person=3	3	comp:obj	_	AlignBegin=456571|AlignEnd=456655|Gloss=friend.3SG.GEN
+5	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=456739|AlignEnd=456909|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_352-354
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 456909, 459792
-# text = də̌ːr àː man ʧ# || àː man yiː mbəs -íː gìp gìːr //
-# text_ortho = də̌ːr àː mán ʧ# || àː mán yiː mbəʃíː gìp gìːr //
+# text = də̌ːr àː mán ʧ~ || àː mán yiː mbəʃíː gìp gìːr //
+# text_ortho = də̌ːr àː mán ʧ~ || àː mán yiː mbəʃíː gìp gìːr //
 # text_en = Monitor started ... he started to dig his nails into the hole.
-1	də̌ːr	də̌ːr	NOUN	_	_	2	mod	_	AlignBegin=456909|AlignEnd=457203|Gloss=lizard
+1	də̌ːr	də̌ːr	NOUN	_	_	2	subj	_	AlignBegin=456909|AlignEnd=457203|Gloss=lizard
 2	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=457203|AlignEnd=457497|Gloss=3SG.PERF
 3	man	man	VERB	_	_	2	comp:aux	_	AlignBegin=457497|AlignEnd=457790|Gloss=come|SVC=Yes
-4	ʧ#	ʧ#	VERB	_	_	3	compound:svc	_	AlignBegin=457790|AlignEnd=457950|Gloss=HESIT
+4	ʧ~	ʧ~	VERB	_	_	3	compound:svc	_	AlignBegin=457790|AlignEnd=457950|Gloss=HESIT
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=457950|AlignEnd=458109
 6	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	2	conj:dicto	_	AlignBegin=458109|AlignEnd=458349|Gloss=3SG.PERF
 7	man	man	VERB	_	_	6	comp:aux	_	AlignBegin=458349|AlignEnd=458589|Gloss=come|SVC=Yes
-8	yiː	yiː	VERB	_	_	7	compound:svc	_	AlignBegin=458589|AlignEnd=458829|Gloss=produce
-9	mbəs-íː	mbəsút	VERB	_	Aspect=Res	8	comp:pred	_	AlignBegin=458829|AlignEnd=459069|Gloss=claw|wordform=mbəs
+8-9	yiː mbəʃíː	_	_	_	_	_	_	_	_
+8	*yiː-íː	yiː	VERB	_	Aspect=Res	7	compound:svc	_	AlignBegin=458589|AlignEnd=458829|Gloss=produce-Res
+9	mbəs	mbəs	VERB	_	_	8	comp:obj	_	AlignBegin=458829|AlignEnd=459069|Gloss=claw|wordform=mbəs
 10	gìp	gìp	ADP	_	_	8	comp:pred	_	AlignBegin=459069|AlignEnd=459309|Gloss=inside
 11	gìːr	gìːr	NOUN	_	_	10	comp:obj	_	AlignBegin=459309|AlignEnd=459549|Gloss=hole
 12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=459549|AlignEnd=459792|Gloss=PUNCT
@@ -3625,7 +3627,7 @@
 # text = ɗan nàːmànnàn !//
 # text_ortho = ɗan nàːmànnan !//
 # text_en = What a surprise!
-1	ɗan	ɗan	ADV	_	_	0	root	_	AlignBegin=460260|AlignEnd=460612|Gloss=son_of|Lang=hau
+1	ɗan	ɗan	ADV	_	Foreign=Yes	0	root	_	AlignBegin=460260|AlignEnd=460612|Gloss=son_of|Lang=hau
 2	nàːmànnàn	nàːmànnàn	INTJ	_	_	1	unk	_	AlignBegin=460612|AlignEnd=460964|Gloss=X|Lang=hau
 3	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=460964|AlignEnd=461316|Gloss=PUNCT
 
