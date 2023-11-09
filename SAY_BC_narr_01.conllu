@@ -3683,11 +3683,13 @@
 # text_ortho = á mbîː makwaptês ɗan tìːyìɣáy //
 # text_en = He took the hoe that was there.
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=468358|AlignEnd=468800|Gloss=3SG.Aor
-2	mbiː	mbiː	VERB	_	_	1	comp:aux	_	AlignBegin=468800|AlignEnd=469242|Gloss=take
-3	makwaptês	makapta	NOUN	_	_	2	comp:obj	_	AlignBegin=469242|AlignEnd=469684|Gloss=hoe|Lang=hau|wordform=makapta
-4	ɗan	ɗan	SCONJ	_	_	2	mod	_	AlignBegin=469684|AlignEnd=470126|Gloss=REL
-5	ʧìːyìká-íː	̀ːyìká-ií-yáː	AUX	_	Aspect=Res	2	comp:obj	_	AlignBegin=470126|AlignEnd=470568|Gloss=3Plur.IMM.Prog|wordform=ʧìːyìká
-6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=470568|AlignEnd=471007|Gloss=PUNCT
+2	mbîː	mbiː	VERB	_	_	1	comp:aux	_	AlignBegin=468800|AlignEnd=469242|Gloss=take
+3	makwaptês	makapta	NOUN	_	Definite=Def|Foreign=Yes	2	comp:obj	_	AlignBegin=469242|AlignEnd=469684|Gloss=hoe|Lang=hau|wordform=makapta
+4	ɗan	ɗan	SCONJ	_	_	3	mod@relcl	_	AlignBegin=469684|AlignEnd=470126|Gloss=REL
+5	tìː	_	PRON	_	Aspect=Res	6	subj	_	AlignBegin=470126|AlignEnd=470568|Gloss=_
+6	yì	yi	VERB	_	Aspect=Res	4	comp:obj	_	AlignBegin=470126|AlignEnd=470568|Gloss=be
+7	ɣáy	káy	PRON	_	Number=Sing|Person=3|PronType=Prs	6	comp:pred	_	AlignBegin=470126|AlignEnd=470568|Gloss=ANAPH
+8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=470568|AlignEnd=471007|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_362-363
 # speaker_id = SP1
@@ -3697,17 +3699,17 @@
 # text_ortho = ʧi màm //= ʧi màm á kura //
 # text_en = He  beat, beat Hyena.
 1-2	ʧi	_	_	_	_	_	_	_	_
-1	tə	tə	PRON	_	Number=Plur|Person=3|PronType=Prs	0	subj	_	AlignBegin=471408|AlignEnd=471538|Gloss=3SG.be
-2	yi	yi	VERB	_	_	0	parataxis@conj	_	AlignBegin=471538|AlignEnd=471668|Gloss=be
-3	màm	màm	PART	_	_	0	compound:prt	_	AlignBegin=471668|AlignEnd=471928|Gloss=beating
-4	//=	//=	PUNCT	_	_	0	punct	_	AlignBegin=471928|AlignEnd=472187|Gloss=PUNCT
+1	tə	tə	PRON	_	Number=Plur|Person=3|PronType=Prs	2	subj	_	AlignBegin=471408|AlignEnd=471538|Gloss=3SG.be
+2	yi	yi	VERB	_	_	0	root	_	AlignBegin=471538|AlignEnd=471668|Gloss=be
+3	màm	màm	PART	_	_	2	comp:pred	_	AlignBegin=471668|AlignEnd=471928|Gloss=beating
+4	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=471928|AlignEnd=472187|Gloss=PUNCT
 5-6	ʧi	_	_	_	_	_	_	_	_
-5	tə	tə	PRON	_	_	0	subj	_	AlignBegin=472524|AlignEnd=472688|Gloss=3SG.be
-6	yi	yi	VERB	_	_	0	parataxis@conj	_	AlignBegin=472688|AlignEnd=472853|Gloss=be
-7	màm	màm	PART	_	_	0	mod	_	AlignBegin=472853|AlignEnd=473182|Gloss=beating
-8	á	á	ADP	_	_	0	comp:pred	_	AlignBegin=473182|AlignEnd=473511|Gloss=at
-9	kura	kura	NOUN	_	Foreign=Yes	0	flat:foreign	_	AlignBegin=473511|AlignEnd=473840|Gloss=hyena|Lang=hau
-10	//	//	PUNCT	_	_	0	punct	_	AlignBegin=473840|AlignEnd=474169|Gloss=PUNCT
+5	tə	tə	PRON	_	_	6	subj	_	AlignBegin=472524|AlignEnd=472688|Gloss=3SG.be
+6	yi	yi	VERB	_	_	2	parataxis@conj	_	AlignBegin=472688|AlignEnd=472853|Gloss=be
+7	màm	màm	PART	_	_	6	comp:pred	_	AlignBegin=472853|AlignEnd=473182|Gloss=beating
+8	á	á	ADP	_	_	6	comp:obl	_	AlignBegin=473182|AlignEnd=473511|Gloss=at
+9	kura	kura	NOUN	_	Foreign=Yes	8	comp:obj	_	AlignBegin=473511|AlignEnd=473840|Gloss=hyena|Lang=hau
+10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=473840|AlignEnd=474169|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_364-364
 # speaker_id = SP2
@@ -3741,16 +3743,16 @@
 # text_ortho = á ɗûtíː < tílís séː ɗan á yîsə́ŋə́y àː məʃíː //
 # text_en = He beat him until he knew he was dead.
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=476723|AlignEnd=477035|Gloss=3SG.Aor
-2-3	ɗu-íː	_	_	_	_	_	_	_	_
-2	ɗu-íː	ɗu-iiː	VERB	_	_	1	comp:aux	_	AlignBegin=477035|AlignEnd=477347|Gloss=beat|wordform=ɗu
+2-3	ɗûtíː	_	_	_	_	_	_	_	_
+2	*ɗû-íː	ɗu	VERB	_	Aspect=Res	1	comp:aux	_	AlignBegin=477035|AlignEnd=477347|Gloss=beat-Res|wordform=ɗu
 3	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=477139|AlignEnd=477243|Gloss=3SG.OBJ|Incorporated=Yes
-4	tílís	Tílís	IDEO	_	_	2	comp:obj	_	AlignBegin=477912|AlignEnd=478091|Gloss=completely
-5	séː	séː	ADV	_	_	7	mod	_	AlignBegin=478091|AlignEnd=478270|Gloss=until
-6	ɗan	ɗan	ADV	_	_	7	mod	_	AlignBegin=478270|AlignEnd=478449|Gloss=as
+4	tílís	tílís	IDEO	_	_	2	mod	_	AlignBegin=477912|AlignEnd=478091|Gloss=completely
+5	séː	séː	SCONJ	_	_	2	mod	_	AlignBegin=478091|AlignEnd=478270|ExtPos=SCONJ|Gloss=until|Idiom=Yes
+6	ɗan	ɗan	SCONJ	_	_	5	unk	_	AlignBegin=478270|AlignEnd=478449|Gloss=as|InIdiom=Yes
 7	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	5	comp:obj	_	AlignBegin=478449|AlignEnd=478628|Gloss=3SG.Aor
-8	yisə́ŋ-íː	yisə́ŋ-íː	VERB	_	Aspect=Res	7	comp:aux	_	AlignBegin=478628|AlignEnd=478807|Gloss=know|wordform=yisə́ŋ
-9	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	1	parataxis@subj	_	AlignBegin=478807|AlignEnd=478986|Gloss=3SG.PERF
-10	məs-íː	məs-s	VERB	_	Aspect=Res	9	comp:aux	_	AlignBegin=478986|AlignEnd=479165|Gloss=die|wordform=məs
+8	yîsə́ŋə́y	yisə́ŋ	VERB	_	Aspect=Res	7	comp:aux	_	AlignBegin=478628|AlignEnd=478807|Gloss=know|wordform=yisə́ŋ
+9	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	8	parataxis@comp	_	AlignBegin=478807|AlignEnd=478986|Gloss=3SG.PERF
+10	məʃíː	məs	VERB	_	Aspect=Res	9	comp:aux	_	AlignBegin=478986|AlignEnd=479165|Gloss=die-Res|wordform=məs
 11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=479165|AlignEnd=479344|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_368-368
