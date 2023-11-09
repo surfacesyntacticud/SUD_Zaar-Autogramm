@@ -3635,19 +3635,19 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 461860, 464722
-# text = longa < ɗan á yel ʧík < ɗan á ɓok -íː pat //
-# text_ortho = longa < ɗan á yêl ʧík < ɗan á ɓôkə́y pat //
+# text = longa < ɗan á yêl ʧík < ɗan á ɓôɣə́y pat //
+# text_ortho = longa < ɗan á yêl ʧík < ɗan á ɓôɣə́y pat //
 # text_en = Then Rabbit saw this, then he removed it, slap.
-1	longa	longa	INTJ	_	_	9	discourse	_	AlignBegin=461860|AlignEnd=462014|Gloss=rabbit
+1	longa	longa	INTJ	_	_	9	dislocated@subj	_	AlignBegin=461860|AlignEnd=462014|Gloss=rabbit
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=462014|AlignEnd=462168|Gloss=PUNCT
 3	ɗan	ɗan	SCONJ	_	_	9	mod	_	AlignBegin=462168|AlignEnd=462322|Gloss=ADV
 4	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	3	comp:obj	_	AlignBegin=462322|AlignEnd=462476|Gloss=3SG.Aor
-5	yel	yel	VERB	_	_	4	comp:aux	_	AlignBegin=462476|AlignEnd=462630|Gloss=see
+5	yêl	yel	VERB	_	_	4	comp:aux	_	AlignBegin=462476|AlignEnd=462630|Gloss=see
 6	ʧík	ʧík	ADV	_	_	5	mod	_	AlignBegin=462630|AlignEnd=462784|Gloss=thus
 7	<	<	PUNCT	_	_	3	punct	_	AlignBegin=462784|AlignEnd=462938|Gloss=PUNCT
 8	ɗan	ɗan	ADV	_	_	9	mod	_	AlignBegin=462938|AlignEnd=463204|Gloss=then
 9	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=463204|AlignEnd=463470|Gloss=3SG.Aor
-10	ɓok-íː	ɓok-p	VERB	_	Aspect=Res	9	comp:aux	_	AlignBegin=463470|AlignEnd=463736|Gloss=peel|wordform=ɓok
+10	ɓôɣə́y	ɓok	VERB	_	Aspect=Res	9	comp:aux	_	AlignBegin=463470|AlignEnd=463736|Gloss=peel|wordform=ɓok
 11	pat	pat	IDEO	_	_	9	mod	_	AlignBegin=464217|AlignEnd=464469|Gloss=beating
 12	//	//	PUNCT	_	_	9	punct	_	AlignBegin=464469|AlignEnd=464722|Gloss=PUNCT
 
@@ -3655,23 +3655,59 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 465356, 467554
-# text = kúŋ nákat =wos < gəm tsəní //= gingə́ri =wos < gəm tsəní káwây //
-# text_ortho = kúŋ nákàtwòs < gəm tsə́n //= gingə́riwòs < gəm tsə́n káwây //
+# text = kúŋ náɣàtwòs < gəm tsə́n //= gingə́riwòs < gəm tsə́n kwây //
+# text_ortho = kúŋ náɣàtwòs < gəm tsə́n //= gingə́riwòs < gəm tsə́n kwây //
 # text_en = His old tuwo, he removed it like this, his baobab cake, he removed like this.
-1	kúŋ	kúŋ	PART	_	_	5	discourse	_	AlignBegin=465356|AlignEnd=465519|Gloss=dry
-2	nákat	nákat	NOUN	_	_	5	comp:obj	_	AlignBegin=465519|AlignEnd=465601|Gloss=food
-3	=wos	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@poss	_	AlignBegin=465601|AlignEnd=465682|Gloss=3SG.POS
-4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=465682|AlignEnd=465845|Gloss=PUNCT
+1-3	kúnáɣàtwòs	_	_	_	_	_	_	_	_
+1	kúŋ	kúŋ	ADJ	_	_	2	mod	_	AlignBegin=465356|AlignEnd=465519|Gloss=dry
+2	náɣàt	nákat	NOUN	_	_	5	dislocated@comp	_	AlignBegin=465519|AlignEnd=465601|Gloss=food
+3	=wòs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@poss	_	AlignBegin=465601|AlignEnd=465682|Gloss=3SG.POS
+4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=465682|AlignEnd=465845|Gloss=PUNCT
 5	gəm	gəm	VERB	_	_	0	root	_	AlignBegin=465845|AlignEnd=466008|Gloss=put
-6	tsəní	tsəní	ADV	_	_	5	mod	_	AlignBegin=466008|AlignEnd=466171|Gloss=like_this
+6	tsə́n	tsəní	ADV	_	_	5	mod	_	AlignBegin=466008|AlignEnd=466171|Gloss=like_this
 7	//=	//=	PUNCT	_	_	11	punct	_	AlignBegin=466171|AlignEnd=466332|Gloss=PUNCT
-8	gingə́ri	gingə́ri	NOUN	_	_	11	dislocated@top	_	AlignBegin=466332|AlignEnd=466434|Gloss=baobab_cake
-9	=wos	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	8	mod@poss	_	AlignBegin=466434|AlignEnd=466536|Gloss=3SG.POS
+8-9	gingə́riwòs	_	_	_	_	_	_	_	_
+8	gingə́ri	gingə́ri	NOUN	_	_	11	dislocated@comp	_	AlignBegin=466332|AlignEnd=466434|Gloss=baobab_cake
+9	=wòs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	8	mod@poss	_	AlignBegin=466434|AlignEnd=466536|Gloss=3SG.POS
 10	<	<	PUNCT	_	_	8	punct	_	AlignBegin=466536|AlignEnd=466740|Gloss=PUNCT
 11	gəm	gəm	VERB	_	_	5	parataxis@conj	_	AlignBegin=466740|AlignEnd=466944|Gloss=put
-12	tsəní	tsəní	ADV	_	_	11	mod	_	AlignBegin=466944|AlignEnd=467148|Gloss=like_this
-13	káwây	káwây	ADV	_	_	11	mod	_	AlignBegin=467148|AlignEnd=467352|Gloss=merely
+12	tsə́n	tsəní	ADV	_	_	11	mod	_	AlignBegin=466944|AlignEnd=467148|Gloss=like_this
+13	kwây	káwây	ADV	_	_	11	mod	_	AlignBegin=467148|AlignEnd=467352|Gloss=merely
 14	//	//	PUNCT	_	_	5	punct	_	AlignBegin=467352|AlignEnd=467554|Gloss=PUNCT
+
+# sent_id = SAY_BC_narr_01_361-361
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
+# sent_timecode = 468358, 471007
+# text = á mbîː makwaptês ɗan tìːyìɣáy //
+# text_ortho = á mbîː makwaptês ɗan tìːyìɣáy //
+# text_en = He took the hoe that was there.
+1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=468358|AlignEnd=468800|Gloss=3SG.Aor
+2	mbiː	mbiː	VERB	_	_	1	comp:aux	_	AlignBegin=468800|AlignEnd=469242|Gloss=take
+3	makwaptês	makapta	NOUN	_	_	2	comp:obj	_	AlignBegin=469242|AlignEnd=469684|Gloss=hoe|Lang=hau|wordform=makapta
+4	ɗan	ɗan	SCONJ	_	_	2	mod	_	AlignBegin=469684|AlignEnd=470126|Gloss=REL
+5	ʧìːyìká-íː	̀ːyìká-ií-yáː	AUX	_	Aspect=Res	2	comp:obj	_	AlignBegin=470126|AlignEnd=470568|Gloss=3Plur.IMM.Prog|wordform=ʧìːyìká
+6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=470568|AlignEnd=471007|Gloss=PUNCT
+
+# sent_id = SAY_BC_narr_01_362-363
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
+# sent_timecode = 471408, 474169
+# text = ʧi màm //= ʧi màm á kura //
+# text_ortho = ʧi màm //= ʧi màm á kura //
+# text_en = He  beat, beat Hyena.
+1-2	ʧi	_	_	_	_	_	_	_	_
+1	tə	tə	PRON	_	Number=Plur|Person=3|PronType=Prs	0	subj	_	AlignBegin=471408|AlignEnd=471538|Gloss=3SG.be
+2	yi	yi	VERB	_	_	0	parataxis@conj	_	AlignBegin=471538|AlignEnd=471668|Gloss=be
+3	màm	màm	PART	_	_	0	compound:prt	_	AlignBegin=471668|AlignEnd=471928|Gloss=beating
+4	//=	//=	PUNCT	_	_	0	punct	_	AlignBegin=471928|AlignEnd=472187|Gloss=PUNCT
+5-6	ʧi	_	_	_	_	_	_	_	_
+5	tə	tə	PRON	_	_	0	subj	_	AlignBegin=472524|AlignEnd=472688|Gloss=3SG.be
+6	yi	yi	VERB	_	_	0	parataxis@conj	_	AlignBegin=472688|AlignEnd=472853|Gloss=be
+7	màm	màm	PART	_	_	0	mod	_	AlignBegin=472853|AlignEnd=473182|Gloss=beating
+8	á	á	ADP	_	_	0	comp:pred	_	AlignBegin=473182|AlignEnd=473511|Gloss=at
+9	kura	kura	NOUN	_	Foreign=Yes	0	flat:foreign	_	AlignBegin=473511|AlignEnd=473840|Gloss=hyena|Lang=hau
+10	//	//	PUNCT	_	_	0	punct	_	AlignBegin=473840|AlignEnd=474169|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_364-364
 # speaker_id = SP2
@@ -3679,45 +3715,29 @@
 # sent_timecode = 474784, 475793
 # text = gaːm gìp gìːr //
 # text_ortho = gaːm gìp gìːr //
-# text_en = On the head inside the burrow.
+# text_en = The head (was) inside the burrow.
 1	gaːm	gaːm	NOUN	_	_	2	subj	_	AlignBegin=474784|AlignEnd=475036|Gloss=head
 2	gìp	gìp	ADP	_	_	0	root	_	AlignBegin=475036|AlignEnd=475288|Gloss=inside
 3	gìːr	gìːr	NOUN	_	_	2	comp:obj	_	AlignBegin=475288|AlignEnd=475540|Gloss=hole
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=475540|AlignEnd=475793|Gloss=PUNCT
 
-# sent_id = SAY_BC_narr_01_361-365
+# sent_id = SAY_BC_narr_01_365-365
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 468358, 476723
-# text = á mbiː makapta -ês ɗan ʧìːyìká -íː //= ʧi yi màm //= ʧi yi màm á kura // gaːm gìp gìːr //
-# text_ortho = á mbîː makaptês ɗan tìːyìkáyíː //= ʧi màm //= ʧi màm á kura // gaːm gìp gìːr //
-# text_en = He took the hoe that was there and beat, beat Hyena on the head inside the burrow.
-1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=468358|AlignEnd=468800|Gloss=3SG.Aor
-2	mbiː	mbiː	VERB	_	_	1	comp:aux	_	AlignBegin=468800|AlignEnd=469242|Gloss=take
-3	makapta-ês	makapta-ês	NOUN	_	_	2	comp:obj	_	AlignBegin=469242|AlignEnd=469684|Gloss=hoe|Lang=hau|wordform=makapta
-4	ɗan	ɗan	SCONJ	_	_	2	mod	_	AlignBegin=469684|AlignEnd=470126|Gloss=REL
-5	ʧìːyìká-íː	̀ːyìká-ií-yáː	AUX	_	Aspect=Res	2	comp:obj	_	AlignBegin=470126|AlignEnd=470568|Gloss=3Plur.IMM.Prog|wordform=ʧìːyìká
-6	//=	//=	PUNCT	_	_	1	punct	_	AlignBegin=470568|AlignEnd=471007|Gloss=PUNCT
-7	ʧi	ʧi	PRON	_	Number=Plur|Person=3|PronType=Prs	8	subj	_	AlignBegin=471408|AlignEnd=471538|Gloss=3SG.be
-8	yi	yi	VERB	_	_	1	parataxis@conj	_	AlignBegin=471538|AlignEnd=471668|Gloss=be
-9	màm	màm	PART	_	_	8	compound:prt	_	AlignBegin=471668|AlignEnd=471928|Gloss=beating
-10	//=	//=	PUNCT	_	_	12	punct	_	AlignBegin=471928|AlignEnd=472187|Gloss=PUNCT
-11	ʧi	ʧi	PRON	_	_	12	subj	_	AlignBegin=472524|AlignEnd=472688|Gloss=3SG.be
-12	yi	yi	VERB	_	_	8	parataxis@conj	_	AlignBegin=472688|AlignEnd=472853|Gloss=be
-13	màm	màm	PART	_	_	12	mod	_	AlignBegin=472853|AlignEnd=473182|Gloss=beating
-14	á	á	ADP	_	_	12	comp:pred	_	AlignBegin=473182|AlignEnd=473511|Gloss=at
-15	kura	kura	NOUN	_	Foreign=Yes	14	flat:foreign	_	AlignBegin=473511|AlignEnd=473840|Gloss=hyena|Lang=hau
-16	//	//	PUNCT	_	_	1	punct	_	AlignBegin=473840|AlignEnd=474169|Gloss=PUNCT
-17	gaːm	gaːm	NOUN	_	_	12	subj	_	AlignBegin=475793|AlignEnd=476025|Gloss=head
-18	gìp	gìp	ADP	_	_	1	mod	_	AlignBegin=476025|AlignEnd=476257|Gloss=inside
-19	gìːr	gìːr	NOUN	_	_	18	comp:obj	_	AlignBegin=476257|AlignEnd=476489|Gloss=hole
-20	//	//	PUNCT	_	_	1	punct	_	AlignBegin=476489|AlignEnd=476723|Gloss=PUNCT
+# text = gaːm gìp gìːr //
+# text_ortho = gaːm gìp gìːr //
+# text_en = The head (was) inside the burrow.
+1	gaːm	gaːm	NOUN	_	_	2	subj	_	AlignBegin=474784|AlignEnd=475036|Gloss=head
+2	gìp	gìp	ADP	_	_	0	root	_	AlignBegin=475036|AlignEnd=475288|Gloss=inside
+3	gìːr	gìːr	NOUN	_	_	2	comp:obj	_	AlignBegin=475288|AlignEnd=475540|Gloss=hole
+4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=475540|AlignEnd=475793|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_366-367
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 476723, 479344
-# text = á ɗu =tə -íː < tílís séː ɗan á yisə́ŋ -íː àː məs -íː //
+# text = á ɗûtíː < tílís séː ɗan á yîsə́ŋə́y àː məʃíː //
 # text_ortho = á ɗûtíː < tílís séː ɗan á yîsə́ŋə́y àː məʃíː //
 # text_en = He beat him until he knew he was dead.
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=476723|AlignEnd=477035|Gloss=3SG.Aor
