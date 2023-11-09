@@ -2590,7 +2590,7 @@
 # text_ortho = ʃèː yeli !// gyòkɗi máː !// ʃèːkára wuriː ?//
 # text_en = Look! An ulcer! How old is it?
 1	ʃèː	ʃèː	X	_	_	0	root	_	AlignBegin=334814|AlignEnd=335004|Gloss=X
-2	yeli	yel	VERB	_	_	1	comp:aux	_	AlignBegin=335004|AlignEnd=335194|Gloss=see-Imp
+2	yeli	yel	VERB	_	_	1	comp:aux	_	AlignBegin=335004|AlignEnd=335194|Gloss=see
 3	!//=	!//=	PUNCT	_	_	4	punct	_	AlignBegin=335194|AlignEnd=335194|Gloss=PUNCT
 4	gyòkɗi	gyòkɗi	NOUN	_	_	1	parataxis@conj	_	AlignBegin=335194|AlignEnd=335384|Gloss=abcess
 5	máː	máː	PART	_	_	4	mod	_	AlignBegin=335384|AlignEnd=335574|Gloss=even
@@ -2606,12 +2606,12 @@
 # text = ʃèː buːɗé mə̀ yéli oː !//
 # text_ortho = ʃèː buːɗé mə̀ yéli oː !//
 # text_en = Open, let me see!
-1	ʃèː	ʃèː	VERB	_	_	2	discourse	_	AlignBegin=336715|AlignEnd=336862|Gloss=X
-2	buːɗé	buːɗé	VERB	_	_	0	root	_	AlignBegin=336862|AlignEnd=337009|Gloss=open
-3	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	2	parataxis@mod	_	AlignBegin=337009|AlignEnd=337156|Gloss=1SG.SUB
+1	ʃèː	ʃèː	X	_	_	0	root	_	AlignBegin=336715|AlignEnd=336862|Gloss=X
+2	buːɗé	buːɗé	VERB	_	_	1	comp:aux	_	AlignBegin=336862|AlignEnd=337009|Gloss=open
+3	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	1	parataxis@mod	_	AlignBegin=337009|AlignEnd=337156|Gloss=1SG.SUB
 4	yéli	yéli	VERB	_	_	3	comp:aux	_	AlignBegin=337156|AlignEnd=337230|Gloss=see
 5	oː	oː	PART	_	PartType=Emp	3	mod	_	AlignBegin=337230|AlignEnd=337303|Gloss=EMPH
-6	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=337303|AlignEnd=337452|Gloss=PUNCT
+6	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=337303|AlignEnd=337452|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_257-258
 # speaker_id = SP1
@@ -2687,9 +2687,9 @@
 # text = ʃèː ɮəpíː !//
 # text_ortho = ʃèː ɮəpíː !//
 # text_en = Cover it!
-1	ʃèː	ʃèː	X	_	_	2	discourse	_	AlignBegin=343157|AlignEnd=343297|Gloss=X
-2	ɮəpíː	ɮəp	VERB	_	Aspect=Res|Mood=Imp	0	root	_	AlignBegin=343297|AlignEnd=343437|Gloss=cover|wordform=ɮəp
-3	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=343437|AlignEnd=343578|Gloss=PUNCT
+1	ʃèː	ʃèː	X	_	_	0	root	_	AlignBegin=343157|AlignEnd=343297|Gloss=X
+2	ɮəpíː	ɮəp	VERB	_	Aspect=Res	1	comp:aux	_	AlignBegin=343297|AlignEnd=343437|Gloss=cover|wordform=ɮəp
+3	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=343437|AlignEnd=343578|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_264-266
 # speaker_id = SP1
@@ -2792,9 +2792,9 @@
 # text = ʃèː mân !//
 # text_ortho = ʃèː mân !//
 # text_en = Then, come back.
-1	ʃèː	ʃèː	X	_	_	2	discourse	_	AlignBegin=358174|AlignEnd=358354|Gloss=X
-2	mân	máni	VERB	_	Mood=Imp	0	root	_	AlignBegin=358354|AlignEnd=358534|Gloss=come
-3	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=358534|AlignEnd=358714|Gloss=PUNCT
+1	ʃèː	ʃèː	X	_	_	0	root	_	AlignBegin=358174|AlignEnd=358354|Gloss=X
+2	mân	máni	VERB	_	Mood=Imp	1	comp:aux	_	AlignBegin=358354|AlignEnd=358534|Gloss=come
+3	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=358534|AlignEnd=358714|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_274-275
 # speaker_id = SP1
@@ -3178,20 +3178,20 @@
 4	wùl	wul	VERB	_	_	0	root	_	AlignBegin=403890|AlignEnd=403979|Gloss=say
 5	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=403979|AlignEnd=404068|Gloss=3SG.OBJ
 6	tu	tu	SCONJ	_	Mood=Qot	4	comp:obj	_	AlignBegin=404068|AlignEnd=404246|Gloss=OPN
-7	[	[	PUNCT	_	_	10	punct	_	AlignBegin=404246|AlignEnd=404425|Gloss=PUNCT
-8	tôː	tôː	PART	_	_	10	discourse	_	AlignBegin=404425|AlignEnd=404562|Gloss=well
-9	ʃèː	ʃèː	X	_	_	10	discourse	_	AlignBegin=404562|AlignEnd=404699|Gloss=X
-10	yeli	yeli	VERB	_	Mood=Imp	6	comp:obj	_	AlignBegin=404699|AlignEnd=404836|Gloss=see.Imp|wordform=yel
-11	<	<	PUNCT	_	_	16	punct	_	AlignBegin=404836|AlignEnd=404972|Gloss=PUNCT
+7	[	[	PUNCT	_	_	9	punct	_	AlignBegin=404246|AlignEnd=404425|Gloss=PUNCT
+8	tôː	tôː	PART	_	_	9	discourse	_	AlignBegin=404425|AlignEnd=404562|Gloss=well
+9	ʃèː	ʃèː	X	_	_	6	comp:obj	_	AlignBegin=404562|AlignEnd=404699|Gloss=X
+10	yeli	yeli	VERB	_	_	9	comp:aux	_	AlignBegin=404699|AlignEnd=404836|Gloss=see|wordform=yel
+11	<	<	PUNCT	_	_	15	punct	_	AlignBegin=404836|AlignEnd=404972|Gloss=PUNCT
 12-13	daːkámâtn	_	_	_	_	_	_	_	_
-12	daːkâm	daːkâm	NOUN	_	_	16	vocative	_	AlignBegin=404972|AlignEnd=405076|Gloss=friend
+12	daːkâm	daːkâm	NOUN	_	_	15	vocative	_	AlignBegin=404972|AlignEnd=405076|Gloss=friend
 13	=âtn	=atn	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	12	mod@poss	_	AlignBegin=405076|AlignEnd=405180|Gloss=1SG.POS|wordform=_
-14	<	<	PUNCT	_	_	12	punct	_	AlignBegin=405180|AlignEnd=405388|Gloss=PUNCT
-15	ʃèː	ʃèː	X	_	_	16	discourse	_	AlignBegin=405388|AlignEnd=405596|Gloss=X
-16	vwàràŋ	vwàràŋ	NOUN	_	_	10	parataxis@conj	_	AlignBegin=405596|AlignEnd=405779|Gloss=blood
+14	<	<	PUNCT	_	_	15	punct	_	AlignBegin=405180|AlignEnd=405388|Gloss=PUNCT
+15	ʃèː	ʃèː	X	_	_	10	parataxis@conj	_	AlignBegin=405388|AlignEnd=405596|Gloss=X
+16	vwàràŋ	vwàràŋ	NOUN	_	_	15	comp:obj	_	AlignBegin=405596|AlignEnd=405779|Gloss=blood
 17	kyâːt	kyâːt	IDEO	_	_	16	mod	_	AlignBegin=405779|AlignEnd=405962|Gloss=fast
-18	ŋâː	ŋaː	PART	_	PartType=Int	16	mod	_	AlignBegin=405962|AlignEnd=406145|Gloss=VRT
-19	!//]	!//]	PUNCT	_	_	10	punct	_	AlignBegin=406145|AlignEnd=406329|Gloss=PUNCT
+18	ŋâː	ŋaː	PART	_	PartType=Int	15	mod	_	AlignBegin=405962|AlignEnd=406145|Gloss=VRT
+19	!//]	!//]	PUNCT	_	_	9	punct	_	AlignBegin=406145|AlignEnd=406329|Gloss=PUNCT
 20	//	//	PUNCT	_	_	4	punct	_	AlignBegin=406145|AlignEnd=406329|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_313-313
@@ -3200,17 +3200,17 @@
 # sent_timecode = 406605, 408022
 # text = ʃèː ɮoptə hár ʃèː fi vwàràŋòː !//
 # text_ortho = ʃèː ɮoptə hár ʃèː fi vwàràŋòː !//
-# text_en = Stab him utill he bleeds! [Rabbit said.]
-1	ʃèː	ʃèː	X	_	_	2	discourse	_	AlignBegin=406605|AlignEnd=406782|Gloss=X
+# text_en = Stab him till he bleeds! [Hyena said.]
+1	ʃèː	ʃèː	X	_	_	0	root	_	AlignBegin=406605|AlignEnd=406782|Gloss=X
 2-3	ɮoptə	_	_	_	_	_	_	_	_
-2	ɮop	ɮop	VERB	_	Mood=Imp	0	root	_	AlignBegin=406782|AlignEnd=406870|Gloss=stab-Imp
+2	ɮop	ɮop	VERB	_	_	1	comp:aux	_	AlignBegin=406782|AlignEnd=406870|Gloss=stab
 3	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=406870|AlignEnd=406959|Gloss=3SG.OBJ
 4	hár	hár	SCONJ	_	_	2	mod	_	AlignBegin=406959|AlignEnd=407136|Gloss=until
 5	ʃèː	ʃèː	X	_	_	4	comp:obj	_	AlignBegin=407136|AlignEnd=407313|Gloss=X
 6	fi	fi	VERB	_	_	5	comp:aux	_	AlignBegin=407313|AlignEnd=407490|Gloss=do
 7	vwàràŋ	vwàràŋ	NOUN	_	_	6	comp:obj@lvc	_	AlignBegin=407490|AlignEnd=407578|Gloss=blood
-8	oː	oː	PART	_	PartType=Emp	2	mod	_	AlignBegin=407578|AlignEnd=407667|Gloss=EMPH
-9	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=407667|AlignEnd=407844|Gloss=PUNCT
+8	oː	oː	PART	_	PartType=Emp	1	mod	_	AlignBegin=407578|AlignEnd=407667|Gloss=EMPH
+9	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=407667|AlignEnd=407844|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_315-315
 # speaker_id = SP2
@@ -3229,7 +3229,7 @@
 # sent_timecode = 409161, 414480
 # text = á wû tu [ ʃèː || ʃèː mará ɬúːy !//= ʃèː mará ɬúːy !//= ʃèː ɓəlɣáyoː !//] //
 # text_ortho = á wû tu [ ʃèː || ʃèː mará ɬúːy !//= ʃèː mará ɬúːy !//= ʃèː ɓəlɣáyoː !//] //
-# text_en = He [hyena] said "You... you will spoil the meat. You will spoil the meat. Go on digging!"
+# text_en = He [Rabbit] said "You... you will spoil the meat. You will spoil the meat. Go on digging!"
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=409161|AlignEnd=409219|Gloss=3SG.Aor
 2	wû	wu	VERB	_	_	1	comp:aux	_	AlignBegin=409219|AlignEnd=409277|Gloss=say
 3	tu	tu	SCONJ	_	Mood=Qot	2	comp:obj	_	AlignBegin=409277|AlignEnd=409335|Gloss=OPN
