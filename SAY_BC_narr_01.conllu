@@ -2671,15 +2671,15 @@
 # sent_timecode = 342140, 343157
 # text = ʃèː ʃèː kât máː mə̀ wûm gíː hŋ́ !//
 # text_ortho = ʃèː kât máː mə̀ wûm gíː hŋ́ !//
-# text_en = I don't want to smell this!
-1	ʃèː	ʃèː	X	_	_	4	discourse	_	AlignBegin=342140|AlignEnd=342267|Gloss=X
-2	kât	káɗá	PART	_	Foreign=Yes|Polarity=Neg	4	mod	_	AlignBegin=342267|AlignEnd=342394|Gloss=NEG3
-3	máː	máː	ADV	_	_	2	mod	_	AlignBegin=342394|AlignEnd=342521|Gloss=even
-4	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	0	root	_	AlignBegin=342521|AlignEnd=342648|Gloss=1SG.SUB
+# text_en = Cover it please, so I don't smell this!
+1	ʃèː	ʃèː	X	_	_	0	root	_	AlignBegin=342140|AlignEnd=342267|Gloss=X
+2	kât	kat	VERB	_	_	1	comp:aux	_	AlignBegin=342267|AlignEnd=342394|Gloss=cover
+3	máː	máː	ADV	_	_	1	mod	_	AlignBegin=342394|AlignEnd=342521|Gloss=even
+4	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	1	parataxis@mod	_	AlignBegin=342521|AlignEnd=342648|Gloss=1SG.SUB
 5	wûm	wum	VERB	_	_	4	comp:aux	_	AlignBegin=342648|AlignEnd=342775|Gloss=feel
 6	gíː	gíː	PRON	_	Deixis=Dist|PronType=Dem	5	comp:obj	_	AlignBegin=342775|AlignEnd=342902|Gloss=REM
 7	hŋ́	hŋ́	PART	_	Polarity=Neg	4	mod	_	AlignBegin=342902|AlignEnd=343029|Gloss=NEG2
-8	!//	!//	PUNCT	_	_	4	punct	_	AlignBegin=343029|AlignEnd=343157|Gloss=PUNCT
+8	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=343029|AlignEnd=343157|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_263-263
 # speaker_id = SP1
