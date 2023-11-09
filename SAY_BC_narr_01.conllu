@@ -3806,19 +3806,21 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 485137, 487038
-# text = də̌ːr < ɗa á ɲol ɗi < lə́pvàːkə̀n àː man ɗu =tə //
+# text = də̌ːr < ɗa á ɲôlɗì < lə́pvàːkə̀n àː mán ɗutə //
 # text_ortho = də̌ːr < ɗa á ɲôlɗì < lə́pvàːkə̀n àː mán ɗutə //
 # text_en = When Monitor came out, he started sweating.
-1	də̌ːr	də̌ːr	NOUN	_	_	9	mod	_	AlignBegin=485137|AlignEnd=485276|Gloss=lizard
+1	də̌ːr	də̌ːr	NOUN	_	_	9	dislocated@subj	_	AlignBegin=485137|AlignEnd=485276|Gloss=lizard
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=485276|AlignEnd=485415|Gloss=PUNCT
 3	ɗa	ɗan	SCONJ	_	_	9	mod	_	AlignBegin=485415|AlignEnd=485554|Gloss=as
 4	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	3	comp:obj	_	AlignBegin=485554|AlignEnd=485693|Gloss=3SG.Aor
-5	ɲol	ɲol	VERB	_	_	4	comp:aux	_	AlignBegin=485693|AlignEnd=485763|Gloss=go_out
+5-6	ɲôlɗì	_	_	_	_	_	_	_	_
+5	ɲôl	ɲol	VERB	_	_	4	comp:aux	_	AlignBegin=485693|AlignEnd=485763|Gloss=go_out
 6	ɗi	ɗi	PART	_	_	5	compound:prt	_	AlignBegin=485763|AlignEnd=485832|Gloss=CTP
 7	<	<	PUNCT	_	_	3	punct	_	AlignBegin=485832|AlignEnd=485973|Gloss=PUNCT
-8	lə́pvàːkə̀n	lə́pvàːkə̀n	NOUN	_	_	9	subj	_	AlignBegin=485973|AlignEnd=486186|Gloss=sweat
+8	lə́pvàːɣə̀n	lə́pvàːɣə̀n	NOUN	_	_	9	subj	_	AlignBegin=485973|AlignEnd=486186|Gloss=sweat
 9	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=486186|AlignEnd=486399|Gloss=3SG.PERF
-10	man	man	VERB	_	_	9	comp:aux	_	AlignBegin=486399|AlignEnd=486612|Gloss=come|SVC=Yes
+10	mán	mán	VERB	_	_	9	comp:aux	_	AlignBegin=486399|AlignEnd=486612|Gloss=come|SVC=Yes
+11-12	ɗutə	_	_	_	_	_	_	_	_
 11	ɗu	ɗu	VERB	_	_	10	compound:svc	_	AlignBegin=486612|AlignEnd=486718|Gloss=beat
 12	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=486718|AlignEnd=486825|Gloss=3SG.OBJ
 13	//	//	PUNCT	_	_	9	punct	_	AlignBegin=486825|AlignEnd=487038|Gloss=PUNCT
@@ -3837,22 +3839,25 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 488180, 491017
-# text = mbəs ɗa á man ʧi ɗi deː ɗan ʧáː yiː yâːɬ ɗi káy //
-# text_ortho = mbəs ɗa á mán ʧíɗi deː ɗan ʧáː yiː yâːɬɗìkáy //
+# text = mbəs ɗàː má ʧíɗi deː ɗan ʧáːyiː yâːɬɗìɣáy //
+# text_ortho = mbəs ɗàː má ʧíɗi deː ɗan ʧáːyiː yâːɬɗìɣáy //
 # text_en = His claws got broken as he had dug them into the ground.
-1	mbəs	mbəs	NOUN	_	_	3	subj	_	AlignBegin=488180|AlignEnd=488399|Gloss=claw
-2	ɗa	ɗa	SCONJ	_	_	1	mod@relcl	_	AlignBegin=488399|AlignEnd=488618|Gloss=then
-3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=488618|AlignEnd=488837|Gloss=3SG.Aor
-4	man	man	VERB	_	_	3	comp:aux	_	AlignBegin=488837|AlignEnd=489056|Gloss=come|SVC=Yes
-5	ʧi	ʧi	VERB	_	_	4	compound:svc	_	AlignBegin=489056|AlignEnd=489166|Gloss=eat
+1	mbəs	mbəs	NOUN	_	_	3	dislocated@subj	_	AlignBegin=488180|AlignEnd=488399|Gloss=claw
+2-3	ɗàː	_	_	_	_	_	_	_	_
+2	ɗa	ɗa	SCONJ	_	_	3	mod	_	AlignBegin=488399|AlignEnd=488618|Gloss=then
+3	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=488618|AlignEnd=488837|Gloss=3SG.Aor
+4	má	mán	VERB	_	_	3	comp:aux	_	AlignBegin=488837|AlignEnd=489056|Gloss=come|SVC=Yes
+5-6	ʧíɗi	_	_	_	_	_	_	_	_
+5	ʧí	ʧi	VERB	_	_	4	compound:svc	_	AlignBegin=489056|AlignEnd=489166|Gloss=eat
 6	ɗi	ɗi	PART	_	_	5	compound:prt	_	AlignBegin=489166|AlignEnd=489275|Gloss=CTP
 7	deː	deː	PART	_	_	3	mod	_	AlignBegin=489275|AlignEnd=489494|Gloss=indeed
-8	ɗan	ɗan	SCONJ	_	_	2	mod	_	AlignBegin=489494|AlignEnd=489713|Gloss=as
+8	ɗan	ɗan	SCONJ	_	_	3	mod	_	AlignBegin=489494|AlignEnd=489713|Gloss=as
 9	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	8	comp:obj	_	AlignBegin=489713|AlignEnd=489932|Gloss=3SG.IMP
 10	yiː	yiː	VERB	_	_	9	comp:aux	_	AlignBegin=489932|AlignEnd=490154|Gloss=produce
-11	yâːɬ	yâːɬ	NOUN	_	_	10	comp:pred	_	AlignBegin=490380|AlignEnd=490486|Gloss=earth
-12	ɗi	ɗi	PART	_	_	10	compound:prt	_	AlignBegin=490486|AlignEnd=490592|Gloss=CTP
-13	káy	káy	PRON	_	Person=3|PronType=Prs	10	comp:obl@expl	_	AlignBegin=490592|AlignEnd=490698|Gloss=ANAPH
+11-13	yâːɬɗìɣáy	_	_	_	_	_	_	_	_
+11	yâːɬ	yâːɬ	NOUN	_	_	10	comp:loc	_	AlignBegin=490380|AlignEnd=490486|Gloss=earth
+12	ɗì	ɗi	PART	_	_	10	compound:prt	_	AlignBegin=490486|AlignEnd=490592|Gloss=CTP
+13	ɣáy	káy	PRON	_	Person=3|PronType=Prs	10	comp:obl@expl	_	AlignBegin=490592|AlignEnd=490698|Gloss=ANAPH
 14	//	//	PUNCT	_	_	3	punct	_	AlignBegin=490698|AlignEnd=491017|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_378-378
