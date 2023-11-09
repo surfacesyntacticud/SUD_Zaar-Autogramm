@@ -3759,16 +3759,17 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 479344, 480641
-# text = tôː á ʤaː =tə gəm -íː ká laŋʃí //
-# text_ortho = tôː á ʤǎːtə gəmíː ká laŋʃí //
+# text = tôː á ʤǎːtə gəmíː á laŋʃí //
+# text_ortho = tôː á ʤǎːtə gəmíː á laŋʃí //
 # text_en = Well he pulled him and threw him aside.
 1	tôː	tòː	PART	_	_	2	discourse	_	AlignBegin=479344|AlignEnd=479529|Gloss=well
 2	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=479529|AlignEnd=479714|Gloss=3SG.Aor
-3	ʤaː	ʤaː	VERB	_	_	2	comp:aux	_	AlignBegin=479714|AlignEnd=479806|Gloss=pull
+3-4	ʤǎːtə	_	_	_	_	_	_	_	_
+3	ʤǎː	ʤaː	VERB	_	_	2	comp:aux	_	AlignBegin=479714|AlignEnd=479806|Gloss=pull
 4	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=479806|AlignEnd=479899|Gloss=3SG.OBJ
-5	gəm-íː	gəm-íː	VERB	_	Aspect=Res	3	compound:svc	_	AlignBegin=479899|AlignEnd=480084|Gloss=put|wordform=gəm
-6	ká	ká	ADP	_	_	3	comp:obl	_	AlignBegin=480084|AlignEnd=480269|Gloss=at
-7	laŋʃí	Laŋʃí	ADV	_	_	6	comp:obj	_	AlignBegin=480269|AlignEnd=480454|Gloss=aside
+5	gəmíː	gəm	VERB	_	Aspect=Res	3	compound:svc	_	AlignBegin=479899|AlignEnd=480084|Gloss=put|wordform=gəm
+6	á	ká	ADP	_	_	5	comp:obl	_	AlignBegin=480084|AlignEnd=480269|Gloss=at
+7	laŋʃí	laŋʃí	ADV	_	_	6	comp:obj	_	AlignBegin=480269|AlignEnd=480454|Gloss=side
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=480454|AlignEnd=480641|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_369-369
@@ -3785,18 +3786,19 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 481984, 484084
-# text = á ʤaː =tə gəm -íː ká laŋʃí séː də̌ːr ɲol -íː ɗi //
-# text_ortho = á ʤǎːtə gəmíː ká laŋʃí séː də̌ːr ɲòlíːɗi //
+# text = á ʤǎːtə gəmíː á laŋʃí séː də̌ːr ɲolíːɗi //
+# text_ortho = á ʤǎːtə gəmíː á laŋʃí séː də̌ːr ɲolíːɗi //
 # text_en = He drew him and threw him on the side, then Monitor came out.
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=481984|AlignEnd=482196|Gloss=3SG.Aor
-2	ʤaː	ʤaː	VERB	_	_	1	comp:aux	_	AlignBegin=482196|AlignEnd=482302|Gloss=pull
+2	ʤǎː	ʤaː	VERB	_	_	1	comp:aux	_	AlignBegin=482196|AlignEnd=482302|Gloss=pull
 3	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=482302|AlignEnd=482408|Gloss=3SG.OBJ
-4	gəm-íː	gəm-iiː	VERB	_	Aspect=Res	2	compound:svc	_	AlignBegin=482408|AlignEnd=482620|Gloss=put|wordform=gəm
-5	ká	ká	ADP	_	_	2	comp:obl	_	AlignBegin=482620|AlignEnd=482832|Gloss=at
-6	laŋʃí	Laŋʃí	NOUN	_	_	5	comp:obj	_	AlignBegin=482832|AlignEnd=483046|Gloss=aside
-7	séː	séː	ADV	_	_	2	mod	_	AlignBegin=483046|AlignEnd=483365|Gloss=then
+4	gəmíː	gəm	VERB	_	Aspect=Res	2	compound:svc	_	AlignBegin=482408|AlignEnd=482620|Gloss=put-Res|wordform=gəm
+5	á	ká	ADP	_	_	4	comp:obl	_	AlignBegin=482620|AlignEnd=482832|Gloss=at
+6	laŋʃí	Laŋʃí	ADV	_	_	5	comp:obj	_	AlignBegin=482832|AlignEnd=483046|Gloss=aside
+7	séː	séː	ADV	_	_	9	mod	_	AlignBegin=483046|AlignEnd=483365|Gloss=then
 8	də̌ːr	də̌ːr	NOUN	_	_	9	subj	_	AlignBegin=483365|AlignEnd=483605|Gloss=lizard
-9	ɲol-íː	ɲol-íː	VERB	_	Aspect=Res	1	parataxis@conj	_	AlignBegin=483605|AlignEnd=483765|Gloss=go_out|wordform=ɲol
+9-10	ɲolíːɗi	_	_	_	_	_	_	_	_
+9	ɲolíː	ɲol	VERB	_	Aspect=Res	2	parataxis@conj	_	AlignBegin=483605|AlignEnd=483765|Gloss=go_out|wordform=ɲol
 10	ɗi	ɗi	PART	_	_	9	compound:prt	_	AlignBegin=483765|AlignEnd=483845|Gloss=CTP
 11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=483845|AlignEnd=484084|Gloss=PUNCT
 
