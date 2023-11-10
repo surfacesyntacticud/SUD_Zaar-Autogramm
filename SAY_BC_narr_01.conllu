@@ -1660,7 +1660,7 @@
 # text = longa ɣən ʧáː ʧaːtəɣáy ɣəndí ?//
 # text_ortho = longa ɣən ʧáː ʧaːtəɣáy ɣəndí ?//
 # text_en = It's Rabbit who did it to him?
-1	longa	longa	NOUN	_	_	2	mod	_	AlignBegin=217982|AlignEnd=218359|Gloss=rabbit
+1	longa	longa	NOUN	_	_	2	comp:pred	_	AlignBegin=217982|AlignEnd=218359|Gloss=rabbit
 2	ɣən	kən	PART	_	_	0	root	_	AlignBegin=218359|AlignEnd=218736|Gloss=be
 3	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	2	comp:cleft	_	AlignBegin=218736|AlignEnd=219113|Gloss=3SG.PERF
 4-6	ʧaːtəɣáy	_	_	_	_	_	_	_	_
@@ -4068,11 +4068,11 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 516722, 517510
-# text = ʃèː baŋ -kə́nì //
-# text_ortho = ʃèː bàŋkə̀nì //
+# text = ʃèː bàŋgə̀nì //
+# text_ortho = ʃèː bàŋgə̀nì //
 # text_en = It's bitter.
 1	ʃèː	ʃèː	X	_	_	0	root	_	AlignBegin=516722|AlignEnd=516985|Gloss=X
-2	baŋ-kə́nì	baŋal	VERB	_	VerbForm=Vnoun	1	mod	_	AlignBegin=516985|AlignEnd=517248|Gloss=be_bitter|wordform=baŋ
+2	bàŋgə̀nì	baŋ	VERB	_	VerbForm=Vnoun	1	comp:aux	_	AlignBegin=516985|AlignEnd=517248|Gloss=be_bitter|wordform=baŋ
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=517248|AlignEnd=517510|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_400-400
@@ -4084,7 +4084,7 @@
 # text_en = We cannot eat it.
 1	ʃèː	ʃèː	X	_	_	0	root	_	AlignBegin=518140|AlignEnd=518355|Gloss=X
 2	ɗyáː	ɗyáː	VERB	_	_	1	comp:aux	_	AlignBegin=518355|AlignEnd=518570|Gloss=be_able|SVC=Yes
-3	ʧi	ʧi	VERB	_	_	2	comp:obj	_	AlignBegin=518570|AlignEnd=518785|Gloss=eat
+3	ʧi	ʧi	VERB	_	_	2	compound:svc	_	AlignBegin=518570|AlignEnd=518785|Gloss=eat
 4	hŋ́	hŋ́	PART	_	Polarity=Neg	1	mod	_	AlignBegin=518785|AlignEnd=519000|Gloss=NEG2
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=519000|AlignEnd=519215|Gloss=PUNCT
 
@@ -4092,13 +4092,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 519610, 520989
-# text = longa bàː á yardá gòs tə́ gón hŋ́ oː !//
-# text_ortho = longa bàː á yârdá gòs tə́ gón hŋ́oː !//
+# text = longa bàː á yârdá gòs tə́ gón hŋ́ oː !//
+# text_ortho = longa bàː á yârdá gòs tə́ gón hŋ́ oː !//
 # text_en = Rabbit never agrees with anyone!
-1	longa	longa	NOUN	_	_	3	mod	_	AlignBegin=519610|AlignEnd=519763|Gloss=rabbit
+1	longa	longa	NOUN	_	_	3	subj	_	AlignBegin=519610|AlignEnd=519763|Gloss=rabbit
 2	bàː	bàː	PART	_	Polarity=Neg	3	mod	_	AlignBegin=519763|AlignEnd=519916|Gloss=NEG1
 3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=519916|AlignEnd=520069|Gloss=3SG.Aor
-4	yardá	yardá	VERB	_	_	3	comp:aux	_	AlignBegin=520069|AlignEnd=520222|Gloss=agree
+4	yârdá	yardá	VERB	_	_	3	comp:aux	_	AlignBegin=520069|AlignEnd=520222|Gloss=agree
 5	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	mod@emp	_	AlignBegin=520222|AlignEnd=520375|Gloss=3SG.POS
 6	tə́	tə́	ADP	_	_	4	comp:obl	_	AlignBegin=520375|AlignEnd=520528|Gloss=with
 7	gón	gón	PRON	_	Definite=Spec	6	comp:obj	_	AlignBegin=520528|AlignEnd=520681|Gloss=SPEC
@@ -4116,7 +4116,7 @@
 1	ʃèː	ʃèː	X	_	_	2	mod	_	AlignBegin=519770|AlignEnd=519944|Gloss=X
 2	ngə́tn	ngə́tn	NOUN	_	_	0	root@scrap	_	AlignBegin=519944|AlignEnd=520118|Gloss=thing
 3	wón	wón	DET	_	Definite=Spec	2	det	_	AlignBegin=520118|AlignEnd=520292|Gloss=SPEC
-4	||	||	PUNCT	_	_	6	punct	_	AlignBegin=520292|AlignEnd=520467
+4	||	||	PUNCT	_	_	6	punct	_	AlignBegin=520292|AlignEnd=520467|Gloss=PUNCT
 5	ʃèː	ʃèː	X	_	_	6	mod	_	AlignBegin=521225|AlignEnd=521455|Gloss=X
 6	ngə́tn	ngə́tn	NOUN	_	_	2	conj:dicto	_	AlignBegin=521455|AlignEnd=521685|Gloss=thing
 7	wón	wón	DET	_	Definite=Spec	6	det	_	AlignBegin=521685|AlignEnd=521915|Gloss=SPEC
@@ -4126,23 +4126,27 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 521225, 523231
-# text = kóː kâm =wos máː ɗan ʧì yi ʧím =tə máː bàː á yardá tə́ yáːni hŋ́ //
+# text = kóː kâmwòs máː ɗan ʧì ʧímtə máː bàː á yârdá tə́ yáːnǐŋ //
 # text_ortho = kóː kâmwòs máː ɗan ʧì ʧímtə máː bàː á yârdá tə́ yáːnǐŋ //
 # text_en = Even his friend who is with him, he does not agree with him.
-1	kóː	kóː	CCONJ	_	_	12	discourse	_	AlignBegin=521225|AlignEnd=521359|Gloss=or
-2	kâm	kâm	NOUN	_	_	12	dislocated@subj	_	AlignBegin=521359|AlignEnd=521426|Gloss=friend
-3	=wos	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@poss	_	AlignBegin=521426|AlignEnd=521493|Gloss=3SG.POS
-4	máː	máː	PART	_	_	2	discourse	_	AlignBegin=521493|AlignEnd=521627|Gloss=even
+1	kóː	kóː	CCONJ	_	_	12	dislocated@top	_	AlignBegin=521225|AlignEnd=521359|Gloss=or
+2-3	kâmwòs	_	_	_	_	_	_	_	_
+2	kâm	kâm	NOUN	_	_	1	comp:obj	_	AlignBegin=521359|AlignEnd=521426|Gloss=friend
+3	=wòs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@poss	_	AlignBegin=521426|AlignEnd=521493|Gloss=3SG.POS
+4	máː	máː	PART	_	_	2	mod	_	AlignBegin=521493|AlignEnd=521627|Gloss=even
 5	ɗan	ɗan	SCONJ	_	PronType=Rel	2	mod@relcl	_	AlignBegin=521627|AlignEnd=521761|Gloss=REL
-6	ʧì	ʧii	VERB	_	_	7	subj	_	AlignBegin=521761|AlignEnd=521828|Gloss=3Plur.be
+6-7	ʧì	_	_	_	_	_	_	_	_
+6	tə̀	tə̀	VERB	_	_	7	subj	_	AlignBegin=521761|AlignEnd=521828|Gloss=3Plur
 7	yi	yi	VERB	_	_	5	comp:obj	_	AlignBegin=521828|AlignEnd=521895|Gloss=be
+8-9	ʧímtə	_	_	_	_	_	_	_	_
 8	ʧím	ʧím	ADP	_	_	7	comp:pred	_	AlignBegin=521895|AlignEnd=521962|Gloss=with
 9	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=521962|AlignEnd=522029|Gloss=3SG.OBJ
-10	máː	máː	PART	_	_	12	mod	_	AlignBegin=522029|AlignEnd=522163|Gloss=even
+10	máː	máː	PART	_	_	7	mod	_	AlignBegin=522029|AlignEnd=522163|Gloss=even
 11	bàː	bàː	PART	_	Polarity=Neg	12	mod	_	AlignBegin=522297|AlignEnd=522431|Gloss=NEG1
 12	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=522431|AlignEnd=522565|Gloss=3SG.Aor
-13	yardá	yardá	VERB	_	_	12	comp:aux	_	AlignBegin=522565|AlignEnd=522699|Gloss=agree
+13	yârdá	yardá	VERB	_	_	12	comp:aux	_	AlignBegin=522565|AlignEnd=522699|Gloss=agree
 14	tə́	tə́	ADP	_	_	13	comp:obl	_	AlignBegin=522833|AlignEnd=522967|Gloss=with
+15-16	yáːnǐŋ	_	_	_	_	_	_	_	_
 15	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	14	comp:obj	_	AlignBegin=522967|AlignEnd=523034|Gloss=3SG
 16	hŋ́	hŋ́	PART	_	Polarity=Neg	12	mod	_	AlignBegin=523034|AlignEnd=523101|Gloss=NEG2
 17	//	//	PUNCT	_	_	12	punct	_	AlignBegin=523101|AlignEnd=523231|Gloss=PUNCT
@@ -4161,13 +4165,14 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 523466, 524523
-# text = á yardá tə́ də̌ːr -i hŋ́ //
-# text_ortho = á yârdá tə́ dəːrə̌ŋ //
+# text = á yârdá tə́ dəːrə̌ŋ //
+# text_ortho = á yârdá tə́ dəːrə̌ŋ //
 # text_en = He did not agree with Monitor.
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=523466|AlignEnd=523677|Gloss=eh
-2	yardá	yardá	VERB	_	_	1	comp:aux	_	AlignBegin=523677|AlignEnd=523888|Gloss=agree
+2	yârdá	yardá	VERB	_	_	1	comp:aux	_	AlignBegin=523677|AlignEnd=523888|Gloss=agree
 3	tə́	tə́	ADP	_	_	2	parataxis@comp	_	AlignBegin=523888|AlignEnd=524099|Gloss=3Plur.Aor
-4	də̌ːr-i	də̌ːr-i	NOUN	_	_	3	comp:obj	_	AlignBegin=524099|AlignEnd=524239|Gloss=lizard|wordform=də̌ːr
+4-5	dəːrə̌ŋ	_	_	_	_	_	_	_	_
+4	də̌ːr	də̌ːr	NOUN	_	_	3	comp:obj	_	AlignBegin=524099|AlignEnd=524239|Gloss=lizard|wordform=də̌ːr
 5	hŋ́	hŋ́	PART	_	Polarity=Neg	1	mod	_	AlignBegin=524239|AlignEnd=524310|Gloss=NEG2
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=524310|AlignEnd=524523|Gloss=PUNCT
 
@@ -4175,12 +4180,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 525473, 526519
-# text = àː yardá tə́ káɗi aː hŋ́ ?//
-# text_ortho = àː yardá tə́ káɗyǎːn ?//
+# text = àː yardá tə́ káɗyǎːn ?//
+# text_ortho = àː yardá tə́ káɗyǎːŋ ?//
 # text_en = Didn't he agree with Dog?
 1	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=525473|AlignEnd=525682|Gloss=3SG.PERF
 2	yardá	yardá	VERB	_	_	1	comp:aux	_	AlignBegin=525682|AlignEnd=525891|Gloss=agree
-3	tə́	tə́	ADP	_	_	2	mod@poss	_	AlignBegin=525891|AlignEnd=526100|Gloss=with
+3	tə́	tə́	ADP	_	_	2	comp:obl	_	AlignBegin=525891|AlignEnd=526100|Gloss=with
+4-6	káɗyǎːn	_	_	_	_	_	_	_	_
 4	káɗi	káɗi	NOUN	_	_	3	comp:obj	_	AlignBegin=526100|AlignEnd=526170|Gloss=dog
 5	aː	aː	PART	_	_	1	mod	_	AlignBegin=526170|AlignEnd=526240|Gloss=VRT
 6	hŋ́	hŋ́	PART	_	_	1	mod	_	AlignBegin=526240|AlignEnd=526309|Gloss=NEG2
@@ -4190,13 +4196,14 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 526519, 527795
-# text = á yardá tə́ də̌ːr -i hŋ́ //
-# text_ortho = á yârdá tə́ dəːrə̌ŋ //
+# text = á yârdá tə́ dəːrə̌ŋ //
+# text_ortho = á yârdá tə́ dəːrə̌ŋ //
 # text_en = He did not agree with Monitor.
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=526519|AlignEnd=526774|Gloss=3SG.Aor
 2	yardá	yardá	VERB	_	_	1	comp:aux	_	AlignBegin=526774|AlignEnd=527029|Gloss=agree
-3	tə́	tə́	ADP	_	_	2	parataxis@comp	_	AlignBegin=527029|AlignEnd=527284|Gloss=with
-4	də̌ːr-i	də̌ːr-i	NOUN	_	_	3	comp:obj	_	AlignBegin=527284|AlignEnd=527454|Gloss=lizard|wordform=də̌ːr
+3	tə́	tə́	ADP	_	_	2	comp:obl	_	AlignBegin=527029|AlignEnd=527284|Gloss=with
+4-5	dəːrə̌ŋ	_	_	_	_	_	_	_	_
+4	də̌ːr	də̌ːr	NOUN	_	_	3	comp:obj	_	AlignBegin=527284|AlignEnd=527454|Gloss=lizard|wordform=də̌ːr
 5	hŋ́	hŋ́	PART	_	Polarity=Neg	1	mod	_	AlignBegin=527454|AlignEnd=527539|Gloss=NEG2
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=527539|AlignEnd=527795|Gloss=PUNCT
 
@@ -4204,32 +4211,35 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 528094, 532039
-# text = séː á wul =tə tu [ tôː < kóː ʃèː ka wum -íː aː hŋ́ ?// ʃèː yáː kən kap àː wum -i !//] //
-# text_ortho = séː á wûltə̀ tu [ tôː < kóː ʃèː ka wumyǎːn ?// ʃèː yáː kəní kap àː wúmi !//] //
+# text = séː á wûltə̀ tu [ tôː < kóː ʃèː ka wumyǎːŋ ?// ʃèː yáː kəní kap àː wúmi !//] //
+# text_ortho = séː á wûltə̀ tu [ tôː < kóː ʃèː ka wumyǎːŋ ?// ʃèː yáː kəní kap àː wúmi !//] //
 # text_en = The he told him Well, won't you taste it? Here it is, take it and taste it."
 1	séː	séː	ADV	_	_	2	mod	_	AlignBegin=528094|AlignEnd=528330|Gloss=then
 2	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=528330|AlignEnd=528566|Gloss=3SG.Aor
+3-4	wûltə̀	_	_	_	_	_	_	_	_
 3	wul	wul	VERB	_	_	2	comp:aux	_	AlignBegin=528566|AlignEnd=528684|Gloss=say
-4	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=528684|AlignEnd=528802|Gloss=3SG.OBJ
+4	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:ben	_	AlignBegin=528684|AlignEnd=528802|Gloss=3SG.OBJ
 5	tu	tu	SCONJ	_	Mood=Qot	3	comp:obj	_	AlignBegin=528802|AlignEnd=529038|Gloss=OPN
-6	[	[	PUNCT	_	_	18	punct	_	AlignBegin=529038|AlignEnd=529272|Gloss=PUNCT
-7	tôː	tôː	PART	_	_	2	discourse	_	AlignBegin=529565|AlignEnd=529795|Gloss=well
+6	[	[	PUNCT	_	_	11	punct	_	AlignBegin=529038|AlignEnd=529272|Gloss=PUNCT
+7	tôː	tôː	PART	_	_	11	discourse	_	AlignBegin=529565|AlignEnd=529795|Gloss=well
 8	<	<	PUNCT	_	_	7	punct	_	AlignBegin=529795|AlignEnd=530024|Gloss=PUNCT
-9	kóː	kóː	CCONJ	_	_	18	discourse	_	AlignBegin=530024|AlignEnd=530210|Gloss=or
-10	ʃèː	ʃèː	VERB	_	_	18	comp:obj	_	AlignBegin=530210|AlignEnd=530396|Gloss=X
+9	kóː	kóː	CCONJ	_	_	11	discourse	_	AlignBegin=530024|AlignEnd=530210|Gloss=or
+10	ʃèː	ʃèː	VERB	_	_	11	discourse	_	AlignBegin=530210|AlignEnd=530396|Gloss=X
 11	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	5	comp:obj	_	AlignBegin=530396|AlignEnd=530582|Gloss=2SG.FUT
-12	wum-íː	wum-íː	VERB	_	Aspect=Res	11	comp:aux	_	AlignBegin=530582|AlignEnd=530674|Gloss=feel|wordform=wum
-13	aː	aː	PART	_	PartType=Int	18	mod	_	AlignBegin=530674|AlignEnd=530720|Gloss=VRT
-14	hŋ́	hŋ́	PART	_	Polarity=Neg	18	mod	_	AlignBegin=530720|AlignEnd=530768|Gloss=NEG2
-15	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=530768|AlignEnd=530956|Gloss=PUNCT
-16	ʃèː	ʃèː	PART	_	_	18	subj	_	AlignBegin=530956|AlignEnd=531091|Gloss=X
-17	yáː	yáː	PRON	_	Number=Sing|Person=3|PronType=Prs	2	parataxis@mod	_	AlignBegin=531091|AlignEnd=531226|Gloss=3SG.SBJ
-18	kən	kən	PART	_	_	2	mod	_	AlignBegin=531226|AlignEnd=531361|Gloss=be
-19	kap	kap	VERB	_	_	18	comp:cleft	_	AlignBegin=531361|AlignEnd=531496|Gloss=take
-20	àː	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=2	18	comp:obj	_	AlignBegin=531496|AlignEnd=531631|Gloss=2SG.SUB
-21	wum-i	wum-i	VERB	_	_	20	comp:aux	_	AlignBegin=531631|AlignEnd=531766|Gloss=feel|wordform=wum
-22	!//]	!//]	PUNCT	_	_	2	punct	_	AlignBegin=531766|AlignEnd=531901|Gloss=PUNCT
-23	//	//	PUNCT	_	_	2	punct	_	AlignBegin=531901|AlignEnd=532039|Gloss=PUNCT
+12-13	wumyǎːŋ	_	_	_	_	_	_	_	_
+12	wumi	wum	VERB	_	Aspect=Res	11	comp:aux	_	AlignBegin=530582|AlignEnd=530674|Gloss=feel|wordform=wum
+13	aː	aː	PART	_	PartType=Int	11	mod	_	AlignBegin=530674|AlignEnd=530720|Gloss=VRT
+14	hŋ́	hŋ́	PART	_	Polarity=Neg	11	mod	_	AlignBegin=530720|AlignEnd=530768|Gloss=NEG2
+15	?//=	?//=	PUNCT	_	_	17	punct	_	AlignBegin=530768|AlignEnd=530956|Gloss=PUNCT
+16	ʃèː	ʃèː	PART	_	_	17	discourse	_	AlignBegin=530956|AlignEnd=531091|Gloss=X
+17	yáː	yáː	PART	_	Number=Sing|Person=3|PronType=Prs	11	parataxis@conj	_	AlignBegin=531091|AlignEnd=531226|Gloss=here_it_is
+18	ɣəní	kəní	PART	_	_	17	mod	_	AlignBegin=531226|AlignEnd=531361|Gloss=be
+19	//=	//=	PUNCT	_	_	20	mod	_	AlignBegin=531226|AlignEnd=531361|Gloss=PUNCT
+20	kap	kap	VERB	_	_	17	parataxis@conj	_	AlignBegin=531361|AlignEnd=531496|Gloss=take-Imp
+21	àː	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=2	20	parataxis@conj	_	AlignBegin=531496|AlignEnd=531631|Gloss=2SG.SUB
+22	wúmi	wum	VERB	_	_	21	comp:aux	_	AlignBegin=531631|AlignEnd=531766|Gloss=feel|wordform=wum
+23	!//]	!//]	PUNCT	_	_	11	punct	_	AlignBegin=531766|AlignEnd=531901|Gloss=PUNCT
+24	//	//	PUNCT	_	_	2	punct	_	AlignBegin=531901|AlignEnd=532039|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_413-413
 # speaker_id = SP1
