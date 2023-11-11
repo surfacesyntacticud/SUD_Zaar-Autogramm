@@ -4522,13 +4522,13 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 563457, 564399
-# text = tə́ ʧi tə́ gə̀t -ês //
+# text = tə́ ʧî tə́ gə̀ɗès //
 # text_ortho = tə́ ʧî tə́ gə̀ɗès //
 # text_en = He ate (it) with his wife.
 1	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=563457|AlignEnd=563645|Gloss=3Plur.Aor
-2	ʧi	ʧi	VERB	_	_	1	comp:aux	_	AlignBegin=563645|AlignEnd=563833|Gloss=eat
-3	tə́	tə́	ADP	_	_	2	comp:obj	_	AlignBegin=563833|AlignEnd=564021|Gloss=with
-4	gə̀t-ês	gə̀t-ês	NOUN	_	_	3	comp:obj	_	AlignBegin=564021|AlignEnd=564209|Gloss=wife|wordform=gə̀t
+2	ʧî	ʧi	VERB	_	_	1	comp:aux	_	AlignBegin=563645|AlignEnd=563833|Gloss=eat
+3	tə́	tə́	ADP	_	_	2	mod	_	AlignBegin=563833|AlignEnd=564021|Gloss=with
+4	gə̀ɗès	gə̀t	NOUN	_	Definite=Def	3	comp:obj	_	AlignBegin=564021|AlignEnd=564209|Gloss=wife-Def|wordform=gə̀t
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=564209|AlignEnd=564399|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_445-445
@@ -4538,7 +4538,7 @@
 # text = nʤey //
 # text_ortho = nʤey //
 # text_en = Njei.
-1	nʤey	nʤey	NOUN	_	_	0	root	_	AlignBegin=564399|AlignEnd=564545|Gloss=Njei
+1	Nʤey	Nʤey	PROPN	_	_	0	root	_	AlignBegin=564399|AlignEnd=564545|Gloss=Njei
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=564545|AlignEnd=564691|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_446-446
@@ -4555,47 +4555,49 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 565913, 568589
-# text = hár gə̀# || gə̀t -i || gə̀t -i longa fi wǒn -i kə̂ːm káy //
-# text_ortho = hár gə̀# || gə̀ɗì || gə̀ɗì longa fi woní kə̂ːmkáy //
-# text_en = So that the ww... wife even made some earrings with it.
-1	hár	hár	ADP	_	_	2	mod	_	AlignBegin=565913|AlignEnd=566162|Gloss=until
-2	gə̀#	gə̀#	NOUN	_	_	0	root	_	AlignBegin=566162|AlignEnd=566411|Gloss=HESIT
-3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=566411|AlignEnd=566660
-4	gə̀t-i	gə̀t-i	NOUN	_	_	2	conj:dicto	_	AlignBegin=566660|AlignEnd=566909|Gloss=wife|wordform=gə̀t
-5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=566909|AlignEnd=567158
-6	gə̀t-i	gə̀t-i	NOUN	_	_	2	conj:dicto	_	AlignBegin=567158|AlignEnd=567396|Gloss=wife|wordform=gə̀t
-7	longa	longa	NOUN	_	_	8	comp:obj	_	AlignBegin=567396|AlignEnd=567634|Gloss=rabbit
-8	fi	fi	VERB	_	_	6	mod	_	AlignBegin=567634|AlignEnd=567872|Gloss=do
-9	wǒn-i	wǒn-i	NOUN	_	_	8	comp:obj	_	AlignBegin=567872|AlignEnd=568110|Gloss=jewel|wordform=wǒn
-10	kə̂ːm	kə̂ːm	NOUN	_	_	8	comp:obj@lvc	_	AlignBegin=568110|AlignEnd=568229|Gloss=ear
-11	káy	káy	PRON	_	Person=3|PronType=Prs	8	comp:obl@expl	_	AlignBegin=568229|AlignEnd=568348|Gloss=ANAPH
-12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=568348|AlignEnd=568589|Gloss=PUNCT
+# text = hár gə̀~ || gə̀ɗì || gə̀ɗì longa fi woní kə̂ːmgáy //
+# text_ortho = hár gə̀~ || gə̀ɗì || gə̀ɗì longa fi woní kə̂ːmgáy //
+# text_en = So that the w... wife even made some earrings with it.
+1	hár	hár	ADP	_	_	8	mod	_	AlignBegin=565913|AlignEnd=566162|Gloss=until
+2	gə̀~	gə̀~	NOUN	_	_	8	subj	_	AlignBegin=566162|AlignEnd=566411|Gloss=HESIT
+3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=566411|AlignEnd=566660|Gloss=PUNCT
+4	gə̀ɗì	gə̀t	NOUN	_	Definite=Ind	2	conj:dicto	_	AlignBegin=566660|AlignEnd=566909|Gloss=wife-Ind|wordform=gə̀t
+5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=566909|AlignEnd=567158|Gloss=PUNCT
+6	gə̀ɗì	gə̀t	NOUN	_	_	4	conj:dicto	_	AlignBegin=567158|AlignEnd=567396|Gloss=wife|wordform=gə̀t
+7	longa	longa	NOUN	_	_	6	mod	_	AlignBegin=567396|AlignEnd=567634|Gloss=rabbit
+8	fi	fi	VERB	_	_	0	root	_	AlignBegin=567634|AlignEnd=567872|Gloss=do
+9	woní	wǒn	NOUN	_	Definite=Ind	8	comp:obj	_	AlignBegin=567872|AlignEnd=568110|Gloss=jewel|wordform=wǒn
+10-11	kə̂ːmgáy	_	_	_	_	_	_	_	_
+10	kə̂ːm	kə̂ːm	NOUN	_	_	9	compound	_	AlignBegin=568110|AlignEnd=568229|Gloss=ear
+11	gáy	káy	PRON	_	Person=3|PronType=Prs	8	comp:obl@expl	_	AlignBegin=568229|AlignEnd=568348|Gloss=ANAPH
+12	//	//	PUNCT	_	_	8	punct	_	AlignBegin=568348|AlignEnd=568589|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_449-449
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 570045, 571182
-# text = á fi wǒn -i kə̂ːm káy //
-# text_ortho = á fî woní kə̂ːmkáy //
+# text = á fî woní kə̂ːmgáy //
+# text_ortho = á fî woní kə̂ːmgáy //
 # text_en = He made some earrings
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=570045|AlignEnd=570272|Gloss=3SG.Aor
-2	fi	fi	VERB	_	_	1	comp:aux	_	AlignBegin=570272|AlignEnd=570499|Gloss=do
-3	wǒn-i	wǒn-i	NOUN	_	_	2	comp:obj	_	AlignBegin=570499|AlignEnd=570726|Gloss=jewel|wordform=wǒn
-4	kə̂ːm	kə̂ːm	NOUN	_	_	2	comp:obj@lvc	_	AlignBegin=570726|AlignEnd=570840|Gloss=ear
-5	káy	káy	PRON	_	Person=3|PronType=Prs	2	comp:obl@expl	_	AlignBegin=570840|AlignEnd=570953|Gloss=ANAPH
+2	fî	fi	VERB	_	_	1	comp:aux	_	AlignBegin=570272|AlignEnd=570499|Gloss=do
+3	woní	wǒn	NOUN	_	_	2	comp:obj	_	AlignBegin=570499|AlignEnd=570726|Gloss=jewel|wordform=wǒn
+4-5	kə̂ːmgáy	_	_	_	_	_	_	_	_
+4	kə̂ːm	kə̂ːm	NOUN	_	_	3	compound	_	AlignBegin=570726|AlignEnd=570840|Gloss=ear
+5	gáy	káy	PRON	_	Person=3|PronType=Prs	2	comp:obl@expl	_	AlignBegin=570840|AlignEnd=570953|Gloss=ANAPH
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=570953|AlignEnd=571182|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_450-450
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 571567, 573382
-# text = tə́ ɬûː kə́ kura -ês aː ?//
-# text_ortho = tə́ ɬûː kə́ kurásà: ?//
+# text = tə́ ɬûː ɣə́ kurásàː ?//
+# text_ortho = tə́ ɬûː ɣə́ kurásàː ?//
 # text_en = With the meat of Hyena?
 1	tə́	tə́	ADP	_	_	0	root	_	AlignBegin=571567|AlignEnd=571930|Gloss=with
 2	ɬûː	ɬû	NOUN	_	_	1	comp:obj	_	AlignBegin=571930|AlignEnd=572293|Gloss=meat
-3	kə́	á	ADP	_	_	2	mod	_	AlignBegin=572293|AlignEnd=572656|Gloss=of
-4	kura-ês	kura-ês	NOUN	_	Foreign=Yes	3	comp:obj	_	AlignBegin=572656|AlignEnd=572898|Gloss=hyena|Lang=hau|wordform=kura
+3	ɣə́	á	ADP	_	_	2	mod	_	AlignBegin=572293|AlignEnd=572656|Gloss=of
+4	kurâs	kura	NOUN	_	Definite=Def|Foreign=Yes	3	comp:obj	_	AlignBegin=572656|AlignEnd=572898|Gloss=hyena-Def|Lang=hau|wordform=kura
 5	aː	aː	PART	_	PartType=Int	1	mod	_	AlignBegin=572898|AlignEnd=573019|Gloss=VRT
 6	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=573019|AlignEnd=573382|Gloss=PUNCT
 
@@ -4613,50 +4615,50 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 573382, 574988
-# text = tsananí vwàː ɗan á yúkn káwây //
+# text = tsananí vwàː ɗan á yǔkn káwây //
 # text_ortho = tsananí vwàː ɗan á yǔkn káwây //
-# text_en = Her stomach got really full.
-1	tsananí	tsananí	ADV	_	_	0	root	_	AlignBegin=573382|AlignEnd=573611|Gloss=extremely
-2	vwàː	vwàː	NOUN	_	_	1	comp:obj	_	AlignBegin=573611|AlignEnd=573840|Gloss=belly
-3	ɗan	ɗan	SCONJ	_	PronType=Rel	1	mod@relcl	_	AlignBegin=573840|AlignEnd=574069|Gloss=REL2
-4	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	3	comp:obj	_	AlignBegin=574069|AlignEnd=574298|Gloss=3SG.Aor
-5	yúkn	yúkn	VERB	_	_	4	comp:aux	_	AlignBegin=574298|AlignEnd=574527|Gloss=INTJ
+# text_en = Really, her stomach then was completely full.
+1	tsananí	tsananí	ADV	_	_	4	mod	_	AlignBegin=573382|AlignEnd=573611|Gloss=extremely
+2	vwàː	vwàː	NOUN	_	_	4	dislocated@subj	_	AlignBegin=573611|AlignEnd=573840|Gloss=belly
+3	ɗan	ɗan	ADV	_	_	4	mod	_	AlignBegin=573840|AlignEnd=574069|Gloss=REL2
+4	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=574069|AlignEnd=574298|Gloss=3SG.Aor
+5	yǔkn	yúkn	VERB	_	_	4	comp:aux	_	AlignBegin=574298|AlignEnd=574527|Gloss=INTJ
 6	káwây	káwây	ADV	_	_	4	mod	_	AlignBegin=574527|AlignEnd=574756|Gloss=merely
-7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=574756|AlignEnd=574988|Gloss=PUNCT
+7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=574756|AlignEnd=574988|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_453-455
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 575456, 579442
-# text = àsêː < gə̀t -i longa tə́ gə̀t -i də̌ːr kúmá ʧǎː ngaː ʒà ká lə̂p nàmbóŋ -ni //
-# text_ortho = àséː < gə̀ɗì longa tə́ gə̀ɗì də̌ːr kúmá ʧàː ngâː ʒà ká lə̂p nàmbóŋni //
+# text = àséː < gə̀ɗì longa tə́ gə̀ɗì də̌ːr kúmá ʧàː ŋgâː ʒà ɣá lə̂p nàmbóŋi //
+# text_ortho = àséː < gə̀ɗì longa tə́ gə̀ɗì də̌ːr kúmá ʧàː ŋgâː ʒà ɣá lə̂p nàmbóŋi //
 # text_en = Indeed Rabit's wife and Monitor's wife are fetching water at the same place.
 1	àsêː	àsêː	INTJ	_	_	9	discourse	_	AlignBegin=575456|AlignEnd=575820|Gloss=indeed
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=575820|AlignEnd=576184|Gloss=PUNCT
-3	gə̀t-i	gə̀t-i	NOUN	_	_	9	mod	_	AlignBegin=576184|AlignEnd=576827|Gloss=wife|wordform=gə̀t
-4	longa	longa	NOUN	_	_	3	comp:obj	_	AlignBegin=576827|AlignEnd=577470|Gloss=rabbit
-5	tə́	tə́	ADP	_	_	10	parataxis@comp	_	AlignBegin=577470|AlignEnd=577649|Gloss=3Plur.Aor
-6	gə̀t-i	gə̀t-i	NOUN	_	_	10	comp:obj	_	AlignBegin=577649|AlignEnd=577828|Gloss=wife|wordform=gə̀t
-7	də̌ːr	də̌ːr	NOUN	_	_	10	comp:obj	_	AlignBegin=577828|AlignEnd=578007|Gloss=lizard
-8	kúmá	kúmá	PART	_	_	9	discourse	_	AlignBegin=578007|AlignEnd=578186|Gloss=also
-9	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=578186|AlignEnd=578365|Gloss=3Plur.IMP
-10	ngaː	ngaː	VERB	_	_	9	comp:aux	_	AlignBegin=578365|AlignEnd=578544|Gloss=take_food
+3	gə̀ɗì	gə̀t	NOUN	_	Definite=Ind	9	mod	_	AlignBegin=576184|AlignEnd=576827|Gloss=wife-Ind|wordform=gə̀t
+4	longa	longa	NOUN	_	_	3	compound	_	AlignBegin=576827|AlignEnd=577470|Gloss=rabbit
+5	tə́	tə́	CCONJ	_	_	6	cc	_	AlignBegin=577470|AlignEnd=577649|Gloss=3Plur.Aor
+6	gə̀ɗì	gə̀t	NOUN	_	Definite=Ind	3	conj:coord	_	AlignBegin=577649|AlignEnd=577828|Gloss=wife-Ind|wordform=gə̀t
+7	də̌ːr	də̌ːr	NOUN	_	_	6	compound	_	AlignBegin=577828|AlignEnd=578007|Gloss=lizard
+8	kúmá	kúmá	PART	_	_	3	mod	_	AlignBegin=578007|AlignEnd=578186|Gloss=also
+9	ʧàː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=578186|AlignEnd=578365|Gloss=3Plur.IMP
+10	ŋgâː	ngaː	VERB	_	_	9	comp:aux	_	AlignBegin=578365|AlignEnd=578544|Gloss=scoop_out
 11	ʒà	ʒà	NOUN	_	_	10	comp:obj	_	AlignBegin=578544|AlignEnd=578723|Gloss=water
-12	ká	ká	ADP	_	_	10	comp:obl	_	AlignBegin=578723|AlignEnd=578902|Gloss=at
+12	ɣá	ká	ADP	_	_	10	comp:obl	_	AlignBegin=578723|AlignEnd=578902|Gloss=at
 13	lə̂p	lə̂p	NOUN	_	_	12	comp:obj	_	AlignBegin=578902|AlignEnd=579081|Gloss=place
-14	nàmbóŋ-i	nàmbóŋ-i	NUM	_	_	10	mod	_	AlignBegin=579081|AlignEnd=579260|Gloss=one|wordform=nàmbóŋ
+14	nàmbóŋi	nàmbóŋ	ADJ	_	_	13	mod	_	AlignBegin=579081|AlignEnd=579260|Gloss=same|wordform=nàmbóŋ
 15	//	//	PUNCT	_	_	9	punct	_	AlignBegin=579260|AlignEnd=579442|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_456-456
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 579442, 579925
-# text = ʧǎː ʧǎː <
-# text_ortho = ʧàː ʧàː <
+# text = ʧǎː ʧǎː &//
+# text_ortho = ʧàː ʧàː &//
 # text_en = They.. they...
 1	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=579442|AlignEnd=579603|Gloss=3Plur.IMP
-2	ʧǎː	ʧǎː	VERB	_	_	1	comp:aux	_	AlignBegin=579603|AlignEnd=579764|Gloss=3Plur.IMP
-3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=579764|AlignEnd=579925|Gloss=PUNCT
+2	ʧǎː	ʧǎː	AUX	_	_	1	conj:dicto	_	AlignBegin=579603|AlignEnd=579764|Gloss=3Plur.IMP
+3	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=579764|AlignEnd=579925|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_457-458
 # speaker_id = SP1
