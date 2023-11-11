@@ -4211,8 +4211,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 528094, 532039
-# text = séː á wûltə̀ tu [ tôː < kóː ʃèː ka wumyǎːŋ ?// ʃèː yáː kəní kap àː wúmi !//] //
-# text_ortho = séː á wûltə̀ tu [ tôː < kóː ʃèː ka wumyǎːŋ ?// ʃèː yáː kəní kap àː wúmi !//] //
+# text = séː á wûltə̀ tu [ tôː < kóː ʃèː ka wumyǎːŋ ?// ʃèː yáːɣəní kap àː wúmi !//] //
+# text_ortho = séː á wûltə̀ tu [ tôː < kóː ʃèː ka wumyǎːŋ ?// ʃèː yáːɣəní kap àː wúmi !//] //
 # text_en = The he told him Well, won't you taste it? Here it is, take it and taste it."
 1	séː	séː	ADV	_	_	2	mod	_	AlignBegin=528094|AlignEnd=528330|Gloss=then
 2	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=528330|AlignEnd=528566|Gloss=3SG.Aor
@@ -4232,10 +4232,11 @@
 14	hŋ́	hŋ́	PART	_	Polarity=Neg	11	mod	_	AlignBegin=530720|AlignEnd=530768|Gloss=NEG2
 15	?//=	?//=	PUNCT	_	_	17	punct	_	AlignBegin=530768|AlignEnd=530956|Gloss=PUNCT
 16	ʃèː	ʃèː	PART	_	_	17	discourse	_	AlignBegin=530956|AlignEnd=531091|Gloss=X
+17-18	yáːɣəní	_	_	_	_	_	_	_	_
 17	yáː	yáː	PART	_	Number=Sing|Person=3|PronType=Prs	11	parataxis@conj	_	AlignBegin=531091|AlignEnd=531226|Gloss=here_it_is
 18	ɣəní	kəní	PART	_	_	17	mod	_	AlignBegin=531226|AlignEnd=531361|Gloss=be
 19	//=	//=	PUNCT	_	_	20	mod	_	AlignBegin=531226|AlignEnd=531361|Gloss=PUNCT
-20	kap	kap	VERB	_	_	17	parataxis@conj	_	AlignBegin=531361|AlignEnd=531496|Gloss=take-Imp
+20	kap	kap	VERB	_	Mood=Imp	17	parataxis@conj	_	AlignBegin=531361|AlignEnd=531496|Gloss=take-Imp
 21	àː	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=2	20	parataxis@conj	_	AlignBegin=531496|AlignEnd=531631|Gloss=2SG.SUB
 22	wúmi	wum	VERB	_	_	21	comp:aux	_	AlignBegin=531631|AlignEnd=531766|Gloss=feel|wordform=wum
 23	!//]	!//]	PUNCT	_	_	11	punct	_	AlignBegin=531766|AlignEnd=531901|Gloss=PUNCT
@@ -4245,51 +4246,61 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 532316, 534370
-# text = àsêː ŋaː lə̂p -i gíː ɗa á kat ránga káy -íː á súː vər də̌ːr //
-# text_ortho = àséː ŋaː lə́ɓi gíː ɗa á kat rángakáyíː á sûː vər də̌ːr //
-# text_en = Indeed that place where he had rubbed some mahogany and he wanted to give it to Monitor.
-1	àsêː	àsêː	INTJ	_	_	0	root	_	AlignBegin=532316|AlignEnd=532474|Gloss=indeed
+# text = àséː ŋaː lə́ɓi gíː ɗaː kat ráŋgaɣáy á súː vər də̌ːr //
+# text_ortho = àséː ŋaː lə́ɓi gíː ɗaː kat ráŋgaɣáy á súː vər də̌ːr //
+# text_en = Indeed that place where he had rubbed some mahogany, he wanted to give it to Monitor.
+1	àsêː	àʃêː	INTJ	_	_	10	discourse	_	AlignBegin=532316|AlignEnd=532474|Gloss=indeed
 2	ŋaː	ŋaː	ADJ	_	_	3	mod	_	AlignBegin=532474|AlignEnd=532632|Gloss=small
-3	lə̂p-i	lə̂p-i	NOUN	_	_	1	comp:obj	_	AlignBegin=532632|AlignEnd=532790|Gloss=place|wordform=lə̂p
+3	lə́ɓi	lə̂p	NOUN	_	Definite=Ind	10	dislocated@comp	_	AlignBegin=532632|AlignEnd=532790|Gloss=place|wordform=lə̂p
 4	gíː	gíː	DET	_	PronType=Dem	3	det	_	AlignBegin=532790|AlignEnd=532948|Gloss=REM
 5	ɗa	ɗa	SCONJ	_	PronType=Rel	3	mod@relcl	_	AlignBegin=532948|AlignEnd=533106|Gloss=REL
-6	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	5	comp:obj	_	AlignBegin=533106|AlignEnd=533264|Gloss=3SG.Aor
+6	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	5	comp:obj	_	AlignBegin=533106|AlignEnd=533264|Gloss=3SG.Perf
 7	kat	kat	VERB	_	_	6	comp:aux	_	AlignBegin=533264|AlignEnd=533422|Gloss=drive_away
+8-9	ráŋgaɣáy	_	_	_	_	_	_	_	_
 8	ránga	ránga	NOUN	_	_	7	comp:obj	_	AlignBegin=533422|AlignEnd=533475|Gloss=mahogany
-9	káy-íː	káy-íː	PRON	_	Person=3|PronType=Prs	6	mod	_	AlignBegin=533475|AlignEnd=533580|Gloss=ANAPH|wordform=káy
-10	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	5	comp:obj	_	AlignBegin=533580|AlignEnd=533738|Gloss=3SG.Aor
-11	súː	súː	VERB	_	_	6	comp:aux	_	AlignBegin=533738|AlignEnd=533896|Gloss=want
+9	ɣáy	káy	PRON	_	Person=3|PronType=Prs	7	comp:obl@expl	_	AlignBegin=533475|AlignEnd=533580|Gloss=ANAPH|wordform=káy
+10	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=533580|AlignEnd=533738|Gloss=3SG.Aor
+11	súː	súː	VERB	_	_	10	comp:aux	_	AlignBegin=533738|AlignEnd=533896|Gloss=want
 12	vər	vər	VERB	_	_	11	compound:svc	_	AlignBegin=533896|AlignEnd=534054|Gloss=give
-13	də̌ːr	də̌ːr	NOUN	_	_	11	mod	_	AlignBegin=534054|AlignEnd=534212|Gloss=lizard
-14	//	//	PUNCT	_	_	1	punct	_	AlignBegin=534212|AlignEnd=534370|Gloss=PUNCT
+13	də̌ːr	də̌ːr	NOUN	_	_	12	comp:ben	_	AlignBegin=534054|AlignEnd=534212|Gloss=lizard
+14	//	//	PUNCT	_	_	10	punct	_	AlignBegin=534212|AlignEnd=534370|Gloss=PUNCT
 
-# sent_id = SAY_BC_narr_01_414-416
+# sent_id = SAY_BC_narr_01_414-415
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
-# sent_timecode = 534370, 536748
-# text = də̌ːr < ɗa á ɓâːt < wumi [ áʔá !// ʃèː < dà gàské < ʃèː baŋ oː !//] //
-# text_ortho = də̌ːr < ɗa á ɓâːt < wumi [ áʔá !// ʃèː < dà gàské < ʃèː báŋoː !//] //
+# sent_timecode = 534370, 535407
+# text = də̌ːr < ɗa á ɓâːt < wumi //
+# text_ortho = də̌ːr < ɗa á ɓâːt < wumi //
 # text_en = When Monitor licked it he thought "Ah, really, it is bitter!"
-1	də̌ːr	də̌ːr	NOUN	_	_	4	mod	_	AlignBegin=534370|AlignEnd=534498|Gloss=lizard
+1	də̌ːr	də̌ːr	NOUN	_	_	7	dislocated@subj	_	AlignBegin=534370|AlignEnd=534498|Gloss=lizard
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=534498|AlignEnd=534626|Gloss=PUNCT
-3	ɗa	ɗa	SCONJ	_	_	4	mod	_	AlignBegin=534626|AlignEnd=534754|Gloss=as
-4	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=534754|AlignEnd=534882|Gloss=3SG.Aor
+3	ɗa	ɗa	SCONJ	_	_	7	mod	_	AlignBegin=534626|AlignEnd=534754|Gloss=as
+4	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	3	comp:obj	_	AlignBegin=534754|AlignEnd=534882|Gloss=3SG.Aor
 5	ɓâːt	ɓâːt	VERB	_	_	4	comp:aux	_	AlignBegin=534882|AlignEnd=535010|Gloss=lick
 6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=535010|AlignEnd=535138|Gloss=PUNCT
-7	wumi	wumi	NUM	_	_	4	subj	_	AlignBegin=535138|AlignEnd=535264|Gloss=feel
-8	[	[	PUNCT	_	_	9	punct	_	AlignBegin=535264|AlignEnd=535407|Gloss=PUNCT
-9	áʔá	áʔá	INTJ	_	_	3	discourse	_	AlignBegin=535407|AlignEnd=535550|Gloss=surprise
-10	!//	!//	PUNCT	_	_	9	punct	_	AlignBegin=535550|AlignEnd=535693|Gloss=PUNCT
-11	ʃèː	ʃèː	X	_	_	9	parataxis@conj	_	AlignBegin=535693|AlignEnd=535836|Gloss=DM
+7	wumi	wumi	NUM	_	_	0	root	_	AlignBegin=535138|AlignEnd=535264|Gloss=feel
+8	//	//	PUNCT	_	_	7	punct	_	AlignBegin=535264|AlignEnd=535407|Gloss=PUNCT
+
+# sent_id = SAY_BC_narr_01_416-416
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
+# sent_timecode = 535407, 536528
+# text = áʔá !//= ʃèː < dà gàské < ʃèː baŋ oː !//
+# text_ortho = áʔá !//= ʃèː < dà gàské < ʃèː báŋoː !//
+# text_en = When Monitor licked it he thought "Ah, really, it is bitter!"
+# text = =áʔá !// ʃèː < dà gàské < ʃèː baŋ oː !//] //
+# text_ortho = də̌ːr < ɗa á ɓâːt < wumi [ áʔá !// ʃèː < dà gàské < ʃèː báŋoː !//] //
+9	áʔá	áʔá	INTJ	_	_	7	parataxis@comp	_	AlignBegin=535407|AlignEnd=535550|Gloss=surprise
+10	!//=	!//=	PUNCT	_	_	16	punct	_	AlignBegin=535550|AlignEnd=535693|Gloss=PUNCT
+11	ʃèː	ʃèː	X	_	_	16	discourse	_	AlignBegin=535693|AlignEnd=535836|Gloss=DM
 12	<	<	PUNCT	_	_	11	punct	_	AlignBegin=535836|AlignEnd=535978|Gloss=PUNCT
-13	dà	dà	ADP	_	Foreign=Yes	17	mod	_	AlignBegin=535978|AlignEnd=536088|Gloss=with|Lang=hau
+13	dà	dà	ADP	_	Foreign=Yes	16	mod	_	AlignBegin=535978|AlignEnd=536088|Gloss=with|Lang=hau
 14	gàské	gàské	ADV	_	_	13	comp:obj	_	AlignBegin=536088|AlignEnd=536198|Gloss=true|Lang=hau
 15	<	<	PUNCT	_	_	13	punct	_	AlignBegin=536198|AlignEnd=536308|Gloss=PUNCT
-16	ʃèː	ʃèː	X	_	_	17	subj	_	AlignBegin=536308|AlignEnd=536418|Gloss=X
-17	baŋ	baŋ	PART	_	Polarity=Neg	9	parataxis@conj	_	AlignBegin=536418|AlignEnd=536473|Gloss=be_bitter
-18	oː	oː	PART	_	PartType=Emp	17	mod	_	AlignBegin=536473|AlignEnd=536528|Gloss=EMPH
-19	!//]	!//]	PUNCT	_	_	9	punct	_	AlignBegin=536528|AlignEnd=536638|Gloss=PUNCT
-20	//	//	PUNCT	_	_	4	punct	_	AlignBegin=536638|AlignEnd=536748|Gloss=PUNCT
+16	ʃèː	ʃèː	X	_	_	17	root	_	AlignBegin=536308|AlignEnd=536418|Gloss=X
+17	baŋ	baŋ	PART	_	Polarity=Neg	16	comp:aux	_	AlignBegin=536418|AlignEnd=536473|Gloss=be_bitter
+18	oː	oː	PART	_	PartType=Emp	16	mod	_	AlignBegin=536473|AlignEnd=536528|Gloss=EMPH
+19	!//	!//	PUNCT	_	_	9	punct	_	AlignBegin=536528|AlignEnd=536638|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_417-417
 # speaker_id = SP1
