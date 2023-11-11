@@ -104,7 +104,7 @@
 # text_en = They will go to gather honey.
 1	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=13847|AlignEnd=14048|Gloss=FUT.3Plur
 2	ɬə̂	ɬə	VERB	_	_	1	comp:aux	_	AlignBegin=14048|AlignEnd=14249|Gloss=go
-3	nə́	nə́	ADP	_	_	2	mod	_	AlignBegin=14249|AlignEnd=14450|Gloss=for
+3	nə́	nə́	ADP	_	_	2	comp:obl	_	AlignBegin=14249|AlignEnd=14450|Gloss=for
 4	ʧáːɣə̂n	ʧaː	VERB	_	VerbForm=Vnoun	3	comp:obj	_	AlignBegin=14450|AlignEnd=14651|ExtPos=NOUN|Gloss=collect|wordform=ʧaː
 5	dǔːm	dǔːm	NOUN	_	_	4	comp:obj	_	AlignBegin=14651|AlignEnd=14852|Gloss=honey
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=14852|AlignEnd=15051|Gloss=PUNCT
@@ -142,7 +142,7 @@
 # text_en = They will go to gather honey.
 1	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=18851|AlignEnd=19040|Gloss=3SG.FUT
 2	ɬə	ɬə	VERB	_	_	1	comp:aux	_	AlignBegin=19040|AlignEnd=19229|Gloss=go
-3	nə́	nə́	ADP	_	_	2	mod	_	AlignBegin=19229|AlignEnd=19418|Gloss=for
+3	nə́	nə́	ADP	_	_	2	comp:obl	_	AlignBegin=19229|AlignEnd=19418|Gloss=for
 4	ʧáːɣə̂n	ʧaː	VERB	_	VerbForm=Vnoun	3	comp:obj	_	AlignBegin=19418|AlignEnd=19607|ExtPos=NOUN|Gloss=collect|wordform=ʧaː
 5	dǔːm	dǔːm	NOUN	_	_	4	comp:obj	_	AlignBegin=19607|AlignEnd=19796|Gloss=honey
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=19796|AlignEnd=19985|Gloss=PUNCT
@@ -2161,9 +2161,9 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 279522, 283500
-# text = də̌ːr ɗǎː kât < ɬə́n ndáy gìr ŋgàlá ɗa láːri ɗaɗân ndzwǎːt //
-# text_ortho = də̌ːr ɗǎː kât < ɬə́n ndáy gìr ŋgàlá ɗa láːri ɗaɗân ndzwǎːt //
-# text_en = Lizard who was plodding along went to get quickly into a crab burrow in the river bed.
+# text = də̌ːr ɗǎː kât kə̀kə̀rʧi kə̀kə̀rʧi kə̀kə̀rʧi //= ɬə́n ndáy gìr ŋgàlá ɗa láːri ɗaɗân ndzwǎːt //
+# text_ortho = də̌ːr ɗǎː kât kə̀kə̀rʧi kə̀kə̀rʧi kə̀kə̀rʧi //= ɬə́n ndáy gìr ŋgàlá ɗa láːri ɗaɗân ndzwǎːt //
+# text_en = Lizard who was plodding along to get quickly into a crab burrow in the river bed.
 1	də̌ːr	də̌ːr	NOUN	_	_	3	dislocated@subj	_	AlignBegin=279522|AlignEnd=279722|Gloss=lizard
 2-3	ɗǎː	_	_	_	_	_	_	_	_
 2	ɗa	ɗan	ADV	_	PronType=Rel	3	mod	_	AlignBegin=279722|AlignEnd=279922|Gloss=REL
@@ -2173,17 +2173,15 @@
 6	kə̀kə̀rʧi	kə̀kə̀rʧi	IDEO	_	_	5	compound:redup	_	AlignBegin=280636|AlignEnd=280951|Gloss=shuffle
 7	kə̀kə̀rʧi	kə̀kə̀rʧi	IDEO	_	_	6	compound:redup	_	AlignBegin=280951|AlignEnd=281266|Gloss=shuffle
 8	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=281266|AlignEnd=281582|Gloss=PUNCT
-9-10	ɬə́n	_	_	_	_	_	_	_	_
-9	ɬə	ɬə	VERB	_	_	3	parataxis@conj	_	AlignBegin=281582|AlignEnd=281774|Gloss=go
-10	nə́	nə́	SCONJ	_	_	9	mod	_	AlignBegin=281774|AlignEnd=281966|Gloss=for
-11	ndáy	nda	VERB	_	Aspect=Res	10	comp:obj	_	AlignBegin=281966|AlignEnd=282158|Gloss=enter-Res|wordform=nda
-12	gìr	gìr	NOUN	_	_	11	comp:goal	_	AlignBegin=282158|AlignEnd=282350|Gloss=hole
-13	ŋgàlá	ngála	NOUN	_	_	12	compound	_	AlignBegin=282350|AlignEnd=282542|Gloss=crab
-14	ɗa	ɗa	ADP	_	_	11	mod	_	AlignBegin=282542|AlignEnd=282734|Gloss=at
-15	láːri	lâːr	NOUN	_	Definite=Ind	14	comp:obj	_	AlignBegin=282734|AlignEnd=282926|Gloss=river-Ind|wordform=lâːr
-16	ɗaɗân	ɗaɗân	ADV	_	PronType=Dem	11	mod	_	AlignBegin=282926|AlignEnd=283118|Gloss=again
-17	ndzwǎːt	ndzwǎːt	IDEO	_	_	11	mod	_	AlignBegin=283118|AlignEnd=283310|Gloss=quick
-18	//	//	PUNCT	_	_	3	punct	_	AlignBegin=283310|AlignEnd=283500|Gloss=PUNCT
+9	ɬə́n	ɬə́n	VERB	_	_	3	parataxis@conj	_	AlignBegin=281582|AlignEnd=281774|Gloss=go|SVC=Yes
+10	ndáy	nda	VERB	_	Aspect=Res	9	compound:svc	_	AlignBegin=281966|AlignEnd=282158|Gloss=enter-Res|wordform=nda
+11	gìr	gìr	NOUN	_	_	10	comp:goal	_	AlignBegin=282158|AlignEnd=282350|Gloss=hole
+12	ŋgàlá	ngála	NOUN	_	_	11	compound	_	AlignBegin=282350|AlignEnd=282542|Gloss=crab
+13	ɗa	ɗa	ADP	_	_	10	mod	_	AlignBegin=282542|AlignEnd=282734|Gloss=at
+14	láːri	lâːr	NOUN	_	Definite=Ind	13	comp:obj	_	AlignBegin=282734|AlignEnd=282926|Gloss=river-Ind|wordform=lâːr
+15	ɗaɗân	ɗaɗân	ADV	_	PronType=Dem	10	mod	_	AlignBegin=282926|AlignEnd=283118|Gloss=again
+16	ndzwǎːt	ndzwǎːt	IDEO	_	_	10	mod	_	AlignBegin=283118|AlignEnd=283310|Gloss=quick
+17	//	//	PUNCT	_	_	3	punct	_	AlignBegin=283310|AlignEnd=283500|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_214-214
 # speaker_id = SP2
@@ -2274,20 +2272,18 @@
 # text = ɬə́n mbiː makaptáɗi má ɓəl ɓəl ɓəl ɓəl ɓəl //
 # text_ortho = ɬə́n mbiː makaptáɗi má ɓəl ɓəl ɓəl ɓəl ɓəl //
 # text_en = He went to take his big hoe and started digging, digging, digging, digging. dig dig dig dig.
-1-2	ɬə́n	_	_	_	_	_	_	_	_
-1	ɬə	ɬə	VERB	_	_	0	root	_	AlignBegin=291062|AlignEnd=291238|Gloss=go
-2	nə́	nə́	SCONJ	_	_	1	mod	_	AlignBegin=291238|AlignEnd=291413|Gloss=for
-3	mbiː	mbiː	VERB	_	_	2	comp:obj	_	AlignBegin=291413|AlignEnd=291764|Gloss=take
-4-5	makaptáɗi	_	_	_	_	_	_	_	_
-4	makaptá	makapta	NOUN	_	_	3	comp:obj	_	AlignBegin=291764|AlignEnd=291940|Gloss=hoe|Lang=hau
-5	ɗi	ɗi	PART	_	_	3	compound:prt	_	AlignBegin=291940|AlignEnd=292115|Gloss=CTP
-6	má	mán	VERB	_	_	1	parataxis@conj	_	AlignBegin=292115|AlignEnd=292466|Gloss=come
-7	ɓəl	ɓəl	VERB	_	_	6	compound:svc	_	AlignBegin=292466|AlignEnd=292819|Gloss=dig
-8	ɓəl	ɓəl	VERB	_	_	7	compound:redup	_	AlignBegin=292819|AlignEnd=293146|Gloss=dig
-9	ɓəl	ɓəl	VERB	_	_	8	compound:redup	_	AlignBegin=293525|AlignEnd=293883|Gloss=dig
-10	ɓəl	ɓəl	VERB	_	_	9	compound:redup	_	AlignBegin=294150|AlignEnd=294447|Gloss=dig
-11	ɓəl	ɓəl	VERB	_	_	10	compound:redup	_	AlignBegin=294697|AlignEnd=294879|Gloss=dig
-12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=294879|AlignEnd=295060|Gloss=PUNCT
+1	ɬə́n	ɬə́n	VERB	_	_	0	root	_	AlignBegin=291062|AlignEnd=291238|Gloss=go|SVC=Yes
+2	mbiː	mbiː	VERB	_	_	1	compound:svc	_	AlignBegin=291413|AlignEnd=291764|Gloss=take
+3-4	makaptáɗi	_	_	_	_	_	_	_	_
+3	makaptá	makapta	NOUN	_	_	2	comp:obj	_	AlignBegin=291764|AlignEnd=291940|Gloss=hoe|Lang=hau
+4	ɗi	ɗi	PART	_	_	2	compound:prt	_	AlignBegin=291940|AlignEnd=292115|Gloss=CTP
+5	má	mán	VERB	_	_	1	parataxis@conj	_	AlignBegin=292115|AlignEnd=292466|Gloss=come
+6	ɓəl	ɓəl	VERB	_	_	5	compound:svc	_	AlignBegin=292466|AlignEnd=292819|Gloss=dig
+7	ɓəl	ɓəl	VERB	_	_	6	compound:redup	_	AlignBegin=292819|AlignEnd=293146|Gloss=dig
+8	ɓəl	ɓəl	VERB	_	_	7	compound:redup	_	AlignBegin=293525|AlignEnd=293883|Gloss=dig
+9	ɓəl	ɓəl	VERB	_	_	8	compound:redup	_	AlignBegin=294150|AlignEnd=294447|Gloss=dig
+10	ɓəl	ɓəl	VERB	_	_	9	compound:redup	_	AlignBegin=294697|AlignEnd=294879|Gloss=dig
+11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=294879|AlignEnd=295060|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_225-225
 # speaker_id = SP1
@@ -3312,20 +3308,18 @@
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=421731|AlignEnd=421991|Gloss=PUNCT
 7	séː	séː	ADV	_	_	9	mod	_	AlignBegin=422605|AlignEnd=422912|Gloss=then
 8	də̌ːr	də̌ːr	NOUN	_	_	9	subj	_	AlignBegin=422912|AlignEnd=423219|Gloss=land_monitor
-9-10	ɬə́n	_	_	_	_	_	_	_	_
-9	ɬə	ɬə	VERB	_	_	0	root	_	AlignBegin=423219|AlignEnd=423373|Gloss=go
-10	nə́	nə́	ADP	_	_	9	comp:obl	_	AlignBegin=423373|AlignEnd=423526|Gloss=for
-11-12	kattə	_	_	_	_	_	_	_	_
-11	kat	kat	VERB	_	_	10	comp:obj	_	AlignBegin=423526|AlignEnd=423680|Gloss=drive_away
-12	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	comp:ben	_	AlignBegin=423680|AlignEnd=423833|Gloss=3SG.OBJ
-13	yâːpm	yâːpm	NOUN	_	_	11	comp:obj	_	AlignBegin=423833|AlignEnd=424140|Gloss=earth.sp
-14	kə̀	kə̀	ADP	_	_	13	mod	_	AlignBegin=424140|AlignEnd=424447|Gloss=of
-15	fyáːli	fyáːli	ADJ	_	_	14	comp:obj	_	AlignBegin=424447|AlignEnd=424754|Gloss=white
-16-18	mə́nɗiɣáy	_	_	_	_	_	_	_	_
-16	mə́n	mə́n	PART	_	Case=Ben	11	compound:prt	_	AlignBegin=424754|AlignEnd=424856|Gloss=BEN
-17	ɗi	ɗi	PART	_	_	11	compound:prt	_	AlignBegin=424856|AlignEnd=424958|Gloss=CTP
-18	ɣáy	káy	INTJ	_	_	11	comp:obl@expl	_	AlignBegin=424958|AlignEnd=425061|Gloss=ANAPH
-19	//	//	PUNCT	_	_	9	punct	_	AlignBegin=425061|AlignEnd=425367|Gloss=PUNCT
+9	ɬə́n	ɬə́n	VERB	_	_	0	root	_	AlignBegin=423219|AlignEnd=423373|Gloss=go|SVC=Yes
+10-11	kattə	_	_	_	_	_	_	_	_
+10	kat	kat	VERB	_	_	9	compound:svc	_	AlignBegin=423526|AlignEnd=423680|Gloss=drive_away
+11	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	10	comp:ben	_	AlignBegin=423680|AlignEnd=423833|Gloss=3SG.OBJ
+12	yâːpm	yâːpm	NOUN	_	_	10	comp:obj	_	AlignBegin=423833|AlignEnd=424140|Gloss=earth.sp
+13	kə̀	kə̀	ADP	_	_	12	mod	_	AlignBegin=424140|AlignEnd=424447|Gloss=of
+14	fyáːli	fyáːli	ADJ	_	_	13	comp:obj	_	AlignBegin=424447|AlignEnd=424754|Gloss=white
+15-17	mə́nɗiɣáy	_	_	_	_	_	_	_	_
+15	mə́n	mə́n	PART	_	Case=Ben	10	compound:prt	_	AlignBegin=424754|AlignEnd=424856|Gloss=BEN
+16	ɗi	ɗi	PART	_	_	10	compound:prt	_	AlignBegin=424856|AlignEnd=424958|Gloss=CTP
+17	ɣáy	káy	INTJ	_	_	10	comp:obl@expl	_	AlignBegin=424958|AlignEnd=425061|Gloss=ANAPH
+18	//	//	PUNCT	_	_	9	punct	_	AlignBegin=425061|AlignEnd=425367|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_324-324
 # speaker_id = SP2
@@ -4464,8 +4458,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 553878, 558351
-# text = tá bàː longa muːtɗi saɣát //= mán ɮiː ɬûːwòʃíː //
-# text_ortho = tá bàː longa muːtɗi saɣát //= mán ɮiː ɬûːwòʃíː //
+# text = tá bàː longa muːtɗi saɣát //= má ɮiː ɬûːwòʃíː //
+# text_ortho = tá bàː longa muːtɗi saɣát //= má ɮiː ɬûːwòʃíː //
 # text_en = Then, didn't Rabbit come back to ambush secretly, and go to take his meat!
 1	tá	tá	ADV	_	_	4	mod	_	AlignBegin=553878|AlignEnd=554192|Gloss=then
 2	bàː	bàː	PART	_	Polarity=Neg	4	mod	_	AlignBegin=554192|AlignEnd=554505|Gloss=NEG1
@@ -4475,7 +4469,7 @@
 5	ɗi	ɗi	PART	_	_	4	compound:prt	_	AlignBegin=555167|AlignEnd=555388|Gloss=CTP
 6	saɣát	sakát	ADV	_	_	4	mod	_	AlignBegin=555388|AlignEnd=555775|Gloss=be_clever
 7	//=	//=	PUNCT	_	_	8	punct	_	AlignBegin=555775|AlignEnd=556162|Gloss=PUNCT
-8	mán	man	VERB	_	_	4	parataxis@conj	_	AlignBegin=557239|AlignEnd=557517|Gloss=come|SVC=Yes
+8	má	man	VERB	_	_	4	parataxis@conj	_	AlignBegin=557239|AlignEnd=557517|Gloss=come|SVC=Yes
 9-10	ɮiː ɬûːwòʃíː	_	_	_	_	_	_	_	_
 9	*ɮiː-íː	ɮiː	VERB	_	Aspect=Res	8	compound:svc	_	AlignBegin=557517|AlignEnd=557795|Gloss=take-Res
 10	ɬûː	ɬûː	NOUN	_	_	9	comp:obj	_	AlignBegin=557795|AlignEnd=558073|Gloss=meat|wordform=ɬûː
@@ -4498,32 +4492,31 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 559907, 562043
-# text = ɗan á ɮiː ɬûː =wòʃíː < á ɬə̌ːríː //
+# text = ɗan á ɮìː ɬûːwòʃíː < á ɬə̌ːríː //
 # text_ortho = ɗan á ɮìː ɬûːwòʃíː < á ɬə̌ːríː //
 # text_en = When he had taken his meat, he went away with it.
 1	ɗan	ɗan	SCONJ	_	_	7	mod	_	AlignBegin=559907|AlignEnd=560155|Gloss=as
 2	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	1	comp:obj	_	AlignBegin=560155|AlignEnd=560403|Gloss=3SG.Aor
-3	ɮiː	ɮi	VERB	_	_	2	comp:aux	_	AlignBegin=560403|AlignEnd=560651|Gloss=take
+3	*ɮìː-íː	ɮiː	VERB	_	Aspect=Res	2	comp:aux	_	AlignBegin=560403|AlignEnd=560651|Gloss=take-Res
 4	ɬûː	ɬûː	NOUN	_	_	3	comp:obj	_	AlignBegin=560651|AlignEnd=560899|Gloss=meat
-5	=wòʃíː	=wos	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	4	mod@poss	_	AlignBegin=560734|AlignEnd=560817|Gloss=3SG.POS-RES|Incorporated=Yes
+5	=wòs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	mod@poss	_	AlignBegin=560734|AlignEnd=560817|Gloss=3SG.POS|Incorporated=Yes
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=560899|AlignEnd=561145|Gloss=PUNCT
 7	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=561386|AlignEnd=561605|Gloss=3SG.Aor
-8	ɬə̌ːríː	ɬə̌	VERB	_	Aspect=Res|Voice=Cau	7	comp:aux	_	AlignBegin=561605|AlignEnd=561824|Gloss=go|wordform=ɬə
+8	ɬə̌ːríː	ɬə	VERB	_	Aspect=Res|Voice=Cau	7	comp:aux	_	AlignBegin=561605|AlignEnd=561824|Gloss=go-Res-Cau|wordform=ɬə
 9	//	//	PUNCT	_	_	7	punct	_	AlignBegin=561824|AlignEnd=562043|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_443-443
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 562356, 563248
-# text = tə́ ɬə nə́ ʧi tə́ &//
+# text = tə́ ɬə́n ʧi tə́ &//
 # text_ortho = tə́ ɬə́n ʧî tə́ &//
 # text_en = He went to eat (it) with...
-1	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=562356|AlignEnd=562534|Gloss=3SG.Aor
-2	ɬə	ɬə	VERB	_	_	1	comp:aux	_	AlignBegin=562534|AlignEnd=562623|Gloss=go
-3	nə́	nə́	ADP	_	_	2	comp:obl	_	AlignBegin=562623|AlignEnd=562712|Gloss=for
-4	ʧi	ʧi	VERB	_	_	3	comp:obj	_	AlignBegin=562712|AlignEnd=562890|Gloss=eat
-5	tə́	tə́	AUX	_	_	1	conj:coord	_	AlignBegin=562890|AlignEnd=563068|Gloss=with
-6	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=563068|AlignEnd=563248|Gloss=PUNCT
+1	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root@scrap	_	AlignBegin=562356|AlignEnd=562534|Gloss=3SG.Aor
+2	ɬə́n	ɬə́n	VERB	_	_	1	comp:aux	_	AlignBegin=562534|AlignEnd=562623|Gloss=go|SVC=Yes
+3	ʧî	ʧi	VERB	_	_	2	compound:svc	_	AlignBegin=562712|AlignEnd=562890|Gloss=eat
+4	tə́	tə́	ADP	_	_	3	mod	_	AlignBegin=562890|AlignEnd=563068|Gloss=with
+5	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=563068|AlignEnd=563248|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_444-444
 # speaker_id = SP1
