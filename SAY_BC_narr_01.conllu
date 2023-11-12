@@ -4724,12 +4724,11 @@
 5	əndá	kəndá	ADV	_	_	6	mod	_	AlignBegin=585987|AlignEnd=586155|Gloss=then
 6	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	0	root	_	AlignBegin=586155|AlignEnd=586323|Gloss=3SG.SUB
 7	ɬə́n	ɬə́n	VERB	_	_	6	comp:aux	_	AlignBegin=586323|AlignEnd=586407|Gloss=go
-8	nə́	nə́	ADP	_	_	7	comp:obl	_	AlignBegin=586407|AlignEnd=586491|Gloss=for
-9	paŋ	paŋ	VERB	_	_	8	comp:obj	_	AlignBegin=586491|AlignEnd=586659|Gloss=inspect
-10	longa	longa	NOUN	_	_	9	comp:obj	_	AlignBegin=586659|AlignEnd=586827|Gloss=rabbit
-11	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	6	parataxis@conj	_	AlignBegin=586827|AlignEnd=586995|Gloss=3Plur.SUB
-12	ɬə	ɬə	VERB	_	_	11	comp:aux	_	AlignBegin=586995|AlignEnd=587167|Gloss=go
-13	//+	//+	PUNCT	_	_	1	punct	_	AlignBegin=587167|AlignEnd=587167|Gloss=PUNCT
+8	paŋ	paŋ	VERB	_	_	7	compound:svc	_	AlignBegin=586491|AlignEnd=586659|Gloss=inspect
+9	longa	longa	NOUN	_	_	8	comp:obj	_	AlignBegin=586659|AlignEnd=586827|Gloss=rabbit
+10	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	6	parataxis@conj	_	AlignBegin=586827|AlignEnd=586995|Gloss=3Plur.SUB
+11	ɬə	ɬə	VERB	_	_	10	comp:aux	_	AlignBegin=586995|AlignEnd=587167|Gloss=go
+12	//+	//+	PUNCT	_	_	6	punct	_	AlignBegin=587167|AlignEnd=587167|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_465-465
 # speaker_id = SP2
@@ -4739,9 +4738,9 @@
 # text_ortho = tə̀ ɬə̀ nə́ ngərʃíwôːʃíː //
 # text_en = They would go about his business.
 1	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	0	root	_	AlignBegin=587456|AlignEnd=587625|Gloss=3Plur.SUB
-2	ɬə	ɬə	VERB	_	_	1	comp:aux	_	AlignBegin=587625|AlignEnd=587794|Gloss=go
+2	ɬə̀	ɬə	VERB	_	_	1	comp:aux	_	AlignBegin=587625|AlignEnd=587794|Gloss=go
 3	nə́	nə́	ADP	_	_	2	comp:obl	_	AlignBegin=587794|AlignEnd=587963|Gloss=for
-04-mai	ngərʃíwôːʃíː	_	_	_	_	_	_	_	_
+4-5	ngərʃíwôːʃíː	_	_	_	_	_	_	_	_
 4	*ngərʃí-íː	ngə́tn	NOUN	_	Definite=Dist	3	comp:obj	_	AlignBegin=587963|AlignEnd=588132|Gloss=thing-Dist|wordform=ngə́tn
 5	=wôs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	mod@poss	_	AlignBegin=588047|AlignEnd=588089|Gloss=3SG.POS
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=588132|AlignEnd=588302|Gloss=PUNCT
@@ -4752,26 +4751,26 @@
 # sent_timecode = 588302, 589846
 # text = èː zànʧéwâːsə̀ŋíː oː !//
 # text_ortho = èː zànʧéwâːsə̀ŋíː oː !//
-1	èː	èː	INTJ	_	_	0	comp:obl	_	AlignBegin=588302|AlignEnd=589025|Gloss=yes
+1	èː	èː	INTJ	_	_	2	discourse	_	AlignBegin=588302|AlignEnd=589025|Gloss=yes
 2-3	zànʧéwâːsə̀ŋíː	_	_	_	_	_	_	_	_
-2	*zànʧé-íː	zànʧe	NOUN	_	Definite=Cons	0	comp:obj	_	AlignBegin=589025|AlignEnd=589331|Gloss=matter|wordform=zànʧé
-3	=wâːsə̀ŋ	=waːsəŋ	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	0	mod@poss	_	AlignBegin=589127|AlignEnd=589229|Gloss=3Plur.POS|Incorporated=Yes
-4	oː	oː	PART	_	PartType=Emp	0	mod	_	AlignBegin=589331|AlignEnd=589435|Gloss=EMPH
-5	!//	!//	PUNCT	_	_	0	punct	_	AlignBegin=589435|AlignEnd=589846|Gloss=PUNCT
+2	*zànʧé-íː	zànʧe	NOUN	_	Definite=Cons	0	root	_	AlignBegin=589025|AlignEnd=589331|Gloss=matter|wordform=zànʧé
+3	=wâːsə̀ŋ	=waːsəŋ	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@poss	_	AlignBegin=589127|AlignEnd=589229|Gloss=3Plur.POS|Incorporated=Yes
+4	oː	oː	PART	_	PartType=Emp	2	mod	_	AlignBegin=589331|AlignEnd=589435|Gloss=EMPH
+5	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=589435|AlignEnd=589846|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_467-468
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 591012, 593633
-# text = ʃíːkèːnáŋ káwây < tòː gə̀t -i də̌ːr tə́ ngap dàtə̂pm //
+# text = ʃíːkèːnáŋ káwây < tòː gə̀ɗì də̌ːr tə́ ngâp dàtə̂pm //
 # text_ortho = ʃíːkèːnáŋ káwây < tòː gə̀ɗì də̌ːr tə́ ngâp dàtə̂pm //
 # text_en = Then immediately, Monitor's wife hit the road.
-1	ʃíːkèːnáŋ	ʃíːkèːnáŋ	IDEO	_	_	7	mod	_	AlignBegin=591012|AlignEnd=591440|Gloss=OK|Lang=hau
+1	ʃíːkèːnáŋ	ʃíːkèːnáŋ	INTJ	_	_	7	mod	_	AlignBegin=591012|AlignEnd=591440|Gloss=OK|Lang=hau
 2	káwây	káwây	ADV	_	_	1	mod	_	AlignBegin=591440|AlignEnd=591868|Gloss=merely
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=591868|AlignEnd=592295|Gloss=PUNCT
 4	tòː	tòː	PART	_	_	7	discourse	_	AlignBegin=592295|AlignEnd=592486|Gloss=well
-5	gə̀t-i	gə̀t-i	NOUN	_	_	7	dislocated@top	_	AlignBegin=592486|AlignEnd=592677|Gloss=wife|wordform=gə̀t
-6	də̌ːr	də̌ːr	NOUN	_	_	8	comp:obj	_	AlignBegin=592677|AlignEnd=592868|Gloss=lizard
+5	gə̀ɗì	gə̀t	NOUN	_	Definite=Ind	7	dislocated@top	_	AlignBegin=592486|AlignEnd=592677|Gloss=wife|wordform=gə̀t
+6	də̌ːr	də̌ːr	NOUN	_	_	5	compound	_	AlignBegin=592677|AlignEnd=592868|Gloss=lizard
 7	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=592868|AlignEnd=593059|Gloss=3Plur.Aor
 8	ngap	ngap	VERB	_	_	7	comp:aux	_	AlignBegin=593059|AlignEnd=593250|Gloss=hold
 9	dàtə̂pm	dàtə̂pm	NOUN	_	_	8	comp:obj	_	AlignBegin=593250|AlignEnd=593441|Gloss=way
