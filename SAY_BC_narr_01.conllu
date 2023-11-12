@@ -4884,28 +4884,28 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 606683, 609983
-# text = kə́ tu gwàːn ɬûː gín ɗôː hár kə́ ʧiká hár kàː fi wǒn -i kə̂ːm ɗi káy -ə́n oː hŋ́ ?//
+# text = ə́ tû gwàːn ɬûː gín ɗôː hár kə́ ʧîká hár kàː fi woní kə̂ːmɗìɣáyín oː ?//
 # text_ortho = kə́ tû gwàːn ɬûː gín ɗôː hár kə́ ʧîká hár kàː fi woní kə̂ːmɗìkáyínǒːn ?//
 # text_en = Where did you find this meat of yours that you had so much of it that you even made some earrings with it?
 1	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	0	root	_	AlignBegin=606683|AlignEnd=606850|Gloss=2Plur.Aor
-2	tu	tu	VERB	_	_	1	comp:aux	_	AlignBegin=606850|AlignEnd=607017|Gloss=get
+2	tû	tu	VERB	_	_	1	comp:aux	_	AlignBegin=606850|AlignEnd=607017|Gloss=get
 3	gwàːn	gwàːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	4	mod@emp	_	AlignBegin=607017|AlignEnd=607184|Gloss=2Plur.POS
-4	ɬûː	ɬûː	NOUN	_	_	1	comp:aux	_	AlignBegin=607184|AlignEnd=607351|Gloss=meat
+4	ɬûː	ɬûː	NOUN	_	_	2	comp:obj	_	AlignBegin=607184|AlignEnd=607351|Gloss=meat
 5	gín	giiní	PRON	_	PronType=Dem	4	comp:obj	_	AlignBegin=607351|AlignEnd=607518|Gloss=PROX
-6	ɗôː	ɗôː	ADV	_	PronType=Int	4	compound:prt	_	AlignBegin=607518|AlignEnd=607684|Gloss=where
-7	hár	hár	ADP	_	_	4	mod	_	AlignBegin=607684|AlignEnd=607923|Gloss=until
+6	ɗôː	ɗôː	ADV	_	PronType=Int	2	mod	_	AlignBegin=607518|AlignEnd=607684|Gloss=where
+7	hár	hár	ADP	_	_	2	mod	_	AlignBegin=607684|AlignEnd=607923|Gloss=until
 8	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	7	comp:obj	_	AlignBegin=607923|AlignEnd=608162|Gloss=2Plur.Aor
-9	ʧiká	ʧiká	VERB	_	_	8	comp:aux	_	AlignBegin=608162|AlignEnd=608401|Gloss=do_plenty
-10	hár	hár	SCONJ	_	_	4	mod	_	AlignBegin=608401|AlignEnd=608665|Gloss=until
+9	ʧîká	ʧiká	VERB	_	_	8	comp:aux	_	AlignBegin=608162|AlignEnd=608401|Gloss=do_plenty
+10	hár	hár	SCONJ	_	_	7	conj:coord	_	AlignBegin=608401|AlignEnd=608665|Gloss=until
 11	kàː	àː	AUX	_	Aspect=Aor|Number=Sing|Person=2	10	comp:obj	_	AlignBegin=608665|AlignEnd=608929|Gloss=2Plur.PERF
 12	fi	fi	VERB	_	_	11	comp:aux	_	AlignBegin=608929|AlignEnd=609193|Gloss=do
-13	wǒn-i	wǒn-i	NOUN	_	_	12	comp:obj	_	AlignBegin=609193|AlignEnd=609457|Gloss=jewel|wordform=wǒn
-14	kə̂ːm	kə̂ːm	NOUN	_	_	12	comp:obj@lvc	_	AlignBegin=609457|AlignEnd=609501|Gloss=ear
-15	ɗi	ɗi	PART	_	_	12	compound:prt	_	AlignBegin=609501|AlignEnd=609545|Gloss=CTP
-16	káy-ə́n	káy-ə́n	PRON	_	Person=3|PronType=Prs	4	mod	_	AlignBegin=609545|AlignEnd=609633|Gloss=ANAPH|wordform=káy
-17	oː	oː	PART	_	PartType=Emp	1	mod	_	AlignBegin=609633|AlignEnd=609677|Gloss=EMPH
-18	hŋ́	hŋ́	PART	_	Polarity=Neg	1	mod	_	AlignBegin=609677|AlignEnd=609721|Gloss=NEG2
-19	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=609721|AlignEnd=609983|Gloss=PUNCT
+13	woní	wǒn	NOUN	_	_	12	comp:obj	_	AlignBegin=609193|AlignEnd=609457|Gloss=jewel|wordform=wǒn
+14-16	kə̂ːmɗìɣáyín	_	_	_	_	_	_	_	_
+14	*kə̂ːm-ə́n	kə̂ːm	NOUN	_	Deixis=Prox	13	mod	_	AlignBegin=609457|AlignEnd=609501|Gloss=ear-Prox
+15	ɗì	ɗi	PART	_	_	12	compound:prt	_	AlignBegin=609501|AlignEnd=609545|Gloss=CTP
+16	ɣáy	káy	PRON	_	Person=3|PronType=Prs	12	comp:obl@expl	_	AlignBegin=609545|AlignEnd=609633|Gloss=ANAPH|wordform=káy
+17	oː	oː	PART	_	PartType=Emp	11	mod	_	AlignBegin=609633|AlignEnd=609677|Gloss=EMPH
+18	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=609721|AlignEnd=609983|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_482-482
 # speaker_id = SP1
