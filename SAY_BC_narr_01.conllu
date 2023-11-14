@@ -4884,7 +4884,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 606683, 609983
-# text = ə́ tû gwàːn ɬûː gín ɗôː hár kə́ ʧîká hár kàː fi woní kə̂ːmɗìɣáyín oː ?//
+# text = kə́ tû gwàːn ɬûː gín ɗôː hár kə́ ʧîká hár kàː fi woní kə̂ːmɗìɣáyín oː ?//
 # text_ortho = kə́ tû gwàːn ɬûː gín ɗôː hár kə́ ʧîká hár kàː fi woní kə̂ːmɗìkáyínǒːn ?//
 # text_en = Where did you find this meat of yours that you had so much of it that you even made some earrings with it?
 1	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	0	root	_	AlignBegin=606683|AlignEnd=606850|Gloss=2Plur.Aor
@@ -4911,13 +4911,13 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 609983, 610724
-# text = gə̀t -i daː longa <
-# text_ortho = gə̀ɗì daː longa <
+# text = gə̀t -i daː longa &//
+# text_ortho = gə̀ɗì daː longa &//
 # text_en = Rabbit's wife...
-1	gə̀t-i	gə̀t-i	NOUN	_	_	0	root	_	AlignBegin=609983|AlignEnd=610168|Gloss=wife|wordform=gə̀t
-2	daː	daː	ADP	_	_	1	mod	_	AlignBegin=610168|AlignEnd=610353|Gloss=person
-3	longa	longa	NOUN	_	_	1	mod	_	AlignBegin=610353|AlignEnd=610538|Gloss=rabbit
-4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=610538|AlignEnd=610724|Gloss=PUNCT
+1	gə̀ɗì	gə̀t	NOUN	_	Definite=Ind	0	root@scrap	_	AlignBegin=609983|AlignEnd=610168|Gloss=wife|wordform=gə̀t
+2	daː	daː	NOUN	_	_	1	mod	_	AlignBegin=610168|AlignEnd=610353|Gloss=person
+3	longa	longa	NOUN	_	_	2	compound	_	AlignBegin=610353|AlignEnd=610538|Gloss=rabbit
+4	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=610538|AlignEnd=610724|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_483-483
 # speaker_id = SP2
@@ -4925,8 +4925,8 @@
 # sent_timecode = 610724, 611436
 # text = zàrâŋ káwây !//
 # text_ortho = zàrâŋ káwây !//
-# text_en = Dangling like that!
-1	zàrâŋ	zàrâŋ	ADV	_	_	0	root	_	AlignBegin=610724|AlignEnd=610961|Gloss=dangling
+# text_en = Just dangling!
+1	zàrâŋ	zàrâŋ	IDEO	_	_	0	root	_	AlignBegin=610724|AlignEnd=610961|Gloss=dangling
 2	káwây	káwây	ADV	_	_	1	mod	_	AlignBegin=610961|AlignEnd=611198|Gloss=merely
 3	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=611198|AlignEnd=611436|Gloss=PUNCT
 
@@ -4934,48 +4934,52 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 612480, 612602
-# text = ká <
-# text_ortho = ká <
+# text = ká !//
+# text_ortho = ká !//
 # text_en = What!
 1	ká	ká	INTJ	_	_	0	root	_	AlignBegin=612480|AlignEnd=612541|Gloss=disapproval
-2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=612541|AlignEnd=612602|Gloss=PUNCT
+2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=612541|AlignEnd=612602|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_485-490
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 612932, 620322
-# text = gə̀t -i daː longa wul tu [ okèː < ʃèː wum gwàː məs -kə́nì gùŋ -i á v# || á vìː gə̀t aː ?//= tôː mə yisə́ŋ gə̀t -i hŋ́ ɗan //] //
-# text_ortho = gə̀ɗì daː longa wù tu [ okèː < ʃèː wum gwàː mə́skə́nì gùɲì á v# || á vìː gə̀tàː ?//= tôː mə yísə́ŋ gə̀tə̌ŋ ɗan //] //
-# text_en = Rabbit's wife said "OK, did you hear that the chief has died fff... from my mouth?" "Well, I don't know."
-1	gə̀t-i	gə̀t-i	NOUN	_	_	23	dislocated@top	_	AlignBegin=612932|AlignEnd=613107|Gloss=wife|wordform=gə̀t
-2	daː	daː	ADP	_	_	3	mod	_	AlignBegin=613107|AlignEnd=613282|Gloss=person
-3	longa	longa	NOUN	_	_	0	root	_	AlignBegin=613282|AlignEnd=613457|Gloss=rabbit
-4	wul	wul	VERB	_	_	3	comp:aux	_	AlignBegin=613457|AlignEnd=613632|Gloss=say
-5	tu	tu	SCONJ	_	Mood=Qot	4	comp:obj	_	AlignBegin=613632|AlignEnd=613809|Gloss=OPN
-6	[	[	PUNCT	_	_	9	punct	_	AlignBegin=614269|AlignEnd=614381|Gloss=PUNCT
-7	okèː	okèː	INTJ	_	_	23	discourse	_	AlignBegin=614381|AlignEnd=614493|Gloss=OK|Lang=en
-8	<	<	PUNCT	_	_	7	punct	_	AlignBegin=614493|AlignEnd=614604|Gloss=PUNCT
-9	ʃèː	ʃèː	VERB	_	_	23	comp:aux	_	AlignBegin=614604|AlignEnd=614904|Gloss=X
-10	wum	wum	VERB	_	_	9	comp:aux	_	AlignBegin=614904|AlignEnd=615204|Gloss=feel
-11	gwàː	gwàː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	10	mod@emp	_	AlignBegin=615204|AlignEnd=615504|Gloss=2SG.POS
-12	məs-kə́nì	məss	VERB	_	VerbForm=Vnoun	10	comp:obj	_	AlignBegin=615504|AlignEnd=615804|Gloss=die|wordform=məs
-13	gùŋ-i	gùŋ-i	NOUN	_	_	10	comp:obj	_	AlignBegin=615804|AlignEnd=616105|Gloss=king|wordform=gùŋ
-14	á	ká	ADP	_	_	10	comp:obl	_	AlignBegin=616105|AlignEnd=616263|Gloss=at
-15	v#	v#	NOUN	_	_	14	comp:obj	_	AlignBegin=616263|AlignEnd=616421|Gloss=HESIT
-16	||	||	PUNCT	_	_	17	punct	_	AlignBegin=616421|AlignEnd=616578
-17	á	ká	ADP	_	_	14	conj:dicto	_	AlignBegin=616578|AlignEnd=616750|Gloss=at
-18	vìː	vìː	NOUN	_	_	17	comp:obj	_	AlignBegin=616750|AlignEnd=616922|Gloss=mouth
-19	gə̀t	gə̀t	NOUN	_	_	18	compound	_	AlignBegin=616922|AlignEnd=617008|Gloss=wife
-20	aː	aː	PART	_	PartType=Int	23	mod	_	AlignBegin=617008|AlignEnd=617094|Gloss=VRT
-21	?//=	?//=	PUNCT	_	_	23	punct	_	AlignBegin=617094|AlignEnd=617268|Gloss=PUNCT
-22	tôː	tòː	PART	_	_	23	discourse	_	AlignBegin=619050|AlignEnd=619232|Gloss=well
-23	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	5	comp:obj	_	AlignBegin=619232|AlignEnd=619414|Gloss=1SG.Aor
-24	yisə́ŋ	yisə́ŋ	VERB	_	_	23	comp:aux	_	AlignBegin=619414|AlignEnd=619596|Gloss=know
-25	gə̀tn	gə̀tn	PRON	_	_	24	comp:obj	_	AlignBegin=619596|AlignEnd=619657|Gloss=1SG.POS
-26	hŋ́	hŋ́	PART	_	Polarity=Neg	23	mod	_	AlignBegin=619718|AlignEnd=619778|Gloss=NEG2
-27	ɗan	ɗan	ADV	_	_	24	mod	_	AlignBegin=619778|AlignEnd=619960|Gloss=then
-28	//]	//]	PUNCT	_	_	23	punct	_	AlignBegin=619960|AlignEnd=620142|Gloss=PUNCT
-29	//	//	PUNCT	_	_	23	punct	_	AlignBegin=620142|AlignEnd=620322|Gloss=PUNCT
+# text = gə̀ɗì daː longá wû tu [ okèː < ʃèː wum gwàː mə́skə́nì gùɲì á v# || á vìːgə̀tàː ?//= tôː mə yísə́ŋ gə̀tə̌ŋ ɗan //] //
+# text_ortho = gə̀ɗì daː longa wù tu [ okèː < ʃèː wum gwàː mə́skə́nì gùɲì á v# || á vìːgə̀tàː ?//= tôː mə yísə́ŋ gə̀tə̌ŋ ɗan //] //
+# text_en = Rabbit's wife said "OK, did you hear that the chief has died fff... from my mouth? Well, as for me, I don't know."
+1	gə̀ɗì	gə̀t	NOUN	_	Definite=Ind	4	subj	_	AlignBegin=612932|AlignEnd=613107|Gloss=wife|wordform=gə̀t
+2	daː	daː	ADP	_	_	1	mod	_	AlignBegin=613107|AlignEnd=613282|Gloss=person
+3-4	longá	_	_	_	_	_	_	_	_
+3	longa	longa	NOUN	_	_	2	compound	_	AlignBegin=613282|AlignEnd=613457|Gloss=rabbit
+4	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=613282|AlignEnd=613457|Gloss=3Sing.Aor
+5	wû	wul	VERB	_	_	4	comp:aux	_	AlignBegin=613457|AlignEnd=613632|Gloss=say
+6	tu	tu	SCONJ	_	Mood=Qot	5	comp:obj	_	AlignBegin=613632|AlignEnd=613809|Gloss=OPN
+7	[	[	PUNCT	_	_	10	punct	_	AlignBegin=614269|AlignEnd=614381|Gloss=PUNCT
+8	okèː	okèː	INTJ	_	_	10	discourse	_	AlignBegin=614381|AlignEnd=614493|Gloss=OK|Lang=en
+9	<	<	PUNCT	_	_	8	punct	_	AlignBegin=614493|AlignEnd=614604|Gloss=PUNCT
+10	ʃèː	ʃèː	VERB	_	_	6	comp:obj	_	AlignBegin=614604|AlignEnd=614904|Gloss=X
+11	wum	wum	VERB	_	_	10	comp:aux	_	AlignBegin=614904|AlignEnd=615204|Gloss=feel
+12	gwàː	gwàː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	11	mod@emp	_	AlignBegin=615204|AlignEnd=615504|Gloss=2SG.POS
+13	mə́skə́nì	məs	VERB	_	VerbForm=Vnoun	11	comp:obj	_	AlignBegin=615504|AlignEnd=615804|ExtPos=NOUN|Gloss=die-NMLZ|wordform=məs
+14	gùɲì	gùŋ	NOUN	_	Definite=Ind	13	mod	_	AlignBegin=615804|AlignEnd=616105|Gloss=king-Ind|wordform=gùŋ
+15	á	ká	ADP	_	_	11	comp:obl	_	AlignBegin=616105|AlignEnd=616263|Gloss=at
+16	v~	vìː	NOUN	_	_	15	comp:obj	_	AlignBegin=616263|AlignEnd=616421|Gloss=HESIT
+17	||	||	PUNCT	_	_	18	punct	_	AlignBegin=616421|AlignEnd=616578
+18	á	ká	ADP	_	_	15	conj:dicto	_	AlignBegin=616578|AlignEnd=616750|Gloss=at
+19-21	vìːgə̀tàː	_	_	_	_	_	_	_	_
+19	vìː	vìː	NOUN	_	_	18	comp:obj	_	AlignBegin=616750|AlignEnd=616922|Gloss=mouth
+20	=gə̀tn	=gətn	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	19	compound	_	AlignBegin=616922|AlignEnd=617008|Gloss=1SG.POS
+21	aː	aː	PART	_	PartType=Int	10	mod	_	AlignBegin=617008|AlignEnd=617094|Gloss=VRT
+22	?//=	?//=	PUNCT	_	_	24	punct	_	AlignBegin=617094|AlignEnd=617268|Gloss=PUNCT
+23	tôː	tòː	PART	_	_	24	discourse	_	AlignBegin=619050|AlignEnd=619232|Gloss=well
+24	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	10	parataxis:conj	_	AlignBegin=619232|AlignEnd=619414|Gloss=1SG.Aor
+25	yisə́ŋ	yisə́ŋ	VERB	_	_	24	comp:aux	_	AlignBegin=619414|AlignEnd=619596|Gloss=know
+26-27	gə̀tə̌ŋ	_	_	_	_	_	_	_	_
+26	gə̀tn	gə̀tn	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	25	mod@emp	_	AlignBegin=619596|AlignEnd=619657|Gloss=1SG.POS
+27	hŋ́	hŋ́	PART	_	Polarity=Neg	24	mod	_	AlignBegin=619718|AlignEnd=619778|Gloss=NEG2
+28	ɗan	ɗan	ADV	_	_	24	mod	_	AlignBegin=619778|AlignEnd=619960|Gloss=then
+29	//]	//]	PUNCT	_	_	10	punct	_	AlignBegin=619960|AlignEnd=620142|Gloss=PUNCT
+30	//	//	PUNCT	_	_	4	punct	_	AlignBegin=620142|AlignEnd=620322|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_491-491
 # speaker_id = SP1
