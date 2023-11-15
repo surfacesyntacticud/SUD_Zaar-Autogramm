@@ -5109,13 +5109,15 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 637716, 638616
-# text = guɗi ʧǎː waːt -ni ngə́tn hŋ́ //
-# text_ortho = guɗi ʧǎː wâːtnì ngə́tə̌n //
+# text = guɗi ʧǎː wâːtnì ngə́tə̌ŋ //
+# text_ortho = guɗi ʧǎː wâːtnì ngə́tə̌ŋ //
 # text_en = The wifes, they did not hide it.
 1	guɗi	gət	NOUN	_	Number=Plur	2	subj	_	AlignBegin=637716|AlignEnd=637896|Gloss=women
 2	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=637896|AlignEnd=638076|Gloss=3Plur.IMP
-3	waːt	waːt	VERB	_	_	2	comp:aux	_	AlignBegin=638076|AlignEnd=638166|Gloss=hide
-4	ni	ni	PART	_	Aspect=Iter	3	compound:prt	_	AlignBegin=638166|AlignEnd=638256|Gloss=ITER|wordform=-ni
+3-4	wâːtnì	_	_	_	_	_	_	_	_
+3	wâːt	waːt	VERB	_	_	2	comp:aux	_	AlignBegin=638076|AlignEnd=638166|Gloss=hide
+4	nì	ni	PART	_	Aspect=Iter	3	compound:prt	_	AlignBegin=638166|AlignEnd=638256|Gloss=ITER|wordform=-ni
+5-6	ngə́tə̌ŋ	_	_	_	_	_	_	_	_
 5	ngə́tn	ngə́tn	NOUN	_	_	3	comp:obj	_	AlignBegin=638256|AlignEnd=638346|Gloss=thing
 6	hŋ́	hŋ́	PART	_	Polarity=Neg	2	mod	_	AlignBegin=638346|AlignEnd=638436|Gloss=NEG2
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=638436|AlignEnd=638616|Gloss=PUNCT
@@ -5128,40 +5130,39 @@
 # text_ortho = m̀ː <
 # text_en = No.
 1	m̀ː	m̀ː	INTJ	_	_	0	root	_	AlignBegin=638616|AlignEnd=638800|Gloss=yes
-2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=638800|AlignEnd=638984|Gloss=PUNCT
+2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=638800|AlignEnd=638984|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_504-505
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 639275, 640941
-# text = gə̀t -i də̌ːr < gə̀t -i də̌ːr á ɬə -íː //
+# text = gə̀ɗì dəːrə́ < gə̀ɗì dəːrə́ á ɬǐː //
 # text_ortho = gə̀ɗì dəːrə́ < gə̀ɗì dəːrə́ á ɬǐː //
 # text_en = Monitor's wife... Monitor's wife she went out.
-1	gə̀t-i	gə̀t-i	NOUN	_	_	6	dislocated@top	_	AlignBegin=639275|AlignEnd=639497|Gloss=wife|wordform=gə̀t
-2	də̌ːr	də̌ːr	NOUN	_	_	4	mod	_	AlignBegin=639497|AlignEnd=639719|Gloss=lizard
-3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=639719|AlignEnd=639940|Gloss=PUNCT
-4	gə̀t-i	gə̀t-i	NOUN	_	_	6	subj	_	AlignBegin=639940|AlignEnd=640140|Gloss=wife|wordform=gə̀t
-5	də̌ːr	də̌ːr	NOUN	_	_	4	mod	_	AlignBegin=640140|AlignEnd=640340|Gloss=lizard
+1	gə̀ɗì	gə̀t-i	NOUN	_	_	6	dislocated@subj	_	AlignBegin=639275|AlignEnd=639497|Gloss=wife|wordform=gə̀t
+2	dəːrə́	də̌ːr	NOUN	_	_	1	mod	_	AlignBegin=639497|AlignEnd=639719|Gloss=lizard
+3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=639719|AlignEnd=639940|Gloss=PUNCT
+4	gə̀ɗì	gə̀t-i	NOUN	_	_	1	conj:dicto	_	AlignBegin=639940|AlignEnd=640140|Gloss=wife|wordform=gə̀t
+5	dəːrə́	də̌ːr	NOUN	_	_	4	mod	_	AlignBegin=640140|AlignEnd=640340|Gloss=lizard
 6	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=640340|AlignEnd=640540|Gloss=3SG.Aor
-7	ɬə-íː	ɬə-í	VERB	_	_	6	comp:aux	_	AlignBegin=640540|AlignEnd=640740|Gloss=go|wordform=ɬə
+7	ɬǐː	ɬə	VERB	_	Aspect=Res	6	comp:aux	_	AlignBegin=640540|AlignEnd=640740|Gloss=go-Res|wordform=ɬə
 8	//	//	PUNCT	_	_	6	punct	_	AlignBegin=640740|AlignEnd=640941|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_506-506
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 641462, 642811
-# text = tə́ ɬə -íː tə́ ɬə nə́ ngaː ʒà ɗi //
+# text = tə́ ɬǐː tə́ ɬə́n ngâː ʒàɗì //
 # text_ortho = tə́ ɬǐː tə́ ɬə́n ngâː ʒàɗì //
 # text_en = They went to fetch water.
 1	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=641462|AlignEnd=641655|Gloss=3Plur.Aor
-2	ɬə-íː	ɬə-í	VERB	_	Aspect=Res	1	comp:aux	_	AlignBegin=641655|AlignEnd=641848|Gloss=go|wordform=ɬə
-3	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	1	conj:coord	_	AlignBegin=641848|AlignEnd=642041|Gloss=3Plur.Aor
-4	ɬə	ɬə	VERB	_	_	3	comp:aux	_	AlignBegin=642041|AlignEnd=642137|Gloss=go
-5	nə́	nə́	ADP	_	_	4	comp:obl	_	AlignBegin=642137|AlignEnd=642234|Gloss=for
-6	ngaː	ngaː	VERB	_	_	5	comp:obj	_	AlignBegin=642234|AlignEnd=642427|Gloss=take_food
-7	ʒà	ʒà	NOUN	_	_	6	comp:obj	_	AlignBegin=642427|AlignEnd=642523|Gloss=water
-8	ɗi	ɗi	PART	_	_	6	compound:prt	_	AlignBegin=642523|AlignEnd=642620|Gloss=CTP
-9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=642620|AlignEnd=642811|Gloss=PUNCT
+2	ɬǐː	ɬə	VERB	_	Aspect=Res	1	comp:aux	_	AlignBegin=641655|AlignEnd=641848|Gloss=go-Res|wordform=ɬə
+3	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	1	parataxis@conj	_	AlignBegin=641848|AlignEnd=642041|Gloss=3Plur.Aor
+4	ɬə́n	ɬə	VERB	_	_	3	comp:aux	_	AlignBegin=642041|AlignEnd=642137|Gloss=go|SVC=Yes
+5	ngâː	ngaː	VERB	_	_	4	compound:svc	_	AlignBegin=642234|AlignEnd=642427|Gloss=take_food
+6	ʒà	ʒà	NOUN	_	_	5	comp:obj	_	AlignBegin=642427|AlignEnd=642523|Gloss=water
+7	ɗi	ɗi	PART	_	_	5	compound:prt	_	AlignBegin=642523|AlignEnd=642620|Gloss=CTP
+8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=642620|AlignEnd=642811|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_507-508
 # speaker_id = SP1
