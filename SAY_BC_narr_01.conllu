@@ -5621,17 +5621,17 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 719097, 721418
-# text = hár ɗan yáːwón < də̌ːr naː gòs -íː ʧík //
-# text_ortho = hár ɗan yáːwón < də̌ːr nàː gòʃíː ʧikə́y //
+# text = hár ɗan yáːwón < də̌ːr nàː gòʃíː ʧiɣə́y //
+# text_ortho = hár ɗan yáːwón < də̌ːr nàː gòʃíː ʧiɣə́y //
 # text_en = Up to now, Monitor has remained like this.
-1	hár	hár	ADP	_	_	6	mod	_	AlignBegin=719097|AlignEnd=719285|Gloss=until
-2	ɗan	ɗan	ADV	_	_	1	unk	_	AlignBegin=719285|AlignEnd=719473|Gloss=like
-3	yáːwón	yáːwón	ADV	_	PronType=Dem	6	mod	_	AlignBegin=719473|AlignEnd=719661|Gloss=today
+1	hár	hár	ADP	_	_	6	mod	_	AlignBegin=719097|AlignEnd=719285|ExtPos=ADP|Gloss=until|Idiom=Yes
+2	ɗan	ɗan	ADV	_	_	1	unk	_	AlignBegin=719285|AlignEnd=719473|Gloss=like|InIdiom=Yes
+3	yáːwón	yáːwón	ADV	_	PronType=Dem	1	comp:obj	_	AlignBegin=719473|AlignEnd=719661|Gloss=today
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=719661|AlignEnd=719849|Gloss=PUNCT
 5	də̌ːr	də̌ːr	NOUN	_	_	6	mod	_	AlignBegin=719849|AlignEnd=720119|Gloss=lizard
-6	naː	naː	VERB	_	_	0	root	_	AlignBegin=720119|AlignEnd=720389|Gloss=become
-7	gòʃíː	gòʃs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	mod@emp	_	AlignBegin=720389|AlignEnd=720659|Gloss=3SG.POS|wordform=gòs
-8	ʧík	ʧík	ADV	_	_	6	mod	_	AlignBegin=721114|AlignEnd=721266|Gloss=thus
+6	*naː-íː	naː	VERB	_	Aspect=Res	0	root	_	AlignBegin=720119|AlignEnd=720389|Gloss=become-Res
+7	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	mod@emp	_	AlignBegin=720389|AlignEnd=720659|Gloss=3SG.POS|wordform=gòs
+8	ʧiɣə́y	ʧík	ADV	_	_	6	mod	_	AlignBegin=721114|AlignEnd=721266|Gloss=thus
 9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=721266|AlignEnd=721418|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_570-570
@@ -5648,19 +5648,18 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 722099, 724176
-# text = kəndá yáː yel gón kír -íː //= yel gón ɮəːr -íː //
-# text_ortho = əndá yáː yê gón kiríː //= yê gón ɮəːríː //
+# text = yáː yê gón kiríː //= yê gón ɮəːríː //
+# text_ortho =  yáː yê gón kiríː //= yê gón ɮəːríː //
 # text_en = If he sees someone he runs, if he sees another one, he stops.
-1	kəndá	kəndá	SCONJ	_	_	2	discourse	_	AlignBegin=722272|AlignEnd=722445|Gloss=then
-2	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	0	root	_	AlignBegin=722618|AlignEnd=722791|Gloss=3SG.CND
-3	yel	yel	VERB	_	_	2	comp:aux	_	AlignBegin=722791|AlignEnd=722964|Gloss=see
-4	gón	gón	PRON	_	Definite=Spec	5	subj	_	AlignBegin=722964|AlignEnd=723137|Gloss=SPEC
-5	kír-íː	kírán	VERB	_	Aspect=Res	3	comp:obj	_	AlignBegin=723137|AlignEnd=723310|Gloss=run|wordform=kír
-6	//=	//=	PUNCT	_	_	2	punct	_	AlignBegin=723310|AlignEnd=723483|Gloss=PUNCT
-7	yel	yel	VERB	_	_	2	discourse	_	AlignBegin=723483|AlignEnd=723656|Gloss=see
-8	gón	gón	PRON	_	Definite=Spec	9	subj	_	AlignBegin=723656|AlignEnd=723829|Gloss=SPEC
-9	ɮəːr-íː	ɮəːr-i	VERB	_	Aspect=Res	2	comp:aux	_	AlignBegin=723829|AlignEnd=724002|Gloss=stay_still|wordform=ɮəːr
-10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=724002|AlignEnd=724176|Gloss=PUNCT
+1	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	4	mod	_	AlignBegin=722618|AlignEnd=722791|Gloss=3SG.CND
+2	yê	yel	VERB	_	_	1	comp:aux	_	AlignBegin=722791|AlignEnd=722964|Gloss=see
+3	gón	gón	PRON	_	Definite=Spec	2	comp:obj	_	AlignBegin=722964|AlignEnd=723137|Gloss=SPEC
+4	kíríː	kír	VERB	_	Aspect=Res	0	root	_	AlignBegin=723137|AlignEnd=723310|Gloss=run-Res|wordform=kír
+5	//=	//=	PUNCT	_	_	8	punct	_	AlignBegin=723310|AlignEnd=723483|Gloss=PUNCT
+6	yê	yel	VERB	_	_	8	mod	_	AlignBegin=723483|AlignEnd=723656|Gloss=see
+7	gón	gón	PRON	_	Definite=Spec	6	comp:obj	_	AlignBegin=723656|AlignEnd=723829|Gloss=SPEC
+8	ɮəːríː	ɮəːr	VERB	_	Aspect=Res	4	parataxis:conj	_	AlignBegin=723829|AlignEnd=724002|Gloss=stay_still-Res|wordform=ɮəːr
+9	//	//	PUNCT	_	_	4	punct	_	AlignBegin=724002|AlignEnd=724176|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_572-572
 # speaker_id = SP1
