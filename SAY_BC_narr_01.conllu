@@ -5706,25 +5706,26 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 726665, 731531
-# text = dèː -ês tu yi tu in yáː yel gón ɗan á kír -íː < dâːmáː iyaːkaʧí kòːkàrí =wos //
+# text = dèːs tu yi tu in yáː yêl gón ɗan á kîríː < dâːmáː iyaːkaʧí kòːkàríwôs //
 # text_ortho = dèːs tu yi tu in yáː yêl gón ɗan á kîríː < dâːmáː iyaːkaʧí kòːkàríwôs //
-# text_en = The meaning is that, it is, if he sees someone who runs, that's all he tries to do.
-1	dèː-ês	dèː-ês	NOUN	_	_	3	subj	_	AlignBegin=726665|AlignEnd=726903|Gloss=meaning|wordform=dèː
-2	tu	tu	SCONJ	_	Mood=Qot	1	discourse	_	AlignBegin=726903|AlignEnd=727141|Gloss=OPN
+# text_en = The meaning is that, if he sees someone who runs, that's all he tries to do.
+1	dèːs	dèː	NOUN	_	Definite=Def	3	dislocated@subj	_	AlignBegin=726665|AlignEnd=726903|Gloss=meaning-Def|wordform=dèː
+2	tu	tu	SCONJ	_	Mood=Qot	1	mod	_	AlignBegin=726903|AlignEnd=727141|Gloss=OPN
 3	yi	yi	VERB	_	_	0	root	_	AlignBegin=727141|AlignEnd=727379|Gloss=be
 4	tu	tu	SCONJ	_	Mood=Qot	3	comp:pred	_	AlignBegin=727379|AlignEnd=727616|Gloss=OPN
 5	in	in	SCONJ	_	_	14	mod	_	AlignBegin=727859|AlignEnd=728053|Gloss=if
 6	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	5	comp:obj	_	AlignBegin=728053|AlignEnd=728247|Gloss=3SG.CND
-7	yel	yel	VERB	_	_	6	comp:aux	_	AlignBegin=728247|AlignEnd=728441|Gloss=see
+7	yêl	yel	VERB	_	_	6	comp:aux	_	AlignBegin=728247|AlignEnd=728441|Gloss=see
 8	gón	gón	PRON	_	Definite=Spec	7	comp:obj	_	AlignBegin=728441|AlignEnd=728635|Gloss=SPEC
-9	ɗan	ɗan	SCONJ	_	PronType=Rel	7	comp:obj	_	AlignBegin=728635|AlignEnd=728829|Gloss=REL
+9	ɗan	ɗan	SCONJ	_	PronType=Rel	8	mod@relcl	_	AlignBegin=728635|AlignEnd=728829|Gloss=REL
 10	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	9	comp:obj	_	AlignBegin=728829|AlignEnd=729023|Gloss=3SG.Aor
-11	kír-íː	kírán	VERB	_	Aspect=Res	10	comp:aux	_	AlignBegin=729023|AlignEnd=729217|Gloss=run|wordform=kír
+11	kîríː	kír	VERB	_	Aspect=Res	10	comp:aux	_	AlignBegin=729023|AlignEnd=729217|Gloss=run|wordform=kír
 12	<	<	PUNCT	_	_	14	punct	_	AlignBegin=729217|AlignEnd=729409|Gloss=PUNCT
 13	dâːmáː	dâːmáː	ADV	_	Foreign=Yes	14	mod	_	AlignBegin=729875|AlignEnd=730289|Gloss=originally|Lang=hau
-14	iyaːkaʧí	iyaːkaʧí	NOUN	_	Foreign=Yes	4	comp:obj	_	AlignBegin=730289|AlignEnd=730703|Gloss=limit|Lang=hau
+14	iyaːkaʧi	iyaːkaʧí	NOUN	_	Definite=Cons|Foreign=Yes	4	comp:obj	_	AlignBegin=730289|AlignEnd=730703|Gloss=limit-Cons|Lang=hau
+15-16	kòːkàríwôs	_	_	_	_	_	_	_	_
 15	kòːkàrí	kòːkàrí	NOUN	_	Foreign=Yes	14	mod	_	AlignBegin=730703|AlignEnd=730910|Gloss=effort|Lang=hau
-16	=wos	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	15	mod@poss	_	AlignBegin=730910|AlignEnd=731117|Gloss=3SG.POS
+16	=wôs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	15	mod@poss	_	AlignBegin=730910|AlignEnd=731117|Gloss=3SG.POS
 17	//	//	PUNCT	_	_	3	punct	_	AlignBegin=731117|AlignEnd=731531|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_579-579
@@ -5734,7 +5735,7 @@
 # text = iyaːkaʧí kòːkàrí //
 # text_ortho = iyaːkaʧí kòːkàrí //
 # text_en = That's all he tries.
-1	iyaːkaʧí	iyaːkaʧí	NOUN	_	Foreign=Yes	0	root	_	AlignBegin=731814|AlignEnd=732137|Gloss=limit|Lang=hau
+1	iyaːkaʧi	iyaːkaʧí	NOUN	_	Definite=Cons|Foreign=Yes	0	root	_	AlignBegin=731814|AlignEnd=732137|Gloss=limit-Cons|Lang=hau
 2	kòːkàrí	kòːkàrí	NUM	_	_	1	mod	_	AlignBegin=732137|AlignEnd=732460|Gloss=effort|Lang=hau
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=732460|AlignEnd=732783|Gloss=PUNCT
 
@@ -5752,52 +5753,54 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 734081, 735309
-# text = iyaːkaʧí kòːkàrí =wos //
+# text = iyaːkaʧí kòːkàríwôs //
 # text_ortho = iyaːkaʧí kòːkàríwôs //
 # text_en = That's all he tries.
 1	iyaːkaʧí	iyaːkaʧí	X	_	Foreign=Yes	0	root	_	AlignBegin=734081|AlignEnd=734490|Gloss=limit|Lang=hau
 2	kòːkàrí	kòːkàrí	NOUN	_	Definite=Cons	1	mod	_	AlignBegin=734490|AlignEnd=734694|Gloss=effort|Lang=hau
-3	=wos	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@poss	_	AlignBegin=734694|AlignEnd=734899|Gloss=3SG.POS
+3	=wôs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@poss	_	AlignBegin=734694|AlignEnd=734899|Gloss=3SG.POS
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=734899|AlignEnd=735309|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_582-584
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 735668, 737476
-# text = àː fi tu dàʧêːwáː tə̀ kambalá ɬûː -íː //
+# text = àː fi tu dàʧêːwáː tə̀ kàmbàlá ɬúːy //
 # text_ortho = àː fi tu dàʧêːwáː tə̀ kàmbàlá ɬúːy //
 # text_en = He did it so that, that is to say, they should share the meat.
 1	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=735668|AlignEnd=735843|Gloss=3SG.PERF
 2	fi	fi	VERB	_	_	1	comp:aux	_	AlignBegin=735843|AlignEnd=736018|Gloss=do
-3	tu	tu	SCONJ	_	Mood=Qot	2	comp:obj	_	AlignBegin=736018|AlignEnd=736193|Gloss=OPN
-4	dàʧêːwáː	dàʧêːwáː	NOUN	_	Foreign=Yes	2	comp:obj	_	AlignBegin=736193|AlignEnd=736462|Gloss=COMP|Lang=hau
-5	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	2	parataxis@comp	_	AlignBegin=736462|AlignEnd=736716|Gloss=3Plur.SUB
-6	kambalá	kambalá	VERB	_	_	5	comp:aux	_	AlignBegin=736716|AlignEnd=736970|Gloss=share
-7	ɬûː-íː	ɬûː-íː	NOUN	_	_	6	comp:obj	_	AlignBegin=736970|AlignEnd=737224|Gloss=meat|wordform=ɬûː
+3	tu	tu	SCONJ	_	Mood=Qot	2	comp:obj	_	AlignBegin=736018|AlignEnd=736193|ExtPos=SCONJ|Gloss=OPN|Idiom=Yes
+4	dàʧêːwáː	dàʧêːwáː	NOUN	_	Foreign=Yes	3	unk	_	AlignBegin=736193|AlignEnd=736462|Gloss=COMP|Lang=hau
+5	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	3	comp:obj	_	AlignBegin=736462|AlignEnd=736716|Gloss=3Plur.SUB
+6-7	kàmbàlá ɬúːy	_	_	_	_	_	_	_	_
+6	*kàmbàlá-íː	kambalá	VERB	_	Aspect=Res	5	comp:aux	_	AlignBegin=736716|AlignEnd=736970|Gloss=share
+7	ɬûː	ɬûː	NOUN	_	_	6	comp:obj	_	AlignBegin=736970|AlignEnd=737224|Gloss=meat|wordform=ɬûː
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=737224|AlignEnd=737476|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_585-586
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 737766, 738980
-# text = tôː longa ɗak =tə nə́ sàkàt //
-# text_ortho = tôː longa ɗàktə̀ nə́ sàkàt //
-# text_en = Well, Rabbit rebelled against him with this trick.
-1	tôː	tòː	PART	_	_	2	discourse	_	AlignBegin=737766|AlignEnd=738023|Gloss=well
-2	longa	longa	NOUN	_	_	0	root	_	AlignBegin=738023|AlignEnd=738280|Gloss=rabbit
-3	ɗak	ɗak	VERB	_	_	2	comp:aux	_	AlignBegin=738280|AlignEnd=738409|Gloss=refuse
-4	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=738409|AlignEnd=738538|Gloss=3SG.OBJ
+# text = tòː loŋga ɗàɣtə̀ nə́ sàɣàt //
+# text_ortho = tòː loŋga ɗàɣtə̀ nə́ sàɣàt //
+# text_en = Well, Rabbit was more clever than him.
+1	tôː	tòː	PART	_	_	3	discourse	_	AlignBegin=737766|AlignEnd=738023|Gloss=well
+2	longa	longa	NOUN	_	_	3	subj	_	AlignBegin=738023|AlignEnd=738280|Gloss=rabbit
+3-4	ɗàɣtə̀	_	_	_	_	_	_	_	_
+3	ɗàɣ	ɗak	VERB	_	_	0	root	_	AlignBegin=738280|AlignEnd=738409|Gloss=be_short
+4	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=738409|AlignEnd=738538|Gloss=3SG.OBJ
 5	nə́	nə́	ADP	_	_	3	mod	_	AlignBegin=738538|AlignEnd=738685|Gloss=for
 6	sàkàt	sàkàt	NOUN	_	_	5	comp:obj	_	AlignBegin=738685|AlignEnd=738832|Gloss=trick
-7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=738832|AlignEnd=738980|Gloss=PUNCT
+7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=738832|AlignEnd=738980|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_587-593
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 740113, 745433
-# text = tôː < dúk tə́ gíː < in kyáː láːp də̌ːr < yáː kír -íː < kyáː láːp =tə máː < kyáː ʧi sâː =wos < ka ɬə nə́ bwaːp =tə -íː //
-# text_ortho = tôː < dúk tə́ gíː < in kyáː láːp də̌ːr < yáː kîríː < kyáː láːptə máː < kyáː ʧí sâːwòs < ka ɬə́n bwaːptíː //
-# text_en = Well, despite this, if you follow Monitor when he is running, if you follow him and you are lucky, you will be able to kill him.
+# text = tôː < dúk tə́ gíː < in kyáː láːp də̌ːr < yáː kíríː < kyáː láːptə máː < kyáː ʧí sâːwòs < ka ɬə́n bwaːptíː //
+# text_ortho = tôː < dúk tə́ gíː < in kyáː láːp də̌ːr < yáː kíríː < kyáː láːptə máː < kyáː ʧí sâːwòs < ka ɬə́n bwaːptíː //
+# text_en = Well, because of this, if you follow Monitor when he is running, if you follow him and you are lucky, you will be able to kill him.
 1	tôː	tòː	PART	_	_	25	discourse	_	AlignBegin=740113|AlignEnd=740260|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=740260|AlignEnd=740407|Gloss=PUNCT
 3	dúk	dúk	ADV	_	_	5	mod	_	AlignBegin=740407|AlignEnd=740548|Gloss=all|Lang=hau
@@ -5810,147 +5813,150 @@
 10	də̌ːr	də̌ːr	NOUN	_	_	9	comp:goal	_	AlignBegin=741593|AlignEnd=741800|Gloss=lizard
 11	<	<	PUNCT	_	_	8	punct	_	AlignBegin=741800|AlignEnd=742009|Gloss=PUNCT
 12	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	25	parataxis@mod	_	AlignBegin=742377|AlignEnd=742588|Gloss=3SG.CND
-13	kír-íː	ír-	VERB	_	Aspect=Res	8	comp:aux	_	AlignBegin=742588|AlignEnd=742799|Gloss=run|wordform=kír
+13	kíríː	kír	VERB	_	Aspect=Res	8	comp:aux	_	AlignBegin=742588|AlignEnd=742799|Gloss=run|wordform=kír
 14	<	<	PUNCT	_	_	12	punct	_	AlignBegin=742799|AlignEnd=743010|Gloss=PUNCT
 15	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	25	mod	_	AlignBegin=743010|AlignEnd=743189|Gloss=2SG.CND
+16-17	láːptə	_	_	_	_	_	_	_	_
 16	láːp	láːp	VERB	_	_	15	comp:aux	_	AlignBegin=743189|AlignEnd=743279|Gloss=follow
 17	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	16	comp:obj	_	AlignBegin=743279|AlignEnd=743368|Gloss=3SG.OBJ
 18	máː	máː	PART	_	_	15	discourse	_	AlignBegin=743368|AlignEnd=743547|Gloss=even
 19	<	<	PUNCT	_	_	15	punct	_	AlignBegin=743547|AlignEnd=743727|Gloss=PUNCT
 20	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	25	mod	_	AlignBegin=743727|AlignEnd=743952|Gloss=2SG.CND
-21	ʧi	ʧi	VERB	_	_	20	comp:aux	_	AlignBegin=743952|AlignEnd=744177|Gloss=eat
+21	ʧí	ʧi	VERB	_	_	20	comp:aux	_	AlignBegin=743952|AlignEnd=744177|Gloss=eat
+22-23	sâːwòs	_	_	_	_	_	_	_	_
 22	sâː	sâː	NOUN	_	_	21	comp:obj	_	AlignBegin=744177|AlignEnd=744289|Gloss=chance
-23	=wos	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	22	mod@poss	_	AlignBegin=744289|AlignEnd=744402|Gloss=3SG.POS
+23	=wòs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	22	mod@poss	_	AlignBegin=744289|AlignEnd=744402|Gloss=3SG.POS
 24	<	<	PUNCT	_	_	20	punct	_	AlignBegin=744402|AlignEnd=744626|Gloss=PUNCT
 25	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=744626|AlignEnd=744828|Gloss=2SG.FUT
-26	ɬə	ɬə	VERB	_	_	25	comp:aux	_	AlignBegin=744828|AlignEnd=744929|Gloss=go
-27	nə́	nə́	ADP	_	_	26	parataxis@comp	_	AlignBegin=744929|AlignEnd=745030|Gloss=for
-28-29	bwaːp-íː	_	_	_	_	_	_	_	_
-28	bwaːp-íː	bwaːp-p	VERB	_	Aspect=Res	27	comp:aux	_	AlignBegin=745030|AlignEnd=745232|Gloss=kill|wordform=bwaːp
-29	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	28	comp:obj	_	AlignBegin=745097|AlignEnd=745164|Gloss=3SG.OBJ|Incorporated=Yes
-30	//	//	PUNCT	_	_	25	punct	_	AlignBegin=745232|AlignEnd=745433|Gloss=PUNCT
+26	ɬə́n	ɬə́n	VERB	_	_	25	comp:aux	_	AlignBegin=744828|AlignEnd=744929|Gloss=go|SVC=Yes
+27-28	bwaːptíː	_	_	_	_	_	_	_	_
+27	*bwaːp-íː	bwaːp	VERB	_	Aspect=Res	26	compound:svc	_	AlignBegin=745030|AlignEnd=745232|Gloss=kill-Res|wordform=bwaːp
+28	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	27	comp:obj	_	AlignBegin=745097|AlignEnd=745164|Gloss=3SG.OBJ|Incorporated=Yes
+29	//	//	PUNCT	_	_	25	punct	_	AlignBegin=745232|AlignEnd=745433|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_594-594
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 745703, 747955
-# text = múr kə́ vwàː kən ʧi yi múr kə́ sakát kəndí aː hŋ́ //
-# text_ortho = mur kə́ vwàː kən ʧi mur kə́ sakát kəndíyǎːn //
-# text_en = A hungry man is a clever man.
-1	mur	mur	NOUN	_	_	9	subj	_	AlignBegin=745703|AlignEnd=745928|Gloss=man
-2	kə́	á	ADP	_	_	1	mod	_	AlignBegin=745928|AlignEnd=746153|Gloss=of
-3	vwàː	vwàː	NOUN	_	_	4	comp:pred	_	AlignBegin=746153|AlignEnd=746378|Gloss=belly
-4	kən	kən	PART	_	_	1	mod	_	AlignBegin=746378|AlignEnd=746603|Gloss=be
-5	ʧi	ʧi	VERB	_	_	4	comp:obj	_	AlignBegin=746603|AlignEnd=746715|Gloss=3SG.be
-6	yi	yi	VERB	_	_	5	comp:obj	_	AlignBegin=746715|AlignEnd=746828|Gloss=be
-7	múr-́	múr-́	NOUN	_	_	6	comp:pred	_	AlignBegin=746828|AlignEnd=747278|Gloss=man|wordform=múr
-8	sakát	sakát	VERB	_	_	6	comp:pred	_	AlignBegin=747278|AlignEnd=747503|Gloss=be_clever
-9	kəndí	kəndí	PART	_	_	0	root	_	AlignBegin=747503|AlignEnd=747578|Gloss=be
-10	aː	aː	PART	_	_	9	mod	_	AlignBegin=747578|AlignEnd=747653|Gloss=VRT
-11	hŋ́	hŋ́	PART	_	Polarity=Neg	9	mod	_	AlignBegin=747653|AlignEnd=747728|Gloss=NEG2
-12	//	//	PUNCT	_	_	9	punct	_	AlignBegin=747728|AlignEnd=747955|Gloss=PUNCT
+# text = mur ɣə́ vwàː ɣən ʧi mur ɣə́ saɣát kəndíyǎːn ?//
+# text_ortho = mur ɣə́ vwàːɣən ʧi mur ɣə́ saɣát kəndíyǎːn ?//
+# text_en = A hungry man is a clever man, no? 
+1	mur	mur	NOUN	_	_	6	dislocated@top	_	AlignBegin=745703|AlignEnd=745928|Gloss=man
+2	ɣə́	kə́	ADP	_	_	1	mod	_	AlignBegin=745928|AlignEnd=746153|Gloss=of
+3	vwàː	vwàː	NOUN	_	_	2	comp:obj	_	AlignBegin=746153|AlignEnd=746378|Gloss=belly
+4	ɣən	kən	PART	_	_	1	mod	_	AlignBegin=746378|AlignEnd=746603|Gloss=be
+5-6	ʧi	_	_	_	_	_	_	_	_
+5	tə	tə	VERB	_	_	6	subj	_	AlignBegin=746603|AlignEnd=746715|Gloss=3SG
+6	yi	yi	VERB	_	_	0	root	_	AlignBegin=746715|AlignEnd=746828|Gloss=be
+7	múr	mur	NOUN	_	Definite=Cons	6	comp:pred	_	AlignBegin=746828|AlignEnd=747278|Gloss=man-Cons|wordform=mur
+8	sakát	sakát	VERB	_	_	7	mod	_	AlignBegin=747278|AlignEnd=747503|Gloss=be_clever
+9-11	kəndíyǎːn	_	_	_	_	_	_	_	_
+9	kəndí	kəndí	PART	_	_	6	mod	_	AlignBegin=747503|AlignEnd=747578|Gloss=be
+10	aː	aː	PART	_	_	6	mod	_	AlignBegin=747578|AlignEnd=747653|Gloss=VRT
+11	hŋ́	hŋ́	PART	_	Polarity=Neg	6	mod	_	AlignBegin=747653|AlignEnd=747728|Gloss=NEG2
+12	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=747728|AlignEnd=747955|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_595-595
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 747955, 748559
-# text = yáwwàː <
-# text_ortho = yáwwàː <
+# text = yáwwàː !//
+# text_ortho = yáwwàː !//
 # text_en = That's it.
 1	yáwwàː	yáwwàː	INTJ	_	_	0	root	_	AlignBegin=747955|AlignEnd=748257|Gloss=OK
-2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=748257|AlignEnd=748559|Gloss=PUNCT
+2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=748257|AlignEnd=748559|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_596-599
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 748559, 753237
-# text = dâːmáː in kyáː fi vwàː < tún ɓaːndə́ŋ < lə̂p wón ɗan kyáː yel nákat káy < dóːlêː ka ɬə nə́ ɓin ɗáni //
+# text = dâːmáː in kyáː fí vwàː < tún ɓaːndə́ŋ < lə̂p wón ɗan kyáː yél nákatkáy < dóːlêː ka ɬə́n ɓin ɗaɗáni //
 # text_ortho = dâːmáː in kyáː fí vwàː < tún ɓaːndə́ŋ < lə̂p wón ɗan kyáː yél nákatkáy < dóːlêː ka ɬə́n ɓin ɗaɗáni //
 # text_en = if you have been hungry from a long time... wherever you see some food, you will go and yearn for it.
 1	dâːmáː	dâːmáː	ADV	_	Foreign=Yes	19	mod	_	AlignBegin=748559|AlignEnd=748715|Gloss=originally|Lang=hau
-2	in	in	NOUN	_	Foreign=Yes	19	mod	_	AlignBegin=748715|AlignEnd=748871|Gloss=if
+2	in	in	SCONJ	_	Foreign=Yes	19	mod	_	AlignBegin=748715|AlignEnd=748871|Gloss=if
 3	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	2	comp:obj	_	AlignBegin=748871|AlignEnd=749027|Gloss=2SG.CND
-4	fi	fi	VERB	_	_	3	comp:aux	_	AlignBegin=749027|AlignEnd=749183|Gloss=do
+4	fí	fi	VERB	_	_	3	comp:aux	_	AlignBegin=749027|AlignEnd=749183|Gloss=do
 5	vwàː	vwàː	NOUN	_	_	4	comp:obj	_	AlignBegin=749183|AlignEnd=749339|Gloss=belly
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=749339|AlignEnd=749496|Gloss=PUNCT
-7	tún	tún	SCONJ	_	_	19	mod	_	AlignBegin=749496|AlignEnd=749756|Gloss=since
+7	tún	tún	ADP	_	_	19	mod	_	AlignBegin=749496|AlignEnd=749756|Gloss=since
 8	ɓaːndə́ŋ	ɓaːndə́ŋ	ADV	_	_	7	mod	_	AlignBegin=749756|AlignEnd=750016|Gloss=long_ago
 9	<	<	PUNCT	_	_	7	punct	_	AlignBegin=750016|AlignEnd=750276|Gloss=PUNCT
 10	lə̂p	lə̂p	NOUN	_	_	19	dislocated@top	_	AlignBegin=750857|AlignEnd=751044|Gloss=place
 11	wón	wón	DET	_	Definite=Spec	10	det	_	AlignBegin=751044|AlignEnd=751231|Gloss=SPEC
 12	ɗan	ɗan	SCONJ	_	PronType=Rel	10	mod@relcl	_	AlignBegin=751231|AlignEnd=751418|Gloss=REL
 13	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	12	comp:obj	_	AlignBegin=751418|AlignEnd=751605|Gloss=2SG.CND
-14	yel	yel	VERB	_	_	13	comp:aux	_	AlignBegin=751605|AlignEnd=751792|Gloss=see
-15	nákat	nákat	NOUN	_	_	14	comp:obj	_	AlignBegin=751792|AlignEnd=751886|Gloss=food
-16	káy	káy	INTJ	_	Person=3|PronType=Prs	13	discourse	_	AlignBegin=751886|AlignEnd=751979|Gloss=ANAPH
+14	yél	yel	VERB	_	_	13	comp:aux	_	AlignBegin=751605|AlignEnd=751792|Gloss=see
+15	náɣat	nákat	NOUN	_	_	14	comp:obj	_	AlignBegin=751792|AlignEnd=751886|Gloss=food
+16	káy	káy	PRON	_	Person=3|PronType=Prs	14	comp:obl@expl	_	AlignBegin=751886|AlignEnd=751979|Gloss=ANAPH
 17	<	<	PUNCT	_	_	10	punct	_	AlignBegin=751979|AlignEnd=752169|Gloss=PUNCT
 18	dóːlêː	dóːlêː	ADV	_	_	19	mod	_	AlignBegin=752169|AlignEnd=752347|Gloss=necessary
 19	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=752347|AlignEnd=752525|Gloss=2SG.FUT
-20	ɬə	ɬə	VERB	_	_	19	comp:aux	_	AlignBegin=752525|AlignEnd=752614|Gloss=go
-21	nə́	nə́	ADP	_	_	20	compound:svc	_	AlignBegin=752614|AlignEnd=752703|Gloss=for
-22	ɓin	ɓin	VERB	_	_	21	comp:obj	_	AlignBegin=752703|AlignEnd=752881|Gloss=yearn
-23	ɗáni	ɗáni	ADV	_	PronType=Dem	22	mod	_	AlignBegin=752881|AlignEnd=753059|Gloss=there
-24	//	//	PUNCT	_	_	19	punct	_	AlignBegin=753059|AlignEnd=753237|Gloss=PUNCT
+20	ɬə́n	ɬə́n	VERB	_	_	19	comp:aux	_	AlignBegin=752525|AlignEnd=752614|Gloss=go|SVC=Yes
+21	ɓin	ɓin	VERB	_	_	20	compound:svc	_	AlignBegin=752703|AlignEnd=752881|Gloss=yearn
+22	ɗaɗáni	ɗáni	ADV	_	PronType=Dem	21	mod	_	AlignBegin=752881|AlignEnd=753059|Gloss=there
+23	//	//	PUNCT	_	_	19	punct	_	AlignBegin=753059|AlignEnd=753237|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_600-600
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 753237, 753648
-# text = dóːlêː //
-# text_ortho = dóːlêː //
+# text = dóːlêː !//
+# text_ortho = dóːlêː !//
 # text_en = It's necessary.
 1	dóːlêː	dóːlêː	ADV	_	_	0	root	_	AlignBegin=753237|AlignEnd=753443|Gloss=necessary
-2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=753443|AlignEnd=753648|Gloss=PUNCT
+2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=753443|AlignEnd=753648|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_601-601
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 754725, 755613
-# text = ka ɗyáː dàː gàʧì máː //
-# text_ortho = ka ɗyáː dàː gàʧǐː máː //
+# text = ka ɗyáː daːgàʧǐː máː //
+# text_ortho = ka ɗyáː daːgàʧǐː máː //
 # text_en = You will even fight for food.
 1	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=754725|AlignEnd=754873|Gloss=2SG.FUT
-2	ɗyáː	ɗyáː	VERB	_	_	1	comp:aux	_	AlignBegin=754873|AlignEnd=755021|Gloss=be_able|SVC=Yes
-3	dàː	dàː	ADP	_	_	2	comp:obj	_	AlignBegin=755021|AlignEnd=755169|Gloss=person
-4	gàʧì	Gàʧì	NOUN	_	_	3	comp:obj	_	AlignBegin=755169|AlignEnd=755317|Gloss=fighting_over
-5	máː	máː	PART	_	_	3	mod	_	AlignBegin=755317|AlignEnd=755465|Gloss=even
-6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=755465|AlignEnd=755613|Gloss=PUNCT
+2-3	ɗyáː daːgàʧǐː	_	_	_	_	_	_	_	_
+2	*ɗyáː-íː	ɗyáː	VERB	_	Aspect=Res	1	comp:aux	_	AlignBegin=754873|AlignEnd=755021|Gloss=be_able-Res
+3	daːgàʧì	daːgàʧì	NOUN	_	_	2	comp:obj	_	AlignBegin=755169|AlignEnd=755317|Gloss=fighting_over_food
+4	máː	máː	PART	_	_	1	mod	_	AlignBegin=755317|AlignEnd=755465|Gloss=even
+5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=755465|AlignEnd=755613|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_602-604
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 756062, 757258
-# text = daː gàʧì kúmá < tə̀ gaː ɓas =kə //
-# text_ortho = daː gàʧì kúmá < tə̀ gàː ɓaskə //
-# text_en = As to fighting for food, too you're an expert.
-1	daː	daː	PART	_	Foreign=Yes	5	mod	_	AlignBegin=756062|AlignEnd=756278|Gloss=person
-2	gàʧì	Gàʧì	NOUN	_	_	5	comp:aux	_	AlignBegin=756278|AlignEnd=756494|Gloss=fighting_over
-3	kúmá	kúmá	PART	_	_	1	discourse	_	AlignBegin=756494|AlignEnd=756568|Gloss=also
-4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=756568|AlignEnd=756642|Gloss=PUNCT
-5	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	0	root	_	AlignBegin=756642|AlignEnd=756796|Gloss=3Plur.SUB
-6	gaː	gaː	VERB	_	_	5	comp:aux	_	AlignBegin=756796|AlignEnd=756950|Gloss=leave
-7	ɓas	ɓas	ADP	_	_	6	comp:obl	_	AlignBegin=756950|AlignEnd=757027|Gloss=of
-8	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	7	comp:obj	_	AlignBegin=757027|AlignEnd=757104|Gloss=2SG.OBJ
-9	//	//	PUNCT	_	_	5	punct	_	AlignBegin=757104|AlignEnd=757258|Gloss=PUNCT
+# text = daːgàʧì kúmá < tə̀ gàː ɓaskə !//
+# text_ortho = daːgàʧì kúmá < tə̀ gàː ɓaskə !//
+# text_en = As to fighting for food, you are an expert!
+1	daːgàʧì	daːgàʧì	NOUN	_	_	4	mod	_	AlignBegin=756062|AlignEnd=756278|Gloss=fighting_for_food
+2	kúmá	kúmá	PART	_	_	1	mod	_	AlignBegin=756494|AlignEnd=756568|Gloss=also
+3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=756568|AlignEnd=756642|Gloss=PUNCT
+4	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	0	root	_	AlignBegin=756642|AlignEnd=756796|Gloss=3Plur.SUB
+5	gàː	gaː	VERB	_	_	4	comp:aux	_	AlignBegin=756796|AlignEnd=756950|Gloss=leave
+6-7	ɓaskə	_	_	_	_	_	_	_	_
+6	ɓas	ɓas	ADP	_	_	5	comp:obl	_	AlignBegin=756950|AlignEnd=757027|Gloss=of
+7	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	6	comp:obj	_	AlignBegin=757027|AlignEnd=757104|Gloss=2SG.OBJ
+8	!//	!//	PUNCT	_	_	4	punct	_	AlignBegin=757104|AlignEnd=757258|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_605-606
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 759050, 761196
-# text = tôː < ɗáni mə́ ɓəːl =mí laːfíya ká də̌ːl -i gín //
-# text_ortho = tôː < ɗáni mə́ ɓə̂ːlmí laːfíya ká dəːlí giní //
-# text_en = Well, let's leave it at that.
-1	tôː	tòː	PART	_	_	4	discourse	_	AlignBegin=759050|AlignEnd=759222|Gloss=well
+# text = tôː < ɗáni mə́ ɓə̂ːlmí laːfíya ɣá dəːlí giní //
+# text_ortho = tôː < ɗáni mə́ ɓə̂ːlmí laːfíya ɣá dəːlí giní //
+# text_en = Well, that's where we leave it.
+1	tôː	tòː	PART	_	_	3	discourse	_	AlignBegin=759050|AlignEnd=759222|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=759222|AlignEnd=759395|Gloss=PUNCT
-3	ɗáni	ɗáni	ADV	_	PronType=Dem	4	mod	_	AlignBegin=759395|AlignEnd=759620|Gloss=there
-4	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=759620|AlignEnd=759845|Gloss=1Plur.Aor
+3	ɗáni	ɗáni	ADV	_	PronType=Dem	0	root	_	AlignBegin=759395|AlignEnd=759620|Gloss=there
+4	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	3	comp:cleft	_	AlignBegin=759620|AlignEnd=759845|Gloss=1Plur.Aor
+5-6	ɓə̂ːlmí	_	_	_	_	_	_	_	_
 5	ɓəːl	ɓəːl	VERB	_	_	4	comp:aux	_	AlignBegin=759845|AlignEnd=759957|Gloss=leave
-6	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	comp:ben	_	AlignBegin=759957|AlignEnd=760070|Gloss=1Plur.OBJ
-7	laːfíya	laːfíya	NOUN	_	_	5	comp:obj	_	AlignBegin=760070|AlignEnd=760295|Gloss=well
-8	ká	ká	ADP	_	_	5	comp:obl	_	AlignBegin=760295|AlignEnd=760520|Gloss=at
-9	də̌ːl-i	də̌ːl-i	NOUN	_	_	8	comp:obj	_	AlignBegin=760520|AlignEnd=760745|Gloss=open_space|wordform=də̌ːl
-10	gín	gín	DET	_	PronType=Dem	9	mod	_	AlignBegin=760745|AlignEnd=760970|Gloss=PROX
-11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=760970|AlignEnd=761196|Gloss=PUNCT
+6	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	comp:obj	_	AlignBegin=759957|AlignEnd=760070|Gloss=1Plur.OBJ
+7	laːfíya	laːfíya	NOUN	_	_	5	mod	_	AlignBegin=760070|AlignEnd=760295|Gloss=well
+8	ɣá	ká	ADP	_	_	5	comp:obl	_	AlignBegin=760295|AlignEnd=760520|Gloss=at
+9	dəːlí	də̌ːl	NOUN	_	Definite=Ind	8	comp:obj	_	AlignBegin=760520|AlignEnd=760745|Gloss=open_space-Ind|wordform=də̌ːl
+10	giní	gín	DET	_	PronType=Dem	9	mod	_	AlignBegin=760745|AlignEnd=760970|Gloss=PROX
+11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=760970|AlignEnd=761196|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_607-607
 # speaker_id = SP2
