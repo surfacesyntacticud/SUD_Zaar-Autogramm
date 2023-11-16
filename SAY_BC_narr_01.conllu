@@ -5665,41 +5665,42 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 724176, 724858
-# text = yáwwàː //
-# text_ortho = yáwwàː //
+# text = yáwwàː !//
+# text_ortho = yáwwàː !//
 # text_en = That's it.
 1	yáwwàː	yáwwàː	INTJ	_	_	0	root	_	AlignBegin=724176|AlignEnd=724517|Gloss=OK
-2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=724517|AlignEnd=724858|Gloss=PUNCT
+2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=724517|AlignEnd=724858|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_574-574
-# speaker_id = SP2
-# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
-# sent_timecode = 725095, 726214
-# text = tá dèː -ês tuní kəndí koy ?//
-# text_ortho = tá dèːs tuní kəndí koy ?//
-# text_en = Now, what does it mean?
-1	tá	tá	ADV	_	_	5	discourse	_	AlignBegin=725095|AlignEnd=725281|Gloss=then
-2	dèː-ês	dèː-ês	NOUN	_	_	5	comp:pred	_	AlignBegin=725281|AlignEnd=725467|Gloss=meaning|wordform=dèː
-3	tu	tu	SCONJ	_	_	2	comp:obj	_	AlignBegin=725467|AlignEnd=725560|Gloss=OPN
-4	níː	níː	PRON	_	PronType=Int	3	comp:obj	_	AlignBegin=725560|AlignEnd=725653|Gloss=what
-5	kəndí	kəndí	PART	_	_	0	root	_	AlignBegin=725653|AlignEnd=725839|Gloss=be
-6	koy	koy	PART	_	_	5	discourse	_	AlignBegin=725839|AlignEnd=726025|Gloss=again
-7	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=726025|AlignEnd=726214|Gloss=PUNCT
-
-# sent_id = SAY_BC_narr_01_573-575
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 725095, 725895
-# text = tôː < ʧík kən ʧi yi //
+# text = tôː < ʧík kən ʧi //
 # text_ortho = tôː < ʧík kən ʧi //
 # text_en = Well that's how he is.
 1	tôː	tòː	PART	_	_	4	discourse	_	AlignBegin=725095|AlignEnd=725191|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=725191|AlignEnd=725287|Gloss=PUNCT
-3	ʧík	ʧík	ADV	_	_	4	mod	_	AlignBegin=725287|AlignEnd=725439|Gloss=thus
+3	ʧík	ʧík	ADV	_	_	4	comp:pred	_	AlignBegin=725287|AlignEnd=725439|Gloss=thus
 4	kən	kən	PART	_	_	0	root	_	AlignBegin=725439|AlignEnd=725591|Gloss=be
-5	ʧi	ʧi	VERB	_	_	4	comp:pred	_	AlignBegin=725591|AlignEnd=725667|Gloss=3SG.be
+5-6	ʧi	_	_	_	_	_	_	_	_
+5	tə	tə	PRON	_	Number=Sing|Person=3|PronType=Prs	6	subj	_	AlignBegin=725591|AlignEnd=725667|Gloss=3SG
 6	yi	yi	VERB	_	_	4	comp:cleft	_	AlignBegin=725667|AlignEnd=725743|Gloss=be
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=725743|AlignEnd=725895|Gloss=PUNCT
+
+# sent_id = SAY_BC_narr_01_575-575
+# speaker_id = SP2
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
+# sent_timecode = 725095, 726214
+# text = tá dèːs tuní kəndí koy ?//
+# text_ortho = tá dèːs tuní kəndí koy ?//
+# text_en = Now, what does it mean?
+1	tá	tá	ADV	_	_	5	discourse	_	AlignBegin=725095|AlignEnd=725281|Gloss=then
+2	dèːs	dèː	NOUN	_	Definite=Def	5	dislocated@subj	_	AlignBegin=725281|AlignEnd=725467|Gloss=meaning-Def|wordform=dèː
+3	tu	tu	SCONJ	_	_	5	mod	_	AlignBegin=725467|AlignEnd=725560|Gloss=OPN
+4	níː	níː	PRON	_	PronType=Int	5	comp:pred	_	AlignBegin=725560|AlignEnd=725653|Gloss=what
+5	kəndí	kəndí	PART	_	_	0	root	_	AlignBegin=725653|AlignEnd=725839|Gloss=be
+6	koy	koy	PART	_	_	5	discourse	_	AlignBegin=725839|AlignEnd=726025|Gloss=again
+7	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=726025|AlignEnd=726214|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_576-578
 # speaker_id = SP1
