@@ -2838,11 +2838,11 @@
 # sent_timecode = 364298, 365890
 # text = tôː ʃèː mbiːtə gíː X séː vìː //
 # text_ortho = tôː ʃèː mbiːtə gíː X séː vìː //
-# text_en = Well take it there and (stick it into his) mouth.
+# text_en = Well put this into his mouth.
 1	tôː	tòː	PART	_	_	2	discourse	_	AlignBegin=364298|AlignEnd=364497|Gloss=well
 2	ʃèː	ʃèː	X	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=364497|AlignEnd=364696|Gloss=X
 3	mbiː	mbiː	VERB	_	_	2	comp:aux	_	AlignBegin=364696|AlignEnd=364796|Gloss=take
-4	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=364796|AlignEnd=364895|Gloss=3SG.OBJ
+4	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:ben	_	AlignBegin=364796|AlignEnd=364895|Gloss=3SG.OBJ
 5	gíː	gíː	PRON	_	PronType=Dem	3	comp:obj	_	AlignBegin=364895|AlignEnd=365094|Gloss=REM
 6	X	X	X	_	_	3	parataxis@conj	_	AlignBegin=365094|AlignEnd=365293|Gloss=X
 7	séː	séː	ADP	_	_	6	unk	_	AlignBegin=365293|AlignEnd=365492|Gloss=until
@@ -3173,7 +3173,7 @@
 3	longa	longa	NOUN	_	_	4	subj	_	AlignBegin=403712|AlignEnd=403890|Gloss=rabbit
 4-5	wùltə̀	_	_	_	_	_	_	_	_
 4	wùl	wul	VERB	_	_	0	root	_	AlignBegin=403890|AlignEnd=403979|Gloss=say
-5	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=403979|AlignEnd=404068|Gloss=3SG.OBJ
+5	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:ben	_	AlignBegin=403979|AlignEnd=404068|Gloss=3SG.OBJ
 6	tu	tu	SCONJ	_	Mood=Qot	4	comp:obj	_	AlignBegin=404068|AlignEnd=404246|Gloss=OPN
 7	[	[	PUNCT	_	_	9	punct	_	AlignBegin=404246|AlignEnd=404425|Gloss=PUNCT
 8	tôː	tôː	PART	_	_	9	discourse	_	AlignBegin=404425|AlignEnd=404562|Gloss=well
@@ -4991,15 +4991,16 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 622363, 623672
-# text = gə̀ɗì longa wul =tə tu &//
-# text_ortho = gə̀ɗì longa wûltə̀ tu &//
+# text = gə̀ɗì longa wùltə̀ tu &//
+# text_ortho = gə̀ɗì longa wùltə̀ tu &//
 # text_en = Rabbit's wife told her...
-1	gə̀ɗì	gə̀ɗì	NOUN	_	Definite=Ind	2	mod	_	AlignBegin=622363|AlignEnd=622625|Gloss=wife.Plur
-2	longa	longa	NOUN	_	_	0	root	_	AlignBegin=622625|AlignEnd=622887|Gloss=rabbit
-3	wúl	wul	VERB	_	_	2	comp:aux	_	AlignBegin=622887|AlignEnd=623018|Gloss=say
-4	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=623018|AlignEnd=623149|Gloss=3SG.OBJ
+1	gə̀ɗì	gə̀ɗì	NOUN	_	Definite=Ind	3	subj	_	AlignBegin=622363|AlignEnd=622625|Gloss=wife.Plur
+2	longa	longa	NOUN	_	_	1	mod	_	AlignBegin=622625|AlignEnd=622887|Gloss=rabbit
+3-4	wùltə̀	_	_	_	_	_	_	_	_
+3	wùl	wul	VERB	_	_	0	root@scrap	_	AlignBegin=622887|AlignEnd=623018|Gloss=say
+4	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:ben	_	AlignBegin=623018|AlignEnd=623149|Gloss=3SG.OBJ
 5	tu	tu	SCONJ	_	Mood=Qot	3	comp:obj	_	AlignBegin=623149|AlignEnd=623411|Gloss=OPN
-6	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=623411|AlignEnd=623672|Gloss=PUNCT
+6	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=623411|AlignEnd=623672|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_492-495
 # speaker_id = SP1
@@ -5372,12 +5373,12 @@
 # text_en = She is only waiting for that husband of hers to help her take it down.
 1	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=672441|AlignEnd=672617|Gloss=3SG.IMP
 2	ŋal	ŋal	VERB	_	_	1	comp:aux	_	AlignBegin=672617|AlignEnd=672676|Gloss=look_for
-3	ni	ni	PRON	_	PronType=Int	2	comp:obj	_	AlignBegin=672676|AlignEnd=672793|Gloss=ITER|wordform=ni
+3	ni	ni	PART	_	PronType=Int	2	compound:prt	_	AlignBegin=672676|AlignEnd=672793|Gloss=ITER
 4-5	túr-íː	_	_	_	_	_	_	_	_
-4	*túr-íː	túr	NOUN	_	Deixis=Dist	7	subj	_	AlignBegin=672969|AlignEnd=673201|Gloss=husband|wordform=túr
+4	*túr-íː	túr	NOUN	_	Deixis=Dist	7	dislocated@subj	_	AlignBegin=672969|AlignEnd=673201|Gloss=husband|wordform=túr
 5	=wòs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	mod@poss	_	AlignBegin=673046|AlignEnd=673123|Gloss=3SG.POS|Incorporated=Yes
 6	káwây	káwây	ADV	_	_	4	mod	_	AlignBegin=673201|AlignEnd=673433|Gloss=merely
-7	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	2	comp:obj	_	AlignBegin=673664|AlignEnd=673877|Gloss=3SG.SUB
+7	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	2	mod	_	AlignBegin=673664|AlignEnd=673877|Gloss=3SG.SUB
 8	mán	mán	VERB	_	_	7	comp:aux	_	AlignBegin=673877|AlignEnd=674090|Gloss=come|SVC=Yes
 9	ʃíːr	ʃiː	VERB	_	Voice=Cau	8	compound:svc	_	AlignBegin=674090|AlignEnd=674176|Gloss=get_down-Cau|wordform=ʃiː
 10	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=674176|AlignEnd=674219|Gloss=3SG.OBJ
@@ -5417,9 +5418,9 @@
 23	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=683205|AlignEnd=683526|Gloss=3SG.Aor
 24	vundá	vundá	NOUN	_	_	23	comp:aux	_	AlignBegin=683526|AlignEnd=683686|Gloss=fall
 25	ɗi	ɗi	PART	_	_	24	compound:prt	_	AlignBegin=683686|AlignEnd=683847|Gloss=CTP
-26	man	man	VERB	_	_	24	compound:svc	_	AlignBegin=683847|AlignEnd=684168|Gloss=come|SVC=Yes
-27	bəprə́k	bəprə́k	IDEO	_	_	26	compound:svc	_	AlignBegin=684168|AlignEnd=684328|Gloss=crushing
-28	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	27	comp:obj	_	AlignBegin=684328|AlignEnd=684489|Gloss=3SG.OBJ
+26	mán	man	VERB	_	_	24	compound:svc	_	AlignBegin=683847|AlignEnd=684168|Gloss=come|SVC=Yes
+27	bəprə́k	bəprə́k	VERB	_	_	26	compound:svc	_	AlignBegin=684168|AlignEnd=684328|Gloss=crush
+28	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	27	comp:ben	_	AlignBegin=684328|AlignEnd=684489|Gloss=3SG.OBJ
 29	yáːsəŋ-íː	yáːsəŋ-íː	NOUN	_	Deixis=Dist	27	comp:obj	_	AlignBegin=684489|AlignEnd=684811|Gloss=leg|wordform=yáːsəŋ
 30	buʃúk	buʃúk	IDEO	_	_	27	mod	_	AlignBegin=685825|AlignEnd=686015|Gloss=breaking
 31	tə́	tə́	ADP	_	_	27	comp:obl	_	AlignBegin=686015|AlignEnd=686205|Gloss=with
