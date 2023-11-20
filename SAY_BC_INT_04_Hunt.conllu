@@ -657,8 +657,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 115600, 118688
-# text = ɗan zàrsə̀ tàː taːráʃí < gyaːgón ɗa ɗûːn hár waːní ɮarí Gìmsàː //
-# text_ortho = ɗan zàrsə̀ tàː taːráʃí < gyaːgón ɗa ɗûːn hár waːní ɮarí Gìmsàː //
+# text = ɗan zàrsə̀ tàː taːráʃí |a gyaːgón ɗa ɗûːn hár waːní ɮarí Gìmsàː //
+# text_ortho = ɗan zàrsə̀ tàː taːráʃí |a gyaːgón ɗa ɗûːn hár waːní ɮarí Gìmsàː //
 # text_en = And people join them, some from here, and others from across Gimsə.
 1	ɗan	ɗan	ADV	_	_	3	mod	_	AlignBegin=115600|AlignEnd=115760|Gloss=then
 2	zàrsə̀	zaːr	NOUN	_	Number=Plur	3	subj	_	AlignBegin=115760|AlignEnd=115920|Gloss=person|wordform=zaːr
@@ -666,16 +666,16 @@
 4-5	taːráʃí	_	_	_	_	_	_	_	_
 4	taːrá	taːrá	VERB	_	_	3	comp:aux	_	AlignBegin=116080|AlignEnd=116160|Gloss=gather|Lang=hau
 5	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=116160|AlignEnd=116240|Gloss=3Plur.OBJ
-6	//=	//=	PUNCT	_	_	8	punct	_	AlignBegin=116240|AlignEnd=116400|Gloss=PUNCT
-7	gyaːgón	gyaːgón	PRON	_	Definite=Spec|Number=Plur	8	subj	_	AlignBegin=117259|AlignEnd=117418|Gloss=SPEC
-8	ɗa	ɗa	ADP	_	_	3	parataxis@conj	_	AlignBegin=117418|AlignEnd=117577|Gloss=at
+6	|a	|a	PUNCT	_	_	7	punct	_	AlignBegin=116240|AlignEnd=116400|Gloss=PUNCT
+7	gyaːgón	gyaːgón	PRON	_	Definite=Spec|Number=Plur	2	conj:appos	_	AlignBegin=117259|AlignEnd=117418|Gloss=SPEC
+8	ɗa	ɗa	ADP	_	_	7	mod	_	AlignBegin=117418|AlignEnd=117577|Gloss=at
 9	ɗûːn	ɗúːni	ADV	_	PronType=Dem	8	mod	_	AlignBegin=117577|AlignEnd=117736|Gloss=here
-10	hár	hár	ADP	_	_	12	cc	_	AlignBegin=117736|AlignEnd=117895|Gloss=up_to
-11	waːní	waːní	PRON	_	_	12	subj	_	AlignBegin=117895|AlignEnd=118054|Gloss=whovever
-12	ɮarí	ɮarí	ADP	_	_	8	conj:coord	_	AlignBegin=118054|AlignEnd=118213|Gloss=across
+10	hár	hár	ADP	_	_	11	cc	_	AlignBegin=117736|AlignEnd=117895|Gloss=up_to
+11	waːní	waːní	PRON	_	_	7	conj:coord	_	AlignBegin=117895|AlignEnd=118054|Gloss=whovever
+12	ɮarí	ɮarí	ADP	_	_	11	mod	_	AlignBegin=118054|AlignEnd=118213|Gloss=across
 13-14	Gìmsàː	_	_	_	_	_	_	_	_
 13	Gìmsə̀	Gìmsə̀	PROPN	_	_	12	comp:obj	_	AlignBegin=118213|AlignEnd=118372|Gloss=Gimsə
-14	a:	a:	PART	_	PartType=Int	8	mod	_	AlignBegin=118372|AlignEnd=118531|Gloss=VRT
+14	a:	a:	PART	_	PartType=Int	3	mod	_	AlignBegin=118372|AlignEnd=118531|Gloss=VRT
 15	//	//	PUNCT	_	_	3	punct	_	AlignBegin=118531|AlignEnd=118688|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_082-082
