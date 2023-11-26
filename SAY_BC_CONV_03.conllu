@@ -718,9 +718,9 @@
 # sent_timecode = 114315, 115038
 # text = àmáː yâːn &//
 # text_ortho = àmáː yâːn &//
-# text_en = But if... yesterday you said that OK <hau no problem hau>, you can go //
+# text_en = But if... 
 1	àmáː	àmáː	CCONJ	_	_	2	discourse	_	AlignBegin=114315|AlignEnd=114677|Gloss=but
-2	yâːn	yâːn	SCONJ	_	_	0	root	_	AlignBegin=114677|AlignEnd=115038|Gloss=if
+2	yâːn	yâːn	SCONJ	_	_	0	root@scrap	_	AlignBegin=114677|AlignEnd=115038|Gloss=if
 3	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=115038|AlignEnd=115038|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_100-102
@@ -729,18 +729,18 @@
 # sent_timecode = 115304, 117234
 # text = àmáː yâːn kənáː wu tu áʔà ba damuwa ká ɗyǎː ká ɬǐː //
 # text_ortho = kənáː wu tu áʔà ba damuwa ká ɗyǎː ká ɬǐː //
-# text_en = Yesterday you said that OK <hau no problem hau>, you can go //
+# text_en = Yesterday you said that OK <hau no problem hau>, you can go.
 1	kənáː	náː	AUX	_	Number=Sing|Person=2|Tense=Rec	0	conj:dicto	_	AlignBegin=115304|AlignEnd=115445|Gloss=2SG.REC
-2	wu	wul	VERB	_	_	0	comp:aux	_	AlignBegin=115445|AlignEnd=115586|Gloss=say
-3	tu	tu	SCONJ	_	Mood=Qot	0	comp:obj	_	AlignBegin=115586|AlignEnd=115727|Gloss=OPN
-4	áʔà	áʔà	X	_	Foreign=Yes	0	comp:obj	_	AlignBegin=115727|AlignEnd=115923|Gloss=no|Lang=hau
-5	ba	ba	X	_	Foreign=Yes	0	flat:foreign	_	AlignBegin=116173|AlignEnd=116325|ExtPos=INTJ|Gloss=no|Idiom=Yes|Lang=hau
-6	damuwa	damuwa	X	_	Foreign=Yes	0	flat:foreign	_	AlignBegin=116325|AlignEnd=116477|Gloss=problem|InIdiom=Yes|Lang=hau
-7	ká	a	AUX	_	Number=Plur|Person=2|Tense=Fut	0	root	_	AlignBegin=116477|AlignEnd=116629|Gloss=2Plur.FUT
-8	ɗyǎː	ɗyáː	VERB	_	_	0	comp:aux	_	AlignBegin=116629|AlignEnd=116781|Gloss=be_able|SVC=Yes
-9	ká	a	AUX	_	Number=Plur|Person=2|Tense=Fut	0	parataxis@comp	_	AlignBegin=116781|AlignEnd=116933|Gloss=2Plur.FUT
-10	ɬǐː	ɬə	VERB	_	Aspect=Res	0	comp:aux	_	AlignBegin=116933|AlignEnd=117085|Gloss=go-RES
-11	//	//	PUNCT	_	_	0	punct	_	AlignBegin=117085|AlignEnd=117234|Gloss=PUNCT
+2	wu	wul	VERB	_	_	1	comp:aux	_	AlignBegin=115445|AlignEnd=115586|Gloss=say
+3	tu	tu	SCONJ	_	Mood=Qot	2	comp:obj	_	AlignBegin=115586|AlignEnd=115727|Gloss=OPN
+4	áʔà	áʔà	X	_	Foreign=Yes	3	comp:obj	_	AlignBegin=115727|AlignEnd=115923|Gloss=no|Lang=hau
+5	ba	ba	X	_	Foreign=Yes	4	flat:foreign	_	AlignBegin=116173|AlignEnd=116325|Gloss=no|Lang=hau
+6	damuwa	damuwa	X	_	Foreign=Yes	5	flat:foreign	_	AlignBegin=116325|AlignEnd=116477|Gloss=problem|Lang=hau
+7	ká	a	AUX	_	Number=Plur|Person=2|Tense=Fut	4	parataxis@conj	_	AlignBegin=116477|AlignEnd=116629|Gloss=2Plur.FUT
+8	ɗyǎː	ɗyáː	VERB	_	_	7	comp:aux	_	AlignBegin=116629|AlignEnd=116781|Gloss=be_able|SVC=Yes
+9	ká	a	AUX	_	Number=Plur|Person=2|Tense=Fut	8	parataxis@comp	_	AlignBegin=116781|AlignEnd=116933|Gloss=2Plur.FUT
+10	ɬǐː	ɬə	VERB	_	Aspect=Res	9	comp:aux	_	AlignBegin=116933|AlignEnd=117085|Gloss=go-RES
+11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=117085|AlignEnd=117234|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_103-105
 # speaker_id = SP2
