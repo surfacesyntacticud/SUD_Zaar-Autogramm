@@ -1425,11 +1425,12 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_BURIAL.WAV
 # sent_timecode = 197571, 200068
-# text = yâːn ʧáː fi ni Naːtarɲi < Naːtarɲi wò ɲól ɗi //
-# text_ortho = yâːn ʧáː fi ni Naːtarɲi < Naːtarɲi wò ɲól ɗi //
+# text = yâːn ʧáː fini Naːtarɲi < Naːtarɲi wò ɲól ɗi //
+# text_ortho = yâːn ʧáː fini Naːtarɲi < Naːtarɲi wò ɲól ɗi //
 # text_en = If he was doing Natarnyi (masquerade.sp), well Natarnyi will come out.
 1	yâːn	yâːn	SCONJ	_	Number=Sing|Person=3|PronType=Prs	8	mod	_	AlignBegin=197571|AlignEnd=197805|Gloss=if
 2	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	1	comp:obj	_	AlignBegin=197805|AlignEnd=198039|Gloss=3SG.IMP
+3-4	fini	_	_	_	_	_	_	_	_
 3	fi	fi	VERB	_	_	2	comp:aux	_	AlignBegin=198039|AlignEnd=198156|Gloss=do
 4	ni	ni	PART	_	Aspect=Iter	3	compound:prt	_	AlignBegin=198156|AlignEnd=198273|Gloss=ITER
 5	Naːtarɲi	Naːtarɲi	PROPN	_	_	3	comp:obj	_	AlignBegin=198273|AlignEnd=198507|Gloss=Natarnyi
@@ -1521,7 +1522,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_BURIAL.WAV
 # sent_timecode = 211479, 219863
-# text = kúmá < yâːn ʧi ɗan tu ʧáː fi ni èː èː sə́ŋwaːrí ɣə́ || kə́ || kə́ mumtsə́ < tôː mumtsə́ tá tǎy //
+# text = kúmá < yâːn ʧi ɗan tu ʧáː fini èː èː sə́ŋwaːrí ɣə́ || kə́ || kə́ mumtsə́ < tôː mumtsə́ tá tǎy //
 # text_ortho = kúmá < yâːn ʧi ɗan tu ʧáː fini èː èː sə́ŋwaːrí kə́ || kə́ || kə́ mumtsə́ < tôː mumtsə́ tá tǎy //
 # text_en = And... if it is like say... he was er.. er... chief of... of... of the masquerades well the masquerades would come out.
 1	kúmá	kúmá	PART	_	_	23	discourse	_	AlignBegin=211479|AlignEnd=211847|Gloss=and
@@ -1533,6 +1534,7 @@
 6	ɗan	ɗan	ADP	_	_	5	comp:pred	_	AlignBegin=213510|AlignEnd=213742|ExtPos=SCONJ|Gloss=as|Idiom=Yes
 7	tu	tu	SCONJ	_	Mood=Qot	6	unk	_	AlignBegin=213742|AlignEnd=213974|Gloss=COMP|InIdiom=Yes
 8	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	6	comp:obj	_	AlignBegin=213974|AlignEnd=214330|Gloss=3SG.IMP
+9-10	fini	_	_	_	_	_	_	_	_
 9	fi	fi	VERB	_	_	8	comp:aux	_	AlignBegin=214330|AlignEnd=214508|Gloss=do
 10	ni	ni	PART	_	Aspect=Iter	9	compound:prt	_	AlignBegin=214508|AlignEnd=214686|Gloss=ITER
 11	èː	èː	INTJ	_	_	13	discourse	_	AlignBegin=214686|AlignEnd=215042|Gloss=HESIT
@@ -2061,8 +2063,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_BURIAL.WAV
 # sent_timecode = 298740, 302679
-# text = áː Gòːdiya yáː mə̂ʃíː < miːtsə < tá wâː nì miːtsə tsuɣut //
-# text_ortho = áː Gòːdiya yáː mə̂ʃíː < miːtsə < tá wâː nì miːtsə tsukut //
+# text = áː Gòːdiya yáː mə̂ʃíː < miːtsə < tá wáːnì miːtsə tsuɣut //
+# text_ortho = áː Gòːdiya yáː mə̂ʃíː < miːtsə < tá wáːnì miːtsə tsukut //
 # text_en = Ah, if Godiya dies, the funeral, they would do a proper funeral.
 1	áː	áː	INTJ	_	_	8	discourse	_	AlignBegin=298740|AlignEnd=299042|Gloss=HESIT
 2	Gòːdiya	Gòːdiya	PROPN	_	_	3	subj	_	AlignBegin=299042|AlignEnd=299344|Gloss=Godiya
@@ -2072,8 +2074,9 @@
 6	miːtsə	miːtsə	NOUN	_	_	8	dislocated@top	_	AlignBegin=301336|AlignEnd=301516|Gloss=burial
 7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=301516|AlignEnd=301696|Gloss=PUNCT
 8	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=301696|AlignEnd=301893|Gloss=3Plur.FUT
+8-9	wáːnì	_	_	_	_	_	_	_	_
 9	wâː	waː	VERB	_	_	8	comp:aux	_	AlignBegin=301893|AlignEnd=301991|Gloss=perform
-10	nì	ni	PART	_	Aspect=Iter	9	compound:prt	_	AlignBegin=301991|AlignEnd=302090|Gloss=ITER
+10	ni	ni	PART	_	Aspect=Iter	9	compound:prt	_	AlignBegin=301991|AlignEnd=302090|Gloss=ITER
 11	miːtsə	miːtsə	NOUN	_	_	9	comp:obj	_	AlignBegin=302090|AlignEnd=302287|Gloss=burial
 12	tsuɣut	tsukut	IDEO	_	_	9	mod	_	AlignBegin=302287|AlignEnd=302484|Gloss=proper
 13	//	//	PUNCT	_	_	8	punct	_	AlignBegin=302484|AlignEnd=302679|Gloss=PUNCT
