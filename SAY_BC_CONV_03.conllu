@@ -451,8 +451,8 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 79400, 81547
-# text = tòː ɣəndá < tə́ ndâː lə́ːrɣə̂n səmbə́rsə ɗì //
-# text_ortho = tôː ɣəndáːːː < tə́ ndâː lə́ːrɣə̂n səmbə́rsə ɗì //
+# text = tòː ɣəndá < tə́ ndâː lə́ːrɣə̂n səmbə́rsəɗì //
+# text_ortho = tôː ɣəndáːːː < tə́ ndâː lə́ːrɣə̂n səmbə́rsəɗì //
 # text_en = Well then they started bringing guests.
 1	tòː	tòː	PART	_	_	4	discourse	_	AlignBegin=79400|AlignEnd=79618|Gloss=well
 2	ɣəndá	kəndá	ADV	_	_	4	mod	_	AlignBegin=79618|AlignEnd=79836|Gloss=then
@@ -460,6 +460,7 @@
 4	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=80283|AlignEnd=80536|Gloss=3Plur.AOR
 5	ndâː	ndâː	VERB	_	_	4	comp:aux	_	AlignBegin=80536|AlignEnd=80789|Gloss=start|SVC=Yes
 6	lə́ːrɣə̂n	lə́ːr	VERB	_	_	5	comp:obj	_	AlignBegin=80789|AlignEnd=81042|Gloss=bring
+7-8	səmbə́rsəɗì	_	_	_	_	_	_	_	_
 7	səmbə́rsə	səmbə́r	NOUN	_	Number=Plur	6	mod	_	AlignBegin=81042|AlignEnd=81210|Gloss=stranger
 8	ɗì	ɗi	PART	_	_	6	compound:prt	_	AlignBegin=81210|AlignEnd=81295|Gloss=CTP
 9	//	//	PUNCT	_	_	4	punct	_	AlignBegin=81295|AlignEnd=81547|Gloss=PUNCT
@@ -601,8 +602,8 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 98442, 102109
-# text = bàː wey ʧáː lə́ːrni kúniwòs ɗi tə̀ màn yèltə̀ hŋ́ |c àmáː ʧáː mân nə́ níː nə́ laː //
-# text_ortho = bàː wai ʧáː lə́ːrni kúniwòs ɗì tə̀ màn yèltə̀ hŋ́ |c àmmáː ʧáː mân nə́ níː nə́ laː //
+# text = bàː wey ʧáː lə́ːrni kúniwòsɗi tə̀ màn yèltə̀ hŋ́ |c àmáː ʧáː mân nə́ níː nə́ laː //
+# text_ortho = bàː wai ʧáː lə́ːrni kúniwòsɗì tə̀ màn yèltə̀ hŋ́ |c àmmáː ʧáː mân nə́ níː nə́ laː //
 # text_en = He did not bring his son for them to look at, but what did he come for? for work.
 1	bàː	bàː	PART	_	Polarity=Neg	3	mod	_	AlignBegin=98442|AlignEnd=98645|Gloss=NEG
 2	wey	wey	PART	_	Foreign=Yes	3	mod	_	AlignBegin=98645|AlignEnd=98848|Gloss=Qot|Lang=hau
@@ -610,7 +611,7 @@
 4-5	lə́ːrni	_	_	_	_	_	_	_	_
 4	lə́ːr	lə́ːr	VERB	_	_	3	comp:aux	_	AlignBegin=99051|AlignEnd=99153|Gloss=bring
 5	ni	ni	PART	_	Aspect=Iter	4	compound:prt	_	AlignBegin=99153|AlignEnd=99254|Gloss=ITER
-6-7	kúniwòs	_	_	_	_	_	_	_	_
+6-8	kúniwòsɗi	_	_	_	_	_	_	_	_
 6	kúni	kúni	NOUN	_	_	4	comp:obj	_	AlignBegin=99254|AlignEnd=99322|Gloss=boy
 7	=wos	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	mod@poss	_	AlignBegin=99322|AlignEnd=99390|Gloss=3SG.POS
 8	ɗi	ɗi	PART	_	_	4	compound:prt	_	AlignBegin=99390|AlignEnd=99457|Gloss=CTP
@@ -2685,8 +2686,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 348641, 351585
-# text = wéy < mə yé ŋaː ɲíː wón |a ŋǎː ŋaː makarantoː ɗoː //
-# text_ortho = wéy < mə yé ŋaː ɲíː wón < ŋǎː ŋaː makarantoː ɗoː //
+# text = wéy < mə yé ŋaː ɲíː wón |a ŋǎː ŋaː makarantoːɗoː //
+# text_ortho = wéy < mə yé ŋaː ɲíː wón < ŋǎː ŋaː makarantoːɗoː //
 # text_en = Well I saw a girl, a young schoolgirl.
 1	wéy	wéy	PART	_	Mood=Qot	3	discourse	_	AlignBegin=348641|AlignEnd=348784|Gloss=EVD
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=348784|AlignEnd=348927|Gloss=PUNCT
@@ -2698,10 +2699,9 @@
 8	|a	|a	PUNCT	_	_	10	punct	_	AlignBegin=349799|AlignEnd=349905|Gloss=PUNCT
 9	ŋǎː	ŋaː	ADJ	_	Definite=Cons	10	mod	_	AlignBegin=350524|AlignEnd=350789|Gloss=small
 10	ŋaː	ŋaː	NOUN	_	_	5	conj:appos	_	AlignBegin=350789|AlignEnd=351054|Gloss=child
-11-12	makarantoː	_	_	_	_	_	_	_	_
+11-14	makarantoːɗoː	_	_	_	_	_	_	_	_
 11	makaranta	makaranta	NOUN	_	_	10	compound	_	AlignBegin=351054|AlignEnd=351120|Gloss=school
 12	oː	oː	PART	_	PartType=Emp	4	mod	_	AlignBegin=351120|AlignEnd=351186|Gloss=EMPH
-13-14	ɗoː	_	_	_	_	_	_	_	_
 13	ɗi	ɗi	PART	_	_	4	compound:prt	_	AlignBegin=351186|AlignEnd=351252|Gloss=CTP
 14	oː	oː	PART	_	PartType=Emp	3	mod	_	AlignBegin=351252|AlignEnd=351319|Gloss=EMPH
 15	//	//	PUNCT	_	_	3	punct	_	AlignBegin=351319|AlignEnd=351585|Gloss=PUNCT
@@ -3533,8 +3533,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 423325, 425631
-# text = wéy || wéy mə̀ fí páːʧêʃíː mə̀ lə́ːrtə mə́n ɗyoː !//
-# text_ortho = wéy || wéy mə̀ fí páːʧêʃíː mə̀ lə́ːrtə mə́n ɗyoː !//
+# text = wéy || wéy mə̀ fí páːʧêʃíː mə̀ lə́ːrtə mə́nɗyoː !//
+# text_ortho = wéy || wéy mə̀ fí páːʧêʃíː mə̀ lə́ːrtə mə́nɗyoː !//
 # text_en = he said ... he said I should repair the puncture and bring him (the bike).
 1	wéy	wéy	PART	_	Mood=Qot	4	discourse	_	AlignBegin=423325|AlignEnd=423442|Gloss=EVD
 2	||	||	PUNCT	_	_	3	punct	_	AlignBegin=423442|AlignEnd=423559|Gloss=PUNCT
@@ -3547,8 +3547,8 @@
 8-9	lə́ːrtə	_	_	_	_	_	_	_	_
 8	lə́ːr	lə́ːr	VERB	_	_	7	comp:aux	_	AlignBegin=425075|AlignEnd=425167|Gloss=bring
 9	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	comp:ben	_	AlignBegin=425167|AlignEnd=425260|Gloss=3SG.OBJ
+10-12	mə́nɗyoː	_	_	_	_	_	_	_	_
 10	mə́n	mə́n	PART	_	Case=Ben	8	compound:prt	_	AlignBegin=425260|AlignEnd=425322|Gloss=BEN
-11-12	ɗyoː	_	_	_	_	_	_	_	_
 11	ɗi	ɗi	PART	_	_	8	compound:prt	_	AlignBegin=425322|AlignEnd=425384|Gloss=CTP
 12	oː	oː	PART	_	PartType=Emp	7	mod	_	AlignBegin=425384|AlignEnd=425445|Gloss=EMPH
 13	!//	!//	PUNCT	_	_	4	punct	_	AlignBegin=425445|AlignEnd=425631|Gloss=PUNCT
@@ -4180,12 +4180,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 491716, 493734
-# text = kətá saːké láːpkə̂n móːta ɗi áy kətá gaː màːʃíníː áy //
+# text = kətá saːké láːpkə̂n móːtaɗì áy kətá gaː màːʃíníː áy //
 # text_ortho = kətá saːké láːpkə̂n móːtaɗì áy kətá gaː màːʃíníː áy //
 # text_en = You took a taxi indeed and you left that motorbike!
 1	kətá	ta	AUX	_	Number=Sing|Person=2|Tense=Rem	0	root	_	AlignBegin=491716|AlignEnd=491918|Gloss=2SG.REM
 2	saːké	saːké	VERB	_	_	1	comp:aux	_	AlignBegin=491918|AlignEnd=492120|Gloss=do_again|SVC=Yes
 3	láːpkə̂n	láːp	VERB	_	VerbForm=Vnoun	2	comp:obj	_	AlignBegin=492120|AlignEnd=492322|ExtPos=NOUN|Gloss=follow
+4-5	móːtaɗì	_	_	_	_	_	_	_	_
 4	móːta	móːta	NOUN	_	_	3	comp:obj	_	AlignBegin=492322|AlignEnd=492423|Gloss=motorbike
 5	ɗi	ɗi	PART	_	_	3	compound:prt	_	AlignBegin=492423|AlignEnd=492524|Gloss=CTP
 6	áy	áy	INTJ	_	_	1	mod	_	AlignBegin=492524|AlignEnd=492726|Gloss=eh
@@ -5477,8 +5478,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 630136, 635496
-# text = mə wú tu [ myâːn < dzàn gíː < mə́ ɬə̂ Baːr ʧimkí < vìː màn ʃiʃí tu wéy [ myâːn >+ myáː ʤáːkí ʧíɣə̂n mə́n ɗyoː //] //
-# text_ortho = mə wú tu [ myâːn < dzàn gíː < mə́ ɬə̂ Baːr ʧimkí < vìː màn ʃiʃí tu wéy [ myâːm >+ myáː ʤáːkí ʧíkə̂n mə́n ɗyoː //] //
+# text = mə wú tu [ myâːn < dzàn gíː < mə́ ɬə̂ Baːr ʧimkí < vìː màn ʃiʃí tu wéy [ myâːn >+ myáː ʤáːkí ʧíɣə̂n mə́nɗyoː //] //
+# text_ortho = mə wú tu [ myâːn < dzàn gíː < mə́ ɬə̂ Baːr ʧimkí < vìː màn ʃiʃí tu wéy [ myâːm >+ myáː ʤáːkí ʧíkə̂n mə́nɗyoː //] //
 # text_en = I said "Me, that day I went to Bar with you, the story came out that it was me who caused your defeat."
 1	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	0	root	_	AlignBegin=630136|AlignEnd=630221|Gloss=1SG.AOR
 2	wú	wul	VERB	_	_	1	comp:aux	_	AlignBegin=630221|AlignEnd=630306|Gloss=say
@@ -5509,8 +5510,8 @@
 25	ʤáː	ʤaː	VERB	_	_	24	comp:aux	_	AlignBegin=634919|AlignEnd=634977|Gloss=pull
 26	=kí	=kí	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	25	comp:obj@x	_	AlignBegin=634977|AlignEnd=635034|Gloss=2Plur.OBJ
 27	ʧíɣə̂n	ʧi	VERB	_	_	25	comp:goal	_	AlignBegin=635034|AlignEnd=635149|ExtPos=NOUN|Gloss=eat.NMLZ
+28-30	mə́nɗyoː	_	_	_	_	_	_	_	_
 28	mə́n	mə́n	PART	_	Case=Ben	25	compound:prt	_	AlignBegin=635149|AlignEnd=635187|Gloss=BEN
-29-30	ɗyoː	_	_	_	_	_	_	_	_
 29	ɗi	ɗi	PART	_	_	25	compound:prt	_	AlignBegin=635187|AlignEnd=635225|Gloss=CTP
 30	oː	oː	PART	_	PartType=Emp	22	mod	_	AlignBegin=635225|AlignEnd=635264|Gloss=EMPH
 31	//]	//]	PUNCT	_	_	22	punct	_	AlignBegin=635264|AlignEnd=635379|Gloss=PUNCT
@@ -6726,13 +6727,14 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 761418, 762636
-# text = ŋâːy ɲòl ɗì ká kətə́r gwàːsǎːn ?//
-# text_ortho = ŋâːy ɲòlɗì ká kətə́r gwàːsǎːn ?//
+# text = ŋâːy ɲòlɗì á kətə́r gwàːsǎːn ?//
+# text_ortho = ŋâːy ɲòlɗì á kətə́r gwàːsǎːn ?//
 # text_en = Does't a child grow at the bottom of a tree?
 1	ŋâːy	ŋáː	NOUN	_	Definite=Ind	2	subj	_	AlignBegin=761418|AlignEnd=761621|Gloss=child
+2-3	ɲòlɗì	_	_	_	_	_	_	_	_
 2	ɲòl	ɲol	VERB	_	_	0	root	_	AlignBegin=761621|AlignEnd=761723|Gloss=go_out
 3	ɗì	ɗi	PART	_	_	2	compound:prt	_	AlignBegin=761723|AlignEnd=761824|Gloss=CTP
-4	ká	ká	ADP	_	_	2	mod	_	AlignBegin=761824|AlignEnd=762027|Gloss=at
+4	á	ká	ADP	_	_	2	mod	_	AlignBegin=761824|AlignEnd=762027|Gloss=at
 5	kətə́r	kətər	NOUN	_	Definite=Cons	4	comp:obj	_	AlignBegin=762027|AlignEnd=762230|Gloss=tree_trunk.of
 6-8	gwàːsǎːn	_	_	_	_	_	_	_	_
 6	gwàːs	gwàːs	NOUN	_	_	5	mod	_	AlignBegin=762230|AlignEnd=762298|Gloss=tree
@@ -7766,7 +7768,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 869708, 873718
-# text = Làːdí < tə́ Làːdí bétwâːsə̀n < mə́ ngâp dàtə̂pm ɗì dàgà || dàgà Ɗyanndi //
+# text = Làːdí < tə́ Làːdí bétwâːsə̀n < mə́ ngâp dàtə̂pmɗì dàgà || dàgà Ɗyanndi //
 # text_ortho = Làːdí < tə́ Làːdí bétwâːsə̀n < mə́ ngâp dàtə̂pmɗì dàgà || dàgà Ɗyanndi //
 # text_en = Ladi, with Ladi all of them we hit the road and left and left Ɗyandi.
 1	Làːdí	Làːdí	PROPN	_	_	8	dislocated@top	_	AlignBegin=869708|AlignEnd=869861|Gloss=Ladi
@@ -7779,6 +7781,7 @@
 7	<	<	PUNCT	_	_	3	punct	_	AlignBegin=870473|AlignEnd=870624|Gloss=PUNCT
 8	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=871334|AlignEnd=871584|Gloss=1Plur.AOR
 9	ngâp	ngap	VERB	_	_	8	comp:aux	_	AlignBegin=871584|AlignEnd=871834|Gloss=hold
+10-11	dàtə̂pmɗì	_	_	_	_	_	_	_	_
 10	dàtə̂pm	dàtə̂pm	NOUN	_	_	9	comp:obj	_	AlignBegin=871834|AlignEnd=871960|Gloss=way
 11	ɗì	ɗi	PART	_	_	9	compound:prt	_	AlignBegin=871960|AlignEnd=872085|Gloss=CTP
 12	dàgà	dàgà	ADP	_	_	9	comp:obl	_	AlignBegin=872765|AlignEnd=872935|Gloss=from
