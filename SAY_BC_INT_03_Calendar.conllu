@@ -2188,26 +2188,35 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
 # sent_timecode = 342960, 346260
-# text = tôː ɣə́ mán ŋgǔːpni á gə̀s á ɗa ká fuɲês kə́ ngǔːpni //
-# text_ortho = tôː ɣə́ mán ŋgǔːpni á gə̀s á ɗa fuɲês kə́ ngǔːpni //
-# text_en = Then you would ... squat under... at... at... Near the granary you would squat.
+# text = tôː ɣə́ mán ŋgǔːpni á gə̀s á ɗa &//
+# text_ortho = tôː ɣə́ mán ŋgǔːpni á gə̀s á ɗa &//
+# text_en = Then you would ... squat under... at... at... near the granary you would squat.
 1	tôː	tôː	PART	_	_	2	discourse	_	AlignBegin=342960|AlignEnd=343216|Gloss=DM
-2	ɣə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	0	root	_	AlignBegin=343216|AlignEnd=343472|Gloss=2Plur.Aor
-3	mán	máni	VERB	_	_	2	comp:aux	_	AlignBegin=343472|AlignEnd=343728|Gloss=come
+2	ɣə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	0	root&scrap	_	AlignBegin=343216|AlignEnd=343472|Gloss=2Plur.Aor
+3	mán	mán	VERB	_	_	2	comp:aux	_	AlignBegin=343472|AlignEnd=343728|Gloss=come
 4-5	ŋgǔːpni	_	_	_	_	_	_	_	_
 4	ŋgǔːp	ngúːp	VERB	_	Number=Plur	3	compound:svc	_	AlignBegin=343728|AlignEnd=343856|Gloss=squat
 5	ni	ni	PART	_	Aspect=Iter	4	compound:prt	_	AlignBegin=343856|AlignEnd=343984|Gloss=Iter
 6	á	ká	ADP	_	_	4	comp:obl	_	AlignBegin=343984|AlignEnd=344240|ExtPos=ADP|Gloss=at|Idiom=Yes
-7	gə̀s	gə̀s	NOUN	_	_	6	comp:obj	_	AlignBegin=344240|AlignEnd=344498|Gloss=bottom|InIdiom=Yes
+7	gə̀s	gə̀s	NOUN	_	_	6	unk	_	AlignBegin=344240|AlignEnd=344498|Gloss=bottom|InIdiom=Yes
 8	á	ká	ADP	_	_	6	conj:dicto	_	AlignBegin=344498|AlignEnd=344860|Gloss=HESIT
 9	ɗa	ká	ADP	_	_	8	conj:dicto	_	AlignBegin=344860|AlignEnd=345221|Gloss=at
-10	ká	ká	ADP	_	_	9	conj:dicto	_	AlignBegin=345221|AlignEnd=345429|Gloss=at
-11	fuɲês	fuŋ	NOUN	_	_	10	comp:obj	_	AlignBegin=345429|AlignEnd=345637|Gloss=granary
-12	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	2	conj:coord	_	AlignBegin=345637|AlignEnd=345845|Gloss=2Plur.Aor
-13-14	ŋgǔːpni	_	_	_	_	_	_	_	_
-13	ngǔːp	ngúːp	VERB	_	Number=Plur	12	comp:aux	_	AlignBegin=345845|AlignEnd=345949|Gloss=squat
-14	ni	ni	PART	_	Aspect=Iter	13	compound:prt	_	AlignBegin=345949|AlignEnd=346053|Gloss=Iter
-15	//	//	PUNCT	_	_	2	punct	_	AlignBegin=346053|AlignEnd=346260|Gloss=PUNCT
+10	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=345221|AlignEnd=345221|Gloss=PUNCT
+
+# sent_id = SAY_BC_INT_03_Calendar_226-228
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
+# sent_timecode = 345221, 346260
+# text = á fuɲês kə́ ngǔːpni //
+# text_ortho = á fuɲês kə́ ngǔːpni //
+# text_en = It's near the granary that you would squat.
+1	á	ká	ADP	_	_	0	conj:dicto	_	AlignBegin=345221|AlignEnd=345429|Gloss=at
+2	fuɲês	fuŋ	NOUN	_	_	0	comp:obj	_	AlignBegin=345429|AlignEnd=345637|Gloss=granary
+3	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	0	conj:coord	_	AlignBegin=345637|AlignEnd=345845|Gloss=2Plur.Aor
+13-14	ŋgǔːpni	_	_	_	_	0	_	_	_
+4	ngǔːp	ngúːp	VERB	_	Number=Plur	0	comp:aux	_	AlignBegin=345845|AlignEnd=345949|Gloss=squat
+5	ni	ni	PART	_	Aspect=Iter	0	compound:prt	_	AlignBegin=345949|AlignEnd=346053|Gloss=Iter
+6	//	//	PUNCT	_	_	0	punct	_	AlignBegin=346053|AlignEnd=346260|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_229-230
 # speaker_id = SP1
