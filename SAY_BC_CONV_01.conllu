@@ -1731,8 +1731,8 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 195638, 200960
-# text = áyí wùl tu kóː yáː vòttíː < yáː káttə̀ < yáː ɬǐː máː < wò sutə́ɗi bàː yâːn àː náːttə didididi tə́ ɬə́rəŋə̌ŋ //
-# text_ortho = áyí wùl tu kóː yáː vòttíː < yáː káttə̀ < yáː ɬǐː máː < wò sutə́ɗi bàː yâːn àː náːttə didididi tə́ ɬə́rəŋə̌ŋ //
+# text = áyí wùl tu kóː yáː vòttíː |c yáː káttə̀ < yáː ɬǐː máː < wò sutə́ɗi bàː yâːn àː náːttə didididi tə́ ɬə́rəŋə̌ŋ //
+# text_ortho = áyí wùl tu kóː yáː vòttíː |c yáː káttə̀ < yáː ɬǐː máː < wò sutə́ɗi bàː yâːn àː náːttə didididi tə́ ɬə́rəŋə̌ŋ //
 # text_en = He said that even if he beats him, if he chases him away, as soon as he has gone, he will come back if he hasn't tied him with a rope.
 1	áyí	yi	AUX	_	Number=Sing|Person=3|Tense=Imm	0	root	_	AlignBegin=195638|AlignEnd=195785|Gloss=3SG.IMM
 2	wùl	wul	VERB	_	_	1	comp:aux	_	AlignBegin=195785|AlignEnd=195932|Gloss=say
@@ -1748,12 +1748,12 @@
 10	kát	kat	VERB	_	_	9	comp:aux	_	AlignBegin=197145|AlignEnd=197232|Gloss=drive_away
 11	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=197232|AlignEnd=197319|Gloss=3SG.OBJ
 12	<	<	PUNCT	_	_	4	punct	_	AlignBegin=197319|AlignEnd=197492|Gloss=PUNCT
-13	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	17	parataxis@mod	_	AlignBegin=197492|AlignEnd=197724|Gloss=3SG.CND
+13	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	17	mod	_	AlignBegin=197492|AlignEnd=197724|Gloss=3SG.CND
 14	ɬǐː	ɬə	VERB	_	Aspect=Res	13	comp:aux	_	AlignBegin=197724|AlignEnd=197840|Gloss=go.RES
 15	máː	máː	PART	_	_	13	discourse	_	AlignBegin=197956|AlignEnd=198188|Gloss=even
 16	<	<	PUNCT	_	_	13	punct	_	AlignBegin=198188|AlignEnd=198422|Gloss=PUNCT
 17	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	3	comp:obj	_	AlignBegin=198422|AlignEnd=198690|Gloss=3SG.FUT
-18-20	sutə́ɗi	_	_	_	_	_	_	_	_
+18-19	sutə́ɗi	_	_	_	_	_	_	_	_
 18	su	su	VERB	_	_	17	comp:aux	_	AlignBegin=198690|AlignEnd=198779|Gloss=return
 19	=tə́	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	18	comp:obj	_	AlignBegin=198779|AlignEnd=198868|Gloss=3SG.OBJ
 20	ɗi	ɗi	PART	_	_	18	compound:prt	_	AlignBegin=198868|AlignEnd=198957|Gloss=CTP
@@ -1767,7 +1767,7 @@
 27	tə́	tə́	ADP	_	_	24	comp:obl	_	AlignBegin=200327|AlignEnd=200538|Gloss=with
 28-29	ɬə́rə̌ŋ	_	_	_	_	_	_	_	_
 28	ɬə́rəŋ	ɬə́rəŋ	NOUN	_	_	27	comp:obj	_	AlignBegin=200538|AlignEnd=200644|Gloss=rope
-29	hŋ́	hŋ́	PART	_	Polarity=Neg	24	mod	_	AlignBegin=200644|AlignEnd=200749|Gloss=NEG
+29	hŋ́	hŋ́	PART	_	Polarity=Neg	22	mod	_	AlignBegin=200644|AlignEnd=200749|Gloss=NEG
 30	//	//	PUNCT	_	_	1	punct	_	AlignBegin=200749|AlignEnd=200960|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_201-204
