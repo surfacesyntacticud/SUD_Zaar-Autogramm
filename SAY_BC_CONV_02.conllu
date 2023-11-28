@@ -1,4 +1,4 @@
-# global.columns = ID FORM LEMMA UGen XGen FEATS HEAD DEPREL DEPS MISC
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = SAY_BC_CONV_02_001-004
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
@@ -3032,8 +3032,8 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 419600, 423845
-# text = myǎː sûmí gíːɗi //= mə́ mán tûːr náɣat //= mə́ ʧǐː //= mə́ fûːtáy nʤwâːtn //= tôː mə́ ndǎy kúʧi //
-# text_ortho = myǎː sûmí gíːɗi //= mə́ mán tûːr náɣat //= mə́ ʧǐː //= mə́ fûːtáy nʤwâːtn //= tôː mə́ ndǎy kúʧi //
+# text = myǎː sûmí gíːɗi < mə́ mán tûːr náɣat //= mə́ ʧǐː //= mə́ fûːtáy nʤwâːtn //= tôː mə́ ndǎy kúʧi //
+# text_ortho = myǎː sûmí gíːɗi < mə́ mán tûːr náɣat //= mə́ ʧǐː //= mə́ fûːtáy nʤwâːtn //= tôː mə́ ndǎy kúʧi //
 # text_en = We come back from there, then we cook food we eat, we rest a little, then we go to bed.
 1	myǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	7	parataxis@mod	_	AlignBegin=419600|AlignEnd=419802|Gloss=1Plur.Imp
 2-3	sûmí	_	_	_	_	_	_	_	_
@@ -3678,7 +3678,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 504128, 507131
-# text = ŋǎː gə̀t < wò tuːr //= wò ngaː ʒàɗi //= wò mán tuːr náɣɗêʃíː //
+# text = ŋǎː gə̀t < wò tuːr //= wò ngaː ʒàɗì //= wò mán tuːr náɣɗêʃíː //
 # text_ortho = ŋǎː gə̀t < wò tuːr //= wò ngaː ʒàɗì //= wò mán tuːr náɣɗêʃíː //
 # text_en = A young girl, she will cook, she will fetch water, she will cook the food.
 1	ŋǎː	ŋǎː	ADJ	_	Definite=Cons	4	dislocated@subj	_	AlignBegin=504128|AlignEnd=504194|Gloss=young
@@ -3691,7 +3691,7 @@
 8	ngaː	ngaː	VERB	_	_	7	comp:aux	_	AlignBegin=505584|AlignEnd=505778|Gloss=scoop_out
 9-10	ʒàɗì	_	_	_	_	_	_	_	_
 9	ʒà	ʒà	NOUN	_	_	8	comp:obj	_	AlignBegin=505778|AlignEnd=505875|Gloss=water
-10	ɗi	ɗi	PART	_	_	8	compound:prt	_	AlignBegin=505875|AlignEnd=505972|Gloss=CTP
+10	ɗì	ɗi	PART	_	_	8	compound:prt	_	AlignBegin=505875|AlignEnd=505972|Gloss=CTP
 11	//=	//=	PUNCT	_	_	12	punct	_	AlignBegin=505972|AlignEnd=506166|Gloss=PUNCT
 12	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	7	parataxis@conj	_	AlignBegin=506166|AlignEnd=506360|Gloss=3Sing.Fut
 13	mán	man	VERB	_	_	12	comp:aux	_	AlignBegin=506360|AlignEnd=506554|Gloss=come|SVC=Yes
