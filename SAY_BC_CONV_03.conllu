@@ -1785,7 +1785,7 @@
 15	miːr	miːr	NOUN	_	_	14	comp:obj	_	AlignBegin=252566|AlignEnd=252716|Gloss=petrol
 16	máː	máː	PART	_	_	14	mod	_	AlignBegin=252716|AlignEnd=252866|Gloss=even
 17	á	ká	ADP	_	_	14	comp:obl	_	AlignBegin=252866|AlignEnd=253016|ExtPos=ADP|Gloss=at|Idiom=Yes
-18	vìː	vìː	NOUN	_	_	17	unk	_	AlignBegin=253016|AlignEnd=253166|Gloss=mouth|InIdiom=Yes
+18	vìː	vìː	NOUN	_	_	17	comp:obj	_	AlignBegin=253016|AlignEnd=253166|Gloss=mouth|InIdiom=Yes
 19	dàtə̂pm	dàtə̂pm	NOUN	_	_	17	comp:obj	_	AlignBegin=253166|AlignEnd=253316|Gloss=way
 20	máː	máː	PART	_	_	17	mod	_	AlignBegin=253316|AlignEnd=253466|Gloss=even
 21	//	//	PUNCT	_	_	13	punct	_	AlignBegin=253466|AlignEnd=253613|Gloss=PUNCT
@@ -4568,16 +4568,16 @@
 # sent_timecode = 533702, 541215
 # text = ìdán bàː yáːni tàː fuːni zàrsə̀ hŋ́ < myáː fuːɣə́n bàː wò tu zàrsə̀ də̀nə̌n //+ ɓanɗan gín ɗan máː &//
 # text_ortho = ìdán bàː yâːn tàː fuːni zàrsə̀ hŋ́ < myáː fuːkə́n bàː wò tu zàrsə̀ də̀nə̌n //+ ɓanɗan gín ɗan máːːː &//
-# text_en = If they haven't warned the people, I tell you there's no way he will find anyone at home, all the more so since that which even...
+# text_en = if they haven't warned the people, I tell you there's no way he will find anyone at home, all the more so since that which even...
 1	ìdán	ìdán	SCONJ	_	_	14	mod	_	AlignBegin=533702|AlignEnd=533911|ExtPos=SCONJ|Gloss=if|Idiom=Yes
 2	bàː	bàː	PART	_	Polarity=Neg	1	comp:obj	_	AlignBegin=533911|AlignEnd=534120|Gloss=NEG|InIdiom=Yes
 3	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	2	comp:pred	_	AlignBegin=534120|AlignEnd=534330|Gloss=3SG|InIdiom=Yes
-4	tàː	àː	AUX	_	Aspect=Perf|Number=Plur|Person=3	2	comp:cleft	_	AlignBegin=535609|AlignEnd=535786|Gloss=3Plur.PERF
+4	tàː	àː	AUX	_	Aspect=Perf|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=535609|AlignEnd=535786|Gloss=3Plur.PERF
 5-6	fuːni	_	_	_	_	_	_	_	_
 5	fuː	fuː	VERB	_	_	4	comp:aux	_	AlignBegin=535786|AlignEnd=535874|Gloss=tell
 6	ni	ni	PART	_	Aspect=Iter	5	compound:prt	_	AlignBegin=535874|AlignEnd=535963|Gloss=ITER
 7	zàrsə̀	Zaːr	NOUN	_	Number=Plur	5	comp:obj	_	AlignBegin=535963|AlignEnd=536140|Gloss=human
-8	hŋ́	hŋ́	PART	_	Polarity=Neg	2	mod	_	AlignBegin=536140|AlignEnd=536317|Gloss=NEG
+8	hŋ́	hŋ́	PART	_	Polarity=Neg	4	mod	_	AlignBegin=536140|AlignEnd=536317|Gloss=NEG
 9	<	<	PUNCT	_	_	1	punct	_	AlignBegin=536317|AlignEnd=536493|Gloss=PUNCT
 10	myáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	14	parataxis@discourse	_	AlignBegin=536979|AlignEnd=537248|Gloss=1SG.IMP
 11-12	fuːɣə́n	_	_	_	_	_	_	_	_
@@ -4591,7 +4591,7 @@
 17	də̀n	də̀n	NOUN	_	_	15	comp:loc	_	AlignBegin=539093|AlignEnd=539174|Gloss=house
 18	hŋ́	hŋ́	PART	_	Polarity=Neg	15	mod	_	AlignBegin=539174|AlignEnd=539255|Gloss=NEG
 19	//+	//+	PUNCT	_	_	20	punct	_	AlignBegin=539255|AlignEnd=539415|Gloss=PUNCT
-20	ɓanɗan	ɓanɗan	SCONJ	_	_	15	mod	_	AlignBegin=540008|AlignEnd=540249|Gloss=all_the_more_since
+20	ɓanɗan	ɓanɗan	SCONJ	_	_	15	mod	_	AlignBegin=540008|AlignEnd=540249|Gloss=even_more_since
 21	gín	gín	PRON	_	PronType=Dem	20	comp:obj	_	AlignBegin=540249|AlignEnd=540490|Gloss=PROX
 22	ɗan	ɗan	SCONJ	_	PronType=Rel	21	mod@relcl	_	AlignBegin=540490|AlignEnd=540731|Gloss=REL
 23	máː	máː	PART	_	_	22	comp:obj	_	AlignBegin=540731|AlignEnd=540972|Gloss=even
@@ -6746,17 +6746,16 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 763285, 764405
-# text = bàː yini á kətə́r gwàːsə̌n //
-# text_ortho = bàː yini ká kətə́r gwàːsə̌n //
+# text = bàː yi ni á kətə́r gwàːsə̌n //
+# text_ortho = bàː yi ni ká kətə́r gwàːsə̌n //
 # text_en = It's not at the bottom of the tree.
 1	bàː	bàː	PART	_	Polarity=Neg	2	mod	_	AlignBegin=763285|AlignEnd=763472|Gloss=NEG
-2-3	yini	_	_	_	_	_	_	_	_
 2	yi	yi	VERB	_	_	0	root	_	AlignBegin=763472|AlignEnd=763566|Gloss=be
-3	ni	ni	PART	_	_	2	compound:prt	_	AlignBegin=763566|AlignEnd=763659|Gloss=ITER
-4	á	ká	ADP	_	_	2	comp:pred	_	AlignBegin=763659|AlignEnd=763846|Gloss=at
-5	kətə́r	kətər	NOUN	_	Definite=Cons	4	comp:obj	_	AlignBegin=763846|AlignEnd=764033|Gloss=tree_trunk
+3	ni	nə	PART	_	_	2	compound:prt	_	AlignBegin=763566|AlignEnd=763659|Gloss=unk
+4	á	ká	ADP	_	_	2	comp:pred	_	AlignBegin=763659|AlignEnd=763846|ExtPos=ADP|Gloss=at|Idiom=Yes
+5	kətə́r	kətər	NOUN	_	Definite=Cons	4	comp:obj	_	AlignBegin=763846|AlignEnd=764033|Gloss=tree_trunk|InIdiom=Yes
 6-7	gwàːsə̌n	_	_	_	_	_	_	_	_
-6	gwàːs	gwàːs	NOUN	_	_	5	mod	_	AlignBegin=764033|AlignEnd=764127|Gloss=tree
+6	gwàːs	gwàːs	NOUN	_	_	4	comp:obj	_	AlignBegin=764033|AlignEnd=764127|Gloss=tree
 7	hŋ́	hŋ́	PART	_	Polarity=Neg	2	mod	_	AlignBegin=764127|AlignEnd=764220|Gloss=NEG
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=764220|AlignEnd=764405|Gloss=PUNCT
 
