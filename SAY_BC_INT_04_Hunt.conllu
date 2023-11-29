@@ -7,7 +7,7 @@
 # text_ortho = myǎː ʧêt tu kə̀tàyáː fî nǎːrwâːn wuriː tánnâŋeː ?//
 # text_en = We are asking how did you use to hunt?
 1	myǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	0	root	_	AlignBegin=1060|AlignEnd=1296|Gloss=1Plur.Imp
-2	ʧet	ʧet	VERB	_	_	1	comp:aux	_	AlignBegin=1296|AlignEnd=1532|Gloss=ask
+2	ʧêt	ʧet	VERB	_	_	1	comp:aux	_	AlignBegin=1296|AlignEnd=1532|Gloss=ask
 3	tu	tu	SCONJ	_	Mood=Qot	2	comp:obj	_	AlignBegin=1532|AlignEnd=1768|Gloss=COMP
 4	kə̀tàyáː	ta-yáː	AUX	_	Aspect=Imp|Number=Plur|Person=2|Tense=Rem	3	comp:obj	_	AlignBegin=1768|AlignEnd=2016|Gloss=2Plur.Rem.Imp
 5	fî	fi	VERB	_	_	4	comp:aux	_	AlignBegin=2016|AlignEnd=2264|Gloss=do
@@ -25,7 +25,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 3780, 10012
 # text = kə̀tàyáː fîn tə́ kaɗaŋʃyâː |c kóː kə̀tàyáː fîn tə́ mámaː |c kóː nə bəndígàː |c kóː kúmá kə̀tà yír gyáː ŋgə́ʃi gónaː ?//
-# text_ortho = kə̀tàyáː fîn tə́ kaɗaŋʃyâː |c kóː kə̀tàyáː fîn tə́ mámaː |c kóː nə bindígàː |c kóː kúmá kə̀tà yír gyáː ngə́ʃi gón aː ?//
+# text_ortho = kə̀tàyáː fîn tə́ kaɗaŋʃyâː |c kóː kə̀tàyáː fîn tə́ mámaː |c kóː nə bəndígàː |c kóː kúmá kə̀tà yír gyáː ngə́ʃi gón aː ?//
 # text_en = Did you use to hunt with dogs or did you use to hunt with bows of with guns or else did you have some other things?
 1	kə̀tàyáː	ta-yáː	AUX	_	Aspect=Imp|Number=Plur|Person=2|Tense=Rem	0	root	_	AlignBegin=3780|AlignEnd=4007|Gloss=2Plur.Rem.Imp
 2-3	fîn	_	_	_	_	_	_	_	_
@@ -47,7 +47,7 @@
 14	a:	a:	PART	_	PartType=Int	9	mod	_	AlignBegin=6321|AlignEnd=6445|Gloss=VRT
 15	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=6445|AlignEnd=6690|Gloss=PUNCT
 16	kóː	kóː	CCONJ	_	_	17	cc	_	AlignBegin=6690|AlignEnd=6878|Gloss=or|Lang=hau
-17-18	bindígàː	_	_	_	_	_	_	_	_
+17-18	bəndígàː	_	_	_	_	_	_	_	_
 17	nə	nə	PART	_	_	9	conj:coord	_	AlignBegin=6878|AlignEnd=7066|Gloss=be
 18	bəndígà	bəndígà	NOUN	_	_	17	comp:pred	_	AlignBegin=7066|AlignEnd=7254|Gloss=gun|Lang=hau
 19	a:	a:	PART	_	PartType=Int	17	mod	_	AlignBegin=7254|AlignEnd=7442|Gloss=VRT
@@ -67,8 +67,8 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 10155, 19694
-# text = kúmá zaːr < wò ɗyáː fi nda ndə̂ːr ngə́tnwôs ngap mbwáːɣə̂n ngə́taː |c kóː séː gùŋ pîːswàːn yáː wûl tu [ tôː dzàŋ tsə́n má ɬə́ ɗa //] aː |c kóː yi wuriː ?//
-# text_ortho = kúmá zaːr < wò ɗyáː fi nda ndə̂ːr ngə́tnwôs ngap mbwáːɣə̂n ngə́taː |c kóː séː gùŋ pîːswàːn yáː wûl tu [ tôː dzàŋ tsə́n má ɬə́ ɗa //] aː |c kóː yi wuriː ?//
+# text = kúmá zaːr < wò ɗyáː fi nda ndə̂ːr ngə́tnwôs ngap mbwáːɣə̂n ngə́taː |c kóː séː gùŋ pîːswàːn yáː wûl tu [ tôː dzàŋ tsə́n má ɬə́ //] a: |c kóː yi wuriː ?//
+# text_ortho = kúmá zaːr < wò ɗyáː fi nda ndə̂ːr ngə́tnwôs ngap mbwáːɣə̂n ngə́taː |c kóː séː gùŋ pîːswàːn yáː wûl tu [ tôː dzàŋ tsə́n má ɬə́ //] a: |c kóː yi wuriː ?//
 # text_en = And people would be able to go into the bush on their own and start shooting on their own, or must your chief hunter say on such a day we will go or how was it?
 1	kúmá	kúmá	PART	_	_	4	discourse	_	AlignBegin=10155|AlignEnd=10360|Gloss=and
 2	zaːr	zaːr	NOUN	_	_	4	dislocated@top	_	AlignBegin=10360|AlignEnd=10565|Gloss=person
@@ -102,14 +102,13 @@
 27	tsə́n	tsəní	ADV	_	_	26	mod	_	AlignBegin=17605|AlignEnd=17730|Gloss=like_this
 28	má	a	AUX	_	Number=Plur|Person=1|Tense=Fut	23	comp:obj	_	AlignBegin=17730|AlignEnd=17855|Gloss=1Plur.Fut
 29	ɬə́	ɬə	VERB	_	_	28	comp:aux	_	AlignBegin=17855|AlignEnd=17980|Gloss=go
-30	ɗa	ɗa	PART	_	_	29	compound:prt	_	AlignBegin=17980|AlignEnd=18105|Gloss=again
-31	//]	//]	PUNCT	_	_	28	punct	_	AlignBegin=18105|AlignEnd=18230|Gloss=PUNCT
-32	a:	a:	PART	_	PartType=Int	21	mod	_	AlignBegin=18230|AlignEnd=18355|Gloss=VRT
-33	|c	|c	PUNCT	_	_	35	punct	_	AlignBegin=18355|AlignEnd=18480|Gloss=PUNCT
-34	kóː	kóː	CCONJ	_	_	35	cc	_	AlignBegin=19025|AlignEnd=19192|Gloss=or|Lang=hau
-35	yi	yi	VERB	_	_	21	conj:coord	_	AlignBegin=19192|AlignEnd=19359|Gloss=be
-36	wuriː	wuriː	ADV	_	PronType=Int	35	comp:pred	_	AlignBegin=19359|AlignEnd=19526|Gloss=how
-37	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=19526|AlignEnd=19694|Gloss=PUNCT
+30	//]	//]	PUNCT	_	_	28	punct	_	AlignBegin=18105|AlignEnd=18230|Gloss=PUNCT
+31	a:	a:	PART	_	PartType=Int	21	mod	_	AlignBegin=18230|AlignEnd=18355|Gloss=VRT
+32	|c	|c	PUNCT	_	_	34	punct	_	AlignBegin=18355|AlignEnd=18480|Gloss=PUNCT
+33	kóː	kóː	CCONJ	_	_	34	cc	_	AlignBegin=19025|AlignEnd=19192|Gloss=or|Lang=hau
+34	yi	yi	VERB	_	_	21	conj:coord	_	AlignBegin=19192|AlignEnd=19359|Gloss=be
+35	wuriː	wuriː	ADV	_	PronType=Int	34	comp:pred	_	AlignBegin=19359|AlignEnd=19526|Gloss=how
+36	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=19526|AlignEnd=19694|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_016-016
 # speaker_id = SP2
@@ -153,6 +152,7 @@
 2	gón	gón	PRON	_	Definite=Spec	3	dislocated@top	_	AlignBegin=24649|AlignEnd=24858|Gloss=SPEC
 3	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=24858|AlignEnd=25067|Gloss=2Sing.Fut
 4	ʃiʃí	ʃiʃí	VERB	_	_	3	comp:aux	_	AlignBegin=25067|AlignEnd=25276|Gloss=leave
+5-6	ngə́tnwâː	_	_	_	_	_	_	_	_
 5	ngə́tn	ngə́tn	NOUN	_	_	4	comp:obj	_	AlignBegin=25276|AlignEnd=25380|Gloss=thing
 6	=wâː	=waː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	5	mod@poss	_	AlignBegin=25380|AlignEnd=25484|Gloss=2Sing.Gen
 7	tə́	tə́	ADP	_	_	5	mod	_	AlignBegin=25484|AlignEnd=25680|Gloss=with
@@ -167,10 +167,10 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 27430, 29000
-# text = k# || kə ɬíː ŋálɣə̂n námtsə kúrûm //
-# text_ortho = k# || kə ɬíː ŋálɣə̂n námtsə kúrûm ///
+# text = k~ || kə ɬíː ŋálɣə̂n námtsə kúrûm //
+# text_ortho = k~ || kə ɬíː ŋálɣə̂n námtsə kúrûm ///
 # text_en = Y... you would just go to the bush.
-1	k#	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=27430|AlignEnd=27670|Gloss=y...
+1	k~	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=27430|AlignEnd=27670|Gloss=y...
 2	||	||	PUNCT	_	_	3	punct	_	AlignBegin=27670|AlignEnd=27911
 3	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	1	conj:dicto	_	AlignBegin=27911|AlignEnd=28093|Gloss=2Sing.Aor
 4	ɬíː	ɬə	VERB	_	Aspect=Res	3	comp:aux	_	AlignBegin=28093|AlignEnd=28275|Gloss=go-Res|wordform=ɬə
@@ -202,8 +202,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 32666, 37536
-# text = tôː àmâː < á ləpí gón < yâːn ʧàː ʧímtə̀ tu əː naːr //
-# text_ortho = tôː àmâː < á ləpí gón < yâːn ʧàː ʧímtə̀ tu əː naːr //
+# text = tôː àmâː < á ləpí gón < yâːn ʧàː ʧímtə tu əː naːr //
+# text_ortho = tôː àmâː < á ləpí gón < yâːn ʧàː ʧímtə tu əː naːr //
 # text_en = Well but sometimes they would call it communal hunting.
 1	tôː	tòː	PART	_	_	9	discourse	_	AlignBegin=32666|AlignEnd=32894|Gloss=DM
 2	àmâː	àmá	CCONJ	_	_	9	discourse	_	AlignBegin=32894|AlignEnd=33122|Gloss=but
@@ -227,7 +227,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 38680, 46280
 # text = tôː kə fúː zàrsə̀ || kə́ fûː kamsaːwàːn tu [ tôː dzàŋ gín fáː < dzàŋ gíː < má fî naːr á gàri || á yǎːɬwâːníː |c kóː kwǎː á wǔːrwâːníː //] //
-# text_ortho = tôː kə fûː zàrsə̀ [ kə́ fûː kamsaːwàːn tu [ tôː dzàŋ gín fáː < dzàŋ gíː < má fî naːr á gàri || á yǎːɬ wâːníː `|c kóː kwǎː á wǔːrwâːníː //] //] //
+# text_ortho = tôː kə fúː zàrsə̀ || kə́ fûː kamsaːwàːn tu [ tôː dzàŋ gín fáː < dzàŋ gíː < má fî naːr á gàri || á yǎːɬwâːníː |c kóː kwǎː á wǔːrwâːníː //] //
 # text_en = Well you would tell people, "Tell your friends: "On such and such a day, on that day we will go hunting at ... at your place or else on your mountain." "
 1	tôː	tôː	PART	_	_	2	discourse	_	AlignBegin=38680|AlignEnd=38833|Gloss=DM
 2	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=38833|AlignEnd=38986|Gloss=2Sing.Aor
@@ -235,7 +235,7 @@
 4	zàrsə̀	zaːr	NOUN	_	Number=Plur	3	comp:ben	_	AlignBegin=39139|AlignEnd=39292|Gloss=person|wordform=zaːr
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=39292|AlignEnd=39445|Gloss=PUNCT
 6	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	2	conj:dicto	_	AlignBegin=39445|AlignEnd=39598|Gloss=2Plur.Aor
-7	fuː	fuː	VERB	_	_	6	comp:aux	_	AlignBegin=39598|AlignEnd=39751|Gloss=tell
+7	fûː	fuː	VERB	_	_	6	comp:aux	_	AlignBegin=39598|AlignEnd=39751|Gloss=tell
 8-9	kamsaːwàːn	_	_	_	_	_	_	_	_
 8	kamsə	kâːm	NOUN	_	_	7	comp:ben	_	AlignBegin=39751|AlignEnd=39853|Gloss=friend|wordform=kâːm
 9	=wàːn	=waːn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	8	mod@poss	_	AlignBegin=39853|AlignEnd=39904|Gloss=2Plur.Gen
@@ -366,8 +366,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 64580, 69820
-# text = gónɗaŋ múr yóːɗan yáː ŋgâɓíː < kóː àː àː mán búŋgáy àː búŋgáy < tôː kyáː mân ɗaŋ kə mán ŋgaɓíː tôː á nǎːy nə gwàː //
-# text_ortho = gónɗaŋ múr yóːɗan yáː ŋgâɓíː < kóː àː àː mán búŋgáy àː búŋgáy < tôː kyáː mân ɗaŋ kə mán ŋgaɓíː tôː á nǎːy nə gwàː //
+# text = gónɗaŋ < múr yóːɗan yáː ŋgâɓíː < kóː àː àː mán búŋgáy àː búŋgáy < tôː kyáː mân ɗaŋ kə mán ŋgaɓíː tôː á nǎːy nə gwàː //
+# text_ortho = gónɗan < múr yóːɗan yáː ngâɓíː < kóː àː àː mán búŋgáy àː búŋgáy < tôː kyáː mân ɗaŋ kə mán ŋgaɓíː tôː á nǎːy nə gwàː //
 # text_en = Sometimes, the man who has caught, may be he... he has some problems, well if you come and you catch it, it becomes yours.
 1	gónɗan	gónɗan	ADV	_	_	26	mod	_	AlignBegin=64580|AlignEnd=64722|Gloss=sometimes
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=64722|AlignEnd=64864|Gloss=PUNCT
@@ -399,7 +399,7 @@
 26	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=69204|AlignEnd=69327|Gloss=3Sing.Aor
 27	nǎːy	naː	VERB	_	Aspect=Res	26	comp:aux	_	AlignBegin=69327|AlignEnd=69450|Gloss=become-Res|wordform=naː
 28	nə	nə	PART	_	_	27	comp:pred	_	AlignBegin=69450|AlignEnd=69573|Gloss=be
-29	gwàː	gwàː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	28	comp:obj	_	AlignBegin=69573|AlignEnd=69696|Gloss=2Sing.Gen
+29	gwàː	gwàː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	28	comp:pred	_	AlignBegin=69573|AlignEnd=69696|Gloss=2Sing.Gen
 30	//	//	PUNCT	_	_	26	punct	_	AlignBegin=69696|AlignEnd=69820|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_050-053
@@ -407,7 +407,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 70780, 76280
 # text = àmáː murí àː mán búŋgáy sòːséy < àmáː gón wò mán ɮíː swǎːt wul tu nə gòs < bàː gón wò kə́ːm wul tu vìːɣáy hŋ́ //
-# text_ortho = àmáː murí àː mán búŋgáy sòːséy < àmá gón wò mán ɮíː swǎːt wul tu nə gòs < bàː gón wò kə́ːm wul tu vìːɣáy hŋ́ //
+# text_ortho = àmáː murí àː mán búŋgáy sòːséy < àmáː gón wò mán ɮíː swǎːt wul tu nə gòs < bàː gón wò kə́ːm wul tu vìː ɣáy hŋ́ //
 # text_en = But if a man has some real problems, and somebody else comes and takes it quickly, and says it is his, nobody will be able to say anything.
 1	àmáː	àmá	CCONJ	_	_	20	discourse	_	AlignBegin=70780|AlignEnd=70933|Gloss=but
 2	murí	mur	NOUN	_	Definite=Ind	3	subj	_	AlignBegin=70933|AlignEnd=71009|Gloss=man
@@ -429,7 +429,7 @@
 17	nə	nə	PART	_	_	16	comp:obj	_	AlignBegin=73541|AlignEnd=73681|Gloss=be
 18	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	17	comp:pred	_	AlignBegin=73681|AlignEnd=73821|Gloss=3Sing.Gen
 19	<	<	PUNCT	_	_	3	punct	_	AlignBegin=73821|AlignEnd=73963|Gloss=PUNCT
-20	báː	báː	PART	_	_	0	root	_	AlignBegin=74900|AlignEnd=75038|Gloss=Neg1
+20	bàː	bàː	PART	_	_	0	root	_	AlignBegin=74900|AlignEnd=75038|Gloss=Neg1
 21	gón	gón	DET	_	Definite=Spec	20	comp:pred	_	AlignBegin=75038|AlignEnd=75176|Gloss=SPEC
 22	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	20	comp:cleft	_	AlignBegin=75176|AlignEnd=75314|Gloss=3Sing.Fut
 23	kə́ːm	kə́ːm	VERB	_	_	22	comp:aux	_	AlignBegin=75314|AlignEnd=75452|Gloss=succeed
@@ -444,8 +444,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 77300, 83476
-# text = tôː àmáː < kyáː mbwáːni ɬûː < kádéː eː yǎː ngâptíː < tôː ɬúːy tá və̀rɣə̀ dòmín káː rigé ɣə mbwaːtíː //
-# text_ortho = tôː àmáː < kyáː mbwáːni ɬûː < kádéː eː yǎː yǎː ngâptíː < tôː ɬûːy tá və̀rɣə̀ dòmín káː rigé ɣə mbwaːtíː //
+# text = tôː àmáː < kyáː mbwáːni ɬûː < kádéː eː yǎː ngâptíː < tôː ɬúːy tá və̀rɣə̀ dòmín káː rigé mbwaːtíː //
+# text_ortho = tôː àmáː < kyáː mbwáːni ɬûː < kádéː eː yǎː ngâptíː < tôː ɬúːy tá və̀rɣə̀ dòmín káː rigé mbwaːtíː //
 # text_en = But if you have shot an animal, as soon as... somebody catches it well the animal, they will give it to you because you shot it first.
 1	tôː	tôː	PART	_	_	17	discourse	_	AlignBegin=77300|AlignEnd=77470|Gloss=DM
 2	àmáː	àmá	CCONJ	_	_	17	discourse	_	AlignBegin=77470|AlignEnd=77640|Gloss=but
@@ -506,7 +506,7 @@
 2	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=88178|AlignEnd=88356|Gloss=3Plur.Aor
 3	yîsə́ŋə́y	yisə́ŋ	VERB	_	Aspect=Res	2	comp:aux	_	AlignBegin=88356|AlignEnd=88534|Gloss=know-Res|wordform=yisə́ŋ
 4	tu	tu	SCONJ	_	Mood=Qot	3	comp:obj	_	AlignBegin=88534|AlignEnd=88712|Gloss=COMP
-5	kyaːn	kyáːni	PRON	_	Number=Sing|Person=2|PronType=Prs	4	comp:obj	_	AlignBegin=88712|AlignEnd=88890|Gloss=2Sing.IDP
+5	kyâːn	kyáːni	PRON	_	Number=Sing|Person=2|PronType=Prs	4	comp:obj	_	AlignBegin=88712|AlignEnd=88890|Gloss=2Sing.IDP
 6-7	mbwáːtə	_	_	_	_	_	_	_	_
 6	mbwâː	mbwaː	VERB	_	_	5	comp:cleft	_	AlignBegin=88890|AlignEnd=88979|Gloss=shoot
 7	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=88979|AlignEnd=89068|Gloss=3Sing.Obj
@@ -537,10 +537,11 @@
 # text_ortho = tôː gàyyà kwàː < yâːn ʧi gòs tu ɗan Kímsə tə́ gyáː mə́n Dùːl tə́ gyáː mə́n Koblaŋ < tə́ gyáː mə́n Žímʃí ( á ɬǐː hár Żàs |c hár Ketsar //) tə́ gyáː mə́n Malâːr ɗan ʧǐn < tôː ɣá fûːʃí kakáp //
 # text_en = Well as for communal hunting, it means that like Kimseh and the people of Dul and the people of Koblang and the people of Zhimshi up to Zlas and Tsara and the people of Malar who are there well they will tell them all.
 1	tôː	tôː	PART	_	_	7	discourse	_	AlignBegin=92300|AlignEnd=92575|Gloss=DM
-2	gàyyà	gàyyà	NOUN	_	_	7	dislocated@subj	_	AlignBegin=92575|AlignEnd=92850|Gloss=communal_work|Lang=hau
+2	gàyyà	gàyyà	NOUN	_	_	7	dislocated@top	_	AlignBegin=92575|AlignEnd=92850|Gloss=communal_work|Lang=hau
 3	kwàː	kwàː	PART	_	_	2	mod	_	AlignBegin=92850|AlignEnd=93125|Gloss=as_for
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=93125|AlignEnd=93400|Gloss=PUNCT
-5	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	7	dislocated@subj	_	AlignBegin=93580|AlignEnd=93773|Gloss=3Sing.IDP
+5	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	7	dislocated@subj	_	AlignBegin=93580|AlignEnd=93773|Gloss=3Sing.IDP
+5-6	ʧi	_	_	_	_	_	_	_	_
 6	tə	tə	PRON	_	Number=Sing|Person=3|PronType=Prs	7	subj	_	AlignBegin=93773|Gloss=3Sing
 7	yi	yi	VERB	_	_	0	root	_	AlignEnd=93966|Gloss=be
 8	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	7	mod@emp	_	AlignBegin=93966|AlignEnd=94159|Gloss=3Sing.Gen
@@ -604,11 +605,11 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 109360, 110987
-# text = tôː mənín tə́ tôŋʃí á teː gwàːsə̀ŋ mə́n //
+# text = tôː tôː mənín tə́ tôŋʃí á teː gwàːsə̀ŋə́n //
 # text_ortho = tôː mənín tə́ tôŋʃí á teː gwàːsə̀ŋə́n //
 # text_en = Well these people will make a line of their own.
 1	tôː	tôː	PART	_	_	3	discourse	_	AlignBegin=109360|AlignEnd=109541|Gloss=DM
-2	mənín	múr	NOUN	_	Deixis=Prox|Number=Plur	3	subj	_	AlignBegin=109541|AlignEnd=109722|Gloss=people-PROX|wordform=mə́n
+2	mənín	múr	NOUN	_	Deixis=Prox|Number=Plur	3	subj	_	AlignBegin=109541|AlignEnd=109722|Gloss=people-PROX
 3	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=109722|AlignEnd=109903|Gloss=3Plur.Aor
 4-5	tôŋʃí	_	_	_	_	_	_	_	_
 4	tôŋ	tôŋ	PART	_	_	3	comp:aux	_	AlignBegin=109903|AlignEnd=109993|Gloss=line_up
@@ -699,8 +700,8 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 121220, 122306
-# text = kyǎː tû ɬûː < tôː ɣə́ ɗûtíː //
-# text_ortho = kyǎː tû ɬûː < tôː ɣə́ ɗûtíː //
+# text = kyǎː tû ɬûː < tôː kə́ ɗûtíː //
+# text_ortho = kyǎː tu ɬûː < tôː kə́ ɗûtíː //
 # text_en = If you find an animal, well you kill it.
 1	kyǎː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=2	6	mod	_	AlignBegin=121220|AlignEnd=121347|Gloss=2Plur.Cnd
 2	tu	tu	VERB	_	_	1	comp:aux	_	AlignBegin=121347|AlignEnd=121474|Gloss=meet
@@ -760,7 +761,7 @@
 4	myáːni	myáːni	PRON	_	Number=Sing|Person=1|PronType=Prs	3	comp:obj	_	AlignBegin=127440|AlignEnd=127579|Gloss=1Sing.IDP
 5	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=127579|AlignEnd=127718|Gloss=PUNCT
 6	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	4	comp:cleft	_	AlignBegin=127718|AlignEnd=127857|Gloss=1Sing.Aor
-7	mbwaː	mbwaː	VERB	_	_	6	comp:aux	_	AlignBegin=127857|AlignEnd=127996|Gloss=shoot
+7	mbwáː	mbwaː	VERB	_	_	6	comp:aux	_	AlignBegin=127857|AlignEnd=127996|Gloss=shoot
 8	//=	//=	PUNCT	_	_	10	punct	_	AlignBegin=127996|AlignEnd=128134|Gloss=PUNCT
 9	murín	múr	NOUN	_	Deixis=Prox	10	subj	_	AlignBegin=128134|AlignEnd=128259|Gloss=man|wordform=múr
 10	wul	wul	VERB	_	_	2	parataxis@conj	_	AlignBegin=128259|AlignEnd=128384|Gloss=say
@@ -768,7 +769,7 @@
 12	myâːn	myáːni	PRON	_	Number=Sing|Person=1|PronType=Prs	11	comp:obj	_	AlignBegin=128509|AlignEnd=128634|Gloss=1Sing.IDP
 13	>+	>+	PUNCT	_	_	14	punct	_	AlignBegin=128634|AlignEnd=128759|Gloss=PUNCT
 14	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	12	comp:cleft	_	AlignBegin=128759|AlignEnd=128884|Gloss=1Sing.Aor
-15	mbwaː	mbwaː	VERB	_	_	14	comp:aux	_	AlignBegin=128884|AlignEnd=129009|Gloss=shoot
+15	mbwáː	mbwaː	VERB	_	_	14	comp:aux	_	AlignBegin=128884|AlignEnd=129009|Gloss=shoot
 16	//	//	PUNCT	_	_	2	punct	_	AlignBegin=129009|AlignEnd=129136|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_091-092
