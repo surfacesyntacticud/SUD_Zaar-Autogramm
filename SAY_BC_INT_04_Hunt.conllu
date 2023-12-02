@@ -365,17 +365,17 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 64580, 69820
-# text = gónɗaŋ < múr yóːɗan yáː ngâɓíː < kóː àː àː mán búngáy àː búngáy < tôː kyáː mân ɗaŋ kə mán ngaɓíː tôː á nǎːy nə gwàː //
-# text_ortho = gónɗan < múr yóːɗan yáː ngâɓíː < kóː àː àː mán búngáy àː búngáy < tôː kyáː mân ɗaŋ kə mán ngaɓíː tôː á nǎːy nə gwàː //
+# text = gónɗaŋ < múr yóːɗan yáː ngâɓíː < kóː àː àː mán búngáy àː búngáy < tòː kyáː mân ɗaŋ kə mán ngaɓíː tôː á nǎːy nə gwàː //
+# text_ortho = gónɗaŋ < múr yóːɗan yáː ngâɓíː < kóː àː àː mán búngáy àː búngáy < tòː kyáː mân ɗaŋ kə mán ngaɓíː tôː á nǎːy nə gwàː //
 # text_en = Sometimes, the man who has caught, may be he... he has some problems, well if you come and you catch it, it becomes yours.
-1	gónɗan	gónɗan	ADV	_	_	26	mod	_	AlignBegin=64580|AlignEnd=64722|Gloss=sometimes
+1	gónɗaŋ	gónɗaŋ	ADV	_	_	25	mod	_	AlignBegin=64580|AlignEnd=64722|Gloss=sometimes
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=64722|AlignEnd=64864|Gloss=PUNCT
-3	múr	múr	NOUN	_	_	9	dislocated@subj	_	AlignBegin=64864|AlignEnd=65006|Gloss=man
+3	múr	múr	NOUN	_	_	25	dislocated@top	_	AlignBegin=64864|AlignEnd=65006|Gloss=man
 4	yóːɗan	yóːɗan	PRON	_	PronType=Rel	3	mod@relcl	_	AlignBegin=65006|AlignEnd=65148|Gloss=which
 5	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	4	comp:obj	_	AlignBegin=65148|AlignEnd=65290|Gloss=3Sing.Imp
 6	ngâɓíː	ngap	VERB	_	Aspect=Res	5	comp:aux	_	AlignBegin=65290|AlignEnd=65432|Gloss=catch-Res|wordform=ngap
 7	<	<	PUNCT	_	_	3	punct	_	AlignBegin=65432|AlignEnd=65577|Gloss=PUNCT
-8	kóː	kóː	SCONJ	_	_	26	mod	_	AlignBegin=65577|AlignEnd=66027|Gloss=whether|Lang=hau
+8	kóː	kóː	SCONJ	_	_	25	mod	_	AlignBegin=65577|AlignEnd=66027|Gloss=whether|Lang=hau
 9	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	8	comp:obj	_	AlignBegin=66027|AlignEnd=66478|Gloss=3Sing.Perf
 10	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	9	conj:dicto	_	AlignBegin=66478|AlignEnd=66621|Gloss=3Sing.Perf
 11	mán	máni	VERB	_	_	10	comp:aux	_	AlignBegin=66621|AlignEnd=66764|Gloss=come
@@ -387,19 +387,18 @@
 15	búŋ	búŋ	VERB	_	_	14	comp:aux	_	AlignBegin=67193|AlignEnd=67336|Gloss=suffer
 16	gáy	káy	PRON	_	Person=3|PronType=Prs	15	comp:obl@expl	_	AlignBegin=67336|AlignEnd=67479|Gloss=ANAPH
 17	<	<	PUNCT	_	_	8	punct	_	AlignBegin=67479|AlignEnd=67620|Gloss=PUNCT
-18	tôː	tôː	PART	_	_	26	discourse	_	AlignBegin=68220|AlignEnd=68343|Gloss=DM
-19	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	26	mod	_	AlignBegin=68343|AlignEnd=68466|Gloss=2Sing.Cnd
+18	tòː	tòː	PART	_	_	25	discourse	_	AlignBegin=68220|AlignEnd=68343|Gloss=DM
+19	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	25	mod	_	AlignBegin=68343|AlignEnd=68466|Gloss=2Sing.Cnd
 20	mân	máni	VERB	_	_	19	comp:aux	_	AlignBegin=68466|AlignEnd=68589|Gloss=come
 21	ɗaŋ	ɗan	ADV	_	_	22	mod	_	AlignBegin=68589|AlignEnd=68712|Gloss=as
 22	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	19	conj:coord	_	AlignBegin=68712|AlignEnd=68835|Gloss=2Sing.Aor
 23	mán	máni	VERB	_	_	22	comp:aux	_	AlignBegin=68835|AlignEnd=68958|Gloss=come
 24	ngaɓíː	ngap	VERB	_	Aspect=Res	23	compound:svc	_	AlignBegin=68958|AlignEnd=69081|Gloss=catch|wordform=ngap
-25	tôː	tòː	PART	_	_	26	discourse	_	AlignBegin=69081|AlignEnd=69204|Gloss=DM
-26	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=69204|AlignEnd=69327|Gloss=3Sing.Aor
-27	nǎːy	naː	VERB	_	Aspect=Res	26	comp:aux	_	AlignBegin=69327|AlignEnd=69450|Gloss=become-Res|wordform=naː
-28	nə	nə	PART	_	_	27	comp:pred	_	AlignBegin=69450|AlignEnd=69573|Gloss=be
-29	gwàː	gwàː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	28	comp:pred	_	AlignBegin=69573|AlignEnd=69696|Gloss=2Sing.Gen
-30	//	//	PUNCT	_	_	26	punct	_	AlignBegin=69696|AlignEnd=69820|Gloss=PUNCT
+25	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=69204|AlignEnd=69327|Gloss=3Sing.Aor
+26	nǎːy	naː	VERB	_	Aspect=Res	25	comp:aux	_	AlignBegin=69327|AlignEnd=69450|Gloss=become-Res|wordform=naː
+27	nə	nə	PART	_	_	26	comp:pred	_	AlignBegin=69450|AlignEnd=69573|Gloss=be
+28	gwàː	gwàː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	27	comp:pred	_	AlignBegin=69573|AlignEnd=69696|Gloss=2Sing.Gen
+29	//	//	PUNCT	_	_	25	punct	_	AlignBegin=69696|AlignEnd=69820|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_050-053
 # speaker_id = SP1
