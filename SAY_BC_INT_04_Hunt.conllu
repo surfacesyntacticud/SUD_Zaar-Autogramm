@@ -52,7 +52,7 @@
 18	bəndígà	bəndígà	NOUN	_	_	17	comp:pred	_	AlignBegin=7066|AlignEnd=7254|Gloss=gun|Lang=hau
 19	a:	a:	PART	_	PartType=Int	17	mod	_	AlignBegin=7254|AlignEnd=7442|Gloss=VRT
 20	|c	|c	PUNCT	_	_	23	punct	_	AlignBegin=7442|AlignEnd=7630|Gloss=PUNCT
-21	kóː	kóː	CCONJ	_	_	23	cc	_	AlignBegin=7630|AlignEnd=7922|ExtPos=CCONJ|Gloss=or|Idiom=Yes|Lang=hau
+21	kóː	kóː	CCONJ	_	ExtPos=CCONJ	23	cc	_	AlignBegin=7630|AlignEnd=7922|Gloss=or|Idiom=Yes|Lang=hau
 22	kúmá	kúmá	PART	_	_	21	unk	_	AlignBegin=7922|AlignEnd=8215|Gloss=else|InIdiom=Yes|Lang=hau
 23	kə̀tà	ta	AUX	_	Number=Sing|Person=2|Tense=Rem	17	conj:coord	_	AlignBegin=8900|AlignEnd=9059|Gloss=2Plur.Rem
 24	yír	yír	VERB	_	_	23	comp:aux	_	AlignBegin=9059|AlignEnd=9218|Gloss=have
@@ -82,7 +82,7 @@
 9	ngə́tn	ngə́tn	NOUN	_	_	7	mod	_	AlignBegin=13366|AlignEnd=13498|Gloss=thing
 10	=wôs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	9	mod@poss	_	AlignBegin=13498|AlignEnd=13629|Gloss=3Sing.Gen
 11	ngap	ngap	VERB	_	_	7	conj:coord	_	AlignBegin=13629|AlignEnd=13892|Gloss=take
-12	mbwáːɣə̂n	mbwaː	VERB	_	VerbForm=Vnoun	11	comp:obj	_	AlignBegin=13892|AlignEnd=14153|ExtPos=NOUN|Gloss=shoot-NMLZ|wordform=mbwaː
+12	mbwáːɣə̂n	mbwaː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	11	comp:obj	_	AlignBegin=13892|AlignEnd=14153|Gloss=shoot-NMLZ|wordform=mbwaː
 13-14	ngə́taː	_	_	_	_	_	_	_	_
 13	ngə́tn	ngə́tn	NOUN	_	_	12	comp:obj	_	AlignBegin=14153|AlignEnd=14249|Gloss=thing
 14	a:	a:	PART	_	PartType=Int	4	mod	_	AlignBegin=14249|AlignEnd=14346|Gloss=VRT
@@ -173,7 +173,7 @@
 2	||	||	PUNCT	_	_	3	punct	_	AlignBegin=27670|AlignEnd=27911|Gloss=PUNCT
 3	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	1	conj:dicto	_	AlignBegin=27911|AlignEnd=28093|Gloss=2Sing.Aor
 4	ɬíː	ɬə	VERB	_	Aspect=Res	3	comp:aux	_	AlignBegin=28093|AlignEnd=28275|Gloss=go-Res|wordform=ɬə
-5	ŋálɣə̂n	ŋal	VERB	_	VerbForm=Vnoun	4	comp:goal	_	AlignBegin=28275|AlignEnd=28457|ExtPos=NOUN|Gloss=walk_around-NMLZ|wordform=ŋal
+5	ŋálɣə̂n	ŋal	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	comp:goal	_	AlignBegin=28275|AlignEnd=28457|Gloss=walk_around-NMLZ|wordform=ŋal
 6	námtsə	námtsə	NOUN	_	_	5	comp:obj	_	AlignBegin=28457|AlignEnd=28639|Gloss=bush
 7	kúrûm	kúrûm	ADV	_	_	4	mod	_	AlignBegin=28639|AlignEnd=28821|Gloss=only
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=28821|AlignEnd=29000|Gloss=PUNCT
@@ -259,7 +259,7 @@
 27	*yǎːɬ-íː	yaːɬ	NOUN	_	Definite=Cons|Deixis=Dist	26	comp:obj	_	AlignBegin=44073|AlignEnd=44317|Gloss=country-CONS-Rem|wordform=yaːɬ
 28	=wâːn	=waːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	27	mod@poss	_	AlignBegin=44195|AlignEnd=44256|Gloss=2Plur.Gen
 29	|c	|c	PUNCT	_	_	32	punct	_	AlignBegin=44317|AlignEnd=44560|Gloss=PUNCT
-30	kóː	kóː	CCONJ	_	_	32	cc	_	AlignBegin=45220|AlignEnd=45371|ExtPos=CCONJ|Gloss=or|Idiom=Yes
+30	kóː	kóː	CCONJ	_	ExtPos=CCONJ	32	cc	_	AlignBegin=45220|AlignEnd=45371|Gloss=or|Idiom=Yes
 31	kwǎː	kwǎː	PART	_	_	30	mod	_	AlignBegin=45371|AlignEnd=45522|Gloss=else|InIdiom=Yes
 32	á	ká	ADP	_	_	26	conj:coord	_	AlignBegin=45522|AlignEnd=45673|Gloss=at
 33-34	wǔːrwâːníː	_	_	_	_	_	_	_	_
@@ -484,7 +484,7 @@
 # text_ortho = tə́ mbwáːɣə̂n ɬôːs tá wu tu gálálálálá gálálálálá gálálálálá //
 # text_en = When shooting the animal, you shout gálálálálá gálálálálá gálálálálá.
 1	tə́	á	ADP	_	_	4	mod	_	AlignBegin=83860|AlignEnd=83995|Gloss=with
-2	mbwáːɣə̂n	mbwaː	VERB	_	VerbForm=Vnoun	1	comp:obj	_	AlignBegin=83995|AlignEnd=84130|ExtPos=NOUN|Gloss=shoot-NMLZ|wordform=mbwaː
+2	mbwáːɣə̂n	mbwaː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	1	comp:obj	_	AlignBegin=83995|AlignEnd=84130|Gloss=shoot-NMLZ|wordform=mbwaː
 3	ɬôːs	ɬûː	NOUN	_	Definite=Def	2	comp:obj	_	AlignBegin=84130|AlignEnd=84265|Gloss=animal-Def|wordform=ɬûː
 4	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=84265|AlignEnd=84400|Gloss=3Plur.Fut
 5	wu	wul	VERB	_	_	4	comp:aux	_	AlignBegin=84535|AlignEnd=84670|Gloss=say
@@ -613,7 +613,7 @@
 4-5	tôŋʃí	_	_	_	_	_	_	_	_
 4	tôŋ	tôŋ	PART	_	_	3	comp:aux	_	AlignBegin=109903|AlignEnd=109993|Gloss=line_up
 5	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	4	comp:obj	_	AlignBegin=109993|AlignEnd=110084|Gloss=3Plur.Obj
-6	á	ká	ADP	_	_	4	mod	_	AlignBegin=110084|AlignEnd=110265|ExtPos=ADP|Gloss=at|Idiom=Yes
+6	á	ká	ADP	_	ExtPos=ADP	4	mod	_	AlignBegin=110084|AlignEnd=110265|Gloss=at|Idiom=Yes
 7	teː	teː	ADP	_	_	6	unk	_	AlignBegin=110265|AlignEnd=110446|Gloss=around|InIdiom=Yes
 8	gwàːsə̀ŋə́n	gwàːsə̀ŋ	PRON	_	Case=Gen|Deixis=Prox|Number=Plur|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=110446|AlignEnd=110627|Gloss=3Plur.Gen-PROX
 9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=110808|AlignEnd=110987|Gloss=PUNCT
@@ -1853,7 +1853,7 @@
 5-6	nǎːrwâːn	_	_	_	_	_	_	_	_
 5	nǎːr	naːr	NOUN	_	Definite=Cons	3	mod	_	AlignBegin=281644|AlignEnd=281824|Gloss=hunting
 6	=wâːn	=waːn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	mod@poss	_	AlignBegin=281824|AlignEnd=282005|Gloss=2Plur.Gen
-7	ɗan	ɗan	SCONJ	_	_	3	mod@relcl	_	AlignBegin=282005|AlignEnd=282366|ExtPos=SCONJ|Gloss=REL|Idiom=Yes
+7	ɗan	ɗan	SCONJ	_	ExtPos=SCONJ	3	mod@relcl	_	AlignBegin=282005|AlignEnd=282366|Gloss=REL|Idiom=Yes
 8	tu	tu	SCONJ	_	_	7	unk	_	AlignBegin=282366|AlignEnd=282730|Gloss=COMP|InIdiom=Yes
 9	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	7	comp:obj	_	AlignBegin=282730|AlignEnd=282945|Gloss=1Sing.Fut
 10	ʧi	ʧi	VERB	_	_	9	comp:aux	_	AlignBegin=282945|AlignEnd=283160|Gloss=eat
@@ -1907,7 +1907,7 @@
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=290794|AlignEnd=290969|Gloss=be
 6	ɗa	ɗa	ADP	_	_	5	compound:prt	_	AlignBegin=290969|AlignEnd=291144|Gloss=at
 7	//+	//+	PUNCT	_	_	8	punct	_	AlignBegin=291144|AlignEnd=291320|Gloss=PUNCT
-8	séː	séː	ADV	_	_	5	mod	_	AlignBegin=291633|AlignEnd=292025|ExtPos=SCONJ|Gloss=only|Idiom=Yes
+8	séː	séː	ADV	_	ExtPos=SCONJ	5	mod	_	AlignBegin=291633|AlignEnd=292025|Gloss=only|Idiom=Yes
 9	deː	deː	ADV	_	_	8	mod	_	AlignBegin=292025|AlignEnd=292418|Gloss=anyway|InIdiom=Yes
 10	kapkə́	kapkə́	ADP	_	_	8	comp:obj	_	AlignBegin=292418|AlignEnd=292673|Gloss=for
 11	pîːs	pî	VERB	_	_	10	comp:obj	_	AlignBegin=292673|AlignEnd=292928|Gloss=arrow
@@ -1935,7 +1935,7 @@
 # text_ortho = tu naː ɣáy gón mbwaː pîːsɗi mán tuɣə < tôː ká ɬya wukês dòmín káɗâ pîːs tə̀ ngápkə hŋ́ //
 # text_en = That is if it happens that someone has shot an arrow that has hit you, well you would drink a potion so that the arrow would not hit you.
 1	tu	tu	SCONJ	_	_	13	discourse	_	AlignBegin=295480|AlignEnd=295673|Gloss=COMP
-2	naː	naː	VERB	_	_	13	mod	_	AlignBegin=295673|AlignEnd=295866|ExtPos=SCONJ|Gloss=become|Idiom=Yes
+2	naː	naː	VERB	_	ExtPos=SCONJ	13	mod	_	AlignBegin=295673|AlignEnd=295866|Gloss=become|Idiom=Yes
 3	ɣáy	káy	PRON	_	Person=3|PronType=Prs	2	comp:obl@expl	_	AlignBegin=295866|AlignEnd=296059|Gloss=ANAPH|InIdiom=Yes
 4	gón	gón	PRON	_	Definite=Spec	5	subj	_	AlignBegin=296059|AlignEnd=296252|Gloss=SPEC
 5	mbwaː	mbwaː	VERB	_	_	2	comp:obj	_	AlignBegin=296252|AlignEnd=296445|Gloss=shoot
@@ -2232,7 +2232,7 @@
 22	gǎːm	gàːm	NOUN	_	_	21	comp:obj	_	AlignBegin=346640|AlignEnd=346906|Gloss=head|wordform=gàːm
 23	=wôs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	22	mod@poss	_	AlignBegin=346906|AlignEnd=347118|Gloss=3Sing.Gen
 24	=ɗì	=ɗi	PART	_	_	21	compound:prt	_	AlignBegin=347118|AlignEnd=347331|Gloss=Ctp
-25	á	ká	ADP	_	_	21	mod	_	AlignBegin=348220|AlignEnd=348534|ExtPos=ADP|Gloss=at|Idiom=Yes
+25	á	ká	ADP	_	ExtPos=ADP	21	mod	_	AlignBegin=348220|AlignEnd=348534|Gloss=at|Idiom=Yes
 26	gìp	gìp	ADP	_	_	25	unk	_	AlignBegin=348534|AlignEnd=348848|Gloss=inside|InIdiom=Yes
 27	də̀n	də̀n	NOUN	_	_	25	comp:obj	_	AlignBegin=348848|AlignEnd=349162|Gloss=house
 28	maːndə́	maːndə́	NOUN	_	_	27	conj:dicto	_	AlignBegin=349162|AlignEnd=349476|Gloss=fight
