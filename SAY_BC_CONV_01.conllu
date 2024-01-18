@@ -691,7 +691,7 @@
 2	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=74096|AlignEnd=74305|Gloss=3Sing.Perf
 3	náːy	naː	VERB	_	Aspect=Res	2	comp:aux	_	AlignBegin=74305|AlignEnd=74409|Gloss=become.Res
 4	ɗàrí	ɗàrí	NUM	_	_	3	comp:pred	_	AlignBegin=74514|AlignEnd=74723|Gloss=hundred
-5	lim	lim	NUM	_	_	4	flat:num	_	AlignBegin=74723|AlignEnd=74932|Gloss=six
+5	lim	lim	NUM	_	_	4	flat@num		_	AlignBegin=74723|AlignEnd=74932|Gloss=six
 6	kóː	kóː	CCONJ	_	_	2	mod	_	AlignBegin=74932|AlignEnd=75141|Gloss=or_what
 7	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=75141|AlignEnd=75347|Gloss=PUNCT
 
@@ -705,7 +705,7 @@
 1	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=75618|AlignEnd=75775|Gloss=3Sing.Perf
 2	náːy	naː	VERB	_	Aspect=Res	1	comp:aux	_	AlignBegin=75775|AlignEnd=75853|Gloss=become.Res
 3	ɗàrí	ɗàrí	NUM	_	_	2	comp:pred	_	AlignBegin=75932|AlignEnd=76089|Gloss=hundred
-4	lim	lim	NUM	_	_	3	flat:num	_	AlignBegin=76089|AlignEnd=76246|Gloss=six
+4	lim	lim	NUM	_	_	3	flat@num		_	AlignBegin=76089|AlignEnd=76246|Gloss=six
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=76246|AlignEnd=76402|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_081-081
@@ -737,7 +737,7 @@
 10	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	7	parataxis@conj	_	AlignBegin=80153|AlignEnd=80329|Gloss=3Sing.Fut
 11	naː	naː	VERB	_	_	10	comp:aux	_	AlignBegin=80329|AlignEnd=80505|Gloss=become
 12	ɗàrí	ɗàrí	NUM	_	_	11	comp:pred	_	AlignBegin=80505|AlignEnd=80681|Gloss=hundred
-13	nandam	nandam	NUM	_	_	12	flat:num	_	AlignBegin=80681|AlignEnd=80857|Gloss=five
+13	nandam	nandam	NUM	_	_	12	flat@num		_	AlignBegin=80681|AlignEnd=80857|Gloss=five
 14	//	//	PUNCT	_	_	7	punct	_	AlignBegin=80857|AlignEnd=81029|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_084-085
@@ -766,7 +766,7 @@
 1	myàː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=1	0	root	_	AlignBegin=83379|AlignEnd=83608|Gloss=1Plur.Cnd
 2	tu	tu	VERB	_	_	1	comp:aux	_	AlignBegin=83608|AlignEnd=83837|Gloss=get
 3	dubu	dubu	NUM	_	_	2	comp:obj	_	AlignBegin=83837|AlignEnd=84066|Gloss=thousand
-4	nàmbóŋə́y	nàmbóŋ	NUM	_	Aspect=Res	3	flat:num	_	AlignBegin=84066|AlignEnd=84180|Gloss=one.Res
+4	nàmbóŋə́y	nàmbóŋ	NUM	_	Aspect=Res	3	flat@num		_	AlignBegin=84066|AlignEnd=84180|Gloss=one.Res
 5	ɗangəní	ɗangəní	ADV	_	PronType=Dem	2	mod	_	AlignBegin=84295|AlignEnd=84524|Gloss=now
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=84524|AlignEnd=84755|Gloss=PUNCT
 
@@ -800,7 +800,7 @@
 6	myàː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=1	14	mod	_	AlignBegin=85581|AlignEnd=85775|Gloss=1Plur.Cnd
 7	tu	tu	VERB	_	_	6	comp:aux	_	AlignBegin=85775|AlignEnd=85969|Gloss=get
 8	dubu	dubu	NUM	_	_	7	comp:obj	_	AlignBegin=85969|AlignEnd=86163|Gloss=thousand
-9	nàmbóɲíː	nàmbóŋ	NUM	_	Aspect=Res	8	flat:num	_	AlignBegin=86163|AlignEnd=86260|Gloss=one.Res
+9	nàmbóɲíː	nàmbóŋ	NUM	_	Aspect=Res	8	flat@num		_	AlignBegin=86163|AlignEnd=86260|Gloss=one.Res
 10	<	<	PUNCT	_	_	6	punct	_	AlignBegin=86357|AlignEnd=86551|Gloss=PUNCT
 11	lûː	lûː	NOUN	_	_	14	subj	_	AlignBegin=86551|AlignEnd=86812|Gloss=shirt
 12	tə́	tə́	ADP	_	_	13	cc	_	AlignBegin=86812|AlignEnd=87073|Gloss=with
@@ -1459,8 +1459,8 @@
 # text_ortho = shi ya sa ʧáː polɣə Féːlêks éy !//
 # text_en = That's why you like Felix indeed!
 1	shi	shi	X	_	Foreign=Yes	4	discourse	_	AlignBegin=170171|AlignEnd=170294|Gloss=3Sing.M|Lang=hau
-2	ya	ya	X	_	Foreign=Yes|Number=Sing	1	flat:foreign	_	AlignBegin=170294|AlignEnd=170417|Gloss=3.Sing.PFV|Lang=hau
-3	sa	sa	X	_	Foreign=Yes	2	flat:foreign	_	AlignBegin=170417|AlignEnd=170540|Gloss=cause|Lang=hau
+2	ya	ya	X	_	Foreign=Yes|Number=Sing	1	flat@foreign	_	AlignBegin=170294|AlignEnd=170417|Gloss=3.Sing.PFV|Lang=hau
+3	sa	sa	X	_	Foreign=Yes	2	flat@foreign	_	AlignBegin=170417|AlignEnd=170540|Gloss=cause|Lang=hau
 4	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=170540|AlignEnd=170832|Gloss=3Sing.Imp
 5-6	polɣə	_	_	_	_	_	_	_	_
 5	pol	pol	VERB	_	_	4	comp:aux	_	AlignBegin=170832|AlignEnd=170978|Gloss=please
@@ -1477,8 +1477,8 @@
 # text_ortho = shi ya sa myáː súː Féːlêks sòːséy //
 # text_en = That's why I like Felix very much.
 1	shi	shi	X	_	Foreign=Yes|Number=Sing	4	discourse	_	AlignBegin=172628|AlignEnd=172746|Gloss=3Sing.M|Lang=hau
-2	ya	ya	X	_	Foreign=Yes|Number=Sing	1	flat:foreign	_	AlignBegin=172746|AlignEnd=172864|Gloss=3.Sing|Lang=hau
-3	sa	sa	X	_	Foreign=Yes	2	flat:foreign	_	AlignBegin=172864|AlignEnd=172981|Gloss=put|Lang=hau
+2	ya	ya	X	_	Foreign=Yes|Number=Sing	1	flat@foreign	_	AlignBegin=172746|AlignEnd=172864|Gloss=3.Sing|Lang=hau
+3	sa	sa	X	_	Foreign=Yes	2	flat@foreign	_	AlignBegin=172864|AlignEnd=172981|Gloss=put|Lang=hau
 4	myáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	0	root	_	AlignBegin=172981|AlignEnd=173202|Gloss=1Sing.Imp
 5	súː	súː	VERB	_	_	4	comp:aux	_	AlignBegin=173202|AlignEnd=173423|Gloss=like
 6	Féːlêks	Féːlêks	PROPN	_	_	5	comp:obj	_	AlignBegin=173423|AlignEnd=173644|Gloss=Felix
@@ -1540,7 +1540,7 @@
 12	=âtn	=atn	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	mod@poss	_	AlignBegin=178153|AlignEnd=178238|Gloss=1Sing.Gen
 13	<	<	PUNCT	_	_	5	punct	_	AlignBegin=178238|AlignEnd=178410|Gloss=PUNCT
 14	bâː	bâː	X	_	Foreign=Yes	0	root	_	AlignBegin=178410|AlignEnd=178609|Gloss=no|Lang=hau
-15	dàːmuwa	dàːmuwa	X	_	Foreign=Yes	14	flat:foreign	_	AlignBegin=178609|AlignEnd=178808|Gloss=problem|Lang=hau
+15	dàːmuwa	dàːmuwa	X	_	Foreign=Yes	14	flat@foreign	_	AlignBegin=178609|AlignEnd=178808|Gloss=problem|Lang=hau
 16	//	//	PUNCT	_	_	14	punct	_	AlignBegin=178808|AlignEnd=179007|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_175-175
@@ -1684,7 +1684,7 @@
 14	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	AlignBegin=189495|AlignEnd=189586|Gloss=3Sing.Obj
 15	<	<	PUNCT	_	_	4	punct	_	AlignBegin=189586|AlignEnd=189765|Gloss=PUNCT
 16	bâː	bâː	X	_	Foreign=Yes	0	root	_	AlignBegin=189765|AlignEnd=189992|Gloss=no|Lang=hau
-17	dàːmuwa	dàːmuwa	X	_	Foreign=Yes	16	flat:foreign	_	AlignBegin=189992|AlignEnd=190219|Gloss=problem|Lang=hau
+17	dàːmuwa	dàːmuwa	X	_	Foreign=Yes	16	flat@foreign	_	AlignBegin=189992|AlignEnd=190219|Gloss=problem|Lang=hau
 18	//	//	PUNCT	_	_	16	punct	_	AlignBegin=190219|AlignEnd=190445|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_189-189
@@ -2013,7 +2013,7 @@
 10	tə́	tə́	ADP	_	_	9	comp:obl	_	AlignBegin=228381|AlignEnd=228539|Gloss=with
 11	péːpa	péːpa	NOUN	_	_	10	comp:obj	_	AlignBegin=228539|AlignEnd=228697|Gloss=exam
 12	mai	mai	ADP	_	Foreign=Yes	11	mod	_	AlignBegin=228855|AlignEnd=229013|Gloss=with|Lang=hau
-13	kyau	kyau	NOUN	_	Foreign=Yes	12	flat:foreign	_	AlignBegin=229013|AlignEnd=229171|Gloss=good|Lang=hau
+13	kyau	kyau	NOUN	_	Foreign=Yes	12	flat@foreign	_	AlignBegin=229013|AlignEnd=229171|Gloss=good|Lang=hau
 14	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=229171|AlignEnd=229325|Gloss=PUNCT
 15	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	8	conj:coord	_	AlignBegin=229325|AlignEnd=229429|Gloss=3Sing.Sub
 16	ɬə́	ɬə	VERB	_	_	15	comp:aux	_	AlignBegin=229429|AlignEnd=229533|Gloss=go
@@ -2617,8 +2617,8 @@
 22	ngə́tn	ngətn	NOUN	_	Definite=Cons	20	comp:obj	_	AlignBegin=299932|AlignEnd=300276|Gloss=thing
 23	ʧíɣə̂n	ʧi	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	22	compound	_	AlignBegin=300276|AlignEnd=300448|Gloss=eat.NMLZ
 24	da	da	CCONJ	_	Foreign=Yes	22	conj:coord	_	AlignBegin=300620|AlignEnd=300874|Gloss=with|Lang=hau
-25	sauransu	sauransu	NOUN	_	Foreign=Yes	24	flat:foreign	_	AlignBegin=300874|AlignEnd=301128|Gloss=rest_of_3Plur|Lang=hau
-26	dai	dai	PART	_	Foreign=Yes	25	flat:foreign	_	AlignBegin=301128|AlignEnd=301381|Gloss=indeed|Lang=hau
+25	sauransu	sauransu	NOUN	_	Foreign=Yes	24	flat@foreign	_	AlignBegin=300874|AlignEnd=301128|Gloss=rest_of_3Plur|Lang=hau
+26	dai	dai	PART	_	Foreign=Yes	25	flat@foreign	_	AlignBegin=301128|AlignEnd=301381|Gloss=indeed|Lang=hau
 27	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	17	parataxis@mod	_	AlignBegin=301381|AlignEnd=301544|Gloss=3Sing.Sub
 28	ngáː	ngaː	VERB	_	_	27	comp:aux	_	AlignBegin=301544|AlignEnd=301707|Gloss=take_food|SVC=Yes
 29	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	27	compound:svc	_	AlignBegin=301707|AlignEnd=301870|Gloss=3Sing.Sub
@@ -2697,8 +2697,8 @@
 29	<	<	PUNCT	_	_	26	punct	_	AlignBegin=312624|AlignEnd=312838|Gloss=PUNCT
 30	tòː	tòː	PART	_	_	35	discourse	_	AlignBegin=313444|AlignEnd=313566|Gloss=well
 31	shi	shi	X	_	Foreign=Yes|Number=Sing	35	discourse	_	AlignBegin=313566|AlignEnd=313688|Gloss=3Sing.M|Lang=hau
-32	ke	ke	X	_	Foreign=Yes	31	flat:foreign	_	AlignBegin=313688|AlignEnd=313810|Gloss=be|Lang=hau
-33	nan	nan	X	_	Foreign=Yes	32	flat:foreign	_	AlignBegin=313810|AlignEnd=313932|Gloss=there|Lang=hau
+32	ke	ke	X	_	Foreign=Yes	31	flat@foreign	_	AlignBegin=313688|AlignEnd=313810|Gloss=be|Lang=hau
+33	nan	nan	X	_	Foreign=Yes	32	flat@foreign	_	AlignBegin=313810|AlignEnd=313932|Gloss=there|Lang=hau
 34	<	<	PUNCT	_	_	31	punct	_	AlignBegin=313932|AlignEnd=314052|Gloss=PUNCT
 35	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	0	root	_	AlignBegin=314052|AlignEnd=314182|Gloss=1Sing.Fut
 36	ɗyáː	ɗyáː	VERB	_	_	35	comp:aux	_	AlignBegin=314182|AlignEnd=314312|Gloss=be_able|SVC=Yes
@@ -2747,9 +2747,9 @@
 18	ɬíː	ɬə	VERB	_	Aspect=Res	10	comp:obj	_	AlignBegin=319664|AlignEnd=319806|Gloss=go-Res
 19	makaranta	makaranta	NOUN	_	_	18	comp:goal	_	AlignBegin=319948|AlignEnd=320733|Gloss=school
 20	College	College	PROPN	_	Foreign=Yes	18	mod	_	AlignBegin=320733|AlignEnd=321065|Gloss=college|Lang=en
-21	of	of	ADP	_	Foreign=Yes	20	flat:foreign	_	AlignBegin=321065|AlignEnd=321397|Gloss=of|Lang=en
-22	Education	Education	PROPN	_	Foreign=Yes	21	flat:foreign	_	AlignBegin=321397|AlignEnd=321729|Gloss=education|Lang=en
-23	Azare	Azare	PROPN	_	_	22	flat:foreign	_	AlignBegin=321729|AlignEnd=322061|Gloss=Azare
+21	of	of	ADP	_	Foreign=Yes	20	flat@foreign	_	AlignBegin=321065|AlignEnd=321397|Gloss=of|Lang=en
+22	Education	Education	PROPN	_	Foreign=Yes	21	flat@foreign	_	AlignBegin=321397|AlignEnd=321729|Gloss=education|Lang=en
+23	Azare	Azare	PROPN	_	_	22	flat@foreign	_	AlignBegin=321729|AlignEnd=322061|Gloss=Azare
 24	//	//	PUNCT	_	_	6	punct	_	AlignBegin=322061|AlignEnd=322393|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_325-327
