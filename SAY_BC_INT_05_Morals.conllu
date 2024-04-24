@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = SAY_BC_INT_05_Morals_001-007
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_05_MORALS.WAV
@@ -253,7 +252,7 @@
 # text_en = "Well, drink your beer very well but don't drink more beer than you can stand lest you do anything wrong."
 1	tôː	tòː	PART	_	_	3	discourse	_	AlignBegin=39080|AlignEnd=39190|Gloss=DM
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=39190|AlignEnd=39300|Gloss=PUNCT
-3	ɬyǎn	ɬya	VERB	_	Mood=Imp|Number=Plur	0	root	_	AlignBegin=39640|AlignEnd=39754|Gloss=drink.Imp.Plur
+3	ɬyǎn	ɬya	VERB	_	Number=Plur	0	root	_	AlignBegin=39640|AlignEnd=39754|Gloss=drink.Imp.Plur|Imperative=Yes
 4-5	ɗûːwàːn	_	_	_	_	_	_	_	_
 4	ɗûː	ɗûː	NOUN	_	_	3	comp:obj	_	AlignBegin=39867|AlignEnd=39981|Gloss=beer
 5	=wàːn	=waːn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	mod@poss	_	AlignBegin=39981|AlignEnd=40094|Gloss=2Plur.Gen
@@ -495,11 +494,11 @@
 8	tu	tu	SCONJ	_	Mood=Qot	6	mod	_	AlignBegin=75006|AlignEnd=75238|Gloss=COMP
 9	[	[	PUNCT	_	_	10	punct	_	AlignBegin=75238|AlignEnd=75384|Gloss=PUNCT
 10-11	mǎːnɗi	_	_	_	_	_	_	_	_
-10	mǎːn	máni	VERB	_	Mood=Imp|Number=Plur	8	comp:obj	_	AlignBegin=75384|AlignEnd=75433|Gloss=come.Imp.Plur
+10	mǎːn	máni	VERB	_	Number=Plur	8	comp:obj	_	AlignBegin=75384|AlignEnd=75433|Gloss=come.Imp.Plur|Imperative=Yes
 11	=ɗi	=ɗi	PART	_	_	10	mod	_	AlignBegin=75482|AlignEnd=75530|Gloss=Ctp
 12	!//=	!//=	PUNCT	_	_	13	punct	_	AlignBegin=75530|AlignEnd=75675|Gloss=PUNCT
 13	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	10	parataxis@conj	_	AlignBegin=75675|AlignEnd=75837|Gloss=1Plur.Sub
-14	ɬə̌n	ɬə	VERB	_	Mood=Imp|Number=Plur	13	comp:aux	_	AlignBegin=75837|AlignEnd=75999|Gloss=go.Imp.Plur
+14	ɬə̌n	ɬə	VERB	_	Number=Plur	13	comp:aux	_	AlignBegin=75837|AlignEnd=75999|Gloss=go.Imp.Plur|Imperative=Yes
 15	ndə̂ːr	ndə̂ːr	NOUN	_	_	14	compound:svc	_	AlignBegin=75999|AlignEnd=76161|Gloss=bush
 16	!//=	!//=	PUNCT	_	_	17	punct	_	AlignBegin=76161|AlignEnd=76325|Gloss=PUNCT
 17	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	13	parataxis@conj	_	AlignBegin=76325|AlignEnd=76593|Gloss=1Plur.Sub
@@ -886,7 +885,7 @@
 9	tu	tu	SCONJ	_	Mood=Qot	6	comp:obj	_	AlignBegin=128988|AlignEnd=129160|Gloss=COMP
 10	[	[	PUNCT	_	_	12	punct	_	AlignBegin=130160|AlignEnd=130268|Gloss=PUNCT
 11	tôː	tòː	PART	_	_	12	discourse	_	AlignBegin=130268|AlignEnd=130376|Gloss=DM
-12	ɮə̀ːrə́n	 ɮə́ːr	VERB	_	Mood=Imp|Number=Plur	9	comp:obj	_	AlignBegin=130376|AlignEnd=130430|Gloss=stay.Imp.Plur
+12	ɮə̀ːrə́n	 ɮə́ːr	VERB	_	Number=Plur	9	comp:obj	_	AlignBegin=130376|AlignEnd=130430|Gloss=stay.Imp.Plur|Imperative=Yes
 13	//=	//=	PUNCT	_	_	14	punct	_	AlignBegin=130484|AlignEnd=130590|Gloss=PUNCT
 14	àː	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=2	12	parataxis@conj	_	AlignBegin=130590|AlignEnd=130765|Gloss=2Plur.Sub
 15	gǐːn	giː	VERB	_	Number=Plur	14	comp:aux	_	AlignBegin=130765|AlignEnd=130853|Gloss=plough.Plur
@@ -902,7 +901,7 @@
 # text = gǐːn kîtn sòːséy //
 # text_ortho = gǐːn kîtn sòːséy //
 # text_en = "Be good farmers."
-1	gǐːn	giː	VERB	_	Mood=Imp|Number=Plur	0	root	_	AlignBegin=131980|AlignEnd=132075|Gloss=plough.Imp.Plur
+1	gǐːn	giː	VERB	_	Number=Plur	0	root	_	AlignBegin=131980|AlignEnd=132075|Gloss=plough.Imp.Plur|Imperative=Yes
 2	kîtn	kîtn	NOUN	_	_	1	comp:obj	_	AlignBegin=132170|AlignEnd=132360|Gloss=farm
 3	sòːséy	sòːséy	ADV	_	_	1	mod	_	AlignBegin=132360|AlignEnd=132550|Gloss=quite
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=132550|AlignEnd=132740|Gloss=PUNCT
@@ -1536,7 +1535,7 @@
 15	konə́n	kon	VERB	_	Number=Plur	13	comp:obj	_	AlignBegin=222856|AlignEnd=223068|Gloss=say-Plur|wordform=kon
 16	<	<	PUNCT	_	_	12	punct	_	AlignBegin=223068|AlignEnd=223280|Gloss=PUNCT
 17	tòː	tòː	PART	_	_	18	discourse	_	AlignBegin=223900|AlignEnd=224051|Gloss=DM
-18	ɮə́ːr	ɮə́ːr	VERB	_	Mood=Imp	8	comp:obj	_	AlignBegin=224051|AlignEnd=224202|Gloss=stand-Imp
+18	ɮə́ːr	ɮə́ːr	VERB	_	_	8	comp:obj	_	AlignBegin=224051|AlignEnd=224202|Gloss=stand-Imp|Imperative=Yes
 19	àː	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=2	18	conj:coord	_	AlignBegin=224202|AlignEnd=224353|Gloss=2Sing.Sub
 20-21	fitə	_	_	_	_	_	_	_	_
 20	fi	fi	VERB	_	_	19	comp:aux	_	AlignBegin=224353|AlignEnd=224429|Gloss=do
