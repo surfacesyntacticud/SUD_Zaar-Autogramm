@@ -5820,39 +5820,39 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 740113, 745433
-# text = tôː < dúk tə́ gíː < in kyáː láːp də̌ːr < yáː kíríː < kyáː láːptə máː < kyáː ʧí sâːwòs < ka ɬə́n bwaːptíː //
+# text = tôː |c dúk tə́ gíː |c in kyáː láːp də̌ːr |c yáː kíríː < kyáː láːptə máː < kyáː ʧí sâːwòs < ka ɬə́n bwaːptíː //
 # text_ortho = tôː < dúk tə́ gíː < in kyáː láːp də̌ːr < yáː kíríː < kyáː láːptə máː < kyáː ʧí sâːwòs < ka ɬə́n bwaːptíː //
 # text_en = Well, because of this, if you follow Monitor when he is running, if you follow him and you are lucky, you will be able to kill him.
 1	tôː	tòː	PART	_	_	25	discourse	_	AlignBegin=740113|AlignEnd=740260|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=740260|AlignEnd=740407|Gloss=PUNCT
-3	dúk	dúk	ADV	_	_	5	mod	_	AlignBegin=740407|AlignEnd=740548|Gloss=all|Lang=ha
-4	tə́	tə́	ADP	_	_	1	unk	_	AlignBegin=740548|AlignEnd=740689|Gloss=with
-5	gíː	gíː	PRON	_	PronType=Dem	4	unk	_	AlignBegin=740689|AlignEnd=740830|Gloss=Rem
-6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=740830|AlignEnd=740972|Gloss=PUNCT
+3	dúk	dúk	ADV	_	ExtPos=ADV	25	mod	_	AlignBegin=740407|AlignEnd=740548|Gloss=all|Idiom=Yes|Lang=hau
+4	tə́	tə́	ADP	_	_	3	unk	_	AlignBegin=740548|AlignEnd=740689|Gloss=with|InIdiom=Yes
+5	gíː	gíː	PRON	_	PronType=Dem	4	unk	_	AlignBegin=740689|AlignEnd=740830|Gloss=Rem|InIdiom=Yes
+6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=740830|AlignEnd=740972|Gloss=PUNCT
 7	in	in	SCONJ	_	_	25	mod	_	AlignBegin=740972|AlignEnd=741179|Gloss=if
-8	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	25	mod	_	AlignBegin=741179|AlignEnd=741386|Gloss=2Sing.Cnd
+8	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	7	comp:obj	_	AlignBegin=741179|AlignEnd=741386|Gloss=2Sing.Cnd
 9	láːp	láːp	VERB	_	_	8	comp:aux	_	AlignBegin=741386|AlignEnd=741593|Gloss=follow
 10	də̌ːr	də̌ːr	NOUN	_	_	9	comp:goal	_	AlignBegin=741593|AlignEnd=741800|Gloss=lizard
-11	<	<	PUNCT	_	_	8	punct	_	AlignBegin=741800|AlignEnd=742009|Gloss=PUNCT
-12	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	25	parataxis@mod	_	AlignBegin=742377|AlignEnd=742588|Gloss=3Sing.Cnd
-13	kíríː	kír	VERB	_	Aspect=Res	8	comp:aux	_	AlignBegin=742588|AlignEnd=742799|Gloss=run|wordform=kír
-14	<	<	PUNCT	_	_	12	punct	_	AlignBegin=742799|AlignEnd=743010|Gloss=PUNCT
-15	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	25	mod	_	AlignBegin=743010|AlignEnd=743189|Gloss=2Sing.Cnd
+11	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=741800|AlignEnd=742009|Gloss=PUNCT
+12	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	8	conj:coord	_	AlignBegin=742377|AlignEnd=742588|Gloss=3Sing.Cnd
+13	kíríː	kír	VERB	_	_	12	comp:aux	_	AlignBegin=742588|AlignEnd=742799|Gloss=run|Resultative=Yes|wordform=kír
+14	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=742799|AlignEnd=743010|Gloss=PUNCT
+15	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	12	conj:coord	_	AlignBegin=743010|AlignEnd=743189|Gloss=2Sing.Cnd
 16-17	láːptə	_	_	_	_	_	_	_	_
 16	láːp	láːp	VERB	_	_	15	comp:aux	_	AlignBegin=743189|AlignEnd=743279|Gloss=follow
 17	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	16	comp:obj	_	AlignBegin=743279|AlignEnd=743368|Gloss=3Sing.Obj
 18	máː	máː	PART	_	_	15	discourse	_	AlignBegin=743368|AlignEnd=743547|Gloss=even
-19	<	<	PUNCT	_	_	15	punct	_	AlignBegin=743547|AlignEnd=743727|Gloss=PUNCT
-20	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	25	mod	_	AlignBegin=743727|AlignEnd=743952|Gloss=2Sing.Cnd
+19	|c	|c	PUNCT	_	_	20	punct	_	AlignBegin=743547|AlignEnd=743727|Gloss=PUNCT
+20	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	15	conj:coord	_	AlignBegin=743727|AlignEnd=743952|Gloss=2Sing.Cnd
 21	ʧí	ʧi	VERB	_	_	20	comp:aux	_	AlignBegin=743952|AlignEnd=744177|Gloss=eat
 22-23	sâːwòs	_	_	_	_	_	_	_	_
 22	sâː	sâː	NOUN	_	_	21	comp:obj	_	AlignBegin=744177|AlignEnd=744289|Gloss=chance
 23	=wòs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	22	mod@poss	_	AlignBegin=744289|AlignEnd=744402|Gloss=3Sing.Gen
-24	<	<	PUNCT	_	_	20	punct	_	AlignBegin=744402|AlignEnd=744626|Gloss=PUNCT
+24	<	<	PUNCT	_	_	7	punct	_	AlignBegin=744402|AlignEnd=744626|Gloss=PUNCT
 25	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=744626|AlignEnd=744828|Gloss=2Sing.Fut
 26	ɬə́n	ɬə́n	VERB	_	_	25	comp:aux	_	AlignBegin=744828|AlignEnd=744929|Gloss=go|SVC=Yes
 27-28	bwaːptíː	_	_	_	_	_	_	_	_
-27	*bwaːp-íː	bwaːp	VERB	_	Aspect=Res	26	compound:svc	_	AlignBegin=745030|AlignEnd=745232|Gloss=kill-Res|wordform=bwaːp
+27	*bwaːp-íː	bwaːp	VERB	_	_	26	compound:svc	_	AlignBegin=745030|AlignEnd=745232|Gloss=kill-Res|Resultative=Yes|wordform=bwaːp
 28	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	27	comp:obj	_	AlignBegin=745097|AlignEnd=745164|Gloss=3Sing.Obj|Incorporated=Yes
 29	//	//	PUNCT	_	_	25	punct	_	AlignBegin=745232|AlignEnd=745433|Gloss=PUNCT
 
