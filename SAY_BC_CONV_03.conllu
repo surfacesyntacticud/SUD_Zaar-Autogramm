@@ -1936,7 +1936,7 @@
 # text_ortho = wéy wannan Lim ne ?//
 # text_en = <Is this Lim> ?
 1	wéy	wéy	PART	_	Foreign=Yes|Mood=Qot	2	mod	_	AlignBegin=270175|AlignEnd=270580|Gloss=EVD|Lang=hau
-2	wannan	wannan	X	_	Foreign=Yes|PronType=Dem	0	root	_	AlignBegin=270580|AlignEnd=270819|Gloss=this|Lang=hau
+2	wannan	wannan	X	_	Foreign=Yes	0	root	_	AlignBegin=270580|AlignEnd=270819|Gloss=this|Lang=hau
 3	Lim	Lim	PROPN	_	_	2	flat@foreign	_	AlignBegin=270819|AlignEnd=271058|Gloss=Lim
 4	ne	ne	X	_	Foreign=Yes	3	flat@foreign	_	AlignBegin=271058|AlignEnd=271297|Gloss=be|Lang=hau
 5	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=271297|AlignEnd=271536|Gloss=PUNCT
@@ -2074,7 +2074,7 @@
 # text_en = They said, <the girl is from which Lim> ?
 1	wéy	wéy	PART	_	Mood=Qot	2	discourse	_	AlignBegin=284692|AlignEnd=284851|Gloss=EVD
 2	ƴar	ƴar	X	_	Foreign=Yes	0	root	_	AlignBegin=284851|AlignEnd=285010|Gloss=girl_of|Lang=hau
-3	wace	X	X	_	Foreign=Yes|PronType=Int	2	flat@foreign	_	AlignBegin=285010|AlignEnd=285169|Gloss=which|Lang=hau
+3	wace	X	X	_	Foreign=Yes	2	flat@foreign	_	AlignBegin=285010|AlignEnd=285169|Gloss=which|Lang=hau
 4	Lim	Lim	PROPN	_	_	3	flat@foreign	_	AlignBegin=285169|AlignEnd=285328|Gloss=Lim
 5	ne	ne	X	_	Foreign=Yes	4	flat@foreign	_	AlignBegin=285328|AlignEnd=285487|Gloss=be|Lang=hau
 6	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=285487|AlignEnd=285647|Gloss=PUNCT
@@ -2104,7 +2104,7 @@
 # text_en = They said <Eh, this is Upper Lim>.
 1	wéy	wéy	PART	_	Mood=Qot	3	discourse	_	AlignBegin=287636|AlignEnd=287848|Gloss=EVD
 2	ai	ai	X	_	Foreign=Yes	3	discourse	_	AlignBegin=287848|AlignEnd=288060|Gloss=eh|Lang=hau
-3	wannan	wannan	X	_	Foreign=Yes|PronType=Dem	0	root	_	AlignBegin=288060|AlignEnd=288272|Gloss=this|Lang=hau
+3	wannan	wannan	X	_	Foreign=Yes	0	root	_	AlignBegin=288060|AlignEnd=288272|Gloss=this|Lang=hau
 4	Limbisa	Limbisa	PROPN	_	_	3	flat@foreign	_	AlignBegin=288272|AlignEnd=288484|Gloss=Lim_Bisa
 5	ne	ne	X	_	Foreign=Yes	4	flat@foreign	_	AlignBegin=288484|AlignEnd=288696|Gloss=be|Lang=hau
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=288696|AlignEnd=288909|Gloss=PUNCT
@@ -6556,7 +6556,7 @@
 3	Gôː	Gôː	PROPN	_	_	0	root	_	AlignBegin=745247|AlignEnd=745358|Gloss=Godiya
 4	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=745358|AlignEnd=745469|Gloss=PUNCT
 5	ke	ke	X	_	Foreign=Yes	3	comp:cleft	_	AlignBegin=745469|AlignEnd=745580|Gloss=be|Lang=hau
-6	nan	nan	X	_	Foreign=Yes|PronType=Dem	5	flat@foreign	_	AlignBegin=745580|AlignEnd=745691|Gloss=there|Lang=hau
+6	nan	nan	X	_	Foreign=Yes	5	flat@foreign	_	AlignBegin=745580|AlignEnd=745691|Gloss=there|Lang=hau
 7	!//	!//	PUNCT	_	_	3	punct	_	AlignBegin=745691|AlignEnd=745799|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_775-775
@@ -6828,7 +6828,7 @@
 28	wuriː	wuriː	ADV	_	PronType=Int	27	mod	_	AlignBegin=772888|AlignEnd=773029|Gloss=how
 29	ɣəndá	kəndá	ADV	_	_	32	mod	_	AlignBegin=773029|AlignEnd=773170|Gloss=then
 30	ŋâːs	ŋáː	NOUN	_	_	32	subj	_	AlignBegin=773170|AlignEnd=773311|Gloss=child
-31	{	{	PUNCT	_	_	32	punct	_	AlignBegin=773311|AlignEnd=773452
+31	{	{	PUNCT	_	_	32	punct	_	AlignBegin=773311|AlignEnd=773452|Gloss=PUNCT
 32	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	27	comp:obj	_	AlignBegin=773452|AlignEnd=773593|Gloss=3Sing.Fut
 33	||	||	PUNCT	_	_	34	punct	_	AlignBegin=773593|AlignEnd=773737|Gloss=PUNCT
 34	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	32	conj:dicto	_	AlignBegin=773737|AlignEnd=773851|Gloss=3Sing.Fut
@@ -6838,7 +6838,7 @@
 38	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	36	conj:dicto	_	AlignBegin=774194|AlignEnd=774317|Gloss=3Sing.Fut
 39	}	}	PUNCT	_	_	32	punct	_	AlignBegin=774317|AlignEnd=774440|Gloss=PUNCT
 40	lut	lut	VERB	_	_	38	comp:aux	_	AlignBegin=774440|AlignEnd=774563|Gloss=skin
-41	kwǎː	kwǎː	PART	_	PronType=Int	26	mod	_	AlignBegin=774563|AlignEnd=774686|Gloss=indeed
+41	kwǎː	kwǎː	PART	_	_	26	discourse	_	AlignBegin=774563|AlignEnd=774686|Gloss=indeed
 42	?//	?//	PUNCT	_	_	26	punct	_	AlignBegin=774686|AlignEnd=774810|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_806-807
