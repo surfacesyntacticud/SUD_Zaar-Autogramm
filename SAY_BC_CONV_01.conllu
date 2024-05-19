@@ -2730,7 +2730,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 314702, 322393
-# text = àmáː á súːɣə̂ngə̀tn < myáː súː mə̀ yél tu myáː gámá sekóndə́ríː sə̀kúːlâtíː < mə̀ ɬíː makaranta College of Education Azare //
+# text = àmáː á súːɣə̂ngə̀tn < myáː súː mə̀ yél tu myáː gámá sekóndə́ríː sə̀kúːl =âtn -íː < mə̀ ɬə -íː makaranta College of Education Azare //
 # text_ortho = àmáː á súːɣə̂n gə̀tn < myáː súː mə̀ yél tu myáː gámá sekóndə́ríː sə̀kúːlâtíː < mə̀ ɬíː makaranta College of Education Azare //
 # text_en = But in my opinion, I want to see that ... if I finish my secondary school, I will go... to school... at the <en College of Education, Azare en>.
 1	àmáː	àmáː	CCONJ	_	_	6	discourse	_	AlignBegin=314702|AlignEnd=314883|Gloss=but
@@ -2744,21 +2744,22 @@
 8	mə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=1	7	parataxis@comp	_	AlignBegin=316091|AlignEnd=316334|Gloss=1Sing.Sub
 9	yél	yel	VERB	_	_	8	comp:aux	_	AlignBegin=316334|AlignEnd=316577|Gloss=see
 10	tu	tu	SCONJ	_	_	9	comp:obj	_	AlignBegin=316577|AlignEnd=316818|Gloss=Qot
-11	myáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=1	18	parataxis@mod	_	AlignBegin=317228|AlignEnd=317591|Gloss=1Sing.Cnd
+11	myáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=1	19	parataxis@mod	_	AlignBegin=317228|AlignEnd=317591|Gloss=1Sing.Cnd
 12	gámá	gamá	VERB	_	_	11	comp:aux	_	AlignBegin=317591|AlignEnd=317954|Gloss=finish
-13	sekóndə́ríː	sekóndə́ríː	ADJ	_	_	14	mod	_	AlignBegin=317954|AlignEnd=318317|Gloss=secondary
-14-15	sə̀kúːlâtíː	_	_	_	_	_	_	_	_
-14	*sə̀kúːl-íː	sə̀kúːl	NOUN	_	Deixis=Remt	12	comp:obj	_	AlignBegin=318317|AlignEnd=318438|Gloss=school.DIST
-15	=âtn	=atn	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	mod@poss	_	AlignBegin=318438|AlignEnd=318559|Gloss=1Sing.Gen
-16	<	<	PUNCT	_	_	11	punct	_	AlignBegin=318680|AlignEnd=319042|Gloss=PUNCT
-17	mə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=1	18	subj	_	AlignBegin=319380|AlignEnd=319664|Gloss=1Sing.Sub
-18	ɬə-íː	ɬə	VERB	_	_	10	comp:obj	_	AlignBegin=319664|AlignEnd=319806|Gloss=go-Res|Result=Yes|wordform=ɬíː
-19	makaranta	makaranta	NOUN	_	_	18	comp:goal	_	AlignBegin=319948|AlignEnd=320733|Gloss=school
-20	College	College	PROPN	_	Foreign=Yes	18	mod	_	AlignBegin=320733|AlignEnd=321065|Gloss=college|Lang=en
-21	of	of	ADP	_	Foreign=Yes	20	flat@foreign	_	AlignBegin=321065|AlignEnd=321397|Gloss=of|Lang=en
-22	Education	Education	PROPN	_	Foreign=Yes	21	flat@foreign	_	AlignBegin=321397|AlignEnd=321729|Gloss=education|Lang=en
-23	Azare	Azare	PROPN	_	_	22	flat@foreign	_	AlignBegin=321729|AlignEnd=322061|Gloss=Azare
-24	//	//	PUNCT	_	_	6	punct	_	AlignBegin=322061|AlignEnd=322393|Gloss=PUNCT
+13	sekóndə́ríː	sekóndə́ríː	ADJ	_	Foreign=Yes	12	comp:obj	_	AlignBegin=317954|AlignEnd=318317|Gloss=secondary|Lang=en
+14	sə̀kúːl	sə̀kúːl	NOUN	_	Foreign=Yes	13	flat:foreign	_	AlignBegin=318317|AlignEnd=318438|Gloss=school|Lang=en
+15	=âtn	=âtn	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	mod@poss	_	AlignBegin=318438|AlignEnd=318559|Gloss=1Sing.Gen
+16	-íː	-íː	PART	_	_	12	af:mod	_	AlignBegin=318438|AlignEnd=318559|Gloss=-Res|Result=Yes
+17	<	<	PUNCT	_	_	11	punct	_	AlignBegin=318680|AlignEnd=319042|Gloss=PUNCT
+18	mə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=1	19	subj	_	AlignBegin=319380|AlignEnd=319664|Gloss=1Sing.Sub
+19	ɬə	ɬə	VERB	_	_	10	comp:obj	_	AlignBegin=319664|AlignEnd=319806|Gloss=go|wordform=ɬíː
+20	-íː	-íː	PART	_	_	19	af:mod	_	AlignBegin=319664|AlignEnd=319806|Gloss=-Res|Result=Yes
+21	makaranta	makaranta	NOUN	_	_	19	comp:goal	_	AlignBegin=319948|AlignEnd=320733|Gloss=school
+22	College	College	PROPN	_	Foreign=Yes	19	mod	_	AlignBegin=320733|AlignEnd=321065|Gloss=college|Lang=en
+23	of	of	ADP	_	Foreign=Yes	22	flat@foreign	_	AlignBegin=321065|AlignEnd=321397|Gloss=of|Lang=en
+24	Education	Education	PROPN	_	Foreign=Yes	23	flat@foreign	_	AlignBegin=321397|AlignEnd=321729|Gloss=education|Lang=en
+25	Azare	Azare	PROPN	_	_	24	flat@foreign	_	AlignBegin=321729|AlignEnd=322061|Gloss=Azare
+26	//	//	PUNCT	_	_	6	punct	_	AlignBegin=322061|AlignEnd=322393|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_325-327
 # speaker_id = SP1

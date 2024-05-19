@@ -560,34 +560,36 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_RELIGION.WAV
 # sent_timecode = 93720, 99720
-# text = tôː < ʧàː ɬə́ wul vìɣ wàːrèʃíː ɗan tə́ ɬə̌ːr gèri |c tôː tə́ maːt káy |c tə́ wâː ɣáy á bùŋli //
+# text = tôː < ʧàː ɬə́ wul vìɣ wâːr -ês -íː ɗan tə́ ɬə̌ːr gèri |c tôː tə́ maːt káy |c tə́ wâː ɣáy á bùŋli //
 # text_ortho = tôː < ʧàː ɬə́ wûl vìk wàːrèʃíː ɗan tə́ ɬə̌ːr gèri |c tôː tə́ maːt káy |c tə́ wâː káy á bùŋli //
 # text_en = Well, when they went and did the ritual, then they brought a chicken, well, with a goat on top, and guineacorn in a baket.
-1	tôː	tôː	PART	_	_	10	discourse	_	AlignBegin=93720|AlignEnd=93902|Gloss=DM
+1	tôː	tôː	PART	_	_	12	discourse	_	AlignBegin=93720|AlignEnd=93902|Gloss=DM
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=93902|AlignEnd=94084|Gloss=PUNCT
-3	ʧàː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	10	parataxis@mod	_	AlignBegin=94084|AlignEnd=94266|Gloss=3Plur.Imp
+3	ʧàː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	12	parataxis@mod	_	AlignBegin=94084|AlignEnd=94266|Gloss=3Plur.Imp
 4	ɬə́	ɬə	VERB	_	_	3	comp:aux	_	AlignBegin=94266|AlignEnd=94448|Gloss=go
 5	wul	wul	VERB	_	_	4	compound:svc	_	AlignBegin=94448|AlignEnd=94630|Gloss=say
 6-7	vìɣ	_	_	_	_	_	_	_	_
-6	vìː	vìː	NOUN	_	_	5	comp:obj	_	AlignBegin=94630|AlignEnd=94721|Gloss=speech
+6	vìː	vìː	NOUN	_	_	5	comp:obj@lvc	_	AlignBegin=94630|AlignEnd=94721|Gloss=speech
 7	kə́	kə́	ADP	_	_	6	mod	_	AlignBegin=94721|AlignEnd=94812|Gloss=of
-8	wâːr-íː	wâːr	NOUN	_	Deixis=Remt	7	comp:obj	_	AlignBegin=94812|AlignEnd=94994|Gloss=fetish-Rem-Res|wordform=wàːrèʃíː
-9	ɗan	ɗan	SCONJ	_	_	10	mod	_	AlignBegin=94994|AlignEnd=95176|Gloss=REL
-10	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=95176|AlignEnd=95358|Gloss=3Plur.Aor
-11	ɬə̌ːr	ɬə	VERB	_	_	10	comp:aux	_	AlignBegin=95358|AlignEnd=95540|Gloss=go.CAUS
-12	gèri	gèri	NOUN	_	_	11	comp:obj	_	AlignBegin=95540|AlignEnd=95722|Gloss=chicken
-13	|c	|c	PUNCT	_	_	16	punct	_	AlignBegin=95722|AlignEnd=95900|Gloss=PUNCT
-14	tôː	tôː	PART	_	_	16	discourse	_	AlignBegin=97120|AlignEnd=97288|Gloss=DM
-15	tə́	tə́	ADP	_	_	16	cc	_	AlignBegin=97288|AlignEnd=97456|Gloss=with
-16	maːt	maːt	NOUN	_	_	12	conj:coord	_	AlignBegin=97456|AlignEnd=97624|Gloss=goat
-17	káy	káy	PRON	_	Person=3|PronType=Prs	16	mod	_	AlignBegin=97624|AlignEnd=97792|Gloss=ANAPH
-18	|c	|c	PUNCT	_	_	20	punct	_	AlignBegin=97792|AlignEnd=97960|Gloss=PUNCT
-19	tə́	tə́	ADP	_	_	20	cc	_	AlignBegin=98840|AlignEnd=98987|Gloss=with
-20	wâː	wâː	NOUN	_	_	16	conj:coord	_	AlignBegin=98987|AlignEnd=99134|Gloss=guineacorn
-21	ɣáy	káy	PRON	_	Person=3|PronType=Prs	20	mod	_	AlignBegin=99134|AlignEnd=99281|Gloss=ANAPH
-22	á	ká	ADP	_	_	20	mod	_	AlignBegin=99281|AlignEnd=99428|Gloss=at
-23	bùŋli	bùŋli	NOUN	_	_	22	comp:obj	_	AlignBegin=99428|AlignEnd=99575|Gloss=basket
-24	//	//	PUNCT	_	_	10	punct	_	AlignBegin=99575|AlignEnd=99720|Gloss=PUNCT
+8	wâːr	wâːr	NOUN	_	_	7	comp:obj	_	AlignBegin=94812|AlignEnd=94994|Gloss=fetish|wordform=wàːrèʃíː
+9	-ês	-ês	DET	_	Deixis=Remt	7	af:det	_	AlignBegin=94812|AlignEnd=94994|Gloss=Remt
+10	-íː	-íː	PART	_	_	7	af:mod	_	AlignBegin=94812|AlignEnd=94994|Gloss=Res|Result=Yes
+11	ɗan	ɗan	SCONJ	_	_	12	mod	_	AlignBegin=94994|AlignEnd=95176|Gloss=REL
+12	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=95176|AlignEnd=95358|Gloss=3Plur.Aor
+13	ɬə̌ːr	ɬə	VERB	_	_	12	comp:aux	_	AlignBegin=95358|AlignEnd=95540|Gloss=go.CAUS
+14	gèri	gèri	NOUN	_	_	13	comp:obj	_	AlignBegin=95540|AlignEnd=95722|Gloss=chicken
+15	|c	|c	PUNCT	_	_	18	punct	_	AlignBegin=95722|AlignEnd=95900|Gloss=PUNCT
+16	tôː	tôː	PART	_	_	18	discourse	_	AlignBegin=97120|AlignEnd=97288|Gloss=DM
+17	tə́	tə́	ADP	_	_	18	cc	_	AlignBegin=97288|AlignEnd=97456|Gloss=with
+18	maːt	maːt	NOUN	_	_	14	conj:coord	_	AlignBegin=97456|AlignEnd=97624|Gloss=goat
+19	káy	káy	PRON	_	Person=3|PronType=Prs	18	mod	_	AlignBegin=97624|AlignEnd=97792|Gloss=ANAPH
+20	|c	|c	PUNCT	_	_	22	punct	_	AlignBegin=97792|AlignEnd=97960|Gloss=PUNCT
+21	tə́	tə́	ADP	_	_	22	cc	_	AlignBegin=98840|AlignEnd=98987|Gloss=with
+22	wâː	wâː	NOUN	_	_	18	conj:coord	_	AlignBegin=98987|AlignEnd=99134|Gloss=guineacorn
+23	ɣáy	káy	PRON	_	Person=3|PronType=Prs	22	mod	_	AlignBegin=99134|AlignEnd=99281|Gloss=ANAPH
+24	á	ká	ADP	_	_	22	mod	_	AlignBegin=99281|AlignEnd=99428|Gloss=at
+25	bùŋli	bùŋli	NOUN	_	_	24	comp:obj	_	AlignBegin=99428|AlignEnd=99575|Gloss=basket
+26	//	//	PUNCT	_	_	12	punct	_	AlignBegin=99575|AlignEnd=99720|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_01_Religion_063-064
 # speaker_id = SP1
