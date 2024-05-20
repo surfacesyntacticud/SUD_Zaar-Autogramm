@@ -278,21 +278,21 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_RELIGION.WAV
 # sent_timecode = 44860, 46911
-# text = tôː átayáː ngapkíwâːnèʃíyaː aː kóː átayáː ngap hŋ́ ?//
+# text = tôː átayáː ngap =kí =wâːnès -íː aː kóː átayáː ngap hŋ́ ?//
 # text_ortho = tôː átayáː ngap kíwâːnèʃíyaː kóː átayáː ngap hŋ́ //
 # text_en = Well, did it use to catch you or not?
 1	tôː	tôː	PART	_	_	2	discourse	_	AlignBegin=44860|AlignEnd=45088|Gloss=DM
 2	átayáː	ta-yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3|Tense=Rem	0	root	_	AlignBegin=45088|AlignEnd=45316|Gloss=3Sing.Rem.Imp
-3-5	ngapkíwâːnèʃíyaː	_	_	_	_	_	_	_	_
-3	*ngap-íː	ngaɓêʃíː	VERB	_	Definite=Def	2	comp:aux	_	AlignBegin=45316|AlignEnd=45544|Gloss=catch|Result=Yes
+3	ngap	ngap	VERB	_	_	2	comp:aux	_	AlignBegin=45316|AlignEnd=45544|Gloss=catch
 4	=kí	=kí	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	3	comp:obj	_	AlignBegin=45362|AlignEnd=45408|Gloss=2Plur.Obj|Incorporated=Yes
-5	=wâːnès	=waːn	PRON	_	Definite=Def|Number=Plur|Person=2|PronType=Prs	3	mod@emp	_	AlignBegin=45408|AlignEnd=45454|Gloss=2Plur.Gen.Def|Incorporated=Yes
-6	aː	aː	PART	_	_	2	mod	_	AlignBegin=45544|AlignEnd=45772|Gloss=VRT
-7	kóː	kóː	CCONJ	_	_	8	cc	_	AlignBegin=45772|AlignEnd=46000|Gloss=or
-8	átayáː	ta-yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3|Tense=Rem	2	conj:coord	_	AlignBegin=46000|AlignEnd=46228|Gloss=3Sing.Rem.Imp
-9	ngap	ngap	VERB	_	_	8	comp:aux	_	AlignBegin=46228|AlignEnd=46456|Gloss=catch
-10	hŋ́	hŋ́	PART	_	Polarity=Neg	8	mod	_	AlignBegin=46456|AlignEnd=46684|Gloss=Neg2
-11	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=46684|AlignEnd=46911|Gloss=PUNCT
+5	=wâːnès	=wâːnès	PRON	_	Definite=Def|Number=Plur|Person=2|PronType=Prs	3	mod@emp	_	AlignBegin=45408|AlignEnd=45454|Gloss=2Plur.Gen.Def|Incorporated=Yes
+6	-íː	-íː	PRON	_	_	3	mod	_	AlignBegin=45408|AlignEnd=45454|Gloss=-Res|Result=Yes
+7	aː	aː	PART	_	_	2	mod	_	AlignBegin=45544|AlignEnd=45772|Gloss=VRT
+8	kóː	kóː	CCONJ	_	_	9	cc	_	AlignBegin=45772|AlignEnd=46000|Gloss=or
+9	átayáː	ta-yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3|Tense=Rem	2	conj:coord	_	AlignBegin=46000|AlignEnd=46228|Gloss=3Sing.Rem.Imp
+10	ngap	ngap	VERB	_	_	9	comp:aux	_	AlignBegin=46228|AlignEnd=46456|Gloss=catch
+11	hŋ́	hŋ́	PART	_	Polarity=Neg	9	mod	_	AlignBegin=46456|AlignEnd=46684|Gloss=Neg2
+12	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=46684|AlignEnd=46911|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_01_Religion_031-033
 # speaker_id = SP1
@@ -600,16 +600,17 @@
 # text = ɗan tə́ ʧôp wáːrêʃíː < tôː vòy kwaːɓíː //
 # text_ortho = ɗan tə́ ʧôp wáːrêʃíː < tôː vòy kwaːɓíː //
 # text_en = After they... had done the ritual well the belly would deflate.
-1	ɗan	ɗan	SCONJ	_	_	8	mod	_	AlignBegin=100620|AlignEnd=100944|Gloss=as
+1	ɗan	ɗan	SCONJ	_	_	9	mod	_	AlignBegin=100620|AlignEnd=100944|Gloss=as
 2	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=100944|AlignEnd=101268|Gloss=3Plur.Aor
-3-4	ʧôp wáːrêʃíː	_	_	_	_	_	_	_	_
-3	*ʧôp-íː	ʧop	VERB	_	_	2	comp:aux	_	AlignBegin=101268|AlignEnd=101592|Gloss=wash|Result=Yes|wordform=#ʧôp-íː
+3-5	ʧôp wáːrêʃíː	_	_	_	_	_	_	_	_
+3	ʧôp	ʧop	VERB	_	_	2	comp:aux	_	AlignBegin=101268|AlignEnd=101592|Gloss=eat|wordform=#ʧôp-íː
 4	wâːrês	wâːr	NOUN	_	Definite=Def	3	comp:obj	_	AlignBegin=101592|AlignEnd=101916|Gloss=fetish-Def|wordform=wâːr
-5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=101916|AlignEnd=102240|Gloss=PUNCT
-6	tôː	tòː	PART	_	_	8	discourse	_	AlignBegin=102580|AlignEnd=102835|Gloss=DM
-7	vòy	vwàː	NOUN	_	Definite=Ind	8	subj	_	AlignBegin=102835|AlignEnd=103090|Gloss=belly.IND|wordform=vwàː
-8	kwaːɓíː	kwaːp	VERB	_	_	0	root	_	AlignBegin=103090|AlignEnd=103345|Gloss=break|Result=Yes|wordform=kwaːp
-9	//	//	PUNCT	_	_	8	punct	_	AlignBegin=103345|AlignEnd=103600|Gloss=PUNCT
+5	-íː	-íː	PART	_	_	3	mod	_	Gloss=Res
+6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=101916|AlignEnd=102240|Gloss=PUNCT
+7	tôː	tòː	PART	_	_	9	discourse	_	AlignBegin=102580|AlignEnd=102835|Gloss=DM
+8	vòy	vwàː	NOUN	_	Definite=Ind	9	subj	_	AlignBegin=102835|AlignEnd=103090|Gloss=belly.IND|wordform=vwàː
+9	kwaːɓíː	kwaːp	VERB	_	_	0	root	_	AlignBegin=103090|AlignEnd=103345|Gloss=break|Result=Yes|wordform=kwaːp
+10	//	//	PUNCT	_	_	9	punct	_	AlignBegin=103345|AlignEnd=103600|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_01_Religion_065-065
 # speaker_id = SP1
@@ -681,25 +682,25 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_RELIGION.WAV
 # sent_timecode = 115656, 118780
-# text = àmá dzàŋ gíː ʧǎː ɬə wûl vìk wàːrèʃíː < tòː wúʃi tə́ pôɣə́y //
+# text = àmá dzàŋ gíː ʧǎː ɬə wûl vìː kə́ wàːrès -íː < tòː wúʃi tə́ pôɣə́y //
 # text_ortho = àmá dzàŋ gíː ʧàː ɬə́ wûl vìk wàːrèʃíː < tòː wúʃi tə́ pôɣə́y //
 # text_en = But the day that they went and did the ritual, well the ulcers would be finished.
-1	àmá	àmá	CCONJ	_	_	13	discourse	_	AlignBegin=115656|AlignEnd=115857|Gloss=but
+1	àmá	àmá	CCONJ	_	_	14	discourse	_	AlignBegin=115656|AlignEnd=115857|Gloss=but
 2	dzàŋ	dzàŋ	NOUN	_	_	4	mod	_	AlignBegin=115857|AlignEnd=116058|Gloss=day
 3	gíː	gíː	PRON	_	PronType=Dem	2	mod	_	AlignBegin=116058|AlignEnd=116259|Gloss=Rem
-4	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	13	parataxis@mod	_	AlignBegin=116259|AlignEnd=116460|Gloss=3Plur.Imp
+4	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	14	parataxis@mod	_	AlignBegin=116259|AlignEnd=116460|Gloss=3Plur.Imp
 5	ɬə	ɬə	VERB	_	_	4	comp:aux	_	AlignBegin=116620|AlignEnd=116816|Gloss=go
-6-9	wûl vìk wàːrèʃíː	_	_	_	_	_	_	_	_
-6	*wûl-íː	wul	VERB	_	_	5	compound:svc	_	AlignBegin=116816|AlignEnd=117012|Gloss=say-Res|Result=Yes|wordform=#wûl-íː
+6	wûl	wul	VERB	_	_	5	compound:svc	_	AlignBegin=116816|AlignEnd=117012|Gloss=say|wordform=#wûl-íː
 7	vìː	vìː	NOUN	_	_	6	comp:obj	_	AlignBegin=117012|AlignEnd=117110|Gloss=speech
 8	kə́	kə́́	ADP	_	_	7	mod	_	AlignBegin=117110|AlignEnd=117208|Gloss=of
-9	wàːrès	wâːr	NOUN	_	Definite=Def	8	comp:obj	_	AlignBegin=117208|AlignEnd=117404|Gloss=fetish-Def
-10	<	<	PUNCT	_	_	4	punct	_	AlignBegin=117404|AlignEnd=117600|Gloss=PUNCT
-11	tòː	tòː	PART	_	_	13	discourse	_	AlignBegin=117980|AlignEnd=118140|Gloss=DM
-12	wúʃi	wûs	NOUN	_	Definite=Ind	13	subj	_	AlignBegin=118140|AlignEnd=118300|Gloss=boil-IND|wordform=wûs
-13	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=118300|AlignEnd=118460|Gloss=3Plur.Aor
-14	pôɣə́y	pok	VERB	_	_	13	comp:aux	_	AlignBegin=118460|AlignEnd=118620|Gloss=finish|Result=Yes|wordform=pok
-15	//	//	PUNCT	_	_	13	punct	_	AlignBegin=118620|AlignEnd=118780|Gloss=PUNCT
+9	wàːrès	wàːrès	NOUN	_	Definite=Def	8	comp:obj	_	AlignBegin=117208|AlignEnd=117404|Gloss=fetish-Def
+10	-íː	-íː	NOUN	_	_	6	mod	_	AlignBegin=117208|AlignEnd=117404|Gloss=-Res|Result=Yes
+11	<	<	PUNCT	_	_	4	punct	_	AlignBegin=117404|AlignEnd=117600|Gloss=PUNCT
+12	tòː	tòː	PART	_	_	14	discourse	_	AlignBegin=117980|AlignEnd=118140|Gloss=DM
+13	wúʃi	wûs	NOUN	_	Definite=Ind	14	subj	_	AlignBegin=118140|AlignEnd=118300|Gloss=boil-IND|wordform=wûs
+14	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=118300|AlignEnd=118460|Gloss=3Plur.Aor
+15	pôɣə́y	pok	VERB	_	_	14	comp:aux	_	AlignBegin=118460|AlignEnd=118620|Gloss=finish|Result=Yes|wordform=pok
+16	//	//	PUNCT	_	_	14	punct	_	AlignBegin=118620|AlignEnd=118780|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_01_Religion_074-074
 # speaker_id = SP1
@@ -808,25 +809,26 @@
 # text = ʧǎː wûl vèːʃíː < yáː kâɓíː tôː < yel || kə yel ndómtsəy ɓaní ɓas =kə //
 # text_ortho = ʧǎː wûl vèːʃíː < yáː kâɓíː tôː < yel || kə yel ndómtsəy ɓaní ɓaskə //
 # text_en = If they did the ritual, if it catches, well see, you see that you are no longer a leper.
-1	ʧǎː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=3	10	mod	_	AlignBegin=138980|AlignEnd=139160|Gloss=3Plur.Cnd
-2-3	wûl vèːʃíː	_	_	_	_	_	_	_	_
-2	*wûl-íː	wul	VERB	_	_	1	comp:aux	_	AlignBegin=139160|AlignEnd=139340|Gloss=say|Result=Yes
+1	ʧǎː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=3	11	mod	_	AlignBegin=138980|AlignEnd=139160|Gloss=3Plur.Cnd
+2-4	wûl vèːʃíː	_	_	_	_	_	_	_	_
+2	wûl	wul	VERB	_	_	1	comp:aux	_	AlignBegin=139160|AlignEnd=139340|Gloss=say|wordform=*wûl-íː
 3	vèːs	vìː	NOUN	_	Definite=Def	2	comp:obj	_	AlignBegin=139340|AlignEnd=139520|Gloss=speech-Def
-4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=139520|AlignEnd=139700|Gloss=PUNCT
-5	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	10	mod	_	AlignBegin=140620|AlignEnd=140793|Gloss=3Sing.Cnd
-6	kap	kap	VERB	_	_	5	comp:aux	_	AlignBegin=140793|AlignEnd=140966|Gloss=take|wordform=kâɓíː
-7	-íː	-íː	PART	_	_	6	mod	_	Gloss=Res|Result=Yes
-8	tôː	tôː	PART	_	_	10	discourse	_	AlignBegin=140966|AlignEnd=141139|Gloss=DM
-9	<	<	PUNCT	_	_	8	punct	_	AlignBegin=141139|AlignEnd=141312|Gloss=PUNCT
-10	yel	yel	VERB	_	_	0	root	_	AlignBegin=141312|AlignEnd=141485|Gloss=see
-11	||	||	PUNCT	_	_	12	punct	_	AlignBegin=141485|AlignEnd=141660|Gloss=PUNCT
-12	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	10	conj:dicto	_	AlignBegin=141880|AlignEnd=142043|Gloss=2Sing.Aor
-13	yel	yel	VERB	_	_	12	comp:aux	_	AlignBegin=142043|AlignEnd=142206|Gloss=see
-14	ndómtsəy	ndómtsə	NOUN	_	Definite=Ind	15	subj	_	AlignBegin=142206|AlignEnd=142369|Gloss=leper-IND
-15	ɓaní	ɓaní	VERB	_	_	13	parataxis@comp	_	AlignBegin=142369|AlignEnd=142532|Gloss=finish
-16	ɓas	ɓas	ADP	_	_	15	comp:obl	_	AlignBegin=142532|AlignEnd=142614|Gloss=at
-17	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	16	comp:obj	_	AlignBegin=142614|AlignEnd=142695|Gloss=2Sing.Obj
-18	//	//	PUNCT	_	_	10	punct	_	AlignBegin=142695|AlignEnd=142860|Gloss=PUNCT
+4	-íː	-íː	PART	_	_	2	mod	_	Gloss=Res
+5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=139520|AlignEnd=139700|Gloss=PUNCT
+6	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	11	mod	_	AlignBegin=140620|AlignEnd=140793|Gloss=3Sing.Cnd
+7	kap	kap	VERB	_	_	6	comp:aux	_	AlignBegin=140793|AlignEnd=140966|Gloss=take|wordform=kâɓíː
+8	-íː	-íː	PART	_	_	7	mod	_	Gloss=Res|Result=Yes
+9	tôː	tôː	PART	_	_	11	discourse	_	AlignBegin=140966|AlignEnd=141139|Gloss=DM
+10	<	<	PUNCT	_	_	9	punct	_	AlignBegin=141139|AlignEnd=141312|Gloss=PUNCT
+11	yel	yel	VERB	_	_	0	root	_	AlignBegin=141312|AlignEnd=141485|Gloss=see
+12	||	||	PUNCT	_	_	13	punct	_	AlignBegin=141485|AlignEnd=141660|Gloss=PUNCT
+13	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	11	conj:dicto	_	AlignBegin=141880|AlignEnd=142043|Gloss=2Sing.Aor
+14	yel	yel	VERB	_	_	13	comp:aux	_	AlignBegin=142043|AlignEnd=142206|Gloss=see
+15	ndómtsəy	ndómtsə	NOUN	_	Definite=Ind	16	subj	_	AlignBegin=142206|AlignEnd=142369|Gloss=leper-IND
+16	ɓaní	ɓaní	VERB	_	_	14	parataxis@comp	_	AlignBegin=142369|AlignEnd=142532|Gloss=finish
+17	ɓas	ɓas	ADP	_	_	16	comp:obl	_	AlignBegin=142532|AlignEnd=142614|Gloss=at
+18	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	17	comp:obj	_	AlignBegin=142614|AlignEnd=142695|Gloss=2Sing.Obj
+19	//	//	PUNCT	_	_	11	punct	_	AlignBegin=142695|AlignEnd=142860|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_01_Religion_088-093
 # speaker_id = SP1
@@ -892,26 +894,26 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_RELIGION.WAV
 # sent_timecode = 159740, 162480
-# text = tôː àmá ʧǎː wûl vìk wàːrèʃíː < tə́ yelíwôs < ka ʃiʃí //
+# text = tôː àmá ʧǎː wûl vìː kə́ wâːrês -íː < tə́ yelíwôs < ka ʃiʃí //
 # text_ortho = tôː àmá ʧǎː wûl vìk wàːrèʃíː < tə́ yelíwôs < ka ʃiʃí //
 # text_en = But if they did the ritual, as you see it, you will rise.
-1	tôː	tôː	PART	_	_	13	discourse	_	AlignBegin=159740|AlignEnd=159909|Gloss=DM
-2	àmá	àmá	CCONJ	_	_	13	discourse	_	AlignBegin=159909|AlignEnd=160078|Gloss=but
-3	ʧǎː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=3	13	mod	_	AlignBegin=160078|AlignEnd=160247|Gloss=3Plur.Cnd
-4-7	wûl vìk wàːrèʃíː	_	_	_	_	_	_	_	_
-4	*wûl-íː	wul	VERB	_	_	3	comp:aux	_	AlignBegin=160247|AlignEnd=160416|Gloss=say-Res|Result=Yes
+1	tôː	tôː	PART	_	_	14	discourse	_	AlignBegin=159740|AlignEnd=159909|Gloss=DM
+2	àmá	àmá	CCONJ	_	_	14	discourse	_	AlignBegin=159909|AlignEnd=160078|Gloss=but
+3	ʧǎː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=3	14	mod	_	AlignBegin=160078|AlignEnd=160247|Gloss=3Plur.Cnd
+4	wûl	wul	VERB	_	_	3	comp:aux	_	AlignBegin=160247|AlignEnd=160416|Gloss=say
 5	vìː	vìː	NOUN	_	_	4	comp:obj	_	AlignBegin=160416|AlignEnd=160500|Gloss=speech
 6	kə́	kə́	ADP	_	_	5	mod	_	AlignBegin=160500|AlignEnd=160585|Gloss=of
-7	wâːrês	wâːr	NOUN	_	Definite=Def	6	comp:obj	_	AlignBegin=160585|AlignEnd=160754|Gloss=fetish-Def
-8	<	<	PUNCT	_	_	3	punct	_	AlignBegin=160754|AlignEnd=160920|Gloss=PUNCT
-9	tə́	tə́	ADP	_	_	13	mod	_	AlignBegin=161460|AlignEnd=161600|Gloss=with
-10-11	yelíwôs	_	_	_	_	_	_	_	_
-10	yeli	yel	VERB	_	_	9	comp:obj	_	AlignBegin=161600|AlignEnd=161740|Gloss=see
-11	=wôs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	10	mod@poss	_	AlignBegin=161740|AlignEnd=161880|Gloss=3Sing.Gen
-12	<	<	PUNCT	_	_	9	punct	_	AlignBegin=161880|AlignEnd=162022|Gloss=PUNCT
-13	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=162022|AlignEnd=162175|Gloss=2Sing.Fut
-14	ʃiʃí	ʃiʃí	VERB	_	_	13	comp:aux	_	AlignBegin=162175|AlignEnd=162328|Gloss=get_up
-15	//	//	PUNCT	_	_	13	punct	_	AlignBegin=162328|AlignEnd=162480|Gloss=PUNCT
+7	wâːrês	wâːrês	NOUN	_	Definite=Def	6	comp:obj	_	AlignBegin=160585|AlignEnd=160754|Gloss=fetish-Def
+8	-íː	-íː	PART	_	_	4	mod	_	AlignBegin=160585|AlignEnd=160754|Gloss=-Res|Result=Yes
+9	<	<	PUNCT	_	_	3	punct	_	AlignBegin=160754|AlignEnd=160920|Gloss=PUNCT
+10	tə́	tə́	ADP	_	_	14	mod	_	AlignBegin=161460|AlignEnd=161600|Gloss=with
+11-12	yelíwôs	_	_	_	_	_	_	_	_
+11	yeli	yel	VERB	_	_	10	comp:obj	_	AlignBegin=161600|AlignEnd=161740|Gloss=see
+12	=wôs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	11	mod@poss	_	AlignBegin=161740|AlignEnd=161880|Gloss=3Sing.Gen
+13	<	<	PUNCT	_	_	10	punct	_	AlignBegin=161880|AlignEnd=162022|Gloss=PUNCT
+14	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=162022|AlignEnd=162175|Gloss=2Sing.Fut
+15	ʃiʃí	ʃiʃí	VERB	_	_	14	comp:aux	_	AlignBegin=162175|AlignEnd=162328|Gloss=get_up
+16	//	//	PUNCT	_	_	14	punct	_	AlignBegin=162328|AlignEnd=162480|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_01_Religion_101-101
 # speaker_id = SP1
@@ -982,10 +984,11 @@
 # text_en = The thing would catch you.
 1	ngəʃí	ngə́tn	NOUN	_	Definite=Def	2	subj	_	AlignBegin=169860|AlignEnd=170055|Gloss=thing-Def
 2	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=170055|AlignEnd=170250|Gloss=3Sing.Fut
-3-4	ngapkíː	_	_	_	_	_	_	_	_
-3	*ngap-íː	ngap	VERB	_	_	2	comp:aux	_	AlignBegin=170250|AlignEnd=170445|Gloss=catch|Result=Yes
+3-5	ngapkíː	_	_	_	_	_	_	_	_
+3	ngap	ngap	VERB	_	_	2	comp:aux	_	AlignBegin=170250|AlignEnd=170445|Gloss=catch|wordform=*ngap-íː
 4	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	3	comp:obj	_	AlignBegin=170315|AlignEnd=170380|Gloss=2Sing.Obj|Incorporated=Yes
-5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=170445|AlignEnd=170641|Gloss=PUNCT
+5	-íː	-íː	PART	_	_	3	mod	_	Gloss=Res
+6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=170445|AlignEnd=170641|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_01_Religion_107-111
 # speaker_id = SP1
@@ -1915,11 +1918,12 @@
 4	séː	séː	ADV	_	ExtPos=ADV	6	mod	_	AlignBegin=324388|AlignEnd=324564|Gloss=must|Idiom=Yes
 5	ín	ín	SCONJ	_	_	4	unk	_	AlignBegin=324564|AlignEnd=324740|Gloss=if|InIdiom=Yes
 6	ʧàːyi	yáː-yiː	AUX	_	Aspect=ImpIter|Number=Plur|Person=3	0	root	_	AlignBegin=324740|AlignEnd=324916|Gloss=3Plur.Imp.Iter
-7-8	yêlkíː	_	_	_	_	_	_	_	_
-7	*yêl-íː	yel	VERB	_	_	6	comp:aux	_	AlignBegin=324916|AlignEnd=325092|Gloss=see|Result=Yes
+7-9	yêlkíː	_	_	_	_	_	_	_	_
+7	yêl	yel	VERB	_	_	6	comp:aux	_	AlignBegin=324916|AlignEnd=325092|Gloss=see|wordform=*yêl-íː
 8	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	7	comp:obj	_	AlignBegin=324975|AlignEnd=325034|Gloss=2Sing.Obj|Incorporated=Yes
-9	ɣáy	káy	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	7	comp:obl@expl	_	AlignBegin=325092|AlignEnd=325268|Gloss=ANAPH
-10	//	//	PUNCT	_	_	6	punct	_	AlignBegin=325268|AlignEnd=325440|Gloss=PUNCT
+9	-íː	-íː	PART	_	_	7	mod	_	Gloss=Res
+10	ɣáy	káy	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	7	comp:obl@expl	_	AlignBegin=325092|AlignEnd=325268|Gloss=ANAPH
+11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=325268|AlignEnd=325440|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_01_Religion_202-202
 # speaker_id = SP2
@@ -2077,7 +2081,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_RELIGION.WAV
 # sent_timecode = 348840, 350740
-# text = yáːni ʧi tu mə́ yisə́ŋ dàtə̂pm Tʃokíː //
+# text = yáːni ʧi tu mə́ yisə́ŋ dàtə̂pm Tʃokn -íː //
 # text_ortho = yâːn ʧi tu mə́ yîsə́ŋ dàtə̂pm Tʃokíː //
 # text_en = That is, we know... God's way.
 1	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	3	dislocated@subj	_	AlignBegin=348840|AlignEnd=349078|Gloss=3Sing.IDP
@@ -2086,11 +2090,11 @@
 3	yi	yi	VERB	_	_	0	root	_	AlignEnd=349316|Gloss=be
 4	tu	tu	SCONJ	_	_	3	comp:pred	_	AlignBegin=349316|AlignEnd=349554|Gloss=COMP
 5	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	4	comp:obj	_	AlignBegin=349554|AlignEnd=349792|Gloss=1Plur.Aor
-6-8	yisə́ŋ dàtə̂pm Tʃokíː	_	_	_	_	_	_	_	_
-6	*yisə́ŋ-íː	yisə́ŋ	VERB	_	_	5	comp:aux	_	AlignBegin=349792|AlignEnd=350030|Gloss=know-Res|Result=Yes
+6	yisə́ŋ	yisə́ŋ	VERB	_	_	5	comp:aux	_	AlignBegin=349792|AlignEnd=350030|Gloss=know
 7	dàtə̂pm	dàtə̂pm	NOUN	_	_	6	comp:obj	_	AlignBegin=350030|AlignEnd=350268|Gloss=road
 8	Tʃokn	Tʃokn	PROPN	_	_	7	mod	_	AlignBegin=350268|AlignEnd=350506|Gloss=God
-9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=350506|AlignEnd=350740|Gloss=PUNCT
+9	-íː	-íː	PART	_	_	6	mod	_	AlignBegin=350268|AlignEnd=350506|Gloss=Res|Result=Yes
+10	//	//	PUNCT	_	_	3	punct	_	AlignBegin=350506|AlignEnd=350740|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_01_Religion_218-218
 # speaker_id = SP1
@@ -2100,10 +2104,11 @@
 # text_ortho = mə́ yîsə́ŋ Yésúy //
 # text_en = We know Jesus,
 1	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=351960|AlignEnd=352195|Gloss=1Plur.Aor
-2-3	yîsə́ŋ Yésúy	_	_	_	_	_	_	_	_
-2	*yîsə́ŋ-íː	yisə́ŋ	VERB	_	_	1	comp:aux	_	AlignBegin=352195|AlignEnd=352430|Gloss=know|Result=Yes
+2-4	yîsə́ŋ Yésúy	_	_	_	_	_	_	_	_
+2	yisə́ŋ	yisə́ŋ	VERB	_	_	1	comp:aux	_	AlignBegin=352195|AlignEnd=352430|Gloss=know|wordform=*yîsə́ŋ-íː
 3	Yésu	Yésu	PROPN	_	_	2	comp:obj	_	AlignBegin=352430|AlignEnd=352665|Gloss=Jesus|Result=Yes
-4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=352665|AlignEnd=352900|Gloss=PUNCT
+4	-íː	-íː	PART	_	_	2	mod	_	Gloss=Res
+5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=352665|AlignEnd=352900|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_01_Religion_219-219
 # speaker_id = SP1

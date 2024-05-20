@@ -1439,10 +1439,11 @@
 # text_ortho = wò kapkə́y ?//
 # text_en = He will abduct you ?
 1	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=167476|AlignEnd=167689|Gloss=3Sing.Fut
-2-3	kapkə́y	_	_	_	_	_	_	_	_
-2	*kap-íː	kap	VERB	_	_	1	comp:aux	_	AlignBegin=167689|AlignEnd=167760|Gloss=take|Result=Yes
+2-4	kapkə́y	_	_	_	_	_	_	_	_
+2	kap	kap	VERB	_	_	1	comp:aux	_	AlignBegin=167689|AlignEnd=167760|Gloss=take|wordform=*kap-íː
 3	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	comp:obj	_	AlignBegin=167760|AlignEnd=167831|Gloss=2Sing.Obj.Res
-4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=167902|AlignEnd=168115|Gloss=PUNCT
+4	-íː	-íː	PART	_	_	2	mod	_	Gloss=Res
+5	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=167902|AlignEnd=168115|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_157-161
 # speaker_id = SP1
@@ -2700,7 +2701,7 @@
 # text = ín ngə́ʃês yâːn nə shiri Tʃôkn deː < dúk yáddiyóːɗan yáː fî < tunda àː daːgé ɣáy ɓas =mə káwêy tu ʧáː súːmíː < ín yáː faːréy < tòː shi ke nan < ma ɗyáː ma kaptíː //
 # text_ortho = ín ngə́ʃê yâːn nə shiri Tʃôkn deː < dúk yáddiyóːɗan yáː fî < tunda àː daːgé ɣáy ɓasəm káwêy tu ʧáː súːmíː < ín yáː faːréy < tòː shi ke nan < ma ɗyáː ma kaptíː //
 # text_en = If this thing is God's <hau making hau>, given what he has done, since he is serious about me, saying that he loves me, if he starts, well, <hau that's it hau>, I can marry him.
-1	ín	ín	SCONJ	_	_	36	mod	_	AlignBegin=306409|AlignEnd=306683|Gloss=if
+1	ín	ín	SCONJ	_	_	37	mod	_	AlignBegin=306409|AlignEnd=306683|Gloss=if
 2	ngə́ʃês	ngə́ʃi	NOUN	_	Definite=Def	4	dislocated@subj	_	AlignBegin=306683|AlignEnd=306820|Gloss=thing.Def
 3	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	2	conj:appos	_	AlignBegin=306957|AlignEnd=307231|Gloss=3Sing.IDP
 4	nə	nə	PART	_	_	1	comp:obj	_	AlignBegin=307231|AlignEnd=307403|Gloss=be
@@ -2709,11 +2710,11 @@
 7	deː	deː	PART	_	_	4	discourse	_	AlignBegin=307747|AlignEnd=307919|Gloss=indeed
 8	<	<	PUNCT	_	_	1	punct	_	AlignBegin=307919|AlignEnd=308089|Gloss=PUNCT
 9	dúk	dúk	DET	_	_	10	det	_	AlignBegin=308089|AlignEnd=308294|Gloss=all
-10	yáddiyóːɗan	yáddiyóːɗan	ADV	_	PronType=Rel	36	mod	_	AlignBegin=308294|AlignEnd=308499|Gloss=how
+10	yáddiyóːɗan	yáddiyóːɗan	ADV	_	PronType=Rel	37	mod	_	AlignBegin=308294|AlignEnd=308499|Gloss=how
 11	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	10	mod@relcl	_	AlignBegin=308499|AlignEnd=308704|Gloss=3Sing.Cnd
 12	fî	fi	VERB	_	_	11	comp:aux	_	AlignBegin=308704|AlignEnd=308909|Gloss=do
 13	<	<	PUNCT	_	_	10	punct	_	AlignBegin=308909|AlignEnd=309116|Gloss=PUNCT
-14	tunda	tunda	SCONJ	_	Foreign=Yes	36	mod	_	AlignBegin=309116|AlignEnd=309538|Gloss=since|Lang=ha
+14	tunda	tunda	SCONJ	_	Foreign=Yes	37	mod	_	AlignBegin=309116|AlignEnd=309538|Gloss=since|Lang=ha
 15	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	14	comp:obj	_	AlignBegin=309538|AlignEnd=309960|Gloss=3Sing.Perf
 16	daːgé	daːgé	VERB	_	_	15	comp:aux	_	AlignBegin=309960|AlignEnd=310170|Gloss=strive
 17	ɣáy	káy	PRON	_	Person=3|PronType=Prs	16	comp:obl@expl	_	AlignBegin=310170|AlignEnd=310381|Gloss=ANAPH
@@ -2722,28 +2723,29 @@
 20	káwêy	káwêy	ADV	_	_	16	mod	_	AlignBegin=310664|AlignEnd=310947|Gloss=merely
 21	tu	tu	SCONJ	_	_	16	comp:obj	_	AlignBegin=310947|AlignEnd=311168|Gloss=Qot
 22	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	21	comp:obj	_	AlignBegin=311168|AlignEnd=311389|Gloss=3Sing.Imp
-23-24	súːmíː	_	_	_	_	_	_	_	_
-23	*súː-íː	súː	VERB	_	_	22	comp:aux	_	AlignBegin=311389|AlignEnd=311463|Gloss=love|Result=Yes
+23-25	súːmíː	_	_	_	_	_	_	_	_
+23	súː	súː	VERB	_	_	22	comp:aux	_	AlignBegin=311389|AlignEnd=311463|Gloss=love|wordform=*súː-íː
 24	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	23	comp:obj	_	AlignBegin=311463|AlignEnd=311537|Gloss=1Plur.Obj
-25	<	<	PUNCT	_	_	14	punct	_	AlignBegin=311610|AlignEnd=311831|Gloss=PUNCT
-26	ín	ín	SCONJ	_	_	36	mod	_	AlignBegin=311985|AlignEnd=312198|Gloss=if
-27	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	26	comp:obj	_	AlignBegin=312198|AlignEnd=312411|Gloss=3Sing.Cnd
-28	faːrá	faːrá	VERB	_	_	27	comp:aux	_	AlignBegin=312411|AlignEnd=312517|Gloss=start|wordform=faːréy
-29	-íː	-íː	PART	_	_	28	mod	_	Gloss=Res|Result=Yes
-30	<	<	PUNCT	_	_	26	punct	_	AlignBegin=312624|AlignEnd=312838|Gloss=PUNCT
-31	tòː	tòː	PART	_	_	36	discourse	_	AlignBegin=313444|AlignEnd=313566|Gloss=well
-32	shi	shi	X	_	Foreign=Yes|Number=Sing	36	discourse	_	AlignBegin=313566|AlignEnd=313688|Gloss=3Sing.M|Lang=ha
-33	ke	ke	X	_	Foreign=Yes	32	flat@foreign	_	AlignBegin=313688|AlignEnd=313810|Gloss=be|Lang=ha
-34	nan	nan	X	_	Foreign=Yes	33	flat@foreign	_	AlignBegin=313810|AlignEnd=313932|Gloss=there|Lang=ha
-35	<	<	PUNCT	_	_	32	punct	_	AlignBegin=313932|AlignEnd=314052|Gloss=PUNCT
-36	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	0	root	_	AlignBegin=314052|AlignEnd=314182|Gloss=1Sing.Fut
-37	ɗyáː	ɗyáː	VERB	_	_	36	comp:aux	_	AlignBegin=314182|AlignEnd=314312|Gloss=be_able
-38	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	36	compound:svc	_	AlignBegin=314312|AlignEnd=314442|Gloss=1Sing.Fut
-39-41	kaptíː	_	_	_	_	_	_	_	_
-39	kap	kap	VERB	_	_	38	comp:aux	_	AlignBegin=314442|AlignEnd=314485|Gloss=take|wordform=*kap-íː
-40	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	39	comp:obj	_	AlignBegin=314485|AlignEnd=314528|Gloss=3Sing.Obj
-41	-íː	-íː	PART	_	_	39	mod	_	Gloss=Res|Result=Yes
-42	//	//	PUNCT	_	_	36	punct	_	AlignBegin=314572|AlignEnd=314702|Gloss=PUNCT
+25	-íː	-íː	PART	_	_	23	mod	_	Gloss=Res
+26	<	<	PUNCT	_	_	14	punct	_	AlignBegin=311610|AlignEnd=311831|Gloss=PUNCT
+27	ín	ín	SCONJ	_	_	37	mod	_	AlignBegin=311985|AlignEnd=312198|Gloss=if
+28	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	27	comp:obj	_	AlignBegin=312198|AlignEnd=312411|Gloss=3Sing.Cnd
+29	faːrá	faːrá	VERB	_	_	28	comp:aux	_	AlignBegin=312411|AlignEnd=312517|Gloss=start|wordform=faːréy
+30	-íː	-íː	PART	_	_	29	mod	_	Gloss=Res|Result=Yes
+31	<	<	PUNCT	_	_	27	punct	_	AlignBegin=312624|AlignEnd=312838|Gloss=PUNCT
+32	tòː	tòː	PART	_	_	37	discourse	_	AlignBegin=313444|AlignEnd=313566|Gloss=well
+33	shi	shi	X	_	Foreign=Yes|Number=Sing	37	discourse	_	AlignBegin=313566|AlignEnd=313688|Gloss=3Sing.M|Lang=ha
+34	ke	ke	X	_	Foreign=Yes	33	flat@foreign	_	AlignBegin=313688|AlignEnd=313810|Gloss=be|Lang=ha
+35	nan	nan	X	_	Foreign=Yes	34	flat@foreign	_	AlignBegin=313810|AlignEnd=313932|Gloss=there|Lang=ha
+36	<	<	PUNCT	_	_	33	punct	_	AlignBegin=313932|AlignEnd=314052|Gloss=PUNCT
+37	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	0	root	_	AlignBegin=314052|AlignEnd=314182|Gloss=1Sing.Fut
+38	ɗyáː	ɗyáː	VERB	_	_	37	comp:aux	_	AlignBegin=314182|AlignEnd=314312|Gloss=be_able
+39	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	37	compound:svc	_	AlignBegin=314312|AlignEnd=314442|Gloss=1Sing.Fut
+40-42	kaptíː	_	_	_	_	_	_	_	_
+40	kap	kap	VERB	_	_	39	comp:aux	_	AlignBegin=314442|AlignEnd=314485|Gloss=take|wordform=*kap-íː
+41	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	40	comp:obj	_	AlignBegin=314485|AlignEnd=314528|Gloss=3Sing.Obj
+42	-íː	-íː	PART	_	_	40	mod	_	Gloss=Res|Result=Yes
+43	//	//	PUNCT	_	_	37	punct	_	AlignBegin=314572|AlignEnd=314702|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_323-323
 # speaker_id = SP1

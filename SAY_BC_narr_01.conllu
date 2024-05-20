@@ -1590,10 +1590,11 @@
 7	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	2	mod	_	AlignBegin=208932|AlignEnd=209180|Gloss=3Plur.Sub
 8	mor	mor	VERB	_	_	7	comp:aux	_	AlignBegin=209180|AlignEnd=209428|Gloss=please
 9	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	7	parataxis@conj	_	AlignBegin=209428|AlignEnd=209676|Gloss=3Sing.Sub
-10-11	yúɣn kongâːʃíː	_	_	_	_	_	_	_	_
-10	*yúɣn-íː	yúkn	VERB	_	_	9	comp:aux	_	AlignBegin=209676|AlignEnd=209924|Gloss=fill
+10-12	yúɣn kongâːʃíː	_	_	_	_	_	_	_	_
+10	yúɣn	yúkn	VERB	_	_	9	comp:aux	_	AlignBegin=209676|AlignEnd=209924|Gloss=fill|wordform=*yúɣn-íː
 11	kongâs	kongâː	NOUN	_	Definite=Def	10	comp:obj	_	AlignBegin=209924|AlignEnd=210172|Gloss=cheek-Def|wordform=kongâː
-12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=210172|AlignEnd=210423|Gloss=PUNCT
+12	-íː	-íː	PART	_	_	10	mod	_	Gloss=Res
+13	//	//	PUNCT	_	_	1	punct	_	AlignBegin=210172|AlignEnd=210423|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_165-165
 # speaker_id = SP2
@@ -3406,7 +3407,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 430572, 434188
-# text = longa wù tu [ wûy !//= ʃèː ɮiː ngətn kə́ vwàːʃíːɗi kwata kwata kwata ɣən !//] //
+# text = longa wù tu [ wûy !//= ʃèː ɮiː ngətn kə́ vwàːs -íː =ɗi kwata kwata kwata ɣən !//] //
 # text_ortho = longa wù tu [ wûy !//= ʃèː ɮiː ngətn kə́ vwàːʃíːɗi kwata kwata kwata ɣən !//] //
 # text_en = Rabbit said "My! You pulled out all the intestines!"
 1	longa	longa	NOUN	_	_	2	subj	_	AlignBegin=430572|AlignEnd=430758|Gloss=rabbit
@@ -3416,18 +3417,19 @@
 5	wûy	wûy	INTJ	_	_	3	comp:obj	_	AlignBegin=431316|AlignEnd=431502|Gloss=wow
 6	!//=	!//=	PUNCT	_	_	7	punct	_	AlignBegin=431502|AlignEnd=431687|Gloss=PUNCT
 7	ʃèː	ʃèː	AUX	_	_	5	parataxis@conj	_	AlignBegin=431687|AlignEnd=431914|Gloss=X
-8-12	ɮiː ngətn kə́ vwàːʃíːɗi	_	_	_	_	_	_	_	_
-8	*ɮiː-íː	ɮiː	VERB	_	Aspect=Res	7	comp:aux	_	AlignBegin=431914|AlignEnd=432141|Gloss=take-Res
+8-13	ɮiː ngətn kə́ vwàːʃíːɗi	_	_	_	_	_	_	_	_
+8	ɮiː	ɮiː	VERB	_	_	7	comp:aux	_	AlignBegin=431914|AlignEnd=432141|Gloss=take
 9	ngətn	ngətn	NOUN	_	_	8	comp:obj	_	AlignBegin=432141|AlignEnd=432368|Gloss=thing
 10	kə́	kə́	ADP	_	_	9	mod	_	AlignBegin=432368|AlignEnd=432595|Gloss=of
-11	vwàːs	vwaː	NOUN	_	Definite=Def	10	comp:obj	_	AlignBegin=432595|AlignEnd=432671|Gloss=belly-Def
-12	=ɗi	=ɗi	PART	_	_	8	compound:prt	_	AlignBegin=432747|AlignEnd=432822|Gloss=Ctp
-13	kwata	kwata	IDEO	_	_	8	mod	_	AlignBegin=432822|AlignEnd=433049|Gloss=completely
-14	kwata	kwata	IDEO	_	_	13	compound:redup	_	AlignBegin=433049|AlignEnd=433276|Gloss=completely
-15	kwata	kwata	IDEO	_	_	14	compound:redup	_	AlignBegin=433276|AlignEnd=433503|Gloss=completely
-16	ɣən	kən	PART	_	_	7	mod	_	AlignBegin=433503|AlignEnd=433730|Gloss=be
-17	!//]	!//]	PUNCT	_	_	5	punct	_	AlignBegin=433730|AlignEnd=433957|Gloss=PUNCT
-18	//	//	PUNCT	_	_	2	punct	_	AlignBegin=433957|AlignEnd=434188|Gloss=PUNCT
+11	vwàːs	vwàːs	NOUN	_	Definite=Def	10	comp:obj	_	AlignBegin=432595|AlignEnd=432671|Gloss=belly-Def
+12	-íː	-íː	PART	_	_	8	mod	_	AlignBegin=432595|AlignEnd=432671|Gloss=-Res
+13	=ɗi	=ɗi	PART	_	_	8	compound:prt	_	AlignBegin=432747|AlignEnd=432822|Gloss=Ctp
+14	kwata	kwata	IDEO	_	_	8	mod	_	AlignBegin=432822|AlignEnd=433049|Gloss=completely
+15	kwata	kwata	IDEO	_	_	14	compound:redup	_	AlignBegin=433049|AlignEnd=433276|Gloss=completely
+16	kwata	kwata	IDEO	_	_	15	compound:redup	_	AlignBegin=433276|AlignEnd=433503|Gloss=completely
+17	ɣən	kən	PART	_	_	7	mod	_	AlignBegin=433503|AlignEnd=433730|Gloss=be
+18	!//]	!//]	PUNCT	_	_	5	punct	_	AlignBegin=433730|AlignEnd=433957|Gloss=PUNCT
+19	//	//	PUNCT	_	_	2	punct	_	AlignBegin=433957|AlignEnd=434188|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_330-330
 # speaker_id = SP1
@@ -3966,11 +3968,12 @@
 # text_ortho = màː ɗutíː ŋǎːn ?//
 # text_en = Didn't we kill him?
 1	màː	àː	AUX	_	Aspect=Perf|Number=Plur|Person=1	0	root	_	AlignBegin=495710|AlignEnd=495871|Gloss=1Plur.Perf
-2-3	ɗutíː	_	_	_	_	_	_	_	_
-2	*ɗu-íː	ɗu	VERB	_	Aspect=Res	1	comp:aux	_	AlignBegin=495871|AlignEnd=496032|Gloss=kill|wordform=ɗu
+2-4	ɗutíː	_	_	_	_	_	_	_	_
+2	ɗu	ɗu	VERB	_	_	1	comp:aux	_	AlignBegin=495871|AlignEnd=496032|Gloss=kill
 3	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=495925|AlignEnd=495979|Gloss=3Sing.Obj|Incorporated=Yes
-4	ŋǎːn	ŋǎːn	PART	_	PartType=Int|Polarity=Neg	1	mod	_	AlignBegin=496032|AlignEnd=496112|Gloss=VRT
-5	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=496193|AlignEnd=496354|Gloss=PUNCT
+4	-íː	-íː	PART	_	_	2	mod	_	Gloss=Res
+5	ŋǎːn	ŋǎːn	PART	_	PartType=Int|Polarity=Neg	1	mod	_	AlignBegin=496032|AlignEnd=496112|Gloss=VRT
+6	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=496193|AlignEnd=496354|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_384-384
 # speaker_id = SP1
@@ -4022,24 +4025,25 @@
 # text = ɗan tə́ lûttíː < séː longa ɗan á pîːl teː lə́ɓi gón séː á ʧî //
 # text_ortho = ɗan tə́ lûttíː < séː longa ɗan á pîːl teː lə́ɓi gón séː á ʧî //
 # text_en = When they had skinned him then... then Rabbit [moved?] to another place, then he ate (him).
-1	ɗan	ɗan	SCONJ	_	_	9	mod	_	AlignBegin=501046|AlignEnd=501252|Gloss=as
+1	ɗan	ɗan	SCONJ	_	_	10	mod	_	AlignBegin=501046|AlignEnd=501252|Gloss=as
 2	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=501252|AlignEnd=501458|Gloss=3Plur.Aor
-3-4	lûttíː	_	_	_	_	_	_	_	_
-3	*lut-íː	lut	VERB	_	Aspect=Res	2	comp:aux	_	AlignBegin=501458|AlignEnd=501664|Gloss=skin|wordform=lut
+3-5	lûttíː	_	_	_	_	_	_	_	_
+3	lût	lut	VERB	_	_	2	comp:aux	_	AlignBegin=501458|AlignEnd=501664|Gloss=skin
 4	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=501527|AlignEnd=501596|Gloss=3Sing.Obj|Incorporated=Yes
-5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=501664|AlignEnd=501868|Gloss=PUNCT
-6	séː	séː	ADV	_	_	9	mod	_	AlignBegin=503019|AlignEnd=503677|Gloss=then
-7	longa	longa	NOUN	_	_	9	subj	_	AlignBegin=503677|AlignEnd=503904|Gloss=rabbit
-8	ɗan	ɗan	ADV	_	_	9	mod	_	AlignBegin=503904|AlignEnd=504131|Gloss=then
-9	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=504131|AlignEnd=504358|Gloss=3Sing.Aor
-10	pîːl	piːl	VERB	_	_	9	comp:aux	_	AlignBegin=504358|AlignEnd=504585|Gloss=X
-11	teː	teː	ADP	_	_	10	comp:goal	_	AlignBegin=504585|AlignEnd=504812|Gloss=at
-12	lə́ɓi	lə̂p	NOUN	_	_	11	comp:obj	_	AlignBegin=504812|AlignEnd=505039|Gloss=place|wordform=lə̂p
-13	gón	gón	DET	_	Definite=Spec	12	det	_	AlignBegin=505039|AlignEnd=505266|Gloss=SPEC
-14	séː	séː	ADV	_	_	15	mod	_	AlignBegin=505266|AlignEnd=505493|Gloss=then
-15	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	9	parataxis@conj	_	AlignBegin=505493|AlignEnd=505720|Gloss=3Sing.Aor
-16	ʧî	ʧi	VERB	_	_	15	comp:aux	_	AlignBegin=505720|AlignEnd=505947|Gloss=eat
-17	//	//	PUNCT	_	_	9	punct	_	AlignBegin=505947|AlignEnd=506169|Gloss=PUNCT
+5	-íː	-íː	PART	_	_	3	mod	_	Gloss=Res
+6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=501664|AlignEnd=501868|Gloss=PUNCT
+7	séː	séː	ADV	_	_	10	mod	_	AlignBegin=503019|AlignEnd=503677|Gloss=then
+8	longa	longa	NOUN	_	_	10	subj	_	AlignBegin=503677|AlignEnd=503904|Gloss=rabbit
+9	ɗan	ɗan	ADV	_	_	10	mod	_	AlignBegin=503904|AlignEnd=504131|Gloss=then
+10	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=504131|AlignEnd=504358|Gloss=3Sing.Aor
+11	pîːl	piːl	VERB	_	_	10	comp:aux	_	AlignBegin=504358|AlignEnd=504585|Gloss=X
+12	teː	teː	ADP	_	_	11	comp:goal	_	AlignBegin=504585|AlignEnd=504812|Gloss=at
+13	lə́ɓi	lə̂p	NOUN	_	_	12	comp:obj	_	AlignBegin=504812|AlignEnd=505039|Gloss=place|wordform=lə̂p
+14	gón	gón	DET	_	Definite=Spec	13	det	_	AlignBegin=505039|AlignEnd=505266|Gloss=SPEC
+15	séː	séː	ADV	_	_	16	mod	_	AlignBegin=505266|AlignEnd=505493|Gloss=then
+16	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	10	parataxis@conj	_	AlignBegin=505493|AlignEnd=505720|Gloss=3Sing.Aor
+17	ʧî	ʧi	VERB	_	_	16	comp:aux	_	AlignBegin=505720|AlignEnd=505947|Gloss=eat
+18	//	//	PUNCT	_	_	10	punct	_	AlignBegin=505947|AlignEnd=506169|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_392-392
 # speaker_id = SP1
@@ -5862,10 +5866,11 @@
 3	tu	tu	SCONJ	_	ExtPos=SCONJ	2	comp:obj	_	AlignBegin=736018|AlignEnd=736193|Gloss=Qot|Idiom=Yes
 4	dàʧêːwáː	dàʧêːwáː	SCONJ	_	ExtPos=SCONJ|Foreign=Yes	3	unk	_	AlignBegin=736193|AlignEnd=736462|Gloss=Qot|InIdiom=Yes|Lang=ha
 5	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	3	comp:obj	_	AlignBegin=736462|AlignEnd=736716|Gloss=3Plur.Sub
-6-7	kàmbàlá ɬúːy	_	_	_	_	_	_	_	_
-6	*kàmbàlá-íː	kambalá	VERB	_	Aspect=Res	5	comp:aux	_	AlignBegin=736716|AlignEnd=736970|Gloss=share
+6-8	kàmbàlá ɬúːy	_	_	_	_	_	_	_	_
+6	kàmbàlá	kambalá	VERB	_	_	5	comp:aux	_	AlignBegin=736716|AlignEnd=736970|Gloss=share|wordform=*kàmbàlá-íː
 7	ɬûː	ɬûː	NOUN	_	_	6	comp:obj	_	AlignBegin=736970|AlignEnd=737224|Gloss=meat
-8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=737224|AlignEnd=737476|Gloss=PUNCT
+8	-íː	-íː	PART	_	_	6	mod	_	Gloss=Res
+9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=737224|AlignEnd=737476|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_585-586
 # speaker_id = SP1
