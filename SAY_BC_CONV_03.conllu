@@ -811,7 +811,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 121808, 124779
-# text = áʔá myáː yel kàmán kâːy ʤǎːn || ʤǎːnʤǎːn ma ɬə́ laːtsə́ gə̀tíː də̀n //
+# text = áʔá myáː yel kàmán kâːy ʤǎːn || ʤǎːnʤǎːn ma ɬə́ laːtsə́ gə̀tn -íː də̀n -íː //
 # text_ortho = áʔá myáː yel kàmán kâːy ʤǎːn || ʤǎːnʤǎːn ma ɬə́ laːtsə́ gə̀tíː də̀n //
 # text_en = But I think that really tomorrow, tomorrow for sure I will move on home.
 1	áʔá	áʔá	INTJ	_	_	2	discourse	_	AlignBegin=121808|AlignEnd=121963|Gloss=surprise
@@ -824,11 +824,12 @@
 8	ʤǎːnʤǎːn	ʤǎːnʤǎːn	ADV	_	_	6	conj:dicto	_	AlignBegin=123291|AlignEnd=123504|Gloss=tomorrow.INTENS
 9	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	4	comp:obj	_	AlignBegin=123504|AlignEnd=123717|Gloss=1Sing.Fut
 10	ɬə́	ɬə	VERB	_	_	9	comp:aux	_	AlignBegin=123717|AlignEnd=123930|Gloss=go
-11-12	laːtsə́ gə̀tíː	_	_	_	_	_	_	_	_
-11	*laːtsə́-íː	laːtsə́	VERB	_	Aspect=Res	10	compound:svc	_	AlignBegin=123930|AlignEnd=124143|Gloss=pass_by.Res
+11	laːtsə́	laːtsə́	VERB	_	_	10	compound:svc	_	AlignBegin=123930|AlignEnd=124143|Gloss=pass_by|wordform=*laːtsə́-íː
 12	gə̀tn	gə̀tn	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	mod@emp	_	AlignBegin=124143|AlignEnd=124356|Gloss=1Sing.GenS
-13	də̀n	də̀n	NOUN	_	_	11	comp:goal	_	AlignBegin=124356|AlignEnd=124569|Gloss=house
-14	//	//	PUNCT	_	_	2	punct	_	AlignBegin=124569|AlignEnd=124779|Gloss=PUNCT
+13	-íː	-íː	PART	_	_	11	mod	_	AlignBegin=124143|AlignEnd=124356|Gloss=-Res
+14	də̀n	də̀n	NOUN	_	_	11	comp:goal	_	AlignBegin=124356|AlignEnd=124569|Gloss=house
+15	-íː	-íː	PART	_	_	11	mod	_	Gloss=Res
+16	//	//	PUNCT	_	_	2	punct	_	AlignBegin=124569|AlignEnd=124779|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_112-112
 # speaker_id = SP1
@@ -3559,18 +3560,19 @@
 2	||	||	PUNCT	_	_	3	punct	_	AlignBegin=423442|AlignEnd=423559|Gloss=PUNCT
 3	wéy	wéy	PART	_	Mood=Qot	1	conj:dicto	_	AlignBegin=424150|AlignEnd=424335|Gloss=EVD
 4	mə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=1	0	root	_	AlignBegin=424335|AlignEnd=424520|Gloss=1Sing.Sub
-5-6	fí páːʧêʃíː	_	_	_	_	_	_	_	_
-5	*fí-íː	fi	VERB	_	Aspect=Res	4	comp:aux	_	AlignBegin=424520|AlignEnd=424705|Gloss=do.Res
+5-7	fí páːʧêʃíː	_	_	_	_	_	_	_	_
+5	fi	fi	VERB	_	_	4	comp:aux	_	AlignBegin=424520|AlignEnd=424705|Gloss=do|wordform=*fí-íː
 6	páːʧês	páːʧi	NOUN	_	Definite=Def	5	comp:obj@lvc	_	AlignBegin=424705|AlignEnd=424890|Gloss=puncture
-7	mə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=1	4	parataxis@conj	_	AlignBegin=424890|AlignEnd=425075|Gloss=1Sing.Sub
-8-9	lə́ːrtə	_	_	_	_	_	_	_	_
-8	lə́ːr	lə́ːr	VERB	_	_	7	comp:aux	_	AlignBegin=425075|AlignEnd=425167|Gloss=bring
-9	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	comp:ben	_	AlignBegin=425167|AlignEnd=425260|Gloss=3Sing.Obj
-10-12	mə́nɗyoː	_	_	_	_	_	_	_	_
-10	mə́n	mə́n	PART	_	Case=Ben	8	compound:prt	_	AlignBegin=425260|AlignEnd=425322|Gloss=BEN
-11	=ɗi	=ɗi	PART	_	_	8	compound:prt	_	AlignBegin=425322|AlignEnd=425384|Gloss=Ctp
-12	oː	oː	PART	_	PartType=Emp	7	mod	_	AlignBegin=425384|AlignEnd=425445|Gloss=Emp
-13	!//	!//	PUNCT	_	_	4	punct	_	AlignBegin=425445|AlignEnd=425631|Gloss=PUNCT
+7	-íː	-íː	PART	_	_	5	mod	_	Gloss=Res
+8	mə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=1	4	parataxis@conj	_	AlignBegin=424890|AlignEnd=425075|Gloss=1Sing.Sub
+9-10	lə́ːrtə	_	_	_	_	_	_	_	_
+9	lə́ːr	lə́ːr	VERB	_	_	8	comp:aux	_	AlignBegin=425075|AlignEnd=425167|Gloss=bring
+10	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	comp:ben	_	AlignBegin=425167|AlignEnd=425260|Gloss=3Sing.Obj
+11-13	mə́nɗyoː	_	_	_	_	_	_	_	_
+11	mə́n	mə́n	PART	_	Case=Ben	9	compound:prt	_	AlignBegin=425260|AlignEnd=425322|Gloss=BEN
+12	=ɗi	=ɗi	PART	_	_	9	compound:prt	_	AlignBegin=425322|AlignEnd=425384|Gloss=Ctp
+13	oː	oː	PART	_	PartType=Emp	8	mod	_	AlignBegin=425384|AlignEnd=425445|Gloss=Emp
+14	!//	!//	PUNCT	_	_	4	punct	_	AlignBegin=425445|AlignEnd=425631|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_427-427
 # speaker_id = SP1
@@ -3988,26 +3990,28 @@
 # text = tòː káː san gòs < yáː rigé ɬə ɗôːʃíː < yáː rigé yáː rigé oː wul vèːʃíː //
 # text_ortho = tòː káː san gòs < yâː rigé ɬə ɗôːʃíː < yâː rigé yâː rigé oː < wul vèːʃíː //
 # text_en = Well you know him, when he has drunk beer, when he has (drunk), he will talk.
-1	tòː	tòː	PART	_	_	11	discourse	_	AlignBegin=470945|AlignEnd=471098|Gloss=well
-2	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	11	parataxis@discourse	_	AlignBegin=471098|AlignEnd=471251|Gloss=2Sing.Perf
+1	tòː	tòː	PART	_	_	12	discourse	_	AlignBegin=470945|AlignEnd=471098|Gloss=well
+2	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	12	parataxis@discourse	_	AlignBegin=471098|AlignEnd=471251|Gloss=2Sing.Perf
 3	san	san	VERB	_	Foreign=Yes	2	comp:aux	_	AlignBegin=471251|AlignEnd=471404|Gloss=know|Lang=ha
 4	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	mod@emp	_	AlignBegin=471404|AlignEnd=471557|Gloss=3Sing.Gen
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=471557|AlignEnd=471709|Gloss=PUNCT
-6	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	11	parataxis@mod	_	AlignBegin=471851|AlignEnd=472007|Gloss=3Sing.Cnd
+6	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	12	parataxis@mod	_	AlignBegin=471851|AlignEnd=472007|Gloss=3Sing.Cnd
 7	rigé	rigéː	VERB	_	_	6	comp:aux	_	AlignBegin=472007|AlignEnd=472163|Gloss=already|SVC=Yes
-8-9	ɬə ɗôːʃíː	_	_	_	_	_	_	_	_
-8	*ɬə-íː	ɬə	VERB	_	Aspect=Res	7	compound:svc	_	AlignBegin=472163|AlignEnd=472319|Gloss=go.Res
+8-10	ɬə ɗôːʃíː	_	_	_	_	_	_	_	_
+8	ɬə	ɬə	VERB	_	_	7	compound:svc	_	AlignBegin=472163|AlignEnd=472319|Gloss=go|wordform=*ɬə-íː
 9	ɗôːs	ɗûː	NOUN	_	Definite=Def	8	comp:goal	_	AlignBegin=472319|AlignEnd=472475|Gloss=beer.Def
-10	<	<	PUNCT	_	_	6	punct	_	AlignBegin=472475|AlignEnd=472631|Gloss=PUNCT
-11	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	0	root	_	AlignBegin=472631|AlignEnd=472715|Gloss=3Sing.Cnd
-12	rigé	rigéː	VERB	_	_	11	comp:aux	_	AlignBegin=472715|AlignEnd=472799|Gloss=already|SVC=Yes
-13	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	11	conj:dicto	_	AlignBegin=472799|AlignEnd=472883|Gloss=3Sing.Cnd
-14	rigé	rigéː	VERB	_	_	13	comp:aux	_	AlignBegin=472883|AlignEnd=472967|Gloss=already|SVC=Yes
-15	oː	oː	PART	_	PartType=Emp	14	discourse	_	AlignBegin=472967|AlignEnd=473051|Gloss=Emp
-16-17	wul vèːʃíː	_	_	_	_	_	_	_	_
-16	*wul-íː	wul	VERB	_	Aspect=Res	14	compound:svc	_	AlignBegin=473286|AlignEnd=473491|Gloss=say.Res
-17	vèːs	vìː	NOUN	_	Definite=Def	16	comp:obj@lvc	_	AlignBegin=473491|AlignEnd=473696|Gloss=mouth.Def
-18	//	//	PUNCT	_	_	11	punct	_	AlignBegin=473696|AlignEnd=473901|Gloss=PUNCT
+10	-íː	-íː	PART	_	_	8	mod	_	Gloss=Res
+11	<	<	PUNCT	_	_	6	punct	_	AlignBegin=472475|AlignEnd=472631|Gloss=PUNCT
+12	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	0	root	_	AlignBegin=472631|AlignEnd=472715|Gloss=3Sing.Cnd
+13	rigé	rigéː	VERB	_	_	12	comp:aux	_	AlignBegin=472715|AlignEnd=472799|Gloss=already|SVC=Yes
+14	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	12	conj:dicto	_	AlignBegin=472799|AlignEnd=472883|Gloss=3Sing.Cnd
+15	rigé	rigéː	VERB	_	_	14	comp:aux	_	AlignBegin=472883|AlignEnd=472967|Gloss=already|SVC=Yes
+16	oː	oː	PART	_	PartType=Emp	15	discourse	_	AlignBegin=472967|AlignEnd=473051|Gloss=Emp
+17-19	wul vèːʃíː	_	_	_	_	_	_	_	_
+17	wul	wul	VERB	_	_	15	compound:svc	_	AlignBegin=473286|AlignEnd=473491|Gloss=say|wordform=*wul-íː
+18	vèːs	vìː	NOUN	_	Definite=Def	17	comp:obj@lvc	_	AlignBegin=473491|AlignEnd=473696|Gloss=mouth.Def
+19	-íː	-íː	PART	_	_	17	mod	_	Gloss=Res
+20	//	//	PUNCT	_	_	12	punct	_	AlignBegin=473696|AlignEnd=473901|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_482-483
 # speaker_id = SP1
