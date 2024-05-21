@@ -1230,9 +1230,10 @@
 10	ɗan	ɗan	ADP	_	_	8	mod	_	AlignBegin=167191|AlignEnd=167840|Gloss=like
 11	gə̀ːrí	gə̀ːrí	ADJ	_	_	13	mod	_	AlignBegin=167840|AlignEnd=167994|Gloss=old
 12	gyáː	gyáː	DET	_	Number=Plur	13	det	_	AlignBegin=167994|AlignEnd=168148|Gloss=Plur
-13	gə̀raːsə́n	gə̀raːs	NOUN	_	Deixis=Prox	10	comp:obj	_	AlignBegin=168302|AlignEnd=168456|Gloss=old_locust_bean-Prox
-14	tsə́n	tsəní	ADV	_	_	13	mod	_	AlignBegin=168456|AlignEnd=168610|Gloss=like_this
-15	//	//	PUNCT	_	_	1	punct	_	AlignBegin=168610|AlignEnd=168761|Gloss=PUNCT
+13	gə̀raːs	gə̀raːs	NOUN	_	_	10	comp:obj	_	AlignBegin=168302|AlignEnd=168456|Gloss=old_locust_bean|wordform=gə̀raːsə́n
+14	-ə́n	-ə́n	DET	_	Deixis=Prox	13	af:det	_	Gloss=-Prox
+15	tsə́n	tsəní	ADV	_	_	13	mod	_	AlignBegin=168456|AlignEnd=168610|Gloss=like_this
+16	//	//	PUNCT	_	_	1	punct	_	AlignBegin=168610|AlignEnd=168761|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_129-129
 # speaker_id = SP1
@@ -1608,23 +1609,24 @@
 # text = murín < kə́ || kə ɮiː kámâːɗì //= tôː kə́ fî mátaŋ gáy //
 # text_ortho = murín < kə́ || kə ɮiː kámâːɗì //= tôː kə́ fî mátaŋ káy //
 # text_en = That is you would... you would pull your friend tôː kə́ fî mátaŋ gáy //
-1	murín	mur	NOUN	_	Deixis=Prox	3	dislocated@top	_	AlignBegin=227412|AlignEnd=227780|Gloss=man-Prox
-2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=227780|AlignEnd=228148|Gloss=PUNCT
-3	kə́	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=228148|AlignEnd=228310|Gloss=2Plur.Aor
-4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=228310|AlignEnd=228472|Gloss=PUNCT
-5	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	3	conj:dicto	_	AlignBegin=228472|AlignEnd=228674|Gloss=2Sing.Aor
-6	ɮiː	ɮi	VERB	_	_	5	comp:aux	_	AlignBegin=228674|AlignEnd=228876|Gloss=pull
-7-9	kámâːɗì	_	_	_	_	_	_	_	_
-7	kâːm	kâːm	NOUN	_	_	6	comp:obj	_	AlignBegin=228876|AlignEnd=228943|Gloss=friend
-8	=wâː	=waː	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	7	mod@poss	_	AlignBegin=228943|AlignEnd=229010|Gloss=2Sing.Gen
-9	ɗi	ɗi	PART	_	_	6	compound:prt	_	AlignBegin=229010|AlignEnd=229078|Gloss=Ctp|wordform==ɗi
-10	//=	//=	PUNCT	_	_	12	punct	_	AlignBegin=229078|AlignEnd=229280|Gloss=PUNCT
-11	tôː	tôː	PART	_	_	12	discourse	_	AlignBegin=229280|AlignEnd=229443|Gloss=DM
-12	kə́	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	3	parataxis@conj	_	AlignBegin=229443|AlignEnd=229606|Gloss=2Plur.Aor
-13	fî	fi	VERB	_	_	12	comp:aux	_	AlignBegin=229606|AlignEnd=229769|Gloss=do
-14	mátaŋ	mátaŋ	NOUN	_	_	13	comp:obj@lvc	_	AlignBegin=229769|AlignEnd=229932|Gloss=ritual_flogging
-15	gáy	káy	PRON	_	Person=3|PronType=Prs	13	comp:obl@expl	_	AlignBegin=229932|AlignEnd=230095|Gloss=ANAPH
-16	//	//	PUNCT	_	_	3	punct	_	AlignBegin=230095|AlignEnd=230257|Gloss=PUNCT
+1	mur	mur	NOUN	_	_	4	dislocated@top	_	AlignBegin=227412|AlignEnd=227780|Gloss=man|wordform=murín
+2	-ə́n	-ə́n	DET	_	Deixis=Prox	1	af:det	_	Gloss=-Prox
+3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=227780|AlignEnd=228148|Gloss=PUNCT
+4	kə́	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=228148|AlignEnd=228310|Gloss=2Plur.Aor
+5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=228310|AlignEnd=228472|Gloss=PUNCT
+6	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	4	conj:dicto	_	AlignBegin=228472|AlignEnd=228674|Gloss=2Sing.Aor
+7	ɮiː	ɮi	VERB	_	_	6	comp:aux	_	AlignBegin=228674|AlignEnd=228876|Gloss=pull
+8-10	kámâːɗì	_	_	_	_	_	_	_	_
+8	kâːm	kâːm	NOUN	_	_	7	comp:obj	_	AlignBegin=228876|AlignEnd=228943|Gloss=friend
+9	=wâː	=waː	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	8	mod@poss	_	AlignBegin=228943|AlignEnd=229010|Gloss=2Sing.Gen
+10	ɗi	ɗi	PART	_	_	7	compound:prt	_	AlignBegin=229010|AlignEnd=229078|Gloss=Ctp|wordform==ɗi
+11	//=	//=	PUNCT	_	_	13	punct	_	AlignBegin=229078|AlignEnd=229280|Gloss=PUNCT
+12	tôː	tôː	PART	_	_	13	discourse	_	AlignBegin=229280|AlignEnd=229443|Gloss=DM
+13	kə́	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	4	parataxis@conj	_	AlignBegin=229443|AlignEnd=229606|Gloss=2Plur.Aor
+14	fî	fi	VERB	_	_	13	comp:aux	_	AlignBegin=229606|AlignEnd=229769|Gloss=do
+15	mátaŋ	mátaŋ	NOUN	_	_	14	comp:obj@lvc	_	AlignBegin=229769|AlignEnd=229932|Gloss=ritual_flogging
+16	gáy	káy	PRON	_	Person=3|PronType=Prs	14	comp:obl@expl	_	AlignBegin=229932|AlignEnd=230095|Gloss=ANAPH
+17	//	//	PUNCT	_	_	4	punct	_	AlignBegin=230095|AlignEnd=230257|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_174-175
 # speaker_id = SP1
@@ -1806,9 +1808,10 @@
 9	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=254185|AlignEnd=254258|Gloss=3Sing.Obj
 10	ɗan	ɗan	ADP	_	_	8	mod	_	AlignBegin=254258|AlignEnd=254404|Gloss=like
 11	kapkə́	kapkə́	ADP	_	_	10	comp:obj	_	AlignBegin=254404|AlignEnd=254550|Gloss=for
-12	mənín	mə́n	NOUN	_	Deixis=Prox	11	comp:obj	_	AlignBegin=254550|AlignEnd=254696|Gloss=people-Prox
-13	káp	káp	PART	_	_	12	mod	_	AlignBegin=254696|AlignEnd=254842|Gloss=all
-14	//	//	PUNCT	_	_	7	punct	_	AlignBegin=254842|AlignEnd=254987|Gloss=PUNCT
+12	mə́n	mə́n	NOUN	_	_	11	comp:obj	_	AlignBegin=254550|AlignEnd=254696|Gloss=people|wordform=mənín
+13	-ə́n	-ə́n	DET	_	Deixis=Prox	12	af:det	_	Gloss=-Prox
+14	káp	káp	PART	_	_	12	mod	_	AlignBegin=254696|AlignEnd=254842|Gloss=all
+15	//	//	PUNCT	_	_	7	punct	_	AlignBegin=254842|AlignEnd=254987|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_188-188
 # speaker_id = SP1
@@ -1899,12 +1902,13 @@
 1	séː	séː	ADV	_	_	2	mod	_	AlignBegin=269276|AlignEnd=269419|Gloss=then
 2	tə̀yì	tə̀-yiː	AUX	_	Aspect=Iter|Mood=Sub|Number=Sing|Person=3	0	root	_	AlignBegin=269419|AlignEnd=269562|Gloss=3Plur.Sub.Iter
 3	mân	man	VERB	_	_	2	comp:aux	_	AlignBegin=269562|AlignEnd=269705|Gloss=come
-4	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=269705|AlignEnd=269848|Gloss=PUNCT
-5	murín	mur	NOUN	_	Deixis=Prox	6	subj	_	AlignBegin=269848|AlignEnd=269991|Gloss=man-Prox
-6	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	2	parataxis@conj	_	AlignBegin=269991|AlignEnd=270134|Gloss=3Sing.Sub
-7	mán	mán	VERB	_	_	6	comp:aux	_	AlignBegin=270134|AlignEnd=270277|Gloss=come
-8	wurə́	wurə́	VERB	_	_	7	compound:svc	_	AlignBegin=270277|AlignEnd=270420|Gloss=greet
-9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=270420|AlignEnd=270567|Gloss=PUNCT
+4	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=269705|AlignEnd=269848|Gloss=PUNCT
+5	mur	mur	NOUN	_	_	7	subj	_	AlignBegin=269848|AlignEnd=269991|Gloss=man|wordform=murín
+6	-ə́n	-ə́n	DET	_	Deixis=Prox	5	af:det	_	Gloss=-Prox
+7	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	2	parataxis@conj	_	AlignBegin=269991|AlignEnd=270134|Gloss=3Sing.Sub
+8	mán	mán	VERB	_	_	7	comp:aux	_	AlignBegin=270134|AlignEnd=270277|Gloss=come
+9	wurə́	wurə́	VERB	_	_	8	compound:svc	_	AlignBegin=270277|AlignEnd=270420|Gloss=greet
+10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=270420|AlignEnd=270567|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_196-196
 # speaker_id = SP1
@@ -1913,14 +1917,15 @@
 # text = murín tə̀ mân //= tə̀ mán wurə́ //
 # text_ortho = murín tə̀ mân //= tə̀ mán wurə́ //
 # text_en = This man would come, he would offer his condolences
-1	murín	mur	NOUN	_	Deixis=Prox	2	subj	_	AlignBegin=270839|AlignEnd=270949|Gloss=man-Prox
-2	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	0	root	_	AlignBegin=270949|AlignEnd=271059|Gloss=3Sing.Sub
-3	mân	man	VERB	_	_	2	comp:aux	_	AlignBegin=271059|AlignEnd=271169|Gloss=come
-4	//=	//=	PUNCT	_	_	5	punct	_	AlignBegin=271169|AlignEnd=271279|Gloss=PUNCT
-5	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	2	parataxis@mod	_	AlignBegin=271279|AlignEnd=271389|Gloss=3Sing.Sub
-6	mán	mán	VERB	_	_	5	comp:aux	_	AlignBegin=271389|AlignEnd=271499|Gloss=come
-7	wurə́	wurə́	VERB	_	_	6	compound:svc	_	AlignBegin=271499|AlignEnd=271609|Gloss=greet
-8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=271609|AlignEnd=271720|Gloss=PUNCT
+1	mur	mur	NOUN	_	_	3	subj	_	AlignBegin=270839|AlignEnd=270949|Gloss=man|wordform=murín
+2	-ə́n	-ə́n	DET	_	Deixis=Prox	1	af:det	_	Gloss=-Prox
+3	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	0	root	_	AlignBegin=270949|AlignEnd=271059|Gloss=3Sing.Sub
+4	mân	man	VERB	_	_	3	comp:aux	_	AlignBegin=271059|AlignEnd=271169|Gloss=come
+5	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=271169|AlignEnd=271279|Gloss=PUNCT
+6	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	3	parataxis@mod	_	AlignBegin=271279|AlignEnd=271389|Gloss=3Sing.Sub
+7	mán	mán	VERB	_	_	6	comp:aux	_	AlignBegin=271389|AlignEnd=271499|Gloss=come
+8	wurə́	wurə́	VERB	_	_	7	compound:svc	_	AlignBegin=271499|AlignEnd=271609|Gloss=greet
+9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=271609|AlignEnd=271720|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_197-197
 # speaker_id = SP1
