@@ -880,23 +880,25 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 117380, 120426
-# text = longa < kə́ːmíː tsə́krə̂míː má ɲîːmí mì ʧìmgə yáːwón //
+# text = longa < kə̂ːm -íː tsə́krə̂m -íː má ɲîːmí mì ʧìmgə yáːwón //
 # text_ortho = longa < kə́ːmíː tsə́krə̂míː má ɲîːmí mì ʧìmgə yáːwón //
 # text_en = Rabbit, you with the long ears, it will boil down to you and me today.
-1	longa	longa	NOUN	_	_	5	vocative	_	AlignBegin=117380|AlignEnd=117850|Gloss=rabbit
+1	longa	longa	NOUN	_	_	7	vocative	_	AlignBegin=117380|AlignEnd=117850|Gloss=rabbit
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=117850|AlignEnd=118319|Gloss=PUNCT
-3	kə́ːmíː	kə̂ːm	NOUN	_	Deixis=Remt	5	vocative	_	AlignBegin=118319|AlignEnd=118582|Gloss=ear-Remt|wordform=kə̂ːm
-4	tsə́krə̂míː	tsə́krə̂míː	IDEO	_	_	3	mod	_	AlignBegin=118582|AlignEnd=118845|Gloss=long-Remt
-5	má	a	AUX	_	Number=Plur|Person=1|Tense=Fut	0	root	_	AlignBegin=118845|AlignEnd=119108|Gloss=1PL.Fut
-6-7	ɲîːmí	_	_	_	_	_	_	_	_
-6	ɲîː	ɲiː	VERB	_	_	5	comp:aux	_	AlignBegin=119108|AlignEnd=119240|Gloss=grind
-7	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	comp:obj	_	AlignBegin=119240|AlignEnd=119371|Gloss=1PL.Obj
-8	mì	mì	PRON	_	Number=Plur|Person=1|PronType=Prs	6	comp:pred	_	AlignBegin=119371|AlignEnd=119634|Gloss=1PL.SBJ
-9-10	ʧìmgə	_	_	_	_	_	_	_	_
-9	ʧìm	ʧím	ADP	_	_	10	cc	_	AlignBegin=119634|AlignEnd=119766|Gloss=with
-10	=gə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	8	conj:coord	_	AlignBegin=119766|AlignEnd=119897|Gloss=2Sing.Obj
-11	yáːwón	yáːwón	ADV	_	PronType=Dem	6	mod	_	AlignBegin=119897|AlignEnd=120160|Gloss=today
-12	//	//	PUNCT	_	_	5	punct	_	AlignBegin=120160|AlignEnd=120426|Gloss=PUNCT
+3	kə̂ːm	kə̂ːm	NOUN	_	Deixis=Remt	7	vocative	_	AlignBegin=118319|AlignEnd=118582|Gloss=ear
+4	-íː	-íː	DET	_	Deixis=Remt	3	af:det	_	AlignBegin=118319|AlignEnd=118582|Gloss=ear-Remt|wordform=kə̂ːm
+5	tsə́krə̂m	tsə́krə̂m	IDEO	_	_	3	mod	_	AlignBegin=118582|AlignEnd=118845|Gloss=long
+6	-íː	-íː	DET	_	Deixis=Remt	5	af:det	_	AlignBegin=118582|AlignEnd=118845|Gloss=-Remt
+7	má	a	AUX	_	Number=Plur|Person=1|Tense=Fut	0	root	_	AlignBegin=118845|AlignEnd=119108|Gloss=1PL.Fut
+8-9	ɲîːmí	_	_	_	_	_	_	_	_
+8	ɲîː	ɲiː	VERB	_	_	7	comp:aux	_	AlignBegin=119108|AlignEnd=119240|Gloss=grind
+9	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	8	comp:obj	_	AlignBegin=119240|AlignEnd=119371|Gloss=1PL.Obj
+10	mì	mì	PRON	_	Number=Plur|Person=1|PronType=Prs	8	comp:pred	_	AlignBegin=119371|AlignEnd=119634|Gloss=1PL.SBJ
+11-12	ʧìmgə	_	_	_	_	_	_	_	_
+11	ʧìm	ʧím	ADP	_	_	12	cc	_	AlignBegin=119634|AlignEnd=119766|Gloss=with
+12	=gə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	10	conj:coord	_	AlignBegin=119766|AlignEnd=119897|Gloss=2Sing.Obj
+13	yáːwón	yáːwón	ADV	_	PronType=Dem	8	mod	_	AlignBegin=119897|AlignEnd=120160|Gloss=today
+14	//	//	PUNCT	_	_	7	punct	_	AlignBegin=120160|AlignEnd=120426|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_100-106
 # speaker_id = SP1
@@ -1141,8 +1143,9 @@
 11	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=155913|AlignEnd=156000|Gloss=3Plur.Obj
 12	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	9	parataxis@conj	_	AlignBegin=156000|AlignEnd=156175|Gloss=3Plur.Aor
 13	fî	fi	VERB	_	_	12	comp:aux	_	AlignBegin=156175|AlignEnd=156350|Gloss=do
-14	ʒěy	ʒà	NOUN	_	Deixis=Remt	13	comp:obj	_	AlignBegin=156350|AlignEnd=156525|Gloss=water-Remt|wordform=ʒà
-15	//	//	PUNCT	_	_	7	punct	_	AlignBegin=156525|AlignEnd=156699|Gloss=PUNCT
+14	ʒà	ʒà	NOUN	_	_	13	comp:obj	_	AlignBegin=156350|AlignEnd=156525|Gloss=water
+15	-íː	-íː	DET	_	Deixis=Remt	14	det	_	Gloss=-Remt
+16	//	//	PUNCT	_	_	7	punct	_	AlignBegin=156525|AlignEnd=156699|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_125-125
 # speaker_id = SP2
@@ -1775,10 +1778,11 @@
 3	=ni	=ni	PART	_	Aspect=Iter	2	compound:prt	_	AlignBegin=227184|AlignEnd=227334|Gloss=Iter|wordform=-ni
 4	ɗan	ɗan	ADP	_	_	2	mod	_	AlignBegin=227334|AlignEnd=227634|Gloss=like
 5	kə́	kə́	ADP	_	_	4	comp:obj	_	AlignBegin=227634|AlignEnd=227934|Gloss=of
-6-7	mbaràːɗíyaː	_	_	_	_	_	_	_	_
-6	mbàraːɗíː	mbàraːt	NOUN	_	Deixis=Remt	5	comp:obj	_	AlignBegin=227934|AlignEnd=228134|Gloss=crownbird-Remt|wordform=mbàraːt
-7	aː	aː	PART	_	_	1	mod	_	AlignBegin=228134|AlignEnd=228234|Gloss=VRT
-8	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=228234|AlignEnd=228534|Gloss=PUNCT
+6	mbàraːt	mbàraːt	NOUN	_	_	5	comp:obj	_	AlignBegin=227934|AlignEnd=228134|Gloss=crownbird
+7-8	mbaràːɗíyaː	_	_	_	_	_	_	_	_
+7	-íː	-íː	DET	_	Deixis=Remt	6	det	_	Gloss=-Remt
+8	aː	aː	PART	_	_	1	mod	_	AlignBegin=228134|AlignEnd=228234|Gloss=VRT
+9	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=228234|AlignEnd=228534|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_178-178
 # speaker_id = SP1
@@ -5672,7 +5676,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 713578, 715735
-# text = yâːn yáːʃi á dàp náːy ʧiɣə́y pə́prîníː //
+# text = yâːn yáːʃi á dàp naː -íː ʧiɣə́y pə́prîn -íː //
 # text_ortho = yâːn yáːʃi á dàp náːy ʧikə́y pə́prîníː //
 # text_en = Him, his foot became like that spread out flat.
 1	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	3	dislocated@top	_	AlignBegin=713578|AlignEnd=713848|Gloss=3Sing
@@ -5682,8 +5686,9 @@
 5	naː	naː	VERB	_	Aspect=Res	4	compound:svc	_	AlignBegin=714658|AlignEnd=714928|Gloss=become
 6	-íː	-íː	PART	_	_	5	af:mod	_	Gloss=-Res|Result=Yes
 7	ʧiɣə́y	ʧík	ADV	_	_	4	mod	_	AlignBegin=714928|AlignEnd=715197|Gloss=thus
-8	pə́prîníː	pə́prîn	IDEO	_	Deixis=Remt	4	mod	_	AlignBegin=715197|AlignEnd=715466|Gloss=flat-Remt|wordform=pə́prîn
-9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=715466|AlignEnd=715735|Gloss=PUNCT
+8	pə́prîn	pə́prîn	IDEO	_	_	4	mod	_	AlignBegin=715197|AlignEnd=715466|Gloss=flat
+9	-íː	-íː	PART	_	_	4	af:mod	_	AlignBegin=715197|AlignEnd=715466|Gloss=-Res|Result=Yes
+10	//	//	PUNCT	_	_	3	punct	_	AlignBegin=715466|AlignEnd=715735|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_563-566
 # speaker_id = SP1

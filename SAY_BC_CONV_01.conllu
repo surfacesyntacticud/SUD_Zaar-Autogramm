@@ -659,36 +659,37 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 67046, 73461
-# text = yâːn hanya ɗa < tunda ŋaː wurɓéy àː ɬíː ɗangənín < myàː ɬíː má ɬə́ pâŋ //= má yêl yándiyóːɗan wò ngap |c kóː wuriː ?//
+# text = yâːn hanya ɗa < tunda ŋaː wurɓéy -íː àː ɬíː ɗangənín < myàː ɬə -íː má ɬə́ pâŋ //= má yêl yándiyóːɗan wò ngap |c kóː wuriː ?//
 # text_ortho = yâːn hanya ɗa < tunda ŋaː wurɓey àː ʃíː ɗangənín < myàː ɬíː má ɬə́ pâŋ má yêl yándiyóːɗan wò ngap |c kóː wuriː ?//
 # text_en = If there is a way, since we have a little money now, when we go we will have a look and see how it turns out, or what do you think?
-1	yâːn	yâːn	SCONJ	_	_	15	mod	_	AlignBegin=67046|AlignEnd=67268|Gloss=if
+1	yâːn	yâːn	SCONJ	_	_	16	mod	_	AlignBegin=67046|AlignEnd=67268|Gloss=if
 2	hanya	hanya	NOUN	_	Foreign=Yes	3	subj	_	AlignBegin=67268|AlignEnd=67490|Gloss=way|Lang=ha
 3	ɗa	ɗa	PART	_	_	1	comp:obj	_	AlignBegin=67490|AlignEnd=67712|Gloss=be
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=67712|AlignEnd=67936|Gloss=PUNCT
-5	tunda	tunda	SCONJ	_	Foreign=Yes	15	mod	_	AlignBegin=67936|AlignEnd=68558|Gloss=since|Lang=ha
+5	tunda	tunda	SCONJ	_	Foreign=Yes	16	mod	_	AlignBegin=67936|AlignEnd=68558|Gloss=since|Lang=ha
 6	ŋaː	ŋaː	ADJ	_	_	7	mod	_	AlignBegin=68558|AlignEnd=68811|Gloss=small
-7	wurɓéy	wurɓa	NOUN	_	Deixis=Remt	8	subj	_	AlignBegin=68811|AlignEnd=68937|Gloss=money.Remt
-8	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	5	comp:obj	_	AlignBegin=69064|AlignEnd=69317|Gloss=3Sing.Perf
-9	ɬíː	ɬə	VERB	_	_	8	comp:aux	_	AlignBegin=69317|AlignEnd=69443|Gloss=go-Res|Result=Yes
-10	ɗangənín	ɗangəní	ADV	_	PronType=Dem	9	mod	_	AlignBegin=69570|AlignEnd=69696|Gloss=now
-11	<	<	PUNCT	_	_	5	punct	_	AlignBegin=69823|AlignEnd=70074|Gloss=PUNCT
-12	myàː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=1	15	parataxis@mod	_	AlignBegin=70889|AlignEnd=71081|Gloss=1Plur.Cnd
-13	ɬə	ɬə	VERB	_	_	12	comp:aux	_	AlignBegin=71081|AlignEnd=71177|Gloss=go|wordform=ɬíː
-14	-íː	-íː	PART	_	_	13	af:mod	_	Gloss=-Res|Result=Yes
-15	má	a	AUX	_	Number=Plur|Person=1|Tense=Fut	0	root	_	AlignBegin=71273|AlignEnd=71465|Gloss=1Plur.Fut
-16	ɬə́	ɬə	VERB	_	_	15	comp:aux	_	AlignBegin=71465|AlignEnd=71657|Gloss=go
-17	pâŋ	paŋ	VERB	_	_	16	compound:svc	_	AlignBegin=71657|AlignEnd=71849|Gloss=inspect
-18	//=	//=	PUNCT	_	_	19	punct	_	AlignBegin=71849|AlignEnd=71849|Gloss=PUNCT
-19	má	a	AUX	_	Number=Plur|Person=1|Tense=Fut	15	parataxis@conj	_	AlignBegin=71849|AlignEnd=72041|Gloss=1Plur.Fut
-20	yêl	yel	VERB	_	_	19	comp:aux	_	AlignBegin=72041|AlignEnd=72233|Gloss=see
-21	yándiyóːɗan	yándiyóːɗan	ADV	_	PronType=Rel	20	comp:obj	_	AlignBegin=72233|AlignEnd=72425|Gloss=how
-22	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	21	mod@relcl	_	AlignBegin=72425|AlignEnd=72617|Gloss=3Sing.Fut
-23	ngap	ngap	VERB	_	_	22	comp:aux	_	AlignBegin=72617|AlignEnd=72809|Gloss=hold
-24	|c	|c	PUNCT	_	_	26	punct	_	AlignBegin=72809|AlignEnd=73004|Gloss=PUNCT
-25	kóː	kóː	CCONJ	_	_	26	cc	_	AlignBegin=73004|AlignEnd=73156|Gloss=or
-26	wuriː	wuriː	ADV	_	PronType=Int	19	conj:coord	_	AlignBegin=73156|AlignEnd=73308|Gloss=how
-27	?//	?//	PUNCT	_	_	15	punct	_	AlignBegin=73308|AlignEnd=73461|Gloss=PUNCT
+7	wurɓéy	wurɓéy	NOUN	_	_	9	subj	_	AlignBegin=68811|AlignEnd=68937|Gloss=money
+8	-íː	-íː	DET	_	Deixis=Remt	7	det	_	AlignBegin=68811|AlignEnd=68937|Gloss=-Remt
+9	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	5	comp:obj	_	AlignBegin=69064|AlignEnd=69317|Gloss=3Sing.Perf
+10	ɬíː	ɬə	VERB	_	_	9	comp:aux	_	AlignBegin=69317|AlignEnd=69443|Gloss=go-Res|Result=Yes
+11	ɗangənín	ɗangəní	ADV	_	PronType=Dem	10	mod	_	AlignBegin=69570|AlignEnd=69696|Gloss=now
+12	<	<	PUNCT	_	_	5	punct	_	AlignBegin=69823|AlignEnd=70074|Gloss=PUNCT
+13	myàː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=1	16	parataxis@mod	_	AlignBegin=70889|AlignEnd=71081|Gloss=1Plur.Cnd
+14	ɬə	ɬə	VERB	_	_	13	comp:aux	_	AlignBegin=71081|AlignEnd=71177|Gloss=go|wordform=ɬíː
+15	-íː	-íː	PART	_	_	14	af:mod	_	Gloss=-Res|Result=Yes
+16	má	a	AUX	_	Number=Plur|Person=1|Tense=Fut	0	root	_	AlignBegin=71273|AlignEnd=71465|Gloss=1Plur.Fut
+17	ɬə́	ɬə	VERB	_	_	16	comp:aux	_	AlignBegin=71465|AlignEnd=71657|Gloss=go
+18	pâŋ	paŋ	VERB	_	_	17	compound:svc	_	AlignBegin=71657|AlignEnd=71849|Gloss=inspect
+19	//=	//=	PUNCT	_	_	20	punct	_	AlignBegin=71849|AlignEnd=71849|Gloss=PUNCT
+20	má	a	AUX	_	Number=Plur|Person=1|Tense=Fut	16	parataxis@conj	_	AlignBegin=71849|AlignEnd=72041|Gloss=1Plur.Fut
+21	yêl	yel	VERB	_	_	20	comp:aux	_	AlignBegin=72041|AlignEnd=72233|Gloss=see
+22	yándiyóːɗan	yándiyóːɗan	ADV	_	PronType=Rel	21	comp:obj	_	AlignBegin=72233|AlignEnd=72425|Gloss=how
+23	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	22	mod@relcl	_	AlignBegin=72425|AlignEnd=72617|Gloss=3Sing.Fut
+24	ngap	ngap	VERB	_	_	23	comp:aux	_	AlignBegin=72617|AlignEnd=72809|Gloss=hold
+25	|c	|c	PUNCT	_	_	27	punct	_	AlignBegin=72809|AlignEnd=73004|Gloss=PUNCT
+26	kóː	kóː	CCONJ	_	_	27	cc	_	AlignBegin=73004|AlignEnd=73156|Gloss=or
+27	wuriː	wuriː	ADV	_	PronType=Int	20	conj:coord	_	AlignBegin=73156|AlignEnd=73308|Gloss=how
+28	?//	?//	PUNCT	_	_	16	punct	_	AlignBegin=73308|AlignEnd=73461|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_079-079
 # speaker_id = SP1
@@ -1734,16 +1735,17 @@
 6	ín	ín	SCONJ	_	_	4	comp:obj	_	AlignBegin=192368|AlignEnd=192549|Gloss=if
 7	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	6	comp:obj	_	AlignBegin=192549|AlignEnd=192730|Gloss=3Sing.Cnd
 8	mǎn	mán	VERB	_	_	7	comp:aux	_	AlignBegin=192730|AlignEnd=192911|Gloss=come
-9	turíː	tur	NOUN	_	Deixis=Remt	10	subj	_	AlignBegin=193092|AlignEnd=193226|Gloss=husband.Remt
-10	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	7	conj:coord	_	AlignBegin=193359|AlignEnd=193626|Gloss=3Sing.Cnd
-11	mbiː	mbiː	VERB	_	_	10	comp:aux	_	AlignBegin=193626|AlignEnd=193893|Gloss=take
-12	ʃirə́ŋ	ʃirə́ŋ	NOUN	_	_	11	comp:obj	_	AlignBegin=193893|AlignEnd=194160|Gloss=stick
-13-14	kə́ːmtə́	_	_	_	_	_	_	_	_
-13	kə́ːm	kə́ːm	VERB	_	_	11	compound:svc	_	AlignBegin=194160|AlignEnd=194427|Gloss=beat
-14	=tə́	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	AlignBegin=194427|AlignEnd=194532|Gloss=3Sing.Obj
-15	ɣáy	káy	PRON	_	Person=3|PronType=Prs	13	comp:obl@expl	_	AlignBegin=194532|AlignEnd=194637|Gloss=ANAPH
-16	fáː	fáː	PART	_	_	6	discourse	_	AlignBegin=194637|AlignEnd=194847|Gloss=indeed
-17	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=194847|AlignEnd=195056|Gloss=PUNCT
+9	tur	tur	NOUN	_	_	11	subj	_	AlignBegin=193092|AlignEnd=193226|Gloss=husband|wordform=turíː
+10	-íː	-íː	DET	_	Deixis=Remt	9	det	_	Gloss=-Remt
+11	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	7	conj:coord	_	AlignBegin=193359|AlignEnd=193626|Gloss=3Sing.Cnd
+12	mbiː	mbiː	VERB	_	_	11	comp:aux	_	AlignBegin=193626|AlignEnd=193893|Gloss=take
+13	ʃirə́ŋ	ʃirə́ŋ	NOUN	_	_	12	comp:obj	_	AlignBegin=193893|AlignEnd=194160|Gloss=stick
+14-15	kə́ːmtə́	_	_	_	_	_	_	_	_
+14	kə́ːm	kə́ːm	VERB	_	_	12	compound:svc	_	AlignBegin=194160|AlignEnd=194427|Gloss=beat
+15	=tə́	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	14	comp:obj	_	AlignBegin=194427|AlignEnd=194532|Gloss=3Sing.Obj
+16	ɣáy	káy	PRON	_	Person=3|PronType=Prs	14	comp:obl@expl	_	AlignBegin=194532|AlignEnd=194637|Gloss=ANAPH
+17	fáː	fáː	PART	_	_	6	discourse	_	AlignBegin=194637|AlignEnd=194847|Gloss=indeed
+18	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=194847|AlignEnd=195056|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_194-200
 # speaker_id = SP2
@@ -2512,19 +2514,21 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 281486, 283695
-# text = dón mə yel məːrêy tàː daːméy nə́ myàːní sòːséy //
+# text = dón mə yel məːri -íː tàː daːmá -íː nə́ myàːní sòːséy //
 # text_ortho = dóm mə yél məːrêy tàː daːméy nə́ myàːní sòːséy //
 # text_en = Because I saw that the boys are really troubled about us.
 1	dón	dón	SCONJ	_	_	2	discourse	_	AlignBegin=281486|AlignEnd=281667|Gloss=because
 2	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	0	root	_	AlignBegin=281667|AlignEnd=281848|Gloss=1Sing.Aor
 3	yel	yel	VERB	_	_	2	comp:aux	_	AlignBegin=281848|AlignEnd=282029|Gloss=see
-4	məːrêy	məːri	NOUN	_	Deixis=Remt|Number=Plur	5	subj	_	AlignBegin=282029|AlignEnd=282120|Gloss=children.Remt
-5	tàː	àː	AUX	_	Aspect=Perf|Number=Plur|Person=3	3	parataxis@comp	_	AlignBegin=282211|AlignEnd=282458|Gloss=3Plur.Perf
-6	daːméy	daːmá	VERB	_	_	5	comp:aux	_	AlignBegin=282458|AlignEnd=282582|Gloss=bother.Res|Result=Yes
-7	nə́	nə́	ADP	_	_	6	comp:obl	_	AlignBegin=282705|AlignEnd=282952|Gloss=for
-8	myàːní	myàːní	PRON	_	Number=Plur|Person=1|PronType=Prs	7	comp:obj	_	AlignBegin=282952|AlignEnd=283199|Gloss=1Plur
-9	sòːséy	sòːséy	ADV	_	_	6	mod	_	AlignBegin=283199|AlignEnd=283446|Gloss=quite
-10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=283446|AlignEnd=283695|Gloss=PUNCT
+4	məːri	məːri	NOUN	_	Number=Plur	6	subj	_	AlignBegin=282029|AlignEnd=282120|Gloss=children|wordform=məːrêy
+5	-íː	-íː	DET	_	Deixis=Remt	4	det	_	Gloss=-Remt
+6	tàː	àː	AUX	_	Aspect=Perf|Number=Plur|Person=3	3	parataxis@comp	_	AlignBegin=282211|AlignEnd=282458|Gloss=3Plur.Perf
+7	daːmá	daːmá	VERB	_	_	6	comp:aux	_	AlignBegin=282458|AlignEnd=282582|Gloss=bother
+8	-íː	-íː	PART	_	_	7	af:mod	_	AlignBegin=282458|AlignEnd=282582|Gloss=-Res|Result=Yes
+9	nə́	nə́	ADP	_	_	7	comp:obl	_	AlignBegin=282705|AlignEnd=282952|Gloss=for
+10	myàːní	myàːní	PRON	_	Number=Plur|Person=1|PronType=Prs	9	comp:obj	_	AlignBegin=282952|AlignEnd=283199|Gloss=1Plur
+11	sòːséy	sòːséy	ADV	_	_	7	mod	_	AlignBegin=283199|AlignEnd=283446|Gloss=quite
+12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=283446|AlignEnd=283695|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_288-292
 # speaker_id = SP2
