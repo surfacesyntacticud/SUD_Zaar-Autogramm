@@ -455,7 +455,7 @@
 1	má	a	AUX	_	Number=Plur|Person=1|Tense=Fut	0	root	_	AlignBegin=46593|AlignEnd=46752|Gloss=1Plur.Fut
 2	ngêláŋ	ngeláŋ	VERB	_	_	1	comp:aux	_	AlignBegin=46752|AlignEnd=46911|Gloss=stroll
 3	//=	//=	PUNCT	_	_	4	punct	_	AlignBegin=46911|AlignEnd=47071|Gloss=PUNCT
-4	má	a	AUX	_	Number=Plur|Person=1|Tense=Fut	1	parataxis@conj	_	AlignBegin=47071|AlignEnd=47283|Gloss=1Plur.Fut
+4	má	a	AUX	_	Number=Plur|Person=1|Tense=Fut	1	conj:svc	_	AlignBegin=47071|AlignEnd=47283|Gloss=1Plur.Fut
 5-6	yêʃí	_	_	_	_	_	_	_	_
 5	yêl	yel	VERB	_	_	4	comp:aux	_	AlignBegin=47283|AlignEnd=47389|Gloss=see
 6	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=47389|AlignEnd=47495|Gloss=3Plur.Obj
@@ -681,7 +681,7 @@
 17	ɬə́	ɬə	VERB	_	_	16	comp:aux	_	AlignBegin=71465|AlignEnd=71657|Gloss=go
 18	pâŋ	paŋ	VERB	_	_	17	compound:svc	_	AlignBegin=71657|AlignEnd=71849|Gloss=inspect
 19	//=	//=	PUNCT	_	_	20	punct	_	AlignBegin=71849|AlignEnd=71849|Gloss=PUNCT
-20	má	a	AUX	_	Number=Plur|Person=1|Tense=Fut	16	parataxis@conj	_	AlignBegin=71849|AlignEnd=72041|Gloss=1Plur.Fut
+20	má	a	AUX	_	Number=Plur|Person=1|Tense=Fut	16	conj:svc	_	AlignBegin=71849|AlignEnd=72041|Gloss=1Plur.Fut
 21	yêl	yel	VERB	_	_	20	comp:aux	_	AlignBegin=72041|AlignEnd=72233|Gloss=see
 22	yándiyóːɗan	yándiyóːɗan	ADV	_	PronType=Rel	21	comp:obj	_	AlignBegin=72233|AlignEnd=72425|Gloss=how
 23	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	22	mod@relcl	_	AlignBegin=72425|AlignEnd=72617|Gloss=3Sing.Fut
@@ -748,7 +748,7 @@
 8	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=79625|AlignEnd=79801|Gloss=3Sing.Fut
 9	mán	mán	VERB	_	_	8	comp:aux	_	AlignBegin=79801|AlignEnd=79977|Gloss=come
 10	ʃiː	ʃiː	VERB	_	_	9	compound:svc	_	AlignBegin=79977|AlignEnd=80153|Gloss=get_down
-11	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	8	parataxis@conj	_	AlignBegin=80153|AlignEnd=80329|Gloss=3Sing.Fut
+11	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	8	conj:svc	_	AlignBegin=80153|AlignEnd=80329|Gloss=3Sing.Fut
 12	naː	naː	VERB	_	_	11	comp:aux	_	AlignBegin=80329|AlignEnd=80505|Gloss=become
 13	ɗàrí	ɗàrí	NUM	_	_	12	comp:pred	_	AlignBegin=80505|AlignEnd=80681|Gloss=hundred
 14	nandam	nandam	NUM	_	_	13	flat@num	_	AlignBegin=80681|AlignEnd=80857|Gloss=five
@@ -861,14 +861,14 @@
 8	daːgé	daːgé	VERB	_	_	7	comp:aux	_	AlignBegin=90448|AlignEnd=90553|Gloss=strive|wordform=daːgéy
 9	-íː	-íː	PART	_	_	8	af:mod	_	Gloss=-Res|Result=Yes
 10	XX	XX	X	_	_	8	unk@scrap	_	AlignBegin=90658|AlignEnd=90868|Gloss=XX
-11	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	7	parataxis@conj	_	AlignBegin=90868|AlignEnd=91078|Gloss=1Plur.Sub
+11	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	7	conj:svc	_	AlignBegin=90868|AlignEnd=91078|Gloss=1Plur.Sub
 12	yel	yel	VERB	_	_	11	comp:aux	_	AlignBegin=91078|AlignEnd=91288|Gloss=see
 13	màː	àː	AUX	_	Aspect=Perf|Number=Plur|Person=1	12	parataxis@comp	_	AlignBegin=91288|AlignEnd=91629|Gloss=1Plur.Perf
 14	fi	fi	VERB	_	_	13	comp:aux	_	AlignBegin=91629|AlignEnd=91970|Gloss=do
 15-16	ànkówôpíː	_	_	_	_	_	_	_	_
 15	ànkó	ànko	NOUN	_	Definite=Cons	14	comp:obj	_	AlignBegin=91970|AlignEnd=92083|Gloss=similar_dressing
 16	=wôpíː	=wopm	PRON	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	15	mod@poss	_	AlignBegin=92083|AlignEnd=92196|Gloss=1Plur.Gen.Res|Result=Yes
-17	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	11	parataxis@conj	_	AlignBegin=93055|AlignEnd=93277|Gloss=3Sing.Sub
+17	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	11	parataxis	_	AlignBegin=93055|AlignEnd=93277|Gloss=3Sing.Sub
 18-19	polmí	_	_	_	_	_	_	_	_
 18	pol	pol	VERB	_	_	17	comp:aux	_	AlignBegin=93277|AlignEnd=93351|Gloss=please
 19	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	18	comp:ben	_	AlignBegin=93351|AlignEnd=93425|Gloss=1Plur.Obj
@@ -1297,7 +1297,7 @@
 1	wul	wul	VERB	_	_	0	root	_	AlignBegin=149251|AlignEnd=149360|Gloss=say
 2	vìː	vìː	NOUN	_	_	1	comp:obj	_	AlignBegin=149360|AlignEnd=149469|Gloss=mouth
 3	!//=	!//=	PUNCT	_	_	4	punct	_	AlignBegin=149469|AlignEnd=149578|Gloss=PUNCT
-4	wul	wul	VERB	_	_	1	parataxis@conj	_	AlignBegin=149578|AlignEnd=149713|Gloss=say
+4	wul	wul	VERB	_	_	1	conj:redup	_	AlignBegin=149578|AlignEnd=149713|Gloss=say
 5	vìː	vìː	NOUN	_	_	4	comp:obj	_	AlignBegin=149713|AlignEnd=149848|Gloss=mouth
 6	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=149848|AlignEnd=149982|Gloss=PUNCT
 
@@ -2231,7 +2231,7 @@
 5	ɬə	ɬə	VERB	_	_	4	comp:aux	_	AlignBegin=247826|AlignEnd=247954|Gloss=go|wordform=ɬíː
 6	-íː	-íː	PART	_	_	5	af:mod	_	Gloss=-Res|Result=Yes
 7	Pànʃín	Pànʃín	PROPN	_	_	5	comp:goal	_	AlignBegin=248082|AlignEnd=248336|Gloss=Pankshin
-8	myàː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=1	4	parataxis@conj	_	AlignBegin=248336|AlignEnd=248598|Gloss=1Plur.Cnd
+8	myàː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=1	4	conj:svc	_	AlignBegin=248336|AlignEnd=248598|Gloss=1Plur.Cnd
 9	ɬə́	ɬə	VERB	_	_	8	comp:aux	_	AlignBegin=248598|AlignEnd=248860|Gloss=go
 10	mbút	mbút	VERB	_	_	9	compound:svc	_	AlignBegin=248860|AlignEnd=248991|Gloss=spend_night|wordform=mbûɗíː
 11	-íː	-íː	PART	_	_	10	af:mod	_	Gloss=-Res|Result=Yes
@@ -2415,7 +2415,7 @@
 11	ɬə́	ɬə	VERB	_	_	10	comp:aux	_	AlignBegin=268770|AlignEnd=268936|Gloss=go
 12	mbûɗíː	mbút	VERB	_	_	11	compound:svc	_	AlignBegin=268936|AlignEnd=269019|Gloss=spend_night|Result=Yes
 13	Pànʃín	Pànʃín	PROPN	_	_	12	comp:loc	_	AlignBegin=269102|AlignEnd=269266|Gloss=Pankshin
-14	mə̀	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	10	parataxis@conj	_	AlignBegin=269266|AlignEnd=269451|Gloss=1Plur.Aor
+14	mə̀	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	10	parataxis	_	AlignBegin=269266|AlignEnd=269451|Gloss=1Plur.Aor
 15-17	sûmíɗi	_	_	_	_	_	_	_	_
 15	sû	su	VERB	_	_	14	comp:aux	_	AlignBegin=269451|AlignEnd=269513|Gloss=return
 16	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	15	comp:obj	_	AlignBegin=269513|AlignEnd=269575|Gloss=1Plur.Obj
