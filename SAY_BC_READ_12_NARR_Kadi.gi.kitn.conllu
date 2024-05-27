@@ -11,11 +11,11 @@
 # sent_id = SAY_BC_READ_12_NAR_Kadi_gi_kitn_002-002
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_12_NARR_Kadi.gi.kitn.WAV
 # sent_timecode = 2946, 3800
-# text = gàːta gàːtáwâːn //
+# text = gàːta gàːtáwâːn //
 # text_ortho = gàːta gàːtáwâːn //
 # text_en =  Here is a tale for you.§
 1	gàːta	gàːta	NOUN	_	_	0	root	_	AlignBegin=2946|AlignEnd=3231|Gloss=X|nWord=1
-2	gàːtáwâːn	gàːtáwâːn	VERB	_	Foreign=Yes	1	comp:aux	_	AlignBegin=3231|AlignEnd=3516|Gloss=X|nWord=2
+2	gàːtáwâːn	gàːtáwâːn	VERB	_	_	1	comp:aux	_	AlignBegin=3231|AlignEnd=3516|Gloss=X|nWord=2
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=3516|AlignEnd=3800|GE=[//]|Gloss=PUNCT|nWord=3
 
 # sent_id = SAY_BC_READ_12_NAR_Kadi_gi_kitn_003-003
@@ -196,7 +196,7 @@
 # sent_id = SAY_BC_READ_12_NAR_Kadi_gi_kitn_019-024
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_12_NARR_Kadi.gi.kitn.WAV
 # sent_timecode = 42100, 52920
-# text = gùŋ -̀ man wul =tə tu / ʤǎːn / tə̀ máni tə́ ɓíɬndi / tə̀ máni mbiː zobbè / gìp balkám / ʧìká ɗəːl -kə́nì dur //
+# text = gùŋ -̀ man wul =tə tu / ʤǎːn / tə̀ máni tə́ ɓíɬndi / tə̀ máni mbiː zobbè / gìp balkám / ʧìká ɗəːl -kə́nì dur //
 # text_ortho = gùŋ màn wultə tu / ʤǎːn / tə̀ mân tə́ ɓíɬndi / tə̀ mán mbiː zobbè / gìp balɣám / ʧìká ɗə́ːlɣə̂n dur //
 # text_en =  The king told him that the following day he should come in the morning to take a ring from the parlour where they were holding the council.§
 1	gùŋ	gùŋ	NOUN	_	_	2	mod	_	AlignBegin=42100|AlignEnd=42308|GE=chief|Gloss=chief|nWord=1|RX=[N]
@@ -214,7 +214,7 @@
 13	mbiː	mbiː	VERB	_	_	12	compound:svc	_	AlignBegin=48640|AlignEnd=48840|GE=take|Gloss=take|nWord=15|RX=[V]
 14	zobbè	zobbè	ADP	_	_	13	comp:obj	_	AlignBegin=48840|AlignEnd=49040|GE=ring|Gloss=ring|nWord=16|RX=[N]
 15	gìp	gìp	ADP	_	_	13	comp:obl	_	AlignBegin=49760|AlignEnd=49987|GE=inside|Gloss=inside|nWord=18|RX=[PREP]
-16	balkám	balkám	NUM	_	Foreign=Yes	14	flat@num	_	AlignBegin=49987|AlignEnd=50214|GE=entrance_room|Gloss=entrance_room|nWord=19|RX=[N]
+16	balkám	balkám	NOUN	_	_	14	flat@num	_	AlignBegin=49987|AlignEnd=50214|GE=entrance_room|Gloss=entrance_room|nWord=19|RX=[N]
 17	ʧìká	yikká	AUX	_	Aspect=Prog|Number=Plur|Person=3	15	comp:obj	_	AlignBegin=51980|AlignEnd=52215|GE=[3PL].[CONT]|Gloss=3PL.CONT|nWord=21|RX=[PNTAM]
 18	ɗə́ːlɣə̂n	ɗəːl	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	17	comp:aux	_	AlignBegin=52215|AlignEnd=52333|GE=come_out|Gloss=come_out-Nmlz|nWord=22|RX=[V]|wordform=ɗəːl
 19	dur	dur	NOUN	_	_	18	mod	_	AlignBegin=52450|AlignEnd=52685|GE=council|Gloss=council|nWord=23|RX=[N]
@@ -309,7 +309,7 @@
 # sent_id = SAY_BC_READ_12_NAR_Kadi_gi_kitn_033-034
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_12_NARR_Kadi.gi.kitn.WAV
 # sent_timecode = 72340, 76520
-# text = ɗan á tul -íː / á ɬə nə́ tu =ʃí tàː ʤwáːm =ʃí -íː balkám ɗeɓát //
+# text = ɗan á tul -íː / á ɬə nə́ tu =ʃí tàː ʤwáːm =ʃí -íː balkám ɗeɓát //
 # text_ortho = ɗan á tûlíː / á ɬə́n tuʃí tàː ʤwáːmʃíː balɣám ɗeɓát //
 # text_en =  When he arrived he found them all gathered in the parlour.§
 1	ɗan	ɗan	SCONJ	_	_	2	mod	_	AlignBegin=72340|AlignEnd=72500|GE=as|Gloss=as|nWord=1|RX=[CONJ]
@@ -325,7 +325,7 @@
 11	ʤwáːm	ʤwáːm	VERB	_	_	10	comp:aux	_	AlignBegin=75268|AlignEnd=75372|GE=gather|Gloss=gather|nWord=9|RX=[V].[PLAC]
 12	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=75372|AlignEnd=75476|GE=[3PL].[OBJ ; 3PL].[POS]|Gloss=3PL.OBJ ; 3PL.POS|nWord=9|RX=[PRO]
 13	-íː	-íː	PART	_	_	11	af:mod	_	AlignBegin=75476|AlignEnd=75580|GE=[RES]|Gloss=RES|nWord=9|RX=[TAM]
-14	balkám	balkám	IDEO	_	Foreign=Yes	11	mod	_	AlignBegin=75580|AlignEnd=75892|GE=entrance_room|Gloss=entrance_room|nWord=10|RX=[N]
+14	balkám	balkám	NOUN	_	_	11	mod	_	AlignBegin=75580|AlignEnd=75892|GE=entrance_room|Gloss=entrance_room|nWord=10|RX=[N]
 15	ɗeɓát	ɗeɓát	IDEO	_	_	11	mod	_	AlignBegin=75892|AlignEnd=76204|GE=all|Gloss=all|nWord=11|RX=[ADV]
 16	//	//	PUNCT	_	_	2	punct	_	AlignBegin=76204|AlignEnd=76520|GE=[//]|Gloss=PUNCT|nWord=12
 
@@ -901,7 +901,7 @@
 8	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	3	parataxis	_	AlignBegin=207600|AlignEnd=207804|GE=[3SG].[AOR]|Gloss=3SG.AOR|nWord=8|RX=[PNTAM]
 9	mbiː	mbiː	VERB	_	_	8	comp:aux	_	AlignBegin=207804|AlignEnd=208008|GE=take|Gloss=take|nWord=9|RX=[V]
 10	gaːwa	gaːwa	NOUN	_	_	9	compound:svc	_	AlignBegin=208008|AlignEnd=208110|GE=corpse|Gloss=corpse|nWord=10|RX=[N]
-11	daː	daː	VERB	_	Foreign=Yes	9	compound:svc	_	AlignBegin=208212|AlignEnd=208314|GE=person|Gloss=person|nWord=11|RX=[N]
+11	daː	daː	NOUN	_	_	9	compound:svc	_	AlignBegin=208212|AlignEnd=208314|GE=person|Gloss=person|nWord=11|RX=[N]
 12	-íː	-íː	PART	_	Deixis=Remt	10	af:mod	_	AlignBegin=208314|AlignEnd=208416|GE=[DIST]|Gloss=DIST|nWord=11|RX=[DEICT]
 13	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	8	conj:coord	_	AlignBegin=209540|AlignEnd=209788|GE=[3SG].[ICPL]|Gloss=3SG.ICPL|nWord=13|RX=[PNTAM]
 14	ɬə	ɬə	VERB	_	_	13	comp:aux	_	AlignBegin=209788|AlignEnd=209912|GE=go|Gloss=go|nWord=14|RX=[V]
@@ -1161,7 +1161,7 @@
 # sent_id = SAY_BC_READ_12_NAR_Kadi_gi_kitn_126-129
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_12_NARR_Kadi.gi.kitn.WAV
 # sent_timecode = 267140, 272740
-# text = séː gùŋ wul =tə tu / tə̀ máni ngap / ŋaː -́ pərʃi -́ =wôs -ə́n / ɗan yi balkám -ə́n //
+# text = séː gùŋ wul =tə tu / tə̀ máni ngap / ŋaː -́ pərʃi -́ =wôs -ə́n / ɗan yi balɣám -ə́n //
 # text_ortho = séy gùŋ wùltə̀ tu / tə̀ mán ngap / ŋǎː pərʃíwôsə́n / ɗan yi balɣámə́n //
 # text_en =  Then the king told him to come and take this his small foal that was in the parlour.§
 1	séː	séː	ADV	_	_	3	mod	_	AlignBegin=267140|AlignEnd=267324|GE=then|Gloss=then|nWord=1|RX=[CONJ]
@@ -1178,7 +1178,7 @@
 12	-ə́n	-ə́n	DET	_	Deixis=Prox	10	af:det	_	AlignBegin=270680|AlignEnd=270760|GE=[PROX]|Gloss=PROX|nWord=11|RX=[DEICT]
 13	ɗan	ɗan	SCONJ	_	_	8	mod	_	AlignBegin=272000|AlignEnd=272185|GE=that|Gloss=that|nWord=13|RX=[REL]
 14	yi	yi	VERB	_	_	13	comp:obj	_	AlignBegin=272185|AlignEnd=272370|GE=be|Gloss=be|nWord=14|RX=[V]
-15	balkám	balkám	ADV	_	Foreign=Yes	14	comp:pred	_	AlignBegin=272370|AlignEnd=272462|GE=entrance_room|Gloss=entrance_room|nWord=15|RX=[N]
+15	balɣám	balkám	NOUN	_	_	14	comp:pred	_	AlignBegin=272370|AlignEnd=272462|GE=entrance_room|Gloss=entrance_room|nWord=15|RX=[N]
 16	-ə́n	-ə́n	DET	_	Deixis=Prox	15	af:det	_	AlignBegin=272462|AlignEnd=272555|GE=[PROX]|Gloss=PROX|nWord=15|RX=[DEICT]
 17	//	//	PUNCT	_	_	3	punct	_	AlignBegin=272555|AlignEnd=272740|GE=[//]|Gloss=PUNCT|nWord=16
 
@@ -2905,7 +2905,7 @@
 # text_en =  They looked for the bride and could not find her.§
 1	tə́	á	AUX	_	_	0	root	_	AlignBegin=680760|AlignEnd=681020|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=1|RX=[PNTAM]
 2	ŋal	ŋal	VERB	_	_	1	comp:aux	_	AlignBegin=681020|AlignEnd=681280|GE=look_for|Gloss=look_for|nWord=2|RX=[V]
-3	amarya	amarya	NOUN	_	Foreign=Yes	2	comp:obj	_	AlignBegin=681280|AlignEnd=681540|GE=bride|Gloss=bride|nWord=3|RX=[N]
+3	amarya	amarya	NOUN	_	Foreign=Yes	2	comp:obj	_	AlignBegin=681280|AlignEnd=681540|GE=bride|Gloss=bride|Lang=ha|nWord=3|RX=[N]
 4	hár	hár	ADP	_	_	3	mod	_	AlignBegin=681540|AlignEnd=681800|GE=until|Gloss=until|nWord=4|RX=[CONJ]
 5	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	1	conj:svc	_	AlignBegin=681800|AlignEnd=682060|GE=[3PL].[AOR]|Gloss=3PL.AOR|nWord=5|RX=[PNTAM]
 6	tu	tu	VERB	_	_	5	comp:aux	_	AlignBegin=682060|AlignEnd=682147|GE=find|Gloss=find|nWord=6|RX=[V]
@@ -2964,7 +2964,7 @@
 # text = daː -i -̀ su =tə káːr də̀n //
 # text_ortho = dàːʃì sùtə káːr də̀n //
 # text_en =  The man went back.§
-1	daː	daː	NOUN	_	Foreign=Yes	0	root	_	AlignBegin=694220|AlignEnd=694346|GE=person|Gloss=person|nWord=1|RX=[N]
+1	daː	daː	NOUN	_	_	0	root	_	AlignBegin=694220|AlignEnd=694346|GE=person|Gloss=person|nWord=1|RX=[N]
 2	-i	-i	PART	_	_	1	af:det	_	AlignBegin=694346|AlignEnd=694472|GE=[INDF]|Gloss=INDF|nWord=1|RX=[ART]
 3	su	su	VERB	_	_	1	compound:svc	_	AlignBegin=694556|AlignEnd=694640|GE=turn|Gloss=turn|nWord=2|RX=[V]
 4	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=694640|AlignEnd=694724|GE=[3SG].[OBJ]|Gloss=3SG.OBJ|nWord=2|RX=[PRO]
