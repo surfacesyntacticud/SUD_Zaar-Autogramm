@@ -761,24 +761,24 @@
 # sent_id = SAY_BC_READ_01_Beer_087-089
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
 # sent_timecode = 178500, 183580
-# text = myáː ʃaː -tə wût / ɗan páːtsə -i làr -íː ɗeɓát / tòː ma ɲom -íː //
+# text = myáː ʃaː =tə wût / ɗan páːtsə -i làr -íː ɗeɓát / tòː ma ɲom -íː //
 # text_ortho = myáː ʃáːtə wût / ɗan páːʧi làríː ɗeɓát / tôː ma ɲomíː //
 # text_en =  After I have cooked it when the leaves become all red, I will remove it.
-1	myáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	0	root	_	AlignBegin=178500|AlignEnd=178680|GE=[1SG].[COND]|Gloss=1SG.COND|nWord=1|RX=[PNTAM]
+1	myáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	12	parataxis@mod	_	AlignBegin=178500|AlignEnd=178680|GE=[1SG].[COND]|Gloss=1SG.COND|nWord=1|RX=[PNTAM]
 2	ʃaː	ʃaː	VERB	_	_	1	comp:aux	_	AlignBegin=178680|AlignEnd=178770|GE=blow|Gloss=blow|nWord=2|RX=[V]
-3	-tə	-tə	VERB	_	_	2	comp:obj	_	AlignBegin=178770|AlignEnd=178860|GE=[ABST]|Gloss=ABST|nWord=2|RX=[DER]
+3	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3	2	comp:ben	_	AlignBegin=178770|AlignEnd=178860|GE=[ABST]|Gloss=3Sing.Acc|nWord=2|RX=[DER]
 4	wût	wût	NOUN	_	_	2	comp:obj	_	AlignBegin=178860|AlignEnd=179040|GE=[N]|Gloss=N|nWord=3|RX=[FIRE]
-5	ɗan	ɗan	SCONJ	_	_	2	mod	_	AlignBegin=180040|AlignEnd=180264|GE=then|Gloss=then|nWord=5|RX=[CONJ]
-6	páːtsə	páːtsə	NOUN	_	Definite=Def	5	comp:obj	_	AlignBegin=180264|AlignEnd=180376|GE=leaf|Gloss=leaf|nWord=6|RX=[N]
+5	ɗan	ɗan	SCONJ	_	_	12	mod	_	AlignBegin=180040|AlignEnd=180264|GE=then|Gloss=then|nWord=5|RX=[CONJ]
+6	páːtsə	páːtsə	NOUN	_	Definite=Def	8	subj	_	AlignBegin=180264|AlignEnd=180376|GE=leaf|Gloss=leaf|nWord=6|RX=[N]
 7	-i	-i	DET	_	Deixis=Remt	6	det	_	AlignBegin=180376|AlignEnd=180488|GE=[INDF]|Gloss=-Ind|nWord=6|RX=[ART]
-8	làr	lar	NOUN	_	_	6	mod	_	AlignBegin=180488|AlignEnd=180600|GE=be_red|Gloss=be_red|nWord=7|RX=[V]
+8	làr	lar	NOUN	_	_	5	comp:obj	_	AlignBegin=180488|AlignEnd=180600|GE=be_red|Gloss=be_red|nWord=7|RX=[V]
 9	-íː	-íː	PART	_	_	8	af:mod	_	AlignBegin=180600|AlignEnd=180712|GE=[RES]|Gloss=-Res|nWord=7|RX=[TAM]
-10	ɗeɓát	ɗeɓát	IDEO	_	_	13	mod	_	AlignBegin=180712|AlignEnd=180936|GE=all|Gloss=all|nWord=8|RX=[ADV]
+10	ɗeɓát	ɗeɓát	IDEO	_	_	8	mod	_	AlignBegin=180712|AlignEnd=180936|GE=all|Gloss=all|nWord=8|RX=[ADV]
 11	tòː	tòː	PART	_	_	12	discourse	_	AlignBegin=183000|AlignEnd=183145|GE=[DM]|Gloss=DM|nWord=10|RX=[PTCL]
-12	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	5	comp:obj	_	AlignBegin=183145|AlignEnd=183290|GE=[1SG].[FUT]|Gloss=1SG.FUT|nWord=11|RX=[PNTAM]
+12	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	0	root:obj	_	AlignBegin=183145|AlignEnd=183290|GE=[1SG].[FUT]|Gloss=1SG.FUT|nWord=11|RX=[PNTAM]
 13	ɲom	ɲom	VERB	_	_	12	comp:aux	_	AlignBegin=183290|AlignEnd=183362|GE=take|Gloss=take|nWord=12|RX=[V]
 14	-íː	-íː	PART	_	_	13	af:mod	_	AlignBegin=183362|AlignEnd=183435|GE=[RES]|Gloss=-Res|nWord=12|RX=[TAM]
-15	//	//	PUNCT	_	_	1	punct	_	AlignBegin=183435|AlignEnd=183580|GE=[//]|Gloss=PUNCT|nWord=13
+15	//	//	PUNCT	_	_	12	punct	_	AlignBegin=183435|AlignEnd=183580|GE=[//]|Gloss=PUNCT|nWord=13
 
 # sent_id = SAY_BC_READ_01_Beer_090-094
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
@@ -1450,7 +1450,7 @@
 # sent_id = SAY_BC_READ_01_Beer_172-173
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
 # sent_timecode = 355480, 359220
-# text = wàːtòː bambánʧi =wáːsə̀ŋ / yáːni nə mbwáː -kə́nì -íː //
+# text = wàːtòː bambánʧi =wáːsə̀ŋ yáːni nə mbwáːɣə̂n -íː //
 # text_ortho = wàːtòː bambánʧiwàːsə̀ŋ / yâːn nə mbwáːkə̂níː //
 # text_en =  That is to say, their difference is in that malting.
 1	wàːtòː	wàːtòː	PART	_	_	4	discourse	_	AlignBegin=355480|AlignEnd=355993|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL/].[BW].[HAU]
@@ -1458,10 +1458,9 @@
 3	=wáːsə̀ŋ	=wáːsəŋ	PRON	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	mod@poss	_	AlignBegin=356249|AlignEnd=356506|GE=[3PL].[POS]|Gloss=3PL.POS|nWord=2|RX=[PRO]
 4	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=358320|AlignEnd=358545|GE=[3SG].[IDP]|Gloss=3SG.IDP|nWord=4|RX=[PRO]
 5	nə	nə	PART	_	_	4	comp:cleft	_	AlignBegin=358545|AlignEnd=358770|GE=[COP1]|Gloss=COP1|nWord=5|RX=[PTCL].[SYNT]
-6	mbwáː	mbwaaː	VERB	_	_	5	comp:pred	_	AlignBegin=358770|AlignEnd=358845|GE=germinate|Gloss=germinate|nWord=6|RX=[V]
-7	-kə́nì	-kə́nì	VERB	_	Deixis=Prox	6	comp:obj	_	AlignBegin=358845|AlignEnd=358920|GE=[NMLZ]|Gloss=NMLZ|nWord=6|RX=[DER]
-8	-íː	-íː	PART	_	_	6	af:mod	_	AlignBegin=358920|AlignEnd=358995|GE=[DIST]|Gloss=DIST|nWord=6|RX=[DEICT]
-9	//	//	PUNCT	_	_	4	punct	_	AlignBegin=358995|AlignEnd=359220|GE=[//]|Gloss=PUNCT|nWord=7
+6	mbwáːɣə̂n	mbwaː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	5	comp:pred	_	AlignBegin=358770|AlignEnd=358845|GE=germinate|Gloss=germinate.Vnoun|nWord=6|RX=[V]
+7	-íː	-íː	DET	_	Deixis=Remt	6	af:det	_	AlignBegin=358920|AlignEnd=358995|GE=[DIST]|Gloss=-Remt|nWord=6|RX=[DEICT]
+8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=358995|AlignEnd=359220|GE=[//]|Gloss=PUNCT|nWord=7
 
 # sent_id = SAY_BC_READ_01_Beer_174-181
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
