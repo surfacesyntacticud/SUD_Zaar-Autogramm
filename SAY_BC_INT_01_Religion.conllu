@@ -598,21 +598,25 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_RELIGION.WAV
 # sent_timecode = 100620, 103600
-# text = ɗan tə́ ʧôp wáːrêʃíː < tôː vòy kwaːɓíː //
+# text = ɗan tə́ ʧôp wâːr -ês -íː < tôː vòy kwaːɓíː //
 # text_ortho = ɗan tə́ ʧôp wáːrêʃíː < tôː vòy kwaːɓíː //
 # text_en = After they... had done the ritual well the belly would deflate.
-1	ɗan	ɗan	SCONJ	_	_	10	mod	_	AlignBegin=100620|AlignEnd=100944|Gloss=as
+1	ɗan	ɗan	SCONJ	_	_	11	mod	_	AlignBegin=100620|AlignEnd=100944|Gloss=as
 2	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=100944|AlignEnd=101268|Gloss=3Plur.Aor
 3-6	ʧôp wáːrêʃíː	_	_	_	_	_	_	_	_
 3	ʧôp	ʧop	VERB	_	_	2	comp:aux	_	AlignBegin=101268|AlignEnd=101592|Gloss=eat|wordform=#ʧôp-íː
 4	wâːr	wâːr	NOUN	_	Definite=Def	3	comp:obj	_	AlignBegin=101592|AlignEnd=101916|Gloss=fetish
 5	-ês	-ês	DET	_	Deixis=Remt	4	af:det	_	Gloss=-Def
-6	-íː	-íː	PART	_	_	3	af:mod	_	Gloss=-Res
+6	-íː	-íː	DET	_	Deixis=Remt	4	af:det	_	Gloss=-Remt
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=101916|AlignEnd=102240|Gloss=PUNCT
-8	tôː	tòː	PART	_	_	10	discourse	_	AlignBegin=102580|AlignEnd=102835|Gloss=DM
-9	vòy	vwàː	NOUN	_	Definite=Ind	10	subj	_	AlignBegin=102835|AlignEnd=103090|Gloss=belly.IND|wordform=vwàː
-10	kwaːɓíː	kwaːp	VERB	_	_	0	root	_	AlignBegin=103090|AlignEnd=103345|Gloss=break|Result=Yes|wordform=kwaːp
-11	//	//	PUNCT	_	_	10	punct	_	AlignBegin=103345|AlignEnd=103600|Gloss=PUNCT
+8	tôː	tòː	PART	_	_	11	discourse	_	AlignBegin=102580|AlignEnd=102835|Gloss=DM
+9-10	vòy	_	_	_	_	_	_	_	_
+9	vwàː	vwàː	NOUN	_	_	11	subj	_	AlignBegin=102835|AlignEnd=103090|Gloss=belly
+10	-i	-i	DET	_	Definite=Ind	9	af:det	_	AlignBegin=102835|AlignEnd=103090|Gloss=-Ind
+11-12	kwaːɓíː	_	_	_	_	_	_	_	_
+11	kwaːp	kwaːp	VERB	_	_	0	root	_	AlignBegin=103090|AlignEnd=103345|Gloss=break
+12	-íː	-íː	PART	_	_	11	af:mod	_	AlignBegin=103090|AlignEnd=103345|Gloss=-Res|Result=Yes
+13	//	//	PUNCT	_	_	11	punct	_	AlignBegin=103345|AlignEnd=103600|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_01_Religion_065-065
 # speaker_id = SP1
@@ -653,7 +657,7 @@
 13	kəp	kəp	VERB	_	_	12	comp:aux	_	AlignBegin=111089|AlignEnd=111332|Gloss=cut|wordform=*kəp-íː
 14	gwàːs	gwàːs	NOUN	_	Definite=Def	13	comp:obj	_	AlignBegin=111332|AlignEnd=111575|Gloss=tree|wordform=gwàːʃès
 15	-ês	-ês	DET	_	Deixis=Remt	14	af:det	_	Gloss=-Def
-16	-íː	-íː	PART	_	_	13	af:mod	_	Gloss=-Res|Result=Yes
+16	-íː	-íː	DET	_	Deixis=Remt	14	af:det	_	Gloss=-Remt
 17	)	)	PUNCT	_	_	12	punct	_	AlignBegin=111575|AlignEnd=111820|Gloss=PUNCT
 18	tôː	tôː	PART	_	_	19	discourse	_	AlignBegin=112400|AlignEnd=112540|Gloss=DM
 19	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=112540|AlignEnd=112680|Gloss=2Sing.Fut
@@ -698,7 +702,7 @@
 8	kə́	kə́́	ADP	_	_	7	mod	_	AlignBegin=117110|AlignEnd=117208|Gloss=of
 9	wàːrès	wàːrès	NOUN	_	Definite=Def	8	comp:obj	_	AlignBegin=117208|AlignEnd=117404|Gloss=fetish
 10	-ês	-ês	DET	_	Deixis=Remt	9	af:det	_	Gloss=-Def
-11	-íː	-íː	NOUN	_	_	6	af:mod	_	AlignBegin=117208|AlignEnd=117404|Gloss=-Res|Result=Yes
+11	-íː	-íː	DET	_	Deixis=Remt	9	af:det	_	AlignBegin=117208|AlignEnd=117404|Gloss=-Remt
 12	<	<	PUNCT	_	_	4	punct	_	AlignBegin=117404|AlignEnd=117600|Gloss=PUNCT
 13	tòː	tòː	PART	_	_	16	discourse	_	AlignBegin=117980|AlignEnd=118140|Gloss=DM
 14	wûs	wûs	NOUN	_	Definite=Ind	16	subj	_	AlignBegin=118140|AlignEnd=118300|Gloss=boil
@@ -819,7 +823,7 @@
 2	wûl	wul	VERB	_	_	1	comp:aux	_	AlignBegin=139160|AlignEnd=139340|Gloss=say|wordform=*wûl-íː
 3	vìː	vìː	NOUN	_	Definite=Def	2	comp:obj	_	AlignBegin=139340|AlignEnd=139520|Gloss=speech|wordform=vèːs
 4	-ês	-ês	DET	_	Deixis=Remt	3	af:det	_	Gloss=-Def
-5	-íː	-íː	PART	_	_	2	af:mod	_	Gloss=-Res
+5	-íː	-íː	DET	_	Deixis=Remt	3	af:det	_	Gloss=-Remt
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=139520|AlignEnd=139700|Gloss=PUNCT
 7	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	12	mod	_	AlignBegin=140620|AlignEnd=140793|Gloss=3Sing.Cnd
 8	kap	kap	VERB	_	_	7	comp:aux	_	AlignBegin=140793|AlignEnd=140966|Gloss=take|wordform=kâɓíː
@@ -911,7 +915,7 @@
 6	kə́	kə́	ADP	_	_	5	mod	_	AlignBegin=160500|AlignEnd=160585|Gloss=of
 7	wâːrês	wâːrês	NOUN	_	Definite=Def	6	comp:obj	_	AlignBegin=160585|AlignEnd=160754|Gloss=fetish
 8	-ês	-ês	DET	_	Deixis=Remt	7	af:det	_	Gloss=-Def
-9	-íː	-íː	PART	_	_	4	af:mod	_	AlignBegin=160585|AlignEnd=160754|Gloss=-Res|Result=Yes
+9	-íː	-íː	DET	_	Deixis=Remt	7	af:det	_	AlignBegin=160585|AlignEnd=160754|Gloss=-Remt
 10	<	<	PUNCT	_	_	3	punct	_	AlignBegin=160754|AlignEnd=160920|Gloss=PUNCT
 11	tə́	tə́	ADP	_	_	15	mod	_	AlignBegin=161460|AlignEnd=161600|Gloss=with
 12-13	yelíwôs	_	_	_	_	_	_	_	_
@@ -1596,7 +1600,7 @@
 36	fi	fi	VERB	_	_	35	comp:aux	_	AlignBegin=273864|AlignEnd=274056|Gloss=do|wordform=*fî-íː
 37	laː	laː	NOUN	_	Definite=Def	36	comp:obj	_	AlignBegin=274056|AlignEnd=274248|Gloss=work|wordform=lǎːs
 38	-ês	-ês	DET	_	Deixis=Remt	37	af:det	_	Gloss=-Def
-39	-íː	-íː	PART	_	_	36	af:mod	_	Gloss=-Res|Result=Yes
+39	-íː	-íː	DET	_	Deixis=Remt	37	af:det	_	Gloss=-Remt
 40	?//	?//	PUNCT	_	_	35	punct	_	AlignBegin=274248|AlignEnd=274441|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_01_Religion_168-173
@@ -1711,18 +1715,17 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_RELIGION.WAV
 # sent_timecode = 297980, 299780
-# text = tôː tôː séː kyáː káp lêːfíwǎːy kàm //
+# text = tôː tôː séː kyáː kap lêːfí =wâː -íː kàm //
 # text_ortho = tôː tôː séː kyáː káp lêːfíwǎːy kàm //
 # text_en = Well, well, you had to confess your sin.
 1	tôː	tôː	PART	_	_	4	discourse	_	AlignBegin=297980|AlignEnd=298205|Gloss=DM
 2	tôː	tôː	PART	_	_	4	discourse	_	AlignBegin=298205|AlignEnd=298430|Gloss=DM
 3	séː	séː	ADV	_	_	4	mod	_	AlignBegin=298430|AlignEnd=298655|Gloss=must
 4	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	0	root	_	AlignBegin=298655|AlignEnd=298880|Gloss=2Sing.Cnd
-5-8	káp lêːfíwǎːy	_	_	_	_	_	_	_	_
 5	kap	kap	VERB	_	_	4	comp:aux	_	AlignBegin=298880|AlignEnd=299105|Gloss=take|wordform=*káp-íː
 6	lêːfí	lêːfí	NOUN	_	_	5	comp:obj	_	AlignBegin=299105|AlignEnd=299330|Gloss=fault|Result=Yes
-7	-íː	-íː	PART	_	_	5	af:mod	_	Gloss=-Res|Result=Yes
-8	=wâː	=wâː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	6	mod@poss	_	AlignBegin=299180|AlignEnd=299255|Gloss=2Sing.Gen|Incorporated=Yes
+7	=wâː	=wâː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	6	mod@poss	_	AlignBegin=299180|AlignEnd=299255|Gloss=2Sing.Gen|Incorporated=Yes
+8	-íː	-íː	DET	_	Deixis=Remt	6	af:det	_	AlignBegin=299180|AlignEnd=299255|Gloss=-Remt
 9	kàm	kàm	PART	_	_	4	mod	_	AlignBegin=299330|AlignEnd=299555|Gloss=indeed
 10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=299555|AlignEnd=299780|Gloss=PUNCT
 
@@ -2106,7 +2109,7 @@
 6	yisə́ŋ	yisə́ŋ	VERB	_	_	5	comp:aux	_	AlignBegin=349792|AlignEnd=350030|Gloss=know
 7	dàtə̂pm	dàtə̂pm	NOUN	_	_	6	comp:obj	_	AlignBegin=350030|AlignEnd=350268|Gloss=road
 8	Tʃokn	Tʃokn	PROPN	_	_	7	mod	_	AlignBegin=350268|AlignEnd=350506|Gloss=God
-9	-íː	-íː	PART	_	_	6	af:mod	_	AlignBegin=350268|AlignEnd=350506|Gloss=-Res|Result=Yes
+9	-íː	-íː	DET	_	Deixis=Remt	7	af:det	_	AlignBegin=350268|AlignEnd=350506|Gloss=-Remt
 10	//	//	PUNCT	_	_	3	punct	_	AlignBegin=350506|AlignEnd=350740|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_01_Religion_218-218
