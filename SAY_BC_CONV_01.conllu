@@ -1615,17 +1615,19 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 182610, 184011
-# text = máːyí wumíː éy ɗa áyǎː wulíː //
+# text = máːyí wumíː éy ɗa áyǎː wul -íː //
 # text_ortho = máːyí wùmíː éy ɗa áyàː wulíː //
 # text_en = This morning I heard him saying it.
 1	máːyí	àː-yi	AUX	_	Aspect=Perf|Number=Sing|Person=1|Tense=Imm	0	root	_	AlignBegin=182610|AlignEnd=182810|Gloss=1Sing.Perf.IMM
-2	wumíː	wum	VERB	_	_	1	comp:aux	_	AlignBegin=182810|AlignEnd=182910|Gloss=feel.Res|Result=Yes
-3	éy	éy	INTJ	_	_	1	discourse	_	AlignBegin=183010|AlignEnd=183210|Gloss=indeed
-4	ɗa	ɗan	SCONJ	_	_	2	mod	_	AlignBegin=183210|AlignEnd=183410|Gloss=as
-5	áyǎː	yi-yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3|Tense=Imm	4	comp:obj	_	AlignBegin=183410|AlignEnd=183610|Gloss=3Sing.Imp.IMM
-6	wul	wul	VERB	_	_	5	comp:aux	_	AlignBegin=183610|AlignEnd=183710|Gloss=say|wordform=wulíː
-7	-íː	-íː	PART	_	_	6	af:mod	_	Gloss=-Res|Result=Yes
-8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=183810|AlignEnd=184011|Gloss=PUNCT
+2-3	wumíː	_	_	_	_	_	_	_	_
+2	wum	wum	VERB	_	_	1	comp:aux	_	AlignBegin=182810|AlignEnd=182910|Gloss=feel.Res
+3	-íː	-íː	PART	_	_	2	af:mod	_	AlignBegin=182810|AlignEnd=182910|Gloss=-Res|Result=Yes
+4	éy	éy	INTJ	_	_	2	discourse	_	AlignBegin=183010|AlignEnd=183210|Gloss=indeed
+5	ɗa	ɗan	SCONJ	_	_	2	mod	_	AlignBegin=183210|AlignEnd=183410|Gloss=as
+6	áyǎː	yi-yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3|Tense=Imm	5	comp:obj	_	AlignBegin=183410|AlignEnd=183610|Gloss=3Sing.Imp.IMM
+7	wul	wul	VERB	_	_	6	comp:aux	_	AlignBegin=183610|AlignEnd=183710|Gloss=say|wordform=wulíː
+8	-íː	-íː	PART	_	_	7	af:mod	_	Gloss=-Res|Result=Yes
+9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=183810|AlignEnd=184011|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_180-182
 # speaker_id = SP1
@@ -2399,7 +2401,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 267490, 270005
-# text = kyáː yél < hár má ɗyǎː má ɬǐː má ɬə́ mbûɗíː Pànʃín mə̀ sûmíɗi ŋǎːn ?//
+# text = kyáː yél < hár má ɗyǎː má ɬə -íː má ɬə́ mbûɗíː Pànʃín mə̀ sû =mí ɗi ŋǎːn ?//
 # text_ortho = kyáː yél < hár má ɗyǎː má ɬǐː má ɬə́ mbûɗíː Pànʃín mə̀ sûmíɗi ŋǎːn ?//
 # text_en = You see, we would even go and spend the night in Pankshin and come back, no?
 1	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	5	parataxis@discourse	_	AlignBegin=267490|AlignEnd=267585|Gloss=2Sing.Cnd
@@ -2413,17 +2415,19 @@
 9	-íː	-íː	PART	_	_	8	af:mod	_	Gloss=-Res|Result=Yes
 10	má	a	AUX	_	Number=Plur|Person=1|Tense=Fut	7	compound:svc	_	AlignBegin=268604|AlignEnd=268770|Gloss=1Plur.Fut
 11	ɬə́	ɬə	VERB	_	_	10	comp:aux	_	AlignBegin=268770|AlignEnd=268936|Gloss=go
-12	mbûɗíː	mbút	VERB	_	_	11	compound:svc	_	AlignBegin=268936|AlignEnd=269019|Gloss=spend_night|Result=Yes
-13	Pànʃín	Pànʃín	PROPN	_	_	12	comp:loc	_	AlignBegin=269102|AlignEnd=269266|Gloss=Pankshin
-14	mə̀	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	10	parataxis	_	AlignBegin=269266|AlignEnd=269451|Gloss=1Plur.Aor
-15-17	sûmíɗi	_	_	_	_	_	_	_	_
-15	sû	su	VERB	_	_	14	comp:aux	_	AlignBegin=269451|AlignEnd=269513|Gloss=return
-16	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	15	comp:obj	_	AlignBegin=269513|AlignEnd=269575|Gloss=1Plur.Obj
-17	ɗi	ɗi	PART	_	_	15	compound:prt	_	AlignBegin=269575|AlignEnd=269636|Gloss=Ctp|wordform==ɗi
-18-19	ŋǎːn	_	_	_	_	_	_	_	_
-18	ŋǎː	ŋaː	PART	_	PartType=Int	5	mod	_	AlignBegin=269636|AlignEnd=269728|Gloss=VRT
-19	hŋ́	hŋ́	PART	_	Polarity=Neg	5	mod	_	AlignBegin=269728|AlignEnd=269821|Gloss=Neg
-20	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=269821|AlignEnd=270005|Gloss=PUNCT
+12-13	mbûɗíː	_	_	_	_	_	_	_	_
+12	mbút	mbút	VERB	_	_	11	compound:svc	_	AlignBegin=268936|AlignEnd=269019|Gloss=spend_night
+13	-íː	-íː	PART	_	_	12	af:mod	_	AlignBegin=268936|AlignEnd=269019|Gloss=-Res|Result=Yes
+14	Pànʃín	Pànʃín	PROPN	_	_	12	comp:loc	_	AlignBegin=269102|AlignEnd=269266|Gloss=Pankshin
+15	mə̀	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	10	parataxis	_	AlignBegin=269266|AlignEnd=269451|Gloss=1Plur.Aor
+16-18	sûmíɗi	_	_	_	_	_	_	_	_
+16	sû	su	VERB	_	_	15	comp:aux	_	AlignBegin=269451|AlignEnd=269513|Gloss=return
+17	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	16	comp:obj	_	AlignBegin=269513|AlignEnd=269575|Gloss=1Plur.Obj
+18	ɗi	ɗi	PART	_	_	16	compound:prt	_	AlignBegin=269575|AlignEnd=269636|Gloss=Ctp|wordform==ɗi
+19-20	ŋǎːn	_	_	_	_	_	_	_	_
+19	ŋǎː	ŋaː	PART	_	PartType=Int	5	mod	_	AlignBegin=269636|AlignEnd=269728|Gloss=VRT
+20	hŋ́	hŋ́	PART	_	Polarity=Neg	5	mod	_	AlignBegin=269728|AlignEnd=269821|Gloss=Neg
+21	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=269821|AlignEnd=270005|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_277-277
 # speaker_id = SP1
@@ -2792,13 +2796,15 @@
 16	-íː	-íː	DET	_	Deixis=Remt	13	af:det	_	AlignBegin=318438|AlignEnd=318559|Gloss=-Remt
 17	<	<	PUNCT	_	_	11	punct	_	AlignBegin=318680|AlignEnd=319042|Gloss=PUNCT
 18	mə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=1	19	subj	_	AlignBegin=319380|AlignEnd=319664|Gloss=1Sing.Sub
-19	ɬíː	ɬə	VERB	_	_	10	comp:obj	_	AlignBegin=319664|AlignEnd=319806|Gloss=go-Res|Result=Yes
-20	makaranta	makaranta	NOUN	_	_	19	comp:goal	_	AlignBegin=319948|AlignEnd=320733|Gloss=school
-21	College	College	PROPN	_	Foreign=Yes	19	mod	_	AlignBegin=320733|AlignEnd=321065|Gloss=college|Lang=en
-22	of	of	ADP	_	Foreign=Yes	21	flat@foreign	_	AlignBegin=321065|AlignEnd=321397|Gloss=of|Lang=en
-23	Education	Education	PROPN	_	Foreign=Yes	22	flat@foreign	_	AlignBegin=321397|AlignEnd=321729|Gloss=education|Lang=en
-24	Azare	Azare	PROPN	_	_	23	flat@foreign	_	AlignBegin=321729|AlignEnd=322061|Gloss=Azare
-25	//	//	PUNCT	_	_	6	punct	_	AlignBegin=322061|AlignEnd=322393|Gloss=PUNCT
+19-20	ɬíː	_	_	_	_	_	_	_	_
+19	ɬə	ɬə	VERB	_	_	10	comp:obj	_	AlignBegin=319664|AlignEnd=319806|Gloss=go
+20	-íː	-íː	PART	_	_	19	af:mod	_	AlignBegin=319664|AlignEnd=319806|Gloss=-Res|Result=Yes
+21	makaranta	makaranta	NOUN	_	_	19	comp:goal	_	AlignBegin=319948|AlignEnd=320733|Gloss=school
+22	College	College	PROPN	_	Foreign=Yes	19	mod	_	AlignBegin=320733|AlignEnd=321065|Gloss=college|Lang=en
+23	of	of	ADP	_	Foreign=Yes	22	flat@foreign	_	AlignBegin=321065|AlignEnd=321397|Gloss=of|Lang=en
+24	Education	Education	PROPN	_	Foreign=Yes	23	flat@foreign	_	AlignBegin=321397|AlignEnd=321729|Gloss=education|Lang=en
+25	Azare	Azare	PROPN	_	_	24	flat@foreign	_	AlignBegin=321729|AlignEnd=322061|Gloss=Azare
+26	//	//	PUNCT	_	_	6	punct	_	AlignBegin=322061|AlignEnd=322393|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_325-327
 # speaker_id = SP1
@@ -2819,7 +2825,9 @@
 10	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=323147|AlignEnd=323321|Gloss=2Sing.Fut
 11	ɗyáː	ɗyáː	VERB	_	_	10	comp:aux	_	AlignBegin=323321|AlignEnd=323495|Gloss=be_able
 12	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	10	compound:svc	_	AlignBegin=323495|AlignEnd=323669|Gloss=2Sing.Fut
-13	ɬíː	ɬə	VERB	_	_	12	comp:aux	_	AlignBegin=323669|AlignEnd=323756|Gloss=go-Res|Result=Yes
-14	kên	kéni	ADV	_	_	13	mod	_	AlignBegin=323843|AlignEnd=324017|Gloss=forward
-15	//	//	PUNCT	_	_	10	punct	_	AlignBegin=324017|AlignEnd=324194|Gloss=PUNCT
+13-14	ɬíː	_	_	_	_	_	_	_	_
+13	ɬə	ɬə	VERB	_	_	12	comp:aux	_	AlignBegin=323669|AlignEnd=323756|Gloss=go
+14	-íː	-íː	PART	_	_	13	af:mod	_	AlignBegin=323669|AlignEnd=323756|Gloss=-Res|Result=Yes
+15	kên	kéni	ADV	_	_	13	mod	_	AlignBegin=323843|AlignEnd=324017|Gloss=forward
+16	//	//	PUNCT	_	_	10	punct	_	AlignBegin=324017|AlignEnd=324194|Gloss=PUNCT
 
