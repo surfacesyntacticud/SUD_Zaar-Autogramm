@@ -2669,7 +2669,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 368503, 373043
-# text = tôː lə̂p yáː ɬǎːy < ɗan mə́ ʃîʃí < tôː < mə́ mbîː ə̀ːm sorɣéy //= mə́ tût lə́ɓêʃíː //
+# text = tôː lə̂p yáː ɬaː -íː < ɗan mə́ ʃîʃí < tôː < mə́ mbîː ə̀ːm sorɣéy //= mə́ tût lə̂p -íː //
 # text_ortho = tôː lə̂p yáː ɬǎːy < ɗan mə́ ʃîʃí < tôː < mə́ mbîː ə̀ːm sorkéy //= mə́ tût lə́ɓêʃíː //
 # text_en = When the day breaks, when we get up, well we take er... the broom and sweep the place.
 1	tôː	tòː	PART	_	_	13	discourse	_	AlignBegin=368503|AlignEnd=368689|Gloss=well
@@ -2687,12 +2687,17 @@
 13	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=370780|AlignEnd=371087|Gloss=1Plur.Aor
 14	mbîː	mbiː	VERB	_	_	13	comp:aux	_	AlignBegin=371087|AlignEnd=371394|Gloss=take
 15	ə̀ːm	ə̀ːm	INTJ	_	_	16	discourse	_	AlignBegin=371394|AlignEnd=371701|Gloss=ə̀ːm
-16	sorɣéy	sorka	NOUN	_	_	14	comp:obj	_	AlignBegin=371701|AlignEnd=371813|Gloss=broom.Res|Result=Yes
-17	//=	//=	PUNCT	_	_	18	punct	_	AlignBegin=371925|AlignEnd=372149|Gloss=PUNCT
-18	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	13	conj:svc	_	AlignBegin=372149|AlignEnd=372373|Gloss=1Plur.Aor
-19	tût	tut	VERB	_	_	18	comp:aux	_	AlignBegin=372373|AlignEnd=372597|Gloss=sweep
-20	lə́ɓêʃíː	lə̂p	NOUN	_	Definite=Def	19	comp:obj	_	AlignBegin=372597|AlignEnd=372672|Gloss=place.Def.Res|Result=Yes
-21	//	//	PUNCT	_	_	13	punct	_	AlignBegin=372821|AlignEnd=373043|Gloss=PUNCT
+16-17	sorɣéy	_	_	_	_	_	_	_	_
+16	sorɣa	sorɣa	NOUN	_	_	14	comp:obj	_	AlignBegin=371701|AlignEnd=371813|Gloss=broom
+17	-íː	-íː	DET	_	Deixis=Remt	16	af:det	_	AlignBegin=371701|AlignEnd=371813|Gloss=-Remt
+18	//=	//=	PUNCT	_	_	19	punct	_	AlignBegin=371925|AlignEnd=372149|Gloss=PUNCT
+19	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	13	conj:svc	_	AlignBegin=372149|AlignEnd=372373|Gloss=1Plur.Aor
+20	tût	tut	VERB	_	_	19	comp:aux	_	AlignBegin=372373|AlignEnd=372597|Gloss=sweep
+21-22	lə̂p	_	_	_	_	_	_	_	_
+21	lə̂p	lə̂p	NOUN	_	Definite=Def	20	comp:obj	_	AlignBegin=372597|AlignEnd=372672|Gloss=place.Def.Res|Result=Yes
+22	-ês	-ês	NOUN	_	Definite=Def	20	comp:obj	_	AlignBegin=372597|AlignEnd=372672|Gloss=place.Def.Res|Result=Yes
+23	-íː	-íː	NOUN	_	Definite=Def	20	comp:obj	_	AlignBegin=372597|AlignEnd=372672|Gloss=place.Def.Res|Result=Yes
+24	//	//	PUNCT	_	_	13	punct	_	AlignBegin=372821|AlignEnd=373043|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_294-294
 # speaker_id = SP1
@@ -2992,11 +2997,13 @@
 3	//=	//=	PUNCT	_	_	4	punct	_	AlignBegin=410945|AlignEnd=411206|Gloss=PUNCT
 4	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	1	parataxis	_	AlignBegin=411206|AlignEnd=411466|Gloss=1Plur.Aor
 5	gàmá	gamá	VERB	_	_	4	comp:aux	_	AlignBegin=411669|AlignEnd=411927|Gloss=finish
-6	kàlàːʧíː	kàlàːʧi	NOUN	_	_	5	comp:obj	_	AlignBegin=411927|AlignEnd=412056|Gloss=breakfast.Res|Result=Yes
-7	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=412185|AlignEnd=412442|Gloss=PUNCT
-8	séː	séː	ADV	_	_	9	mod	_	AlignBegin=412442|AlignEnd=412675|Gloss=only
-9	námtsə	námtsə	NOUN	_	_	4	parataxis	_	AlignBegin=412675|AlignEnd=412908|Gloss=bush
-10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=412908|AlignEnd=413141|Gloss=PUNCT
+6-7	kàlàːʧíː	_	_	_	_	_	_	_	_
+6	kàlàːʧi	kàlàːʧi	NOUN	_	_	5	comp:obj	_	AlignBegin=411927|AlignEnd=412056|Gloss=breakfast
+7	-íː	-íː	PART	_	_	5	af:mod	_	AlignBegin=411927|AlignEnd=412056|Gloss=-Res|Result=Yes
+8	//=	//=	PUNCT	_	_	10	punct	_	AlignBegin=412185|AlignEnd=412442|Gloss=PUNCT
+9	séː	séː	ADV	_	_	10	mod	_	AlignBegin=412442|AlignEnd=412675|Gloss=only
+10	námtsə	námtsə	NOUN	_	_	4	parataxis	_	AlignBegin=412675|AlignEnd=412908|Gloss=bush
+11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=412908|AlignEnd=413141|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_326-326
 # speaker_id = SP1
@@ -3202,12 +3209,15 @@
 4	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=432945|AlignEnd=433137|Gloss=1Plur.Aor
 5	kə̂p	kəp	VERB	_	_	4	comp:aux	_	AlignBegin=433137|AlignEnd=433329|Gloss=sow
 6	gyáː	gyaː	DET	_	Number=Plur	7	det	_	AlignBegin=433329|AlignEnd=433521|Gloss=3Plur
-7	wáːy	wâː	NOUN	_	_	5	comp:obj	_	AlignBegin=433521|AlignEnd=433617|Gloss=guinea_corn.Res|Result=Yes
-8	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=433713|AlignEnd=433906|Gloss=PUNCT
-9	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	4	conj:svc	_	AlignBegin=433906|AlignEnd=434211|Gloss=1Plur.Aor
-10	ɬwaː	ɬwaː	VERB	_	_	9	comp:aux	_	AlignBegin=434211|AlignEnd=434363|Gloss=weed|wordform=ɬwǎːy
-11	-íː	-íː	PART	_	_	10	af:mod	_	Gloss=-Res|Result=Yes
-12	//	//	PUNCT	_	_	4	punct	_	AlignBegin=434516|AlignEnd=434822|Gloss=PUNCT
+7-8	wáːy	_	_	_	_	_	_	_	_
+7	wâː	wâː	NOUN	_	_	5	comp:obj	_	AlignBegin=433521|AlignEnd=433617|Gloss=guinea_corn
+8	-íː	-íː	DET	_	Deixis=Remt	7	af:det	_	AlignBegin=433521|AlignEnd=433617|Gloss=-Remt
+9	//=	//=	PUNCT	_	_	10	punct	_	AlignBegin=433713|AlignEnd=433906|Gloss=PUNCT
+10	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	4	conj:svc	_	AlignBegin=433906|AlignEnd=434211|Gloss=1Plur.Aor
+11-12	ɬwǎːy	_	_	_	_	_	_	_	_
+11	ɬwaː	ɬwaː	VERB	_	_	10	comp:aux	_	AlignBegin=434211|AlignEnd=434363|Gloss=weed
+12	-íː	-íː	PART	_	_	11	af:mod	_	AlignBegin=434211|AlignEnd=434363|Gloss=-Res|Result=Yes
+13	//	//	PUNCT	_	_	4	punct	_	AlignBegin=434516|AlignEnd=434822|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_340-341
 # speaker_id = SP2
@@ -3308,7 +3318,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 445651, 449687
-# text = tə́ laː ɣə́ də̀nì |c tə́ laː ɣə́ námʧi < gút zǎːrwôpm < ɓurúk < myǎː fîtíː //
+# text = tə́ laː ɣə́ də̀nì |c tə́ laː ɣə́ námtsə -i < gút zǎːrwôpm < ɓurúk < myǎː fî =tíː //
 # text_ortho = tə́ laː ɣə́ də̀nì < tə́ laː ɣə́ námʧi < gút zǎːrwôpm < ɓurúk < myǎː fîtíː //
 # text_en = The work in the house , and the work in the bush we Zaar women, all of it, we do it.
 1	tə́	tə́	ADP	_	_	2	cc@preconj	_	AlignBegin=445651|AlignEnd=445828|Gloss=with
@@ -3330,10 +3340,11 @@
 16	ɓurúk	ɓurúk	ADV	_	_	18	mod	_	AlignBegin=448885|AlignEnd=449023|Gloss=all
 17	<	<	PUNCT	_	_	16	punct	_	AlignBegin=449023|AlignEnd=449162|Gloss=PUNCT
 18	myǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	0	root	_	AlignBegin=449162|AlignEnd=449337|Gloss=1Plur.Imp
-19-20	fîtíː	_	_	_	_	_	_	_	_
 19	fî	fi	VERB	_	_	18	comp:aux	_	AlignBegin=449337|AlignEnd=449395|Gloss=do
-20	=tíː	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	AlignBegin=449395|AlignEnd=449453|Gloss=3Sing.Obj.Res|Result=Yes
-21	//	//	PUNCT	_	_	18	punct	_	AlignBegin=449512|AlignEnd=449687|Gloss=PUNCT
+20-21	=tíː	_	_	_	_	_	_	_	_
+20	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	AlignBegin=449395|AlignEnd=449453|Gloss=3Sing.Obj
+21	-íː	-íː	PART	_	_	19	af:mod	_	AlignBegin=449395|AlignEnd=449453|Gloss=-Res|Result=Yes
+22	//	//	PUNCT	_	_	18	punct	_	AlignBegin=449512|AlignEnd=449687|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_356-356
 # speaker_id = SP1
