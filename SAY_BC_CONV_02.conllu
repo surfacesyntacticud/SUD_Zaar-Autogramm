@@ -2573,23 +2573,28 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 355649, 359243
-# text = ə̀ːm < mə́ tût gyáː lə́ɓíː < tôː < mə́ ʧôp gyáː koɗêʃíː //
+# text = ə̀ːm < mə́ tût gyáː lə́ɓíː < tôː < mə́ ʧôp gyáː kot -íː //
 # text_ortho = ə̀ːm < mə́ tût gyáː lə́ɓíː < tôː < mə́ ʧôp gyáː koɗêʃíː //
 # text_en = Er, when we have swept everywhere, well, we wash the dishes.
-1	ə̀ːm	ə̀ːm	INTJ	_	_	10	discourse	_	AlignBegin=355649|AlignEnd=355845|Gloss=ə̀ːm
+1	ə̀ːm	ə̀ːm	INTJ	_	_	11	discourse	_	AlignBegin=355649|AlignEnd=355845|Gloss=ə̀ːm
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=355845|AlignEnd=356040|Gloss=PUNCT
-3	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	10	mod	_	AlignBegin=356040|AlignEnd=356248|Gloss=1Plur.Aor
+3	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	11	mod	_	AlignBegin=356040|AlignEnd=356248|Gloss=1Plur.Aor
 4	tût	tut	VERB	_	_	3	comp:aux	_	AlignBegin=356248|AlignEnd=356456|Gloss=sweep
 5	gyáː	gyaː	DET	_	Number=Plur	6	det	_	AlignBegin=356456|AlignEnd=356664|Gloss=3Plur
-6	lə́ɓíː	lə̂p	NOUN	_	_	4	comp:obj	_	AlignBegin=356664|AlignEnd=356768|Gloss=place.Res|Result=Yes
-7	<	<	PUNCT	_	_	3	punct	_	AlignBegin=356872|AlignEnd=357081|Gloss=PUNCT
-8	tôː	tôː	PART	_	_	10	discourse	_	AlignBegin=357514|AlignEnd=357732|Gloss=well
-9	<	<	PUNCT	_	_	8	punct	_	AlignBegin=357732|AlignEnd=357951|Gloss=PUNCT
-10	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=357951|AlignEnd=358209|Gloss=1Plur.Aor
-11	ʧôp	ʧop	VERB	_	_	10	comp:aux	_	AlignBegin=358209|AlignEnd=358467|Gloss=wash
-12	gyáː	gyaː	DET	_	Number=Plur	13	det	_	AlignBegin=358467|AlignEnd=358725|Gloss=3Plur
-13	koɗêʃíː	kot	NOUN	_	Definite=Def	11	comp:obj	_	AlignBegin=358725|AlignEnd=358811|Gloss=calabash.Def.Res|Result=Yes
-14	//	//	PUNCT	_	_	10	punct	_	AlignBegin=358983|AlignEnd=359243|Gloss=PUNCT
+6-7	lə́ɓíː	_	_	_	_	_	_	_	_
+6	lə̂p	lə̂p	NOUN	_	_	4	comp:obj	_	AlignBegin=356664|AlignEnd=356768|Gloss=place
+7	-íː	-íː	DET	_	Deixis=Remt	6	af:det	_	AlignBegin=356664|AlignEnd=356768|Gloss=-Remt
+8	<	<	PUNCT	_	_	3	punct	_	AlignBegin=356872|AlignEnd=357081|Gloss=PUNCT
+9	tôː	tôː	PART	_	_	11	discourse	_	AlignBegin=357514|AlignEnd=357732|Gloss=well
+10	<	<	PUNCT	_	_	9	punct	_	AlignBegin=357732|AlignEnd=357951|Gloss=PUNCT
+11	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=357951|AlignEnd=358209|Gloss=1Plur.Aor
+12	ʧôp	ʧop	VERB	_	_	11	comp:aux	_	AlignBegin=358209|AlignEnd=358467|Gloss=wash
+13	gyáː	gyaː	DET	_	Number=Plur	14	det	_	AlignBegin=358467|AlignEnd=358725|Gloss=3Plur
+14-15	kot	_	_	_	_	_	_	_	_
+14	kot	kot	NOUN	_	_	12	comp:obj	_	AlignBegin=358725|AlignEnd=358811|Gloss=calabash
+15	-ês	-ês	DET	_	Definite=Def	14	af:det	_	AlignBegin=358725|AlignEnd=358811|Gloss=-Def
+16	-íː	-íː	DET	_	Deixis=Remt	14	af:det	_	AlignBegin=358725|AlignEnd=358811|Gloss=-Remt
+17	//	//	PUNCT	_	_	11	punct	_	AlignBegin=358983|AlignEnd=359243|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_280-281
 # speaker_id = SP1
