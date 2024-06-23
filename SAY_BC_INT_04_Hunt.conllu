@@ -621,7 +621,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 109360, 110987
-# text = tôː mənín tə́ tôŋʃí á teː gwàːsə̀ŋə́n //
+# text = tôː múr -ə́n tə́ tôŋʃí á teː gwàːsə̀ŋə́n //
 # text_ortho = tôː mənín tə́ tôŋʃí á teː gwàːsə̀ŋə́n //
 # text_en = Well these people will make a line of their own.
 1	tôː	tôː	PART	_	_	4	discourse	_	AlignBegin=109360|AlignEnd=109541|Gloss=DM
@@ -633,8 +633,10 @@
 6	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	5	comp:obj	_	AlignBegin=109993|AlignEnd=110084|Gloss=3Plur.Obj
 7	á	ká	ADP	_	ExtPos=ADP	5	mod	_	AlignBegin=110084|AlignEnd=110265|Gloss=at|Idiom=Yes
 8	teː	teː	ADP	_	_	7	unk	_	AlignBegin=110265|AlignEnd=110446|Gloss=around|InIdiom=Yes
-9	gwàːsə̀ŋə́n	gwàːsə̀ŋ	PRON	_	Case=Gen|Deixis=Prox|Number=Plur|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=110446|AlignEnd=110627|Gloss=3Plur.Gen-Prox
-10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=110808|AlignEnd=110987|Gloss=PUNCT
+9-10	gwàːsə̀ŋə́n	_	_	_	_	_	_	_	_
+9	gwàːsə̀ŋ	gwàːsə̀ŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=110446|AlignEnd=110627|Gloss=3Plur.Gen
+10	-ə́n	-ə́n	DET	_	Deixis=Prox	9	af:det	_	AlignBegin=110446|AlignEnd=110627|Gloss=-Prox
+11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=110808|AlignEnd=110987|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_076-077
 # speaker_id = SP1
