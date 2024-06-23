@@ -4150,7 +4150,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 515169, 516722
-# text = ʃèː múrâtn káː wum ʃèː ɬôːsàː ?//
+# text = ʃèː múrâtn káː wum ʃèː ɬôːs aː ?//
 # text_ortho = ʃèː múrâtn káː wum ʃèː ɬôːsàː ?//
 # text_en = My man, did you like the taste of the meat?
 1	ʃèː	ʃèː	X	_	_	4	mod	_	AlignBegin=515169|AlignEnd=515391|Gloss=X
@@ -4160,10 +4160,11 @@
 4	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	0	root	_	AlignBegin=515613|AlignEnd=515835|Gloss=2Sing.Perf
 5	wum	wum	VERB	_	_	4	comp:aux	_	AlignBegin=515835|AlignEnd=516057|Gloss=feel
 6	ʃèː	ʃèː	X	_	_	5	comp:obj	_	AlignBegin=516057|AlignEnd=516279|Gloss=X
-7-8	ɬôːsàː	_	_	_	_	_	_	_	_
-7	ɬôːs	ɬûː	NOUN	_	Definite=Def	6	mod	_	AlignBegin=516279|AlignEnd=516427|Gloss=meat-Def|wordform=ɬûː
-8	aː	aː	PART	_	PartType=Int	4	mod	_	AlignBegin=516427|AlignEnd=516501|Gloss=VRT
-9	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=516501|AlignEnd=516722|Gloss=PUNCT
+7-8	ɬôːs	_	_	_	_	_	_	_	_
+7	ɬûː	ɬûː	NOUN	_	_	6	mod	_	AlignBegin=516279|AlignEnd=516427|Gloss=meat
+8	-ês	-ês	NOUN	_	Definite=Def	7	af:det	_	AlignBegin=516279|AlignEnd=516427|Gloss=meat-Def|wordform=ɬûː
+9	aː	aː	PART	_	PartType=Int	4	mod	_	AlignBegin=516427|AlignEnd=516501|Gloss=VRT
+10	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=516501|AlignEnd=516722|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_399-399
 # speaker_id = SP1
@@ -5601,13 +5602,15 @@
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=688229|AlignEnd=688471|Gloss=3Sing.Aor
 2	sû	su	VERB	_	_	1	comp:aux	_	AlignBegin=688471|AlignEnd=688714|Gloss=return
 3	gəm	gəm	VERB	_	_	2	compound:svc	_	AlignBegin=688714|AlignEnd=689226|Gloss=put
-4	tuːrês	tuːr	NOUN	_	Definite=Def	3	mod	_	AlignBegin=689226|AlignEnd=689412|Gloss=husband-Def|wordform=tuːr
-5-6	mə́nɗi	_	_	_	_	_	_	_	_
-5	mə́n	mə́n	PART	_	Case=Ben	3	compound:prt	_	AlignBegin=689412|AlignEnd=689505|Gloss=BEN
-6	=ɗi	=ɗi	PART	_	_	3	compound:prt	_	AlignBegin=689505|AlignEnd=689598|Gloss=Ctp
-7	á	ká	ADP	_	_	3	comp:obl	_	AlignBegin=689598|AlignEnd=689784|Gloss=at
-8	yáːsəŋ	yáːsəŋ	NOUN	_	_	7	comp:obj	_	AlignBegin=689784|AlignEnd=689970|Gloss=foot
-9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=689970|AlignEnd=690155|Gloss=PUNCT
+4-5	tuːrês	_	_	_	_	_	_	_	_
+4	tuːr	tuːr	NOUN	_	_	3	comp:ben	_	AlignBegin=689226|AlignEnd=689412|Gloss=husband
+5	-ês	-ês	NOUN	_	Definite=Def	4	af:det	_	AlignBegin=689226|AlignEnd=689412|Gloss=husband-Def|wordform=tuːr
+6-7	mə́nɗi	_	_	_	_	_	_	_	_
+6	mə́n	mə́n	PART	_	Case=Ben	3	compound:prt	_	AlignBegin=689412|AlignEnd=689505|Gloss=BEN
+7	=ɗi	=ɗi	PART	_	_	3	compound:prt	_	AlignBegin=689505|AlignEnd=689598|Gloss=Ctp
+8	á	ká	ADP	_	_	3	comp:obl	_	AlignBegin=689598|AlignEnd=689784|Gloss=at
+9	yáːsəŋ	yáːsəŋ	NOUN	_	_	8	comp:obj	_	AlignBegin=689784|AlignEnd=689970|Gloss=foot
+10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=689970|AlignEnd=690155|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_543-545
 # speaker_id = SP1
@@ -5868,10 +5871,11 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 726665, 731531
-# text = dèːs tu yi tu in yáː yêl gón ɗan á kîríː < dâːmáː iyaːkaʧí kòːkàríwôs //
+# text = dès -ês tu in yáː yêl gón ɗan á kír -íː < dâːmáː iyaːkaʧí kòːkàríwôs //
 # text_ortho = dèːs tu yi tu in yáː yêl gón ɗan á kîríː < dâːmáː iyaːkaʧí kòːkàríwôs //
 # text_en = The meaning is that, if he sees someone who runs, that's all he can  do.
-1	dèːs	dèː	NOUN	_	Definite=Def	3	dislocated@subj	_	AlignBegin=726665|AlignEnd=726903|Gloss=meaning-Def|wordform=dèː
+1	dès	dès	NOUN	_	_	3	dislocated@subj	_	AlignBegin=726665|AlignEnd=726903|Gloss=meaning|wordform=dèːs
+2-3	-ês	_	_	_	_	_	_	_	_
 2	tu	tu	SCONJ	_	_	1	mod	_	AlignBegin=726903|AlignEnd=727141|Gloss=Qot
 3	yi	yi	VERB	_	_	0	root	_	AlignBegin=727141|AlignEnd=727379|Gloss=be
 4	tu	tu	SCONJ	_	_	3	comp:pred	_	AlignBegin=727379|AlignEnd=727616|Gloss=Qot
