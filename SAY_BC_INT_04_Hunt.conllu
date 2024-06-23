@@ -454,19 +454,19 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 77300, 83476
-# text = tôː àmáː < kyáː mbwáːni ɬûː < kádéː eː yǎː ngâptíː < tôː ɬúːy tá və̀rɣə̀ dòmín káː rigé mbwaːtíː //
+# text = tôː àmáː < kyáː mbwáːni ɬûː < kádéː eː yǎː ngap =tə -íː < tôː ɬúːy tá və̀rɣə̀ dòmín káː rigé mbwaː =tə -íː //
 # text_ortho = tôː àmáː < kyáː mbwáːni ɬûː < kádéː eː yǎː ngâptíː < tôː ɬúːy tá və̀rɣə̀ dòmín káː rigé mbwaːtíː //
-# text_en = But if you have shot an animal, as soon as... somebody catches it well the animal, they will give it to you because you shot it first.
-1	tôː	tôː	PART	_	_	18	discourse	_	AlignBegin=77300|AlignEnd=77470|Gloss=DM
-2	àmáː	àmá	CCONJ	_	_	18	discourse	_	AlignBegin=77470|AlignEnd=77640|Gloss=but
+# text_en = But if you have shot an animal, as soon as... somebody catches it well, the animal, they will give it to you because you shot it first.
+1	tôː	tôː	PART	_	_	19	discourse	_	AlignBegin=77300|AlignEnd=77470|Gloss=DM
+2	àmáː	àmá	CCONJ	_	_	19	discourse	_	AlignBegin=77470|AlignEnd=77640|Gloss=but
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=77640|AlignEnd=77810|Gloss=PUNCT
-4	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	18	mod	_	AlignBegin=77810|AlignEnd=78022|Gloss=2Sing.Cnd
+4	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	19	mod	_	AlignBegin=77810|AlignEnd=78022|Gloss=2Sing.Cnd
 5-6	mbwáːni	_	_	_	_	_	_	_	_
 5	mbwáː	mbwaː	VERB	_	_	4	comp:aux	_	AlignBegin=78022|AlignEnd=78128|Gloss=shoot
 6	=ni	=ni	PART	_	Aspect=Iter	5	compound:prt	_	AlignBegin=78128|AlignEnd=78234|Gloss=Iter|wordform=-ni
 7	ɬûː	ɬûː	NOUN	_	_	5	comp:obj	_	AlignBegin=78234|AlignEnd=78446|Gloss=animal
 8	<	<	PUNCT	_	_	4	punct	_	AlignBegin=78446|AlignEnd=78660|Gloss=PUNCT
-9	kádéː	kádéː	SCONJ	_	_	18	mod	_	AlignBegin=79900|AlignEnd=80295|Gloss=as_soon_as
+9	kádéː	kádéː	SCONJ	_	_	19	mod	_	AlignBegin=79900|AlignEnd=80295|Gloss=as_soon_as
 10	eː	eː	INTJ	_	_	11	discourse	_	AlignBegin=80295|AlignEnd=80690|Gloss=HESIT
 11	yǎː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=3	9	comp:obj	_	AlignBegin=80690|AlignEnd=80956|Gloss=3Plur.Cnd
 12-14	ngâptíː	_	_	_	_	_	_	_	_
@@ -474,20 +474,22 @@
 13	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=81045|AlignEnd=81134|Gloss=3Sing.Obj|Incorporated=Yes
 14	-íː	-íː	PART	_	_	12	af:mod	_	Gloss=-Res|Result=Yes
 15	<	<	PUNCT	_	_	9	punct	_	AlignBegin=81222|AlignEnd=81489|Gloss=PUNCT
-16	tôː	tôː	PART	_	_	18	discourse	_	AlignBegin=81680|AlignEnd=81860|Gloss=DM
-17	ɬúːy	ɬûː	NOUN	_	Deixis=Remt	18	parataxis@comp	_	AlignBegin=81860|AlignEnd=82040|Gloss=animal-Remt|wordform=ɬûː
-18	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=82040|AlignEnd=82220|Gloss=3Plur.Fut
-19-20	və̀rɣə̀	_	_	_	_	_	_	_	_
-19	və̀r	vər	VERB	_	_	18	comp:aux	_	AlignBegin=82220|AlignEnd=82310|Gloss=give
-20	=ɣə̀	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	19	comp:ben	_	AlignBegin=82310|AlignEnd=82400|Gloss=2Sing.Obj
-21	dòmín	dòmín	SCONJ	_	_	19	mod	_	AlignBegin=82400|AlignEnd=82580|Gloss=because
-22	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	21	comp:obj	_	AlignBegin=82580|AlignEnd=82760|Gloss=2Sing.Perf
-23	rigé	rigé	VERB	_	_	22	comp:aux	_	AlignBegin=82760|AlignEnd=82940|Gloss=already|Lang=ha
-24-26	mbwaːtíː	_	_	_	_	_	_	_	_
-24	mbwaː	mbwaː	VERB	_	_	23	compound:svc	_	AlignBegin=83120|AlignEnd=83300|Gloss=shoot
-25	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	24	comp:obj	_	AlignBegin=83180|AlignEnd=83240|Gloss=3Sing.Obj|Incorporated=Yes
-26	-íː	-íː	PART	_	_	24	af:mod	_	Gloss=-Res|Result=Yes
-27	//	//	PUNCT	_	_	18	punct	_	AlignBegin=83300|AlignEnd=83476|Gloss=PUNCT
+16	tôː	tôː	PART	_	_	19	discourse	_	AlignBegin=81680|AlignEnd=81860|Gloss=DM
+17-18	ɬúːy	_	_	_	_	_	_	_	_
+17	ɬûː	ɬûː	NOUN	_	_	19	dislocated@comp	_	AlignBegin=81860|AlignEnd=82040|Gloss=animal
+18	-íː	-íː	NOUN	_	Deixis=Remt	17	af:det	_	AlignBegin=81860|AlignEnd=82040|Gloss=animal-Remt|wordform=ɬûː
+19	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=82040|AlignEnd=82220|Gloss=3Plur.Fut
+20-21	və̀rɣə̀	_	_	_	_	_	_	_	_
+20	və̀r	vər	VERB	_	_	19	comp:aux	_	AlignBegin=82220|AlignEnd=82310|Gloss=give
+21	=ɣə̀	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	20	comp:ben	_	AlignBegin=82310|AlignEnd=82400|Gloss=2Sing.Obj
+22	dòmín	dòmín	SCONJ	_	_	20	mod	_	AlignBegin=82400|AlignEnd=82580|Gloss=because
+23	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	22	comp:obj	_	AlignBegin=82580|AlignEnd=82760|Gloss=2Sing.Perf
+24	rigé	rigé	VERB	_	_	23	comp:aux	_	AlignBegin=82760|AlignEnd=82940|Gloss=already|Lang=ha
+25-27	mbwaːtíː	_	_	_	_	_	_	_	_
+25	mbwaː	mbwaː	VERB	_	_	24	compound:svc	_	AlignBegin=83120|AlignEnd=83300|Gloss=shoot
+26	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	25	comp:obj	_	AlignBegin=83180|AlignEnd=83240|Gloss=3Sing.Obj|Incorporated=Yes
+27	-íː	-íː	PART	_	_	25	af:mod	_	Gloss=-Res|Result=Yes
+28	//	//	PUNCT	_	_	19	punct	_	AlignBegin=83300|AlignEnd=83476|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_059-062
 # speaker_id = SP1
@@ -814,18 +816,20 @@
 # text = yáː ɗâk ɗǎŋ máː < ɬúːy wò láːp ʒà //
 # text_ortho = yáː ɗâk ɗǎŋ máː < ɬúːy wò láːp ʒà //
 # text_en = If he's not careful, the meat will be lost.
-1	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	8	mod	_	AlignBegin=131900|AlignEnd=131996|Gloss=3Sing.Cnd
+1	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	9	mod	_	AlignBegin=131900|AlignEnd=131996|Gloss=3Sing.Cnd
 2	ɗâk	ɗak	VERB	_	_	1	comp:aux	_	AlignBegin=131996|AlignEnd=132092|Gloss=be_careful
 3-4	ɗǎŋ	_	_	_	_	_	_	_	_
 3	ɗa	ɗa	PART	_	_	2	compound:prt	_	AlignBegin=132092|AlignEnd=132188|Gloss=again
 4	hŋ́	hŋ́	PART	_	Polarity=Neg	1	mod	_	AlignBegin=132188|AlignEnd=132284|Gloss=Neg2
 5	máː	máː	PART	_	_	1	mod	_	AlignBegin=132284|AlignEnd=132380|Gloss=also
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=132380|AlignEnd=132474|Gloss=PUNCT
-7	ɬúːy	ɬûː	NOUN	_	Deixis=Remt	8	subj	_	AlignBegin=132474|AlignEnd=132587|Gloss=animal-Remt|wordform=ɬûː
-8	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=132587|AlignEnd=132700|Gloss=3Sing.Fut
-9	láːp	láːp	VERB	_	_	8	comp:aux	_	AlignBegin=132700|AlignEnd=132813|Gloss=follow
-10	ʒà	ʒà	NOUN	_	_	9	comp:obj	_	AlignBegin=132813|AlignEnd=132926|Gloss=water
-11	//	//	PUNCT	_	_	8	punct	_	AlignBegin=132926|AlignEnd=133040|Gloss=PUNCT
+7-8	ɬúːy	_	_	_	_	_	_	_	_
+7	ɬûː	ɬûː	NOUN	_	_	9	subj	_	AlignBegin=132474|AlignEnd=132587|Gloss=meat
+8	-íː	-íː	NOUN	_	Deixis=Remt	7	af:det	_	AlignBegin=132474|AlignEnd=132587|Gloss=animal-Remt|wordform=ɬûː
+9	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=132587|AlignEnd=132700|Gloss=3Sing.Fut
+10	láːp	láːp	VERB	_	_	9	comp:aux	_	AlignBegin=132700|AlignEnd=132813|Gloss=follow
+11	ʒà	ʒà	NOUN	_	_	10	comp:obj	_	AlignBegin=132813|AlignEnd=132926|Gloss=water
+12	//	//	PUNCT	_	_	9	punct	_	AlignBegin=132926|AlignEnd=133040|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_095-095
 # speaker_id = SP1

@@ -272,8 +272,10 @@
 5	volɲi	Volɲi	NOUN	_	Definite=Ind	4	comp:obj	_	AlignBegin=43212|AlignEnd=43410|Gloss=groundnut
 6	hŋ́	hŋ́	PART	_	Polarity=Neg	3	mod	_	AlignBegin=43410|AlignEnd=43608|Gloss=Neg2
 7	dùmín	dòːmín	SCONJ	_	_	3	mod	_	AlignBegin=43608|AlignEnd=43806|Gloss=because
-8	wáːríː	wáːríː	NOUN	_	Deixis=Remt	7	comp:obj	_	AlignBegin=43806|AlignEnd=44004|Gloss=fetish.Remt
-9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=44004|AlignEnd=44200|Gloss=PUNCT
+8-9	wáːríː	_	_	_	_	_	_	_	_
+8	wâːr	wâːr	NOUN	_	_	7	comp:obj	_	AlignBegin=43806|AlignEnd=44004|Gloss=fetish
+9	-íː	-íː	NOUN	_	Deixis=Remt	8	af:det	_	AlignBegin=43806|AlignEnd=44004|Gloss=fetish.Remt
+10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=44004|AlignEnd=44200|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_01_Religion_030-030
 # speaker_id = SP2
@@ -438,23 +440,25 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_RELIGION.WAV
 # sent_timecode = 74940, 77207
-# text = ɗan wût yáː ʧi yǎːríː tôː < tá ka fut kə ʃiʃí //
+# text = ɗan wût yáː ʧi yǎːríː tôː < tá ka fut -íː kə ʃiʃí //
 # text_ortho = ɗan wût yáː ʧî yǎːríː tôː < tá ka fuɗíː kə ʃiʃí //
 # text_en = When the fire was burning the grass, well then you would wake up and get up.
-1	ɗan	ɗan	SCONJ	_	_	9	mod	_	AlignBegin=74940|AlignEnd=75074|Gloss=as
+1	ɗan	ɗan	SCONJ	_	_	10	mod	_	AlignBegin=74940|AlignEnd=75074|Gloss=as
 2	wût	wût	NOUN	_	_	3	subj	_	AlignBegin=75074|AlignEnd=75208|Gloss=fire
 3	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	1	comp:obj	_	AlignBegin=75208|AlignEnd=75342|Gloss=3Sing.Imp
 4	ʧi	ʧi	VERB	_	_	3	comp:aux	_	AlignBegin=75342|AlignEnd=75476|Gloss=eat
-5	yǎːríː	yǎːr	NOUN	_	Deixis=Remt	4	comp:obj	_	AlignBegin=75476|AlignEnd=75610|Gloss=grass-Remt
-6	tôː	tôː	PART	_	_	9	discourse	_	AlignBegin=75610|AlignEnd=75744|Gloss=DM
-7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=75744|AlignEnd=75877|Gloss=PUNCT
-8	tá	tá	ADV	_	_	9	discourse	_	AlignBegin=75877|AlignEnd=76050|Gloss=then
-9	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=76050|AlignEnd=76223|Gloss=2Sing.Fut
-10	fut	fut	VERB	_	_	9	comp:aux	_	AlignBegin=76223|AlignEnd=76395|Gloss=survive
-11	-íː	-íː	PART	_	_	10	af:mod	_	Gloss=-Res|Result=Yes
-12	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	9	parataxis	_	AlignBegin=76395|AlignEnd=76666|Gloss=2Sing.Aor
-13	ʃiʃí	ʃiʃí	VERB	_	_	12	comp:aux	_	AlignBegin=76666|AlignEnd=76937|Gloss=get_up
-14	//	//	PUNCT	_	_	9	punct	_	AlignBegin=76937|AlignEnd=77207|Gloss=PUNCT
+5-6	yǎːríː	_	_	_	_	_	_	_	_
+5	yǎːr	yǎːr	NOUN	_	_	4	comp:obj	_	AlignBegin=75476|AlignEnd=75610|Gloss=grass
+6	-íː	-íː	NOUN	_	Deixis=Remt	5	af:det	_	AlignBegin=75476|AlignEnd=75610|Gloss=grass-Remt
+7	tôː	tôː	PART	_	_	10	discourse	_	AlignBegin=75610|AlignEnd=75744|Gloss=DM
+8	<	<	PUNCT	_	_	7	punct	_	AlignBegin=75744|AlignEnd=75877|Gloss=PUNCT
+9	tá	tá	ADV	_	_	10	discourse	_	AlignBegin=75877|AlignEnd=76050|Gloss=then
+10	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=76050|AlignEnd=76223|Gloss=2Sing.Fut
+11	fut	fut	VERB	_	_	10	comp:aux	_	AlignBegin=76223|AlignEnd=76395|Gloss=survive
+12	-íː	-íː	PART	_	_	11	af:mod	_	Gloss=-Res|Result=Yes
+13	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	10	parataxis	_	AlignBegin=76395|AlignEnd=76666|Gloss=2Sing.Aor
+14	ʃiʃí	ʃiʃí	VERB	_	_	13	comp:aux	_	AlignBegin=76666|AlignEnd=76937|Gloss=get_up
+15	//	//	PUNCT	_	_	10	punct	_	AlignBegin=76937|AlignEnd=77207|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_01_Religion_048-049
 # speaker_id = SP1
@@ -768,38 +772,42 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_RELIGION.WAV
 # sent_timecode = 129920, 136260
-# text = tôː < yáːni yêr fuŋə́y ɗan ʧǎː ngaː tə́ ʧâː ɣá lə́ɓíː > yáː ngápkə gòʃíː < tôː < ndómtsə wò ngapkíː //
+# text = tôː < yáːni yêr fuŋə́y ɗan ʧǎː ngaː tə́ ʧâː ɣá lə́ɓíː > yáː ngap =kə -íː gòs < tôː < ndómtsə wò ngap =kə -íː //
 # text_ortho = tôː < yáːni yêr fuŋə́y ɗan ʧǎː ngâː tə́ ʧâː ɣá lə́ɓíː < yáː ngápkə gòʃíː < tôː < ndómtsə wò ngapkíː //
 # text_en = Well, as for... that thatch from a granary that they take and put in that place, if it catches you, well, leprosy will catch you.
-1	tôː	tòː	PART	_	_	23	discourse	_	AlignBegin=129920|AlignEnd=130100|Gloss=DM
+1	tôː	tòː	PART	_	_	25	discourse	_	AlignBegin=129920|AlignEnd=130100|Gloss=DM
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=130100|AlignEnd=130280|Gloss=PUNCT
-3	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	23	dislocated@top	_	AlignBegin=130800|AlignEnd=130971|Gloss=3Sing.IDP
+3	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	25	dislocated@top	_	AlignBegin=130800|AlignEnd=130971|Gloss=3Sing.IDP
 4	yêr	yêr	NOUN	_	_	3	conj:appos	_	AlignBegin=130971|AlignEnd=131142|Gloss=thatch
-5	fuŋə́y	fuŋ	NOUN	_	Deixis=Remt	4	compound	_	AlignBegin=131142|AlignEnd=131313|Gloss=granary-Remt|wordform=fuŋ-Rem
-6	ɗan	ɗan	SCONJ	_	_	4	mod@relcl	_	AlignBegin=131313|AlignEnd=131484|Gloss=REL
-7	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	6	comp:obj	_	AlignBegin=131484|AlignEnd=131655|Gloss=3Plur.Imp
-8	ngaː	ngaː	VERB	_	_	7	comp:aux	_	AlignBegin=131655|AlignEnd=131826|Gloss=fetch
-9	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	7	conj:coord	_	AlignBegin=131826|AlignEnd=131997|Gloss=3Plur.Aor
-10	ʧâː	yáː	VERB	_	_	9	comp:aux	_	AlignBegin=131997|AlignEnd=132168|Gloss=put
-11	ɣá	ká	ADP	_	_	10	comp:obl	_	AlignBegin=132168|AlignEnd=132339|Gloss=at
-12	lə́ɓíː	lə̂p	NOUN	_	Deixis=Remt	11	comp:obj	_	AlignBegin=132339|AlignEnd=132510|Gloss=place-Remt
-13	>	>	PUNCT	_	_	3	punct	_	AlignBegin=132510|AlignEnd=132681|Gloss=PUNCT
-14	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	23	mod	_	AlignBegin=132681|AlignEnd=132852|Gloss=3Sing.Cnd
-15-18	ngápkə gòʃíː	_	_	_	_	_	_	_	_
-15	ngap	ngap	VERB	_	_	14	comp:aux	_	AlignBegin=132852|AlignEnd=132938|Gloss=catch|wordform=#ngâp-íː
-16	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	15	comp:obj	_	AlignBegin=132938|AlignEnd=133023|Gloss=2Sing.Obj|Incorporated=Yes
-17	-íː	-íː	PART	_	_	15	af:mod	_	Gloss=-Res|Result=Yes
-18	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	15	mod@ethical	_	AlignBegin=133023|AlignEnd=133194|Gloss=3Sing.Gen
-19	<	<	PUNCT	_	_	14	punct	_	AlignBegin=133194|AlignEnd=133358|Gloss=PUNCT
-20	tôː	tòː	PART	_	_	23	discourse	_	AlignBegin=134060|AlignEnd=134210|Gloss=DM
-21	<	<	PUNCT	_	_	20	punct	_	AlignBegin=134210|AlignEnd=134360|Gloss=PUNCT
-22	ndómtsə	ndómtsə	NOUN	_	_	23	subj	_	AlignBegin=134480|AlignEnd=135052|Gloss=leprosy
-23	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=135720|AlignEnd=135900|Gloss=3Sing.Fut
-24-26	ngapkíː	_	_	_	_	_	_	_	_
-24	ngap	ngap	VERB	_	_	23	comp:aux	_	AlignBegin=135900|AlignEnd=136080|Gloss=catch|wordform=#ngap-íː
-25	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	24	comp:obj	_	AlignBegin=135960|AlignEnd=136020|Gloss=2Sing.Obj|Incorporated=Yes
-26	-íː	-íː	PART	_	_	24	af:mod	_	Gloss=-Res|Result=Yes
-27	//	//	PUNCT	_	_	23	punct	_	AlignBegin=136080|AlignEnd=136260|Gloss=PUNCT
+5-6	fuŋə́y	_	_	_	_	_	_	_	_
+5	fuŋ	fuŋ	NOUN	_	_	4	compound	_	AlignBegin=131142|AlignEnd=131313|Gloss=granary-Remt
+6	-íː	-íː	NOUN	_	Deixis=Remt	4	af:det	_	AlignBegin=131142|AlignEnd=131313|Gloss=granary-Remt|wordform=fuŋ-Rem
+7	ɗan	ɗan	SCONJ	_	_	4	mod@relcl	_	AlignBegin=131313|AlignEnd=131484|Gloss=REL
+8	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	7	comp:obj	_	AlignBegin=131484|AlignEnd=131655|Gloss=3Plur.Imp
+9	ngaː	ngaː	VERB	_	_	8	comp:aux	_	AlignBegin=131655|AlignEnd=131826|Gloss=fetch
+10	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	8	conj:coord	_	AlignBegin=131826|AlignEnd=131997|Gloss=3Plur.Aor
+11	ʧâː	yáː	VERB	_	_	10	comp:aux	_	AlignBegin=131997|AlignEnd=132168|Gloss=put
+12	ɣá	ká	ADP	_	_	11	comp:obl	_	AlignBegin=132168|AlignEnd=132339|Gloss=at
+13-14	lə́ɓíː	_	_	_	_	_	_	_	_
+13	lə̂p	lə̂p	NOUN	_	_	12	comp:obj	_	AlignBegin=132339|AlignEnd=132510|Gloss=place
+14	-íː	-íː	NOUN	_	Deixis=Remt	13	af:det	_	AlignBegin=132339|AlignEnd=132510|Gloss=place-Remt
+15	>	>	PUNCT	_	_	3	punct	_	AlignBegin=132510|AlignEnd=132681|Gloss=PUNCT
+16	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	25	mod	_	AlignBegin=132681|AlignEnd=132852|Gloss=3Sing.Cnd
+17-20	ngápkə gòʃíː	_	_	_	_	_	_	_	_
+17	ngap	ngap	VERB	_	_	16	comp:aux	_	AlignBegin=132852|AlignEnd=132938|Gloss=catch|wordform=#ngâp-íː
+18	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	17	comp:obj	_	AlignBegin=132938|AlignEnd=133023|Gloss=2Sing.Obj|Incorporated=Yes
+19	-íː	-íː	PART	_	_	17	af:mod	_	Gloss=-Res|Result=Yes
+20	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	17	mod@ethical	_	AlignBegin=133023|AlignEnd=133194|Gloss=3Sing.Gen
+21	<	<	PUNCT	_	_	16	punct	_	AlignBegin=133194|AlignEnd=133358|Gloss=PUNCT
+22	tôː	tòː	PART	_	_	25	discourse	_	AlignBegin=134060|AlignEnd=134210|Gloss=DM
+23	<	<	PUNCT	_	_	22	punct	_	AlignBegin=134210|AlignEnd=134360|Gloss=PUNCT
+24	ndómtsə	ndómtsə	NOUN	_	_	25	subj	_	AlignBegin=134480|AlignEnd=135052|Gloss=leprosy
+25	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=135720|AlignEnd=135900|Gloss=3Sing.Fut
+26-28	ngapkíː	_	_	_	_	_	_	_	_
+26	ngap	ngap	VERB	_	_	25	comp:aux	_	AlignBegin=135900|AlignEnd=136080|Gloss=catch|wordform=#ngap-íː
+27	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	26	comp:obj	_	AlignBegin=135960|AlignEnd=136020|Gloss=2Sing.Obj|Incorporated=Yes
+28	-íː	-íː	PART	_	_	26	af:mod	_	Gloss=-Res|Result=Yes
+29	//	//	PUNCT	_	_	25	punct	_	AlignBegin=136080|AlignEnd=136260|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_01_Religion_084-084
 # speaker_id = SP1
@@ -1613,16 +1621,18 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_RELIGION.WAV
 # sent_timecode = 270931, 275600
-# text = m̀ː èː tə̀tàyáː fi láːy áy //
+# text = m̀ː èː tə̀tàyáː fî láːy áy //
 # text_ortho = m̀ː // èː tə̀tàyáː fî láːy áy //
 # text_en = Yes. Yes, they worked indeed.
 1	m̀ː	m̀ː	INTJ	_	_	3	discourse	_	AlignBegin=270931|AlignEnd=271125|Gloss=yes
 2	èː	èː	INTJ	_	_	3	discourse	_	AlignBegin=274720|AlignEnd=274867|Gloss=yes
 3	tə̀tàyáː	ta-yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3|Tense=Rem	0	root	_	AlignBegin=274867|AlignEnd=275014|Gloss=3Plur.Rem.Imp
-4	fi	fi	VERB	_	_	3	comp:aux	_	AlignBegin=275014|AlignEnd=275161|Gloss=do
-5	láːy	laː	NOUN	_	Deixis=Remt	4	comp:obj	_	AlignBegin=275161|AlignEnd=275308|Gloss=work-Remt
-6	áy	áy	INTJ	_	_	3	discourse	_	AlignBegin=275308|AlignEnd=275455|Gloss=indeed
-7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=275455|AlignEnd=275600|Gloss=PUNCT
+4	fî	fi	VERB	_	_	3	comp:aux	_	AlignBegin=275014|AlignEnd=275161|Gloss=do
+5-6	láːy	_	_	_	_	_	_	_	_
+5	láː	láː	NOUN	_	_	4	comp:obj	_	AlignBegin=275161|AlignEnd=275308|Gloss=work
+6	-íː	-íː	NOUN	_	Deixis=Remt	5	af:det	_	AlignBegin=275161|AlignEnd=275308|Gloss=work-Remt
+7	áy	áy	INTJ	_	_	3	discourse	_	AlignBegin=275308|AlignEnd=275455|Gloss=indeed
+8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=275455|AlignEnd=275600|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_01_Religion_174-177
 # speaker_id = SP2
@@ -2684,8 +2694,10 @@
 5	mə́n	mə́n	PART	_	Case=Ben	3	compound:prt	_	AlignBegin=448722|AlignEnd=448942|Gloss=BEN
 6	mondá	mondá	ADV	_	_	3	mod	_	AlignBegin=448942|AlignEnd=449162|Gloss=many
 7	á	ká	ADP	_	_	3	comp:obl	_	AlignBegin=449162|AlignEnd=449382|Gloss=at
-8	lə́ɓíː	lə̂p	NOUN	_	Deixis=Remt	7	comp:obj	_	AlignBegin=449382|AlignEnd=449602|Gloss=place-Remt
-9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=449602|AlignEnd=449820|Gloss=PUNCT
+8-9	lə́ɓíː	_	_	_	_	_	_	_	_
+8	lə̂p	lə̂p	NOUN	_	_	7	comp:obj	_	AlignBegin=449382|AlignEnd=449602|Gloss=place
+9	-íː	-íː	NOUN	_	Deixis=Remt	8	af:det	_	AlignBegin=449382|AlignEnd=449602|Gloss=place-Remt
+10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=449602|AlignEnd=449820|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_01_Religion_276-279
 # speaker_id = SP1

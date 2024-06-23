@@ -1293,8 +1293,10 @@
 8	tàː	àː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=185698|AlignEnd=185996|Gloss=3Plur.Perf
 9	ngúp	ngúp	VERB	_	_	8	comp:aux	_	AlignBegin=185996|AlignEnd=186294|Gloss=start
 10	sə̀yáːsa	sə̀yáːsa	NOUN	_	_	9	comp:obj	_	AlignBegin=186294|AlignEnd=186592|Gloss=politics
-11	=wàːsə̀ŋə́y	=waːsəŋ	PRON	_	Case=Gen|Deixis=Remt|Number=Plur|Person=3|PronType=Prs	10	mod	_	AlignBegin=186393|AlignEnd=186492|Gloss=3Plur.Gen.Remt
-12	//	//	PUNCT	_	_	8	punct	_	AlignBegin=186592|AlignEnd=186890|Gloss=PUNCT
+11-12	=wàːsə̀ŋə́y	_	_	_	_	_	_	_	_
+11	=wàːsə̀n	=wàːsə̀n	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	10	mod	_	AlignBegin=186393|AlignEnd=186492|Gloss=3Plur.Gen
+12	-íː	-íː	PRON	_	Case=Gen|Deixis=Remt|Number=Plur|Person=3|PronType=Prs	10	af:det	_	AlignBegin=186393|AlignEnd=186492|Gloss=3Plur.Gen.Remt
+13	//	//	PUNCT	_	_	8	punct	_	AlignBegin=186592|AlignEnd=186890|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_170-170
 # speaker_id = SP1
@@ -2290,22 +2292,26 @@
 # text_ortho = ìnáː ríːʤiyáy ɗan yiɣá taːɣə́ napti kàːfín àː ɬə́ːːː èː ráːnábáwɗíː kàːfín èːːː dàtə̂pm ʤirgíː ?//
 # text_en = Where is the well that is on the left before you reach er... er... that roundabout < before er... the railway?
 1	ìnáː	ìnáː	ADV	_	PronType=Int	0	root	_	AlignBegin=303552|AlignEnd=303902|Gloss=where
-2	ríːʤiyáy	ríːʤiya	NOUN	_	Deixis=Remt	1	comp:cleft	_	AlignBegin=303902|AlignEnd=304251|Gloss=well.Remt
-3	ɗan	ɗan	SCONJ	_	PronType=Rel	2	mod@relcl	_	AlignBegin=304441|AlignEnd=304617|Gloss=REL
-4	yi	yi	VERB	_	_	3	comp:obj	_	AlignBegin=304617|AlignEnd=304793|Gloss=be
-5	ɣá	ká	ADP	_	_	4	comp:pred	_	AlignBegin=304793|AlignEnd=304969|Gloss=at
-6	taːɣə́	taːkə́	ADP	_	_	5	conj:dicto	_	AlignBegin=304969|AlignEnd=305145|Gloss=towards
-7	napti	napti	ADV	_	_	6	comp:obj	_	AlignBegin=305145|AlignEnd=305321|Gloss=left
-8	kafin	kafin	SCONJ	_	Foreign=Yes	6	conj:coord	_	AlignBegin=305321|AlignEnd=305497|Gloss=before|Lang=ha
-9	àː	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=2	8	comp:obj	_	AlignBegin=305497|AlignEnd=305673|Gloss=2Sing.Sub
-10	ɬə́	ɬə	VERB	_	_	9	comp:aux	_	AlignBegin=305673|AlignEnd=305847|Gloss=go
-11	èː	èː	INTJ	_	_	12	discourse	_	AlignBegin=306428|AlignEnd=306727|Gloss=èː
-12	ráːnábáwɗíː	ráːnábáwt	NOUN	_	Deixis=Remt	10	comp:goal	_	AlignBegin=306727|AlignEnd=307327|Gloss=roundabout
-13	kafin	kafin	ADP	_	Foreign=Yes	8	conj:coord	_	AlignBegin=307327|AlignEnd=307795|Gloss=before|Lang=ha
-14	èː	èː	INTJ	_	_	15	discourse	_	AlignBegin=307795|AlignEnd=308262|Gloss=èː
-15	dàtə̂pm	dàtə̂pm	NOUN	_	_	13	comp:obj	_	AlignBegin=308262|AlignEnd=308490|Gloss=way
-16	ʤirgíː	ʤirgíː	NOUN	_	Deixis=Remt	15	compound	_	AlignBegin=308490|AlignEnd=308718|Gloss=train.Remt
-17	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=308718|AlignEnd=308945|Gloss=PUNCT
+2-3	ríːʤiyáy	_	_	_	_	_	_	_	_
+2	ríːʤiya	ríːʤiya	NOUN	_	_	1	comp:cleft	_	AlignBegin=303902|AlignEnd=304251|Gloss=well
+3	-íː	-íː	NOUN	_	Deixis=Remt	2	af:det	_	AlignBegin=303902|AlignEnd=304251|Gloss=well.Remt
+4	ɗan	ɗan	SCONJ	_	PronType=Rel	2	mod@relcl	_	AlignBegin=304441|AlignEnd=304617|Gloss=REL
+5	yi	yi	VERB	_	_	4	comp:obj	_	AlignBegin=304617|AlignEnd=304793|Gloss=be
+6	ɣá	ká	ADP	_	_	5	comp:pred	_	AlignBegin=304793|AlignEnd=304969|Gloss=at
+7	taːɣə́	taːkə́	ADP	_	_	6	conj:dicto	_	AlignBegin=304969|AlignEnd=305145|Gloss=towards
+8	napti	napti	ADV	_	_	7	comp:obj	_	AlignBegin=305145|AlignEnd=305321|Gloss=left
+9	kafin	kafin	SCONJ	_	Foreign=Yes	7	conj:coord	_	AlignBegin=305321|AlignEnd=305497|Gloss=before|Lang=ha
+10	àː	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=2	9	comp:obj	_	AlignBegin=305497|AlignEnd=305673|Gloss=2Sing.Sub
+11	ɬə́	ɬə	VERB	_	_	10	comp:aux	_	AlignBegin=305673|AlignEnd=305847|Gloss=go
+12	èː	èː	INTJ	_	_	13	discourse	_	AlignBegin=306428|AlignEnd=306727|Gloss=èː
+13	ráːnábáwɗíː	ráːnábáwt	NOUN	_	Deixis=Remt	11	comp:goal	_	AlignBegin=306727|AlignEnd=307327|Gloss=roundabout
+14	kafin	kafin	ADP	_	Foreign=Yes	9	conj:coord	_	AlignBegin=307327|AlignEnd=307795|Gloss=before|Lang=ha
+15	èː	èː	INTJ	_	_	16	discourse	_	AlignBegin=307795|AlignEnd=308262|Gloss=èː
+16	dàtə̂pm	dàtə̂pm	NOUN	_	_	14	comp:obj	_	AlignBegin=308262|AlignEnd=308490|Gloss=way
+17-18	ʤirgíː	_	_	_	_	_	_	_	_
+17	ʤirgi	ʤirgi	NOUN	_	_	16	compound	_	AlignBegin=308490|AlignEnd=308718|Gloss=train
+18	-íː	-íː	NOUN	_	Deixis=Remt	16	af:det	_	AlignBegin=308490|AlignEnd=308718|Gloss=train.Remt
+19	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=308718|AlignEnd=308945|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_291-291
 # speaker_id = SP2
@@ -3777,9 +3783,9 @@
 13	Saukan	Saukan	PROPN	_	_	11	conj:dicto	_	AlignBegin=440087|AlignEnd=440249|Gloss=Saukan
 14	kapkə́	kapkə́	ADP	_	_	8	mod	_	AlignBegin=441730|AlignEnd=441947|Gloss=like
 15-17	vàrèʃíː	_	_	_	_	_	_	_	_
-15	vàr	vàr	ADJ	_	Definite=Def|Deixis=Remt	14	comp:obj	_	AlignBegin=441947|AlignEnd=442164|Gloss=big.Def.Remt
-16	-ês	-ês	ADJ	_	Definite=Def|Deixis=Remt	14	comp:obj	_	AlignBegin=441947|AlignEnd=442164|Gloss=big.Def.Remt
-17	-íː	-íː	ADJ	_	Definite=Def|Deixis=Remt	14	comp:obj	_	AlignBegin=441947|AlignEnd=442164|Gloss=big.Def.Remt
+15	vàr	vàr	ADJ	_	ExtPos=NOUN	14	comp:obj	_	AlignBegin=441947|AlignEnd=442164|Gloss=big
+16	-ês	-ês	DET	_	Definite=Def	15	af:det	_	AlignBegin=441947|AlignEnd=442164|Gloss=-Def
+17	-íː	-íː	ADJ	_	Definite=Def|Deixis=Remt	15	af:det	_	AlignBegin=441947|AlignEnd=442164|Gloss=big.Def.Remt
 18	//	//	PUNCT	_	_	1	punct	_	AlignBegin=442164|AlignEnd=442380|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_447-447
@@ -5512,18 +5518,20 @@
 27	ɗu	ɗu	VERB	_	_	26	comp:aux	_	AlignBegin=625642|AlignEnd=625785|Gloss=beat
 28-29	bóːlǐː	_	_	_	_	_	_	_	_
 28	bôːl	bôːl	NOUN	_	_	27	comp:obj	_	AlignBegin=625785|AlignEnd=625928|Gloss=football
-29	-íː	-íː	NOUN	_	Deixis=Remt	28	af:det	_	AlignBegin=625785|AlignEnd=625928|Gloss=football.Remt
+29	-íː	-íː	NOUN	_	Deixis=Remt	28	af:det	_	AlignBegin=625785|AlignEnd=625928|Gloss=football.Remt
 30	ŋǎː	ŋaː	PART	_	PartType=Int	26	mod	_	AlignBegin=625928|AlignEnd=626000|Gloss=Q
 31	n	hŋ́	PART	_	Polarity=Neg	26	mod	_	AlignBegin=626000|AlignEnd=626071|Gloss=Neg
 32	?//=	?//=	PUNCT	_	_	33	punct	_	AlignBegin=626071|AlignEnd=626213|Gloss=PUNCT
 33	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	26	conj:svc	_	AlignBegin=626213|AlignEnd=626310|Gloss=2Sing.Fut
 34	ɗu	ɗu	VERB	_	_	33	comp:aux	_	AlignBegin=626310|AlignEnd=626407|Gloss=beat
-35	bóːlǐː	bôːl	NOUN	_	Deixis=Remt	34	comp:obj	_	AlignBegin=626407|AlignEnd=626504|Gloss=football.Remt
-36-37	ŋǎːn	_	_	_	_	_	_	_	_
-36	ŋaː	ŋaː	PART	_	PartType=Int	33	mod	_	AlignBegin=626504|AlignEnd=626552|Gloss=Q
-37	hŋ́	hŋ́	PART	_	Polarity=Neg	33	mod	_	AlignBegin=626552|AlignEnd=626601|Gloss=Neg
-38	?//]	?//]	PUNCT	_	_	26	punct	_	AlignBegin=626601|AlignEnd=626698|Gloss=PUNCT
-39	//	//	PUNCT	_	_	2	punct	_	AlignBegin=626698|AlignEnd=626793|Gloss=PUNCT
+35-36	bóːlǐː	_	_	_	_	_	_	_	_
+35	bôːl	bôːl	NOUN	_	_	34	comp:obj	_	AlignBegin=626407|AlignEnd=626504|Gloss=football
+36	-íː	-íː	NOUN	_	Deixis=Remt	35	af:det	_	AlignBegin=626407|AlignEnd=626504|Gloss=football.Remt
+37-38	ŋǎːn	_	_	_	_	_	_	_	_
+37	ŋaː	ŋaː	PART	_	PartType=Int	33	mod	_	AlignBegin=626504|AlignEnd=626552|Gloss=Q
+38	hŋ́	hŋ́	PART	_	Polarity=Neg	33	mod	_	AlignBegin=626552|AlignEnd=626601|Gloss=Neg
+39	?//]	?//]	PUNCT	_	_	26	punct	_	AlignBegin=626601|AlignEnd=626698|Gloss=PUNCT
+40	//	//	PUNCT	_	_	2	punct	_	AlignBegin=626698|AlignEnd=626793|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_641-643
 # speaker_id = SP1
@@ -5862,7 +5870,7 @@
 13	COCIN	COCIN	PROPN	_	Foreign=Yes	12	comp:obj	_	AlignBegin=666651|AlignEnd=666829|Gloss=COCIN|Lang=en
 14-15	ɗáníː	_	_	_	_	_	_	_	_
 14	ɗanì	ɗanì	ADV	_	_	13	mod	_	AlignBegin=666829|AlignEnd=667007|Gloss=there
-15	-íː	-íː	ADV	_	Deixis=Remt	13	af:det	_	AlignBegin=666829|AlignEnd=667007|Gloss=there.Remt
+15	-íː	-íː	ADV	_	Deixis=Remt	13	af:det	_	AlignBegin=666829|AlignEnd=667007|Gloss=there.Remt
 16	<	<	PUNCT	_	_	6	punct	_	AlignBegin=667007|AlignEnd=667185|Gloss=PUNCT
 17	bàː	bàː	PART	_	Polarity=Neg	18	mod	_	AlignBegin=667185|AlignEnd=667341|Gloss=Neg
 18	ʧàː	yiká	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	AlignBegin=667341|AlignEnd=667497|Gloss=3Plur.Prog
