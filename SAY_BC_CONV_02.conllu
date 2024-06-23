@@ -535,7 +535,7 @@
 20-21	mə́nɗi	_	_	_	_	_	_	_	_
 20	mə́n	mə́n	PART	_	Case=Ben	18	compound:prt	_	AlignBegin=76729|AlignEnd=76855|Gloss=BEN
 21	ɗi	ɗi	PART	_	_	18	compound:prt	_	AlignBegin=76855|AlignEnd=76980|Gloss=Ctp|wordform==ɗi
-22	ʧíɣə́y	ʧík	ADV	_	Deixis=Remt	18	mod	_	AlignBegin=76980|AlignEnd=77106|Gloss=thus.Remt
+22	ʧíɣə́y	ʧík	ADV	_	_	18	mod	_	AlignBegin=76980|AlignEnd=77106|Gloss=thus
 23	<	<	PUNCT	_	_	25	punct	_	AlignBegin=77231|AlignEnd=77484|Gloss=PUNCT
 24	tá	tá	PART	_	_	25	discourse	_	AlignBegin=77786|AlignEnd=78054|Gloss=then
 25	nə	nə	PART	_	_	0	root	_	AlignBegin=78054|AlignEnd=78322|Gloss=be
@@ -2959,18 +2959,20 @@
 # text = myǎː ʃîʃí gòpm káwêy < tôː laː ɣə́ də̀níː ɓúsɓùs kən //
 # text_ortho = myǎː ʃîʃí gòpm káwêy < tôː laː ɣə́ də̀níː ɓúsɓùs kən //
 # text_en = As soon as we get up, well the house work is enormous.
-1	myǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	11	mod	_	AlignBegin=405179|AlignEnd=405673|Gloss=1Plur.Imp
+1	myǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	12	mod	_	AlignBegin=405179|AlignEnd=405673|Gloss=1Plur.Imp
 2	ʃîʃí	ʃiʃí	VERB	_	_	1	comp:aux	_	AlignBegin=405673|AlignEnd=406001|Gloss=rise
 3	gòpm	gòpm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	2	mod@ethical	_	AlignBegin=406001|AlignEnd=406328|Gloss=1Plur.Gen
 4	káwêy	káwêy	ADV	_	_	2	mod	_	AlignBegin=406328|AlignEnd=406540|Gloss=merely
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=406540|AlignEnd=406751|Gloss=PUNCT
-6	tôː	tòː	PART	_	_	11	discourse	_	AlignBegin=406751|AlignEnd=407080|Gloss=well
-7	laː	laː	NOUN	_	_	11	subj	_	AlignBegin=407080|AlignEnd=407409|Gloss=work
+6	tôː	tòː	PART	_	_	12	discourse	_	AlignBegin=406751|AlignEnd=407080|Gloss=well
+7	laː	laː	NOUN	_	_	12	subj	_	AlignBegin=407080|AlignEnd=407409|Gloss=work
 8	ɣə́	kə́	ADP	_	_	7	mod@poss	_	AlignBegin=407409|AlignEnd=407738|Gloss=of
-9	də̀níː	də̀n	NOUN	_	Deixis=Remt	8	comp:obj	_	AlignBegin=407738|AlignEnd=407902|Gloss=house.Remt
-10	ɓúsɓùs	ɓúsɓùs	IDEO	_	ExtPos=ADJ	11	comp:pred	_	AlignBegin=408067|AlignEnd=408231|Gloss=plenty
-11	kən	kən	PART	_	_	0	root	_	AlignBegin=408231|AlignEnd=408396|Gloss=be
-12	//	//	PUNCT	_	_	11	punct	_	AlignBegin=408396|AlignEnd=408725|Gloss=PUNCT
+9-10	də̀níː	_	_	_	_	_	_	_	_
+9	də̀n	də̀n	NOUN	_	_	8	comp:obj	_	AlignBegin=407738|AlignEnd=407902|Gloss=house
+10	-íː	-íː	NOUN	_	Deixis=Remt	9	af:det	_	AlignBegin=407738|AlignEnd=407902|Gloss=house.Remt
+11	ɓúsɓùs	ɓúsɓùs	IDEO	_	ExtPos=ADJ	12	comp:pred	_	AlignBegin=408067|AlignEnd=408231|Gloss=plenty
+12	kən	kən	PART	_	_	0	root	_	AlignBegin=408231|AlignEnd=408396|Gloss=be
+13	//	//	PUNCT	_	_	12	punct	_	AlignBegin=408396|AlignEnd=408725|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_320-320
 # speaker_id = SP1
