@@ -1468,7 +1468,7 @@
 12	kə́	á	ADP	_	_	10	parataxis	_	AlignBegin=468716|AlignEnd=468904|GE=[POSL]|Gloss=POSL|nWord=12|RX=[PTCL]
 13	daː	daː	VERB	_	_	12	comp:obj	_	AlignBegin=468904|AlignEnd=468967|GE=father|Gloss=father|nWord=13|RX=[N]
 14	=gə̀tn	=gətn	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	13	comp:obj	_	AlignBegin=468967|AlignEnd=469030|GE=[1SG].[POS]|Gloss=1SG.POS|nWord=13|RX=[PRO]
-15	-íː	-íː	DET	_	Deixis=Remt	13	af:mod	_	AlignBegin=469030|AlignEnd=469092|GE=[DIST]|Gloss=DIST|nWord=13|RX=[DEICT]
+15	-íː	-íː	DET	_	Deixis=Remt	13	af:det	_	AlignBegin=469030|AlignEnd=469092|GE=[DIST]|Gloss=DIST|nWord=13|RX=[DEICT]
 16	gíː	gíː	PRON	_	PronType=Dem	13	comp:obj	_	AlignBegin=471000|AlignEnd=471208|GE=[DIST]|Gloss=DIST|nWord=15|RX=[PRO].[DEICT]
 17	ɗan	ɗan	SCONJ	_	PronType=Rel	11	mod@relcl	_	AlignBegin=471208|AlignEnd=471416|GE=that|Gloss=that|nWord=16|RX=[REL]
 18	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	17	comp:obj	_	AlignBegin=471416|AlignEnd=471624|GE=[1SG].[AOR]|Gloss=1SG.AOR|nWord=17|RX=[PNTAM]
@@ -1634,8 +1634,8 @@
 # text_ortho = mə́n naptíː / tá sû Yéːsu ɗa tu / Yéːsu / mə̀tà yelɣə ɗòː / tə́ kusuŋ / kóː nə sə́mbə̂r / kóː nə múli / kəndá hár mə̀tà ɲangás / mə̀ yàːl ɗaː koː //
 # text_en =  Those on his left will answer Jesus saying "Jesus, when did we see you hungry or a stranger or needing clothes and then we refused to help you ?"
 1	mə́n	múr	NOUN	_	Number=Plur	4	dislocated@subj	_	AlignBegin=532000|AlignEnd=532253|GE=people|Gloss=people|nWord=1|RX=[N].[PL]
-2	napti	napti	VERB	_	_	1	mod	_	AlignBegin=532253|AlignEnd=532379|GE=left|Gloss=left|nWord=2|RX=[N].[ANAPH]
-3	-íː	-íː	PART	_	Deixis=Remt	1	det	_	AlignBegin=532379|AlignEnd=532506|GE=[DIST]|Gloss=DIST|nWord=2|RX=[DEICT]
+2	napti	napti	NOUN	_	_	1	compound	_	AlignBegin=532253|AlignEnd=532379|GE=left|Gloss=left|nWord=2|RX=[N].[ANAPH]
+3	-íː	-íː	PART	_	Deixis=Remt	1	af:det	_	AlignBegin=532379|AlignEnd=532506|GE=[DIST]|Gloss=DIST|nWord=2|RX=[DEICT]
 4	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=533660|AlignEnd=533843|GE=[3PL].[FUT]|Gloss=3PL.FUT|nWord=4|RX=[PNTAM]
 5	su	su	VERB	_	_	4	comp:aux	_	AlignBegin=533843|AlignEnd=534026|GE=answer|Gloss=answer|nWord=5|RX=[V]
 6	Yéːsu	Yéːsu	PROPN	_	_	5	comp:obj	_	AlignBegin=534026|AlignEnd=534209|GE=[Jesus]|Gloss=Jesus|nWord=6|RX=[N].[P]
@@ -1868,25 +1868,24 @@
 # sent_id = SAY_BC_READ_03_Sermon_279-280
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 618480, 622200
-# text = dzàŋ gíː -ês -ês ka kə́ːm kə wul tu / kyáː gaː gaːm ká wurɓa hŋ́ //
+# text = dzàŋ gíː -ês ka kə́ːm kə wul tu kyáː gaː gaːm ká wurɓa hŋ́ //
 # text_ortho = dzàŋ gêːs ka kə́ːm kə wul tu / kyáː gaː gaːm gá wurɓa hŋ́ //
 # text_en =  On that day, you will not be able to say that you are not depending on money.
-1	dzàŋ	dzàŋ	NOUN	_	_	5	mod	_	AlignBegin=618480|AlignEnd=618670|GE=day|Gloss=day|nWord=1|RX=[N]
+1	dzàŋ	dzàŋ	NOUN	_	_	4	mod	_	AlignBegin=618480|AlignEnd=618670|GE=day|Gloss=day|nWord=1|RX=[N]
 2	gíː	gíː	DET	_	Deixis=Remt	1	compound	_	AlignBegin=618670|AlignEnd=618733|GE=[DIST]|Gloss=DIST|nWord=2|RX=[PRO].[DEICT]
 3	-ês	-ês	DET	_	Deixis=Remt	1	af:det	_	AlignBegin=618733|AlignEnd=618796|GE=[DEF]|Gloss=DEF|nWord=2|RX=[ART]
-4	-ês	-ês	DET	_	Deixis=Remt	2	af:det	_	AlignBegin=618796|AlignEnd=618860|GE=[DEF]|Gloss=DEF|nWord=2|RX=[ART]
-5	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=618860|AlignEnd=619050|GE=[2SG].[FUT]|Gloss=2SG.FUT|nWord=3|RX=[PNTAM]
-6	kə́ːm	kə́ːm	VERB	_	_	5	comp:aux	_	AlignBegin=619050|AlignEnd=619240|GE=succeed|Gloss=succeed|nWord=4|RX=[V]
-7	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	5	parataxis	_	AlignBegin=619240|AlignEnd=619430|GE=[2SG].[AOR]|Gloss=2SG.AOR|nWord=5|RX=[PNTAM]
-8	wul	wul	VERB	_	_	7	comp:aux	_	AlignBegin=619430|AlignEnd=619620|GE=say|Gloss=say|nWord=6|RX=[V]
-9	tu	tu	SCONJ	_	_	8	comp:obj	_	AlignBegin=619620|AlignEnd=619810|GE=[COMP]|Gloss=COMP|nWord=7|RX=[PTCL]
-10	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	9	comp:obj	_	AlignBegin=620920|AlignEnd=621103|GE=[2SG].[ICPL]|Gloss=2SG.ICPL|nWord=9|RX=[PNTAM]
-11	gaː	gaː	VERB	_	_	10	comp:aux	_	AlignBegin=621103|AlignEnd=621286|GE=put|Gloss=put|nWord=10|RX=[V]
-12	gaːm	gaːm	NOUN	_	_	11	comp:obj	_	AlignBegin=621286|AlignEnd=621469|GE=head|Gloss=head|nWord=11|RX=[N]
-13	ká	ká	ADP	_	_	11	comp:obl	_	AlignBegin=621469|AlignEnd=621652|GE=at|Gloss=at|nWord=12|RX=[PREP]
-14	wurɓa	wurɓa	NOUN	_	_	13	comp:obj	_	AlignBegin=621652|AlignEnd=621835|GE=money|Gloss=money|nWord=13|RX=[N]
-15	hŋ́	hŋ́	PART	_	Polarity=Neg	10	mod	_	AlignBegin=621835|AlignEnd=622018|GE=[NEG2]|Gloss=NEG2|nWord=14|RX=[PTCL].[NEG]
-16	//	//	PUNCT	_	_	5	punct	_	AlignBegin=622018|AlignEnd=622200|GE=[//]|Gloss=PUNCT|nWord=15
+4	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=618860|AlignEnd=619050|GE=[2SG].[FUT]|Gloss=2SG.FUT|nWord=3|RX=[PNTAM]
+5	kə́ːm	kə́ːm	VERB	_	_	4	comp:aux	_	AlignBegin=619050|AlignEnd=619240|GE=succeed|Gloss=succeed|nWord=4|RX=[V]
+6	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	4	parataxis	_	AlignBegin=619240|AlignEnd=619430|GE=[2SG].[AOR]|Gloss=2SG.AOR|nWord=5|RX=[PNTAM]
+7	wul	wul	VERB	_	_	6	comp:aux	_	AlignBegin=619430|AlignEnd=619620|GE=say|Gloss=say|nWord=6|RX=[V]
+8	tu	tu	SCONJ	_	_	7	comp:obj	_	AlignBegin=619620|AlignEnd=619810|GE=[COMP]|Gloss=COMP|nWord=7|RX=[PTCL]
+9	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	8	comp:obj	_	AlignBegin=620920|AlignEnd=621103|GE=[2SG].[ICPL]|Gloss=2SG.ICPL|nWord=9|RX=[PNTAM]
+10	gaː	gaː	VERB	_	_	9	comp:aux	_	AlignBegin=621103|AlignEnd=621286|GE=put|Gloss=put|nWord=10|RX=[V]
+11	gaːm	gaːm	NOUN	_	_	10	comp:obj	_	AlignBegin=621286|AlignEnd=621469|GE=head|Gloss=head|nWord=11|RX=[N]
+12	ká	ká	ADP	_	_	10	comp:obl	_	AlignBegin=621469|AlignEnd=621652|GE=at|Gloss=at|nWord=12|RX=[PREP]
+13	wurɓa	wurɓa	NOUN	_	_	12	comp:obj	_	AlignBegin=621652|AlignEnd=621835|GE=money|Gloss=money|nWord=13|RX=[N]
+14	hŋ́	hŋ́	PART	_	Polarity=Neg	9	mod	_	AlignBegin=621835|AlignEnd=622018|GE=[NEG2]|Gloss=NEG2|nWord=14|RX=[PTCL].[NEG]
+15	//	//	PUNCT	_	_	4	punct	_	AlignBegin=622018|AlignEnd=622200|GE=[//]|Gloss=PUNCT|nWord=15
 
 # sent_id = SAY_BC_READ_03_Sermon_281-287
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
@@ -1910,8 +1909,8 @@
 14	zaːr	zaːr	NOUN	_	_	12	comp:obj	_	AlignBegin=627372|AlignEnd=627498|GE=person|Gloss=person|nWord=14|RX=[N]
 15	-sə	-sə	DET	_	_	14	mod	_	AlignBegin=627498|AlignEnd=627624|GE=[PL]|Gloss=PL|nWord=14|RX=[PL]
 16	ɓét	ɓét	ADV	_	_	20	mod	_	AlignBegin=628480|AlignEnd=628675|GE=all|Gloss=all|nWord=16|RX=[ADV]
-17	tə́	tə́	ADP	_	_	14	cc	_	AlignBegin=628675|AlignEnd=628870|GE=with|Gloss=with|nWord=17|RX=[PREP]
-18	gíː	gíː	PRON	_	Deixis=Remt|PronType=Dem	12	comp:obj	_	AlignBegin=628870|AlignEnd=629065|GE=[DIST]|Gloss=DIST|nWord=18|RX=[PRO].[DEICT]
+17	tə́	tə́	ADP	_	_	16	cc:mod	_	AlignBegin=628675|AlignEnd=628870|GE=with|Gloss=with|nWord=17|RX=[PREP]
+18	gíː	gíː	PRON	_	Deixis=Remt|PronType=Dem	17	comp:obj	_	AlignBegin=628870|AlignEnd=629065|GE=[DIST]|Gloss=DIST|nWord=18|RX=[PRO].[DEICT]
 19	yǎː	yaáː	AUX	_	Mood=Cnd|Number=Plur|Person=3	12	mod	_	AlignBegin=629720|AlignEnd=629965|GE=[3PL].[COND]|Gloss=3PL.COND|nWord=20|RX=[PNTAM]
 20	nda	nda	VERB	_	_	19	comp:aux	_	AlignBegin=629965|AlignEnd=630087|GE=enter|Gloss=enter|nWord=21|RX=[V]
 21	=wâː	=waaː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	14	mod@poss	_	AlignBegin=630210|AlignEnd=630455|GE=[2SG].[POS]|Gloss=2SG.POS|nWord=22|RX=[PRO]
@@ -1980,23 +1979,23 @@
 # text = dzàŋ ɗəːl -kə́nì vìː kapkə́ ʧóknvòn -íː / mə́n fi -kə́nì kúskə̀ ngə́tn ɗeɓát / ɲôkn =wáːsə̀ŋ wò ɗaːr -íː //
 # text_ortho = dzàŋ ɗə́ːlɣə́n vìː kapkə́ ʧóknvòníː / mə́n fíɣə̂n kúskə̀ ngə́tn ɗeɓát / ɲóknwàːsə̀ŋ wò ɗaːríː //
 # text_en =  On the day of Judgement, those who do evil things will become constipated.
-1	dzàŋ	dzàŋ	NOUN	_	_	0	root	_	AlignBegin=648260|AlignEnd=648543|GE=day|Gloss=day|nWord=1|RX=[N]
+1	dzàŋ	dzàŋ	NOUN	_	_	14	mod	_	AlignBegin=648260|AlignEnd=648543|GE=day|Gloss=day|nWord=1|RX=[N]
 2	ɗə́ːlɣə́n	ɗəːl	VERB	_	_	1	mod	_	AlignBegin=648543|AlignEnd=648685|GE=come_out|Gloss=come_out-Vnoun|nWord=2|RX=[V]|wordform=ɗəːl
 3	vìː	vìː	NOUN	_	_	2	comp:obj	_	AlignBegin=648826|AlignEnd=649109|GE=speech|Gloss=speech|nWord=3|RX=[N]
-4	kapkə́	kapkə́	ADP	_	_	5	mod	_	AlignBegin=649109|AlignEnd=649392|GE=for|Gloss=for|nWord=4|RX=[PREP]
-5	ʧóknvòn	ʧóknvòn	NOUN	_	PronType=Dem	2	mod	_	AlignBegin=649392|AlignEnd=649534|GE=[God]|Gloss=God|nWord=5|RX=[N].[P]
-6	-íː	-íː	DET	_	Deixis=Remt	5	det	_	AlignBegin=649534|AlignEnd=649675|GE=[DIST]|Gloss=DIST|nWord=5|RX=[DEICT]
-7	mə́n	mə́n	NOUN	_	Number=Plur	4	mod	_	AlignBegin=651120|AlignEnd=651350|GE=people|Gloss=people|nWord=7|RX=[N].[PL]
+4	kapkə́	kapkə́	ADP	_	_	2	mod	_	AlignBegin=649109|AlignEnd=649392|GE=for|Gloss=for|nWord=4|RX=[PREP]
+5	ʧóknvòn	ʧóknvòn	NOUN	_	PronType=Dem	4	comp:obj	_	AlignBegin=649392|AlignEnd=649534|GE=[God]|Gloss=God|nWord=5|RX=[N].[P]
+6	-íː	-íː	DET	_	Deixis=Remt	1	af:det	_	AlignBegin=649534|AlignEnd=649675|GE=[DIST]|Gloss=DIST|nWord=5|RX=[DEICT]
+7	mə́n	mə́n	NOUN	_	Number=Plur	14	dislocated@top	_	AlignBegin=651120|AlignEnd=651350|GE=people|Gloss=people|nWord=7|RX=[N].[PL]
 8	fíɣə̂n	fi	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	7	compound	_	AlignBegin=651350|AlignEnd=651465|GE=do|Gloss=do-Vnoun|nWord=8|RX=[V]|wordform=fi
 9	kúskə̀	kúskə̀	ADJ	_	_	10	mod	_	AlignBegin=651580|AlignEnd=651810|GE=evil|Gloss=evil|nWord=9|RX=[ADJ]
 10	ngə́tn	ngə́tn	NOUN	_	_	8	comp:obj	_	AlignBegin=651810|AlignEnd=652040|GE=thing|Gloss=thing|nWord=10|RX=[N]
-11	ɗeɓát	ɗeɓát	IDEO	_	_	15	mod	_	AlignBegin=652040|AlignEnd=652270|GE=all|Gloss=all|nWord=11|RX=[ADV]
-12	ɲôkn	ɲôaŋ	NOUN	_	_	10	mod	_	AlignBegin=653400|AlignEnd=653535|GE=faeces|Gloss=faeces|nWord=13|RX=[N]
+11	ɗeɓát	ɗeɓát	IDEO	_	_	7	mod	_	AlignBegin=652040|AlignEnd=652270|GE=all|Gloss=all|nWord=11|RX=[ADV]
+12	ɲôkn	ɲôaŋ	NOUN	_	_	14	subj	_	AlignBegin=653400|AlignEnd=653535|GE=faeces|Gloss=faeces|nWord=13|RX=[N]
 13	=wáːsə̀ŋ	=wáːsəŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	12	mod@poss	_	AlignBegin=653535|AlignEnd=653670|GE=[3PL].[POS]|Gloss=3PL.POS|nWord=13|RX=[PRO]
-14	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	7	mod@relcl	_	AlignBegin=653670|AlignEnd=653940|GE=[3SG].[FUT]|Gloss=3SG.FUT|nWord=14|RX=[PNTAM]
+14	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=653670|AlignEnd=653940|GE=[3SG].[FUT]|Gloss=3SG.FUT|nWord=14|RX=[PNTAM]
 15	ɗaːr	ɗaːr	VERB	_	_	14	comp:aux	_	AlignBegin=653940|AlignEnd=654075|GE=become_hard|Gloss=become_hard|nWord=15|RX=[V]
 16	-íː	-íː	PART	_	_	15	af:mod	_	AlignBegin=654075|AlignEnd=654210|GE=[RES]|Gloss=-Res|nWord=15|RX=[TAM]
-17	//	//	PUNCT	_	_	2	punct	_	AlignBegin=654210|AlignEnd=654480|GE=[//]|Gloss=PUNCT|nWord=16
+17	//	//	PUNCT	_	_	14	punct	_	AlignBegin=654210|AlignEnd=654480|GE=[//]|Gloss=PUNCT|nWord=16
 
 # sent_id = SAY_BC_READ_03_Sermon_297-300
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
@@ -2038,12 +2037,12 @@
 # text_en =  On that day, the wind will blow, the bottom of the hens will be exposed.
 1	dzàŋ	dzàŋ	NOUN	_	_	4	mod	_	AlignBegin=666980|AlignEnd=667203|GE=day|Gloss=day|nWord=1|RX=[N]
 2	gíː	gíː	DET	_	Deixis=Remt|PronType=Dem	1	det	_	AlignBegin=667203|AlignEnd=667426|GE=[DIST]|Gloss=DIST|nWord=2|RX=[PRO].[DEICT]
-3	yetar	yetar	NOUN	_	_	0	root	_	AlignBegin=667426|AlignEnd=667649|GE=wind|Gloss=wind|nWord=3|RX=[N]
-4	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	3	comp:obj	_	AlignBegin=667649|AlignEnd=667872|GE=[3SG].[FUT]|Gloss=3SG.FUT|nWord=4|RX=[PNTAM]
+3	yetar	yetar	NOUN	_	_	4	subj	_	AlignBegin=667426|AlignEnd=667649|GE=wind|Gloss=wind|nWord=3|RX=[N]
+4	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=667649|AlignEnd=667872|GE=[3SG].[FUT]|Gloss=3SG.FUT|nWord=4|RX=[PNTAM]
 5	vat	vat	VERB	_	_	4	comp:aux	_	AlignBegin=667872|AlignEnd=667984|GE=blow ; forge|Gloss=blow ; forge|nWord=5|RX=[V]
 6	-íː	-íː	PART	_	_	5	af:mod	_	AlignBegin=667984|AlignEnd=668095|GE=[RES]|Gloss=-Res|nWord=5|RX=[TAM]
-7	mbúpti	mbúpti	NUM	_	_	5	comp:obj	_	AlignBegin=668680|AlignEnd=668896|GE=bottom|Gloss=bottom|nWord=7|RX=[N]
-8	geri	geri	NOUN	_	_	10	comp:obj	_	AlignBegin=668896|AlignEnd=669112|GE=hen|Gloss=hen|nWord=8|RX=[N]
+7	mbúpti	mbúpti	NUM	_	_	9	subj	_	AlignBegin=668680|AlignEnd=668896|GE=bottom|Gloss=bottom|nWord=7|RX=[N]
+8	geri	geri	NOUN	_	_	7	mod	_	AlignBegin=668896|AlignEnd=669112|GE=hen|Gloss=hen|nWord=8|RX=[N]
 9	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	4	conj:svc	_	AlignBegin=669112|AlignEnd=669328|GE=[3SG].[FUT]|Gloss=3SG.FUT|nWord=9|RX=[PNTAM]
 10	yaːl	yaːl	VERB	_	_	9	comp:aux	_	AlignBegin=669328|AlignEnd=669436|GE=look|Gloss=look|nWord=10|RX=[V]
 11	-íː	-íː	PART	_	_	10	af:mod	_	AlignBegin=669436|AlignEnd=669544|GE=[RES]|Gloss=-Res|nWord=10|RX=[TAM]
