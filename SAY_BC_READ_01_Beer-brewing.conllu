@@ -1069,7 +1069,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
 # sent_timecode = 264860, 265860
 # text = yetar wò laːtsə́ ɣáy /
-# text_ortho = yetar wò laːtsə́ káy /
+# text_ortho = yetar wò laːtsə́ ɣáy /
 # text_en =  The cold will affect it.
 1	yetar	yetar	NOUN	_	_	2	subj	_	AlignBegin=264860|AlignEnd=265060|GE=wind|Gloss=wind|nWord=1|RX=[N]
 2	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=265060|AlignEnd=265260|GE=[3Sing].[Fut]|Gloss=3Sing.Fut|nWord=2|RX=[PNTAM]
@@ -1152,20 +1152,28 @@
 12	mari	mari	NOUN	_	_	9	mod	_	AlignBegin=284440|AlignEnd=284660|GE=different|Gloss=different|nWord=9|RX=[ADV]
 13	//	//	PUNCT	_	_	2	punct	_	AlignBegin=284660|AlignEnd=284880|GE=[//]|Gloss=PUNCT|nWord=10
 
-# sent_id = SAY_BC_READ_01_Beer_137-138
+# sent_id = SAY_BC_READ_01_Beer_137
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
-# sent_timecode = 286220, 288760
-# text = tôː kə gáː =tə / pìtó gòs kəndí //
-# text_ortho = tôː kə gáːtə / pìtó gòs kəndí //
-# text_en =  Well, you will leave it, and that's "pito”.
+# sent_timecode = 286220, 286745
+# text = tôː kə gáː =tə //
+# text_ortho = tôː kə gáːtə //
+# text_en =  Well, you will leave it.
 1	tôː	tòː	PART	_	_	2	discourse	_	AlignBegin=286220|AlignEnd=286395|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
 2	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=286395|AlignEnd=286570|GE=[2Sing].[Aor]|Gloss=2Sing.Aor|nWord=2|RX=[PNTAM]
 3	gáː	gaː	VERB	_	_	2	comp:aux	_	AlignBegin=286570|AlignEnd=286658|GE=leave|Gloss=leave|nWord=3|RX=[V]
 4	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=286658|AlignEnd=286745|GE=[3Sing].[OBJ]|Gloss==3Sing.Acc|nWord=3|RX=[PRO]
-5	pìtó	pìtó	NOUN	_	_	3	comp:obj	_	AlignBegin=288020|AlignEnd=288205|GE=beer_sp|Gloss=beer_sp|nWord=5|RX=[N]
-6	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	mod@ethical	_	AlignBegin=288205|AlignEnd=288390|GE=[3Sing]..Gen]|Gloss=3Sing.Gen|nWord=6|RX=[PRO]
-7	kəndí	kən	PART	_	_	2	mod	_	AlignBegin=288390|AlignEnd=288575|GE=[COP2]|Gloss=COP2|nWord=7|RX=[PTCL].[SYNT].[HOM]
-8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=288575|AlignEnd=288760|GE=[//]|Gloss=PUNCT|nWord=8
+5	//	//	PUNCT	_	_	2	comp:obj	_	AlignBegin=286745|AlignEnd=286745|Gloss=PUNCT
+
+# sent_id = SAY_BC_READ_01_Beer_138
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
+# sent_timecode = 286745, 288760
+# text = pìtó gòs kəndí //
+# text_ortho = pìtó gòs kəndí //
+# text_en = That's "pito”.
+1	pìtó	pìtó	NOUN	_	_	3	subj	_	AlignBegin=288020|AlignEnd=288205|GE=beer_sp|Gloss=beer_sp|nWord=5|RX=[N]
+2	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	mod@ethical	_	AlignBegin=288205|AlignEnd=288390|GE=[3Sing]..Gen]|Gloss=3Sing.Gen|nWord=6|RX=[PRO]
+3	kəndí	kən	PART	_	_	0	root	_	AlignBegin=288390|AlignEnd=288575|GE=[COP2]|Gloss=COP2|nWord=7|RX=[PTCL].[SYNT].[HOM]
+4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=288575|AlignEnd=288760|GE=[//]|Gloss=PUNCT|nWord=8
 
 # sent_id = SAY_BC_READ_01_Beer_139-140
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
@@ -1191,7 +1199,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
 # sent_timecode = 294260, 295160
 # text = tòː á ɓâní -íː ɣəndí //
-# text_ortho = tôː á ɓâníː kəndí //
+# text_ortho = tôː á ɓâníː ɣəndí //
 # text_en =  Well, it's finished.
 1	tòː	tòː	PART	_	_	2	discourse	_	AlignBegin=294260|AlignEnd=294440|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
 2	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=294440|AlignEnd=294620|GE=[3Sing].[Aor]|Gloss=3Sing.Aor|nWord=2|RX=[PNTAM]
@@ -1220,7 +1228,7 @@
 # sent_id = SAY_BC_READ_01_Beer_144-148
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
 # sent_timecode = 299620, 307720
-# text = ʤíko gòs / kyáː tu wâː -ɗi / lərə́ŋ ʒèlì diwdíw / tôː kə ɬə -ár =tə -íː ínʤì / kə ɬə nə́ ɲiː //
+# text = ʤíko gòs kyáː tu wâː -ɗi lərə́ŋ ʒèlì diwdíw tôː kə ɬə́ːr =tə -íː ínʤì kə ɬə́n ɲiː -íː //
 # text_ortho = ʤíko gòs / kyáː tú wáːɗì / lərə́ŋ ʒèlì diwdíw / tôː kə ɬə́ːrtíː ínʤì / kə ɬə́n ɲíː //
 # text_en =  As for "jiko", when you have red guinea-corn, very red early guinea-corn well you take it to the mill and grind it.
 1	ʤíko	ʤíko	ADV	_	_	11	mod	_	AlignBegin=299620|AlignEnd=299960|GE=jiko|Gloss=jiko|nWord=1|RX=[N]
@@ -1239,23 +1247,23 @@
 14	-íː	-íː	PART	_	_	12	af:mod	_	AlignBegin=305785|AlignEnd=305840|GE=[RES]|Gloss=-Res|nWord=14|RX=[TAM]
 15	ínʤì	ínʤì	NOUN	_	_	12	comp:goal	_	AlignBegin=305840|AlignEnd=306060|GE=grinding_engine|Gloss=grinding_engine|nWord=15|RX=[N].[BW].[EN]
 16	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	11	conj:svc	_	AlignBegin=307140|AlignEnd=307285|GE=[2Sing].[Aor]|Gloss=2Sing.Aor|nWord=17|RX=[PNTAM]
-17	ɬə	ɬə	VERB	_	_	16	comp:aux	_	AlignBegin=307285|AlignEnd=307357|GE=go|Gloss=go|nWord=18|RX=[V]
-18	nə́	nə́	ADP	_	_	17	comp:obl	_	AlignBegin=307357|AlignEnd=307430|GE=for|Gloss=for|nWord=18|RX=[PREP]
-19	ɲiː	ɲiː	NOUN	_	_	18	comp:obj	_	AlignBegin=307430|AlignEnd=307575|GE=grind|Gloss=grind|nWord=19|RX=[V]
+17	ɬə́n	ɬə́n	VERB	_	_	16	comp:aux	_	AlignBegin=307285|AlignEnd=307357|GE=go|Gloss=go_to|nWord=18|RX=[V]
+18	ɲiː	ɲiː	VERB	_	_	17	conj:svc	_	AlignBegin=307430|AlignEnd=307575|GE=grind|Gloss=grind|nWord=19|RX=[V]
+19	-íː	-íː	PART	_	_	18	af:mod	_	AlignBegin=307430|AlignEnd=307575|GE=-Res|Gloss=-Res|nWord=19|Result=Yes|RX=[V]
 20	//	//	PUNCT	_	_	11	punct	_	AlignBegin=307575|AlignEnd=307720|GE=[//]|Gloss=PUNCT|nWord=20
 
 # sent_id = SAY_BC_READ_01_Beer_149-149
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
 # sent_timecode = 308640, 309720
-# text = tòː kə máni kaːs =tə wûl //
+# text = tòː kə mán kaːs =tə wûl //
 # text_ortho = tôː kə mán kaːstə wûl //
 # text_en =  Well, you will make some gruel with it.
 1	tòː	tòː	PART	_	_	2	discourse	_	AlignBegin=308640|AlignEnd=308820|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
 2	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=308820|AlignEnd=309000|GE=[2Sing].[Aor]|Gloss=2Sing.Aor|nWord=2|RX=[PNTAM]
-3	máni	máni	VERB	_	_	2	comp:aux	_	AlignBegin=309000|AlignEnd=309180|GE=come|Gloss=come|nWord=3|RX=[V]
+3	mán	máni	VERB	_	_	2	comp:aux	_	AlignBegin=309000|AlignEnd=309180|GE=come|Gloss=come|nWord=3|RX=[V]
 4	kaːs	kaːs	VERB	_	_	3	compound:svc	_	AlignBegin=309180|AlignEnd=309270|GE=cook|Gloss=cook|nWord=4|RX=[V]
 5	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=309270|AlignEnd=309360|GE=[3Sing].[OBJ]|Gloss==3Sing.Acc|nWord=4|RX=[PRO]
-6	wûl	wuul	VERB	_	_	3	compound:svc	_	AlignBegin=309360|AlignEnd=309540|GE=gruel|Gloss=gruel|nWord=5|RX=[N]
+6	wûl	wuul	NOUN	_	_	4	comp:pred	_	AlignBegin=309360|AlignEnd=309540|GE=gruel|Gloss=gruel|nWord=5|RX=[N]
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=309540|AlignEnd=309720|GE=[//]|Gloss=PUNCT|nWord=6
 
 # sent_id = SAY_BC_READ_01_Beer_150-151
@@ -1270,7 +1278,7 @@
 4	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@ethical	_	AlignBegin=311088|AlignEnd=311292|GE=[3Sing]..Gen]|Gloss=3Sing.Gen|nWord=3|RX=[PRO]
 5	tə́	tə́	ADP	_	_	2	comp:obl	_	AlignBegin=311760|AlignEnd=311973|GE=with|Gloss=with|nWord=5|RX=[PREP]
 6	wâkɗùːy	wâkɗùː	NOUN	_	Definite=Ind	5	comp:obj	_	AlignBegin=311973|AlignEnd=312079|GE=malted_guineacorn|Gloss=malted_guineacorn-Ind|nWord=6|RX=[N]|wordform=wâkɗùː
-7	ká	a	ADP	_	_	2	comp:obl	_	AlignBegin=312186|AlignEnd=312399|GE=at|Gloss=at|nWord=7|RX=[PREP]
+7	ká	a	ADP	_	_	2	mod	_	AlignBegin=312186|AlignEnd=312399|GE=at|Gloss=at|nWord=7|RX=[PREP]
 8	lə̂p	lə̂p	NOUN	_	_	7	comp:obj	_	AlignBegin=312399|AlignEnd=312612|GE=place|Gloss=place|nWord=8|RX=[N]
 9	nàmbóŋi	nàmbóŋ	NUM	_	Definite=Ind	8	det:num	_	AlignBegin=312612|AlignEnd=312718|GE=one|Gloss=one-Ind|nWord=9|RX=[NUM]|wordform=nàmbóŋ
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=312825|AlignEnd=313040|GE=[//]|Gloss=PUNCT|nWord=10
@@ -1278,8 +1286,8 @@
 # sent_id = SAY_BC_READ_01_Beer_152-154
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
 # sent_timecode = 314580, 319820
-# text = dzàŋ gíː ɗan kə ɲiː =tə -íː / tòː kə mbur ŋaː wâkɗùː -ês / kə ʃin káy //
-# text_ortho = dzàŋ gíː ɗan kə ɲíːtíː / tôː kə mbur ŋaː wâkɗòːs / kə ʃin káy //
+# text = dzàŋ gíː ɗan kə ɲiː =tə -íː / tòː kə mbur ŋaː wâkɗ -òːs / kə ʃin gáy //
+# text_ortho = dzàŋ gíː ɗan kə ɲíːtíː / tôː kə mbur ŋaː wâkɗòːs / kə ʃin gáy //
 # text_en =  On the day you grind it, you will mix it with [hot water and] a little malted guinea-corn that you put inside.
 1	dzàŋ	dzàŋ	NOUN	_	_	9	mod	_	AlignBegin=314580|AlignEnd=314830|GE=day|Gloss=day|nWord=1|RX=[N]
 2	gíː	gíː	PRON	_	Deixis=Dist|PronType=Dem	1	det	_	AlignBegin=314830|AlignEnd=315080|GE=[DIST]|Gloss=Dist|nWord=2|RX=[PRO].[DEICT]
@@ -1292,131 +1300,131 @@
 9	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=317477|AlignEnd=317714|GE=[2Sing].[Aor]|Gloss=2Sing.Aor|nWord=8|RX=[PNTAM]
 10	mbur	mbur	VERB	_	_	9	comp:aux	_	AlignBegin=317714|AlignEnd=317951|GE=mix|Gloss=mix|nWord=9|RX=[V]
 11	ŋaː	ŋaː	ADJ	_	_	12	mod	_	AlignBegin=317951|AlignEnd=318188|GE=little|Gloss=little|nWord=10|RX=[ADV]
-12	wâkɗùː	wâkɗùː	NOUN	_	Definite=Def	14	subj	_	AlignBegin=318188|AlignEnd=318306|GE=malted_guineacorn|Gloss=malted_guineacorn|nWord=11|RX=[N]
-13	-ês	-ês	DET	_	Definite=Def	12	af:det	_	AlignBegin=318306|AlignEnd=318425|GE=[DEF]|Gloss=-Def|nWord=11|RX=[ART]
-14	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	9	conj:coord	_	AlignBegin=319340|AlignEnd=319460|GE=[2Sing].[Aor]|Gloss=2Sing.Aor|nWord=13|RX=[PNTAM]
+12	wâkɗ	wâkɗùː	NOUN	_	Definite=Def	10	comp:obj	_	AlignBegin=318188|AlignEnd=318306|GE=malted_guineacorn|Gloss=malted_guineacorn|nWord=11|RX=[N]
+13	-òːs	-ês	DET	_	Definite=Def	12	af:det	_	AlignBegin=318306|AlignEnd=318425|GE=[DEF]|Gloss=-Def|nWord=11|RX=[ART]
+14	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	9	conj:svc	_	AlignBegin=319340|AlignEnd=319460|GE=[2Sing].[Aor]|Gloss=2Sing.Aor|nWord=13|RX=[PNTAM]
 15	ʃin	ʃin	VERB	_	_	14	comp:aux	_	AlignBegin=319460|AlignEnd=319580|GE=pour|Gloss=pour|nWord=14|RX=[V]
-16	káy	káy	PRON	_	Person=3|PronType=Prs	15	comp:obl@expl	_	AlignBegin=319580|AlignEnd=319700|GE=[ANAPH]|Gloss=ANAPH|nWord=15|RX=[PRO].[ANAPH]
+16	gáy	káy	PRON	_	Person=3|PronType=Prs	15	comp:obl@expl	_	AlignBegin=319580|AlignEnd=319700|GE=[ANAPH]|Gloss=ANAPH|nWord=15|RX=[PRO].[ANAPH]
 17	//	//	PUNCT	_	_	9	punct	_	AlignBegin=319700|AlignEnd=319820|GE=[//]|Gloss=PUNCT|nWord=16
 
 # sent_id = SAY_BC_READ_01_Beer_155-156
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
 # sent_timecode = 320780, 324580
-# text = kyáː mbur kə ʃin -íː / tòː kə ɮə́pm =tə kə gaː -íː //
+# text = kyáː mbúr kə ʃín -íː / tôː kə ɮə́pm =tə kə gáː -íː //
 # text_ortho = kyáː mbúr kə ʃíníː / tôː kə ɮə́pmtə kə gáːy //
 # text_en =  After you have mixed it [with hot water], you cover it and leave it.
 1	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	7	mod	_	AlignBegin=320780|AlignEnd=320972|GE=[2Sing].[Cond]|Gloss=2Sing.Cond|nWord=1|RX=[PNTAM]
-2	mbur	mbur	VERB	_	_	1	comp:aux	_	AlignBegin=320972|AlignEnd=321164|GE=mix|Gloss=mix|nWord=2|RX=[V]
+2	mbúr	mbur	VERB	_	_	1	comp:aux	_	AlignBegin=320972|AlignEnd=321164|GE=mix|Gloss=mix|nWord=2|RX=[V]
 3	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	1	parataxis	_	AlignBegin=321164|AlignEnd=321356|GE=[2Sing].[Aor]|Gloss=2Sing.Aor|nWord=3|RX=[PNTAM]
-4	ʃin	ʃin	VERB	_	_	3	comp:aux	_	AlignBegin=321356|AlignEnd=321452|GE=pour|Gloss=pour|nWord=4|RX=[V]
+4	ʃín	ʃin	VERB	_	_	3	comp:aux	_	AlignBegin=321356|AlignEnd=321452|GE=pour|Gloss=pour|nWord=4|RX=[V]
 5	-íː	-íː	PART	_	_	4	af:mod	_	AlignBegin=321452|AlignEnd=321548|GE=[RES]|Gloss=-Res|nWord=4|RX=[TAM]
-6	tòː	tòː	PART	_	_	7	discourse	_	AlignBegin=323540|AlignEnd=323713|GE=[DM]|Gloss=DM|nWord=6|RX=[PTCL]
+6	tôː	tòː	PART	_	_	7	discourse	_	AlignBegin=323540|AlignEnd=323713|GE=[DM]|Gloss=DM|nWord=6|RX=[PTCL]
 7	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=323713|AlignEnd=323886|GE=[2Sing].[Aor]|Gloss=2Sing.Aor|nWord=7|RX=[PNTAM]
 8	ɮə́pm	ɮə́pm	VERB	_	_	7	comp:aux	_	AlignBegin=323886|AlignEnd=323972|GE=cover|Gloss=cover|nWord=8|RX=[V]
 9	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=323972|AlignEnd=324059|GE=[3Sing].[OBJ]|Gloss==3Sing.Acc|nWord=8|RX=[PRO]
 10	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	7	conj:svc	_	AlignBegin=324059|AlignEnd=324232|GE=[2Sing].[Aor]|Gloss=2Sing.Aor|nWord=9|RX=[PNTAM]
-11	gaː	gaː	VERB	_	_	10	comp:aux	_	AlignBegin=324232|AlignEnd=324318|GE=leave|Gloss=leave|nWord=10|RX=[V]
+11	gáː	gaː	VERB	_	_	10	comp:aux	_	AlignBegin=324232|AlignEnd=324318|GE=leave|Gloss=leave|nWord=10|RX=[V]
 12	-íː	-íː	PART	_	_	11	af:mod	_	AlignBegin=324318|AlignEnd=324405|GE=[RES]|Gloss=-Res|nWord=10|RX=[TAM]
 13	//	//	PUNCT	_	_	7	punct	_	AlignBegin=324405|AlignEnd=324580|GE=[//]|Gloss=PUNCT|nWord=11
 
 # sent_id = SAY_BC_READ_01_Beer_157-159
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
 # sent_timecode = 325560, 329560
-# text = kyáː kaːs -íː / súːtu tòː / ka gəm wukn -́ wûl káy //
+# text = kyáː káːʃ -íː / súːtu tôː / ka gəm wǔkn -́ wûl ɣáy //
 # text_ortho = kyáː káːʃíː / súːtu tôː / ka gəm wǔkn wûl káy //
 # text_en =  After you have mixed it in the evening, you will put various roots in it.
 1	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	6	mod	_	AlignBegin=325560|AlignEnd=325807|GE=[2Sing].[Cond]|Gloss=2Sing.Cond|nWord=1|RX=[PNTAM]
-2	kaːs	kaːs	VERB	_	_	1	comp:aux	_	AlignBegin=325807|AlignEnd=325931|GE=cook|Gloss=cook|nWord=2|RX=[V]
+2	káːʃ	kaːs	VERB	_	_	1	comp:aux	_	AlignBegin=325807|AlignEnd=325931|GE=cook|Gloss=cook|nWord=2|RX=[V]
 3	-íː	-íː	PART	_	_	2	af:mod	_	AlignBegin=325931|AlignEnd=326054|GE=[RES]|Gloss=-Res|nWord=2|RX=[TAM]
-4	súːtu	súːtu	NOUN	_	_	2	comp:obj	_	AlignBegin=326880|AlignEnd=327165|GE=evening|Gloss=evening|nWord=4|RX=[N]
-5	tòː	tòː	PART	_	_	6	discourse	_	AlignBegin=327165|AlignEnd=327450|GE=[DM]|Gloss=DM|nWord=5|RX=[PTCL]
+4	súːtu	súːtu	NOUN	_	_	6	mod	_	AlignBegin=326880|AlignEnd=327165|GE=evening|Gloss=evening|nWord=4|RX=[N]
+5	tôː	tòː	PART	_	_	6	discourse	_	AlignBegin=327165|AlignEnd=327450|GE=[DM]|Gloss=DM|nWord=5|RX=[PTCL]
 6	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=328680|AlignEnd=328827|GE=[2Sing].[Fut]|Gloss=2Sing.Fut|nWord=7|RX=[PNTAM]
 7	gəm	gəm	VERB	_	_	6	comp:aux	_	AlignBegin=328827|AlignEnd=328974|GE=put|Gloss=put|nWord=8|RX=[V]
-8	wukn	wukn	NOUN	_	_	7	comp:obj	_	AlignBegin=328974|AlignEnd=329048|GE=medicine|Gloss=medicine|nWord=9|RX=[N]
-9	wûl	wuul	VERB	_	_	7	compound:svc	_	AlignBegin=329121|AlignEnd=329268|GE=gruel|Gloss=gruel|nWord=10|RX=[N]
-10	káy	káy	PRON	_	Person=3|PronType=Prs	9	comp:obl@expl	_	AlignBegin=329268|AlignEnd=329415|GE=[ANAPH]|Gloss=ANAPH|nWord=11|RX=[PRO].[ANAPH]
+8	wǔkn	wukn	NOUN	_	Definite=Cons	7	comp:obj	_	AlignBegin=328974|AlignEnd=329048|GE=medicine|Gloss=medicine.Cons|nWord=9|RX=[N]
+9	wûl	wûl	NOUN	_	_	8	compound	_	AlignBegin=329121|AlignEnd=329268|GE=gruel|Gloss=gruel|nWord=10|RX=[N]
+10	ɣáy	káy	PRON	_	Person=3|PronType=Prs	7	comp:obl@expl	_	AlignBegin=329268|AlignEnd=329415|GE=[ANAPH]|Gloss=ANAPH|nWord=11|RX=[PRO].[ANAPH]
 11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=329415|AlignEnd=329560|GE=[//]|Gloss=PUNCT|nWord=12
 
 # sent_id = SAY_BC_READ_01_Beer_160-162
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
 # sent_timecode = 331440, 336140
-# text = lə̂p yáː ɬaː -íː tòː / kə lə́ːr ŋantsə́ -ɗi / kə máni ʃin káy //
+# text = lə̂p yáː ɬaː -íː tôː / kə lə́ːr ŋantsə́ -ɗi / kə mán ʃin gáy //
 # text_ortho = lə̂p yáː ɬǎːy tôː / kə lə́ːr ŋantsə́ɗi / kə mán ʃin gáy //
 # text_en =  The following morning, you will bring some roots and drop them inside.
 1	lə̂p	lə̂p	NOUN	_	_	2	subj	_	AlignBegin=331440|AlignEnd=331644|GE=place|Gloss=place|nWord=1|RX=[N]
 2	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	6	mod	_	AlignBegin=331644|AlignEnd=331848|GE=[3Sing].[Cond]|Gloss=3Sing.Cond|nWord=2|RX=[PNTAM]
 3	ɬaː	ɬaː	VERB	_	_	2	comp:aux	_	AlignBegin=331848|AlignEnd=331950|GE=cut|Gloss=cut|nWord=3|RX=[V]
 4	-íː	-íː	PART	_	_	3	af:mod	_	AlignBegin=331950|AlignEnd=332052|GE=[RES]|Gloss=-Res|nWord=3|RX=[TAM]
-5	tòː	tòː	PART	_	_	6	discourse	_	AlignBegin=332052|AlignEnd=332256|GE=[DM]|Gloss=DM|nWord=4|RX=[PTCL]
+5	tôː	tòː	PART	_	_	6	discourse	_	AlignBegin=332052|AlignEnd=332256|GE=[DM]|Gloss=DM|nWord=4|RX=[PTCL]
 6	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=333460|AlignEnd=333710|GE=[2Sing].[Aor]|Gloss=2Sing.Aor|nWord=6|RX=[PNTAM]
 7	lə́ːr	lə́ːr	VERB	_	_	6	comp:aux	_	AlignBegin=333710|AlignEnd=333960|GE=bring|Gloss=bring|nWord=7|RX=[V]
 8	ŋantsə́	ŋantsə́	NOUN	_	_	7	comp:obj	_	AlignBegin=333960|AlignEnd=334085|GE=wood|Gloss=wood|nWord=8|RX=[N]
 9	-ɗi	-ɗi	PART	_	_	7	compound:prt	_	AlignBegin=334085|AlignEnd=334210|GE=[CTP]|Gloss=CTP|nWord=8|RX=[PTCL]
-10	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	6	conj:coord	_	AlignBegin=335380|AlignEnd=335532|GE=[2Sing].[Aor]|Gloss=2Sing.Aor|nWord=10|RX=[PNTAM]
-11	máni	máni	VERB	_	_	10	comp:aux	_	AlignBegin=335532|AlignEnd=335684|GE=come|Gloss=come|nWord=11|RX=[V]
+10	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	6	conj:svc	_	AlignBegin=335380|AlignEnd=335532|GE=[2Sing].[Aor]|Gloss=2Sing.Aor|nWord=10|RX=[PNTAM]
+11	mán	máni	VERB	_	_	10	comp:aux	_	AlignBegin=335532|AlignEnd=335684|GE=come|Gloss=come|nWord=11|RX=[V]
 12	ʃin	ʃin	VERB	_	_	11	compound:svc	_	AlignBegin=335684|AlignEnd=335836|GE=pour|Gloss=pour|nWord=12|RX=[V]
-13	káy	káy	PRON	_	Person=3|PronType=Prs	12	comp:obl@expl	_	AlignBegin=335836|AlignEnd=335988|GE=[ANAPH]|Gloss=ANAPH|nWord=13|RX=[PRO].[ANAPH]
+13	gáy	káy	PRON	_	Person=3|PronType=Prs	12	comp:obl@expl	_	AlignBegin=335836|AlignEnd=335988|GE=[ANAPH]|Gloss=ANAPH|nWord=13|RX=[PRO].[ANAPH]
 14	//	//	PUNCT	_	_	6	punct	_	AlignBegin=335988|AlignEnd=336140|GE=[//]|Gloss=PUNCT|nWord=14
 
 # sent_id = SAY_BC_READ_01_Beer_163-163
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
 # sent_timecode = 337740, 338960
-# text = tòː láː =wôs ɓaní -íː kən //
+# text = tòː láː =wós ɓàní -íː ɣən //
 # text_ortho = tôː láːwós ɓàníː kəndí //
 # text_en =  Well, then there's nothing else to do.
 1	tòː	tòː	PART	_	_	4	discourse	_	AlignBegin=337740|AlignEnd=337984|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL]
-2	láː	laaː	NOUN	_	Definite=Cons	4	subj	_	AlignBegin=337984|AlignEnd=338106|GE=work|Gloss=work|nWord=2|RX=[N]
-3	=wôs	=woos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@poss	_	AlignBegin=338106|AlignEnd=338228|GE=[3Sing]..Gen]|Gloss=3Sing.Gen|nWord=2|RX=[PRO]
-4	ɓaní	ɓaní	VERB	_	_	0	root	_	AlignBegin=338228|AlignEnd=338350|GE=finish|Gloss=finish|nWord=3|RX=[V]
+2	láː	laː	NOUN	_	Definite=Cons	4	subj	_	AlignBegin=337984|AlignEnd=338106|GE=work|Gloss=work|nWord=2|RX=[N]
+3	=wós	=wôs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@poss	_	AlignBegin=338106|AlignEnd=338228|GE=[3Sing]..Gen]|Gloss=3Sing.Gen|nWord=2|RX=[PRO]
+4	ɓàní	ɓaní	VERB	_	_	0	root	_	AlignBegin=338228|AlignEnd=338350|GE=finish|Gloss=finish|nWord=3|RX=[V]
 5	-íː	-íː	PART	_	_	4	af:mod	_	AlignBegin=338350|AlignEnd=338472|GE=[RES]|Gloss=-Res|nWord=3|RX=[TAM]
-6	kən	kən	PART	_	_	4	mod	_	AlignBegin=338472|AlignEnd=338716|GE=[COP2]|Gloss=COP2|nWord=4|RX=[PTCL].[SYNT].[HOM]
+6	ɣən	kən	PART	_	_	4	mod	_	AlignBegin=338472|AlignEnd=338716|GE=[COP2]|Gloss=COP2|nWord=4|RX=[PTCL].[SYNT].[HOM]
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=338716|AlignEnd=338960|GE=[//]|Gloss=PUNCT|nWord=5
 
 # sent_id = SAY_BC_READ_01_Beer_164-167
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
 # sent_timecode = 339920, 345460
-# text = yáː máni vyaː -íː / mbút -íː ɗa / tòː lə̂p yáː ɬaː / tòː kə́ ɬya -íː //
-# text_ortho = yáː mán vyáːy / mbuɗíː ɗa / tôː lə̂p yáː ɬâː / tôː kə́ ɬyǎy //
+# text = yáː mán vyaː -íː / mbuɗ -íː ɗa / tôː lə̂p yáː ɬâː / tôː kə́ ɬya -íː //
+# text_ortho = yáː mán vyǎːy / mbuɗíː ɗa / tôː lə̂p yáː ɬâː / tôː kə́ ɬyǎy //
 # text_en =  After a day and a night, the following morning, you can drink it.
-1	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	0	root	_	AlignBegin=339920|AlignEnd=340120|GE=[3Sing].[Cond]|Gloss=3Sing.Cond|nWord=1|RX=[PNTAM]
-2	máni	máni	VERB	_	_	1	comp:aux	_	AlignBegin=340120|AlignEnd=340320|GE=come|Gloss=come|nWord=2|RX=[V]
+1	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	13	mod	_	AlignBegin=339920|AlignEnd=340120|GE=[3Sing].[Cond]|Gloss=3Sing.Cond|nWord=1|RX=[PNTAM]
+2	mán	máni	VERB	_	_	1	comp:aux	_	AlignBegin=340120|AlignEnd=340320|GE=come|Gloss=come|nWord=2|RX=[V]
 3	vyaː	vyaː	VERB	_	_	2	compound:svc	_	AlignBegin=340320|AlignEnd=340420|GE=spend_day|Gloss=spend_day|nWord=3|RX=[V]
 4	-íː	-íː	PART	_	Deixis=Remt	3	af:mod	_	AlignBegin=340420|AlignEnd=340520|GE=[RES]|Gloss=-Res|nWord=3|RX=[TAM]
-5	mbút	mbút	VERB	_	_	3	comp:obj	_	AlignBegin=341360|AlignEnd=341466|GE=spend_night|Gloss=spend_night|nWord=5|RX=[V]
-6	-íː	-íː	PART	_	Deixis=Remt	3	af:mod	_	AlignBegin=341466|AlignEnd=341573|GE=[RES]|Gloss=-Res|nWord=5|RX=[TAM]
-7	ɗa	ɗa	SCONJ	_	PronType=Rel	3	mod	_	AlignBegin=341573|AlignEnd=341786|GE=again|Gloss=again|nWord=6|RX=[ADV]
-8	tòː	tòː	PART	_	_	10	discourse	_	AlignBegin=342960|AlignEnd=343128|GE=[DM]|Gloss=DM|nWord=8|RX=[PTCL]
+5	mbuɗ	mbút	VERB	_	_	3	compound:svc	_	AlignBegin=341360|AlignEnd=341466|GE=spend_night|Gloss=spend_night|nWord=5|RX=[V]
+6	-íː	-íː	PART	_	_	5	af:mod	_	AlignBegin=341466|AlignEnd=341573|GE=[RES]|Gloss=-Res|nWord=5|Result=Yes|RX=[TAM]
+7	ɗa	ɗa	ADV	_	PronType=Rel	2	mod	_	AlignBegin=341573|AlignEnd=341786|GE=again|Gloss=again|nWord=6|RX=[ADV]
+8	tôː	tòː	PART	_	_	13	discourse	_	AlignBegin=342960|AlignEnd=343128|GE=[DM]|Gloss=DM|nWord=8|RX=[PTCL]
 9	lə̂p	lə̂p	NOUN	_	_	10	subj	_	AlignBegin=343128|AlignEnd=343296|GE=place|Gloss=place|nWord=9|RX=[N]
-10	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	7	comp:obj	_	AlignBegin=343296|AlignEnd=343464|GE=[3Sing].[Cond]|Gloss=3Sing.Cond|nWord=10|RX=[PNTAM]
-11	ɬaː	ɬaː	VERB	_	_	10	comp:aux	_	AlignBegin=343464|AlignEnd=343632|GE=cut|Gloss=cut|nWord=11|RX=[V]
-12	tòː	tòː	PART	_	_	13	discourse	_	AlignBegin=344900|AlignEnd=345040|GE=[DM]|Gloss=DM|nWord=13|RX=[PTCL]
-13	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	11	parataxis@comp	_	AlignBegin=345040|AlignEnd=345180|GE=[2Plur].[Aor]|Gloss=2Plur.Aor|nWord=14|RX=[PNTAM]
+10	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	13	mod	_	AlignBegin=343296|AlignEnd=343464|GE=[3Sing].[Cond]|Gloss=3Sing.Cond|nWord=10|RX=[PNTAM]
+11	ɬâː	ɬaː	VERB	_	_	10	comp:aux	_	AlignBegin=343464|AlignEnd=343632|GE=cut|Gloss=cut|nWord=11|RX=[V]
+12	tôː	tòː	PART	_	_	13	discourse	_	AlignBegin=344900|AlignEnd=345040|GE=[DM]|Gloss=DM|nWord=13|RX=[PTCL]
+13	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	0	root@comp	_	AlignBegin=345040|AlignEnd=345180|GE=[2Plur].[Aor]|Gloss=2Plur.Aor|nWord=14|RX=[PNTAM]
 14	ɬya	ɬya	VERB	_	_	13	comp:aux	_	AlignBegin=345180|AlignEnd=345250|GE=drink|Gloss=drink|nWord=15|RX=[V]
 15	-íː	-íː	PART	_	_	14	af:mod	_	AlignBegin=345250|AlignEnd=345320|GE=[RES]|Gloss=-Res|nWord=15|RX=[TAM]
-16	//	//	PUNCT	_	_	1	punct	_	AlignBegin=345320|AlignEnd=345460|GE=[//]|Gloss=PUNCT|nWord=16
+16	//	//	PUNCT	_	_	13	punct	_	AlignBegin=345320|AlignEnd=345460|GE=[//]|Gloss=PUNCT|nWord=16
 
 # sent_id = SAY_BC_READ_01_Beer_168-169
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
 # sent_timecode = 346140, 348820
-# text = yâwwàː / mbút -kə́nì =wáːsə̀ŋ / tə́ ɗûː dèːdéː //
+# text = yâwwàː / mbút -kə́nì =wàːsə̀ŋ / tə́ ɗûː dèːdéː //
 # text_ortho = yâwwàː / mbútkə́nwàːsə̀ŋ / tə́ ɗúː dèːdêː //
 # text_en =  All right, the time [of its preparation] and that of beer are the same.
-1	yâwwàː	yâwwàː	INTJ	_	_	4	discourse	_	AlignBegin=346140|AlignEnd=346530|GE=[OK]|Gloss=OK|nWord=1|RX=[INTJ]
-2	mbútkə́n	mbút	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	subj	_	AlignBegin=346920|AlignEnd=347050|GE=spend_night|Gloss=spend_night-Vnoun|nWord=3|RX=[V]|wordform=mbút
-3	=wáːsə̀ŋ	=wáːsəŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	mod@poss	_	AlignBegin=347180|AlignEnd=347310|GE=[3Plur]..Gen]|Gloss=3Plur.Gen|nWord=3|RX=[PRO]
-4	tə́	tə́	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=348020|AlignEnd=348220|GE=and|Gloss=and|nWord=5|RX=[PREP]
-5	ɗûː	ɗûu	VERB	_	_	4	comp:aux	_	AlignBegin=348220|AlignEnd=348420|GE=beer|Gloss=beer|nWord=6|RX=[N]
-6	dèːdéː	dèːdéː	ADV	_	_	5	mod	_	AlignBegin=348420|AlignEnd=348620|GE=equal|Gloss=equal|nWord=7|RX=[ADJ].[X].[CSW].[HAU]
-7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=348620|AlignEnd=348820|GE=[//]|Gloss=PUNCT|nWord=8
+1	yâwwàː	yâwwàː	INTJ	_	_	6	discourse	_	AlignBegin=346140|AlignEnd=346530|GE=[OK]|Gloss=OK|nWord=1|RX=[INTJ]
+2	mbútkə́n	mbút	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	6	subj	_	AlignBegin=346920|AlignEnd=347050|GE=spend_night|Gloss=spend_night-Vnoun|nWord=3|RX=[V]|wordform=mbút
+3	=wàːsə̀ŋ	=wáːsəŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	mod@poss	_	AlignBegin=347180|AlignEnd=347310|GE=[3Plur]..Gen]|Gloss=3Plur.Gen|nWord=3|RX=[PRO]
+4	tə́	tə́	CCONJ	_	_	5	cc	_	AlignBegin=348020|AlignEnd=348220|GE=and|Gloss=and|nWord=5|RX=[PREP]
+5	ɗûː	ɗûu	VERB	_	_	2	conj:coord	_	AlignBegin=348220|AlignEnd=348420|GE=beer|Gloss=beer|nWord=6|RX=[N]
+6	dèːdéː	dèːdéː	ADJ	_	_	0	root	_	AlignBegin=348420|AlignEnd=348620|GE=equal|Gloss=equal|nWord=7|RX=[ADJ].[X].[CSW].[HAU]
+7	//	//	PUNCT	_	_	6	punct	_	AlignBegin=348620|AlignEnd=348820|GE=[//]|Gloss=PUNCT|nWord=8
 
 # sent_id = SAY_BC_READ_01_Beer_170-171
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
 # sent_timecode = 349760, 353840
-# text = dzàŋ gíː ɗan ka gaː ɗûː ɗa wût -i / dzàŋ gíː tá kaːs ʤíko //
+# text = dzàŋ gíː ɗan ka gaː ɗûː ɗa wût -i / dzàŋ gíː tá kâːs ʤíko //
 # text_ortho = dzàŋ gíː ɗan ka gaː ɗûː ɗa wúɗi / dzàŋ gíː tá kâːs ʤíko //
-# text_en =  The day you put the beer on the fire, that's the day you will mix "jiko".
-1	dzàŋ	dzàŋ	NOUN	_	_	11	mod	_	AlignBegin=349760|AlignEnd=349947|GE=day|Gloss=day|nWord=1|RX=[N]
-2	gíː	gíː	PRON	_	Deixis=Dist|PronType=Dem	1	det	_	AlignBegin=349947|AlignEnd=350134|GE=[DIST]|Gloss=Dist|nWord=2|RX=[PRO].[DEICT]
+# text_en =  The day you put the beer on the fire, on that day, they will mix "jiko".
+1	dzàŋ	dzàŋ	NOUN	_	_	11	dislocated@mod	_	AlignBegin=349760|AlignEnd=349947|GE=day|Gloss=day|nWord=1|RX=[N]
+2	gíː	gíː	DET	_	Deixis=Dist|PronType=Dem	1	det	_	AlignBegin=349947|AlignEnd=350134|GE=[DIST]|Gloss=Dist|nWord=2|RX=[PRO].[DEICT]
 3	ɗan	ɗan	SCONJ	_	PronType=Rel	1	mod@relcl	_	AlignBegin=350134|AlignEnd=350321|GE=as|Gloss=as|nWord=3|RX=[CONJ]
 4	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	3	comp:obj	_	AlignBegin=350321|AlignEnd=350508|GE=[2Sing].[Fut]|Gloss=2Sing.Fut|nWord=4|RX=[PNTAM]
 5	gaː	gaː	VERB	_	_	4	comp:aux	_	AlignBegin=350508|AlignEnd=350695|GE=leave|Gloss=leave|nWord=5|RX=[V]
@@ -1424,65 +1432,65 @@
 7	ɗa	ɗa	ADP	_	_	5	comp:obl	_	AlignBegin=350882|AlignEnd=351069|GE=at|Gloss=at|nWord=7|RX=[PREP].[HOM]
 8	wúɗi	wût	NOUN	_	Definite=Ind	7	comp:obj	_	AlignBegin=351069|AlignEnd=351163|GE=[N]|Gloss=N-Ind|nWord=8|RX=[FIRE]|wordform=wût
 9	dzàŋ	dzàŋ	NOUN	_	_	11	mod	_	AlignBegin=352760|AlignEnd=352940|GE=day|Gloss=day|nWord=10|RX=[N]
-10	gíː	gíː	PRON	_	Deixis=Dist|PronType=Dem	9	det	_	AlignBegin=352940|AlignEnd=353120|GE=[DIST]|Gloss=Dist|nWord=11|RX=[PRO].[DEICT]
+10	gíː	gíː	DET	_	Deixis=Dist|PronType=Dem	9	det	_	AlignBegin=352940|AlignEnd=353120|GE=[DIST]|Gloss=Dist|nWord=11|RX=[PRO].[DEICT]
 11	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=353120|AlignEnd=353300|GE=[3Plur].[Fut]|Gloss=3Plur.Fut|nWord=12|RX=[PNTAM]
-12	kaːs	kaːs	VERB	_	_	11	comp:aux	_	AlignBegin=353300|AlignEnd=353480|GE=cook|Gloss=cook|nWord=13|RX=[V]
-13	ʤíko	ʤíko	ADV	_	_	12	mod	_	AlignBegin=353480|AlignEnd=353660|GE=jiko|Gloss=jiko|nWord=14|RX=[N]
+12	kâːs	kaːs	VERB	_	_	11	comp:aux	_	AlignBegin=353300|AlignEnd=353480|GE=cook|Gloss=cook|nWord=13|RX=[V]
+13	ʤíko	ʤíko	ADV	_	_	12	comp:obj	_	AlignBegin=353480|AlignEnd=353660|GE=jiko|Gloss=jiko|nWord=14|RX=[N]
 14	//	//	PUNCT	_	_	11	punct	_	AlignBegin=353660|AlignEnd=353840|GE=[//]|Gloss=PUNCT|nWord=15
 
 # sent_id = SAY_BC_READ_01_Beer_172-173
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
 # sent_timecode = 355480, 359220
-# text = wàːtòː bambánʧi =wáːsə̀ŋ yáːni nə mbwáːɣə̂n -íː //
-# text_ortho = wàːtòː bambánʧiwàːsə̀ŋ / yâːn nə mbwáːkə̂níː //
+# text = wàːtòː bambánʧi =wàːsə̀ŋ yáːni nə mbwáːɣə̂n -íː //
+# text_ortho = wàːtòː bambánʧiwàːsə̀ŋ / yâːn nə mbwáːɣə̂níː //
 # text_en =  That is to say, their difference is in that malting.
-1	wàːtòː	wàːtòː	PART	_	_	4	discourse	_	AlignBegin=355480|AlignEnd=355993|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL/].[BW].[HAU]
-2	bambánʧi	bambánʧi	NOUN	_	Definite=Cons	4	conj:appos	_	AlignBegin=355993|AlignEnd=356249|GE=difference|Gloss=difference|nWord=2|RX=[N/].[BW].[HAU]
-3	=wáːsə̀ŋ	=wáːsəŋ	PRON	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	mod@poss	_	AlignBegin=356249|AlignEnd=356506|GE=[3Plur]..Gen]|Gloss=3Plur.Gen|nWord=2|RX=[PRO]
-4	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=358320|AlignEnd=358545|GE=[3Sing].[IDP]|Gloss=3Sing.IDP|nWord=4|RX=[PRO]
-5	nə	nə	PART	_	_	4	comp:cleft	_	AlignBegin=358545|AlignEnd=358770|GE=[COP1]|Gloss=COP1|nWord=5|RX=[PTCL].[SYNT]
+1	wàːtòː	wàːtòː	PART	_	_	5	discourse	_	AlignBegin=355480|AlignEnd=355993|GE=[DM]|Gloss=DM|nWord=1|RX=[PTCL/].[BW].[HAU]
+2	bambánʧi	bambánʧi	NOUN	_	Definite=Cons	5	dislocated@subj	_	AlignBegin=355993|AlignEnd=356249|GE=difference|Gloss=difference|nWord=2|RX=[N/].[BW].[HAU]
+3	=wàːsə̀ŋ	=wáːsəŋ	PRON	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	mod@poss	_	AlignBegin=356249|AlignEnd=356506|GE=[3Plur]..Gen]|Gloss=3Plur.Gen|nWord=2|RX=[PRO]
+4	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	2	conj:appos	_	AlignBegin=358320|AlignEnd=358545|GE=[3Sing].[IDP]|Gloss=3Sing.IDP|nWord=4|RX=[PRO]
+5	nə	nə	PART	_	_	0	root	_	AlignBegin=358545|AlignEnd=358770|GE=[COP1]|Gloss=COP1|nWord=5|RX=[PTCL].[SYNT]
 6	mbwáːɣə̂n	mbwaː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	5	comp:pred	_	AlignBegin=358770|AlignEnd=358845|GE=germinate|Gloss=germinate.Vnoun|nWord=6|RX=[V]
 7	-íː	-íː	DET	_	Deixis=Remt	6	af:det	_	AlignBegin=358920|AlignEnd=358995|GE=[DIST]|Gloss=-Remt|nWord=6|RX=[DEICT]
-8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=358995|AlignEnd=359220|GE=[//]|Gloss=PUNCT|nWord=7
+8	//	//	PUNCT	_	_	5	punct	_	AlignBegin=358995|AlignEnd=359220|GE=[//]|Gloss=PUNCT|nWord=7
 
 # sent_id = SAY_BC_READ_01_Beer_174-181
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
 # sent_timecode = 360200, 374140
-# text = wul mwaː -kə́nì gòs / kyáː ɲiː =tə gòs -íː káwêy / kóː nə wâː íri gyòː / ɗan giní a: / kə ɲiː a: / kə máni kaːs -íː / kə ɗiːl =tə wukn / á ɓaní -íː //
+# text = wúl mwaː -kə́nì gòʃ / kyáː ɲíː =tə gòs -íː káwêy / kóː nə wâː íri gyòː / ɗan giní a: / kə ɲiː a: / kə mán kaːʃ -íː / kə ɗíːl =tə wukn / á ɓân -íː //
 # text_ortho = wúl mwàːɣə̀n gòs / kyáː ɲíːtə gòʃíː káwêy / kóː nə wâː íri gyòː / ɗan giní aː / kə ɲíː aː / kə mán kaːʃíː / kə ɗíːltə wukn / á ɓâníː //
 # text_en =  As for sweet gruel, just after grinding it, any kind of guinea-corn, like this one, after you have ground it, you mix it, you sift powdered roots into it, and that's it.
-1	wul	wul	VERB	_	_	0	root	_	AlignBegin=360200|AlignEnd=360475|GE=say|Gloss=say|nWord=1|RX=[V]
-2	mwàːɣə̀n	mwaː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	1	subj	_	AlignBegin=360475|AlignEnd=360613|GE=be_sweet|Gloss=be_sweet-Vnoun|nWord=2|RX=[V]|wordform=mwaː
-3	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@poss	_	AlignBegin=360750|AlignEnd=361025|GE=[3Sing]..Gen]|Gloss=3Sing.Gen|nWord=3|RX=[PRO]
-4	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	1	mod	_	AlignBegin=362120|AlignEnd=362368|GE=[2Sing].[Cond]|Gloss=2Sing.Cond|nWord=5|RX=[PNTAM]
+1	wúl	wûl	NOUN	_	Definite=Cons	21	dislocated@top	_	AlignBegin=360200|AlignEnd=360475|GE=say|Gloss=gruel.Cons|nWord=1|RX=[V]
+2	mwàːɣə̀n	mwaː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	1	compound	_	AlignBegin=360475|AlignEnd=360613|GE=be_sweet|Gloss=be_sweet-Vnoun|nWord=2|RX=[V]|wordform=mwaː
+3	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	mod@ethical	_	AlignBegin=360750|AlignEnd=361025|GE=[3Sing]..Gen]|Gloss=3Sing.Gen|nWord=3|RX=[PRO]
+4	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	21	mod	_	AlignBegin=362120|AlignEnd=362368|GE=[2Sing].[Cond]|Gloss=2Sing.Cond|nWord=5|RX=[PNTAM]
 5	ɲiː	ɲiː	VERB	_	_	4	comp:aux	_	AlignBegin=362368|AlignEnd=362492|GE=grind|Gloss=grind|nWord=6|RX=[V]
 6	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=362492|AlignEnd=362616|GE=[3Sing].[OBJ]|Gloss==3Sing.Acc|nWord=6|RX=[PRO]
-7	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	mod@ethical	_	AlignBegin=362616|AlignEnd=362740|GE=[3Sing]..Gen]|Gloss=3Sing.Gen|nWord=7|RX=[PRO]
+7	gòʃ	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	mod@ethical	_	AlignBegin=362616|AlignEnd=362740|GE=[3Sing]..Gen]|Gloss=3Sing.Gen|nWord=7|RX=[PRO]
 8	-íː	-íː	PART	_	_	5	af:mod	_	AlignBegin=362740|AlignEnd=362864|Gloss=-Res|nWord=7|Result=Yes
-9	káwêy	káwêy	ADV	_	_	2	mod	_	AlignBegin=362864|AlignEnd=363112|GE=merely|Gloss=merely|nWord=8|RX=[ADV]
-10	kóː	kóː	CCONJ	_	_	11	cc	_	AlignBegin=364300|AlignEnd=364460|GE=[UNIV]|Gloss=UNIV|nWord=10|RX=[DET/CIRC]
-11	nə	nə	PART	_	_	14	conj:coord	_	AlignBegin=364460|AlignEnd=364620|GE=[COP1]|Gloss=COP1|nWord=11|RX=[PTCL].[SYNT]
+9	káwêy	káwêy	ADV	_	_	5	mod	_	AlignBegin=362864|AlignEnd=363112|GE=merely|Gloss=merely|nWord=8|RX=[ADV]
+10	kóː	kóː	SCONJ	_	_	21	mod	_	AlignBegin=364300|AlignEnd=364460|GE=[UNIV]|Gloss=UNIV|nWord=10|RX=[DET/CIRC]
+11	nə	nə	PART	_	_	10	comp:obj	_	AlignBegin=364460|AlignEnd=364620|GE=[COP1]|Gloss=COP1|nWord=11|RX=[PTCL].[SYNT]
 12	wâː	waaː	NOUN	_	_	11	comp:pred	_	AlignBegin=364620|AlignEnd=364780|GE=guineacorn|Gloss=guineacorn|nWord=12|RX=[N]
-13	íri	íri	NOUN	_	_	15	comp:obj	_	AlignBegin=364780|AlignEnd=364940|GE=type|Gloss=type|nWord=13|RX=[N]
+13	íri	íri	NOUN	_	_	12	mod	_	AlignBegin=364780|AlignEnd=364940|GE=type|Gloss=type|nWord=13|RX=[N]
 14	gyòː	gyòː	DET	_	PronType=Int	13	det	_	AlignBegin=364940|AlignEnd=365100|GE=[UNIV]|Gloss=UNIV|nWord=14|RX=[DET/CIRC]
-15	ɗan	ɗan	ADP	_	_	1	mod	_	AlignBegin=367220|AlignEnd=367385|GE=like|Gloss=like|nWord=16|RX=[PREP]
+15	ɗan	ɗan	ADP	_	_	12	mod	_	AlignBegin=367220|AlignEnd=367385|GE=like|Gloss=like|nWord=16|RX=[PREP]
 16	giní	giní	PRON	_	PronType=Dem	15	comp:obj	_	AlignBegin=367385|AlignEnd=367550|GE=[PROX]|Gloss=Prox|nWord=17|RX=[PRO].[DEICT]
-17	a:	a:	PART	_	PartType=Int	11	mod	_	AlignBegin=367550|AlignEnd=367715|GE=[VRT]|Gloss=VRT|nWord=18|RX=[PTCL].[ASS]
-18	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	11	conj:coord	_	AlignBegin=368840|AlignEnd=368990|GE=[2Sing].[Aor]|Gloss=2Sing.Aor|nWord=20|RX=[PNTAM]
-19	ɲiː	ɲiː	VERB	_	_	18	comp:aux	_	AlignBegin=368990|AlignEnd=369140|GE=grind|Gloss=grind|nWord=21|RX=[V]
+17	a:	a:	PART	_	PartType=Int	10	mod	_	AlignBegin=367550|AlignEnd=367715|GE=[VRT]|Gloss=VRT|nWord=18|RX=[PTCL].[ASS]
+18	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	21	mod	_	AlignBegin=368840|AlignEnd=368990|GE=[2Sing].[Aor]|Gloss=2Sing.Aor|nWord=20|RX=[PNTAM]
+19	ɲíː	ɲiː	VERB	_	_	18	comp:aux	_	AlignBegin=368990|AlignEnd=369140|GE=grind|Gloss=grind|nWord=21|RX=[V]
 20	a:	a:	PART	_	PartType=Int	18	mod	_	AlignBegin=369140|AlignEnd=369290|GE=[VRT]|Gloss=VRT|nWord=22|RX=[PTCL].[ASS]
-21	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	11	conj:coord	_	AlignBegin=370400|AlignEnd=370580|GE=[2Sing].[Aor]|Gloss=2Sing.Aor|nWord=24|RX=[PNTAM]
-22	máni	máni	VERB	_	_	21	comp:aux	_	AlignBegin=370580|AlignEnd=370760|GE=come|Gloss=come|nWord=25|RX=[V]
-23	kaːs	kaːs	NOUN	_	_	26	comp:obj	_	AlignBegin=370760|AlignEnd=370850|GE=cook|Gloss=cook|nWord=26|RX=[V]
-24	-íː	-íː	PART	_	_	26	af:mod	_	AlignBegin=370850|AlignEnd=370940|GE=[RES]|Gloss=-Res|nWord=26|RX=[TAM]
-25	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	18	conj:coord	_	AlignBegin=372520|AlignEnd=372700|GE=[2Sing].[Aor]|Gloss=2Sing.Aor|nWord=28|RX=[PNTAM]
-26	ɗiːl	ɗiːl	VERB	_	_	21	comp:aux	_	AlignBegin=372700|AlignEnd=372790|GE=sift|Gloss=sift|nWord=29|RX=[V]
-27	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	26	comp:ben	_	AlignBegin=372790|AlignEnd=372880|GE=[3Sing].[OBJ]|Gloss==3Sing.Acc|nWord=29|RX=[PRO]
-28	wukn	wukn	NOUN	_	_	26	comp:obj	_	AlignBegin=372880|AlignEnd=373060|GE=medicine|Gloss=medicine|nWord=30|RX=[N]
-29	á	á	ADP	_	_	26	comp:obl	_	AlignBegin=373800|AlignEnd=373913|GE=[3Sing].[Aor]|Gloss=3Sing.Aor|nWord=32|RX=[PNTAM]
-30	ɓaní	ɓan	VERB	_	_	29	comp:aux	_	AlignBegin=373913|AlignEnd=373969|GE=finish|Gloss=finish|nWord=33|RX=[V]
+21	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=370400|AlignEnd=370580|GE=[2Sing].[Aor]|Gloss=2Sing.Aor|nWord=24|RX=[PNTAM]
+22	mán	máni	VERB	_	_	21	comp:aux	_	AlignBegin=370580|AlignEnd=370760|GE=come|Gloss=come|nWord=25|RX=[V]
+23	kaːʃ	kaːs	NOUN	_	_	22	compound:svc	_	AlignBegin=370760|AlignEnd=370850|GE=cook|Gloss=cook|nWord=26|RX=[V]
+24	-íː	-íː	PART	_	_	23	af:mod	_	AlignBegin=370850|AlignEnd=370940|GE=[RES]|Gloss=-Res|nWord=26|RX=[TAM]
+25	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	21	conj:svc	_	AlignBegin=372520|AlignEnd=372700|GE=[2Sing].[Aor]|Gloss=2Sing.Aor|nWord=28|RX=[PNTAM]
+26	ɗíːl	ɗiːl	VERB	_	_	25	comp:aux	_	AlignBegin=372700|AlignEnd=372790|GE=sift|Gloss=sift|nWord=29|RX=[V]
+27	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	26	comp:obj	_	AlignBegin=372790|AlignEnd=372880|GE=[3Sing].[OBJ]|Gloss==3Sing.Acc|nWord=29|RX=[PRO]
+28	wukn	wukn	NOUN	_	_	26	comp:pred	_	AlignBegin=372880|AlignEnd=373060|GE=medicine|Gloss=medicine|nWord=30|RX=[N]
+29	á	á	ADP	_	_	25	parataxis	_	AlignBegin=373800|AlignEnd=373913|GE=[3Sing].[Aor]|Gloss=3Sing.Aor|nWord=32|RX=[PNTAM]
+30	ɓân	ɓán	VERB	_	_	29	comp:aux	_	AlignBegin=373913|AlignEnd=373969|GE=finish|Gloss=finish|nWord=33|RX=[V]
 31	-íː	-íː	PART	_	_	30	af:mod	_	AlignBegin=373969|AlignEnd=374026|GE=[RES]|Gloss=-Res|nWord=33|RX=[TAM]
-32	//	//	PUNCT	_	_	11	punct	_	AlignBegin=374026|AlignEnd=374140|GE=[//]|Gloss=PUNCT|nWord=34
+32	//	//	PUNCT	_	_	21	punct	_	AlignBegin=374026|AlignEnd=374140|GE=[//]|Gloss=PUNCT|nWord=34
 
 # sent_id = SAY_BC_READ_01_Beer_182-183
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
@@ -1497,7 +1505,7 @@
 5	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=377220|AlignEnd=377416|GE=[3Sing].[Aor]|Gloss=3Sing.Aor|nWord=5|RX=[PNTAM]
 6	mwaː	mwaː	VERB	_	_	5	comp:aux	_	AlignBegin=377416|AlignEnd=377514|GE=be_sweet|Gloss=be_sweet|nWord=6|RX=[V]
 7	-íː	-íː	PART	_	_	6	af:mod	_	AlignBegin=377514|AlignEnd=377612|GE=[RES]|Gloss=-Res|nWord=6|RX=[TAM]
-8	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	6	mod	_	AlignBegin=377612|AlignEnd=377808|GE=[2Plur].[Aor]|Gloss=2Plur.Aor|nWord=7|RX=[PNTAM]
+8	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	5	parataxis	_	AlignBegin=377612|AlignEnd=377808|GE=[2Plur].[Aor]|Gloss=2Plur.Aor|nWord=7|RX=[PNTAM]
 9	ɬya	ɬya	VERB	_	_	8	comp:aux	_	AlignBegin=377808|AlignEnd=377906|GE=drink|Gloss=drink|nWord=8|RX=[V]
 10	-íː	-íː	PART	_	_	9	af:mod	_	AlignBegin=377906|AlignEnd=378004|GE=[RES]|Gloss=-Res|nWord=8|RX=[TAM]
 11	//	//	PUNCT	_	_	5	punct	_	AlignBegin=378004|AlignEnd=378200|GE=[//]|Gloss=PUNCT|nWord=9
@@ -1505,14 +1513,14 @@
 # sent_id = SAY_BC_READ_01_Beer_184-184
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
 # sent_timecode = 379160, 381414
-# text = ʧǎː ɬya =tə gòs vyàːɣə̀n nàmbóŋ //
+# text = ʧǎː ɬyá =tə gòs vyàːɣə̀n nàmbóŋ //
 # text_ortho = ʧǎː ɬyátə gòs / vyàːkə̀n nàmbóŋ //
 # text_en =  As for it they drink it after one day.
 1	ʧǎː	yá̌ː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=379160|AlignEnd=379425|GE=[3Plur].[Imp]|Gloss=3Plur.Imp|nWord=1|RX=[PNTAM]
-2	ɬya	ɬya	VERB	_	_	1	comp:aux	_	AlignBegin=379425|AlignEnd=379557|GE=drink|Gloss=drink|nWord=2|RX=[V]
+2	ɬyá	ɬya	VERB	_	_	1	comp:aux	_	AlignBegin=379425|AlignEnd=379557|GE=drink|Gloss=drink|nWord=2|RX=[V]
 3	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=379557|AlignEnd=379690|GE=[3Sing].[OBJ]|Gloss==3Sing.Acc|nWord=2|RX=[PRO]
 4	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@ethical	_	AlignBegin=379690|AlignEnd=379955|GE=[3Sing]..Gen]|Gloss=3Sing.Gen|nWord=3|RX=[PRO]
-5	vyàːɣə̀n	vyaː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	2	comp:obj	_	AlignBegin=380840|AlignEnd=380984|GE=spend_day|Gloss=spend_day-Vnoun|nWord=5|RX=[V]|wordform=vyaː
+5	vyàːɣə̀n	vyaː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	2	mod	_	AlignBegin=380840|AlignEnd=380984|GE=spend_day|Gloss=spend_day-Vnoun|nWord=5|RX=[V]|wordform=vyaː
 6	nàmbóŋ	nàmbóŋ	NUM	_	_	5	det:num	_	AlignBegin=381127|AlignEnd=381414|GE=one|Gloss=one|nWord=6|RX=[NUM]
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=381127|AlignEnd=381414|Gloss=PUNCT|nWord=6
 
@@ -1522,26 +1530,26 @@
 # text = gíː kúmá mbə́ɬəŋ ?//
 # text_ortho = gíː kúmá mbə́ɬəŋ ?//
 # text_en = This one [jiko], is it two ?
-1	gíː	gíː	PRON	_	Deixis=Dist|PronType=Dem	0	root	_	AlignBegin=382840|AlignEnd=383050|GE=[DIST]|Gloss=Dist|nWord=8|RX=[PRO].[DEICT]
+1	gíː	gíː	PRON	_	Deixis=Dist|PronType=Dem	3	dislocated@subj	_	AlignBegin=382840|AlignEnd=383050|GE=[DIST]|Gloss=Dist|nWord=8|RX=[PRO].[DEICT]
 2	kúmá	kúmá	PART	_	_	1	discourse	_	AlignBegin=383050|AlignEnd=383260|GE=too|Gloss=too|nWord=9|RX=[PTCL].[TOP]
-3	mbə́ɬəŋ	mbə́ɬəŋ	NUM	_	_	1	comp:obj	_	AlignBegin=383260|AlignEnd=383470|GE=two|Gloss=two|nWord=10|RX=[NUM]
-4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=383470|AlignEnd=383680|GE=[//]|Gloss=PUNCT|nWord=11
+3	mbə́ɬəŋ	mbə́ɬəŋ	NUM	_	_	0	root	_	AlignBegin=383260|AlignEnd=383470|GE=two|Gloss=two|nWord=10|RX=[NUM]
+4	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=383470|AlignEnd=383680|GE=[//]|Gloss=PUNCT|nWord=11
 
 # sent_id = SAY_BC_READ_01_Beer_187-190
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
 # sent_timecode = 385600, 390060
-# text = m̀ː / gíː mbə́ɬəŋ / hár dzàŋ kə́ mâːy kəndá / kə ɬya //
+# text = m̀ː / gíː mbə́ɬəŋ / hár dzàŋ gə̀ mâːy ɣəndá / kə ɬya //
 # text_ortho = m̀ː / gíː mbə́ɬəŋ / hár dzàŋ gə̀ mâːy kəndá / kə ɬya //
 # text_en =  Yes, the other one it's two, even three days before you drink it.
-1	m̀ː	m̀ː	INTJ	_	_	2	discourse	_	AlignBegin=385600|AlignEnd=385760|GE=yes|Gloss=yes|nWord=1|RX=[INTJ]
-2	gíː	gíː	PRON	_	Deixis=Dist|PronType=Dem	0	root	_	AlignBegin=386620|AlignEnd=386820|GE=[DIST]|Gloss=Dist|nWord=3|RX=[PRO].[DEICT]
-3	mbə́ɬəŋ	mbə́ɬəŋ	NUM	_	_	2	det:num	_	AlignBegin=386820|AlignEnd=387020|GE=two|Gloss=two|nWord=4|RX=[NUM]
-4	hár	hár	ADP	_	_	2	conj:appos	_	AlignBegin=387820|AlignEnd=388037|GE=up_to|Gloss=up_to|nWord=6|RX=[PREP]
-5	dzàŋ	dzàŋ	NOUN	_	_	4	comp:obj	_	AlignBegin=388037|AlignEnd=388254|GE=day|Gloss=day|nWord=7|RX=[N]
-6	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	4	comp:obj	_	AlignBegin=388254|AlignEnd=388471|GE=.GenL]|Gloss.GenL=|nWord=8|RX=[PTCL]
-7	mâːy	maaː	VERB	_	_	6	comp:aux	_	AlignBegin=388471|AlignEnd=388688|GE=three|Gloss=three|nWord=9|RX=[NUM]
-8	kəndá	kəndá	ADV	_	_	10	mod	_	AlignBegin=388688|AlignEnd=388905|GE=then|Gloss=then|nWord=10|RX=[CONJ].[HOM]
-9	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	6	conj:coord	_	AlignBegin=389760|AlignEnd=389860|GE=[2Sing].[Aor]|Gloss=2Sing.Aor|nWord=12|RX=[PNTAM]
+1	m̀ː	m̀ː	INTJ	_	_	3	discourse	_	AlignBegin=385600|AlignEnd=385760|GE=yes|Gloss=yes|nWord=1|RX=[INTJ]
+2	gíː	gíː	PRON	_	Deixis=Dist|PronType=Dem	3	subj	_	AlignBegin=386620|AlignEnd=386820|GE=[DIST]|Gloss=Dist|nWord=3|RX=[PRO].[DEICT]
+3	mbə́ɬəŋ	mbə́ɬəŋ	NUM	_	_	0	root	_	AlignBegin=386820|AlignEnd=387020|GE=two|Gloss=two|nWord=4|RX=[NUM]
+4	hár	hár	CCONJ	_	_	5	cc	_	AlignBegin=387820|AlignEnd=388037|GE=up_to|Gloss=up_to|nWord=6|RX=[PREP]
+5	dzàŋ	dzàŋ	NOUN	_	_	3	conj:coord	_	AlignBegin=388037|AlignEnd=388254|GE=day|Gloss=day|nWord=7|RX=[N]
+6	gə̀	kə́	AUX	_	_	5	mod	_	AlignBegin=388254|AlignEnd=388471|GE=.GenL]|Gloss=of|nWord=8|RX=[PTCL]
+7	mâːy	maaː	NUM	_	_	6	comp:obj	_	AlignBegin=388471|AlignEnd=388688|GE=three|Gloss=three|nWord=9|RX=[NUM]
+8	ɣəndá	kəndá	SCONJ	_	_	5	mod	_	AlignBegin=388688|AlignEnd=388905|GE=then|Gloss=then|nWord=10|RX=[CONJ].[HOM]
+9	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	8	comp:obj	_	AlignBegin=389760|AlignEnd=389860|GE=[2Sing].[Aor]|Gloss=2Sing.Aor|nWord=12|RX=[PNTAM]
 10	ɬya	ɬya	VERB	_	_	9	comp:aux	_	AlignBegin=389860|AlignEnd=389960|GE=drink|Gloss=drink|nWord=13|RX=[V]
-11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=389960|AlignEnd=390060|GE=[//]|Gloss=PUNCT|nWord=14
+11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=389960|AlignEnd=390060|GE=[//]|Gloss=PUNCT|nWord=14
 
