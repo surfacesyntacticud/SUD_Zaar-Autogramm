@@ -808,7 +808,7 @@
 1	kóːnúː	kóːnúː	PRON	_	PronType=Tot	2	subj	_	AlignBegin=119880|AlignEnd=120085|Gloss=everyone
 2	ɬə	ɬə	VERB	_	_	0	root	_	AlignBegin=120085|AlignEnd=120290|Gloss=go|wordform=ɬíː
 3	-íː	-íː	PART	_	_	2	af:mod	_	Gloss=-Res|Result=Yes
-4	də̀n	də̀n	NOUN	_	_	2	comp@goal	_	AlignBegin=120290|AlignEnd=120495|Gloss=house
+4	də̀n	də̀n	NOUN	_	_	2	comp:obj@G	_	AlignBegin=120290|AlignEnd=120495|Gloss=house
 5	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=120495|AlignEnd=120700|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_086-086
@@ -821,7 +821,7 @@
 1	kóːnúː	kóːnúː	PRON	_	PronType=Tot	2	subj	_	AlignBegin=120700|AlignEnd=120842|Gloss=everyone
 2	ɬə	ɬə	VERB	_	_	0	root	_	AlignBegin=120842|AlignEnd=120984|Gloss=go|wordform=ɬíː
 3	-íː	-íː	PART	_	_	2	af:mod	_	Gloss=-Res|Result=Yes
-4	də̀n	də̀n	NOUN	_	_	2	comp@goal	_	AlignBegin=120984|AlignEnd=121126|Gloss=house
+4	də̀n	də̀n	NOUN	_	_	2	comp:obj@G	_	AlignBegin=120984|AlignEnd=121126|Gloss=house
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=121126|AlignEnd=121266|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_087-087
@@ -838,7 +838,7 @@
 5	naː	naː	NOUN	_	_	4	comp:obj	_	AlignBegin=122561|AlignEnd=122743|Gloss=type
 6	mbútkə̂n	mbút	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	5	compound	_	AlignBegin=122743|AlignEnd=122925|Gloss=spend_night-Vnoun
 7-8	ɗǎŋ	_	_	_	_	_	_	_	_
-7	ɗân	ɗanì	ADV	_	_	4	comp@loc	_	AlignBegin=122925|AlignEnd=123016
+7	ɗân	ɗanì	ADV	_	_	4	mod	_	AlignBegin=122925|AlignEnd=123016|Gloss=there
 8	hŋ́	hŋ́	PART	_	Polarity=Neg	4	mod	_	AlignBegin=123016|AlignEnd=123107|Gloss=Neg2
 9	ɗa	ɗa	PART	_	_	4	compound:prt	_	AlignBegin=123107|AlignEnd=123289|Gloss=again
 10	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=123289|AlignEnd=123468|Gloss=PUNCT
@@ -887,7 +887,7 @@
 2	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=125169|AlignEnd=125385|Gloss=3Plur.Imp
 3	mbûɗíː	mbút	VERB	_	_	2	comp:aux	_	AlignBegin=125385|AlignEnd=125601|Gloss=spend_night
 4	gyáː	gyáː	DET	_	Number=Plur	5	det	_	AlignBegin=125601|AlignEnd=125817|Gloss=Plur
-5	gèntsə̀	gyaːt	DET	_	Number=Plur	3	comp@loc	_	AlignBegin=125817|AlignEnd=126033|Gloss=female_relative
+5	gèntsə̀	gyaːt	DET	_	Number=Plur	3	comp:obj@L	_	AlignBegin=125817|AlignEnd=126033|Gloss=female_relative
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=126033|AlignEnd=126248|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_092-092
@@ -1228,8 +1228,8 @@
 1	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=165740|AlignEnd=165900|Gloss=3Plur.Fut
 2-3	gìːʃí	_	_	_	_	_	_	_	_
 2	gìː	giː	VERB	_	_	1	comp:aux	_	AlignBegin=165900|AlignEnd=165980|Gloss=bury
-3	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=165980|AlignEnd=166060|Gloss=3Plur.Obj
-4	ɣá	ká	ADP	_	_	2	comp@loc	_	AlignBegin=166060|AlignEnd=166220|Gloss=at
+3	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	comp:obj@T	_	AlignBegin=165980|AlignEnd=166060|Gloss=3Plur.Obj
+4	ɣá	ká	ADP	_	_	2	comp:obl	_	AlignBegin=166060|AlignEnd=166220|Gloss=at
 5	də̌ːl	də̌ːl	NOUN	_	_	4	comp:obj	_	AlignBegin=166220|AlignEnd=166380|Gloss=open_space
 6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=166380|AlignEnd=166538|Gloss=PUNCT
 7	á	ká	ADP	_	_	4	conj:dicto	_	AlignBegin=166538|AlignEnd=166756|Gloss=at
@@ -1254,7 +1254,7 @@
 2-3	gìːʃí	_	_	_	_	_	_	_	_
 2	gìː	giː	VERB	_	_	1	comp:aux	_	AlignBegin=168900|AlignEnd=168970|Gloss=bury
 3	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=168970|AlignEnd=169039|Gloss=3Plur.Obj
-4	ɗân	ɗáni	ADV	_	PronType=Dem	2	comp@loc	_	AlignBegin=169039|AlignEnd=169178|Gloss=there
+4	ɗân	ɗáni	ADV	_	PronType=Dem	2	comp:obl	_	AlignBegin=169039|AlignEnd=169178|Gloss=there
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=169178|AlignEnd=169317|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_130-130
@@ -1294,8 +1294,8 @@
 1	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=171151|AlignEnd=171301|Gloss=3Plur.Fut
 2-3	gìːʃí	_	_	_	_	_	_	_	_
 2	gìː	giː	VERB	_	_	1	comp:aux	_	AlignBegin=171301|AlignEnd=171376|Gloss=bury
-3	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=171376|AlignEnd=171451|Gloss=3Plur.Obj
-4	ɗân	ɗáni	ADV	_	PronType=Dem	2	comp@loc	_	AlignBegin=171451|AlignEnd=171601|Gloss=there
+3	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	comp:obj@T	_	AlignBegin=171376|AlignEnd=171451|Gloss=3Plur.Obj
+4	ɗân	ɗáni	ADV	_	PronType=Dem	2	comp:obl	_	AlignBegin=171451|AlignEnd=171601|Gloss=there
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=171601|AlignEnd=171749|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_133-134
@@ -1351,7 +1351,7 @@
 22-23	gìːtə̀	_	_	_	_	_	_	_	_
 22	gìː	gaː	VERB	_	_	21	comp:aux	_	AlignBegin=180603|AlignEnd=180679|Gloss=bury
 23	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	22	comp:obj	_	AlignBegin=180679|AlignEnd=180754|Gloss=3Sing.Obj
-24	ɗân	ɗáni	ADV	_	PronType=Dem	21	comp@loc	_	AlignBegin=180754|AlignEnd=180905|Gloss=there
+24	ɗân	ɗáni	ADV	_	PronType=Dem	21	comp:obl	_	AlignBegin=180754|AlignEnd=180905|Gloss=there
 25	//	//	PUNCT	_	_	21	punct	_	AlignBegin=180905|AlignEnd=181056|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_140-142
@@ -1536,7 +1536,7 @@
 22	ɬə́	ɬə	VERB	_	_	21	comp:aux	_	AlignBegin=208001|AlignEnd=208134|Gloss=go
 23	gaː	gaː	VERB	_	_	22	compound:svc	_	AlignBegin=208134|AlignEnd=208267|Gloss=leave|wordform=gǎːy
 24	-íː	-íː	PART	_	_	23	af:mod	_	Gloss=-Res|Result=Yes
-25	wuːr	wuːr	NOUN	_	_	23	comp@loc	_	AlignBegin=208267|AlignEnd=208400|Gloss=mountain
+25	wuːr	wuːr	NOUN	_	_	23	comp:obj@L	_	AlignBegin=208267|AlignEnd=208400|Gloss=mountain
 26	//	//	PUNCT	_	_	11	punct	_	AlignBegin=208400|AlignEnd=208531|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_160-161
@@ -1836,9 +1836,9 @@
 2	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=255802|AlignEnd=255964|Gloss=3Plur.Fut
 3-4	gìːtə̀	_	_	_	_	_	_	_	_
 3	gìː	giː	VERB	_	_	2	comp:aux	_	AlignBegin=255964|AlignEnd=256045|Gloss=bury
-4	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=256045|AlignEnd=256126|Gloss=3Sing.Obj
+4	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj@T	_	AlignBegin=256045|AlignEnd=256126|Gloss=3Sing.Obj
 5	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	mod@ethical	_	AlignBegin=256126|AlignEnd=256288|Gloss=3Sing.Gen
-6	mari	mari	NOUN	_	_	3	comp@loc	_	AlignBegin=256288|AlignEnd=256450|Gloss=different
+6	mari	mari	NOUN	_	_	3	comp:obj@L	_	AlignBegin=256288|AlignEnd=256450|Gloss=place.apart
 7	wón	wón	DET	_	Definite=Spec	6	det	_	AlignBegin=256450|AlignEnd=256612|Gloss=SPEC
 8	hŋ́	hŋ́	PART	_	Polarity=Neg	3	mod	_	AlignBegin=256612|AlignEnd=256774|Gloss=Neg2
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=256774|AlignEnd=256940|Gloss=PUNCT

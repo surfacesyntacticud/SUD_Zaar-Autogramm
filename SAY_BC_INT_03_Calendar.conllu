@@ -728,9 +728,9 @@
 8	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	6	comp:obj	_	AlignBegin=124465|AlignEnd=124665|Gloss=3Sing.Aor
 9-11	lə̌ːrkíɗi	_	_	_	_	_	_	_	_
 9	lə̌ːr	lə́ːr	VERB	_	_	8	comp:aux	_	AlignBegin=124665|AlignEnd=124732|Gloss=bring
-10	=kí	=kí	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	9	comp:obj	_	AlignBegin=124732|AlignEnd=124799|Gloss=2Plur.Obj
+10	=kí	=kí	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	9	comp:obj@T	_	AlignBegin=124732|AlignEnd=124799|Gloss=2Plur.Obj
 11	ɗi	ɗi	PART	_	_	9	compound:prt	_	AlignBegin=124799|AlignEnd=124865|Gloss=Ctp|wordform==ɗi
-12	á	ká	ADP	_	_	9	comp@goal	_	AlignBegin=124865|AlignEnd=125065|Gloss=at
+12	á	ká	ADP	_	_	9	comp:obl	_	AlignBegin=124865|AlignEnd=125065|Gloss=at
 13	lə̂p	lə̂p	NOUN	_	_	12	comp:obj	_	AlignBegin=125065|AlignEnd=125264|Gloss=place
 14	||	||	PUNCT	_	_	15	punct	_	AlignBegin=125264|AlignEnd=125264|Gloss=PUNCT
 15	á	ká	ADP	_	_	12	conj:dicto	_	AlignBegin=125264|AlignEnd=125463|Gloss=at
@@ -1197,14 +1197,14 @@
 1	àmá	àmá	CCONJ	_	_	21	discourse	_	AlignBegin=189080|AlignEnd=189277|Gloss=but
 2	kyǎː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=1	21	mod	_	AlignBegin=189277|AlignEnd=189474|Gloss=2Plur.Imp
 3	mân	máni	VERB	_	_	2	comp:aux	_	AlignBegin=189474|AlignEnd=189671|Gloss=come
-4	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	3	comp@goal	_	AlignBegin=189671|AlignEnd=189868|Gloss=festival-CONS
+4	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	3	comp:obj@G	_	AlignBegin=189671|AlignEnd=189868|Gloss=festival-CONS
 5	Zaːri	Zaːr	PROPN	_	Definite=Ind	4	mod	_	AlignBegin=189868|AlignEnd=190065|Gloss=Zaar-Ind
 6	gyaːgón	gyaːgón	DET	_	Number=Plur	4	det	_	AlignBegin=190065|AlignEnd=190262|Gloss=SPEC.Plur
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=190262|AlignEnd=190462|Gloss=PUNCT
 8	dzàŋ	dzàŋ	NOUN	_	_	21	mod	_	AlignBegin=190462|AlignEnd=190610|Gloss=day
 9	gón	gón	DET	_	Definite=Spec	8	det	_	AlignBegin=190610|AlignEnd=190758|Gloss=SPEC
 10	mân	máni	VERB	_	_	21	mod	_	AlignBegin=190758|AlignEnd=190906|Gloss=come
-11	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	10	comp@goal	_	AlignBegin=190906|AlignEnd=191054|Gloss=festival-CONS
+11	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	10	comp:obj@G	_	AlignBegin=190906|AlignEnd=191054|Gloss=festival-CONS
 12	zaːri	zaːr	NOUN	_	Definite=Ind	11	compound	_	AlignBegin=191054|AlignEnd=191202|Gloss=people-Ind
 13	gón	gón	DET	_	Definite=Spec	11	det	_	AlignBegin=191202|AlignEnd=191350|Gloss=SPEC
 14	<	<	PUNCT	_	_	10	punct	_	AlignBegin=191350|AlignEnd=191500|Gloss=PUNCT
@@ -2115,7 +2115,7 @@
 2	kyǎː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=2	12	mod	_	AlignBegin=324692|AlignEnd=324884|Gloss=2Plur.Cnd
 3	ʃin	ʃin	VERB	_	_	2	comp:aux	_	AlignBegin=324884|AlignEnd=325076|Gloss=pour|wordform=ʃíníː
 4	-íː	-íː	PART	_	_	3	af:mod	_	Gloss=-Res|Result=Yes
-5	ɗaɗáni	ɗaɗáni	ADV	_	PronType=Dem	3	comp@goal	_	AlignBegin=325076|AlignEnd=325268|Gloss=there
+5	ɗaɗáni	ɗaɗáni	ADV	_	PronType=Dem	3	comp:obj@G	_	AlignBegin=325076|AlignEnd=325268|Gloss=there
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=325268|AlignEnd=325460|Gloss=PUNCT
 7	tôː	tôː	PART	_	_	12	discourse	_	AlignBegin=326400|AlignEnd=326800|Gloss=DM
 8	kyǎː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=2	12	mod	_	AlignBegin=326920|AlignEnd=327087|Gloss=2Plur.Cnd
@@ -2171,7 +2171,7 @@
 6	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	4	conj:coord	_	AlignBegin=337080|AlignEnd=337295|Gloss=2Plur.Aor
 7	ɲwáːl	ɲwáːl	VERB	_	_	6	comp:aux	_	AlignBegin=337295|AlignEnd=337510|Gloss=go_out|wordform=ɲwǎːlíː
 8	-íː	-íː	PART	_	_	7	af:mod	_	Gloss=-Res|Result=Yes
-9	ɓə́ɮə̀ŋ	ɓə́ɮə̀ŋ	ADV	_	_	7	comp@goal	_	AlignBegin=337510|AlignEnd=337725|Gloss=outside
+9	ɓə́ɮə̀ŋ	ɓə́ɮə̀ŋ	ADV	_	_	7	comp:obj@G	_	AlignBegin=337510|AlignEnd=337725|Gloss=outside
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=337725|AlignEnd=337940|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_223-225
@@ -2184,7 +2184,7 @@
 1	tôː	tôː	PART	_	_	5	discourse	_	AlignBegin=339000|AlignEnd=339157|Gloss=DM
 2	kyǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	5	mod	_	AlignBegin=339157|AlignEnd=339314|Gloss=2Plur.CND
 3	ɲwǎːlíː	ɲwáːl	VERB	_	_	2	comp:aux	_	AlignBegin=339314|AlignEnd=339471|Gloss=go_out
-4	ɓə́ɮə̀ŋ	ɓə́ɮə̀ŋ	ADV	_	_	3	comp@goal	_	AlignBegin=339471|AlignEnd=339628|Gloss=outside
+4	ɓə́ɮə̀ŋ	ɓə́ɮə̀ŋ	ADV	_	_	3	comp:obj@G	_	AlignBegin=339471|AlignEnd=339628|Gloss=outside
 5	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	0	root	_	AlignBegin=339628|AlignEnd=339785|Gloss=2Plur.Aor
 6	mândá	mandá	VERB	_	_	5	comp:aux	_	AlignBegin=339785|AlignEnd=339942|Gloss=come_back
 7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=339942|AlignEnd=340101|Gloss=PUNCT
@@ -3152,7 +3152,7 @@
 7	ɬə	ɬə	VERB	_	_	6	comp:aux	_	AlignBegin=485912|AlignEnd=486095|Gloss=go
 8	gəm	gəm	VERB	_	_	7	compound:svc	_	AlignBegin=486095|AlignEnd=486278|Gloss=put
 9	mə́n	mə́n	PART	_	Case=Ben	8	compound:prt	_	AlignBegin=486278|AlignEnd=486461|Gloss=BEN
-10	Lʒàʃì	Lʒàs	PROPN	_	_	8	comp@goal	_	AlignBegin=486461|AlignEnd=486644|Gloss=Zlas
+10	Lʒàʃì	Lʒàs	PROPN	_	_	8	comp:obj@G	_	AlignBegin=486461|AlignEnd=486644|Gloss=Zlas
 11	mə́n	mə́n	PART	_	Case=Ben	7	compound:prt	_	AlignBegin=486644|AlignEnd=486827|Gloss=BEN
 12	a:	a:	PART	_	PartType=Int	6	mod	_	AlignBegin=486827|AlignEnd=487010|Gloss=VRT
 13	kóː	kóː	CCONJ	_	_	6	mod	_	AlignBegin=487010|AlignEnd=487193|Gloss=Q|Lang=ha
