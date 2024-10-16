@@ -31,16 +31,17 @@
 # sent_id = SAY_BC_READ_12_NAR_Kadi_gi_kitn_004-004
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_12_NARR_Kadi_gi_kitn.WAV
 # sent_timecode = 6140, 7200
-# text = kúni wón ʧi gòs ɗa
+# text = kúni wón ʧi gòs ɗa //
 # text_ortho = kúni wón ʧi gòs ɗa /
 # text_en =  There once was a boy.
-1	kúni	kúni	NOUN	_	_	3	subj	_	AlignBegin=6140|AlignEnd=6317|Gloss=boy
+1	kúni	kúni	NOUN	_	_	4	subj	_	AlignBegin=6140|AlignEnd=6317|Gloss=boy
 2	wón	wón	DET	_	Definite=Spec	1	det	_	AlignBegin=6317|AlignEnd=6494|Gloss=QLT
 3-4	ʧi	_	_	_	_	_	_	_	_
-3	tə=	tə=	PRON	_	Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=6494|AlignEnd=6671|Gloss=3Sing|wordform=tə
+3	tə=	tə=	PRON	_	Number=Sing|Person=3|PronType=Prs	4	clit:subj	_	AlignBegin=6494|AlignEnd=6671|Gloss=3Sing|wordform=tə
 4	yi	yi	VERB	_	_	0	root	_	AlignBegin=6494|AlignEnd=6671|Gloss=be
-5	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	mod@ethical	_	AlignBegin=6671|AlignEnd=6848|Gloss=3Sing.Gen
-6	ɗa	ɗa	PART	_	_	3	compound:prt	_	AlignBegin=6848|AlignEnd=7025|Gloss=at
+5	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	mod@ethical	_	AlignBegin=6671|AlignEnd=6848|Gloss=3Sing.Gen
+6	ɗa	ɗa	PART	_	_	4	compound:prt	_	AlignBegin=6848|AlignEnd=7025|Gloss=at
+7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=6848|AlignEnd=7025|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_Kadi_gi_kitn_005-005
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_12_NARR_Kadi_gi_kitn.WAV
@@ -57,20 +58,20 @@
 # sent_id = SAY_BC_READ_12_NAR_Kadi_gi_kitn_006-006
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_12_NARR_Kadi_gi_kitn.WAV
 # sent_timecode = 10060, 12360
-# text = yáːni ʧi nə gùŋ mə̂ːr kə́ yaːɬ =wáːsə̀ŋ //
+# text = yáːni ʧi nə gùŋ mə̂ːr ɣə́ yaːɬ =wáːsə̀ŋ //
 # text_ortho = yâːn ʧi nə gùŋ mə̀ːr ɣə̀ yǎːɬwáːsə̀ŋ //
 # text_en =  He was the king of robbers in their country.
-1	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=10060|AlignEnd=10348|Gloss=3Sing.IDP
+1	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	3	subj	_	AlignBegin=10060|AlignEnd=10348|Gloss=3Sing.IDP
 2-3	ʧi	_	_	_	_	_	_	_	_
-2	tə=	tə=	PRON	_	Number=Sing|Person=3|PronType=Prs	1	comp:cleft	_	AlignBegin=10348|AlignEnd=10636|Gloss=3Sing|wordform=tə
-3	yi	yi	VERB	_	_	1	comp:cleft	_	AlignBegin=10348|AlignEnd=10636|Gloss=be
-4	nə	nə	PART	_	_	2	comp:obj	_	AlignBegin=10636|AlignEnd=10924|Gloss=COP1
+2	tə=	tə=	PRON	_	Number=Sing|Person=3|PronType=Prs	3	clit:subj	_	AlignBegin=10348|AlignEnd=10636|Gloss=3Sing|wordform=tə
+3	yi	yi	VERB	_	_	0	root	_	AlignBegin=10348|AlignEnd=10636|Gloss=be
+4	nə	nə	PART	_	_	3	comp:pred	_	AlignBegin=10636|AlignEnd=10924|Gloss=COP1
 5	gùŋ	gùŋ	NOUN	_	Definite=Cons	4	comp:pred	_	AlignBegin=10924|AlignEnd=11212|Gloss=chief
 6	mə̂ːr	mə̂ːr	NOUN	_	_	5	mod	_	AlignBegin=11212|AlignEnd=11500|Gloss=thief
-7	kə́	á	ADP	_	_	5	mod	_	AlignBegin=11500|AlignEnd=11788|Gloss=of|nWord=6|RX=[PTCL]
+7	ɣə́	kə́	ADP	_	_	5	mod	_	AlignBegin=11500|AlignEnd=11788|Gloss=of|nWord=6|RX=[PTCL]
 8	yaːɬ	yaːɬ	NOUN	_	Definite=Cons	7	comp:obj	_	AlignBegin=11788|AlignEnd=11884|Gloss=country
 9	=wáːsə̀ŋ	=wáːsəŋ	PRON	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	mod@poss	_	AlignBegin=11980|AlignEnd=12076|Gloss=3Plur.Gen
-10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=12076|AlignEnd=12360|Gloss=PUNCT
+10	//	//	PUNCT	_	_	3	punct	_	AlignBegin=12076|AlignEnd=12360|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_Kadi_gi_kitn_007-007
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_12_NARR_Kadi_gi_kitn.WAV
@@ -1105,7 +1106,7 @@
 26	dòmín	dòmín	SCONJ	_	_	23	mod	_	AlignBegin=257640|AlignEnd=257873|Gloss=because
 27	giní	giní	PRON	_	PronType=Dem	29	subj	_	AlignBegin=257873|AlignEnd=258106|Gloss=Prox
 28-29	ʧi	_	_	_	_	_	_	_	_
-28	tə=	tə=	PRON	_	_	29	subj	_	AlignBegin=258106|AlignEnd=258339|Gloss=3Sing|wordform=tə
+28	tə=	tə=	PRON	_	_	29	clit:subj	_	AlignBegin=258106|AlignEnd=258339|Gloss=3Sing|wordform=tə
 29	yi	yi	PRON	_	_	26	comp:obj	_	AlignBegin=258106|AlignEnd=258339|Gloss=be
 30	tə́	tə́	ADP	_	_	29	comp:pred	_	AlignBegin=258339|AlignEnd=258572|Gloss=with
 31	bubzə̀ŋ	bubzə̀ŋ	NOUN	_	_	30	comp:obj	_	AlignBegin=258572|AlignEnd=258805|Gloss=beard
@@ -1117,17 +1118,17 @@
 # text = kúni -ês kúmá bàː ʧi tə́ bubzə̀ŋ hŋ́ //
 # text_ortho = kúnês kúmá bàː ʧi tə́ bubzə̀ŋə̌ŋ //
 # text_en =  But the boy doesn't have a beard."
-1	kúni	kúni	NOUN	_	Definite=Def	4	subj	_	AlignBegin=259860|AlignEnd=259980|Gloss=boy
+1	kúni	kúni	NOUN	_	Definite=Def	6	dislocated@subj	_	AlignBegin=259860|AlignEnd=259980|Gloss=boy
 2	-ês	-ês	DET	_	Definite=Def	1	af:det	_	AlignBegin=259980|AlignEnd=260100|Gloss=-Def
 3	kúmá	kúmá	PART	_	_	1	discourse	_	AlignBegin=260100|AlignEnd=260340|Gloss=too
-4	bàː	bàː	PART	_	Polarity=Neg	0	root	_	AlignBegin=260340|AlignEnd=260580|Gloss=Neg1
+4	bàː	bàː	PART	_	Polarity=Neg	6	mod	_	AlignBegin=260340|AlignEnd=260580|Gloss=Neg1
 5-6	ʧi	_	_	_	_	_	_	_	_
-5	tə=	tə=	PRON	_	Number=Sing|Person=3|PronType=Prs	4	comp:aux	_	AlignBegin=260580|AlignEnd=260820|Gloss=3Sing|wordform=tə
-6	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=260580|AlignEnd=260820|Gloss=be
-7	tə́	tə́	ADP	_	_	5	comp:obl	_	AlignBegin=260820|AlignEnd=261060|Gloss=with
+5	tə=	tə=	PRON	_	Number=Sing|Person=3|PronType=Prs	6	clit:subj	_	AlignBegin=260580|AlignEnd=260820|Gloss=3Sing|wordform=tə
+6	yi	yi	VERB	_	_	0	root	_	AlignBegin=260580|AlignEnd=260820|Gloss=be
+7	tə́	tə́	ADP	_	_	6	comp:pred	_	AlignBegin=260820|AlignEnd=261060|Gloss=with
 8	bubzə̀ŋ	bubzə̀ŋ	VERB	_	_	7	comp:obj	_	AlignBegin=261060|AlignEnd=261180|Gloss=beard
 9	hŋ́	hŋ́	PART	_	Polarity=Neg	6	mod	_	AlignBegin=261180|AlignEnd=261300|Gloss=NEG2
-10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=261300|AlignEnd=261540|Gloss=PUNCT
+10	//	//	PUNCT	_	_	6	punct	_	AlignBegin=261300|AlignEnd=261540|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_Kadi_gi_kitn_124-125
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_12_NARR_Kadi_gi_kitn.WAV
@@ -1282,14 +1283,14 @@
 # text_ortho = ʧi tə́ ɗúːwòs ká péndi //
 # text_en =  He carried some beer in a jar.
 1-2	ʧi	_	_	_	_	_	_	_	_
-1	tə=	tə=	PRON	_	Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=293740|AlignEnd=293930|Gloss=3Sing|wordform=tə
+1	tə=	tə=	PRON	_	Number=Sing|Person=3|PronType=Prs	2	clit:subj	_	AlignBegin=293740|AlignEnd=293930|Gloss=3Sing|wordform=tə
 2	yi	yi	X	_	_	0	root	_	AlignBegin=293740|AlignEnd=293930|Gloss=be
-3	tə́	tə́	ADP	_	_	1	comp:obl	_	AlignBegin=293930|AlignEnd=294120|Gloss=with
+3	tə́	tə́	ADP	_	_	2	comp:pred	_	AlignBegin=293930|AlignEnd=294120|Gloss=with
 4	ɗûː	ɗûu	NOUN	_	_	3	comp:obj	_	AlignBegin=294120|AlignEnd=294215|Gloss=beer
 5	=wôs	=wôs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	mod@poss	_	AlignBegin=294215|AlignEnd=294310|Gloss=3Sing.Gen
-6	ká	ká	ADP	_	_	1	comp:obl	_	AlignBegin=294310|AlignEnd=294500|Gloss=at
+6	ká	ká	ADP	_	_	2	comp:pred	_	AlignBegin=294310|AlignEnd=294500|Gloss=at
 7	péndi	péndi	VERB	_	_	6	comp:obj	_	AlignBegin=294500|AlignEnd=294690|Gloss=small_pot
-8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=294690|AlignEnd=294880|Gloss=PUNCT
+8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=294690|AlignEnd=294880|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_Kadi_gi_kitn_140-140
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_12_NARR_Kadi_gi_kitn.WAV
@@ -2074,17 +2075,17 @@
 8	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=493880|AlignEnd=494120|Gloss=3Sing.Aor
 9	ɲol	ɲol	VERB	_	_	8	comp:aux	_	AlignBegin=494120|AlignEnd=494240|Gloss=go_out
 10	ɗi	ɗi	PART	_	_	9	compound:prt	_	AlignBegin=494240|AlignEnd=494360|Gloss=CTP|wordform=-́ɗi
-11	tə́	tə́	ADP	_	_	9	comp:obl	_	AlignBegin=494360|AlignEnd=494600|Gloss=with
+11	tə́	tə́	ADP	_	_	9	mod	_	AlignBegin=494360|AlignEnd=494600|Gloss=with
 12	kítâr	kî́târ	NOUN	_	_	11	comp:obj	_	AlignBegin=494600|AlignEnd=494840|Gloss=running
 13-14	ʧi	_	_	_	_	_	_	_	_
-13	tə=	tə=	PRON	_	Number=Sing|Person=3|PronType=Prs	12	mod	_	AlignBegin=496140|AlignEnd=496340|Gloss=3Sing|wordform=tə
-14	yi	yi	NOUN	_	_	12	mod	_	AlignBegin=496140|AlignEnd=496340|Gloss=be
-15	ɣáy	káy	PRON	_	Person=3|PronType=Prs	9	comp:obl@expl	_	AlignBegin=496340|AlignEnd=496540|Gloss=ANAPH
-16	tu	tu	SCONJ	_	_	9	mod	_	AlignBegin=496540|AlignEnd=496740|Gloss=COMP
+13	tə=	tə=	PRON	_	Number=Sing|Person=3|PronType=Prs	14	clit:subj	_	AlignBegin=496140|AlignEnd=496340|Gloss=3Sing|wordform=tə
+14	yi	yi	NOUN	_	_	8	parataxis@mod	_	AlignBegin=496140|AlignEnd=496340|Gloss=be
+15	ɣáy	káy	PRON	_	Person=3|PronType=Prs	14	comp:obl@expl	_	AlignBegin=496340|AlignEnd=496540|Gloss=ANAPH
+16	tu	tu	SCONJ	_	_	14	comp:pred	_	AlignBegin=496540|AlignEnd=496740|Gloss=COMP
 17	nə	nə	PART	_	_	16	comp:obj	_	AlignBegin=496740|AlignEnd=496940|Gloss=COP1
 18	làːdâːn	lá̀ːdâːn	NOUN	_	Number=Plur	17	comp:pred	_	AlignBegin=496940|AlignEnd=497140|Gloss=muezzin
-19	kən	kən	PART	_	_	16	comp:obj	_	AlignBegin=497140|AlignEnd=497340|Gloss=COP2
-20	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	19	comp:cleft	_	AlignBegin=497340|AlignEnd=497540|Gloss=3Sing.CPlur
+19	kən	kən	PART	_	_	17	mod@emp	_	AlignBegin=497140|AlignEnd=497340|Gloss=COP2
+20	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	17	comp:cleft	_	AlignBegin=497340|AlignEnd=497540|Gloss=3Sing.CPlur
 21	rikiʧé	rikiʧé	VERB	_	_	20	comp:aux	_	AlignBegin=497540|AlignEnd=497740|Gloss=go_mad
 22	//	//	PUNCT	_	_	8	punct	_	AlignBegin=497740|AlignEnd=497940|Gloss=PUNCT
 
