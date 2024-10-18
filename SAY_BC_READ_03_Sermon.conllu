@@ -451,7 +451,7 @@
 17	kên	kéni	NOUN	_	_	16	comp:obj	_	AlignBegin=128508|AlignEnd=128705|Gloss=front|InIdiom=Yes
 18	Tʃóknvòɲ	Tʃóknvòn	PROPN	_	_	16	comp:obj	_	AlignBegin=128705|AlignEnd=128803|Gloss=God
 19	-íː	-íː	DET	_	Deixis=Dist	18	af:det	_	AlignBegin=128803|AlignEnd=128902|Gloss=Dist
-20	//	//	PUNCT	_	_	13	det	_	AlignBegin=128803|AlignEnd=128902|Gloss=PUNCT
+20	//	//	PUNCT	_	_	13	punct	_	AlignBegin=128803|AlignEnd=128902|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_058-059
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
@@ -1126,8 +1126,8 @@
 # text_ortho = yeli / yáːwón gyaːgón ʧǎː mbîː kutuŋ dzàŋ ɗə́ːlɣə́n vìː ʧóknvònès ɗaɣástə́ɗi fupmfúpm //
 # text_en =  See, today some think that God's Judgement is still far.
 1	yeli	yeli	NOUN	_	_	4	subj	_	AlignBegin=339220|AlignEnd=339470|Gloss=see
-2	yáːwón	yáːwón	ADV	_	PronType=Dem	1	mod	_	AlignBegin=340840|AlignEnd=341232|Gloss=today
-3	gyaːgón	gón	PRON	_	Definite=Spec|Number=Plur	1	det	_	AlignBegin=341232|AlignEnd=341624|Gloss=QLT.Plur
+2	yáːwón	yáːwón	ADV	_	PronType=Dem	4	mod	_	AlignBegin=340840|AlignEnd=341232|Gloss=today
+3	gyaːgón	gón	PRON	_	Definite=Spec|Number=Plur	4	subj	_	AlignBegin=341232|AlignEnd=341624|Gloss=QLT.Plur
 4	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=341624|AlignEnd=342016|Gloss=3Plur.Imp
 5	mbiː	mbiː	VERB	_	_	4	comp:aux	_	AlignBegin=342016|AlignEnd=342408|Gloss=take
 6	kutuŋ	kutuŋ	SCONJ	_	_	5	comp:obj	_	AlignBegin=342408|AlignEnd=342800|Gloss=as_if
@@ -1388,30 +1388,28 @@
 # sent_id = SAY_BC_READ_03_Sermon_191-194
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 425320, 432120
-# text = < rûːyáː_tá_yohánna > dzàŋ gíː -ês -ês / dzàŋ gíː -ês -ês / ka ɬə nə́ ɮə́ːr ká kéni kə́ ʧóknvòn =wâː //
+# text = < rûːyáː_tá_yohánna > dzàŋ gíː -ês dzàŋ gíː -ês ka ɬə nə́ ɮə́ːr ká kéni kə́ ʧóknvòn =wâː //
 # text_ortho = < rûːyáː_tá_yohánna > dzàŋ gêːs / dzàŋ gêːs / ka ɬə́n ɮə́ːr á kén gə̀ ʧóknvònwàː //
 # text_en =  (Revelation) On that day, on that day, you will stand in front of your Lord.
 1	<	<	PUNCT	_	_	2	punct	_	AlignBegin=425320|AlignEnd=425627|Gloss=PUNCT
-2	rûːyáː_tá_yohánna	rûːyáː_tá_yohánna	NOUN	_	Definite=Cons	12	dislocated@top	_	AlignBegin=425627|AlignEnd=425934|Gloss=Revelation
+2	rûːyáː_tá_yohánna	rûːyáː_tá_yohánna	NOUN	_	Definite=Cons	10	dislocated@top	_	AlignBegin=425627|AlignEnd=425934|Gloss=Revelation
 3	>	>	PUNCT	_	_	2	punct	_	AlignBegin=425934|AlignEnd=426240|Gloss=PUNCT
-4	dzàŋ	dzàŋ	NOUN	_	_	12	mod	_	AlignBegin=427080|AlignEnd=427327|Gloss=day
-5	gíː	gíː	PRON	_	Deixis=Dist	4	det	_	AlignBegin=427327|AlignEnd=427409|Gloss=Dist
-6	-ês	-ês	DET	_	Definite=Def	8	af:det	_	AlignBegin=427409|AlignEnd=427491|Gloss=-Def
-7	-ês	-ês	DET	_	Definite=Def	8	af:det	_	AlignBegin=427491|AlignEnd=427574|Gloss=-Def
-8	dzàŋ	dzàŋ	NOUN	_	_	12	mod	_	AlignBegin=428880|AlignEnd=429140|Gloss=day
-9	gíː	gíː	PRON	_	Deixis=Dist	8	det	_	AlignBegin=429140|AlignEnd=429227|Gloss=Dist
-10	-ês	-ês	DET	_	Definite=Def	9	af:det	_	AlignBegin=429227|AlignEnd=429314|Gloss=-Def
-11	-ês	-ês	DET	_	Definite=Def	9	af:det	_	AlignBegin=429314|AlignEnd=429400|Gloss=-Def
-12	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=430520|AlignEnd=430720|Gloss=2Sing.Fut
-13	ɬə	ɬə	VERB	_	_	12	comp:aux	_	AlignBegin=430720|AlignEnd=430820|Gloss=go
-14	nə́	nə́	ADP	_	_	13	comp:obl	_	AlignBegin=430820|AlignEnd=430920|Gloss=for
-15	ɮə́ːr	ɮə́ːr	NOUN	_	_	14	comp:obj	_	AlignBegin=430920|AlignEnd=431120|Gloss=stand
-16	ká	ká	ADP	_	_	13	comp:obl	_	AlignBegin=431120|AlignEnd=431320|Gloss=at
-17	kéni	kéni	NOUN	_	_	16	comp:obj	_	AlignBegin=431320|AlignEnd=431520|Gloss=front
-18	kə́	kə́	ADP	_	_	17	mod	_	AlignBegin=431520|AlignEnd=431720|Gloss=of|nWord=15|RX=[PTCL]
-19	ʧóknvòn	ʧóknvòn	NOUN	_	PronType=Dem	18	comp:obj	_	AlignBegin=431720|AlignEnd=431820|Gloss=God
-20	=wâː	=waaː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	19	mod@poss	_	AlignBegin=431820|AlignEnd=431920|Gloss=2Sing.Gen
-21	//	//	PUNCT	_	_	12	punct	_	AlignBegin=431920|AlignEnd=432120|Gloss=PUNCT
+4	dzàŋ	dzàŋ	NOUN	_	_	10	mod	_	AlignBegin=427080|AlignEnd=427327|Gloss=day
+5	gíː	gíː	PRON	_	Deixis=Dist	4	mod	_	AlignBegin=427327|AlignEnd=427409|Gloss=Dist
+6	-ês	-ês	DET	_	Definite=Def	4	af:det	_	AlignBegin=427409|AlignEnd=427491|Gloss=-Def
+7	dzàŋ	dzàŋ	NOUN	_	_	10	mod	_	AlignBegin=428880|AlignEnd=429140|Gloss=day
+8	gíː	gíː	PRON	_	Deixis=Dist	7	mod	_	AlignBegin=429140|AlignEnd=429227|Gloss=Dist
+9	-ês	-ês	DET	_	Definite=Def	7	af:det	_	AlignBegin=429227|AlignEnd=429314|Gloss=-Def
+10	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=430520|AlignEnd=430720|Gloss=2Sing.Fut
+11	ɬə	ɬə	VERB	_	_	10	comp:aux	_	AlignBegin=430720|AlignEnd=430820|Gloss=go
+12	nə́	nə́	ADP	_	_	11	comp:obl	_	AlignBegin=430820|AlignEnd=430920|Gloss=for
+13	ɮə́ːr	ɮə́ːr	NOUN	_	_	12	comp:obj	_	AlignBegin=430920|AlignEnd=431120|Gloss=stand
+14	ká	ká	ADP	_	_	11	comp:obl	_	AlignBegin=431120|AlignEnd=431320|Gloss=at
+15	kéni	kéni	NOUN	_	_	14	comp:obj	_	AlignBegin=431320|AlignEnd=431520|Gloss=front
+16	kə́	kə́	ADP	_	_	15	mod	_	AlignBegin=431520|AlignEnd=431720|Gloss=of|nWord=15|RX=[PTCL]
+17	ʧóknvòn	ʧóknvòn	NOUN	_	PronType=Dem	16	comp:obj	_	AlignBegin=431720|AlignEnd=431820|Gloss=God
+18	=wâː	=waaː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	17	mod@poss	_	AlignBegin=431820|AlignEnd=431920|Gloss=2Sing.Gen
+19	//	//	PUNCT	_	_	10	punct	_	AlignBegin=431920|AlignEnd=432120|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_195-197
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
@@ -1445,7 +1443,7 @@
 # sent_id = SAY_BC_READ_03_Sermon_198-205
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 441360, 458460
-# text = dzàŋ ɗəːl -kə́nì vìː -ês / kúni ʧokn / Yéːsu / gíː ɗan wò ɗəːl =mí vìː -ês mə́n -íː / wò taʧí tsə́tn -ni ká dàndàl / kap kə́ ɗəːl -kə́nì vìː -ês // tòː ɓəːlí =mí =wôpm -íː / də̀n -i mbə́ɬəŋ /
+# text = dzàŋ ɗəːl -kə́nì vìː -ês / kúni ʧokn / Yéːsu / gíː ɗan wò ɗəːl =mí vìː -ês mə́n =íː / wò taʧí tsə́tn -ni ká dàndàl / kap kə́ ɗəːl -kə́nì vìː -ês // tòː ɓəːlí =mí =wôpm -íː / də̀n -i mbə́ɬəŋ /
 # text_ortho = dzàŋ ɗə́ːlɣə́n vèːs / kúni ʧokn / Yéːsu / gíː ɗan wò ɗəːlmí vèːs məníː / wò taʧí tsə́tnni ká dàndàl / kap kə́ ɗə́ːlɣə́n vèːs // tôː ɓəːlmíwôpíː / də̀nì mbə́ɬəŋ /
 # text_en =  On the day of Judgement, the Son of God (Jesus), the one who will judge us, who will rise and sit on the throne of Judgement, he will divide us in two parts.
 1	dzàŋ	dzàŋ	NOUN	_	_	30	mod	_	AlignBegin=441360|AlignEnd=441675|Gloss=day
@@ -1463,7 +1461,7 @@
 13	vìː	vìː	NOUN	_	Definite=Def	11	comp:obj@T	_	AlignBegin=448532|AlignEnd=448694|Gloss=speech
 14	-ês	-ês	DET	_	Definite=Def	13	af:det	_	AlignBegin=448694|AlignEnd=448855|Gloss=-Def
 15	mə́n	mə́n	PART	_	Case=Ben	11	compound:prt	_	AlignBegin=448855|AlignEnd=449017|Gloss=BEN
-16	-íː	-íː	PART	_	Deixis=Remt	13	det	_	AlignBegin=449017|AlignEnd=449178|Gloss=-Res
+16	=íː	=íː	PART	_	_	11	clit:mod	_	AlignBegin=449017|AlignEnd=449178|Gloss=Res|Result=Yes
 17	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	30	parataxis	_	AlignBegin=451440|AlignEnd=451690|Gloss=3Sing.Fut
 18	taʧí	taʧí	VERB	_	_	17	comp:aux	_	AlignBegin=451690|AlignEnd=451940|Gloss=climb
 19	tsə́tn	tsə́tn	ADV	_	_	18	comp:obj	_	AlignBegin=451940|AlignEnd=452065|Gloss=sit
@@ -1501,14 +1499,14 @@
 # sent_id = SAY_BC_READ_03_Sermon_208-212
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 464040, 474240
-# text = wò wul mə́n zàːri -íː tu / man -ə́n ɗúːni / ká də̀n kə́ daː =gə̀tn -íː / gíː ɗan mə ndəːr / nə́ dur =wâːn -íː //
+# text = wò wul mə́n zàːri =íː tu / man -ə́n ɗúːni / ká də̀n kə́ daː =gə̀tn -íː / gíː ɗan mə ndəːr / nə́ dur =wâːn -íː //
 # text_ortho = wò wul mə́n zàːríː tu / mànə́n ɗûːn / á də̀n gə̀ dàːgə̀tíː / gíː ɗan mə ndə́ːr / nə́ durwâːníː //
 # text_en =  He will say to those on his right "Come here to my Father's house which we have prepared for you."
 1	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=464040|AlignEnd=464210|Gloss=3Sing.Fut
 2	wul	wul	VERB	_	_	1	comp:aux	_	AlignBegin=464210|AlignEnd=464380|Gloss=say
 3	mə́n	mə́n	NOUN	_	Number=Plur	1	dislocated@subj	_	AlignBegin=464380|AlignEnd=464550|Gloss=people
 4	zàːri	Zàːri	NOUN	_	Definite=Cons	2	comp:obj	_	AlignBegin=464550|AlignEnd=464635|Gloss=right
-5	-íː	-íː	PART	_	Deixis=Remt	4	det	_	AlignBegin=464635|AlignEnd=464720|Gloss=-Res
+5	-íː	-íː	DET	_	Deixis=Remt	4	det	_	AlignBegin=464635|AlignEnd=464720|Gloss=-Res
 6	tu	tu	SCONJ	_	_	2	comp:obj	_	AlignBegin=464720|AlignEnd=464890|Gloss=COMP
 7	man	man	NOUN	_	_	6	comp:obj	_	AlignBegin=466460|AlignEnd=466580|Gloss=come
 8	-ə́n	-ə́n	DET	_	Deixis=Prox	3	af:det	_	AlignBegin=466580|AlignEnd=466700|Gloss=IMP.Plur
@@ -1526,7 +1524,7 @@
 20	nə́	nə́	ADP	_	_	19	comp:obl	_	AlignBegin=473380|AlignEnd=473667|Gloss=for
 21	dur	dur	NOUN	_	_	20	comp:obj	_	AlignBegin=473667|AlignEnd=473763|Gloss=occasion
 22	=wâːn	=waaːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	21	mod@poss	_	AlignBegin=473763|AlignEnd=473859|Gloss=2Plur.Gen
-23	-íː	-íː	PRON	_	Deixis=Dist	21	det	_	AlignBegin=473859|AlignEnd=473954|Gloss=Dist
+23	=íː	=íː	PART	_	_	19	clit:mod	_	AlignBegin=473859|AlignEnd=473954|Gloss=Res|Result=Yes
 24	//	//	PUNCT	_	_	1	punct	_	AlignBegin=473954|AlignEnd=474240|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_213-221
@@ -1585,7 +1583,7 @@
 6	ká	ká	ADP	_	_	4	comp:obl	_	AlignBegin=495992|AlignEnd=496250|Gloss=at
 7	mə́n	mə́n	NOUN	_	Number=Plur	6	comp:obj	_	AlignBegin=496250|AlignEnd=496508|Gloss=people
 8	napti	napti	NOUN	_	Deixis=Remt	6	comp:obj	_	AlignBegin=496508|AlignEnd=496637|Gloss=left
-9	-íː	-íː	PRON	_	Deixis=Dist	8	det	_	AlignBegin=496637|AlignEnd=496766|Gloss=Dist
+9	-íː	-íː	DET	_	Deixis=Dist	8	det	_	AlignBegin=496637|AlignEnd=496766|Gloss=Dist
 10	wul	wul	VERB	_	_	3	compound:svc	_	AlignBegin=498640|AlignEnd=498736|Gloss=say
 11	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	comp:obj@T	_	AlignBegin=498736|AlignEnd=498833|Gloss=3Plur.OBJ ; 3Plur.Gen
 12	tu	tu	SCONJ	_	_	10	comp:obj@T	_	AlignBegin=498833|AlignEnd=499026|Gloss=COMP
@@ -1622,7 +1620,7 @@
 43	mə́ndə	mə́ndə	NOUN	_	Definite=Cons	42	comp:obj	_	AlignBegin=513367|AlignEnd=513444|Gloss=spirit
 44	-sə	-sə	DET	_	Deixis=Remt	43	mod	_	AlignBegin=513444|AlignEnd=513521|Gloss=Plur
 45	=wôs	=wôs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	43	mod@poss	_	AlignBegin=513521|AlignEnd=513598|Gloss=3Sing.Gen
-46	-íː	-íː	PRON	_	Deixis=Dist	43	det	_	AlignBegin=513598|AlignEnd=513674|Gloss=Dist
+46	-íː	-íː	DET	_	Deixis=Dist	43	det	_	AlignBegin=513598|AlignEnd=513674|Gloss=Dist
 47	//	//	PUNCT	_	_	2	punct	_	AlignBegin=513674|AlignEnd=513980|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_229-230
