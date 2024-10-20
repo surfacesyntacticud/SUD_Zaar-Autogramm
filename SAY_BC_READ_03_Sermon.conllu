@@ -1485,15 +1485,15 @@
 # sent_id = SAY_BC_READ_03_Sermon_206-207
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 459580, 462460
-# text = gyaːgón ká zàːri / gyaːgón ká napti //
+# text = gyaːgón gá zàːri / gyaːgón gá napti //
 # text_ortho = gyaːgón gá zàːri / gyaːgón gá napti //
 # text_en =  Some will be on the right, the others e on the left.
 1	gyaːgón	gón	PRON	_	Definite=Spec|Number=Plur	2	subj	_	AlignBegin=459580|AlignEnd=459825|Gloss=QLT.Plur
-2	ká	ká	AUX	_	Number=Plur|Person=2|Tense=Fut	0	root	_	AlignBegin=459825|AlignEnd=460070|Gloss=at
+2	gá	ká	ADP	_	Number=Plur|Person=2|Tense=Fut	0	root	_	AlignBegin=459825|AlignEnd=460070|Gloss=at
 3	zàːri	zaːr	NOUN	_	_	2	comp:aux	_	AlignBegin=460070|AlignEnd=460315|Gloss=right
 4	gyaːgón	gón	PRON	_	Definite=Spec|Number=Plur	5	subj	_	AlignBegin=461580|AlignEnd=461800|Gloss=QLT.Plur
-5	ká	ká	ADP	_	_	2	conj:svc	_	AlignBegin=461800|AlignEnd=462020|Gloss=at
-6	napti	napti	VERB	_	_	5	comp:aux	_	AlignBegin=462020|AlignEnd=462240|Gloss=left
+5	gá	ká	ADP	_	_	2	conj:svc	_	AlignBegin=461800|AlignEnd=462020|Gloss=at
+6	napti	napti	NOUN	_	_	5	comp:obj	_	AlignBegin=462020|AlignEnd=462240|Gloss=left
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=462240|AlignEnd=462460|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_208-212
@@ -1883,7 +1883,7 @@
 # sent_id = SAY_BC_READ_03_Sermon_274-278
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 607120, 617640
-# text = kóː kyáː súː àː ʤwáːm lawyoːyi ɓurúk / tá ɣə́ːm tá ɲol -ár =ɣə hŋ́ / nə́ dur ɣə́ tu / yàːʃí máː / ʧì ɣá dur ɣə́ gwàːsə̀ŋ //
+# text = kóː kyáː súː àː ʤwáːm lawyoːyi ɓurúk tá ɣə́ːm tá ɲôlár =ɣə hŋ́ nə́ dur ɣə́ tu yàːʃí máː ʧì ɣá dur kə́ gwàːsə̀ŋ //
 # text_ortho = kóː kyáː súː àː ʤwáːm lawyoːyi ɓurúk / tá kə̌ːm tá ɲôlárɣə hŋ́ / nə́ dur ɣə́ tu / yàːʃí máː / ʧì ɣá dur ɣə́ gwàːsə̀ŋ //
 # text_en =  Even if you want to gather many lawyers, they will not succeed in saving you because even they, they will be busy on their own.
 1	kóː	kóː	CCONJ	_	_	2	cc@preconj	_	AlignBegin=607120|AlignEnd=607435|Gloss=even_if
@@ -1903,14 +1903,16 @@
 15	dur	dur	NOUN	_	_	14	unk	_	AlignBegin=613136|AlignEnd=613292|Gloss=occasion|InIdiom=Yes
 16	ɣə́	kə́	ADP	_	_	15	mod	_	AlignBegin=613292|AlignEnd=613448|Gloss=of|InIdiom=Yes|nWord=17|RX=[PTCL]
 17	tu	tu	SCONJ	_	_	14	unk	_	AlignBegin=613448|AlignEnd=613604|Gloss=COMP|InIdiom=Yes
-18	yàːʃí	yàːʃí	NOUN	_	Definite=Def	21	comp:obj	_	AlignBegin=615140|AlignEnd=615367|Gloss=3Plur.IDP
-19	máː	máː	PART	_	Aspect=Perf|Number=Sing|Person=1	17	comp:obj	_	AlignBegin=615367|AlignEnd=615594|Gloss=also
-20	ʧì	ʧii	VERB	_	_	19	comp:aux	_	AlignBegin=616580|AlignEnd=616757|Gloss=3Plur.be
-21	ká	ká	ADP	_	_	20	comp:obl	_	AlignBegin=616757|AlignEnd=616934|Gloss=at
-22	dur	dur	NOUN	_	_	21	comp:obj	_	AlignBegin=616934|AlignEnd=617111|Gloss=occasion
-23	kə́	kə́	ADP	_	_	21	comp:obj	_	AlignBegin=617111|AlignEnd=617288|Gloss=of|nWord=26|RX=[PTCL]
-24	gwàːsə̀ŋ	gwàːsə̀ŋ	NOUN	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	23	comp:obj	_	AlignBegin=617288|AlignEnd=617465|Gloss=3Plur.Gen
-25	//	//	PUNCT	_	_	2	punct	_	AlignBegin=617465|AlignEnd=617640|Gloss=PUNCT
+18	yàːʃí	yàːʃí	NOUN	_	Definite=Def	21	dislocated@subj	_	AlignBegin=615140|AlignEnd=615367|Gloss=3Plur.IDP
+19	máː	máː	PART	_	Aspect=Perf|Number=Sing|Person=1	18	discourse	_	AlignBegin=615367|AlignEnd=615594|Gloss=also
+20-21	ʧì	_	_	_	_	_	_	_	_
+20	tə̀=	tə̀=	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	af:subj	_	AlignBegin=616580|AlignEnd=616757|Gloss=3Plur
+21	yi	yi	VERB	_	_	17	comp:obj	_	AlignBegin=616580|AlignEnd=616757|Gloss=3Plur.be
+22	ɣá	ká	ADP	_	ExtPos=ADP	21	comp:pred	_	AlignBegin=616757|AlignEnd=616934|Gloss=at|Idiom=Yes
+23	dur	dur	NOUN	_	_	22	comp:obj	_	AlignBegin=616934|AlignEnd=617111|Gloss=occasion|InIdiom=Yes
+24	ɣə́	kə́	ADP	_	_	23	mod	_	AlignBegin=617111|AlignEnd=617288|Gloss=of|InIdiom=Yes|nWord=26|RX=[PTCL]
+25	gwàːsə̀ŋ	gwàːsə̀ŋ	NOUN	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	22	comp:obj	_	AlignBegin=617288|AlignEnd=617465|Gloss=3Plur.Gen
+26	//	//	PUNCT	_	_	2	punct	_	AlignBegin=617465|AlignEnd=617640|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_279-280
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
@@ -2208,19 +2210,19 @@
 2	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	1	mod	_	AlignBegin=696475|AlignEnd=696690|Gloss=of|nWord=2|RX=[PTCL]
 3	vərtə́	vərtə	VERB	_	_	2	comp:aux	_	AlignBegin=696690|AlignEnd=696905|Gloss=fear
 4	tún	tún	SCONJ	_	_	3	comp:obj	_	AlignBegin=698040|AlignEnd=698220|Gloss=since
-5	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	7	subj	_	AlignBegin=698220|AlignEnd=698400|Gloss=3Sing.IDP
+5	yâːn	yâːn	SCONJ	_	ExtPos=PART	16	discourse	_	AlignBegin=698220|AlignEnd=698400|Gloss=if|Idiom=Yes
 6-7	ʧi	_	_	_	_	_	_	_	_
 6	tə=	tə=	PRON	_	Number=Sing|Person=3|PronType=Prs	7	clit:subj	_	AlignBegin=698400|AlignEnd=698580|Gloss=3Sing|wordform=tə
-7	yi	yi	VERB	_	_	4	comp:obj	_	AlignBegin=698400|AlignEnd=698580|Gloss=be
+7	yi	yi	VERB	_	_	5	comp:obj	_	AlignBegin=698400|AlignEnd=698580|Gloss=be
 8	tu	tu	SCONJ	_	_	7	comp:obj	_	AlignBegin=698580|AlignEnd=698760|Gloss=COMP
 9	á	a	ADP	_	Aspect=Aor|Number=Sing|Person=3	16	mod	_	AlignBegin=700320|AlignEnd=700560|Gloss=at
-10	kilí	kili	NOUN	_	Definite=Cons	9	comp:aux	_	AlignBegin=700560|AlignEnd=700680|Gloss=week.Cons
+10	kilí	kili	NOUN	_	Definite=Cons	9	comp:obj	_	AlignBegin=700560|AlignEnd=700680|Gloss=week.Cons
 11	ɗə́ːlɣə́n	ɗəːl	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	10	mod	_	AlignBegin=700800|AlignEnd=700920|Gloss=come_out-Vnoun|wordform=ɗəːl
 12	vìː	vìː	NOUN	_	Definite=Def	11	comp:obj	_	AlignBegin=701040|AlignEnd=701160|Gloss=speech
 13	-ês	-ês	DET	_	Definite=Def	11	af:det	_	AlignBegin=701160|AlignEnd=701280|Gloss=-Def
 14	fáː	fáː	PART	_	_	9	discourse	_	AlignBegin=701280|AlignEnd=701520|Gloss=indeed
 15	ríːɣə̂n	ríː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	16	subj	_	AlignBegin=703320|AlignEnd=703428|Gloss=walk-Vnoun|wordform=ríː
-16	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	8	comp:obj	_	AlignBegin=703535|AlignEnd=703750|Gloss=3Sing.Fut
+16	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	4	comp:obj	_	AlignBegin=703535|AlignEnd=703750|Gloss=3Sing.Fut
 17	ɓəːlí	ɓəːl	VERB	_	_	16	comp:aux	_	AlignBegin=703750|AlignEnd=703858|Gloss=divide
 18	=íː	=íː	PART	_	_	17	clit:mod	_	AlignBegin=703858|AlignEnd=703965|Gloss=Res|Result=Yes|wordform=-íː
 19	//	//	PUNCT	_	_	1	punct	_	AlignBegin=703965|AlignEnd=704180|Gloss=PUNCT
@@ -2283,38 +2285,41 @@
 # sent_id = SAY_BC_READ_03_Sermon_329-334
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 719520, 732940
-# text = kóː yáːni naː =wôs ʧáː súː ŋaː -ês / ɗan vìː súː nákat / kóː tsə́tn -kə́nì gə̀t tə́ tu:r -i / ʧíyǎː wusúŋ ɗan dǔːm / ɓét tə́ gíː / wò ɓəːlí -íː sát //
+# text = kóː yáːni naː =wôs ʧáː súː ŋaː -ês ɗan vìː súː nákat > kóː tsə̀tngə̀n gə̀t tə́ tu:ri ʧíyǎː wusúŋ ɗan dǔːm > ɓét tə́ gíː > wò ɓəːlí =íː sát //
 # text_ortho = kóː yâːn naːʃí ʧáː súː ŋâːs / ɗan vìː sǔː nákat / kóː tsə́tngə́n gə̀t tə́ tu:ri / ʧíyǎː wusə́ŋ ɗan dǔːm / ɓét tə́ gíː / wò ɓəːlíː sát //
 # text_en =  Even though the mother loves her son as the mouth loves food, even though the life of husband and wife is as sweet as honey, nevertheless, they will be separated.
-1	kóː	kóː	CCONJ	_	_	2	cc@preconj	_	AlignBegin=719520|AlignEnd=719760|Gloss=even_if
-2	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	5	dislocated@subj	_	AlignBegin=719760|AlignEnd=720000|Gloss=3Sing.IDP
-3	naː	naː	NOUN	_	_	2	conj:appos	_	AlignBegin=720000|AlignEnd=720120|Gloss=mother
+1	kóː	kóː	SCONJ	_	ExtPos=SCONJ	28	mod	_	AlignBegin=719520|AlignEnd=719760|Gloss=even_if|Idiom=Yes
+2	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	1	unk	_	AlignBegin=719760|AlignEnd=720000|Gloss=3Sing.IDP|InIdiom=Yes
+3	naː	naː	NOUN	_	_	5	subj	_	AlignBegin=720000|AlignEnd=720120|Gloss=mother
 4	=wôs	=wôs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	mod@poss	_	AlignBegin=720120|AlignEnd=720240|Gloss=3Sing.Gen
-5	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=720240|AlignEnd=720480|Gloss=3Sing.Imp
+5	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	1	comp:obj	_	AlignBegin=720240|AlignEnd=720480|Gloss=3Sing.Imp
 6	súː	súː	VERB	_	_	5	comp:aux	_	AlignBegin=720480|AlignEnd=720720|Gloss=like ; love ; want
 7	ŋaː	ŋaː	NOUN	_	Definite=Def	6	comp:obj	_	AlignBegin=720720|AlignEnd=720840|Gloss=child
 8	-ês	-ês	DET	_	Definite=Def	7	af:det	_	AlignBegin=720840|AlignEnd=720960|Gloss=-Def
-9	ɗan	ɗan	SCONJ	_	_	3	mod@relcl	_	AlignBegin=722460|AlignEnd=722628|Gloss=like
+9	ɗan	ɗan	SCONJ	_	_	6	mod:mod@relcl	_	AlignBegin=722460|AlignEnd=722628|Gloss=like
 10	vìː	vìː	NOUN	_	_	11	comp:obj	_	AlignBegin=722628|AlignEnd=722796|Gloss=mouth
 11	súː	súː	VERB	_	_	9	comp:obj	_	AlignBegin=722796|AlignEnd=722964|Gloss=like ; love ; want
-12	nákat	nákat	NOUN	_	_	6	comp:obj	_	AlignBegin=722964|AlignEnd=723132|Gloss=food
-13	kóː	kóː	CCONJ	_	_	14	cc	_	AlignBegin=724640|AlignEnd=724963|Gloss=even
-14	tsə̀tngə̀n	tsə́tn	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	11	comp:obj	_	AlignBegin=724963|AlignEnd=725125|Gloss=sit-Vnoun|wordform=tsə́tn
-15	gə̀t	gə̀t	NOUN	_	_	14	mod	_	AlignBegin=725286|AlignEnd=725609|Gloss=wife
-16	tə́	tə́	ADP	_	_	11	comp:obj	_	AlignBegin=725609|AlignEnd=725932|Gloss=with
-17	tu:ri	tu:r	VERB	_	Definite=Ind	16	comp:aux	_	AlignBegin=725932|AlignEnd=726094|Gloss=husband-Ind|wordform=tu:r
-18	ʧíyǎː	yí-yáː	AUX	_	Aspect=Imp|Mood=Irr|Number=Sing|Person=3	17	mod	_	AlignBegin=728080|AlignEnd=728376|Gloss=3Sing.CTF.Imp
-19	wusúŋ	wusún	VERB	_	_	18	comp:aux	_	AlignBegin=728376|AlignEnd=728672|Gloss=be_nice
-20	ɗan	ɗan	SCONJ	_	_	19	mod@relcl	_	AlignBegin=728672|AlignEnd=728968|Gloss=like
-21	dǔːm	dǔːm	NOUN	_	_	20	comp:obj	_	AlignBegin=728968|AlignEnd=729264|Gloss=honey
-22	ɓét	ɓét	IDEO	_	_	21	mod	_	AlignBegin=730580|AlignEnd=730730|Gloss=all
-23	tə́	tə́	ADP	_	_	26	comp:obl	_	AlignBegin=730730|AlignEnd=730880|Gloss=with
-24	gíː	gíː	PRON	_	Deixis=Dist|PronType=Dem	25	subj	_	AlignBegin=730880|AlignEnd=731030|Gloss=Dist
-25	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	20	comp:obj	_	AlignBegin=732280|AlignEnd=732445|Gloss=3Sing.Fut
-26	ɓəːlí	ɓəːl	VERB	_	_	25	comp:aux	_	AlignBegin=732445|AlignEnd=732527|Gloss=divide
-27	=íː	=íː	PART	_	_	26	clit:mod	_	AlignBegin=732527|AlignEnd=732610|Gloss=Res|Result=Yes|wordform=-íː
-28	sát	sát	IDEO	_	_	25	mod	_	AlignBegin=732610|AlignEnd=732775|Gloss=quiet
-29	//	//	PUNCT	_	_	5	punct	_	AlignBegin=732775|AlignEnd=732940|Gloss=PUNCT
+12	nákat	nákat	NOUN	_	_	11	comp:obj	_	AlignBegin=722964|AlignEnd=723132|Gloss=food
+13	>	>	PUNCT	_	_	1	punct	_	AlignBegin=722964|AlignEnd=723132|Gloss=PUNCT
+14	kóː	kóː	SCONJ	_	_	28	mod	_	AlignBegin=724640|AlignEnd=724963|Gloss=even
+15	tsə̀tngə̀n	tsə́tn	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	19	subj	_	AlignBegin=724963|AlignEnd=725125|Gloss=sit-Vnoun|wordform=tsə́tn
+16	gə̀t	gə̀t	NOUN	_	_	15	mod	_	AlignBegin=725286|AlignEnd=725609|Gloss=wife
+17	tə́	tə́	CCONJ	_	_	18	cc	_	AlignBegin=725609|AlignEnd=725932|Gloss=with
+18	tu:ri	tu:r	NOUN	_	Definite=Ind	16	conj:coord	_	AlignBegin=725932|AlignEnd=726094|Gloss=husband-Ind|wordform=tu:r
+19	ʧíyǎː	yí-yáː	AUX	_	Aspect=Imp|Mood=Irr|Number=Sing|Person=3	14	comp:obj	_	AlignBegin=728080|AlignEnd=728376|Gloss=3Sing.CTF.Imp
+20	wusúŋ	wusún	VERB	_	_	19	comp:aux	_	AlignBegin=728376|AlignEnd=728672|Gloss=be_nice
+21	ɗan	ɗan	SCONJ	_	_	20	mod@relcl	_	AlignBegin=728672|AlignEnd=728968|Gloss=like
+22	dǔːm	dǔːm	NOUN	_	_	21	comp:obj	_	AlignBegin=728968|AlignEnd=729264|Gloss=honey
+23	>	>	PUNCT	_	_	14	punct	_	AlignBegin=728968|AlignEnd=729264|Gloss=PUNCT
+24	ɓét	ɓét	IDEO	_	ExtPos=ADP	28	mod	_	AlignBegin=730580|AlignEnd=730730|Gloss=all|Idiom=Yes
+25	tə́	tə́	ADP	_	_	24	unk	_	AlignBegin=730730|AlignEnd=730880|Gloss=with|InIdiom=Yes
+26	gíː	gíː	PRON	_	Deixis=Dist|PronType=Dem	24	comp:obj	_	AlignBegin=730880|AlignEnd=731030|Gloss=Dist
+27	>	>	PUNCT	_	_	24	punct	_	AlignBegin=730880|AlignEnd=731030|Gloss=PUNCT
+28	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=732280|AlignEnd=732445|Gloss=3Sing.Fut
+29	ɓəːlí	ɓəːl	VERB	_	_	28	comp:aux	_	AlignBegin=732445|AlignEnd=732527|Gloss=divide
+30	=íː	=íː	PART	_	_	29	clit:mod	_	AlignBegin=732527|AlignEnd=732610|Gloss=Res|Result=Yes|wordform=-íː
+31	sát	sát	IDEO	_	_	28	mod	_	AlignBegin=732610|AlignEnd=732775|Gloss=quiet
+32	//	//	PUNCT	_	_	28	punct	_	AlignBegin=732775|AlignEnd=732940|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_335-336
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
@@ -2439,7 +2444,7 @@
 # sent_id = SAY_BC_READ_03_Sermon_355-359
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 779060, 789240
-# text = dzàŋ gíː -ês ʧǎː máni -kə́nì -ɗi / ɗan kúni ŋaː -́ ʧokn / Yéːsu / wò ɬə -ár kóːnúː ká lə̂p yóːɗan / á kap -ár ríː -kə́nì =wôs //
+# text = dzàŋ gíː -ês ʧǎː máni -kə́nì -ɗi / ɗan kúni ŋaː -́ ʧokn / Yéːsu / wò ɬə -ár kóːnúː ká lə̂p yóːɗan / á kap -ár ríː -kə́nì =wôs //
 # text_ortho = dzàŋ gêːs ʧǎː máːɣə́nɗì / ɗan kúni ŋǎː ʧokn / Yéːsu / wò ɬə́ːr kóːnúː á lə̂p yóːɗan / á kâɓár ríːɣə́nwòs //
 # text_en =  The day is coming when the son of God (Jesus) will take everyone to the place that fits his behaviour.
 1	dzàŋ	dzàŋ	NOUN	_	_	4	mod	_	AlignBegin=779060|AlignEnd=779312|Gloss=day
@@ -2459,21 +2464,21 @@
 15	ká	a	AUX	_	Number=Plur|Person=2|Tense=Fut	17	comp:obj	_	AlignBegin=786149|AlignEnd=786432|Gloss=at
 16	lə̂p	lə̂p	NOUN	_	_	15	comp:obj	_	AlignBegin=786432|AlignEnd=786715|Gloss=place
 17	yóːɗan	yóːɗan	PRON	_	PronType=Rel	13	mod	_	AlignBegin=786715|AlignEnd=786998|Gloss=which
-18	á	ká	ADP	_	_	17	comp:obj	_	AlignBegin=788120|AlignEnd=788400|Gloss=3Sing.Aor
+18	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	17	comp:obj	_	AlignBegin=788120|AlignEnd=788400|Gloss=3Sing.Aor
 19	kaɓár	kap	VERB	_	_	18	comp:aux	_	AlignBegin=788400|AlignEnd=788540|Gloss=take-Cau|wordform=kap
 20	 ríːɣə́n	ríː	NOUN	_	ExtPos=NOUN|VerbForm=Vnoun	19	comp:obj	_	AlignBegin=788680|AlignEnd=788773|Gloss=travel-Vnoun|wordform=ríː
 21	=wôs	=wôs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	20	mod@poss	_	AlignBegin=788866|AlignEnd=788960|Gloss=3Sing.Gen
 22	//	//	PUNCT	_	_	4	punct	_	AlignBegin=788960|AlignEnd=789240|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_360-362
+# text = vìː ʧokn wul tu dzàŋ gíː -ês ka tu mə́mmonʧí mbə́ɬəŋ námtsə á gìːɣə̀n kîtn //
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 789940, 796380
-# text = vìː ʧokn wul tu / dzàŋ gíː -ês / ka tu mə́mmonʧí mbə́ɬəŋ námtsə ká giː -kə́nì kîtn /
 # text_ortho = vìː ʧokn wùl tu / dzàŋ gêːs / ka tu mə́mmonʧí mbə́ɬəŋ námtsə ká gìːɣə̀n kîtn /
-# text_en =  God's words say that that day two men will be in the field.
+# text_en = The Bible says that that day two men will be in the field.
 1	vìː	vìː	NOUN	_	_	3	subj	_	AlignBegin=789940|AlignEnd=790132|Gloss=speech
-2	ʧokn	ʧokn	NOUN	_	_	0	root	_	AlignBegin=790132|AlignEnd=790324|Gloss=God
-3	wul	wul	VERB	_	_	2	comp:aux	_	AlignBegin=790324|AlignEnd=790516|Gloss=say
+2	ʧokn	ʧokn	NOUN	_	_	1	compound	_	AlignBegin=790132|AlignEnd=790324|Gloss=God
+3	wul	wul	VERB	_	_	0	root	_	AlignBegin=790324|AlignEnd=790516|Gloss=say
 4	tu	tu	SCONJ	_	_	3	comp:obj	_	AlignBegin=790516|AlignEnd=790708|Gloss=COMP
 5	dzàŋ	dzàŋ	NOUN	_	_	8	mod	_	AlignBegin=792320|AlignEnd=792553|Gloss=day
 6	gíː	gíː	PRON	_	Deixis=Dist	5	mod@poss	_	AlignBegin=792553|AlignEnd=792669|Gloss=Dist
@@ -2483,9 +2488,10 @@
 10	mə́mmonʧí	mə́mmonʧí	NOUN	_	Number=Plur	9	comp:obj	_	AlignBegin=794498|AlignEnd=794767|Gloss=man.Plur
 11	mbə́ɬəŋ	mbə	VERB	_	_	10	mod	_	AlignBegin=794767|AlignEnd=795036|Gloss=two
 12	námtsə	námtsə	NOUN	_	_	10	compound	_	AlignBegin=795036|AlignEnd=795305|Gloss=bush
-13	ká	a	ADP	_	_	9	comp:obl	_	AlignBegin=795305|AlignEnd=795574|Gloss=at
+13	á	ká	ADP	_	_	9	comp:obl	_	AlignBegin=795305|AlignEnd=795574|Gloss=at
 14	gìːɣə̀n	giː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	13	comp:obj	_	AlignBegin=795574|AlignEnd=795708|Gloss=plough-Vnoun|wordform=giː
 15	kîtn	kîtn	NOUN	_	_	14	comp:obj	_	AlignBegin=795843|AlignEnd=796112|Gloss=farm
+16	//	//	PUNCT	_	_	3	punct	_	AlignBegin=795843|AlignEnd=796112|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_363-364
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
