@@ -459,14 +459,14 @@
 # text = yi ʃaŋtaŋ / də̀llə́k vìː ʧiɣá ɓup -kə́nì kóːnúː //
 # text_ortho = yi ʃaŋtaŋ / də̀llə́ vìː ʧaː ɓúpkə̂n kóːnúː //
 # text_en =  Verily, the revelation is there for everyone.
-1	yi	yi	VERB	_	_	0	root	_	AlignBegin=130020|AlignEnd=130307|Gloss=be
-2	ʃaŋtaŋ	ʃaŋtaŋ	NOUN	_	_	1	comp:pred	_	AlignBegin=130307|AlignEnd=130594|Gloss=true
-3	də̀llə́k	də̀llə́k	NOUN	_	_	1	comp:pred	_	AlignBegin=132020|AlignEnd=132323|Gloss=big
-4	vìː	vìː	NOUN	_	_	1	subj	_	AlignBegin=132323|AlignEnd=132626|Gloss=speech
-5	ʧiɣá	yiká	ADV	_	_	1	comp:pred	_	AlignBegin=132626|AlignEnd=132929|Gloss=3Sing.CONT
+1	yi	yi	VERB	_	_	5	mod	_	AlignBegin=130020|AlignEnd=130307|Gloss=be
+2	ʃaŋtaŋ	ʃaŋtaŋ	ADJ	_	_	1	comp:pred	_	AlignBegin=130307|AlignEnd=130594|Gloss=true
+3	də̀llə́k	də̀llə́k	ADJ	_	_	4	mod	_	AlignBegin=132020|AlignEnd=132323|Gloss=big
+4	vìː	vìː	NOUN	_	_	5	subj	_	AlignBegin=132323|AlignEnd=132626|Gloss=speech
+5	ʧiɣá	yiká	AUX	_	Aspect=Prog|Number=Sing|Person=3	0	root	_	AlignBegin=132626|AlignEnd=132929|Gloss=3Sing.CONT
 6	ɓúpkə̂n	ɓup	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=132929|AlignEnd=133081|Gloss=wait-Vnoun|wordform=ɓup
-7	kóːnúː	kóːnúː	PRON	_	_	6	comp:obj	_	AlignBegin=133232|AlignEnd=133535|Gloss=everyone
-8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=133535|AlignEnd=133840|Gloss=PUNCT
+7	kóːnúː	kóːnúː	PRON	_	_	6	udep	_	AlignBegin=133232|AlignEnd=133535|Gloss=everyone
+8	//	//	PUNCT	_	_	5	punct	_	AlignBegin=133535|AlignEnd=133840|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_060-064
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
@@ -1027,8 +1027,8 @@
 # text_en =  If they ask him this, he should answer that.
 1	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=313200|AlignEnd=313527|Gloss=3Plur.Cond
 2	ʧet	ʧet	VERB	_	_	1	comp:aux	_	AlignBegin=313527|AlignEnd=313691|Gloss=ask
-3	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=313691|AlignEnd=313854|Gloss==3Sing.Acc
-4	tə̀	tə̀	ADP	_	Mood=Sub|Number=Sing|Person=3	2	comp:obl	_	AlignBegin=314940|AlignEnd=315100|Gloss=3Sing.Sub
+3	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp@R	_	AlignBegin=313691|AlignEnd=313854|Gloss==3Sing.Acc
+4	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	2	comp:obj	_	AlignBegin=314940|AlignEnd=315100|Gloss=3Sing.Sub
 5	kon	kon	VERB	_	_	4	comp:aux	_	AlignBegin=315100|AlignEnd=315260|Gloss=say
 6	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	mod@ethical	_	AlignBegin=315260|AlignEnd=315420|Gloss=3Sing.Gen
 7	tsəní	tsəní	ADV	_	_	2	mod	_	AlignBegin=315420|AlignEnd=315580|Gloss=like_this
@@ -1238,7 +1238,7 @@
 # sent_id = SAY_BC_READ_03_Sermon_168-172
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 372160, 380320
-# text = ká kâːr gíː / mə̀ ndəːr tsə́tn -kə́nì =wôpm -íː / nə́ dur kə́ tu / máni -kə́nì ʧóknvòn -ês / àː tul -íː -ɗi mel //
+# text = ká kâːr gíː / mə̀ ndəːr tsə́tn -ɣə́nì =wôpm -íː / nə́ dur kə́ tu / máni -kə́nì ʧóknvòn -ês / àː tul -íː -ɗi mel //
 # text_ortho = á kâːr gíː / mə̀ ndə̀ːr tsə́tngə́nwòpíː / nə́ dur ɣə́ tu / máːɣə̂n ʧóknvònès / àː tulíːɗi mel //
 # text_en =  After that, we should amend ourselves for the reason that the kingdom of heaven is close.
 1	ká	a	AUX	_	Number=Plur|Person=2|Tense=Fut	0	root	_	AlignBegin=372160|AlignEnd=372360|Gloss=at
@@ -1249,14 +1249,14 @@
 6	tsə́tngə́n	tsə́tn	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	5	comp:obj	_	AlignBegin=374510|AlignEnd=374576|Gloss=sit-Vnoun|wordform=tsə́tn
 7	=wôpm	=woopm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	6	mod@poss	_	AlignBegin=374642|AlignEnd=374708|Gloss=1Plur.Gen
 8	-íː	-íː	DET	_	Deixis=Remt	5	af:mod	_	AlignBegin=374708|AlignEnd=374775|Gloss=-Res
-9	nə́	nə́	ADP	_	ExtPos=ADP	5	mod	_	AlignBegin=375920|AlignEnd=376080|Gloss=for
-10	dur	dur	ADP	_	_	9	unk	_	AlignBegin=376080|AlignEnd=376240|Gloss=occasion
-11	kə́	á	ADP	_	_	9	conj:coord	_	AlignBegin=376240|AlignEnd=376400|Gloss=of|nWord=11|RX=[PTCL]
-12	tu	tu	VERB	_	_	11	comp:aux	_	AlignBegin=376400|AlignEnd=376560|Gloss=COMP
-13	máːɣə̂n	máni	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	12	comp:obj	_	AlignBegin=377960|AlignEnd=378154|Gloss=come-Vnoun|wordform=máni
+9	nə́	nə́	ADP	_	ExtPos=ADP	5	mod	_	AlignBegin=375920|AlignEnd=376080|Gloss=for|Idiom=Yes
+10	dur	dur	NOUN	_	_	9	comp:obj	_	AlignBegin=376080|AlignEnd=376240|Gloss=occasion|InIdiom=Yes
+11	ɣə́	kə́	ADP	_	_	10	comp:obj	_	AlignBegin=376240|AlignEnd=376400|Gloss=of|InIdiom=Yes|nWord=11|RX=[PTCL]
+12	tu	tu	PART	_	_	11	unk	_	AlignBegin=376400|AlignEnd=376560|Gloss=COMP
+13	máːɣə̂n	máni	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	16	subj	_	AlignBegin=377960|AlignEnd=378154|Gloss=come-Vnoun|wordform=máni
 14	ʧóknvòn	ʧóknvòn	NOUN	_	_	13	comp:obj	_	AlignBegin=378347|AlignEnd=378541|Gloss=God
 15	-ês	-ês	DET	_	Definite=Def	14	af:det	_	AlignBegin=378541|AlignEnd=378734|Gloss=-Def
-16	àː	tə̀	AUX	_	Aspect=Perf|Number=Sing|Person=3	10	comp:obj	_	AlignBegin=379520|AlignEnd=379720|Gloss=3Sing.CPlur
+16	àː	tə̀	AUX	_	Aspect=Perf|Number=Sing|Person=3	9	comp:obj	_	AlignBegin=379520|AlignEnd=379720|Gloss=3Sing.CPlur
 17	tul	tul	VERB	_	_	16	comp:aux	_	AlignBegin=379720|AlignEnd=379787|Gloss=reach ; pierce
 18	=íː	=íː	PART	_	_	17	clit:mod	_	AlignBegin=379787|AlignEnd=379854|Gloss=Res|Result=Yes|wordform=-íː
 19	-ɗi	-ɗi	PART	_	_	17	compound:prt	_	AlignBegin=379854|AlignEnd=379920|Gloss=CTP

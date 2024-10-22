@@ -14,8 +14,8 @@
 # text = gàːta gàːtáwâːn //
 # text_ortho = gàːta gàːtáwâːn //
 # text_en =  Here is a tale for you.
-1	gàːta	gàːta	NOUN	_	_	0	root	_	AlignBegin=2946|AlignEnd=3231|Gloss=X
-2	gàːtáwâːn	gàːtáwâːn	VERB	_	_	1	comp:aux	_	AlignBegin=3231|AlignEnd=3516|Gloss=X
+1	gàːta	gàːta	X	_	_	0	root	_	AlignBegin=2946|AlignEnd=3231|Gloss=X
+2	gàːtáwâːn	gàːtáwâːn	X	_	_	1	flat:title	_	AlignBegin=3231|AlignEnd=3516|Gloss=X
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=3516|AlignEnd=3800|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_Kadi_gi_kitn_003-003
@@ -410,7 +410,7 @@
 2	-sə	-sə	DET	_	Deixis=Remt	1	af:det	_	AlignBegin=91534|AlignEnd=91647|Gloss=Plur
 3	nʤwâːtn	nʤwâːtn	ADJ	_	_	1	mod	_	AlignBegin=91647|AlignEnd=91874|Gloss=little
 4	kən	kən	PART	_	_	0	root	_	AlignBegin=91874|AlignEnd=92101|Gloss=COP2
-5	tə́	á	ADP	_	_	4	comp:cleft	_	AlignBegin=92101|AlignEnd=92328|Gloss=3Plur.Aor
+5	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	4	comp:cleft	_	AlignBegin=92101|AlignEnd=92328|Gloss=3Plur.Aor
 6	láːp	láːp	VERB	_	_	5	comp:aux	_	AlignBegin=92328|AlignEnd=92555|Gloss=follow
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=92555|AlignEnd=92780|Gloss=PUNCT
 
@@ -453,7 +453,7 @@
 # sent_id = SAY_BC_READ_12_NAR_Kadi_gi_kitn_046-048
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_12_NARR_Kadi_gi_kitn.WAV
 # sent_timecode = 100020, 104380
-# text = séː ɗa á gəm kə́ mâːy -ês -íː / séː gùŋ ʃi -̀ =ʃí / ʧáː láːp -ni ɗan //
+# text = séː ɗa á gəm kə́ mâːy -ês -íː séː gùŋ ʃìʃí ʧáː láːp -ni ɗan //
 # text_ortho = séy ɗǎː gə̀m kə́ máːyêʃíː / séy gùŋ ʃìʃí / ʧáː láːpni ɗan //
 # text_en =  Then as he released the third one the king got up and followed too.
 1	séː	séː	ADV	_	_	3	mod	_	AlignBegin=100020|AlignEnd=100250|Gloss=then
@@ -466,13 +466,12 @@
 8	-íː	-íː	PRON	_	Deixis=Dist	4	af:mod	_	AlignBegin=101094|AlignEnd=101170|Gloss=Dist
 9	séː	séː	ADV	_	_	3	mod	_	AlignBegin=102220|AlignEnd=102415|Gloss=then
 10	gùŋ	gùŋ	NOUN	_	_	9	comp:obj	_	AlignBegin=102415|AlignEnd=102610|Gloss=chief
-11	ʃi	ʃi	X	_	_	9	comp:obj	_	AlignBegin=102610|AlignEnd=102675|Gloss=3.Sing
-12	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	comp:obj	_	AlignBegin=102740|AlignEnd=102805|Gloss=3Plur.OBJ ; 3Plur.Gen
-13	ʧáː	yáː	VERB	_	_	9	comp:obj	_	AlignBegin=103520|AlignEnd=103735|Gloss=3Sing.Imp
-14	láːp	láːp	VERB	_	_	13	comp:aux	_	AlignBegin=103735|AlignEnd=103843|Gloss=follow
-15	-ni	-ni	DET	_	Deixis=Remt	14	af:mod	_	AlignBegin=103843|AlignEnd=103950|Gloss=INCH
-16	ɗan	ɗan	ADV	_	_	14	mod	_	AlignBegin=103950|AlignEnd=104165|Gloss=too
-17	//	//	PUNCT	_	_	3	punct	_	AlignBegin=104165|AlignEnd=104380|Gloss=PUNCT
+11	ʃìʃí	ʃiʃí	X	_	_	9	comp:obj	_	AlignBegin=102610|AlignEnd=102675|Gloss=get_up
+12	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	9	comp:obj	_	AlignBegin=103520|AlignEnd=103735|Gloss=3Sing.Imp
+13	láːp	láːp	VERB	_	_	12	comp:aux	_	AlignBegin=103735|AlignEnd=103843|Gloss=follow
+14	-ni	-ni	PART	_	Deixis=Remt	13	af:mod	_	AlignBegin=103843|AlignEnd=103950|Gloss=INCH
+15	ɗan	ɗan	ADV	_	_	13	mod	_	AlignBegin=103950|AlignEnd=104165|Gloss=too
+16	//	//	PUNCT	_	_	3	punct	_	AlignBegin=104165|AlignEnd=104380|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_Kadi_gi_kitn_049-052
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_12_NARR_Kadi_gi_kitn.WAV
@@ -625,7 +624,7 @@
 # text_ortho = kən kə́ lǎːp //
 # text_en =  That's what you followed.
 1	kən	kən	PART	_	_	0	root	_	AlignBegin=143280|AlignEnd=143425|Gloss=COP2
-2	kə́	á	ADP	_	_	1	comp:cleft	_	AlignBegin=143425|AlignEnd=143570|Gloss=2Plur.Aor
+2	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	1	comp:cleft	_	AlignBegin=143425|AlignEnd=143570|Gloss=2Plur.Aor
 3	láːp	láːp	VERB	_	_	2	comp:aux	_	AlignBegin=143570|AlignEnd=143715|Gloss=follow
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=143715|AlignEnd=143860|Gloss=PUNCT
 
@@ -790,7 +789,7 @@
 # sent_id = SAY_BC_READ_12_NAR_Kadi_gi_kitn_084-088
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_12_NARR_Kadi_gi_kitn.WAV
 # sent_timecode = 177900, 187160
-# text = séː / á mbiː daː -íː / ɗan àː mə =ʃí -íː / gaː -íː ʤàŋyèr / á ta -íː á gaː gaːm -́ múr -íː ɗan àː mə =ʃí -íː ɗa wíndo -i //
+# text = séː / á mbiː daː -íː / ɗan àː mə =ʃí -íː / gaː -íː ʤàŋyèr / á ta -íː á gaː gaːm -́ múr -íː ɗan àː mə =ʃí -íː ɗa wíndo -i //
 # text_ortho = séy / á mbîː dàːʃíː / ɗan àː məʃíː / gáːy ʤàŋyèr / á tǎy á gàː gǎːm múríː ɗan àː məʃíː ɗa wíndoy //
 # text_en =  Then, he took the man who was dead, carried him on his shoulders and put the head of the man who had died on the window.
 1	séː	séː	ADV	_	_	2	mod	_	AlignBegin=177900|AlignEnd=178050|Gloss=then
@@ -809,7 +808,7 @@
 14	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	6	comp:obj	_	AlignBegin=184240|AlignEnd=184483|Gloss=3Sing.Aor
 15	ta	ta	VERB	_	_	14	comp:aux	_	AlignBegin=184483|AlignEnd=184605|Gloss=climb
 16	=íː	=íː	PART	_	_	15	clit:mod	_	AlignBegin=184605|AlignEnd=184726|Gloss=Res|Result=Yes|wordform=-íː
-17	á	ká	ADP	_	Aspect=Aor|Number=Sing|Person=3	14	conj:svc	_	AlignBegin=184726|AlignEnd=184969|Gloss=3Sing.Aor
+17	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	14	conj:svc	_	AlignBegin=184726|AlignEnd=184969|Gloss=3Sing.Aor
 18	gaː	gaː	VERB	_	_	17	comp:aux	_	AlignBegin=184969|AlignEnd=185212|Gloss=put
 19	gaːm	gaːm	NOUN	_	_	18	comp:obj	_	AlignBegin=185212|AlignEnd=185334|Gloss=head
 20	múr	múr	NOUN	_	_	18	comp:obj	_	AlignBegin=185455|AlignEnd=185577|Gloss=man
@@ -1921,7 +1920,7 @@
 # text = á ngap tə̂pm kàːsuwa / á ɬə nə́ ɗiːp / kéndə̂r =wôs -́ɗi mondá //
 # text_ortho = á ngâp tə́pm kàːsuwa / á ɬə́n ɗiːp / kéndə́rwòsɗì mondá //
 # text_en =  He went to the market and bought many candles.
-1	á	á	ADP	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=448480|AlignEnd=448696|Gloss=3Sing.Aor
+1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=448480|AlignEnd=448696|Gloss=3Sing.Aor
 2	ngap	ngap	VERB	_	_	1	comp:aux	_	AlignBegin=448696|AlignEnd=448912|Gloss=catch
 3	tə̂pm	tə̂pm	NOUN	_	_	2	comp:obj	_	AlignBegin=448912|AlignEnd=449128|Gloss=road
 4	kàːsuwa	kàːsuwa	NOUN	_	_	2	comp:obj	_	AlignBegin=449128|AlignEnd=449344|Gloss=market
@@ -2417,7 +2416,7 @@
 # text = tə́ dingá ʧík / hár tə́ tul -íː də̀n //
 # text_ortho = tə́ dìngá ʧík / hár tə́ tûlíː də̀n //
 # text_en =  They went on like this until they reached the house.
-1	tə́	á	ADP	_	_	0	root	_	AlignBegin=567620|AlignEnd=567770|Gloss=3Plur.Aor
+1	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=567620|AlignEnd=567770|Gloss=3Plur.Aor
 2	dingá	kingá	ADP	_	_	1	comp:aux	_	AlignBegin=567770|AlignEnd=567920|Gloss=continue
 3	ʧík	ʧík	ADV	_	_	2	mod	_	AlignBegin=567920|AlignEnd=568070|Gloss=thus
 4	hár	hár	ADP	_	_	2	mod	_	AlignBegin=569020|AlignEnd=569196|Gloss=until
@@ -2784,7 +2783,7 @@
 19	ɲíː	ɲíː	VERB	_	_	18	comp:obj	_	AlignBegin=658462|AlignEnd=658656|Gloss=daughter
 20	kə́	kə́	AUX	_	_	19	mod	_	AlignBegin=658656|AlignEnd=658850|Gloss=of|nWord=20|RX=[PTCL]
 21	gùŋ	gùŋ	NOUN	_	_	20	comp:obj	_	AlignBegin=658850|AlignEnd=659044|Gloss=chief
-22	á	á	ADP	_	Aspect=Aor|Number=Sing|Person=3	18	comp:obj	_	AlignBegin=660020|AlignEnd=660186|Gloss=3Sing.Aor
+22	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	18	comp:obj	_	AlignBegin=660020|AlignEnd=660186|Gloss=3Sing.Aor
 23	kap	kap	VERB	_	_	22	comp:aux	_	AlignBegin=660186|AlignEnd=660352|Gloss=take
 24	mə̂ːr	mə̂ːr	NOUN	_	_	23	comp:obj	_	AlignBegin=660352|AlignEnd=660518|Gloss=thief
 25	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	19	comp:cleft	_	AlignBegin=660518|AlignEnd=660684|Gloss=3Sing.Fut
@@ -2796,16 +2795,17 @@
 # sent_id = SAY_BC_READ_12_NAR_Kadi_gi_kitn_318-318
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_12_NARR_Kadi_gi_kitn.WAV
 # sent_timecode = 662060, 663360
-# text = tə́ ɗakár ɲíː -ês -íː ká nòːmáw /
+# text = tə́ ɗakár ɲíː -ês -íː á Nòːmáw //
 # text_ortho = tə́ ɗâkár ɲêːsíː ká nòːmáw /
 # text_en =  They refused to marry the girl to Nomau.
-1	tə́	tə́	ADP	_	_	6	cc	_	AlignBegin=662060|AlignEnd=662277|Gloss=3Plur.Aor
+1	tə́	tə́	ADP	_	_	0	root	_	AlignBegin=662060|AlignEnd=662277|Gloss=3Plur.Aor
 2	ɗakár	ɗakár	IDEO	_	_	1	comp:obj	_	AlignBegin=662277|AlignEnd=662494|Gloss=forbid
 3	ɲíː	ɲíː	NOUN	_	Definite=Def	2	comp:obj	_	AlignBegin=662494|AlignEnd=662566|Gloss=girl
 4	-ês	-ês	DET	_	Definite=Def	3	af:det	_	AlignBegin=662566|AlignEnd=662638|Gloss=-Def
 5	-íː	-íː	PRON	_	Deixis=Dist	3	af:mod	_	AlignBegin=662638|AlignEnd=662711|Gloss=Dist
-6	ká	ká	ADP	_	_	0	root	_	AlignBegin=662711|AlignEnd=662928|Gloss=at
-7	nòːmáw	nòːmáw	VERB	_	_	6	comp:aux	_	AlignBegin=662928|AlignEnd=663145|Gloss=Nomau
+6	á	ká	ADP	_	_	2	comp:obl	_	AlignBegin=662711|AlignEnd=662928|Gloss=at
+7	Nòːmáw	Nòːmáw	PROPN	_	_	6	comp:obj	_	AlignBegin=662928|AlignEnd=663145|Gloss=Nomau
+8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=662928|AlignEnd=663145|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_Kadi_gi_kitn_319-319
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_12_NARR_Kadi_gi_kitn.WAV
@@ -2875,7 +2875,7 @@
 27	-íː	-íː	PRON	_	Deixis=Dist	24	af:mod	_	AlignBegin=676105|AlignEnd=676180|Gloss=Dist
 28	tə́	tə́	ADP	_	_	18	comp:obl	_	AlignBegin=676180|AlignEnd=676405|Gloss=with
 29	kávit	kávit	NOUN	_	_	28	comp:obj	_	AlignBegin=676405|AlignEnd=676630|Gloss=night
-30	á	á	ADP	_	Aspect=Aor|Number=Sing|Person=3	25	conj:coord	_	AlignBegin=677380|AlignEnd=677600|Gloss=3Sing.Aor
+30	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	25	conj:coord	_	AlignBegin=677380|AlignEnd=677600|Gloss=3Sing.Aor
 31	mbiː	mbiː	VERB	_	_	30	comp:aux	_	AlignBegin=677600|AlignEnd=677820|Gloss=take
 32	amarya	amarya	NOUN	_	Definite=Def	35	comp:pred	_	AlignBegin=677820|AlignEnd=677893|Gloss=bride
 33	-ês	-ês	DET	_	Definite=Def	29	af:det	_	AlignBegin=677893|AlignEnd=677966|Gloss=-Def
