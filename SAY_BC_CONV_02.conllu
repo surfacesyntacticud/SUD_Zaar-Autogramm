@@ -715,21 +715,20 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 104465, 107001
-# text = gerʃês kúmá < gòpès ʧì nə məːri nʤótn nʤótn //
+# text = gerʃês kúmá < gòpm -ês ʧì nə məːri nʤótn nʤótn //
 # text_ortho = gerʃês kúmá < gòpès ʧì nə məːri nʤótn nʤǒtn //
 # text_en = The chicken too, ours are very small.
-1	gerʃês	gèri	NOUN	_	Definite=Def|Number=Plur	7	dislocated@subj	_	AlignBegin=104465|AlignEnd=104571|Gloss=chicken.Plur
+1	gerʃês	gèri	NOUN	_	Definite=Def|Number=Plur	6	dislocated@subj	_	AlignBegin=104465|AlignEnd=104571|Gloss=chicken.Plur
 2	kúmá	kúmá	PART	_	_	1	discourse	_	AlignBegin=104782|AlignEnd=105099|Gloss=also
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=105099|AlignEnd=105417|Gloss=PUNCT
-4	gòpm	gòpm	PRON	_	Case=Gen|Definite=Def|Number=Plur|Person=1|PronType=Prs	7	dislocated@subj	_	AlignBegin=105417|AlignEnd=105549|Gloss=1Plur.Gen|wordform=gòpès
+4	gòpm	gòpm	PRON	_	Case=Gen|Definite=Def|Number=Plur|Person=1|PronType=Prs	6	dislocated@subj	_	AlignBegin=105417|AlignEnd=105549|Gloss=1Plur.Gen|wordform=gòpès
 5	-ês	-ês	DET	_	Definite=Def	4	af:det	_	Gloss=-Def
-6	tə̀	tə̀	PRON	_	Number=Plur|Person=3	7	subj	_	AlignBegin=105681|Gloss=3Plur
-7	yi	yi	VERB	_	_	0	root	_	AlignEnd=105945|Gloss=be
-8	nə	nə	PART	_	_	7	compound:prt	_	AlignBegin=105945|AlignEnd=106209|Gloss=unk
-9	məːri	məːri	ADJ	_	Number=Plur	7	comp:pred	_	AlignBegin=106209|AlignEnd=106473|Gloss=young
-10	nʤótn	nʤwâːtn	IDEO	_	ExtPos=ADV	9	mod	_	AlignBegin=106473|Gloss=small.INTENS
-11	nʤótn	nʤwâːtn	IDEO	_	ExtPos=ADV	10	compound:redup	_	AlignEnd=106737|Gloss=small.INTENS
-12	//	//	PUNCT	_	_	7	punct	_	AlignBegin=106737|AlignEnd=107001|Gloss=PUNCT
+6	ʧì	yi	AUX	_	_	0	root	_	AlignEnd=105945|Gloss=3Plur.be|wordform=yi
+7	nə	nə	PART	_	_	6	compound:prt	_	AlignBegin=105945|AlignEnd=106209|Gloss=unk
+8	məːri	məːri	ADJ	_	Number=Plur	6	comp:pred	_	AlignBegin=106209|AlignEnd=106473|Gloss=young
+9	nʤótn	nʤwâːtn	IDEO	_	ExtPos=ADV	8	mod	_	AlignBegin=106473|Gloss=small.INTENS
+10	nʤótn	nʤwâːtn	IDEO	_	ExtPos=ADV	9	compound:redup	_	AlignEnd=106737|Gloss=small.INTENS
+11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=106737|AlignEnd=107001|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_080-081
 # speaker_id = SP2
@@ -1292,7 +1291,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 170272, 176038
-# text = tôː gín tá < séː mə̀ tsə̌tnni káwêy mə̀ wùm ngə́r wéy ɗan ʧi káwêy ɣá məːrín ŋǎːn ?//
+# text = tôː gín tá < séː mə̀ tsə̌tnni káwêy mə̀ wùm ngə́r wéy ɗan ʧi káwêy ɣá məːri -ə́n ŋǎːn ?//
 # text_ortho = tôː gín tá < séː mə̀ tsə̌tnni káwêy mə̀ wùm ngə́r wéy ɗan ʧi káwêy ɣá məːrín ŋǎːn ?//
 # text_en = Well this indeed... shall we sit down and listen to what is going on with this boy ?
 1	tôː	tòː	PART	_	_	6	mod	_	AlignBegin=170272|AlignEnd=170493|Gloss=well
@@ -1310,15 +1309,13 @@
 12	ngə́r	ngə́tn	NOUN	_	_	11	comp:obj	_	AlignBegin=173120|AlignEnd=173349|Gloss=thing
 13	wéy	wéy	PART	_	Mood=Qot	14	discourse	_	AlignBegin=173349|AlignEnd=173578|Gloss=EVD
 14	ɗan	ɗan	SCONJ	_	_	12	mod@relcl	_	AlignBegin=173578|AlignEnd=173807|Gloss=REL
-15-16	ʧi	_	_	_	_	_	_	_	_
-15	tə-	-tə	PRON	_	Number=Sing|Person=3|PronType=Prs	16	af:subj	_	AlignBegin=174469|Gloss=3Sing|wordform=tə
-16	yi	yi	VERB	_	_	14	comp:obj	_	AlignEnd=174731|Gloss=be
-17	káwêy	káwêy	ADV	_	_	16	mod	_	AlignBegin=174731|AlignEnd=174993|Gloss=merely
-18	ɣá	ká	ADP	_	_	16	comp:pred	_	AlignBegin=174993|AlignEnd=175255|Gloss=at
-19	məːri	məːri	NOUN	_	_	18	comp:obj	_	AlignBegin=175255|AlignEnd=175386|Gloss=children|wordform=məːrín
-20	-ə́n	-ə́n	DET	_	Deixis=Prox	19	af:det	_	Gloss=-Prox
-21	ŋǎːn	ŋǎːn	PART	_	PartType=Int|Polarity=Neg	6	mod	_	AlignBegin=175517|AlignEnd=175648|Gloss=Q.Neg
-22	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=175779|AlignEnd=176038|Gloss=PUNCT
+15	ʧi	yi	AUX	_	_	14	comp:obj	_	AlignEnd=174731|Gloss=3Sing.be|wordform=yi
+16	káwêy	káwêy	ADV	_	_	15	mod	_	AlignBegin=174731|AlignEnd=174993|Gloss=merely
+17	ɣá	ká	ADP	_	_	15	comp:pred	_	AlignBegin=174993|AlignEnd=175255|Gloss=at
+18	məːri	məːri	NOUN	_	_	17	comp:obj	_	AlignBegin=175255|AlignEnd=175386|Gloss=children|wordform=məːrín
+19	-ə́n	-ə́n	DET	_	Deixis=Prox	18	af:det	_	Gloss=-Prox
+20	ŋǎːn	ŋǎːn	PART	_	PartType=Int|Polarity=Neg	6	mod	_	AlignBegin=175517|AlignEnd=175648|Gloss=Q.Neg
+21	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=175779|AlignEnd=176038|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_140-141
 # speaker_id = SP2
@@ -1707,18 +1704,16 @@
 # text = ʧi gòs nə ŋǎː || ŋǎː ɬəɓə́r ʧǎː ʃiʃíɣə́nì //
 # text_ortho = ʧi gòs nə ŋǎː || ŋǎː ʧǎː ʃiʃíɣə́nì //
 # text_en = As for him, he is a young... a young man who is growing.
-1-2	ʧi	_	_	_	_	_	_	_	_
-1	tə-	-tə	PRON	_	Number=Sing|Person=3|PronType=Prs	2	af:subj	_	AlignBegin=226492|Gloss=3Sing|wordform=tə
-2	yi	yi	VERB	_	_	0	root	_	AlignEnd=226668|Gloss=be
-3	gòs	gòs	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	mod@ethical	_	AlignBegin=226668|AlignEnd=226844|Gloss=3Sing.Gen
-4	nə	nə	AUX	_	_	2	compound:prt	_	AlignBegin=226844|AlignEnd=227020|Gloss=be
-5	ŋǎː	ŋǎː	ADJ	_	_	2	comp:pred	_	AlignBegin=227020|AlignEnd=227196|Gloss=child
-6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=227196|AlignEnd=227373|Gloss=PUNCT
-7	ŋǎː	ŋǎː	ADJ	_	_	5	conj:dicto	_	AlignBegin=227373|AlignEnd=227538|Gloss=young
-8	ɬəɓə́r	ɬəɓə́r	NOUN	_	_	7	compound	_	AlignBegin=227538|AlignEnd=227703|Gloss=youth
-9	ʧǎː	yiká	AUX	_	Aspect=Prog|Number=Plur|Person=3	7	mod@relcl	_	AlignBegin=228034|AlignEnd=228309|Gloss=3Plur.Prog
-10	ʃiʃíɣə́nì	ʃiʃí	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	9	comp:aux	_	AlignBegin=228309|AlignEnd=228447|Gloss=rise.Vnoun
-11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=228584|AlignEnd=228859|Gloss=PUNCT
+1	ʧi	yi	AUX	_	_	0	root	_	AlignEnd=226668|Gloss=3Sing.be|wordform=yi
+2	gòs	gòs	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	mod@ethical	_	AlignBegin=226668|AlignEnd=226844|Gloss=3Sing.Gen
+3	nə	nə	AUX	_	_	1	compound:prt	_	AlignBegin=226844|AlignEnd=227020|Gloss=be
+4	ŋǎː	ŋǎː	ADJ	_	_	1	comp:pred	_	AlignBegin=227020|AlignEnd=227196|Gloss=child
+5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=227196|AlignEnd=227373|Gloss=PUNCT
+6	ŋǎː	ŋǎː	ADJ	_	_	4	conj:dicto	_	AlignBegin=227373|AlignEnd=227538|Gloss=young
+7	ɬəɓə́r	ɬəɓə́r	NOUN	_	_	6	compound	_	AlignBegin=227538|AlignEnd=227703|Gloss=youth
+8	ʧǎː	yiká	AUX	_	Aspect=Prog|Number=Plur|Person=3	6	mod@relcl	_	AlignBegin=228034|AlignEnd=228309|Gloss=3Plur.Prog
+9	ʃiʃíɣə́nì	ʃiʃí	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	8	comp:aux	_	AlignBegin=228309|AlignEnd=228447|Gloss=rise.Vnoun
+10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=228584|AlignEnd=228859|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_184-184
 # speaker_id = SP1
@@ -3472,17 +3467,15 @@
 # text = káwêy > ʧì || ʧì tə́ laː hŋ́ //
 # text_ortho = káwêy > ʧi || ʧì tə́ laː hŋ́ //
 # text_en = They... they have no work.
-1	káwêy	káwêy	ADV	_	_	4	mod	_	AlignBegin=466502|AlignEnd=466697|Gloss=merely
+1	káwêy	káwêy	ADV	_	_	3	mod	_	AlignBegin=466502|AlignEnd=466697|Gloss=merely
 2	>	>	PUNCT	_	_	1	punct	_	AlignBegin=466697|AlignEnd=466892|Gloss=PUNCT
-3	tə̀	tə̀	PRON	_	Number=Plur|Person=3|PronType=Prs	4	subj	_	AlignBegin=467439|Gloss=3Plur
-4	yi	yi	VERB	_	_	0	root	_	AlignEnd=467535|Gloss=be
-5	||	||	PUNCT	_	_	7	punct	_	AlignBegin=467535|AlignEnd=467630|Gloss=PUNCT
-6	tə̀	tə̀	PRON	_	Number=Plur|Person=3|PronType=Prs	7	subj	_	AlignBegin=468385|Gloss=3Plur
-7	yi	yi	VERB	_	_	4	conj:dicto	_	AlignEnd=468583|Gloss=be
-8	tə́	tə́	ADP	_	_	7	comp:pred	_	AlignBegin=468583|AlignEnd=468781|Gloss=with
-9	laː	laː	NOUN	_	_	8	comp:obj	_	AlignBegin=468781|AlignEnd=468979|Gloss=work
-10	hŋ́	hŋ́	PART	_	Polarity=Neg	7	mod	_	AlignBegin=468979|AlignEnd=469177|Gloss=Neg
-11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=469177|AlignEnd=469375|Gloss=PUNCT
+3	ʧì	yi	AUX	_	_	0	root	_	AlignEnd=467535|Gloss=3Plur.be|wordform=yi
+4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=467535|AlignEnd=467630|Gloss=PUNCT
+5	ʧì	yi	AUX	_	_	3	conj:dicto	_	AlignEnd=468583|Gloss=3Plur.be|wordform=yi
+6	tə́	tə́	ADP	_	_	5	comp:pred	_	AlignBegin=468583|AlignEnd=468781|Gloss=with
+7	laː	laː	NOUN	_	_	6	comp:obj	_	AlignBegin=468781|AlignEnd=468979|Gloss=work
+8	hŋ́	hŋ́	PART	_	Polarity=Neg	5	mod	_	AlignBegin=468979|AlignEnd=469177|Gloss=Neg
+9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=469177|AlignEnd=469375|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_369-369
 # speaker_id = SP2
@@ -3551,15 +3544,14 @@
 # text = ʧì gwàːsə̀ŋ gá tsə́tngə́nwàːsə̀n ʧík //
 # text_ortho = ʧì gwàːsə̀ŋ gá tsə́tngə́nwàːsə̀n ʧík //
 # text_en = The only thing they are doing is sitting like this.
-1	tə̀	tə̀	PRON	_	Number=Plur|Person=3|PronType=Prs	2	subj	_	AlignBegin=476724|Gloss=3Plur
-2	yi	yi	VERB	_	_	0	root	_	AlignEnd=476954|Gloss=be
-3	gwàːsə̀ŋ	gwàːsə̀ŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	dislocated@top	_	AlignBegin=476954|AlignEnd=477184|Gloss=3Plur.Gen
-4	gá	ká	ADP	_	_	2	comp:pred	_	AlignBegin=477184|AlignEnd=477413|Gloss=at
-5-6	tsə́tngə́nwàːsə̀n	_	_	_	_	_	_	_	_
-5	tsə́tngə́n	tsə́tn	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=477413|AlignEnd=477514|Gloss=sit.Vnoun
-6	=wàːsə̀ŋ	=waːsəŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	5	mod@poss	_	AlignBegin=477615|AlignEnd=477715|Gloss=3Plur.Gen
-7	ʧík	ʧík	ADV	_	_	2	mod	_	AlignBegin=477715|AlignEnd=478017|Gloss=thus
-8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=478017|AlignEnd=478318|Gloss=PUNCT
+1	ʧì	yi	AUX	_	_	0	root	_	AlignEnd=476954|Gloss=3Plur.be|wordform=yi
+2	gwàːsə̀ŋ	gwàːsə̀ŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	1	dislocated@top	_	AlignBegin=476954|AlignEnd=477184|Gloss=3Plur.Gen
+3	gá	ká	ADP	_	_	1	comp:pred	_	AlignBegin=477184|AlignEnd=477413|Gloss=at
+4-5	tsə́tngə́nwàːsə̀n	_	_	_	_	_	_	_	_
+4	tsə́tngə́n	tsə́tn	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	3	comp:obj	_	AlignBegin=477413|AlignEnd=477514|Gloss=sit.Vnoun
+5	=wàːsə̀ŋ	=waːsəŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	4	mod@poss	_	AlignBegin=477615|AlignEnd=477715|Gloss=3Plur.Gen
+6	ʧík	ʧík	ADV	_	_	1	mod	_	AlignBegin=477715|AlignEnd=478017|Gloss=thus
+7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=478017|AlignEnd=478318|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_377-378
 # speaker_id = SP2
@@ -3640,18 +3632,17 @@
 # text = laː < məːríwôpm ʧì gwàːsə̀ŋ tə́ laː hŋ́ //
 # text_ortho = laː < məːríwôpm ʧì gwàːsə̀ŋ tə́ laː hŋ́ //
 # text_en = Work, our children don't have any work.
-1	laː	laː	NOUN	_	_	6	dislocated@top	_	AlignBegin=488296|AlignEnd=488416|Gloss=work
+1	laː	laː	NOUN	_	_	5	dislocated@top	_	AlignBegin=488296|AlignEnd=488416|Gloss=work
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=488416|AlignEnd=488536|Gloss=PUNCT
 3-4	məːríwôpm	_	_	_	_	_	_	_	_
-3	məːrí	məːri	NOUN	_	Definite=Cons	6	dislocated@subj	_	AlignBegin=488536|AlignEnd=488610|Gloss=children.CONS
+3	məːrí	məːri	NOUN	_	Definite=Cons	5	dislocated@subj	_	AlignBegin=488536|AlignEnd=488610|Gloss=children.CONS
 4	=wôpm	=wopm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	mod@poss	_	AlignBegin=488684|AlignEnd=488759|Gloss=1Plur.Gen
-5	tə̀	tə̀	PRON	_	Number=Plur|Person=3|PronType=Prs	6	subj	_	AlignBegin=488759|Gloss=3Plur
-6	yi	yi	VERB	_	_	0	root	_	AlignEnd=488982|Gloss=be
-7	gwàːsə̀ŋ	gwàːsə̀ŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	6	dislocated@top	_	AlignBegin=488982|AlignEnd=489205|Gloss=3Plur.Gen
-8	tə́	tə́	ADP	_	_	6	comp:pred	_	AlignBegin=489205|AlignEnd=489428|Gloss=with
-9	laː	laː	NOUN	_	_	8	comp:obj	_	AlignBegin=489428|AlignEnd=489651|Gloss=work
-10	hŋ́	hŋ́	PART	_	Polarity=Neg	6	mod	_	AlignBegin=489651|AlignEnd=489874|Gloss=Neg
-11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=489874|AlignEnd=490096|Gloss=PUNCT
+5	ʧì	yi	AUX	_	_	0	root	_	AlignEnd=488982|Gloss=3Plur.be|wordform=yi
+6	gwàːsə̀ŋ	gwàːsə̀ŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	5	dislocated@top	_	AlignBegin=488982|AlignEnd=489205|Gloss=3Plur.Gen
+7	tə́	tə́	ADP	_	_	5	comp:pred	_	AlignBegin=489205|AlignEnd=489428|Gloss=with
+8	laː	laː	NOUN	_	_	7	comp:obj	_	AlignBegin=489428|AlignEnd=489651|Gloss=work
+9	hŋ́	hŋ́	PART	_	Polarity=Neg	5	mod	_	AlignBegin=489651|AlignEnd=489874|Gloss=Neg
+10	//	//	PUNCT	_	_	5	punct	_	AlignBegin=489874|AlignEnd=490096|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_388-388
 # speaker_id = SP1
