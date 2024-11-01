@@ -281,7 +281,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_RELIGION.WAV
 # sent_timecode = 44860, 46911
-# text = tôː átayáː ngap =kí =wâːn -íː aː kóː átayáː ngap hŋ́ ?//
+# text = tôː átayáː ngap =kí =wâːn =íː aː kóː átayáː ngap hŋ́ ?//
 # text_ortho = tôː átayáː ngapkíwâːnèʃíyaː kóː átayáː ngap hŋ́ //
 # text_en = Well, did it use to catch you or not?
 1	tôː	tôː	PART	_	_	2	discourse	_	AlignBegin=44860|AlignEnd=45088|Gloss=DM
@@ -291,7 +291,7 @@
 4	=kí	=kí	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	3	comp:obj	_	AlignBegin=45362|AlignEnd=45408|Gloss=2Plur.Obj|Incorporated=Yes
 5	=wâːn	=wâːn	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	4	mod@ethical	_	AlignBegin=45408|AlignEnd=45454|Gloss=2Plur.Gen|Incorporated=Yes
 6	-ês	-ês	DET	_	Definite=Def	5	af:det	_	Gloss=-Def
-7	-íː	-íː	DET	_	Deixis=Remt	5	af:det	_	AlignBegin=45408|AlignEnd=45454|Gloss=Remt
+7	=íː	=íː	PART	_	_	3	clit:mod	_	AlignBegin=45408|AlignEnd=45454|Gloss=Res|Result=Yes
 8	aː	aː	PART	_	_	2	mod	_	AlignBegin=45544|AlignEnd=45772|Gloss=VRT
 9	kóː	kóː	CCONJ	_	_	10	cc	_	AlignBegin=45772|AlignEnd=46000|Gloss=or
 10	átayáː	ta-yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3|Tense=Rem	2	conj:coord	_	AlignBegin=46000|AlignEnd=46228|Gloss=3Sing.Rem.Imp
@@ -864,7 +864,7 @@
 3	m̀ː	m̀ː	INTJ	_	_	4	discourse	_	AlignBegin=145660|AlignEnd=146180|Gloss=yes
 4	Vuli	Vuli	NOUN	_	_	2	conj:appos	_	AlignBegin=147240|AlignEnd=147430|Gloss=fetish_sp
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=147430|AlignEnd=147620|Gloss=PUNCT
-6	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	9	mod@ethical	_	AlignBegin=148540|AlignEnd=148773|Gloss=3Sing.Gen
+6	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	9	parataxis:insert	_	AlignBegin=148540|AlignEnd=148773|Gloss=3Sing.Gen
 7	máː	máː	PART	_	_	6	discourse	_	AlignBegin=148773|AlignEnd=149006|Gloss=even
 8	<	<	PUNCT	_	_	6	punct	_	AlignBegin=149006|AlignEnd=149240|Gloss=PUNCT
 9	ʧáːyi	yáː-yiː	AUX	_	Aspect=ImpIter|Number=Sing|Person=3	0	root	_	AlignBegin=149420|AlignEnd=149717|Gloss=3Sing.Imp.Iter
@@ -931,7 +931,7 @@
 10	<	<	PUNCT	_	_	3	punct	_	AlignBegin=160754|AlignEnd=160920|Gloss=PUNCT
 11	tə́	tə́	ADP	_	_	15	mod	_	AlignBegin=161460|AlignEnd=161600|Gloss=with
 12-13	yelíwôs	_	_	_	_	_	_	_	_
-12	yeli	yel	VERB	_	_	11	comp:obj	_	AlignBegin=161600|AlignEnd=161740|Gloss=see
+12	yeli	yel	VERB	_	VerbForm=Inf	11	comp:obj	_	AlignBegin=161600|AlignEnd=161740|Gloss=see
 13	=wôs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	12	mod@poss	_	AlignBegin=161740|AlignEnd=161880|Gloss=3Sing.Gen
 14	<	<	PUNCT	_	_	11	punct	_	AlignBegin=161880|AlignEnd=162022|Gloss=PUNCT
 15	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=162022|AlignEnd=162175|Gloss=2Sing.Fut
@@ -2538,7 +2538,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_RELIGION.WAV
 # sent_timecode = 425784, 431540
-# text = áː dàlíːli gyáː ngəʃí ɗan kə́ ʧaː =ʃí =wáːsə̀ŋ -íː < yáwwàː < mə wúl tu oː < kə yél ndaráɣə̂nwòs nə gyôː ?//
+# text = áː dàlíːli gyáː ngəʃí ɗan kə́ ʧaː =ʃí =wáːsə̀ŋ =íː < yáwwàː < mə wúl tu oː < kə yél ndaráɣə̂nwòs nə gyôː ?//
 # text_ortho = áː dàlíːli gyáː ngəʃí ɗan kə́ ʧâːʃíwâːʃíː < yáwwàː < mə wúl tu oː < kə yél ndaráɣə̂nwòs nə gyòː ?//
 # text_en = Eh, the reason of what you did, OK!, I say what do you think was good about it?
 1	áː	á	INTJ	_	_	19	discourse	_	AlignBegin=425784|AlignEnd=426069|Gloss=HESIT
@@ -2551,7 +2551,7 @@
 7	ʧâː	ʧaː	VERB	_	_	6	comp:aux	_	AlignBegin=427494|AlignEnd=427779|Gloss=put
 8	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=427565|AlignEnd=427636|Gloss=3Plur.Obj|Incorporated=Yes
 9	=wâːs	=wáːsə̀ŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	8	mod@ethical	_	AlignBegin=427636|AlignEnd=427707|Gloss=3Plur.Gen
-10	-íː	-íː	DET	_	Deixis=Remt	9	af:det	_	AlignBegin=427636|AlignEnd=427707|Gloss=Remt
+10	=íː	=íː	PART	_	_	7	clit:mod	_	AlignBegin=427636|AlignEnd=427707|Gloss=Res|Result=Yes
 11	<	<	PUNCT	_	_	2	punct	_	AlignBegin=427779|AlignEnd=428062|Gloss=PUNCT
 12	yáwwàː	yáwwàː	INTJ	_	_	19	discourse	_	AlignBegin=428780|AlignEnd=429113|Gloss=OK
 13	<	<	PUNCT	_	_	12	punct	_	AlignBegin=429113|AlignEnd=429446|Gloss=PUNCT

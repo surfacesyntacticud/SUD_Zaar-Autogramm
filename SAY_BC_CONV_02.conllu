@@ -238,8 +238,8 @@
 6	myáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=1	3	conj:dicto	_	AlignBegin=33472|AlignEnd=33758|Gloss=1Sing.Cnd
 7	máni	máni	VERB	_	_	6	comp:aux	_	AlignBegin=33758|AlignEnd=34044|Gloss=come
 8-9	gə̀tàː	_	_	_	_	_	_	_	_
-8	gə̀t	gə̀tn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	mod@ethical	_	AlignBegin=34044|AlignEnd=34187|Gloss=3Sing.Gen
-9	àː	aː	PART	_	PartType=Int	8	discourse	_	AlignBegin=34187|AlignEnd=34330|Gloss=VRT
+8	gə̀t	gə̀tn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	7	mod@ethical	_	AlignBegin=34044|AlignEnd=34187|Gloss=3Sing.Gen
+9	àː	aː	PART	_	PartType=Int	6	discourse	_	AlignBegin=34187|AlignEnd=34330|Gloss=VRT
 10	<	<	PUNCT	_	_	3	punct	_	AlignBegin=34330|AlignEnd=34618|Gloss=PUNCT
 11	dzàn	dzàn	NOUN	_	_	12	subj	_	AlignBegin=34618|AlignEnd=34850|Gloss=day
 12	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	16	mod	_	AlignBegin=34850|AlignEnd=35082|Gloss=3Sing.Perf
@@ -1699,19 +1699,18 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 226492, 228859
-# text = ʧi gòs nə ŋǎː || ŋǎː ɬəɓə́r ʧǎː ʃiʃíɣə́nì //
+# text = gòs nə ŋǎː || ŋǎː ɬəɓə́r ʧǎː ʃiʃíɣə́nì //
 # text_ortho = ʧi gòs nə ŋǎː || ŋǎː ʧǎː ʃiʃíɣə́nì //
 # text_en = As for him, he is a young... a young man who is growing.
-1	ʧi	yi	AUX	_	_	0	root	_	AlignEnd=226668|Gloss=3Sing.be|wordform=yi
-2	gòs	gòs	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	mod@ethical	_	AlignBegin=226668|AlignEnd=226844|Gloss=3Sing.Gen
-3	nə	nə	PART	_	_	1	comp:aux	_	AlignBegin=226844|AlignEnd=227020|Gloss=be
-4	ŋǎː	ŋǎː	ADJ	_	_	3	comp:pred	_	AlignBegin=227020|AlignEnd=227196|Gloss=child
-5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=227196|AlignEnd=227373|Gloss=PUNCT
-6	ŋǎː	ŋǎː	ADJ	_	_	4	conj:dicto	_	AlignBegin=227373|AlignEnd=227538|Gloss=young
-7	ɬəɓə́r	ɬəɓə́r	NOUN	_	_	6	compound	_	AlignBegin=227538|AlignEnd=227703|Gloss=youth
-8	ʧǎː	yiká	AUX	_	Aspect=Prog|Number=Plur|Person=3	3	parataxis	_	AlignBegin=228034|AlignEnd=228309|Gloss=3Plur.Prog
-9	ʃiʃíɣə́nì	ʃiʃí	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	8	comp:aux	_	AlignBegin=228309|AlignEnd=228447|Gloss=rise.Vnoun
-10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=228584|AlignEnd=228859|Gloss=PUNCT
+1	gòs	gòs	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	dislocated@top	_	AlignBegin=226668|AlignEnd=226844|Gloss=3Sing.Gen
+2	nə	nə	PART	_	_	0	root	_	AlignBegin=226844|AlignEnd=227020|Gloss=be
+3	ŋǎː	ŋǎː	ADJ	_	_	2	comp:pred	_	AlignBegin=227020|AlignEnd=227196|Gloss=child
+4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=227196|AlignEnd=227373|Gloss=PUNCT
+5	ŋǎː	ŋǎː	ADJ	_	_	3	conj:dicto	_	AlignBegin=227373|AlignEnd=227538|Gloss=young
+6	ɬəɓə́r	ɬəɓə́r	NOUN	_	_	5	compound	_	AlignBegin=227538|AlignEnd=227703|Gloss=youth
+7	ʧǎː	yiká	AUX	_	Aspect=Prog|Number=Plur|Person=3	2	parataxis	_	AlignBegin=228034|AlignEnd=228309|Gloss=3Plur.Prog
+8	ʃiʃíɣə́nì	ʃiʃí	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	7	comp:aux	_	AlignBegin=228309|AlignEnd=228447|Gloss=rise.Vnoun
+9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=228584|AlignEnd=228859|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_184-184
 # speaker_id = SP1
@@ -2979,12 +2978,12 @@
 # text = mì gòpm tə́ fuːtu hŋ́ //
 # text_ortho = mì gòpm tə́ fuːtu hŋ́ //
 # text_en = We, we have no rest.
-1	mì	mì	PRON	_	Number=Plur|Person=1|PronType=Prs	3	dislocated@subj	_	AlignBegin=408725|AlignEnd=408864|Gloss=1Plur
+1	mì	yi	AUX	_	Number=Plur|Person=1	0	root	_	AlignBegin=408725|AlignEnd=408864|Gloss=1Plur.be
 2	gòpm	gòpm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	1	mod@ethical	_	AlignBegin=408864|AlignEnd=409003|Gloss=1Plur.Gen
-3	tə́	tə́	ADP	_	_	0	root	_	AlignBegin=409141|AlignEnd=409343|Gloss=with
+3	tə́	tə́	ADP	_	_	1	comp:pred	_	AlignBegin=409141|AlignEnd=409343|Gloss=with
 4	fuːtu	fuːtu	NOUN	_	_	3	comp:obj	_	AlignBegin=409343|AlignEnd=409545|Gloss=rest
-5	hŋ́	hŋ́	PART	_	Polarity=Neg	3	mod	_	AlignBegin=409545|AlignEnd=409747|Gloss=Neg
-6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=409747|AlignEnd=409948|Gloss=PUNCT
+5	hŋ́	hŋ́	PART	_	Polarity=Neg	1	mod	_	AlignBegin=409545|AlignEnd=409747|Gloss=Neg
+6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=409747|AlignEnd=409948|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_323-325
 # speaker_id = SP2
@@ -3230,20 +3229,20 @@
 # text = gút zǎːrwôpm < bàː mì gòpm tə́ laː ngáːɣə́nì hŋ́ woː //
 # text_ortho = gút zǎːrwôpm < bàː mì gòpm tə́ laː ngáːkə́nì hŋ́woː //
 # text_en = We Zaar women, we do not rest no.
-1	gút	guɗi	NOUN	_	Definite=Cons|Number=Plur	8	dislocated@subj	_	AlignBegin=435585|AlignEnd=435814|Gloss=women
+1	gút	guɗi	NOUN	_	Definite=Cons|Number=Plur	6	dislocated@subj	_	AlignBegin=435585|AlignEnd=435814|Gloss=women
 2-3	zǎːrwôpm	_	_	_	_	_	_	_	_
 2	zǎːr	Zaːr	NOUN	_	Definite=Cons	1	compound	_	AlignBegin=435814|AlignEnd=435890|Gloss=human.CONS
 3	=wôpm	=wopm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	1	mod@ethical	_	AlignBegin=435966|AlignEnd=436043|Gloss=1Plur.Gen
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=436043|AlignEnd=436273|Gloss=PUNCT
-5	bàː	bàː	PART	_	Polarity=Neg	8	mod	_	AlignBegin=436273|AlignEnd=436478|Gloss=Neg
-6	mì	mì	PRON	_	Number=Plur|Person=1|PronType=Prs	8	dislocated@subj	_	AlignBegin=436478|AlignEnd=436683|Gloss=1Plur
+5	bàː	bàː	PART	_	Polarity=Neg	6	mod	_	AlignBegin=436273|AlignEnd=436478|Gloss=Neg
+6	mì	yi	AUX	_	Number=Plur|Person=1	0	root	_	AlignBegin=436478|AlignEnd=436683|Gloss=1Plur.be
 7	gòpm	gòpm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	6	mod@ethical	_	AlignBegin=436683|AlignEnd=436888|Gloss=1Plur.Gen
-8	tə́	tə́	ADP	_	_	0	root	_	AlignBegin=436888|AlignEnd=437093|Gloss=with
+8	tə́	tə́	ADP	_	_	6	comp:pred	_	AlignBegin=436888|AlignEnd=437093|Gloss=with
 9	laː	laː	NOUN	_	_	10	compound	_	AlignBegin=437093|AlignEnd=437298|Gloss=work
 10	ngáːɣə́nì	ngaː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	8	comp:obj	_	AlignBegin=437298|AlignEnd=437400|Gloss=scoop_out.Vnoun
-11	hŋ́	hŋ́	PART	_	Polarity=Neg	10	mod	_	AlignBegin=437503|AlignEnd=437605|Gloss=Neg
-12	woː	oː	PART	_	PartType=Emp	8	mod	_	AlignBegin=437605|AlignEnd=437708|Gloss=Emp
-13	//	//	PUNCT	_	_	8	punct	_	AlignBegin=437708|AlignEnd=437913|Gloss=PUNCT
+11	hŋ́	hŋ́	PART	_	Polarity=Neg	6	mod	_	AlignBegin=437503|AlignEnd=437605|Gloss=Neg
+12	woː	oː	PART	_	PartType=Emp	6	mod	_	AlignBegin=437605|AlignEnd=437708|Gloss=Emp
+13	//	//	PUNCT	_	_	6	punct	_	AlignBegin=437708|AlignEnd=437913|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_342-343
 # speaker_id = SP2
@@ -3252,14 +3251,14 @@
 # text = kóːdzàngyóː < mì gòpm gá laː káwêy //
 # text_ortho = kóːdzàngyòː < mì gòpm ngáː laː káwêy //
 # text_en = Everyday, we only work.
-1	kóːdzàngyóː	kóːdzàngyóː	ADV	_	_	5	mod	_	AlignBegin=437913|AlignEnd=438287|Gloss=everyday
+1	kóːdzàngyóː	kóːdzàngyóː	ADV	_	_	3	mod	_	AlignBegin=437913|AlignEnd=438287|Gloss=everyday
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=438287|AlignEnd=438661|Gloss=PUNCT
-3	mì	mì	PRON	_	Number=Plur|Person=1|PronType=Prs	5	dislocated@subj	_	AlignBegin=438661|AlignEnd=438823|Gloss=1Plur
+3	mì	yi	AUX	_	Number=Plur|Person=1	0	root	_	AlignBegin=438661|AlignEnd=438823|Gloss=1Plur.be
 4	gòpm	gòpm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	mod@ethical	_	AlignBegin=438823|AlignEnd=438985|Gloss=1Plur.Gen
-5	gá	ká	ADP	_	_	0	root	_	AlignBegin=438985|AlignEnd=439147|Gloss=at
+5	gá	ká	ADP	_	_	3	comp:pred	_	AlignBegin=438985|AlignEnd=439147|Gloss=at
 6	laː	laː	NOUN	_	_	5	comp:obj	_	AlignBegin=439147|AlignEnd=439309|Gloss=work
-7	káwêy	káwêy	ADV	_	_	5	mod	_	AlignBegin=439309|AlignEnd=439471|Gloss=merely
-8	//	//	PUNCT	_	_	5	punct	_	AlignBegin=439471|AlignEnd=439636|Gloss=PUNCT
+7	káwêy	káwêy	ADV	_	_	3	mod	_	AlignBegin=439309|AlignEnd=439471|Gloss=merely
+8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=439471|AlignEnd=439636|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_344-346
 # speaker_id = SP2
@@ -3571,18 +3570,18 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 481166, 483089
-# text = myàːní guɗi mì gòpm ká ʃaɣndí gìp də̀n //
+# text = myàːní guɗi mì gòpm gá ʃaɣndí gìp də̀n //
 # text_ortho = myàːní guɗi mì gòpm gá ʃaɣndí gìp də̀n //
 # text_en = We women we are by the cooking pot inside the compound.
-1	myàːní	myàːní	PRON	_	Number=Plur|Person=1|PronType=Prs	5	dislocated@subj	_	AlignBegin=481166|AlignEnd=481380|Gloss=1Plur
+1	myàːní	myàːní	PRON	_	Number=Plur|Person=1|PronType=Prs	3	dislocated@subj	_	AlignBegin=481166|AlignEnd=481380|Gloss=1Plur
 2	guɗi	guɗi	NOUN	_	Number=Plur	1	conj:appos	_	AlignBegin=481380|AlignEnd=481594|Gloss=women
-3	mì	mì	PRON	_	Number=Plur|Person=1|PronType=Prs	5	dislocated@subj	_	AlignBegin=481594|AlignEnd=481808|Gloss=1Plur
+3	mì	yi	AUX	_	Number=Plur|Person=1	0	root	_	AlignBegin=481594|AlignEnd=481808|Gloss=1Plur.be
 4	gòpm	gòpm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	mod@ethical	_	AlignBegin=481808|AlignEnd=482022|Gloss=1Plur.Gen
-5	ká	ká	ADP	_	_	0	root	_	AlignBegin=482022|AlignEnd=482236|Gloss=at
+5	gá	ká	ADP	_	_	3	comp:pred	_	AlignBegin=482022|AlignEnd=482236|Gloss=at
 6	ʃaɣndí	ʃakndí	NOUN	_	_	5	comp:obj	_	AlignBegin=482236|AlignEnd=482450|Gloss=cooking_pot
-7	gìp	gìp	ADP	_	_	5	mod	_	AlignBegin=482450|AlignEnd=482664|Gloss=inside
+7	gìp	gìp	ADP	_	_	3	comp:pred	_	AlignBegin=482450|AlignEnd=482664|Gloss=inside
 8	də̀n	də̀n	NOUN	_	_	7	comp:obj	_	AlignBegin=482664|AlignEnd=482878|Gloss=house
-9	//	//	PUNCT	_	_	5	punct	_	AlignBegin=482878|AlignEnd=483089|Gloss=PUNCT
+9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=482878|AlignEnd=483089|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_380-380
 # speaker_id = SP2
