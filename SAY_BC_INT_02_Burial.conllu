@@ -987,31 +987,30 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_BURIAL.WAV
 # sent_timecode = 136987, 142766
-# text = tôː lə̂p yáː ɬaː vyàːɣə̀n wupsíː < tôː ( tá ʧímtə̀ gòs tu lə̂p tútkə̂n ) tə́ tût lə́ɓíː //
+# text = tôː lə̂p yáː ɬaː vyàːɣə̀n wupsíː ( tôː tá ʧímtə̀ gòs tu lə̂p tútkə̂n ) tə́ tût lə́ɓíː //
 # text_ortho = tôː lə̂p yáː ɬaː vyàːɣə̀n wupsíː < tôː ( tá ʧímtə̀ gòs tu lə̂p tútkə̂n ) tə́ tût lə́ɓíː //
 # text_en = Well as the day breaks after four days, well, ( they would call it "Sweeping the place") they would sweep the place.
-1	tôː	tôː	PART	_	_	18	discourse	_	AlignBegin=136987|AlignEnd=137179|Gloss=DM
+1	tôː	tôː	PART	_	_	17	discourse	_	AlignBegin=136987|AlignEnd=137179|Gloss=DM
 2	lə̂p	lə̂p	NOUN	_	_	3	subj	_	AlignBegin=137179|AlignEnd=137371|Gloss=place
-3	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	18	mod	_	AlignBegin=137371|AlignEnd=137563|Gloss=3Sing.Cnd
+3	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	17	mod	_	AlignBegin=137371|AlignEnd=137563|Gloss=3Sing.Cnd
 4	ɬaː	ɬaː	VERB	_	_	3	comp:aux	_	AlignBegin=137563|AlignEnd=137755|Gloss=cut
 5	vyàːɣə̀n	vyaː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	mod	_	AlignBegin=137949|AlignEnd=138200|Gloss=spend_day-Vnoun
 6	wupsíː	wupsə	DET	_	Deixis=Remt	5	det	_	AlignBegin=138200|AlignEnd=138451|Gloss=four-Remt
-7	<	<	PUNCT	_	_	3	punct	_	AlignBegin=138451|AlignEnd=138702|Gloss=PUNCT
-8	tôː	tôː	PART	_	_	18	discourse	_	AlignBegin=139633|AlignEnd=139876|Gloss=DM
-9	(	(	PUNCT	_	_	10	punct	_	AlignBegin=139876|AlignEnd=140119|Gloss=PUNCT
-10	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	8	parataxis@parenth	_	AlignBegin=140539|AlignEnd=140789|Gloss=3Plur.Fut
-11-12	ʧímtə̀	_	_	_	_	_	_	_	_
-11	ʧím	ʧim	VERB	_	_	10	comp:aux	_	AlignBegin=140789|AlignEnd=140914|Gloss=call
-12	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=140914|AlignEnd=141039|Gloss=3Sing.Obj
-13	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	11	mod@ethical	_	AlignBegin=141039|AlignEnd=141289|Gloss=3Sing.Gen
-14	tu	tu	ADP	_	Mood=Qot	11	comp:pred	_	AlignBegin=141289|AlignEnd=141540|Gloss=COMP
-15	lə̂p	lə̂p	NOUN	_	_	14	comp:obj	_	AlignBegin=141540|AlignEnd=141715|Gloss=place
-16	tútkə̂n	tut	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	15	compound	_	AlignBegin=141715|AlignEnd=141890|Gloss=sweep-Vnoun
-17	)	)	PUNCT	_	_	10	punct	_	AlignBegin=141890|AlignEnd=142065|Gloss=PUNCT
-18	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=142065|AlignEnd=142240|Gloss=3Plur.Aor
-19	tût	tut	VERB	_	_	18	comp:aux	_	AlignBegin=142240|AlignEnd=142415|Gloss=sweep
-20	lə́ɓíː	lə̂p	NOUN	_	_	19	comp:obj	_	AlignBegin=142415|AlignEnd=142590|Gloss=place
-21	//	//	PUNCT	_	_	18	punct	_	AlignBegin=142590|AlignEnd=142766|Gloss=PUNCT
+7	(	(	PUNCT	_	_	9	punct	_	AlignBegin=138451|AlignEnd=138702|Gloss=PUNCT
+8	tôː	tôː	PART	_	_	9	discourse	_	AlignBegin=139633|AlignEnd=139876|Gloss=DM
+9	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	17	parataxis:insert	_	AlignBegin=140539|AlignEnd=140789|Gloss=3Plur.Fut
+10-11	ʧímtə̀	_	_	_	_	_	_	_	_
+10	ʧím	ʧim	VERB	_	_	9	comp:aux	_	AlignBegin=140789|AlignEnd=140914|Gloss=call
+11	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=140914|AlignEnd=141039|Gloss=3Sing.Obj
+12	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	10	mod@ethical	_	AlignBegin=141039|AlignEnd=141289|Gloss=3Sing.Gen
+13	tu	tu	ADP	_	Mood=Qot	10	comp:pred	_	AlignBegin=141289|AlignEnd=141540|Gloss=COMP
+14	lə̂p	lə̂p	NOUN	_	_	13	comp:obj	_	AlignBegin=141540|AlignEnd=141715|Gloss=place
+15	tútkə̂n	tut	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	14	compound	_	AlignBegin=141715|AlignEnd=141890|Gloss=sweep-Vnoun
+16	)	)	PUNCT	_	_	9	punct	_	AlignBegin=141890|AlignEnd=142065|Gloss=PUNCT
+17	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=142065|AlignEnd=142240|Gloss=3Plur.Aor
+18	tût	tut	VERB	_	_	17	comp:aux	_	AlignBegin=142240|AlignEnd=142415|Gloss=sweep
+19	lə́ɓíː	lə̂p	NOUN	_	_	18	comp:obj	_	AlignBegin=142415|AlignEnd=142590|Gloss=place
+20	//	//	PUNCT	_	_	17	punct	_	AlignBegin=142590|AlignEnd=142766|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_106-106
 # speaker_id = SP1
