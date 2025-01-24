@@ -2386,8 +2386,8 @@
 12	=íː	=íː	PART	_	_	8	mod/m	_	AlignBegin=564605|AlignEnd=564710|Gloss=Res|Result=Yes
 13	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	8	parataxis	_	AlignBegin=566020|AlignEnd=566196|Gloss=3Sing.Aor
 14	naː	naː	VERB	_	_	13	comp:aux	_	AlignBegin=566196|AlignEnd=566284|Gloss=remain
-15	-ni	-ni	DET	_	_	16	mod/m	_	AlignBegin=566284|AlignEnd=566372|Gloss=INCH
-16	na	na	VERB	_	_	14	parataxis	_	AlignBegin=566372|AlignEnd=566548|Gloss=of|nWord=16|RX=[PTCL].[SYNT/].[BW].[HAU]
+15	-ni	-ni	PART	_	_	14	mod/m	_	AlignBegin=566284|AlignEnd=566372|Gloss=INCH
+16	na	na	ADP	_	ExtPos=NOUN	14	comp:pred	_	AlignBegin=566372|AlignEnd=566548|Gloss=of|nWord=16|RX=[PTCL].[SYNT/].[BW].[HAU]
 17	mbə́ɬmi	mbə́ɬəŋ	NOUN	_	Definite=Ind	16	compound	_	AlignBegin=566548|AlignEnd=566636|Gloss=two-Ind|wordform=mbə́ɬm
 18	//	//	PUNCT	_	_	3	punct	_	AlignBegin=566724|AlignEnd=566900|Gloss=PUNCT
 
@@ -2772,7 +2772,7 @@
 # text_ortho = tə́ ɗâkár ɲêːsíː ká nòːmáw /
 # text_en = They refused to marry the girl to Nomau.
 1	tə́	tə́	ADP	_	_	0	root	_	AlignBegin=662060|AlignEnd=662277|Gloss=3Plur.Aor
-2	ɗakár	ɗakár	IDEO	_	_	1	comp:obj	_	AlignBegin=662277|AlignEnd=662494|Gloss=forbid
+2	ɗakár	ɗakár	VERB	_	_	1	comp:obj	_	AlignBegin=662277|AlignEnd=662494|Gloss=forbid
 3	ɲíː	ɲíː	NOUN	_	Definite=Def	2	comp:obj	_	AlignBegin=662494|AlignEnd=662566|Gloss=girl
 4	-ês	-ês	DET	_	Definite=Def	3	det/m	_	AlignBegin=662566|AlignEnd=662638|Gloss=-Def
 5	-íː	-íː	PART	_	Deixis=Dist	2	mod/m	_	AlignBegin=662638|AlignEnd=662711|Gloss=Dist
@@ -2819,47 +2819,47 @@
 # text = dzàŋ gíː ɗan lə̂p wò ɬaː tá nat awre -ês -íː / káː yisə́ŋ ngə́tn tə́ mə̂ːr / á ɬə -íː ɗa də̀n -i ɗan tá mbiː amarya =káy -íː tə́ kávit / á mbiː amarya -ês -íː nə mə̂ːr -i / á kír -ár =tə -íː //
 # text_ortho = dzàŋ gíː ɗan lə́p wò ɬaː tá nât awrêsíː / káː yisə́ŋ ngə́tn tə́ mə̂ːr / á ɬǐː ɗa də̀nì ɗan tá mbîː amaryaɣáyíː tə́ kávit / á mbîː amaryêʃíː nə mə́ːri / á kîlártíː //
 # text_en = On the day of the wedding, before day break, you know how thieves behave, he went to the house where they were going to fetch the bride at night, he stole the bride and ran away with her.
-1	dzàŋ	dzàŋ	NOUN	_	_	7	mod	_	AlignBegin=668540|AlignEnd=668718|Gloss=day
+1	dzàŋ	dzàŋ	NOUN	_	_	17	mod	_	AlignBegin=668540|AlignEnd=668718|Gloss=day
 2	gíː	gíː	PRON	_	Deixis=Dist|PronType=Dem	1	mod	_	AlignBegin=668718|AlignEnd=668896|Gloss=Dist
-3	ɗan	ɗan	SCONJ	_	_	7	mod@relcl	_	AlignBegin=668896|AlignEnd=669074|Gloss=as
+3	ɗan	ɗan	SCONJ	_	_	17	mod	_	AlignBegin=668896|AlignEnd=669074|Gloss=as
 4	lə̂p	lə̂p	NOUN	_	_	5	subj	_	AlignBegin=669074|AlignEnd=669252|Gloss=place
 5	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	3	comp:obj	_	AlignBegin=669252|AlignEnd=669430|Gloss=3Sing.Fut
 6	ɬaː	ɬaː	VERB	_	_	5	comp:aux	_	AlignBegin=669430|AlignEnd=669608|Gloss=cut
-7	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=669608|AlignEnd=669786|Gloss=3Plur.Fut
+7	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	5	conj:coord	_	AlignBegin=669608|AlignEnd=669786|Gloss=3Plur.Fut
 8	nat	nat	VERB	_	_	7	comp:aux	_	AlignBegin=669786|AlignEnd=669964|Gloss=tie
 9	awre	awre	NOUN	_	Definite=Def	8	comp:obj	_	AlignBegin=669964|AlignEnd=670023|Gloss=wedding
-10	-ês	-ês	DET	_	Definite=Def	4	det/m	_	AlignBegin=670023|AlignEnd=670082|Gloss=-Def
+10	-ês	-ês	DET	_	Definite=Def	9	det/m	_	AlignBegin=670023|AlignEnd=670082|Gloss=-Def
 11	=íː	=íː	PART	_	Deixis=Dist	8	mod/m	_	AlignBegin=670082|AlignEnd=670142|Gloss=Res|Result=Yes|wordform=-íː
-12	káː	à́ː	AUX	_	Aspect=Perf|Number=Sing|Person=2	7	conj:coord	_	AlignBegin=671700|AlignEnd=671890|Gloss=2Sing.CPlur
+12	káː	à́ː	AUX	_	Aspect=Perf|Number=Sing|Person=2	3	parataxis:insert	_	AlignBegin=671700|AlignEnd=671890|Gloss=2Sing.CPlur
 13	yisə́ŋ	yisə́ŋ	VERB	_	_	12	comp:aux	_	AlignBegin=671890|AlignEnd=672080|Gloss=know
 14	ngə́tn	ngə́tn	NOUN	_	_	13	comp:obj	_	AlignBegin=672080|AlignEnd=672270|Gloss=thing
-15	tə́	tə́	ADP	_	_	13	comp:obl	_	AlignBegin=672270|AlignEnd=672460|Gloss=with
-16	mə̂ːr	mə̂ːr	NOUN	_	_	12	comp:aux	_	AlignBegin=672460|AlignEnd=672650|Gloss=thief
-17	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	16	parataxis:insert	_	AlignBegin=674380|AlignEnd=674605|Gloss=3Sing.Aor
-18	ɬə	ɬə	VERB	_	_	37	comp:aux	_	AlignBegin=674605|AlignEnd=674717|Gloss=go
+15	tə́	tə́	ADP	_	_	14	mod	_	AlignBegin=672270|AlignEnd=672460|Gloss=with
+16	mə̂ːr	mə̂ːr	NOUN	_	_	15	comp:obj	_	AlignBegin=672460|AlignEnd=672650|Gloss=thief
+17	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=674380|AlignEnd=674605|Gloss=3Sing.Aor
+18	ɬə	ɬə	VERB	_	_	17	comp:aux	_	AlignBegin=674605|AlignEnd=674717|Gloss=go
 19	=íː	=íː	PART	_	_	18	mod/m	_	AlignBegin=674717|AlignEnd=674830|Gloss=Res|Result=Yes|wordform=-íː
 20	ɗa	ɗa	ADP	_	_	18	comp:obl	_	AlignBegin=674830|AlignEnd=675055|Gloss=at
 21	də̀nì	də̀n	NOUN	_	Definite=Ind	20	comp:obj	_	AlignBegin=675055|AlignEnd=675167|Gloss=house-Ind|wordform=də̀n
-22	ɗan	ɗan	SCONJ	_	_	14	mod@relcl	_	AlignBegin=675280|AlignEnd=675505|Gloss=that
+22	ɗan	ɗan	SCONJ	_	_	21	mod@relcl	_	AlignBegin=675280|AlignEnd=675505|Gloss=that
 23	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	22	comp:obj	_	AlignBegin=675505|AlignEnd=675730|Gloss=3Plur.Fut
-24	mbiː	mbiː	VERB	_	_	12	comp:aux	_	AlignBegin=675730|AlignEnd=675955|Gloss=take
+24	mbiː	mbiː	VERB	_	_	23	comp:aux	_	AlignBegin=675730|AlignEnd=675955|Gloss=take
 25	amarya	amarya	NOUN	_	_	24	comp:obj	_	AlignBegin=675955|AlignEnd=676030|Gloss=bride
 26	=káy	=ká	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	25	comp:obj	_	AlignBegin=676030|AlignEnd=676105|Gloss=ANAPH
 27	-íː	-íː	PRON	_	Deixis=Dist	24	mod/m	_	AlignBegin=676105|AlignEnd=676180|Gloss=Dist
-28	tə́	tə́	ADP	_	_	18	comp:obl	_	AlignBegin=676180|AlignEnd=676405|Gloss=with
+28	tə́	tə́	ADP	_	_	18	mod	_	AlignBegin=676180|AlignEnd=676405|Gloss=with
 29	kávit	kávit	NOUN	_	_	28	comp:obj	_	AlignBegin=676405|AlignEnd=676630|Gloss=night
-30	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	25	conj:coord	_	AlignBegin=677380|AlignEnd=677600|Gloss=3Sing.Aor
+30	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	17	conj:coord	_	AlignBegin=677380|AlignEnd=677600|Gloss=3Sing.Aor
 31	mbiː	mbiː	VERB	_	_	30	comp:aux	_	AlignBegin=677600|AlignEnd=677820|Gloss=take
-32	amarya	amarya	NOUN	_	Definite=Def	35	comp:pred	_	AlignBegin=677820|AlignEnd=677893|Gloss=bride
-33	-ês	-ês	DET	_	Definite=Def	29	det/m	_	AlignBegin=677893|AlignEnd=677966|Gloss=-Def
-34	-íː	-íː	PRON	_	Deixis=Dist	25	mod/m	_	AlignBegin=677966|AlignEnd=678040|Gloss=Dist
-35	nə	nə	PART	_	_	25	parataxis	_	AlignBegin=678040|AlignEnd=678260|Gloss=COP1
+32	amarya	amarya	NOUN	_	Definite=Def	31	comp:obj	_	AlignBegin=677820|AlignEnd=677893|Gloss=bride
+33	-ês	-ês	DET	_	Definite=Def	32	det/m	_	AlignBegin=677893|AlignEnd=677966|Gloss=-Def
+34	-íː	-íː	PRON	_	Deixis=Dist	31	mod/m	_	AlignBegin=677966|AlignEnd=678040|Gloss=Dist
+35	nə	nə	PART	_	_	31	comp:obl	_	AlignBegin=678040|AlignEnd=678260|Gloss=COP1
 36	mə̂ːri	mə̂ːr	NOUN	_	Definite=Ind|Number=Plur	35	comp:pred	_	AlignBegin=678260|AlignEnd=678370|Gloss=stealing-Ind|wordform=mə̂ːr
-37	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	25	parataxis	_	AlignBegin=679180|AlignEnd=679427|Gloss=3Sing.Aor
+37	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	30	conj:coord	_	AlignBegin=679180|AlignEnd=679427|Gloss=3Sing.Aor
 38	kîlár	kír	VERB	_	Voice=Cau	37	comp:aux	_	AlignBegin=679427|AlignEnd=679489|Gloss=run-Cau|wordform=kír
-39	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	20	comp:obj	_	AlignBegin=679551|AlignEnd=679613|Gloss==3Sing.Acc
+39	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	38	comp:obj	_	AlignBegin=679551|AlignEnd=679613|Gloss==3Sing.Acc
 40	=íː	=íː	PART	_	_	38	mod/m	_	AlignBegin=679613|AlignEnd=679674|Gloss=Res|Result=Yes|wordform=-íː
-41	//	//	PUNCT	_	_	7	punct	_	AlignBegin=679674|AlignEnd=679920|Gloss=PUNCT
+41	//	//	PUNCT	_	_	17	punct	_	AlignBegin=679674|AlignEnd=679920|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_Kadi_gi_kitn_327-327
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_12_NARR_Kadi_gi_kitn.WAV
