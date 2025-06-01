@@ -485,9 +485,10 @@
 5	tôː	tôː	PART	_	_	7	discourse	_	AlignBegin=76656|AlignEnd=76869|Gloss=DM
 6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=76869|AlignEnd=77082|Gloss=PUNCT
 7	ká	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=78420|AlignEnd=78615|Gloss=2Plur.Fut
-8	ɮə̀ːríː	ɮə́ːr	VERB	_	_	7	comp:aux	_	AlignBegin=78615|AlignEnd=78810|Gloss=stay
-9	ʧíp	ʧíp	IDEO	_	_	8	mod	_	AlignBegin=78810|AlignEnd=79005|Gloss=quietly
-10	//	//	PUNCT	_	_	7	punct	_	AlignBegin=79005|AlignEnd=79199|Gloss=PUNCT
+8	ɮə́ːr	ɮə́ːr	VERB	_	_	7	comp:aux	_	AlignBegin=78615|AlignEnd=78810|Gloss=stay|wordform=ɮə̀ːríː
+9	-íː	=íː	PART	_	_	8	mod/m	_	Gloss=Anaph|Result=Yes
+10	ʧíp	ʧíp	IDEO	_	_	8	mod	_	AlignBegin=78810|AlignEnd=79005|Gloss=quietly
+11	//	//	PUNCT	_	_	7	punct	_	AlignBegin=79005|AlignEnd=79199|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_055-058
 # speaker_id = SP1
@@ -789,7 +790,7 @@
 # text_ortho = kóːnúː ɬíː də̀n ?//
 # text_en = Did everyone go home?
 1	kóːnúː	kóːnúː	PRON	_	PronType=Tot	2	subj	_	AlignBegin=119880|AlignEnd=120085|Gloss=everyone
-2	ɬíː	ɬə	VERB	_	_	0	root	_	AlignBegin=120085|AlignEnd=120290|Gloss=go.Res
+2	ɬíː	ɬə	VERB	_	_	0	root	_	AlignBegin=120085|AlignEnd=120290|Gloss=go.Anaph
 3	də̀n	də̀n	NOUN	_	_	2	comp:obj@G	_	AlignBegin=120290|AlignEnd=120495|Gloss=house
 4	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=120495|AlignEnd=120700|Gloss=PUNCT
 
@@ -801,7 +802,7 @@
 # text_ortho = kóːnúː ɬíː də̀n //
 # text_en = Everyone went home.
 1	kóːnúː	kóːnúː	PRON	_	PronType=Tot	2	subj	_	AlignBegin=120700|AlignEnd=120842|Gloss=everyone
-2	ɬíː	ɬə	VERB	_	_	0	root	_	AlignBegin=120842|AlignEnd=120984|Gloss=go.Res
+2	ɬíː	ɬə	VERB	_	_	0	root	_	AlignBegin=120842|AlignEnd=120984|Gloss=go.Anaph
 3	də̀n	də̀n	NOUN	_	_	2	comp:obj@G	_	AlignBegin=120984|AlignEnd=121126|Gloss=house
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=121126|AlignEnd=121266|Gloss=PUNCT
 
@@ -880,7 +881,7 @@
 # text_en = They come and sleep.
 1	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=126248|AlignEnd=126440|Gloss=3Plur.Imp
 2	mán	mán	VERB	_	_	1	comp:aux	_	AlignBegin=126440|AlignEnd=126632|Gloss=come
-3	mbúɗíː	mbút	VERB	_	_	2	compound:svc	_	AlignBegin=126632|AlignEnd=126824|Gloss=spend_night.Res|wordform=mbûɗíː
+3	mbúɗíː	mbút	VERB	_	_	2	compound:svc	_	AlignBegin=126632|AlignEnd=126824|Gloss=spend_night.Anaph|wordform=mbûɗíː
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=126824|AlignEnd=127017|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_093-093
@@ -894,7 +895,7 @@
 2	dâːmáː	dâːmáː	ADV	_	_	4	mod	_	AlignBegin=126905|AlignEnd=127101|Gloss=formerly|Lang=ha
 3	gèntsə̀	gyaːt	NOUN	_	Number=Plur	4	subj	_	AlignBegin=127101|AlignEnd=127297|Gloss=female_relative
 4	tə̀tàyáː	ta-yáː	AUX	_	Number=Plur|Person=3|Tense=Rem	0	root	_	AlignBegin=127297|AlignEnd=127493|Gloss=3Plur.Rem.Imp
-5	mbúɗíː	mbút	VERB	_	_	4	comp:aux	_	AlignBegin=127493|AlignEnd=127689|Gloss=spend_night.Res|wordform=mbûɗíː
+5	mbúɗíː	mbút	VERB	_	_	4	comp:aux	_	AlignBegin=127493|AlignEnd=127689|Gloss=spend_night.Anaph|wordform=mbûɗíː
 6	áy	áy	INTJ	_	_	4	discourse	_	AlignBegin=127689|AlignEnd=127885|Gloss=indeed
 7	!//	!//	PUNCT	_	_	4	punct	_	AlignBegin=127885|AlignEnd=128080|Gloss=PUNCT
 
@@ -907,7 +908,7 @@
 # text_en = Old women used to sleep there.
 1	gèntsə̀	gyaːt	NOUN	_	Number=Plur	2	subj	_	AlignBegin=129200|AlignEnd=129360|Gloss=female_relative
 2	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=129360|AlignEnd=129520|Gloss=3Plur.Fut
-3	mbúɗíː	mbút	VERB	_	_	2	comp:aux	_	AlignBegin=129520|AlignEnd=129680|Gloss=spend_night.Res|wordform=mbûɗíː
+3	mbúɗíː	mbút	VERB	_	_	2	comp:aux	_	AlignBegin=129520|AlignEnd=129680|Gloss=spend_night.Anaph|wordform=mbûɗíː
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=129680|AlignEnd=129840|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_095-095
@@ -934,7 +935,7 @@
 1	m̀ː	m̀ː	INTJ	_	_	3	discourse	_	AlignBegin=130190|AlignEnd=130425|Gloss=HESIT
 2	gèntsə̀	gyaːt	DET	_	Number=Plur	3	subj	_	AlignBegin=130425|AlignEnd=130660|Gloss=female_relative
 3	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=130660|AlignEnd=130895|Gloss=3Plur.Fut
-4	mbúɗíː	mbút	VERB	_	_	3	comp:aux	_	AlignBegin=130895|AlignEnd=131130|Gloss=spend_night.Res|wordform=mbûɗíː
+4	mbúɗíː	mbút	VERB	_	_	3	comp:aux	_	AlignBegin=130895|AlignEnd=131130|Gloss=spend_night.Anaph|wordform=mbûɗíː
 5	séː	séː	SCONJ	_	_	4	mod	_	AlignBegin=131662|AlignEnd=131822|Gloss=must
 6	yǎː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=3	5	comp:obj	_	AlignBegin=131822|AlignEnd=131982|Gloss=3Plur.Cnd
 7	fi	fi	VERB	_	_	6	comp:aux	_	AlignBegin=131982|AlignEnd=132142|Gloss=do
@@ -1494,13 +1495,13 @@
 12	Mùnàk	Mùnàk	PROPN	_	_	11	comp:obj	_	AlignBegin=206703|AlignEnd=206878|Gloss=masquerade.sp
 13	//=	//=	PUNCT	_	_	14	punct	_	AlignBegin=206878|AlignEnd=207058|Gloss=PUNCT
 14	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	10	parataxis	_	AlignBegin=207058|AlignEnd=207220|Gloss=3Plur.Aor
-15	ɬíː	ɬə	VERB	_	_	14	comp:aux	_	AlignBegin=207220|AlignEnd=207382|Gloss=go-CAUS.Res|wordform=ɬə̌ːríː
+15	ɬíː	ɬə	VERB	_	_	14	comp:aux	_	AlignBegin=207220|AlignEnd=207382|Gloss=go-CAUS.Anaph|wordform=ɬə̌ːríː
 16	ɗa	ɗa	ADP	_	_	15	comp:obl	_	AlignBegin=207382|AlignEnd=207544|Gloss=at
 17	wuːri	wuːr	NOUN	_	Definite=Ind	16	comp:obj	_	AlignBegin=207544|AlignEnd=207706|Gloss=mountain-Ind
 18	//=	//=	PUNCT	_	_	19	punct	_	AlignBegin=207706|AlignEnd=207868|Gloss=PUNCT
 19	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	14	conj:svc	_	AlignBegin=207868|AlignEnd=208001|Gloss=3Plur.Aor
 20	ɬə́	ɬə	VERB	_	_	19	comp:aux	_	AlignBegin=208001|AlignEnd=208134|Gloss=go
-21	gǎːy	gaː	VERB	_	_	20	compound:svc	_	AlignBegin=208134|AlignEnd=208267|Gloss=leave.Res
+21	gǎːy	gaː	VERB	_	_	20	compound:svc	_	AlignBegin=208134|AlignEnd=208267|Gloss=leave.Anaph
 22	wuːr	wuːr	NOUN	_	_	21	comp:obj@L	_	AlignBegin=208267|AlignEnd=208400|Gloss=mountain
 23	//	//	PUNCT	_	_	10	punct	_	AlignBegin=208400|AlignEnd=208531|Gloss=PUNCT
 
@@ -1548,7 +1549,7 @@
 20	tôː	tôː	PART	_	_	22	discourse	_	AlignBegin=219010|AlignEnd=219181|Gloss=DM
 21	mumtsə́	mumtsə́	NOUN	_	_	22	subj	_	AlignBegin=219181|AlignEnd=219352|Gloss=masquerade
 22	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=219352|AlignEnd=219523|Gloss=3Plur.Fut
-23	tǎy	ta	VERB	_	_	22	comp:aux	_	AlignBegin=219523|AlignEnd=219694|Gloss=climb.Res
+23	tǎy	ta	VERB	_	_	22	comp:aux	_	AlignBegin=219523|AlignEnd=219694|Gloss=climb.Anaph
 24	//	//	PUNCT	_	_	22	punct	_	AlignBegin=219694|AlignEnd=219863|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_168-169
@@ -1933,7 +1934,7 @@
 # text_ortho = wò fíː vyàːɣə̀n wupsə //
 # text_en = It would last for four days.
 1	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=277220|AlignEnd=277400|Gloss=3Sing.Fut
-2	fíː	fi	VERB	_	_	1	comp:aux	_	AlignBegin=277400|AlignEnd=277580|Gloss=do.Res
+2	fíː	fi	VERB	_	_	1	comp:aux	_	AlignBegin=277400|AlignEnd=277580|Gloss=do.Anaph
 3	vyàːɣə̀n	vyaː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	2	comp:obj	_	AlignBegin=277580|AlignEnd=277760|Gloss=spend_day-Vnoun
 4	wupsə	wupsə	NUM	_	_	3	mod:num	_	AlignBegin=277760|AlignEnd=277940|Gloss=four
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=277940|AlignEnd=278121|Gloss=PUNCT
@@ -2511,7 +2512,7 @@
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=359158|AlignEnd=359372|Gloss=PUNCT
 5	tu	tu	SCONJ	_	_	6	mod	_	AlignBegin=359763|AlignEnd=359959|Gloss=COMP
 6	máː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=359959|AlignEnd=360155|Gloss=1Sing.Perf
-7	ndwaːtsə́y	ndwaːtsə́	VERB	_	_	6	comp:aux	_	AlignBegin=360155|AlignEnd=360351|Gloss=grow_old.Res|wordform=ndwaːtsíː
+7	ndwaːtsə́y	ndwaːtsə́	VERB	_	_	6	comp:aux	_	AlignBegin=360155|AlignEnd=360351|Gloss=grow_old.Anaph|wordform=ndwaːtsíː
 8	//	//	PUNCT	_	_	6	punct	_	AlignBegin=360351|AlignEnd=360548|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_263-266
@@ -2643,7 +2644,7 @@
 # text_en = Eh, well, they would leave it.
 1	tôː	tôː	PART	_	_	2	discourse	_	AlignBegin=380509|AlignEnd=380627|Gloss=well
 2	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=380627|AlignEnd=380745|Gloss=3Plur.Fut
-3	gǎːy	gaː	VERB	_	_	2	comp:aux	_	AlignBegin=380745|AlignEnd=380863|Gloss=leave.Res
+3	gǎːy	gaː	VERB	_	_	2	comp:aux	_	AlignBegin=380745|AlignEnd=380863|Gloss=leave.Anaph
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=380863|AlignEnd=380980|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_278-278
