@@ -305,7 +305,7 @@
 5	ɬə	ɬə	VERB	_	_	4	comp:aux	_	AlignBegin=74332|AlignEnd=74488|Gloss=go
 6	nə́	nə́	ADP	_	_	5	mod	_	AlignBegin=74488|AlignEnd=74644|Gloss=for
 7	tu	tu	VERB	_	_	6	comp:obj	_	AlignBegin=74644|AlignEnd=74800|Gloss=find
-8	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=74800|AlignEnd=74956|Gloss=3Plur.OBJ ; 3Plur.Gen
+8	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=74800|AlignEnd=74956|Gloss=3Plur.Obj
 9	tàː	àː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=74956|AlignEnd=75268|Gloss=3Plur.CPlur
 10	ʤwáːm	ʤwáːm	VERB	_	_	9	comp:aux	_	AlignBegin=75268|AlignEnd=75372|Gloss=gather
 11	=ʃíː	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	comp:obj@T	_	AlignBegin=75372|AlignEnd=75476|Gloss=3Plur.OBJ ; 3Plur.Gen.Res|wordform==ʃí
@@ -348,7 +348,7 @@
 # text_en = The king told them to leave him and see what he was going to do.
 1	gùŋ	gùŋ	NOUN	_	Definite=Cons	2	subj	_	AlignBegin=81980|AlignEnd=82180|Gloss=chief
 2	wul	wul	VERB	_	_	0	root	_	AlignBegin=82180|AlignEnd=82280|Gloss=say
-3	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	comp:obj@R	_	AlignBegin=82280|AlignEnd=82380|Gloss=3Plur.OBJ ; 3Plur.Gen
+3	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	comp:obj@R	_	AlignBegin=82280|AlignEnd=82380|Gloss=3Plur.Obj
 4	tu	tu	SCONJ	_	_	2	comp:obj@T	_	AlignBegin=82380|AlignEnd=82580|Gloss=COMP
 5	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	4	comp:obj	_	AlignBegin=83600|AlignEnd=83785|Gloss=3Plur.Sub
 6	gaː	gaː	VERB	_	_	5	comp:aux	_	AlignBegin=83785|AlignEnd=83877|Gloss=leave
@@ -452,7 +452,7 @@
 # sent_id = SAY_BC_READ_12_NAR_Kadi_gi_kitn_049-052
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_12_NARR_Kadi_gi_kitn.WAV
 # sent_timecode = 105320, 111660
-# text = ɗan tə́ ɬíː nə́ longáy láːpkə̂n séː nòːmáw á mbiː zobbè =ʃíː á ɬíː də̀n //
+# text = ɗan tə́ ɬíː nə́ longáy láːpkə̂n séː nòːmáw á mbiː zobbèʃíː á ɬíː də̀n //
 # text_ortho = ɗan tə́ ɬǐː nə́ longáy láːpkə̂n / séy nòːmáw / á mbîː zobbèʃíː / á ɬǐː də̀n //
 # text_en = When they had left to follow that rabbit, then Nomau took the ring and went home.
 1	ɗan	ɗan	SCONJ	_	_	9	mod	_	AlignBegin=105320|AlignEnd=105629|Gloss=as
@@ -465,12 +465,11 @@
 8	nòːmáw	nòːmáw	PRON	_	_	9	discourse	_	AlignBegin=108260|AlignEnd=108480|Gloss=Nomau
 9	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=109380|AlignEnd=109600|Gloss=3Sing.Aor
 10	mbiː	mbiː	VERB	_	_	9	comp:aux	_	AlignBegin=109600|AlignEnd=109820|Gloss=take
-11	zobbè	zobbè	VERB	_	_	10	compound:svc	_	AlignBegin=109820|AlignEnd=109893|Gloss=ring
-12	=ʃíː	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=109893|AlignEnd=109966|Gloss=3Plur.OBJ ; 3Plur.Gen.Res|wordform==ʃí
-13	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	9	conj:svc	_	AlignBegin=111120|AlignEnd=111255|Gloss=3Sing.Aor
-14	ɬíː	ɬə	VERB	_	_	13	comp:aux	_	AlignBegin=111255|AlignEnd=111323|Gloss=go.Anaph|wordform=ɬə
-15	də̀n	də̀n	NOUN	_	_	14	comp:obj@G	_	AlignBegin=111390|AlignEnd=111525|Gloss=house
-16	//	//	PUNCT	_	_	9	punct	_	AlignBegin=111525|AlignEnd=111660|Gloss=PUNCT
+11	zobbèʃíː	zobbè	NOUN	_	_	10	compound:svc	_	AlignBegin=109820|AlignEnd=109893|Gloss=ring.Def.Foc
+12	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	9	conj:svc	_	AlignBegin=111120|AlignEnd=111255|Gloss=3Sing.Aor
+13	ɬíː	ɬə	VERB	_	_	12	comp:aux	_	AlignBegin=111255|AlignEnd=111323|Gloss=go.Anaph|wordform=ɬə
+14	də̀n	də̀n	NOUN	_	_	13	comp:obj@G	_	AlignBegin=111390|AlignEnd=111525|Gloss=house
+15	//	//	PUNCT	_	_	9	punct	_	AlignBegin=111525|AlignEnd=111660|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_Kadi_gi_kitn_053-054
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_12_NARR_Kadi_gi_kitn.WAV
@@ -1470,7 +1469,7 @@
 2	nòːmáw	nòːmáw	PRON	_	_	3	discourse	_	AlignBegin=365993|AlignEnd=366186|Gloss=Nomau
 3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=366186|AlignEnd=366379|Gloss=3Sing.Aor
 4	wul	wul	VERB	_	_	3	comp:aux	_	AlignBegin=366379|AlignEnd=366475|Gloss=say
-5	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=366475|AlignEnd=366572|Gloss=3Plur.OBJ ; 3Plur.Gen
+5	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=366475|AlignEnd=366572|Gloss=3Plur.Obj
 6	tu	tu	SCONJ	_	_	4	comp:obj	_	AlignBegin=366572|AlignEnd=366765|Gloss=COMP
 7	áy	áy	INTJ	_	_	13	discourse	_	AlignBegin=367780|AlignEnd=368033|Gloss=indeed
 8	ɗan	ɗan	SCONJ	_	_	6	unk	_	AlignBegin=368033|AlignEnd=368286|Gloss=as
@@ -1635,7 +1634,7 @@
 10	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	9	comp:obj	_	AlignBegin=408860|AlignEnd=409048|Gloss=3Sing.Imp
 11	máni	máni	VERB	_	_	10	comp:aux	_	AlignBegin=409048|AlignEnd=409236|Gloss=come
 12	paŋ	paŋ	VERB	_	_	11	compound:svc	_	AlignBegin=409236|AlignEnd=409299|Gloss=inspect
-13	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=409299|AlignEnd=409362|Gloss=3Plur.OBJ ; 3Plur.Gen
+13	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=409299|AlignEnd=409362|Gloss=3Plur.Obj
 14	ni	ni	PART	_	_	12	compound:prt	_	AlignBegin=409362|AlignEnd=409424|Gloss=Iter|wordform=-ni
 15	oː	oː	PART	_	_	10	mod	_	AlignBegin=409424|AlignEnd=409612|Gloss=EMPH|PartType=Emp
 16	//	//	PUNCT	_	_	7	punct	_	AlignBegin=409612|AlignEnd=409800|Gloss=PUNCT
@@ -1677,7 +1676,7 @@
 12	ɗi	ɗi	PART	_	_	9	mod	_	AlignBegin=418296|AlignEnd=418372|Gloss=CTP|wordform=-́ɗi
 13	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	6	conj:svc	_	AlignBegin=419660|AlignEnd=419880|Gloss=3Sing.Aor
 14	ngap	ngap	VERB	_	_	13	comp:aux	_	AlignBegin=419880|AlignEnd=419990|Gloss=catch
-15	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	comp:obj	_	AlignBegin=419990|AlignEnd=420100|Gloss=3Plur.OBJ ; 3Plur.Gen|Object=ObjRaising
+15	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	comp:obj	_	AlignBegin=419990|AlignEnd=420100|Gloss=3Plur.Obj|Object=ObjRaising
 16	vòtkə̀n	vot	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	14	udep	_	AlignBegin=420100|AlignEnd=420210|Gloss=beat-Vnoun|Object=ObjRaising|wordform=vot
 17	gáy	káy	PRON	_	Case=Loc|PronType=Prs	14	comp:obl@expl	_	AlignBegin=420320|AlignEnd=420540|Gloss=Anaph.Loc
 18	//	//	PUNCT	_	_	3	punct	_	AlignBegin=420540|AlignEnd=420760|Gloss=PUNCT
@@ -1905,13 +1904,13 @@
 4	séː	séː	ADV	_	_	5	mod	_	AlignBegin=477600|AlignEnd=477745|Gloss=then
 5	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=477745|AlignEnd=477890|Gloss=3Sing.Aor
 6	láːp	láːp	VERB	_	_	5	comp:aux	_	AlignBegin=477890|AlignEnd=478035|Gloss=follow
-7	náːt	naat	NOUN	_	Definite=Cons	6	comp:obj	_	AlignBegin=479460|AlignEnd=479618|Gloss=tie
-8	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	comp:obj@R	_	AlignBegin=479618|AlignEnd=479775|Gloss=3Plur.OBJ ; 3Plur.Gen
-9	kéndə̂r	kéndə̂r	NOUN	_	_	7	comp:obj	_	AlignBegin=479775|AlignEnd=480090|Gloss=candle
+7	náːt	naat	VERB	_	Definite=Cons	6	conj:svc	_	AlignBegin=479460|AlignEnd=479618|Gloss=tie
+8	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	comp:obj@R	_	AlignBegin=479618|AlignEnd=479775|Gloss=3Plur.Obj
+9	kéndə̂r	kéndə̂r	NOUN	_	_	7	comp:obj@T	_	AlignBegin=479775|AlignEnd=480090|Gloss=candle
 10	ɗeɓát	ɗeɓát	IDEO	_	_	6	mod	_	AlignBegin=480090|AlignEnd=480405|Gloss=all
 11	séː	séː	ADP	_	_	5	mod	_	AlignBegin=482120|AlignEnd=482447|Gloss=then
 12	gəm	gəm	VERB	_	_	11	comp:obj	_	AlignBegin=482447|AlignEnd=482529|Gloss=release
-13	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=482529|AlignEnd=482611|Gloss=3Plur.OBJ ; 3Plur.Gen
+13	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=482529|AlignEnd=482611|Gloss=3Plur.Obj
 14	=wáːsə̀ŋə́y	=waːsəŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	12	mod@ethical	_	AlignBegin=482611|AlignEnd=482693|Gloss=3Plur.Gen.Anaph|wordform==wáːsə̀ŋ
 15	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	11	comp:obj	_	AlignBegin=484600|AlignEnd=484848|Gloss=3Plur.Imp
 16	ŋal	ŋal	VERB	_	_	15	comp:aux	_	AlignBegin=484848|AlignEnd=485096|Gloss=walk_around
@@ -2560,7 +2559,7 @@
 9	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	2	comp:obj	_	AlignBegin=643220|AlignEnd=643467|Gloss=3Sing.Aor
 10	máni	máni	VERB	_	_	9	comp:aux	_	AlignBegin=643467|AlignEnd=643714|Gloss=come
 11	tu	tu	VERB	_	_	10	compound:svc	_	AlignBegin=643714|AlignEnd=643838|Gloss=meet
-12	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=643838|AlignEnd=643961|Gloss=3Plur.OBJ ; 3Plur.Gen
+12	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=643838|AlignEnd=643961|Gloss=3Plur.Obj
 13	ʧìká	ʧìkan	IDEO	_	_	11	mod	_	AlignBegin=643961|AlignEnd=644208|Gloss=3Plur.CONT
 14	vìː	vìː	NOUN	_	_	13	comp:obj	_	AlignBegin=644208|AlignEnd=644455|Gloss=speech
 15	kwáːngə́n	kwáːn	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	16	comp:obj	_	AlignBegin=644455|AlignEnd=644579|Gloss=tell-Vnoun|wordform=kwáːn
@@ -2655,7 +2654,7 @@
 5	ɗan	ɗan	SCONJ	_	_	3	mod@relcl	_	AlignBegin=666204|AlignEnd=666395|Gloss=that
 6	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	5	comp:obj	_	AlignBegin=666395|AlignEnd=666586|Gloss=3Plur.Fut
 7	nat	nat	VERB	_	_	6	comp:aux	_	AlignBegin=666586|AlignEnd=666682|Gloss=tie
-8	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	comp:obj@R	_	AlignBegin=666682|AlignEnd=666777|Gloss=3Plur.OBJ ; 3Plur.Gen
+8	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	comp:obj@R	_	AlignBegin=666682|AlignEnd=666777|Gloss=3Plur.Obj
 9	mə́n	mə́n	PART	_	Case=Ben	7	compound:prt	_	AlignBegin=666777|AlignEnd=666968|Gloss=BEN
 10	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	7	parataxis@comp	_	AlignBegin=667480|AlignEnd=667600|Gloss=3Plur.Aor
 11	ɬíː	ɬə	VERB	_	_	10	comp:aux	_	AlignBegin=667600|AlignEnd=667660|Gloss=go.Anaph|wordform=ɬə
