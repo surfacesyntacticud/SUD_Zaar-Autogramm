@@ -451,7 +451,7 @@
 16	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	8	mod	_	AlignBegin=68610|AlignEnd=68893|Gloss=1Plur.Aor
 17-18	tâːʃí	_	_	_	_	_	_	_	_
 17	tâː	taː	VERB	_	_	16	comp:aux	_	AlignBegin=68893|AlignEnd=69035|Gloss=give
-18	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	mod	_	AlignBegin=69035|AlignEnd=69176|Gloss=3Plur.Obj
+18	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	comp:obj	_	AlignBegin=69035|AlignEnd=69176|Gloss=3Plur.Obj
 19	//	//	PUNCT	_	_	7	punct	_	AlignBegin=69176|AlignEnd=69462|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_055-056
@@ -706,7 +706,7 @@
 1	gerʃês	gèri	NOUN	_	Definite=Def|Number=Plur	5	dislocated@subj	_	AlignBegin=104465|AlignEnd=104571|Gloss=chicken.Plur
 2	kúmá	kúmá	PART	_	_	1	discourse	_	AlignBegin=104782|AlignEnd=105099|Gloss=also
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=105099|AlignEnd=105417|Gloss=PUNCT
-4	gòpès	gòpm	PRON	_	Case=Gen|Definite=Def|Number=Plur|Person=1|PronType=Prs	5	dislocated@subj	_	AlignBegin=105417|AlignEnd=105549|Gloss=1.Plur.Poss.Def
+4	gòpès	gòpm	PRON	_	Case=Gen|Definite=Def|Number=Plur|Person=1|PronType=Prs	5	dislocated@subj	_	AlignBegin=105417|AlignEnd=105549|Gloss=1.Plur.Gen.Def
 5	ʧìn	yi	AUX	_	_	0	root	_	AlignEnd=105945|Gloss=3Plur.be.X|wordform=yi
 6	məːri	məːri	ADJ	_	Number=Plur	5	comp:pred	_	AlignBegin=106209|AlignEnd=106473|Gloss=young
 7	nʤótn	nʤwâːtn	IDEO	_	ExtPos=ADV	6	mod	_	AlignBegin=106473|Gloss=small.INTENS
@@ -3733,7 +3733,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 513981, 518739
-# text = àmáː < yâːn mə yír ŋǎː gə̀t ɗan wò tuːr náɣɗi hŋ́ < myáːnin >+ ma ɬə́ tuːr ngə́tâtn əndá mə́ ʧî //
+# text = àmáː < yâːn mə yír ŋǎː gə̀t ɗan wò tuːrnáɣɗi hŋ́ < myáːnin >+ ma ɬə́ tuːr ngə́tâtn əndá mə́ ʧî //
 # text_ortho = àmáː < yâːn mə yír ŋǎː gə̀t ɗan wò tuːr náɣɗi hŋ́ < myáːnin >+ ma ɬə́ tuːr ngə́tâtn əndá mə́ ʧî //
 # text_en = But, if I do not have a young girl who cooks the food, I am the one who will cook myself before I eat.
 1	àmáː	àmáː	CCONJ	_	_	14	discourse	_	AlignBegin=513981|AlignEnd=514144|Gloss=but
@@ -3755,13 +3755,11 @@
 16	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	14	comp:cleft	_	AlignBegin=516708|AlignEnd=516890|Gloss=1Sing.Fut
 17	ɬə́	ɬə	VERB	_	_	16	comp:aux	_	AlignBegin=516890|AlignEnd=517072|Gloss=go
 18	tuːr	tuːr	VERB	_	_	17	compound:svc	_	AlignBegin=517072|AlignEnd=517254|Gloss=cook
-19-20	ngə́tâtn	_	_	_	_	_	_	_	_
-19	ngə́tn	ngətn	NOUN	_	_	18	comp:obj	_	AlignBegin=517254|AlignEnd=517345|Gloss=thing
-20	=âtn	=atn	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	19	mod@poss	_	AlignBegin=517345|AlignEnd=517436|Gloss=1Sing.Gen
-21	əndá	kəndá	SCONJ	_	_	22	mod	_	AlignBegin=518054|AlignEnd=518225|Gloss=then
-22	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	18	conj:coord	_	AlignBegin=518225|AlignEnd=518396|Gloss=1Plur.Aor
-23	ʧî	ʧi	VERB	_	_	22	comp:aux	_	AlignBegin=518396|AlignEnd=518567|Gloss=eat
-24	//	//	PUNCT	_	_	14	punct	_	AlignBegin=518567|AlignEnd=518739|Gloss=PUNCT
+19	ngə́tâtn	ngətn	NOUN	_	_	18	comp:obj	_	AlignBegin=517254|AlignEnd=517345|Gloss=thing.1Sing.Gen
+20	əndá	kəndá	SCONJ	_	_	21	mod	_	AlignBegin=518054|AlignEnd=518225|Gloss=then
+21	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	18	conj:coord	_	AlignBegin=518225|AlignEnd=518396|Gloss=1Plur.Aor
+22	ʧî	ʧi	VERB	_	_	21	comp:aux	_	AlignBegin=518396|AlignEnd=518567|Gloss=eat
+23	//	//	PUNCT	_	_	14	punct	_	AlignBegin=518567|AlignEnd=518739|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_411-411
 # speaker_id = SP1

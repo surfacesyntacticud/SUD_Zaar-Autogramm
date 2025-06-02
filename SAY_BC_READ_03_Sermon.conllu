@@ -546,7 +546,7 @@
 35	yàːlì	yàːlì	NOUN	_	_	34	compound	_	AlignBegin=171824|AlignEnd=172012|Gloss=visible
 36	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	31	conj:coord	_	AlignBegin=173960|AlignEnd=174305|Gloss=2Sing.Fut
 37	kwáːn	kwon	VERB	_	Number=Plur	33	comp:aux	_	AlignBegin=174305|AlignEnd=174477|Gloss=tell
-38	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	34	mod	_	AlignBegin=174477|AlignEnd=174650|Gloss=3Plur.OBJ ; 3Plur.Gen
+38	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	37	comp:obj	_	AlignBegin=174477|AlignEnd=174650|Gloss=3Plur.OBJ
 39	pát-pàt	pát-pàt	IDEO	_	ExtPos=ADV	34	mod	_	AlignBegin=174650|AlignEnd=174995|Gloss=clearly
 40	//	//	PUNCT	_	_	3	punct	_	AlignBegin=174995|AlignEnd=175340|Gloss=PUNCT
 
@@ -1622,7 +1622,7 @@
 # sent_id = SAY_BC_READ_03_Sermon_244-250
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 548000, 561880
-# text = Yéːsu máː / wò man su =ʃí ɗa tu / ɓurúk / ngə́tn yóːɗan / kə̀tàyáː fi mə́n láːp -kə́nì =ètn mə́n / ká ɗə̂kn / kə̀tàyáː myáːni mə́n //
+# text = Yéːsu máː wò man su =ʃí ɗa tu ɓurúk ngə́tn yóːɗan kə̀tàyáː fi mə́n láːpkə́nètn mə́n ká ɗə̂kn kə̀tàyáː myáːni mə́n //
 # text_ortho = Yéːsu máː / wò man suʃí ɗa tu / ɓurúk / ngə́tn yóːɗan / kə̀tàyáː fî mə́n láːpkə́nètn mə́n / á ɗə̂kn / kə̀tàyáː fîn myâːn mə́n //
 # text_en = Jesus will rise again and say "All that the things that you did for one of my followers in this world, you did for me."
 1	Yéːsu	Yéːsu	INTJ	_	_	3	dislocated@subj	_	AlignBegin=548000|AlignEnd=548267|Gloss=Jesus
@@ -1639,15 +1639,14 @@
 12	kə̀tàyáː	ta-̀yáː	AUX	_	Aspect=Imp|Number=Plur|Person=2|Tense=Rem	11	mod@relcl	_	AlignBegin=555940|AlignEnd=556163|Gloss=2Plur.REM.Imp
 13	fi	fi	VERB	_	_	12	comp:aux	_	AlignBegin=556163|AlignEnd=556386|Gloss=do
 14	mə́n	mə́n	PART	_	Case=Ben	13	compound:prt	_	AlignBegin=556386|AlignEnd=556609|Gloss=people
-15	láːpkə́n	láːp	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	14	compound	_	AlignBegin=556609|AlignEnd=556683|Gloss=follow-Vnoun|wordform=láːp
-16	=ètn	=atn	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	15	mod@poss	_	AlignBegin=556757|AlignEnd=556832|Gloss=1Sing.Gen
-17	mə́n	mə́n	PART	_	Case=Ben	13	compound:prt	_	AlignBegin=556832|AlignEnd=557055|Gloss=BEN
-18	ká	a	ADP	_	_	13	comp:obl	_	AlignBegin=558180|AlignEnd=558333|Gloss=at
-19	ɗə̂kn	ɗ	VERB	_	_	20	comp:aux	_	AlignBegin=558333|AlignEnd=558486|Gloss=world
-20	kə̀tàyáː	ta-̀yáː	AUX	_	Aspect=Imp|Number=Plur|Person=2|Tense=Rem	18	comp:obj	_	AlignBegin=560160|AlignEnd=560504|Gloss=2Plur.REM.Imp
-21	myáːni	myááːni	PRON	_	Number=Sing|Person=1|PronType=Prs	18	comp:obj	_	AlignBegin=560848|AlignEnd=561192|Gloss=1Sing.IDP
-22	mə́n	mə́n	PART	_	Case=Ben	21	compound:prt	_	AlignBegin=561192|AlignEnd=561536|Gloss=BEN
-23	//	//	PUNCT	_	_	3	punct	_	AlignBegin=561536|AlignEnd=561880|Gloss=PUNCT
+15	láːpkə́nètn	láːp	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	14	compound	_	AlignBegin=556609|AlignEnd=556683|Gloss=follow-Vnoun.1Sing.Gen|wordform=láːp
+16	mə́n	mə́n	PART	_	Case=Ben	13	compound:prt	_	AlignBegin=556832|AlignEnd=557055|Gloss=BEN
+17	ká	a	ADP	_	_	13	comp:obl	_	AlignBegin=558180|AlignEnd=558333|Gloss=at
+18	ɗə̂kn	ɗ	VERB	_	_	19	comp:aux	_	AlignBegin=558333|AlignEnd=558486|Gloss=world
+19	kə̀tàyáː	ta-̀yáː	AUX	_	Aspect=Imp|Number=Plur|Person=2|Tense=Rem	17	comp:obj	_	AlignBegin=560160|AlignEnd=560504|Gloss=2Plur.REM.Imp
+20	myáːni	myááːni	PRON	_	Number=Sing|Person=1|PronType=Prs	17	comp:obj	_	AlignBegin=560848|AlignEnd=561192|Gloss=1Sing.IDP
+21	mə́n	mə́n	PART	_	Case=Ben	20	compound:prt	_	AlignBegin=561192|AlignEnd=561536|Gloss=BEN
+22	//	//	PUNCT	_	_	3	punct	_	AlignBegin=561536|AlignEnd=561880|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_251-254
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
