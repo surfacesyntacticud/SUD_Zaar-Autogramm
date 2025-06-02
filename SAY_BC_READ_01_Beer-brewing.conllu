@@ -360,10 +360,9 @@
 1	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	0	root	_	AlignBegin=96080|AlignEnd=96323|Gloss=1Sing.Aor
 2	gáː	gaː	VERB	_	_	1	comp:aux	_	AlignBegin=96323|AlignEnd=96445|Gloss=leave.Res
 3	nə	nə	ADP	_	_	2	comp:obj	_	AlignBegin=96566|AlignEnd=96809|Gloss=that_of
-4	naːyí	naː	VERB	_	ExtPos=NOUN|VerbForm=Part	3	comp:obj	_	AlignBegin=96809|AlignEnd=96931|Gloss=remain.Part
-5	=wôs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	mod@poss	_	AlignBegin=96931|AlignEnd=97052|Gloss=3Sing.Gen
-6	kəndí	kən	PART	_	_	1	discourse@foc	_	AlignBegin=97052|AlignEnd=97295|Gloss=COP2
-7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=97295|AlignEnd=97540|Gloss=PUNCT
+4	naːyíwôs	naː	VERB	_	ExtPos=NOUN|Poss=Yes|VerbForm=Part	3	comp:obj	_	AlignBegin=96809|AlignEnd=96931|Gloss=remain.Part3Sing.Gen|wordform=naːyí
+5	kəndí	kən	PART	_	_	1	discourse@foc	_	AlignBegin=97052|AlignEnd=97295|Gloss=COP2
+6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=97295|AlignEnd=97540|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_01_Beer_051-053
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
@@ -506,16 +505,15 @@
 # text = gíː ɗan kə gâː =ʃíː sə̂m =wôs tu niː ?//
 # text_ortho = gíː ɗan kə gâː ʃíː / sə̂mwòs tu niː ?//
 # text_en = That which you kept aside, what's its name?
-1	gíː	gíː	PRON	_	Deixis=Dist|PronType=Dem	9	dislocated@top	_	AlignBegin=135340|AlignEnd=135533|Gloss=Dist
+1	gíː	gíː	PRON	_	Deixis=Dist|PronType=Dem	8	dislocated@top	_	AlignBegin=135340|AlignEnd=135533|Gloss=Dist
 2	ɗan	ɗan	SCONJ	_	_	1	mod@relcl	_	AlignBegin=135533|AlignEnd=135726|Gloss=as
 3	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	2	comp:obj	_	AlignBegin=135726|AlignEnd=135919|Gloss=2Sing.Aor
 4	gâː	gaː	VERB	_	_	3	comp:aux	_	AlignBegin=135919|AlignEnd=136112|Gloss=put
 5	=ʃíː	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=136112|AlignEnd=136208|Gloss=3Plur.OBJ.Res|wordform==ʃí
-6	sə̂m	sə̂m	NOUN	_	_	9	subj	_	AlignBegin=137460|AlignEnd=137560|Gloss=name
-7	=wôs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	mod@poss	_	AlignBegin=137560|AlignEnd=137660|Gloss=3Sing.Gen
-8	tu	tu	PART	_	_	9	mod	_	AlignBegin=137660|AlignEnd=137860|Gloss=COMP
-9	niː	niː	PRON	_	PronType=Int	0	root	_	AlignBegin=137860|AlignEnd=138060|Gloss=what
-10	?//	?//	PUNCT	_	_	9	punct	_	AlignBegin=138060|AlignEnd=138260|Gloss=PUNCT
+6	sə̂mwôs	sə̂m	NOUN	_	Poss=Yes	8	subj	_	AlignBegin=137460|AlignEnd=137560|Gloss=name3Sing.Gen|wordform=sə̂m
+7	tu	tu	PART	_	_	8	mod	_	AlignBegin=137660|AlignEnd=137860|Gloss=COMP
+8	niː	niː	PRON	_	PronType=Int	0	root	_	AlignBegin=137860|AlignEnd=138060|Gloss=what
+9	?//	?//	PUNCT	_	_	8	punct	_	AlignBegin=138060|AlignEnd=138260|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_01_Beer_068-068
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
@@ -645,17 +643,16 @@
 # text = páːʧ -i gín ɗan kə ʃín gáy -ín / sə̂m =wôs tu niː ?//
 # text_ortho = páːʧi gín ɗan kə ʃín káyín / sə́mwòs tu niː ?//
 # text_en = These leaves that you put inside, how do you call them ?
-1	páːʧi	páːtsə	NOUN	_	Definite=Ind	9	dislocated@top	_	AlignBegin=165620|AlignEnd=165716|Gloss=leaf-Ind|wordform=páːʧ
+1	páːʧi	páːtsə	NOUN	_	Definite=Ind	8	dislocated@top	_	AlignBegin=165620|AlignEnd=165716|Gloss=leaf-Ind|wordform=páːʧ
 2	gín	giní	DET	_	_	1	det	_	AlignBegin=165811|AlignEnd=166002|Gloss=-Prox
 3	ɗan	ɗan	SCONJ	_	_	1	mod@relcl	_	AlignBegin=166002|AlignEnd=166193|Gloss=that
 4	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	3	comp:obj	_	AlignBegin=166193|AlignEnd=166384|Gloss=2Sing.Aor
 5	ʃín	ʃin	VERB	_	_	4	comp:aux	_	AlignBegin=166384|AlignEnd=166575|Gloss=pour
 6	gáyín	káy	PRON	_	Case=Loc|Deixis=Dist	5	comp:obl@expl	_	AlignBegin=166575|AlignEnd=166671|Gloss=Anaph.Loc.Prox|wordform=gáy
-7	sə̂m	sə̂m	NOUN	_	_	9	subj	_	AlignBegin=167420|AlignEnd=167515|Gloss=name
-8	=wôs	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	7	mod@poss	_	AlignBegin=167515|AlignEnd=167610|Gloss=3Sing.Gen
-9	tu	tu	PART	_	_	0	root	_	AlignBegin=167610|AlignEnd=167800|Gloss=COMP
-10	niː	niː	PRON	_	PronType=Int	9	comp:obj	_	AlignBegin=167800|AlignEnd=167990|Gloss=what
-11	?//	?//	PUNCT	_	_	9	punct	_	AlignBegin=167990|AlignEnd=168180|Gloss=PUNCT
+7	sə̂mwôs	sə̂m	NOUN	_	Poss=Yes	8	subj	_	AlignBegin=167420|AlignEnd=167515|Gloss=name3Sing.Gen|wordform=sə̂m
+8	tu	tu	PART	_	_	0	root	_	AlignBegin=167610|AlignEnd=167800|Gloss=COMP
+9	niː	niː	PRON	_	PronType=Int	8	comp:obj	_	AlignBegin=167800|AlignEnd=167990|Gloss=what
+10	?//	?//	PUNCT	_	_	8	punct	_	AlignBegin=167990|AlignEnd=168180|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_01_Beer_083-083
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
@@ -1280,12 +1277,11 @@
 # text = tòː láː =wós ɓàní -íː ɣən //
 # text_ortho = tôː láːwós ɓàníː kəndí //
 # text_en = Well, then there's nothing else to do.
-1	tòː	tòː	PART	_	_	4	discourse	_	AlignBegin=337740|AlignEnd=337984|Gloss=DM
-2	láː	laː	NOUN	_	Definite=Cons	4	subj	_	AlignBegin=337984|AlignEnd=338106|Gloss=work
-3	=wós	=wos	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod@poss	_	AlignBegin=338106|AlignEnd=338228|Gloss=3Sing.Gen
-4	ɓàníː	ɓaní	VERB	_	_	0	root	_	AlignBegin=338228|AlignEnd=338350|Gloss=finish.Res|wordform=ɓàní
-5	ɣən	kən	PART	_	_	4	discourse@foc	_	AlignBegin=338472|AlignEnd=338716|Gloss=COP2
-6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=338716|AlignEnd=338960|Gloss=PUNCT
+1	tòː	tòː	PART	_	_	3	discourse	_	AlignBegin=337740|AlignEnd=337984|Gloss=DM
+2	láːwós	laː	NOUN	_	Definite=Cons|Poss=Yes	3	subj	_	AlignBegin=337984|AlignEnd=338106|Gloss=work3Sing.Gen|wordform=láː
+3	ɓàníː	ɓaní	VERB	_	_	0	root	_	AlignBegin=338228|AlignEnd=338350|Gloss=finish.Res|wordform=ɓàní
+4	ɣən	kən	PART	_	_	3	discourse@foc	_	AlignBegin=338472|AlignEnd=338716|Gloss=COP2
+5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=338716|AlignEnd=338960|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_01_Beer_164-167
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
@@ -1313,13 +1309,12 @@
 # text = yâwwàː / mbút -kə́nì =wàːsə̀ŋ / tə́ ɗûː dèːdéː //
 # text_ortho = yâwwàː / mbútkə́nwàːsə̀ŋ / tə́ ɗúː dèːdêː //
 # text_en = All right, the time [of its preparation] and that of beer are the same.
-1	yâwwàː	yâwwàː	INTJ	_	_	6	discourse	_	AlignBegin=346140|AlignEnd=346530|Gloss=OK
-2	mbútkə́n	mbút	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	6	subj	_	AlignBegin=346920|AlignEnd=347050|Gloss=spend_night-Vnoun|wordform=mbút
-3	=wàːsə̀ŋ	=waːsəŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	mod@poss	_	AlignBegin=347180|AlignEnd=347310|Gloss=3Plur.Gen
-4	tə́	tə́	CCONJ	_	_	5	cc	_	AlignBegin=348020|AlignEnd=348220|Gloss=and
-5	ɗûː	ɗûu	VERB	_	_	2	conj:coord	_	AlignBegin=348220|AlignEnd=348420|Gloss=beer
-6	dèːdéː	dèːdéː	ADJ	_	_	0	root	_	AlignBegin=348420|AlignEnd=348620|Gloss=equal
-7	//	//	PUNCT	_	_	6	punct	_	AlignBegin=348620|AlignEnd=348820|Gloss=PUNCT
+1	yâwwàː	yâwwàː	INTJ	_	_	5	discourse	_	AlignBegin=346140|AlignEnd=346530|Gloss=OK
+2	mbútkə́nwàːsə̀ŋ	mbút	VERB	_	ExtPos=NOUN|Poss=Yes|VerbForm=Vnoun	5	subj	_	AlignBegin=346920|AlignEnd=347050|Gloss=spend_night-Vnoun3Plur.Gen|wordform=mbút
+3	tə́	tə́	CCONJ	_	_	4	cc	_	AlignBegin=348020|AlignEnd=348220|Gloss=and
+4	ɗûː	ɗûu	VERB	_	_	2	conj:coord	_	AlignBegin=348220|AlignEnd=348420|Gloss=beer
+5	dèːdéː	dèːdéː	ADJ	_	_	0	root	_	AlignBegin=348420|AlignEnd=348620|Gloss=equal
+6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=348620|AlignEnd=348820|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_01_Beer_170-171
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
@@ -1348,13 +1343,12 @@
 # text = wàːtòː bambánʧi =wàːsə̀ŋ yáːni nə mbwáːɣə̂n -íː //
 # text_ortho = wàːtòː bambánʧiwàːsə̀ŋ / yâːn nə mbwáːɣə̂níː //
 # text_en = That is to say, their difference is in that malting.
-1	wàːtòː	wàːtòː	PART	_	_	5	discourse	_	AlignBegin=355480|AlignEnd=355993|Gloss=DM
-2	bambánʧi	bambánʧi	NOUN	_	Definite=Cons	5	dislocated@subj	_	AlignBegin=355993|AlignEnd=356249|Gloss=difference
-3	=wàːsə̀ŋ	=waːsəŋ	PRON	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	mod@poss	_	AlignBegin=356249|AlignEnd=356506|Gloss=3Plur.Gen
-4	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	2	conj:appos	_	AlignBegin=358320|AlignEnd=358545|Gloss=3Sing.IDP
-5	nə	nə	PART	_	_	0	root	_	AlignBegin=358545|AlignEnd=358770|Gloss=COP1
-6	mbwáːɣə̂n	mbwaː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	5	comp:pred	_	AlignBegin=358770|AlignEnd=358845|Gloss=germinate.Vnoun.Res
-7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=358995|AlignEnd=359220|Gloss=PUNCT
+1	wàːtòː	wàːtòː	PART	_	_	4	discourse	_	AlignBegin=355480|AlignEnd=355993|Gloss=DM
+2	bambánʧiwàːsə̀ŋ	bambánʧi	NOUN	_	Definite=Cons|Poss=Yes	4	dislocated@subj	_	AlignBegin=355993|AlignEnd=356249|Gloss=difference3Plur.Gen|wordform=bambánʧi
+3	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	2	conj:appos	_	AlignBegin=358320|AlignEnd=358545|Gloss=3Sing.IDP
+4	nə	nə	PART	_	_	0	root	_	AlignBegin=358545|AlignEnd=358770|Gloss=COP1
+5	mbwáːɣə̂n	mbwaː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	comp:pred	_	AlignBegin=358770|AlignEnd=358845|Gloss=germinate.Vnoun.Res
+6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=358995|AlignEnd=359220|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_01_Beer_174-181
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
