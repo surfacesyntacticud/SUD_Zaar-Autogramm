@@ -112,9 +112,9 @@
 # text = ʧì tə́ nûː ?//
 # text_ortho = ʧì tə́ nûː ?//
 # text_en = With whom?
-1	ʧì	ʧì	PRON	_	ExtPos=ADP|Number=Plur|Person=3|PronType=Prs	0	root	_	AlignBegin=16506|AlignEnd=16588|Gloss=3Plur|Idiom=Yes
-2	tə́	tə́	ADP	_	_	1	unk	_	AlignBegin=16670|AlignEnd=16834|Gloss=with|InIdiom=Yes
-3	nûː	núː	PRON	_	PronType=Int	1	comp:obj	_	AlignBegin=16834|AlignEnd=16998|Gloss=who
+1	ʧì	yi	AUX	_	Number=Plur|Person=3	0	root	_	AlignBegin=16506|AlignEnd=16588|Gloss=3Plur.be
+2	tə́	tə́	ADP	_	_	1	comp:pred	_	AlignBegin=16670|AlignEnd=16834|Gloss=with|InIdiom=Yes
+3	nûː	núː	PRON	_	PronType=Int	2	comp:obj	_	AlignBegin=16834|AlignEnd=16998|Gloss=who
 4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=16998|AlignEnd=17164|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_011-011
@@ -438,7 +438,7 @@
 2	||	||	PUNCT	_	_	3	punct	_	AlignBegin=54192|AlignEnd=54370|Gloss=PUNCT
 3	ŋaː	ŋaː	ADJ	_	_	1	conj:dicto	_	AlignBegin=54370|AlignEnd=54600|Gloss=small
 4	ràbo	ràbo	NOUN	_	_	5	subj	_	AlignBegin=54600|AlignEnd=54715|Gloss=share
-5	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	0	root	_	AlignBegin=54715|AlignEnd=54830|Gloss=Anaph.Loc
+5	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	0	root	_	AlignBegin=54715|AlignEnd=54830|Gloss=Anaph.Loc.3Sing
 6	ŋǎːn	ŋǎːn	PART	_	Polarity=Neg	5	mod	_	AlignBegin=54830|AlignEnd=54945|Gloss=Q.Neg|PartType=Int|wordform=ŋaː
 7	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=55060|AlignEnd=55290|Gloss=PUNCT
 
@@ -457,7 +457,7 @@
 6	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=55680|AlignEnd=55757|Gloss=PUNCT
 7	ŋaː	ŋaː	ADJ	_	_	8	mod	_	AlignBegin=55757|AlignEnd=56067|Gloss=small
 8	ràbo	ràbo	NOUN	_	_	9	subj	_	AlignBegin=56067|AlignEnd=56222|Gloss=share
-9	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	5	comp:obl@expl	_	AlignBegin=56222|AlignEnd=56377|Gloss=Anaph.Loc
+9	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	5	comp:obl@expl	_	AlignBegin=56222|AlignEnd=56377|Gloss=Anaph.Loc.3Sing
 10	ɓét	bét	ADV	_	_	9	mod	_	AlignBegin=56377|AlignEnd=56686|Gloss=all
 11	sòːséy	sòːséy	ADV	_	_	9	mod	_	AlignBegin=56686|AlignEnd=57019|Gloss=quite
 12	//]	//]	PUNCT	_	_	5	punct	_	AlignBegin=57019|AlignEnd=57352|Gloss=PUNCT
@@ -533,7 +533,7 @@
 14-17	mə́nɗiɣáyoː	_	_	_	_	_	_	_	_
 14	mə́n	mə́n	PART	_	Case=Ben	12	compound:prt	_	AlignBegin=64502|AlignEnd=64548|Gloss=BEN
 15	ɗi	ɗi	PART	_	_	12	compound:prt	_	AlignBegin=64548|AlignEnd=64594|Gloss=Ctp|wordform==ɗi
-16	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	12	comp:obl@expl	_	AlignBegin=64594|AlignEnd=64640|Gloss=Anaph.Loc
+16	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	12	comp:obl@expl	_	AlignBegin=64594|AlignEnd=64640|Gloss=Anaph.Loc.3Sing
 17	oː	oː	PART	_	_	9	mod	_	AlignBegin=64640|AlignEnd=64684|Gloss=Emph|PartType=Emp
 18	!//]	!//]	PUNCT	_	_	9	punct	_	AlignBegin=64684|AlignEnd=64866|Gloss=PUNCT
 19	//	//	PUNCT	_	_	2	punct	_	AlignBegin=64866|AlignEnd=65047|Gloss=PUNCT
@@ -618,7 +618,7 @@
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=73152|AlignEnd=73304|Gloss=PUNCT
 3	dǔːmwâːnə́n	dǔːm	NOUN	_	Poss=Yes	4	subj	_	AlignBegin=73304|AlignEnd=73630|Gloss=honey2Plur.Gen.Prox|wordform=dǔːm
 4	yi	yi	VERB	_	_	0	root	_	AlignBegin=73630|AlignEnd=73793|Gloss=be
-5	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	4	comp:pred	_	AlignBegin=73793|AlignEnd=73956|Gloss=Anaph.Loc
+5	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	4	comp:pred	_	AlignBegin=73793|AlignEnd=73956|Gloss=Anaph.Loc.3Sing
 6-7	sòːséyoː	_	_	_	_	_	_	_	_
 6	sòːséy	sòːséy	ADV	_	_	4	mod	_	AlignBegin=73956|AlignEnd=74119|Gloss=quite
 7	oː	oː	PART	_	_	4	mod	_	AlignBegin=74119|AlignEnd=74282|Gloss=Emph|PartType=Emp
@@ -632,7 +632,7 @@
 # text_ortho = duːmês káy !//
 # text_en = That's honeyǃ
 1	duːmês	dǔːm	NOUN	_	Definite=Def	2	comp:pred	_	AlignBegin=74857|AlignEnd=75053|Gloss=honey.Def|wordform=dǔːm
-2	káy	káy	PRON	_	Case=Loc	0	root	_	AlignBegin=75053|AlignEnd=75249|Gloss=Anaph.Loc
+2	káy	káy	PRON	_	Case=Loc	0	root	_	AlignBegin=75053|AlignEnd=75249|Gloss=Anaph.Loc.3Sing
 3	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=75249|AlignEnd=75446|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_063-066
@@ -715,7 +715,7 @@
 5	ʃîn	ʃin	VERB	_	_	4	comp:aux	_	AlignBegin=91272|AlignEnd=91513|Gloss=pour
 6	nasáŋʃi	nâs	ADJ	_	Number=Plur	7	mod	_	AlignBegin=91513|AlignEnd=92160|Gloss=big|wordform=nâs
 7	dǔːm	dǔːm	NOUN	_	_	5	comp:obj	_	AlignBegin=92160|AlignEnd=92420|Gloss=honey
-8	gáy	káy	PRON	_	Case=Loc|PronType=Prs	5	comp:obl@expl	_	AlignBegin=92420|AlignEnd=92680|Gloss=Anaph.Loc
+8	gáy	káy	PRON	_	Case=Loc|PronType=Prs	5	comp:obl@expl	_	AlignBegin=92420|AlignEnd=92680|Gloss=Anaph.Loc.3Sing
 9	ɓə́ŋtə̂ŋ	ɓə́ŋ	IDEO	_	_	5	mod	_	AlignBegin=92680|AlignEnd=92885|Gloss=plenty
 10	ɗa	ɗa	ADP	_	_	5	comp:obl	_	AlignBegin=92885|AlignEnd=93090|Gloss=at
 11	gìɓì	gìɓì	ADV	_	_	10	comp:obj	_	AlignBegin=93090|AlignEnd=93295|Gloss=inside
@@ -857,7 +857,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 117380, 120426
-# text = longa < kə̂ːm -íː tsə́krə̂m -íː má ɲîːmí mì ʧìmgə yáːwón //
+# text = longa < kə̂ːɗíː tsə́krə̂míː má ɲîːmí mì ʧìmgə yáːwón //
 # text_ortho = longa < kə́ːmíː tsə́krə̂míː má ɲîːmí mì ʧìmgə yáːwón //
 # text_en = Rabbit, you with the long ears, it will boil down to you and me today.
 1	longa	longa	NOUN	_	_	5	vocative	_	AlignBegin=117380|AlignEnd=117850|Gloss=rabbit
@@ -868,10 +868,10 @@
 6-7	ɲîːmí	_	_	_	_	_	_	_	_
 6	ɲîː	ɲiː	VERB	_	_	5	comp:aux	_	AlignBegin=119108|AlignEnd=119240|Gloss=grind
 7	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	comp:obj	_	AlignBegin=119240|AlignEnd=119371|Gloss=1Plur.Obj
-8	mì	mì	PRON	_	Number=Plur|Person=1|PronType=Prs	6	comp:pred	_	AlignBegin=119371|AlignEnd=119634|Gloss=1Plur.SBJ
+8	mì	mì	AUX	_	Number=Plur|Person=1	6	comp:pred	_	AlignBegin=119371|AlignEnd=119634|Gloss=1Plur.be
 9-10	ʧìmgə	_	_	_	_	_	_	_	_
-9	ʧìm	ʧím	ADP	_	_	10	cc	_	AlignBegin=119634|AlignEnd=119766|Gloss=with
-10	=gə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	8	conj:coord	_	AlignBegin=119766|AlignEnd=119897|Gloss=2Sing.Obj
+9	ʧìm	ʧím	ADP	_	_	8	comp:pred	_	AlignBegin=119634|AlignEnd=119766|Gloss=with
+10	=gə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	9	comp:obj	_	AlignBegin=119766|AlignEnd=119897|Gloss=2Sing.Obj
 11	yáːwón	yáːwón	ADV	_	PronType=Dem	6	mod	_	AlignBegin=119897|AlignEnd=120160|Gloss=today
 12	//	//	PUNCT	_	_	5	punct	_	AlignBegin=120160|AlignEnd=120426|Gloss=PUNCT
 
@@ -1118,7 +1118,7 @@
 2	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=155695|AlignEnd=156090|Gloss=3Plur.Aor
 3-4	yi	_	_	_	_	_	_	_	_
 3	yǐː	yi	VERB	_	_	2	comp:aux	_	AlignBegin=156090|AlignEnd=156288|Gloss=produce.Emph
-4	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	3	comp:obl@expl	_	AlignBegin=156288|AlignEnd=156485|Gloss=Anaph.Loc
+4	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	3	comp:obl@expl	_	AlignBegin=156288|AlignEnd=156485|Gloss=Anaph.Loc.3Sing
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=156880|AlignEnd=157274|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_126-126
@@ -1269,7 +1269,7 @@
 10-12	fimgáy	_	_	_	_	_	_	_	_
 10	fi	fi	VERB	_	_	9	comp:aux	_	AlignBegin=181023|AlignEnd=181104|Gloss=do
 11	=m	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	comp:obj@R	_	AlignBegin=181104|AlignEnd=181185|Gloss=1Sing.Obj
-12	gáy	káy	PRON	_	Case=Loc|PronType=Prs	10	comp:obl@expl	_	AlignBegin=181185|AlignEnd=181265|Gloss=Anaph.Loc
+12	gáy	káy	PRON	_	Case=Loc|PronType=Prs	10	comp:obl@expl	_	AlignBegin=181185|AlignEnd=181265|Gloss=Anaph.Loc.3Sing
 13	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	10	parataxis	_	AlignBegin=181265|AlignEnd=181507|Gloss=2Plur.Aor
 14	kǐːr	túːr	VERB	_	Number=Plur	13	comp:aux	_	AlignBegin=181507|AlignEnd=181749|Gloss=run.Plur
 15	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	13	conj:svc	_	AlignBegin=181749|AlignEnd=181991|Gloss=2Plur.Aor
@@ -1388,7 +1388,7 @@
 4	ŋaː	ŋaː	ADJ	_	_	5	mod	_	AlignBegin=193666|AlignEnd=193850|Gloss=small
 5-6	sâːɣáy	_	_	_	_	_	_	_	_
 5	sâː	sâː	NOUN	_	_	3	comp:obj	_	AlignBegin=193850|AlignEnd=193942|Gloss=chance
-6	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	3	comp:obl@expl	_	AlignBegin=193942|AlignEnd=194034|Gloss=Anaph.Loc
+6	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	3	comp:obl@expl	_	AlignBegin=193942|AlignEnd=194034|Gloss=Anaph.Loc.3Sing
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=194034|AlignEnd=194218|Gloss=PUNCT
 8	tòː	tòː	PART	_	_	9	discourse	_	AlignBegin=194218|AlignEnd=194400|Gloss=well
 9-12	ɓèsə́mɗyoː	_	_	_	_	_	_	_	_
@@ -1466,7 +1466,7 @@
 2	dùm	dùm	VERB	_	_	1	comp:aux	_	AlignBegin=199230|AlignEnd=199442|Gloss=???
 3-4	vwàːɣáy	_	_	_	_	_	_	_	_
 3	vwàː	vwàː	NOUN	_	_	2	comp:obj@lvc	_	AlignBegin=199442|AlignEnd=199548|Gloss=belly
-4	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	2	comp:obl@expl	_	AlignBegin=199548|AlignEnd=199654|Gloss=Anaph.Loc
+4	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	2	comp:obl@expl	_	AlignBegin=199548|AlignEnd=199654|Gloss=Anaph.Loc.3Sing
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=199654|AlignEnd=199864|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_158-158
@@ -1643,7 +1643,7 @@
 4-6	ʧaːtəɣáy	_	_	_	_	_	_	_	_
 4	ʧaː	ʧaː	VERB	_	_	3	comp:aux	_	AlignBegin=219113|AlignEnd=219239|Gloss=put
 5	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=219239|AlignEnd=219365|Gloss=3Sing.Obj
-6	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	4	comp:obl@expl	_	AlignBegin=219365|AlignEnd=219490|Gloss=Anaph.Loc
+6	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	4	comp:obl@expl	_	AlignBegin=219365|AlignEnd=219490|Gloss=Anaph.Loc.3Sing
 7	ɣəndí	kəndí	PART	_	_	2	discourse@foc	_	AlignBegin=219490|AlignEnd=219867|Gloss=be
 8	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=219867|AlignEnd=220244|Gloss=PUNCT
 
@@ -2361,7 +2361,7 @@
 5	ʧìː	yi	AUX	_	Number=Plur|Person=3|Tense=Imm	4	comp:obj	_	AlignBegin=314690|AlignEnd=314765|Gloss=3Plur.Imm
 6-7	yìɣáy	_	_	_	_	_	_	_	_
 6	yì	yi	VERB	_	_	5	comp:aux	_	AlignBegin=314690|AlignEnd=314765|Gloss=be
-7	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	6	comp:pred	_	AlignBegin=314840|AlignEnd=314915|Gloss=Anaph.Loc
+7	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	6	comp:pred	_	AlignBegin=314840|AlignEnd=314915|Gloss=Anaph.Loc.3Sing
 8	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=314915|AlignEnd=315142|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_237-237
@@ -2836,7 +2836,7 @@
 3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	2	comp:obj	_	AlignBegin=369417|AlignEnd=369615|Gloss=3Sing.Aor
 4	kap	kap	VERB	_	_	3	comp:aux	_	AlignBegin=369615|AlignEnd=369813|Gloss=take.Emph
 5	ɗan	ɗan	ADV	_	_	4	mod	_	AlignBegin=369813|AlignEnd=370011|Gloss=indeed
-6	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	4	comp:obl@expl	_	AlignBegin=370011|AlignEnd=370209|Gloss=Anaph.Loc
+6	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	4	comp:obl@expl	_	AlignBegin=370011|AlignEnd=370209|Gloss=Anaph.Loc.3Sing
 7	kǐr	kír	VERB	_	_	0	root	_	AlignBegin=370644|AlignEnd=370872|Gloss=run
 8	káwây	káwây	ADV	_	_	7	mod	_	AlignBegin=370872|AlignEnd=371100|Gloss=merely
 9	//	//	PUNCT	_	_	7	punct	_	AlignBegin=371100|AlignEnd=371329|Gloss=PUNCT
@@ -3091,7 +3091,7 @@
 6	ɮòp	ɮop	VERB	_	_	5	comp:aux	_	AlignBegin=398252|AlignEnd=398494|Gloss=thrust
 7-8	gwaːriɣáy	_	_	_	_	_	_	_	_
 7	gwaːri	gwaːr	NOUN	_	Definite=Ind	6	comp:obj	_	AlignBegin=398494|AlignEnd=398656|Gloss=spear|wordform=gwaːr
-8	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	6	comp:obl@expl	_	AlignBegin=398656|AlignEnd=398736|Gloss=Anaph.Loc
+8	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	6	comp:obl@expl	_	AlignBegin=398656|AlignEnd=398736|Gloss=Anaph.Loc.3Sing
 9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=398736|AlignEnd=398980|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_305-306
@@ -3112,7 +3112,7 @@
 8-10	mə́ndiɣáy	_	_	_	_	_	_	_	_
 8	mə́n	mə́n	PART	_	Case=Ben	3	compound:prt	_	AlignBegin=401311|AlignEnd=401382|Gloss=BEN
 9	ɗi	ɗi	PART	_	_	3	compound:prt	_	AlignBegin=401382|AlignEnd=401453|Gloss=Ctp|wordform==ɗi
-10	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	3	comp:obl@expl	_	AlignBegin=401453|AlignEnd=401523|Gloss=Anaph.Loc
+10	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	3	comp:obl@expl	_	AlignBegin=401453|AlignEnd=401523|Gloss=Anaph.Loc.3Sing
 11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=401523|AlignEnd=401737|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_307-307
@@ -3201,7 +3201,7 @@
 15	ʃèː	ʃèː	AUX	_	_	11	conj:svc	_	AlignBegin=413585|AlignEnd=413809|Gloss=X
 16-17	ɓəlɣáy	_	_	_	_	_	_	_	_
 16	ɓəl	ɓəl	VERB	_	_	15	comp:aux	_	AlignBegin=413809|AlignEnd=413884|Gloss=dig
-17	ɣáy	káy	PRON	_	Case=Loc|Number=Sing	16	comp:obl@expl	_	AlignBegin=413884|AlignEnd=413959|Gloss=Anaph.Loc
+17	ɣáy	káy	PRON	_	Case=Loc|Number=Sing	16	comp:obl@expl	_	AlignBegin=413884|AlignEnd=413959|Gloss=Anaph.Loc.3Sing
 18	oː	oː	PART	_	_	5	mod	_	AlignBegin=413959|AlignEnd=414033|Gloss=Emph|PartType=Emp
 19	!//]	!//]	PUNCT	_	_	5	punct	_	AlignBegin=414033|AlignEnd=414257|Gloss=PUNCT
 20	//	//	PUNCT	_	_	1	punct	_	AlignBegin=414257|AlignEnd=414480|Gloss=PUNCT
@@ -3217,12 +3217,12 @@
 2	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=415097|AlignEnd=415266|Gloss=3Plur.Aor
 3-4	ɓə̂lɣáy	_	_	_	_	_	_	_	_
 3	ɓə̂l	ɓəl	VERB	_	_	2	comp:aux	_	AlignBegin=415266|AlignEnd=415350|Gloss=dig
-4	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	3	comp:obl@expl	_	AlignBegin=415350|AlignEnd=415435|Gloss=Anaph.Loc
+4	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	3	comp:obl@expl	_	AlignBegin=415350|AlignEnd=415435|Gloss=Anaph.Loc.3Sing
 5	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=415435|AlignEnd=415604|Gloss=PUNCT
 6	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	2	conj:svc	_	AlignBegin=415604|AlignEnd=415773|Gloss=3Plur.Aor
 7-8	ɓə̂lɣáy	_	_	_	_	_	_	_	_
 7	ɓə̂l	ɓəl	VERB	_	_	6	comp:aux	_	AlignBegin=415773|AlignEnd=415857|Gloss=dig
-8	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	7	comp:obl@expl	_	AlignBegin=415857|AlignEnd=415942|Gloss=Anaph.Loc
+8	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	7	comp:obl@expl	_	AlignBegin=415857|AlignEnd=415942|Gloss=Anaph.Loc.3Sing
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=415942|AlignEnd=416110|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_320-321
@@ -3236,7 +3236,7 @@
 2	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=416935|AlignEnd=417229|Gloss=3Plur.Aor
 3-4	ɓə̂lɣáy	_	_	_	_	_	_	_	_
 3	ɓəl	ɓəl	VERB	_	_	2	comp:aux	_	AlignBegin=417229|AlignEnd=417376|Gloss=dig
-4	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	3	comp:obl@expl	_	AlignBegin=417376|AlignEnd=417523|Gloss=Anaph.Loc
+4	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	3	comp:obl@expl	_	AlignBegin=417376|AlignEnd=417523|Gloss=Anaph.Loc.3Sing
 5	káwây	káwây	ADV	_	_	3	mod	_	AlignBegin=417523|AlignEnd=417817|Gloss=merely
 6	séː	séː	CCONJ	_	_	7	cc	_	AlignBegin=417817|AlignEnd=418110|Gloss=then
 7	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	2	conj:coord	_	AlignBegin=418651|AlignEnd=418866|Gloss=3Plur.Aor
@@ -3244,7 +3244,7 @@
 9	ɮòp	ɮop	VERB	_	_	8	compound:svc	_	AlignBegin=419081|AlignEnd=419296|Gloss=thrust
 10-11	gwaːrêskáy	_	_	_	_	_	_	_	_
 10	gwaːrês	gwaːr	NOUN	_	Definite=Def	9	comp:obj	_	AlignBegin=419296|AlignEnd=419440|Gloss=spear|wordform=gwaːr
-11	káy	káy	PRON	_	Case=Loc|PronType=Prs	9	comp:obl@expl	_	AlignBegin=419440|AlignEnd=419511|Gloss=Anaph.Loc
+11	káy	káy	PRON	_	Case=Loc|PronType=Prs	9	comp:obl@expl	_	AlignBegin=419440|AlignEnd=419511|Gloss=Anaph.Loc.3Sing
 12	ɗa	ɗa	PART	_	_	9	compound:prt	_	AlignBegin=419511|AlignEnd=419726|Gloss=again
 13	//	//	PUNCT	_	_	2	punct	_	AlignBegin=419726|AlignEnd=419939|Gloss=PUNCT
 
@@ -3260,7 +3260,7 @@
 3	ɮòp	ɮop	VERB	_	_	2	comp:aux	_	AlignBegin=421215|AlignEnd=421473|Gloss=thrust
 4-5	gwaːrêskáy	_	_	_	_	_	_	_	_
 4	gwaːrês	gwaːr	NOUN	_	_	3	comp:obj	_	AlignBegin=421473|AlignEnd=421645|Gloss=spear|wordform=gwaːr
-5	káy	káy	PRON	_	Case=Loc|PronType=Prs	3	comp:obl@expl	_	AlignBegin=421645|AlignEnd=421731|Gloss=Anaph.Loc
+5	káy	káy	PRON	_	Case=Loc|PronType=Prs	3	comp:obl@expl	_	AlignBegin=421645|AlignEnd=421731|Gloss=Anaph.Loc.3Sing
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=421731|AlignEnd=421991|Gloss=PUNCT
 7	séː	séː	ADV	_	_	9	mod	_	AlignBegin=422605|AlignEnd=422912|Gloss=then
 8	də̌ːr	də̌ːr	NOUN	_	_	9	subj	_	AlignBegin=422912|AlignEnd=423219|Gloss=land_monitor
@@ -3274,7 +3274,7 @@
 15-17	mə́nɗiɣáy	_	_	_	_	_	_	_	_
 15	mə́n	mə́n	PART	_	Case=Ben	10	compound:prt	_	AlignBegin=424754|AlignEnd=424856|Gloss=BEN
 16	ɗi	ɗi	PART	_	_	10	compound:prt	_	AlignBegin=424856|AlignEnd=424958|Gloss=Ctp|wordform==ɗi
-17	ɣáy	káy	PRON	_	Case=Loc	10	comp:obl@expl	_	AlignBegin=424958|AlignEnd=425061|Gloss=Anaph.Loc
+17	ɣáy	káy	PRON	_	Case=Loc	10	comp:obl@expl	_	AlignBegin=424958|AlignEnd=425061|Gloss=Anaph.Loc.3Sing
 18	//	//	PUNCT	_	_	9	punct	_	AlignBegin=425061|AlignEnd=425367|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_324-324
@@ -3434,7 +3434,7 @@
 11-13	ngaptíːɣáy	_	_	_	_	_	_	_	_
 11	ngap	ngap	VERB	_	_	10	comp:aux	_	AlignBegin=443623|AlignEnd=443779|Gloss=hold
 12	=tíː	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=443675|AlignEnd=443727|Gloss=3Sing.Obj.Emph|wordform==tə
-13	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	11	comp:obl@expl	_	AlignBegin=443779|AlignEnd=443831|Gloss=Anaph.Loc
+13	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	11	comp:obl@expl	_	AlignBegin=443779|AlignEnd=443831|Gloss=Anaph.Loc.3Sing
 14-15	káwâyòː	_	_	_	_	_	_	_	_
 14	káwây	káwây	ADV	_	_	11	mod	_	AlignBegin=443831|AlignEnd=443935|Gloss=merely
 15	òː	oː	PART	_	_	10	mod	_	AlignBegin=443935|AlignEnd=444039|Gloss=Emph|PartType=Emp
@@ -3633,7 +3633,7 @@
 4	ɗan	ɗan	SCONJ	_	_	3	mod@relcl	_	AlignBegin=469684|AlignEnd=470126|Gloss=REL
 5	tìː	X	PRON	_	_	6	subj	_	AlignBegin=470126|AlignEnd=470568|Gloss=X
 6	yì	yi	VERB	_	_	4	comp:obj	_	AlignBegin=470126|AlignEnd=470568|Gloss=be
-7	ɣáy	káy	PRON	_	Case=Loc|Number=Sing|PronType=Prs	6	comp:pred	_	AlignBegin=470126|AlignEnd=470568|Gloss=Anaph.Loc
+7	ɣáy	káy	PRON	_	Case=Loc|Number=Sing|PronType=Prs	6	comp:pred	_	AlignBegin=470126|AlignEnd=470568|Gloss=Anaph.Loc.3Sing
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=470568|AlignEnd=471007|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_362-363
@@ -3799,7 +3799,7 @@
 11-13	yâːɬɗìɣáy	_	_	_	_	_	_	_	_
 11	yâːɬ	yâːɬ	NOUN	_	_	10	comp:obj@L	_	AlignBegin=490380|AlignEnd=490486|Gloss=earth
 12	=ɗì	ɗi	PART	_	_	10	compound:prt	_	AlignBegin=490486|AlignEnd=490592|Gloss=Ctp
-13	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	10	comp:obl@expl	_	AlignBegin=490592|AlignEnd=490698|Gloss=Anaph.Loc
+13	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	10	comp:obl@expl	_	AlignBegin=490592|AlignEnd=490698|Gloss=Anaph.Loc.3Sing
 14	//	//	PUNCT	_	_	3	punct	_	AlignBegin=490698|AlignEnd=491017|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_378-378
@@ -3969,7 +3969,7 @@
 8	ŋaː	ŋaː	ADJ	_	_	9	mod	_	AlignBegin=510762|AlignEnd=511103|Gloss=small
 9-10	rángaɣáy	_	_	_	_	_	_	_	_
 9	ránga	ránga	NOUN	_	_	6	comp:obj	_	AlignBegin=511103|AlignEnd=511274|Gloss=mahogany
-10	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	6	comp:obl@expl	_	AlignBegin=511274|AlignEnd=511445|Gloss=Anaph.Loc
+10	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	6	comp:obl@expl	_	AlignBegin=511274|AlignEnd=511445|Gloss=Anaph.Loc.3Sing
 11	kyâːt	kyâːt	IDEO	_	_	6	mod	_	AlignBegin=511445|AlignEnd=511703|Gloss=fast
 12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=511703|AlignEnd=511962|Gloss=PUNCT
 
@@ -4195,7 +4195,7 @@
 7	kat	kat	VERB	_	_	6	comp:aux	_	AlignBegin=533264|AlignEnd=533422|Gloss=drive_away
 8-9	rángaɣáy	_	_	_	_	_	_	_	_
 8	ránga	ránga	NOUN	_	_	7	comp:obj	_	AlignBegin=533422|AlignEnd=533475|Gloss=mahogany
-9	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	7	comp:obl@expl	_	AlignBegin=533475|AlignEnd=533580|Gloss=Anaph.Loc|wordform=káy
+9	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	7	comp:obl@expl	_	AlignBegin=533475|AlignEnd=533580|Gloss=Anaph.Loc.3Sing|wordform=káy
 10	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=533580|AlignEnd=533738|Gloss=3Sing.Aor
 11	súː	súː	VERB	_	_	10	comp:aux	_	AlignBegin=533738|AlignEnd=533896|Gloss=want
 12	vər	vər	VERB	_	_	11	compound:svc	_	AlignBegin=533896|AlignEnd=534054|Gloss=give
@@ -4508,7 +4508,7 @@
 9	woní	wǒn	NOUN	_	Definite=Ind	8	comp:obj	_	AlignBegin=567872|AlignEnd=568110|Gloss=jewel|wordform=wǒn
 10-11	kə̂ːmgáy	_	_	_	_	_	_	_	_
 10	kə̂ːm	kə̂ːm	NOUN	_	_	9	compound	_	AlignBegin=568110|AlignEnd=568229|Gloss=ear
-11	gáy	káy	PRON	_	Case=Loc|PronType=Prs	8	comp:obl@expl	_	AlignBegin=568229|AlignEnd=568348|Gloss=Anaph.Loc
+11	gáy	káy	PRON	_	Case=Loc|PronType=Prs	8	comp:obl@expl	_	AlignBegin=568229|AlignEnd=568348|Gloss=Anaph.Loc.3Sing
 12	//	//	PUNCT	_	_	8	punct	_	AlignBegin=568348|AlignEnd=568589|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_449-449
@@ -4523,7 +4523,7 @@
 3	woní	wǒn	NOUN	_	_	2	comp:obj	_	AlignBegin=570499|AlignEnd=570726|Gloss=jewel|wordform=wǒn
 4-5	kə̂ːmgáy	_	_	_	_	_	_	_	_
 4	kə̂ːm	kə̂ːm	NOUN	_	_	3	compound	_	AlignBegin=570726|AlignEnd=570840|Gloss=ear
-5	gáy	káy	PRON	_	Case=Loc|PronType=Prs	2	comp:obl@expl	_	AlignBegin=570840|AlignEnd=570953|Gloss=Anaph.Loc
+5	gáy	káy	PRON	_	Case=Loc|PronType=Prs	2	comp:obl@expl	_	AlignBegin=570840|AlignEnd=570953|Gloss=Anaph.Loc.3Sing
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=570953|AlignEnd=571182|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_450-450
@@ -5106,7 +5106,7 @@
 8-10	ʒàɗìɣáy	_	_	_	_	_	_	_	_
 8	ʒà	ʒà	NOUN	_	_	7	comp:obj	_	AlignBegin=644891|AlignEnd=644956|Gloss=water
 9	=ɗì	ɗi	PART	_	_	7	compound:prt	_	AlignBegin=644956|AlignEnd=645021|Gloss=Ctp
-10	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	7	comp:obl@expl	_	AlignBegin=645021|AlignEnd=645085|Gloss=Anaph.Loc
+10	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	7	comp:obl@expl	_	AlignBegin=645021|AlignEnd=645085|Gloss=Anaph.Loc.3Sing
 11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=645085|AlignEnd=645280|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_509-509
@@ -5238,7 +5238,7 @@
 8-11	ʃíːrtəɣáyǎːn	_	_	_	_	_	_	_	_
 8	ʃíːr	ʃiː	VERB	_	Voice=Cau	7	compound:svc	_	AlignBegin=665120|AlignEnd=665250|Gloss=get_down-Cau|wordform=ʃiː
 9	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	comp:obj@R	_	AlignBegin=665250|AlignEnd=665280|Gloss=3Sing
-10	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	8	comp:obl@expl	_	AlignBegin=665250|AlignEnd=665315|Gloss=Anaph.Loc
+10	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	8	comp:obl@expl	_	AlignBegin=665250|AlignEnd=665315|Gloss=Anaph.Loc.3Sing
 11	ǎːn	ŋǎːn	PART	_	Polarity=Neg	6	mod	_	AlignBegin=665315|AlignEnd=665380|Gloss=Q.Neg|PartType=Int|wordform=aː
 12	?//]	?//]	PUNCT	_	_	6	punct	_	AlignBegin=665446|AlignEnd=665773|Gloss=PUNCT
 13	òːʔôːy	òːʔôːy	INTJ	_	_	0	root	_	AlignBegin=665773|AlignEnd=666005|Gloss=non
@@ -5268,7 +5268,7 @@
 15-18	ʃíːrtəɣáyaː	_	_	_	_	_	_	_	_
 15	ʃíːr	ʃíːr	VERB	_	_	14	compound:svc	_	AlignBegin=670321|AlignEnd=670413|Gloss=get_down|wordform=ʃiː
 16	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	15	comp:obj	_	AlignBegin=670413|AlignEnd=670459|Gloss=3Sing.Obj
-17	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	15	comp:obl@expl	_	AlignBegin=670459|AlignEnd=670505|Gloss=Anaph.Loc
+17	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	15	comp:obl@expl	_	AlignBegin=670459|AlignEnd=670505|Gloss=Anaph.Loc.3Sing
 18	aː	aː	PART	_	_	13	mod	_	AlignBegin=670505|AlignEnd=670550|Gloss=VRT|PartType=Int
 19	?//]	?//]	PUNCT	_	_	13	punct	_	AlignBegin=670550|AlignEnd=670781|Gloss=PUNCT
 20	//	//	PUNCT	_	_	8	punct	_	AlignBegin=670550|AlignEnd=670781|Gloss=PUNCT
@@ -5303,7 +5303,7 @@
 8-11	ʃíːrtəɣáyoː	_	_	_	_	_	_	_	_
 8	ʃíːr	ʃiː	VERB	_	Voice=Cau	7	compound:svc	_	AlignBegin=674090|AlignEnd=674176|Gloss=get_down-Cau|wordform=ʃiː
 9	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=674176|AlignEnd=674219|Gloss=3Sing.Obj
-10	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	8	comp:obl@expl	_	AlignBegin=674219|AlignEnd=674262|Gloss=Anaph.Loc
+10	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	8	comp:obl@expl	_	AlignBegin=674219|AlignEnd=674262|Gloss=Anaph.Loc.3Sing
 11	oː	oː	PART	_	_	1	mod	_	AlignBegin=674262|AlignEnd=674303|Gloss=Emph|PartType=Emp
 12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=674303|AlignEnd=674515|Gloss=PUNCT
 
@@ -5798,7 +5798,7 @@
 13	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	12	comp:obj	_	AlignBegin=751418|AlignEnd=751605|Gloss=2Sing.Cnd
 14	yél	yel	VERB	_	_	13	comp:aux	_	AlignBegin=751605|AlignEnd=751792|Gloss=see
 15	náɣat	nákat	NOUN	_	_	14	comp:obj	_	AlignBegin=751792|AlignEnd=751886|Gloss=food
-16	káy	káy	PRON	_	Case=Loc|PronType=Prs	14	comp:obl@expl	_	AlignBegin=751886|AlignEnd=751979|Gloss=Anaph.Loc
+16	káy	káy	PRON	_	Case=Loc|PronType=Prs	14	comp:obl@expl	_	AlignBegin=751886|AlignEnd=751979|Gloss=Anaph.Loc.3Sing
 17	<	<	PUNCT	_	_	10	punct	_	AlignBegin=751979|AlignEnd=752169|Gloss=PUNCT
 18	dóːlêː	dóːlêː	ADV	_	_	19	mod	_	AlignBegin=752169|AlignEnd=752347|Gloss=necessary
 19	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=752347|AlignEnd=752525|Gloss=2Sing.Fut
