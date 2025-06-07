@@ -145,9 +145,9 @@
 9	//+	//+	PUNCT	_	_	10	punct	_	AlignBegin=23680|AlignEnd=23680|Gloss=PUNCT
 10	séː	séː	SCONJ	_	ExtPos=SCONJ	3	mod	_	AlignBegin=24280|AlignEnd=24433|Gloss=except|Idiom=Yes
 11	déː	déː	PART	_	_	10	discourse@top	_	AlignBegin=24433|AlignEnd=24586|Gloss=anyway|InIdiom=Yes
-12	mì	mì	PRON	_	Number=Plur|Person=1|PronType=Prs	13	subj	_	AlignBegin=24586|AlignEnd=24739|Gloss=1Plur
-13	nə	nə	PART	_	_	10	comp:obj	_	AlignBegin=24739|AlignEnd=24892|Gloss=be
-14	məːri	məːri	NOUN	_	Number=Plur	13	comp:pred	_	AlignBegin=24892|AlignEnd=25045|Gloss=children
+12	mì	mì	AUX	_	Number=Plur|Person=1|PronType=Prs	10	comp:obj	_	AlignBegin=24586|AlignEnd=24739|Gloss=1Plur.be
+13	nə	nə	PART	_	_	12	comp:pred	_	AlignBegin=24739|AlignEnd=24892|Gloss=DER
+14	məːri	məːri	ADJ	_	Number=Plur	13	comp:pred	_	AlignBegin=24892|AlignEnd=25045|Gloss=young
 15	//	//	PUNCT	_	_	3	punct	_	AlignBegin=25045|AlignEnd=25200|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_01_Religion_020-020
@@ -230,17 +230,17 @@
 # text = kóː nə yǎːr |c kóː nə páːtsə wón tə́ ngâː < tə́ || tə́ || tə́ dàp ká lə̂p volɲês //
 # text_ortho = kóː nə yǎːr |c kóː nə páːtsə wón tə́ ngâː < tə́ || tə́ || tə́ dàp ká lə̂p volɲês //
 # text_en = Whether it is straw, or some leaf they have taken, they... they they tied them at the groundnut place.
-1	kóː	kóː	CCONJ	_	_	12	mod	_	AlignBegin=37292|AlignEnd=37439|Gloss=or
-2	nə	nə	PART	_	_	1	comp:obj	_	AlignBegin=37439|AlignEnd=37586|Gloss=be
+1	kóː	kóː	CCONJ	_	_	2	cc	_	AlignBegin=37292|AlignEnd=37439|Gloss=or
+2	nə	nə	PART	_	_	12	mod	_	AlignBegin=37439|AlignEnd=37586|Gloss=be
 3	yǎːr	yǎːr	NOUN	_	_	2	comp:pred	_	AlignBegin=37586|AlignEnd=37733|Gloss=grass
 4	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=37733|AlignEnd=37880|Gloss=PUNCT
 5	kóː	kóː	CCONJ	_	_	6	cc	_	AlignBegin=38520|AlignEnd=38673|Gloss=or
-6	nə	nə	PART	_	_	1	conj:coord	_	AlignBegin=38673|AlignEnd=38826|Gloss=be
+6	nə	nə	PART	_	_	2	conj:coord	_	AlignBegin=38673|AlignEnd=38826|Gloss=be
 7	páːtsə	páːtsə	NOUN	_	_	6	comp:pred	_	AlignBegin=38826|AlignEnd=38979|Gloss=leaf
 8	wón	wón	DET	_	Definite=Spec	7	det	_	AlignBegin=38979|AlignEnd=39132|Gloss=SPEC
 9	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	6	comp:cleft	_	AlignBegin=39132|AlignEnd=39285|Gloss=3Plur.Aor
 10	ngâː	Ŋgâː	VERB	_	_	9	comp:aux	_	AlignBegin=39285|AlignEnd=39438|Gloss=fetch
-11	<	<	PUNCT	_	_	1	punct	_	AlignBegin=39438|AlignEnd=39594|Gloss=PUNCT
+11	<	<	PUNCT	_	_	2	cc	_	AlignBegin=39438|AlignEnd=39594|Gloss=PUNCT
 12	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=39594|AlignEnd=39971|Gloss=3Plur.Aor
 13	||	||	PUNCT	_	_	14	punct	_	AlignBegin=39971|AlignEnd=40348|Gloss=PUNCT
 14	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	12	conj:dicto	_	AlignBegin=40348|AlignEnd=40504|Gloss=3Plur.Aor
@@ -313,7 +313,7 @@
 15-16	wáːrə̌ŋ	_	_	_	_	_	_	_	_
 15	wâːr	wâːr	NOUN	_	_	14	comp:pred	_	AlignBegin=51247|AlignEnd=51419|Gloss=fetish
 16	hŋ́	hŋ́	PART	_	Polarity=Neg	14	mod	_	AlignBegin=51419|AlignEnd=51591|Gloss=Neg2
-17	nə	nə	PART	_	_	14	conj:svc	_	AlignBegin=51591|AlignEnd=51763|Gloss=be
+17	nə	nə	PART	_	_	14	parataxis	_	AlignBegin=51591|AlignEnd=51763|Gloss=be
 18-19	murgyoː	_	_	_	_	_	_	_	_
 18	murgi	Murgi	NOUN	_	_	17	comp:pred	_	AlignBegin=51763|AlignEnd=51935|Gloss=fetish_sp
 19	oː	oː	PART	_	_	17	discourse	_	AlignBegin=51935|AlignEnd=52107|Gloss=Fact|PartType=Emp
@@ -777,12 +777,12 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_RELIGION.WAV
 # sent_timecode = 137180, 138060
-# text = ka náːy nə ndómtsə //
+# text = ka nǎːy nə ndómtsə //
 # text_ortho = ka náːy nə ndómtsə //
 # text_en = You will become a leper.
 1	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=137180|AlignEnd=137356|Gloss=2Sing.Fut
 2	nǎːy	naː	VERB	_	_	1	comp:aux	_	AlignBegin=137356|AlignEnd=137532|Gloss=become.Emph|wordform=náːy
-3	nə	nə	PART	_	_	2	comp:pred	_	AlignBegin=137532|AlignEnd=137708|Gloss=be
+3	nə	nə	PART	_	_	2	comp:pred	_	AlignBegin=137532|AlignEnd=137708|Gloss=DER
 4	ndómtsə	ndómtsə	NOUN	_	_	3	comp:pred	_	AlignBegin=137708|AlignEnd=137884|Gloss=leper
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=137884|AlignEnd=138060|Gloss=PUNCT
 
@@ -1777,7 +1777,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_RELIGION.WAV
 # sent_timecode = 312131, 321223
-# text = wàːtòː gwàːn bàː átayáː ɗyáː ngap Zaːr hŋ́ ɗan kàmán mə ɬə́́ fíɗi nə mə́ːri X < wò ɗyáː naː ɗan gyáː wuːr || gìːr || èː yér ɣə̀ wón -íː ɗa átayáː fí hŋ́ ?//
+# text = wàːtòː gwàːn bàː átayáː ɗyáː ngap Zaːr hŋ́ ɗan kàmán mə ɬə́́ fíɗi nə mə́ːri X < wò ɗyáː naː ɗan gyáː wuːr || gìːr || èː yér ɣə̀ wóníː ɗa átayáː fí hŋ́ ?//
 # text_ortho = wàːtòː gwàːn bàː átayáː ɗyáː ngap Zaːr hŋ́ ɗan kàmán mə ɬə́ fíɗi nə mə́ːri X < wò ɗyáː naː ɗan gyáː wuːr || gìːr èː || yér ɣə̀ woníː ɗa átayáː fí hŋ́ ?//
 # text_en = Well, as for you, couldn't you catch people like if we went to steal... it will become like the mountains... the cave er... those fetishes that they used to do?
 1	wàːtòː	wàːtòː	SCONJ	_	_	4	discourse	_	AlignBegin=312131|AlignEnd=312410|Gloss=DM
@@ -1795,8 +1795,8 @@
 13-14	fíɗi	_	_	_	_	_	_	_	_
 13	fí	fi	VERB	_	_	12	compound:svc	_	AlignBegin=315606|AlignEnd=315748|Gloss=do
 14	ɗi	ɗi	PART	_	_	13	compound:prt	_	AlignBegin=315748|AlignEnd=315889|Gloss=Ctp|wordform==ɗi
-15	nə	nə	ADP	_	_	13	comp:obl	_	AlignBegin=315889|AlignEnd=316172|Gloss=be
-16	mə́ːri	mə̂ːr	NOUN	_	Definite=Ind	15	comp:obj	_	AlignBegin=316172|AlignEnd=316455|Gloss=stealing-Ind
+15	nə	nə	PART	_	_	13	comp:obj@lvc	_	AlignBegin=315889|AlignEnd=316172|Gloss=DER
+16	mə́ːri	mə̂ːr	NOUN	_	Definite=Ind	15	comp:pred	_	AlignBegin=316172|AlignEnd=316455|Gloss=stealing-Ind
 17	X	X	X	_	_	11	unk@scrap	_	AlignBegin=316455|AlignEnd=316738|Gloss=XX
 18	<	<	PUNCT	_	_	11	punct	_	AlignBegin=316738|AlignEnd=317020|Gloss=PUNCT
 19	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	9	comp:obj	_	AlignBegin=317500|AlignEnd=317683|Gloss=3Sing.Fut
@@ -2442,7 +2442,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_RELIGION.WAV
 # sent_timecode = 425784, 431540
-# text = áː dàlíːli gyáː ngəʃí ɗan kə́ ʧâːʃíwâːʃíː < yáwwàː < mə wúl tu oː < kə yél ndaráɣə̂nwòs nə gyôː ?//
+# text = áː dàlíːli gyáː ngəʃí ɗan kə́ ʧâːʃíwâːʃíː < yáwwàː < mə wúl tu oː < kə yél ndaráɣə̂nwòs nə gyòː ?//
 # text_ortho = áː dàlíːli gyáː ngəʃí ɗan kə́ ʧâːʃíwâːʃíː < yáwwàː < mə wúl tu oː < kə yél ndaráɣə̂nwòs nə gyòː ?//
 # text_en = Eh, the reason of what you did, OK!, I say what do you think was good about it?
 1	áː	á	INTJ	_	_	17	discourse	_	AlignBegin=425784|AlignEnd=426069|Gloss=HESIT
@@ -2466,7 +2466,7 @@
 18	yél	yel	VERB	_	_	17	comp:aux	_	AlignBegin=430507|AlignEnd=430714|Gloss=see
 19	ndaráɣə̂nwòs	ndará	VERB	_	ExtPos=NOUN|Poss=Yes|VerbForm=Vnoun	20	subj	_	AlignBegin=430714|AlignEnd=430852|Gloss=be_proper-Vnoun3Sing.Gen|wordform=ndaráɣə̂n
 20	nə	nə	PART	_	_	18	parataxis@comp	_	AlignBegin=430921|AlignEnd=431128|Gloss=be
-21	gyôː	gyôː	DET	_	PronType=Int	20	comp:pred	_	AlignBegin=431128|AlignEnd=431335|Gloss=which
+21	gyòː	gyoː	DET	_	PronType=Int	20	comp:pred	_	AlignBegin=431128|AlignEnd=431335|Gloss=which
 22	?//	?//	PUNCT	_	_	17	punct	_	AlignBegin=431335|AlignEnd=431540|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_01_Religion_262-262
