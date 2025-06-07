@@ -1329,7 +1329,7 @@
 1-2	yin	_	_	_	_	_	_	_	_
 1	yi	yi	AUX	_	_	4	discourse	_	AlignBegin=192556|AlignEnd=192750|Gloss=be
 2	nə	nə	PART	_	Aspect=Iter	1	comp:aux	_	AlignBegin=192556|AlignEnd=192750|Gloss=DER
-3	tu	tu	SCONJ	_	_	2	comp:pred	_	AlignBegin=192814|AlignEnd=193072|Gloss=Qot
+3	tu	tu	SCONJ	_	_	2	udep	_	AlignBegin=192814|AlignEnd=193072|Gloss=Qot
 4	nə	nə	PART	_	_	0	root	_	AlignBegin=193072|AlignEnd=193330|Gloss=be
 5	gyóːɗan	gyóːɗan	PRON	_	PronType=Rel	4	comp:pred	_	AlignBegin=193330|AlignEnd=193586|Gloss=the_one_which
 6	táːya	táːya	NOUN	_	_	7	subj	_	AlignBegin=193586|AlignEnd=193760|Gloss=tyre
@@ -1750,33 +1750,30 @@
 10	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=250347|AlignEnd=250347|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_228-231
+# text = wèː kúni wón nə mərə́ nə mərə́ Válti máː tə̀tàyáː ɗîɓár miːr máː á vìː dàtə̂pm máː //
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 250347, 253613
-# text = wèː kúni wón ( nə mərə́ || nə mərə́ Válti máː //) tə̀tàyáː ɗîɓár miːr máː á vìː dàtə̂pm máː //
 # text_ortho = wèːːː kúni wón nə mərə́ || nə mərə́ Válti máː < tə̀tàyáː ɗîːɓár miːr máː á vìː dàtə̂pm máː //
-# text_en = Er… a boy, a a Muslim even, he was selling petrol on the side of the road.
-1	wèː	èː	INTJ	_	_	13	discourse	_	AlignBegin=250347|AlignEnd=250598|Gloss=HESIT
-2	kúni	kúni	NOUN	_	_	13	dislocated@subj	_	AlignBegin=250598|AlignEnd=250721|Gloss=boy
+# text_en = Er… a boy, a young... a young Hausa even, he was selling petrol on the side of the road.
+1	wèː	èː	INTJ	_	_	10	discourse	_	AlignBegin=250347|AlignEnd=250598|Gloss=HESIT
+2	kúni	kúni	NOUN	_	_	10	dislocated@subj	_	AlignBegin=250598|AlignEnd=250721|Gloss=boy
 3	wón	wón	DET	_	Definite=Spec	2	det	_	AlignBegin=250721|AlignEnd=250844|Gloss=SPEC
-4	(	(	PUNCT	_	_	5	punct	_	AlignBegin=250721|AlignEnd=250721|Gloss=PUNCT
-5	nə	nə	PART	_	_	2	conj:appos	_	AlignBegin=250721|AlignEnd=250844|Gloss=DER
-6	mərə́	mərə	ADJ	_	Definite=Cons|Number=Plur	5	comp:pred	_	AlignBegin=250967|AlignEnd=251090|Gloss=young.Plur
-7	||	||	PUNCT	_	_	8	punct	_	AlignBegin=251090|AlignEnd=251211|Gloss=PUNCT
-8	nə	nə	PART	_	_	5	conj:dicto	_	AlignBegin=251211|AlignEnd=251366|Gloss=DER
-9	mərə́	mərə	ADJ	_	Definite=Cons|Number=Plur	10	mod	_	AlignBegin=251366|AlignEnd=251521|Gloss=young.Plur
-10	Válti	Válti	PROPN	_	_	8	comp:pred	_	AlignBegin=251521|AlignEnd=251676|Gloss=Hausa
-11	máː	máː	PART	_	_	8	mod	_	AlignBegin=251676|AlignEnd=251831|Gloss=even
-12	//)	//)	PUNCT	_	_	5	punct	_	AlignBegin=251831|AlignEnd=251988|Gloss=PUNCT
-13	tə̀tàyáː	ta-yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3|Tense=Rem	0	root	_	AlignBegin=251988|AlignEnd=252277|Gloss=3Plur.REM.IMP
-14	ɗîɓár	ɗiːp	VERB	_	_	13	comp:aux	_	AlignBegin=252277|AlignEnd=252566|Gloss=buy
-15	miːr	miːr	NOUN	_	_	14	comp:obj	_	AlignBegin=252566|AlignEnd=252716|Gloss=petrol
-16	máː	máː	PART	_	_	14	mod	_	AlignBegin=252716|AlignEnd=252866|Gloss=even
-17	á	ká	ADP	_	ExtPos=ADP	14	comp:obl	_	AlignBegin=252866|AlignEnd=253016|Gloss=at|Idiom=Yes
-18	vìː	vìː	NOUN	_	_	17	unk	_	AlignBegin=253016|AlignEnd=253166|Gloss=mouth|InIdiom=Yes
-19	dàtə̂pm	dàtə̂pm	NOUN	_	_	17	comp:obj	_	AlignBegin=253166|AlignEnd=253316|Gloss=way
-20	máː	máː	PART	_	_	17	mod	_	AlignBegin=253316|AlignEnd=253466|Gloss=even
-21	//	//	PUNCT	_	_	13	punct	_	AlignBegin=253466|AlignEnd=253613|Gloss=PUNCT
+4	nə	nə	PART	_	_	2	conj:appos	_	AlignBegin=250721|AlignEnd=250844|Gloss=DER
+5	mərə́	mərə	ADJ	_	Definite=Cons|Number=Plur	4	udep	_	AlignBegin=250967|AlignEnd=251090|Gloss=young.Plur
+6	nə	nə	PART	_	_	4	conj:dicto	_	AlignBegin=251211|AlignEnd=251366|Gloss=DER
+7	mərə́	mərə	ADJ	_	Definite=Cons|Number=Plur	8	mod	_	AlignBegin=251366|AlignEnd=251521|Gloss=young.Plur
+8	Válti	Válti	PROPN	_	_	6	udep	_	AlignBegin=251521|AlignEnd=251676|Gloss=Hausa
+9	máː	máː	PART	_	_	6	mod	_	AlignBegin=251676|AlignEnd=251831|Gloss=even
+10	tə̀tàyáː	ta-yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3|Tense=Rem	0	root	_	AlignBegin=251988|AlignEnd=252277|Gloss=3Plur.REM.IMP
+11	ɗîɓár	ɗiːp	VERB	_	_	10	comp:aux	_	AlignBegin=252277|AlignEnd=252566|Gloss=buy
+12	miːr	miːr	NOUN	_	_	11	comp:obj	_	AlignBegin=252566|AlignEnd=252716|Gloss=petrol
+13	máː	máː	PART	_	_	11	mod	_	AlignBegin=252716|AlignEnd=252866|Gloss=even
+14	á	ká	ADP	_	ExtPos=ADP	11	comp:obl	_	AlignBegin=252866|AlignEnd=253016|Gloss=at|Idiom=Yes
+15	vìː	vìː	NOUN	_	_	14	unk	_	AlignBegin=253016|AlignEnd=253166|Gloss=mouth|InIdiom=Yes
+16	dàtə̂pm	dàtə̂pm	NOUN	_	_	14	comp:obj	_	AlignBegin=253166|AlignEnd=253316|Gloss=way
+17	máː	máː	PART	_	_	14	mod	_	AlignBegin=253316|AlignEnd=253466|Gloss=even
+18	//	//	PUNCT	_	_	10	punct	_	AlignBegin=253466|AlignEnd=253613|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_232-234
 # speaker_id = SP1
@@ -2151,8 +2148,8 @@
 15	d~	domin	SCONJ	_	_	11	comp:obj	_	AlignBegin=295896|AlignEnd=296024|Gloss=HESIT
 16	||	||	PUNCT	_	_	17	punct	_	AlignBegin=296024|AlignEnd=296153|Gloss=PUNCT
 17	sábòːtu	sábòːtu	SCONJ	_	ExtPos=ADP	15	conj:dicto	_	AlignBegin=296153|AlignEnd=296407|Gloss=because
-18	nə	nə	PRON	_	_	17	comp:obj	_	AlignBegin=296407|AlignEnd=296661|Gloss=DER
-19	ráʃi	ráʃi	NOUN	_	_	18	comp:pred	_	AlignBegin=296661|AlignEnd=296915|Gloss=lack
+18	nə	nə	PART	_	_	17	comp:obj	_	AlignBegin=296407|AlignEnd=296661|Gloss=DER
+19	ráʃi	ráʃi	NOUN	_	_	18	udep	_	AlignBegin=296661|AlignEnd=296915|Gloss=lack
 20	yisə́ngə̂n	yisə́n	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	19	mod	_	AlignBegin=296915|AlignEnd=297169|Gloss=know
 21	dàtə́pês	dàtə̂pm	NOUN	_	Definite=Def	20	comp:obj	_	AlignBegin=297169|AlignEnd=297423|Gloss=way
 22	//	//	PUNCT	_	_	8	punct	_	AlignBegin=297423|AlignEnd=297677|Gloss=PUNCT
@@ -7969,7 +7966,7 @@
 18-19	kǐn	_	_	_	_	_	_	_	_
 18	kì	kì	AUX	_	_	14	comp:obj	_	AlignEnd=903084|Gloss=2Plur.be
 19	nə	nə	PART	_	_	18	comp:pred	_	AlignEnd=903084|Gloss=DER|wordform=yi
-20	məːrə́nsə	mə̂ːr	NOUN	_	Number=Plur	19	comp:pred	_	AlignBegin=903151|AlignEnd=903286|Gloss=thief
+20	məːrə́nsə	mə̂ːr	NOUN	_	Number=Plur	19	udep	_	AlignBegin=903151|AlignEnd=903286|Gloss=thief
 21	//]	//]	PUNCT	_	_	18	punct	_	AlignBegin=903286|AlignEnd=903421|Gloss=PUNCT
 22	//	//	PUNCT	_	_	2	punct	_	AlignBegin=903421|AlignEnd=903554|Gloss=PUNCT
 
