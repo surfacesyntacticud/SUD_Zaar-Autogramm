@@ -1233,15 +1233,15 @@
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=183478|AlignEnd=183539|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_167-169
+# text = ɗangəní kə yé < Bàːbá Súle < tàː ngúp sə̀yáːsawàːsə̀ŋə́y //
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 183539, 186890
-# text = ɗangəní kə yel < Bàːbá Súle < tàː ngúp sə̀yáːsa =wàːsə̀ŋə́y //
-# text_ortho = ɗangəní kə yel < bàːbá Súle < tàː ngúp sə̀yáːsawàːsə̀ŋə́y //
+# text_ortho = ɗangəní kə yé < Bàːbá Súle < tàː ngúp sə̀yáːsawàːsə̀ŋə́y //
 # text_en = Now you see, Baba Sule, they have started that politics of theirs.
 1	ɗangəní	ɗangəní	ADV	_	PronType=Dem	8	mod	_	AlignBegin=183539|AlignEnd=183740|Gloss=now
 2	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	8	parataxis@discourse	_	AlignBegin=183740|AlignEnd=183941|Gloss=2Sing.Aor
-3	yel	yel	VERB	_	_	2	comp:aux	_	AlignBegin=183941|AlignEnd=184142|Gloss=see
+3	yé	yel	VERB	_	_	2	comp:aux	_	AlignBegin=183941|AlignEnd=184142|Gloss=see
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=184142|AlignEnd=184344|Gloss=PUNCT
 5	Bàːbá	Bàːbá	PROPN	_	_	8	dislocated@subj	_	AlignBegin=184344|AlignEnd=184560|Gloss=Baba
 6	Súle	Súle	PROPN	_	_	5	flat@name	_	AlignBegin=184560|AlignEnd=184776|Gloss=Sule
@@ -1273,14 +1273,14 @@
 3	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=188033|AlignEnd=188198|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_172-173
+# text = kə́ yîsə́n laː ɣə́ sə̀yáːsa kúmá < kóːdzàngyóː ʧì ɣá dàtə̂pm //
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 188198, 190335
-# text = kə́ yisə́n laː ɣə́ sə̀yáːsa kúmá < kóːdzàngyóː ʧì ɣá dàtə̂pm //
-# text_ortho = kə́ yísə́n laː ɣə́ sə̀yáːsa kúmá < kóːdzàngyóː ʧì ɣá dàtə̂pm //
+# text_ortho = kə́ yîsə́n laː ɣə́ sə̀yáːsa kúmá < kóːdzàngyóː ʧì ɣá dàtə̂pm //
 # text_en = You know the work of politics too, everyday they are on the road.
 1	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	9	parataxis@discourse	_	AlignBegin=188198|AlignEnd=188371|Gloss=2Plur.Aor
-2	yisə́n	yisə́n	VERB	_	_	1	comp:aux	_	AlignBegin=188371|AlignEnd=188544|Gloss=know
+2	yîsə́n	yisə́n	VERB	_	_	1	comp:aux	_	AlignBegin=188371|AlignEnd=188544|Gloss=know
 3	laː	laː	NOUN	_	_	2	comp:obj	_	AlignBegin=188544|AlignEnd=188717|Gloss=work
 4	ɣə́	kə́	ADP	_	_	3	mod	_	AlignBegin=188717|AlignEnd=188890|Gloss=of
 5	sə̀yáːsa	sə̀yáːsa	NOUN	_	_	4	comp:obj	_	AlignBegin=188890|AlignEnd=189063|Gloss=politics
@@ -1296,12 +1296,12 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 190081, 190613
-# text = kóːdzàngyóː ɣən //
+# text = kóːdzàngyóː ɣə̂n //
 # text_ortho = kóːdzàngyòːkə̂n //
 # text_en = Everyday indeed.
-1	kóːdzàngyóː	kóːdzàngyóː	ADV	_	_	2	comp:pred	_	AlignBegin=190081|AlignEnd=190214|Gloss=everyday
-2	ɣən	kən	PART	_	_	0	root	_	AlignBegin=190214|AlignEnd=190347|Gloss=be
-3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=190347|AlignEnd=190613|Gloss=PUNCT
+1	kóːdzàngyóː	kóːdzàngyóː	ADV	_	_	0	root	_	AlignBegin=190081|AlignEnd=190214|AttachTo=9@SAY_BC_CONV_03_172-173|Gloss=everyday|Rel=mod
+2	ɣə̂n	kən	PART	_	_	1	discourse@foc	_	AlignBegin=190214|AlignEnd=190347|Gloss=be
+3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=190347|AlignEnd=190613|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_175-176
 # speaker_id = SP2
@@ -1326,21 +1326,23 @@
 # text = yin tu nə gyóːɗan táːya wò ɬə́ːrɣə hár gyaː ngəʃínə̌n //
 # text_ortho = yin tu nə gyóːɗan táːya wò ɬə́ːrɣə hár gyáː ngəʃínə̌n //
 # text_en = I mean, it's the one whose tyre will not take you up to these places..
-1	yin	yiː	AUX	_	Aspect=Iter|ExtPos=AUX	3	discourse	_	AlignBegin=192556|AlignEnd=192750|Gloss=Iter|Idiom=Yes|wordform=yi
-2	tu	tu	SCONJ	_	_	1	unk	_	AlignBegin=192814|AlignEnd=193072|Gloss=Qot|InIdiom=Yes
-3	nə	nə	PART	_	_	0	root	_	AlignBegin=193072|AlignEnd=193330|Gloss=be
-4	gyóːɗan	gyóːɗan	PRON	_	PronType=Rel	3	comp:pred	_	AlignBegin=193330|AlignEnd=193586|Gloss=the_one_which
-5	táːya	táːya	NOUN	_	_	6	subj	_	AlignBegin=193586|AlignEnd=193760|Gloss=tyre
-6	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	4	mod@relcl	_	AlignBegin=193760|AlignEnd=193934|Gloss=3Sing.Fut
-7-8	ɬə́ːrɣə	_	_	_	_	_	_	_	_
-7	ɬə́ːr	ɬə	VERB	_	Voice=Cau	6	comp:aux	_	AlignBegin=193934|AlignEnd=194108|Gloss=go-CAUS
-8	=ɣə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	7	comp:obj	_	AlignBegin=194108|AlignEnd=194282|Gloss=2Sing.Obj
-9	hár	hár	ADP	_	_	7	comp:obl	_	AlignBegin=194282|AlignEnd=194456|Gloss=up_to
-10	gyaː	gyaː	DET	_	Number=Plur	11	det	_	AlignBegin=194456|AlignEnd=194630|Gloss=3Plur
-11-12	ngəʃínə̌n	_	_	_	_	_	_	_	_
-11	ngəʃín	ngə́tn	NOUN	_	Deixis=Prox	9	comp:obj	_	AlignBegin=194630|AlignEnd=194762|Gloss=thing
-12	hŋ́	hŋ́	PART	_	Polarity=Neg	7	mod	_	AlignBegin=194762|AlignEnd=194804|Gloss=Neg
-13	//	//	PUNCT	_	_	3	punct	_	AlignBegin=194804|AlignEnd=194982|Gloss=PUNCT
+1-2	yin	_	_	_	_	_	_	_	_
+1	yi	yi	AUX	_	_	4	discourse	_	AlignBegin=192556|AlignEnd=192750|Gloss=be
+2	nə	nə	PART	_	Aspect=Iter	1	comp:aux	_	AlignBegin=192556|AlignEnd=192750|Gloss=be
+3	tu	tu	SCONJ	_	_	2	comp:pred	_	AlignBegin=192814|AlignEnd=193072|Gloss=Qot
+4	nə	nə	PART	_	_	0	root	_	AlignBegin=193072|AlignEnd=193330|Gloss=be
+5	gyóːɗan	gyóːɗan	PRON	_	PronType=Rel	4	comp:pred	_	AlignBegin=193330|AlignEnd=193586|Gloss=the_one_which
+6	táːya	táːya	NOUN	_	_	7	subj	_	AlignBegin=193586|AlignEnd=193760|Gloss=tyre
+7	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	5	mod@relcl	_	AlignBegin=193760|AlignEnd=193934|Gloss=3Sing.Fut
+8-9	ɬə́ːrɣə	_	_	_	_	_	_	_	_
+8	ɬə́ːr	ɬə	VERB	_	Voice=Cau	7	comp:aux	_	AlignBegin=193934|AlignEnd=194108|Gloss=go-CAUS
+9	=ɣə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	8	comp:obj	_	AlignBegin=194108|AlignEnd=194282|Gloss=2Sing.Obj
+10	hár	hár	ADP	_	_	8	comp:obl	_	AlignBegin=194282|AlignEnd=194456|Gloss=up_to
+11	gyaː	gyaː	DET	_	Number=Plur	12	det	_	AlignBegin=194456|AlignEnd=194630|Gloss=3Plur
+12-13	ngəʃínə̌n	_	_	_	_	_	_	_	_
+12	ngəʃín	ngə́tn	NOUN	_	Deixis=Prox	10	comp:obj	_	AlignBegin=194630|AlignEnd=194762|Gloss=thing
+13	hŋ́	hŋ́	PART	_	Polarity=Neg	8	mod	_	AlignBegin=194762|AlignEnd=194804|Gloss=Neg
+14	//	//	PUNCT	_	_	4	punct	_	AlignBegin=194804|AlignEnd=194982|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_179-179
 # speaker_id = SP1
