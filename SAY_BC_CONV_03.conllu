@@ -2345,33 +2345,33 @@
 4	eː	eː	PART	_	_	2	mod	_	AlignBegin=321400|AlignEnd=321435|Gloss=Quest|PartType=Int
 5	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=321505|AlignEnd=321645|Gloss=PUNCT
 
-# sent_id = SAY_BC_CONV_03_309-309_split1
-# text = màːʃîn tá mán //+
+# sent_id = SAY_BC_CONV_03_309-309_split1_SAY_BC_CONV_03_309-309_split2_split1
+# text = màːʃîn tá mán //+ màːʃîn tá mán
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
-# sent_timecode = 321645, 322649
+# sent_timecode = 321645, 322649 322649, 324712
 # text_ortho = màːʃîn tá mán //+
-# text_en = The motorbike...
+# text_en = The motorbike... the motorbike...
 1	màːʃîn	màːʃîn	NOUN	_	_	3	subj	_	AlignBegin=321922|AlignEnd=322104|Gloss=motorbike
 2	tá	tá	PART	_	_	3	discourse	_	AlignBegin=322104|AlignEnd=322286|Gloss=then
 3	mán	man	VERB	_	_	0	root	_	AlignBegin=322286|AlignEnd=322468|Gloss=come|SVC=Yes
 4	//+	//+	PUNCT	_	_	3	punct	_	AlignBegin=322468|AlignEnd=322649|Gloss=PUNCT
+5	màːʃîn	màːʃîn	NOUN	_	_	7	subj	_	AlignBegin=322649|AlignEnd=322898|Gloss=motorbike
+6	tá	tá	PART	_	_	7	discourse	_	AlignBegin=322898|AlignEnd=323147|Gloss=then
+7	mán	man	VERB	_	_	0	root	_	AlignBegin=323147|AlignEnd=323396|Gloss=come|SVC=Yes
 
-# sent_id = SAY_BC_CONV_03_309-309_split2
-# text = màːʃîn tá mán mará =mə mə́n //
+# sent_id = SAY_BC_CONV_03_309-309_split2_split2
+# text = mará =mə mə́n //
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 322649, 324712
-# text_ortho = màːʃîn tá mán marâm mə́n //
-# text_en = the motorbike... broke down on me.
-1	màːʃîn	màːʃîn	NOUN	_	_	3	subj	_	AlignBegin=322649|AlignEnd=322898|Gloss=motorbike
-2	tá	tá	PART	_	_	3	discourse	_	AlignBegin=322898|AlignEnd=323147|Gloss=then
-3	mán	man	VERB	_	_	0	root	_	AlignBegin=323147|AlignEnd=323396|Gloss=come|SVC=Yes
-4-5	marâm	_	_	_	_	_	_	_	_
-4	mará	mará	VERB	_	_	3	compound:svc	_	AlignBegin=324097|AlignEnd=324199|Gloss=spoil
-5	=mə	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	comp:obj@R	_	AlignBegin=324199|AlignEnd=324302|Gloss=1Sing.Obj
-6	mə́n	mə́n	PART	_	Case=Ben	4	compound:prt	_	AlignBegin=324302|AlignEnd=324507|Gloss=BEN
-7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=324507|AlignEnd=324712|Gloss=PUNCT
+# text_ortho = marâm məníː //
+# text_en = broke down on me.
+1-2	marâm	_	_	_	_	_	_	_	_
+1	mará	mará	VERB	_	_	_	_	_	AlignBegin=324097|AlignEnd=324199|Gloss=spoil
+2	=mə	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	comp:obj@R	_	AlignBegin=324199|AlignEnd=324302|Gloss=1Sing.Obj
+3	mə́n	mə́n	PART	_	Case=Ben	1	compound:prt	_	AlignBegin=324302|AlignEnd=324507|Gloss=BEN
+4	//	//	PUNCT	_	_	_	_	_	AlignBegin=324507|AlignEnd=324712|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_310-313
 # speaker_id = SP2
