@@ -2121,13 +2121,13 @@
 8	tu	tu	VERB	_	_	7	compound:svc	_	AlignBegin=293346|AlignEnd=293488|Gloss=meet
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=293488|AlignEnd=293631|Gloss=PUNCT
 
-# sent_id = SAY_BC_CONV_03_273-275
+# sent_id = SAY_BC_CONV_03_273-275_276-276
+# text = tòː àmáː ɗan mətá ʃiʃí ɗân < tə̀tà wuləm tu wéy || wéy d~ || sábòːtu nə ráʃi yisə́ngə̂n dàtə́pês ɗan bàː máː yisə̌n //
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
-# sent_timecode = 294036, 297677
-# text = tòː àmáː ɗan mətá ʃiʃí ɗân < tə̀tà wuləm tu wéy || wéy d~ || sábòːtu nə ráʃi yisə́ngə̂n dàtə́pês //
-# text_ortho = tòː àmmáː ɗan mətá ʃiʃí ɗân < tə̀tà wuləm tu wéy || wéy d~ || sábòːtu nə ráʃi yisə́ngə̂n dàtə́pês //
-# text_en = Well, but when I left the place, they told me that it was b... because of lack of knowledge of the way.
+# sent_timecode = 294036, 297677 298073, 298685
+# text_ortho = tòː àmmáː ɗan mətá ʃiʃí ɗân < tə̀tà wuləm tu wéy || wéy d~ || sábòːtu nə ráʃi yisə́ngə̂n dàtə́pês ɗan bàː máː yisə̌n //
+# text_en = Well, but when I left the place, they told me that it was b... because of lack of knowledge of the way that I did not know.
 1	tòː	tòː	PART	_	_	8	discourse	_	AlignBegin=294036|AlignEnd=294192|Gloss=well
 2	àmáː	àmáː	CCONJ	_	_	8	discourse	_	AlignBegin=294192|AlignEnd=294348|Gloss=but
 3	ɗan	ɗan	SCONJ	_	_	8	mod	_	AlignBegin=294348|AlignEnd=294504|Gloss=as
@@ -2150,22 +2150,13 @@
 19	ráʃi	ráʃi	NOUN	_	_	18	udep	_	AlignBegin=296661|AlignEnd=296915|Gloss=lack
 20	yisə́ngə̂n	yisə́n	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	19	mod	_	AlignBegin=296915|AlignEnd=297169|Gloss=know
 21	dàtə́pês	dàtə̂pm	NOUN	_	Definite=Def	20	comp:obj	_	AlignBegin=297169|AlignEnd=297423|Gloss=way
-22	//	//	PUNCT	_	_	8	punct	_	AlignBegin=297423|AlignEnd=297677|Gloss=PUNCT
-
-# sent_id = SAY_BC_CONV_03_276-276
-# speaker_id = SP1
-# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
-# sent_timecode = 298073, 298685
-# text = ɗan bàː máː yisə̌n //
-# text_ortho = ɗan bàː máː yisə̌n //
-# text_en = Then I did not know.
-1	ɗan	ɗan	ADV	_	_	3	mod	_	AlignBegin=298073|AlignEnd=298195|Gloss=then
-2	bàː	bàː	PART	_	Polarity=Neg	3	mod	_	AlignBegin=298195|AlignEnd=298317|Gloss=Neg
-3	máː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=298317|AlignEnd=298439|Gloss=1Sing.Perf
-4-5	yisə̌n	_	_	_	_	_	_	_	_
-4	yisə́n	yisə́n	VERB	_	_	3	comp:aux	_	AlignBegin=298439|AlignEnd=298500|Gloss=know
-5	hŋ́	hŋ́	PART	_	Polarity=Neg	4	mod	_	AlignBegin=298500|AlignEnd=298561|Gloss=Neg
-6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=298561|AlignEnd=298685|Gloss=PUNCT
+22	ɗan	ɗan	SCONJ	_	PronType=Rel	21	mod@relcl	_	AlignBegin=298073|AlignEnd=298195|Gloss=that
+23	bàː	bàː	PART	_	Polarity=Neg	24	mod	_	AlignBegin=298195|AlignEnd=298317|Gloss=Neg
+24	máː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=1	22	comp:obj	_	AlignBegin=298317|AlignEnd=298439|Gloss=1Sing.Perf
+25-26	yisə̌n	_	_	_	_	_	_	_	_
+25	yisə́n	yisə́n	VERB	_	_	24	comp:aux	_	AlignBegin=298439|AlignEnd=298500|Gloss=know
+26	hŋ́	hŋ́	PART	_	Polarity=Neg	25	mod	_	AlignBegin=298500|AlignEnd=298561|Gloss=Neg
+27	//	//	PUNCT	_	_	8	punct	_	AlignBegin=298561|AlignEnd=298685|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_277-277
 # speaker_id = SP1
@@ -2198,7 +2189,7 @@
 # text = teː hm̀ː èː Bible School Púʤì //
 # text_ortho = teːːː hm̀ːːː èːːː Bible School Púʤì //
 # text_en = near er... er... the < Bible School > of Tafawa Balewa.
-1	teː	teː	ADP	_	_	0	root	_	AlignBegin=300461|AlignEnd=300755|Gloss=at
+1	teː	teː	ADP	_	_	0	root	_	AlignBegin=300461|AlignEnd=300755|AttachTo=n21@SAY_BC_CONV_03_273-275_276-276|Gloss=at|Rel=mod
 2	hm̀ː	hm̀ː	INTJ	_	_	4	discourse	_	AlignBegin=300755|AlignEnd=301048|Gloss=hm̀ː
 3	èː	èː	INTJ	_	_	4	discourse	_	AlignBegin=301910|AlignEnd=302055|Gloss=èː
 4	Bible	Bible	PROPN	_	Foreign=Yes	1	comp:obj	_	AlignBegin=302055|AlignEnd=302319|Gloss=Bible|Lang=en
@@ -2252,17 +2243,17 @@
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=309235|AlignEnd=309374|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_292-295
+# text = tòː < dàtə̂pm ɗân taːɣə́ napti taŋ-táŋ //
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 309622, 312417
-# text = tòː < dàtə̂pm ɗân taːɣə́ napti taŋ-táŋ //
 # text_ortho = tòː < dàtə̂pm ɗân taːkə́ napti taŋtáŋ //
-# text_en = well, the road there is on the left straight on.
+# text_en = well, the road there, on the left straight on.
 1	tòː	tòː	PART	_	_	3	discourse	_	AlignBegin=309622|AlignEnd=309724|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=309724|AlignEnd=309827|Gloss=PUNCT
-3	dàtə̂pm	dàtə̂pm	NOUN	_	_	0	root	_	AlignBegin=310028|AlignEnd=310249|Gloss=way
+3	dàtə̂pm	dàtə̂pm	NOUN	_	_	0	root	_	AlignBegin=310028|AlignEnd=310249|AttachTo=n21@SAY_BC_CONV_03_273-275_276-276|Gloss=way|Rel=conj:appos
 4	ɗân	ɗáni	ADV	_	PronType=Dem	3	mod	_	AlignBegin=310249|AlignEnd=310470|Gloss=there
-5	taːɣə́	taːkə́	ADP	_	_	4	conj:appos	_	AlignBegin=310708|AlignEnd=310981|Gloss=towards
+5	taːɣə́	taːkə́	ADP	_	_	3	mod	_	AlignBegin=310708|AlignEnd=310981|Gloss=towards
 6	napti	napti	ADV	_	_	5	comp:obj	_	AlignBegin=310981|AlignEnd=311254|Gloss=left
 7	taŋ-táŋ	taŋ-táŋ	IDEO	_	ExtPos=ADV	5	conj:appos	_	AlignBegin=311963|AlignEnd=312190|Gloss=straight_on
 8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=312190|AlignEnd=312417|Gloss=PUNCT
@@ -2322,7 +2313,7 @@
 # text_ortho = gyáː mə́n Mìngíl //
 # text_en = The people of Mingil...
 1	gyáː	gyaː	DET	_	Number=Plur	2	det	_	AlignBegin=321645|AlignEnd=321896|Gloss=3Plur
-2	mə́n	mə́n	NOUN	_	Number=Plur	0	root	_	AlignBegin=321896|AlignEnd=322147|Gloss=people
+2	mə́n	mə́n	NOUN	_	Number=Plur	0	root	_	AlignBegin=321896|AlignEnd=322147|AttachTo=n5@SAY_BC_CONV_03_299-303|Gloss=people|Rel=mod
 3	Mìngíl	Mìngíl	PROPN	_	_	2	compound	_	AlignBegin=322147|AlignEnd=322398|Gloss=Mingil
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=322398|AlignEnd=322649|Gloss=PUNCT
 
@@ -2354,25 +2345,33 @@
 4	eː	eː	PART	_	_	2	mod	_	AlignBegin=321400|AlignEnd=321435|Gloss=Quest|PartType=Int
 5	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=321505|AlignEnd=321645|Gloss=PUNCT
 
-# sent_id = SAY_BC_CONV_03_309-309
+# sent_id = SAY_BC_CONV_03_309-309_split1
+# text = màːʃîn tá mán //+
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
-# sent_timecode = 321645, 324712
-# text = màːʃîn tá mán || màːʃîn tá mán marâm mə́n //
-# text_ortho = màːʃîn tá mán || màːʃîn tá mán marâm mə́n //
-# text_en = The motorbike... the motorbike... broke down on me.
+# sent_timecode = 321645, 322649
+# text_ortho = màːʃîn tá mán //+
+# text_en = The motorbike...
 1	màːʃîn	màːʃîn	NOUN	_	_	3	subj	_	AlignBegin=321922|AlignEnd=322104|Gloss=motorbike
 2	tá	tá	PART	_	_	3	discourse	_	AlignBegin=322104|AlignEnd=322286|Gloss=then
 3	mán	man	VERB	_	_	0	root	_	AlignBegin=322286|AlignEnd=322468|Gloss=come|SVC=Yes
-4	||	||	PUNCT	_	_	7	punct	_	AlignBegin=322468|AlignEnd=322649|Gloss=PUNCT
-5	màːʃîn	màːʃîn	NOUN	_	_	7	subj	_	AlignBegin=322649|AlignEnd=322898|Gloss=motorbike
-6	tá	tá	PART	_	_	7	discourse	_	AlignBegin=322898|AlignEnd=323147|Gloss=then
-7	mán	man	VERB	_	_	3	conj:dicto	_	AlignBegin=323147|AlignEnd=323396|Gloss=come|SVC=Yes
-8-9	marâm	_	_	_	_	_	_	_	_
-8	mará	mará	VERB	_	_	7	compound:svc	_	AlignBegin=324097|AlignEnd=324199|Gloss=spoil
-9	=mə	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	comp:obj@R	_	AlignBegin=324199|AlignEnd=324302|Gloss=1Sing.Obj
-10	mə́n	mə́n	PART	_	Case=Ben	8	compound:prt	_	AlignBegin=324302|AlignEnd=324507|Gloss=BEN
-11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=324507|AlignEnd=324712|Gloss=PUNCT
+4	//+	//+	PUNCT	_	_	3	punct	_	AlignBegin=322468|AlignEnd=322649|Gloss=PUNCT
+
+# sent_id = SAY_BC_CONV_03_309-309_split2
+# text = màːʃîn tá mán mará =mə mə́n //
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
+# sent_timecode = 322649, 324712
+# text_ortho = màːʃîn tá mán marâm mə́n //
+# text_en = the motorbike... broke down on me.
+1	màːʃîn	màːʃîn	NOUN	_	_	3	subj	_	AlignBegin=322649|AlignEnd=322898|Gloss=motorbike
+2	tá	tá	PART	_	_	3	discourse	_	AlignBegin=322898|AlignEnd=323147|Gloss=then
+3	mán	man	VERB	_	_	0	root	_	AlignBegin=323147|AlignEnd=323396|Gloss=come|SVC=Yes
+4-5	marâm	_	_	_	_	_	_	_	_
+4	mará	mará	VERB	_	_	3	compound:svc	_	AlignBegin=324097|AlignEnd=324199|Gloss=spoil
+5	=mə	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	comp:obj@R	_	AlignBegin=324199|AlignEnd=324302|Gloss=1Sing.Obj
+6	mə́n	mə́n	PART	_	Case=Ben	4	compound:prt	_	AlignBegin=324302|AlignEnd=324507|Gloss=BEN
+7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=324507|AlignEnd=324712|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_310-313
 # speaker_id = SP2
