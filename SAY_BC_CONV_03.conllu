@@ -3586,37 +3586,37 @@
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=432347|AlignEnd=432498|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_433-433
+# text = íː //
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 432869, 433030
-# text = íː //
 # text_ortho = íː //
-# text_en = Yes,
-1	íː	íː	INTJ	_	_	0	root	_	AlignBegin=432869|AlignEnd=432949|Gloss=eh
+# text_en = Yes.
+1	íː	íː	INTJ	_	_	0	root	_	AlignBegin=432869|AlignEnd=432949|Gloss=yes
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=432949|AlignEnd=433030|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_434-437
+# text = tòː < átâ ta ɣá màːʃínǐn > séː ɗan mə || mə gámá páːʧíː //
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 433271, 435465
-# text = tòː < átâ ta ɣá màːʃínǐn > séː ɗan mə || mə *gamá-íː páːʧi //
 # text_ortho = tòː < átâ ta ká màːʃínǐn < séː ɗan mə || mə gámá páːʧíː //
-# text_en = well, hardly had he climbed on the motorbike < when I... I got a puncture.
+# text_en = Well, he did not climb on the motorbike until I... I had repaired the puncture.
 1	tòː	tòː	PART	_	_	3	discourse	_	AlignBegin=433271|AlignEnd=433331|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=433331|AlignEnd=433391|Gloss=PUNCT
 3	átâ	ta	AUX	_	Number=Sing|Person=3|Tense=Rem	0	root	_	AlignBegin=433519|AlignEnd=433671|Gloss=3Sing.Rem
 4	ta	ta	VERB	_	_	3	comp:aux	_	AlignBegin=433671|AlignEnd=433823|Gloss=climb
 5	ɣá	ká	ADP	_	_	4	comp:obl	_	AlignBegin=433823|AlignEnd=433975|Gloss=at
 6-7	màːʃínǐn	_	_	_	_	_	_	_	_
-6	màːʃîn	màːʃîn	NOUN	_	_	5	comp:obj	_	AlignBegin=433975|AlignEnd=434077|Gloss=motorbike
-7	hŋ́	hŋ́	PART	_	Polarity=Neg	4	mod	_	AlignBegin=434077|AlignEnd=434127|Gloss=Neg
+6	màːʃín	màːʃîn	NOUN	_	_	5	comp:obj	_	AlignBegin=433975|AlignEnd=434077|Gloss=motorbike
+7	ǐn	hŋ́	PART	_	Polarity=Neg	4	mod	_	AlignBegin=434077|AlignEnd=434127|Gloss=Neg
 8	>	>	PUNCT	_	_	9	punct	_	AlignBegin=434127|AlignEnd=434279|Gloss=PUNCT
 9	séː	séː	ADP	_	ExtPos=SCONJ	4	mod	_	AlignBegin=434279|AlignEnd=434391|Gloss=not_until|Idiom=Yes
 10	ɗan	ɗan	SCONJ	_	_	9	unk	_	AlignBegin=434391|AlignEnd=434503|Gloss=as|InIdiom=Yes
 11	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	9	comp:obj	_	AlignBegin=434503|AlignEnd=434615|Gloss=1Sing.Aor
 12	||	||	PUNCT	_	_	13	punct	_	AlignBegin=434615|AlignEnd=434729|Gloss=PUNCT
 13	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	11	conj:dicto	_	AlignBegin=434729|AlignEnd=434913|Gloss=1Sing.Aor
-14	gamá	gamá	VERB	_	_	13	comp:aux	_	AlignBegin=434913|AlignEnd=435097|Gloss=finish|wordform=*gamá-íː
+14	gámá	gamá	VERB	_	_	13	comp:aux	_	AlignBegin=434913|AlignEnd=435097|Gloss=finish|wordform=*gamá-íː
 15	páːʧíː	páːʧi	NOUN	_	_	14	comp:obj	_	AlignBegin=435097|AlignEnd=435281|Gloss=puncture.Emph|wordform=páːʧi
 16	//	//	PUNCT	_	_	3	punct	_	AlignBegin=435281|AlignEnd=435465|Gloss=PUNCT
 
@@ -3642,29 +3642,45 @@
 1	m̀ː	m̀ː	INTJ	_	_	0	root	_	AlignBegin=440411|AlignEnd=440698|Gloss=m̀ː
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=440698|AlignEnd=440985|Gloss=PUNCT
 
-# sent_id = SAY_BC_CONV_03_438-446
+# sent_id = SAY_BC_CONV_03_438-446_split1
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 435902, 442380
-# text = mətá ʃiː deːdéː èː m̀ː gàngára èː m̀ː Sau~ || Saukan kapkə́ vàrèʃíː //
-# text_ortho = mətá ʃíːɗi deːdéːːː èː m̀ːːː gàngára èː m̀ːːː Sau~ || Saukan |a kapkə́ vàrèʃíː //
-# text_en = I was going down ... er... the slope of er... Sau- Saukan, that big one ...
+# text = mətá ʃǐː ɗi deːdéː èː m̀ː
+# text_ortho = mətá ʃíːɗi deːdéːːː èː m̀ːːː
+# text_en = I was going down ... er...
 1	mətá	ta	AUX	_	Number=Sing|Person=1|Tense=Rem	0	root	_	AlignBegin=435902|AlignEnd=436310|Gloss=1Sing.Rem
 2-3	ʃiː	_	_	_	_	_	_	_	_
 2	ʃǐː	ʃiː	VERB	_	_	1	comp:aux	_	AlignBegin=436310|AlignEnd=436582|Gloss=get_down.Emph
 3	ɗi	ɗi	PART	_	_	2	compound:prt	_	AlignBegin=436582|AlignEnd=436718|Gloss=Ctp|wordform==ɗi
 4	deːdéː	deːdéː	ADV	_	_	2	mod	_	AlignBegin=436718|AlignEnd=437125|Gloss=exact
-5	èː	èː	INTJ	_	_	7	discourse	_	AlignBegin=437540|AlignEnd=437968|Gloss=èː
-6	m̀ː	m̀ː	INTJ	_	_	7	discourse	_	AlignBegin=437968|AlignEnd=438395|Gloss=INTJ
-7	gàngára	gàngára	NOUN	_	_	2	comp:obj@G	_	AlignBegin=438849|AlignEnd=439199|Gloss=hill
-8	èː	èː	INTJ	_	_	10	discourse	_	AlignBegin=439199|AlignEnd=439445|Gloss=èː
-9	m̀ː	m̀ː	INTJ	_	_	10	discourse	_	AlignBegin=439445|AlignEnd=439690|Gloss=m̀ː
-10	Sau~	Saukan	PROPN	_	_	7	mod	_	AlignBegin=439690|AlignEnd=439925|Gloss=HESIT
-11	||	||	PUNCT	_	_	12	punct	_	AlignBegin=439925|AlignEnd=440087|Gloss=PUNCT
-12	Saukan	Saukan	PROPN	_	_	10	conj:dicto	_	AlignBegin=440087|AlignEnd=440249|Gloss=Saukan
-13	kapkə́	kapkə́	ADP	_	_	7	mod	_	AlignBegin=441730|AlignEnd=441947|Gloss=like
-14	vàrèʃíː	vàr	ADJ	_	ExtPos=NOUN	13	comp:obj	_	AlignBegin=441947|AlignEnd=442164|Gloss=big.Def.Emph|wordform=vàr
-15	//	//	PUNCT	_	_	1	punct	_	AlignBegin=442164|AlignEnd=442380|Gloss=PUNCT
+5	èː	èː	INTJ	_	_	0	discourse	_	AlignBegin=437540|AlignEnd=437968|Gloss=èː
+6	m̀ː	m̀ː	INTJ	_	_	0	discourse	_	AlignBegin=437968|AlignEnd=438395|Gloss=INTJ
+
+# sent_id = SAY_BC_CONV_03_438-446_split2_split1
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
+# sent_timecode = 435902, 442380
+# text = gàngára èː m̀ː Sau~ || Saukan
+# text_ortho = gàngára èː m̀ːːː Sau~ || Saukan |a
+# text_en = the slope of er... Sau- Saukan,
+1	gàngára	gàngára	NOUN	_	_	_	_	_	AlignBegin=438849|AlignEnd=439199|Gloss=hill
+2	èː	èː	INTJ	_	_	4	discourse	_	AlignBegin=439199|AlignEnd=439445|Gloss=èː
+3	m̀ː	m̀ː	INTJ	_	_	4	discourse	_	AlignBegin=439445|AlignEnd=439690|Gloss=m̀ː
+4	Sau~	Saukan	PROPN	_	_	1	mod	_	AlignBegin=439690|AlignEnd=439925|Gloss=HESIT
+5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=439925|AlignEnd=440087|Gloss=PUNCT
+6	Saukan	Saukan	PROPN	_	_	4	conj:dicto	_	AlignBegin=440087|AlignEnd=440249|Gloss=Saukan
+
+# sent_id = SAY_BC_CONV_03_438-446_split2_split2
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
+# sent_timecode = 435902, 442380
+# text = kapkə́ vàrèʃíː //
+# text_ortho = kapkə́ vàrèʃíː //
+# text_en = that big one ...
+1	kapkə́	kapkə́	ADP	_	_	_	_	_	AlignBegin=441730|AlignEnd=441947|Gloss=like
+2	vàrèʃíː	vàr	ADJ	_	ExtPos=NOUN	1	comp:obj	_	AlignBegin=441947|AlignEnd=442164|Gloss=big.Def.Emph|wordform=vàr
+3	//	//	PUNCT	_	_	_	_	_	AlignBegin=442164|AlignEnd=442380|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_447-447
 # speaker_id = SP2
