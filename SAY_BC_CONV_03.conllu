@@ -3891,7 +3891,7 @@
 # text_en = Then er... he climbed on it.
 1	káwây	káwây	ADV	_	_	4	mod	_	AlignBegin=466407|AlignEnd=466599|Gloss=merely
 2	séː	séː	ADV	_	_	4	mod	_	AlignBegin=466599|AlignEnd=466792|Gloss=then
-3	ə̀ː	ə̀ː	INTJ	_	_	4	discourse	_	AlignBegin=466792|AlignEnd=467187|Gloss=INTJ
+3	ə̀ː	ə̀ː	INTJ	_	_	4	discourse:filler	_	AlignBegin=466792|AlignEnd=467187|Gloss=INTJ
 4	átâ	ta	AUX	_	Number=Sing|Person=3|Tense=Rem	0	root	_	AlignBegin=467187|AlignEnd=467342|Gloss=3Sing.Rem
 5	mán	man	VERB	_	_	4	comp:aux	_	AlignBegin=467342|AlignEnd=467497|Gloss=come|SVC=Yes
 6-7	ta	_	_	_	_	_	_	_	_
@@ -3913,7 +3913,7 @@
 4	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	3	comp:obl@expl	_	AlignBegin=469527|AlignEnd=469603|Gloss=Anaph.Loc.3Sing
 5	kwêy	káwây	ADV	_	_	3	mod	_	AlignBegin=469603|AlignEnd=469831|Gloss=merely
 6	séː	séː	ADV	_	_	2	unk@scrap	_	AlignBegin=469831|AlignEnd=470057|Gloss=then
-7	èː	èː	INTJ	_	_	2	discourse	_	AlignBegin=470330|AlignEnd=470554|Gloss=èː
+7	èː	èː	INTJ	_	_	2	discourse:filler	_	AlignBegin=470330|AlignEnd=470554|Gloss=èː
 8	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=470554|AlignEnd=470777|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_478-481
@@ -4320,7 +4320,7 @@
 1	á	ká	ADP	_	ExtPos=ADP	0	root	_	AlignBegin=511115|AlignEnd=511289|Gloss=at|Idiom=Yes
 2	gìp	gìp	ADP	_	_	1	unk	_	AlignBegin=511289|AlignEnd=511463|Gloss=inside|InIdiom=Yes
 3	Kìmsə́	Kímsə	PROPN	_	_	1	comp:obj	_	AlignBegin=511463|AlignEnd=511637|Gloss=Ɓoi
-4	yáːwón	yáːwón	ADV	_	PronType=Dem	1	mod	_	AlignBegin=511637|AlignEnd=511811|Gloss=today
+4	yáːwón	yáːwón	ADV	_	_	1	mod	_	AlignBegin=511637|AlignEnd=511811|Gloss=today
 5	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=511811|AlignEnd=511983|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_518-519
@@ -4646,7 +4646,7 @@
 # text = gìp Kímsə //
 # text_ortho = gìp kimsə́ //
 # text_en = in Ɓoi.
-1	gìp	gìp	ADP	_	_	0	root	_	AlignBegin=552147|AlignEnd=552344|Gloss=inside
+1	gìp	gìp	ADP	_	_	0	root	_	AlignBegin=552147|AlignEnd=552344|AttachTo=n8@SAY_BC_CONV_03_555-555|Gloss=inside|Rel=comp:obl
 2	Kímsə	Kímsə	PROPN	_	_	1	comp:obj	_	AlignBegin=552344|AlignEnd=552541|Gloss=Ɓoi
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=552541|AlignEnd=552737|Gloss=PUNCT
 
@@ -4664,7 +4664,7 @@
 5	Kímsə	Kímsə	PROPN	_	_	4	comp:obj	_	AlignBegin=552939|AlignEnd=553141|Gloss=Ɓoi
 6	<	<	PUNCT	_	_	4	punct	_	AlignBegin=553141|AlignEnd=553342|Gloss=PUNCT
 7	gyáː	gyaː	DET	_	Number=Plur	8	det	_	AlignBegin=553342|AlignEnd=553531|Gloss=3Plur
-8	naːr	naːr	NOUN	_	_	0	root@scrap	_	AlignBegin=553531|AlignEnd=553720|Gloss=hunting
+8	naːr	naːr	NOUN	_	_	0	root	_	AlignBegin=553531|AlignEnd=553720|AttachTo=n9@SAY_BC_CONV_03_560-561|Gloss=hunting|Rel=dislocated@top
 9	//+	//+	PUNCT	_	_	8	punct	_	AlignBegin=553720|AlignEnd=553909|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_560-561
@@ -4674,13 +4674,13 @@
 # sent_timecode = 553909, 555237
 # text_ortho = ko ana ruwa < Ɓoi na kira //
 # text_en = ...even if it is raining Ɓoi is calling.
-1	ko	ko	X	_	Foreign=Yes	0	root	_	AlignBegin=553909|AlignEnd=554073|Gloss=if|Lang=ha
-2	ana	ana	X	_	Foreign=Yes	1	flat@foreign	_	AlignBegin=554073|AlignEnd=554237|Gloss=it_is|Lang=ha
-3	ruwa	ruwa	X	_	Foreign=Yes	2	flat@foreign	_	AlignBegin=554237|AlignEnd=554401|Gloss=rain|Lang=ha
-4	Ɓoi	Ɓoi	PROPN	_	_	3	flat@foreign	_	AlignBegin=554784|AlignEnd=554897|Gloss=Boi
-5	na	na	X	_	Foreign=Yes	4	flat@foreign	_	AlignBegin=554897|AlignEnd=555010|Gloss=is|Lang=ha
-6	kira	X	VERB	_	Foreign=Yes	5	flat@foreign	_	AlignBegin=555010|AlignEnd=555123|Gloss=calling|Lang=ha
-7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=555123|AlignEnd=555237|Gloss=PUNCT
+1	ko	ko	SCONJ	_	Foreign=Yes	5	mod	_	AlignBegin=553909|AlignEnd=554073|Gloss=if|Lang=ha
+2	ana	ana	AUX	_	Foreign=Yes	1	comp:obj	_	AlignBegin=554073|AlignEnd=554237|Gloss=it_is|Lang=ha
+3	ruwa	ruwa	NOUN	_	Foreign=Yes	2	comp:aux	_	AlignBegin=554237|AlignEnd=554401|Gloss=rain|Lang=ha
+4	Ɓoi	Ɓoi	PROPN	_	_	5	subj	_	AlignBegin=554784|AlignEnd=554897|Gloss=Boi
+5	na	na	AUX	_	Foreign=Yes	0	root	_	AlignBegin=554897|AlignEnd=555010|Gloss=is|Lang=ha
+6	kira	X	VERB	_	Foreign=Yes	5	comp:aux	_	AlignBegin=555010|AlignEnd=555123|Gloss=calling|Lang=ha
+7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=555123|AlignEnd=555237|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_562-566
 # speaker_id = SP2
