@@ -4519,7 +4519,7 @@
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=533119|AlignEnd=533330|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_541-546
-# text = ìdán bàː yâːn tàː fuːni zàrsə̀ hŋ́ < myáː fuːɣə́n bàː wò tu zàrsə̀ də̀nə̌n //+ ɓanɗan gín ɗan máː wâː ɗùɣə̀nì àː ɓaním máː //
+# text = ìdán bàː yâːn tàː fuːni zàrsə̀ hŋ́ < myáː fuːɣə́n bàː wò tu zàrsə̀ də̀nə̌n //+ ɓanɗan gín ɗan máː wâː ɗùɣə̀nì àː ɓaníː ŋ̌ máː //
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 533702, 542643
@@ -4542,18 +4542,18 @@
 13	bàː	bàː	PART	_	Polarity=Neg	14	mod	_	AlignBegin=537517|AlignEnd=537787|Gloss=NEG
 14	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root@scrap	_	AlignBegin=538607|AlignEnd=538769|Gloss=3Sing.Fut
 15	tu	tu	VERB	_	_	14	comp:aux	_	AlignBegin=538769|AlignEnd=538931|Gloss=meet
-16	zàrsə̀	Zaːr	NOUN	_	Number=Plur	15	comp:obj@T	_	AlignBegin=538931|AlignEnd=539093|Gloss=human
+16	zàrsə̀	zaːr	NOUN	_	Number=Plur	15	comp:obj@T	_	AlignBegin=538931|AlignEnd=539093|Gloss=human
 17-18	də̀nə̌n	_	_	_	_	_	_	_	_
 17	də̀n	də̀n	NOUN	_	_	15	comp:obj@L	_	AlignBegin=539093|AlignEnd=539174|Gloss=house
 18	ə̌n	hŋ́	PART	_	Polarity=Neg	15	mod	_	AlignBegin=539174|AlignEnd=539255|Gloss=NEG
 19	//+	//+	PUNCT	_	_	20	punct	_	AlignBegin=539255|AlignEnd=539415|Gloss=PUNCT
-20	ɓanɗan	ɓanɗan	SCONJ	_	_	15	mod	_	AlignBegin=540008|AlignEnd=540249|Gloss=even_more_since
-21	gín	gín	PRON	_	PronType=Dem	20	comp:obj	_	AlignBegin=540249|AlignEnd=540490|Gloss=Prox
-22	ɗan	ɗan	SCONJ	_	_	15	mod	_	AlignBegin=540490|AlignEnd=540731|Gloss=REL
-23	máː	máː	PART	_	_	22	discourse@top	_	AlignBegin=540731|AlignEnd=540972|Gloss=even
+20	ɓanɗan	ɓanɗan	SCONJ	_	ExtPos=SCONJ	15	mod	_	AlignBegin=540008|AlignEnd=540249|Gloss=even_more_since|Idiom=Yes
+21	gín	gín	PRON	_	PronType=Dem	20	unk	_	AlignBegin=540249|AlignEnd=540490|Gloss=Prox|InIdiom=Yes
+22	ɗan	ɗan	SCONJ	_	_	21	unk	_	AlignBegin=540490|AlignEnd=540731|Gloss=REL|InIdiom=Yes
+23	máː	máː	PART	_	_	20	discourse@top	_	AlignBegin=540731|AlignEnd=540972|Gloss=even
 24	wâː	wâː	NOUN	_	_	25	udep	_	AlignBegin=541615|AlignEnd=541786|Gloss=guinea_corn
 25	ɗùɣə̀nì	ɗu	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	26	subj	_	AlignBegin=541786|AlignEnd=541957|Gloss=beat
-26	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	22	comp:obj	_	AlignBegin=541957|AlignEnd=542128|Gloss=3Sing.Perf
+26	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	20	comp:obj	_	AlignBegin=541957|AlignEnd=542128|Gloss=3Sing.Perf
 27	ɓaníː	ɓaní	VERB	_	_	26	comp:aux	_	AlignBegin=542128|AlignEnd=542242|Gloss=finish.Emph
 28	ŋ̌	hŋ́	PART	_	Polarity=Neg	27	mod	_	AlignBegin=542242|AlignEnd=542299|Gloss=Neg
 29	máː	máː	PART	_	_	26	mod	_	AlignBegin=542299|AlignEnd=542470|Gloss=even
