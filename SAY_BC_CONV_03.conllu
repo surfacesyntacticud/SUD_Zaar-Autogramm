@@ -5891,13 +5891,13 @@
 7	máː	máː	PART	_	_	2	discourse@top	_	AlignBegin=689982|AlignEnd=690136|Gloss=even
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=690136|AlignEnd=690292|Gloss=PUNCT
 
-# sent_id = SAY_BC_CONV_03_717-719
-# text = tunda káː ngúp wúlɣə̂n vìː tə́ yáːníː káwây < to shi ke nan //
+# sent_id = SAY_BC_CONV_03_717-719_720-720
+# text = tunda káː ngúp wúlɣə̂n vìː tə́ yáːníː káwây < to shi ke nan //= á ɓâníː ɣəndí //
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
-# sent_timecode = 690651, 692814
-# text_ortho = tunda káː ngúp wúlɣə̂n vìː tə́ yáːníː káwây < to shi ke nan //
-# text_en = Since you just started talking with him <well, that's the end>.
+# sent_timecode = 690651, 692814 693155, 693794
+# text_ortho = tunda káː ngúp wúlɣə̂n vìː tə́ yáːníː káwây < to shi ke nan //= á ɓâníː kəndí //
+# text_en = Since you just started talking with him <well, that's the end>, it's finished.
 1	tunda	tunda	SCONJ	_	_	11	mod	_	AlignBegin=690651|AlignEnd=690836|Gloss=since
 2	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	1	comp:obj	_	AlignBegin=690836|AlignEnd=691021|Gloss=2Sing.Perf
 3	ngúp	ngúp	VERB	_	_	2	comp:aux	_	AlignBegin=691021|AlignEnd=691206|Gloss=start
@@ -5911,19 +5911,11 @@
 11	shi	shi	X	_	ExtPos=INTJ|Foreign=Yes	0	root	_	AlignBegin=692277|AlignEnd=692411|Gloss=3Sing.M|Idiom=Yes|Lang=ha
 12	ke	ke	X	_	Foreign=Yes	11	flat@foreign	_	AlignBegin=692411|AlignEnd=692545|Gloss=be|InIdiom=Yes|Lang=ha
 13	nan	nan	X	_	Foreign=Yes	12	flat@foreign	_	AlignBegin=692545|AlignEnd=692679|Gloss=there|InIdiom=Yes|Lang=ha
-14	//	//	PUNCT	_	_	11	punct	_	AlignBegin=692679|AlignEnd=692814|Gloss=PUNCT
-
-# sent_id = SAY_BC_CONV_03_720-720
-# speaker_id = SP2
-# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
-# sent_timecode = 693155, 693794
-# text = á ɓâníː ɣəndí //
-# text_ortho = á ɓâníː kəndí //
-# text_en = it's over.
-1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=693155|AlignEnd=693315|Gloss=3Sing.Aor
-2	ɓâníː	ɓán	VERB	_	_	1	comp:aux	_	AlignBegin=693315|AlignEnd=693475|Gloss=finish.Emph
-3	ɣəndí	kəndí	PART	_	_	2	discourse@foc	_	AlignBegin=693635|AlignEnd=693794|Gloss=be
-4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=693794|AlignEnd=693794|Gloss=PUNCT
+14	//=	//=	PUNCT	_	_	15	punct	_	AlignBegin=692679|AlignEnd=692814|Gloss=PUNCT
+15	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	11	parataxis	_	AlignBegin=693155|AlignEnd=693315|Gloss=3Sing.Aor
+16	ɓâníː	ɓán	VERB	_	_	15	comp:aux	_	AlignBegin=693315|AlignEnd=693475|Gloss=finish.Emph
+17	ɣəndí	kəndí	PART	_	_	16	discourse@foc	_	AlignBegin=693635|AlignEnd=693794|Gloss=be
+18	//	//	PUNCT	_	_	11	punct	_	AlignBegin=693794|AlignEnd=693794|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_721-721
 # speaker_id = SP1
@@ -5937,7 +5929,7 @@
 3	tu	tu	SCONJ	_	_	2	comp:obj	_	AlignBegin=693768|AlignEnd=693889|Gloss=Qot
 4	yír	yír	VERB	_	_	3	comp:obj	_	AlignBegin=693889|AlignEnd=694010|Gloss=have
 5-6	gə̀ɗàː	_	_	_	_	_	_	_	_
-5	gə̀t	gə̀t	NOUN	_	_	4	comp:obj	_	AlignBegin=694010|AlignEnd=694070|Gloss=wife
+5	gə̀ɗ	gə̀t	NOUN	_	_	4	comp:obj	_	AlignBegin=694010|AlignEnd=694070|Gloss=wife
 6	àː	aː	PART	_	_	1	mod	_	AlignBegin=694070|AlignEnd=694131|Gloss=Q|PartType=Int
 7	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=694131|AlignEnd=694252|Gloss=PUNCT
 
@@ -5945,12 +5937,12 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 694684, 695124
-# text = àː kap gə̀ɗi ?//
+# text = àː kap gə̀ɗíː ?//
 # text_ortho = àː kap gə̀ɗíː ?//
 # text_en = Is he married?
 1	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=694684|AlignEnd=694794|Gloss=3Sing.Perf
 2	kap	kap	VERB	_	_	1	comp:aux	_	AlignBegin=694794|AlignEnd=694904|Gloss=take|wordform=*kap-íː
-3	gə̀ɗi	gə̀t	NOUN	_	Definite=Ind	2	comp:obj	_	AlignBegin=694904|AlignEnd=695014|Gloss=wife.Ind
+3	gə̀ɗíː	gə̀t	NOUN	_	_	2	comp:obj	_	AlignBegin=694904|AlignEnd=695014|Gloss=wife.Emph
 4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=695014|AlignEnd=695124|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_723-723
@@ -5962,7 +5954,7 @@
 # text_en = When did he marry?
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=695124|AlignEnd=695259|Gloss=3Sing.Aor
 2	kâp	kap	VERB	_	_	1	comp:aux	_	AlignBegin=695259|AlignEnd=695394|Gloss=take
-3	gə̀ɗès	gə̀t	NOUN	_	_	2	comp:obj	_	AlignBegin=695394|AlignEnd=695529|Gloss=wife
+3	gə̀ɗès	gə̀t	NOUN	_	_	2	comp:obj	_	AlignBegin=695394|AlignEnd=695529|Gloss=wife.Def
 4	dzàn	dzàn	NOUN	_	_	2	mod	_	AlignBegin=695529|AlignEnd=695664|Gloss=day
 5	gyòː	gyôː	DET	_	PronType=Int	4	det	_	AlignBegin=695664|AlignEnd=695799|Gloss=which
 6	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=695799|AlignEnd=695934|Gloss=PUNCT
@@ -5981,13 +5973,15 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 697049, 698910
-# text = dzàn níː ɣənín ?//
+# text = dzàn níː ɣən eː ń ?//
 # text_ortho = dzànːːː níːɣəněːn ?//
 # text_en = When... was that?
-1	dzàn	dzàn	NOUN	_	_	3	comp:pred	_	AlignBegin=697049|AlignEnd=697759|Gloss=day
+1	dzàn	dzàn	NOUN	_	_	0	root	_	AlignBegin=697049|AlignEnd=697759|Gloss=day
 2	níː	níː	PRON	_	PronType=Int	1	mod	_	AlignBegin=698456|AlignEnd=698513|Gloss=what
-3	ɣənín	kənín	PART	_	_	0	root	_	AlignBegin=698513|AlignEnd=698570|Gloss=be.Prox
-4	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=698683|AlignEnd=698910|Gloss=PUNCT
+3	ɣən	kən	PART	_	_	1	discourse@foc	_	AlignBegin=698513|AlignEnd=698570|Gloss=be.Prox
+4	eː	eː	PART	_	_	1	mod	_	AlignBegin=698513|AlignEnd=698570|Gloss=Q
+5	ń	hŋ́	PART	_	_	1	mod	_	AlignBegin=698513|AlignEnd=698570|Gloss=Neg
+6	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=698683|AlignEnd=698910|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_727-727
 # speaker_id = SP1
