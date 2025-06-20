@@ -5988,11 +5988,11 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 698910, 699860
-# text = á ʧáːnì ŋáː vwòː báːbáː !//
+# text = á ʧáːni ŋáː vwòː báːbáː !//
 # text_ortho = á ʧâːnì ŋáː vwòː báːbáː //
 # text_en = He got a girl pregnant.
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=698910|AlignEnd=699068|Gloss=3Sing.Aor
-2-3	ʧáːnì	_	_	_	_	_	_	_	_
+2-3	ʧáːni	_	_	_	_	_	_	_	_
 2	ʧâː	ʧaː	VERB	_	_	1	comp:aux	_	AlignBegin=699068|AlignEnd=699147|Gloss=put
 3	ni	ni	PART	_	Aspect=Iter	2	compound:prt	_	AlignBegin=699147|AlignEnd=699226|Gloss=Iter|wordform==ni
 4	ŋáː	ŋáː	NOUN	_	_	2	comp:obj@R	_	AlignBegin=699226|AlignEnd=699384|Gloss=child
@@ -6052,19 +6052,19 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 704708, 706321
-# text = tunda Zəgì àː kap gə̀ɗi kàm < ma kap gə̀ɗi //
+# text = tunda Zəgì àː kap gə̀ɗíː kàm < ma kap gə̀ɗíː //
 # text_ortho = tunda Zə́gi àː kap gə̀ɗíː kàm < ma kap gə̀ɗíː //
 # text_en = Since Ziggy has got a wife, I will get a wife.
 1	tunda	tunda	SCONJ	_	Foreign=Yes	8	mod	_	AlignBegin=704708|AlignEnd=704855|Gloss=since|Lang=ha
 2	Zəgì	Zəgì	PROPN	_	_	3	subj	_	AlignBegin=704855|AlignEnd=705002|Gloss=Ziggy
 3	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	1	comp:obj	_	AlignBegin=705002|AlignEnd=705149|Gloss=3Sing.Perf
 4	kap	kap	VERB	_	_	3	comp:aux	_	AlignBegin=705149|AlignEnd=705296|Gloss=take|wordform=*kap-íː
-5	gə̀ɗi	gə̀t	NOUN	_	Definite=Ind	4	comp:obj	_	AlignBegin=705296|AlignEnd=705443|Gloss=wife.Ind
+5	gə̀ɗíː	gə̀t	NOUN	_	_	4	comp:obj	_	AlignBegin=705296|AlignEnd=705443|Gloss=wife.Emph
 6	kàm	kàm	PART	_	_	1	mod	_	AlignBegin=705443|AlignEnd=705590|Gloss=indeed
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=705590|AlignEnd=705737|Gloss=PUNCT
 8	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	0	root	_	AlignBegin=705737|AlignEnd=705884|Gloss=1Sing.Fut
 9	kap	kap	VERB	_	_	8	comp:aux	_	AlignBegin=705884|AlignEnd=706031|Gloss=take|wordform=*kap-íː
-10	gə̀ɗi	gə̀t	NOUN	_	Definite=Ind	9	comp:obj	_	AlignBegin=706031|AlignEnd=706178|Gloss=wife.Ind
+10	gə̀ɗíː	gə̀t	NOUN	_	_	9	comp:obj	_	AlignBegin=706031|AlignEnd=706178|Gloss=wife.Emph
 11	//	//	PUNCT	_	_	8	punct	_	AlignBegin=706178|AlignEnd=706321|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_732-735
@@ -6080,7 +6080,7 @@
 4	ɗan	ɗan	SCONJ	_	_	1	comp:cleft	_	AlignBegin=706320|AlignEnd=706492|Gloss=as
 5	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	4	comp:obj	_	AlignBegin=706492|AlignEnd=706665|Gloss=1.Sing.Fut
 6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=706665|AlignEnd=706665|Gloss=PUNCT
-7	ɬə́ɣə̂nètə́n	ɬə	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	conj:dicto	_	AlignBegin=706924|AlignEnd=707186|Gloss=go-Vnoun.1Sing.Gen.Prox
+7	ɬə́ɣə̂nètə́n	ɬə	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	conj:dicto	_	AlignBegin=706924|AlignEnd=707186|Gloss=go-Nmlz.1Sing.Gen.Prox
 8-9	də̀nâː	_	_	_	_	_	_	_	_
 8	də̀n	də̀n	NOUN	_	_	7	comp:obj@G	_	AlignBegin=707186|AlignEnd=707360|Gloss=house
 9	âː	aː	PART	_	_	4	mod	_	AlignBegin=707360|AlignEnd=707448|Gloss=Q|PartType=Int
@@ -6097,12 +6097,12 @@
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=707888|AlignEnd=708065|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_737-744
+# text = séː ɗan { mə || ma || ma || ma } ɬíː nə́ laː á teː lə̂p gyaː mə́n Súːmíː < séː mə̀tà ɬə́ || mə̀tà ɬə́ hâɗá tə́ m̀ː Gôː //+
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 708516, 715525
-# text = séː ɗan { mə || ma || ma || ma } ɬǐː nə́ laː á teː lə̂p gyaː mə́n Súːmíː < séː mə̀tà ɬə́ || mə̀tà ɬə́ hâɗá tə́ m̀ː Gôː //
 # text_ortho = séː ɗan { mə || ma || ma || ma } ɬíː nə́ laː á teː lə̂p gyaː mə́n Súːmíː < séː mə̀tà ɬə́ || mə̀tà ɬə́ hâɗá tə́ m̀ːːː Gôː //
-# text_en = As I ... I... I... I was going for work with the people of Sumi then I came... I came to meet er... Go(diya).
+# text_en = As I ... I... I... I was going for work with the people of Sumi then I came... I went to see er... Go(diya).
 1	séː	séː	ADV	_	_	23	mod	_	AlignBegin=708516|AlignEnd=708634|Gloss=then
 2	ɗan	ɗan	SCONJ	_	_	23	mod	_	AlignBegin=708634|AlignEnd=708752|Gloss=as
 3	{	{	PUNCT	_	_	4	punct	_	AlignBegin=708752|AlignEnd=708870
@@ -6134,7 +6134,7 @@
 29	tə́	tə́	ADP	_	_	28	comp:obl	_	AlignBegin=714278|AlignEnd=714576|Gloss=with
 30	m̀ː	m̀ː	INTJ	_	_	29	discourse	_	AlignBegin=714576|AlignEnd=714873|Gloss=m̀ː
 31	Gôː	Gôː	PROPN	_	_	29	comp:obj	_	AlignBegin=715205|AlignEnd=715365|Gloss=Godiya
-32	//	//	PUNCT	_	_	27	punct	_	AlignBegin=715365|AlignEnd=715525|Gloss=PUNCT
+32	//+	//+	PUNCT	_	_	27	punct	_	AlignBegin=715365|AlignEnd=715525|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_745-745
 # speaker_id = SP2
@@ -6153,13 +6153,13 @@
 # text = Gòːdiya Máːlân Dʒoːnátân ɗan miɣá ɬə́ɣə̂n miːr ɓaʃí //
 # text_ortho = Gòːdiya Máːlânːːː Dʒoːnátân ɗan miká ɬə́kə̂n miːr ɓaʃí //
 # text_en = Godiya Malan Jonathan where I go to take petrol.
-1	Gòːdiya	Gòːdiya	PROPN	_	_	0	root	_	AlignBegin=716358|AlignEnd=716820|Gloss=Godiya
+1	Gòːdiya	Gòːdiya	PROPN	_	_	0	root	_	AlignBegin=716358|AlignEnd=716820|AttachTo=n31@SAY_BC_CONV_03_737-744|Gloss=Godiya|Rel=conj:dicto
 2	Máːlân	Máːlân	PROPN	_	_	1	flat@name	_	AlignBegin=716820|AlignEnd=717281|Gloss=Malam
 3	Dʒoːnátân	Dʒoːnátân	PROPN	_	_	2	flat@name	_	AlignBegin=717281|AlignEnd=717599|Gloss=Jonathan
 4	ɗan	ɗan	SCONJ	_	_	1	mod@relcl	_	AlignBegin=718840|AlignEnd=719007|Gloss=as
 5	miɣá	yiká	AUX	_	Aspect=Prog|Number=Sing|Person=1	4	comp:obj	_	AlignBegin=719007|AlignEnd=719174|Gloss=1Sing.Prog
-6	ɬə́ɣə̂n	ɬə	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=719174|AlignEnd=719341|Gloss=go-Vnoun
-7	miːr	miːr	NOUN	_	_	6	comp:obj	_	AlignBegin=719341|AlignEnd=719508|Gloss=petrol
+6	ɬə́ɣə̂n	ɬə	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=719174|AlignEnd=719341|Gloss=go-Nmlz
+7	miːr	miːr	NOUN	_	_	6	udep	_	AlignBegin=719341|AlignEnd=719508|Gloss=petrol
 8-9	ɓaʃí	_	_	_	_	_	_	_	_
 8	ɓas	ɓas	ADP	_	_	6	comp:obl	_	AlignBegin=719508|AlignEnd=719592|Gloss=of
 9	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=719592|AlignEnd=719675|Gloss=3Plur.Obj
@@ -6233,7 +6233,7 @@
 2-3	ʧimni	_	_	_	_	_	_	_	_
 2	ʧim	ʧim	VERB	_	_	1	comp:aux	_	AlignBegin=724622|AlignEnd=724750|Gloss=call
 3	ni	ni	PART	_	Aspect=Iter	2	compound:prt	_	AlignBegin=724750|AlignEnd=724878|Gloss=Iter|wordform==ni
-4	Zə̀gès	Zəgì	PROPN	_	_	2	comp:obj@R	_	AlignBegin=724878|AlignEnd=725048|Gloss=Ziggy
+4	Zə̀gès	Zəgì	PROPN	_	_	2	comp:obj@R	_	AlignBegin=724878|AlignEnd=725048|Gloss=Ziggy.Def
 5	òː	oː	PART	_	_	1	mod	_	AlignBegin=725048|AlignEnd=725134|Gloss=Emph|PartType=Emp
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=725134|AlignEnd=725134|Gloss=PUNCT
 
@@ -6247,14 +6247,14 @@
 1	wéy	wéy	PART	_	Mood=Qot	2	mod	_	AlignBegin=725134|AlignEnd=725315|Gloss=EVD
 2	Ango	Ango	PROPN	_	_	0	root	_	AlignBegin=725315|AlignEnd=725597|Gloss=Ango
 3	!//=	!//=	PUNCT	_	_	4	punct	_	AlignBegin=725597|AlignEnd=725739|Gloss=PUNCT
-4	Ango	Ango	PROPN	_	_	2	conj:svc	_	AlignBegin=725739|AlignEnd=725889|Gloss=Ango
+4	Ango	Ango	PROPN	_	_	2	conj:redup	_	AlignBegin=725739|AlignEnd=725889|Gloss=Ango
 5	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=726188|AlignEnd=726188|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_758-760
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 726188, 728640
-# text = mə wú tu [ kǎː < Gôː < Zəgì àː kap gə̀ɗi yǎːn ?//] //
+# text = mə wú tu [ kǎː < Gôː < Zəgì àː kap gə̀ɗíː ǎːn ?//] //
 # text_ortho = mə wú tu [ kǎː < Gôː < Zəgì àː kap gə̀ɗíː ŋǎːn ?//] //
 # text_en = I said "What? Go(diya), Ziggy has married?"
 1	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	0	root	_	AlignBegin=726188|AlignEnd=726255|Gloss=1Sing.Aor
@@ -6267,9 +6267,9 @@
 8	<	<	PUNCT	_	_	7	punct	_	AlignBegin=727341|AlignEnd=727456|Gloss=PUNCT
 9	Zəgì	Zəgì	PROPN	_	_	10	subj	_	AlignBegin=727874|AlignEnd=727983|Gloss=Ziggy
 10	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	3	comp:obj	_	AlignBegin=727983|AlignEnd=728092|Gloss=3Sing.Perf
-11	kap	kap	VERB	_	_	10	comp:aux	_	AlignBegin=728092|AlignEnd=728201|Gloss=take|wordform=*kap-íː
-12	gə̀ɗi	gə̀t	NOUN	_	Definite=Ind	11	comp:obj	_	AlignBegin=728201|AlignEnd=728310|Gloss=wife.Ind
-13	yǎːn	ŋǎːn	PART	_	Polarity=Neg	10	mod	_	AlignBegin=728310|AlignEnd=728364|Gloss=Q.Neg|PartType=Int|wordform=ŋaː
+11	kap	kap	VERB	_	_	10	comp:aux	_	AlignBegin=728092|AlignEnd=728201|Gloss=take
+12	gə̀ɗíː	gə̀t	NOUN	_	_	11	comp:obj	_	AlignBegin=728201|AlignEnd=728310|Gloss=wife.Emph
+13	ǎːn	ŋǎːn	PART	_	Polarity=Neg	10	mod	_	AlignBegin=728310|AlignEnd=728364|Gloss=Q.Neg|PartType=Int|wordform=ŋaː
 14	?//]	?//]	PUNCT	_	_	10	punct	_	AlignBegin=728419|AlignEnd=728528|Gloss=PUNCT
 15	//	//	PUNCT	_	_	1	punct	_	AlignBegin=728528|AlignEnd=728640|Gloss=PUNCT
 
@@ -6277,11 +6277,11 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 729012, 731306
-# text = á wû tu [ áy < àː ʧaː ŋáː vwàː áy !//] //
+# text = á wú tu [ áy < àː ʧaː ŋáː vwàː áy !//] //
 # text_ortho = á wû tu [ áyːːː < àː ʧaː ŋáː vwàː áy !//] //
 # text_en = He said, "Eh, he got a girl pregnant."
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=729012|AlignEnd=729091|Gloss=3Sing.Aor
-2	wû	wul	VERB	_	_	1	comp:aux	_	AlignBegin=729091|AlignEnd=729170|Gloss=say
+2	wú	wul	VERB	_	_	1	comp:aux	_	AlignBegin=729091|AlignEnd=729170|Gloss=say
 3	tu	tu	SCONJ	_	_	2	comp:obj	_	AlignBegin=729170|AlignEnd=729249|Gloss=Qot
 4	[	[	PUNCT	_	_	7	punct	_	AlignBegin=729249|AlignEnd=729328|Gloss=PUNCT
 5	áy	áy	INTJ	_	_	7	discourse	_	AlignBegin=729623|AlignEnd=729839|Gloss=eh
@@ -6314,17 +6314,17 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 733696, 735163
-# text = myáːni < ŋáː vwàːy gə̀t àː ɗak ʧáːɣə̂níː ɣən //
+# text = myâːn < ŋáː vwàːy gə̀t àː ɗak ʧáːɣə̂níː ɣən //
 # text_ortho = myâːn < ŋáː vwàːy gə̀t àː ɗak ʧáːkə̂níː ɣən //
 # text_en = Myself, I cannot get a girl pregnant.
-1	myáːni	myáːni	PRON	_	Number=Sing|Person=1|PronType=Prs	6	dislocated@top	_	AlignBegin=733696|AlignEnd=733841|Gloss=1Sing
+1	myâːn	myáːni	PRON	_	Number=Sing|Person=1|PronType=Prs	6	dislocated@top	_	AlignBegin=733696|AlignEnd=733841|Gloss=1Sing
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=733841|AlignEnd=733986|Gloss=PUNCT
 3	ŋáː	ŋáː	NOUN	_	_	6	subj	_	AlignBegin=733986|AlignEnd=734131|Gloss=child
-4	vwàːy	vwàː	NOUN	_	Definite=Ind	3	compound	_	AlignBegin=734131|AlignEnd=734276|Gloss=belly
+4	vwàːy	vwàː	NOUN	_	Definite=Ind	3	compound	_	AlignBegin=734131|AlignEnd=734276|Gloss=belly.Ind
 5	gə̀t	gə̀t	NOUN	_	_	3	mod	_	AlignBegin=734276|AlignEnd=734421|Gloss=wife
 6	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=734421|AlignEnd=734566|Gloss=3Sing.Perf
 7	ɗak	ɗak	VERB	_	_	6	comp:aux	_	AlignBegin=734566|AlignEnd=734710|Gloss=refuse
-8	ʧáːɣə̂níː	ʧaː	VERB	_	Deixis=Dist|ExtPos=NOUN|VerbForm=Vnoun	7	comp:obj	_	AlignBegin=734710|AlignEnd=734861|Gloss=put
+8	ʧáːɣə̂níː	ʧaː	VERB	_	Deixis=Dist|ExtPos=NOUN|VerbForm=Vnoun	7	comp:obj	_	AlignBegin=734710|AlignEnd=734861|Gloss=put.Nmlz.Emph
 9	ɣən	kən	PART	_	_	8	discourse@foc	_	AlignBegin=734861|AlignEnd=735012|Gloss=be
 10	//	//	PUNCT	_	_	6	punct	_	AlignBegin=735012|AlignEnd=735163|Gloss=PUNCT
 
@@ -6340,7 +6340,7 @@
 3	mə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=1	2	parataxis@comp	_	AlignBegin=735530|AlignEnd=735621|Gloss=1Sing.Sub
 4	ʧáː	yáː	VERB	_	_	3	comp:aux	_	AlignBegin=735621|AlignEnd=735712|Gloss=put
 5	ŋáː	ŋáː	NOUN	_	_	4	comp:obj@R	_	AlignBegin=735712|AlignEnd=735803|Gloss=child
-6	vwàːs	vwàː	NOUN	_	Definite=Def	4	comp:obj@T	_	AlignBegin=735803|AlignEnd=735894|Gloss=belly
+6	vwàːs	vwàː	NOUN	_	Definite=Def	4	comp:obj@T	_	AlignBegin=735803|AlignEnd=735894|Gloss=belly.Def
 7	//=	//=	PUNCT	_	_	8	punct	_	AlignBegin=735894|AlignEnd=735985|Gloss=PUNCT
 8	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	1	parataxis	_	AlignBegin=735985|AlignEnd=736076|Gloss=3Sing.Perf
 9	ɗaɣə́y	ɗak	VERB	_	_	8	comp:aux	_	AlignBegin=736076|AlignEnd=736167|Gloss=refuse.Emph
@@ -6375,7 +6375,7 @@
 3	ʧaː	ʧaː	VERB	_	_	2	comp:aux	_	AlignBegin=738430|AlignEnd=738566|Gloss=put
 4	gə̀tn	gə̀tn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	mod	_	AlignBegin=738566|AlignEnd=738702|Gloss=3Sing.Gen
 5	ʧàː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=738702|AlignEnd=738838|Gloss=3Plur.Imp
-6	ʧâː	ʧaː	VERB	_	_	5	comp:aux	_	AlignBegin=738838|AlignEnd=738974|Gloss=put
+6	ʧâː	ʧaː	VERB	_	_	5	comp:aux	_	AlignBegin=738838|AlignEnd=738974|Gloss=cause
 7	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	8	subj	_	AlignBegin=738974|AlignEnd=739110|Gloss=3Plur.Aor
 8	ɬǎːy	ɬaː	VERB	_	_	6	parataxis@comp	_	AlignBegin=739110|AlignEnd=739246|Gloss=cut.Emph
 9	áy	áy	INTJ	_	_	8	comp:obj	_	AlignBegin=739246|AlignEnd=739382|Gloss=eh
@@ -6442,9 +6442,9 @@
 # text_ortho = á ɮìː kuríː //
 # text_en = She aborted.
 1	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=748938|AlignEnd=749112|Gloss=3Sing.Aor
-2-3	ɮiː	_	_	_	_	_	_	_	_
-2	*ɮìː-í	ɮiː	VERB	_	_	1	comp:aux	_	AlignBegin=749112|AlignEnd=749286|Gloss=remove.Emph
-3	kur	kur	NOUN	_	_	2	comp:obj	_	AlignBegin=749286|AlignEnd=749460|Gloss=skin
+2-3	ɮìː kuríː	_	_	_	_	_	_	_	_
+2	ɮìː	ɮiː	VERB	_	_	1	comp:aux	_	AlignBegin=749112|AlignEnd=749286|Gloss=remove.Emph
+3	kuríː	kur	NOUN	_	_	2	comp:obj	_	AlignBegin=749286|AlignEnd=749460|Gloss=skin.Emph
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=749460|AlignEnd=749636|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_777-777
