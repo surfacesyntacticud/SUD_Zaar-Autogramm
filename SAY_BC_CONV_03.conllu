@@ -7432,12 +7432,12 @@
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=851627|AlignEnd=851829|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_885-885
+# text = èː èː èː èː èː !//
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 852656, 853568
-# text = èː èː èː èː èː !//
-# text_ortho = èː èː èː èː èː //
-# text_en = Yes.
+# text_ortho = èː èː èː èː èː !//
+# text_en = Yes yes yes yes!
 1	èː	èː	INTJ	_	_	0	root	_	AlignBegin=852656|AlignEnd=852808|Gloss=yes
 2	èː	èː	INTJ	_	_	1	conj:svc	_	AlignBegin=852808|AlignEnd=852960|Gloss=yes
 3	èː	èː	INTJ	_	_	2	conj:svc	_	AlignBegin=852960|AlignEnd=853112|Gloss=yes
@@ -7446,17 +7446,18 @@
 6	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=853416|AlignEnd=853568|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_886-886
+# text = nə Kàrzâː !//= nə Kàrzâː !//
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 853568, 854532
-# text = nə Kàrzâː nə Kàrzâː !//
-# text_ortho = nə Kàrzâː nə Kàrzâː //
-# text_en = It's Karza it's Karza.
+# text_ortho = nə Kàrzâː nə Kàrzâː !//
+# text_en = It's Karza! It's Karza!
 1	nə	nə	PART	_	_	0	root	_	AlignBegin=853568|AlignEnd=853761|Gloss=be
 2	Kàrzâː	Kàrzâː	PROPN	_	_	1	comp:pred	_	AlignBegin=853761|AlignEnd=853954|Gloss=Karza
-3	nə	nə	PART	_	_	1	parataxis	_	AlignBegin=853954|AlignEnd=854147|Gloss=be
-4	Kàrzâː	Kàrzâː	PROPN	_	_	3	comp:pred	_	AlignBegin=854147|AlignEnd=854340|Gloss=Karza
-5	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=854340|AlignEnd=854532|Gloss=PUNCT
+3	!//=	!//=	PUNCT	_	_	4	punct	_	AlignBegin=853954|AlignEnd=854147|Gloss=PUNCT
+4	nə	nə	PART	_	_	1	parataxis:conj	_	AlignBegin=853954|AlignEnd=854147|Gloss=be
+5	Kàrzâː	Kàrzâː	PROPN	_	_	4	comp:pred	_	AlignBegin=854147|AlignEnd=854340|Gloss=Karza
+6	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=854340|AlignEnd=854532|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_887-887
 # speaker_id = SP1
@@ -7510,13 +7511,13 @@
 1	sòːséy	sòːséy	ADV	_	_	0	root	_	AlignBegin=857135|AlignEnd=857316|Gloss=quite
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=857316|AlignEnd=857497|Gloss=PUNCT
 
-# sent_id = SAY_BC_CONV_03_891-898
+# sent_id = SAY_BC_CONV_03_891-898_split1
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 857497, 866579
-# text = átâ yi myàː ʃíʃíɗi tə́ || tə́ Mâːk < tôː mán má || tə́ súːtu má râːɓáy < mə́ ngâp dàtə̂pm mə́ ɬǐːɗi ɣáy //
-# text_ortho = átâ yi myàːːː ʃíʃíɗi tə́ːːː || tə́ Mâːk < tôː mán máːːː tə́ súːtu < má râːɓáy < mə́ ngâp dàtə̂pm mə́ ɬǐːɗi káy //
-# text_en = One day, as I... going with... with Mark, well it happened that... we... in the evening we were going to leave, we hit the road to reach there.
+# text = átâ yi myàː ʃíʃíɗi tə́ || tə́ Mâːk < tôː mán &//
+# text_ortho = átâ yi myàːːː ʃíʃíɗi tə́ːːː || tə́ Mâːk < tôː mán &//
+# text_en = One day, as I... going with... with Mark, well it happened that...
 1	átâ	ta	AUX	_	Number=Sing|Person=3|Tense=Rem	12	mod	_	AlignBegin=857497|AlignEnd=857742|Gloss=3Sing.Rem
 2	yi	yi	VERB	_	_	1	comp:aux	_	AlignBegin=857742|AlignEnd=857987|Gloss=be
 3	myàː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=1	12	mod	_	AlignBegin=857987|AlignEnd=858232|Gloss=1Plur.Cnd
@@ -7529,23 +7530,31 @@
 9	Mâːk	Mâːk	PROPN	_	_	8	comp:obj	_	AlignBegin=859761|AlignEnd=859840|Gloss=Mark
 10	<	<	PUNCT	_	_	3	punct	_	AlignBegin=859840|AlignEnd=859919|Gloss=PUNCT
 11	tôː	tòː	PART	_	_	12	discourse	_	AlignBegin=861033|AlignEnd=861209|Gloss=well
-12	mán	man	VERB	_	_	0	root	_	AlignBegin=861209|AlignEnd=861386|Gloss=come|SVC=Yes
-13	má	a	AUX	_	Number=Plur|Person=1|Tense=Fut	20	mod	_	AlignBegin=861639|AlignEnd=862272|Gloss=1Plur.Fut
-14	||	||	PUNCT	_	_	17	punct	_	AlignBegin=862735|AlignEnd=862735|Gloss=PUNCT
-15	tə́	tə́	ADP	_	_	17	mod	_	AlignBegin=862735|AlignEnd=862904|Gloss=with
-16	súːtu	súːtu	NOUN	_	_	15	comp:obj	_	AlignBegin=862904|AlignEnd=863073|Gloss=evening
-17	má	a	AUX	_	Number=Plur|Person=1|Tense=Fut	13	conj:dicto	_	AlignBegin=864039|AlignEnd=864262|Gloss=1Plur.Fut
-18	raːɓáy	raːɓá	VERB	_	_	17	comp:aux	_	AlignBegin=864262|AlignEnd=864485|Gloss=leave.Emph|wordform=râːɓáy
-19	<	<	PUNCT	_	_	13	punct	_	AlignBegin=864485|AlignEnd=864709|Gloss=PUNCT
-20	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	12	parataxis@comp	_	AlignBegin=865423|AlignEnd=865616|Gloss=1Plur.Aor
-21	ngâp	ngap	VERB	_	_	20	comp:aux	_	AlignBegin=865616|AlignEnd=865809|Gloss=hold
-22	dàtə̂pm	dàtə̂pm	NOUN	_	_	21	comp:obj	_	AlignBegin=865809|AlignEnd=866002|Gloss=way
-23	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	21	parataxis	_	AlignBegin=866002|AlignEnd=866195|Gloss=1Plur.Aor
-24-25	ɬə	_	_	_	_	_	_	_	_
-24	ɬíː	ɬə	VERB	_	_	23	comp:aux	_	AlignBegin=866195|AlignEnd=866291|Gloss=go.Emph|wordform=ɬǐː
-25	ɗi	ɗi	PART	_	_	24	compound:prt	_	AlignBegin=866291|AlignEnd=866339|Gloss=Ctp|wordform==ɗi
-26	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	24	comp:obl@expl	_	AlignBegin=866339|AlignEnd=866388|Gloss=Anaph.Loc.3Sing
-27	//	//	PUNCT	_	_	12	punct	_	AlignBegin=866388|AlignEnd=866579|Gloss=PUNCT
+12	mán	man	VERB	_	_	0	root@scrap	_	AlignBegin=861209|AlignEnd=861386|Gloss=come|SVC=Yes
+13	&//	&//	PUNCT	_	_	12	punct	_	AlignBegin=861209|AlignEnd=861386|Gloss=PUNCT
+
+# sent_id = SAY_BC_CONV_03_891-898_split2
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
+# sent_timecode = 857497, 866579
+# text = má || tə́ súːtu má raːɓáy mə́ ngâp dàtə̂pm mə́ ɬə ɣáy //+
+# text_ortho = máːːː tə́ súːtu < má râːɓáy < mə́ ngâp dàtə̂pm mə́ ɬǐːɗi káy //
+# text_en = We... in the evening we were going to leave, we hit the road to reach there.
+1	má	a	AUX	_	Number=Plur|Person=1|Tense=Fut	0	root	_	AlignBegin=861639|AlignEnd=862272|Gloss=1Plur.Fut
+2	||	||	PUNCT	_	_	5	punct	_	AlignBegin=862735|AlignEnd=862735|Gloss=PUNCT
+3	tə́	tə́	ADP	_	_	5	mod	_	AlignBegin=862735|AlignEnd=862904|Gloss=with
+4	súːtu	súːtu	NOUN	_	_	3	comp:obj	_	AlignBegin=862904|AlignEnd=863073|Gloss=evening
+5	má	a	AUX	_	Number=Plur|Person=1|Tense=Fut	1	conj:dicto	_	AlignBegin=864039|AlignEnd=864262|Gloss=1Plur.Fut
+6	raːɓáy	raːɓá	VERB	_	_	5	comp:aux	_	AlignBegin=864262|AlignEnd=864485|Gloss=leave.Emph|wordform=râːɓáy
+7	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	1	parataxis	_	AlignBegin=865423|AlignEnd=865616|Gloss=1Plur.Aor
+8	ngâp	ngap	VERB	_	_	7	comp:aux	_	AlignBegin=865616|AlignEnd=865809|Gloss=hold
+9	dàtə̂pm	dàtə̂pm	NOUN	_	_	8	comp:obj	_	AlignBegin=865809|AlignEnd=866002|Gloss=way
+10	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	7	parataxis	_	AlignBegin=866002|AlignEnd=866195|Gloss=1Plur.Aor
+11-12	ɬə	_	_	_	_	_	_	_	_
+11	ɬíː	ɬə	VERB	_	_	10	comp:aux	_	AlignBegin=866195|AlignEnd=866291|Gloss=go.Emph|wordform=ɬǐː
+12	ɗi	ɗi	PART	_	_	11	compound:prt	_	AlignBegin=866291|AlignEnd=866339|Gloss=Ctp|wordform==ɗi
+13	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	11	comp:obl@expl	_	AlignBegin=866339|AlignEnd=866388|Gloss=Anaph.Loc.3Sing
+14	//+	//+	PUNCT	_	_	1	punct	_	AlignBegin=866388|AlignEnd=866579|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_899-899
 # speaker_id = SP2
@@ -7554,9 +7563,9 @@
 # text = kə́ kǐːríː kə́ gàːtə̀ //
 # text_ortho = kə́ kǐːríː kə́ gàːtə̀ //
 # text_en = You ran and left him.
-1	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	0	root	_	AlignBegin=866579|AlignEnd=866750|Gloss=2Plur.Aor
+1	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	0	root	_	AlignBegin=866579|AlignEnd=866750|AttachTo=n11@SAY_BC_CONV_03_891-898_split2|Gloss=2Plur.Aor|Rel=parataxis
 2	kǐːríː	kíːr	VERB	_	Number=Plur	1	comp:aux	_	AlignBegin=866750|AlignEnd=866921|Gloss=run.Plur.Emph
-3	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	1	conj:svc	_	AlignBegin=866921|AlignEnd=867092|Gloss=2Plur.Aor
+3	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	1	parataxis	_	AlignBegin=866921|AlignEnd=867092|Gloss=2Plur.Aor
 4-5	gàːtə̀	_	_	_	_	_	_	_	_
 4	gàː	gaː	VERB	_	_	3	comp:aux	_	AlignBegin=867092|AlignEnd=867178|Gloss=leave
 5	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=867178|AlignEnd=867263|Gloss=3Sing.Obj
@@ -7566,17 +7575,16 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 867229, 868007
-# text = mə́ kǐːríː //= mə́ gàːtə̀ //
+# text = mə́ kǐːríː mə́ gàːtə̀ //
 # text_ortho = mə́ kǐːríː //= mə́ gàːtə̀ //
 # text_en = We ran and left him.
-1	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=867229|AlignEnd=867359|Gloss=1Plur.Aor
+1	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=867229|AlignEnd=867359|AttachTo=n11@SAY_BC_CONV_03_891-898_split2|Gloss=1Plur.Aor|Rel=parataxis
 2	kǐːríː	kíːr	VERB	_	Number=Plur	1	comp:aux	_	AlignBegin=867359|AlignEnd=867489|Gloss=run.Plur.Emph
-3	//=	//=	PUNCT	_	_	4	punct	_	AlignBegin=867489|AlignEnd=867619|Gloss=PUNCT
-4	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	1	conj:svc	_	AlignBegin=867619|AlignEnd=867749|Gloss=1Plur.Aor
-5-6	gàːtə̀	_	_	_	_	_	_	_	_
-5	gàː	gaː	VERB	_	_	4	comp:aux	_	AlignBegin=867749|AlignEnd=867814|Gloss=leave
-6	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=867814|AlignEnd=867879|Gloss=3Sing.Obj
-7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=867879|AlignEnd=868007|Gloss=PUNCT
+3	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	1	parataxis	_	AlignBegin=867619|AlignEnd=867749|Gloss=1Plur.Aor
+4-5	gàːtə̀	_	_	_	_	_	_	_	_
+4	gàː	gaː	VERB	_	_	3	comp:aux	_	AlignBegin=867749|AlignEnd=867814|Gloss=leave
+5	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=867814|AlignEnd=867879|Gloss=3Sing.Obj
+6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=867879|AlignEnd=868007|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_901-902
 # speaker_id = SP1
@@ -7592,7 +7600,7 @@
 5-6	ʃîʃíɗi	_	_	_	_	_	_	_	_
 5	ʃîʃí	ʃiʃí	VERB	_	_	4	compound:svc	_	AlignBegin=868547|AlignEnd=868638|Gloss=leave
 6	ɗi	ɗi	PART	_	_	5	compound:prt	_	AlignBegin=868638|AlignEnd=868729|Gloss=Ctp|wordform==ɗi
-7	tə́	tə́	ADP	_	_	5	mod	_	AlignBegin=868729|AlignEnd=868911|Gloss=with
+7	tə́	tə́	ADP	_	_	5	comp:obl	_	AlignBegin=868729|AlignEnd=868911|Gloss=with
 8	gyaː	gyaː	DET	_	Number=Plur	9	det	_	AlignBegin=868911|AlignEnd=869093|Gloss=3Plur
 9	Làːdí	Làːdí	PROPN	_	_	7	comp:obj	_	AlignBegin=869093|AlignEnd=869275|Gloss=Ladi
 10	//	//	PUNCT	_	_	3	punct	_	AlignBegin=869275|AlignEnd=869459|Gloss=PUNCT
@@ -7601,14 +7609,14 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 869708, 873718
-# text = Làːdí < tə́ Làːdí bétwâːsə̀n < mə́ ngâp dàtə̂pmɗì dàgà || dàgà Ɗyanndi //
+# text = Làːdí < tə́ Làːdí bétwâːsə̀ŋ < mə́ ngâp dàtə̂pmɗì dàgà || dàgà Ɗyanndi //
 # text_ortho = Làːdí < tə́ Làːdí bétwâːsə̀n < mə́ ngâp dàtə̂pmɗì dàgà || dàgà Ɗyanndi //
 # text_en = Ladi, with Ladi all of them we hit the road and left and left Ɗyandi.
 1	Làːdí	Làːdí	PROPN	_	_	7	dislocated@top	_	AlignBegin=869708|AlignEnd=869861|Gloss=Ladi
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=869861|AlignEnd=870014|Gloss=PUNCT
 3	tə́	tə́	ADP	_	_	7	dislocated@top	_	AlignBegin=870014|AlignEnd=870167|Gloss=with
 4	Làːdí	Làːdí	PROPN	_	_	3	comp:obj	_	AlignBegin=870167|AlignEnd=870320|Gloss=Ladi
-5	bétwâːsə̀ŋ	bét	PRON	_	Poss=Yes	4	conj:appos	_	AlignBegin=870320|AlignEnd=870396|Gloss=all3Plur.Gen|wordform=bét
+5	bétwâːsə̀ŋ	bét	PRON	_	Poss=Yes	4	conj:appos	_	AlignBegin=870320|AlignEnd=870396|Gloss=all.3Plur.Gen|wordform=bét
 6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=870473|AlignEnd=870624|Gloss=PUNCT
 7	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=871334|AlignEnd=871584|Gloss=1Plur.Aor
 8	ngâp	ngap	VERB	_	_	7	comp:aux	_	AlignBegin=871584|AlignEnd=871834|Gloss=hold
@@ -7666,7 +7674,7 @@
 # text_ortho = tə́ ə̀ːːː &//
 # text_en = They er...
 1	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=880947|AlignEnd=881126|Gloss=3Plur.Aor
-2	ə̀ː	ə̀ː	INTJ	_	_	1	discourse	_	AlignBegin=881126|AlignEnd=881305|Gloss=INTJ
+2	ə̀ː	ə̀ː	INTJ	_	_	1	discourse:filler	_	AlignBegin=881126|AlignEnd=881305|Gloss=FILL
 3	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=881305|AlignEnd=881485|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_914-914
@@ -7696,14 +7704,14 @@
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=882634|AlignEnd=882782|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_916-917
+# text = myàː ndáy də̀n < mə́ ɬə́ ʧî náɣɗíː //
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 882782, 884165
-# text = myàː ndáy də̀n < mə́ ɬə́ ʧî náɣɗíː //
-# text_ortho = myàː ndáy də̀n < mə́ ɬə́ ʧî nákɗíː //
+# text_ortho = myàː ndáy də̀n < mə́ ɬə́ ʧî náɣɗíː //
 # text_en = As we arrived home we proceeded to eat.
 1	myàː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=1	5	mod	_	AlignBegin=882782|AlignEnd=882949|Gloss=1Plur.Cnd
-2	ndǎy	nda	VERB	_	_	1	comp:aux	_	AlignBegin=882949|AlignEnd=883116|Gloss=enter.Emph|wordform=ndáy
+2	ndáy	nda	VERB	_	_	1	comp:aux	_	AlignBegin=882949|AlignEnd=883116|Gloss=enter.Emph
 3	də̀n	də̀n	NOUN	_	_	2	comp:obj@G	_	AlignBegin=883116|AlignEnd=883283|Gloss=house
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=883283|AlignEnd=883449|Gloss=PUNCT
 5	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=883449|AlignEnd=883592|Gloss=1Plur.Aor
@@ -7716,22 +7724,22 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 884552, 885374
-# text = tòː lóːkaʧí gíː < Báːbáː &//
+# text = tòː lóːkaʧíː gíː < Báːbáː &//
 # text_ortho = tòː lóːkaʧíː gíː < Báːbáː &//
 # text_en = Well at that time, Baba.
 1	tòː	tòː	PART	_	_	5	discourse	_	AlignBegin=884552|AlignEnd=884697|Gloss=well
-2	lóːkaʧí	lóːkaʧí	NOUN	_	Foreign=Yes	5	mod	_	AlignBegin=884697|AlignEnd=884842|Gloss=time|Lang=ha
+2	lóːkaʧíː	lóːkaʧí	NOUN	_	Foreign=Yes	5	mod	_	AlignBegin=884697|AlignEnd=884842|Gloss=time.emph|Lang=ha
 3	gíː	gíː	DET	_	Deixis=Dist|PronType=Dem	2	det	_	AlignBegin=884842|AlignEnd=884987|Gloss=Dist
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=884987|AlignEnd=885133|Gloss=PUNCT
 5	Báːbáː	Báːbáː	PROPN	_	_	0	root@scrap	_	AlignBegin=885133|AlignEnd=885253|Gloss=Baba
 6	&//	&//	PUNCT	_	_	5	punct	_	AlignBegin=885253|AlignEnd=885374|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_920-921
+# text = mərə || mərə́ guɗi tə̀tàyáː kə̌ːm tə́ ndâɗì gìp vìːn ə̌ŋ //
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
 # sent_timecode = 885662, 887893
-# text = mərə || mərə́ guɗi tə̀tàyáː kə̌ːm tə́ ndâɗì gìp vìːn ə̌n //
-# text_ortho = mərə || mərə́ guɗi tə̀tàyáː kə̌ːm tə́ ndâɗì gìp vìːnə̌n //
+# text_ortho = mərə || mərə́ guɗi tə̀tàyáː kə̌ːm tə́ ndáɗì gìp vìːnə̌ŋ //
 # text_en = Young... young girls were not allowed into the house.
 1	mərə	mərə	ADJ	_	_	5	subj	_	AlignBegin=885662|AlignEnd=885978|Gloss=young
 2	||	||	PUNCT	_	_	3	punct	_	AlignBegin=885978|AlignEnd=886293|Gloss=PUNCT
@@ -7741,11 +7749,11 @@
 6	kə̌ːm	kə́ːm	VERB	_	_	5	comp:aux	_	AlignBegin=886929|AlignEnd=887089|Gloss=be_able|SVC=Yes
 7	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	6	parataxis@comp	_	AlignBegin=887089|AlignEnd=887249|Gloss=3Plur.Aor
 8-9	ndâɗì	_	_	_	_	_	_	_	_
-8	ndâ	nda	VERB	_	_	7	comp:aux	_	AlignBegin=887249|AlignEnd=887329|Gloss=enter
+8	ndá	nda	VERB	_	_	7	comp:aux	_	AlignBegin=887249|AlignEnd=887329|Gloss=enter
 9	ɗì	ɗi	PART	_	_	8	compound:prt	_	AlignBegin=887329|AlignEnd=887409|Gloss=Ctp|wordform==ɗì
 10	gìp	gìp	ADP	_	_	8	comp:obl	_	AlignBegin=887409|AlignEnd=887569|Gloss=inside
 11	vìːn	vìːn	NOUN	_	_	10	comp:obj	_	AlignBegin=887569|AlignEnd=887675|Gloss=room
-12	ə̌n	hŋ́	PART	_	Polarity=Neg	6	mod	_	AlignBegin=887675|AlignEnd=887729|Gloss=Neg
+12	ə̌ŋ	hŋ́	PART	_	Polarity=Neg	6	mod	_	AlignBegin=887675|AlignEnd=887729|Gloss=Neg
 13	//	//	PUNCT	_	_	5	punct	_	AlignBegin=887729|AlignEnd=887893|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_922-922
