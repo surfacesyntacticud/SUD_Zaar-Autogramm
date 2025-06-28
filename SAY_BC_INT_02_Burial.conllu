@@ -789,7 +789,7 @@
 # sent_timecode = 121833, 123468
 # text = bàː ká mán mbút naː mbútkə̂n ɗǎŋ ɗa ?//
 # text_ortho = bàː ká mán mbút naː mbútkə̂n ɗǎŋ ɗa ?//
-# text_en = Wouldn't you spend some time sleeping there ?
+# text_en = Wouldn't you spend some time sleeping there again?
 1	bàː	bàː	PART	_	Polarity=Neg	2	mod	_	AlignBegin=121833|AlignEnd=122015|Gloss=Neg1
 2	ká	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=122015|AlignEnd=122197|Gloss=2Plur.Fut
 3	mán	mán	VERB	_	_	2	comp:aux	_	AlignBegin=122197|AlignEnd=122379|Gloss=come
@@ -797,7 +797,7 @@
 5	naː	naː	NOUN	_	_	4	comp:obj	_	AlignBegin=122561|AlignEnd=122743|Gloss=type
 6	mbútkə̂n	mbút	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	5	compound	_	AlignBegin=122743|AlignEnd=122925|Gloss=spend_night-Vnoun
 7-8	ɗǎŋ	_	_	_	_	_	_	_	_
-7	ɗân	ɗanì	ADV	_	_	4	mod	_	AlignBegin=122925|AlignEnd=123016|Gloss=there
+7	ɗan	ɗanì	ADV	_	_	4	mod	_	AlignBegin=122925|AlignEnd=123016|Gloss=there
 8	hŋ́	hŋ́	PART	_	Polarity=Neg	4	mod	_	AlignBegin=123016|AlignEnd=123107|Gloss=Neg2
 9	ɗa	ɗa	PART	_	_	4	compound:prt	_	AlignBegin=123107|AlignEnd=123289|Gloss=again
 10	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=123289|AlignEnd=123468|Gloss=PUNCT
@@ -839,13 +839,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_BURIAL.WAV
 # sent_timecode = 124961, 126248
-# text = yáːwón ʧǎː mbûɗíː gyáː gèntsə̀ //
+# text = yáːwón ʧǎː mbûɗíː gyaː gèntsə̀ //
 # text_ortho = yáːwón ʧǎː mbûɗíː gyaː gèntsə̀ //
 # text_en = Now, they [women] sleep at their friend's.
 1	yáːwón	yáːwón	ADV	_	PronType=Dem	2	mod	_	AlignBegin=124961|AlignEnd=125169|Gloss=today
 2	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=125169|AlignEnd=125385|Gloss=3Plur.Imp
-3	mbûɗíː	mbút	VERB	_	_	2	comp:aux	_	AlignBegin=125385|AlignEnd=125601|Gloss=spend_night
-4	gyáː	gyáː	DET	_	Number=Plur	5	det	_	AlignBegin=125601|AlignEnd=125817|Gloss=Plur
+3	mbûɗíː	mbút	VERB	_	_	2	comp:aux	_	AlignBegin=125385|AlignEnd=125601|Gloss=spend_night.Emph
+4	gyaː	gyáː	DET	_	Number=Plur	5	det	_	AlignBegin=125601|AlignEnd=125817|Gloss=Plur
 5	gèntsə̀	gyaːt	DET	_	Number=Plur	3	comp:obj@L	_	AlignBegin=125817|AlignEnd=126033|Gloss=female_relative
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=126033|AlignEnd=126248|Gloss=PUNCT
 
@@ -865,14 +865,15 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_BURIAL.WAV
 # sent_timecode = 126709, 128080
-# text = âː dâːmáː gèntsə̀ tə̀tàyáː mbûɗíː áy !//
-# text_ortho = âː dâːmáː gèntsə̀ tə̀tàyáː mbûɗíː áy !//
+# text = âː dâːmáː gèntsə̀ tə̀tàyáː mbûɗáy !//
+# text_ortho = âː dâːmáː gèntsə̀ tə̀tàyáː mbûɗáy !//
 # text_en = Eh, < formerly > , old women used to sleep there indeed!
 1	âː	âː	INTJ	_	_	4	discourse	_	AlignBegin=126709|AlignEnd=126905|Gloss=ah
 2	dâːmáː	dâːmáː	ADV	_	_	4	mod	_	AlignBegin=126905|AlignEnd=127101|Gloss=formerly|Lang=ha
 3	gèntsə̀	gyaːt	NOUN	_	Number=Plur	4	subj	_	AlignBegin=127101|AlignEnd=127297|Gloss=female_relative
 4	tə̀tàyáː	ta-yáː	AUX	_	Number=Plur|Person=3|Tense=Rem	0	root	_	AlignBegin=127297|AlignEnd=127493|Gloss=3Plur.Rem.Imp
-5	mbúɗíː	mbút	VERB	_	_	4	comp:aux	_	AlignBegin=127493|AlignEnd=127689|Gloss=spend_night.Emph|wordform=mbûɗíː
+5-6	mbûɗáy	_	_	_	_	_	_	_	_
+5	mbût	mbút	VERB	_	_	4	comp:aux	_	AlignBegin=127493|AlignEnd=127689|Gloss=spend_night|wordform=mbûɗ
 6	áy	áy	INTJ	_	_	4	discourse	_	AlignBegin=127689|AlignEnd=127885|Gloss=indeed
 7	!//	!//	PUNCT	_	_	4	punct	_	AlignBegin=127885|AlignEnd=128080|Gloss=PUNCT
 
@@ -885,19 +886,20 @@
 # text_en = Old women used to sleep there.
 1	gèntsə̀	gyaːt	NOUN	_	Number=Plur	2	subj	_	AlignBegin=129200|AlignEnd=129360|Gloss=female_relative
 2	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=129360|AlignEnd=129520|Gloss=3Plur.Fut
-3	mbúɗíː	mbút	VERB	_	_	2	comp:aux	_	AlignBegin=129520|AlignEnd=129680|Gloss=spend_night.Emph|wordform=mbûɗíː
+3	mbûɗíː	mbút	VERB	_	_	2	comp:aux	_	AlignBegin=129520|AlignEnd=129680|Gloss=spend_night.Emph|wordform=mbûɗíː
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=129680|AlignEnd=129840|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_095-095
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_BURIAL.WAV
 # sent_timecode = 129200, 130190
-# text = gíː ɣən myáː ʧet áy //
-# text_ortho = gíː ɣən myáː ʧet áy //
+# text = gíː ɣən myáː ʧeɗáy //
+# text_ortho = gíː ɣən myáː ʧeɗáy //
 # text_en = That's what I was asking.
 1	gíː	gíː	PRON	_	Deixis=Dist|PronType=Dem	2	comp:pred	_	AlignBegin=129200|AlignEnd=129365|Gloss=Dist
 2	ɣən	kən	PART	_	_	0	root	_	AlignBegin=129365|AlignEnd=129530|Gloss=be
 3	myáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	2	comp:cleft	_	AlignBegin=129530|AlignEnd=129695|Gloss=1Sing.Imp
+4-5 ʧeɗáy	_	_	_	_	_	_	_	_
 4	ʧet	ʧet	VERB	_	_	3	comp:aux	_	AlignBegin=129695|AlignEnd=129860|Gloss=ask
 5	áy	áy	INTJ	_	_	2	discourse	_	AlignBegin=129860|AlignEnd=130025|Gloss=indeed
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=130025|AlignEnd=130190|Gloss=PUNCT
@@ -906,17 +908,17 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_BURIAL.WAV
 # sent_timecode = 130190, 132620
-# text = m̀ː gèntsə̀ tá mbûɗíː séː yǎː fi mbútkə̂n mâːy //
+# text = m̀ː gèntsə̀ tá mbûɗíː séː yǎː fî mbútkə̂n mâːy //
 # text_ortho = m̀ː gèntsə̀ tá mbûɗíː séː yǎː fî mbútkə̂n mâːy //
 # text_en = Yes, old women used to sleep there for three nights.
 1	m̀ː	m̀ː	INTJ	_	_	3	discourse:filler	_	AlignBegin=130190|AlignEnd=130425|Gloss=FILL
 2	gèntsə̀	gyaːt	DET	_	Number=Plur	3	subj	_	AlignBegin=130425|AlignEnd=130660|Gloss=female_relative
 3	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=130660|AlignEnd=130895|Gloss=3Plur.Fut
-4	mbúɗíː	mbút	VERB	_	_	3	comp:aux	_	AlignBegin=130895|AlignEnd=131130|Gloss=spend_night.Emph|wordform=mbûɗíː
+4	mbûɗíː	mbút	VERB	_	_	3	comp:aux	_	AlignBegin=130895|AlignEnd=131130|Gloss=spend_night.Emph|wordform=mbûɗíː
 5	séː	séː	SCONJ	_	_	4	mod	_	AlignBegin=131662|AlignEnd=131822|Gloss=must
 6	yǎː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=3	5	comp:obj	_	AlignBegin=131822|AlignEnd=131982|Gloss=3Plur.Cnd
-7	fi	fi	VERB	_	_	6	comp:aux	_	AlignBegin=131982|AlignEnd=132142|Gloss=do
-8	mbútkə̂n	mbút	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	7	comp:obj	_	AlignBegin=132142|AlignEnd=132302|Gloss=spend_night-Vnoun
+7	fî	fi	VERB	_	_	6	comp:aux	_	AlignBegin=131982|AlignEnd=132142|Gloss=do
+8	mbútkə̂n	mbút	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	7	comp:pred	_	AlignBegin=132142|AlignEnd=132302|Gloss=spend_night-Vnoun
 9	mâːy	mâːy	NUM	_	_	8	mod:num	_	AlignBegin=132302|AlignEnd=132462|Gloss=three
 10	//	//	PUNCT	_	_	3	punct	_	AlignBegin=132462|AlignEnd=132620|Gloss=PUNCT
 
