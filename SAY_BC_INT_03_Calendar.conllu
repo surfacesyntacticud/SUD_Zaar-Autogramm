@@ -1024,7 +1024,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
 # sent_timecode = 171510, 172602
-# text = kə́ ʧáːni mbútkə́nì káwêy //
+# text = kə́ ʧáːni mbútkə́nì káwêy ?//
 # text_ortho = kə́ ʧáːni mbútkə́nì káwêy ?//
 # text_en = (Or) did you just fix the date ?
 1	kə́	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=171510|AlignEnd=171728|Gloss=2Plur.Aor
@@ -1033,7 +1033,7 @@
 3	ni	ni	PART	_	Aspect=Iter	2	compound:prt	_	AlignBegin=171837|AlignEnd=171946|Gloss=Iter|wordform==ni
 4	mbútkə́nì	mbút	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	2	comp:obj	_	AlignBegin=171946|AlignEnd=172164|Gloss=spend_night-Vnoun
 5	káwêy	káwêy	ADV	_	_	2	mod	_	AlignBegin=172164|AlignEnd=172382|Gloss=merely
-6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=172382|AlignEnd=172602|Gloss=PUNCT
+6	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=172382|AlignEnd=172602|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_109-109
 # speaker_id = SP1
@@ -1042,8 +1042,8 @@
 # text = mbútkə̂n kúrûm //
 # text_ortho = mbútkə̂n kúrûm //
 # text_en = It's just one day.
-1	mbútkə̂n	mbút	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	0	root	_	AlignBegin=172602|AlignEnd=172823|Gloss=spend_night-Vnoun
-2	kúrûm	kúrûm	ADV	_	_	1	mod	_	AlignBegin=172823|AlignEnd=173044|Gloss=only
+1	mbútkə̂n	mbút	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	0	root	_	AlignBegin=172602|AlignEnd=172823|AttachTo=n2@SAY_BC_INT_03_Calendar_108-108|Gloss=spend_night-Vnoun|Rel=comp:obj
+2	kúrûm	kúrûm	ADV	_	_	1	udep	_	AlignBegin=172823|AlignEnd=173044|Gloss=only
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=173044|AlignEnd=173266|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_110-110
@@ -1053,7 +1053,7 @@
 # text = dùmín &//
 # text_ortho = dùmín &//
 # text_en = Because...
-1	dùmín	dùmín	SCONJ	_	_	0	root	_	AlignBegin=173266|AlignEnd=173620|Gloss=because
+1	dùmín	dùmín	SCONJ	_	_	0	root@scrap	_	AlignBegin=173266|AlignEnd=173620|AttachTo=n2@SAY_BC_INT_03_Calendar_108-108|Gloss=because|Rel=mod
 2	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=173620|AlignEnd=173973|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_111-113
