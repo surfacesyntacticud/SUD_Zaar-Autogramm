@@ -833,37 +833,45 @@
 3	kəndí	kən	PART	_	_	0	root	_	AlignBegin=141060|AlignEnd=141280|Gloss=be
 4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=141280|AlignEnd=141500|Gloss=PUNCT
 
-# sent_id = SAY_BC_INT_03_Calendar_088-093
+# sent_id = SAY_BC_INT_03_Calendar_088-093_split1
+# text = lə̌pm Zaːr < m̀ː gistə́ //
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
-# sent_timecode = 142040, 149800
-# text = lə̌pm Zaːr < m̀ː gistə́ < myàːyí fitə gistə́ |a deːdéː á wátan || dǎː máː tôː wátan tára kóː góːma //
-# text_ortho = lə̌pm Zaːr < m̀ː gistə́ < myàːyí fitə gistə́ || deːdéː á wátan || dǎː máː tôː wátan tára kóː góːma //
-# text_en = The Zaar festival, er... in the dry season, we did it in the dry season exacly in < the month of ...> Well actually in September or October .
-1	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	7	mod	_	AlignBegin=142040|AlignEnd=142287|Gloss=festival-CONS
+# sent_timecode = 142040, 144060
+# text_ortho = lə̌pm Zaːr < m̀ː gistə́ //
+# text_en = The Zaar festival, er... [it was] in the dry season.
+1	lə̌pm	lə̌pm	NOUN	_	Definite=Cons	5	dislocated@top	_	AlignBegin=142040|AlignEnd=142287|Gloss=festival-CONS
 2	Zaːr	Zaːr	PROPN	_	_	1	compound	_	AlignBegin=142287|AlignEnd=142534|Gloss=Zaar
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=142534|AlignEnd=142781|Gloss=PUNCT
 4	m̀ː	m̀ː	INTJ	_	_	1	discourse:filler	_	AlignBegin=142781|AlignEnd=143579|Gloss=FILL
-5	gistə́	gistə́	NOUN	_	_	7	mod	_	AlignBegin=143579|AlignEnd=143819|Gloss=harvest_season
-6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=143819|AlignEnd=144060|Gloss=PUNCT
-7	myàːyí	yáː-yiː	AUX	_	Number=Plur|Person=1	0	root	_	AlignBegin=144960|AlignEnd=145180|Gloss=1Plur.Imp.Iter
-8-9	fitə	_	_	_	_	_	_	_	_
-8	fi	fi	VERB	_	_	7	comp:aux	_	AlignBegin=145180|AlignEnd=145290|Gloss=do
-9	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=145290|AlignEnd=145400|Gloss=3Sing.Obj
-10	gistə́	gistə́	NOUN	_	_	8	mod	_	AlignBegin=145400|AlignEnd=145620|Gloss=harvest_season
-11	|a	|a	PUNCT	_	_	13	punct	_	AlignBegin=145620|AlignEnd=145840|Gloss=PUNCT
-12	deːdéː	deːdéː	ADV	_	_	13	mod	_	AlignBegin=146200|AlignEnd=146525|Gloss=exactly|Lang=ha
-13	á	ká	ADP	_	_	10	conj:appos	_	AlignBegin=146525|AlignEnd=146850|Gloss=at
-14	wátan	wátan	DET	_	Definite=Spec	13	comp:obj	_	AlignBegin=146850|AlignEnd=147175|Gloss=month_of|Lang=ha
-15	||	||	PUNCT	_	_	19	punct	_	AlignBegin=147175|AlignEnd=147500|Gloss=PUNCT|Lang=ha
-16	dǎː	dǎː	ADV	_	ExtPos=ADV|Foreign=Yes	19	mod	_	AlignBegin=147760|AlignEnd=148015|Gloss=formerly|Idiom=Yes|Lang=ha
-17	máː	máː	PART	_	Foreign=Yes	16	unk	_	AlignBegin=148015|AlignEnd=148270|Gloss=just|InIdiom=Yes|Lang=ha
-18	tôː	tôː	PART	_	_	19	discourse	_	AlignBegin=148270|AlignEnd=148525|Gloss=well|Lang=ha
-19	wátan	wátan	NOUN	_	_	14	conj:dicto	_	AlignBegin=148525|AlignEnd=148780|Gloss=month|Lang=ha
-20	tára	tára	NUM	_	_	19	mod:num	_	AlignBegin=148780|AlignEnd=149035|Gloss=nine|Lang=ha
-21	kóː	kóː	CCONJ	_	_	22	cc	_	AlignBegin=149035|AlignEnd=149290|Gloss=COORD|Lang=ha
-22	góːma	góːma	NUM	_	_	20	conj:coord	_	AlignBegin=149290|AlignEnd=149545|Gloss=ten|Lang=ha
-23	//	//	PUNCT	_	_	7	punct	_	AlignBegin=149545|AlignEnd=149800|Gloss=PUNCT
+5	gistə́	gistə́	NOUN	_	_	0	root	_	AlignBegin=143579|AlignEnd=143819|Gloss=harvest_season
+6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=143819|AlignEnd=144060|Gloss=PUNCT
+
+# sent_id = SAY_BC_INT_03_Calendar_088-093_split2
+# text = myàːyí fi =tə gistə́ |a deːdéː á wátan || dǎː máː tôː wátan tára kóː góːma //
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
+# sent_timecode = 144060, 149800
+# text_ortho = myàːyí fitə gistə́ || deːdéː á wátan || dǎː máː tôː wátan tára kóː góːma //
+# text_en = We did it in the dry season, exacly in < the month of ...> well actually in September or October .
+1	myàːyí	yáː-yiː	AUX	_	Number=Plur|Person=1	0	root	_	AlignBegin=144960|AlignEnd=145180|Gloss=1Plur.Imp.Iter
+2-3	fitə	_	_	_	_	_	_	_	_
+2	fi	fi	VERB	_	_	1	comp:aux	_	AlignBegin=145180|AlignEnd=145290|Gloss=do
+3	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=145290|AlignEnd=145400|Gloss=3Sing.Obj
+4	gistə́	gistə́	NOUN	_	_	2	mod	_	AlignBegin=145400|AlignEnd=145620|Gloss=harvest_season
+5	|a	|a	PUNCT	_	_	7	punct	_	AlignBegin=145620|AlignEnd=145840|Gloss=PUNCT
+6	deːdéː	deːdéː	ADV	_	_	7	mod	_	AlignBegin=146200|AlignEnd=146525|Gloss=exactly|Lang=ha
+7	á	ká	ADP	_	_	4	conj:appos	_	AlignBegin=146525|AlignEnd=146850|Gloss=at
+8	wátan	wátan	DET	_	Definite=Spec	7	comp:obj	_	AlignBegin=146850|AlignEnd=147175|Gloss=month_of|Lang=ha
+9	||	||	PUNCT	_	_	13	punct	_	AlignBegin=147175|AlignEnd=147500|Gloss=PUNCT|Lang=ha
+10	dǎː	dǎː	ADV	_	ExtPos=ADV|Foreign=Yes	13	mod	_	AlignBegin=147760|AlignEnd=148015|Gloss=formerly|Idiom=Yes|Lang=ha
+11	máː	máː	PART	_	Foreign=Yes	10	unk	_	AlignBegin=148015|AlignEnd=148270|Gloss=just|InIdiom=Yes|Lang=ha
+12	tôː	tôː	PART	_	_	13	discourse	_	AlignBegin=148270|AlignEnd=148525|Gloss=well|Lang=ha
+13	wátan	wátan	NOUN	_	_	8	conj:dicto	_	AlignBegin=148525|AlignEnd=148780|Gloss=month|Lang=ha
+14	tára	tára	NUM	_	_	13	mod:num	_	AlignBegin=148780|AlignEnd=149035|Gloss=nine|Lang=ha
+15	kóː	kóː	CCONJ	_	_	16	cc	_	AlignBegin=149035|AlignEnd=149290|Gloss=COORD|Lang=ha
+16	góːma	góːma	NUM	_	_	14	conj:coord	_	AlignBegin=149290|AlignEnd=149545|Gloss=ten|Lang=ha
+17	//	//	PUNCT	_	_	1	punct	_	AlignBegin=149545|AlignEnd=149800|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_094-096
 # speaker_id = SP2
