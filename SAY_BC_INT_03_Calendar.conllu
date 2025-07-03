@@ -1064,7 +1064,7 @@
 # text_ortho = àmá kúmá myǎː yêl kyàːyi fi tu < wâː yáːyi ɲaŋə́y < ká ɬâː kə́ fî ɣáy //
 # text_en = But we used to see that you used to do when guineacorn was ripe, you would harvest it and do [the festival].
 1	àmá	àmá	CCONJ	_	_	3	discourse	_	AlignBegin=173266|AlignEnd=173533|Gloss=but
-2	kúmá	kúmá	PART	_	_	3	discourse	_	AlignBegin=173533|AlignEnd=173800|Gloss=and
+2	kúmá	kúmá	PART	_	_	1	discourse@top	_	AlignBegin=173533|AlignEnd=173800|Gloss=and
 3	myǎː	yáː	AUX	_	Number=Plur|Person=1	0	root	_	AlignBegin=173800|AlignEnd=174067|Gloss=1Plur.Imp
 4	yêl	yeli	VERB	_	_	3	comp:aux	_	AlignBegin=174067|AlignEnd=174334|Gloss=see
 5	kyàːyi	yáː-yiː	AUX	_	Aspect=ImpIter|Number=Plur|Person=2	4	parataxis@comp	_	AlignBegin=174334|AlignEnd=174601|Gloss=2Plur.Imp.Iter
@@ -1099,8 +1099,8 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
 # sent_timecode = 180115, 183080
-# text = niː ʧaː kyǎː fî ɣá waːɬə́ŋ ɗan wâː daptǎŋ àː fìɣáyeː ?//
-# text_ortho = níː ʧâː kyǎː fî ɣá waːɬə́ŋ ɗan wâː daptǎŋ àː fìɣáyeː ?//
+# text = niː ʧaː kyǎː fî ɣá waːɬə́ŋ ɗan wâː dap tǎŋ àː fìɣáyeː ?//
+# text_ortho = níː ʧâː kyǎː fî ɣá waːɬə́ŋ ɗan wâː dap tǎŋ àː fìɣáyeː ?//
 # text_en = Why, if you did it during the rain season, when the guineacorn is not ripe yet, did you do it?
 1	niː	niː	PRON	_	PronType=Int	2	subj	_	AlignBegin=180115|AlignEnd=180289|Gloss=what
 2	ʧaː	ʧaː	VERB	_	_	0	root	_	AlignBegin=180289|AlignEnd=180463|Gloss=put
@@ -1112,8 +1112,8 @@
 8-9	wâː	_	_	_	_	_	_	_	_
 8	wâː	wâː	PART	_	_	9	subj	_	AlignBegin=181333|AlignEnd=181507|Gloss=guineacorn
 9	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	7	comp:obj	_	AlignBegin=181507|AlignEnd=181681|Gloss=3Sing.Perf
-10-12	daptǎŋ	_	_	_	_	_	_	_	_
 10	dap	dap	VERB	_	_	9	comp:aux	_	AlignBegin=181681|AlignEnd=181855|Gloss=follow
+11-12	tǎŋ	_	_	_	_	_	_	_	_
 11	ta	ta	VERB	_	_	10	compound:svc	_	AlignBegin=181855|AlignEnd=182029|Gloss=climb
 12	hŋ́	hŋ́	PART	_	Polarity=Neg	10	mod	_	AlignBegin=182029|AlignEnd=182203|Gloss=Neg2
 13	àː	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=2	2	parataxis@comp	_	AlignBegin=182203|AlignEnd=182377|Gloss=2Plur.Sub
@@ -1128,11 +1128,10 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
 # sent_timecode = 183360, 188040
 # text = ín yâːn wâː tâ hŋ́ || èː wâː táy àː ɲáŋ hŋ́ < dóːlyâː fì tə́ gə̀rə́ wâː //
-# text_ortho = ín yâːn wâː tâ hŋ́ èː wâː táy < àː ɲáŋ hŋ́ < dóːlêː àː fì tə́ gə̀rə́ wâː //
+# text_ortho = ín yâːn wâː tâ hŋ́ èː wâː táy < àː ɲáŋ hŋ́ < dóːlyâː fì tə́ gə̀rə́ wâː //
 # text_en = If the guineacorn has not grown, er... the guineacorn has grown but is not ripe, you must do it with old guineacorn.
 1	ín	ín	SCONJ	_	ExtPos=SCONJ	17	mod	_	AlignBegin=183360|AlignEnd=183564|Gloss=if|Idiom=Yes
 2	yâːn	yâːn	SCONJ	_	_	1	unk	_	AlignBegin=183564|AlignEnd=183768|Gloss=if|InIdiom=Yes
-3-4	wâː	_	_	_	_	_	_	_	_
 3	wâː	wâː	NOUN	_	_	4	subj	_	AlignBegin=183768|Gloss=guineacorn
 4	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	1	comp:obj	_	AlignEnd=183972|Gloss=3Sing.Aor
 5	tâ	ta	VERB	_	_	4	comp:aux	_	AlignBegin=183972|AlignEnd=184176|Gloss=climb
@@ -1142,7 +1141,7 @@
 9-10	wâː	_	_	_	_	_	_	_	_
 9	wâː	wâː	NOUN	_	_	10	subj	_	AlignBegin=184885|Gloss=guineacorn
 10	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	4	conj:dicto	_	AlignEnd=185090|Gloss=3Sing.Perf
-11	tǎy	ta	VERB	_	_	10	comp:aux	_	AlignBegin=185090|AlignEnd=185295|Gloss=climb.ACH|wordform=táy
+11	táy	ta	VERB	_	_	10	comp:aux	_	AlignBegin=185090|AlignEnd=185295|Gloss=climb.ACH|wordform=táy
 12	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	10	conj:svc	_	AlignBegin=185900|AlignEnd=186070|Gloss=3Sing.Perf
 13	ɲáŋ	ɲáŋ	VERB	_	_	12	comp:aux	_	AlignBegin=186070|AlignEnd=186240|Gloss=be_ripe
 14	hŋ́	hŋ́	PART	_	Polarity=Neg	13	mod	_	AlignBegin=186240|AlignEnd=186410|Gloss=Neg2
