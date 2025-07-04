@@ -1375,13 +1375,13 @@
 17	oː	oː	PART	_	_	4	discourse	_	AlignBegin=227204|AlignEnd=227452|Gloss=Fact|PartType=Emph
 18	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=227452|AlignEnd=227700|Gloss=PUNCT
 
-# sent_id = SAY_BC_INT_03_Calendar_141-144
+# sent_id = SAY_BC_INT_03_Calendar_141-144_split1
+# text = kóː ka ɗyáː ɣa tuná tu gín ʧáː yi gòs ká ləpí gín ?//
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
-# sent_timecode = 228120, 233240
-# text = kóː ka ɗyáː ɣa tuná tu gín ʧáː yi gòs ká ləpí gín gín ləpí giníyaː kóː kə́ yǐr gwàːn ləpǐŋaː tôː ?//
-# text_ortho = kóː ka ɗyáː ɣa tuná tu gín ʧáː yi gòs ká ləpí gín gín ləpí gíniyaː kóː kə́ yǐr gwàːn ləpǐŋaː tôː ?//
-# text_en = Or can you remember that this one, they would do it at... in this month, this one in this month or didn't you have a month, well ?
+# sent_timecode = 228120, 230572
+# text_ortho = kóː ka ɗyáː ɣa tuná tu gín ʧáː yi gòs ká ləpí gín ?//
+# text_en = Or can you remember that this one, they would do it at... in this month?
 1	kóː	kóː	CCONJ	_	_	2	cc@preconj	_	AlignBegin=228120|AlignEnd=228308|Gloss=COORD|Lang=ha
 2	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=228308|AlignEnd=228496|Gloss=2Sing.Fut
 3	ɗyáː	ɗyáː	VERB	_	_	2	comp:aux	_	AlignBegin=228496|AlignEnd=228684|Gloss=succeed
@@ -1395,21 +1395,30 @@
 11	ká	ká	ADP	_	_	9	comp:pred	_	AlignBegin=229812|AlignEnd=230002|Gloss=at
 12	ləpí	lə̌pm	NOUN	_	Definite=Ind	11	comp:obj	_	AlignBegin=230002|AlignEnd=230287|Gloss=festival-Ind
 13	gín	giní	DET	_	Deixis=Prox|PronType=Dem	12	det	_	AlignBegin=230287|AlignEnd=230572|Gloss=Prox
-14	gín	giní	PRON	_	Deixis=Prox|PronType=Dem	15	dislocated@subj	_	AlignBegin=230856|AlignEnd=231068|Gloss=Prox
-15	ləpí	lə̌pm	NOUN	_	Definite=Ind	8	parataxis	_	AlignBegin=231068|AlignEnd=231280|Gloss=festival>lə̌pm
-16-17	giníyaː	_	_	_	_	_	_	_	_
-16	giní	giní	DET	_	Deixis=Prox|PronType=Dem	15	det	_	AlignBegin=231280|AlignEnd=231492|Gloss=Prox
-17	a:	a:	PART	_	_	2	mod	_	AlignBegin=231492|AlignEnd=231704|Gloss=VRT|PartType=Int
-18	kóː	kóː	CCONJ	_	_	19	cc	_	AlignBegin=231704|AlignEnd=231916|Gloss=COORD|Lang=ha
-19	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	2	conj:coord	_	AlignBegin=231916|AlignEnd=232082|Gloss=2Plur.Aor
-20	yǐr	yír	VERB	_	_	19	comp:aux	_	AlignBegin=232082|AlignEnd=232248|Gloss=have
-21	gwàːn	gwàːn	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	20	mod@ethic	_	AlignBegin=232248|AlignEnd=232414|Gloss=2Plur.Gen
-22-24	ləpǐŋaː	_	_	_	_	_	_	_	_
-22	ləpí	lə̌pm	NOUN	_	Definite=Ind	20	comp:obj	_	AlignBegin=232414|AlignEnd=232580|Gloss=festival
-23	hŋ́	hŋ́	PART	_	Polarity=Neg	20	mod	_	AlignBegin=232580|AlignEnd=232746|Gloss=NEG2
-24	a:	a:	PART	_	_	19	mod	_	AlignBegin=232746|AlignEnd=232912|Gloss=VRT|PartType=Int
-25	tôː	tôː	PART	_	_	2	discourse	_	AlignBegin=232912|AlignEnd=233078|Gloss=DM
-26	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=233078|AlignEnd=233240|Gloss=PUNCT
+14	?//	?//	DET	_	_	2	punct	_	AlignBegin=230287|AlignEnd=230572|Gloss=PUNCT
+
+# sent_id = SAY_BC_INT_03_Calendar_141-144_split2
+# text = gín ləpí giní a: kóː kə́ yǐr gwàːn ləpí hŋ́ a: tôː ?//
+# speaker_id = SP2
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
+# sent_timecode = 230572, 233240
+# text_ortho = gín ləpí gíniyaː kóː kə́ yǐr gwàːn ləpǐŋaː tôː ?//
+# text_en = This one, this month or didn't you have a month, well ?
+1	gín	giní	PRON	_	Deixis=Prox|PronType=Dem	0	root	_	AlignBegin=230856|AlignEnd=231068|Gloss=Prox
+2	ləpí	lə̌pm	NOUN	_	Definite=Ind	1	conj:appos	_	AlignBegin=231068|AlignEnd=231280|Gloss=festival>lə̌pm
+3-4	giníyaː	_	_	_	_	_	_	_	_
+3	giní	giní	DET	_	Deixis=Prox|PronType=Dem	2	det	_	AlignBegin=231280|AlignEnd=231492|Gloss=Prox
+4	a:	a:	PART	_	_	1	mod	_	AlignBegin=231492|AlignEnd=231704|Gloss=VRT|PartType=Int
+5	kóː	kóː	CCONJ	_	_	6	cc	_	AlignBegin=231704|AlignEnd=231916|Gloss=COORD|Lang=ha
+6	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	1	conj:coord	_	AlignBegin=231916|AlignEnd=232082|Gloss=2Plur.Aor
+7	yǐr	yír	VERB	_	_	6	comp:aux	_	AlignBegin=232082|AlignEnd=232248|Gloss=have
+8	gwàːn	gwàːn	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	7	mod@ethic	_	AlignBegin=232248|AlignEnd=232414|Gloss=2Plur.Gen
+9-10	ləpǐŋaː	_	_	_	_	_	_	_	_
+9	ləpí	lə̌pm	NOUN	_	Definite=Ind	7	comp:obj	_	AlignBegin=232414|AlignEnd=232580|Gloss=festival
+10	hŋ́	hŋ́	PART	_	Polarity=Neg	7	mod	_	AlignBegin=232580|AlignEnd=232746|Gloss=NEG2
+11	a:	a:	PART	_	_	6	mod	_	AlignBegin=232746|AlignEnd=232912|Gloss=VRT|PartType=Int
+12	tôː	tôː	PART	_	_	1	discourse	_	AlignBegin=232912|AlignEnd=233078|Gloss=DM
+13	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=233078|AlignEnd=233240|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_145-145
 # speaker_id = SP1
