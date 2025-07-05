@@ -38,7 +38,7 @@
 2	wón	wón	DET	_	Definite=Spec	1	det	_	AlignBegin=6317|AlignEnd=6494|Gloss=QLT
 3	ʧi	yi	AUX	_	_	0	root	_	AlignBegin=6494|AlignEnd=6671|Gloss=3Sing.be|wordform=yi
 4	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	mod@top	_	AlignBegin=6671|AlignEnd=6848|Gloss=3Sing.Gen
-5	ɗa	ɗa	PART	_	_	3	compound:prt	_	AlignBegin=6848|AlignEnd=7025|Gloss=at
+5	ɗa	ɗa	ADP	_	_	3	compound:prt	_	AlignBegin=6848|AlignEnd=7025|Gloss=at
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=6848|AlignEnd=7025|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_Kadi_gi_kitn_005-005
@@ -426,23 +426,23 @@
 # sent_id = SAY_BC_READ_12_NAR_Kadi_gi_kitn_046-048
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_12_NARR_Kadi_gi_kitn.WAV
 # sent_timecode = 100020, 104380
-# text = séː ɗa á gəm kə́ máːyêʃíː séː gùŋ ʃìʃí ʧáː láːp ni ɗan //
+# text = séː ɗa á gə̀m kə́ máːyêʃíː séː gùŋ ʃìʃí ʧáː láːp ni ɗan //
 # text_ortho = séy ɗǎː gə̀m kə́ máːyêʃíː / séy gùŋ ʃìʃí / ʧáː láːpni ɗan //
 # text_en = Then as he released the third one the king got up and followed too.
-1	séː	séː	ADV	_	_	3	mod	_	AlignBegin=100020|AlignEnd=100250|Gloss=then
-2	ɗa	ɗan	ADV	_	_	3	mod	_	AlignBegin=100250|AlignEnd=100365|Gloss=as
-3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=100365|AlignEnd=100480|Gloss=3Sing.Aor
-4	gəm	gəm	VERB	_	_	3	comp:aux	_	AlignBegin=100480|AlignEnd=100710|Gloss=release
-5	kə́	á	ADP	_	_	4	parataxis@comp	_	AlignBegin=100710|AlignEnd=100940|Gloss=of|nWord=4|RX=[PTCL]
+1	séː	séː	ADV	_	_	2	mod	_	AlignBegin=100020|AlignEnd=100250|Gloss=then
+2	ɗa	ɗan	SCONJ	_	_	9	mod	_	AlignBegin=100250|AlignEnd=100365|Gloss=as
+3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	2	comp:obj	_	AlignBegin=100365|AlignEnd=100480|Gloss=3Sing.Aor
+4	gə̀m	gəm	VERB	_	_	3	comp:aux	_	AlignBegin=100480|AlignEnd=100710|Gloss=release
+5	kə́	á	ADP	_	_	4	comp:obj	_	AlignBegin=100710|AlignEnd=100940|Gloss=of|nWord=4|RX=[PTCL]
 6	máːyêʃíː	mâːy	NOUN	_	Definite=Def	5	comp:obj	_	AlignBegin=100940|AlignEnd=101017|Gloss=three.Def.ACH|wordform=mâːy
-7	séː	séː	ADV	_	_	3	mod	_	AlignBegin=102220|AlignEnd=102415|Gloss=then
-8	gùŋ	gùŋ	NOUN	_	_	7	comp:obj	_	AlignBegin=102415|AlignEnd=102610|Gloss=chief
-9	ʃìʃí	ʃiʃí	X	_	_	7	comp:obj	_	AlignBegin=102610|AlignEnd=102675|Gloss=get_up
-10	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	7	comp:obj	_	AlignBegin=103520|AlignEnd=103735|Gloss=3Sing.Imp
+7	séː	séː	ADV	_	_	9	mod	_	AlignBegin=102220|AlignEnd=102415|Gloss=then
+8	gùŋ	gùŋ	NOUN	_	_	9	subj	_	AlignBegin=102415|AlignEnd=102610|Gloss=chief
+9	ʃìʃí	ʃiʃí	X	_	_	0	root	_	AlignBegin=102610|AlignEnd=102675|Gloss=get_up
+10	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	9	parataxis	_	AlignBegin=103520|AlignEnd=103735|Gloss=3Sing.Imp
 11	láːp	láːp	VERB	_	_	10	comp:aux	_	AlignBegin=103735|AlignEnd=103843|Gloss=follow
 12	ni	ni	PART	_	_	11	compound:prt	_	AlignBegin=103843|AlignEnd=103950|Gloss=Iter|wordform=-ni
 13	ɗan	ɗan	ADV	_	_	11	mod	_	AlignBegin=103950|AlignEnd=104165|Gloss=too
-14	//	//	PUNCT	_	_	3	punct	_	AlignBegin=104165|AlignEnd=104380|Gloss=PUNCT
+14	//	//	PUNCT	_	_	9	punct	_	AlignBegin=104165|AlignEnd=104380|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_Kadi_gi_kitn_049-052
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_12_NARR_Kadi_gi_kitn.WAV
