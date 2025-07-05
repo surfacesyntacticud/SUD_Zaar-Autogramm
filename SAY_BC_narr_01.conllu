@@ -2131,19 +2131,19 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 279522, 283500
-# text = də̌ːr ɗǎː kât kə̀kə̀rʧi kə̀kə̀rʧi kə̀kə̀rʧi < ɬə́n ndáy gìr ngàlá ɗa láːri ɗaɗân ndzwǎːt //
+# text = də̌ːr ɗǎː kât kə̀kə̀rʧi kə̀kə̀rʧi kə̀kə̀rʧi //= ɬə́n ndáy gìr ngàlá ɗa láːri ɗaɗân ndzwǎːt //
 # text_ortho = də̌ːr ɗǎː kât kə̀kə̀rʧi kə̀kə̀rʧi kə̀kə̀rʧi < ɬə́n ndáy gìr ngàlá ɗa láːri ɗaɗân ndzwǎːt //
 # text_en = Lizard who was plodding along to get quickly into a crab burrow in the river bed.
-1	də̌ːr	də̌ːr	NOUN	_	_	9	dislocated@subj	_	AlignBegin=279522|AlignEnd=279722|Gloss=lizard
+1	də̌ːr	də̌ːr	NOUN	_	_	2	subj	_	AlignBegin=279522|AlignEnd=279722|Gloss=lizard
 2-3	ɗǎː	_	_	_	_	_	_	_	_
-2	ɗa	ɗan	ADV	_	PronType=Rel	1	mod@relcl	_	AlignBegin=279722|AlignEnd=279922|Gloss=REL
-3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	2	comp:obj	_	AlignBegin=279922|AlignEnd=280122|Gloss=3Sing.Aor
+2	ɗa	ɗan	ADV	_	PronType=Rel	3	dislocated@subj	_	AlignBegin=279722|AlignEnd=279922|Gloss=REL
+3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=279922|AlignEnd=280122|Gloss=3Sing.Aor
 4	kât	kat	VERB	_	_	3	comp:aux	_	AlignBegin=280122|AlignEnd=280321|Gloss=drive_away
 5	kə̀kə̀rʧi	kə̀kə̀rʧi	IDEO	_	_	4	mod	_	AlignBegin=280321|AlignEnd=280636|Gloss=shuffle
 6	kə̀kə̀rʧi	kə̀kə̀rʧi	IDEO	_	_	5	compound:redup	_	AlignBegin=280636|AlignEnd=280951|Gloss=shuffle
 7	kə̀kə̀rʧi	kə̀kə̀rʧi	IDEO	_	_	6	compound:redup	_	AlignBegin=280951|AlignEnd=281266|Gloss=shuffle
-8	<	<	PUNCT	_	_	1	punct	_	AlignBegin=281266|AlignEnd=281582|Gloss=PUNCT
-9	ɬə́n	ɬə́n	VERB	_	_	0	root	_	AlignBegin=281582|AlignEnd=281774|Gloss=go|SVC=Yes
+8	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=281266|AlignEnd=281582|Gloss=PUNCT
+9	ɬə́n	ɬə́n	VERB	_	_	3	parataxis	_	AlignBegin=281582|AlignEnd=281774|Gloss=go|SVC=Yes
 10	ndáy	nda	VERB	_	_	9	compound:svc	_	AlignBegin=281966|AlignEnd=282158|Gloss=enter.ACH|wordform=nda
 11	gìr	gìr	NOUN	_	_	10	comp:obj@G	_	AlignBegin=282158|AlignEnd=282350|Gloss=hole
 12	ngàlá	ngála	NOUN	_	_	11	compound	_	AlignBegin=282350|AlignEnd=282542|Gloss=crab
@@ -2151,7 +2151,7 @@
 14	láːri	lâːr	NOUN	_	Definite=Ind	13	comp:obj	_	AlignBegin=282734|AlignEnd=282926|Gloss=river-Ind|wordform=lâːr
 15	ɗaɗân	ɗaɗân	ADV	_	_	10	mod	_	AlignBegin=282926|AlignEnd=283118|Gloss=again
 16	ndzwǎːt	ndzwǎːt	IDEO	_	_	10	mod	_	AlignBegin=283118|AlignEnd=283310|Gloss=quick
-17	//	//	PUNCT	_	_	9	punct	_	AlignBegin=283310|AlignEnd=283500|Gloss=PUNCT
+17	//	//	PUNCT	_	_	3	punct	_	AlignBegin=283310|AlignEnd=283500|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_214-214
 # speaker_id = SP2
