@@ -1969,9 +1969,9 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
 # sent_timecode = 308071, 312349
-# text = ndə́ːʧi gíː ɗan nə mbóri bàː ɲáŋ hŋ́ fáː < ɗan tə́ mbúrtə fyá~ || tə́ mbúrtə̀ kyáːɗíː kyâːt //
-# text_ortho = ndə́ːʧi gíː ɗan nə mbóri bàː ɲáŋ hŋ́ fáː < ɗan tə́ mbúrtə̀ fyá# || tə́ mbúrtə̀ kyáːɗíː //
-# text_en = These dregs and the new beer that is not finished brewing yet then they would mix it with ... they would mix them quickly .
+# text = ndə́ːʧi gíː ɗan nə mbóri bàː ɲáŋ hŋ́ fáː < ɗan tə́ mbúrtə fyá~ || tə́ mbúrtə̀ kyáːɗíː //
+# text_ortho = ndə́ːʧi gíː ɗan nə mbóri bàː ɲáŋ hŋ́ fáː < ɗan tə́ mbúrtə̀ fyá~ || tə́ mbúrtə̀ kyáːɗíː //
+# text_en = Those dregs that are half-cooked, and have not finished brewing yet, then they would mix it with ... they would mix them quickly .
 1	ndə́ːʧi	ndə́ːʧi	NOUN	_	_	7	subj	_	AlignBegin=308071|AlignEnd=308258|Gloss=dregs
 2	gíː	gíː	DET	_	PronType=Dem	1	det	_	AlignBegin=308258|AlignEnd=308445|Gloss=PRM
 3	ɗan	ɗan	SCONJ	_	_	1	mod@relcl	_	AlignBegin=308445|AlignEnd=308632|Gloss=REL
@@ -1979,23 +1979,23 @@
 5	mbóri	mbóri	ADJ	_	_	4	comp:pred	_	AlignBegin=308819|AlignEnd=309006|Gloss=half_cooked
 6-7	bàː	_	_	_	_	_	_	_	_
 6	bàː	bàː	PART	_	Polarity=Neg	7	mod	_	AlignBegin=309006|Gloss=Neg1
-7	àː	àː	AUX	_	Aspect=Perf	13	mod	_	AlignEnd=309193|Gloss=3Sing.Perf
+7	àː	àː	AUX	_	Aspect=Perf	4	conj:coord	_	AlignEnd=309193|Gloss=3Sing.Perf
 8	ɲáŋ	ɲáŋ	VERB	_	_	7	comp:aux	_	AlignBegin=309193|AlignEnd=309380|Gloss=be_cooked
 9	hŋ́	hŋ́	PART	_	Polarity=Neg	8	mod	_	AlignBegin=309380|AlignEnd=309567|Gloss=Neg2
 10	fáː	fáː	PART	_	_	7	discourse@top	_	AlignBegin=309567|AlignEnd=309754|Gloss=indeed
 11	<	<	PUNCT	_	_	7	punct	_	AlignBegin=309754|AlignEnd=309940|Gloss=PUNCT
 12	ɗan	ɗan	ADV	_	_	13	mod	_	AlignBegin=310420|AlignEnd=310659|Gloss=then
 13	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=310659|AlignEnd=310898|Gloss=3Plur.Aor
-14-15	mbúrtə	_	_	_	_	_	_	_	_
+14-15	mbúrtə̀	_	_	_	_	_	_	_	_
 14	mbûr	mbur	VERB	_	_	13	comp:aux	_	AlignBegin=310898|AlignEnd=311018|Gloss=mix
 15	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	14	comp:obj	_	AlignBegin=311018|AlignEnd=311137|Gloss=3Sing.Obj
 16	fyá~	kyâːt	IDEO	_	_	14	mod	_	AlignBegin=311137|AlignEnd=311376|Gloss=HESIT[quickly]
 17	||	||	PUNCT	_	_	18	punct	_	AlignBegin=311376|AlignEnd=311616|Gloss=PUNCT
 18	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	13	conj:dicto	_	AlignBegin=311616|AlignEnd=311799|Gloss=3Plur.Aor
-19-20	mbúrtə̀ kyáːɗíː	_	_	_	_	_	_	_	_
-19	mbur	mbur	VERB	_	_	18	comp:aux	_	AlignBegin=311799|AlignEnd=311891|Gloss=mix|wordform=*mbûr-íː
-20	=tíː	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	AlignBegin=311891|AlignEnd=311982|Gloss=3Sing.Obj.ACH|wordform==tə
-21	kyâːt	kyâːt	IDEO	_	_	19	mod	_	AlignBegin=311982|AlignEnd=312165|Gloss=quickly
+19-20	mbúrtə̀	_	_	_	_	_	_	_	_
+19	mbûr	mbur	VERB	_	_	18	comp:aux	_	AlignBegin=311799|AlignEnd=311891|Gloss=mix
+20	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	AlignBegin=311891|AlignEnd=311982|Gloss=3Sing.Obj.ACH|wordform==tə
+21	kyáːɗíː	kyâːt	IDEO	_	_	19	mod	_	AlignBegin=311982|AlignEnd=312165|Gloss=quickly.ACH
 22	//	//	PUNCT	_	_	13	punct	_	AlignBegin=312165|AlignEnd=312349|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_203-203
@@ -2047,7 +2047,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
 # sent_timecode = 324500, 332585
 # text = tôː kyǎː ʃíníː ɗaɗáni < tôː kyǎː máni < tôː kə́ kǐr kə́ mân kə́ ɬə́ kə́ wûl álálá álálá álálá álálá //
-# text_ortho = tôː kyǎː ʃíníː ɗaɗáni < tôː kyǎː máni < tôː kə́ kǐr kə́ mân //= kə́ ɬə́ kə́ wûl álálá álálálá álálálá álálálá //
+# text_ortho = tôː kyǎː ʃíníː ɗaɗáni < tôː kyǎː máni < tôː kə́ kǐr kə́ mân kə́ ɬə́ kə́ wûl álálá álálálá álálálá álálálá //
 # text_en = Well after you have piled them there, well, when you go, you would run and go and say "alala alalala, alalala, alalala".
 1	tôː	tôː	PART	_	_	11	discourse	_	AlignBegin=324500|AlignEnd=324692|Gloss=DM
 2	kyǎː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=2	11	mod	_	AlignBegin=324692|AlignEnd=324884|Gloss=2Plur.Cnd
@@ -2078,7 +2078,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_03_CALENDAR.WAV
 # sent_timecode = 333197, 335240
 # text = tôː k~ || kîː ɗu || kîː ɗu guːɗa ɣáy ʧǐː //
-# text_ortho = tôː k# || kîː ɗu || kîː ɗu guːɗa ɣáy ʧǐː //
+# text_ortho = tôː k~ || kîː ɗu || kîː ɗu guːɗa ɣáy ʧǐː //
 # text_en = Well, you... you would... you would ululate like this.
 1	tôː	tòː	PART	_	_	2	discourse	_	AlignBegin=333197|AlignEnd=333358|Gloss=DM
 2	k~	yiː	AUX	_	Aspect=Iter|Number=Plur|Person=2	0	root	_	AlignBegin=333358|AlignEnd=333519|Gloss=HESIT[2Plur.Iter]
@@ -2116,7 +2116,7 @@
 # sent_timecode = 339000, 342060
 # text = tôː kyǎː ɲwǎːlíː ɓə́ɮə̀ŋ kə́ mândá |c kə́ sûkí |c kə́ kǐːr |c kə́ ndâɗì ɗa gə̀s fuɲi //
 # text_ortho = tôː kyǎː ɲwǎːlíː ɓə́ɮə̀ŋ kə́ mândá |c kə́ sûkí |c kə́ kǐːr |c kə́ ndâɗì ɗa gə̀s fuɲi //
-# text_en = Well after you have gone out you would turn round, you would turn back, run and enter at the bottom of the granary.
+# text_en = Well after you have gone out you would then turn round, run and come back to the bottom of the granary.
 1	tôː	tôː	PART	_	_	5	discourse	_	AlignBegin=339000|AlignEnd=339157|Gloss=DM
 2	kyǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	5	mod	_	AlignBegin=339157|AlignEnd=339314|Gloss=2Plur.CND
 3	ɲwǎːlíː	ɲwáːl	VERB	_	_	2	comp:aux	_	AlignBegin=339314|AlignEnd=339471|Gloss=go_out
@@ -2136,9 +2136,9 @@
 16-17	ndâɗì	_	_	_	_	_	_	_	_
 16	ndâ	nda	VERB	_	_	15	comp:aux	_	AlignBegin=341137|AlignEnd=341212|Gloss=enter
 17	ɗi	ɗi	PART	_	_	16	compound:prt	_	AlignBegin=341212|AlignEnd=341287|Gloss=Ctp|wordform==ɗì
-18	ɗa	ká	ADP	_	ExtPos=ADP	16	comp:obl	_	AlignBegin=341287|AlignEnd=341480|Gloss=at|Idiom=Yes
-19	gə̀s	gə̀s	NOUN	_	_	18	unk	_	AlignBegin=341480|AlignEnd=341673|Gloss=bottom|InIdiom=Yes
-20	fuɲi	fuŋ	NOUN	_	Definite=Ind	18	comp:obj	_	AlignBegin=341673|AlignEnd=341866|Gloss=granary-Ind
+18	ɗa	ɗa	PART	_	_	16	compound:prt	_	AlignBegin=341287|AlignEnd=341480|Gloss=again
+19	gə̀s	gə̀s	NOUN	_	_	16	comp:obl	_	AlignBegin=341480|AlignEnd=341673|Gloss=bottom
+20	fuɲi	fuŋ	NOUN	_	Definite=Ind	19	comp:obj	_	AlignBegin=341673|AlignEnd=341866|Gloss=granary-Ind
 21	//	//	PUNCT	_	_	5	punct	_	AlignBegin=341866|AlignEnd=342060|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_03_Calendar_226-227
@@ -2184,7 +2184,7 @@
 # text_en = Well we... we would come out quickly.
 1	tôː	tòː	PART	_	_	2	discourse	_	AlignBegin=346840|AlignEnd=347062|Gloss=DM
 2	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=347062|AlignEnd=347284|Gloss=1Plur.Aor
-3	XX	XX	X	_	_	2	unk	_	AlignBegin=347284|AlignEnd=347505|Gloss=XX
+3	XX	XX	X	_	_	2	comp:aux	_	AlignBegin=347284|AlignEnd=347505|Gloss=XX
 4	mə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=1	2	conj:dicto	_	AlignBegin=347505|AlignEnd=347639|Gloss=1Plur.Aor
 5	ɲwǎːl	ɲwáːl	VERB	_	_	4	comp:aux	_	AlignBegin=347639|AlignEnd=347773|Gloss=go_out
 6	móɬâk	móɬâk	IDEO	_	_	5	mod	_	AlignBegin=347773|AlignEnd=347907|Gloss=quickly
