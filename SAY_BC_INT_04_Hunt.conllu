@@ -630,7 +630,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 115600, 118688
 # text = ɗan zàrsə̀ tàː taːráʃí > gyaːgón ɗa ɗûːn hár waːní ɮarí Gìmsàː //
-# text_ortho = ɗan zàrsə̀ tàː taːráʃí |a gyaːgón ɗa ɗûːn hár waːní ɮarí Gìmsàː //
+# text_ortho = ɗan zàrsə̀ tàː taːráʃí > gyaːgón ɗa ɗûːn hár waːní ɮarí Gìmsàː //
 # text_en = And people join them, some from here, and others from across Gimsə.
 1	ɗan	ɗan	ADV	_	_	3	mod	_	AlignBegin=115600|AlignEnd=115760|Gloss=then
 2	zàrsə̀	zaːr	NOUN	_	Number=Plur	3	subj	_	AlignBegin=115760|AlignEnd=115920|Gloss=person|wordform=zaːr
@@ -680,7 +680,7 @@
 5	tôː	tôː	PART	_	_	6	discourse	_	AlignBegin=121727|AlignEnd=121872|Gloss=DM
 6	ɣə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	0	root	_	AlignBegin=121872|AlignEnd=122017|Gloss=2Plur.Aor
 7-8	ɗûtíː	_	_	_	_	_	_	_	_
-7	ɗu	ɗu	VERB	_	_	6	comp:aux	_	AlignBegin=122017|AlignEnd=122162|Gloss=kill
+7	ɗû	ɗu	VERB	_	_	6	comp:aux	_	AlignBegin=122017|AlignEnd=122162|Gloss=kill
 8	=tíː	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=122065|AlignEnd=122113|Gloss=3Sing.Obj.ACH|wordform==tə
 9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=122162|AlignEnd=122306|Gloss=PUNCT
 
@@ -709,7 +709,7 @@
 1	hár	hár	ADV	_	_	3	mod	_	AlignBegin=124760|AlignEnd=124963|Gloss=even
 2	gyaːgón	gyaːgón	PRON	_	Definite=Spec|Number=Plur	3	subj	_	AlignBegin=125166|AlignEnd=125369|Gloss=SPEC
 3	ʧàːyí	yáː-yiː	AUX	_	Aspect=ImpIter|Number=Plur|Person=3	0	root	_	AlignBegin=125369|AlignEnd=125572|Gloss=3Plur.Imp.Iter
-4	fi	fi	VERB	_	_	3	comp:aux	_	AlignBegin=125572|AlignEnd=125775|Gloss=do
+4	fî	fi	VERB	_	_	3	comp:aux	_	AlignBegin=125572|AlignEnd=125775|Gloss=do
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=125775|AlignEnd=125976|Gloss=PUNCT
 6	ká	a	AUX	_	Number=Plur|Person=2|Tense=Fut	3	conj:dicto	_	AlignBegin=125976|AlignEnd=126127|Gloss=2Plur.Fut
 7	fî	fi	VERB	_	_	6	comp:aux	_	AlignBegin=126127|AlignEnd=126278|Gloss=do
@@ -835,7 +835,7 @@
 # sent_timecode = 140380, 143760
 # text = yàːʃí < mə́n námtsə káwêy tá wûl tu tôː gàyyà ɗúːni oː //
 # text_ortho = yàːʃí < mə́n námtsə káwêy tá wûl tu tôː gàyyà ɗúːni oː //
-# text_en = Them, the bush people, they will only say there's a communal hunting today.
+# text_en = Them, the bush people, they will only say there's a communal hunting here.
 1	yàːʃí	yàːʃí	PRON	_	Number=Sing|Person=3|PronType=Prs	6	dislocated@subj	_	AlignBegin=140380|AlignEnd=140670|Gloss=3Plur.IDP
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=140670|AlignEnd=140960|Gloss=PUNCT
 3	mə́n	múr	NOUN	_	Number=Plur	6	dislocated@subj	_	AlignBegin=140960|AlignEnd=141250|Gloss=people
@@ -856,9 +856,9 @@
 # sent_timecode = 144540, 145201
 # text = naːr máː ʧi ʧík //
 # text_ortho = naːr máː ʧi ʧík //
-# text_en = Individual hunting too is like this,
+# text_en = Individual hunting too is like this.
 1	naːr	naːr	NOUN	_	_	3	dislocated@subj	_	AlignBegin=144540|AlignEnd=144672|Gloss=hunting
-2	máː	máː	PART	_	_	1	mod	_	AlignBegin=144672|AlignEnd=144804|Gloss=also
+2	máː	máː	PART	_	_	1	discourse@top	_	AlignBegin=144672|AlignEnd=144804|Gloss=also
 3	ʧi	yi	AUX	_	_	0	root	_	AlignEnd=144936|Gloss=3Sing.be|wordform=yi
 4	ʧík	ʧík	ADV	_	_	3	comp:pred	_	AlignBegin=144936|AlignEnd=145068|Gloss=thus
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=145068|AlignEnd=145201|Gloss=PUNCT
@@ -965,7 +965,7 @@
 # text = áː < átâ yi ɗa //
 # text_ortho = áː < átâ yi ɗa //
 # text_en = Ah, he used to exist.
-1	áː	áː	INTJ	_	_	3	discourse:filler	_	AlignBegin=157220|AlignEnd=157410|Gloss=FILL
+1	áː	áː	INTJ	_	_	3	discourse	_	AlignBegin=157220|AlignEnd=157410|Gloss=FILL
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=157410|AlignEnd=157601|Gloss=PUNCT
 3	átâ	ta	AUX	_	Number=Sing|Person=3|Tense=Rem	0	root	_	AlignBegin=157601|AlignEnd=157706|Gloss=3Sing.Rem
 4	yi	yi	VERB	_	_	3	comp:aux	_	AlignBegin=157706|AlignEnd=157811|Gloss=be
