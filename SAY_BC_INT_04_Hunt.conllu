@@ -964,8 +964,8 @@
 # sent_timecode = 157220, 158020
 # text = áː < átâ yi ɗa //
 # text_ortho = áː < átâ yi ɗa //
-# text_en = Ah, he used to exist.
-1	áː	áː	INTJ	_	_	3	discourse	_	AlignBegin=157220|AlignEnd=157410|Gloss=FILL
+# text_en = Ah, he used to exist. [There used to be one.]
+1	áː	áː	INTJ	_	_	3	discourse	_	AlignBegin=157220|AlignEnd=157410|Gloss=ah!
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=157410|AlignEnd=157601|Gloss=PUNCT
 3	átâ	ta	AUX	_	Number=Sing|Person=3|Tense=Rem	0	root	_	AlignBegin=157601|AlignEnd=157706|Gloss=3Sing.Rem
 4	yi	yi	VERB	_	_	3	comp:aux	_	AlignBegin=157706|AlignEnd=157811|Gloss=be
@@ -1019,7 +1019,7 @@
 # text = yâːn < ʧi gùŋ màm //
 # text_ortho = yâːn < ʧi gùŋ màm //
 # text_en = He was the chief of the bows.
-1	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	3	dislocated@top	_	AlignBegin=166920|AlignEnd=167033|Gloss=3Sing.IDP
+1	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	3	dislocated@subj	_	AlignBegin=166920|AlignEnd=167033|Gloss=3Sing.IDP
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=167033|AlignEnd=167146|Gloss=PUNCT
 3	ʧi	yi	AUX	_	_	0	root	_	AlignBegin=157706|AlignEnd=157811|Gloss=3Sing.be|wordform=yi
 4	gùŋ	gùŋ	NOUN	_	Definite=Cons	3	comp:pred	_	AlignBegin=167259|AlignEnd=167372|Gloss=chief-CONS
@@ -1044,7 +1044,7 @@
 8	lə̌ːr	lə́ːr	VERB	_	_	7	comp:aux	_	AlignBegin=171218|AlignEnd=171398|Gloss=bring
 9	=kí	=kí	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	8	comp:obj@R	_	AlignBegin=171398|AlignEnd=171579|Gloss=2Plur.Obj
 10	gyáː	gyáː	DET	_	Number=Plur	11	det	_	AlignBegin=171579|AlignEnd=171940|Gloss=Plur
-11	piskán	pîːs	NOUN	_	Deixis=Prox|Number=Plur	8	comp:obj@T	_	AlignBegin=171940|AlignEnd=172110|Gloss=arrows|wordform=piská
+11	piskán	pîːs	NOUN	_	Deixis=Prox|Number=Plur	8	comp:obj@T	_	AlignBegin=171940|AlignEnd=172110|Gloss=arrows.Prox|wordform=piská
 12-13	mə́nɗi	_	_	_	_	_	_	_	_
 12	mə́n	mə́n	PART	_	Case=Ben	8	compound:prt	_	AlignBegin=172110|AlignEnd=172195|Gloss=BEN
 13	ɗi	ɗi	PART	_	_	8	compound:prt	_	AlignBegin=172195|AlignEnd=172280|Gloss=Ctp|wordform==ɗi
@@ -1241,10 +1241,11 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 199270, 200174
-# text = nə ŋantsə́ a: |c kóː nə dwǎːm ?//
-# text_ortho = nə ŋantsə́ aː |c kóː nə dwǎːm ?//
+# text = nə ŋantsâː |c kóː nə dwǎːm ?//
+# text_ortho = nə ŋantsâː |c kóː nə dwǎːm ?//
 # text_en = Was it wood or metal?
 1	nə	nə	PART	_	_	0	root	_	AlignBegin=199270|AlignEnd=199383|Gloss=be
+2-3	ŋantsâː	_	_	_	_	_	_	_	_
 2	ŋantsə́	ŋantsə́	NOUN	_	_	1	comp:pred	_	AlignBegin=199383|AlignEnd=199496|Gloss=wood
 3	a:	a:	PART	_	_	1	mod	_	AlignBegin=199496|AlignEnd=199609|Gloss=VRT|PartType=Int
 4	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=199609|AlignEnd=199722|Gloss=PUNCT
@@ -1259,9 +1260,9 @@
 # sent_timecode = 200038, 200500
 # text = nə ŋantsə́ //
 # text_ortho = nə ŋantsə́ //
-# text_en = It's a tree.
+# text_en = It's wood.
 1	nə	nə	PART	_	_	0	root	_	AlignBegin=200038|AlignEnd=200192|Gloss=be
-2	ŋantsə́	ŋantsə́	NOUN	_	_	1	comp:pred	_	AlignBegin=200192|AlignEnd=200346|Gloss=wood
+2	ŋantsə́	ŋantsə́	NOUN	_	_	1	comp:pred	_	AlignBegin=200192|AlignEnd=200346|Gloss=wood_sp
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=200346|AlignEnd=200500|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_147-147
@@ -1270,9 +1271,9 @@
 # sent_timecode = 201500, 201920
 # text = nə ŋantsə́ //
 # text_ortho = nə ŋantsə́ //
-# text_en = It's a tree.
+# text_en = It's wood.
 1	nə	nə	PART	_	_	0	root	_	AlignBegin=201500|AlignEnd=201640|Gloss=be
-2	ŋantsə́	ŋantsə́	NOUN	_	_	1	comp:pred	_	AlignBegin=201640|AlignEnd=201780|Gloss=wood
+2	ŋantsə́	ŋantsə́	NOUN	_	_	1	comp:pred	_	AlignBegin=201640|AlignEnd=201780|Gloss=wood_sp
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=201780|AlignEnd=201920|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_148-148
@@ -1284,7 +1285,7 @@
 # text_en = We call it 'dagasl".
 1	myǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	0	root	_	AlignBegin=202160|AlignEnd=202340|Gloss=1Plur.Imp
 2	ʧîm	ʧim	VERB	_	_	1	comp:aux	_	AlignBegin=202340|AlignEnd=202520|Gloss=call
-3	daːgáɬ	daːgáɬ	NOUN	_	_	2	comp:pred	_	AlignBegin=202520|AlignEnd=202700|Gloss=??
+3	daːgáɬ	daːgáɬ	NOUN	_	_	2	comp:pred	_	AlignBegin=202520|AlignEnd=202700|Gloss=wood_sp
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=202700|AlignEnd=202880|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_149-151
@@ -1293,7 +1294,7 @@
 # sent_timecode = 203780, 208220
 # text = kóː burgàl gín ɗan ʧàːyí mbwaː míːsəŋ gáyín < tôː yâːn máː < ʧàːyí ɬet pîːs káy ɓét //
 # text_ortho = kóː burgàl gín ɗan ʧàːyí mbwaː míːsəŋ gáyín < tôː yâːn máː < ʧàːyí ɬet píːʃês káy ɓét //
-# text_en = Or that swizzle stick that they stirred soup with well, it too, they carved arrows with it.
+# text_en = Or that swizzle stick that they stirred soup with, well, it too, they carved arrows with it.
 1	kóː	kóː	CCONJ	_	_	14	discourse	_	AlignBegin=203780|AlignEnd=203969|Gloss=or|Lang=ha
 2	burgàl	burgàl	NOUN	_	_	14	dislocated@top	_	AlignBegin=203969|AlignEnd=204158|Gloss=swizzle_stick
 3	gín	giní	DET	_	Deixis=Prox|PronType=Dem	2	det	_	AlignBegin=204158|AlignEnd=204347|Gloss=Prox
@@ -1301,7 +1302,7 @@
 5	ʧàːyí	yáː-yiː	AUX	_	Aspect=ImpIter|Number=Plur|Person=3	4	comp:obj	_	AlignBegin=204536|AlignEnd=204725|Gloss=3Plur.Imp.Iter
 6	mbwaː	mbwaː	VERB	_	_	5	comp:aux	_	AlignBegin=204725|AlignEnd=204914|Gloss=kick
 7	míːsəŋ	míːsəŋ	VERB	_	_	6	comp:obj	_	AlignBegin=204914|AlignEnd=205103|Gloss=soup
-8	gáyín	káy	PRON	_	Case=Loc|Deixis=Prox|PronType=Prs	6	comp:obl@expl	_	AlignBegin=205103|AlignEnd=205292|Gloss=Anaph.Loc.3Sing|wordform=káy
+8	gáyín	káy	PRON	_	Case=Loc|Deixis=Prox|PronType=Prs	6	comp:obl@expl	_	AlignBegin=205103|AlignEnd=205292|Gloss=Anaph.Loc.3Sing.Prox|wordform=káy
 9	<	<	PUNCT	_	_	2	punct	_	AlignBegin=205292|AlignEnd=205480|Gloss=PUNCT
 10	tôː	tôː	PART	_	_	14	discourse	_	AlignBegin=206140|AlignEnd=206350|Gloss=DM
 11	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	14	dislocated@top	_	AlignBegin=206350|AlignEnd=206560|Gloss=3Sing.IDP
@@ -1341,12 +1342,12 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 211907, 216332
-# text = ʧàː kât wukn gáy < tôː yáːni ɣən >+ yáː ɮòp wáːni tá wû tu dáfês ɗùtíː //
-# text_ortho = ʧàː kât wukn gáy < tôː yáːni ɣəŋ >+ yáː ɮòp wáːni tá wû tu dáfês ɗùtíː //
+# text = ʧàː kât wuɣn gáy < tôː yáːni ɣən >+ yáː ɮòp wáːni tá wû tu dáfês ɗùtíː //
+# text_ortho = ʧàː kât wuɣn gáy < tôː yáːni ɣən >+ yáː ɮòp wáːni tá wû tu dáfês ɗùtíː //
 # text_en = If they rubbed poison on it, well that's why if it pierces So and So, well they will say the poison killed him.
 1	ʧàː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	8	mod	_	AlignBegin=211907|AlignEnd=212073|Gloss=3Plur.Cnd
 2	kât	kat	VERB	_	_	1	comp:aux	_	AlignBegin=212073|AlignEnd=212239|Gloss=rub
-3	wukn	wukn	NOUN	_	_	2	comp:obj	_	AlignBegin=212239|AlignEnd=212405|Gloss=poison
+3	wuɣn	wukn	NOUN	_	_	2	comp:obj	_	AlignBegin=212239|AlignEnd=212405|Gloss=poison
 4	gáy	káy	PRON	_	Case=Loc|PronType=Prs	2	comp:obl@expl	_	AlignBegin=212405|AlignEnd=212571|Gloss=Anaph.Loc.3Sing
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=212571|AlignEnd=212737|Gloss=PUNCT
 6	tôː	tôː	PART	_	_	8	discourse	_	AlignBegin=212737|AlignEnd=212903|Gloss=DM
@@ -1361,7 +1362,7 @@
 15	tu	tu	SCONJ	_	_	14	comp:obj	_	AlignBegin=215395|AlignEnd=215630|Gloss=COMP
 16	dáfês	dáfi	NOUN	_	Definite=Def	17	subj	_	AlignBegin=215630|AlignEnd=215865|Gloss=poison.Def|Lang=ha|wordform=dáfi
 17-18	ɗùtíː	_	_	_	_	_	_	_	_
-17	ɗu	ɗu	VERB	_	_	15	comp:obj	_	AlignBegin=215865|AlignEnd=216100|Gloss=kill
+17	ɗù	ɗu	VERB	_	_	15	comp:obj	_	AlignBegin=215865|AlignEnd=216100|Gloss=kill
 18	=tíː	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	17	comp:obj	_	AlignBegin=215943|AlignEnd=216021|Gloss=3Sing.Obj.ACH|wordform==tə
 19	//	//	PUNCT	_	_	8	punct	_	AlignBegin=216100|AlignEnd=216332|Gloss=PUNCT
 
@@ -1408,14 +1409,14 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_04_HUNT.WAV
 # sent_timecode = 222500, 224540
-# text = àkwéy dwaːmí gón mə̀tàyáː ʧímtə tu búːya //
-# text_ortho = àkwéy dwaːmí gón mə̀tàyáː ʧímtə tu búːya //
+# text = àkwáy dwaːmí gón mə̀tàyáː ʧímtə̀ tu búːya //
+# text_ortho = àkwáy dwaːmí gón mə̀tàyáː ʧímtə̀ tu búːya //
 # text_en = There was a metal that we used to call 'buya'.
-1	àkwéy	àkwéy	PART	_	_	4	parataxis@top	_	AlignBegin=222500|AlignEnd=222723|Gloss=there_is|Lang=ha
+1	àkwáy	àkwáy	PART	_	Foreign=Yes	4	parataxis@top	_	AlignBegin=222500|AlignEnd=222723|Gloss=there_is|Lang=ha
 2	dwaːmí	dwǎːm	NOUN	_	Definite=Ind	1	comp:pred	_	AlignBegin=222723|AlignEnd=222946|Gloss=metal|wordform=dwǎːm
 3	gón	gón	DET	_	Definite=Spec	2	det	_	AlignBegin=222946|AlignEnd=223169|Gloss=Spec
 4	mə̀tàyáː	ta-yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1|Tense=Rem	0	root	_	AlignBegin=223169|AlignEnd=223392|Gloss=1Plur.Rem.Imp
-5-6	ʧímtə	_	_	_	_	_	_	_	_
+5-6	ʧímtə̀	_	_	_	_	_	_	_	_
 5	ʧîm	ʧim	VERB	_	_	4	comp:aux	_	AlignBegin=223392|AlignEnd=223504|Gloss=call
 6	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=223504|AlignEnd=223615|Gloss=3Sing.Obj
 7	tu	tu	ADP	_	Mood=Qot	5	comp:pred	_	AlignBegin=223838|AlignEnd=224060|Gloss=COMP
