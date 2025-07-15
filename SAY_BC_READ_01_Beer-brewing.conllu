@@ -378,10 +378,10 @@
 # sent_id = SAY_BC_READ_01_Beer_051-053
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
 # sent_timecode = 98520, 105400
-# text = myáː ngáːtə gòʃíː káwêy tòː myáː ɲóm dàɗ -èʃíː ɗan á nâː ɗup-ɗúɓíː ma ʃin ɗa wúɗi //
+# text = myáː ngáːtə gòʃíː káwêy tòː myáː ɲóm dàɗèʃíː ɗan á nâː ɗup-ɗúɓíː ma ʃin ɗa wúɗi //
 # text_ortho = myáː ngáːtə gòʃíː káwêy tôː myáː ɲóm dàɗèʃíː ɗan á nâː ɗupɗúɓíː ma ʃiníː ɗa wúɗi //
 # text_en = After I have removed it, I take the bottom part that is very thick, and put it on the fire.
-1	myáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	14	mod	_	AlignBegin=98520|AlignEnd=98730|Gloss=1Sing.Cond
+1	myáː	yáː	AUX	_	Mood=Cond|Number=Sing|Person=1	14	mod	_	AlignBegin=98520|AlignEnd=98730|Gloss=1Sing.Cond
 2-3	ngáːtə	_	_	_	_	_	_	_	_
 2	ngáː	ngaː	VERB	_	_	1	comp:aux	_	AlignBegin=98730|AlignEnd=98940|Gloss=fetch
 3	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=98940|AlignEnd=99150|Gloss==3Sing.Acc
@@ -390,7 +390,7 @@
 6	tòː	tòː	PART	_	_	7	discourse	_	AlignBegin=101120|AlignEnd=101364|Gloss=DM
 7	myáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	14	mod	_	AlignBegin=101364|AlignEnd=101608|Gloss=1Sing.Cond
 8	ɲóm	ɲom	VERB	_	_	7	comp:aux	_	AlignBegin=101608|AlignEnd=101852|Gloss=take
-9	dàɗèʃíː	dàt	NOUN	_	Definite=Def	8	comp:obj	_	AlignBegin=101852|AlignEnd=101933|Gloss=bottom-of-beer.Def|wordform=dàɗ
+9	dàɗèʃíː	dàt	NOUN	_	Definite=Def	8	comp:obj	_	AlignBegin=101852|AlignEnd=101933|Gloss=bottom-of-beer.Def.ACH|wordform=dàɗ
 10	ɗan	ɗan	SCONJ	_	_	9	mod@relcl	_	AlignBegin=102096|AlignEnd=102340|Gloss=that
 11	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	10	comp:obj	_	AlignBegin=102340|AlignEnd=102584|Gloss=3Sing.Aor
 12	nâː	naː	VERB	_	_	11	comp:aux	_	AlignBegin=102584|AlignEnd=102828|Gloss=become
@@ -404,15 +404,17 @@
 # sent_id = SAY_BC_READ_01_Beer_054-054
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
 # sent_timecode = 106360, 108600
-# text = tòː kə dingá =tə kas -kə́nì kə dingá =tə kas -kə́nì //
-# text_ortho = tôː kə dingá tə káskə̂n kə dingá tə káskə̂n //
+# text = tòː kə dingátə káskə̂n kə dingátə káskə̂n //
+# text_ortho = tôː kə dingátə káskə̂n kə dingátə káskə̂n //
 # text_en = Well, you keep on stirring it, you keep on stirring it.
 1	tòː	tòː	PART	_	_	2	discourse	_	AlignBegin=106360|AlignEnd=106564|Gloss=DM
 2	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	0	root	_	AlignBegin=106564|AlignEnd=106768|Gloss=2Sing.Aor
+3-4	dingátə	_	_	_	_	_	_	_	_
 3	dingá	dingaː	VERB	_	_	2	comp:aux	_	AlignBegin=106768|AlignEnd=106972|Gloss=continue
 4	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=106972|AlignEnd=107176|Gloss==3Sing.Acc|Object=ObjRaising
 5	káskə̂n	kas	VERB	_	_	3	udep	_	AlignBegin=107176|AlignEnd=107278|Gloss=stir-Vnoun|Object=ObjRaising|wordform=kas
 6	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	2	conj:coord	_	AlignBegin=107584|AlignEnd=107788|Gloss=2Sing.Aor
+7-8	dingátə	_	_	_	_	_	_	_	_
 7	dingá	dingá	VERB	_	_	6	comp:aux	_	AlignBegin=107788|AlignEnd=107992|Gloss=continue
 8	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=107992|AlignEnd=108196|Gloss==3Sing.Acc|Object=ObjRaising
 9	káskə̂n	kas	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	7	udep	_	AlignBegin=108196|AlignEnd=108298|Gloss=stir-Vnoun|Object=ObjRaising|wordform=kas
