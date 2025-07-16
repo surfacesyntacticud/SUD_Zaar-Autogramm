@@ -65,8 +65,8 @@
 # text_ortho = tóː yàː və̀rə̀m tóː ma lə́ːríːɗi mə mán ʃiníː bə̀ndə̀ //
 # text_en = Well, after they have given it to me, I bring it here and put it into a big pot.
 1	tòː	tòː	PART	_	_	6	discourse	_	AlignBegin=19020|AlignEnd=19210|Gloss=DM
-2	yàː	yàː	AUX	_	Mood=Cnd|Number=Sing|Person=3	6	mod	_	AlignBegin=19210|AlignEnd=19400|Gloss=3Plur.Cond
 2-3	və̀rə̀m	_	_	_	_	_	_	_	_
+2	yàː	yàː	AUX	_	Mood=Cnd|Number=Sing|Person=3	6	mod	_	AlignBegin=19210|AlignEnd=19400|Gloss=3Plur.Cond
 3	və̀r	vər	VERB	_	_	2	comp:aux	_	AlignBegin=19400|AlignEnd=19495|Gloss=give
 4	=mə̀	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	comp:obj@R	_	AlignBegin=19495|AlignEnd=19590|Gloss=1Sing.OBJ
 5	tòː	tòː	PART	_	_	6	discourse	_	AlignBegin=20740|AlignEnd=20950|Gloss=DM
@@ -284,7 +284,7 @@
 # sent_id = SAY_BC_READ_01_Beer_037-038
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
 # sent_timecode = 74360, 77140
-# text = myáː mbúríː tòː mə ɮə́pmtə̀ mə gáːy //
+# text = myáː mbúríː tòː mə ɮə́pmtə̀ mə gáːy //
 # text_ortho = myáː mbúríː tôː mə ɮə́pmtə̀ mə gáːy //
 # text_en = When I have finished mixing it I cover it and leave it.
 1	myáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=1	4	mod	_	AlignBegin=74360|AlignEnd=74547|Gloss=1Sing.Cond
@@ -295,7 +295,7 @@
 5	ɮə̂pm	ɮə́pm	VERB	_	_	4	comp:aux	_	AlignBegin=76412|AlignEnd=76558|Gloss=cover
 6	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=76558|AlignEnd=76704|Gloss==3Sing.Acc
 7	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	4	parataxis	_	AlignBegin=76704|AlignEnd=76850|Gloss=1Sing.Aor
-8	gáːy	gaː	VERB	_	_	7	comp:aux	_	AlignBegin=76850|AlignEnd=76923|Gloss=leave.ACH
+8	gáːy	gaː	VERB	_	_	7	comp:aux	_	AlignBegin=76850|AlignEnd=76923|Gloss=leave.ACH
 9	//	//	PUNCT	_	_	4	punct	_	AlignBegin=76996|AlignEnd=77140|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_01_Beer_039-041
@@ -459,18 +459,19 @@
 # sent_id = SAY_BC_READ_01_Beer_060-060
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
 # sent_timecode = 120520, 123080
-# text = àmáː baːyayóːɗan káː rigé kə gamá tuːr -kə́nì -íː ɗeɓát //
+# text = àmáː baːya yóːɗan káː rigé kə gamá tuːr ɗeɓát ?//
 # text_ortho = àmáː baːya yóːɗan káː rigé kə gamá túːrɣə̂níː ɗeɓát //
 # text_en = But only after you have finished heating it up ?
-1	àmáː	àmáː	CCONJ	_	_	3	discourse	_	AlignBegin=120520|AlignEnd=120804|Gloss=but
-2	baːyayóːɗan	baːya	X	_	Foreign=Yes	3	mod	_	AlignBegin=120804|AlignEnd=121088|Gloss=after|Lang=ha
-3	káː	à́ː	AUX	_	Aspect=Perf|Number=Sing|Person=2	0	root	_	AlignBegin=121088|AlignEnd=121372|Gloss=2Sing.CPlur
-4	rigé	rigé	VERB	_	_	3	comp:aux	_	AlignBegin=121372|AlignEnd=121656|Gloss=precede
-5	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	4	parataxis@comp	_	AlignBegin=121656|AlignEnd=121940|Gloss=2Sing.Aor
-6	gamá	gamá	VERB	_	_	5	comp:aux	_	AlignBegin=121940|AlignEnd=122224|Gloss=finish
-7	tuːr	tuːr	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	6	comp:obj	_	AlignBegin=122224|AlignEnd=122319|Gloss=cook-Vnoun.ACH
-8	ɗeɓát	ɗeɓát	IDEO	_	_	6	mod	_	AlignBegin=122508|AlignEnd=122792|Gloss=all
-9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=122792|AlignEnd=123080|Gloss=PUNCT
+1	àmáː	àmáː	CCONJ	_	_	2	discourse	_	AlignBegin=120520|AlignEnd=120804|Gloss=but
+2	baːya	baːya	ADP	_	Foreign=Yes	0	root	_	AlignBegin=120804|AlignEnd=121088|Gloss=after|Lang=ha
+3	yóːɗan	yóːɗan	ADV	_	PronType=Rel	2	comp:obj	_	AlignBegin=120804|AlignEnd=121088|Gloss=how
+4	káː	à́ː	AUX	_	Aspect=Perf|Number=Sing|Person=2	3	mod@relcl	_	AlignBegin=121088|AlignEnd=121372|Gloss=2Sing.CPlur
+5	rigé	rigé	VERB	_	_	4	comp:aux	_	AlignBegin=121372|AlignEnd=121656|Gloss=precede
+6	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	5	parataxis@comp	_	AlignBegin=121656|AlignEnd=121940|Gloss=2Sing.Aor
+7	gamá	gamá	VERB	_	_	6	comp:aux	_	AlignBegin=121940|AlignEnd=122224|Gloss=finish
+8	tuːr	tuːr	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	7	comp:obj	_	AlignBegin=122224|AlignEnd=122319|Gloss=cook-Vnoun.ACH
+9	ɗeɓát	ɗeɓát	IDEO	_	_	7	mod	_	AlignBegin=122508|AlignEnd=122792|Gloss=all
+10	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=122792|AlignEnd=123080|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_01_Beer_061-063
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
