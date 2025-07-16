@@ -515,35 +515,27 @@
 14	ɣən	kən	PART	_	_	13	discourse@foc	_	AlignBegin=134026|AlignEnd=134204|Gloss=COP2
 15	//	//	PUNCT	_	_	7	punct	_	AlignBegin=134204|AlignEnd=134380|Gloss=PUNCT
 
-# sent_id = SAY_BC_READ_01_Beer_066-067
+# sent_id = SAY_BC_READ_01_Beer_066-067_068-068
+# text = gíː ɗan kə gâː =ʃíː sə̂mwôs tu niː ?//+ ɗan ka ngaː ka gáː ?//
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
-# sent_timecode = 135340, 138260
-# text = gíː ɗan kə gâːʃíː sə̂m =wôs tu niː ?//
-# text_ortho = gíː ɗan kə gâːʃíː sə̂mwòs tu niː ?//
-# text_en = That which you kept aside, what's its name?
-1	gíː	gíː	PRON	_	Definite=Anaph|PronType=Dem	8	dislocated@top	_	AlignBegin=135340|AlignEnd=135533|Gloss=PRM
+# sent_timecode = 135340, 140240
+# text_ortho = gíː ɗan kə gâː ʃíː sə̂mwòs tu niː //+ ɗan ka ngaː ka gáːy ?//
+# text_en = That which you kept aside, what's its name, [that which] you took and kept aside ?
+1	gíː	gíː	PRON	_	Definite=Anaph|PronType=Dem	7	dislocated@top	_	AlignBegin=135340|AlignEnd=135533|Gloss=PRM
 2	ɗan	ɗan	SCONJ	_	_	1	mod@relcl	_	AlignBegin=135533|AlignEnd=135726|Gloss=as
 3	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	2	comp:obj	_	AlignBegin=135726|AlignEnd=135919|Gloss=2Sing.Aor
-4-5	gâːʃíː	_	_	_	_	_	_	_	_
 4	gâː	gaː	VERB	_	_	3	comp:aux	_	AlignBegin=135919|AlignEnd=136112|Gloss=put
 5	=ʃíː	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=136112|AlignEnd=136208|Gloss=3Plur.OBJ.ACH|wordform==ʃí
-6	sə̂mwôs	sə̂m	NOUN	_	Poss=Yes	8	subj	_	AlignBegin=137460|AlignEnd=137560|Gloss=name3Sing.Gen|wordform=sə̂m
-7	tu	tu	PART	_	_	8	mod	_	AlignBegin=137660|AlignEnd=137860|Gloss=COMP
-8	niː	niː	PRON	_	PronType=Int	0	root	_	AlignBegin=137860|AlignEnd=138060|Gloss=what
-9	?//	?//	PUNCT	_	_	8	punct	_	AlignBegin=138060|AlignEnd=138260|Gloss=PUNCT
-
-# sent_id = SAY_BC_READ_01_Beer_068-068
-# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
-# sent_timecode = 139240, 140240
-# text = ɗan ka ngáː ka gaː -íː ?//
-# text_ortho = ɗan ka ngaː ka gáːy //
-# text_en = That which you took and kept aside ?
-1	ɗan	ɗan	SCONJ	_	_	0	root	_	AlignBegin=139240|AlignEnd=139407|Gloss=as
-2	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	1	comp:obj	_	AlignBegin=139407|AlignEnd=139574|Gloss=2Sing.Fut
-3	ngaː	ngaː	VERB	_	_	2	comp:aux	_	AlignBegin=139574|AlignEnd=139741|Gloss=fetch
-4	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	2	parataxis	_	AlignBegin=139741|AlignEnd=139908|Gloss=2Sing.Fut
-5	gáː	gaː	VERB	_	_	4	comp:aux	_	AlignBegin=139908|AlignEnd=139992|Gloss=keep.ACH
-6	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=140075|AlignEnd=140240|Gloss=PUNCT
+6	sə̂mwôs	sə̂m	NOUN	_	Poss=Yes	7	subj	_	AlignBegin=137460|AlignEnd=137560|Gloss=name3Sing.Gen|wordform=sə̂m
+7	tu	tu	PART	_	_	0	root	_	AlignBegin=137660|AlignEnd=137860|Gloss=COMP
+8	niː	niː	PRON	_	PronType=Int	7	comp:pred	_	AlignBegin=137860|AlignEnd=138060|Gloss=what
+9	?//+	?//+	PUNCT	_	_	8	punct	_	AlignBegin=138060|AlignEnd=138260|Gloss=PUNCT
+10	ɗan	ɗan	SCONJ	_	_	2	conj:coord	_	AlignBegin=139240|AlignEnd=139407|Gloss=as
+11	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	10	comp:obj	_	AlignBegin=139407|AlignEnd=139574|Gloss=2Sing.Fut
+12	ngaː	ngaː	VERB	_	_	11	comp:aux	_	AlignBegin=139574|AlignEnd=139741|Gloss=fetch
+13	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	11	parataxis	_	AlignBegin=139741|AlignEnd=139908|Gloss=2Sing.Fut
+14	gáː	gaː	VERB	_	_	13	comp:aux	_	AlignBegin=139908|AlignEnd=139992|Gloss=keep.ACH
+15	?//	?//	PUNCT	_	_	7	punct	_	AlignBegin=140075|AlignEnd=140240|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_01_Beer_069-069
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
@@ -551,7 +543,7 @@
 # text = naːyí //
 # text_ortho = nǎːy //
 # text_en = The top.
-1	naːyí	naː	VERB	_	ExtPos=NOUN|VerbForm=Part	0	root	_	AlignBegin=141200|AlignEnd=141420|Gloss=remain.Part
+1	naːyí	naː	VERB	_	ExtPos=NOUN|VerbForm=Part	0	root	_	AlignBegin=141200|AlignEnd=141420|AttachTo=n7@SAY_BC_READ_01_Beer_066-067_068-068|Gloss=remain.Part|Rel=comp:pred
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=141420|AlignEnd=141640|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_01_Beer_070-071
