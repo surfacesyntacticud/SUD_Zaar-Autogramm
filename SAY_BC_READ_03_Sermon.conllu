@@ -1220,23 +1220,25 @@
 17	//	//	PUNCT	_	_	1	punct	_	AlignBegin=380120|AlignEnd=380320|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_173-176
-# text = á gìp kə́ rûːyáː_tá_yohánna >  Yéːsu ʧáː fuː =mí tu yèlə́n myaː máːɣə́n ɗi kyâːt //
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 381220, 388580
-# text_ortho = á gìp kə̀ < rûːyáː_tá_yohánna >  Yéːsu ʧáː fuːmí tu yèlə́n myaː máːɣə́nɗì kyâːt /
+# text = á gìp kə́ Rûːyáː-tá-Yohánna >  Yéːsu ʧáː fuːmí tu yèlə́n myaː máːɣə́nɗì kyâːt //
+# text_ortho = á gìp kə̀ < Rûːyáː-tá-Yohánna >  Yéːsu ʧáː fuːmí tu yèlə́n myaː máːɣə́nɗì kyâːt /
 # text_en = In Revelation, Jesus tells us "Behold, I am coming soon!"
 1	á	ká	ADP	_	ExtPos=ADP	7	discourse	_	AlignBegin=381220|AlignEnd=381411|Gloss=at
 2	gìp	gìp	ADP	_	_	1	unk	_	AlignBegin=381411|AlignEnd=381602|Gloss=inside
 3	kə́	kə́	ADP	_	_	2	unk	_	AlignBegin=381602|AlignEnd=381793|Gloss=of|nWord=3|RX=[PTCL]
-4	rûːyáː_tá_yohánna	rûːyáː_tá_yohánna	PROPN	_	_	1	comp:obj	_	AlignBegin=381984|AlignEnd=382175|Gloss=Revelation
+4	Rûːyáː-tá-Yohánna	Rûːyáː-tá-Yohánna	PROPN	_	_	1	comp:obj	_	AlignBegin=381984|AlignEnd=382175|Gloss=Revelation
 5	> 	> 	PUNCT	_	_	1	punct	_	AlignBegin=382175|AlignEnd=382366|Gloss=PUNCT
 6	Yéːsu	Yéːsu	PROPN	_	_	7	subj	_	AlignBegin=383960|AlignEnd=384176|Gloss=Jesus
 7	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=384176|AlignEnd=384392|Gloss=3Sing.Imp
+8-9	fuːmí	_	_	_	_	_	_	_	_
 8	fuː	fuː	VERB	_	_	7	comp:aux	_	AlignBegin=384392|AlignEnd=384500|Gloss=tell
 9	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	8	comp:obj@R	_	AlignBegin=384500|AlignEnd=384608|Gloss=1Plur.OBJ
 10	tu	tu	SCONJ	_	_	8	comp:obj@T	_	AlignBegin=384608|AlignEnd=384824|Gloss=COMP
 11	yèlə́n	yeli	VERB	_	_	10	comp:obj	_	AlignBegin=385980|AlignEnd=386100|Gloss=see.Plur.Juss|wordform=yeli
 12	myaː	miká	AUX	_	Aspect=Prog|Number=Sing|Person=1	11	parataxis	_	AlignBegin=387360|AlignEnd=387665|Gloss=1Sing.CONT
+13-14	máːɣə́nɗì	_	_	_	_	_	_	_	_
 13	máːɣə́n	máni	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	12	comp:aux	_	AlignBegin=387665|AlignEnd=387767|Gloss=come-Vnoun|wordform=máni
 14	ɗi	ɗi	PART	_	_	13	compound:prt	_	AlignBegin=387869|AlignEnd=387970|Gloss=CTP|wordform=-ɗi
 15	kyâːt	kyâːt	IDEO	_	_	12	mod	_	AlignBegin=387970|AlignEnd=388275|Gloss=soon
@@ -1245,14 +1247,14 @@
 # sent_id = SAY_BC_READ_03_Sermon_177-181
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 389120, 399880
-# text = ngàɓə́n ngə́tnwâːníː ɗan kə́ yír ɬyaːɬyáː nə́ dur kə́ tu káɗâ gón tə̀ vum =kí tâːgyaːwâːn mə́níː hŋ́ //
+# text = ngàɓə́n ngə́tnwâːníː ɗan kə́ yǐr ɬyaːɬyáː nə́ dur ɣə́ tu káɗâ gón tə̀ vúmkí tâːgyaːwâːn mə́níː hŋ́ //
 # text_ortho = ngàɓə́n ngə́tnwâːníː ɗan kə́ yǐr ɬyaːɬyáː nə́ dur ɣə́ tu káɗâ gón tə̀ vúmkí tâːgyaːwâːn mə́níː hŋ́ //
 # text_en = Hold tight to the things that you have lest anyone should snatch your crown from you."
 1	ngàɓə́n	ngap	VERB	_	_	6	subj	_	AlignBegin=389120|AlignEnd=389278|Gloss=hold.Plur.Juss|wordform=ngap
 2	ngə́tnwâːníː	ngə́tn	NOUN	_	Poss=Yes	5	comp:obj	_	AlignBegin=389437|AlignEnd=389543|Gloss=thing2Plur.Gen.ACH|wordform=ngə́tn
 3	ɗan	ɗan	SCONJ	_	_	1	mod@relcl	_	AlignBegin=389754|AlignEnd=390071|Gloss=that
 4	kə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=2	3	comp:obj	_	AlignBegin=390071|AlignEnd=390388|Gloss=2Plur.Aor
-5	yír	yír	VERB	_	_	4	comp:aux	_	AlignBegin=390388|AlignEnd=390705|Gloss=have
+5	yǐr	yír	VERB	_	_	4	comp:aux	_	AlignBegin=390388|AlignEnd=390705|Gloss=have
 6	ɬyaːɬyáː	ɬyaːɬyáː	AUX	_	_	8	comp:obj	_	AlignBegin=390705|AlignEnd=391022|Gloss=tightly
 7	nə́	nə́	PART	_	_	0	root	_	AlignBegin=392600|AlignEnd=392756|Gloss=be
 8	dur	dur	VERB	_	_	7	unk	_	AlignBegin=392756|AlignEnd=392912|Gloss=occasion
@@ -1261,6 +1263,7 @@
 11	káɗâ	káɗâ	ADV	_	_	13	mod	_	AlignBegin=394700|AlignEnd=394893|Gloss=NEG3
 12	gón	gón	PRON	_	Definite=Spec	13	subj	_	AlignBegin=394893|AlignEnd=395086|Gloss=Spec
 13	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	7	parataxis	_	AlignBegin=396100|AlignEnd=396333|Gloss=3Sing.Sub
+14-15	vúmkí	_	_	_	_	_	_	_	_
 14	vum	vum	VERB	_	_	13	comp:aux	_	AlignBegin=396333|AlignEnd=396449|Gloss=snatch
 15	=kí	=kí	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	14	comp:obj@R	_	AlignBegin=396449|AlignEnd=396566|Gloss=2Plur.OBJ
 16	tâːgyaːwâːn	tâːgyaː	NOUN	_	Poss=Yes	14	comp:obj@T	_	AlignBegin=398300|AlignEnd=398498|Gloss=crown2Plur.Gen|wordform=tâːgyaː
@@ -1271,17 +1274,17 @@
 # sent_id = SAY_BC_READ_03_Sermon_182-185
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 400740, 407280
-# text = dzàŋ gêːs ɗeɓátwôpm má zúpm ká kéni kə́ Tʃóɣnvòn nə́ ɗə́ːlɣə́n vèːs //
+# text = dzàŋ gêːs ɗeɓátwôpm má zǔpm gá kén gə̀ Tʃóɣnvòn nə́ ɗə́ːlɣə́n vèːs //
 # text_ortho = dzàŋ gêːs ɗeɓátwôpm má zǔpm gá kén gə̀ Tʃóknvòn nə́ ɗə́ːlɣə́n vèːs //
 # text_en = On that day, all of us, we will bow to God for the Judgement.
 1	dzàŋ	dzàŋ	NOUN	_	_	4	mod	_	AlignBegin=400740|AlignEnd=401033|Gloss=day
 2	gêːs	gíː	DET	_	Definite=Anaph|PronType=Dem	1	det	_	AlignBegin=401033|AlignEnd=401179|Gloss=PRM.Def|wordform=gíː
 3	ɗeɓátwôpm	ɗeɓát	IDEO	_	Poss=Yes	4	subj	_	AlignBegin=402260|AlignEnd=402425|Gloss=all1Plur.Gen|wordform=ɗeɓát
 4	má	a	AUX	_	Number=Plur|Person=1|Tense=Fut	0	root	_	AlignBegin=403820|AlignEnd=404043|Gloss=1Plur.Fut
-5	zúpm	zúpm	VERB	_	_	4	comp:aux	_	AlignBegin=404043|AlignEnd=404266|Gloss=bow
-6	ká	ká	ADP	_	_	5	comp:obl	_	AlignBegin=404266|AlignEnd=404489|Gloss=at
-7	kéni	kéni	NOUN	_	_	6	comp:obj	_	AlignBegin=404489|AlignEnd=404712|Gloss=front
-8	kə́	kə́	ADP	_	_	7	mod	_	AlignBegin=404712|AlignEnd=404935|Gloss=of|nWord=10|RX=[PTCL]
+5	zǔpm	zúpm	VERB	_	_	4	comp:aux	_	AlignBegin=404043|AlignEnd=404266|Gloss=bow
+6	gá	ká	ADP	_	_	5	comp:obl	_	AlignBegin=404266|AlignEnd=404489|Gloss=at
+7	kén	kéni	NOUN	_	_	6	comp:obj	_	AlignBegin=404489|AlignEnd=404712|Gloss=front
+8	gə̀	kə́	ADP	_	_	7	mod	_	AlignBegin=404712|AlignEnd=404935|Gloss=of|nWord=10|RX=[PTCL]
 9	Tʃóɣnvòn	Tʃóɣnvòn	PROPN	_	_	8	comp:obj	_	AlignBegin=404935|AlignEnd=405158|Gloss=God
 10	nə́	nə́	ADP	_	_	5	mod	_	AlignBegin=406420|AlignEnd=406635|Gloss=for
 11	ɗə́ːlɣə́n	ɗəːl	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	10	comp:obj	_	AlignBegin=406635|AlignEnd=406743|Gloss=come_out-Vnoun|wordform=ɗəːl
@@ -1291,7 +1294,7 @@
 # sent_id = SAY_BC_READ_03_Sermon_186-187
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 408200, 416980
-# text = kóːnúː tə́ kóːnúː wò ɮə́ːr ká kéni Tʃóknvòn ngap ɓal -kə́nì vwàː =wôs fuː -kə́nì Tʃóknvòn //
+# text = kóːnúː tə́ kóːnúː wò ɮə́ːr á kên Tʃóknvòn ngap ɓálɣə́n vwàːwòs fúːɣə̂n Tʃóknvòn //
 # text_ortho = kóːnúː tə́ kóːnúː wò ɮə́ːr á kên Tʃóknvòn ngap ɓálɣə́n vwàːwòs fúːɣə̂n Tʃóknvòn //
 # text_en = Everyone will stand in front of God, and start to tell his secrets to God.
 1	kóːnúː	kóːnúː	PRON	_	PronType=Tot	4	dislocated@subj	_	AlignBegin=408200|AlignEnd=408571|Gloss=everyone
@@ -1299,12 +1302,12 @@
 3	kóːnúː	kóːnúː	PRON	_	Number=Plur	2	comp:obj	_	AlignBegin=408942|AlignEnd=409313|Gloss=everyone
 4	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=409313|AlignEnd=409684|Gloss=3Sing.Fut
 5	ɮə́ːr	ɮə́ːr	VERB	_	_	4	comp:aux	_	AlignBegin=409684|AlignEnd=410055|Gloss=stand
-6	ká	ká	ADP	_	_	5	comp:obl	_	AlignBegin=410055|AlignEnd=410426|Gloss=at
-7	kéni	kéni	NOUN	_	_	6	comp:obj	_	AlignBegin=410426|AlignEnd=410797|Gloss=front
+6	á	ká	ADP	_	_	5	comp:obl	_	AlignBegin=410055|AlignEnd=410426|Gloss=at
+7	kên	kéni	NOUN	_	_	6	comp:obj	_	AlignBegin=410426|AlignEnd=410797|Gloss=front
 8	Tʃóknvòn	Tʃóknvòn	NOUN	_	_	6	comp:obj	_	AlignBegin=410797|AlignEnd=411168|Gloss=God
 9	ngap	ngap	VERB	_	_	5	mod	_	AlignBegin=412460|AlignEnd=413213|Gloss=catch
 10	ɓálɣə́n	ɓal	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	9	comp:obj	_	AlignBegin=413213|AlignEnd=413589|Gloss=sharpen-Vnoun|wordform=ɓal
-11	vwàːwôs	vwàː	NOUN	_	Poss=Yes	10	compound	_	AlignBegin=413966|AlignEnd=414342|Gloss=belly3Sing.Gen|wordform=vwàː
+11	vwàːwòs	vwàː	NOUN	_	Poss=Yes	10	compound	_	AlignBegin=413966|AlignEnd=414342|Gloss=belly3Sing.Gen|wordform=vwàː
 12	fúːɣə̂n	fuː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	10	comp:obj	_	AlignBegin=414719|AlignEnd=415095|Gloss=tell-Vnoun|wordform=fuː
 13	Tʃóknvòn	Tʃóknvòn	ADV	_	_	12	comp:obj	_	AlignBegin=415472|AlignEnd=416225|Gloss=God
 14	//	//	PUNCT	_	_	4	punct	_	AlignBegin=416225|AlignEnd=416980|Gloss=PUNCT
@@ -1312,7 +1315,7 @@
 # sent_id = SAY_BC_READ_03_Sermon_188-190
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 418200, 424220
-# text = məːri tə́ mə́n varaŋsə́ ɓét tə́ gyáː mə́n mə́ːskə̂n tá ɲwáːl ɗi //
+# text = məːri tə́ mə́n varaŋsə́ ɓét tə́ gyáː mə́n mə́ːskə̂n tá ɲwǎːlíːɗi //
 # text_ortho = məːrí tə́ mə́n varaŋsə́ ɓét tə́ gyaː mə́n mə́ːskə̂n tá ɲwǎːlíːɗi //
 # text_en = Young and old, together with the dead, they will come out.
 1	məːri	məːri	NOUN	_	_	10	subj	_	AlignBegin=418200|AlignEnd=418314|Gloss=children
@@ -1325,18 +1328,19 @@
 8	mə́n	mə́n	NOUN	_	Number=Plur	3	conj:coord	_	AlignBegin=421701|AlignEnd=422008|Gloss=people
 9	mə́ːskə̂n	mə́ːs	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	8	compound	_	AlignBegin=422008|AlignEnd=422162|Gloss=die-Vnoun|wordform=mə́ːs
 10	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=423520|AlignEnd=423753|Gloss=3Plur.Fut
-11	ɲwáːl	ɲwol	VERB	_	Number=Plur	10	comp:aux	_	AlignBegin=423753|AlignEnd=423831|Gloss=go_out.ACH
+11-12	ɲwǎːlíːɗi	_	_	_	_	_	_	_	_
+11	ɲwǎːlíː	ɲol	VERB	_	Number=Plur	10	comp:aux	_	AlignBegin=423753|AlignEnd=423831|Gloss=go_out.Plur.ACH
 12	ɗi	ɗi	PART	_	_	11	compound:prt	_	AlignBegin=423909|AlignEnd=423986|Gloss=CTP|wordform=-ɗi
 13	//	//	PUNCT	_	_	10	punct	_	AlignBegin=423986|AlignEnd=424220|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_191-194
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 425320, 432120
-# text = < rûːyáː_tá_yohánna > dzàŋ gêːs dzàŋ gêːs ka ɬə nə́ ɮə́ːr ká kéni kə́ Tʃóknvònwâː //
-# text_ortho = < rûːyáː_tá_yohánna > dzàŋ gêːs dzàŋ gêːs ka ɬə́n ɮə́ːr á kén gə̀ Tʃóknvònwàː //
+# text = < Rûːyáː-tá-Yohánna > dzàŋ gêːs dzàŋ gêːs ka ɬə nə́ ɮə́ːr ká kéni kə́ Tʃóknvònwâː //
+# text_ortho = < Rûːyáː-tá-Yohánna > dzàŋ gêːs dzàŋ gêːs ka ɬə́n ɮə́ːr á kén gə̀ Tʃóknvònwàː //
 # text_en = (Revelation) On that day, on that day, you will stand in front of your Lord.
 1	<	<	PUNCT	_	_	2	punct	_	AlignBegin=425320|AlignEnd=425627|Gloss=PUNCT
-2	rûːyáː_tá_yohánna	rûːyáː_tá_yohánna	NOUN	_	Definite=Cons	8	dislocated@top	_	AlignBegin=425627|AlignEnd=425934|Gloss=Revelation
+2	Rûːyáː-tá-Yohánna	Rûːyáː-tá-Yohánna	NOUN	_	Definite=Cons	8	dislocated@top	_	AlignBegin=425627|AlignEnd=425934|Gloss=Revelation
 3	>	>	PUNCT	_	_	2	punct	_	AlignBegin=425934|AlignEnd=426240|Gloss=PUNCT
 4	dzàŋ	dzàŋ	NOUN	_	_	8	mod	_	AlignBegin=427080|AlignEnd=427327|Gloss=day
 5	gêːs	gíː	DET	_	Definite=Anaph|PronType=Dem	4	det	_	AlignBegin=427327|AlignEnd=427409|Gloss=PRM.Def|wordform=gíː
