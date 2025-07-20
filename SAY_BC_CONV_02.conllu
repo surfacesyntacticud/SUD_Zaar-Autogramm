@@ -2553,7 +2553,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 363543, 367877
-# text = tôː < mə̀ || mə̀ ngàː ʒà //= mə̀ ʃìn ɓasmí //= mə̀ ʧòp =míwôpíː //= əndá mə̀ mbǔtni mə̀ ndà kúʧi //
+# text = tôː < mə̀ || mə̀ ngàː ʒà //= mə̀ ʃìn ɓasmí //= mə̀ ʧòp =mí =wôpíː //= əndá mə̀ mbǔtni mə̀ ndà kúʧi //
 # text_ortho = tôː < mə̀ || mə̀ ngàː ʒà //= mə̀ ʃìn ɓasmí //= mə̀ ʧòpmíwôpíː //= əndá mə̀ mbǔtni mə̀ ndà kúʧi //
 # text_en = Well, we... we take some water and pour onto ourselves we wash then we lie down to sleep.
 1	tôː	tòː	PART	_	_	3	discourse	_	AlignBegin=363543|AlignEnd=363745|Gloss=well
@@ -2572,17 +2572,18 @@
 13	//=	//=	PUNCT	_	_	14	punct	_	AlignBegin=365477|AlignEnd=365635|Gloss=PUNCT
 14	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	9	conj:coord	_	AlignBegin=365635|AlignEnd=365909|Gloss=1Plur.Sub
 15	ʧòp	ʧop	VERB	_	_	14	comp:aux	_	AlignBegin=365909|AlignEnd=365977|Gloss=wash
-16	=míwôpíː	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	15	comp:obj	_	AlignBegin=365977|AlignEnd=366045|Gloss=1Plur.Obj1Plur.Gen.ACH|wordform==mí
-17	//=	//=	PUNCT	_	_	19	punct	_	AlignBegin=366183|AlignEnd=366458|Gloss=PUNCT
-18	əndá	kəndá	ADV	_	_	19	mod	_	AlignBegin=366458|AlignEnd=366661|Gloss=then
-19	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	14	conj:coord	_	AlignBegin=366661|AlignEnd=366864|Gloss=1Plur.Sub
-20-21	mbǔtni	_	_	_	_	_	_	_	_
-20	mbǔt	mbút	VERB	_	_	19	comp:aux	_	AlignBegin=366864|AlignEnd=366966|Gloss=lie_down
-21	ni	ni	PART	_	Aspect=Iter	20	compound:prt	_	AlignBegin=366966|AlignEnd=367067|Gloss=Iter|wordform==ni
-22	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	19	conj:coord	_	AlignBegin=367067|AlignEnd=367270|Gloss=1Plur.Sub
-23	ndà	nda	VERB	_	_	22	comp:aux	_	AlignBegin=367270|AlignEnd=367473|Gloss=enter
-24	kúʧi	kúʧi	NOUN	_	_	23	comp:obj	_	AlignBegin=367473|AlignEnd=367676|Gloss=sleep
-25	//	//	PUNCT	_	_	3	punct	_	AlignBegin=367676|AlignEnd=367877|Gloss=PUNCT
+16	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	15	comp:obj	_	AlignBegin=365977|AlignEnd=366045|Gloss=1Plur.Obj
+17	=wôpíː	=wôpíː	PRON	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	mod@top	_	AlignBegin=365977|AlignEnd=366045|Gloss=1Plur.Gen.ACH|wordform==mí
+18	//=	//=	PUNCT	_	_	20	punct	_	AlignBegin=366183|AlignEnd=366458|Gloss=PUNCT
+19	əndá	kəndá	ADV	_	_	20	mod	_	AlignBegin=366458|AlignEnd=366661|Gloss=then
+20	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	14	conj:coord	_	AlignBegin=366661|AlignEnd=366864|Gloss=1Plur.Sub
+21-22	mbǔtni	_	_	_	_	_	_	_	_
+21	mbǔt	mbút	VERB	_	_	20	comp:aux	_	AlignBegin=366864|AlignEnd=366966|Gloss=lie_down
+22	ni	ni	PART	_	Aspect=Iter	21	compound:prt	_	AlignBegin=366966|AlignEnd=367067|Gloss=Iter|wordform==ni
+23	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	20	conj:coord	_	AlignBegin=367067|AlignEnd=367270|Gloss=1Plur.Sub
+24	ndà	nda	VERB	_	_	23	comp:aux	_	AlignBegin=367270|AlignEnd=367473|Gloss=enter
+25	kúʧi	kúʧi	NOUN	_	_	24	comp:obj	_	AlignBegin=367473|AlignEnd=367676|Gloss=sleep
+26	//	//	PUNCT	_	_	3	punct	_	AlignBegin=367676|AlignEnd=367877|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_289-293
 # text = tôː lə̂p yáː ɬǎːy < ɗan mə́ ʃîʃí < tôː < mə́ mbîː ə̀ːm sorɣéy //= mə́ tût lə́ɓêʃíː //
