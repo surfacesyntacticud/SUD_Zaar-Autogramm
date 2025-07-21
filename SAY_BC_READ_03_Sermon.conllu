@@ -1693,23 +1693,30 @@
 23	mə́n	mə́n	PART	_	Case=Ben	20	compound:prt	_	AlignBegin=561192|AlignEnd=561536|Gloss=BEN
 24	//	//	PUNCT	_	_	3	punct	_	AlignBegin=561536|AlignEnd=561880|Gloss=PUNCT
 
-# sent_id = SAY_BC_READ_03_Sermon_251-254
+# sent_id = SAY_BC_READ_03_Sermon_251-254_split1
+# text = Mátta //
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
-# sent_timecode = 563740, 569120
-# text = Mátta /mə́n napti tá ngap búŋ -kə́nì tə́ gyáː ngwáːr -kə́nì //
-# text_ortho = Mátta /mə́n napti tá ngâp bùŋgə̀n tə́ gyáː ngwáːrkə̂n //
-# text_en = (Matthew) Those on his left will start suffering and crying.
+# sent_timecode = 563740, 564200
+# text_ortho = Mátta //
+# text_en = Matthew.
 1	Mátta	Mátta	PROPN	_	_	0	root	_	AlignBegin=563740|AlignEnd=563970|Gloss=Matthew
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=563970|AlignEnd=564200|Gloss=PUNCT
-3	mə́n	múr	NOUN	_	Number=Plur	1	dislocated@subj	_	AlignBegin=565360|AlignEnd=565640|Gloss=people
-4	napti	napti	ADV	_	_	3	compound	_	AlignBegin=565640|AlignEnd=565920|Gloss=left
-5	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	3	parataxis:insert	_	AlignBegin=566780|AlignEnd=566975|Gloss=3Plur.Fut
-6	ngap	ngap	VERB	_	_	5	comp:aux	_	AlignBegin=566975|AlignEnd=567170|Gloss=catch
-7	bùŋgə̀n	búŋ	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	6	comp:obj	_	AlignBegin=567170|AlignEnd=567268|Gloss=suffer-Vnoun|wordform=búŋ
-8	tə́	tə́	ADP	_	_	10	cc	_	AlignBegin=568400|AlignEnd=568580|Gloss=with
-9	gyáː	gyáː	DET	_	Number=Plur	10	det	_	AlignBegin=568580|AlignEnd=568760|Gloss=Plur
-10	ngwáːrɣə̂n	ngwáːtn	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	6	comp:obj	_	AlignBegin=568760|AlignEnd=568850|Gloss=weep-Vnoun|wordform=ngwáːr
-11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=568940|AlignEnd=569120|Gloss=PUNCT
+
+# sent_id = SAY_BC_READ_03_Sermon_251-254_split2
+# text = mə́n napti tá ngap bùŋgə̀n tə́ gyáː ngwáːrɣə̂n //
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
+# sent_timecode = 564200, 569120
+# text_ortho = mə́n napti tá ngâp bùŋgə̀n tə́ gyáː ngwáːrɣə̂n //
+# text_en = Those on his left will start suffering and crying.
+1	mə́n	múr	NOUN	_	Number=Plur	3	subj	_	AlignBegin=565360|AlignEnd=565640|Gloss=people
+2	napti	napti	ADV	_	_	1	compound	_	AlignBegin=565640|AlignEnd=565920|Gloss=left
+3	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=566780|AlignEnd=566975|Gloss=3Plur.Fut
+4	ngap	ngap	VERB	_	_	3	comp:aux	_	AlignBegin=566975|AlignEnd=567170|Gloss=catch
+5	bùŋgə̀n	búŋ	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=567170|AlignEnd=567268|Gloss=suffer-Vnoun|wordform=búŋ
+6	tə́	tə́	CCONJ	_	_	8	cc	_	AlignBegin=568400|AlignEnd=568580|Gloss=with
+7	gyáː	gyáː	DET	_	Number=Plur	8	det	_	AlignBegin=568580|AlignEnd=568760|Gloss=Plur
+8	ngwáːrɣə̂n	ngwáːtn	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	5	conj:coord	_	AlignBegin=568760|AlignEnd=568850|Gloss=weep-Vnoun|wordform=ngwáːr
+9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=568940|AlignEnd=569120|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_255-259
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
