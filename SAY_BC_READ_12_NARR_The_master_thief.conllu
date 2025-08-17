@@ -1472,7 +1472,7 @@
 2	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=355950|AlignEnd=356100|Gloss=3Sing.Aor
 3	ndǎy	nda	VERB	_	_	2	comp:aux	_	AlignBegin=356100|AlignEnd=356175|Gloss=enter.ACH|wordform=nda
 4	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	2	parataxis	_	AlignBegin=357340|AlignEnd=357492|Gloss=3Sing.Aor
-5	ɬə́n	ɬə	VERB	_	_	4	comp:aux	_	AlignBegin=357492|AlignEnd=357568|Gloss=go
+5	ɬə́n	ɬə́n	VERB	_	_	4	comp:aux	_	AlignBegin=357492|AlignEnd=357568|Gloss=go_for
 6	tu	tu	VERB	_	_	5	compound:svc	_	AlignBegin=357644|AlignEnd=357796|Gloss=meet
 7	məníː	mə́n	NOUN	_	Number=Plur	8	subj	_	AlignBegin=357796|AlignEnd=357872|Gloss=people.ACH|wordform=mə́n
 8	tàː	àː	AUX	_	Aspect=Perf|Number=Plur|Person=3	6	comp:obj	_	AlignBegin=358520|AlignEnd=358700|Gloss=3Plur.CPlur
@@ -1508,7 +1508,8 @@
 1	séː	séː	ADV	_	_	3	mod	_	AlignBegin=365800|AlignEnd=365993|Gloss=then
 2	Nòːmáu	Nòːmáu	PROPN	_	_	3	discourse	_	AlignBegin=365993|AlignEnd=366186|Gloss=Nomau
 3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=366186|AlignEnd=366379|Gloss=3Sing.Aor
-4	wul	wul	VERB	_	_	3	comp:aux	_	AlignBegin=366379|AlignEnd=366475|Gloss=say
+4-5	wûlʃí	_	_	_	_	_	_	_	_
+4	wûl	wul	VERB	_	_	3	comp:aux	_	AlignBegin=366379|AlignEnd=366475|Gloss=say
 5	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=366475|AlignEnd=366572|Gloss=3Plur.Obj
 6	tu	tu	SCONJ	_	_	4	comp:obj	_	AlignBegin=366572|AlignEnd=366765|Gloss=COMP
 7	áy	áy	INTJ	_	_	13	discourse	_	AlignBegin=367780|AlignEnd=368033|Gloss=indeed
@@ -1519,11 +1520,12 @@
 12	kúnés	kúni	NOUN	_	Definite=Def	10	compound	_	AlignBegin=369860|AlignEnd=369990|Gloss=boy.Def|wordform=kúni
 13	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	8	comp:obj	_	AlignBegin=370120|AlignEnd=370380|Gloss=3Sing.CPlur
 14	máni	máni	VERB	_	_	13	comp:aux	_	AlignBegin=370380|AlignEnd=370640|Gloss=come
-15	séː	séː	CCONJ	_	_	16	mod	_	AlignBegin=371580|AlignEnd=371790|Gloss=then
+15	séy	séː	CCONJ	_	_	16	mod	_	AlignBegin=371580|AlignEnd=371790|Gloss=then
 16	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	13	conj:coord	_	AlignBegin=371790|AlignEnd=372000|Gloss=3Sing.Imp
 17	ŋal	ŋal	VERB	_	_	16	comp:aux	_	AlignBegin=372000|AlignEnd=372210|Gloss=look_for
 18	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	17	comp:obj	_	AlignBegin=372210|AlignEnd=372420|Gloss=3Sing.Sub
-19	mbwaː	mbwaː	VERB	_	_	18	comp:aux	_	AlignBegin=372420|AlignEnd=372490|Gloss=shoot
+19-21	mbwáːtəni	_	_	_	_	_	_	_	_
+19	mbwáː	mbwaː	VERB	_	_	18	comp:aux	_	AlignBegin=372420|AlignEnd=372490|Gloss=shoot
 20	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	AlignBegin=372490|AlignEnd=372560|Gloss==3Sing.Acc
 21	ni	ni	PART	_	_	19	compound:prt	_	AlignBegin=372560|AlignEnd=372630|Gloss=Iter|wordform=-ni
 22	//	//	PUNCT	_	_	3	punct	_	AlignBegin=372630|AlignEnd=372840|Gloss=PUNCT
@@ -1531,15 +1533,17 @@
 # sent_id = SAY_BC_READ_12_NAR_The_master_thief_181-182
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_12_NARR_The_master_thief.WAV
 # sent_timecode = 373740, 376280
-# text = séː kúnés wùl =tə̀ tu tə̀ gáː =tə kás
-# text_ortho = séy kúnés wùltə̀ tu tə̀ gáːtə kás /
+# text = séy kúnés wùltə̀ tu tə̀ gáːtə kás //
+# text_ortho = séy kúnés wùltə̀ tu tə̀ gáːtə kás //
 # text_en = Then the boy had told him to leave him.
 1	séː	séː	ADV	_	_	3	mod	_	AlignBegin=373740|AlignEnd=373948|Gloss=then
 2	kúnés	kúni	NOUN	_	Definite=Def	3	subj	_	AlignBegin=373948|AlignEnd=374052|Gloss=boy.Def|wordform=kúni
+3-4	wùltə̀	_	_	_	_	_	_	_	_
 3	wùl	wul	VERB	_	_	0	root	_	AlignBegin=374156|AlignEnd=374260|Gloss=say
 4	=tə̀	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj@R	_	AlignBegin=374260|AlignEnd=374364|Gloss==3Sing.Acc
 5	tu	tu	SCONJ	_	_	3	comp:obj@T	_	AlignBegin=374364|AlignEnd=374572|Gloss=COMP
 6	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	5	comp:obj	_	AlignBegin=375580|AlignEnd=375755|Gloss=3Sing.Sub
+7-8	gáːtə	_	_	_	_	_	_	_	_
 7	gáː	gaː	VERB	_	_	6	comp:aux	_	AlignBegin=375755|AlignEnd=375843|Gloss=leave
 8	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=375843|AlignEnd=375930|Gloss==3Sing.Acc
 9	kás	kás	ADV	_	_	7	comp:obl	_	AlignBegin=375930|AlignEnd=376105|Gloss=quiet
@@ -1550,7 +1554,7 @@
 # text = séː ɗan á wul =tə tu bàː wò man ʧi mə̂ːr ɗa hŋ́ /
 # text_ortho = séy ɗan á wúltə̀ tu bàː wò man ʧi mə̂ːr ɗǎŋ /
 # text_en = Then he had told him that he was not going to steal any more.
-1	séː	séː	ADV	_	_	3	mod	_	AlignBegin=377420|AlignEnd=377573|Gloss=then
+1	séy	séː	ADV	_	_	3	mod	_	AlignBegin=377420|AlignEnd=377573|Gloss=then
 2	ɗan	ɗan	ADV	_	_	3	mod	_	AlignBegin=377573|AlignEnd=377726|Gloss=as
 3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=378400|AlignEnd=378594|Gloss=3Sing.Aor
 4	wul	wul	VERB	_	_	3	comp:aux	_	AlignBegin=378594|AlignEnd=378691|Gloss=say
