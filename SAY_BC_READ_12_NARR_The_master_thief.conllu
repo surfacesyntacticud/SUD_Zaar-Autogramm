@@ -2095,13 +2095,13 @@
 17	//	//	PUNCT	_	_	1	punct	_	AlignBegin=515200|AlignEnd=515360|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_The_master_thief_250-253
-# text = nə ʧoɣn gən á ʃîntə́ɗi tu tə̀ mán ɬə́ːrtíː dón àː naː mel tə̀ ʧí yaːɬə́níː tə́ wût dón nə́ ngə́tn ɗan ʧǎː fî bàː á ndârá hŋ́ //
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_12_NARR_The_master_thief.WAV
 # sent_timecode = 515960, 524440
-# text_ortho = nə ʧoɣn gən á ʃîntə́ɗi tu tə̀ mán ɬə́ːrtíː dón àː naː mel tə̀ ʧí yaːɬə́níː tə́ wût dón nə́ ngə́tn ɗan ʧǎː fî bàː á ndârá hŋ́ //
+# text = nə Tʃoɣn gən á ʃîntə́ɗi tu tə̀ mán ɬə́ːrtíː dón àː naː mel tə̀ ʧí yaːɬə́níː tə́ wût dón nə́ ngə́tn ɗan ʧǎː fî bàː á ndârá hŋ́ //
+# text_ortho = nə Tʃoɣn gən á ʃîntə́ɗi tu tə̀ mán ɬə́ːrtíː dón àː naː mel tə̀ ʧí yaːɬə́níː tə́ wût dón nə́ ngə́tn ɗan ʧǎː fî bàː á ndârá hŋ́ //
 # text_en = God had sent him to take him away because he was about to set this country on fire because what they were doing was not good.
 1	nə	nə	PART	_	_	0	root	_	AlignBegin=515960|AlignEnd=516216|Gloss=COP1
-2	ʧoɣn	ʧoɣn	NOUN	_	_	1	comp:pred	_	AlignBegin=516216|AlignEnd=516472|Gloss=God
+2	Tʃoɣn	Tʃoɣn	PROPN	_	_	1	comp:pred	_	AlignBegin=516216|AlignEnd=516472|Gloss=God
 3	gən	kən	PART	_	_	1	discourse@foc	_	AlignBegin=516472|AlignEnd=516728|Gloss=COP2
 4	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	1	comp:cleft	_	AlignBegin=516728|AlignEnd=516984|Gloss=3Sing.Aor
 5-7	ʃîntə́ɗi	_	_	_	_	_	_	_	_
@@ -2152,7 +2152,7 @@
 9	tə́	tə́	ADP	_	_	8	comp:pred	_	AlignBegin=528436|AlignEnd=528625|Gloss=with
 10	gàskyá	gàskyá	NOUN	_	_	9	comp:obj	_	AlignBegin=528625|AlignEnd=528814|Gloss=truth
 11	séy	séy	ADP	_	_	5	mod	_	AlignBegin=528814|AlignEnd=529003|Gloss=then
-12	yáːni	yá́ːnii	PRON	_	Number=Sing|Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=529003|AlignEnd=529192|Gloss=3Sing.IDP
+12	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=529003|AlignEnd=529192|Gloss=3Sing.IDP
 13	//	//	PUNCT	_	_	5	punct	_	AlignBegin=529192|AlignEnd=529380|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_The_master_thief_256-257
@@ -2471,21 +2471,23 @@
 # sent_id = SAY_BC_READ_12_NAR_The_master_thief_290-292
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_12_NARR_The_master_thief.WAV
 # sent_timecode = 600460, 605780
-# text = ɗan wàzíːri tul -íː -́ɗi séy gùŋ wul =tə tu tə̀ ɗərə́ ʤìka -íː oː //
-# text_ortho = ɗan wàzíːri tûlíːɗi séy gùŋ wùltə̀ tu tə̀ ɗə́rə́ ʤìkáy oː //
+# text = ɗan wàzíːri tûlíːɗi séy gùŋ wùltə̀ tu tə̀ ɗə́rə́ ʤìɣáy oː //
+# text_ortho = ɗan wàzíːri tûlíːɗi séy gùŋ wùltə̀ tu tə̀ ɗə́rə́ ʤìɣáy oː //
 # text_en = When the vizier arrived, the king told him to open the bag.
 1	ɗan	ɗan	ADP	_	_	7	mod	_	AlignBegin=600460|AlignEnd=600715|Gloss=as
 2	wàzíːri	wầzíːr	NOUN	_	_	1	comp:obj	_	AlignBegin=600715|AlignEnd=600970|Gloss=Waziri
-3	tul	tul	VERB	_	_	1	comp:obj	_	AlignBegin=600970|AlignEnd=601055|Gloss=reach.ACH
+3-4	tûlíːɗi	_	_	_	_	_	_	_	_
+3	tûlíː	tul	VERB	_	_	1	comp:obj	_	AlignBegin=600970|AlignEnd=601055|Gloss=reach.ACH
 4	ɗi	ɗi	PART	_	_	3	compound:prt	_	AlignBegin=601140|AlignEnd=601225|Gloss=CTP|wordform=-́ɗi
 5	séy	séy	SCONJ	_	ExtPos=SCONJ	3	mod	_	AlignBegin=602200|AlignEnd=602396|Gloss=then
 6	gùŋ	gùŋ	NOUN	_	_	5	comp:obj	_	AlignBegin=602396|AlignEnd=602592|Gloss=chief
-7	wul	wul	VERB	_	_	0	root	_	AlignBegin=602592|AlignEnd=602690|Gloss=say
+7-8	wùltə̀	_	_	_	_	_	_	_	_
+7	wùl	wul	VERB	_	_	0	root	_	AlignBegin=602592|AlignEnd=602690|Gloss=say
 8	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	comp:obj@R	_	AlignBegin=602690|AlignEnd=602788|Gloss==3Sing.Acc
 9	tu	tu	ADP	_	_	7	comp:obj@T	_	AlignBegin=602788|AlignEnd=602984|Gloss=COMP
 10	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	9	comp:obj	_	AlignBegin=604940|AlignEnd=605108|Gloss=3Sing.Sub
-11	ɗərə́	ɗərə	VERB	_	_	10	comp:aux	_	AlignBegin=605108|AlignEnd=605276|Gloss=open
-12	ʤìkǎy	ʤìka	VERB	_	_	11	comp:obj	_	AlignBegin=605276|AlignEnd=605360|Gloss=bag.ACH|wordform=ʤìka
+11	ɗə́rə́	ɗərə	VERB	_	_	10	comp:aux	_	AlignBegin=605108|AlignEnd=605276|Gloss=open
+12	ʤìɣáy	ʤìka	VERB	_	_	11	comp:obj	_	AlignBegin=605276|AlignEnd=605360|Gloss=bag.ACH|wordform=ʤìka
 13	oː	oː	PART	_	_	10	mod	_	AlignBegin=605444|AlignEnd=605612|Gloss=Fact|PartType=Emph
 14	//	//	PUNCT	_	_	7	punct	_	AlignBegin=605612|AlignEnd=605780|Gloss=PUNCT
 
@@ -2497,11 +2499,12 @@
 # text_en = When the vizier opened it, he saw the imam.
 1	séy	séy	ADV	_	_	6	mod	_	AlignBegin=606780|AlignEnd=607044|Gloss=then
 2	wàzíːri	wầzíːr	NOUN	_	_	6	dislocated@subj	_	AlignBegin=607044|AlignEnd=607308|Gloss=Waziri
+3-4	ɗǎː	_	_	_	_	_	_	_	_
 3	ɗa	ɗan	SCONJ	_	_	6	mod	_	AlignBegin=607308|AlignEnd=607440|Gloss=as
 4	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	3	comp:obj	_	AlignBegin=607440|AlignEnd=607572|Gloss=3Sing.Aor
-5	ɗərə́	ɗər	VERB	_	_	4	comp:aux	_	AlignBegin=607572|AlignEnd=607704|Gloss=open.ACH
+5	ɗə̂ríː	ɗər	VERB	_	_	4	comp:aux	_	AlignBegin=607572|AlignEnd=607704|Gloss=open.ACH
 6	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=608980|AlignEnd=609168|Gloss=3Sing.Aor
-7	yelíː	yeli	VERB	_	_	6	comp:aux	_	AlignBegin=609168|AlignEnd=609262|Gloss=see.ACH|wordform=yeli
+7	yélnì	yeli	VERB	_	_	6	comp:aux	_	AlignBegin=609168|AlignEnd=609262|Gloss=see.ACH|wordform=yeli
 8	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	7	discourse@top	_	AlignBegin=609356|AlignEnd=609544|Gloss=3SingGen
 9	lìmâːn	lìmâːn	NOUN	_	_	7	comp:obj	_	AlignBegin=609544|AlignEnd=609732|Gloss=imam
 10	//	//	PUNCT	_	_	6	punct	_	AlignBegin=609732|AlignEnd=609920|Gloss=PUNCT
