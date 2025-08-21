@@ -926,8 +926,8 @@
 # text_ortho = ngə́tn yóːɗan myǎː ʧî ɗaːmí < má və̀rtə̀ //
 # text_en = What we eat at our (place), we will give him.
 1	ngə́tn	ngə́tn	NOUN	_	_	8	dislocated@comp	_	AlignBegin=127607|AlignEnd=127815|Gloss=thing
-2	yóːɗan	yóːɗan	PRON	_	PronType=Rel	1	mod@relcl	_	AlignBegin=127815|AlignEnd=128023|Gloss=which
-3	myǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	2	comp:obj	_	AlignBegin=128023|AlignEnd=128231|Gloss=1Plur.Imp
+2	yóːɗan	yóːɗan	PRON	_	PronType=Rel	3	comp:obj	_	AlignBegin=127815|AlignEnd=128023|Gloss=which
+3	myǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	1	mod@relcl	_	AlignBegin=128023|AlignEnd=128231|Gloss=1Plur.Imp
 4	ʧî	ʧi	VERB	_	_	3	comp:aux	_	AlignBegin=128231|AlignEnd=128439|Gloss=eat
 5-6	ɗaːmí	_	_	_	_	_	_	_	_
 5	ɗaː	ɗaː	ADP	_	Case=Gen	4	mod	_	AlignBegin=128439|AlignEnd=128543|Gloss=of
@@ -1613,11 +1613,11 @@
 11	domin	domin	SCONJ	_	Foreign=Yes	7	mod	_	AlignBegin=220300|AlignEnd=220730|Gloss=because|Lang=ha
 12	nə	nə	PART	_	_	11	comp:obj	_	AlignBegin=221159|AlignEnd=221531|Gloss=be
 13	ngə́r	ngə́tn	NOUN	_	_	12	comp:pred	_	AlignBegin=221531|AlignEnd=221903|Gloss=thing
-14	yóːɗan	yóːɗan	PRON	_	PronType=Rel	13	mod@relcl	_	AlignBegin=221903|AlignEnd=222276|Gloss=which
+14	yóːɗan	yóːɗan	PRON	_	PronType=Rel	16	comp:obj@T	_	AlignBegin=221903|AlignEnd=222276|Gloss=which
 15	ndwáːtsə	ndwáːtsə	NOUN	_	_	16	subj	_	AlignBegin=222634|AlignEnd=222985|Gloss=old_age
 16-17	ɬə̌ːrɣə	_	_	_	_	_	_	_	_
-16	ɬə̌ːr	ɬə	VERB	_	Voice=Cau	14	comp:obj	_	AlignBegin=222985|AlignEnd=223073|Gloss=go.CAUS
-17	=ɣə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	16	comp:obj	_	AlignBegin=223161|AlignEnd=223249|Gloss=2Sing.Obj
+16	ɬə̌ːr	ɬə	VERB	_	Voice=Cau	13	mod@relcl	_	AlignBegin=222985|AlignEnd=223073|Gloss=go.CAUS
+17	=ɣə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	16	comp:obj@R	_	AlignBegin=223161|AlignEnd=223249|Gloss=2Sing.Obj
 18	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	16	comp:obl@expl	_	AlignBegin=223249|AlignEnd=223336|Gloss=Anaph.Loc.3Sing
 19	//	//	PUNCT	_	_	6	punct	_	AlignBegin=223336|AlignEnd=223686|Gloss=PUNCT
 
@@ -2283,9 +2283,9 @@
 # text = ngə́tn yóːɗan á nâːmí mə́n ɗangənín gəndí //
 # text_ortho = ngə́tn yóːɗan á nâːmímə́n ɗangənín gəndí //
 # text_en = That's the thing that... happens to us, today's people.
-1	ngə́tn	ngə́tn	NOUN	_	_	8	comp:pred	_	AlignBegin=311260|AlignEnd=311690|Gloss=thing
-2	yóːɗan	yóːɗan	PRON	_	PronType=Rel	1	mod@relcl	_	AlignBegin=311690|AlignEnd=312119|Gloss=which
-3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	2	comp:obj	_	AlignBegin=312119|AlignEnd=312418|Gloss=3Sing.Aor
+1	ngə́tn	ngə́tn	NOUN	_	_	8	subj	_	AlignBegin=311260|AlignEnd=311690|Gloss=thing
+2	yóːɗan	yóːɗan	PRON	_	PronType=Rel	3	subj	_	AlignBegin=311690|AlignEnd=312119|Gloss=which
+3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	1	mod@relcl	_	AlignBegin=312119|AlignEnd=312418|Gloss=3Sing.Aor
 4-5	nâːmí	_	_	_	_	_	_	_	_
 4	nâː	naː	VERB	_	_	3	comp:aux	_	AlignBegin=312418|AlignEnd=312568|Gloss=become
 5	=mí	=mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	comp:obj	_	AlignBegin=312568|AlignEnd=312717|Gloss=1Plur.Obj
@@ -3150,9 +3150,9 @@
 # text = ngə́tn yóːɗan lǎːwopm gəndí //
 # text_ortho = ngə́tn yóːɗan lǎːwôpm gəndí //
 # text_en = That's what our work is.
-1	ngə́tn	ngə́tn	NOUN	_	_	4	comp:pred	_	AlignBegin=440739|AlignEnd=441145|Gloss=thing
-2	yóːɗan	yóːɗan	PRON	_	PronType=Rel	1	mod@relcl	_	AlignBegin=441145|AlignEnd=441551|Gloss=which
-3	lǎːwopm	laː	NOUN	_	Definite=Cons|Poss=Yes	2	mod@relcl	_	AlignBegin=441551|AlignEnd=441733|Gloss=work.CONS.1PlurGen|wordform=lǎː
+1	ngə́tn	ngə́tn	NOUN	_	_	4	subj	_	AlignBegin=440739|AlignEnd=441145|Gloss=thing
+2	yóːɗan	yóːɗan	PRON	_	PronType=Rel	3	subj	_	AlignBegin=441145|AlignEnd=441551|Gloss=which
+3	lǎːwopm	laː	NOUN	_	Definite=Cons|Poss=Yes	1	mod@relcl	_	AlignBegin=441551|AlignEnd=441733|Gloss=work.CONS.1PlurGen|wordform=lǎː
 4	gəndí	kəndí	PART	_	_	0	root	_	AlignBegin=441915|AlignEnd=442098|Gloss=be
 5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=442098|AlignEnd=442645|Gloss=PUNCT
 

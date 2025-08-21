@@ -305,7 +305,7 @@
 # text_ortho = zàrsə̀ mondá ʧǎː wûm vərtə́ ɗə́ːlɣə́n vìː //
 # text_en = Many people are afraid of trials.
 1	zàrsə̀	zaːr	NOUN	_	Number=Plur	3	subj	_	AlignBegin=88960|AlignEnd=89090|Gloss=person.Plur
-2	mondá	mondá	ADV	_	_	1	mod@relcl	_	AlignBegin=89220|AlignEnd=89480|Gloss=many
+2	mondá	mondá	DET	_	_	1	det	_	AlignBegin=89220|AlignEnd=89480|Gloss=many
 3	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=90640|AlignEnd=90867|Gloss=3Plur.Imp
 4	wûm	wum	VERB	_	_	3	comp:aux	_	AlignBegin=90867|AlignEnd=91094|Gloss=feel ; hear ; smell ; taste
 5	vərtə́	vərtə	NOUN	_	Definite=Cons	4	comp:obj	_	AlignBegin=91094|AlignEnd=91321|Gloss=fear.Cons
@@ -1677,10 +1677,10 @@
 6	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=549802|AlignEnd=549879|Gloss=3Plur.Obj
 7	ɗa	ɗa	ADV	_	_	5	mod	_	AlignBegin=549879|AlignEnd=550032|Gloss=again
 8	tu	tu	SCONJ	_	_	5	mod	_	AlignBegin=550032|AlignEnd=550185|Gloss=COMP
-9	ɓurúk	ɓurúk	IDEO	_	_	19	mod	_	AlignBegin=551840|AlignEnd=552080|Gloss=all
+9	ɓurúk	ɓurúk	DET	_	_	10	det	_	AlignBegin=551840|AlignEnd=552080|Gloss=all
 10	ngə́tn	ngə́tn	NOUN	_	_	19	dislocated:obj	_	AlignBegin=553560|AlignEnd=553900|Gloss=thing
-11	yóːɗan	yóːɗan	PRON	_	PronType=Rel	10	mod@relcl	_	AlignBegin=553900|AlignEnd=554240|Gloss=which
-12	kə̀tàyáː	ta-̀yáː	AUX	_	Aspect=Imp|Number=Plur|Person=2|Tense=Rem	11	mod@relcl	_	AlignBegin=555940|AlignEnd=556163|Gloss=2Plur.REM.Imp
+11	yóːɗan	yóːɗan	PRON	_	PronType=Rel	12	comp:obj@T	_	AlignBegin=553900|AlignEnd=554240|Gloss=which
+12	kə̀tàyáː	ta-̀yáː	AUX	_	Aspect=Imp|Number=Plur|Person=2|Tense=Rem	10	mod@relcl	_	AlignBegin=555940|AlignEnd=556163|Gloss=2Plur.REM.Imp
 13	fi	fi	VERB	_	_	12	comp:aux	_	AlignBegin=556163|AlignEnd=556386|Gloss=do
 14	mə́n	múr	NOUN	_	Number=Plur	13	comp:obj@R	_	AlignBegin=556386|AlignEnd=556609|Gloss=people
 15	láːpkə́nètn	láːp	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	14	compound	_	AlignBegin=556609|AlignEnd=556683|Gloss=follow-Vnoun.1SingGen|wordform=láːp
@@ -2348,20 +2348,20 @@
 # text = mə́n kusə́ŋsə raː tə́ mə́n raː mbuní ʧǎː ʧâː tâːs ká kot nàmbóŋ //
 # text_ortho = mə́n kusə́ŋsə raː tə́ mə́n rǎː mbuní ʧǎː ʧâː tâːs ká kot nàmbóŋ //
 # text_en = The evil and the good put their hand in the same bowl.
-1	mə́n	mə́n	NOUN	_	Number=Plur	0	root	_	AlignBegin=772540|AlignEnd=772785|Gloss=people
+1	mə́n	mə́n	NOUN	_	Number=Plur	8	subj	_	AlignBegin=772540|AlignEnd=772785|Gloss=people
 2	kusə́ŋsə	kúskə̀	ADJ	_	_	3	mod	_	AlignBegin=772785|AlignEnd=772907|Gloss=evil.Plur
 3	raː	raː	NOUN	_	_	1	compound	_	AlignBegin=773030|AlignEnd=773275|Gloss=heart
 4	tə́	á	ADP	_	_	1	cc	_	AlignBegin=774440|AlignEnd=774596|Gloss=with
 5	mə́n	mə́n	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=774596|AlignEnd=774752|Gloss=people
 6	raː	raː	NOUN	_	_	5	compound	_	AlignBegin=774752|AlignEnd=774830|Gloss=heart
 7	mbuní	mbuniː	ADJ	_	Mood=Irr	6	mod	_	AlignBegin=774908|AlignEnd=775064|Gloss=good
-8	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	7	mod@relcl	_	AlignBegin=776080|AlignEnd=776377|Gloss=3Plur.Imp
+8	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=776080|AlignEnd=776377|Gloss=3Plur.Imp
 9	ʧâː	ʧaː	VERB	_	_	8	comp:aux	_	AlignBegin=776377|AlignEnd=776674|Gloss=put
 10	tâːs	tâːs	NOUN	_	Definite=Def	9	comp:obj	_	AlignBegin=776674|AlignEnd=776971|Gloss=hand
 11	ká	ká	ADP	_	_	9	comp:obl	_	AlignBegin=776971|AlignEnd=777268|Gloss=at
 12	kot	kot	NOUN	_	_	11	comp:obj	_	AlignBegin=777268|AlignEnd=777565|Gloss=calabash
 13	nàmbóŋ	nàmbóŋ	NUM	_	_	12	mod	_	AlignBegin=777565|AlignEnd=777862|Gloss=one
-14	//	//	PUNCT	_	_	4	punct	_	AlignBegin=777862|AlignEnd=778160|Gloss=PUNCT
+14	//	//	PUNCT	_	_	8	punct	_	AlignBegin=777862|AlignEnd=778160|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_355-359
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
