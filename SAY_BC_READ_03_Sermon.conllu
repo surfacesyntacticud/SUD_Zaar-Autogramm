@@ -1300,7 +1300,7 @@
 # text_en = On that day, all of us, we will bow to God for the Judgement.
 1	dzàŋ	dzàŋ	NOUN	_	_	4	mod	_	AlignBegin=400740|AlignEnd=401033|Gloss=day
 2	gêːs	gíː	DET	_	Definite=Anaph|PronType=Dem	1	det	_	AlignBegin=401033|AlignEnd=401179|Gloss=PRM.Def|wordform=gíː
-3	ɗeɓátwôpm	ɗeɓát	IDEO	_	Poss=Yes	4	subj	_	AlignBegin=402260|AlignEnd=402425|Gloss=all.1PlurGen|wordform=ɗeɓát
+3	ɗeɓátwôpm	ɗeɓát	DET	_	Poss=Yes	4	subj	_	AlignBegin=402260|AlignEnd=402425|Gloss=all.1PlurGen|wordform=ɗeɓát
 4	má	a	AUX	_	Number=Plur|Person=1|Tense=Fut	0	root	_	AlignBegin=403820|AlignEnd=404043|Gloss=1Plur.Fut
 5	zǔpm	zúpm	VERB	_	_	4	comp:aux	_	AlignBegin=404043|AlignEnd=404266|Gloss=bow
 6	gá	ká	ADP	_	ExtPos=ADP	5	comp:obl	_	AlignBegin=404266|AlignEnd=404489|Gloss=at|Idiom=Yes
@@ -1315,22 +1315,22 @@
 # sent_id = SAY_BC_READ_03_Sermon_186-187
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 408200, 416980
-# text = kóːnúː tə́ kóːnúː wò ɮə́ːr á kên Tʃóknvòn ngap ɓálɣə́n vwàːwòs fúːɣə̂n Tʃóknvòn //
+# text = kóːnúː tə́ kóːnúː wò ɮə́ːr á kên Tʃóɣnvòn ngap ɓálɣə́n vwàːwòs fúːɣə̂n Tʃóɣnvòn //
 # text_ortho = kóːnúː tə́ kóːnúː wò ɮə́ːr á kên Tʃóknvòn ngap ɓálɣə́n vwàːwòs fúːɣə̂n Tʃóknvòn //
 # text_en = Everyone will stand in front of God, and start to tell his secrets to God.
 1	kóːnúː	kóːnúː	PRON	_	PronType=Tot	4	dislocated@subj	_	AlignBegin=408200|AlignEnd=408571|Gloss=everyone
-2	tə́	tə́	ADP	_	_	1	mod	_	AlignBegin=408571|AlignEnd=408942|Gloss=with
-3	kóːnúː	kóːnúː	PRON	_	Number=Plur	2	comp:obj	_	AlignBegin=408942|AlignEnd=409313|Gloss=everyone
+2	tə́	tə́	CCONJ	_	_	3	cc	_	AlignBegin=408571|AlignEnd=408942|Gloss=with
+3	kóːnúː	kóːnúː	PRON	_	Number=Plur	1	conj:coord	_	AlignBegin=408942|AlignEnd=409313|Gloss=everyone
 4	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=409313|AlignEnd=409684|Gloss=3Sing.Fut
 5	ɮə́ːr	ɮə́ːr	VERB	_	_	4	comp:aux	_	AlignBegin=409684|AlignEnd=410055|Gloss=stand
-6	á	ká	ADP	_	_	5	comp:obl	_	AlignBegin=410055|AlignEnd=410426|Gloss=at
-7	kên	kéni	NOUN	_	_	6	comp:obj	_	AlignBegin=410426|AlignEnd=410797|Gloss=front
+6	á	ká	ADP	_	ExtPos=ADP	5	comp:obl	_	AlignBegin=410055|AlignEnd=410426|Gloss=at|Idiom=Yes
+7	kên	kéni	NOUN	_	_	6	comp:obj	_	AlignBegin=410426|AlignEnd=410797|Gloss=front|InIdiom=Yes
 8	Tʃóɣnvòn	Tʃóɣnvòn	PROPN	_	_	6	comp:obj	_	AlignBegin=410797|AlignEnd=411168|Gloss=God|wordform=Tʃóknvòn
-9	ngap	ngap	VERB	_	_	5	mod	_	AlignBegin=412460|AlignEnd=413213|Gloss=catch
+9	ngap	ngap	VERB	_	_	5	compound:svc	_	AlignBegin=412460|AlignEnd=413213|Gloss=catch
 10	ɓálɣə́n	ɓal	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	9	comp:obj	_	AlignBegin=413213|AlignEnd=413589|Gloss=sharpen-Vnoun|wordform=ɓal
-11	vwàːwòs	vwàː	NOUN	_	Poss=Yes	10	compound	_	AlignBegin=413966|AlignEnd=414342|Gloss=belly.3SingGen|wordform=vwàː
-12	fúːɣə̂n	fuː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	10	comp:obj	_	AlignBegin=414719|AlignEnd=415095|Gloss=tell-Vnoun|wordform=fuː
-13	Tʃóɣnvòn	Tʃóɣnvòn	PROPN	_	_	12	comp:obj	_	AlignBegin=415472|AlignEnd=416225|Gloss=God|wordform=Tʃóknvòn
+11	vwàːwòs	vwàː	NOUN	_	Poss=Yes	10	udep	_	AlignBegin=413966|AlignEnd=414342|Gloss=belly.3SingGen|wordform=vwàː
+12	fúːɣə̂n	fuː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	10	compound:svc	_	AlignBegin=414719|AlignEnd=415095|Gloss=tell-Vnoun|wordform=fuː
+13	Tʃóɣnvòn	Tʃóɣnvòn	PROPN	_	_	12	udep	_	AlignBegin=415472|AlignEnd=416225|Gloss=God|wordform=Tʃóknvòn
 14	//	//	PUNCT	_	_	4	punct	_	AlignBegin=416225|AlignEnd=416980|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_188-190
@@ -1347,7 +1347,7 @@
 6	tə́	tə́	ADP	_	_	8	cc	_	AlignBegin=421087|AlignEnd=421394|Gloss=with
 7	gyáː	gyáː	DET	_	Number=Plur	8	det	_	AlignBegin=421394|AlignEnd=421701|Gloss=Plur
 8	mə́n	mə́n	NOUN	_	Number=Plur	3	conj:coord	_	AlignBegin=421701|AlignEnd=422008|Gloss=people
-9	mə́ːskə̂n	mə́ːs	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	8	compound	_	AlignBegin=422008|AlignEnd=422162|Gloss=die-Vnoun|wordform=mə́ːs
+9	mə́ːskə̂n	məs	VERB	_	ExtPos=NOUN|Number=Plur|VerbForm=Vnoun	8	compound	_	AlignBegin=422008|AlignEnd=422162|Gloss=die.Pur-Vnoun|wordform=mə́ːs
 10	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=423520|AlignEnd=423753|Gloss=3Plur.Fut
 11-12	ɲwǎːlíːɗi	_	_	_	_	_	_	_	_
 11	ɲwǎːlíː	ɲol	VERB	_	Number=Plur	10	comp:aux	_	AlignBegin=423753|AlignEnd=423831|Gloss=go_out.Plur.ACH|Resultative=Yes
@@ -1366,7 +1366,7 @@
 # sent_id = SAY_BC_READ_03_Sermon_191-194_split2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 427080, 432120
-# text = dzàŋ gêːs dzàŋ gêːs ka ɬə́n ɮə́ːr ká kén gə̀ Tʃóknvònwàː //
+# text = dzàŋ gêːs dzàŋ gêːs ka ɬə́n ɮə́ːr ɣá kên gə Tʃóɣnvònwàː //
 # text_ortho = dzàŋ gêːs dzàŋ gêːs ka ɬə́n ɮə́ːr á kén gə̀ Tʃóknvònwàː //
 # text_en = On that day, on that day, you will stand in front of your Lord.
 1	dzàŋ	dzàŋ	NOUN	_	_	5	mod	_	AlignBegin=427080|AlignEnd=427327|Gloss=day
@@ -1376,12 +1376,12 @@
 5	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=430520|AlignEnd=430720|Gloss=2Sing.Fut
 6-7	ɬə́n	_	_	_	_	_	_	_	_
 6	ɬə	ɬə	VERB	_	_	5	comp:aux	_	AlignBegin=430720|AlignEnd=430820|Gloss=go
-7	nə́	nə́	ADP	_	_	6	comp:obl	_	AlignBegin=430820|AlignEnd=430920|Gloss=for
+7	nə́	nə́	SCONJ	_	_	6	mod	_	AlignBegin=430820|AlignEnd=430920|Gloss=for
 8	ɮə́ːr	ɮə́ːr	NOUN	_	_	7	comp:obj	_	AlignBegin=430920|AlignEnd=431120|Gloss=stand
-9	ká	ká	ADP	_	_	6	comp:obl	_	AlignBegin=431120|AlignEnd=431320|Gloss=at
-10	kén	kéni	NOUN	_	_	9	comp:obj	_	AlignBegin=431320|AlignEnd=431520|Gloss=front
-11	gə̀	kə́	ADP	_	_	10	mod	_	AlignBegin=431520|AlignEnd=431720|Gloss=of|nWord=15|RX=[PTCL]
-12	Tʃóknvònwàː	Tʃóɣnvòn	NOUN	_	Poss=Yes	11	comp:obj	_	AlignBegin=431720|AlignEnd=431820|Gloss=God.2SingGen|wordform=Tʃóknvòn
+9	ɣá	ká	ADP	_	_	6	comp:obl	_	AlignBegin=431120|AlignEnd=431320|Gloss=at
+10	kên	kéni	NOUN	_	_	9	comp:obj	_	AlignBegin=431320|AlignEnd=431520|Gloss=front
+11	gə	kə	ADP	_	_	10	mod	_	AlignBegin=431520|AlignEnd=431720|Gloss=of|nWord=15|RX=[PTCL]
+12	Tʃóɣnvònwàː	Tʃóɣnvòn	NOUN	_	Poss=Yes	11	comp:obj	_	AlignBegin=431720|AlignEnd=431820|Gloss=God.2SingGen|wordform=Tʃóknvòn
 13	//	//	PUNCT	_	_	5	punct	_	AlignBegin=431920|AlignEnd=432120|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_195-197
