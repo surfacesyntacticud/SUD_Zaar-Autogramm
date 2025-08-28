@@ -1059,23 +1059,31 @@
 25	hŋ́	hŋ́	PART	_	Polarity=Neg	19	mod	_	AlignBegin=330708|AlignEnd=330866|Gloss=NEG2
 26	//	//	PART	_	_	16	punct	_	AlignBegin=330708|AlignEnd=330866|Gloss=PUNCT
 
-# sent_id = SAY_BC_READ_03_Sermon_150-152
+# sent_id = SAY_BC_READ_03_Sermon_150-152_split1
+# text = wò vuː ta gàːmì ʃiː gə̀ʃì //
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
-# sent_timecode = 331920, 336120
-# text = wò vuː ta gàːmì ʃiː gə̀ʃì ʧáː ŋal mbôy ɲólɣə̂n //
-# text_ortho = wò vuː ta gàːmì ʃiː gə̀ʃì ʧáː ŋal mbôy ɲólɣə̂n //
-# text_en = he will try to go up, to go down, he will be looking for a way through.
+# sent_timecode = 331920, 333766
+# text_ortho = wò vuː ta gàːmì ʃiː gə̀ʃì //
+# text_en = He will try to go up, to go down.
 1	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=331920|AlignEnd=332120|Gloss=3Sing.Fut
 2	vuː	vuː	VERB	_	_	1	comp:aux	_	AlignBegin=332120|AlignEnd=332320|Gloss=suffer
-3	ta	a	AUX	_	Number=Sing|Person=2|Tense=Fut	2	comp:obj	_	AlignBegin=332320|AlignEnd=332520|Gloss=climb
-4	gàːmì	gàːmì	ADV	_	_	3	comp:aux	_	AlignBegin=332520|AlignEnd=332720|Gloss=up
-5	ʃiː	ʃiː	PRON	_	_	3	comp:obj	_	AlignBegin=333340|AlignEnd=333553|Gloss=get_down
-6	gə̀ʃì	gə̀ʃì	ADV	_	_	5	comp:obj	_	AlignBegin=333553|AlignEnd=333766|Gloss=downhill
-7	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	3	parataxis	_	AlignBegin=335040|AlignEnd=335256|Gloss=3Sing.Imp
-8	ŋal	ŋal	VERB	_	_	7	comp:aux	_	AlignBegin=335256|AlignEnd=335472|Gloss=look_for
-9	mbôy	mbôy	NOUN	_	_	8	comp:obj	_	AlignBegin=335472|AlignEnd=335688|Gloss=hole_in_wall
-10	ɲólɣə̂n	ɲol	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	8	comp:obj	_	AlignBegin=335688|AlignEnd=335796|Gloss=go_out-Vnoun|wordform=ɲol
-11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=335904|AlignEnd=336120|Gloss=PUNCT
+3	ta	ta	ADP	_	_	2	comp:obl	_	AlignBegin=332320|AlignEnd=332520|Gloss=towards
+4	gàːmì	gàːmì	ADV	_	_	3	comp:obj	_	AlignBegin=332520|AlignEnd=332720|Gloss=up
+5	ʃiː	ʃiː	PRON	_	_	2	conj:coord	_	AlignBegin=333340|AlignEnd=333553|Gloss=get_down
+6	gə̀ʃì	gə̀ʃì	ADV	_	_	5	mod	_	AlignBegin=333553|AlignEnd=333766|Gloss=downhill
+7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=333553|AlignEnd=333766|Gloss=PUNCT
+
+# sent_id = SAY_BC_READ_03_Sermon_150-152_split2
+# text = ʧáː ŋal mbôy ɲólɣə̂n //
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
+# sent_timecode = 333766, 336120
+# text_ortho = ʧáː ŋal mbôy ɲólɣə̂n //
+# text_en = He will be looking for a way through.
+1	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=335040|AlignEnd=335256|Gloss=3Sing.Imp
+2	ŋal	ŋal	VERB	_	_	1	comp:aux	_	AlignBegin=335256|AlignEnd=335472|Gloss=look_for
+3	mbôy	mbôy	NOUN	_	_	2	comp:obj	_	AlignBegin=335472|AlignEnd=335688|Gloss=hole_in_wall
+4	ɲólɣə̂n	ɲol	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	3	compound	_	AlignBegin=335688|AlignEnd=335796|Gloss=go_out-Vnoun|wordform=ɲol
+5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=335904|AlignEnd=336120|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_153-153
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
@@ -1085,7 +1093,7 @@
 # text_en = You will see the man losing weight.
 1	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=337040|AlignEnd=337250|Gloss=2Sing.Fut
 2	yeli	yeli	VERB	_	_	1	comp:aux	_	AlignBegin=337250|AlignEnd=337460|Gloss=see
-3	dàːʃès	daː	NOUN	_	Definite=Def	2	comp:obj	_	AlignBegin=337460|AlignEnd=337565|Gloss=person.Def|wordform=daː
+3	dàːʃès	daː	NOUN	_	Definite=Def	4	subj	_	AlignBegin=337460|AlignEnd=337565|Gloss=person.Def|wordform=daː
 4	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	2	comp:obj	_	AlignBegin=337670|AlignEnd=337880|Gloss=3Sing.Fut
 5	gongáríː	gongár	VERB	_	_	4	comp:aux	_	AlignBegin=337880|AlignEnd=337985|Gloss=lose_weight.ACH|Resultative=Yes
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=338090|AlignEnd=338300|Gloss=PUNCT
@@ -1096,22 +1104,22 @@
 # text = yeli yáːwón gyaːgón ʧǎː mbîː kutuŋ dzàŋ ɗə́ːlɣə́n vìː Tʃóknvònès ɗaɣástə́ɗi fupm-fúpm //
 # text_ortho = yeli yáːwón gyaːgón ʧǎː mbîː kutuŋ dzàŋ ɗə́ːlɣə́n vìː Tʃóknvònès ɗaɣástə́ɗi fupmfúpm //
 # text_en = See, today some think that God's Judgement is still far.
-1	yeli	yeli	VERB	_	Mood=Jus	4	discourse	_	AlignBegin=339220|AlignEnd=339470|Gloss=see
+1	yeli	yeli	VERB	_	Mood=Jus	0	root	_	AlignBegin=339220|AlignEnd=339470|Gloss=see
 2	yáːwón	yáːwón	ADV	_	_	4	mod	_	AlignBegin=340840|AlignEnd=341232|Gloss=today
 3	gyaːgón	gón	PRON	_	Definite=Spec|Number=Plur	4	subj	_	AlignBegin=341232|AlignEnd=341624|Gloss=Spec
-4	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=341624|AlignEnd=342016|Gloss=3Plur.Imp
+4	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=341624|AlignEnd=342016|Gloss=3Plur.Imp
 5	mbîː	mbiː	VERB	_	_	4	comp:aux	_	AlignBegin=342016|AlignEnd=342408|Gloss=take
 6	kutuŋ	kutuŋ	SCONJ	_	_	5	comp:obj	_	AlignBegin=342408|AlignEnd=342800|Gloss=as_if
-7	dzàŋ	dzàŋ	NOUN	_	_	6	mod	_	AlignBegin=342800|AlignEnd=343192|Gloss=day
+7	dzàŋ	dzàŋ	NOUN	_	_	11	subj	_	AlignBegin=342800|AlignEnd=343192|Gloss=day
 8	ɗə́ːlɣə́n	ɗəːl	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	7	mod	_	AlignBegin=343192|AlignEnd=343388|Gloss=come_out-Vnoun|wordform=ɗəːl
 9	vìː	vìː	NOUN	_	_	8	compound	_	AlignBegin=343584|AlignEnd=343976|Gloss=speech
-10	Tʃóknvònès	Tʃóknvòn	NOUN	_	_	6	comp:obj	_	AlignBegin=343976|AlignEnd=344172|Gloss=God.Def|wordform=Tʃóknvòn
+10	Tʃóknvònès	Tʃóknvòn	NOUN	_	_	8	mod	_	AlignBegin=343976|AlignEnd=344172|Gloss=God.Def|wordform=Tʃóknvòn
 11-13	ɗaɣástə́ɗi	_	_	_	_	_	_	_	_
-11	ɗaɣás	ɗaɣás	ADP	_	_	6	conj:coord	_	AlignBegin=344368|AlignEnd=344499|Gloss=be_unfinished
+11	ɗaɣás	ɗaɣás	ADP	_	_	6	comp:obj	_	AlignBegin=344368|AlignEnd=344499|Gloss=be_unfinished
 12	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=344499|AlignEnd=344630|Gloss==3Sing.Acc
 13	ɗi	ɗi	PART	_	_	11	compound:prt	_	AlignBegin=344630|AlignEnd=344760|Gloss=CTP|wordform=-ɗi
 14	fupm-fúpm	fupm-fúpm	IDEO	_	_	11	mod	_	AlignBegin=344760|AlignEnd=345152|Gloss=very_far
-15	//	//	PUNCT	_	_	4	punct	_	AlignBegin=345152|AlignEnd=345540|Gloss=PUNCT
+15	//	//	PUNCT	_	_	1	punct	_	AlignBegin=345152|AlignEnd=345540|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_156-157
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
@@ -1123,18 +1131,18 @@
 2	súː	súː	VERB	_	_	1	comp:aux	_	AlignBegin=346987|AlignEnd=347174|Gloss=like ; love ; want
 3	mə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=1	2	comp:obj	_	AlignBegin=347174|AlignEnd=347361|Gloss=1Sing.Sub
 4-5	fúːɣə	_	_	_	_	_	_	_	_
-4	fúː	fuː	VERB	_	_	3	comp:aux	_	AlignBegin=347361|AlignEnd=347455|Gloss=tell
+4	fûː	fuː	VERB	_	_	3	comp:aux	_	AlignBegin=347361|AlignEnd=347455|Gloss=tell
 5	=ɣə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	4	comp:obj@R	_	AlignBegin=347455|AlignEnd=347548|Gloss=2Sing.OBJ
 6	tu	tu	SCONJ	_	_	4	comp:obj@T	_	AlignBegin=347548|AlignEnd=347735|Gloss=COMP
-7	naː	naː	NOUN	_	_	10	dislocated@subj	_	AlignBegin=348900|AlignEnd=349194|Gloss=type
-8	ʤòmʤómi	ʤòmʤómi	NOUN	_	_	6	comp:obj	_	AlignBegin=349194|AlignEnd=349488|Gloss=true
-9	dzàɲès	dzàŋ	NOUN	_	Definite=Def	10	dislocated@subj	_	AlignBegin=349782|AlignEnd=349929|Gloss=day.Def|wordform=dzàŋ
+7	naː	naː	NOUN	_	_	10	mod	_	AlignBegin=348900|AlignEnd=349194|Gloss=type
+8	ʤòmʤómi	ʤòmʤómi	ADJ	_	_	7	mod	_	AlignBegin=349194|AlignEnd=349488|Gloss=true
+9	dzàɲès	dzàŋ	NOUN	_	Definite=Def	10	subj	_	AlignBegin=349782|AlignEnd=349929|Gloss=day.Def|wordform=dzàŋ
 10	yi	yi	VERB	_	_	6	comp:obj	_	AlignBegin=350076|AlignEnd=350370|Gloss=be
-11	mel	mel	ADP	_	_	10	comp:pred	_	AlignBegin=350370|AlignEnd=350664|Gloss=near
+11	mel	mel	ADV	_	_	10	comp:pred	_	AlignBegin=350370|AlignEnd=350664|Gloss=near
 12-13	ɓaskə	_	_	_	_	_	_	_	_
-12	ɓas	ɓas	ADP	_	_	10	comp:pred	_	AlignBegin=350664|AlignEnd=350811|Gloss=at
+12	ɓas	ɓas	ADP	_	_	11	mod	_	AlignBegin=350664|AlignEnd=350811|Gloss=at
 13	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	12	comp:obj	_	AlignBegin=350811|AlignEnd=350958|Gloss=2Sing.OBJ
-14	ɗan	ɗan	ADP	_	ExtPos=ADP	12	comp:obl	_	AlignBegin=350958|AlignEnd=351252|Gloss=like
+14	ɗan	ɗan	ADP	_	ExtPos=ADP	11	mod	_	AlignBegin=350958|AlignEnd=351252|Gloss=like
 15	ʒiptíwâː	ʒiptí	NOUN	_	Poss=Yes	14	comp:obj	_	AlignBegin=351252|AlignEnd=351399|Gloss=shadow.2SingGen|wordform=ʒiptí
 16	//	//	PUNCT	_	_	1	punct	_	AlignBegin=351546|AlignEnd=351840|Gloss=PUNCT
 
@@ -1148,9 +1156,9 @@
 2-3	tulíːɗi	_	_	_	_	_	_	_	_
 2	tulíː	tul	VERB	_	_	1	comp:aux	_	AlignBegin=353348|AlignEnd=353417|Gloss=reach ; pierce.ACH|Resultative=Yes
 3	ɗi	ɗi	PART	_	_	2	compound:prt	_	AlignBegin=353486|AlignEnd=353556|Gloss=CTP|wordform=-ɗi
-4	mel	mel	VERB	_	_	2	mod	_	AlignBegin=353556|AlignEnd=353764|Gloss=near
+4	mel	mel	ADV	_	_	2	mod	_	AlignBegin=353556|AlignEnd=353764|Gloss=near
 5-6	ɓaskə	_	_	_	_	_	_	_	_
-5	ɓas	ɓas	ADP	_	_	4	comp:obl	_	AlignBegin=353764|AlignEnd=353868|Gloss=at
+5	ɓas	ɓas	ADP	_	_	4	mod	_	AlignBegin=353764|AlignEnd=353868|Gloss=at
 6	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	5	comp:obj	_	AlignBegin=353868|AlignEnd=353972|Gloss=2Sing.OBJ
 7	á	ká	ADP	_	_	5	comp:obl	_	AlignBegin=353972|AlignEnd=354180|Gloss=at
 8	kén	kéni	NOUN	_	_	7	comp:obj	_	AlignBegin=354180|AlignEnd=354388|Gloss=front
