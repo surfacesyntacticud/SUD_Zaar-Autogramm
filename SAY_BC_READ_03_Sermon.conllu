@@ -928,42 +928,42 @@
 # sent_id = SAY_BC_READ_03_Sermon_133-136
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 293420, 301200
-# text = wò mbút -íː gwàːm ʧíp á kwáːngə̂n raː nə́ ngə́tn wón ɗan lə̂p yáː ɬǎːy yǎː ʧettə wò kon //
+# text = wò mbuɗíː gwàːm ʧíp á kwáːngə̂n raː nə́ ngə́tn wón ɗan lə̂p yáː ɬǎːy yǎː ʧettə wò kon //
 # text_ortho = wò mbuɗíː gwàːm ʧíp á kwáːngə̂n raː nə́ ngə́tn wón ɗan lə̂p yáː ɬǎːy yǎː ʧéttə̀ wò kon //
 # text_en = He will spend the night without sleeping, thinking about what, the following morning, when they ask him, he will say.
 1	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=293420|AlignEnd=293710|Gloss=3Sing.Fut
 2	mbuɗíː	mbút	VERB	_	_	1	comp:aux	_	AlignBegin=293710|AlignEnd=293855|Gloss=spend_night.ACH|Resultative=Yes|wordform=mbút
-3	gwàːm	gwàːm	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	2	discourse@top	_	AlignBegin=294000|AlignEnd=294290|Gloss=sleepless
-4	ʧíp	ʧíp	IDEO	_	_	2	mod	_	AlignBegin=294290|AlignEnd=294580|Gloss=necessarily
-5	á	ká	ADP	_	_	2	comp:obl	_	AlignBegin=294580|AlignEnd=294870|Gloss=at
+3	gwàːm	gwàːm	ADV	_	_	2	mod	_	AlignBegin=294000|AlignEnd=294290|Gloss=sleepless
+4	ʧíp	ʧíp	IDEO	_	_	3	mod	_	AlignBegin=294290|AlignEnd=294580|Gloss=necessarily
+5	á	ká	ADP	_	_	2	mod	_	AlignBegin=294580|AlignEnd=294870|Gloss=at
 6	kwáːngə̂n	kwáːn	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	5	comp:obj	_	AlignBegin=294870|AlignEnd=295015|Gloss=read-Vnoun|wordform=kwáːn
 7	raː	raː	NOUN	_	_	6	compound	_	AlignBegin=295160|AlignEnd=295450|Gloss=heart
-8	nə́	nə́	ADP	_	_	6	mod	_	AlignBegin=296680|AlignEnd=296858|Gloss=for
+8	nə́	nə́	ADP	_	_	6	comp:obl	_	AlignBegin=296680|AlignEnd=296858|Gloss=for
 9	ngə́tn	ngə́tn	NOUN	_	_	8	comp:obj	_	AlignBegin=296858|AlignEnd=297036|Gloss=thing
 10	wón	wón	DET	_	Definite=Spec	9	det	_	AlignBegin=297036|AlignEnd=297214|Gloss=QLT
 11	ɗan	ɗan	SCONJ	_	_	9	mod@relcl	_	AlignBegin=297214|AlignEnd=297392|Gloss=then
 12	lə̂p	lə̂p	NOUN	_	_	13	subj	_	AlignBegin=297392|AlignEnd=297570|Gloss=place
-13	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	11	comp:obj	_	AlignBegin=297570|AlignEnd=297748|Gloss=3Sing.Cond
+13	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	18	mod	_	AlignBegin=297570|AlignEnd=297748|Gloss=3Sing.Cond
 14	ɬǎːy	ɬaː	VERB	_	_	13	comp:aux	_	AlignBegin=297748|AlignEnd=297837|Gloss=cut.ACH|Resultative=Yes|wordform=ɬaː
-15	yǎː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=3	14	mod	_	AlignBegin=299380|AlignEnd=299620|Gloss=3Plur.Cond
+15	yǎː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=3	18	mod	_	AlignBegin=299380|AlignEnd=299620|Gloss=3Plur.Cond
 16-17	ʧettə	_	_	_	_	_	_	_	_
 16	ʧet	ʧet	VERB	_	_	15	comp:aux	_	AlignBegin=299620|AlignEnd=299740|Gloss=ask
 17	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	16	comp:obj	_	AlignBegin=299740|AlignEnd=299860|Gloss==3Sing.Acc
-18	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	16	comp:obj	_	AlignBegin=300780|AlignEnd=300920|Gloss=3Sing.Fut
-19	kon	kon	VERB	_	_	15	comp:aux	_	AlignBegin=300920|AlignEnd=301060|Gloss=say
+18	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	11	comp:obj	_	AlignBegin=300780|AlignEnd=300920|Gloss=3Sing.Fut
+19	kon	kon	VERB	_	_	18	comp:aux	_	AlignBegin=300920|AlignEnd=301060|Gloss=say
 20	//	//	PUNCT	_	_	1	punct	_	AlignBegin=301060|AlignEnd=301200|Gloss=PUNCT
 
-# sent_id = SAY_BC_READ_03_Sermon_137-140
+# sent_id = SAY_BC_READ_03_Sermon_137-140_split1
+# text = kóː láwya tə́ gamaʃi ʤǎːn yâːn ʧi tə́ ɗə́ːlɣə́n vìː ka yel wò mbút ká waskátkə́n tàgàrdú mari mari //
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
-# sent_timecode = 302400, 312380
-# text = kóː láwya tə́ gamaʃi ʤǎːn yâːn ʧi tə́ ɗə́ːlɣə́n vìː ka yel wò mbút ká waskátkə́n tàgàrdú mari mari ʧáː ŋal tə̀ tú ngə́tn gə́ súɣə̂n //
-# text_ortho = kóː láwya tə́ gamaʃi ʤǎːn yâːn ʧi tə́ ɗə́ːlɣə́n vìː ka yel wò mbút ká waskátkə́n tàgàrdú mari mari ʧáː ŋal tə̀ tú ngə́tn gə́ súɣə̂n //
-# text_en = Even a lawyer himself, if tomorrow he has a trial, you will see him spending the night reading all sorts of books, looking for something to answer.
-1	kóː	kóː	CCONJ	_	_	11	cc@preconj	_	AlignBegin=302400|AlignEnd=302632|Gloss=even
+# sent_timecode = 302400, 310224
+# text_ortho = kóː láwya tə́ gamaʃi ʤǎːn yâːn ʧi tə́ ɗə́ːlɣə́n vìː ka yel wò mbút ká waskátkə́n tàgàrdú mari mari //
+# text_en = Even a lawyer himself, if tomorrow he has a trial, you will see him spending the night reading all sorts of books.
+1	kóː	kóː	ADV	_	_	2	mod	_	AlignBegin=302400|AlignEnd=302632|Gloss=even
 2	láwya	láwya	NOUN	_	_	11	dislocated@top	_	AlignBegin=302632|AlignEnd=302864|Gloss=lawyer
 3	tə́	tə́	ADP	_	_	2	mod	_	AlignBegin=302864|AlignEnd=303096|Gloss=with
 4	gamaʃi	gamaʃi	ADP	_	_	3	comp:obj	_	AlignBegin=303096|AlignEnd=303328|Gloss=3Sing.REFL
-5	ʤǎːn	ʤǎːn	ADV	_	_	4	mod	_	AlignBegin=304460|AlignEnd=304703|Gloss=tomorrow
+5	ʤǎːn	ʤǎːn	ADV	_	_	11	mod	_	AlignBegin=304460|AlignEnd=304703|Gloss=tomorrow
 6	yâːn	yâːn	SCONJ	_	_	11	mod	_	AlignBegin=304703|AlignEnd=304946|Gloss=if
 7	ʧi	yi	AUX	_	_	6	comp:obj	_	AlignBegin=304946|AlignEnd=305189|Gloss=3Sing.be|wordform=yi
 8	tə́	tə́	ADP	_	_	7	comp:pred	_	AlignBegin=305189|AlignEnd=305432|Gloss=with
@@ -973,19 +973,27 @@
 12	yel	yeli	VERB	_	_	11	comp:aux	_	AlignBegin=307856|AlignEnd=308152|Gloss=see
 13	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	12	comp:obj	_	AlignBegin=308152|AlignEnd=308448|Gloss=3Sing.Fut
 14	mbút	mbút	VERB	_	_	13	comp:aux	_	AlignBegin=308448|AlignEnd=308744|Gloss=spend_night
-15	ká	ká	ADP	_	_	14	comp:obl	_	AlignBegin=308744|AlignEnd=309040|Gloss=at
+15	ká	ká	ADP	_	_	14	mod	_	AlignBegin=308744|AlignEnd=309040|Gloss=at
 16	waskátkə́n	waskát	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	15	comp:obj	_	AlignBegin=309040|AlignEnd=309188|Gloss=find_out-Vnoun|wordform=waskát
-17	tàgàrdú	tàgàrdú	NOUN	_	_	16	mod	_	AlignBegin=309336|AlignEnd=309632|Gloss=paper.Plur
+17	tàgàrdú	tàgàrdú	NOUN	_	_	16	udep	_	AlignBegin=309336|AlignEnd=309632|Gloss=paper.Plur
 18	mari	mari	ADJ	_	_	17	mod	_	AlignBegin=309632|AlignEnd=309928|Gloss=different
-19	mari	mari	AUX	_	_	18	mod	_	AlignBegin=309928|AlignEnd=310224|Gloss=different
-20	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	11	conj:coord	_	AlignBegin=311020|AlignEnd=311190|Gloss=3Sing.Imp
-21	ŋal	ŋal	VERB	_	_	20	comp:aux	_	AlignBegin=311190|AlignEnd=311360|Gloss=look_for
-22	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	21	comp:obj	_	AlignBegin=311360|AlignEnd=311530|Gloss=3Sing.Sub
-23	tú	tu	VERB	_	_	22	comp:aux	_	AlignBegin=311530|AlignEnd=311700|Gloss=get
-24	ngə́tn	ngə́tn	NOUN	_	Definite=Cons	23	comp:obj	_	AlignBegin=311700|AlignEnd=311870|Gloss=thing
-25	gə́	kə́	ADP	_	_	23	comp:obj	_	AlignBegin=311870|AlignEnd=312040|Gloss=of|nWord=28|RX=[PTCL]
-26	súɣə̂n	su	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	25	comp:obj	_	AlignBegin=312040|AlignEnd=312125|Gloss=answer-Vnoun|wordform=su
-27	//	//	PUNCT	_	_	11	punct	_	AlignBegin=312210|AlignEnd=312380|Gloss=PUNCT
+19	mari	mari	ADJ	_	_	18	conj:redup	_	AlignBegin=309928|AlignEnd=310224|Gloss=different
+20	//	//	PUNCT	_	_	11	punct	_	AlignBegin=309928|AlignEnd=310224|Gloss=PUNCT
+
+# sent_id = SAY_BC_READ_03_Sermon_137-140_split2
+# text = ʧáː ŋal tə̀ tú ngə́tn gə́ súɣə̂n //
+# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
+# sent_timecode = 310224, 312380
+# text_ortho = ʧáː ŋal tə̀ tú ngə́tn gə́ súɣə̂n //
+# text_en = He is looking for something to answer.
+1	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=311020|AlignEnd=311190|Gloss=3Sing.Imp
+2	ŋal	ŋal	VERB	_	_	1	comp:aux	_	AlignBegin=311190|AlignEnd=311360|Gloss=look_for
+3	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	2	comp:obj	_	AlignBegin=311360|AlignEnd=311530|Gloss=3Sing.Sub
+4	tú	tu	VERB	_	_	3	comp:aux	_	AlignBegin=311530|AlignEnd=311700|Gloss=get
+5	ngə́tn	ngə́tn	NOUN	_	Definite=Cons	4	comp:obj	_	AlignBegin=311700|AlignEnd=311870|Gloss=thing
+6	gə́	kə́	ADP	_	_	5	mod	_	AlignBegin=311870|AlignEnd=312040|Gloss=of|nWord=28|RX=[PTCL]
+7	súɣə̂n	su	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	6	comp:obj	_	AlignBegin=312040|AlignEnd=312125|Gloss=answer-Vnoun|wordform=su
+8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=312210|AlignEnd=312380|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_141-142
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
@@ -1004,11 +1012,11 @@
 8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=315580|AlignEnd=315740|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_143-143
+# text = ʧáː súː tə̀ lìːtíː hŋ́ //
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 316600, 317720
-# text = ʧáː súː tə̀ lìːtíː hŋ́ //
 # text_ortho = ʧáː súː tə̀ lìːtíː hŋ́ //
-# text_en = He doesn't want to be defeated.
+# text_en = He doesn't want them to defeat him.
 1	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=316600|AlignEnd=316787|Gloss=3Sing.Imp
 2	súː	súː	VERB	_	_	1	comp:aux	_	AlignBegin=316787|AlignEnd=316974|Gloss=like ; love ; want
 3	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	2	comp:obj	_	AlignBegin=316974|AlignEnd=317161|Gloss=3Plur.Sub
@@ -1021,34 +1029,35 @@
 # sent_id = SAY_BC_READ_03_Sermon_144-149
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 318600, 331020
-# text = kóːnúː yáː yîsə́ŋíː tu ʧi tə́ ɗə́ːlɣə́n vìː mel á kénwòs tòː ká mbútkə̂n gíː wò vúːy ndzárt wò máni dap nda kúʧi ɗa hŋ́
+# text = kóːnúː yáː yîsə́ŋíː tu ʧi tə́ ɗə́ːlɣə́n vìː mel á kénwòs tôː á mbútkə̂n gíː wò vúːy ndzárt wò mán dap nda kúʧi ɗa hŋ́ //
 # text_ortho = kóːnúː yáː yîsə́ŋíː tu ʧi tə́ ɗə́ːlɣə́n vìː mel á kénwòs tôː á mbútkə̂n gíː wò vúːy ndzárt wò mán dap nda kúʧi ɗa hŋ́ /
 # text_en = If anyone knows that he has a trial coming soon, the days before, he will be really worried, he won't be able to sleep.
 1	kóːnúː	kóːnúː	PRON	_	_	2	subj	_	AlignBegin=318600|AlignEnd=318852|Gloss=everyone
-2	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	0	root	_	AlignBegin=318852|AlignEnd=319104|Gloss=3Sing.Cond
+2	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	16	mod	_	AlignBegin=318852|AlignEnd=319104|Gloss=3Sing.Cond
 3	yîsə́ŋíː	yisə́ŋ	VERB	_	_	2	comp:aux	_	AlignBegin=319104|AlignEnd=319230|Gloss=know.ACH|Resultative=Yes|wordform=yisə́ŋ
 4	tu	tu	SCONJ	_	_	3	comp:obj	_	AlignBegin=319356|AlignEnd=319608|Gloss=COMP
 5	ʧi	yi	AUX	_	_	4	comp:obj	_	AlignBegin=321260|AlignEnd=321476|Gloss=3Sing.be|wordform=yi
-6	tə́	á	ADP	_	_	5	comp:pred	_	AlignBegin=321476|AlignEnd=321692|Gloss=with
+6	tə́	tə́	ADP	_	_	5	comp:pred	_	AlignBegin=321476|AlignEnd=321692|Gloss=with
 7	ɗə́ːlɣə́n	ɗəːl	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	6	comp:obj	_	AlignBegin=321692|AlignEnd=321800|Gloss=come_out-Vnoun|wordform=ɗəːl
 8	vìː	vìː	NOUN	_	_	7	compound	_	AlignBegin=321908|AlignEnd=322124|Gloss=speech
-9	mel	mel	ADP	_	_	4	mod	_	AlignBegin=323100|AlignEnd=323305|Gloss=near
-10	á	ká	ADP	_	_	9	mod	_	AlignBegin=323305|AlignEnd=323510|Gloss=at
+9	mel	mel	ADV	_	_	5	mod	_	AlignBegin=323100|AlignEnd=323305|Gloss=near
+10	á	ká	ADP	_	_	5	mod	_	AlignBegin=323305|AlignEnd=323510|Gloss=at
 11	kénwòs	kéni	NOUN	_	Poss=Yes	10	comp:obj	_	AlignBegin=323510|AlignEnd=323612|Gloss=front.3SingGen|wordform=kéni
-12	tòː	tòː	PART	_	_	13	discourse	_	AlignBegin=325400|AlignEnd=325624|Gloss=DM
-13	ká	a	AUX	_	Number=Plur|Person=2|Tense=Fut	4	comp:obj	_	AlignBegin=325624|AlignEnd=325848|Gloss=at
-14	mbútkə̂n	mbút	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	13	comp:aux	_	AlignBegin=325848|AlignEnd=325960|Gloss=spend_night-Vnoun|wordform=mbút
-15	gíː	gíː	PRON	_	Definite=Anaph|PronType=Dem	14	comp:obj	_	AlignBegin=326072|AlignEnd=326296|Gloss=PRM
-16	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	13	parataxis	_	AlignBegin=327240|AlignEnd=327415|Gloss=3Sing.Fut
+12	tôː	tôː	PART	_	_	16	discourse	_	AlignBegin=325400|AlignEnd=325624|Gloss=DM
+13	á	ká	ADP	_	_	16	mod	_	AlignBegin=325624|AlignEnd=325848|Gloss=at
+14	mbútkə̂n	mbút	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	13	comp:obj	_	AlignBegin=325848|AlignEnd=325960|Gloss=spend_night-Vnoun|wordform=mbút
+15	gíː	gíː	DET	_	Definite=Anaph|PronType=Dem	14	det	_	AlignBegin=326072|AlignEnd=326296|Gloss=PRM
+16	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=327240|AlignEnd=327415|Gloss=3Sing.Fut
 17	vúːy	vuː	VERB	_	_	16	comp:aux	_	AlignBegin=327415|AlignEnd=327503|Gloss=bother.ACH|Resultative=Yes
-18	ndzárt	ndzárt	NOUN	_	_	21	comp:obj	_	AlignBegin=327590|AlignEnd=327765|Gloss=much
-19	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	13	conj:coord	_	AlignBegin=329760|AlignEnd=329918|Gloss=3Sing.Fut
-20	máni	máni	VERB	_	_	19	comp:aux	_	AlignBegin=329918|AlignEnd=330076|Gloss=come
+18	ndzárt	ndzárt	IDEO	_	_	17	mod	_	AlignBegin=327590|AlignEnd=327765|Gloss=much
+19	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	16	parataxis	_	AlignBegin=329760|AlignEnd=329918|Gloss=3Sing.Fut
+20	mán	máni	VERB	_	_	19	comp:aux	_	AlignBegin=329918|AlignEnd=330076|Gloss=come
 21	dap	dap	VERB	_	_	20	compound:svc	_	AlignBegin=330076|AlignEnd=330234|Gloss=set
-22	nda	nda	VERB	_	_	20	compound:svc	_	AlignBegin=330234|AlignEnd=330392|Gloss=enter
-23	kúʧi	kúʧi	NOUN	_	_	22	comp:obj	_	AlignBegin=330392|AlignEnd=330550|Gloss=sleep
+22	nda	nda	VERB	_	_	21	compound:svc	_	AlignBegin=330234|AlignEnd=330392|Gloss=enter
+23	kúʧi	kúʧi	NOUN	_	_	22	comp:obj@lvc	_	AlignBegin=330392|AlignEnd=330550|Gloss=sleep
 24	ɗa	ɗa	ADV	_	_	22	mod	_	AlignBegin=330550|AlignEnd=330708|Gloss=again
-25	hŋ́	hŋ́	PART	_	Polarity=Neg	20	mod	_	AlignBegin=330708|AlignEnd=330866|Gloss=NEG2
+25	hŋ́	hŋ́	PART	_	Polarity=Neg	19	mod	_	AlignBegin=330708|AlignEnd=330866|Gloss=NEG2
+26	//	//	PART	_	_	16	punct	_	AlignBegin=330708|AlignEnd=330866|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_150-152
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
