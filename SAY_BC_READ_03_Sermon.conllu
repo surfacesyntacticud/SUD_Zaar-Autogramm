@@ -264,8 +264,8 @@
 31	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	30	comp:obj	_	AlignBegin=73604|AlignEnd=73676|Gloss=3Plur.Obj
 32	=wáːsə̀ŋə́y	=wáːsə̀ŋə́y	PRON	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	30	discourse@top	_	AlignBegin=73604|AlignEnd=73676|Gloss=3PlurGen.ACH|Resultative=Yes|wordform==ʃí
 33	nə́	nə́	ADP	_	ExtPos=SCONJ	17	mod	_	AlignBegin=75080|AlignEnd=75232|Gloss=for|Idiom=Yes
-34	dur	dur	ADP	_	_	33	unk	_	AlignBegin=75232|AlignEnd=75384|Gloss=cause|InIdiom=Yes
-35	ɣə́	kə́	ADP	_	_	34	unk	_	AlignBegin=75384|AlignEnd=75536|Gloss=of|InIdiom=Yes
+34	dur	dur	ADP	_	_	33	comp:obj	_	AlignBegin=75232|AlignEnd=75384|Gloss=cause|InIdiom=Yes
+35	ɣə́	kə́	ADP	_	_	34	mod	_	AlignBegin=75384|AlignEnd=75536|Gloss=of|InIdiom=Yes
 36	tu	tu	SCONJ	_	_	35	unk	_	AlignBegin=75536|AlignEnd=75688|Gloss=COMP|InIdiom=Yes
 37	gyaːgón	gón	PRON	_	Definite=Spec|Number=Plur	38	subj	_	AlignBegin=77200|AlignEnd=77520|Gloss=Spec
 38	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	33	comp:obj	_	AlignBegin=78680|AlignEnd=78863|Gloss=3Plur.Imp
@@ -697,8 +697,8 @@
 # text_ortho = yâːn dur ɣə́ saɣátkə̂n saɣátkə̂n zaːr ɗeɓát ká mbəs kə́ Tʃóknvòn //
 # text_en = Talking of wisdom, all the wisdom of men stands in one of God's nails.
 1	yâːn	yâːn	PRON	_	Number=Sing|Person=3|PronType=Prs	8	dislocated@top	_	AlignBegin=216420|AlignEnd=216668|Gloss=if
-2	dur	dur	ADP	_	ExtPos=ADP	8	dislocated@top	_	AlignBegin=216668|AlignEnd=216916|Gloss=occasion|Idiom=Yes
-3	ɣə́	kə́	ADP	_	_	2	unk	_	AlignBegin=216916|AlignEnd=217164|Gloss=of|InIdiom=Yes|nWord=3|RX=[PTCL]
+2	dur	dur	NOUN	_	ExtPos=ADP	8	dislocated@top	_	AlignBegin=216668|AlignEnd=216916|Gloss=cause|Idiom=Yes
+3	ɣə́	kə́	ADP	_	_	2	mod	_	AlignBegin=216916|AlignEnd=217164|Gloss=of|InIdiom=Yes|nWord=3|RX=[PTCL]
 4	saɣátkə̂n	saɣát	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	2	comp:obj	_	AlignBegin=217164|AlignEnd=217288|Gloss=be_wise-Vnoun|wordform=saɣát
 5	saɣátkə̂n	saɣát	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	conj:redup	_	AlignBegin=218500|AlignEnd=218640|Gloss=be_wise-Vnoun|wordform=saɣát
 6	zaːr	zaːr	NOUN	_	_	4	mod	_	AlignBegin=218780|AlignEnd=219060|Gloss=person
@@ -747,8 +747,8 @@
 # text_ortho = nə́ dur ɣə́ tu tákwáːrà ʧi ʧoɣn longa ʧi gòs yâːɬ ɓurúk ngə́tn wón ɗan longa ʧáː fi tákwáːrà ʧi ɓastə yélɣə̂n ɗeɓát //
 # text_en = Because the bush fowl is in the sky and the rabbit is on the ground, everything that the rabbit does, the bush fowl sees it all.
 1	nə́	nə́	ADP	_	ExtPos=SCONJ	20	mod	_	AlignBegin=230840|AlignEnd=230996|Gloss=for|Idiom=Yes
-2	dur	dur	ADP	_	_	1	unk	_	AlignBegin=230996|AlignEnd=231152|Gloss=occasion|InIdiom=Yes
-3	ɣə́	kə́	ADP	_	_	2	unk	_	AlignBegin=231152|AlignEnd=231308|Gloss=of|InIdiom=Yes
+2	dur	dur	ADP	_	_	1	comp:obj	_	AlignBegin=230996|AlignEnd=231152|Gloss=cause|InIdiom=Yes
+3	ɣə́	kə́	ADP	_	_	2	mod	_	AlignBegin=231152|AlignEnd=231308|Gloss=of|InIdiom=Yes
 4	tu	tu	SCONJ	_	_	3	unk	_	AlignBegin=231308|AlignEnd=231464|Gloss=COMP|InIdiom=Yes
 5	tákwáːrà	tákwáːrà	NOUN	_	Definite=Cons	6	subj	_	AlignBegin=232540|AlignEnd=232820|Gloss=bush_fowl
 6	ʧi	yi	AUX	_	_	1	comp:obj	_	AlignBegin=233960|AlignEnd=234160|Gloss=3Sing.be|wordform=yi
@@ -815,7 +815,7 @@
 # text_ortho = nə́ dur ɣə́ gíː yáːn ɮàrwàː tu kyáː fi kúskə̀ raː nə mə́ːri gón ʧáː yelɣə hŋ́ kóːgón yîsə́ŋ hŋ́ ɗangəní ɓitálɣə tu ɗeɓát ríːɣə̂nwàː Tʃóknvòn ʧi ɓaskə yélɣə̂n //
 # text_en = Because of that, if you are wont to do evil in secret, secretly, without anyone seeing you without anyone knowing about it, now, ask yourself if all your wanderings, God does not see you.
 1	nə́	nə́	ADP	_	ExtPos=ADV	23	mod	_	AlignBegin=251660|AlignEnd=251828|Gloss=for|Idiom=Yes
-2	dur	dur	VERB	_	_	1	comp:obj	_	AlignBegin=251828|AlignEnd=251996|Gloss=occasion|InIdiom=Yes
+2	dur	dur	VERB	_	_	1	comp:obj	_	AlignBegin=251828|AlignEnd=251996|Gloss=cause|InIdiom=Yes
 3	ɣə́	kə́	ADP	_	_	2	comp:obj	_	AlignBegin=251996|AlignEnd=252164|Gloss=of|InIdiom=Yes|nWord=3|RX=[PTCL]
 4	gíː	gíː	PRON	_	Definite=Anaph|PronType=Dem	3	comp:obj	_	AlignBegin=252164|AlignEnd=252332|Gloss=PRM|InIdiom=Yes
 5	yâːn	yâːn	SCONJ	_	_	23	mod	_	AlignBegin=253380|AlignEnd=253625|Gloss=if
@@ -1228,7 +1228,7 @@
 5	ndə̀ːr	ndəːr	VERB	_	_	4	comp:aux	_	AlignBegin=374245|AlignEnd=374510|Gloss=repair
 6	tsə́tngə́nwôpíː	tsə́tn	VERB	_	ExtPos=NOUN|Poss=Yes|VerbForm=Vnoun	5	comp:obj	_	AlignBegin=374510|AlignEnd=374576|Gloss=sit-Vnoun.1PlurGen.ACH|Resultative=Yes|wordform=tsə́tn
 7	nə́	nə́	ADP	_	ExtPos=SCONJ	5	mod	_	AlignBegin=375920|AlignEnd=376080|Gloss=for|Idiom=Yes
-8	dur	dur	NOUN	_	_	7	comp:obj	_	AlignBegin=376080|AlignEnd=376240|Gloss=occasion|InIdiom=Yes
+8	dur	dur	NOUN	_	_	7	comp:obj	_	AlignBegin=376080|AlignEnd=376240|Gloss=cause|InIdiom=Yes
 9	ɣə́	kə́	ADP	_	_	8	mod	_	AlignBegin=376240|AlignEnd=376400|Gloss=of|InIdiom=Yes|nWord=11|RX=[PTCL]
 10	tu	tu	PART	_	_	9	unk	_	AlignBegin=376400|AlignEnd=376560|Gloss=COMP
 11	máːɣə̂n	máni	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	13	subj	_	AlignBegin=377960|AlignEnd=378154|Gloss=come-Vnoun|wordform=máni
@@ -1278,7 +1278,7 @@
 5	yǐr	yír	VERB	_	_	4	comp:aux	_	AlignBegin=390388|AlignEnd=390705|Gloss=have
 6	ɬyaːɬyáː	ɬyaːɬyáː	IDEO	_	_	1	mod	_	AlignBegin=390705|AlignEnd=391022|Gloss=tightly
 7	nə́	nə́	ADP	_	ExtPos=SCONJ	1	mod	_	AlignBegin=392600|AlignEnd=392756|Gloss=for|Idiom=Yes
-8	dur	dur	NOUN	_	_	7	comp:obj	_	AlignBegin=392756|AlignEnd=392912|Gloss=occasion|InIdiom=Yes
+8	dur	dur	NOUN	_	_	7	comp:obj	_	AlignBegin=392756|AlignEnd=392912|Gloss=cause|InIdiom=Yes
 9	ɣə́	kə́	ADP	_	_	8	mod	_	AlignBegin=392912|AlignEnd=393068|Gloss=of|InIdiom=Yes|nWord=10
 10	tu	tu	SCONJ	_	_	9	unk	_	AlignBegin=393068|AlignEnd=393224|Gloss=COMP|InIdiom=Yes
 11	káɗâ	káɗâ	ADV	_	_	13	mod	_	AlignBegin=394700|AlignEnd=394893|Gloss=NEG3
@@ -1418,10 +1418,10 @@
 22	//	//	PUNCT	_	_	2	punct	_	AlignBegin=440618|AlignEnd=440800|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_198-205_206-207
-# text = dzàŋ ɗə́ːlɣə́n vèːs kúni ʧoɣn Yéːsu gíː ɗan wò ɗəːlmí vèːs mə́níː wò taʧí tsə́tnni ká dàndàl kap kə́ ɗə́ːlɣə́n vèːs //= tòː ɓəːlmíwôpíː də̀nì mbə́ɬəŋ gyaːgón gá zàːri gyaːgón gá napti //
+# text = dzàŋ ɗə́ːlɣə́n vèːs kúni Tʃoɣn Yéːsu gíː ɗan wò ɗəːlmí vèːs mə́níː wò taʧí tsə́tnni ɣá dàndàl kap kə́ ɗə́ːlɣə́n vèːs //= tòː ɓəːlmíwôpíː də̀nì mbə́ɬəŋ gyaːgón gá zàːri gyaːgón gá napti //
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 441360, 462460
-# text_ortho = dzàŋ ɗə́ːlɣə́n vèːs kúni ʧoɣn Yéːsu gíː ɗan wò ɗəːlmí vèːs məníː wò taʧí tsə́tnni ká dàndàl kap kə́ ɗə́ːlɣə́n vèːs /tôː ɓəːlmíwôpíː də̀nì mbə́ɬəŋ / gyaːgón gá zàːri gyaːgón gá napti //
+# text_ortho = dzàŋ ɗə́ːlɣə́n vèːs kúni ʧoɣn Yéːsu gíː ɗan wò ɗəːlmí vèːs məníː wò taʧí tsə́tnni ɣá dàndàl kap kə́ ɗə́ːlɣə́n vèːs /tôː ɓəːlmíwôpíː də̀nì mbə́ɬəŋ / gyaːgón gá zàːri gyaːgón gá napti //
 # text_en = On the day of Judgement, the Son of God (Jesus), the one who will judge us, who will rise and sit on the throne of Judgement, he will divide us in two parts: some on the right, others on the left.
 1	dzàŋ	dzàŋ	NOUN	_	_	14	mod	_	AlignBegin=441360|AlignEnd=441675|Gloss=day
 2	ɗə́ːlɣə́n	ɗəːl	VERB	_	_	1	mod	_	AlignBegin=441675|AlignEnd=441833|Gloss=come_out-Vnoun|wordform=ɗəːl
@@ -1429,7 +1429,7 @@
 4	kúni	kúni	NOUN	_	_	14	subj	_	AlignBegin=443900|AlignEnd=444167|Gloss=boy
 5	Tʃoɣn	Tʃoɣn	PROPN	_	_	4	mod	_	AlignBegin=444167|AlignEnd=444434|Gloss=God|wordform=ʧoɣn
 6	Yéːsu	Yéːsu	PROPN	_	_	4	conj:appos	_	AlignBegin=445260|AlignEnd=445510|Gloss=Jesus
-7	gíː	gíː	DET	_	Definite=Anaph|PronType=Dem	6	conj:appos	_	AlignBegin=447240|AlignEnd=447563|Gloss=PRM
+7	gíː	gíː	PRON	_	Definite=Anaph|PronType=Dem	6	conj:appos	_	AlignBegin=447240|AlignEnd=447563|Gloss=PRM
 8	ɗan	ɗan	SCONJ	_	_	7	mod@relcl	_	AlignBegin=447563|AlignEnd=447886|Gloss=that
 9	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	8	comp:obj	_	AlignBegin=447886|AlignEnd=448209|Gloss=3Sing.Fut
 10-11	ɗəːlmí	_	_	_	_	_	_	_	_
@@ -1442,11 +1442,11 @@
 16-17	tsə́tnni	_	_	_	_	_	_	_	_
 16	tsə́tn	tsə́tn	ADV	_	_	15	comp:obj	_	AlignBegin=451940|AlignEnd=452065|Gloss=sit
 17	ni	ni	PART	_	_	16	compound:prt	_	AlignBegin=452065|AlignEnd=452190|Gloss=Iter|wordform=-ni
-18	ká	ká	ADP	_	_	15	comp:obl	_	AlignBegin=452190|AlignEnd=452440|Gloss=at
+18	ɣá	ká	ADP	_	_	15	comp:obl	_	AlignBegin=452190|AlignEnd=452440|Gloss=at
 19	dàndàl	dàndàl	NOUN	_	_	18	comp:obj	_	AlignBegin=452440|AlignEnd=452690|Gloss=bed
-20	kap	kap	ADP	_	_	19	mod	_	AlignBegin=453540|AlignEnd=453892|Gloss=take
-21	kə́	á	ADP	_	_	20	comp:obj	_	AlignBegin=453892|AlignEnd=454244|Gloss=of|nWord=24|RX=[PTCL]
-22	ɗə́ːlɣə́n	ɗəːl	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	21	comp:obj	_	AlignBegin=454244|AlignEnd=454420|Gloss=come_out-Vnoun|wordform=ɗəːl
+20	kap	kap	ADP	_	ExtPos=ADP	19	mod	_	AlignBegin=453540|AlignEnd=453892|Gloss=take|Idiom=Yes
+21	kə́	kə́	ADP	_	_	20	comp:obj	_	AlignBegin=453892|AlignEnd=454244|Gloss=of|InIdiom=Yes|nWord=24|RX=[PTCL]
+22	ɗə́ːlɣə́n	ɗəːl	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	20	comp:obj	_	AlignBegin=454244|AlignEnd=454420|Gloss=come_out-Vnoun|wordform=ɗəːl
 23	vèːs	vìː	NOUN	_	Definite=Def	22	compound	_	AlignBegin=454596|AlignEnd=454772|Gloss=speech.Def|wordform=vìː
 24	//=	//=	PUNCT	_	_	26	punct	_	AlignBegin=454948|AlignEnd=455300|Gloss=PUNCT
 25	tòː	tòː	PART	_	_	26	discourse	_	AlignBegin=456160|AlignEnd=456453|Gloss=DM
@@ -1456,7 +1456,7 @@
 28	=wôpíː	=wôpíː	PRON	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	26	discourse@top	_	AlignBegin=456526|AlignEnd=456599|Gloss=1PlurGen.ACH|Resultative=Yes
 29	də̀nì	də̀n	NOUN	_	Definite=Ind	26	comp:pred	_	AlignBegin=457840|AlignEnd=457944|Gloss=compound.Ind|wordform=də̀n
 30	mbə́ɬəŋ	mbə́ɬəŋ	NUM	_	_	29	mod:num	_	AlignBegin=458047|AlignEnd=458254|Gloss=two
-31	gyaːgón	gón	PRON	_	Definite=Spec|Number=Plur	29	conj:appos	_	AlignBegin=459580|AlignEnd=459825|Gloss=Spec
+31	gyaːgón	gón	PRON	_	Definite=Spec|Number=Plur	29	parataxis:insert	_	AlignBegin=459580|AlignEnd=459825|Gloss=Spec
 32	gá	ká	ADP	_	Number=Plur|Person=2|Tense=Fut	31	mod	_	AlignBegin=459825|AlignEnd=460070|Gloss=at
 33	zàːri	zaːr	NOUN	_	_	32	comp:obj	_	AlignBegin=460070|AlignEnd=460315|Gloss=right
 34	gyaːgón	gón	PRON	_	Definite=Spec|Number=Plur	31	conj:coord	_	AlignBegin=461580|AlignEnd=461800|Gloss=Spec
@@ -1465,29 +1465,29 @@
 37	//	//	PUNCT	_	_	14	punct	_	AlignBegin=462240|AlignEnd=462460|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_208-212
+# text = wò wul mə́n zàːríː tu mànə́n ɗûːn á də̀n gə̀ daː gə̀tíː gíː ɗan mə ndəːr nə́ durwâːníː //
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 464040, 474240
-# text = wò wul mə́n zàːríː tu mànə́n ɗûːn á də̀n gə̀ daː gə̀tíː gíː ɗan mə ndəːr nə́ durwâːníː //
 # text_ortho = wò wul mə́n zàːríː tu mànə́n ɗûːn á də̀n gə̀ dàːgə̀tíː gíː ɗan mə ndə́ːr nə́ durwâːníː //
-# text_en = He will say to those on his right "Come here to my Father's house which we have prepared for you."
+# text_en = He will say to those on his right "Come here to my Father's house which we have prepared because of you."
 1	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=464040|AlignEnd=464210|Gloss=3Sing.Fut
 2	wul	wul	VERB	_	_	1	comp:aux	_	AlignBegin=464210|AlignEnd=464380|Gloss=say
 3	mə́n	mə́n	NOUN	_	Number=Plur	2	comp:obj@R	_	AlignBegin=464380|AlignEnd=464550|Gloss=people
 4	zàːríː	zàːri	NOUN	_	Definite=Anaph	3	compound	_	AlignBegin=464550|AlignEnd=464635|Gloss=right.PRM|wordform=zàːri
 5	tu	tu	SCONJ	_	_	2	comp:obj@T	_	AlignBegin=464720|AlignEnd=464890|Gloss=COMP
 6	mànə́n	man	VERB	_	_	5	comp:obj	_	AlignBegin=466460|AlignEnd=466580|Gloss=come.Plur.Juss|wordform=man
-7	ɗûːn	ɗúːni	ADV	_	_	6	mod	_	AlignBegin=466700|AlignEnd=466940|Gloss=here
+7	ɗûːn	ɗúːni	ADV	_	_	6	comp:obj@G	_	AlignBegin=466700|AlignEnd=466940|Gloss=here
 8	á	ká	ADP	_	_	6	comp:obl	_	AlignBegin=468340|AlignEnd=468528|Gloss=at
 9	də̀n	də̀n	NOUN	_	_	8	comp:obj	_	AlignBegin=468528|AlignEnd=468716|Gloss=compound
 10	gə̀	kə́	ADP	_	_	9	mod	_	AlignBegin=468716|AlignEnd=468904|Gloss=of|nWord=12|RX=[PTCL]
 11	daː	daː	VERB	_	_	10	comp:obj	_	AlignBegin=468904|AlignEnd=468967|Gloss=father
 12	gə̀tíː	gə̀tn	PRON	_	Case=Gen|Definite=Anaph|Number=Sing|Person=1|PronType=Prs	11	mod@poss	_	AlignBegin=468967|AlignEnd=469030|Gloss=1SingGen.PRM|wordform==gə̀tn
-13	gíː	gíː	DET	_	Definite=Anaph|PronType=Dem	9	det	_	AlignBegin=471000|AlignEnd=471208|Gloss=PRM
-14	ɗan	ɗan	SCONJ	_	_	9	mod@relcl	_	AlignBegin=471208|AlignEnd=471416|Gloss=that
+13	gíː	gíː	PRON	_	Definite=Anaph|PronType=Dem	9	conj:appos	_	AlignBegin=471000|AlignEnd=471208|Gloss=PRM
+14	ɗan	ɗan	SCONJ	_	_	13	mod@relcl	_	AlignBegin=471208|AlignEnd=471416|Gloss=that
 15	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	14	comp:obj	_	AlignBegin=471416|AlignEnd=471624|Gloss=1Sing.Aor
 16	ndəːr	ndəːr	VERB	_	_	15	comp:aux	_	AlignBegin=471624|AlignEnd=471832|Gloss=prepare
 17	nə́	nə́	ADP	_	_	16	comp:obl	_	AlignBegin=473380|AlignEnd=473667|Gloss=for
-18	durwâːníː	dur	NOUN	_	Poss=Yes	17	comp:obj	_	AlignBegin=473667|AlignEnd=473763|Gloss=occasion.2PlurGen.ACH|Resultative=Yes|wordform=dur
+18	durwâːníː	dur	NOUN	_	Poss=Yes	17	comp:obj	_	AlignBegin=473667|AlignEnd=473763|Gloss=cause.2PlurGen.ACH|Resultative=Yes|wordform=dur
 19	//	//	PUNCT	_	_	1	punct	_	AlignBegin=473954|AlignEnd=474240|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_213-221
@@ -1577,7 +1577,7 @@
 31	ndəːr	ndəːr	VERB	_	_	30	comp:aux	_	AlignBegin=509748|AlignEnd=509926|Gloss=prepare
 32	=tə	=tə	PRON	_	Gender=Masc|Person=3|PronType=Prs	31	comp:obj	_	AlignBegin=509926|AlignEnd=510104|Gloss=3Masc.Obj
 33	nə́	nə́	ADP	_	ExtPos=ADP	31	comp:obl	_	AlignBegin=510104|AlignEnd=510460|Gloss=for
-34	dur	dur	NOUN	_	_	33	unk	_	AlignBegin=510460|AlignEnd=510816|Gloss=occasion
+34	dur	dur	NOUN	_	_	33	unk	_	AlignBegin=510460|AlignEnd=510816|Gloss=cause
 35	ɣə́	kə́	ADP	_	_	34	unk	_	AlignBegin=510816|AlignEnd=511172|Gloss=of|nWord=35|RX=[PTCL]
 36	ʃèːtân	ʃèːtân	PROPN	_	_	33	comp:obj	_	AlignBegin=511172|AlignEnd=511528|Gloss=Satan
 37	tə́	tə́	CCONJ	_	_	38	cc	_	AlignBegin=513060|AlignEnd=513367|Gloss=with
@@ -1880,14 +1880,14 @@
 12	=ɣə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	11	comp:obj@R	_	AlignBegin=611471|AlignEnd=611552|Gloss=2Sing.OBJ
 13	hŋ́	hŋ́	PART	_	Polarity=Neg	9	mod	_	AlignBegin=611552|AlignEnd=611795|Gloss=NEG2
 14	nə́	nə́	ADP	_	ExtPos=ADP	9	mod	_	AlignBegin=612980|AlignEnd=613136|Gloss=for|Idiom=Yes
-15	dur	dur	NOUN	_	_	14	unk	_	AlignBegin=613136|AlignEnd=613292|Gloss=occasion|InIdiom=Yes
+15	dur	dur	NOUN	_	_	14	unk	_	AlignBegin=613136|AlignEnd=613292|Gloss=cause|InIdiom=Yes
 16	ɣə́	kə́	ADP	_	_	15	unk	_	AlignBegin=613292|AlignEnd=613448|Gloss=of|InIdiom=Yes|nWord=17|RX=[PTCL]
 17	tu	tu	SCONJ	_	_	14	unk	_	AlignBegin=613448|AlignEnd=613604|Gloss=COMP|InIdiom=Yes
 18	yàːʃí	yàːʃí	NOUN	_	Definite=Def	20	dislocated@subj	_	AlignBegin=615140|AlignEnd=615367|Gloss=3Plur.IDP
 19	máː	máː	PART	_	Aspect=Perf|Number=Sing|Person=1	18	discourse@top	_	AlignBegin=615367|AlignEnd=615594|Gloss=also
 20	ʧì	yi	AUX	_	Number=Plur|Person=3|PronType=Prs	17	comp:obj	_	AlignBegin=616580|AlignEnd=616757|Gloss=3Plur.be
 21	ɣá	ká	ADP	_	ExtPos=ADP	20	comp:pred	_	AlignBegin=616757|AlignEnd=616934|Gloss=at|Idiom=Yes
-22	dur	dur	NOUN	_	_	21	unk	_	AlignBegin=616934|AlignEnd=617111|Gloss=occasion|InIdiom=Yes
+22	dur	dur	NOUN	_	_	21	unk	_	AlignBegin=616934|AlignEnd=617111|Gloss=cause|InIdiom=Yes
 23	ɣə́	kə́	ADP	_	_	22	unk	_	AlignBegin=617111|AlignEnd=617288|Gloss=of|InIdiom=Yes|nWord=26|RX=[PTCL]
 24	gwàːsə̀ŋ	gwàːsə̀ŋ	NOUN	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	21	comp:obj	_	AlignBegin=617288|AlignEnd=617465|Gloss=3PlurGen
 25	//	//	PUNCT	_	_	2	punct	_	AlignBegin=617465|AlignEnd=617640|Gloss=PUNCT
@@ -2660,7 +2660,7 @@
 12	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	8	parataxis:insert	_	AlignBegin=875860|AlignEnd=876007|Gloss=2Sing.Fut
 13	yeli	yeli	VERB	_	_	12	comp:aux	_	AlignBegin=876007|AlignEnd=876154|Gloss=see
 14	nə́	nə́	ADP	_	ExtPos=SCONJ	8	mod	_	AlignBegin=877820|AlignEnd=877968|Gloss=for|Idiom=Yes
-15	dur	dur	NOUN	_	_	14	unk	_	AlignBegin=877968|AlignEnd=878116|Gloss=occasion|InIdiom=Yes
+15	dur	dur	NOUN	_	_	14	unk	_	AlignBegin=877968|AlignEnd=878116|Gloss=cause|InIdiom=Yes
 16	ɣə́	kə́	ADP	_	Aspect=Aor|Number=Plur|Person=2	15	unk	_	AlignBegin=878116|AlignEnd=878264|Gloss=of|InIdiom=Yes|nWord=18|RX=[PTCL]
 17	tu	tu	SCONJ	_	_	16	unk	_	AlignBegin=878264|AlignEnd=878412|Gloss=COMP
 18	nə	nə	PART	_	_	14	comp:obj	_	AlignBegin=879980|AlignEnd=880192|Gloss=COP1
