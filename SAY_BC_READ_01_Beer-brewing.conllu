@@ -92,7 +92,7 @@
 4-5	ʒàɗì	_	_	_	_	_	_	_	_
 4	ʒà	ʒà	NOUN	_	_	3	comp:obj	_	AlignBegin=25004|AlignEnd=25088|Gloss=water
 5	ɗì	ɗi	PART	_	_	3	compound:prt	_	AlignBegin=25088|AlignEnd=25172|Gloss=CTP
-6	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	3	comp:obj	_	AlignBegin=25960|AlignEnd=26128|Gloss=1Sing.Aor
+6	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	2	conj:coord	_	AlignBegin=25960|AlignEnd=26128|Gloss=1Sing.Aor
 7	mán	máni	VERB	_	_	6	comp:aux	_	AlignBegin=26128|AlignEnd=26296|Gloss=come
 8	ʃiníː	ʃin	VERB	_	_	7	compound:svc	_	AlignBegin=26296|AlignEnd=26380|Gloss=pour.ACH|Resultative=Yes
 9	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	8	comp:obl@expl	_	AlignBegin=26464|AlignEnd=26632|Gloss=Anaph.Loc.3Sing
@@ -437,7 +437,7 @@
 9	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	0	root	_	AlignBegin=113684|AlignEnd=113888|Gloss=1Sing.Aor
 10	mbiː	mbiː	VERB	_	_	9	comp:aux	_	AlignBegin=113888|AlignEnd=114092|Gloss=take
 11	naːyês	naː	VERB	_	ExtPos=NOUN|VerbForm=Part	10	comp:obj	_	AlignBegin=114092|AlignEnd=114194|Gloss=remaining.Def|wordform=naːyí
-12	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	10	comp:obj	_	AlignBegin=115380|AlignEnd=115510|Gloss=1Sing.Aor
+12	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	9	conj:coord	_	AlignBegin=115380|AlignEnd=115510|Gloss=1Sing.Aor
 13	ʃin	ʃin	VERB	_	_	12	comp:aux	_	AlignBegin=115510|AlignEnd=115640|Gloss=pour
 14	gáy	káy	PRON	_	Case=Loc|PronType=Prs	13	comp:obl@expl	_	AlignBegin=115640|AlignEnd=115770|Gloss=Anaph.Loc.3Sing
 15	//	//	PUNCT	_	_	9	punct	_	AlignBegin=115770|AlignEnd=115900|Gloss=PUNCT
@@ -605,16 +605,16 @@
 # text = myáː gáːtə ʧík bàː wò ʃiʃí hŋ́ //
 # text_ortho = myáː gáːtə ʧík bàː wò ʃiʃí hŋ́ //
 # text_en = If I leave it like this, it will not ferment.
-1	myáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	0	root	_	AlignBegin=156600|AlignEnd=156770|Gloss=1Sing.Cond
+1	myáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	6	mod	_	AlignBegin=156600|AlignEnd=156770|Gloss=1Sing.Cond
 2-3	gáːtə	_	_	_	_	_	_	_	_
 2	gáː	gaː	VERB	_	_	1	comp:aux	_	AlignBegin=156770|AlignEnd=156855|Gloss=leave
 3	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=156855|AlignEnd=156940|Gloss==3Sing.Acc
 4	ʧík	ʧík	ADV	_	_	2	mod	_	AlignBegin=156940|AlignEnd=157110|Gloss=thus
 5	bàː	bàː	PART	_	Polarity=Neg	6	mod	_	AlignBegin=158480|AlignEnd=158636|Gloss=Neg1|wordform=báː
-6	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	2	comp:obj	_	AlignBegin=158636|AlignEnd=158792|Gloss=3Sing.Fut
+6	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=158636|AlignEnd=158792|Gloss=3Sing.Fut
 7	ʃiʃí	ʃiʃí	VERB	_	_	6	comp:aux	_	AlignBegin=158792|AlignEnd=158948|Gloss=get_up
 8	hŋ́	hŋ́	PART	_	Polarity=Neg	7	mod	_	AlignBegin=158948|AlignEnd=159104|Gloss=NEG2
-9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=159104|AlignEnd=159260|Gloss=PUNCT
+9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=159104|AlignEnd=159260|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_01_Beer_079-079
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV

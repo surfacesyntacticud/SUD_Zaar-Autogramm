@@ -191,7 +191,7 @@
 12-13	yeltə	_	_	_	_	_	_	_	_
 12	yel	yeli	VERB	_	_	11	comp:aux	_	AlignBegin=50860|AlignEnd=50960|Gloss=see
 13	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=50960|AlignEnd=51060|Gloss==3Sing.Acc
-14	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	12	comp:obj	_	AlignBegin=52400|AlignEnd=52630|Gloss=3Sing.Fut|Subject=ObjRaising
+14	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	12	comp:obl	_	AlignBegin=52400|AlignEnd=52630|Gloss=3Sing.Fut|Subject=ObjRaising
 15	ŋal	ŋal	VERB	_	_	14	comp:aux	_	AlignBegin=52630|AlignEnd=52860|Gloss=look_for
 16	ŋaː	ŋaː	ADJ	_	_	17	mod	_	AlignBegin=52860|AlignEnd=53090|Gloss=small
 17	ngə́tn	ngə́tn	NOUN	_	_	15	comp:obj	_	AlignBegin=53090|AlignEnd=53320|Gloss=thing
@@ -210,8 +210,8 @@
 # text_en = He is begging the chief to close the case, without taking it further.
 1	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=56020|AlignEnd=56243|Gloss=3Plur.Imp
 2	kará	kará	VERB	_	_	1	comp:aux	_	AlignBegin=56243|AlignEnd=56466|Gloss=beg
-3	gùŋ	gùŋ	NOUN	_	_	2	comp:obj	_	AlignBegin=56466|AlignEnd=56689|Gloss=chief
-4	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	2	comp:obj	_	AlignBegin=56689|AlignEnd=56912|Gloss=3Sing.Sub
+3	gùŋ	gùŋ	NOUN	_	_	2	comp:obj@R	_	AlignBegin=56466|AlignEnd=56689|Gloss=chief
+4	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	2	comp:obj@T	_	AlignBegin=56689|AlignEnd=56912|Gloss=3Sing.Sub
 5	ɮə́pm	ɮə́pm	VERB	_	_	4	comp:aux	_	AlignBegin=56912|AlignEnd=57135|Gloss=cover
 6	vèːʃíː	vìː	NOUN	_	Definite=Def	5	comp:obj	_	AlignBegin=57135|AlignEnd=57209|Gloss=speech.Def.ACH|Resultative=Yes|wordform=vìː
 7	káɗâ	káɗâ	ADV	_	_	8	mod	_	AlignBegin=58500|AlignEnd=58713|Gloss=NEG3
@@ -481,7 +481,7 @@
 # sent_id = SAY_BC_READ_03_Sermon_065-070
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 144980, 156360
-# text = nə ngə́tn tu kóːnúː tə́ kóːnúː wò ɮə́ːr á kén gə̀ Tʃóknvòn wò kwáːn vwàːwôs ɗeɓát fuː Tʃóknvòn mbuní tə́ kúːʃi //
+# text = nə ngə́tn tu kóːnúː tə́ kóːnúː wò ɮə́ːr á kén gə̀ Tʃóɣnvòn wò kwáːn vwàːwôs ɗeɓát fuː Tʃóɣnvòn mbuní tə́ kúːʃi //
 # text_ortho = nə ngə́tn tu kóːnúː tə́ kóːnúː wò ɮə́ːr á kén gə̀ Tʃóknvòn wò kwáːn vwàːwòs ɗeɓát fu: Tʃóknvòn mbuní tə́ kúːʃi //
 # text_en = It is a fact that each and everyone will appear before God to reveal all that is inside him, to tell God the good and the evil.
 1	nə	nə	PART	_	_	0	root	_	AlignBegin=144980|AlignEnd=145170|Gloss=COP1
@@ -492,7 +492,7 @@
 6	kóːnúː	kóːnúː	PRON	_	Number=Plur	4	conj:coord	_	AlignBegin=147780|AlignEnd=148020|Gloss=everyone
 7	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	3	comp:obj	_	AlignBegin=149220|AlignEnd=149409|Gloss=3Sing.Fut
 8	ɮə́ːr	ɮə́ːr	VERB	_	_	7	comp:aux	_	AlignBegin=149409|AlignEnd=149598|Gloss=stand
-9	á	ká	ADP	_	ExtPos=ADP	8	comp:obl	_	AlignBegin=149598|AlignEnd=149787|Gloss=at
+9	á	ká	ADP	_	ExtPos=ADP	8	comp:obl	_	AlignBegin=149598|AlignEnd=149787|Gloss=at|Idiom=Yes
 10	kén	kéni	NOUN	_	_	9	comp:obj	_	AlignBegin=149787|AlignEnd=149976|Gloss=front|InIdiom=Yes
 11	gə̀	kə́	ADP	_	_	10	mod	_	AlignBegin=149976|AlignEnd=150165|Gloss=of|InIdiom=Yes|nWord=13|RX=[PTCL]
 12	Tʃóɣnvòn	Tʃóɣnvòn	PROPN	_	_	9	comp:obj	_	AlignBegin=150165|AlignEnd=150354|Gloss=God|wordform=Tʃóknvòn
@@ -1057,7 +1057,7 @@
 23	kúʧi	kúʧi	NOUN	_	_	22	comp:obj@lvc	_	AlignBegin=330392|AlignEnd=330550|Gloss=sleep
 24	ɗa	ɗa	ADV	_	_	22	mod	_	AlignBegin=330550|AlignEnd=330708|Gloss=again
 25	hŋ́	hŋ́	PART	_	Polarity=Neg	19	mod	_	AlignBegin=330708|AlignEnd=330866|Gloss=NEG2
-26	//	//	PART	_	_	16	punct	_	AlignBegin=330708|AlignEnd=330866|Gloss=PUNCT
+26	//	//	PUNCT	_	_	16	punct	_	AlignBegin=330708|AlignEnd=330866|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_150-152_split1
 # text = wò vuː ta gàːmì ʃiː gə̀ʃì //
@@ -1160,8 +1160,8 @@
 5-6	ɓaskə	_	_	_	_	_	_	_	_
 5	ɓas	ɓas	ADP	_	_	2	comp:obl	_	AlignBegin=353764|AlignEnd=353868|Gloss=at
 6	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	5	comp:obj	_	AlignBegin=353868|AlignEnd=353972|Gloss=2Sing.OBJ
-7	á	ká	ADP	_	_	2	comp:obl	_	AlignBegin=353972|AlignEnd=354180|Gloss=at
-8	kén	kéni	NOUN	_	_	7	comp:obj	_	AlignBegin=354180|AlignEnd=354388|Gloss=front
+7	á	ká	ADP	_	ExtPos=ADP	2	comp:obl	_	AlignBegin=353972|AlignEnd=354180|Gloss=at|Idiom=Yes
+8	kén	kéni	NOUN	_	_	7	comp:obj	_	AlignBegin=354180|AlignEnd=354388|Gloss=front|InIdiom=Yes
 9	ɓìːl	ɓìːl	IDEO	_	_	7	comp:obj	_	AlignBegin=354388|AlignEnd=354596|Gloss=door
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=354596|AlignEnd=354800|Gloss=PUNCT
 
@@ -1396,8 +1396,8 @@
 3	kə́ːm	kə́ːm	VERB	_	_	2	comp:aux	_	AlignBegin=434800|AlignEnd=435030|Gloss=succeed
 4-5	láːpkə	_	_	_	_	_	_	_	_
 4	láːp	láːp	VERB	_	_	3	comp:obj	_	AlignBegin=435030|AlignEnd=435145|Gloss=follow
-5	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	4	comp:obj	_	AlignBegin=435145|AlignEnd=435260|Gloss=2Sing.OBJ
-6	káːr	káːr	NOUN	_	_	4	comp:obj	_	AlignBegin=435260|AlignEnd=435490|Gloss=back
+5	=kə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	4	comp:obj@R	_	AlignBegin=435145|AlignEnd=435260|Gloss=2Sing.OBJ
+6	káːr	káːr	NOUN	_	_	4	comp:obj@T	_	AlignBegin=435260|AlignEnd=435490|Gloss=back
 7	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	4	mod	_	AlignBegin=436820|AlignEnd=436989|Gloss=3Sing.Sub
 8	ɬə	ɬə	VERB	_	_	7	comp:aux	_	AlignBegin=436989|AlignEnd=437073|Gloss=go
 9	nə́	nə́	ADP	_	_	8	comp:obl	_	AlignBegin=437073|AlignEnd=437158|Gloss=for
@@ -1633,7 +1633,7 @@
 8	ngə́tn	ngə́tn	NOUN	_	_	6	comp:obj@T	_	AlignBegin=518294|AlignEnd=518651|Gloss=thing
 9	ʧíɣə̂n	ʧi	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	8	compound	_	AlignBegin=518651|AlignEnd=518829|Gloss=eat-Vnoun|wordform=ʧi
 10	hŋ́	hŋ́	PART	_	Polarity=Neg	6	mod	_	AlignBegin=519008|AlignEnd=519365|Gloss=NEG2
-11	//	//	PART	_	_	2	punct	_	AlignBegin=519008|AlignEnd=519365|Gloss=PUNCT
+11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=519008|AlignEnd=519365|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_231-232
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
@@ -1684,9 +1684,9 @@
 2	naptíː	napti	NOUN	_	Definite=Anaph	1	compound	_	AlignBegin=532253|AlignEnd=532379|Gloss=left.PRM|wordform=napti
 3	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=533660|AlignEnd=533843|Gloss=3Plur.Fut
 4	sû	su	VERB	_	_	3	comp:aux	_	AlignBegin=533843|AlignEnd=534026|Gloss=answer
-5	Yéːsu	Yéːsu	PROPN	_	_	4	comp:obj	_	AlignBegin=534026|AlignEnd=534209|Gloss=Jesus
+5	Yéːsu	Yéːsu	PROPN	_	_	4	comp:obj@R	_	AlignBegin=534026|AlignEnd=534209|Gloss=Jesus
 6	ɗa	ɗa	ADV	_	_	4	mod	_	AlignBegin=534209|AlignEnd=534392|Gloss=again
-7	tu	tu	SCONJ	_	_	4	comp:obj	_	AlignBegin=534392|AlignEnd=534575|Gloss=COMP
+7	tu	tu	SCONJ	_	_	4	comp:obj@T	_	AlignBegin=534392|AlignEnd=534575|Gloss=COMP
 8	Yéːsu	Yéːsu	PROPN	_	_	9	vocative	_	AlignBegin=536100|AlignEnd=536370|Gloss=Jesus
 9	mə̀tà	ta	AUX	_	Number=Plur|Person=1|Tense=Rem	7	comp:obj	_	AlignBegin=537480|AlignEnd=537730|Gloss=1Plur.REM
 10-11	yelɣə	_	_	_	_	_	_	_	_
@@ -2276,7 +2276,7 @@
 5	súː	súː	VERB	_	_	4	comp:aux	_	AlignBegin=720480|AlignEnd=720720|Gloss=like ; love ; want
 6	ŋâːs	ŋaː	NOUN	_	Definite=Def	5	comp:obj	_	AlignBegin=720720|AlignEnd=720840|Gloss=child.Def|wordform=ŋaː
 7	ɗan	ɗan	SCONJ	_	_	5	mod	_	AlignBegin=722460|AlignEnd=722628|Gloss=like
-8	vìː	vìː	NOUN	_	_	9	comp:obj	_	AlignBegin=722628|AlignEnd=722796|Gloss=mouth
+8	vìː	vìː	NOUN	_	_	9	subj	_	AlignBegin=722628|AlignEnd=722796|Gloss=mouth
 9	sǔː	súː	VERB	_	_	7	comp:obj	_	AlignBegin=722796|AlignEnd=722964|Gloss=like ; love ; want
 10	náɣat	nákat	NOUN	_	_	9	comp:obj	_	AlignBegin=722964|AlignEnd=723132|Gloss=food
 11	<	<	PUNCT	_	_	1	punct	_	AlignBegin=722964|AlignEnd=723132|Gloss=PUNCT
@@ -2622,7 +2622,7 @@
 37-38	fuːɣə	_	_	_	_	_	_	_	_
 37	fuː	fuː	VERB	_	_	36	comp:aux	_	AlignBegin=845450|AlignEnd=845598|Gloss=tell
 38	=ɣə	=kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	37	comp:obj@R	_	AlignBegin=845598|AlignEnd=845745|Gloss=2Sing.OBJ
-39	kíːta	kíːta	NOUN	_	_	34	comp:obj	_	AlignBegin=846920|AlignEnd=847153|Gloss=2Sing.CTF.REM
+39	kíːta	kíːta	AUX	_	_	34	comp:obj	_	AlignBegin=846920|AlignEnd=847153|Gloss=2Sing.CTF.REM
 40	láːp	láːp	NOUN	_	_	39	comp:aux	_	AlignBegin=847153|AlignEnd=847386|Gloss=follow
 41	Yéːsu	Yéːsu	PROPN	_	_	40	comp:obj	_	AlignBegin=847386|AlignEnd=847619|Gloss=Jesus
 42	naː-zaːri	naː-zaːri	ADV	_	_	41	mod	_	AlignBegin=847619|AlignEnd=847852|Gloss=properly
