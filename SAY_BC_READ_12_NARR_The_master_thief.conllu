@@ -417,7 +417,7 @@
 # text_en = The king refused to get up.
 1	gùŋ	gùŋ	NOUN	_	_	2	subj	_	AlignBegin=94340|AlignEnd=94585|Gloss=chief
 2	ɲàngás	ɲangás	VERB	_	_	0	root	_	AlignBegin=94585|AlignEnd=94830|Gloss=refuse
-3	ʃiʃíɣə̂n	ʃiʃí	VERB	_	_	2	compound	_	AlignBegin=94830|AlignEnd=94952|Gloss=get_up-Vnoun|wordform=ʃiʃí
+3	ʃiʃíɣə̂n	ʃiʃí	VERB	_	_	2	comp:obj	_	AlignBegin=94830|AlignEnd=94952|Gloss=get_up-Vnoun|wordform=ʃiʃí
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=95075|AlignEnd=95320|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_The_master_thief_044-044
@@ -451,17 +451,17 @@
 # sent_timecode = 100020, 104380
 # text_ortho = séy ɗǎː gə̀m kə́ máːyêʃíː séy gùŋ ʃìʃí ʧáː láːpni ɗan //
 # text_en = Then as he released for the third time the king got up and followed too.
-1	séy	séy	ADV	_	_	2	mod	_	AlignBegin=100020|AlignEnd=100250|Gloss=then
+1	séy	séy	ADV	_	_	9	mod	_	AlignBegin=100020|AlignEnd=100250|Gloss=then
 2-3	ɗǎː	_	_	_	_	_	_	_	_
 2	ɗa	ɗan	SCONJ	_	_	9	mod	_	AlignBegin=100250|AlignEnd=100365|Gloss=as
 3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	2	comp:obj	_	AlignBegin=100365|AlignEnd=100480|Gloss=3Sing.Aor
 4	gə̀m	gəm	VERB	_	_	3	comp:aux	_	AlignBegin=100480|AlignEnd=100710|Gloss=release
-5	kə́	á	ADP	_	_	4	mod	_	AlignBegin=100710|AlignEnd=100940|Gloss=of|nWord=4|RX=[PTCL]
+5	kə́	á	ADP	_	_	4	comp:obj	_	AlignBegin=100710|AlignEnd=100940|Gloss=of|nWord=4|RX=[PTCL]
 6	máːyêʃíː	mâːy	NOUN	_	Definite=Def	5	comp:obj	_	AlignBegin=100940|AlignEnd=101017|Gloss=three.Def.ACH|Resultative=Yes|wordform=mâːy
 7	séy	séy	ADV	_	_	9	mod	_	AlignBegin=102220|AlignEnd=102415|Gloss=then
 8	gùŋ	gùŋ	NOUN	_	_	9	subj	_	AlignBegin=102415|AlignEnd=102610|Gloss=chief
-9	ʃìʃí	ʃiʃí	X	_	_	0	root	_	AlignBegin=102610|AlignEnd=102675|Gloss=get_up
-10	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	9	parataxis@conj	_	AlignBegin=103520|AlignEnd=103735|Gloss=3Sing.Imp
+9	ʃìʃí	ʃiʃí	VERB	_	_	0	root	_	AlignBegin=102610|AlignEnd=102675|Gloss=get_up
+10	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	9	parataxis@mod	_	AlignBegin=103520|AlignEnd=103735|Gloss=3Sing.Imp
 11-12	láːpni	_	_	_	_	_	_	_	_
 11	láːp	láːp	VERB	_	_	10	comp:aux	_	AlignBegin=103735|AlignEnd=103843|Gloss=follow
 12	ni	ni	PART	_	_	11	compound:prt	_	AlignBegin=103843|AlignEnd=103950|Gloss=Iter|wordform=-ni
@@ -477,7 +477,7 @@
 1	ɗan	ɗan	SCONJ	_	_	9	mod	_	AlignBegin=105320|AlignEnd=105629|Gloss=as
 2	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=105629|AlignEnd=105938|Gloss=3Plur.Aor
 3	ɬǐː	ɬə	VERB	_	_	2	comp:aux	_	AlignBegin=105938|AlignEnd=106092|Gloss=go.ACH|Resultative=Yes|wordform=ɬə
-4	nə́	nə́	ADP	_	_	3	comp:obl	_	AlignBegin=106247|AlignEnd=106556|Gloss=for
+4	nə́	nə́	ADP	_	_	3	mod	_	AlignBegin=106247|AlignEnd=106556|Gloss=for
 5	longáy	longa	NOUN	_	Definite=Cons	6	udep	_	AlignBegin=106556|AlignEnd=106710|Gloss=rabbit.ACH|Resultative=Yes|wordform=longa
 6	láːpkə̂n	láːp	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=106865|AlignEnd=107019|Gloss=follow-Vnoun|Object=ObjectRaising|wordform=láːp
 7	séy	séy	ADV	_	_	9	mod	_	AlignBegin=108040|AlignEnd=108260|Gloss=then
@@ -491,27 +491,27 @@
 15	//	//	PUNCT	_	_	9	punct	_	AlignBegin=111525|AlignEnd=111660|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_The_master_thief_053-054
+# text = ɗan gyáː gùŋ tə́ sûʃíːɗi tə́ mán yél gwàːsə̀ŋ zobbè ɗaɗáni hŋ́ //
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_12_NARR_The_master_thief.WAV
 # sent_timecode = 113520, 118480
-# text = ɗan gyáː gùŋ tə́ sûʃíːɗi tə́ máni yeli gwàːsə̀ŋ zobbè ɗaɗáni hŋ́ //
 # text_ortho = ɗan gyaː gùŋ tə́ sûʃíːɗi tə́ mán yél gwàːsə̀ŋ zobbè ɗaɗánǐŋ //
-# text_en = When the king and his people came back they saw their ring was no longer there.
-1	ɗan	ɗan	ADP	_	_	4	mod	_	AlignBegin=113520|AlignEnd=113723|Gloss=as
+# text_en = When the king and his people came back they saw that the ring was no longer there.
+1	ɗan	ɗan	ADP	_	_	8	mod	_	AlignBegin=113520|AlignEnd=113723|Gloss=as
 2	gyáː	gyáː	DET	_	Number=Plur	3	det	_	AlignBegin=113723|AlignEnd=113926|Gloss=Plur
 3	gùŋ	gùŋ	NOUN	_	_	4	subj	_	AlignBegin=113926|AlignEnd=114129|Gloss=chief
-4	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=114129|AlignEnd=114332|Gloss=3Plur.Aor
+4	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=114129|AlignEnd=114332|Gloss=3Plur.Aor
 5-7	sûʃíːɗi	_	_	_	_	_	_	_	_
 5	sû	su	VERB	_	_	4	comp:aux	_	Alig:nEnd=114383|AlignBegin=114332|Gloss=turn
 6	=ʃíː	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=114383|AlignEnd=114434|Gloss=3Plur.OBJ |wordform==ʃí
 7	ɗi	ɗi	PART	_	_	5	compound:prt	_	AlignBegin=114485|AlignEnd=114535|Gloss=CTP|wordform=-́ɗi
-8	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	4	parataxis@conj	_	AlignBegin=115420|AlignEnd=115857|Gloss=3Plur.Aor
-9	máni	máni	VERB	_	_	8	comp:aux	_	AlignBegin=115857|AlignEnd=116294|Gloss=come
-10	yeli	yeli	VERB	_	_	9	compound:svc	_	AlignBegin=116294|AlignEnd=116731|Gloss=see
+8	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=115420|AlignEnd=115857|Gloss=3Plur.Aor
+9	mán	máni	VERB	_	_	8	comp:aux	_	AlignBegin=115857|AlignEnd=116294|Gloss=come
+10	yél	yeli	VERB	_	_	9	compound:svc	_	AlignBegin=116294|AlignEnd=116731|Gloss=see
 11	gwàːsə̀ŋ	gwàːsə̀ŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	10	discourse@top	_	AlignBegin=116731|AlignEnd=117168|Gloss=3PlurGen
-12	zobbè	zobbè	NOUN	_	_	10	comp:obj	_	AlignBegin=117168|AlignEnd=117605|Gloss=ring
-13	ɗaɗáni	ɗaɗáni	ADV	_	_	10	mod	_	AlignBegin=117605|AlignEnd=117823|Gloss=there
-14	hŋ́	hŋ́	PART	_	Polarity=Neg	9	mod	_	AlignBegin=117823|AlignEnd=118042|Gloss=NEG2
-15	//	//	PUNCT	_	_	4	punct	_	AlignBegin=118042|AlignEnd=118480|Gloss=PUNCT
+12	zobbè	zobbè	NOUN	_	_	13	subj	_	AlignBegin=117168|AlignEnd=117605|Gloss=ring
+13	ɗaɗáni	ɗaɗáni	ADV	_	_	10	comp:obj	_	AlignBegin=117605|AlignEnd=117823|Gloss=there
+14	hŋ́	hŋ́	PART	_	Polarity=Neg	13	mod	_	AlignBegin=117823|AlignEnd=118042|Gloss=NEG2
+15	//	//	PUNCT	_	_	8	punct	_	AlignBegin=118042|AlignEnd=118480|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_The_master_thief_055-056
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_12_NARR_The_master_thief.WAV
