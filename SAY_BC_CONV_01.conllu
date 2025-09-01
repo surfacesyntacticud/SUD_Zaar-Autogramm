@@ -537,7 +537,7 @@
 11	ʧìɣá	yiká	AUX	_	Aspect=Prog|Number=Plur|Person=3	10	comp:obj	_	AlignBegin=56855|AlignEnd=57083|Gloss=3Plur.Prog
 12	ríːngə̂n	ríː	VERB	_	ExtPos=NOUN|Number=Plur|VerbForm=Vnoun	11	comp:aux	_	AlignBegin=57083|AlignEnd=57197|Gloss=walk-Plur-Vnoun
 13	ɗa	ɗa	ADP	_	_	12	comp:obl	_	AlignBegin=57311|AlignEnd=57539|Gloss=at
-14	ɗə́ki	ɗə̂ɣn	ADV	_	_	13	comp:obj	_	AlignBegin=57539|AlignEnd=57653|Gloss=world
+14	ɗə́ki	ɗə̂ɣn	NOUN	_	_	13	comp:obj	_	AlignBegin=57539|AlignEnd=57653|Gloss=world.Ind
 15	//	//	PUNCT	_	_	2	punct	_	AlignBegin=57767|AlignEnd=57988|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_062-062
@@ -668,8 +668,8 @@
 17	//=	//=	PUNCT	_	_	18	punct	_	AlignBegin=71849|AlignEnd=71849|Gloss=PUNCT
 18	má	a	AUX	_	Number=Plur|Person=1|Tense=Fut	14	parataxis@conj	_	AlignBegin=71849|AlignEnd=72041|Gloss=1Plur.Fut
 19	yêl	yel	VERB	_	_	18	comp:aux	_	AlignBegin=72041|AlignEnd=72233|Gloss=see
-20	yándiyóːɗan	yándiyóːɗan	ADV	_	PronType=Rel	19	comp:obj	_	AlignBegin=72233|AlignEnd=72425|Gloss=how
-21	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	20	mod@relcl	_	AlignBegin=72425|AlignEnd=72617|Gloss=3Sing.Fut
+20	yándiyóːɗan	yándiyóːɗan	ADV	_	PronType=Rel	22	mod	_	AlignBegin=72233|AlignEnd=72425|Gloss=how
+21	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	19	mod@relcl	_	AlignBegin=72425|AlignEnd=72617|Gloss=3Sing.Fut
 22	ngap	ngap	VERB	_	_	21	comp:aux	_	AlignBegin=72617|AlignEnd=72809|Gloss=hold
 23	|c	|c	PUNCT	_	_	25	punct	_	AlignBegin=72809|AlignEnd=73004|Gloss=PUNCT
 24	kóː	kóː	CCONJ	_	_	25	cc	_	AlignBegin=73004|AlignEnd=73156|Gloss=or
@@ -931,13 +931,13 @@
 # text_en = You saw how I like Kamshak, didn't you?
 1	káː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=2	0	root	_	AlignBegin=108604|AlignEnd=108806|Gloss=2Sing.Perf
 2	ye	yel	VERB	_	_	1	comp:aux	_	AlignBegin=108806|AlignEnd=109008|Gloss=see
-3	yáddiyóːɗan	yáddiyóːɗan	ADV	_	PronType=Rel	2	comp:obj	_	AlignBegin=109008|AlignEnd=109210|Gloss=how
-4	myáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	3	mod@relcl	_	AlignBegin=109210|AlignEnd=109412|Gloss=1Sing.Imp
+3	yáddiyóːɗan	yáddiyóːɗan	ADV	_	PronType=Rel	5	mod	_	AlignBegin=109008|AlignEnd=109210|Gloss=how
+4	myáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	2	mod@relcl	_	AlignBegin=109210|AlignEnd=109412|Gloss=1Sing.Imp
 5	súː	súː	VERB	_	_	4	comp:aux	_	AlignBegin=109412|AlignEnd=109614|Gloss=like
 6	sú	sú	DET	_	Number=Plur	7	det	_	AlignBegin=109614|AlignEnd=109816|Gloss=Plur
 7	Kámʃâk	Kámʃâk	PROPN	_	_	5	comp:obj	_	AlignBegin=109816|AlignEnd=110018|Gloss=Kamshak
 8-9	kwǎː	_	_	_	_	_	_	_	_
-8	kòː	kòː	PART	_	_	7	discourse@top	_	AlignBegin=110018|AlignEnd=110220|Gloss=himself
+8	kòː	kòː	PART	_	_	2	mod	_	AlignBegin=110018|AlignEnd=110220|Gloss=himself
 9	aː	aː	PART	_	_	1	discourse	_	AlignBegin=110018|AlignEnd=110220|Gloss=Virt
 10	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=110220|AlignEnd=110420|Gloss=PUNCT
 
