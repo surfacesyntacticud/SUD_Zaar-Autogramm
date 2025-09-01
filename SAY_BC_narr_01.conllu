@@ -1962,12 +1962,12 @@
 # text_ortho = ɗǎː ɗâgá ɬə́ːtkə̂n tsə́n //
 # text_en = Then he flew away like this.
 1-2	ɗǎː	_	_	_	_	_	_	_	_
-1	ɗa	ɗan	ADV	_	_	2	mod	_	AlignBegin=258079|AlignEnd=258298|Gloss=then
-2	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=258298|AlignEnd=258517|Gloss=3Sing.Aor
+1	ɗa	ɗa	PART	_	_	0	root	_	AlignBegin=258079|AlignEnd=258298|Gloss=exist
+2	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	1	comp:cleft	_	AlignBegin=258298|AlignEnd=258517|Gloss=3Sing.Aor
 3	ɗâgá	ɗagá	VERB	_	_	2	comp:aux	_	AlignBegin=258517|AlignEnd=258736|Gloss=lift
 4	ɬə́ːtkə̂n	ɬə́ːt	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	3	comp:obj	_	AlignBegin=258736|AlignEnd=258955|Gloss=fly|wordform=ɬə́ːt
 5	tsə́n	tsəní	ADV	_	_	4	mod	_	AlignBegin=258955|AlignEnd=259174|Gloss=like_this
-6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=259174|AlignEnd=259393|Gloss=PUNCT
+6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=259174|AlignEnd=259393|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_196-196
 # speaker_id = SP2
@@ -2135,14 +2135,14 @@
 # sent_timecode = 279522, 283500
 # text_ortho = də̌ːr ɗǎː kât kə̀kə̀rʧi kə̀kə̀rʧi kə̀kə̀rʧi < ɬə́n ndáy gìr ngàlá ɗa láːri ɗaɗân ndzwǎːt //
 # text_en = Then Lizard plodded along to get quickly into a crab burrow in the river bed.
-1	də̌ːr	də̌ːr	NOUN	_	_	3	dislocated@subj	_	AlignBegin=279522|AlignEnd=279722|Gloss=lizard
+1	də̌ːr	də̌ːr	NOUN	_	_	2	subj	_	AlignBegin=279522|AlignEnd=279722|Gloss=lizard
 2-3	ɗǎː	_	_	_	_	_	_	_	_
-2	ɗa	ɗan	ADV	_	_	3	mod	_	AlignBegin=279722|AlignEnd=279922|Gloss=then
-3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=279922|AlignEnd=280122|Gloss=3Sing.Aor
+2	ɗa	ɗan	ADV	_	_	0	root	_	AlignBegin=279722|AlignEnd=279922|Gloss=then
+3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	2	comp:cleft	_	AlignBegin=279922|AlignEnd=280122|Gloss=3Sing.Aor
 4	kât	kat	VERB	_	_	3	comp:aux	_	AlignBegin=280122|AlignEnd=280321|Gloss=drive_away
 5	kə̀kə̀rʧi	kə̀kə̀rʧi	IDEO	_	_	4	mod	_	AlignBegin=280321|AlignEnd=280636|Gloss=shuffle
-6	kə̀kə̀rʧi	kə̀kə̀rʧi	IDEO	_	_	5	compound:redup	_	AlignBegin=280636|AlignEnd=280951|Gloss=shuffle
-7	kə̀kə̀rʧi	kə̀kə̀rʧi	IDEO	_	_	6	compound:redup	_	AlignBegin=280951|AlignEnd=281266|Gloss=shuffle
+6	kə̀kə̀rʧi	kə̀kə̀rʧi	IDEO	_	_	5	conj:redup	_	AlignBegin=280636|AlignEnd=280951|Gloss=shuffle
+7	kə̀kə̀rʧi	kə̀kə̀rʧi	IDEO	_	_	6	conj:redup	_	AlignBegin=280951|AlignEnd=281266|Gloss=shuffle
 8	ɬə́n	ɬə́n	VERB	_	_	4	compound:svc	_	AlignBegin=281582|AlignEnd=281774|Gloss=go|SVC=Yes
 9	ndáy	nda	VERB	_	_	8	compound:svc	_	AlignBegin=281966|AlignEnd=282158|Gloss=enter.ACH|Resultative=Yes|wordform=nda
 10	gìr	gìr	NOUN	_	_	9	comp:obj@G	_	AlignBegin=282158|AlignEnd=282350|Gloss=hole
@@ -2151,7 +2151,7 @@
 13	láːri	lâːr	NOUN	_	Definite=Ind	12	comp:obj	_	AlignBegin=282734|AlignEnd=282926|Gloss=river-Ind|wordform=lâːr
 14	ɗaɗân	ɗaɗân	ADV	_	_	9	mod	_	AlignBegin=282926|AlignEnd=283118|Gloss=again
 15	ndzwǎːt	ndzwǎːt	IDEO	_	_	9	mod	_	AlignBegin=283118|AlignEnd=283310|Gloss=quick
-16	//	//	PUNCT	_	_	3	punct	_	AlignBegin=283310|AlignEnd=283500|Gloss=PUNCT
+16	//	//	PUNCT	_	_	2	punct	_	AlignBegin=283310|AlignEnd=283500|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_214-214
 # speaker_id = SP2
@@ -3779,23 +3779,23 @@
 # sent_timecode = 488180, 491017
 # text_ortho = mbəs ɗàː má ʧíɗi deː ɗan ʧáː yiː yâːɬɗìɣáy //
 # text_en = Then his claws got broken as he had dug them into the ground.
-1	mbəs	mbəs	NOUN	_	_	3	dislocated@subj	_	AlignBegin=488180|AlignEnd=488399|Gloss=claw
+1	mbəs	mbəs	NOUN	_	_	2	subj	_	AlignBegin=488180|AlignEnd=488399|Gloss=claw
 2-3	ɗàː	_	_	_	_	_	_	_	_
-2	ɗa	ɗan	ADV	_	_	3	mod	_	AlignBegin=488399|AlignEnd=488618|Gloss=then
-3	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=488618|AlignEnd=488837|Gloss=3Sing.Perf
+2	ɗa	ɗa	PART	_	_	0	root	_	AlignBegin=488399|AlignEnd=488618|Gloss=exist
+3	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	2	comp:cleft	_	AlignBegin=488618|AlignEnd=488837|Gloss=3Sing.Perf
 4	má	máni	VERB	_	_	3	comp:aux	_	AlignBegin=488837|AlignEnd=489056|Gloss=come|SVC=Yes
 5-6	ʧíɗi	_	_	_	_	_	_	_	_
 5	ʧí	ʧi	VERB	_	_	4	compound:svc	_	AlignBegin=489056|AlignEnd=489166|Gloss=eat
 6	ɗi	ɗi	PART	_	_	5	compound:prt	_	AlignBegin=489166|AlignEnd=489275|Gloss=Ctp|wordform==ɗi
-7	deː	deː	PART	_	_	3	mod	_	AlignBegin=489275|AlignEnd=489494|Gloss=indeed
-8	ɗan	ɗan	SCONJ	_	_	3	mod	_	AlignBegin=489494|AlignEnd=489713|Gloss=as
+7	deː	deː	PART	_	_	4	mod	_	AlignBegin=489275|AlignEnd=489494|Gloss=indeed
+8	ɗan	ɗan	SCONJ	_	_	4	mod	_	AlignBegin=489494|AlignEnd=489713|Gloss=as
 9	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	8	comp:obj	_	AlignBegin=489713|AlignEnd=489932|Gloss=3Sing.Imp
 10	yiː	yiː	VERB	_	_	9	comp:aux	_	AlignBegin=489932|AlignEnd=490154|Gloss=produce
 11-13	yâːɬɗìɣáy	_	_	_	_	_	_	_	_
 11	yâːɬ	yâːɬ	NOUN	_	_	10	comp:obj@L	_	AlignBegin=490380|AlignEnd=490486|Gloss=earth
 12	ɗì	ɗi	PART	_	_	10	compound:prt	_	AlignBegin=490486|AlignEnd=490592|Gloss=Ctp|wordform==ɗì
 13	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	10	comp:obl@expl	_	AlignBegin=490592|AlignEnd=490698|Gloss=Anaph.Loc.3Sing
-14	//	//	PUNCT	_	_	3	punct	_	AlignBegin=490698|AlignEnd=491017|Gloss=PUNCT
+14	//	//	PUNCT	_	_	2	punct	_	AlignBegin=490698|AlignEnd=491017|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_378-378
 # speaker_id = SP2
@@ -4198,20 +4198,19 @@
 14	//	//	PUNCT	_	_	10	punct	_	AlignBegin=534212|AlignEnd=534370|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_414-415
-# text = də̌ːr < ɗǎː ɓâːt wumí //
+# text = də̌ːr ɗǎː ɓâːt wumí //
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 534370, 535407
 # text_ortho = də̌ːr < ɗǎː ɓâːt wumí //
 # text_en = Then Monitor licked it to feel the taste.
-1	də̌ːr	də̌ːr	NOUN	_	_	4	dislocated@subj	_	AlignBegin=534370|AlignEnd=534498|Gloss=lizard
-2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=534498|AlignEnd=534626|Gloss=PUNCT
-3-4	ɗǎː	_	_	_	_	_	_	_	_
-3	ɗa	ɗan	ADV	_	_	4	mod	_	AlignBegin=534626|AlignEnd=534754|Gloss=then
-4	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=534754|AlignEnd=534882|Gloss=3Sing.Aor
-5	ɓâːt	ɓâːt	VERB	_	_	4	comp:aux	_	AlignBegin=534882|AlignEnd=535010|Gloss=lick
-6	wumí	wumí	VERB	_	_	5	compound:svc	_	AlignBegin=535138|AlignEnd=535264|Gloss=feel
-7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=535264|AlignEnd=535407|Gloss=PUNCT
+1	də̌ːr	də̌ːr	NOUN	_	_	2	subj	_	AlignBegin=534370|AlignEnd=534498|Gloss=lizard
+2-3	ɗǎː	_	_	_	_	_	_	_	_
+2	ɗa	ɗa	PART	_	_	0	root	_	AlignBegin=534626|AlignEnd=534754|Gloss=exist
+3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	2	comp:cleft	_	AlignBegin=534754|AlignEnd=534882|Gloss=3Sing.Aor
+4	ɓâːt	ɓâːt	VERB	_	_	3	comp:aux	_	AlignBegin=534882|AlignEnd=535010|Gloss=lick
+5	wumí	wumí	VERB	_	_	4	compound:svc	_	AlignBegin=535138|AlignEnd=535264|Gloss=feel
+6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=535264|AlignEnd=535407|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_416-416
 # speaker_id = SP1

@@ -1029,13 +1029,13 @@
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=121281|AlignEnd=121572|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_112-116
+# text = ɗan dzàŋ gíː ɗan Jâk tà mân ɗúːníː < ɗan mətáyáː kwáːn mə fúːtə < raː ɗa àː mán wumtə //
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 117548, 122636
-# text = ɗan dzàŋ gíː ɗan Jâk tà mân ɗúːníː < ɗan mətáyáː kwáːn mə fúːtə < raː ɗa àː mán wumtə //
 # text_ortho = ɗan dzàŋ gíː ɗan Jâk tà mân ɗúːníː < ɗam mətáyáː kwáːn mə fúːtə < raː ɗaː àː mán wumtə //
-# text_en = Like that day when Jack came here, as I told him, he became angry.
-1	ɗan	ɗan	ADP	_	_	19	mod	_	AlignBegin=117548|AlignEnd=117754|Gloss=like
+# text_en = Like that day when Jack came here, as I told him, he became seriously angry.
+1	ɗan	ɗan	ADP	_	_	18	mod	_	AlignBegin=117548|AlignEnd=117754|Gloss=like
 2	dzàŋ	dzàŋ	NOUN	_	_	1	comp:obj	_	AlignBegin=117754|AlignEnd=117960|Gloss=day
 3	gíː	gíː	DET	_	Definite=Anaph|PronType=Dem	2	det	_	AlignBegin=117960|AlignEnd=118166|Gloss=PRM
 4	ɗan	ɗan	SCONJ	_	_	2	mod@relcl	_	AlignBegin=118166|AlignEnd=118372|Gloss=REL
@@ -1044,7 +1044,7 @@
 7	mân	mán	VERB	_	_	6	comp:aux	_	AlignBegin=118785|AlignEnd=118994|Gloss=come
 8	ɗúːníː	ɗúːni	ADV	_	_	7	comp:obl	_	AlignBegin=118994|AlignEnd=119098|Gloss=here.ACH|Resultative=Yes|wordform=ɗúːni
 9	<	<	PUNCT	_	_	1	punct	_	AlignBegin=119203|AlignEnd=119413|Gloss=PUNCT
-10	ɗan	ɗan	SCONJ	_	_	19	mod	_	AlignBegin=119765|AlignEnd=119969|Gloss=REL
+10	ɗan	ɗan	SCONJ	_	_	18	mod	_	AlignBegin=119765|AlignEnd=119969|Gloss=REL
 11	mətáyáː	ta-yáː	AUX	_	Aspect=Imp|Number=Sing|Person=1|Tense=Rem	10	comp:obj	_	AlignBegin=119969|AlignEnd=120173|Gloss=1Sing.Imp.Rem
 12	kwáːn	kon	VERB	_	Number=Plur	11	comp:aux	_	AlignBegin=120173|AlignEnd=120275|Gloss=say.Plur
 13	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	11	conj:coord	_	AlignBegin=120377|AlignEnd=120581|Gloss=1Sing.Aor
@@ -1052,14 +1052,14 @@
 14	fúː	fuː	VERB	_	_	13	comp:aux	_	AlignBegin=120581|AlignEnd=120683|Gloss=tell
 15	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	14	comp:obj	_	AlignBegin=120683|AlignEnd=120785|Gloss=3Sing.Obj
 16	<	<	PUNCT	_	_	10	punct	_	AlignBegin=120785|AlignEnd=120990|Gloss=PUNCT
-17	raː	raː	NOUN	_	_	19	dislocated@subj	_	AlignBegin=121572|AlignEnd=121785|Gloss=heart
-18	ɗa	ɗan	ADV	_	_	19	mod	_	AlignBegin=121785|AlignEnd=121891|Gloss=then
-19	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=121891|AlignEnd=121998|Gloss=3Sing.Perf
+17	raː	raː	NOUN	_	_	18	subj	_	AlignBegin=121572|AlignEnd=121785|Gloss=heart
+18	ɗa	ɗa	PART	_	_	0	root	_	AlignBegin=121785|AlignEnd=121891|Gloss=exist
+19	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	18	comp:cleft	_	AlignBegin=121891|AlignEnd=121998|Gloss=3Sing.Perf
 20	mán	mán	VERB	_	_	19	comp:aux	_	AlignBegin=121998|AlignEnd=122211|Gloss=come
 21-22	wumtə	_	_	_	_	_	_	_	_
 21	wum	wum	VERB	_	_	20	compound:svc	_	AlignBegin=122211|AlignEnd=122317|Gloss=feel
 22	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	21	comp:obj	_	AlignBegin=122317|AlignEnd=122424|Gloss=3Sing.Obj
-23	//	//	PUNCT	_	_	19	punct	_	AlignBegin=122424|AlignEnd=122636|Gloss=PUNCT
+23	//	//	PUNCT	_	_	18	punct	_	AlignBegin=122424|AlignEnd=122636|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_117-119
 # speaker_id = SP2
@@ -1230,7 +1230,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 141545, 147141
 # text_ortho = dzàŋ Kímsə < mətá yeltə > vìː ɗa àː mán mbaː ɓastə ɗan kutu mur ɣə́ ázùmí dóːlêː káwêy //
-# text_en = On Tuesday, I saw him, his mouth had become dry like a man fasting seriously.
+# text_en = On Tuesday, I saw him, [with] his mouth that had become dry like a man fasting seriously.
 1	dzàŋ	dzàŋ	NOUN	_	_	4	mod	_	AlignBegin=141545|AlignEnd=141773|Gloss=day
 2	Kímsə	Kímsə	PROPN	_	_	1	compound	_	AlignBegin=141773|AlignEnd=142001|Gloss=Ɓoi
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=142001|AlignEnd=142228|Gloss=PUNCT
@@ -1238,10 +1238,10 @@
 5-6	yeltə	_	_	_	_	_	_	_	_
 5	yel	yel	VERB	_	_	4	comp:aux	_	AlignBegin=142432|AlignEnd=142534|Gloss=see
 6	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=142534|AlignEnd=142636|Gloss=3Sing.Obj
-7	//=	//=	PUNCT	_	_	10	punct	_	AlignBegin=142636|AlignEnd=142841|Gloss=PUNCT
-8	vìː	vìː	NOUN	_	_	10	dislocated@subj	_	AlignBegin=142841|AlignEnd=143122|Gloss=mouth
-9	ɗa	ɗan	ADV	_	_	10	mod	_	AlignBegin=143122|AlignEnd=143262|Gloss=then
-10	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	4	parataxis	_	AlignBegin=143262|AlignEnd=143403|Gloss=3Sing.Perf
+7	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=142636|AlignEnd=142841|Gloss=PUNCT
+8	vìː	vìː	NOUN	_	_	9	subj	_	AlignBegin=142841|AlignEnd=143122|Gloss=mouth
+9	ɗa	ɗa	PART	_	_	5	parataxis	_	AlignBegin=143122|AlignEnd=143262|Gloss=exist
+10	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	9	comp:cleft	_	AlignBegin=143262|AlignEnd=143403|Gloss=3Sing.Perf
 11	mán	máni	VERB	_	_	10	comp:aux	_	AlignBegin=143403|AlignEnd=143684|Gloss=come
 12	mbaː	mbaː	VERB	_	_	11	compound:svc	_	AlignBegin=143684|AlignEnd=143965|Gloss=be_white
 13-14	ɓastə	_	_	_	_	_	_	_	_
