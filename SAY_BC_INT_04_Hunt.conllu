@@ -50,7 +50,7 @@
 19	aː	a:	PART	_	_	17	mod	_	AlignBegin=7254|AlignEnd=7442|Gloss=VRT|PartType=Int|wordform=a:
 20	|c	|c	PUNCT	_	_	23	punct	_	AlignBegin=7442|AlignEnd=7630|Gloss=PUNCT
 21	kóː	kóː	CCONJ	_	_	23	cc	_	AlignBegin=7630|AlignEnd=7922|Gloss=or|Lang=ha
-22	kúmá	kúmá	PART	_	_	21	discourse@top	_	AlignBegin=7922|AlignEnd=8215|Gloss=else|Lang=ha
+22	kúmá	kúmá	TopPART	_	_	21	discourse@top	_	AlignBegin=7922|AlignEnd=8215|Gloss=else|Lang=ha
 23	kə̀tà	ta	AUX	_	Number=Sing|Person=2|Tense=Rem	17	conj:coord	_	AlignBegin=8900|AlignEnd=9059|Gloss=2Plur.Rem
 24	yír	yír	VERB	_	_	23	comp:aux	_	AlignBegin=9059|AlignEnd=9218|Gloss=have
 25	gyáː	gyáː	DET	_	Number=Plur	26	det	_	AlignBegin=9218|AlignEnd=9377|Gloss=Plur
@@ -240,12 +240,12 @@
 23	gàri	gàri	NOUN	_	_	22	comp:obj	_	AlignBegin=43370|AlignEnd=43600|Gloss=village
 24	||	||	PUNCT	_	_	25	punct	_	AlignBegin=43600|AlignEnd=43829|Gloss=PUNCT
 25	á	ká	ADP	_	_	22	conj:dicto	_	AlignBegin=43829|AlignEnd=44073|Gloss=at
-26	yǎːɬwâːníː	yaːɬ	NOUN	_	Case=Gen|Definite=Anaph|Number=Plur|Person=2|Poss=Yes	25	comp:obj	_	AlignBegin=44073|AlignEnd=44317|Gloss=country-Cons.2PlurGen.PRM|wordform=yǎːɬ
+26	yǎːɬwâːníː	yaːɬ	NOUN	_	Definite=Anaph|Number=Plur|Person=2|Poss=Yes	25	comp:obj	_	AlignBegin=44073|AlignEnd=44317|Gloss=country-Cons.2PlurGen.PRM|wordform=yǎːɬ
 27	|c	|c	PUNCT	_	_	30	punct	_	AlignBegin=44317|AlignEnd=44560|Gloss=PUNCT
 28	kóː	kóː	CCONJ	_	_	30	cc	_	AlignBegin=45220|AlignEnd=45371|Gloss=or
 29	kwǎː	kwǎː	PART	_	_	28	discourse	_	AlignBegin=45371|AlignEnd=45522|Gloss=else
 30	á	ká	ADP	_	_	25	conj:coord	_	AlignBegin=45522|AlignEnd=45673|Gloss=at
-31	wǔːrwâːníː	wuːr	NOUN	_	Case=Gen|Definite=Anaph|Number=Plur|Person=2|Poss=Yes	30	comp:obj	_	AlignBegin=45673|AlignEnd=45824|Gloss=sacred_groove-Cons.2PlurGen.PRM|wordform=wuːr
+31	wǔːrwâːníː	wuːr	NOUN	_	Definite=Anaph|Number=Plur|Person=2|Poss=Yes	30	comp:obj	_	AlignBegin=45673|AlignEnd=45824|Gloss=sacred_groove-Cons.2PlurGen.PRM|wordform=wuːr
 32	//]	//]	PUNCT	_	_	19	punct	_	AlignBegin=45824|AlignEnd=45975|Gloss=PUNCT
 33	//	//	PUNCT	_	_	2	punct	_	AlignBegin=46126|AlignEnd=46280|Gloss=PUNCT
 
@@ -613,7 +613,7 @@
 # text_en = From here it will reach like around the valley of Boi!
 1	dàgà	dàgà	ADP	_	_	5	dislocated@mod	_	AlignBegin=113040|AlignEnd=113231|Gloss=from
 2	ɗûːn	ɗúːni	PRON	_	_	1	comp:obj	_	AlignBegin=113231|AlignEnd=113422|Gloss=here
-3	fáː	fáː	PART	_	_	1	discourse@top	_	AlignBegin=113422|AlignEnd=113613|Gloss=indeed
+3	fáː	fáː	TopPART	_	_	1	discourse@top	_	AlignBegin=113422|AlignEnd=113613|Gloss=indeed
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=113613|AlignEnd=113804|Gloss=PUNCT
 5	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=114220|AlignEnd=114368|Gloss=3Sing.Fut
 6	fíː	fi	VERB	_	_	5	comp:aux	_	AlignBegin=114368|AlignEnd=114516|Gloss=do.ACH|Resultative=Yes|wordform=fi
@@ -858,7 +858,7 @@
 # text_ortho = naːr máː ʧi ʧík //
 # text_en = Individual hunting too is like this.
 1	naːr	naːr	NOUN	_	_	3	dislocated@subj	_	AlignBegin=144540|AlignEnd=144672|Gloss=hunting
-2	máː	máː	PART	_	_	1	discourse@top	_	AlignBegin=144672|AlignEnd=144804|Gloss=also
+2	máː	máː	TopPART	_	_	1	discourse@top	_	AlignBegin=144672|AlignEnd=144804|Gloss=also
 3	ʧi	yi	AUX	_	_	0	root	_	AlignEnd=144936|Gloss=3Sing.be|wordform=yi
 4	ʧík	ʧík	ADV	_	_	3	comp:pred	_	AlignBegin=144936|AlignEnd=145068|Gloss=thus
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=145068|AlignEnd=145201|Gloss=PUNCT
@@ -1306,7 +1306,7 @@
 9	<	<	PUNCT	_	_	2	punct	_	AlignBegin=205292|AlignEnd=205480|Gloss=PUNCT
 10	tôː	tôː	PART	_	_	14	discourse	_	AlignBegin=206140|AlignEnd=206350|Gloss=DM
 11	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	14	dislocated@top	_	AlignBegin=206350|AlignEnd=206560|Gloss=3Sing.IDP
-12	máː	máː	PART	_	_	11	discourse@top	_	AlignBegin=206560|AlignEnd=206770|Gloss=also
+12	máː	máː	TopPART	_	_	11	discourse@top	_	AlignBegin=206560|AlignEnd=206770|Gloss=also
 13	<	<	PUNCT	_	_	11	punct	_	AlignBegin=206770|AlignEnd=206980|Gloss=PUNCT
 14	ʧàːyí	yáː-yiː	AUX	_	Aspect=ImpIter|Number=Sing|Person=3	0	root	_	AlignBegin=207200|AlignEnd=207370|Gloss=3Plur.Imp.Iter
 15	ɬet	ɬet	VERB	_	_	14	comp:aux	_	AlignBegin=207370|AlignEnd=207540|Gloss=carve
