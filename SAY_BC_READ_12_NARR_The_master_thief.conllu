@@ -48,7 +48,7 @@
 # text_ortho = sə́mwòs tu Nòːmáu //
 # text_en = His name was Nomau.
 1	sə́mwòs	sə̂m	NOUN	_	Poss=Yes	2	subj	_	AlignBegin=7880|AlignEnd=8002|Gloss=name.3SingGen|wordform=sə̂m
-2	tu	tu	PART	_	_	0	root	_	AlignBegin=8125|AlignEnd=8370|Gloss=be|PartType=Pred
+2	tu	tu	PredPART	_	_	0	root	_	AlignBegin=8125|AlignEnd=8370|Gloss=be
 3	Nòːmáu	Nòːmáu	PROPN	_	_	2	comp:pred	_	AlignBegin=8370|AlignEnd=8615|Gloss=Nomau
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=8615|AlignEnd=8860|Gloss=PUNCT
 
@@ -188,7 +188,7 @@
 # text_en = The following morning, he came back.
 1	lə̂p	lə̂p	NOUN	_	ExtPos=ADV	2	subj	_	AlignBegin=39380|AlignEnd=39575|Gloss=place
 2-3	ɗǎː	_	_	_	_	_	_	_	_
-2	ɗa	ɗa	PART	_	_	5	mod	_	AlignBegin=39575|AlignEnd=39673|Gloss=exist|PartType=Pred
+2	ɗa	ɗa	PredPART	_	_	5	mod	_	AlignBegin=39575|AlignEnd=39673|Gloss=exist
 3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	2	comp:pred	_	AlignBegin=39673|AlignEnd=39770|Gloss=3Sing.Aor
 4	ɬǎːy	ɬaː	VERB	_	_	3	comp:aux	_	AlignBegin=39770|AlignEnd=39868|Gloss=cut.ACH|Resultative=Yes|wordform=ɬaː
 5	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=40540|AlignEnd=40713|Gloss=3Sing.Aor
@@ -249,7 +249,7 @@
 # text_ortho = lə̂p ɗǎː ɬǎːy nòːmáw á ɬə́n mbiː gòdòwòs ɗan ʧáː mbút káy //
 # text_en = The following morning, Nomau took the blanket that he was sleeping in.
 1	lə̂p	lə̂p	NOUN	_	_	2	subj	_	AlignBegin=57320|AlignEnd=57520|Gloss=place
-2	ɗa	ɗa	PART	_	_	6	mod	_	AlignBegin=57520|AlignEnd=57620|Gloss=exist|PartType=Pred
+2	ɗa	ɗa	PredPART	_	_	6	mod	_	AlignBegin=57520|AlignEnd=57620|Gloss=exist
 3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	2	comp:pred	_	AlignBegin=57620|AlignEnd=57720|Gloss=3Sing.Aor
 4	ɬǎːy	ɬaː	VERB	_	_	3	comp:aux	_	AlignBegin=57720|AlignEnd=57820|Gloss=cut.ACH|Resultative=Yes|wordform=ɬaː
 5	Nòːmáu	nòːmáw	PROPN	_	_	6	subj	_	AlignBegin=58800|AlignEnd=59103|Gloss=Nomau|wordform=nòːmáw
@@ -556,7 +556,7 @@
 # text_ortho = lə̂p ɗǎː ɬǎːy tə́ ɓíɬndi Nòːmáu á lə̌ːr gùŋ zobbèwòs mə́nɗi //
 # text_en = The following day, early in the morning, Nomau took his ring to the king.
 1	lə̂p	lə̂p	NOUN	_	_	2	subj	_	AlignBegin=124980|AlignEnd=125183|Gloss=place
-2	ɗa	ɗa	PART	_	_	8	mod	_	AlignBegin=125183|AlignEnd=125285|Gloss=exist|PartType=Pred
+2	ɗa	ɗa	PredPART	_	_	8	mod	_	AlignBegin=125183|AlignEnd=125285|Gloss=exist
 3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	2	comp:pred	_	AlignBegin=125285|AlignEnd=125386|Gloss=3Sing.Aor
 4	ɬǎːy	ɬaː	VERB	_	_	3	comp:aux	_	AlignBegin=125386|AlignEnd=125488|Gloss=cut.ACH|Resultative=Yes|wordform=ɬaː
 5	tə́	tə́	ADP	_	_	4	mod	_	AlignBegin=125589|AlignEnd=125792|Gloss=with
@@ -585,7 +585,7 @@
 6	naː	naː	PART	_	_	5	mod	_	AlignBegin=133472|AlignEnd=133718|Gloss=DER
 7	yîr	yîr	NOUN	_	_	6	compound	_	AlignBegin=133718|AlignEnd=133964|Gloss=eye
 8	gaːmi	gaːm	NOUN	_	Definite=Ind	7	compound	_	AlignBegin=133964|AlignEnd=134087|Gloss=head-Ind|wordform=gaːm
-9	oː	oː	PART	_	_	4	mod	_	AlignBegin=134210|AlignEnd=134456|Gloss=Fact|PartType=Emph
+9	oː	oː	IlPART	_	_	4	mod	_	AlignBegin=134210|AlignEnd=134456|Gloss=Fact
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=134456|AlignEnd=134700|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_The_master_thief_062-065
@@ -597,7 +597,7 @@
 1	Nòːmáu	Nòːmáu	PROPN	_	_	2	discourse	_	AlignBegin=136620|AlignEnd=136820|Gloss=Nomau
 2	wûl	wul	VERB	_	_	0	root	_	AlignBegin=136820|AlignEnd=137020|Gloss=say
 3	tu	tu	SCONJ	_	_	2	comp:obj	_	AlignBegin=137020|AlignEnd=137220|Gloss=COMP
-4	nə	nə	PART	_	_	3	comp:obj	_	AlignBegin=138260|AlignEnd=138443|Gloss=COP1|PartType=Pred
+4	nə	nə	PredPART	_	_	3	comp:obj	_	AlignBegin=138260|AlignEnd=138443|Gloss=COP1
 5	myáːni	myáːni	PRON	_	Number=Sing|Person=1|PronType=Prs	4	comp:pred	_	AlignBegin=138443|AlignEnd=138626|Gloss=1Sing.IDP
 6	ɣən	kən	FocPART	_	_	4	discourse@foc	_	AlignBegin=138626|AlignEnd=138809|Gloss=be
 7	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	4	comp:cleft	_	AlignBegin=138809|AlignEnd=138992|Gloss=1Sing.Aor
@@ -709,7 +709,7 @@
 # text_en = In the evening, he went to the place where they buried people.
 1	súːtu	súːtu	NOUN	_	_	2	subj	_	AlignBegin=161800|AlignEnd=162015|Gloss=evening
 2-3	ɗǎː	_	_	_	_	_	_	_	_
-2	ɗa	ɗa	PART	_	_	5	mod	_	AlignBegin=162015|AlignEnd=162123|Gloss=exist|PartType=Pred
+2	ɗa	ɗa	PredPART	_	_	5	mod	_	AlignBegin=162015|AlignEnd=162123|Gloss=exist
 3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	2	comp:pred	_	AlignBegin=162123|AlignEnd=162230|Gloss=3Sing.Aor
 4	fǐː	fi	VERB	_	_	3	comp:aux	_	AlignBegin=162230|AlignEnd=162338|Gloss=do.ACH|Resultative=Yes|wordform=fi
 5	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=164300|AlignEnd=164494|Gloss=3Sing.Aor
@@ -1039,7 +1039,7 @@
 5	mi	yi	AUX	_	ExtPos=ADV|Number=Sing|Person=1	4	comp:obj	_	AlignBegin=243080|AlignEnd=243283|Gloss=1Sing.be|Idiom=Yes
 6	ɣáy	káy	PRON	_	Case=Loc	5	comp:obl@expl	_	AlignBegin=243283|AlignEnd=243486|Gloss=Anaph.Loc.3Sing|InIdiom=Yes
 7	tu	tu	SCONJ	_	_	5	comp:pred	_	AlignBegin=243486|AlignEnd=243689|Gloss=COMP|InIdiom=Yes
-8	nə	nə	PART	_	_	7	comp:obj	_	AlignBegin=243689|AlignEnd=243892|Gloss=COP1|PartType=Pred
+8	nə	nə	PredPART	_	_	7	comp:obj	_	AlignBegin=243689|AlignEnd=243892|Gloss=COP1
 9	kyáːni	kyáːni	PRON	_	Number=Sing|Person=2|PronType=Prs	8	comp:pred	_	AlignBegin=243892|AlignEnd=244095|Gloss=2Sing.IDP
 10	ɣən	kən	FocPART	_	_	9	discourse@foc	_	AlignBegin=244095|AlignEnd=244298|Gloss=COP2
 11	kə	á	AUX	_	Aspect=Aor|Number=Sing|Person=2	8	comp:cleft	_	AlignBegin=244298|AlignEnd=244501|Gloss=2Sing.Aor
@@ -1057,8 +1057,8 @@
 21-22	ɗutíː	_	_	_	_	_	_	_	_
 21	ɗu	ɗu	VERB	_	_	20	comp:aux	_	AlignBegin=247232|AlignEnd=247289|Gloss=kill
 22	=tíː	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	21	comp:obj	_	AlignBegin=247289|AlignEnd=247346|Gloss==3Sing.Acc.ACH|Resultative=Yes|wordform==tə
-23	oː	oː	PART	_	_	20	mod	_	AlignBegin=247404|AlignEnd=247576|Gloss=Fact|PartType=Emph
-24	ŋǎːn	ŋǎːn	PART	_	Polarity=Neg	8	mod	_	AlignBegin=247576|AlignEnd=247748|Gloss=QUEST|PartType=Int
+23	oː	oː	IlPART	_	_	20	mod	_	AlignBegin=247404|AlignEnd=247576|Gloss=Fact
+24	ŋǎːn	ŋǎːn	IlPART	_	Polarity=Neg	8	mod	_	AlignBegin=247576|AlignEnd=247748|Gloss=QUEST
 25	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=247748|AlignEnd=247920|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_The_master_thief_118-122
@@ -1087,7 +1087,7 @@
 17	ɗantu	ɗantu	ADP	_	_	16	comp:pred	_	AlignBegin=255612|AlignEnd=255778|Gloss=as_if
 18	bàː	bàː	PART	_	Polarity=Neg	19	mod	_	AlignBegin=255778|AlignEnd=255944|Gloss=Neg1
 19-20	yáːnǐŋ	_	_	_	_	_	_	_	_
-19	nə	nə	PART	_	_	17	comp:obj	_	AlignBegin=255944|AlignEnd=256110|Gloss=COP1|PartType=Pred
+19	nə	nə	PredPART	_	_	17	comp:obj	_	AlignBegin=255944|AlignEnd=256110|Gloss=COP1
 20	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	19	comp:pred	_	AlignBegin=256110|AlignEnd=256193|Gloss=3Sing.IDP
 21	hŋ́	hŋ́	PART	_	Polarity=Neg	19	mod	_	AlignBegin=256193|AlignEnd=256276|Gloss=NEG2
 22	dón	dòmín	SCONJ	_	_	19	mod	_	AlignBegin=257640|AlignEnd=257873|Gloss=because
@@ -1238,7 +1238,7 @@
 # text_en = When night fell, he went to the king's house.
 1	kávit	kávit	NOUN	_	_	2	subj	_	AlignBegin=290400|AlignEnd=290639|Gloss=night
 2-3	ɗǎː	_	_	_	_	_	_	_	_
-2	ɗa	ɗa	PART	_	_	5	mod	_	AlignBegin=290639|AlignEnd=290759|Gloss=exist|PartType=Pred
+2	ɗa	ɗa	PredPART	_	_	5	mod	_	AlignBegin=290639|AlignEnd=290759|Gloss=exist
 3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	2	comp:pred	_	AlignBegin=290759|AlignEnd=290878|Gloss=3Sing.Aor
 4	fǐː	fi	VERB	_	_	3	comp:aux	_	AlignBegin=290878|AlignEnd=290998|Gloss=do.ACH|Resultative=Yes|wordform=fi
 5	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=291940|AlignEnd=292083|Gloss=3Sing.Aor
@@ -1387,7 +1387,7 @@
 3	wûl	wul	VERB	_	_	2	comp:aux	_	AlignBegin=324035|AlignEnd=324113|Gloss=say
 4	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj@R	_	AlignBegin=324113|AlignEnd=324190|Gloss==3Sing.Acc
 5	tu	tu	SCONJ	_	_	3	comp:obj@T	_	AlignBegin=324190|AlignEnd=324345|Gloss=COMP
-6	nə	nə	PART	_	_	5	comp:obj	_	AlignBegin=325340|AlignEnd=325533|Gloss=COP1|PartType=Pred
+6	nə	nə	PredPART	_	_	5	comp:obj	_	AlignBegin=325340|AlignEnd=325533|Gloss=COP1
 7	ɗûː	ɗûː	NOUN	_	_	6	comp:pred	_	AlignBegin=325533|AlignEnd=325726|Gloss=beer
 8	ɣən	kən	FocPART	_	_	7	discourse@foc	_	AlignBegin=325726|AlignEnd=325919|Gloss=COP2
 9	á	ká	ADP	_	Aspect=Aor|Number=Sing|Person=3	6	comp:cleft	_	AlignBegin=325919|AlignEnd=326112|Gloss=3Sing.Aor
@@ -1422,7 +1422,7 @@
 12	fî	fi	VERB	_	_	11	comp:aux	_	AlignBegin=338314|AlignEnd=338471|Gloss=do
 13	wǔɣn	wuɣn	NOUN	_	_	12	comp:obj	_	AlignBegin=338471|AlignEnd=338549|Gloss=medicine.Cons
 14	kúʧíː	kúʧi	NOUN	_	_	13	mod	_	AlignBegin=338628|AlignEnd=338706|Gloss=sleep.ACH|Resultative=Yes|wordform=kúʧi
-15	oː	oː	PART	_	_	11	mod	_	AlignBegin=338785|AlignEnd=338942|Gloss=Fact|PartType=Emph
+15	oː	oː	IlPART	_	_	11	mod	_	AlignBegin=338785|AlignEnd=338942|Gloss=Fact
 16	//	//	PUNCT	_	_	3	punct	_	AlignBegin=338942|AlignEnd=339100|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_The_master_thief_164-166
@@ -1624,7 +1624,7 @@
 6	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	0	root	_	AlignBegin=384780|AlignEnd=384924|Gloss=3Sing.Sub
 7	ndá	nda	VERB	_	_	6	comp:aux	_	AlignBegin=384924|AlignEnd=385068|Gloss=enter
 8	káwéy	káwêy	ADV	_	_	7	mod	_	AlignBegin=385068|AlignEnd=385212|Gloss=merely
-9	oː	oː	PART	_	_	6	mod	_	AlignBegin=385212|AlignEnd=385356|Gloss=Fact|PartType=Emph
+9	oː	oː	IlPART	_	_	6	mod	_	AlignBegin=385212|AlignEnd=385356|Gloss=Fact
 10	//	//	PUNCT	_	_	6	punct	_	AlignBegin=385356|AlignEnd=385500|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_The_master_thief_188-191
@@ -1696,7 +1696,7 @@
 # text_en = When day broke, the king went to see them.
 1	lə̂p	lə̂p	NOUN	_	_	2	subj	_	AlignBegin=405080|AlignEnd=405250|Gloss=place
 2-3	ɗǎː	_	_	_	_	_	_	_	_
-2	ɗa	ɗa	PART	_	_	7	mod	_	AlignBegin=405250|AlignEnd=405335|Gloss=exist|PartType=Pred
+2	ɗa	ɗa	PredPART	_	_	7	mod	_	AlignBegin=405250|AlignEnd=405335|Gloss=exist
 3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	2	comp:pred	_	AlignBegin=405335|AlignEnd=405420|Gloss=3Sing.Aor
 4	ɬǎːy	ɬaː	VERB	_	_	3	comp:aux	_	AlignBegin=405477|AlignEnd=405534|Gloss=cut.ACH|Resultative=Yes|wordform=ɬaː
 5	séy	séː	SCONJ	_	_	7	mod	_	AlignBegin=406480|AlignEnd=406698|Gloss=then
@@ -1710,7 +1710,7 @@
 12	paŋ	paŋ	VERB	_	_	11	compound:svc	_	AlignBegin=409236|AlignEnd=409299|Gloss=inspect
 13	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=409299|AlignEnd=409362|Gloss=3Plur.Obj
 14	ni	ni	PART	_	_	12	compound:prt	_	AlignBegin=409362|AlignEnd=409424|Gloss=Iter|wordform=-ni
-15	oː	oː	PART	_	_	10	mod	_	AlignBegin=409424|AlignEnd=409612|Gloss=Fact|PartType=Emph
+15	oː	oː	IlPART	_	_	10	mod	_	AlignBegin=409424|AlignEnd=409612|Gloss=Fact
 16	//	//	PUNCT	_	_	7	punct	_	AlignBegin=409612|AlignEnd=409800|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_The_master_thief_200-201
@@ -1815,7 +1815,7 @@
 7	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	6	comp:obj@R	_	AlignBegin=433825|AlignEnd=433906|Gloss==3Sing.Acc
 8	kə́	kə́	ADP	_	_	6	comp:obl	_	AlignBegin=433906|AlignEnd=434069|Gloss=that_of
 9	wupʃi	wupsə	NUM	_	Definite=Ind	8	comp:obj	_	AlignBegin=434069|AlignEnd=434151|Gloss=four-Ind|wordform=wupsə
-10	oː	oː	PART	_	_	5	mod	_	AlignBegin=434232|AlignEnd=434395|Gloss=Fact|PartType=Emph
+10	oː	oː	IlPART	_	_	5	mod	_	AlignBegin=434232|AlignEnd=434395|Gloss=Fact
 11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=434395|AlignEnd=434560|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_The_master_thief_212-215
@@ -1845,7 +1845,7 @@
 17	ɗi	ɗi	PART	_	_	15	comp:obl	_	AlignBegin=441516|AlignEnd=441598|Gloss=CTP|wordform=-́ɗi
 18	nə	nə	PART	_	_	15	mod	_	AlignBegin=441598|AlignEnd=441844|Gloss=DER
 19	mə́ːri	mə̂ːr	NOUN	_	Definite=Ind|Number=Plur	18	compound	_	AlignBegin=441844|AlignEnd=441967|Gloss=stealing-Ind|wordform=mə̂ːr
-20	oː	oː	PART	_	_	8	mod	_	AlignBegin=442090|AlignEnd=442336|Gloss=Fact|PartType=Emph
+20	oː	oː	IlPART	_	_	8	mod	_	AlignBegin=442090|AlignEnd=442336|Gloss=Fact
 21	//	//	PUNCT	_	_	3	punct	_	AlignBegin=442336|AlignEnd=442580|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_The_master_thief_216-216
@@ -1948,7 +1948,7 @@
 # text_en = When the night had come, he took his candles and the crabs.
 1	kávit	kávit	NOUN	_	_	2	subj	_	AlignBegin=466160|AlignEnd=466355|Gloss=night
 2-3	ɗǎː	_	_	_	_	_	_	_	_
-2	ɗa	ɗan	PART	_	_	5	mod	_	AlignBegin=466355|AlignEnd=466453|Gloss=exist|PartType=Pred
+2	ɗa	ɗan	PredPART	_	_	5	mod	_	AlignBegin=466355|AlignEnd=466453|Gloss=exist
 3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	2	comp:pred	_	AlignBegin=466453|AlignEnd=466550|Gloss=3Sing.Aor
 4	fǐː	fi	VERB	_	_	3	comp:aux	_	AlignBegin=466550|AlignEnd=466648|Gloss=do.ACH|Resultative=Yes|wordform=fi
 5	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=468120|AlignEnd=468364|Gloss=3Sing.Aor
@@ -2045,7 +2045,7 @@
 1	ʧi	yi	AUX	_	_	0	root	_	AlignBegin=496140|AlignEnd=496340|Gloss=3Sing.be|wordform=yi
 2	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	1	comp:obl@expl	_	AlignBegin=496340|AlignEnd=496540|Gloss=Anaph.Loc.3Sing
 3	tu	tu	SCONJ	_	_	1	comp:pred	_	AlignBegin=496540|AlignEnd=496740|Gloss=COMP
-4	nə	nə	PART	_	_	3	comp:obj	_	AlignBegin=496740|AlignEnd=496940|Gloss=COP1|PartType=Pred
+4	nə	nə	PredPART	_	_	3	comp:obj	_	AlignBegin=496740|AlignEnd=496940|Gloss=COP1
 5	làːdâːn	lá̀ːdâːn	NOUN	_	Number=Plur	4	comp:pred	_	AlignBegin=496940|AlignEnd=497140|Gloss=muezzin
 6	gən	kən	FocPART	_	_	5	discourse@foc	_	AlignBegin=497140|AlignEnd=497340|Gloss=COP2
 7	àː	àː	AUX	_	Aspect=Perf|Number=Sing|Person=3	4	comp:cleft	_	AlignBegin=497340|AlignEnd=497540|Gloss=3Sing.Perf
@@ -2141,7 +2141,7 @@
 # text = nə Tʃoɣn gən á ʃîntə́ɗi tu tə̀ mán ɬə́ːrtíː dón àː naː mel tə̀ ʧí yaːɬə́níː tə́ wût dón nə́ ngə́tn ɗan ʧǎː fî bàː á ndârá hŋ́ //
 # text_ortho = nə Tʃoɣn gən á ʃîntə́ɗi tu tə̀ mán ɬə́ːrtíː dón àː naː mel tə̀ ʧí yaːɬə́níː tə́ wût dón nə́ ngə́tn ɗan ʧǎː fî bàː á ndârá hŋ́ //
 # text_en = God had sent him to take him away because he was about to set this country on fire because what they were doing was not good.
-1	nə	nə	PART	_	_	0	root	_	AlignBegin=515960|AlignEnd=516216|Gloss=COP1|PartType=Pred
+1	nə	nə	PredPART	_	_	0	root	_	AlignBegin=515960|AlignEnd=516216|Gloss=COP1
 2	Tʃoɣn	Tʃoɣn	PROPN	_	_	1	comp:pred	_	AlignBegin=516216|AlignEnd=516472|Gloss=God
 3	gən	kən	FocPART	_	_	2	discourse@foc	_	AlignBegin=516472|AlignEnd=516728|Gloss=COP2
 4	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	1	comp:cleft	_	AlignBegin=516728|AlignEnd=516984|Gloss=3Sing.Aor
@@ -2186,7 +2186,7 @@
 2	káp	káp	ADV	_	_	3	mod	_	AlignBegin=526124|AlignEnd=526348|Gloss=all
 3	ká	ká	ADP	_	_	5	mod	_	AlignBegin=526348|AlignEnd=526572|Gloss=at
 4	yaːɬə́n	yaːɬ	NOUN	_	Definite=Cons	3	comp:obj	_	AlignBegin=526572|AlignEnd=526684|Gloss=country.Prox|wordform=yaːɬ
-5	bâː	bâː	PART	_	Polarity=Neg	0	root	_	AlignBegin=527680|AlignEnd=527869|Gloss=Q.NEG|PartType=Pred
+5	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=527680|AlignEnd=527869|Gloss=Q.NEG
 6	gón	gón	PRON	_	Definite=Spec	5	comp:pred	_	AlignBegin=527869|AlignEnd=528058|Gloss=Spec
 7	ɗan	ɗan	SCONJ	_	_	6	mod@relcl	_	AlignBegin=528058|AlignEnd=528247|Gloss=that
 8	ʧi	yi	AUX	_	_	7	comp:obj	_	AlignBegin=528247|AlignEnd=528436|Gloss=3Sing.be|wordform=yi
@@ -2214,7 +2214,7 @@
 9-10	ɬə́ːrtíː	_	_	_	_	_	_	_	_
 9	ɬə́ːr	ɬə	VERB	_	_	8	compound:svc	_	AlignBegin=532628|AlignEnd=532669|Gloss=go-Cau
 10	=tíː	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=532710|AlignEnd=532751|Gloss==3Sing.Acc.ACH|Resultative=Yes|wordform==tə
-11	oː	oː	PART	_	_	7	mod	_	AlignBegin=532792|AlignEnd=532956|Gloss=Fact|PartType=Emph
+11	oː	oː	IlPART	_	_	7	mod	_	AlignBegin=532792|AlignEnd=532956|Gloss=Fact
 12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=532956|AlignEnd=533120|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_The_master_thief_258-258
@@ -2430,7 +2430,7 @@
 # text_en = The following day, early in the morning, Nomau took him to the king's house.
 1	lə̂p	lə̂p	NOUN	_	_	2	subj	_	AlignBegin=578620|AlignEnd=578830|Gloss=place
 2-3	ɗǎː	_	_	_	_	_	_	_	_
-2	ɗa	ɗa	PART	_	_	9	mod	_	AlignBegin=578830|AlignEnd=578935|Gloss=exist|PartType=Pred
+2	ɗa	ɗa	PredPART	_	_	9	mod	_	AlignBegin=578830|AlignEnd=578935|Gloss=exist
 3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	2	comp:pred	_	AlignBegin=578935|AlignEnd=579040|Gloss=3Sing.Aor
 4	ɬǎːy	ɬaː	VERB	_	_	3	comp:aux	_	AlignBegin=579040|AlignEnd=579145|Gloss=cut.ACH|Resultative=Yes|wordform=ɬaː
 5	tə́	tə́	ADP	_	_	4	mod	_	AlignBegin=580000|AlignEnd=580207|Gloss=with
@@ -2530,7 +2530,7 @@
 10	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	9	comp:obj	_	AlignBegin=604940|AlignEnd=605108|Gloss=3Sing.Sub
 11	ɗə́rə́	ɗərə	VERB	_	_	10	comp:aux	_	AlignBegin=605108|AlignEnd=605276|Gloss=open
 12	ʤìɣáy	ʤìka	VERB	_	_	11	comp:obj	_	AlignBegin=605276|AlignEnd=605360|Gloss=bag.ACH|Resultative=Yes|wordform=ʤìka
-13	oː	oː	PART	_	_	10	mod	_	AlignBegin=605444|AlignEnd=605612|Gloss=Fact|PartType=Emph
+13	oː	oː	IlPART	_	_	10	mod	_	AlignBegin=605444|AlignEnd=605612|Gloss=Fact
 14	//	//	PUNCT	_	_	7	punct	_	AlignBegin=605612|AlignEnd=605780|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_The_master_thief_293-294
@@ -2582,7 +2582,7 @@
 1	tsantsá	tsantsá	ADV	_	_	2	mod	_	AlignBegin=614820|AlignEnd=615053|Gloss=extreme
 2	nzǔːn	nzǔːn	NOUN	_	_	3	subj	_	AlignBegin=615053|AlignEnd=615286|Gloss=shame
 3-4	ɗǎː	_	_	_	_	_	_	_	_
-3	ɗa	ɗa	PART	_	PronType=Rel	8	mod	_	AlignBegin=616460|AlignEnd=616564|Gloss=exist|PartType=Pred
+3	ɗa	ɗa	PredPART	_	PronType=Rel	8	mod	_	AlignBegin=616460|AlignEnd=616564|Gloss=exist
 4	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	3	comp:pred	_	AlignBegin=616564|AlignEnd=616667|Gloss=3Sing.Aor
 5-6	ngáptə̀	_	_	_	_	_	_	_	_
 5	ngâp	ngap	VERB	_	_	4	comp:aux	_	AlignBegin=616667|AlignEnd=616771|Gloss=catch
@@ -2680,7 +2680,7 @@
 # text_en = The following morning, he came back and found them talking in the parlour.
 1	lə̂p	lə̂p	NOUN	_	_	2	subj	_	AlignBegin=640480|AlignEnd=640727|Gloss=place
 2-3	ɗǎː	_	_	_	_	_	_	_	_
-2	ɗa	ɗa	PART	_	_	5	mod	_	AlignBegin=640727|AlignEnd=640851|Gloss=exist|PartType=Pred
+2	ɗa	ɗa	PredPART	_	_	5	mod	_	AlignBegin=640727|AlignEnd=640851|Gloss=exist
 3	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	2	comp:pred	_	AlignBegin=640851|AlignEnd=640974|Gloss=3Sing.Aor
 4	ɬǎːy	ɬaː	VERB	_	_	3	comp:aux	_	AlignBegin=640974|AlignEnd=641098|Gloss=cut.ACH|Resultative=Yes|wordform=ɬaː
 5	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=641221|AlignEnd=641468|Gloss=3Sing.Aor
