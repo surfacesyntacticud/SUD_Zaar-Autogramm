@@ -44,13 +44,13 @@
 14	aː	a:	PART	_	_	9	mod	_	AlignBegin=6321|AlignEnd=6445|Gloss=VRT|PartType=Int|wordform=a:
 15	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=6445|AlignEnd=6690|Gloss=PUNCT
 16	kóː	kóː	CCONJ	_	_	17	cc	_	AlignBegin=6690|AlignEnd=6878|Gloss=or|Lang=ha
-17	nə	nə	PART	_	_	9	conj:coord	_	AlignBegin=6878|AlignEnd=7066|Gloss=be
+17	nə	nə	PART	_	_	9	conj:coord	_	AlignBegin=6878|AlignEnd=7066|Gloss=be|PartType=Pred
 18-19	bəndígàː	_	_	_	_	_	_	_	_
 18	bəndígà	bəndígà	NOUN	_	_	17	comp:pred	_	AlignBegin=7066|AlignEnd=7254|Gloss=gun|Lang=ha
 19	aː	a:	PART	_	_	17	mod	_	AlignBegin=7254|AlignEnd=7442|Gloss=VRT|PartType=Int|wordform=a:
 20	|c	|c	PUNCT	_	_	23	punct	_	AlignBegin=7442|AlignEnd=7630|Gloss=PUNCT
 21	kóː	kóː	CCONJ	_	_	23	cc	_	AlignBegin=7630|AlignEnd=7922|Gloss=or|Lang=ha
-22	kúmá	kúmá	TopPART	_	_	21	discourse@top	_	AlignBegin=7922|AlignEnd=8215|Gloss=else|Lang=ha
+22	kúmá	kúmá	PART	_	_	21	discourse@top	_	AlignBegin=7922|AlignEnd=8215|Gloss=else|Lang=ha|PartType=Top
 23	kə̀tà	ta	AUX	_	Number=Sing|Person=2|Tense=Rem	17	conj:coord	_	AlignBegin=8900|AlignEnd=9059|Gloss=2Plur.Rem
 24	yír	yír	VERB	_	_	23	comp:aux	_	AlignBegin=9059|AlignEnd=9218|Gloss=have
 25	gyáː	gyáː	DET	_	Number=Plur	26	det	_	AlignBegin=9218|AlignEnd=9377|Gloss=Plur
@@ -399,10 +399,10 @@
 14	swǎːt	swǎːt	IDEO	_	_	13	mod	_	AlignBegin=73054|AlignEnd=73261|Gloss=fast
 15	wul	wul	VERB	_	_	13	compound:svc	_	AlignBegin=73261|AlignEnd=73401|Gloss=say
 16	tu	tu	SCONJ	_	_	15	compound:prt	_	AlignBegin=73401|AlignEnd=73541|Gloss=COMP
-17	nə	nə	PART	_	_	16	comp:obj	_	AlignBegin=73541|AlignEnd=73681|Gloss=be
+17	nə	nə	PART	_	_	16	comp:obj	_	AlignBegin=73541|AlignEnd=73681|Gloss=be|PartType=Pred
 18	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	17	comp:pred	_	AlignBegin=73681|AlignEnd=73821|Gloss=3SingGen
 19	<	<	PUNCT	_	_	3	punct	_	AlignBegin=73821|AlignEnd=73963|Gloss=PUNCT
-20	bàː	bàː	PART	_	_	0	root	_	AlignBegin=74900|AlignEnd=75038|Gloss=Neg1
+20	bàː	bàː	PART	_	_	0	root	_	AlignBegin=74900|AlignEnd=75038|Gloss=Neg1|PartType=Pred
 21	gón	gón	PRON	_	Definite=Spec	20	comp:pred	_	AlignBegin=75038|AlignEnd=75176|Gloss=Spec
 22	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	20	comp:cleft	_	AlignBegin=75176|AlignEnd=75314|Gloss=3Sing.Fut
 23	kə́ːm	kə́ːm	VERB	_	_	22	comp:aux	_	AlignBegin=75314|AlignEnd=75452|Gloss=succeed
@@ -613,7 +613,7 @@
 # text_en = From here it will reach like around the valley of Boi!
 1	dàgà	dàgà	ADP	_	_	5	dislocated@mod	_	AlignBegin=113040|AlignEnd=113231|Gloss=from
 2	ɗûːn	ɗúːni	PRON	_	_	1	comp:obj	_	AlignBegin=113231|AlignEnd=113422|Gloss=here
-3	fáː	fáː	TopPART	_	_	1	discourse@top	_	AlignBegin=113422|AlignEnd=113613|Gloss=indeed
+3	fáː	fáː	PART	_	_	1	discourse@top	_	AlignBegin=113422|AlignEnd=113613|Gloss=indeed|PartType=Top
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=113613|AlignEnd=113804|Gloss=PUNCT
 5	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=114220|AlignEnd=114368|Gloss=3Sing.Fut
 6	fíː	fi	VERB	_	_	5	comp:aux	_	AlignBegin=114368|AlignEnd=114516|Gloss=do.ACH|Resultative=Yes|wordform=fi
@@ -695,7 +695,7 @@
 2	yóːɗan	yóːɗan	PRON	_	PronType=Rel	3	subj	_	AlignBegin=122920|AlignEnd=123060|Gloss=which
 3	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	1	mod@relcl	_	AlignBegin=123060|AlignEnd=123200|Gloss=3Sing.Imp
 4	ɗǔy	ɗu	VERB	_	_	3	comp:aux	_	AlignBegin=123200|AlignEnd=123340|Gloss=kill.ACH|Resultative=Yes|wordform=ɗu
-5	nə	nə	PART	_	_	0	root	_	AlignBegin=123340|AlignEnd=123480|Gloss=be
+5	nə	nə	PART	_	_	0	root	_	AlignBegin=123340|AlignEnd=123480|Gloss=be|PartType=Pred
 6	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	comp:pred	_	AlignBegin=123480|AlignEnd=123620|Gloss=3SingGen
 7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=123620|AlignEnd=123758|Gloss=PUNCT
 
@@ -858,7 +858,7 @@
 # text_ortho = naːr máː ʧi ʧík //
 # text_en = Individual hunting too is like this.
 1	naːr	naːr	NOUN	_	_	3	dislocated@subj	_	AlignBegin=144540|AlignEnd=144672|Gloss=hunting
-2	máː	máː	TopPART	_	_	1	discourse@top	_	AlignBegin=144672|AlignEnd=144804|Gloss=also
+2	máː	máː	PART	_	_	1	discourse@top	_	AlignBegin=144672|AlignEnd=144804|Gloss=also|PartType=Top
 3	ʧi	yi	AUX	_	_	0	root	_	AlignEnd=144936|Gloss=3Sing.be|wordform=yi
 4	ʧík	ʧík	ADV	_	_	3	comp:pred	_	AlignBegin=144936|AlignEnd=145068|Gloss=thus
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=145068|AlignEnd=145201|Gloss=PUNCT
@@ -1102,7 +1102,7 @@
 # text_en = Yes but it's metal indeed!
 1	èː	èː	INTJ	_	_	3	discourse	_	AlignBegin=177760|AlignEnd=177933|Gloss=yes
 2	àmá	àmá	CCONJ	_	_	3	discourse	_	AlignBegin=177933|AlignEnd=178106|Gloss=but
-3	nə	nə	PART	_	_	0	root	_	AlignBegin=178106|AlignEnd=178279|Gloss=be
+3	nə	nə	PART	_	_	0	root	_	AlignBegin=178106|AlignEnd=178279|Gloss=be|PartType=Pred
 4	dwǎːm	dwǎːm	NOUN	_	_	3	comp:pred	_	AlignBegin=178279|AlignEnd=178452|Gloss=metal
 5	áy	áy	INTJ	_	_	3	discourse	_	AlignBegin=178452|AlignEnd=178625|Gloss=indeed
 6	!//	!//	PUNCT	_	_	3	punct	_	AlignBegin=178625|AlignEnd=178800|Gloss=PUNCT
@@ -1116,7 +1116,7 @@
 # text_en = Er... it was metal.
 1	èː	èː	INTJ	_	_	3	discourse:filler	_	AlignBegin=179140|AlignEnd=179320|Gloss=FILL
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=179320|AlignEnd=179500|Gloss=PUNCT
-3	nə	nə	PART	_	_	0	root	_	AlignBegin=179820|AlignEnd=179998|Gloss=be
+3	nə	nə	PART	_	_	0	root	_	AlignBegin=179820|AlignEnd=179998|Gloss=be|PartType=Pred
 4	dwǎːm	dwǎːm	NOUN	_	_	3	comp:pred	_	AlignBegin=179998|AlignEnd=180176|Gloss=metal
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=180176|AlignEnd=180353|Gloss=PUNCT
 
@@ -1244,13 +1244,13 @@
 # text = nə ŋantsâː |c kóː nə dwǎːm ?//
 # text_ortho = nə ŋantsâː |c kóː nə dwǎːm ?//
 # text_en = Was it wood or metal?
-1	nə	nə	PART	_	_	0	root	_	AlignBegin=199270|AlignEnd=199383|Gloss=be
+1	nə	nə	PART	_	_	0	root	_	AlignBegin=199270|AlignEnd=199383|Gloss=be|PartType=Pred
 2-3	ŋantsâː	_	_	_	_	_	_	_	_
 2	ŋantsə́	ŋantsə́	NOUN	_	_	1	comp:pred	_	AlignBegin=199383|AlignEnd=199496|Gloss=wood
 3	aː	a:	PART	_	_	1	mod	_	AlignBegin=199496|AlignEnd=199609|Gloss=VRT|PartType=Int|wordform=a:
 4	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=199609|AlignEnd=199722|Gloss=PUNCT
 5	kóː	kóː	CCONJ	_	_	6	cc	_	AlignBegin=199722|AlignEnd=199835|Gloss=or|Lang=ha
-6	nə	nə	PART	_	_	1	conj:coord	_	AlignBegin=199835|AlignEnd=199948|Gloss=be
+6	nə	nə	PART	_	_	1	conj:coord	_	AlignBegin=199835|AlignEnd=199948|Gloss=be|PartType=Pred
 7	dwǎːm	dwǎːm	NOUN	_	_	6	comp:pred	_	AlignBegin=199948|AlignEnd=200061|Gloss=metal
 8	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=200061|AlignEnd=200174|Gloss=PUNCT
 
@@ -1261,7 +1261,7 @@
 # text = nə ŋantsə́ //
 # text_ortho = nə ŋantsə́ //
 # text_en = It's wood.
-1	nə	nə	PART	_	_	0	root	_	AlignBegin=200038|AlignEnd=200192|Gloss=be
+1	nə	nə	PART	_	_	0	root	_	AlignBegin=200038|AlignEnd=200192|Gloss=be|PartType=Pred
 2	ŋantsə́	ŋantsə́	NOUN	_	_	1	comp:pred	_	AlignBegin=200192|AlignEnd=200346|Gloss=wood_sp
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=200346|AlignEnd=200500|Gloss=PUNCT
 
@@ -1272,7 +1272,7 @@
 # text = nə ŋantsə́ //
 # text_ortho = nə ŋantsə́ //
 # text_en = It's wood.
-1	nə	nə	PART	_	_	0	root	_	AlignBegin=201500|AlignEnd=201640|Gloss=be
+1	nə	nə	PART	_	_	0	root	_	AlignBegin=201500|AlignEnd=201640|Gloss=be|PartType=Pred
 2	ŋantsə́	ŋantsə́	NOUN	_	_	1	comp:pred	_	AlignBegin=201640|AlignEnd=201780|Gloss=wood_sp
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=201780|AlignEnd=201920|Gloss=PUNCT
 
@@ -1306,7 +1306,7 @@
 9	<	<	PUNCT	_	_	2	punct	_	AlignBegin=205292|AlignEnd=205480|Gloss=PUNCT
 10	tôː	tôː	PART	_	_	14	discourse	_	AlignBegin=206140|AlignEnd=206350|Gloss=DM
 11	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	14	dislocated@top	_	AlignBegin=206350|AlignEnd=206560|Gloss=3Sing.IDP
-12	máː	máː	TopPART	_	_	11	discourse@top	_	AlignBegin=206560|AlignEnd=206770|Gloss=also
+12	máː	máː	PART	_	_	11	discourse@top	_	AlignBegin=206560|AlignEnd=206770|Gloss=also|PartType=Top
 13	<	<	PUNCT	_	_	11	punct	_	AlignBegin=206770|AlignEnd=206980|Gloss=PUNCT
 14	ʧàːyí	yáː-yiː	AUX	_	Aspect=ImpIter|Number=Sing|Person=3	0	root	_	AlignBegin=207200|AlignEnd=207370|Gloss=3Plur.Imp.Iter
 15	ɬet	ɬet	VERB	_	_	14	comp:aux	_	AlignBegin=207370|AlignEnd=207540|Gloss=carve
@@ -1352,7 +1352,7 @@
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=212571|AlignEnd=212737|Gloss=PUNCT
 6	tôː	tôː	PART	_	_	8	discourse	_	AlignBegin=212737|AlignEnd=212903|Gloss=DM
 7	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	8	comp:pred	_	AlignBegin=212903|AlignEnd=213069|Gloss=3Sing.IDP
-8	ɣən	kən	PART	_	_	0	root	_	AlignBegin=213069|AlignEnd=213235|Gloss=be
+8	ɣən	kən	PART	_	_	0	root	_	AlignBegin=213069|AlignEnd=213235|Gloss=be|PartType=Pred
 9	>+	>+	PUNCT	_	_	13	punct	_	AlignBegin=213235|AlignEnd=213400|Gloss=PUNCT
 10	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	13	mod	_	AlignBegin=214220|AlignEnd=214455|Gloss=3Sing.Cnd
 11	ɮòp	ɮop	VERB	_	_	10	comp:aux	_	AlignBegin=214455|AlignEnd=214690|Gloss=pierce
@@ -1395,7 +1395,7 @@
 10	mə̀tàyáː	ta-yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1|Tense=Rem	9	comp:obj	_	AlignBegin=219695|AlignEnd=219913|Gloss=1Plur.Rem.Imp
 11	fî	fi	VERB	_	_	10	comp:aux	_	AlignBegin=219913|AlignEnd=220131|Gloss=do
 12	ɗan	ɗan	SCONJ	_	_	9	conj:coord	_	AlignBegin=220131|AlignEnd=220349|Gloss=REL
-13	bàː	bàː	PART	_	_	12	conj:coord	_	AlignBegin=220349|AlignEnd=220568|Gloss=Neg1
+13	bàː	bàː	PART	_	_	12	conj:coord	_	AlignBegin=220349|AlignEnd=220568|Gloss=Neg1|PartType=Pred
 14	Tuːraːwa	Tuːraːwa	PROPN	_	_	13	comp:pred	_	AlignBegin=220568|AlignEnd=220800|Gloss=Europeans
 15	tàːtá	àː-ta	AUX	_	Aspect=Perf|Number=Plur|Person=3|Tense=Rem	14	comp:pred	_	AlignBegin=220800|AlignEnd=221032|Gloss=3Plur.Perf.Rem
 16	lə̌ːr	lə́ːr	VERB	_	_	15	comp:aux	_	AlignBegin=221032|AlignEnd=221264|Gloss=bring
@@ -1412,7 +1412,7 @@
 # text = àkwéy dwaːmí gón mə̀tàyáː ʧímtə̀ tu búːya //
 # text_ortho = àkwáy dwaːmí gón mə̀tàyáː ʧímtə̀ tu búːya //
 # text_en = There was a metal that we used to call 'buya'.
-1	àkwéy	àkwéy	PART	_	Foreign=Yes	4	parataxis@top	_	AlignBegin=222500|AlignEnd=222723|Gloss=there_is|Lang=ha
+1	àkwéy	àkwéy	PART	_	Foreign=Yes	4	parataxis@top	_	AlignBegin=222500|AlignEnd=222723|Gloss=there_is|Lang=ha|PartType=Pred
 2	dwaːmí	dwǎːm	NOUN	_	Definite=Ind	1	comp:pred	_	AlignBegin=222723|AlignEnd=222946|Gloss=metal|wordform=dwǎːm
 3	gón	gón	DET	_	Definite=Spec	2	det	_	AlignBegin=222946|AlignEnd=223169|Gloss=Spec
 4	mə̀tàyáː	ta-yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1|Tense=Rem	0	root	_	AlignBegin=223169|AlignEnd=223392|Gloss=1Plur.Rem.Imp
@@ -1804,7 +1804,7 @@
 # text_en = Well, it's them who... would come and melt it.
 1	tôː	tôː	PART	_	_	3	discourse	_	AlignBegin=278352|AlignEnd=278499|Gloss=DM
 2	yàːʃí	yàːʃí	PRON	_	Number=Sing|Person=3|PronType=Prs	3	comp:pred	_	AlignBegin=278499|AlignEnd=278646|Gloss=3Plur.IDP
-3	ɣən	kən	PART	_	_	0	root	_	AlignBegin=278646|AlignEnd=278793|Gloss=be
+3	ɣən	kən	PART	_	_	0	root	_	AlignBegin=278646|AlignEnd=278793|Gloss=be|PartType=Pred
 4	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=278793|AlignEnd=278940|Gloss=PUNCT
 5	t~	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	3	comp:cleft	_	AlignBegin=278940|AlignEnd=279087|Gloss=HESIT[.3Plur.Fut]
 6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=279087|AlignEnd=279234|Gloss=PUNCT
