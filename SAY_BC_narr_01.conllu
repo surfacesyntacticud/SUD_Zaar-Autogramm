@@ -1637,15 +1637,15 @@
 # text = longa ɣən ʧáː ʧaːtəɣáy ɣəndí ?//
 # text_ortho = longa ɣən ʧáː ʧaːtəɣáy ɣəndí ?//
 # text_en = It's Rabbit who did it to him?
-1	longa	longa	NOUN	_	_	2	comp:pred	_	AlignBegin=217982|AlignEnd=218359|Gloss=rabbit
-2	ɣən	kən	PredPART	_	_	0	root	_	AlignBegin=218359|AlignEnd=218736|Gloss=be
-3	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	2	comp:cleft	_	AlignBegin=218736|AlignEnd=219113|Gloss=3Sing.Perf
+1	longa	longa	NOUN	_	_	0	root	_	AlignBegin=217982|AlignEnd=218359|Gloss=rabbit
+2	ɣən	kən	FocPART	_	_	1	discourse@foc	_	AlignBegin=218359|AlignEnd=218736|Gloss=be
+3	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	1	comp:cleft	_	AlignBegin=218736|AlignEnd=219113|Gloss=3Sing.Perf
 4-6	ʧaːtəɣáy	_	_	_	_	_	_	_	_
 4	ʧaː	ʧaː	VERB	_	_	3	comp:aux	_	AlignBegin=219113|AlignEnd=219239|Gloss=put
 5	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=219239|AlignEnd=219365|Gloss=3Sing.Obj
 6	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	4	comp:obl@expl	_	AlignBegin=219365|AlignEnd=219490|Gloss=Anaph.Loc.3Sing
-7	ɣəndí	kəndí	FocPART	_	_	6	discourse@foc	_	AlignBegin=219490|AlignEnd=219867|Gloss=be
-8	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=219867|AlignEnd=220244|Gloss=PUNCT
+7	ɣəndí	kəndí	FocPART	_	_	1	discourse@foc	_	AlignBegin=219490|AlignEnd=219867|Gloss=be
+8	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=219867|AlignEnd=220244|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_172-172
 # speaker_id = SP1
@@ -4332,13 +4332,13 @@
 # text = longa ɣən >+ tə́ saɣátkə̂níː ɣən ?//
 # text_ortho = longa ɣən >+ tə́ saɣátkə̂níː ɣən ?//
 # text_en = Is it Rabbit who is the cleverest?
-1	longa	longa	NOUN	_	_	2	comp:pred	_	AlignBegin=548153|AlignEnd=548262|Gloss=rabbit
-2	ɣən	kən	PredPART	_	_	0	root	_	AlignBegin=548262|AlignEnd=548371|Gloss=be
+1	longa	longa	NOUN	_	_	0	root	_	AlignBegin=548153|AlignEnd=548262|Gloss=rabbit
+2	ɣən	kən	FocPART	_	_	1	discourse@foc	_	AlignBegin=548262|AlignEnd=548371|Gloss=be
 3	>+	>+	PUNCT	_	_	4	punct	_	AlignBegin=548371|AlignEnd=548480|Gloss=PUNCT
-4	tə́	tə́	ADP	_	_	2	comp:cleft	_	AlignBegin=548480|AlignEnd=548589|Gloss=with
+4	tə́	tə́	ADP	_	_	1	comp:cleft	_	AlignBegin=548480|AlignEnd=548589|Gloss=with
 5	saɣátkə̂níː	sakát	VERB	_	Definite=Def|ExtPos=NOUN|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=548589|AlignEnd=548698|Gloss=cleverness.ACH|Resultative=Yes|wordform=saɣáɗ
-6	ɣən	kən	FocPART	_	_	4	discourse@foc	_	AlignBegin=548698|AlignEnd=548807|Gloss=be
-7	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=548807|AlignEnd=548918|Gloss=PUNCT
+6	ɣən	kən	FocPART	_	_	1	discourse@foc	_	AlignBegin=548698|AlignEnd=548807|Gloss=be
+7	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=548807|AlignEnd=548918|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_429-429
 # speaker_id = SP1
@@ -5510,21 +5510,21 @@
 # text = tôː < ʧík kən >+ pə́prîn =wôs -íː tə́ hàkurí =wôs -íː á dàp naːtə mə́n //
 # text_ortho = tôː < ʧík kən >+ pə́prînwòʃíː tə́ hàkuríwôʃíː á dàp naːtə mə́n //
 # text_en = Well that's how those flatness and patience of his became his.
-1	tôː	tòː	PART	_	_	4	discourse	_	AlignBegin=715947|AlignEnd=716035|Gloss=well
+1	tôː	tòː	PART	_	_	3	discourse	_	AlignBegin=715947|AlignEnd=716035|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=716035|AlignEnd=716122|Gloss=PUNCT
-3	ʧík	ʧík	ADV	_	_	4	comp:pred	_	AlignBegin=716122|AlignEnd=716407|Gloss=thus
-4	kən	kən	PredPART	_	_	0	root	_	AlignBegin=716407|AlignEnd=716692|Gloss=be
+3	ʧík	ʧík	ADV	_	_	0	root	_	AlignBegin=716122|AlignEnd=716407|Gloss=thus
+4	kən	kən	FocPART	_	_	3	discourse@foc	_	AlignBegin=716407|AlignEnd=716692|Gloss=be
 5	>+	>+	PUNCT	_	_	9	punct	_	AlignBegin=716692|AlignEnd=716977|Gloss=PUNCT
 6	pə́prînwôʃíː	pə́prîn	IDEO	_	Definite=Anaph|Poss=Yes	9	subj	_	AlignBegin=716977|AlignEnd=717261|Gloss=flat.3SingGen.PRM|wordform=pə́prîn
 7	tə́	tə́	CCONJ	_	_	8	cc	_	AlignBegin=717654|AlignEnd=718004|Gloss=with
 8	hàkuríwôʃíː	hàkuri	NOUN	_	Definite=Anaph|Poss=Yes	6	conj:coord	_	AlignBegin=718004|AlignEnd=718353|Gloss=patience.3SingGen.PRM|wordform=hàkuri
-9	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	4	comp:cleft	_	AlignBegin=718353|AlignEnd=718502|Gloss=3Sing.Aor
+9	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	3	comp:cleft	_	AlignBegin=718353|AlignEnd=718502|Gloss=3Sing.Aor
 10	dàp	dap	VERB	_	_	9	comp:aux	_	AlignBegin=718502|AlignEnd=718651|Gloss=follow
 11-12	naːtə	_	_	_	_	_	_	_	_
 11	naː	naː	VERB	_	_	10	compound:svc	_	AlignBegin=718651|AlignEnd=718725|Gloss=become
 12	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	comp:obj@R	_	AlignBegin=718725|AlignEnd=718800|Gloss=3Sing.Obj
 13	mə́n	mə́n	AdvPART	_	Case=Ben	11	compound:prt	_	AlignBegin=718800|AlignEnd=718949|Gloss=BEN
-14	//	//	PUNCT	_	_	4	punct	_	AlignBegin=718949|AlignEnd=719097|Gloss=PUNCT
+14	//	//	PUNCT	_	_	3	punct	_	AlignBegin=718949|AlignEnd=719097|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_567-569
 # speaker_id = SP1
@@ -5588,12 +5588,12 @@
 # text = tôː < ʧík kən ʧi //
 # text_ortho = tôː < ʧík kən ʧi //
 # text_en = Well that's how he is.
-1	tôː	tòː	PART	_	_	4	discourse	_	AlignBegin=725095|AlignEnd=725191|Gloss=well
+1	tôː	tòː	PART	_	_	3	discourse	_	AlignBegin=725095|AlignEnd=725191|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=725191|AlignEnd=725287|Gloss=PUNCT
-3	ʧík	ʧík	ADV	_	_	4	comp:pred	_	AlignBegin=725287|AlignEnd=725439|Gloss=thus
-4	kən	kən	PredPART	_	_	0	root	_	AlignBegin=725439|AlignEnd=725591|Gloss=be
-5	ʧi	yi	AUX	_	_	4	comp:cleft	_	AlignBegin=725667|AlignEnd=725743|Gloss=3Sing.be|wordform=yi
-6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=725743|AlignEnd=725895|Gloss=PUNCT
+3	ʧík	ʧík	ADV	_	_	0	root	_	AlignBegin=725287|AlignEnd=725439|Gloss=thus
+4	kən	kən	FocPART	_	_	3	discourse@foc	_	AlignBegin=725439|AlignEnd=725591|Gloss=be
+5	ʧi	yi	AUX	_	_	3	comp:cleft	_	AlignBegin=725667|AlignEnd=725743|Gloss=3Sing.be|wordform=yi
+6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=725743|AlignEnd=725895|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_575-575
 # speaker_id = SP2
@@ -5745,18 +5745,18 @@
 # text = mur ɣə́ vwàː ɣən ʧi mur ɣə́ saɣát kəndíyǎːn ?//
 # text_ortho = mur ɣə́ vwàː ɣən ʧi mur ɣə́ saɣát kəndíyǎːn ?//
 # text_en = A hungry man is a clever man, no?
-1	mur	mur	NOUN	_	_	4	dislocated@subj	_	AlignBegin=745703|AlignEnd=745928|Gloss=man
+1	mur	mur	NOUN	_	_	0	root	_	AlignBegin=745703|AlignEnd=745928|Gloss=man
 2	ɣə́	kə́	ADP	_	_	1	mod	_	AlignBegin=745928|AlignEnd=746153|Gloss=of
 3	vwàː	vwàː	NOUN	_	_	2	comp:obj	_	AlignBegin=746153|AlignEnd=746378|Gloss=belly
-4	ɣən	kən	PredPART	_	_	0	root	_	AlignBegin=746378|AlignEnd=746603|Gloss=be
-5	ʧi	yi	AUX	_	_	4	comp:cleft	_	AlignBegin=746715|AlignEnd=746828|Gloss=3Sing.be|wordform=yi
+4	ɣən	kən	FocPART	_	_	1	discourse@foc	_	AlignBegin=746378|AlignEnd=746603|Gloss=be
+5	ʧi	yi	AUX	_	_	1	comp:cleft	_	AlignBegin=746715|AlignEnd=746828|Gloss=3Sing.be|wordform=yi
 6	mur	mur	NOUN	_	_	5	comp:pred	_	AlignBegin=746828|AlignEnd=747278|Gloss=man-Cons
 7	ɣə́	kə́	ADP	_	_	6	mod	_	AlignBegin=746828|AlignEnd=747278|Gloss=of
 8	saɣát	sakát	VERB	_	_	7	comp:obj	_	AlignBegin=747278|AlignEnd=747503|Gloss=be_clever
 9-10	kəndíyǎːn	_	_	_	_	_	_	_	_
-9	kəndí	kəndí	FocPART	_	_	8	discourse@foc	_	AlignBegin=747503|AlignEnd=747578|Gloss=be
-10	ǎːn	ŋǎːn	IlPART	_	Polarity=Neg	4	mod	_	AlignBegin=747578|AlignEnd=747653|Gloss=Q.Neg|wordform=aː
-11	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=747728|AlignEnd=747955|Gloss=PUNCT
+9	kəndí	kəndí	FocPART	_	_	1	discourse@foc	_	AlignBegin=747503|AlignEnd=747578|Gloss=be
+10	ǎːn	ŋǎːn	IlPART	_	Polarity=Neg	1	mod	_	AlignBegin=747578|AlignEnd=747653|Gloss=Q.Neg|wordform=aː
+11	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=747728|AlignEnd=747955|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_595-595
 # speaker_id = SP1

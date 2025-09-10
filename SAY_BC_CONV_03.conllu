@@ -1626,7 +1626,7 @@
 4	ɗi	ɗi	AdvPART	_	_	3	compound:prt	_	AlignBegin=232966|AlignEnd=233039|Gloss=Ctp|wordform==ɗi
 5	téːɗôː	téːɗôː	ADV	_	PronType=Int	3	comp:obl	_	AlignBegin=233484|AlignEnd=233500|Gloss=where
 6-7	ɣənoː	_	_	_	_	_	_	_	_
-6	ɣən	kən	FocPART	_	_	2	discourse@foc	_	AlignBegin=233558|AlignEnd=233631|Gloss=be
+6	ɣən	kən	FocPART	_	_	5	discourse@foc	_	AlignBegin=233558|AlignEnd=233631|Gloss=be
 7	oː	oː	IlPART	_	_	2	discourse	_	AlignBegin=233631|AlignEnd=233778|Gloss=Fact
 8	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=233778|AlignEnd=233926|Gloss=PUNCT
 
@@ -2852,10 +2852,10 @@
 # sent_timecode = 368205, 370383
 # text_ortho = Tʃoɣn káwây ŋ átâ || átâ sûːm dzàŋ gíː //
 # text_en = It's only God who... who liked me that day.
-1	Tʃôɣn	Tʃôɣn	PROPN	_	_	3	comp:pred	_	AlignBegin=368205|AlignEnd=368463|Gloss=God
+1	Tʃôɣn	Tʃôɣn	PROPN	_	_	0	root	_	AlignBegin=368205|AlignEnd=368463|Gloss=God
 2	káwây	káwây	ADV	_	_	1	mod	_	AlignBegin=368463|AlignEnd=368592|Gloss=merely
-3	ŋ	kən	PredPART	_	_	0	root	_	AlignBegin=368592|AlignEnd=368721|Gloss=be
-4	átâ	ta	AUX	_	Number=Sing|Person=3|Tense=Rem	3	comp:cleft	_	AlignBegin=368721|AlignEnd=368979|Gloss=3Sing.Rem
+3	ŋ	kən	PredPART	_	_	1	discourse@foc	_	AlignBegin=368592|AlignEnd=368721|Gloss=be
+4	átâ	ta	AUX	_	Number=Sing|Person=3|Tense=Rem	1	comp:cleft	_	AlignBegin=368721|AlignEnd=368979|Gloss=3Sing.Rem
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=368979|AlignEnd=369237|Gloss=PUNCT
 6	átâ	ta	AUX	_	Number=Sing|Person=3|Tense=Rem	4	conj:dicto	_	AlignBegin=369498|AlignEnd=369675|Gloss=3Sing.Rem
 7-8	sûːm	_	_	_	_	_	_	_	_
@@ -2863,7 +2863,7 @@
 8	=m	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	comp:obj	_	AlignBegin=369763|AlignEnd=369852|Gloss=1Sing.Obj
 9	dzàŋ	dzàn	NOUN	_	_	7	mod	_	AlignBegin=369852|AlignEnd=370029|Gloss=day
 10	gíː	gíː	DET	_	Definite=Anaph|PronType=Dem	9	det	_	AlignBegin=370029|AlignEnd=370206|Gloss=PRM
-11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=370206|AlignEnd=370383|Gloss=PUNCT
+11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=370206|AlignEnd=370383|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_366-366
 # text = bàː màːʃîn tà mará !//
@@ -3234,7 +3234,7 @@
 3-4	fuːm	_	_	_	_	_	_	_	_
 3	fuː	fuː	VERB	_	_	2	comp:aux	_	AlignBegin=400762|AlignEnd=400828|Gloss=tell
 4	=m	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	comp:obj@R	_	AlignBegin=400828|AlignEnd=400894|Gloss=1Sing.Obj
-5	gəndí	kən	FocPART	_	_	2	discourse@foc	_	AlignBegin=400894|AlignEnd=400959|Gloss=be
+5	gəndí	kən	FocPART	_	_	3	discourse@foc	_	AlignBegin=400894|AlignEnd=400959|Gloss=be
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=400959|AlignEnd=401157|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_398-400
@@ -5445,16 +5445,16 @@
 3	tu	tu	SCONJ	_	_	2	comp:obj	_	AlignBegin=636058|AlignEnd=636130|Gloss=Qot
 4	||	||	PUNCT	_	_	16	punct	_	AlignBegin=636130|AlignEnd=636201|Gloss=PUNCT
 5	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	16	dislocated@subj	_	AlignBegin=636474|AlignEnd=636618|Gloss=3Sing
-6	(	(	PUNCT	_	_	8	punct	_	AlignBegin=636618|AlignEnd=636763|Gloss=PUNCT
-7	Tákwâːràs	Tákwâːràs	NOUN	_	_	8	comp:pred	_	AlignBegin=636763|AlignEnd=636839|Gloss=Takwaras
-8	kən	kən	PredPART	_	_	5	parataxis:insert	_	AlignBegin=636839|AlignEnd=636915|Gloss=be
+6	(	(	PUNCT	_	_	7	punct	_	AlignBegin=636618|AlignEnd=636763|Gloss=PUNCT
+7	Tákwâːràs	Tákwâːràs	PROPN	_	_	5	parataxis:insert	_	AlignBegin=636763|AlignEnd=636839|Gloss=Takwaras
+8	kən	kən	PredPART	_	_	7	discourse@foc	_	AlignBegin=636839|AlignEnd=636915|Gloss=be
 9	>+	>+	PUNCT	_	_	10	punct	_	AlignBegin=636915|AlignEnd=637067|Gloss=PUNCT
-10	átá	ta	AUX	_	Number=Sing|Person=3|Tense=Rem	8	comp:cleft	_	AlignBegin=637067|AlignEnd=637219|Gloss=3Sing.Rem
+10	átá	ta	AUX	_	Number=Sing|Person=3|Tense=Rem	7	comp:cleft	_	AlignBegin=637067|AlignEnd=637219|Gloss=3Sing.Rem
 11	mán	man	VERB	_	_	10	comp:aux	_	AlignBegin=637219|AlignEnd=637371|Gloss=come|SVC=Yes
 12-13	tum	_	_	_	_	_	_	_	_
 12	tu	tu	VERB	_	_	11	compound:svc	_	AlignBegin=637371|AlignEnd=637447|Gloss=meet
 13	=m	=mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	comp:obj	_	AlignBegin=637447|AlignEnd=637523|Gloss=1Sing.Obj
-14	//)	//)	PUNCT	_	_	8	punct	_	AlignBegin=637523|AlignEnd=637675|Gloss=PUNCT
+14	//)	//)	PUNCT	_	_	7	punct	_	AlignBegin=637523|AlignEnd=637675|Gloss=PUNCT
 15	<	<	PUNCT	_	_	5	punct	_	AlignBegin=637675|AlignEnd=637830|Gloss=PUNCT
 16	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	1	conj:dicto	_	AlignBegin=637830|AlignEnd=637918|Gloss=3Sing.Aor
 17	wû	wul	VERB	_	_	16	comp:aux	_	AlignBegin=637918|AlignEnd=638006|Gloss=say
@@ -5673,9 +5673,9 @@
 # text = dàːmuwâs kən èː ɗan ʧáː ndáɗi ɓaʃí ɣəndí //
 # text_ortho = dàːmuwâs kən >+ èːːː ɗan ʧáː ndáɗi ɓaʃí kəndí //
 # text_en = That's the problem er... that's been bothering them indeed.
-1	dàːmuwâs	dàːmuwá	NOUN	_	Definite=Def	2	comp:pred	_	AlignBegin=668704|AlignEnd=668886|Gloss=problem.Def
-2	kən	kən	PredPART	_	_	0	root	_	AlignBegin=668886|AlignEnd=668976|Gloss=be
-3	èː	èː	INTJ	_	_	2	discourse:filler	_	AlignBegin=669249|AlignEnd=669860|Gloss=FILL
+1	dàːmuwâs	dàːmuwá	NOUN	_	Definite=Def	0	root	_	AlignBegin=668704|AlignEnd=668886|Gloss=problem.Def
+2	kən	kən	PredPART	_	_	1	discourse@foc	_	AlignBegin=668886|AlignEnd=668976|Gloss=be
+3	èː	èː	INTJ	_	_	4	discourse:filler	_	AlignBegin=669249|AlignEnd=669860|Gloss=FILL
 4	ɗan	ɗan	SCONJ	_	_	1	mod@relcl	_	AlignBegin=669860|AlignEnd=670072|Gloss=REL
 5	ʧáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	4	comp:obj	_	AlignBegin=670072|AlignEnd=670284|Gloss=3Sing.Imp
 6-7	ndáɗi	_	_	_	_	_	_	_	_
@@ -5684,8 +5684,8 @@
 8-9	ɓaʃí	_	_	_	_	_	_	_	_
 8	ɓas	ɓas	ADP	_	_	6	comp:obl	_	AlignBegin=670496|AlignEnd=670602|Gloss=at
 9	=ʃí	=ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=670602|AlignEnd=670708|Gloss=3Plur.Obj
-10	ɣəndí	kəndí	FocPART	_	_	8	discourse@foc	_	AlignBegin=67020|AlignEnd=671130|Gloss=be
-11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=671130|AlignEnd=671130|Gloss=PUNCT
+10	ɣəndí	kəndí	FocPART	_	_	1	discourse@foc	_	AlignBegin=67020|AlignEnd=671130|Gloss=be
+11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=671130|AlignEnd=671130|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_692-693
 # speaker_id = SP1
@@ -5976,13 +5976,13 @@
 # text = dzàn níː ɣən eː ń ?//
 # text_ortho = dzànːːː níː ɣəněːn ?//
 # text_en = When... was that?
-1	dzàn	dzàn	NOUN	_	_	3	comp:pred	_	AlignBegin=697049|AlignEnd=697759|Gloss=day
+1	dzàn	dzàn	NOUN	_	_	0	root	_	AlignBegin=697049|AlignEnd=697759|Gloss=day
 2	níː	níː	PRON	_	PronType=Int	1	mod	_	AlignBegin=698456|AlignEnd=698513|Gloss=what
 3-5	ɣəněːn	_	_	_	_	_	_	_	_
-3	ɣən	kən	PredPART	_	_	0	root	_	AlignBegin=698513|AlignEnd=698570|Gloss=be.Prox
-4	eː	eː	IlPART	_	_	3	mod	_	AlignBegin=698513|AlignEnd=698570|Gloss=Q
-5	ń	hŋ́	NegPART	_	_	3	mod	_	AlignBegin=698513|AlignEnd=698570|Gloss=Neg
-6	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=698683|AlignEnd=698910|Gloss=PUNCT
+3	ɣən	kən	PredPART	_	_	1	discourse@foc	_	AlignBegin=698513|AlignEnd=698570|Gloss=be.Prox
+4	eː	eː	IlPART	_	_	1	mod	_	AlignBegin=698513|AlignEnd=698570|Gloss=Q
+5	ń	hŋ́	NegPART	_	_	1	mod	_	AlignBegin=698513|AlignEnd=698570|Gloss=Neg
+6	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=698683|AlignEnd=698910|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_727-727
 # speaker_id = SP1
@@ -6542,7 +6542,7 @@
 11	súː	súː	VERB	_	_	10	comp:aux	_	AlignBegin=757170|AlignEnd=757318|Gloss=love
 12	gə̀ɗès	gə̀t	NOUN	_	_	11	comp:obj	_	AlignBegin=757318|AlignEnd=757466|Gloss=wife
 13	hŋ́	hŋ́	NegPART	_	Polarity=Neg	11	mod	_	AlignBegin=757466|AlignEnd=757540|Gloss=Neg
-14	gə̂n	kən	PredPART	_	_	11	mod	_	AlignBegin=757466|AlignEnd=757540|Gloss=be
+14	gə̂n	kən	PredPART	_	_	10	discourse@foc	_	AlignBegin=757466|AlignEnd=757540|Gloss=be
 15	kûn	kún	NOUN	_	_	10	vocative	_	AlignBegin=757761|AlignEnd=757849|Gloss=boy
 16	//	//	PUNCT	_	_	10	punct	_	AlignBegin=757849|AlignEnd=757938|Gloss=PUNCT
 
@@ -7400,7 +7400,7 @@
 5	[	[	PUNCT	_	_	6	punct	_	AlignBegin=848642|AlignEnd=848831|Gloss=PUNCT
 6	nə	nə	PredPART	_	_	3	comp:obj	_	AlignBegin=848831|AlignEnd=849058|Gloss=be
 7	núː	núː	PRON	_	PronType=Int	6	comp:pred	_	AlignBegin=849058|AlignEnd=849172|Gloss=who
-8	ɣən	kən	FocPART	_	_	6	discourse@foc	_	AlignBegin=849172|AlignEnd=849285|Gloss=be
+8	ɣən	kən	FocPART	_	_	7	discourse@foc	_	AlignBegin=849172|AlignEnd=849285|Gloss=be
 9	átâyáː	ta-yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3|Tense=Rem	6	comp:cleft	_	AlignBegin=849285|AlignEnd=849512|Gloss=3Sing.Rem.Imp
 10	sop	sop	VERB	_	_	9	comp:aux	_	AlignBegin=849512|AlignEnd=849739|Gloss=court
 11-12	Duːkyôː	_	_	_	_	_	_	_	_
