@@ -1368,12 +1368,12 @@
 # text = tu èː tòː bâː dàːmuwa //
 # text_ortho = tu èː tòː bâː dàːmuwa //
 # text_en = He said yes, well, "no problem".
-1	tu	tu	PART	_	Mood=Qot	4	mod	_	AlignBegin=191414|AlignEnd=191518|Gloss=Qot
+1	tu	tu	SCONJ	_	Mood=Qot	0	root	_	AlignBegin=191414|AlignEnd=191518|Gloss=Qot
 2	èː	èː	INTJ	_	_	4	discourse	_	AlignBegin=191518|AlignEnd=191622|Gloss=yes
 3	tòː	tòː	PART	_	_	4	discourse	_	AlignBegin=191622|AlignEnd=191726|Gloss=well
-4	bâː	bâː	X	_	Foreign=Yes	0	root	_	AlignBegin=191832|AlignEnd=191989|Gloss=Neg|Lang=ha
+4	bâː	bâː	X	_	Foreign=Yes	1	comp:obj	_	AlignBegin=191832|AlignEnd=191989|Gloss=Neg|Lang=ha
 5	dàːmuwa	dàːmuwa	X	_	Foreign=Yes	4	flat@foreign	_	AlignBegin=191989|AlignEnd=192146|Gloss=problem|Lang=ha
-6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=192146|AlignEnd=192302|Gloss=PUNCT
+6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=192146|AlignEnd=192302|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_150-151
 # speaker_id = SP1
@@ -1697,9 +1697,9 @@
 # text = tu m̀ː //
 # text_ortho = tu m̀ː //
 # text_en = He said yes.
-1	tu	tu	PART	_	Mood=Qot	2	mod	_	AlignBegin=225096|AlignEnd=225195|Gloss=Qot
-2	m̀ː	m̀ː	INTJ	_	_	0	root	_	AlignBegin=225195|AlignEnd=225294|Gloss=BKL
-3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=225294|AlignEnd=225392|Gloss=PUNCT
+1	tu	tu	SCONJ	_	Mood=Qot	0	root	_	AlignBegin=225096|AlignEnd=225195|Gloss=Qot
+2	m̀ː	m̀ː	INTJ	_	_	1	comp:obj	_	AlignBegin=225195|AlignEnd=225294|Gloss=BKL
+3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=225294|AlignEnd=225392|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_176-176
 # speaker_id = SP2
