@@ -164,10 +164,10 @@
 # text_ortho = tôː ká rîːp || ká rîːptíː hár fî ɗan gyópti ʧǐː //
 # text_en = Well you would sew ... you would sew it to make it look like cloth.
 1	tôː	tòː	PART	_	PartType=Disc	2	discourse	_	AlignBegin=29600|AlignEnd=29732|Gloss=DM
-2	ká	a	AUX	_	Number=Plur|Person=2	0	root	_	AlignBegin=29732|AlignEnd=29864|Gloss=2Plur.Fut
+2	ká	a	AUX	_	Number=Plur|Person=2|Tense=Fut	0	root	_	AlignBegin=29732|AlignEnd=29864|Gloss=2Plur.Fut
 3	rîːp	riːp	VERB	_	_	2	comp:aux	_	AlignBegin=29864|AlignEnd=29996|Gloss=sew
 4	//=	//=	PUNCT	_	_	5	punct	_	AlignBegin=29996|AlignEnd=30129|Gloss=PUNCT
-5	ká	a	AUX	_	Number=Plur|Person=2	2	parataxis@conj	_	AlignBegin=30129|AlignEnd=30373|Gloss=2Plur.Fut
+5	ká	a	AUX	_	Number=Plur|Person=2|Tense=Fut	2	parataxis@conj	_	AlignBegin=30129|AlignEnd=30373|Gloss=2Plur.Fut
 6-7	rîːptíː	_	_	_	_	_	_	_	_
 6	riːp	riːp	VERB	_	_	5	comp:aux	_	AlignBegin=30373|AlignEnd=30617|Gloss=sew|wordform=*rîːp-íː
 7	=tíː	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=30454|AlignEnd=30535|Gloss=3Sing.Obj.ACH|Resultative=Yes|wordform==tə
@@ -187,7 +187,7 @@
 # text_en = Then you would cover him in it.
 1	tôː	tôː	PART	_	PartType=Disc	3	discourse	_	AlignBegin=32800|AlignEnd=32951|Gloss=DM
 2	ɣəndá	kəndá	ADV	_	_	3	mod	_	AlignBegin=32951|AlignEnd=33102|Gloss=then
-3	kə́	á	AUX	_	_	0	root	_	AlignBegin=33102|AlignEnd=33253|Gloss=2Plur.Aor
+3	kə́	á	AUX	_	Aspect=Aor	0	root	_	AlignBegin=33102|AlignEnd=33253|Gloss=2Plur.Aor
 4-5	ɮə̌pmtə	_	_	_	_	_	_	_	_
 4	ɮə̌pm	ɮə́pm	VERB	_	_	3	comp:aux	_	AlignBegin=33253|AlignEnd=33329|Gloss=cover
 5	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=33329|AlignEnd=33404|Gloss=3Sing.Obj
@@ -208,11 +208,11 @@
 4	ɣáy	káy	PRON	_	Case=Loc|PronType=Prs	2	comp:obl@expl	_	AlignBegin=34757|AlignEnd=34892|Gloss=Anaph.Loc.3Sing
 5	tôː	tôː	PART	_	PartType=Disc	7	discourse	_	AlignBegin=34892|AlignEnd=35027|Gloss=DM
 6	ɣəndá	kəndá	ADV	_	_	7	mod	_	AlignBegin=35027|AlignEnd=35162|Gloss=then
-7	ɣə́	á	AUX	_	_	0	root	_	AlignBegin=35162|AlignEnd=35297|Gloss=2Plur.Aor
+7	ɣə́	á	AUX	_	Aspect=Aor	0	root	_	AlignBegin=35162|AlignEnd=35297|Gloss=2Plur.Aor
 8-9	mbíːtə̀	_	_	_	_	_	_	_	_
 8	mbîː	mbiː	VERB	_	_	7	comp:aux	_	AlignBegin=35297|AlignEnd=35365|Gloss=take
 9	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=35432|AlignEnd=35567|Gloss=3Sing.Obj
-10	ɣə́	á	AUX	_	_	7	parataxis@conj	_	AlignBegin=35567|AlignEnd=35700|Gloss=2Plur.Aor
+10	ɣə́	á	AUX	_	Aspect=Aor	7	parataxis@conj	_	AlignBegin=35567|AlignEnd=35700|Gloss=2Plur.Aor
 11	ʧâː	ʧaː	VERB	_	_	10	comp:aux	_	AlignBegin=35700|AlignEnd=35862|Gloss=put
 12	ɗa	ɗa	ADP	_	_	11	comp:obl	_	AlignBegin=35862|AlignEnd=36024|Gloss=at
 13	gìːrì	gìːr	NOUN	_	Definite=Ind	12	comp:obj	_	AlignBegin=36024|AlignEnd=36186|Gloss=grave.Ind
@@ -735,7 +735,7 @@
 10-11	sûkí	_	_	_	_	_	_	_	_
 10	sû	su	VERB	_	_	9	comp:aux	_	AlignBegin=115012|AlignEnd=115126|Gloss=turn
 11	=kí	=kí	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	10	comp:obj	_	AlignBegin=115126|AlignEnd=115241|Gloss=2Plur.Obj
-12	kə́	á	AUX	_	_	9	parataxis@conj	_	AlignBegin=115241|AlignEnd=115470|Gloss=2Plur.Aor
+12	kə́	á	AUX	_	Aspect=Aor	9	parataxis@conj	_	AlignBegin=115241|AlignEnd=115470|Gloss=2Plur.Aor
 13	pâːʃíː	paːs	VERB	_	_	12	comp:aux	_	AlignBegin=115470|AlignEnd=115699|Gloss=disperse.ACH|Resultative=Yes
 14-15	ɣəndíyaː	_	_	_	_	_	_	_	_
 14	ɣəndí	kəndí	PART	_	PartType=Foc	13	discourse@foc	_	AlignBegin=115699|AlignEnd=115928|Gloss=be
@@ -1957,7 +1957,7 @@
 # text_en = Well, then they would disperse.
 1	tôː	tôː	PART	_	PartType=Disc	3	discourse	_	AlignBegin=282820|AlignEnd=283224|Gloss=DM
 2	ɣəndá	kəndá	ADV	_	_	3	mod	_	AlignBegin=283224|AlignEnd=283629|Gloss=then
-3	tá	a	AUX	_	_	0	root	_	AlignBegin=283629|AlignEnd=283821|Gloss=3Plur.Fut
+3	tá	a	AUX	_	Tense=Fut	0	root	_	AlignBegin=283629|AlignEnd=283821|Gloss=3Plur.Fut
 4	pâːs	paːs	VERB	_	_	3	comp:aux	_	AlignBegin=283821|AlignEnd=284013|Gloss=disperse
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=284013|AlignEnd=284206|Gloss=PUNCT
 
