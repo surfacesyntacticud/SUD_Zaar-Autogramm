@@ -1269,7 +1269,7 @@
 # text_ortho = tòː yàːːː &//
 # text_en = Well if they...
 1	tòː	tòː	PART	_	PartType=Disc	2	discourse	_	AlignBegin=187705|AlignEnd=187869|Gloss=well
-2	yǎː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=3	0	root@scrap	_	AlignBegin=187869|AlignEnd=188033|Gloss=3Plur.Cnd
+2	yǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root@scrap	_	AlignBegin=187869|AlignEnd=188033|Gloss=3Plur.Imp
 3	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=188033|AlignEnd=188198|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_172-173
@@ -1328,7 +1328,7 @@
 # text_en = It looks like it's the one whose tyre will not take you up to these places..
 1-2	yin	_	_	_	_	_	_	_	_
 1	yi	yi	PredPART	_	_	0	root	_	AlignBegin=192556|AlignEnd=192750|Gloss=be
-2	nə	nə	PART	_	Aspect=Iter|PartType=Pred	1	comp:aux	_	AlignBegin=192556|AlignEnd=192750|Gloss=DER
+2	nə	nə	PART	_	Aspect=Iter|PartType=Pred	1	comp:pred	_	AlignBegin=192556|AlignEnd=192750|Gloss=DER
 3	tu	tu	SCONJ	_	_	2	compound	_	AlignBegin=192814|AlignEnd=193072|Gloss=Qot
 4	nə	nə	PART	_	PartType=Pred	3	comp:obj	_	AlignBegin=193072|AlignEnd=193330|Gloss=be
 5	gyóːɗan	gyóːɗan	PRON	_	PronType=Rel	4	comp:pred	_	AlignBegin=193330|AlignEnd=193586|Gloss=the_one_which
@@ -1366,7 +1366,7 @@
 3	Bàːbá	Bàːbá	PROPN	_	_	2	mod@poss	_	AlignBegin=196110|AlignEnd=196270|Gloss=Baba
 4	Súléy	Súle	PROPN	_	Definite=Anaph	3	flat@name	_	AlignBegin=196270|AlignEnd=196430|Gloss=Sule.PRM
 5	bàː	bàː	PART	_	PartType=Neg|Polarity=Neg	6	mod	_	AlignBegin=196430|AlignEnd=196590|Gloss=Neg
-6	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	0	root	_	AlignBegin=196590|AlignEnd=196750|Gloss=2Sing.Cnd
+6	kyáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=2	0	root	_	AlignBegin=196590|AlignEnd=196750|Gloss=2Sing.Imp
 7	ɬə	ɬə	VERB	_	_	6	comp:aux	_	AlignBegin=196750|AlignEnd=196910|Gloss=go|SVC=Yes
 8-9	tǔn	_	_	_	_	_	_	_	_
 8	tu	tu	VERB	_	_	7	compound@svc	_	AlignBegin=196910|AlignEnd=197070|Gloss=get
@@ -2631,7 +2631,7 @@
 11	kúmá	kúmá	PART	_	PartType=Top	10	discourse@top	_	AlignBegin=346541|AlignEnd=346773|Gloss=also
 12	<	<	PUNCT	_	_	10	punct	_	AlignBegin=346773|AlignEnd=347004|Gloss=PUNCT
 13	ka	ka	X	_	Foreign=Yes	16	discourse	_	AlignBegin=347004|AlignEnd=347143|Gloss=2Sing.Perf|Lang=ha
-14	san	sani	X	_	Foreign=Yes	13	comp:aux	_	AlignBegin=347143|AlignEnd=347282|Gloss=know|Lang=ha
+14	san	sani	X	_	Foreign=Yes	13	flat@foreign	_	AlignBegin=347143|AlignEnd=347282|Gloss=know|Lang=ha
 15	níː	níː	PRON	_	Foreign=Yes	16	subj	_	AlignBegin=347282|AlignEnd=347421|Gloss=1Sing|Lang=ha
 16	tə́	tə́	ADP	_	_	3	parataxis:insert	_	AlignBegin=347721|AlignEnd=347855|Gloss=with
 17	gyaːl	gyaːl	NOUN	_	_	16	comp:obj	_	AlignBegin=347855|AlignEnd=347989|Gloss=compassion
@@ -2680,7 +2680,7 @@
 # text = kyáː ragétən dàtə̂pm mə́n //
 # text_ortho = kyáː ragétən dàtə̂pm mə́n //
 # text_en = You will reduce the way for her.
-1	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	0	root	_	AlignBegin=353609|AlignEnd=353779|Gloss=2Sing.Cnd
+1	kyáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=2	0	root	_	AlignBegin=353609|AlignEnd=353779|Gloss=2Sing.Imp
 2-4	ragétən	_	_	_	_	_	_	_	_
 2	ragé	ragé	VERB	_	_	1	comp:aux	_	AlignBegin=353779|AlignEnd=353949|Gloss=reduce
 3	=tə	=tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj@R	_	AlignBegin=353836|AlignEnd=353893|Gloss=3Sing.Obj
@@ -4688,13 +4688,13 @@
 # sent_timecode = 553909, 555237
 # text_ortho = ko ana ruwa < Ɓoi na kira //
 # text_en = ...even if it is raining Ɓoi is calling.
-1	ko	ko	SCONJ	_	Foreign=Yes	5	mod	_	AlignBegin=553909|AlignEnd=554073|Gloss=if|Lang=ha
-2	ana	ana	X	_	Foreign=Yes	1	comp:obj	_	AlignBegin=554073|AlignEnd=554237|Gloss=it_is|Lang=ha
-3	ruwa	ruwa	X	_	Foreign=Yes	2	comp:aux	_	AlignBegin=554237|AlignEnd=554401|Gloss=rain|Lang=ha
-4	Ɓoi	Ɓoi	PROPN	_	_	5	subj	_	AlignBegin=554784|AlignEnd=554897|Gloss=Ɓoi
-5	na	na	X	_	Foreign=Yes	0	root	_	AlignBegin=554897|AlignEnd=555010|Gloss=is|Lang=ha
-6	kira	kira	X	_	Foreign=Yes	5	comp:aux	_	AlignBegin=555010|AlignEnd=555123|Gloss=calling|Lang=ha
-7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=555123|AlignEnd=555237|Gloss=PUNCT
+1	ko	ko	SCONJ	_	Foreign=Yes	0	root	_	AlignBegin=553909|AlignEnd=554073|Gloss=if|Lang=ha
+2	ana	ana	X	_	Foreign=Yes	1	flat@foreign	_	AlignBegin=554073|AlignEnd=554237|Gloss=it_is|Lang=ha
+3	ruwa	ruwa	X	_	Foreign=Yes	2	flat@foreign	_	AlignBegin=554237|AlignEnd=554401|Gloss=rain|Lang=ha
+4	Ɓoi	Ɓoi	PROPN	_	_	3	flat@foreign	_	AlignBegin=554784|AlignEnd=554897|Gloss=Ɓoi
+5	na	na	X	_	Foreign=Yes	4	flat@foreign	_	AlignBegin=554897|AlignEnd=555010|Gloss=is|Lang=ha
+6	kira	kira	X	_	Foreign=Yes	5	flat@foreign	_	AlignBegin=555010|AlignEnd=555123|Gloss=calling|Lang=ha
+7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=555123|AlignEnd=555237|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_562-566
 # text = tòː < kə yísə́n < gyaː Tákwâːrày máː < ʧàː gâː naːrə̌n > ʧì tə́ kaɗanʃí //
@@ -5828,7 +5828,7 @@
 # text = kyáː daːmá gwàː ?//
 # text_ortho = kyáː daːmá gwàː ?//
 # text_en = You, are you worrying?
-1	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	0	root	_	AlignBegin=686921|AlignEnd=687087|Gloss=2Sing.Cnd
+1	kyáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=2	0	root	_	AlignBegin=686921|AlignEnd=687087|Gloss=2Sing.Imp
 2	daːmá	daːmá	VERB	_	_	1	comp:aux	_	AlignBegin=687087|AlignEnd=687253|Gloss=bother
 3	gwàː	gwàː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	discourse@top	_	AlignBegin=687253|AlignEnd=687419|Gloss=2SingGen
 4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=687419|AlignEnd=687587|Gloss=PUNCT
@@ -5865,7 +5865,7 @@
 # sent_timecode = 687587, 689065
 # text_ortho = kyáː daːmá gwàː tə́ gíː gòs wuriː ?//
 # text_en = What business of yours is this?
-1	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	0	root	_	AlignBegin=687587|AlignEnd=687779|Gloss=2Sing.Cnd
+1	kyáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=2	0	root	_	AlignBegin=687587|AlignEnd=687779|Gloss=2Sing.Imp
 2	daːmá	daːmá	VERB	_	_	1	comp:aux	_	AlignBegin=687779|AlignEnd=687971|Gloss=bother
 3	gwàː	gwàː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	discourse@top	_	AlignBegin=687971|AlignEnd=688164|Gloss=2SingGen
 4	tə́	tə́	ADP	_	_	2	comp:obl	_	AlignBegin=688164|AlignEnd=688344|Gloss=with
@@ -6529,11 +6529,11 @@
 # sent_timecode = 755792, 757938
 # text_ortho = kyáː || kyáː || kyáː súː gwàː ŋâːy //= kə súː gə̀ɗès hŋ́ gə̂n > kûn //
 # text_en = You.. you... you love a child, you don 't love the woman, my friend!
-1	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	10	parataxis@mod	_	AlignBegin=755792|AlignEnd=755904|Gloss=2Sing.Cnd
+1	kyáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=2	10	parataxis@mod	_	AlignBegin=755792|AlignEnd=755904|Gloss=2Sing.Imp
 2	||	||	PUNCT	_	_	3	punct	_	AlignBegin=755904|AlignEnd=756017|Gloss=PUNCT
-3	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	1	conj:dicto	_	AlignBegin=756017|AlignEnd=756175|Gloss=2Sing.Cnd
+3	kyáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=2	1	conj:dicto	_	AlignBegin=756017|AlignEnd=756175|Gloss=2Sing.Imp
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=756175|AlignEnd=756334|Gloss=PUNCT
-5	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	3	conj:dicto	_	AlignBegin=756334|AlignEnd=756472|Gloss=2Sing.Cnd
+5	kyáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=2	3	conj:dicto	_	AlignBegin=756334|AlignEnd=756472|Gloss=2Sing.Imp
 6	súː	súː	VERB	_	_	5	comp:aux	_	AlignBegin=756472|AlignEnd=756610|Gloss=want
 7	gwàː	gwàː	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	6	discourse@top	_	AlignBegin=756610|AlignEnd=756748|Gloss=2SingGen
 8	ŋâːy	ŋáː	NOUN	_	Definite=Ind	6	comp:obj	_	AlignBegin=756748|AlignEnd=756886|Gloss=child.Ind
@@ -7698,7 +7698,7 @@
 # text = myàː ʃiː də̀n //
 # text_ortho = myàː ʃíː də̀n //
 # text_en = We went home.
-1	myàː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=1	0	root	_	AlignBegin=882187|AlignEnd=882336|Gloss=1Plur.Cnd
+1	myàː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	0	root	_	AlignBegin=882187|AlignEnd=882336|Gloss=1Plur.Imp
 2	ʃiː	ʃiː	VERB	_	_	1	comp:aux	_	AlignBegin=882336|AlignEnd=882485|Gloss=get_down
 3	də̀n	də̀n	NOUN	_	_	2	comp:obj@G	_	AlignBegin=882485|AlignEnd=882634|Gloss=compound
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=882634|AlignEnd=882782|Gloss=PUNCT
