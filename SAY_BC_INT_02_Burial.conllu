@@ -1493,18 +1493,19 @@
 22	//	//	PUNCT	_	_	9	punct	_	AlignBegin=208400|AlignEnd=208531|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_160-161
+# text = tôː < átâ yi gòs ʧiɣə́y //
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_BURIAL.WAV
 # sent_timecode = 209780, 210949
-# text = tôː < átâyi gòs ʧiɣə́y //
-# text_ortho = tôː < átâyi gòs ʧiɣə́y //
+# text_ortho = tôː < átâ yi gòs ʧiɣə́y //
 # text_en = Well, formerly, it was like this.
-1	tôː	tôː	PART	_	PartType=Disc	5	discourse	_	AlignBegin=209780|AlignEnd=209958|Gloss=DM
+1	tôː	tôː	PART	_	PartType=Disc	3	discourse	_	AlignBegin=209780|AlignEnd=209958|Gloss=DM
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=209958|AlignEnd=210136|Gloss=PUNCT
-3	átâyi	átâyi	ADV	_	_	5	mod	_	AlignBegin=210136|AlignEnd=210339|Gloss=formerly
-4	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	subj	_	AlignBegin=210339|AlignEnd=210542|Gloss=3SingGen
-5	ʧiɣə́y	ʧík	ADV	_	_	0	root	_	AlignBegin=210542|AlignEnd=210644|Gloss=thus
-6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=210745|AlignEnd=210949|Gloss=PUNCT
+3	átâ	átâ	AUX	_	_	0	root	_	AlignBegin=210136|AlignEnd=210339|Gloss=3Sing.Rem
+4	yi	yi	VERB	_	_	3	comp:aux	_	AlignBegin=210136|AlignEnd=210339|Gloss=be
+5	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	discourse@top	_	AlignBegin=210339|AlignEnd=210542|Gloss=3SingGen
+6	ʧiɣə́y	ʧík	ADV	_	_	4	comp:pred	_	AlignBegin=210542|AlignEnd=210644|Gloss=thus
+7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=210745|AlignEnd=210949|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_162-167
 # speaker_id = SP1
@@ -1626,38 +1627,39 @@
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=234689|AlignEnd=234921|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_178-179_179-180
+# text = tôː átâ yi ʧík >+ mə̀tàyáː fî mátaŋ gáy sòːséy á mə́skə́nì gə́ zaːr ɗaː ɬyaː zàːríː báː |c àmá bàː á ŋáː hŋ́ //
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_BURIAL.WAV
 # sent_timecode = 235652, 240948
-# text = tôː átâyi ʧík >+ mə̀tàyáː fî mátaŋ gáy sòːséy á mə́skə́nì gə́ zaːr ɗaː ɬyaː zàːríː báː |c àmá bàː á ŋáː hŋ́ //
-# text_ortho = tôː átâyi ʧík >+ mə̀tàyáː fî mátaŋ gáy sòːséy á mə́skə́nì ɗan zaːr ɗaː ɬyaː zàːríː bàː |c àmá bàː á ŋáː hŋ́ //
+# text_ortho = tôː átâ yi ʧík >+ mə̀tàyáː fî mátaŋ gáy sòːséy á mə́skə́nì ɗan zaːr ɗaː ɬyaː zàːríː bàː |c àmá bàː á ŋáː hŋ́ //
 # text_en = Well that's how we used to do matang a lot for the death of a man who was quite old indeed, but not for a child.
-1	tôː	tôː	PART	_	PartType=Disc	3	discourse	_	AlignBegin=235652|AlignEnd=235811|Gloss=DM
-2	átâyi	átâyi	ADV	_	_	3	mod	_	AlignBegin=235811|AlignEnd=235970|Gloss=formerly
-3	ʧík	ʧík	ADV	_	_	0	root	_	AlignBegin=236129|AlignEnd=236288|Gloss=thus
-4	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=236288|AlignEnd=236447|Gloss=PUNCT
-5	mə̀tàyáː	tayáː	AUX	_	Aspect=Imp|Number=Plur|Person=1|Tense=Rem	3	comp:cleft	_	AlignBegin=236447|AlignEnd=236606|Gloss=1Plur.Rem.Imp
-6	fî	fi	VERB	_	_	5	comp:aux	_	AlignBegin=236606|AlignEnd=236765|Gloss=do
-7	mátaŋ	mátaŋ	NOUN	_	_	6	comp:obj	_	AlignBegin=236765|AlignEnd=236924|Gloss=ritual_flogging
-8	gáy	káy	PRON	_	Case=Loc	6	comp:obl	_	AlignBegin=236924|AlignEnd=237083|Gloss=Anaph.Loc.3Sing
-9	sòːséy	sòːséy	ADV	_	_	6	mod	_	AlignBegin=237083|AlignEnd=237241|Gloss=quite
-10	á	ká	ADP	_	_	6	mod	_	AlignBegin=237465|AlignEnd=237669|Gloss=at
-11	mə́skə́nì	məs	VERB	_	_	10	comp:obj	_	AlignBegin=237669|AlignEnd=237873|Gloss=die-Vnoun
-12	gə́	kə́	ADP	_	_	11	mod	_	AlignBegin=237873|AlignEnd=238077|Gloss=of
-13	zaːr	zaːr	NOUN	_	_	12	comp:obj	_	AlignBegin=238077|AlignEnd=238281|Gloss=person|wordform=Zaːr
-14-15	ɗaː	_	_	_	_	_	_	_	_
-14	ɗa	ɗan	SCONJ	_	_	13	mod@relcl	_	AlignBegin=238281|AlignEnd=238485|Gloss=REL
-15	àː	áː	AUX	_	Aspect=Perf|Number=Sing|Person=3	14	comp:obj	_	AlignBegin=238485|AlignEnd=238689|Gloss=3Sing.Perf
-16	ɬyaː	ɬya	VERB	_	_	15	comp:aux	_	AlignBegin=238689|AlignEnd=238893|Gloss=suffer|wordform=*ɬyaː-íː
-17	zàːríː	zàːri	NOUN	_	_	16	comp:pred	_	AlignBegin=238893|AlignEnd=239097|Gloss=old_age.ACH|Resultative=Yes
-18	báː	báː	PART	_	PartType=Disc	3	mod	_	AlignBegin=239097|AlignEnd=239301|Gloss=Q.Neg
-19	|c	|c	PUNCT	_	_	22	punct	_	AlignBegin=239301|AlignEnd=239501|Gloss=PUNCT
-20	àmá	àmá	CCONJ	_	_	22	discourse	_	AlignBegin=240031|AlignEnd=240184|Gloss=but
-21	bàː	bàː	PART	_	PartType=Neg|Polarity=Neg	22	mod	_	AlignBegin=240184|AlignEnd=240337|Gloss=Neg
-22	á	ká	ADP	_	_	3	conj:coord	_	AlignBegin=240337|AlignEnd=240490|Gloss=at
-23	ŋáː	ŋáː	NOUN	_	_	22	comp:obj	_	AlignBegin=240490|AlignEnd=240643|Gloss=child
-24	hŋ́	hŋ́	PART	_	PartType=Neg|Polarity=Neg	22	mod	_	AlignBegin=240643|AlignEnd=240796|Gloss=Neg
-25	//	//	PUNCT	_	_	3	punct	_	AlignBegin=240796|AlignEnd=240948|Gloss=PUNCT
+1	tôː	tôː	PART	_	PartType=Disc	2	discourse	_	AlignBegin=235652|AlignEnd=235811|Gloss=DM
+2	átâ	átâ	AUX	_	_	0	root	_	AlignBegin=235811|AlignEnd=235970|Gloss=3Sing.Rem
+3	yi	yi	VERB	_	_	2	comp:aux	_	AlignBegin=235811|AlignEnd=235970|Gloss=be
+4	ʧík	ʧík	ADV	_	_	3	comp:pred	_	AlignBegin=236129|AlignEnd=236288|Gloss=thus
+5	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=236288|AlignEnd=236447|Gloss=PUNCT
+6	mə̀tàyáː	tayáː	AUX	_	Aspect=Imp|Number=Plur|Person=1|Tense=Rem	2	comp:cleft	_	AlignBegin=236447|AlignEnd=236606|Gloss=1Plur.Rem.Imp
+7	fî	fi	VERB	_	_	6	comp:aux	_	AlignBegin=236606|AlignEnd=236765|Gloss=do
+8	mátaŋ	mátaŋ	NOUN	_	_	7	comp:obj	_	AlignBegin=236765|AlignEnd=236924|Gloss=ritual_flogging
+9	gáy	káy	PRON	_	Case=Loc	7	comp:obl	_	AlignBegin=236924|AlignEnd=237083|Gloss=Anaph.Loc.3Sing
+10	sòːséy	sòːséy	ADV	_	_	7	mod	_	AlignBegin=237083|AlignEnd=237241|Gloss=quite
+11	á	ká	ADP	_	_	7	mod	_	AlignBegin=237465|AlignEnd=237669|Gloss=at
+12	mə́skə́nì	məs	VERB	_	_	11	comp:obj	_	AlignBegin=237669|AlignEnd=237873|Gloss=die-Vnoun
+13	gə́	kə́	ADP	_	_	12	mod	_	AlignBegin=237873|AlignEnd=238077|Gloss=of
+14	zaːr	zaːr	NOUN	_	_	13	comp:obj	_	AlignBegin=238077|AlignEnd=238281|Gloss=person|wordform=Zaːr
+15-16	ɗaː	_	_	_	_	_	_	_	_
+15	ɗa	ɗan	SCONJ	_	_	14	mod@relcl	_	AlignBegin=238281|AlignEnd=238485|Gloss=REL
+16	àː	áː	AUX	_	Aspect=Perf|Number=Sing|Person=3	15	comp:obj	_	AlignBegin=238485|AlignEnd=238689|Gloss=3Sing.Perf
+17	ɬyaː	ɬya	VERB	_	_	16	comp:aux	_	AlignBegin=238689|AlignEnd=238893|Gloss=suffer|wordform=*ɬyaː-íː
+18	zàːríː	zàːri	NOUN	_	_	17	comp:pred	_	AlignBegin=238893|AlignEnd=239097|Gloss=old_age.ACH|Resultative=Yes
+19	báː	báː	PART	_	PartType=Disc	17	mod	_	AlignBegin=239097|AlignEnd=239301|Gloss=Q.Neg
+20	|c	|c	PUNCT	_	_	23	punct	_	AlignBegin=239301|AlignEnd=239501|Gloss=PUNCT
+21	àmá	àmá	CCONJ	_	_	23	discourse	_	AlignBegin=240031|AlignEnd=240184|Gloss=but
+22	bàː	bàː	PART	_	PartType=Neg|Polarity=Neg	23	mod	_	AlignBegin=240184|AlignEnd=240337|Gloss=Neg
+23	á	ká	ADP	_	_	2	conj:coord	_	AlignBegin=240337|AlignEnd=240490|Gloss=at
+24	ŋáː	ŋáː	NOUN	_	_	23	comp:obj	_	AlignBegin=240490|AlignEnd=240643|Gloss=child
+25	hŋ́	hŋ́	PART	_	PartType=Neg|Polarity=Neg	23	mod	_	AlignBegin=240643|AlignEnd=240796|Gloss=Neg
+26	//	//	PUNCT	_	_	2	punct	_	AlignBegin=240796|AlignEnd=240948|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_181-183
 # speaker_id = SP2
