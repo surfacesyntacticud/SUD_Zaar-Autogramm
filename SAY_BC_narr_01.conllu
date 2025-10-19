@@ -879,7 +879,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 121580, 129913
-# text = ɗan tə́ ʧâː dǔːm á ɓán < séː mbàraːt wùl longa tu [ tôː < ta á káːrâtə́n !//= má ɬə̌ːt !//= má gàː ɗə́kərə́n ɗa !//] //
+# text = ɗan tə́ ʧâː dǔːm á ɓán < séː mbàraːt wùl longa tu [ tôː < ta á káːrâtə́n !//= má ɬə̌ːt !//= má gàː ɗə́kərə́n ɗa yáːɬi oː !//] //
 # text_ortho = ɗan tə́ ʧâː dǔːm á ɓaníː < séː mbàraːt wùl longa tu [ tôː < táyɗi á káːrâtə́n !//= má ɬə̌ːt //= má gàː ɗə́ɣrə́n ɗa yáːɬyoː !//] //
 # text_en = When they had finished collecting all the honey, then Crownbird told Rabbit "Well... climb on this my back! We'll fly away we'll leave this fool on the ground!"
 1	ɗan	ɗan	SCONJ	_	_	10	mod	_	AlignBegin=121580|AlignEnd=121816|Gloss=as
@@ -909,11 +909,11 @@
 24	má	a	AUX	_	Number=Plur|Person=1|Tense=Fut	21	parataxis@conj	_	AlignBegin=128836|AlignEnd=129013|Gloss=1Plur.Fut
 25	gàː	gaː	VERB	_	_	24	comp:aux	_	AlignBegin=129013|AlignEnd=129190|Gloss=leave
 26	ɗə́kərə́n	ɗə́kər	NOUN	_	_	25	comp:obj	_	AlignBegin=129190|AlignEnd=129335|Gloss=mad.Prox|wordform=ɗə́kər
-27-28	ɗa	_	_	_	_	_	_	_	_
-27	ɗayáːɬi	ɗa	ADP	_	Definite=Ind	25	comp:obl	_	AlignBegin=129335|AlignEnd=129480|Gloss=at|wordform=ɗa
-28	oː	oː	PART	_	PartType=Illoc	21	mod	_	AlignBegin=129576|AlignEnd=129625|Gloss=Fact
-29	!//]	!//]	PUNCT	_	_	16	punct	_	AlignBegin=129625|AlignEnd=129770|Gloss=PUNCT
-30	//	//	PUNCT	_	_	10	punct	_	AlignBegin=129770|AlignEnd=129913|Gloss=PUNCT
+27	ɗa	ɗa	ADP	_	_	25	comp:obl	_	AlignBegin=129335|AlignEnd=129480|Gloss=at
+28	yáːɬi	yâːɬ	NOUN	_	Definite=Ind	27	comp:obj	_	AlignBegin=129335|AlignEnd=129480|Gloss=ground.Ind|wordform=ɗa
+29	oː	oː	PART	_	PartType=Illoc	21	mod	_	AlignBegin=129576|AlignEnd=129625|Gloss=Fact
+30	!//]	!//]	PUNCT	_	_	16	punct	_	AlignBegin=129625|AlignEnd=129770|Gloss=PUNCT
+31	//	//	PUNCT	_	_	10	punct	_	AlignBegin=129770|AlignEnd=129913|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_107-107
 # speaker_id = SP2
@@ -966,8 +966,9 @@
 2	gàː	gaː	VERB	_	_	1	comp:aux	_	AlignBegin=134539|AlignEnd=134740|Gloss=leave
 3	mbə́rgə̀ptəŋ	mbə́rgə̀ptəŋ	NOUN	_	_	2	comp:obj	_	AlignBegin=134740|AlignEnd=134941|Gloss=hyena
 4	ɗaɗa	ɗaɗa	ADV	_	_	2	mod	_	AlignBegin=134941|AlignEnd=135142|Gloss=again
-5	ɗayáːɬi	ɗa	ADP	_	Definite=Ind	2	comp:obl	_	AlignBegin=135142|AlignEnd=135343|Gloss=at|wordform=ɗa
-6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=135544|AlignEnd=135743|Gloss=PUNCT
+5	ɗa	ɗa	ADP	_	_	2	comp:obl	_	AlignBegin=135142|AlignEnd=135343|Gloss=at
+6	yáːɬi	yâːɬ	NOUN	_	Definite=Ind	5	comp:obj	_	AlignBegin=135142|AlignEnd=135343|Gloss=on_ground|wordform=ɗa
+7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=135544|AlignEnd=135743|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_111-112
 # speaker_id = SP1
@@ -1903,16 +1904,17 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 249892, 251179
-# text = á mbîː ʧǎːy á teːʧiki gín //
+# text = á mbîː ʧǎːy á teː ʧiki gín //
 # text_ortho = á mbîː ʧáːy á teː ʧiki gín //
 # text_en = He took them and put them on this thigh.
 1	á	ø	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=249892|AlignEnd=250053|Gloss=3Sing.Aor
 2	mbîː	mbiː	VERB	_	_	1	comp:aux	_	AlignBegin=250053|AlignEnd=250214|Gloss=take
 3	ʧǎːy	ʧaː	VERB	_	_	2	compound@svc	_	AlignBegin=250214|AlignEnd=250375|Gloss=put.ACH|Resultative=Yes|wordform=ʧaː
 4	á	ká	ADP	_	ExtPos=ADP	3	comp:obl	_	AlignBegin=250375|AlignEnd=250536|Gloss=at|Idiom=Yes
-5	teːʧiki	teː	ADP	_	Definite=Ind	4	unk	_	AlignBegin=250536|AlignEnd=250697|Gloss=at|InIdiom=Yes|wordform=teː
-6	gín	giní	PRON	_	Deixis=Prox|PronType=Dem	4	conj:appos	_	AlignBegin=250858|AlignEnd=251019|Gloss=Prox
-7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=251019|AlignEnd=251179|Gloss=PUNCT
+5	teː	teː	ADP	_	_	4	comp:obj	_	AlignBegin=250536|AlignEnd=250697|Gloss=around|InIdiom=Yes
+6	ʧiki	ʧikn	NOUN	_	Definite=Ind	4	comp:obj	_	AlignBegin=250536|AlignEnd=250697|Gloss=thigh.Ind|InIdiom=Yes|wordform=teː
+7	gín	giní	DET	_	Deixis=Prox|PronType=Dem	6	det	_	AlignBegin=250858|AlignEnd=251019|Gloss=Prox
+8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=251019|AlignEnd=251179|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_191-191
 # speaker_id = SP1
@@ -3295,7 +3297,7 @@
 4	ŋaː	ŋaː	ADJ	_	_	5	mod	_	AlignBegin=427243|AlignEnd=427611|Gloss=small
 5	zə̀ri	zə̀ri	NOUN	_	_	2	comp:obj	_	AlignBegin=427611|AlignEnd=427979|Gloss=thread
 6	ɗan	ɗan	ADP	_	ExtPos=ADP	5	mod	_	AlignBegin=427979|AlignEnd=428347|Gloss=like|Idiom=Yes
-7	kutun	kutu	ADP	_	Mood=Qot	6	unk	_	AlignBegin=428347|AlignEnd=428712|Gloss=as_if|InIdiom=Yes|wordform=kutu
+7	kutun	kutu	ADP	_	_	6	comp:obj	_	AlignBegin=428347|AlignEnd=428712|Gloss=as_if|InIdiom=Yes|wordform=kutu
 8	watka	watka	NOUN	_	_	6	comp:obj	_	AlignBegin=428712|AlignEnd=428955|Gloss=intestine
 9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=428955|AlignEnd=429198|Gloss=PUNCT
 
