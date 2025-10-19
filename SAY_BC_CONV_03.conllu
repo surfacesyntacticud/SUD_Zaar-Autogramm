@@ -2852,10 +2852,10 @@
 # sent_timecode = 368205, 370383
 # text_ortho = Tʃoɣn káwây ŋ átâ || átâ sûːm dzàŋ gíː //
 # text_en = It's only God who... who liked me that day.
-1	Tʃôɣn	Tʃôɣn	PROPN	_	_	0	root	_	AlignBegin=368205|AlignEnd=368463|Gloss=God
+1	Tʃôɣn	Tʃôɣn	PROPN	_	_	3	comp:pred	_	AlignBegin=368205|AlignEnd=368463|Gloss=God
 2	káwây	káwây	ADV	_	_	1	mod	_	AlignBegin=368463|AlignEnd=368592|Gloss=merely
-3	ŋ	kən	PART	_	PartType=Foc	1	discourse@foc	_	AlignBegin=368592|AlignEnd=368721|Gloss=be
-4	átâ	ta	AUX	_	Number=Sing|Person=3|Tense=Rem	1	comp:cleft	_	AlignBegin=368721|AlignEnd=368979|Gloss=3Sing.Rem
+3	ŋ	kən	FocPART	_	PartType=Foc	0	root	_	AlignBegin=368592|AlignEnd=368721|Gloss=be
+4	átâ	ta	AUX	_	Number=Sing|Person=3|Tense=Rem	3	comp:cleft	_	AlignBegin=368721|AlignEnd=368979|Gloss=3Sing.Rem
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=368979|AlignEnd=369237|Gloss=PUNCT
 6	átâ	ta	AUX	_	Number=Sing|Person=3|Tense=Rem	4	conj:dicto	_	AlignBegin=369498|AlignEnd=369675|Gloss=3Sing.Rem
 7-8	sûːm	_	_	_	_	_	_	_	_
@@ -2863,7 +2863,7 @@
 8	m	mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	comp:obj	_	AlignBegin=369763|AlignEnd=369852|Gloss=1Sing.Obj|wordform==m
 9	dzàŋ	dzàn	NOUN	_	_	7	mod	_	AlignBegin=369852|AlignEnd=370029|Gloss=day
 10	gíː	gíː	DET	_	Definite=Anaph|PronType=Dem	9	det	_	AlignBegin=370029|AlignEnd=370206|Gloss=PRM
-11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=370206|AlignEnd=370383|Gloss=PUNCT
+11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=370206|AlignEnd=370383|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_366-366
 # text = bàː màːʃîn tà mará !//
@@ -2905,15 +2905,15 @@
 # sent_timecode = 373483, 374535
 # text_ortho = miːr káwây ŋ átâyáː ɓánəm mə́n //
 # text_en = The petrol just got finished!
-1	miːr	miːr	NOUN	_	_	2	dislocated@top	_	AlignBegin=373483|AlignEnd=373658|Gloss=petrol
-2	káwây	káwây	ADV	_	_	0	root	_	AlignBegin=373658|AlignEnd=373746|Gloss=merely
-3	ŋ	kən	PART	_	PartType=Foc	2	discourse@foc	_	AlignBegin=373746|AlignEnd=373833|Gloss=be
-4	átâyáː	tayáː	AUX	_	Aspect=Imp|Number=Sing|Person=3|Tense=Rem	2	comp:cleft	_	AlignBegin=373833|AlignEnd=374008|Gloss=3Sing.Rem.Imp
+1	miːr	miːr	NOUN	_	_	3	comp:pred	_	AlignBegin=373483|AlignEnd=373658|Gloss=petrol
+2	káwây	káwây	ADV	_	_	1	mod	_	AlignBegin=373658|AlignEnd=373746|Gloss=merely
+3	ŋ	kən	FocPART	_	PartType=Foc	0	root	_	AlignBegin=373746|AlignEnd=373833|Gloss=be
+4	átâyáː	tayáː	AUX	_	Aspect=Imp|Number=Sing|Person=3|Tense=Rem	3	comp:cleft	_	AlignBegin=373833|AlignEnd=374008|Gloss=3Sing.Rem.Imp
 5-6	ɓánəm	_	_	_	_	_	_	_	_
 5	ɓán	ɓán	VERB	_	_	4	comp:aux	_	AlignBegin=374008|AlignEnd=374096|Gloss=finish
 6	əm	mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	comp:obj@R	_	AlignBegin=374096|AlignEnd=374183|Gloss=1Sing.Obj|wordform==əm
 7	mə́n	mə́n	PART	_	Case=Ben|PartType=Adv	5	compound:prt	_	AlignBegin=374183|AlignEnd=374358|Gloss=BEN
-8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=374358|AlignEnd=374535|Gloss=PUNCT
+8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=374358|AlignEnd=374535|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_369-369
 # text = miːr tàyáː ɓángə mə́n ?//
@@ -5445,16 +5445,16 @@
 3	tu	tu	SCONJ	_	_	2	comp:obj	_	AlignBegin=636058|AlignEnd=636130|Gloss=Qot
 4	||	||	PUNCT	_	_	16	punct	_	AlignBegin=636130|AlignEnd=636201|Gloss=PUNCT
 5	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	16	dislocated@subj	_	AlignBegin=636474|AlignEnd=636618|Gloss=3Sing
-6	(	(	PUNCT	_	_	7	punct	_	AlignBegin=636618|AlignEnd=636763|Gloss=PUNCT
-7	Tákwâːràs	Tákwâːràs	PROPN	_	_	5	parataxis:insert	_	AlignBegin=636763|AlignEnd=636839|Gloss=Takwaras
-8	kən	kən	PART	_	PartType=Foc	7	discourse@foc	_	AlignBegin=636839|AlignEnd=636915|Gloss=be
+6	(	(	PUNCT	_	_	8	punct	_	AlignBegin=636618|AlignEnd=636763|Gloss=PUNCT
+7	Tákwâːràs	Tákwâːràs	PROPN	_	_	8	comp:pred	_	AlignBegin=636763|AlignEnd=636839|Gloss=Takwaras
+8	kən	kən	FocPART	_	PartType=Foc	5	conj:coord	_	AlignBegin=636839|AlignEnd=636915|Gloss=be
 9	>+	>+	PUNCT	_	_	10	punct	_	AlignBegin=636915|AlignEnd=637067|Gloss=PUNCT
-10	átá	ta	AUX	_	Number=Sing|Person=3|Tense=Rem	7	comp:cleft	_	AlignBegin=637067|AlignEnd=637219|Gloss=3Sing.Rem
+10	átá	ta	AUX	_	Number=Sing|Person=3|Tense=Rem	8	parataxis:insert	_	AlignBegin=637067|AlignEnd=637219|Gloss=3Sing.Rem
 11	mán	man	VERB	_	_	10	comp:aux	_	AlignBegin=637219|AlignEnd=637371|Gloss=come|SVC=Yes
 12-13	tum	_	_	_	_	_	_	_	_
 12	tu	tu	VERB	_	_	11	compound@svc	_	AlignBegin=637371|AlignEnd=637447|Gloss=meet
 13	m	mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	comp:obj	_	AlignBegin=637447|AlignEnd=637523|Gloss=1Sing.Obj|wordform==m
-14	//)	//)	PUNCT	_	_	7	punct	_	AlignBegin=637523|AlignEnd=637675|Gloss=PUNCT
+14	//)	//)	PUNCT	_	_	8	punct	_	AlignBegin=637523|AlignEnd=637675|Gloss=PUNCT
 15	<	<	PUNCT	_	_	5	punct	_	AlignBegin=637675|AlignEnd=637830|Gloss=PUNCT
 16	á	ø	AUX	_	Aspect=Aor|Number=Sing|Person=3	1	conj:dicto	_	AlignBegin=637830|AlignEnd=637918|Gloss=3Sing.Aor
 17	wû	wul	VERB	_	_	16	comp:aux	_	AlignBegin=637918|AlignEnd=638006|Gloss=say
@@ -5467,7 +5467,7 @@
 24-25	Maláːri gòpíː	_	_	_	_	_	_	_	_
 24	Maláːri	Malâːr	PROPN	_	_	23	comp:pred	_	AlignBegin=639291|AlignEnd=639447|Gloss=Malar|wordform=*Maláːri-íː
 25	gòpíː	gòpm	PRON	_	Case=Gen|Definite=Anaph|Number=Plur|Person=1|PronType=Prs	23	discourse@top	_	AlignBegin=639447|AlignEnd=639551|Gloss=1PlurGen.PRM|wordform=gòpm
-26	ɣəndá	kəndá	PART	_	PartType=Foc	23	discourse@foc	_	AlignBegin=639551|AlignEnd=639603|Gloss=be
+26	ɣəndá	kəndá	FocPART	_	PartType=Foc	23	discourse@foc	_	AlignBegin=639551|AlignEnd=639603|Gloss=be
 27	>+	>+	PUNCT	_	_	28	punct	_	AlignBegin=639603|AlignEnd=639759|Gloss=PUNCT
 28	tə̀tà	ta	AUX	_	Number=Plur|Person=3|Tense=Rem	23	comp:cleft	_	AlignBegin=639759|AlignEnd=639915|Gloss=3Plur.Rem
 29	wul	wul	VERB	_	_	28	comp:aux	_	AlignBegin=639915|AlignEnd=640071|Gloss=say
