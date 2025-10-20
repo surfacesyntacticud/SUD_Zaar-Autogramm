@@ -191,7 +191,7 @@
 12-13	yeltə	_	_	_	_	_	_	_	_
 12	yel	yeli	VERB	_	_	11	comp:aux	_	AlignBegin=50860|AlignEnd=50960|Gloss=see
 13	tə	tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=50960|AlignEnd=51060|Gloss==3Sing.Acc|wordform==tə
-14	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	12	comp:obl	_	AlignBegin=52400|AlignEnd=52630|Gloss=3Sing.Fut|Subject=ObjRaising
+14	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	12	comp:obl	_	AlignBegin=52400|AlignEnd=52630|Gloss=3Sing.Fut
 15	ŋal	ŋal	VERB	_	_	14	comp:aux	_	AlignBegin=52630|AlignEnd=52860|Gloss=look_for
 16	ŋaː	ŋaː	ADJ	_	_	17	mod	_	AlignBegin=52860|AlignEnd=53090|Gloss=small
 17	ngə́tn	ngə́tn	NOUN	_	_	15	comp:obj	_	AlignBegin=53090|AlignEnd=53320|Gloss=thing
@@ -463,7 +463,7 @@
 4	tu	tu	SCONJ	_	_	3	comp:obj	_	AlignBegin=135304|AlignEnd=135492|Gloss=COMP
 5	nə	nə	PART	_	PartType=Pred	4	comp:obj	_	AlignBegin=136540|AlignEnd=136780|Gloss=COP1
 6	ngə́tn	ngə́tn	NOUN	_	_	5	comp:pred	_	AlignBegin=136780|AlignEnd=137020|Gloss=thing
-7	tu	tu	SCONJ	_	_	5	subj	_	AlignBegin=137020|AlignEnd=137260|Gloss=COMP
+7	tu	tu	SCONJ	_	_	5	comp:pred@agent	_	AlignBegin=137020|AlignEnd=137260|Gloss=COMP
 8	zaːr	zaːr	NOUN	_	Number=Plur	9	subj	_	AlignBegin=138580|AlignEnd=138817|Gloss=person
 9	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	7	comp:obj	_	AlignBegin=138817|AlignEnd=139054|Gloss=3Sing.Fut
 10	məs	məs	VERB	_	_	9	comp:aux	_	AlignBegin=139054|AlignEnd=139291|Gloss=die
@@ -486,7 +486,7 @@
 # text_en = It is a fact that each and everyone will appear before God to reveal all that is inside him, to tell God the good and the evil.
 1	nə	nə	PART	_	PartType=Pred	0	root	_	AlignBegin=144980|AlignEnd=145170|Gloss=COP1
 2	ngə́tn	ngə́tn	NOUN	_	_	1	comp:pred	_	AlignBegin=145170|AlignEnd=145360|Gloss=thing
-3	tu	tu	SCONJ	_	_	1	subj	_	AlignBegin=145360|AlignEnd=145550|Gloss=COMP
+3	tu	tu	SCONJ	_	_	1	comp:pred@agent	_	AlignBegin=145360|AlignEnd=145550|Gloss=COMP
 4	kóːnúː	kóːnúː	PRON	_	PronType=Tot	7	dislocated@subj	_	AlignBegin=147300|AlignEnd=147540|Gloss=everyone
 5	tə́	á	CCONJ	_	_	6	cc	_	AlignBegin=147540|AlignEnd=147780|Gloss=with
 6	kóːnúː	kóːnúː	PRON	_	Number=Plur	4	conj:coord	_	AlignBegin=147780|AlignEnd=148020|Gloss=everyone
@@ -1188,7 +1188,7 @@
 # sent_id = SAY_BC_READ_03_Sermon_161-167
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
 # sent_timecode = 360020, 371140
-# text = Mátta tə́ Roːmaːwa ʧáː fûːmí tu mə̀ lə̌ːr ngwáːrɣə́nwòpmɗì á kên Tʃóknvòn mə̀ kwǎːn ndáːtkə́nwòpm  mə̀ fùːtə̀
+# text = Mátta tə́ Roːmaːwa ʧáː fûːmí tu mə̀ lə̌ːr ngwáːrɣə́nwòpmɗì á kên Tʃóɣnvòn mə̀ kwǎːn ndáːtkə́nwòpm  mə̀ fùːtə̀
 # text_ortho = Mátta tə́ Roːmaːwa ʧáː fûːmí tu mə̀ lə̌ːr ngwáːrɣə́nwòpmɗì á kên Tʃóknvòn mə̀ kwǎːn ndáːtkə́nwòpm mə̀ fùːtə̀ /
 # text_en = Matthew and Romans they say that we should take our complaints to God, we should tell him our shortcomings, we shoul confide in him.
 1	Mátta	Mátta	PROPN	_	_	4	subj	_	AlignBegin=360020|AlignEnd=360280|Gloss=Matthew
@@ -1202,7 +1202,7 @@
 8	mə̀	[L]	AUX	_	Mood=Sub|Number=Plur|Person=1	7	comp:obj	_	AlignBegin=365100|AlignEnd=365465|Gloss=1Plur.Sub
 9	lə̌ːr	lə́ːr	VERB	_	_	8	comp:aux	_	AlignBegin=365465|AlignEnd=365830|Gloss=bring
 10-11	ngwáːrɣə́nwòpmɗì	_	_	_	_	_	_	_	_
-10	ngwáːrɣə́nwòpmɗì 	ngwáːr	NOUN	_	ExtPos=NOUN|Poss=Yes|VerbForm=Vnoun	9	comp:obj	_	AlignBegin=365830|AlignEnd=365921|Gloss=weep-Vnoun.1PlurGen|wordform=ngwáːr
+10	ngwáːrɣə́nwòpmɗì 	ngwáːr	VERB	_	ExtPos=NOUN|Poss=Yes|VerbForm=Vnoun	9	comp:obj	_	AlignBegin=365830|AlignEnd=365921|Gloss=weep-Vnoun.1PlurGen|wordform=ngwáːr
 11	ɗi	ɗi	PART	_	PartType=Adv	9	compound:prt	_	AlignBegin=366103|AlignEnd=366195|Gloss=CTP|wordform=-ɗi
 12	á	ká	ADP	_	ExtPos=ADP	9	comp:obl	_	AlignBegin=367000|AlignEnd=367235|Gloss=at|Idiom=Yes
 13	kên	kéni	NOUN	_	_	12	comp:obj	_	AlignBegin=367235|AlignEnd=367470|Gloss=front|InIdiom=Yes
@@ -1883,7 +1883,7 @@
 6	kə	ø	AUX	_	Aspect=Aor|Number=Sing|Person=2	3	conj:coord	_	AlignBegin=603818|AlignEnd=604044|Gloss=2Sing.Aor
 7	mop	mop	VERB	_	_	6	comp:aux	_	AlignBegin=604044|AlignEnd=604270|Gloss=surpass
 8	yeɬí	yeɬí	NOUN	_	_	7	comp:obj	_	AlignBegin=604270|AlignEnd=604496|Gloss=bird
-9	gíː	gíː	PRON	_	Definite=Anaph|PronType=Dem	8	subj	_	AlignBegin=605380|AlignEnd=605548|Gloss=PRM
+9	gíː	gíː	DET	_	Definite=Anaph|PronType=Dem	8	det	_	AlignBegin=605380|AlignEnd=605548|Gloss=PRM
 10	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=605548|AlignEnd=605716|Gloss=3Sing.Fut
 11-12	vumkə	_	_	_	_	_	_	_	_
 11	vum	vum	VERB	_	_	10	comp:aux	_	AlignBegin=605716|AlignEnd=605800|Gloss=save
@@ -1921,7 +1921,7 @@
 21	ɣá	ká	ADP	_	ExtPos=ADP	20	comp:pred	_	AlignBegin=616757|AlignEnd=616934|Gloss=at|Idiom=Yes
 22	dur	dur	NOUN	_	_	21	comp:obj	_	AlignBegin=616934|AlignEnd=617111|Gloss=cause|InIdiom=Yes
 23	ɣə́	kə́	ADP	_	_	22	mod	_	AlignBegin=617111|AlignEnd=617288|Gloss=of|InIdiom=Yes
-24	gwàːsə̀ŋ	gwàːsə̀ŋ	NOUN	_	Number=Plur|Person=3|PronType=Prs	21	comp:obj	_	AlignBegin=617288|AlignEnd=617465|Gloss=3PlurGen
+24	gwàːsə̀ŋ	gwàːsə̀ŋ	PRON	_	Number=Plur|Person=3|PronType=Prs	21	comp:obj	_	AlignBegin=617288|AlignEnd=617465|Gloss=3PlurGen
 25	//	//	PUNCT	_	_	8	punct	_	AlignBegin=617465|AlignEnd=617640|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_279-280
@@ -2438,7 +2438,7 @@
 16	yóːɗan	yóːɗan	PRON	_	PronType=Rel	17	subj	_	AlignBegin=786715|AlignEnd=786998|Gloss=which
 17	á	ø	AUX	_	Aspect=Aor|Number=Sing|Person=3	15	mod@relcl	_	AlignBegin=788120|AlignEnd=788400|Gloss=3Sing.Aor
 18	kâɓár	kap	VERB	_	_	17	comp:aux	_	AlignBegin=788400|AlignEnd=788540|Gloss=take-Cau|wordform=kap
-19	 ríːɣə́nwòs	ríː	NOUN	_	ExtPos=NOUN|Poss=Yes|VerbForm=Vnoun	18	comp:obj	_	AlignBegin=788680|AlignEnd=788773|Gloss=travel-Vnoun.3SingGen|wordform=ríː
+19	 ríːɣə́nwòs	ríː	VERB	_	ExtPos=NOUN|Poss=Yes|VerbForm=Vnoun	18	comp:obj	_	AlignBegin=788680|AlignEnd=788773|Gloss=travel-Vnoun.3SingGen|wordform=ríː
 20	//	//	PUNCT	_	_	3	punct	_	AlignBegin=788960|AlignEnd=789240|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_360-362

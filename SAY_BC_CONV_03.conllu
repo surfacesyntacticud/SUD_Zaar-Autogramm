@@ -898,7 +898,7 @@
 5	á	ø	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=129884|AlignEnd=130095|Gloss=3Sing.Aor
 6	ndârá	ndará	VERB	_	_	5	comp:aux	_	AlignBegin=130095|AlignEnd=130306|Gloss=be_proper
 7	dàː	dàː	ADV	_	Mood=Ctf	8	mod	_	AlignBegin=130306|AlignEnd=130555|Gloss=Counterfact
-8	kîː	yí	AUX	_	Mood=Ctf|Number=Sing|Person=2	5	subj	_	AlignBegin=130555|AlignEnd=130804|Gloss=2Sing.Counterfact
+8	kîː	yí	AUX	_	Mood=Ctf|Number=Sing|Person=2	5	comp:obj@agent	_	AlignBegin=130555|AlignEnd=130804|Gloss=2Sing.Counterfact
 9	làːtsêʃíː	laːtsə́	VERB	_	Definite=Def	8	comp:aux	_	AlignBegin=130804|Gloss=pass_by.Def.ACH|Resultative=Yes|wordform=*làːtsə-íː
 10	kàm	kàm	PART	_	PartType=Disc	9	discourse	_	AlignBegin=131053|AlignEnd=131302|Gloss=indeed
 11	dón	dón	SCONJ	_	_	9	mod	_	AlignBegin=131302|AlignEnd=131551|Gloss=because
@@ -3527,8 +3527,8 @@
 # sent_timecode = 427710, 428502 428708, 429763
 # text_ortho = gaba ɗaya Bàːbá tâ || átâ ta ɣá màːʃíni hḿ máː //
 # text_en = <Absolutely>, Baba did... he did not even climb on the motorbike.
-1	gaba	gaba	NOUN	_	Foreign=Yes	4	mod	_	AlignBegin=427710|AlignEnd=427868|Gloss=in_font|Lang=ha
-2	ɗaya	ɗaya	NUM	_	Foreign=Yes	1	flat@foreign	_	AlignBegin=427868|AlignEnd=428026|Gloss=one|Lang=ha
+1	gaba	gaba	X	_	Foreign=Yes	4	mod	_	AlignBegin=427710|AlignEnd=427868|Gloss=in_font|Lang=ha
+2	ɗaya	ɗaya	X	_	Foreign=Yes	1	flat@foreign	_	AlignBegin=427868|AlignEnd=428026|Gloss=one|Lang=ha
 3	Bàːbá	Bàːbá	PROPN	_	_	4	subj	_	AlignBegin=428026|AlignEnd=428184|Gloss=Baba
 4	tâ	ta	AUX	_	Tense=Rem	0	root	_	AlignBegin=428184|AlignEnd=428342|Gloss=Rem
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=428342|AlignEnd=428502|Gloss=PUNCT
@@ -3550,7 +3550,7 @@
 1	gàːsá	gàːsá	ADV	_	_	3	mod	_	AlignBegin=430638|AlignEnd=430786|Gloss=really
 2	bàː	bàː	PART	_	PartType=Neg|Polarity=Neg	3	mod	_	AlignBegin=430786|AlignEnd=430934|Gloss=Neg
 3	átâ	ta	AUX	_	Number=Sing|Person=3|Tense=Rem	0	root	_	AlignBegin=430934|AlignEnd=431082|Gloss=3Sing.Rem
-4	ta	ta	VERB	_	_	3	subj	_	AlignBegin=431082|AlignEnd=431230|Gloss=climb
+4	ta	ta	VERB	_	_	3	comp:aux	_	AlignBegin=431082|AlignEnd=431230|Gloss=climb
 5	ɣá	ká	ADP	_	_	4	comp:obl	_	AlignBegin=431230|AlignEnd=431378|Gloss=at
 6-7	màːʃínêsə̌n	_	_	_	_	_	_	_	_
 6	màːʃínês	màːʃîn	NOUN	_	Definite=Def	5	comp:obj	_	AlignBegin=431378|AlignEnd=431476|Gloss=motorbike
@@ -5533,8 +5533,8 @@
 5	tə́	ø	AUX	_	Aspect=Aor|Number=Plur|Person=3	4	comp:obj	_	AlignBegin=646274|AlignEnd=646406|Gloss=3Plur.Aor
 6	gə̀m	gəm	VERB	_	_	5	comp:aux	_	AlignBegin=646406|AlignEnd=646538|Gloss=put
 7	á	ká	ADP	_	Foreign=Yes	6	mod	_	AlignBegin=647131|AlignEnd=647335|Gloss=at|Lang=ha
-8	first	first	NUM	_	ExtPos=NOUN|Foreign=Yes	7	comp:obj	_	AlignBegin=647335|AlignEnd=647539|Gloss=first|Lang=en
-9	eleven	eleven	NUM	_	ExtPos=NOUN|Foreign=Yes	8	flat:num	_	AlignBegin=647539|AlignEnd=647743|Gloss=eleven|Lang=en
+8	first	first	NUM	_	Foreign=Yes	7	comp:obj	_	AlignBegin=647335|AlignEnd=647539|Gloss=first|Lang=en
+9	eleven	eleven	NUM	_	Foreign=Yes	8	flat:num	_	AlignBegin=647539|AlignEnd=647743|Gloss=eleven|Lang=en
 10	<	<	PUNCT	_	_	4	punct	_	AlignBegin=647743|AlignEnd=647948|Gloss=PUNCT
 11	ɗan	ɗan	SCONJ	_	_	21	mod	_	AlignBegin=648353|AlignEnd=648467|Gloss=as
 12	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	11	comp:obj	_	AlignBegin=648467|AlignEnd=648581|Gloss=1Sing.Fut
@@ -7361,12 +7361,12 @@
 6	èː	èː	INTJ	_	_	8	discourse	_	AlignBegin=841654|AlignEnd=842019|Gloss=FILL
 7	gyaː	gyaː	DET	_	Number=Plur	8	det	_	AlignBegin=842359|AlignEnd=842520|Gloss=3Plur
 8	mókʃiwòpm	mókʃi	NOUN	_	Poss=Yes	5	udep	_	AlignBegin=842520|AlignEnd=842600|Gloss=girlfriend.1PlurGen|wordform=mókʃi
-9	|c	|c	PUNCT	_	_	14	punct	_	AlignBegin=842681|AlignEnd=842842|Gloss=PUNCT
-10	tə́	tə́	CCONJ	_	_	14	cc	_	AlignBegin=842842|AlignEnd=842993|Gloss=with
-11	gyaː	gyaː	DET	_	Number=Plur	14	det	_	AlignBegin=842993|AlignEnd=843144|Gloss=3Plur
+9	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=842681|AlignEnd=842842|Gloss=PUNCT
+10	tə́	tə́	CCONJ	_	_	13	cc	_	AlignBegin=842842|AlignEnd=842993|Gloss=with
+11	gyaː	gyaː	DET	_	Number=Plur	13	det	_	AlignBegin=842993|AlignEnd=843144|Gloss=3Plur
 12	m̀ː	m̀ː	INTJ	_	_	13	discourse@filler	_	AlignBegin=843144|AlignEnd=843294|Gloss=FILL
-13	wannan	wannan	DET	_	Foreign=Yes	11	conj:dicto	_	AlignBegin=844558|AlignEnd=844834|Gloss=this|Lang=ha
-14	Làːdí	Làːdí	PROPN	_	_	8	conj:coord	_	AlignBegin=845317|AlignEnd=845509|Gloss=Ladi
+13	wannan	wannan	X	_	Foreign=Yes	8	conj:coord	_	AlignBegin=844558|AlignEnd=844834|Gloss=that_one|Lang=ha
+14	Làːdí	Làːdí	PROPN	_	_	13	conj:dicto	_	AlignBegin=845317|AlignEnd=845509|Gloss=Ladi
 15	|a	|a	PUNCT	_	_	17	punct	_	AlignBegin=845509|AlignEnd=845702|Gloss=PUNCT
 16	ŋaː	ŋaː	ADJ	_	_	17	mod	_	AlignBegin=846136|AlignEnd=846272|Gloss=young
 17	mə́n	mə́n	NOUN	_	Number=Plur	14	conj:appos	_	AlignBegin=846272|AlignEnd=846408|Gloss=people
