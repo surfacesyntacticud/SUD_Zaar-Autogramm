@@ -1283,22 +1283,22 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_RELIGION.WAV
 # sent_timecode = 220860, 223760
-# text = tôː ɗáni ɣən < tsə́tngə̂nwòpm gəndí ɗan mə̀tà yi á tsáːfês kəndí //
+# text = tôː ɗáni ɣən >+ tsə́tngə̂nwòpm gəndí ɗan mə̀tà yi á tsáːfês kəndí //
 # text_ortho = tôː ɗáni ɣən < tsə́tngə̂nwòpm gəndí ɗan mə̀tà yi á tsáːfês kəndí //
 # text_en = Well then, that's how we were, when we were pagans.
-1	tôː	tôː	PART	_	PartType=Disc	6	discourse	_	AlignBegin=220860|AlignEnd=221030|Gloss=DM
-2	ɗáni	ɗáni	ADV	_	_	6	mod	_	AlignBegin=221030|AlignEnd=221200|Gloss=there
-3	ɣən	kən	PART	_	PartType=Foc	2	discourse@foc	_	AlignBegin=221200|AlignEnd=221370|Gloss=be
-4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=221370|AlignEnd=221540|Gloss=PUNCT
+1	tôː	tôː	PART	_	PartType=Disc	3	discourse	_	AlignBegin=220860|AlignEnd=221030|Gloss=DM
+2	ɗáni	ɗáni	ADV	_	_	3	comp:pred	_	AlignBegin=221030|AlignEnd=221200|Gloss=there
+3	ɣən	kən	AUX	_	PartType=Pred	0	root	_	AlignBegin=221200|AlignEnd=221370|Gloss=be
+4	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=221370|AlignEnd=221540|Gloss=PUNCT
 5	tsə́tngə̂nwòpm	tsə́tn	VERB	_	ExtPos=NOUN|Poss=Yes|VerbForm=Vnoun	6	comp:pred	_	AlignBegin=221780|AlignEnd=221994|Gloss=sit-Vnoun.1PlurGen|wordform=tsə́tngə̂n
-6	gəndí	kəndí	PART	_	PartType=Pred	0	root	_	AlignBegin=222100|AlignEnd=222420|Gloss=be
-7	ɗan	ɗan	SCONJ	_	_	5	mod@relcl	_	AlignBegin=222620|AlignEnd=222848|Gloss=when
+6	gəndí	kəndí	AUX	_	PartType=Pred	3	comp:cleft	_	AlignBegin=222100|AlignEnd=222420|Gloss=be
+7	ɗan	ɗan	SCONJ	_	_	3	mod	_	AlignBegin=222620|AlignEnd=222848|Gloss=when
 8	mə̀tà	ta	AUX	_	Number=Plur|Person=1|Tense=Rem	7	comp:obj	_	AlignBegin=222848|Gloss=1Plur.Rem
 9	yi	yi	VERB	_	_	8	comp:aux	_	Gloss=be
 10	á	ká	ADP	_	_	9	comp:pred	_	AlignEnd=223076|Gloss=at
 11	tsáːfês	tsáːfi	NOUN	_	_	10	comp:obj	_	AlignBegin=223076|AlignEnd=223304|Gloss=paganism.Def
 12	kəndí	kən	PART	_	PartType=Foc	11	discourse@foc	_	AlignBegin=223304|AlignEnd=223532|Gloss=be
-13	//	//	PUNCT	_	_	6	punct	_	AlignBegin=223532|AlignEnd=223760|Gloss=PUNCT
+13	//	//	PUNCT	_	_	3	punct	_	AlignBegin=223532|AlignEnd=223760|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_01_Religion_139-140
 # speaker_id = SP1
