@@ -44,7 +44,7 @@
 14	aː	a:	PART	_	PartType=Illoc	9	mod	_	AlignBegin=6321|AlignEnd=6445|Gloss=VRT|wordform=a:
 15	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=6445|AlignEnd=6690|Gloss=PUNCT
 16	kóː	kóː	CCONJ	_	_	17	cc	_	AlignBegin=6690|AlignEnd=6878|Gloss=or|Lang=ha
-17	nə	nə	PART	_	PartType=Pred	9	conj:coord	_	AlignBegin=6878|AlignEnd=7066|Gloss=be
+17	nə	nə	AUX	_	PartType=Pred	9	conj:coord	_	AlignBegin=6878|AlignEnd=7066|Gloss=be
 18-19	bəndígàː	_	_	_	_	_	_	_	_
 18	bəndígà	bəndígà	NOUN	_	_	17	comp:pred	_	AlignBegin=7066|AlignEnd=7254|Gloss=gun|Lang=ha
 19	aː	a:	PART	_	PartType=Illoc	17	mod	_	AlignBegin=7254|AlignEnd=7442|Gloss=VRT|wordform=a:
@@ -399,7 +399,7 @@
 14	swǎːt	swǎːt	IDEO	_	_	13	mod	_	AlignBegin=73054|AlignEnd=73261|Gloss=fast
 15	wul	wul	VERB	_	_	13	compound@svc	_	AlignBegin=73261|AlignEnd=73401|Gloss=say
 16	tu	tu	SCONJ	_	_	15	comp:obj	_	AlignBegin=73401|AlignEnd=73541|Gloss=COMP
-17	nə	nə	PART	_	PartType=Pred	16	comp:obj	_	AlignBegin=73541|AlignEnd=73681|Gloss=be
+17	nə	nə	AUX	_	PartType=Pred	16	comp:obj	_	AlignBegin=73541|AlignEnd=73681|Gloss=be
 18	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	17	comp:pred	_	AlignBegin=73681|AlignEnd=73821|Gloss=3SingGen
 19	<	<	PUNCT	_	_	3	punct	_	AlignBegin=73821|AlignEnd=73963|Gloss=PUNCT
 20	bàː	bàː	PART	_	PartType=Pred	0	root	_	AlignBegin=74900|AlignEnd=75038|Gloss=be.Neg
@@ -695,7 +695,7 @@
 2	yóːɗan	yóːɗan	PRON	_	PronType=Rel	3	subj	_	AlignBegin=122920|AlignEnd=123060|Gloss=which
 3	yáː	yáː	AUX	_	Number=Sing|Person=3	1	mod@relcl	_	AlignBegin=123060|AlignEnd=123200|Gloss=3Sing.Imp|mood=Cnd
 4	ɗǔy	ɗu	VERB	_	_	3	comp:aux	_	AlignBegin=123200|AlignEnd=123340|Gloss=kill.ACH|Resultative=Yes|wordform=ɗu
-5	nə	nə	PART	_	PartType=Pred	0	root	_	AlignBegin=123340|AlignEnd=123480|Gloss=be
+5	nə	nə	AUX	_	PartType=Pred	0	root	_	AlignBegin=123340|AlignEnd=123480|Gloss=be
 6	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	comp:pred	_	AlignBegin=123480|AlignEnd=123620|Gloss=3SingGen
 7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=123620|AlignEnd=123758|Gloss=PUNCT
 
@@ -1102,7 +1102,7 @@
 # text_en = Yes but it's metal indeed!
 1	èː	èː	INTJ	_	_	3	discourse	_	AlignBegin=177760|AlignEnd=177933|Gloss=yes
 2	àmá	àmá	CCONJ	_	_	3	discourse	_	AlignBegin=177933|AlignEnd=178106|Gloss=but
-3	nə	nə	PART	_	PartType=Pred	0	root	_	AlignBegin=178106|AlignEnd=178279|Gloss=be
+3	nə	nə	AUX	_	PartType=Pred	0	root	_	AlignBegin=178106|AlignEnd=178279|Gloss=be
 4	dwǎːm	dwǎːm	NOUN	_	_	3	comp:pred	_	AlignBegin=178279|AlignEnd=178452|Gloss=metal
 5	áy	áy	INTJ	_	_	3	discourse	_	AlignBegin=178452|AlignEnd=178625|Gloss=indeed
 6	!//	!//	PUNCT	_	_	3	punct	_	AlignBegin=178625|AlignEnd=178800|Gloss=PUNCT
@@ -1116,7 +1116,7 @@
 # text_en = Er... it was metal.
 1	èː	èː	INTJ	_	_	3	discourse@filler	_	AlignBegin=179140|AlignEnd=179320|Gloss=FILL
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=179320|AlignEnd=179500|Gloss=PUNCT
-3	nə	nə	PART	_	PartType=Pred	0	root	_	AlignBegin=179820|AlignEnd=179998|Gloss=be
+3	nə	nə	AUX	_	PartType=Pred	0	root	_	AlignBegin=179820|AlignEnd=179998|Gloss=be
 4	dwǎːm	dwǎːm	NOUN	_	_	3	comp:pred	_	AlignBegin=179998|AlignEnd=180176|Gloss=metal
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=180176|AlignEnd=180353|Gloss=PUNCT
 
@@ -1244,13 +1244,13 @@
 # text = nə ŋantsâː |c kóː nə dwǎːm ?//
 # text_ortho = nə ŋantsâː |c kóː nə dwǎːm ?//
 # text_en = Was it wood or metal?
-1	nə	nə	PART	_	PartType=Pred	0	root	_	AlignBegin=199270|AlignEnd=199383|Gloss=be
+1	nə	nə	AUX	_	PartType=Pred	0	root	_	AlignBegin=199270|AlignEnd=199383|Gloss=be
 2-3	ŋantsâː	_	_	_	_	_	_	_	_
 2	ŋantsə́	ŋantsə́	NOUN	_	_	1	comp:pred	_	AlignBegin=199383|AlignEnd=199496|Gloss=wood
 3	aː	a:	PART	_	PartType=Illoc	1	mod	_	AlignBegin=199496|AlignEnd=199609|Gloss=VRT|wordform=a:
 4	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=199609|AlignEnd=199722|Gloss=PUNCT
 5	kóː	kóː	CCONJ	_	_	6	cc	_	AlignBegin=199722|AlignEnd=199835|Gloss=or|Lang=ha
-6	nə	nə	PART	_	PartType=Pred	1	conj:coord	_	AlignBegin=199835|AlignEnd=199948|Gloss=be
+6	nə	nə	AUX	_	PartType=Pred	1	conj:coord	_	AlignBegin=199835|AlignEnd=199948|Gloss=be
 7	dwǎːm	dwǎːm	NOUN	_	_	6	comp:pred	_	AlignBegin=199948|AlignEnd=200061|Gloss=metal
 8	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=200061|AlignEnd=200174|Gloss=PUNCT
 
@@ -1261,7 +1261,7 @@
 # text = nə ŋantsə́ //
 # text_ortho = nə ŋantsə́ //
 # text_en = It's wood.
-1	nə	nə	PART	_	PartType=Pred	0	root	_	AlignBegin=200038|AlignEnd=200192|Gloss=be
+1	nə	nə	AUX	_	PartType=Pred	0	root	_	AlignBegin=200038|AlignEnd=200192|Gloss=be
 2	ŋantsə́	ŋantsə́	NOUN	_	_	1	comp:pred	_	AlignBegin=200192|AlignEnd=200346|Gloss=wood_sp
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=200346|AlignEnd=200500|Gloss=PUNCT
 
@@ -1272,7 +1272,7 @@
 # text = nə ŋantsə́ //
 # text_ortho = nə ŋantsə́ //
 # text_en = It's wood.
-1	nə	nə	PART	_	PartType=Pred	0	root	_	AlignBegin=201500|AlignEnd=201640|Gloss=be
+1	nə	nə	AUX	_	PartType=Pred	0	root	_	AlignBegin=201500|AlignEnd=201640|Gloss=be
 2	ŋantsə́	ŋantsə́	NOUN	_	_	1	comp:pred	_	AlignBegin=201640|AlignEnd=201780|Gloss=wood_sp
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=201780|AlignEnd=201920|Gloss=PUNCT
 
