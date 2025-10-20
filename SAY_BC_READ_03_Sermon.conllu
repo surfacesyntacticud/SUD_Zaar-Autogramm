@@ -1104,10 +1104,10 @@
 # text = yeli yáːwón gyaːgón ʧǎː mbîː kutuŋ dzàŋ ɗə́ːlɣə́n vìː Tʃóknvònès ɗaɣástə́ɗi fupm-fúpm //
 # text_ortho = yeli yáːwón gyaːgón ʧǎː mbîː kutuŋ dzàŋ ɗə́ːlɣə́n vìː Tʃóknvònès ɗaɣástə́ɗi fupmfúpm //
 # text_en = See, today some think that God's Judgement is still far.
-1	yeli	yeli	VERB	_	Mood=Jus	0	root	_	AlignBegin=339220|AlignEnd=339470|Gloss=see
+1	yeli	yeli	VERB	_	Mood=Jus	4	parataxis:discourse	_	AlignBegin=339220|AlignEnd=339470|Gloss=see
 2	yáːwón	yáːwón	NOUN	_	_	4	mod	_	AlignBegin=340840|AlignEnd=341232|Gloss=today
 3	gyaːgón	gón	PRON	_	Definite=Spec|Number=Plur	4	subj	_	AlignBegin=341232|AlignEnd=341624|Gloss=Spec
-4	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=341624|AlignEnd=342016|Gloss=3Plur.Imp
+4	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=341624|AlignEnd=342016|Gloss=3Plur.Imp
 5	mbîː	mbiː	VERB	_	_	4	comp:aux	_	AlignBegin=342016|AlignEnd=342408|Gloss=take
 6	kutuŋ	kutuŋ	SCONJ	_	_	5	comp:obj	_	AlignBegin=342408|AlignEnd=342800|Gloss=as_if
 7	dzàŋ	dzàŋ	NOUN	_	_	11	subj	_	AlignBegin=342800|AlignEnd=343192|Gloss=day
@@ -1119,7 +1119,7 @@
 12	tə	tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=344499|AlignEnd=344630|Gloss==3Sing.Acc|wordform==tə
 13	ɗi	ɗi	PART	_	PartType=Adv	11	compound:prt	_	AlignBegin=344630|AlignEnd=344760|Gloss=CTP|wordform=-ɗi
 14	fupm-fúpm	fupm-fúpm	IDEO	_	_	11	mod	_	AlignBegin=344760|AlignEnd=345152|Gloss=very_far
-15	//	//	PUNCT	_	_	1	punct	_	AlignBegin=345152|AlignEnd=345540|Gloss=PUNCT
+15	//	//	PUNCT	_	_	4	punct	_	AlignBegin=345152|AlignEnd=345540|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_156-157
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_03_Sermon.WAV
@@ -1800,7 +1800,7 @@
 # text = ʧet gamaː dzàŋ gíː dzàŋ yáː ɓə̂ːlmíwôpíː wò kətkə ɣá zàːri aː kóː ɣá napti ?//
 # text_ortho = ʧet gamaː dzàŋ gíː dzàŋ yáː ɓə̂ːlmíwôpíː wò kətkə ɣá zàːri aː kóː ɣá napti //
 # text_en = Ask yourself, on that day, the day when he separates us, will he leave you on the right or on the left ?
-1	ʧet	ʧet	VERB	_	Mood=Jus	0	root	_	AlignBegin=578420|AlignEnd=578640|Gloss=ask
+1	ʧet	ʧet	VERB	_	Mood=Jus	10	parataxis:discourse	_	AlignBegin=578420|AlignEnd=578640|Gloss=ask
 2	gamaː	gamaː	PRON	_	Number=Sing|Person=2|Reflex=Yes	1	comp:obj@R	_	AlignBegin=578640|AlignEnd=578860|Gloss=2Sing.REFL
 3	dzàŋ	dzàŋ	NOUN	_	_	10	mod	_	AlignBegin=580700|AlignEnd=580913|Gloss=day
 4	gíː	gíː	DET	_	Definite=Anaph|PronType=Dem	3	det	_	AlignBegin=580913|AlignEnd=581126|Gloss=PRM
@@ -1810,7 +1810,7 @@
 7	ɓə̂ːl	ɓəːl	VERB	_	_	6	comp:aux	_	AlignBegin=583040|AlignEnd=583108|Gloss=divide
 8	mí	mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	comp:obj	_	AlignBegin=583108|AlignEnd=583176|Gloss=1Plur.OBJ|wordform==mí
 9	wôpíː	wôpíː	PRON	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	discourse@top	_	AlignBegin=583108|AlignEnd=583176|Gloss=1PlurGen.ACH|Resultative=Yes|wordform==mí
-10	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	1	comp:obj@T	_	AlignBegin=584520|AlignEnd=584707|Gloss=3Sing.Fut
+10	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=584520|AlignEnd=584707|Gloss=3Sing.Fut
 11-12	kətkə	_	_	_	_	_	_	_	_
 11	kət	kət	VERB	_	_	10	comp:aux	_	AlignBegin=584707|AlignEnd=584801|Gloss=keep
 12	kə	kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	11	comp:obj	_	AlignBegin=584801|AlignEnd=584894|Gloss=2Sing.OBJ|wordform==kə
@@ -2189,7 +2189,7 @@
 9	nə	nə	PART	_	PartType=Pred	8	mod	_	AlignBegin=693724|AlignEnd=693955|Gloss=DER
 10	mə́ːri	mə̂ːr	NOUN	_	Definite=Ind|Number=Plur	9	compound	_	AlignBegin=693955|AlignEnd=694071|Gloss=stealing-Ind|wordform=mə̂ːr
 11	tòː	tòː	PART	_	PartType=Disc	12	discourse	_	AlignBegin=694900|AlignEnd=695130|Gloss=DM
-12	kəɗíː	kət	VERB	_	Aspect=Res|Number=Sing|Person=2	0	root	_	AlignBegin=695130|AlignEnd=695245|Gloss=leave.ACH|Resultative=Yes|wordform=kət
+12	kəɗíː	kət	VERB	_	Aspect=Res	0	root	_	AlignBegin=695130|AlignEnd=695245|Gloss=leave.ACH|Imperative=Yes|Resultative=Yes|wordform=kət
 13	móɬâk	móɬâk	IDEO	_	_	12	mod	_	AlignBegin=695360|AlignEnd=695590|Gloss=quickly
 14	//	//	PUNCT	_	_	12	punct	_	AlignBegin=695590|AlignEnd=695820|Gloss=PUNCT
 
@@ -2634,7 +2634,7 @@
 # text = wumi myáː súː mə̀ fúːɣə tu àː páŋ tsə́tngə́nwàː àː ndə́ːríː kap Yéːsúy àː númtíː ɗaːɣə vwàː tún yáːwón kyâːt //
 # text_ortho = wumi myáː súː mə̀ fúːɣə tu àː páŋ tsə́tngə́nwàː àː ndə́ːríː kap Yéːsúy àː númtíː ɗaːɣə vwàː tún yáːwón kyâːt //
 # text_en = Listen, I want to tell you to look into your life amend, take Jesus keep him in your heart, right from now.
-1	wumi	wum	VERB	_	Mood=Jus	2	discourse	_	AlignBegin=849220|AlignEnd=849345|Gloss=hear|wordform=wum
+1	wumi	wum	VERB	_	_	2	parataxis:discourse	_	AlignBegin=849220|AlignEnd=849345|Gloss=hear|Imperative=Yes|wordform=wum
 2	myáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	0	root	_	AlignBegin=850960|AlignEnd=851137|Gloss=1Sing.Imp
 3	súː	súː	VERB	_	_	2	comp:aux	_	AlignBegin=851137|AlignEnd=851314|Gloss=like ; love ; want
 4	mə̀	[L]	AUX	_	Mood=Sub|Number=Sing|Person=1	3	comp:obj	_	AlignBegin=851314|AlignEnd=851491|Gloss=1Sing.Sub
