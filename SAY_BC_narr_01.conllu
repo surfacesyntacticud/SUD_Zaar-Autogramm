@@ -417,8 +417,8 @@
 # sent_timecode = 53014, 54014
 # text_ortho = bâː ngə́r wón ɗan tá fǐŋ //
 # text_en = Isn't there anything that they would do?
-1	bâː	baːbù	PART	_	Foreign=Yes|PartType=Neg	0	root	_	AlignBegin=53014|AlignEnd=53157|Gloss=Neg|Lang=ha
-2	ngə́r	ngə́tn	NOUN	_	_	1	subj	_	AlignBegin=53157|AlignEnd=53300|Gloss=thing
+1	bâː	bâː	PART	_	Foreign=Yes|PartType=PredPART	0	root	_	AlignBegin=53014|AlignEnd=53157|Gloss=there_is.Neg|Lang=ha
+2	ngə́r	ngə́tn	NOUN	_	_	1	comp:pred	_	AlignBegin=53157|AlignEnd=53300|Gloss=thing
 3	wón	wón	DET	_	Definite=Spec	2	det	_	AlignBegin=53300|AlignEnd=53443|Gloss=SPEC
 4	ɗan	ɗan	SCONJ	_	_	2	mod@relcl	_	AlignBegin=53443|AlignEnd=53586|Gloss=REL
 5	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	4	comp:obj	_	AlignBegin=53586|AlignEnd=53729|Gloss=3Sing.Fut
@@ -1372,8 +1372,8 @@
 1	tu	tu	SCONJ	_	Mood=Qot	0	root	_	AlignBegin=191414|AlignEnd=191518|Gloss=Qot
 2	èː	èː	INTJ	_	_	4	discourse	_	AlignBegin=191518|AlignEnd=191622|Gloss=yes
 3	tòː	tòː	PART	_	PartType=Disc	4	discourse	_	AlignBegin=191622|AlignEnd=191726|Gloss=well
-4	bâː	bâː	X	_	Foreign=Yes	1	comp:obj	_	AlignBegin=191832|AlignEnd=191989|Gloss=Neg|Lang=ha
-5	dàːmuwa	dàːmuwa	X	_	Foreign=Yes	4	flat@foreign	_	AlignBegin=191989|AlignEnd=192146|Gloss=problem|Lang=ha
+4	bâː	bâː	PART	_	Foreign=Yes|PartType=PredPART|Polarity=Neg	1	comp:obj	_	AlignBegin=191832|AlignEnd=191989|Gloss=there_is.Neg|Lang=ha
+5	dàːmuwa	dàːmuwa	NOUN	_	Foreign=Yes	4	comp:pred	_	AlignBegin=191989|AlignEnd=192146|Gloss=problem|Lang=ha
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=192146|AlignEnd=192302|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_150-151
@@ -3821,7 +3821,7 @@
 2	wûl	wul	VERB	_	_	1	comp:aux	_	AlignBegin=492576|AlignEnd=492678|Gloss=say
 3	tə	tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj@R	_	AlignBegin=492678|AlignEnd=492780|Gloss=3Sing.Obj|wordform==tə
 4	tu	tu	SCONJ	_	_	2	comp:obj@T	_	AlignBegin=492780|AlignEnd=492985|Gloss=Qot
-5	bâː	bâː	PART	_	PartType=Neg|Polarity=Neg	4	comp:obj	_	AlignBegin=493245|AlignEnd=493417|Gloss=Neg|Lang=ha
+5	bâː	bâː	PART	_	Foreign=Yes|PartType=PredPART|Polarity=Neg	4	comp:obj	_	AlignBegin=493245|AlignEnd=493417|Gloss=Neg|Lang=ha
 6	dàːmuwa	dàːmuwa	NOUN	_	Foreign=Yes	5	comp:pred	_	AlignBegin=493417|AlignEnd=493589|Gloss=problem|Lang=ha
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=493589|AlignEnd=493760|Gloss=PUNCT
 
@@ -5404,7 +5404,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 697110, 701495
-# text = kóːnîː ʧàː fî gòs ɗə̂ɣn máː < á wûl dàʧêːwáː tu [ gòs < bâː ruwáwôs //] //
+# text = kóːnîː ʧàː fî gòs ɗə̂ɣn máː < á wûl dàʧêːwáː tu [ gòs < bâː ruwáwos //] //
 # text_ortho = kóːnîː ʧàː fî gòs ɗə̂ɣn máː < á wûl dàʧêːwáː tu [ gòs < bâː ruwáwôs //] //
 # text_en = Whatever they do in the world, he says that it is not his problem.
 1	kóːnîː	kóːnîː	SCONJ	_	_	8	dislocated@top	_	AlignBegin=697110|AlignEnd=697754|Gloss=whatever
@@ -5421,7 +5421,7 @@
 12	[	[	PUNCT	_	_	15	punct	_	AlignBegin=700451|AlignEnd=700593|Gloss=PUNCT
 13	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	15	dislocated@top	_	AlignBegin=700593|AlignEnd=700735|Gloss=3SingGen
 14	<	<	PUNCT	_	_	13	punct	_	AlignBegin=700735|AlignEnd=700876|Gloss=PUNCT
-15	bâː	bâː	PART	_	PartType=Neg	10	comp:obj	_	AlignBegin=700876|AlignEnd=701031|Gloss=Neg
+15	bâː	bâː	PART	_	Foreign=Yes|PartType=PredPART|Polarity=Neg	10	comp:obj	_	AlignBegin=700876|AlignEnd=701031|Gloss=there_is.No
 16	ruwáwos	ruwá	NOUN	_	Foreign=Yes|Poss=Yes	15	comp:pred	_	AlignBegin=701031|AlignEnd=701109|Gloss=water.3SingGen|Lang=ha|wordform=ruwá
 17	//]	//]	PUNCT	_	_	15	punct	_	AlignBegin=701186|AlignEnd=701341|Gloss=PUNCT
 18	//	//	PUNCT	_	_	8	punct	_	AlignBegin=701341|AlignEnd=701495|Gloss=PUNCT
