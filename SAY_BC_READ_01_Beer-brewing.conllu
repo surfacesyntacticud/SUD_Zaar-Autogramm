@@ -373,7 +373,7 @@
 1	mə	ø	AUX	_	Aspect=Aor|Number=Sing|Person=1	0	root	_	AlignBegin=96080|AlignEnd=96323|Gloss=1Sing.Aor
 2	gáːy	gaː	VERB	_	_	1	comp:aux	_	AlignBegin=96323|AlignEnd=96445|Gloss=leave.ACH|Resultative=Yes
 3	nə	nə	PART	_	PartType=Pred	2	comp:obj	_	AlignBegin=96566|AlignEnd=96809|Gloss=DER
-4	naːyíwôs	naː	VERB	_	ExtPos=NOUN|Poss=Yes|VerbForm=Part	3	compound	_	AlignBegin=96809|AlignEnd=96931|Gloss=remain.Part.3SingGen|wordform=naːyí
+4	naːyíwôs	naː	VERB	_	Case=Gen|ExtPos=NOUN|VerbForm=Part	3	compound	_	AlignBegin=96809|AlignEnd=96931|Gloss=remain.Part.3SingGen|wordform=naːyí
 5	kəndí	kən	PART	_	PartType=Foc	4	discourse@foc	_	AlignBegin=97052|AlignEnd=97295|Gloss=COP2
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=97295|AlignEnd=97540|Gloss=PUNCT
 
@@ -522,7 +522,7 @@
 4-5	gâːʃíː	_	_	_	_	_	_	_	_
 4	gâː	gaː	VERB	_	_	3	comp:aux	_	AlignBegin=135919|AlignEnd=136112|Gloss=put
 5	ʃíː	ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=136112|AlignEnd=136208|Gloss=3Plur.OBJ.ACH|Resultative=Yes|wordform==ʃí
-6	sə̂mwôs	sə̂m	NOUN	_	Poss=Yes	7	subj	_	AlignBegin=137460|AlignEnd=137560|Gloss=name.3SingGen|wordform=sə̂m
+6	sə̂mwôs	sə̂m	NOUN	_	Case=Gen	7	subj	_	AlignBegin=137460|AlignEnd=137560|Gloss=name.3SingGen|wordform=sə̂m
 7	tu	tu	AUX	_	_	0	root	_	AlignBegin=137660|AlignEnd=137860|Gloss=be.Qot
 8	niː	niː	PRON	_	PronType=Int	7	comp:pred	_	AlignBegin=137860|AlignEnd=138060|Gloss=what
 9	?//+	?//+	PUNCT	_	_	8	punct	_	AlignBegin=138060|AlignEnd=138260|Gloss=PUNCT
@@ -660,7 +660,7 @@
 4	kə	ø	AUX	_	Aspect=Aor|Number=Sing|Person=2	3	comp:obj	_	AlignBegin=166193|AlignEnd=166384|Gloss=2Sing.Aor
 5	ʃín	ʃin	VERB	_	_	4	comp:aux	_	AlignBegin=166384|AlignEnd=166575|Gloss=pour
 6	gáyín	káy	PRON	_	Case=Loc|Deixis=Prox	5	comp:obl@expl	_	AlignBegin=166575|AlignEnd=166671|Gloss=Anaph.Loc.3Sing.Prox|wordform=gáy
-7	sə́mwòs	sə̂m	NOUN	_	Poss=Yes	8	subj	_	AlignBegin=167420|AlignEnd=167515|Gloss=name.3SingGen|wordform=sə̂m
+7	sə́mwòs	sə̂m	NOUN	_	Case=Gen	8	subj	_	AlignBegin=167420|AlignEnd=167515|Gloss=name.3SingGen|wordform=sə̂m
 8	tu	tu	AUX	_	_	0	root	_	AlignBegin=167610|AlignEnd=167800|Gloss=be.Qot
 9	niː	niː	PRON	_	PronType=Int	8	comp:pred	_	AlignBegin=167800|AlignEnd=167990|Gloss=what
 10	?//	?//	PUNCT	_	_	8	punct	_	AlignBegin=167990|AlignEnd=168180|Gloss=PUNCT
@@ -1308,7 +1308,7 @@
 # text_ortho = tôː láːwós ɓàníː ɣəndí //
 # text_en = Well, then there's nothing else to do.
 1	tòː	tòː	PART	_	PartType=Disc	3	discourse	_	AlignBegin=337740|AlignEnd=337984|Gloss=DM
-2	láːwós	laː	NOUN	_	Definite=Cons|Poss=Yes	3	subj	_	AlignBegin=337984|AlignEnd=338106|Gloss=work.3SingGen|wordform=láː
+2	láːwós	laː	NOUN	_	Case=Gen|Definite=Cons	3	subj	_	AlignBegin=337984|AlignEnd=338106|Gloss=work.3SingGen|wordform=láː
 3	ɓàníː	ɓaní	VERB	_	_	0	root	_	AlignBegin=338228|AlignEnd=338350|Gloss=finish.ACH|Resultative=Yes|wordform=ɓàní
 4	ɣəndí	kən	PART	_	PartType=Foc	3	discourse@foc	_	AlignBegin=338472|AlignEnd=338716|Gloss=COP2
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=338716|AlignEnd=338960|Gloss=PUNCT
@@ -1340,7 +1340,7 @@
 # text_ortho = yâwwàː mbútkə́nwàːsə̀ŋ tə́ ɗúː dèːdêː //
 # text_en = All right, the time [of its preparation] and that of beer are the same.
 1	yâwwàː	yâwwàː	INTJ	_	_	5	discourse	_	AlignBegin=346140|AlignEnd=346530|Gloss=OK
-2	mbútkə́nwàːsə̀ŋ	mbút	VERB	_	ExtPos=NOUN|Poss=Yes|VerbForm=Vnoun	5	subj	_	AlignBegin=346920|AlignEnd=347050|Gloss=spend_night-Vnoun.3PlurGen|wordform=mbút
+2	mbútkə́nwàːsə̀ŋ	mbút	VERB	_	Case=Gen|ExtPos=NOUN|VerbForm=Vnoun	5	subj	_	AlignBegin=346920|AlignEnd=347050|Gloss=spend_night-Vnoun.3PlurGen|wordform=mbút
 3	tə́	tə́	CCONJ	_	_	4	cc	_	AlignBegin=348020|AlignEnd=348220|Gloss=and
 4	ɗûː	ɗûː	VERB	_	_	2	conj:coord	_	AlignBegin=348220|AlignEnd=348420|Gloss=beer
 5	dèːdéː	dèːdéː	ADJ	_	_	0	root	_	AlignBegin=348420|AlignEnd=348620|Gloss=equal
@@ -1374,7 +1374,7 @@
 # text_ortho = wàːtòː bambánʧiwàːsə̀ŋ yâːn nə mbwáːɣə̂níː //
 # text_en = That is to say, their difference is in that malting.
 1	wàːtòː	wàːtòː	PART	_	PartType=Disc	4	discourse	_	AlignBegin=355480|AlignEnd=355993|Gloss=DM
-2	bambánʧiwàːsə̀ŋ	bambánʧi	NOUN	_	Definite=Cons|Poss=Yes	4	dislocated@subj	_	AlignBegin=355993|AlignEnd=356249|Gloss=difference.3PlurGen|wordform=bambánʧi
+2	bambánʧiwàːsə̀ŋ	bambánʧi	NOUN	_	Case=Gen|Definite=Cons	4	dislocated@subj	_	AlignBegin=355993|AlignEnd=356249|Gloss=difference.3PlurGen|wordform=bambánʧi
 3	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	4	subj	_	AlignBegin=358320|AlignEnd=358545|Gloss=3Sing.IDP
 4	nə	nə	AUX	_	_	0	root	_	AlignBegin=358545|AlignEnd=358770|Gloss=be
 5	mbwáːɣə̂níː	mbwaː	VERB	_	Definite=PRM|ExtPos=NOUN|VerbForm=Vnoun	4	comp:pred	_	AlignBegin=358770|AlignEnd=358845|Gloss=germinate.Vnoun.PRM
