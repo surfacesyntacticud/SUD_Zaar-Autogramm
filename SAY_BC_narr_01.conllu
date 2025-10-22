@@ -417,7 +417,7 @@
 # sent_timecode = 53014, 54014
 # text_ortho = bâː ngə́r wón ɗan tá fǐŋ //
 # text_en = Isn't there anything that they would do?
-1	bâː	bâː	PART	_	Foreign=Yes|PartType=Pred	0	root	_	AlignBegin=53014|AlignEnd=53157|Gloss=there_is.Neg|Lang=ha
+1	bâː	bâː	PART	_	Foreign=Yes|PartType=Pred|Polarity=Neg	0	root	_	AlignBegin=53014|AlignEnd=53157|Gloss=there_is.Neg|Lang=ha
 2	ngə́r	ngə́tn	NOUN	_	_	1	subj	_	AlignBegin=53157|AlignEnd=53300|Gloss=thing
 3	wón	wón	DET	_	Definite=Spec	2	det	_	AlignBegin=53300|AlignEnd=53443|Gloss=SPEC
 4	ɗan	ɗan	SCONJ	_	_	2	mod@relcl	_	AlignBegin=53443|AlignEnd=53586|Gloss=REL
@@ -1293,7 +1293,7 @@
 4	[	[	PUNCT	_	_	5	punct	_	AlignBegin=183778|AlignEnd=183898|Gloss=PUNCT
 5	áʔà	áʔà	INTJ	_	_	3	comp:obj	_	AlignBegin=183898|AlignEnd=184018|Gloss=no
 6	//=	//=	PUNCT	_	_	8	punct	_	AlignBegin=184018|AlignEnd=184138|Gloss=PUNCT
-7	bàː	bàː	PART	_	PartType=Neg	8	mod	_	AlignBegin=184138|AlignEnd=184258|Gloss=Neg1
+7	bàː	bàː	PART	_	PartType=Neg|Polarity=Neg	8	mod	_	AlignBegin=184138|AlignEnd=184258|Gloss=Neg1
 8	nə	nə	AUX	_	_	5	parataxis	_	AlignBegin=184258|AlignEnd=184378|Gloss=be
 9-10	yàŋʃǐŋ	_	_	_	_	_	_	_	_
 9	yàŋʃí	yàŋʃí	PRON	_	Case=Nom|Number=Plur|Person=3	8	comp:pred	_	AlignBegin=184378|AlignEnd=184438|Gloss=3Plur
@@ -1595,7 +1595,7 @@
 14	nə	nə	PART	_	PartType=Pred	10	comp:obj@T	_	AlignBegin=213672|AlignEnd=213847|Gloss=DER
 15	nasáŋʃi	nâs	ADJ	_	Number=Plur	14	compound	_	AlignBegin=213847|AlignEnd=214022|Gloss=big|wordform=nâs
 16	ɗaɗa	ɗaɗa	ADV	_	_	10	mod	_	AlignBegin=214022|AlignEnd=214197|Gloss=again
-17	ŋâː	ŋaː	PART	_	PartType=Illoc	8	mod	_	AlignBegin=214197|AlignEnd=214372|Gloss=Neg.Q
+17	ŋâː	ŋaː	PART	_	PartType=Illoc|Polarity=Neg	8	mod	_	AlignBegin=214197|AlignEnd=214372|Gloss=Neg.Q
 18	//	//	PUNCT	_	_	8	punct	_	AlignBegin=214372|AlignEnd=214548|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_169-170
@@ -1688,7 +1688,7 @@
 8	kì	yi	PredPART	_	_	7	conj:appos	_	AlignBegin=224226|AlignEnd=224400|Gloss=2Plur.be
 9	tə́	tə́	ADP	_	_	8	comp:pred	_	AlignBegin=224400|AlignEnd=224574|Gloss=with
 10	də̌ːr	də̌ːr	NOUN	_	_	9	comp:obj	_	AlignBegin=224574|AlignEnd=224748|Gloss=lizard
-11	ŋâː	ŋaː	PART	_	PartType=Illoc	4	mod	_	AlignBegin=224748|AlignEnd=224922|Gloss=Neg.Q
+11	ŋâː	ŋaː	PART	_	PartType=Illoc|Polarity=Neg	4	mod	_	AlignBegin=224748|AlignEnd=224922|Gloss=Neg.Q
 12	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=224922|AlignEnd=225096|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_175-175
@@ -2212,7 +2212,7 @@
 4	ɓə́lɣə̂n	ɓəl	VERB	_	VerbForm=Vnoun	3	comp:obj	_	AlignBegin=288309|AlignEnd=288429|Gloss=dig|wordform=ɓəl-NMLZ
 5	gìr	gìr	NOUN	_	_	6	mod	_	AlignBegin=288549|AlignEnd=288669|Gloss=hole
 6	ngàlây	ngála	NOUN	_	_	3	compound	_	AlignBegin=288669|AlignEnd=288789|Gloss=crab|wordform=ngála
-7	ŋâː	ŋaː	PART	_	PartType=Illoc	2	mod	_	AlignBegin=288789|AlignEnd=288909|Gloss=Neg.Q
+7	ŋâː	ŋaː	PART	_	PartType=Illoc|Polarity=Neg	2	mod	_	AlignBegin=288789|AlignEnd=288909|Gloss=Neg.Q
 8	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=288909|AlignEnd=289028|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_218-219
@@ -2673,7 +2673,7 @@
 15	kə	kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	14	comp:obj@R	_	AlignBegin=348179|AlignEnd=348277|Gloss=2Sing.Obj|wordform==kə
 16	wàːyo	wàːyo	NOUN	_	_	14	comp:obj@T	_	AlignBegin=348277|AlignEnd=348473|Gloss=trick
 17	wón	wón	DET	_	Definite=Spec	16	det	_	AlignBegin=348473|AlignEnd=348669|Gloss=SPEC
-18	ŋâː	ŋaː	PART	_	PartType=Illoc	14	mod	_	AlignBegin=348669|AlignEnd=348865|Gloss=Neg.Q
+18	ŋâː	ŋaː	PART	_	PartType=Illoc|Polarity=Neg	14	mod	_	AlignBegin=348669|AlignEnd=348865|Gloss=Neg.Q
 19	?//]	?//]	PUNCT	_	_	14	punct	_	AlignBegin=348865|AlignEnd=349061|Gloss=PUNCT
 20	//	//	PUNCT	_	_	6	punct	_	AlignBegin=349061|AlignEnd=349254|Gloss=PUNCT
 
@@ -3147,7 +3147,7 @@
 14	ʃèː	ʃèː	X	_	_	15	unk	_	AlignBegin=405388|AlignEnd=405596|Gloss=X
 15	vwàràŋ	vwàràŋ	NOUN	_	_	10	parataxis	_	AlignBegin=405596|AlignEnd=405779|Gloss=blood
 16	kyâːt	kyâːt	IDEO	_	_	15	mod	_	AlignBegin=405779|AlignEnd=405962|Gloss=fast
-17	ŋâː	ŋaː	PART	_	PartType=Illoc	15	mod	_	AlignBegin=405962|AlignEnd=406145|Gloss=Neg.Q
+17	ŋâː	ŋaː	PART	_	PartType=Illoc|Polarity=Neg	15	mod	_	AlignBegin=405962|AlignEnd=406145|Gloss=Neg.Q
 18	!//]	!//]	PUNCT	_	_	10	punct	_	AlignBegin=406145|AlignEnd=406329|Gloss=PUNCT
 19	//	//	PUNCT	_	_	4	punct	_	AlignBegin=406145|AlignEnd=406329|Gloss=PUNCT
 
