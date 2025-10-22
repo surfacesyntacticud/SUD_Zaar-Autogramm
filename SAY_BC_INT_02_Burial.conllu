@@ -245,7 +245,7 @@
 18	yáːli	yáːli	VERB	_	_	19	subj	_	AlignBegin=42033|AlignEnd=42169|Gloss=like_that
 19	ɣəní	kəní	PART	_	PartType=Pred	22	discourse	_	AlignBegin=42169|AlignEnd=42305|Gloss=be
 20	<	<	PUNCT	_	_	19	punct	_	AlignBegin=42305|AlignEnd=42441|Gloss=PUNCT
-21	káɗâ	káɗâ	ADV	_	Polarity=Neg	22	mod	_	AlignBegin=42441|AlignEnd=42741|Gloss=Neg3
+21	káɗâ	káɗâ	PART	_	PartType=Neg|Polarity=Neg	22	mod	_	AlignBegin=42441|AlignEnd=42741|Gloss=Neg3
 22	àː	[L]	AUX	_	Mood=Sub|Number=Sing|Person=2	13	comp:obj	_	AlignBegin=42741|AlignEnd=43040|Gloss=2Plur.Sub
 23	fì	fi	VERB	_	_	22	comp:aux	_	AlignBegin=43200|AlignEnd=43317|Gloss=do
 24	ngə́tn	ngə́tn	NOUN	_	_	23	comp:obj	_	AlignBegin=43317|AlignEnd=43434|Gloss=thing
@@ -254,7 +254,7 @@
 27	tsəní	tsəní	PRON	_	_	26	comp:obj	_	AlignBegin=43668|AlignEnd=43785|Gloss=this
 28	hŋ́	hŋ́	PART	_	PartType=Neg|Polarity=Neg	23	mod	_	AlignBegin=43785|AlignEnd=43902|Gloss=Neg2
 29	//=	//=	PUNCT	_	_	32	punct	_	AlignBegin=43902|AlignEnd=44020|Gloss=PUNCT
-30	káɗâ	káɗâ	ADV	_	Polarity=Neg	32	mod	_	AlignBegin=44560|AlignEnd=44737|Gloss=Neg3
+30	káɗâ	káɗâ	PART	_	PartType=Neg|Polarity=Neg	32	mod	_	AlignBegin=44560|AlignEnd=44737|Gloss=Neg3
 31	gón	gón	PRON	_	Definite=Spec|ExtPos=PRON	32	subj	_	AlignBegin=44737|AlignEnd=44914|Gloss=Spec
 32	tə̀	[L]	AUX	_	Mood=Sub|Number=Sing|Person=3	22	parataxis@conj	_	AlignBegin=44914|AlignEnd=45091|Gloss=3Sing.Sub
 33	díːmi	díːm	VERB	_	_	32	comp:aux	_	AlignBegin=45091|AlignEnd=45268|Gloss=jump
@@ -1168,7 +1168,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_BURIAL.WAV
 # sent_timecode = 163474, 165167
-# text = ŋaː gə̀t < tá gìːʃí ɓə́ɮə̀ŋ > káp =wâːsə̀ŋ //
+# text = ŋaː gə̀t < tá gìːʃí ɓə́ɮə̀ŋ > káp wâːsə̀ŋ //
 # text_ortho = ŋaː gə̀t < tá gìːʃí ɓə́ɮə̀ŋ > kápwâːsə̀ŋ //
 # text_en = Girls, they would bury them outside, all of them.
 1	ŋaː	ŋaː	NOUN	_	_	4	dislocated@comp	_	AlignBegin=163474|AlignEnd=163617|Gloss=child
@@ -1179,9 +1179,10 @@
 5	gìː	giː	VERB	_	_	4	comp:aux	_	AlignBegin=164066|AlignEnd=164148|Gloss=bury
 6	ʃí	ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=164148|AlignEnd=164230|Gloss=3Plur.Obj|wordform==ʃí
 7	ɓə́ɮə̀ŋ	ɓə́ɮə̀	ADV	_	_	5	mod	_	AlignBegin=164230|AlignEnd=164394|Gloss=outside
-8	>	>	PUNCT	_	_	9	punct	_	AlignBegin=164394|AlignEnd=164556|Gloss=PUNCT
-9	kápwâːsə̀ŋ	káp	DET	_	ExtPos=NOUN|Poss=Yes|PronType=Tot	4	dislocated@comp	_	AlignBegin=164556|AlignEnd=164709|Gloss=all.3PlurGen|wordform=káp
-10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=164862|AlignEnd=165167|Gloss=PUNCT
+8	>	>	PUNCT	_	_	10	punct	_	AlignBegin=164394|AlignEnd=164556|Gloss=PUNCT
+9	káp	káp	DET	_	_	10	det	_	AlignBegin=164556|AlignEnd=164709|Gloss=all
+10	wâːsə̀ŋ	wâːsə̀ŋ	PRON	_	_	4	dislocated@comp	_	AlignBegin=164556|AlignEnd=164709|Gloss=3Plur.Gen|wordform=káp
+11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=164862|AlignEnd=165167|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_125-128
 # speaker_id = SP1
