@@ -3394,8 +3394,8 @@
 # text_ortho = ʃèː su gwaːri káwây !//
 # text_en = Just throw away the spear!
 1	ʃèː	ʃèː	X	_	_	2	unk	_	AlignBegin=440907|AlignEnd=441077|Gloss=X
-2	su	su	VERB	_	Definite=Ind	0	root	_	AlignBegin=441077|AlignEnd=441247|Gloss=throw_away.Imp
-3	gwaːri	gwaːri	VERB	_	Definite=Ind	2	comp:obj	_	AlignBegin=441077|AlignEnd=441247|Gloss=throw_away.Imp|wordform=su
+2	su	su	VERB	_	_	0	root	_	AlignBegin=441077|AlignEnd=441247|Gloss=(re)turn
+3	gwaːri	gwaːri	NOUN	_	Definite=Ind	2	comp:obj	_	AlignBegin=441077|AlignEnd=441247|Gloss=spear.Ind
 4	káwây	káwây	ADV	_	_	2	mod	_	AlignBegin=441417|AlignEnd=441587|Gloss=merely
 5	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=441587|AlignEnd=441755|Gloss=PUNCT
 
@@ -4337,7 +4337,7 @@
 2	ɣən	kən	AUX	_	_	0	root	_	AlignBegin=548262|AlignEnd=548371|Gloss=Identif
 3	>+	>+	PUNCT	_	_	4	punct	_	AlignBegin=548371|AlignEnd=548480|Gloss=PUNCT
 4	tə́	tə́	ADP	_	_	2	comp:cleft	_	AlignBegin=548480|AlignEnd=548589|Gloss=with
-5	saɣátkə̂níː	sakát	VERB	_	Definite=Def|ExtPos=NOUN|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=548589|AlignEnd=548698|Gloss=cleverness.ACH|Resultative=Yes|wordform=saɣáɗ
+5	saɣátkə̂níː	sakát	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=548589|AlignEnd=548698|Gloss=cleverness.ACH|Resultative=Yes|wordform=saɣáɗ
 6	ɣən	kən	PART	_	PartType=Foc	5	discourse@foc	_	AlignBegin=548698|AlignEnd=548807|Gloss=be
 7	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=548807|AlignEnd=548918|Gloss=PUNCT
 
@@ -5493,16 +5493,17 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 713578, 715735
-# text = yâːn yáːʃi á dàp naː -íː ʧiɣə́y pə́prîn -íː //
+# text = yâːn yáːʃi á dàp nǎːy ʧiɣə́y pə́prîníː //
 # text_ortho = yâːn yáːʃi á dàp náːy ʧikə́y pə́prîníː //
 # text_en = Him, his foot became like that spread out flat.
-1	yâːnyáːʃi	yáːni	PRON	_	Definite=Ind|Number=Sing|Person=3|PronType=Prs	2	dislocated@top	_	AlignBegin=713578|AlignEnd=713848|Gloss=3Sing|wordform=yâːn
-2	á	ø	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=714118|AlignEnd=714388|Gloss=3Sing.Aor
-3	dàp	dap	VERB	_	_	2	comp:aux	_	AlignBegin=714388|AlignEnd=714658|Gloss=follow
-4	nǎːy	naː	VERB	_	_	3	compound:svc	_	AlignBegin=714658|AlignEnd=714928|Gloss=become.ACH|Resultative=Yes|wordform=naː
-5	ʧiɣə́y	ʧík	ADV	_	_	4	mod	_	AlignBegin=714928|AlignEnd=715197|Gloss=thus
-6	pə́prîníː	pə́prîn	NOUN	_	Deixis=Rmt	4	comp:pred	_	AlignBegin=715197|AlignEnd=715466|Gloss=flat.PRM|PrevRef=Yes|wordform=pə́prîn
-7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=715466|AlignEnd=715735|Gloss=PUNCT
+1	yâːn	yâːn	PRON	_	Definite=Ind|Number=Sing|Person=3|PronType=Prs	3	dislocated@top	_	AlignBegin=713578|AlignEnd=713848|Gloss=3Sing
+2	yáːʃi	yáːsəŋ	NOUN	_	Definite=Ind	3	subj	_	AlignBegin=713578|AlignEnd=713848|Gloss=foot.Ind
+3	á	ø	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=714118|AlignEnd=714388|Gloss=3Sing.Aor
+4	dàp	dap	VERB	_	_	3	comp:aux	_	AlignBegin=714388|AlignEnd=714658|Gloss=follow
+5	nǎːy	naː	VERB	_	_	4	compound:svc	_	AlignBegin=714658|AlignEnd=714928|Gloss=become.ACH|Resultative=Yes|wordform=naː
+6	ʧiɣə́y	ʧík	ADV	_	_	5	mod	_	AlignBegin=714928|AlignEnd=715197|Gloss=thus
+7	pə́prîníː	pə́prîn	NOUN	_	Deixis=Rmt	5	comp:pred	_	AlignBegin=715197|AlignEnd=715466|Gloss=flat.PRM|PrevRef=Yes|wordform=pə́prîn
+8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=715466|AlignEnd=715735|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_563-566
 # speaker_id = SP1

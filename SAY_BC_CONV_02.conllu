@@ -3001,7 +3001,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 419600, 423845
-# text = myǎː sûmí gíːɗi < mə́ mán tûːr náɣat //= mə́ ʧǐː //= mə́ fûːtáy nʤwâːtn //= tôː mə́ ndǎy kúʧi //
+# text = myǎː sûmí gíːɗi < mə́ mán tûːr náɣat //= mə́ ʧǐː //= mə́ fuːtáy nʤwâːtn //= tôː mə́ ndǎy kúʧi //
 # text_ortho = myǎː sûmí gíːɗi < mə́ mán tûːr náɣat //= mə́ ʧǐː //= mə́ fûːtáy nʤwâːtn //= tôː mə́ ndǎy kúʧi //
 # text_en = We come back from there, then we cook food we eat, we rest a little, then we go to bed.
 1	myǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	7	mod	_	AlignBegin=419600|AlignEnd=419802|Gloss=1Plur.Imp
@@ -3009,7 +3009,7 @@
 2	sû	su	VERB	_	_	1	comp:aux	_	AlignBegin=419802|AlignEnd=419903|Gloss=return
 3	mí	mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	2	comp:obj@T	_	AlignBegin=419903|AlignEnd=420004|Gloss=1Plur.Obj|wordform==mí
 4-5	gíːɗi	_	_	_	_	_	_	_	_
-4	gíː	gíː	PRON	_	Deixis=Rmt|PronType=Dem	2	comp:obj@S	_	AlignBegin=420004|AlignEnd=420105|Gloss=that
+4	gíː	gíː	PRON	_	Deixis=Rmt|PronType=Dem	2	comp:obj@S	_	AlignBegin=420004|AlignEnd=420105|Gloss=there
 5	ɗi	ɗi	PART	_	PartType=Adv	2	compound:prt	_	AlignBegin=420105|AlignEnd=420206|Gloss=Ctp|wordform==ɗi
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=420206|AlignEnd=420408|Gloss=PUNCT
 7	mə́	ø	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=420408|AlignEnd=420610|Gloss=1Plur.Aor
@@ -3701,33 +3701,34 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 513981, 518739
-# text = àmáː < yâːn mə yír ŋǎː gə̀t ɗan wò tuːrnáɣɗi hŋ́ < myáːnin >+ ma ɬə́ tuːr ngə́tâtn əndá mə́ ʧî //
+# text = àmáː < yâːn mə yír ŋǎː gə̀t ɗan wò tuːr náɣɗi hŋ́ < myáːnin >+ ma ɬə́ tuːr ngə́tâtn əndá mə́ ʧî //
 # text_ortho = àmáː < yâːn mə yír ŋǎː gə̀t ɗan wò tuːr náɣɗi hŋ́ < myáːnin >+ ma ɬə́ tuːr ngə́tâtn əndá mə́ ʧî //
 # text_en = But, if I do not have a young girl who cooks the food, I am the one who will cook myself before I eat.
-1	àmáː	àmáː	CCONJ	_	_	14	discourse	_	AlignBegin=513981|AlignEnd=514144|Gloss=but
+1	àmáː	àmáː	CCONJ	_	_	15	discourse	_	AlignBegin=513981|AlignEnd=514144|Gloss=but
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=514144|AlignEnd=514307|Gloss=PUNCT
-3	yâːn	yâːn	SCONJ	_	_	14	mod	_	AlignBegin=514307|AlignEnd=514492|Gloss=if
+3	yâːn	yâːn	SCONJ	_	_	15	mod	_	AlignBegin=514307|AlignEnd=514492|Gloss=if
 4	mə	ø	AUX	_	Aspect=Aor|Number=Sing|Person=1	3	comp:obj	_	AlignBegin=514492|AlignEnd=514677|Gloss=1Sing.Aor
 5	yír	yír	VERB	_	_	4	comp:aux	_	AlignBegin=514677|AlignEnd=514862|Gloss=have
 6	ŋǎː	ŋaː	NOUN	_	Definite=Cons	5	comp:obj	_	AlignBegin=514862|AlignEnd=515047|Gloss=child
 7	gə̀t	gə̀t	NOUN	_	_	6	compound	_	AlignBegin=515047|AlignEnd=515232|Gloss=woman
 8	ɗan	ɗan	SCONJ	_	_	6	mod@relcl	_	AlignBegin=515232|AlignEnd=515417|Gloss=REL
 9	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	8	comp:obj	_	AlignBegin=515417|AlignEnd=515602|Gloss=3Sing.Fut
-10	tuːrnáɣɗi	tuːr	VERB	_	Definite=Ind	9	comp:aux	_	AlignBegin=515602|AlignEnd=515787|Gloss=cook|wordform=tuːr
-11	hŋ́	hŋ́	PART	_	PartType=Neg|Polarity=Neg	5	mod	_	AlignBegin=515972|AlignEnd=516157|Gloss=Neg
-12	<	<	PUNCT	_	_	3	punct	_	AlignBegin=516157|AlignEnd=516344|Gloss=PUNCT
-13-14	myáːnin	_	_	_	_	_	_	_	_
-13	myáːni	myáːni	PRON	_	Number=Sing|Person=1|PronType=Prs	14	comp:pred	_	AlignBegin=516344|AlignEnd=516435|Gloss=1Sing
-14	ɣən	kən	AUX	_	_	0	root	_	AlignBegin=516435|AlignEnd=516526|Gloss=Identif
-15	>+	>+	PUNCT	_	_	16	punct	_	AlignBegin=516526|AlignEnd=516708|Gloss=PUNCT
-16	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	14	comp:cleft	_	AlignBegin=516708|AlignEnd=516890|Gloss=1Sing.Fut
-17	ɬə́	ɬə	VERB	_	_	16	comp:aux	_	AlignBegin=516890|AlignEnd=517072|Gloss=go
-18	tuːr	tuːr	VERB	_	_	17	compound:svc	_	AlignBegin=517072|AlignEnd=517254|Gloss=cook
-19	ngə́tâtn	ngətn	NOUN	_	_	18	comp:obj	_	AlignBegin=517254|AlignEnd=517345|Gloss=thing.1SingGen
-20	əndá	kəndá	SCONJ	_	_	21	mod	_	AlignBegin=518054|AlignEnd=518225|Gloss=then
-21	mə́	ø	AUX	_	Aspect=Aor|Number=Plur|Person=1	18	conj:coord	_	AlignBegin=518225|AlignEnd=518396|Gloss=1Plur.Aor
-22	ʧî	ʧi	VERB	_	_	21	comp:aux	_	AlignBegin=518396|AlignEnd=518567|Gloss=eat
-23	//	//	PUNCT	_	_	14	punct	_	AlignBegin=518567|AlignEnd=518739|Gloss=PUNCT
+10	tuːr	tuːr	VERB	_	_	9	comp:aux	_	AlignBegin=515602|AlignEnd=515787|Gloss=cook
+11	náɣɗi	náɣat	VERB	_	Definite=Ind	10	comp:obj	_	AlignBegin=515602|AlignEnd=515787|Gloss=food.Ind
+12	hŋ́	hŋ́	PART	_	PartType=Neg|Polarity=Neg	5	mod	_	AlignBegin=515972|AlignEnd=516157|Gloss=Neg
+13	<	<	PUNCT	_	_	3	punct	_	AlignBegin=516157|AlignEnd=516344|Gloss=PUNCT
+14-15	myáːnin	_	_	_	_	_	_	_	_
+14	myáːni	myáːni	PRON	_	Number=Sing|Person=1|PronType=Prs	15	comp:pred	_	AlignBegin=516344|AlignEnd=516435|Gloss=1Sing
+15	ɣən	kən	AUX	_	_	0	root	_	AlignBegin=516435|AlignEnd=516526|Gloss=Identif
+16	>+	>+	PUNCT	_	_	17	punct	_	AlignBegin=516526|AlignEnd=516708|Gloss=PUNCT
+17	ma	a	AUX	_	Number=Sing|Person=1|Tense=Fut	15	comp:cleft	_	AlignBegin=516708|AlignEnd=516890|Gloss=1Sing.Fut
+18	ɬə́	ɬə	VERB	_	_	17	comp:aux	_	AlignBegin=516890|AlignEnd=517072|Gloss=go
+19	tuːr	tuːr	VERB	_	_	18	compound:svc	_	AlignBegin=517072|AlignEnd=517254|Gloss=cook
+20	ngə́tâtn	ngətn	NOUN	_	_	19	comp:obj	_	AlignBegin=517254|AlignEnd=517345|Gloss=thing.1SingGen
+21	əndá	kəndá	SCONJ	_	_	22	mod	_	AlignBegin=518054|AlignEnd=518225|Gloss=then
+22	mə́	ø	AUX	_	Aspect=Aor|Number=Plur|Person=1	19	conj:coord	_	AlignBegin=518225|AlignEnd=518396|Gloss=1Plur.Aor
+23	ʧî	ʧi	VERB	_	_	22	comp:aux	_	AlignBegin=518396|AlignEnd=518567|Gloss=eat
+24	//	//	PUNCT	_	_	15	punct	_	AlignBegin=518567|AlignEnd=518739|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_411-411
 # speaker_id = SP1
