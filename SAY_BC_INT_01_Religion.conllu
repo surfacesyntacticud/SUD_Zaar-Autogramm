@@ -1835,16 +1835,16 @@
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=321694|AlignEnd=321980|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_01_Religion_199-199
+# text = gíː gòs séː ín &//
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_01_RELIGION.WAV
 # sent_timecode = 322180, 323037
-# text = gíː gòs séː ín &//
 # text_ortho = gíː gòs séː ín &//
-# text_en = For those, you...
+# text_en = That's until you...
 1	gíː	gíː	PRON	_	Deixis=Rmt|PronType=Dem	3	dislocated@top	_	AlignBegin=322180|AlignEnd=322351|Gloss=Rmt
 2	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	comp:obl@top	_	AlignBegin=322351|AlignEnd=322522|Gloss=3SingGen
-3	séː	séː	ADV	_	ExtPos=SCONJ	0	root@scrap	_	AlignBegin=322522|AlignEnd=322693|Gloss=must|Idiom=Yes
-4	ín	ín	SCONJ	_	_	3	unk	_	AlignBegin=322693|AlignEnd=322864|Gloss=if|InIdiom=Yes
+3	séː	séː	SCONJ	_	_	0	root	_	AlignBegin=322522|AlignEnd=322693|Gloss=must
+4	ín	ín	SCONJ	_	_	3	comp:obj	_	AlignBegin=322693|AlignEnd=322864|Gloss=if
 5	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=322864|AlignEnd=323037|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_01_Religion_200-200
@@ -1867,17 +1867,17 @@
 # text = m̀ː gíː gòs séː ín ʧàːyi yêlkíː ɣáy //
 # text_ortho = m̀ː gíː gòs séː ín ʧàːyi yêlkíː ɣáy //
 # text_en = Er... for this, they must see you doing it.
-1	m̀ː	m̀ː	INTJ	_	_	6	discourse@filler	_	AlignBegin=323860|AlignEnd=324036|Gloss=FILL
-2	gíː	gíː	PRON	_	Deixis=Rmt|PronType=Dem	6	dislocated@top	_	AlignBegin=324036|AlignEnd=324212|Gloss=Rmt
+1	m̀ː	m̀ː	INTJ	_	_	4	discourse	_	AlignBegin=323860|AlignEnd=324036|Gloss=FILL
+2	gíː	gíː	PRON	_	Deixis=Rmt|PronType=Dem	4	dislocated@top	_	AlignBegin=324036|AlignEnd=324212|Gloss=Rmt
 3	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	comp:obl@top	_	AlignBegin=324212|AlignEnd=324388|Gloss=3SingGen
-4	séː	séː	ADV	_	ExtPos=ADV	6	mod	_	AlignBegin=324388|AlignEnd=324564|Gloss=must|Idiom=Yes
-5	ín	ín	SCONJ	_	_	4	unk	_	AlignBegin=324564|AlignEnd=324740|Gloss=if|InIdiom=Yes
-6	ʧàːyi	yáːyiː	AUX	_	Aspect=ImpIter|Number=Plur|Person=3	0	root	_	AlignBegin=324740|AlignEnd=324916|Gloss=3Plur.Imp.Iter
+4	séː	séː	SCONJ	_	_	0	root	_	AlignBegin=324388|AlignEnd=324564|Gloss=must
+5	ín	ín	SCONJ	_	_	4	comp:obj	_	AlignBegin=324564|AlignEnd=324740|Gloss=if
+6	ʧàːyi	yáːyiː	AUX	_	Aspect=ImpIter|Number=Plur|Person=3	5	comp:obj	_	AlignBegin=324740|AlignEnd=324916|Gloss=3Plur.Imp.Iter
 7-8	yêlkíː	_	_	_	_	_	_	_	_
 7	yêl	yel	VERB	_	_	6	comp:aux	_	AlignBegin=324916|AlignEnd=325092|Gloss=see|wordform=*yêl-íː
 8	kíː	kə	PRON	_	Case=Acc|Deixis=Rmt|Number=Sing|Person=2|PronType=Prs	7	comp:obj	_	AlignBegin=324975|AlignEnd=325034|Gloss=2Sing.Obj.Rmt|wordform==kə
 9	ɣáy	káy	PRON	_	Case=Loc|Number=Sing|Person=3|PronType=Prs	7	comp:obl@expl	_	AlignBegin=325092|AlignEnd=325268|Gloss=Anaph.Loc.3Sing
-10	//	//	PUNCT	_	_	6	punct	_	AlignBegin=325268|AlignEnd=325440|Gloss=PUNCT
+10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=325268|AlignEnd=325440|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_01_Religion_202-202
 # speaker_id = SP2

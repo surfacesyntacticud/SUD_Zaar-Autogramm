@@ -2135,17 +2135,17 @@
 # sent_timecode = 243840, 246216
 # text_ortho = kúmá dóːlêː séː yǎː kâpmíwôpíː bátwôpm tə́ dàːʃès //
 # text_en = And they must marry us, all of us, with that man.
-1	kúmá	kúmá	PART	_	PartType=Disc	4	discourse	_	AlignBegin=243840|AlignEnd=244103|Gloss=also
-2	dóːlêː	dóːlêː	ADV	_	ExtPos=ADV	4	mod	_	AlignBegin=244103|AlignEnd=244366|Gloss=necessary|Idiom=Yes
-3	séː	séː	ADV	_	_	2	unk	_	AlignBegin=244366|AlignEnd=244672|Gloss=only|InIdiom=Yes
-4	yǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=244672|AlignEnd=244978|Gloss=3Plur.Imp
+1	kúmá	kúmá	PART	_	PartType=Disc	3	discourse	_	AlignBegin=243840|AlignEnd=244103|Gloss=also
+2	dóːlêː	dóːlêː	ADV	_	_	3	mod	_	AlignBegin=244103|AlignEnd=244366|Gloss=necessary
+3	séː	séː	SCONJ	_	_	0	root	_	AlignBegin=244366|AlignEnd=244672|Gloss=only
+4	yǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	3	comp:obj	_	AlignBegin=244672|AlignEnd=244978|Gloss=3Plur.Imp
 5	kap	kap	VERB	_	_	4	comp:aux	_	AlignBegin=244978|AlignEnd=245054|Gloss=take|wordform=*kap-íː
 6	mí	mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	comp:obj	_	AlignBegin=245054|AlignEnd=245130|Gloss=1Plur.Obj|wordform==mí
 7	wôpíː	wôpíː	PRON	_	Case=Gen|Deixis=Rmt|Number=Plur|Person=1|PronType=Prs	5	comp:obl@top	_	AlignBegin=245054|AlignEnd=245130|Gloss=1PlurGen.Rmt|wordform==mí
 8	bátwôpm	bét	PRON	_	Case=Gen|Number=Plur|Person=1	5	mod	_	AlignBegin=245284|AlignEnd=245400|Gloss=all.1PlurGen|wordform=bát
 9	tə́	tə́	ADP	_	_	5	comp:obl	_	AlignBegin=245517|AlignEnd=245750|Gloss=with
 10	dàːʃès	daː	NOUN	_	Definite=Def	9	comp:obj	_	AlignBegin=245750|AlignEnd=245866|Gloss=man.Def
-11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=245983|AlignEnd=246216|Gloss=PUNCT
+11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=245983|AlignEnd=246216|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_254-254
 # speaker_id = SP1
@@ -2164,10 +2164,10 @@
 # text = kúmá dóːlêː séː myàː ɬíː Pànʃín myàː ɬə́ mbûɗíː tə̀ ʒàk íyâːyíwàːsə̀ŋ dón ɗa á ɬə̂ weekend àː ɬə́ wulʃí tu &//
 # text_ortho = kúmá dóːlêː séː myàː ɬíː Pànʃín myàː ɬə́ mbûɗíː tə̀ ʒàk íyâːyíwáːsə̀ŋ dòn ɗǎː ɬə̂ weekend < àː ɬə́ wulʃí tu &//
 # text_en = And perforce we must go to Pankshin to spend the night for him to introduce me to their parents because as he went for the week-end, he went to tell them...
-1	kúmá	kúmá	PART	_	PartType=Disc	4	discourse	_	AlignBegin=246726|AlignEnd=247020|Gloss=also
-2	dóːlêː	dóːlêː	ADV	_	ExtPos=ADV	4	mod	_	AlignBegin=247020|AlignEnd=247314|Gloss=necessary|Idiom=Yes
-3	séː	séː	ADV	_	_	2	unk	_	AlignBegin=247314|AlignEnd=247570|Gloss=only|InIdiom=Yes
-4	myàː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	0	root@scrap	_	AlignBegin=247570|AlignEnd=247826|Gloss=1Plur.Imp
+1	kúmá	kúmá	PART	_	PartType=Disc	3	discourse	_	AlignBegin=246726|AlignEnd=247020|Gloss=also
+2	dóːlêː	dóːlêː	ADV	_	_	3	mod	_	AlignBegin=247020|AlignEnd=247314|Gloss=necessary
+3	séː	séː	SCONJ	_	_	0	root	_	AlignBegin=247314|AlignEnd=247570|Gloss=until
+4	myàː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	3	comp:obj	_	AlignBegin=247570|AlignEnd=247826|Gloss=1Plur.Imp
 5	ɬíː	ɬə	VERB	_	Deixis=Rmt	4	comp:aux	_	AlignBegin=247826|AlignEnd=247954|Gloss=go.Rmt
 6	Pànʃín	Pànʃín	PROPN	_	_	5	comp:obj@G	_	AlignBegin=248082|AlignEnd=248336|Gloss=Pankshin
 7	myàː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	4	parataxis@conj	_	AlignBegin=248336|AlignEnd=248598|Gloss=1Plur.Imp
@@ -2187,7 +2187,7 @@
 20	wul	wul	VERB	_	_	19	compound:svc	_	AlignBegin=252559|AlignEnd=252619|Gloss=say
 21	ʃí	ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	20	comp:obj@R	_	AlignBegin=252619|AlignEnd=252679|Gloss=3Plur.Obj|wordform==ʃí
 22	tu	tu	SCONJ	_	_	20	comp:obj@T	_	AlignBegin=252679|AlignEnd=252799|Gloss=Qot
-23	&//	&//	PUNCT	_	_	4	punct	_	AlignBegin=252799|AlignEnd=252919|Gloss=PUNCT
+23	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=252799|AlignEnd=252919|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_260-260
 # speaker_id = SP2
@@ -2281,9 +2281,9 @@
 1	á	ø	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=260416|AlignEnd=260524|Gloss=3Sing.Aor
 2	wûl	wul	VERB	_	_	1	comp:aux	_	AlignBegin=260524|AlignEnd=260632|Gloss=say
 3	tu	tu	SCONJ	_	_	2	comp:obj	_	AlignBegin=260632|AlignEnd=260740|Gloss=Qot
-4	dóːlêː	dóːlêː	ADV	_	ExtPos=ADV	6	mod	_	AlignBegin=260740|AlignEnd=260935|Gloss=necessary|Idiom=Yes
-5	séː	séː	ADV	_	_	4	unk	_	AlignBegin=260935|AlignEnd=261130|Gloss=only|InIdiom=Yes
-6	myàː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=1	3	comp:obj	_	AlignBegin=261130|AlignEnd=261325|Gloss=1Plur.Cnd
+4	dóːlêː	dóːlêː	ADV	_	_	5	mod	_	AlignBegin=260740|AlignEnd=260935|Gloss=necessary
+5	séː	séː	SCONJ	_	_	3	comp:obj	_	AlignBegin=260935|AlignEnd=261130|Gloss=until
+6	myàː	yáː	AUX	_	Mood=Cnd|Number=Plur|Person=1	5	comp:obj	_	AlignBegin=261130|AlignEnd=261325|Gloss=1Plur.Cnd
 7	ɬə́	ɬə	VERB	_	_	6	comp:aux	_	AlignBegin=261325|AlignEnd=261520|Gloss=go
 8	nə́	nə́	ADP	_	_	7	comp:obl	_	AlignBegin=261520|AlignEnd=261713|Gloss=for
 9	Púsduŋ	Púsduŋ	PROPN	_	_	8	comp:obj	_	AlignBegin=261713|AlignEnd=261927|Gloss=Pusdung

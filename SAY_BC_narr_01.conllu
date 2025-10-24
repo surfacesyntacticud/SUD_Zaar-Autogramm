@@ -4780,23 +4780,23 @@
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=601615|AlignEnd=601760|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_477-477
+# text = lə́ɓi àː mán yúɣn séː ɗan tə́ ngâp dàtə̂pm lâːr //
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 601995, 604099
-# text = lə́ɓi àː mán yúɣn séː ɗan tə́ ngâp dàtə̂pm lâːr //
 # text_ortho = lə́ɓi àː mán yúɣn séː ɗan tə́ ngâp dàtə̂pm lâːr //
-# text_en = The place was full then [the women] took the road to the river.
+# text_en = The place was full until [the women] took the road to the river.
 1	lə́ɓi	lə̂p	NOUN	_	Definite=Ind	2	subj	_	AlignBegin=601995|AlignEnd=602186|Gloss=place|wordform=lə̂p
-2	àː	áː	AUX	_	Aspect=Perf|Number=Sing|Person=3	7	mod	_	AlignBegin=602186|AlignEnd=602377|Gloss=3Sing.Perf
+2	àː	áː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=602186|AlignEnd=602377|Gloss=3Sing.Perf
 3	mán	man	VERB	_	_	2	comp:aux	_	AlignBegin=602377|AlignEnd=602568|Gloss=come|SVC=Yes
 4	yúɣn	yúɣn	VERB	_	_	3	compound:svc	_	AlignBegin=602568|AlignEnd=602759|Gloss=INTJ
-5	séː	séː	ADV	_	ExtPos=ADV	7	mod	_	AlignBegin=602759|AlignEnd=602950|Gloss=then|Idiom=Yes
-6	ɗan	ɗan	ADV	_	_	5	unk	_	AlignBegin=602950|AlignEnd=603141|Gloss=then|InIdiom=Yes
-7	tə́	ø	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=603141|AlignEnd=603332|Gloss=3Plur.Aor
+5	séː	séː	SCONJ	_	_	2	mod	_	AlignBegin=602759|AlignEnd=602950|Gloss=until
+6	ɗan	ɗan	SCONJ	_	_	5	comp:obj	_	AlignBegin=602950|AlignEnd=603141|Gloss=when
+7	tə́	ø	AUX	_	Aspect=Aor|Number=Plur|Person=3	6	comp:obj	_	AlignBegin=603141|AlignEnd=603332|Gloss=3Plur.Aor
 8	ngâp	ngap	VERB	_	_	7	comp:aux	_	AlignBegin=603332|AlignEnd=603523|Gloss=hold
 9	dàtə̂pm	dàtə̂pm	NOUN	_	_	8	comp:obj	_	AlignBegin=603523|AlignEnd=603714|Gloss=way
 10	lâːr	lâːr	NOUN	_	_	9	mod	_	AlignBegin=603714|AlignEnd=603905|Gloss=river
-11	//	//	PUNCT	_	_	7	punct	_	AlignBegin=603905|AlignEnd=604099|Gloss=PUNCT
+11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=603905|AlignEnd=604099|Gloss=PUNCT
 
 # sent_id = SAY_BC_narr_01_478-478
 # speaker_id = SP1
@@ -5706,15 +5706,15 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_NARR_01.WAV
 # sent_timecode = 740113, 745433
-# text = tôː |c dúk tə́ gíː |c in kyáː láːp də̌ːr |c yáː kíríː < kyáː láːptə máː < kyáː ʧí sâːwòs < ka ɬə́n bwaːptíː //
+# text = tôː < dúk tə́ gíː < in kyáː láːp də̌ːr |c yáː kíríː |c kyáː láːptə máː |c kyáː ʧí sâːwòs < ka ɬə́n bwaːptíː //
 # text_ortho = tôː < dúk tə́ gíː < in kyáː láːp də̌ːr < yáː kíríː < kyáː láːptə máː < kyáː ʧí sâːwòs < ka ɬə́n bwaːptíː //
 # text_en = Well, because of this, if you follow Monitor when he is running, if you follow him and you are lucky, you will be able to kill him.
 1	tôː	tòː	PART	_	PartType=Disc	24	discourse	_	AlignBegin=740113|AlignEnd=740260|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=740260|AlignEnd=740407|Gloss=PUNCT
-3	dúk	dúk	ADV	_	ExtPos=ADV	24	mod	_	AlignBegin=740407|AlignEnd=740548|Gloss=all|Idiom=Yes|Lang=ha
-4	tə́	tə́	ADP	_	_	3	unk	_	AlignBegin=740548|AlignEnd=740689|Gloss=with|InIdiom=Yes
-5	gíː	gíː	PRON	_	Deixis=Rmt|PronType=Dem	4	unk	_	AlignBegin=740689|AlignEnd=740830|Gloss=Rmt|InIdiom=Yes
-6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=740830|AlignEnd=740972|Gloss=PUNCT
+3	dúk	dúk	ADV	_	_	4	mod	_	AlignBegin=740407|AlignEnd=740548|Gloss=all|Lang=ha
+4	tə́	tə́	ADP	_	_	24	mod	_	AlignBegin=740548|AlignEnd=740689|Gloss=with
+5	gíː	gíː	PRON	_	Deixis=Rmt|PronType=Dem	4	unk	_	AlignBegin=740689|AlignEnd=740830|Gloss=Rmt
+6	<	<	PUNCT	_	_	4	punct	_	AlignBegin=740830|AlignEnd=740972|Gloss=PUNCT
 7	in	in	SCONJ	_	_	24	mod	_	AlignBegin=740972|AlignEnd=741179|Gloss=if
 8	kyáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=2	7	comp:obj	_	AlignBegin=741179|AlignEnd=741386|Gloss=2Sing.Cnd
 9	láːp	láːp	VERB	_	_	8	comp:aux	_	AlignBegin=741386|AlignEnd=741593|Gloss=follow
