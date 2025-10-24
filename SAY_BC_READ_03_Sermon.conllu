@@ -1104,7 +1104,7 @@
 # text = yeli yáːwón gyaːgón ʧǎː mbîː kutuŋ dzàŋ ɗə́ːlɣə́n vìː Tʃóknvònès ɗaɣástə́ɗi fupm-fúpm //
 # text_ortho = yeli yáːwón gyaːgón ʧǎː mbîː kutuŋ dzàŋ ɗə́ːlɣə́n vìː Tʃóknvònès ɗaɣástə́ɗi fupmfúpm //
 # text_en = See, today some think that God's Judgement is still far.
-1	yeli	yeli	VERB	_	_	4	parataxis:discourse	_	AlignBegin=339220|AlignEnd=339470|Gloss=see|Imperative=Yes
+1	yeli	yeli	VERB	_	Mood=Imp	4	parataxis:discourse	_	AlignBegin=339220|AlignEnd=339470|Gloss=see
 2	yáːwón	yáːwón	NOUN	_	_	4	mod	_	AlignBegin=340840|AlignEnd=341232|Gloss=today
 3	gyaːgón	gón	PRON	_	Definite=Spec|Number=Plur	4	subj	_	AlignBegin=341232|AlignEnd=341624|Gloss=Spec
 4	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=341624|AlignEnd=342016|Gloss=3Plur.Imp
@@ -1800,7 +1800,7 @@
 # text = ʧet gamaː dzàŋ gíː dzàŋ yáː ɓə̂ːlmíwôpíː wò kətkə ɣá zàːri aː kóː ɣá napti ?//
 # text_ortho = ʧet gamaː dzàŋ gíː dzàŋ yáː ɓə̂ːlmíwôpíː wò kətkə ɣá zàːri aː kóː ɣá napti //
 # text_en = Ask yourself, on that day, the day when he separates us, will he leave you on the right or on the left ?
-1	ʧet	ʧet	VERB	_	_	10	parataxis:discourse	_	AlignBegin=578420|AlignEnd=578640|Gloss=ask|Imperative=Yes
+1	ʧet	ʧet	VERB	_	Mood=Imp	10	parataxis:discourse	_	AlignBegin=578420|AlignEnd=578640|Gloss=ask
 2	gamaː	gamaː	PRON	_	Number=Sing|Person=2|Reflex=Yes	1	comp:obj@R	_	AlignBegin=578640|AlignEnd=578860|Gloss=2Sing.REFL
 3	dzàŋ	dzàŋ	NOUN	_	_	10	mod	_	AlignBegin=580700|AlignEnd=580913|Gloss=day
 4	gíː	gíː	DET	_	Deixis=Rmt|PronType=Dem	3	det	_	AlignBegin=580913|AlignEnd=581126|Gloss=Rmt
@@ -2190,7 +2190,7 @@
 9	nə	nə	PART	_	PartType=Pred	8	mod	_	AlignBegin=693724|AlignEnd=693955|Gloss=DER
 10	mə́ːri	mə̂ːr	NOUN	_	Definite=Ind|Number=Plur	9	compound	_	AlignBegin=693955|AlignEnd=694071|Gloss=stealing-Ind|wordform=mə̂ːr
 11	tòː	tòː	PART	_	PartType=Disc	12	discourse	_	AlignBegin=694900|AlignEnd=695130|Gloss=DM
-12	kəɗíː	kət	VERB	_	Aspect=Res|Deixis=Rmt	0	root	_	AlignBegin=695130|AlignEnd=695245|Gloss=leave.Rmt|Imperative=Yes|wordform=kət
+12	kəɗíː	kət	VERB	_	Aspect=Res|Deixis=Rmt|Mood=Imp	0	root	_	AlignBegin=695130|AlignEnd=695245|Gloss=leave.Rmt|wordform=kət
 13	móɬâk	móɬâk	ADV	_	_	12	mod	_	AlignBegin=695360|AlignEnd=695590|Gloss=quickly|Ideo=Yes
 14	//	//	PUNCT	_	_	12	punct	_	AlignBegin=695590|AlignEnd=695820|Gloss=PUNCT
 
@@ -2286,7 +2286,7 @@
 14	gə̀t	gə̀t	NOUN	_	_	13	udep	_	AlignBegin=725286|AlignEnd=725609|Gloss=wife
 15	tə́	tə́	CCONJ	_	_	16	cc	_	AlignBegin=725609|AlignEnd=725932|Gloss=with
 16	tuːri	tuːr	NOUN	_	Definite=Ind	14	conj:coord	_	AlignBegin=725932|AlignEnd=726094|Gloss=husband-Ind|wordform=tu:r
-17	ʧíyǎː	yíyáː	AUX	_	Aspect=Imp|Mood=Ctf|Number=Sing|Person=3	12	comp:obj	_	AlignBegin=728080|AlignEnd=728376|Gloss=3Sing.CTF.Imp
+17	ʧíyǎː	yíyáː	AUX	_	Aspect=Imp|Mood=Irr|Number=Sing|Person=3	12	comp:obj	_	AlignBegin=728080|AlignEnd=728376|Gloss=3Sing.CTF.Imp
 18	wusún	wusún	VERB	_	_	17	comp:aux	_	AlignBegin=728376|AlignEnd=728672|Gloss=be_nice
 19	ɗan	ɗan	SCONJ	_	_	18	mod@relcl	_	AlignBegin=728672|AlignEnd=728968|Gloss=like
 20	dǔːm	dǔːm	NOUN	_	_	19	comp:obj	_	AlignBegin=728968|AlignEnd=729264|Gloss=honey
@@ -2619,11 +2619,11 @@
 33	wul	wul	VERB	_	_	32	comp:aux	_	AlignBegin=843495|AlignEnd=843650|Gloss=say
 34	tu	tu	SCONJ	_	_	33	comp:obj	_	AlignBegin=843650|AlignEnd=843805|Gloss=Qot
 35	mbútn	mbútn	NOUN	_	_	36	subj	_	AlignBegin=844860|AlignEnd=845155|Gloss=somebody
-36	ʧíːta	yíta	AUX	_	Mood=Ctf|Number=Sing|Person=3|Tense=Rem	39	mod	_	AlignBegin=845155|AlignEnd=845450|Gloss=3Sing.Irr.Rem
+36	ʧíːta	yíta	AUX	_	Mood=Irr|Number=Sing|Person=3|Tense=Rem	39	mod	_	AlignBegin=845155|AlignEnd=845450|Gloss=3Sing.Irr.Rem
 37-38	fuːɣə	_	_	_	_	_	_	_	_
 37	fuː	fuː	VERB	_	_	36	comp:aux	_	AlignBegin=845450|AlignEnd=845598|Gloss=tell
 38	ɣə	kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	37	comp:obj@R	_	AlignBegin=845598|AlignEnd=845745|Gloss=2Sing.OBJ|wordform==ɣə
-39	kíːta	yíta	AUX	_	Mood=Ctf|Tense=Rem	34	comp:obj	_	AlignBegin=846920|AlignEnd=847153|Gloss=2Sing.Irr.Rem
+39	kíːta	yíta	AUX	_	Mood=Irr|Tense=Rem	34	comp:obj	_	AlignBegin=846920|AlignEnd=847153|Gloss=2Sing.Irr.Rem
 40	láːp	láːp	NOUN	_	_	39	comp:aux	_	AlignBegin=847153|AlignEnd=847386|Gloss=follow
 41	Yéːsu	Yéːsu	PROPN	_	_	40	comp:obj	_	AlignBegin=847386|AlignEnd=847619|Gloss=Jesus
 42	naː-zaːri	naː-zaːri	ADV	_	_	41	mod	_	AlignBegin=847619|AlignEnd=847852|Gloss=properly
@@ -2635,7 +2635,7 @@
 # text = wumi myáː súː mə̀ fúːɣə tu àː páŋ tsə́tngə́nwàː àː ndə́ːríː kap Yéːsúy àː númtíː ɗaːɣə vwàː tún yáːwón kyâːt //
 # text_ortho = wumi myáː súː mə̀ fúːɣə tu àː páŋ tsə́tngə́nwàː àː ndə́ːríː kap Yéːsúy àː númtíː ɗaːɣə vwàː tún yáːwón kyâːt //
 # text_en = Listen, I want to tell you to look into your life amend, take Jesus keep him in your heart, right from now.
-1	wumi	wum	VERB	_	_	2	parataxis:discourse	_	AlignBegin=849220|AlignEnd=849345|Gloss=hear|Imperative=Yes|wordform=wum
+1	wumi	wum	VERB	_	Mood=Imp	2	parataxis:discourse	_	AlignBegin=849220|AlignEnd=849345|Gloss=hear|wordform=wum
 2	myáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	0	root	_	AlignBegin=850960|AlignEnd=851137|Gloss=1Sing.Imp
 3	súː	súː	VERB	_	_	2	comp:aux	_	AlignBegin=851137|AlignEnd=851314|Gloss=like ; love ; want
 4	mə̀	[L]	AUX	_	Mood=Sub|Number=Sing|Person=1	3	comp:obj	_	AlignBegin=851314|AlignEnd=851491|Gloss=1Sing.Sub
