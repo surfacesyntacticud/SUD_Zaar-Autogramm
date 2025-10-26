@@ -1284,8 +1284,8 @@
 10	mə̀	[L]	AUX	_	Mood=Sub|Number=Plur|Person=1	7	mod	_	AlignBegin=172484|AlignEnd=172695|Gloss=1Plur.Sub
 11	wùm	wum	VERB	_	_	10	comp:aux	_	AlignBegin=172695|AlignEnd=172906|Gloss=feel
 12	ngə́r	ngə́tn	NOUN	_	_	11	comp:obj	_	AlignBegin=173120|AlignEnd=173349|Gloss=thing
-13	wéy	wéy	ADV	_	Mood=Qot	14	mod	_	AlignBegin=173349|AlignEnd=173578|Gloss=Qot
-14	ɗan	ɗan	SCONJ	_	_	12	mod@relcl	_	AlignBegin=173578|AlignEnd=173807|Gloss=REL
+13	wéy	wéy	SCONJ	_	Mood=Qot	12	mod@relcl	_	AlignBegin=173349|AlignEnd=173578|Gloss=Qot
+14	ɗan	ɗan	SCONJ	_	_	13	comp:obj	_	AlignBegin=173578|AlignEnd=173807|Gloss=REL
 15	ʧi	yi	AUX	_	Number=Sing|Person=3	14	comp:obj	_	AlignEnd=174731|Gloss=3Sing.be|wordform=yi
 16	káwêy	káwêy	ADV	_	_	15	mod	_	AlignBegin=174731|AlignEnd=174993|Gloss=merely
 17	ɣá	ká	ADP	_	_	15	comp:pred	_	AlignBegin=174993|AlignEnd=175255|Gloss=at
@@ -1584,7 +1584,7 @@
 # text = wéy ɓaʃí ʧík bát ɗangəní ?//
 # text_ortho = wéy ɓaʃí ʧík bát ɗangə̂n ?//
 # text_en = Well, as for them, isn't it like that too now?
-1	wéy	wéy	ADV	_	Mood=Qot	4	mod	_	AlignBegin=214698|AlignEnd=214948|Gloss=Qot
+1	wéy	wéy	SCONJ	_	Mood=Qot	4	discourse	_	AlignBegin=214698|AlignEnd=214948|Gloss=Qot
 2-3	ɓaʃí	_	_	_	_	_	_	_	_
 2	ɓas	ɓas	ADP	_	_	4	dislocated@top	_	AlignBegin=214948|AlignEnd=215073|Gloss=of
 3	ʃí	ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=215073|AlignEnd=215198|Gloss=3Plur.Obj|wordform==ʃí
@@ -2173,7 +2173,7 @@
 # sent_timecode = 295329, 295722
 # text_ortho = baːbù //
 # text_en = No way!
-1	baːbù	bâː	AUX	_	Foreign=Yes|Polarity=Neg	0	root	_	AlignBegin=295329|AlignEnd=295525|Gloss=there_is.Neg|Lang=ha
+1	baːbù	bâː	PART	_	PartType=Pred|Polarity=Neg	0	root	_	AlignBegin=295329|AlignEnd=295525|Gloss=there_is.Neg
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=295525|AlignEnd=295722|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_241-241
@@ -3582,8 +3582,8 @@
 # text_ortho = ngə́r wéy ɗan myǎː fî ɣəndí //
 # text_en = That's what we are doing.
 1	ngə́r	ngə́tn	NOUN	_	_	6	comp:pred	_	AlignBegin=497217|AlignEnd=497429|Gloss=thing
-2	wéy	wéy	ADV	_	Mood=Qot	1	mod	_	AlignBegin=497429|AlignEnd=497641|Gloss=Qot
-3	ɗan	ɗan	SCONJ	_	_	1	mod@relcl	_	AlignBegin=497641|AlignEnd=497853|Gloss=REL
+2	wéy	wéy	SCONJ	_	Mood=Qot	1	mod@relcl	_	AlignBegin=497429|AlignEnd=497641|Gloss=Qot
+3	ɗan	ɗan	SCONJ	_	_	2	comp:obj	_	AlignBegin=497641|AlignEnd=497853|Gloss=REL
 4	myǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	3	comp:obj	_	AlignBegin=497853|AlignEnd=498065|Gloss=1Plur.Imp
 5	fî	fi	VERB	_	_	4	comp:aux	_	AlignBegin=498065|AlignEnd=498171|Gloss=do
 6	ɣəndí	kən	AUX	_	_	0	root	_	AlignBegin=498171|AlignEnd=498277|Gloss=be

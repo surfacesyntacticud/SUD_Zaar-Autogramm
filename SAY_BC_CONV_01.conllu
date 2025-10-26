@@ -1508,15 +1508,15 @@
 13	//	//	PUNCT	_	_	6	punct	_	AlignBegin=175791|AlignEnd=175923|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_172-174
-# text = wéy á < éy yâːn tá fîn maːndə tə́ kúɲêtn < bâː dàːmuwa //
+# text = wéy Á~ < éy yâːn tá fîn maːndə tə́ kúɲêtn < bâː dàːmuwa //
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 176496, 179007
 # text_ortho = wéy á < éy yâːn tá fîn maːndə tə́ kúɲêtn < ba damuwa //
 # text_en = I said, well if he fights with my boy, <hau no problem. hau>
-1	wéy	wéy	ADV	_	Mood=Qot	13	mod	_	AlignBegin=176496|AlignEnd=176680|Gloss=Qot
-2	á	á	INTJ	_	_	13	discourse	_	AlignBegin=176680|AlignEnd=176864|Gloss=eh
-3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=176864|AlignEnd=177048|Gloss=PUNCT
+1	wéy	wéy	SCONJ	_	Mood=Qot	13	discourse	_	AlignBegin=176496|AlignEnd=176680|Gloss=Qot
+2	Á~	Állàː	INTJ	_	_	1	comp:obj	_	AlignBegin=176680|AlignEnd=176864|Gloss=God
+3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=176864|AlignEnd=177048|Gloss=PUNCT
 4	éy	éy	INTJ	_	_	13	discourse	_	AlignBegin=177048|AlignEnd=177218|Gloss=indeed
 5	yâːn	yâːn	SCONJ	_	_	13	mod	_	AlignBegin=177218|AlignEnd=177388|Gloss=if
 6	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	5	comp:obj	_	AlignBegin=177388|AlignEnd=177558|Gloss=3Plur.Fut
@@ -1616,7 +1616,7 @@
 # text = wéy yáː nǎː wò ʧetkə //
 # text_ortho = wéy yáː nǎː wò ʧetkə //
 # text_en = He said that if it became (a game) he would ask you.
-1	wéy	wéy	ADV	_	Mood=Qot	4	mod	_	AlignBegin=185007|AlignEnd=185162|Gloss=Qot
+1	wéy	wéy	SCONJ	_	Mood=Qot	4	discourse	_	AlignBegin=185007|AlignEnd=185162|Gloss=Qot
 2	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	4	mod	_	AlignBegin=185162|AlignEnd=185317|Gloss=3Sing.Cnd
 3	nǎː	naː	VERB	_	_	2	comp:aux	_	AlignBegin=185317|AlignEnd=185473|Gloss=become
 4	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=185473|AlignEnd=185621|Gloss=3Sing.Fut
@@ -1646,8 +1646,8 @@
 # text = wéy Állâː tòː ín yâːn nə kúɲêtn ndá tá fî maːndə ʧímtə < bâː dàːmuwa //
 # text_ortho = wéy állâː tòː < ín yâːn nə kúnêtn ndá tá fî maːndə ʧímtə < ba damuwa //
 # text_en = I said in the name of God well, if my boy comes and they fight, <hau no problem hau>.
-1	wéy	wéy	ADV	_	Mood=Qot	2	mod	_	AlignBegin=187235|AlignEnd=187411|Gloss=EVD
-2	Állâː	Állâː	PROPN	_	_	15	discourse	_	AlignBegin=187411|AlignEnd=187587|Gloss=God
+1	wéy	wéy	SCONJ	_	Mood=Qot	15	discourse	_	AlignBegin=187235|AlignEnd=187411|Gloss=EVD
+2	Állâː	Állâː	PROPN	_	_	1	comp:obj	_	AlignBegin=187411|AlignEnd=187587|Gloss=God
 3	tòː	tòː	PART	_	PartType=Foc	15	discourse	_	AlignBegin=187587|AlignEnd=187763|Gloss=well
 4	ín	ín	SCONJ	_	ExtPos=SCONJ	15	mod	_	AlignBegin=187939|AlignEnd=188122|Gloss=if|Idiom=Yes
 5	yâːn	yâːn	SCONJ	_	_	4	unk	_	AlignBegin=188122|AlignEnd=188305|Gloss=if|InIdiom=Yes
@@ -2056,7 +2056,7 @@
 # text = wéy á mǎn nə́ kàràːtu //
 # text_ortho = wéy á mǎn nə́ kàràːtu //
 # text_en = He said he has come for school.
-1	wéy	wéy	ADV	_	Mood=Qot	2	mod	_	AlignBegin=235606|AlignEnd=235815|Gloss=Qot
+1	wéy	wéy	SCONJ	_	Mood=Qot	2	discourse	_	AlignBegin=235606|AlignEnd=235815|Gloss=Qot
 2	á	ø	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=235815|AlignEnd=236024|Gloss=3Sing.Aor
 3	mǎn	mán	VERB	_	_	2	comp:aux	_	AlignBegin=236024|AlignEnd=236233|Gloss=come
 4	nə́	nə́	ADP	_	_	3	mod	_	AlignBegin=236233|AlignEnd=236442|Gloss=for
