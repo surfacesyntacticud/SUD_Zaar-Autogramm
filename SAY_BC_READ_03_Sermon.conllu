@@ -962,7 +962,7 @@
 1	kóː	kóː	ADV	_	_	2	mod	_	AlignBegin=302400|AlignEnd=302632|Gloss=even
 2	láwya	láwya	NOUN	_	_	11	dislocated@top	_	AlignBegin=302632|AlignEnd=302864|Gloss=lawyer
 3	tə́	tə́	ADP	_	_	2	mod	_	AlignBegin=302864|AlignEnd=303096|Gloss=with
-4	gamaʃi	gamaʃi	ADP	_	Number=Sing|Person=3	3	comp:obj	_	AlignBegin=303096|AlignEnd=303328|Gloss=3Sing.REFL
+4	gamaʃi	gamaʃi	PRON	_	Number=Sing|Person=3|Reflex=Yes	3	comp:obj	_	AlignBegin=303096|AlignEnd=303328|Gloss=3Sing.REFL
 5	ʤǎːn	ʤǎːn	ADV	_	_	11	mod	_	AlignBegin=304460|AlignEnd=304703|Gloss=tomorrow
 6	yâːn	yâːn	SCONJ	_	_	11	mod	_	AlignBegin=304703|AlignEnd=304946|Gloss=if
 7	ʧi	yi	AUX	_	Number=Sing|Person=3	6	comp:obj	_	AlignBegin=304946|AlignEnd=305189|Gloss=3Sing.be|wordform=yi
@@ -1710,7 +1710,7 @@
 27-28	ɗaː	_	_	_	_	_	_	_	_
 27	ɗa	ɗa	ADV	_	_	26	mod	_	AlignBegin=546600|AlignEnd=546690|Gloss=again
 28	aː	ŋaː	PART	_	Mood=Irr|PartType=Illoc	9	mod	_	AlignBegin=546690|AlignEnd=546780|Gloss=Irr
-29	koː	koː	CCONJ	_	PartType=Foc	9	discourse	_	AlignBegin=546780|AlignEnd=546960|Gloss=DM
+29	koː	koː	PART	_	PartType=Disc	9	discourse	_	AlignBegin=546780|AlignEnd=546960|Gloss=DM
 30	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=546960|AlignEnd=547140|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_244-250
@@ -2506,10 +2506,10 @@
 1	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=804840|AlignEnd=805000|Gloss=3Plur.Fut
 2	bwaː	bwaː	VERB	_	_	1	comp:aux	_	AlignBegin=805000|AlignEnd=805160|Gloss=choose
 3	gón	gón	PRON	_	Definite=Spec	2	comp:obj	_	AlignBegin=805160|AlignEnd=805320|Gloss=Spec
-4	tə́	ø	AUX	_	Aspect=Aor|Number=Plur|Person=3	1	conj:coord	_	AlignBegin=805320|AlignEnd=805480|Gloss=3Plur.Aor
+4	tə́	ø	AUX	_	Aspect=Aor|Number=Plur|Person=3	1	parataxis@conj	_	AlignBegin=805320|AlignEnd=805480|Gloss=3Plur.Aor
 5	mbǐː	mbi	VERB	_	Deixis=Remt	4	comp:aux	_	AlignBegin=805480|AlignEnd=805560|Gloss=take.Remt|Result=Yes
-6	tə́	tə́	ADP	_	Number=Plur|Person=3	4	conj:coord	_	AlignBegin=806460|AlignEnd=806640|Gloss=3Plur.Aor
-7	kə́t	kat	VERB	_	_	6	comp:obj	_	AlignBegin=806640|AlignEnd=806820|Gloss=leave
+6	tə́	tə́	AUX	_	Aspect=Aor|Number=Plur|Person=3	4	parataxis@conj	_	AlignBegin=806460|AlignEnd=806640|Gloss=3Plur.Aor
+7	kə́t	kat	VERB	_	_	6	comp:aux	_	AlignBegin=806640|AlignEnd=806820|Gloss=leave
 8	nàmbóŋ	nàmbóŋ	NUM	_	_	7	comp:obj	_	AlignBegin=806820|AlignEnd=807000|Gloss=one
 9	ɗa	ɗa	ADP	_	_	7	comp:obl	_	AlignBegin=808100|AlignEnd=808280|Gloss=at
 10	vu:ni	vu:n	NOUN	_	Definite=Ind	9	comp:obj	_	AlignBegin=808280|AlignEnd=808370|Gloss=grinding_stone-Ind|wordform=vu:n
@@ -2544,10 +2544,10 @@
 1	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=816560|AlignEnd=816777|Gloss=3Plur.Fut
 2	bwàː	bwaː	VERB	_	_	1	comp:aux	_	AlignBegin=816777|AlignEnd=816994|Gloss=choose
 3	gón	gón	PRON	_	Definite=Spec	2	comp:obj	_	AlignBegin=816994|AlignEnd=817211|Gloss=Spec
-4	tə́	ø	AUX	_	Aspect=Aor|Number=Plur|Person=3	1	conj:coord	_	AlignBegin=817211|AlignEnd=817428|Gloss=3Plur.Aor
+4	tə́	ø	AUX	_	Aspect=Aor|Number=Plur|Person=3	1	parataxis@conj	_	AlignBegin=817211|AlignEnd=817428|Gloss=3Plur.Aor
 5	mbǐː	mbiː	VERB	_	Deixis=Remt	4	comp:aux	_	AlignBegin=817428|AlignEnd=817536|Gloss=take.Remt|Result=Yes
-6	tə́	á	ADP	_	Number=Plur|Person=3	4	conj:coord	_	AlignBegin=819160|AlignEnd=819405|Gloss=3Plur.Aor
-7	kə́t	kət	VERB	_	_	6	comp:obj	_	AlignBegin=819405|AlignEnd=819650|Gloss=leave
+6	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	4	parataxis@conj	_	AlignBegin=819160|AlignEnd=819405|Gloss=3Plur.Aor
+7	kə́t	kət	VERB	_	_	6	comp:aux	_	AlignBegin=819405|AlignEnd=819650|Gloss=leave
 8	nàmbóɲês	nàmbóŋ	NOUN	_	Definite=Def	7	comp:obj	_	AlignBegin=819650|AlignEnd=819772|Gloss=one.Def|wordform=nàmbóŋ
 9	ɗa	ká	ADP	_	_	7	comp:obl	_	AlignBegin=820960|AlignEnd=821173|Gloss=at
 10	lə́pmbùɗì	lə́pmbùt	NOUN	_	Definite=Ind	9	comp:obj	_	AlignBegin=821173|AlignEnd=821279|Gloss=bed-Ind|wordform=lə́pmbùt
