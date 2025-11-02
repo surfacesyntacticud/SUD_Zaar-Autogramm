@@ -119,7 +119,7 @@
 # text = ʧì tə́ gyaː Sáːní báː ?//
 # text_ortho = ʧì tə́ gyaː Sáːní báː ?//
 # text_en = With... Sani, no?
-1	ʧì	yi	AUX	_	Number=Plur|Person=3	0	root	_	AlignEnd=10800|Gloss=3Plur.be|wordform=yi
+1	ʧì	yi	AUX	_	Number=Plur|Person=3	0	root	_	AlignEnd=10800|Copula=Yes|Gloss=3Plur.be.Loc|wordform=yi
 2	tə́	tə́	ADP	_	_	1	comp:pred	_	AlignBegin=10943|AlignEnd=11148|Gloss=with
 3	gyaː	gyaː	DET	_	Number=Plur	4	det	_	AlignBegin=11148|AlignEnd=11353|Gloss=3Plur
 4	Sáːní	Sáːní	PROPN	_	_	2	comp:obj	_	AlignBegin=11353|AlignEnd=11555|Gloss=Sani
@@ -498,7 +498,7 @@
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=52231|AlignEnd=52549|Gloss=PUNCT
 5	myáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	7	parataxis@discourse	_	AlignBegin=52549|AlignEnd=52732|Gloss=1Sing.Imp
 6	yel	yel	VERB	_	_	5	comp:aux	_	AlignBegin=52732|AlignEnd=52915|Gloss=see
-7	nə	nə	AUX	_	_	0	root	_	AlignBegin=52915|AlignEnd=53098|Gloss=be
+7	nə	nə	AUX	_	_	0	root	_	AlignBegin=52915|AlignEnd=53098|Gloss=be.Ident
 8	lǎː	laː	NOUN	_	Definite=Cons	7	comp:pred	_	AlignBegin=53098|AlignEnd=53190|Gloss=work
 9	bàptàk	bàptàk	ADV	_	_	8	mod	_	AlignBegin=53281|AlignEnd=53464|Gloss=useless|Ideo=Yes
 10-11	ɓasmí	_	_	_	_	_	_	_	_
@@ -1554,11 +1554,11 @@
 2	wúl	wul	VERB	_	_	1	comp:aux	_	AlignBegin=179935|AlignEnd=180001|Gloss=say
 3	tə	tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj@R	_	AlignBegin=180001|AlignEnd=180068|Gloss=3Sing.Obj|wordform==tə
 4	tu	tu	SCONJ	_	_	2	comp:obj@T	_	AlignBegin=180068|AlignEnd=180202|Gloss=Qot
-5	mi	yi	AUX	_	Number=Sing|Person=1	4	comp:obj	_	AlignEnd=180479|Gloss=1Sing.be
+5	mi	yi	AUX	_	Number=Sing|Person=1	4	comp:obj	_	AlignEnd=180479|Copula=Yes|Gloss=1Sing.be.Loc
 6	tə́	tə́	ADP	_	_	5	comp:pred	_	AlignBegin=180479|AlignEnd=180756|Gloss=with
 7	túrâtn	túr	NOUN	_	Case=Gen|Number=Sing|Person=1	6	comp:obj	_	AlignBegin=180756|AlignEnd=180894|Gloss=husband.1SingGen
 8	kúmá	kúmá	CCONJ	_	_	9	cc	_	AlignBegin=181033|AlignEnd=181309|Gloss=also
-9	mi	yi	AUX	_	Number=Sing|Person=1	5	conj:coord	_	AlignEnd=181468|Gloss=1Sing.be
+9	mi	yi	AUX	_	Number=Sing|Person=1	5	conj:coord	_	AlignEnd=181468|Copula=Yes|Gloss=1Sing.be.Loc
 10	tə́	tə́	ADP	_	_	9	comp:pred	_	AlignBegin=181468|AlignEnd=181627|Gloss=with
 11	kúɲêtn	kúni	NOUN	_	Case=Gen|Number=Sing|Person=1	10	comp:obj	_	AlignBegin=181627|AlignEnd=181707|Gloss=boy.1SingGen
 12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=181786|AlignEnd=181944|Gloss=PUNCT
@@ -1651,7 +1651,7 @@
 3	tòː	tòː	PART	_	PartType=Foc	15	discourse	_	AlignBegin=187587|AlignEnd=187763|Gloss=well
 4	ín	ín	SCONJ	_	ExtPos=SCONJ	15	mod	_	AlignBegin=187939|AlignEnd=188122|Gloss=if|Idiom=Yes
 5	yâːn	yâːn	SCONJ	_	_	4	unk	_	AlignBegin=188122|AlignEnd=188305|Gloss=if|InIdiom=Yes
-6	nə	nə	AUX	_	_	4	comp:obj	_	AlignBegin=188305|AlignEnd=188488|Gloss=be
+6	nə	nə	AUX	_	_	4	comp:obj	_	AlignBegin=188305|AlignEnd=188488|Gloss=be.Ident
 7	kúɲêtn	kúni	NOUN	_	Case=Gen|Number=Sing|Person=1	6	comp:pred	_	AlignBegin=188488|AlignEnd=188580|Gloss=boy.1SingGen
 8	ndá	nda	VERB	_	_	6	comp:cleft	_	AlignBegin=188671|AlignEnd=188854|Gloss=enter
 9	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	6	conj:coord	_	AlignBegin=188854|AlignEnd=189037|Gloss=3Plur.Fut
@@ -2504,7 +2504,7 @@
 10	àmáŋ	àmáː	CCONJ	_	_	13	cc	_	AlignBegin=290250|AlignEnd=290449|Gloss=but
 11	bàːba	bàːba	NOUN	_	_	13	dislocated@subj	_	AlignBegin=290449|AlignEnd=290648|Gloss=father|wordform=*bàːba-íː
 12	gòʃíː	gòs	PRON	_	Case=Gen|Deixis=Remt|Number=Sing|Person=3|PronType=Prs	11	mod@poss	_	AlignBegin=290648|AlignEnd=290748|Gloss=3SingGen.Remt|wordform=gòs
-13	ʧi	yi	AUX	_	Number=Sing|Person=3	8	conj:coord	_	AlignEnd=291046|Gloss=3Sing.be|wordform=yi
+13	ʧi	yi	AUX	_	Number=Sing|Person=3	8	conj:coord	_	AlignEnd=291046|Copula=Yes|Gloss=3Sing.be.Loc|wordform=yi
 14	ɗa	ɗa	PART	_	PartType=Adv	13	compound:prt	_	AlignBegin=291046|AlignEnd=291245|Gloss=at
 15	//	//	PUNCT	_	_	8	punct	_	AlignBegin=291245|AlignEnd=291445|Gloss=PUNCT
 
@@ -2518,7 +2518,7 @@
 1	so	so	X	_	Foreign=Yes	4	discourse	_	AlignBegin=292018|AlignEnd=292201|Gloss=so|Lang=en
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=292201|AlignEnd=292384|Gloss=PUNCT
 3	bàː	bàː	PART	_	PartType=Neg|Polarity=Neg	4	mod	_	AlignBegin=292384|AlignEnd=292583|Gloss=Neg
-4	ʧi	yi	AUX	_	Number=Sing|Person=3	0	root	_	AlignEnd=292782|Gloss=3Sing.be|wordform=yi
+4	ʧi	yi	AUX	_	Number=Sing|Person=3	0	root	_	AlignEnd=292782|Copula=Yes|Gloss=3Sing.be.Loc|wordform=yi
 5	tə́	tə́	ADP	_	_	4	comp:pred	_	AlignBegin=292782|AlignEnd=292981|Gloss=with
 6	gyóːɗan	gyóːɗan	PRON	_	PronType=Rel	5	comp:obj	_	AlignBegin=292981|AlignEnd=293180|Gloss=the_one_which
 7	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	6	mod@relcl	_	AlignBegin=293180|AlignEnd=293379|Gloss=3Sing.Fut
@@ -2622,7 +2622,7 @@
 1	ín	ín	SCONJ	_	_	35	mod	_	AlignBegin=306409|AlignEnd=306683|Gloss=if
 2	ngə́ʃê	ngə́tn	NOUN	_	Number=Plur	4	dislocated@subj	_	AlignBegin=306683|AlignEnd=306820|Gloss=thing.Def
 3	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	4	subj	_	AlignBegin=306957|AlignEnd=307231|Gloss=3Sing.IDP
-4	nə	nə	AUX	_	_	1	comp:obj	_	AlignBegin=307231|AlignEnd=307403|Gloss=be
+4	nə	nə	AUX	_	_	1	comp:obj	_	AlignBegin=307231|AlignEnd=307403|Gloss=be.Ident
 5	shiri	shiri	NOUN	_	_	4	comp:pred	_	AlignBegin=307403|AlignEnd=307575|Gloss=plan|Lang=ha
 6	Tʃôɣn	Tʃôɣn	PROPN	_	_	5	mod	_	AlignBegin=307575|AlignEnd=307747|Gloss=God
 7	deː	deː	PART	_	PartType=Top	5	discourse@top	_	AlignBegin=307747|AlignEnd=307919|Gloss=anyway
