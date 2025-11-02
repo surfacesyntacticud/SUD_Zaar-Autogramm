@@ -1885,10 +1885,10 @@
 # sent_timecode = 253260, 255020
 # text_ortho = lóːkaʧí gìːrwàːsə̀ŋ gəní //
 # text_en = That's when they are sick.
-1	lóːkaʧí	lóːkaʧí	NOUN	_	Definite=Cons	3	comp:pred	_	AlignBegin=253260|AlignEnd=253847|Gloss=time
+1	lóːkaʧí	lóːkaʧí	NOUN	_	Definite=Cons	0	root	_	AlignBegin=253260|AlignEnd=253847|Gloss=time
 2	gìːrwàːsə̀ŋ	gìːr	NOUN	_	Case=Gen|Number=Plur|Person=3	1	mod	_	AlignBegin=253847|AlignEnd=254043|Gloss=illness.3PlurGen|wordform=gìːr
-3	gəní	kən	AUX	_	_	0	root	_	AlignBegin=254239|AlignEnd=254434|Gloss=be
-4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=254434|AlignEnd=255020|Gloss=PUNCT
+3	gəní	kən	PART	_	PartType=Foc	1	discourse@foc	_	AlignBegin=254239|AlignEnd=254434|Gloss=be
+4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=254434|AlignEnd=255020|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_204-205
 # speaker_id = SP1
@@ -2139,10 +2139,10 @@
 # text = tôː ɣənín gənín //
 # text_ortho = tôː ɣənín gənín //
 # text_en = Well that's it.
-1	tôː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=291211|AlignEnd=291494|Gloss=well
-2	ɣənín	kən	PART	_	Deixis=Prox|PartType=Foc	3	comp:pred	_	AlignBegin=291494|AlignEnd=291588|Gloss=be.Prox
-3	gənín	kən	AUX	_	Deixis=Prox	0	root	_	AlignBegin=291682|AlignEnd=291777|Gloss=Identif
-4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=291777|AlignEnd=292061|Gloss=PUNCT
+1	tôː	tòː	INTJ	_	_	2	discourse	_	AlignBegin=291211|AlignEnd=291494|Gloss=well
+2	ɣənín	kən	PART	_	Deixis=Prox|PartType=Foc	0	root	_	AlignBegin=291494|AlignEnd=291588|Gloss=be.Prox
+3	gənín	kən	PART	_	Deixis=Prox|PartType=Foc	2	discourse@foc	_	AlignBegin=291682|AlignEnd=291777|Gloss=Identif
+4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=291777|AlignEnd=292061|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_234-234
 # text = yáː mǎn tsəní aː myǎː súː mə̀ yàːlì mə́ kə̌ːm mə́ yâːl hŋ́ //
@@ -2293,7 +2293,7 @@
 # text = ngə́tn yóːɗan á nâːmí mə́n ɗangənín gəndí //
 # text_ortho = ngə́tn yóːɗan á nâːmímə́n ɗangənín gəndí //
 # text_en = That's the thing that... happens to us, today's people.
-1	ngə́tn	ngə́tn	NOUN	_	_	8	comp:pred	_	AlignBegin=311260|AlignEnd=311690|Gloss=thing
+1	ngə́tn	ngə́tn	NOUN	_	_	0	root	_	AlignBegin=311260|AlignEnd=311690|Gloss=thing
 2	yóːɗan	yóːɗan	PRON	_	PronType=Rel	3	subj	_	AlignBegin=311690|AlignEnd=312119|Gloss=which
 3	á	ø	AUX	_	Aspect=Aor|Number=Sing|Person=3	1	mod@relcl	_	AlignBegin=312119|AlignEnd=312418|Gloss=3Sing.Aor
 4-5	nâːmí	_	_	_	_	_	_	_	_
@@ -2301,8 +2301,8 @@
 5	mí	mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	comp:obj	_	AlignBegin=312568|AlignEnd=312717|Gloss=1Plur.Obj|wordform==mí
 6	mə́n	mə́n	NOUN	_	Number=Plur	5	conj:appos	_	AlignBegin=312717|AlignEnd=313016|Gloss=people
 7	ɗangənín	ɗangəní	ADV	_	Deixis=Prox	6	mod	_	AlignBegin=313016|AlignEnd=313116|Gloss=now.Prox|wordform=ɗangəní
-8	gəndí	kən	AUX	_	_	0	root	_	AlignBegin=313216|AlignEnd=313315|Gloss=be
-9	//	//	PUNCT	_	_	8	punct	_	AlignBegin=313315|AlignEnd=313613|Gloss=PUNCT
+8	gəndí	kən	PART	_	PartType=Foc	1	discourse@foc	_	AlignBegin=313216|AlignEnd=313315|Gloss=be
+9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=313315|AlignEnd=313613|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_248-255
 # speaker_id = SP1
@@ -2797,24 +2797,24 @@
 4	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=397768|AlignEnd=397918|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_310-311
+# text = myǎː nât ŋamtsêʃíː < tôː lǎː gə̀t kəndíyoː !//
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_02.WAV
 # sent_timecode = 397918, 401318
-# text = myǎː nât ŋamtsêʃíː < tôː lǎː gə̀t kəndíyoː !//
 # text_ortho = myǎː nât ŋamtsêʃíː //= tôː lǎː gə̀t kəndíyoː //
-# text_en = Fetching that wood, well that's the work of women.
-1	myǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	8	parataxis@mod	_	AlignBegin=397918|AlignEnd=398296|Gloss=1Plur.Imp
+# text_en = When we fetch that wood, well that's the work of women.
+1	myǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	6	parataxis@mod	_	AlignBegin=397918|AlignEnd=398296|Gloss=1Plur.Imp
 2-3	nât ŋamtsêʃíː	_	_	_	_	_	_	_	_
 2	nât	nat	VERB	_	_	1	comp:aux	_	AlignBegin=398296|AlignEnd=398674|Gloss=tie|wordform=*nat-íː
 3	ŋamtsêʃíː	ŋamtsə́	NOUN	_	Definite=Def|Deixis=Remt	2	comp:obj	_	AlignBegin=398674|AlignEnd=398800|Gloss=wood.Def.Remt
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=399052|AlignEnd=399430|Gloss=PUNCT
-5	tôː	tòː	PART	_	PartType=Foc	8	discourse	_	AlignBegin=400146|AlignEnd=400439|Gloss=well
-6	lǎː	laː	NOUN	_	Definite=Cons	8	comp:pred	_	AlignBegin=400439|AlignEnd=400585|Gloss=work.CONS
+5	tôː	tòː	PART	_	PartType=Foc	6	discourse	_	AlignBegin=400146|AlignEnd=400439|Gloss=well
+6	lǎː	laː	NOUN	_	Definite=Cons	0	root	_	AlignBegin=400439|AlignEnd=400585|Gloss=work.CONS
 7	gə̀t	gə̀t	NOUN	_	_	6	mod@poss	_	AlignBegin=400732|AlignEnd=400830|Gloss=wife
 8-9	kəndíyoː	_	_	_	_	_	_	_	_
-8	kəndí	kən	AUX	_	_	0	root	_	AlignBegin=400830|AlignEnd=400928|Gloss=be
-9	oː	oː	PART	_	Mood=Ast|PartType=Foc	8	discourse	_	AlignBegin=400928|AlignEnd=401025|Gloss=Assert
-10	!//	!//	PUNCT	_	_	8	punct	_	AlignBegin=401025|AlignEnd=401318|Gloss=PUNCT
+8	kəndí	kən	PART	_	PartType=Foc	6	discourse@foc	_	AlignBegin=400830|AlignEnd=400928|Gloss=be
+9	oː	oː	PART	_	Mood=Ast|PartType=Foc	6	discourse	_	AlignBegin=400928|AlignEnd=401025|Gloss=Assert
+10	!//	!//	PUNCT	_	_	6	punct	_	AlignBegin=401025|AlignEnd=401318|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_312-313
 # text = ófìs kə̀ mə́n gút zǎːrwôpm gòpm gəndíyoː !//
@@ -2823,16 +2823,16 @@
 # sent_timecode = 401318, 403858
 # text_ortho = ófìs kə̀ mə́n gút zǎːrwôpm gòpm gəndíyoː //
 # text_en = That's the office of our Zaar women.
-1	ófìs	ófîs	NOUN	_	Foreign=Yes	7	comp:pred	_	AlignBegin=401318|AlignEnd=401625|Gloss=office|Lang=en
+1	ófìs	ófîs	NOUN	_	Foreign=Yes	0	root	_	AlignBegin=401318|AlignEnd=401625|Gloss=office|Lang=en
 2	kə̀	kə́	ADP	_	_	1	mod@poss	_	AlignBegin=401625|AlignEnd=401932|Gloss=of
 3	mə́n	mə́n	NOUN	_	Number=Plur	2	comp:obj	_	AlignBegin=401932|AlignEnd=402240|Gloss=people
 4	gút	guɗi	NOUN	_	Definite=Cons|Number=Plur	3	mod	_	AlignBegin=402240|AlignEnd=402644|Gloss=women
 5	zǎːrwôpm	Zaːr	NOUN	_	Case=Gen|Definite=Cons|Number=Plur|Person=1	4	compound	_	AlignBegin=402644|AlignEnd=402779|Gloss=human.CONS.1PlurGen|wordform=zǎːr
 6	gòpm	gòpm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	4	mod	_	AlignBegin=403048|AlignEnd=403183|Gloss=1PlurGen
 7-8	gəndíyoː	_	_	_	_	_	_	_	_
-7	gəndí	kən	AUX	_	_	0	root	_	AlignBegin=403183|AlignEnd=403318|Gloss=be
-8	oː	oː	PART	_	Mood=Ast|PartType=Foc	7	discourse	_	AlignBegin=403318|AlignEnd=403452|Gloss=Assert
-9	!//	!//	PUNCT	_	_	7	punct	_	AlignBegin=403452|AlignEnd=403858|Gloss=PUNCT
+7	gəndí	kən	PART	_	PartType=Foc	1	discourse@foc	_	AlignBegin=403183|AlignEnd=403318|Gloss=be
+8	oː	oː	PART	_	Mood=Ast|PartType=Foc	1	discourse	_	AlignBegin=403318|AlignEnd=403452|Gloss=Assert
+9	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=403452|AlignEnd=403858|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_314-314
 # speaker_id = SP1
@@ -2862,18 +2862,18 @@
 # text = myǎː ʃîʃí gòpm káwêy < tôː laː ɣə́ də̀níː ɓús-ɓùs kən //
 # text_ortho = myǎː ʃîʃí gòpm káwêy < tôː laː ɣə́ də̀níː ɓúsɓùs kən //
 # text_en = As soon as we get up, well the house work is enormous.
-1	myǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	11	mod	_	AlignBegin=405179|AlignEnd=405673|Gloss=1Plur.Imp
+1	myǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	10	mod	_	AlignBegin=405179|AlignEnd=405673|Gloss=1Plur.Imp
 2	ʃîʃí	ʃiʃí	VERB	_	_	1	comp:aux	_	AlignBegin=405673|AlignEnd=406001|Gloss=rise
 3	gòpm	gòpm	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	2	mod@ethic	_	AlignBegin=406001|AlignEnd=406328|Gloss=1PlurGen
 4	káwêy	káwêy	ADV	_	_	2	mod	_	AlignBegin=406328|AlignEnd=406540|Gloss=merely
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=406540|AlignEnd=406751|Gloss=PUNCT
-6	tôː	tòː	PART	_	PartType=Foc	11	discourse	_	AlignBegin=406751|AlignEnd=407080|Gloss=well
-7	laː	laː	NOUN	_	_	11	comp:pred	_	AlignBegin=407080|AlignEnd=407409|Gloss=work
+6	tôː	tòː	PART	_	PartType=Foc	10	discourse	_	AlignBegin=406751|AlignEnd=407080|Gloss=well
+7	laː	laː	NOUN	_	_	10	comp:pred	_	AlignBegin=407080|AlignEnd=407409|Gloss=work
 8	ɣə́	kə́	ADP	_	_	7	mod@poss	_	AlignBegin=407409|AlignEnd=407738|Gloss=of
 9	də̀níː	də̀n	NOUN	_	_	8	comp:obj	_	AlignBegin=407738|AlignEnd=407902|Gloss=compound|wordform=də̀n
-10	ɓús-ɓùs	ɓús-ɓùs	ADV	_	_	11	comp:pred	_	AlignBegin=408067|AlignEnd=408231|Gloss=plenty|Ideo=Yes
-11	kən	kən	AUX	_	_	0	root	_	AlignBegin=408231|AlignEnd=408396|Gloss=Identif
-12	//	//	PUNCT	_	_	11	punct	_	AlignBegin=408396|AlignEnd=408725|Gloss=PUNCT
+10	ɓús-ɓùs	ɓús-ɓùs	ADV	_	_	0	root	_	AlignBegin=408067|AlignEnd=408231|Gloss=plenty|Ideo=Yes
+11	kən	kən	PART	_	PartType=Foc	10	discourse@foc	_	AlignBegin=408231|AlignEnd=408396|Gloss=Identif
+12	//	//	PUNCT	_	_	10	punct	_	AlignBegin=408396|AlignEnd=408725|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_320-320
 # speaker_id = SP1
@@ -3160,11 +3160,11 @@
 # text = ngə́tn yóːɗan lǎːwopm gəndí //
 # text_ortho = ngə́tn yóːɗan lǎːwôpm gəndí //
 # text_en = That's what our work is.
-1	ngə́tn	ngə́tn	NOUN	_	_	4	comp:pred	_	AlignBegin=440739|AlignEnd=441145|Gloss=thing
+1	ngə́tn	ngə́tn	NOUN	_	_	0	root	_	AlignBegin=440739|AlignEnd=441145|Gloss=thing
 2	yóːɗan	yóːɗan	PRON	_	PronType=Rel	3	subj	_	AlignBegin=441145|AlignEnd=441551|Gloss=which
 3	lǎːwopm	laː	NOUN	_	Case=Gen|Definite=Cons|Number=Plur|Person=1	1	mod@relcl	_	AlignBegin=441551|AlignEnd=441733|Gloss=work.CONS.1PlurGen|wordform=lǎː
-4	gəndí	kən	AUX	_	_	0	root	_	AlignBegin=441915|AlignEnd=442098|Gloss=be
-5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=442098|AlignEnd=442645|Gloss=PUNCT
+4	gəndí	kən	PART	_	PartType=Foc	1	discourse@foc	_	AlignBegin=441915|AlignEnd=442098|Gloss=be
+5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=442098|AlignEnd=442645|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_348-348
 # speaker_id = SP2
@@ -3581,13 +3581,13 @@
 # text = ngə́r wéy ɗan myǎː fî ɣəndí //
 # text_ortho = ngə́r wéy ɗan myǎː fî ɣəndí //
 # text_en = That's what we are doing.
-1	ngə́r	ngə́tn	NOUN	_	_	6	comp:pred	_	AlignBegin=497217|AlignEnd=497429|Gloss=thing
+1	ngə́r	ngə́tn	NOUN	_	_	0	root	_	AlignBegin=497217|AlignEnd=497429|Gloss=thing
 2	wéy	wéy	SCONJ	_	Mood=Qot	1	mod@relcl	_	AlignBegin=497429|AlignEnd=497641|Gloss=Qot
 3	ɗan	ɗan	SCONJ	_	_	2	comp:obj	_	AlignBegin=497641|AlignEnd=497853|Gloss=REL
 4	myǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	3	comp:obj	_	AlignBegin=497853|AlignEnd=498065|Gloss=1Plur.Imp
 5	fî	fi	VERB	_	_	4	comp:aux	_	AlignBegin=498065|AlignEnd=498171|Gloss=do
-6	ɣəndí	kən	AUX	_	_	0	root	_	AlignBegin=498171|AlignEnd=498277|Gloss=be
-7	//	//	PUNCT	_	_	6	punct	_	AlignBegin=498277|AlignEnd=498491|Gloss=PUNCT
+6	ɣəndí	kən	PART	_	PartType=Foc	1	discourse@foc	_	AlignBegin=498171|AlignEnd=498277|Gloss=be
+7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=498277|AlignEnd=498491|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_02_394-395
 # speaker_id = SP1

@@ -263,13 +263,13 @@
 # text = yə́ddà ɗan myáː súː ngə́ʃês kəndí sábòːtu bàː myáː súː mə̀ díngá ɗúɣə̂n wurɓa //
 # text_ortho = yə́ddà ɗan myáː súː ngə́ʃês kəndí sábòːtu bàː myáː súː mə̀ díngá ɗúɣə̂n wurɓa //
 # text_en = That's how I want it because I do not want to waste money.
-1	yə́ddà	yə́ddà	ADV	_	PronType=Rel	6	comp:pred	_	AlignBegin=49071|AlignEnd=49255|Gloss=how
+1	yə́ddà	yə́ddà	ADV	_	PronType=Rel	0	root	_	AlignBegin=49071|AlignEnd=49255|Gloss=how
 2	ɗan	ɗan	SCONJ	_	_	1	mod@relcl	_	AlignBegin=49255|AlignEnd=49439|Gloss=REL
 3	myáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	2	comp:obj	_	AlignBegin=49439|AlignEnd=49623|Gloss=1Sing.Imp
 4	súː	súː	VERB	_	_	3	comp:aux	_	AlignBegin=49623|AlignEnd=49809|Gloss=want
 5	ngə́ʃês	ngə́tn	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=49809|AlignEnd=50155|Gloss=thing.Def
-6	kəndí	kən	AUX	_	_	0	root	_	AlignBegin=50155|AlignEnd=50329|Gloss=be
-7	sábòːtu	sábòːtu	SCONJ	_	_	6	mod	_	AlignBegin=50329|AlignEnd=50848|Gloss=because_of
+6	kəndí	kən	PART	_	PartType=Foc	1	discourse@foc	_	AlignBegin=50155|AlignEnd=50329|Gloss=be
+7	sábòːtu	sábòːtu	SCONJ	_	_	1	mod	_	AlignBegin=50329|AlignEnd=50848|Gloss=because_of
 8	bàː	bàː	PART	_	PartType=Neg|Polarity=Neg	9	mod	_	AlignBegin=50848|AlignEnd=51108|Gloss=Neg
 9	myáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	7	comp:obj	_	AlignBegin=51108|AlignEnd=51368|Gloss=1Sing.Imp
 10	súː	súː	VERB	_	_	9	comp:aux	_	AlignBegin=51368|AlignEnd=51628|Gloss=want
@@ -277,7 +277,7 @@
 12	díngá	dingá	VERB	_	_	11	comp:aux	_	AlignBegin=51812|AlignEnd=51996|Gloss=keep_on|SVC=Yes
 13	ɗúɣə̂n	ɗu	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	12	comp:obj	_	AlignBegin=51996|AlignEnd=52180|Gloss=beat
 14	wurɓa	wurɓa	NOUN	_	_	13	comp:obj	_	AlignBegin=52180|AlignEnd=52364|Gloss=money
-15	//	//	PUNCT	_	_	6	punct	_	AlignBegin=52364|AlignEnd=52547|Gloss=PUNCT
+15	//	//	PUNCT	_	_	1	punct	_	AlignBegin=52364|AlignEnd=52547|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_048-055
 # speaker_id = SP2
@@ -5690,11 +5690,11 @@
 # text = ina ʤin dàlíːlês kəndí //
 # text_ortho = ina ʤin dàlíːlês kəndí //
 # text_en = <I think> that's the reason.
-1	ina	ina	X	_	Foreign=Yes	4	discourse	_	AlignBegin=671130|AlignEnd=671352|Gloss=1s.Imp|Lang=ha
+1	ina	ina	X	_	Foreign=Yes	3	discourse	_	AlignBegin=671130|AlignEnd=671352|Gloss=1s.Imp|Lang=ha
 2	ʤin	ʤin	X	_	Foreign=Yes	1	flat@foreign	_	AlignBegin=671352|AlignEnd=671573|Gloss=perceive|Lang=ha
-3	dàlíːlês	dàlíːli	NOUN	_	Definite=Def	4	comp:pred	_	AlignBegin=671573|AlignEnd=671757|Gloss=reason.Def
-4	kəndí	kən	AUX	_	_	0	root	_	AlignBegin=671941|AlignEnd=672125|Gloss=be
-5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=672125|AlignEnd=672125|Gloss=PUNCT
+3	dàlíːlês	dàlíːli	NOUN	_	Definite=Def	0	root	_	AlignBegin=671573|AlignEnd=671757|Gloss=reason.Def
+4	kəndí	kən	PART	_	PartType=Foc	3	discourse@foc	_	AlignBegin=671941|AlignEnd=672125|Gloss=be
+5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=672125|AlignEnd=672125|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_694-694
 # text = yáwwàː < dàlíːlês kəndí //
@@ -5703,11 +5703,11 @@
 # sent_timecode = 671845, 672982
 # text_ortho = yawwàː < dàlíːlês kəndí //
 # text_en = Yes, that's the reason.
-1	yáwwàː	yáwwàː	INTJ	_	_	4	discourse	_	AlignBegin=671845|AlignEnd=672072|Gloss=OK
+1	yáwwàː	yáwwàː	INTJ	_	_	3	discourse	_	AlignBegin=671845|AlignEnd=672072|Gloss=OK
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=672072|AlignEnd=672299|Gloss=PUNCT
-3	dàlíːlês	dàlíːli	NOUN	_	Definite=Def	4	comp:pred	_	AlignBegin=672299|AlignEnd=672526|Gloss=reason.Def
-4	kəndí	kən	AUX	_	_	0	root	_	AlignBegin=672753|AlignEnd=672982|Gloss=be
-5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=672982|AlignEnd=672982|Gloss=PUNCT
+3	dàlíːlês	dàlíːli	NOUN	_	Definite=Def	0	root	_	AlignBegin=672299|AlignEnd=672526|Gloss=reason.Def
+4	kəndí	kən	PART	_	PartType=Foc	3	discourse@foc	_	AlignBegin=672753|AlignEnd=672982|Gloss=be
+5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=672982|AlignEnd=672982|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_695-695_696-698
 # speaker_id = SP1

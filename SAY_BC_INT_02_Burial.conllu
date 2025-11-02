@@ -240,11 +240,11 @@
 13	tu	tu	SCONJ	_	_	11	mod@relcl	_	AlignBegin=41312|AlignEnd=41489|Gloss=Qot
 14	[	[	PUNCT	_	_	22	punct	_	AlignBegin=41489|AlignEnd=41625|Gloss=PUNCT
 15	tôː	tòː	PART	_	PartType=Foc	22	discourse	_	AlignBegin=41625|AlignEnd=41761|Gloss=well
-16	ngə́tn	ngə́tn	NOUN	_	_	19	subj	_	AlignBegin=41761|AlignEnd=41897|Gloss=thing
+16	ngə́tn	ngə́tn	NOUN	_	_	18	subj	_	AlignBegin=41761|AlignEnd=41897|Gloss=thing
 17	wón	wón	DET	_	Definite=Spec	16	det	_	AlignBegin=41897|AlignEnd=42033|Gloss=SPEC
-18	yáːli	yáːli	VERB	_	_	19	comp:pred	_	AlignBegin=42033|AlignEnd=42169|Gloss=like_that
-19	kəní	kən	AUX	_	_	22	parataxis@discourse	_	AlignBegin=42169|AlignEnd=42305|Gloss=be
-20	<	<	PUNCT	_	_	19	punct	_	AlignBegin=42305|AlignEnd=42441|Gloss=PUNCT
+18	yáːli	yáːli	VERB	_	_	22	parataxis@discourse	_	AlignBegin=42033|AlignEnd=42169|Gloss=like_that
+19	kəní	kən	PART	_	PartType=Foc	18	discourse@foc	_	AlignBegin=42169|AlignEnd=42305|Gloss=be
+20	<	<	PUNCT	_	_	18	punct	_	AlignBegin=42305|AlignEnd=42441|Gloss=PUNCT
 21	káɗâ	káɗá	PART	_	PartType=Neg|Polarity=Neg	22	mod	_	AlignBegin=42441|AlignEnd=42741|Gloss=Neg
 22	àː	[L]	AUX	_	Mood=Sub|Number=Sing|Person=2	13	comp:obj	_	AlignBegin=42741|AlignEnd=43040|Gloss=2Plur.Sub
 23	fì	fi	VERB	_	_	22	comp:aux	_	AlignBegin=43200|AlignEnd=43317|Gloss=do
@@ -539,10 +539,10 @@
 # text = gáɓâs kəndí ŋâː ?//
 # text_ortho = gáɓâs kəndí ŋâː ?//
 # text_en = That's the east, isn't that so?
-1	gáɓâs	gáɓâs	NOUN	_	_	2	comp:pred	_	AlignBegin=91180|AlignEnd=91365|Gloss=east
-2	kəndí	kən	AUX	_	_	0	root	_	AlignBegin=91365|AlignEnd=91550|Gloss=be
-3	ŋâː	ŋaː	PART	_	PartType=Neg|Polarity=Neg	2	mod	_	AlignBegin=91550|AlignEnd=91735|Gloss=Neg.Q
-4	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=91735|AlignEnd=91920|Gloss=PUNCT
+1	gáɓâs	gáɓâs	NOUN	_	_	0	root	_	AlignBegin=91180|AlignEnd=91365|Gloss=east
+2	kəndí	kən	PART	_	PartType=Foc	1	discourse@foc	_	AlignBegin=91365|AlignEnd=91550|Gloss=be
+3	ŋâː	ŋaː	PART	_	PartType=Neg|Polarity=Neg	1	mod	_	AlignBegin=91550|AlignEnd=91735|Gloss=Neg.Q
+4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=91735|AlignEnd=91920|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_064-064
 # speaker_id = SP2
@@ -577,10 +577,10 @@
 # text = teː súːtə ɣəndí //
 # text_ortho = teː súːtə ɣəndí //
 # text_en = That's westward.
-1	teː	teː	ADP	_	_	3	comp:pred	_	AlignBegin=95084|AlignEnd=95280|Gloss=around
+1	teː	teː	ADP	_	_	0	root	_	AlignBegin=95084|AlignEnd=95280|Gloss=around
 2	súːtə	súːtu	NOUN	_	_	1	comp:obj	_	AlignBegin=95280|AlignEnd=95476|Gloss=evening
-3	ɣəndí	kən	AUX	_	_	0	root	_	AlignBegin=95476|AlignEnd=95672|Gloss=be
-4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=95672|AlignEnd=95866|Gloss=PUNCT
+3	ɣəndí	kən	PART	_	PartType=Foc	1	discourse@foc	_	AlignBegin=95476|AlignEnd=95672|Gloss=be
+4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=95672|AlignEnd=95866|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_068-069
 # speaker_id = SP1
@@ -1126,7 +1126,7 @@
 # text_en = Well, then if it's a woman who has died, where would they bury her?
 1	tôː	tòː	PART	_	PartType=Foc	9	discourse	_	AlignBegin=158840|AlignEnd=158996|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=158996|AlignEnd=159151|Gloss=PUNCT
-3	gə̀t	gə̀t	NOUN	_	_	9	mod	_	AlignBegin=159151|AlignEnd=159324|Gloss=woman
+3	gə̀t	gə̀t	NOUN	_	_	9	parataxis@mod	_	AlignBegin=159151|AlignEnd=159324|Gloss=woman
 4	kən	kən	PART	_	PartType=Foc	3	discourse@foc	_	AlignBegin=159324|AlignEnd=159497|Gloss=Identif
 5	yáː	yáː	AUX	_	Mood=Cnd|Number=Sing|Person=3	3	comp:cleft	_	AlignBegin=159497|AlignEnd=159670|Gloss=3Sing.Cnd
 6	mə̂s	məs	VERB	_	_	5	comp:aux	_	AlignBegin=159670|AlignEnd=159843|Gloss=die
@@ -2419,18 +2419,18 @@
 12	yisə́ŋ	yisə́n	VERB	_	_	11	comp:aux	_	AlignBegin=351740|AlignEnd=351940|Gloss=know
 13	tu	tu	SCONJ	_	_	12	comp:obj	_	AlignBegin=351940|AlignEnd=352138|Gloss=Qot
 14-15	dèkkə̀	_	_	_	_	_	_	_	_
-14	dèː	dèː	NOUN	_	_	18	comp:pred	_	AlignBegin=352450|AlignEnd=352658|Gloss=reason
+14	dèː	dèː	NOUN	_	_	13	comp:obj	_	AlignBegin=352450|AlignEnd=352658|Gloss=reason
 15	kə́	kə́	ADP	_	_	14	mod	_	AlignBegin=352658|AlignEnd=352866|Gloss=of
 16	wúmgə̂n	wum	VERB	_	VerbForm=Vnoun	15	comp:obj	_	AlignBegin=352866|AlignEnd=353074|Gloss=feel-Vnoun
 17	rěːs	raː	NOUN	_	Definite=Def	16	comp:obj	_	AlignBegin=353074|AlignEnd=353282|Gloss=heart.Def
-18	kəní	kən	AUX	_	_	13	comp:obj	_	AlignBegin=353282|AlignEnd=353490|Gloss=be
-19	//=	//=	PUNCT	_	_	24	punct	_	AlignBegin=353490|AlignEnd=353695|Gloss=PUNCT
+18	kəní	kən	PART	_	PartType=Foc	14	discourse@foc	_	AlignBegin=353282|AlignEnd=353490|Gloss=be
+19	//=	//=	PUNCT	_	_	20	punct	_	AlignBegin=353490|AlignEnd=353695|Gloss=PUNCT
 20-21	dèkkə̀	_	_	_	_	_	_	_	_
-20	dèː	dèː	NOUN	_	_	24	comp:pred	_	AlignBegin=353695|AlignEnd=353909|Gloss=anyway
+20	dèː	dèː	NOUN	_	_	14	parataxis@conj	_	AlignBegin=353695|AlignEnd=353909|Gloss=anyway
 21	ɣə̀	kə́	ADP	_	_	20	mod	_	AlignBegin=353909|AlignEnd=354123|Gloss=of
 22	múrna	múrna	NOUN	_	_	21	comp:obj	_	AlignBegin=354123|AlignEnd=354337|Gloss=joy|Lang=ha
 23	gwǎːy	gwàː	PRON	_	Case=Gen|Deixis=Remt|Number=Sing|Person=2|PronType=Prs	22	mod@poss	_	AlignBegin=354337|AlignEnd=354551|Gloss=2SingGen.Remt|wordform=gwàː
-24	ɣəní	kən	AUX	_	_	18	parataxis@conj	_	AlignBegin=354551|AlignEnd=354765|Gloss=be
+24	ɣəní	kən	PART	_	PartType=Foc	20	discourse@foc	_	AlignBegin=354551|AlignEnd=354765|Gloss=be
 25	//	//	PUNCT	_	_	9	punct	_	AlignBegin=354765|AlignEnd=354977|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_258-259
