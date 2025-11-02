@@ -2754,12 +2754,12 @@
 # sent_timecode = 358658, 359496
 # text_ortho = yâːn ʧíɣ ɣəní ɣá káːrâːn //
 # text_en = As for her, she was like this behind me.
-1	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	3	subj	_	AlignBegin=358658|AlignEnd=358826|Gloss=3Sing
-2	ʧíɣ	ʧík	ADV	_	_	3	comp:pred	_	AlignBegin=358826|AlignEnd=358910|Gloss=thus
-3	ɣəní	kən	AUX	_	_	0	root	_	AlignBegin=358910|AlignEnd=358994|Gloss=be
-4	ɣá	ká	ADP	_	_	3	dislocated@comp	_	AlignBegin=358994|AlignEnd=359162|Gloss=at
+1	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	2	dislocated@top	_	AlignBegin=358658|AlignEnd=358826|Gloss=3Sing
+2	ʧíɣ	ʧík	ADV	_	_	0	root	_	AlignBegin=358826|AlignEnd=358910|Gloss=thus
+3	ɣəní	kən	PART	_	PartType=Foc	2	discourse@foc	_	AlignBegin=358910|AlignEnd=358994|Gloss=be
+4	ɣá	ká	ADP	_	_	2	comp:cleft	_	AlignBegin=358994|AlignEnd=359162|Gloss=at
 5	káːrâːn	kâːr	NOUN	_	Case=Gen|Number=Sing|Person=1	4	comp:obj	_	AlignBegin=359162|AlignEnd=359246|Gloss=back.1SingGen
-6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=359330|AlignEnd=359496|Gloss=PUNCT
+6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=359330|AlignEnd=359496|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_354-356
 # speaker_id = SP1
@@ -5441,16 +5441,16 @@
 3	tu	tu	SCONJ	_	_	2	comp:obj	_	AlignBegin=636058|AlignEnd=636130|Gloss=Qot
 4	||	||	PUNCT	_	_	16	punct	_	AlignBegin=636130|AlignEnd=636201|Gloss=PUNCT
 5	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	16	dislocated@subj	_	AlignBegin=636474|AlignEnd=636618|Gloss=3Sing
-6	(	(	PUNCT	_	_	8	punct	_	AlignBegin=636618|AlignEnd=636763|Gloss=PUNCT
-7	Tákwâːràs	Tákwâːràs	PROPN	_	_	8	comp:pred	_	AlignBegin=636763|AlignEnd=636839|Gloss=Takwaras
-8	kən	kən	AUX	_	_	5	conj:coord	_	AlignBegin=636839|AlignEnd=636915|Gloss=Identif
+6	(	(	PUNCT	_	_	7	punct	_	AlignBegin=636618|AlignEnd=636763|Gloss=PUNCT
+7	Tákwâːràs	Tákwâːràs	PROPN	_	_	5	parataxis:insert	_	AlignBegin=636763|AlignEnd=636839|Gloss=Takwaras
+8	kən	kən	PART	_	PartType=Foc	7	discourse@foc	_	AlignBegin=636839|AlignEnd=636915|Gloss=Identif
 9	>+	>+	PUNCT	_	_	10	punct	_	AlignBegin=636915|AlignEnd=637067|Gloss=PUNCT
-10	átá	ta	AUX	_	Number=Sing|Person=3|Tense=Rem	8	parataxis:insert	_	AlignBegin=637067|AlignEnd=637219|Gloss=3Sing.Rem
+10	átá	ta	AUX	_	Number=Sing|Person=3|Tense=Rem	7	comp:cleft	_	AlignBegin=637067|AlignEnd=637219|Gloss=3Sing.Rem
 11	mán	man	VERB	_	_	10	comp:aux	_	AlignBegin=637219|AlignEnd=637371|Gloss=come|SVC=Yes
 12-13	tum	_	_	_	_	_	_	_	_
 12	tu	tu	VERB	_	_	11	compound:svc	_	AlignBegin=637371|AlignEnd=637447|Gloss=get
 13	m	mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	comp:obj	_	AlignBegin=637447|AlignEnd=637523|Gloss=1Sing.Obj|wordform==m
-14	//)	//)	PUNCT	_	_	8	punct	_	AlignBegin=637523|AlignEnd=637675|Gloss=PUNCT
+14	//)	//)	PUNCT	_	_	7	punct	_	AlignBegin=637523|AlignEnd=637675|Gloss=PUNCT
 15	<	<	PUNCT	_	_	5	punct	_	AlignBegin=637675|AlignEnd=637830|Gloss=PUNCT
 16	á	ø	AUX	_	Aspect=Aor|Number=Sing|Person=3	1	conj:dicto	_	AlignBegin=637830|AlignEnd=637918|Gloss=3Sing.Aor
 17	wû	wul	VERB	_	_	16	comp:aux	_	AlignBegin=637918|AlignEnd=638006|Gloss=say
