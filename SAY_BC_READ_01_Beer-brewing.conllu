@@ -450,15 +450,15 @@
 # sent_timecode = 117640, 123080
 # text_ortho = yáːni ɣən wò ʃiʃyártə |c àmáː baːya yóːɗan káː rigé kə gamá túːrɣə̂níː ɗeɓát ?//
 # text_en = That's what will make it ferment, but only after you have finished heating it up ?
-1	yáːni	yá́ːnii	PRON	_	Number=Sing|Person=3|PronType=Prs	2	comp:pred	_	AlignBegin=117640|AlignEnd=117813|Gloss=3Sing.IDP
-2	ɣən	kən	AUX	_	_	0	root	_	AlignBegin=117813|AlignEnd=117986|Gloss=Identif
-3	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	2	comp:cleft	_	AlignBegin=117986|AlignEnd=118159|Gloss=3Sing.Fut
+1	yáːni	yá́ːnii	PRON	_	Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=117640|AlignEnd=117813|Gloss=3Sing.IDP
+2	ɣən	kən	PART	_	PartType=Foc	1	discourse@foc	_	AlignBegin=117813|AlignEnd=117986|Gloss=Identif
+3	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	1	comp:cleft	_	AlignBegin=117986|AlignEnd=118159|Gloss=3Sing.Fut
 4-5	ʃiʃyártə	_	_	_	_	_	_	_	_
 4	ʃíʃyár	ʃiʃí	VERB	_	_	3	comp:aux	_	AlignBegin=118159|AlignEnd=118245|Gloss=get_up.Cau|wordform=ʃiʃí
 5	tə	tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=118332|AlignEnd=118505|Gloss==3Sing.Acc|wordform==tə
 6	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=118505|AlignEnd=118680|Gloss=PUNCT
 7	àmáː	àmáː	CCONJ	_	_	8	cc	_	AlignBegin=120520|AlignEnd=120804|Gloss=but
-8	baːya	baːya	ADP	_	Foreign=Yes	2	conj:coord	_	AlignBegin=120804|AlignEnd=121088|Gloss=after|Lang=ha
+8	baːya	baːya	ADP	_	Foreign=Yes	1	conj:coord	_	AlignBegin=120804|AlignEnd=121088|Gloss=after|Lang=ha
 9	yóːɗan	yóːɗan	PRON	_	PronType=Rel	8	comp:obj	_	AlignBegin=120804|AlignEnd=121088|Gloss=how
 10	káː	áː	AUX	_	Aspect=Perf|Number=Sing|Person=2	9	mod@relcl	_	AlignBegin=121088|AlignEnd=121372|Gloss=2Sing.Perf
 11	rigé	rigé	VERB	_	_	10	comp:aux	_	AlignBegin=121372|AlignEnd=121656|Gloss=precede
@@ -466,7 +466,7 @@
 13	gamá	gamá	VERB	_	_	12	comp:aux	_	AlignBegin=121940|AlignEnd=122224|Gloss=finish
 14	túːrɣə̂níː	tuːr	VERB	_	Deixis=Remt|ExtPos=NOUN|VerbForm=Vnoun	13	comp:obj	_	AlignBegin=122224|AlignEnd=122319|Gloss=cook-Vnoun.Remt|Result=Yes
 15	ɗeɓát	ɗeɓát	ADV	_	_	13	mod	_	AlignBegin=122508|AlignEnd=122792|Gloss=all|Ideo=Yes
-16	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=122792|AlignEnd=123080|Gloss=PUNCT
+16	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=122792|AlignEnd=123080|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_01_Beer_061-063
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
@@ -832,14 +832,14 @@
 # text = yáːni ɣən wò ɲáŋtə áy //
 # text_ortho = yáːni ɣən wò ɲáŋtə áy //
 # text_en = That's what will leaven it.
-1	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	2	comp:pred	_	AlignBegin=217840|AlignEnd=218037|Gloss=3Sing.IDP
-2	ɣən	kən	AUX	_	_	0	root	_	AlignBegin=218037|AlignEnd=218234|Gloss=Identif
-3	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	2	comp:cleft	_	AlignBegin=218234|AlignEnd=218431|Gloss=3Sing.Fut
+1	yáːni	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=217840|AlignEnd=218037|Gloss=3Sing.IDP
+2	ɣən	kən	PART	_	PartType=Foc	1	discourse@foc	_	AlignBegin=218037|AlignEnd=218234|Gloss=Identif
+3	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	1	comp:cleft	_	AlignBegin=218234|AlignEnd=218431|Gloss=3Sing.Fut
 4-5	ɲáŋtə	_	_	_	_	_	_	_	_
 4	ɲáŋ	ɲáŋ	VERB	_	_	3	comp:aux	_	AlignBegin=218431|AlignEnd=218529|Gloss=be_ripe
 5	tə	tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=218529|AlignEnd=218628|Gloss==3Sing.Acc|wordform==tə
-6	áy	áy	INTJ	_	_	2	discourse	_	AlignBegin=218628|AlignEnd=218825|Gloss=indeed
-7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=218825|AlignEnd=219020|Gloss=PUNCT
+6	áy	áy	INTJ	_	_	1	discourse	_	AlignBegin=218628|AlignEnd=218825|Gloss=indeed
+7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=218825|AlignEnd=219020|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_01_Beer_107-110
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
