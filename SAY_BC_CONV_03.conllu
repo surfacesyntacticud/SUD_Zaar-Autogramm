@@ -490,10 +490,11 @@
 # text_en = Well that's why yesterday I said...
 1	tòː	tòː	PART	_	PartType=Foc	2	discourse	_	AlignBegin=84488|AlignEnd=84669|Gloss=well
 2	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	0	root@scrap	_	AlignBegin=84669|AlignEnd=84850|Gloss=3s
-3	mənáːyáː	náːyáː	AUX	_	Aspect=Imp|Number=Sing|Person=1|Tense=Rec	2	comp:cleft	_	AlignBegin=84850|AlignEnd=85031|Gloss=1Sing.REC.Imp
-4	wu	wul	VERB	_	_	3	comp:aux	_	AlignBegin=85031|AlignEnd=85212|Gloss=say
-5	tu	tu	SCONJ	_	_	4	comp:obj	_	AlignBegin=85212|AlignEnd=85393|Gloss=Qot
-6	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=85393|AlignEnd=85573|Gloss=PUNCT
+3	mənáː	náː	AUX	_	Number=Sing|Person=1|Tense=Rec	2	comp:cleft	_	AlignBegin=84850|AlignEnd=85031|Gloss=1Sing.Rec|wordform=mənáːyáː
+4	yáː	yáː	AUX	_	Aspect=Imp	3	compound	_	Gloss=Imp
+5	wu	wul	VERB	_	_	3	comp:aux	_	AlignBegin=85031|AlignEnd=85212|Gloss=say
+6	tu	tu	SCONJ	_	_	5	comp:obj	_	AlignBegin=85212|AlignEnd=85393|Gloss=Qot
+7	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=85393|AlignEnd=85573|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_074-078
 # speaker_id = SP2
@@ -639,19 +640,20 @@
 # text_en = Well that's why yesterday I insisted that you should move on so that... the work will be good.
 1	tòː	tòː	PART	_	PartType=Foc	2	discourse	_	AlignBegin=102890|AlignEnd=103166|Gloss=well
 2	yáːni	yáːni	PRON	_	Case=Nom|Person=3	0	root	_	AlignBegin=103166|AlignEnd=103442|Gloss=3sg
-3	mənáːyáː	náːyáː	AUX	_	Aspect=Imp|Number=Sing|Person=1|Tense=Rec	2	comp:cleft	_	AlignBegin=103442|AlignEnd=103718|Gloss=1Sing.REC.Imp
-4	vaː	vaː	VERB	_	_	3	comp:aux	_	AlignBegin=103718|AlignEnd=103994|Gloss=be_hot
-5	vìː	vìː	NOUN	_	_	4	comp:obj@lvc	_	AlignBegin=103994|AlignEnd=104132|Gloss=mouth
-6	ɣáy	káy	PRON	_	Case=Loc|Number=Sing|Person=3|PronType=Prs	4	comp:obl@expl	_	AlignBegin=104132|AlignEnd=104270|Gloss=Anaph.Loc.3Sing
-7	tu	tu	SCONJ	_	_	4	comp:obj	_	AlignBegin=104270|AlignEnd=104547|Gloss=Qot
-8	àː	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=2	7	comp:obj	_	AlignBegin=104848|AlignEnd=105142|Gloss=2Sing.Sub
-9	láːtsə́y	laːtsə́	VERB	_	Deixis=Remt	8	comp:aux	_	AlignBegin=105142|AlignEnd=105436|Gloss=pass_by.Remt|Result=Yes
-10	dón	dón	SCONJ	_	_	9	mod	_	AlignBegin=105735|AlignEnd=106113|Gloss=because
-11	lǎːs	laː	NOUN	_	Definite=Def	13	subj	_	AlignBegin=106113|AlignEnd=106285|Gloss=work
-12	máː	máː	PART	_	PartType=Top	11	discourse@top	_	AlignBegin=106285|AlignEnd=106457|Gloss=even
-13	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	10	comp:obj	_	AlignBegin=106457|AlignEnd=106629|Gloss=3Sing.Sub
-14	ndáráy	ndará	VERB	_	Deixis=Remt	13	comp:aux	_	AlignBegin=106629|AlignEnd=106801|Gloss=be_proper.Remt|Result=Yes
-15	//	//	PUNCT	_	_	2	punct	_	AlignBegin=106801|AlignEnd=106971|Gloss=PUNCT
+3	mənáː	náː	AUX	_	Number=Sing|Person=1|Tense=Rec	2	comp:cleft	_	AlignBegin=103442|AlignEnd=103718|Gloss=1Sing.Rec|wordform=mənáːyáː
+4	yáː	yáː	AUX	_	Aspect=Imp	3	compound	_	Gloss=Imp
+5	vaː	vaː	VERB	_	_	3	comp:aux	_	AlignBegin=103718|AlignEnd=103994|Gloss=be_hot
+6	vìː	vìː	NOUN	_	_	5	comp:obj@lvc	_	AlignBegin=103994|AlignEnd=104132|Gloss=mouth
+7	ɣáy	káy	PRON	_	Case=Loc|Number=Sing|Person=3|PronType=Prs	5	comp:obl@expl	_	AlignBegin=104132|AlignEnd=104270|Gloss=Anaph.Loc.3Sing
+8	tu	tu	SCONJ	_	_	5	comp:obj	_	AlignBegin=104270|AlignEnd=104547|Gloss=Qot
+9	àː	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=2	8	comp:obj	_	AlignBegin=104848|AlignEnd=105142|Gloss=2Sing.Sub
+10	láːtsə́y	laːtsə́	VERB	_	Deixis=Remt	9	comp:aux	_	AlignBegin=105142|AlignEnd=105436|Gloss=pass_by.Remt|Result=Yes
+11	dón	dón	SCONJ	_	_	10	mod	_	AlignBegin=105735|AlignEnd=106113|Gloss=because
+12	lǎːs	laː	NOUN	_	Definite=Def	14	subj	_	AlignBegin=106113|AlignEnd=106285|Gloss=work
+13	máː	máː	PART	_	PartType=Top	12	discourse@top	_	AlignBegin=106285|AlignEnd=106457|Gloss=even
+14	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	11	comp:obj	_	AlignBegin=106457|AlignEnd=106629|Gloss=3Sing.Sub
+15	ndáráy	ndará	VERB	_	Deixis=Remt	14	comp:aux	_	AlignBegin=106629|AlignEnd=106801|Gloss=be_proper.Remt|Result=Yes
+16	//	//	PUNCT	_	_	2	punct	_	AlignBegin=106801|AlignEnd=106971|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_093-094
 # speaker_id = SP2
