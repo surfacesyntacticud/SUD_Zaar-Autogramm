@@ -1018,9 +1018,10 @@
 17	gíː	gíː	PRON	_	Deixis=Remt|PronType=Dem	15	comp:obj	_	AlignBegin=152883|AlignEnd=153115|Gloss=Remt
 18	ɗan	ɗan	SCONJ	_	_	17	mod@relcl	_	AlignBegin=153115|AlignEnd=153346|Gloss=REL
 19	ɗan	ɗan	SCONJ	_	_	18	conj:dicto	_	AlignBegin=153558|AlignEnd=153696|Gloss=REL
-20	myáːyi	yáːyiː	AUX	_	Aspect=ImpIter|Number=Sing|Person=1	19	comp:obj	_	AlignBegin=153696|AlignEnd=153834|Gloss=1Sing.Imp.Iter
-21	fíː	fi	VERB	_	Deixis=Remt	20	comp:aux	_	AlignBegin=153834|AlignEnd=153972|Gloss=do.Remt|Result=Yes
-22	//	//	PUNCT	_	_	7	punct	_	AlignBegin=153972|AlignEnd=154108|Gloss=PUNCT
+20	myáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	19	comp:obj	_	AlignBegin=153696|AlignEnd=153834|Gloss=1Sing.Imp|wordform=myáːyi
+21	yi	yíː	AUX	_	Aspect=Iter	20	compound	_	Gloss=Iter
+22	fíː	fi	VERB	_	Deixis=Remt	20	comp:aux	_	AlignBegin=153834|AlignEnd=153972|Gloss=do.Remt|Result=Yes
+23	//	//	PUNCT	_	_	7	punct	_	AlignBegin=153972|AlignEnd=154108|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_145-149
 # speaker_id = SP1
@@ -4890,18 +4891,19 @@
 # sent_timecode = 566882, 568472
 # text_ortho = myàːyi ɗu bôːl < átâ yin góːlawòpə̌nǎŋ ?//
 # text_en = When we played football, didn 't he use to be our goal keeper?
-1	myàːyi	yáːyiː	AUX	_	Aspect=ImpIter|Number=Plur|Person=1	5	mod	_	AlignBegin=566882|AlignEnd=567032|Gloss=1Plur.Imp.Iter
-2	ɗu	ɗu	VERB	_	_	1	comp:aux	_	AlignBegin=567032|AlignEnd=567182|Gloss=beat
-3	bôːl	bôːl	NOUN	_	_	2	comp:obj	_	AlignBegin=567182|AlignEnd=567332|Gloss=football
-4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=567332|AlignEnd=567484|Gloss=PUNCT
-5	átâ	ta	AUX	_	Number=Sing|Person=3|Tense=Rem	0	root	_	AlignBegin=567484|AlignEnd=567631|Gloss=3Sing.Rem
-6-7	yin	_	_	_	_	_	_	_	_
-6	yi	yi	VERB	_	_	5	comp:aux	_	AlignBegin=567631|AlignEnd=567731|Gloss=be|wordform=yin
-7	nə	nə	ADP	_	Copula=Yes	6	comp:pred	_	AlignBegin=567631|AlignEnd=567731|Gloss=be.Ident
-8-9	góːlawòpə̌nǎŋ	_	_	_	_	_	_	_	_
-8	góːlawòpə̌n	góːla	NOUN	_	Case=Gen|Deixis=Prox|Number=Plur|Person=1	7	comp:obj	_	AlignBegin=567978|AlignEnd=568164|Gloss=goal_keeper.1PlurGen.Prox|wordform=góːla
-9	ǎːŋ	ŋaː-hŋ́	PART	_	PartType=Neg|Polarity=Neg	5	mod	_	AlignBegin=568164|AlignEnd=568225|Gloss=Q.Neg|wordform=aː
-10	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=568225|AlignEnd=568472|Gloss=PUNCT
+1	myàː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	6	mod	_	AlignBegin=566882|AlignEnd=567032|Gloss=1Plur.Imp|wordform=myàːyi
+2	yí	yíː	AUX	_	Aspect=Iter	1	compound	_	Gloss=Iter
+3	ɗu	ɗu	VERB	_	_	1	comp:aux	_	AlignBegin=567032|AlignEnd=567182|Gloss=beat
+4	bôːl	bôːl	NOUN	_	_	3	comp:obj	_	AlignBegin=567182|AlignEnd=567332|Gloss=football
+5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=567332|AlignEnd=567484|Gloss=PUNCT
+6	átâ	ta	AUX	_	Number=Sing|Person=3|Tense=Rem	0	root	_	AlignBegin=567484|AlignEnd=567631|Gloss=3Sing.Rem
+7-8	yin	_	_	_	_	_	_	_	_
+7	yi	yi	VERB	_	_	6	comp:aux	_	AlignBegin=567631|AlignEnd=567731|Gloss=be|wordform=yin
+8	nə	nə	ADP	_	Copula=Yes	7	comp:pred	_	AlignBegin=567631|AlignEnd=567731|Gloss=be.Ident
+9-10	góːlawòpə̌nǎŋ	_	_	_	_	_	_	_	_
+9	góːlawòpə̌n	góːla	NOUN	_	Case=Gen|Deixis=Prox|Number=Plur|Person=1	8	comp:obj	_	AlignBegin=567978|AlignEnd=568164|Gloss=goal_keeper.1PlurGen.Prox|wordform=góːla
+10	ǎːŋ	ŋaː-hŋ́	PART	_	PartType=Neg|Polarity=Neg	6	mod	_	AlignBegin=568164|AlignEnd=568225|Gloss=Q.Neg|wordform=aː
+11	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=568225|AlignEnd=568472|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_582-582
 # speaker_id = SP2

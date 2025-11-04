@@ -711,15 +711,16 @@
 # text_en = Some even ... you would fight over it indeed.
 1	hár	hár	ADV	_	_	3	mod	_	AlignBegin=124760|AlignEnd=124963|Gloss=even
 2	gyaːgón	gyaːgón	PRON	_	Definite=Spec|Number=Plur	3	subj	_	AlignBegin=125166|AlignEnd=125369|Gloss=SPEC
-3	ʧàːyí	yáːyiː	AUX	_	Aspect=ImpIter|Number=Plur|Person=3	0	root	_	AlignBegin=125369|AlignEnd=125572|Gloss=3Plur.Imp.Iter
-4	fî	fi	VERB	_	_	3	comp:aux	_	AlignBegin=125572|AlignEnd=125775|Gloss=do
-5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=125775|AlignEnd=125976|Gloss=PUNCT
-6	ká	a	AUX	_	Number=Plur|Person=2|Tense=Fut	3	conj:dicto	_	AlignBegin=125976|AlignEnd=126127|Gloss=2Plur.Fut
-7	fî	fi	VERB	_	_	6	comp:aux	_	AlignBegin=126127|AlignEnd=126278|Gloss=do
-8	maːndə	maːndə	NOUN	_	_	7	comp:obj	_	AlignBegin=126278|AlignEnd=126429|Gloss=fight
-9	ɣáy	káy	PRON	_	Case=Loc|Number=Sing|Person=3|PronType=Prs	7	comp:obl@expl	_	AlignBegin=126429|AlignEnd=126580|Gloss=Anaph.Loc.3Sing
-10	áy	áy	INTJ	_	_	3	discourse	_	AlignBegin=126580|AlignEnd=126731|Gloss=indeed
-11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=126731|AlignEnd=126880|Gloss=PUNCT
+3	ʧàː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=125369|AlignEnd=125572|Gloss=3Plur.Imp|wordform=ʧàːyí
+4	yí	yíː	AUX	_	Aspect=Iter	3	compound	_	Gloss=Iter
+5	fî	fi	VERB	_	_	3	comp:aux	_	AlignBegin=125572|AlignEnd=125775|Gloss=do
+6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=125775|AlignEnd=125976|Gloss=PUNCT
+7	ká	a	AUX	_	Number=Plur|Person=2|Tense=Fut	3	conj:dicto	_	AlignBegin=125976|AlignEnd=126127|Gloss=2Plur.Fut
+8	fî	fi	VERB	_	_	7	comp:aux	_	AlignBegin=126127|AlignEnd=126278|Gloss=do
+9	maːndə	maːndə	NOUN	_	_	8	comp:obj	_	AlignBegin=126278|AlignEnd=126429|Gloss=fight
+10	ɣáy	káy	PRON	_	Case=Loc|Number=Sing|Person=3|PronType=Prs	8	comp:obl@expl	_	AlignBegin=126429|AlignEnd=126580|Gloss=Anaph.Loc.3Sing
+11	áy	áy	INTJ	_	_	3	discourse	_	AlignBegin=126580|AlignEnd=126731|Gloss=indeed
+12	//	//	PUNCT	_	_	3	punct	_	AlignBegin=126731|AlignEnd=126880|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_088-090
 # speaker_id = SP1
@@ -1303,25 +1304,27 @@
 # text = kóː burgàl gín ɗan ʧàːyí mbwaː míːsəŋ gáyín < tôː yâːn máː < ʧàːyí ɬet pîːs káy ɓét //
 # text_ortho = kóː burgàl gín ɗan ʧàːyí mbwaː míːsəŋ gáyín < tôː yâːn máː < ʧàːyí ɬet píːʃês káy ɓét //
 # text_en = Or that swizzle stick that they stirred soup with, well, it too, they carved arrows with it.
-1	kóː	kóː	CCONJ	_	_	14	discourse	_	AlignBegin=203780|AlignEnd=203969|Gloss=or|Lang=ha
-2	burgàl	burgàl	NOUN	_	_	14	dislocated@top	_	AlignBegin=203969|AlignEnd=204158|Gloss=swizzle_stick
+1	kóː	kóː	CCONJ	_	_	15	discourse	_	AlignBegin=203780|AlignEnd=203969|Gloss=or|Lang=ha
+2	burgàl	burgàl	NOUN	_	_	15	dislocated@top	_	AlignBegin=203969|AlignEnd=204158|Gloss=swizzle_stick
 3	gín	giní	DET	_	Deixis=Prox|PronType=Dem	2	det	_	AlignBegin=204158|AlignEnd=204347|Gloss=Prox
 4	ɗan	ɗan	SCONJ	_	_	2	mod@relcl	_	AlignBegin=204347|AlignEnd=204536|Gloss=REL
-5	ʧàːyí	yáːyiː	AUX	_	Aspect=ImpIter|Number=Plur|Person=3	4	comp:obj	_	AlignBegin=204536|AlignEnd=204725|Gloss=3Plur.Imp.Iter
-6	mbwaː	mbwaː	VERB	_	_	5	comp:aux	_	AlignBegin=204725|AlignEnd=204914|Gloss=kick
-7	míːsəŋ	míːsəŋ	VERB	_	_	6	comp:obj	_	AlignBegin=204914|AlignEnd=205103|Gloss=soup
-8	gáyín	káy	PRON	_	Case=Loc|Deixis=Prox|Number=Sing|Person=3|PronType=Prs	6	comp:obl@expl	_	AlignBegin=205103|AlignEnd=205292|Gloss=Anaph.Loc.3Sing.Prox|wordform=káy
-9	<	<	PUNCT	_	_	2	punct	_	AlignBegin=205292|AlignEnd=205480|Gloss=PUNCT
-10	tôː	tòː	PART	_	PartType=Foc	14	discourse	_	AlignBegin=206140|AlignEnd=206350|Gloss=well
-11	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	14	dislocated@top	_	AlignBegin=206350|AlignEnd=206560|Gloss=3Sing.IDP
-12	máː	máː	PART	_	PartType=Top	11	discourse@top	_	AlignBegin=206560|AlignEnd=206770|Gloss=also
-13	<	<	PUNCT	_	_	11	punct	_	AlignBegin=206770|AlignEnd=206980|Gloss=PUNCT
-14	ʧàːyí	yáːyiː	AUX	_	Aspect=ImpIter|Number=Sing|Person=3	0	root	_	AlignBegin=207200|AlignEnd=207370|Gloss=3Plur.Imp.Iter
-15	ɬet	ɬet	VERB	_	_	14	comp:aux	_	AlignBegin=207370|AlignEnd=207540|Gloss=carve
-16	pîːs	pîːs	NOUN	_	Definite=Def	15	comp:obj	_	AlignBegin=207540|AlignEnd=207710|Gloss=arrow.Def
-17	káy	káy	PRON	_	Case=Loc|Number=Sing|Person=3|PronType=Prs	15	comp:obl@expl	_	AlignBegin=207710|AlignEnd=207880|Gloss=Anaph.Loc.3Sing
-18	ɓét	ɓét	ADV	_	_	14	mod	_	AlignBegin=207880|AlignEnd=208050|Gloss=all
-19	//	//	PUNCT	_	_	14	punct	_	AlignBegin=208050|AlignEnd=208220|Gloss=PUNCT
+5	ʧàː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	4	comp:obj	_	AlignBegin=204536|AlignEnd=204725|Gloss=3Plur.Imp|wordform=ʧàːyí
+6	yí	yíː	AUX	_	Aspect=Iter	5	compound	_	Gloss=Iter
+7	mbwaː	mbwaː	VERB	_	_	5	comp:aux	_	AlignBegin=204725|AlignEnd=204914|Gloss=kick
+8	míːsəŋ	míːsəŋ	VERB	_	_	7	comp:obj	_	AlignBegin=204914|AlignEnd=205103|Gloss=soup
+9	gáyín	káy	PRON	_	Case=Loc|Deixis=Prox|Number=Sing|Person=3|PronType=Prs	7	comp:obl@expl	_	AlignBegin=205103|AlignEnd=205292|Gloss=Anaph.Loc.3Sing.Prox|wordform=káy
+10	<	<	PUNCT	_	_	2	punct	_	AlignBegin=205292|AlignEnd=205480|Gloss=PUNCT
+11	tôː	tòː	PART	_	PartType=Foc	15	discourse	_	AlignBegin=206140|AlignEnd=206350|Gloss=well
+12	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	15	dislocated@top	_	AlignBegin=206350|AlignEnd=206560|Gloss=3Sing.IDP
+13	máː	máː	PART	_	PartType=Top	12	discourse@top	_	AlignBegin=206560|AlignEnd=206770|Gloss=also
+14	<	<	PUNCT	_	_	12	punct	_	AlignBegin=206770|AlignEnd=206980|Gloss=PUNCT
+15	ʧàː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=3	0	root	_	AlignBegin=207200|AlignEnd=207370|Gloss=3Plur.Imp|wordform=ʧàːyí
+16	yí	yíː	AUX	_	Aspect=Iter	15	compound	_	Gloss=Iter
+17	ɬet	ɬet	VERB	_	_	15	comp:aux	_	AlignBegin=207370|AlignEnd=207540|Gloss=carve
+18	pîːs	pîːs	NOUN	_	Definite=Def	17	comp:obj	_	AlignBegin=207540|AlignEnd=207710|Gloss=arrow.Def
+19	káy	káy	PRON	_	Case=Loc|Number=Sing|Person=3|PronType=Prs	17	comp:obl@expl	_	AlignBegin=207710|AlignEnd=207880|Gloss=Anaph.Loc.3Sing
+20	ɓét	ɓét	ADV	_	_	15	mod	_	AlignBegin=207880|AlignEnd=208050|Gloss=all
+21	//	//	PUNCT	_	_	15	punct	_	AlignBegin=208050|AlignEnd=208220|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_04_Hunt_152-152
 # speaker_id = SP1
