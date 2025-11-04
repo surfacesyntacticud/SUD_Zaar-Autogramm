@@ -150,7 +150,7 @@
 4	gə̀tn	gə̀tn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	mod@poss	_	AlignBegin=13594|AlignEnd=13792|Gloss=3SingGen
 5	tu	tu	SCONJ	_	_	7	discourse	_	AlignBegin=13792|AlignEnd=13991|Gloss=Qot
 6	kóːdàː	kóːdàː	ADV	_	Mood=Irr	7	mod	_	AlignBegin=13991|AlignEnd=14213|Gloss=Counterfact
-7	mìː	yíː	AUX	_	Mood=Irr|Number=Plur|Person=1	0	root	_	AlignBegin=14213|AlignEnd=14435|Gloss=1Plur.Counterfact
+7	mìː	yíː	AUX	_	Mood=Cntf|Number=Plur|Person=1	0	root	_	AlignBegin=14213|AlignEnd=14435|Gloss=1Plur.Counterfact
 8	ɬǐː	ɬə	VERB	_	Deixis=Remt	7	comp:aux	_	AlignBegin=14435|AlignEnd=14546|Gloss=go.Remt|Result=Yes
 9	á	ká	ADP	_	_	8	comp:obl	_	AlignBegin=14657|AlignEnd=14879|Gloss=at
 10	lə̂p	lə̂p	NOUN	_	_	9	comp:obj	_	AlignBegin=14879|AlignEnd=15101|Gloss=place
@@ -575,7 +575,7 @@
 # text_ortho = kóː mìː tú wurɓǎŋ máː < má ngêláŋ éy !//
 # text_en = Even if we don't have money, we will walk around!
 1	kóː	kóː	SCONJ	_	_	8	mod	_	AlignBegin=59881|AlignEnd=60035|Gloss=or
-2	mìː	yíː	AUX	_	Mood=Irr|Number=Plur|Person=1	1	comp:obj	_	AlignBegin=60035|AlignEnd=60189|Gloss=1Plur.Counterfact
+2	mìː	yíː	AUX	_	Mood=Cntf|Number=Plur|Person=1	1	comp:obj	_	AlignBegin=60035|AlignEnd=60189|Gloss=1Plur.Counterfact
 3	tú	tu	VERB	_	_	2	comp:aux	_	AlignBegin=60189|AlignEnd=60343|Gloss=get
 4-5	wurɓǎŋ	_	_	_	_	_	_	_	_
 4	wurɓa	wurɓa	NOUN	_	_	3	comp:obj	_	AlignBegin=60343|AlignEnd=60420|Gloss=money
@@ -2554,7 +2554,7 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 294788, 302198
-# text = gòs káwêy < dàːmuwáwôs tə̀ yél àː kapmíː dón mə̀ ɬíː mə̀yi ɬə́ irin teːmakéʃí á tuːrɣə̂n gyǎː ngə́tn ʧíɣə̂n da sauransu dai tə̀ ngáː tə̀ húːtá //
+# text = gòs káwêy < dàːmuwáwôs tə̀ yél àː kapmíː dón mə̀ ɬíː mə̀ yì ɬə́ irin teːmakéʃí á tuːrɣə̂n gyǎː ngə́tn ʧíɣə̂n da sauransu dai tə̀ ngáː tə̀ húːtá //
 # text_ortho = gòs káwêy < dàːmuwáwôs tə̀ yél àː kapmíː dòn mə̀ ɬíː mə̀yi ɬə́ irin teːmakéʃí á tuːrɣə̂n gyǎː ngətn ʧíɣə̂n da sauransu dai tə̀ ngáː tə̀ húːtá //
 # text_en = For him, his only trouble is to marry me so that I would go and <hau kind of hau> help him with cooking some food <hau etc. hau> so that he would get some rest.
 1	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	dislocated@top	_	AlignBegin=294788|AlignEnd=295020|Gloss=3SingGen
@@ -2570,25 +2570,26 @@
 10	dón	dón	SCONJ	_	_	8	mod	_	AlignBegin=297200|AlignEnd=297383|Gloss=because
 11	mə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=1	10	comp:obj	_	AlignBegin=297383|AlignEnd=297566|Gloss=1Sing.Sub
 12	ɬíː	ɬə	VERB	_	Deixis=Remt	11	comp:aux	_	AlignBegin=297566|AlignEnd=297658|Gloss=go.Remt|Result=Yes
-13	mə̀yi	yiː	AUX	_	Aspect=Iter|Number=Sing|Person=1	11	parataxis@conj	_	AlignBegin=297749|AlignEnd=297932|Gloss=1Sing.Iter
-14	ɬə́	ɬə	VERB	_	_	13	comp:aux	_	AlignBegin=297932|AlignEnd=298113|Gloss=go
-15	irin	irin	NOUN	_	Foreign=Yes	14	comp:obj@G	_	AlignBegin=298113|AlignEnd=298490|Gloss=kind_of|Lang=ha
-16-17	teːmakéʃí	_	_	_	_	_	_	_	_
-16	teːmaké	teːmaké	VERB	_	_	15	mod	_	AlignBegin=298490|AlignEnd=298678|Gloss=help
-17	ʃí	ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	comp:obj	_	AlignBegin=298678|AlignEnd=298867|Gloss=3Plur.Obj|wordform==ʃí
-18	á	ká	ADP	_	_	16	comp:obl	_	AlignBegin=298867|AlignEnd=299244|Gloss=at
-19	tuːrɣə̂n	tuːr	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	18	comp:obj	_	AlignBegin=299244|AlignEnd=299416|Gloss=cook.Vnoun
-20	gyǎː	gyaː	DET	_	Number=Plur	21	det	_	AlignBegin=299588|AlignEnd=299932|Gloss=3Plur
-21	ngə́tn	ngətn	NOUN	_	Definite=Cons	19	comp:obj	_	AlignBegin=299932|AlignEnd=300276|Gloss=thing
-22	ʧíɣə̂n	ʧi	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	21	compound	_	AlignBegin=300276|AlignEnd=300448|Gloss=eat.Vnoun
-23	da	da	X	_	Foreign=Yes	21	conj:coord	_	AlignBegin=300620|AlignEnd=300874|Gloss=with|Lang=ha
-24	sauransu	sauransu	X	_	Foreign=Yes	23	flat@foreign	_	AlignBegin=300874|AlignEnd=301128|Gloss=rest_of_.3Plur|Lang=ha
-25	dai	dai	X	_	Foreign=Yes	24	flat@foreign	_	AlignBegin=301128|AlignEnd=301381|Gloss=indeed|Lang=ha
-26	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	16	mod	_	AlignBegin=301381|AlignEnd=301544|Gloss=3Sing.Sub
-27	ngáː	ngaː	VERB	_	_	26	comp:aux	_	AlignBegin=301544|AlignEnd=301707|Gloss=take_food
-28	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	26	conj@svc	_	AlignBegin=301707|AlignEnd=301870|Gloss=3Sing.Sub
-29	húːtá	huːtá	VERB	_	_	28	comp:aux	_	AlignBegin=301870|AlignEnd=302033|Gloss=rest
-30	//	//	PUNCT	_	_	5	punct	_	AlignBegin=302033|AlignEnd=302198|Gloss=PUNCT
+13	mə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=1	11	parataxis@conj	_	AlignBegin=297749|AlignEnd=297932|Gloss=1Sing.Sub
+14	yì	yiː	AUX	_	Aspect=Iter	13	compound	_	AlignBegin=297749|AlignEnd=297932|Gloss=Iter
+15	ɬə́	ɬə	VERB	_	_	13	comp:aux	_	AlignBegin=297932|AlignEnd=298113|Gloss=go
+16	irin	irin	NOUN	_	Foreign=Yes	15	comp:obj@G	_	AlignBegin=298113|AlignEnd=298490|Gloss=kind_of|Lang=ha
+17-18	teːmakéʃí	_	_	_	_	_	_	_	_
+17	teːmaké	teːmaké	VERB	_	_	16	mod	_	AlignBegin=298490|AlignEnd=298678|Gloss=help
+18	ʃí	ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	comp:obj	_	AlignBegin=298678|AlignEnd=298867|Gloss=3Plur.Obj|wordform==ʃí
+19	á	ká	ADP	_	_	17	comp:obl	_	AlignBegin=298867|AlignEnd=299244|Gloss=at
+20	tuːrɣə̂n	tuːr	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	19	comp:obj	_	AlignBegin=299244|AlignEnd=299416|Gloss=cook.Vnoun
+21	gyǎː	gyaː	DET	_	Number=Plur	22	det	_	AlignBegin=299588|AlignEnd=299932|Gloss=3Plur
+22	ngə́tn	ngətn	NOUN	_	Definite=Cons	20	comp:obj	_	AlignBegin=299932|AlignEnd=300276|Gloss=thing
+23	ʧíɣə̂n	ʧi	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	22	compound	_	AlignBegin=300276|AlignEnd=300448|Gloss=eat.Vnoun
+24	da	da	X	_	Foreign=Yes	22	conj:coord	_	AlignBegin=300620|AlignEnd=300874|Gloss=with|Lang=ha
+25	sauransu	sauransu	X	_	Foreign=Yes	24	flat@foreign	_	AlignBegin=300874|AlignEnd=301128|Gloss=rest_of_.3Plur|Lang=ha
+26	dai	dai	X	_	Foreign=Yes	25	flat@foreign	_	AlignBegin=301128|AlignEnd=301381|Gloss=indeed|Lang=ha
+27	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	17	mod	_	AlignBegin=301381|AlignEnd=301544|Gloss=3Sing.Sub
+28	ngáː	ngaː	VERB	_	_	27	comp:aux	_	AlignBegin=301544|AlignEnd=301707|Gloss=take_food
+29	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	27	conj@svc	_	AlignBegin=301707|AlignEnd=301870|Gloss=3Sing.Sub
+30	húːtá	huːtá	VERB	_	_	29	comp:aux	_	AlignBegin=301870|AlignEnd=302033|Gloss=rest
+31	//	//	PUNCT	_	_	5	punct	_	AlignBegin=302033|AlignEnd=302198|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_305-307
 # speaker_id = SP2
