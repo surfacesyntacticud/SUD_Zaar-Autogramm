@@ -1243,7 +1243,7 @@
 13	kura	kura	NOUN	_	Foreign=Yes	16	dislocated@subj	_	AlignBegin=175082|AlignEnd=175227|Gloss=hyena|Lang=ha
 14	ɣən	kən	PART	_	PartType=Foc	13	discourse@foc	_	AlignBegin=175227|AlignEnd=175372|Gloss=be
 15	<	<	PUNCT	_	_	13	punct	_	AlignBegin=175372|AlignEnd=175518|Gloss=PUNCT
-16	ʧínaː	yáːnaː	AUX	_	Aspect=Conc|Number=Sing|Person=3	0	root	_	AlignBegin=175518|AlignEnd=175687|Gloss=3Sing.Conc
+16	ʧínaː	yáːnaː	AUX	_	Aspect=Prog|Number=Sing|Person=3	0	root	_	AlignBegin=175518|AlignEnd=175687|Concomitant=Yes|Gloss=3Sing.Conc
 17	mân	máni	VERB	_	_	16	comp:aux	_	AlignBegin=175687|AlignEnd=175856|Gloss=come
 18	nə́	nə́	ADP	_	_	17	mod	_	AlignBegin=175856|AlignEnd=176025|Gloss=for
 19	ɬyáɣə̂n	ɬya	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	18	comp:obj	_	AlignBegin=176025|AlignEnd=176194|Gloss=drink|wordform=ɬya
@@ -1266,7 +1266,7 @@
 6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=180033|AlignEnd=180061|Gloss=PUNCT
 7	kyàːní	kyàːní	PRON	_	Number=Sing|Person=2|PronType=Prs	0	root	_	AlignBegin=180297|AlignEnd=180539|Gloss=2Plur
 8	>+	>+	PUNCT	_	_	9	punct	_	AlignBegin=180539|AlignEnd=180781|Gloss=PUNCT
-9	kə̀tà	ta	AUX	_	Number=Sing|Person=2|Tense=Rem	7	comp:cleft	_	AlignBegin=180781|AlignEnd=181023|Gloss=2Plur.Rem
+9	kə̀tà	ta	AUX	_	Number=Sing|Person=2|Tense=Past	7	comp:cleft	_	AlignBegin=180781|AlignEnd=181023|Gloss=2Plur.RemPast|Remote=Yes
 10-12	fimgáy	_	_	_	_	_	_	_	_
 10	fi	fi	VERB	_	_	9	comp:aux	_	AlignBegin=181023|AlignEnd=181104|Gloss=do
 11	m	mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	comp:obj@R	_	AlignBegin=181104|AlignEnd=181185|Gloss=1Sing.Obj|wordform==m
@@ -1310,7 +1310,7 @@
 # text_en = It was...
 1	gíː	gíː	PRON	_	Deixis=Remt|PronType=Dem	3	dislocated@subj	_	AlignBegin=184734|AlignEnd=184869|Gloss=Remt
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=184869|AlignEnd=185004|Gloss=PUNCT
-3	átâ	ta	AUX	_	Number=Sing|Person=3|Tense=Rem	0	root@scrap	_	AlignBegin=185004|AlignEnd=185139|Gloss=3Sing.Rem
+3	átâ	ta	AUX	_	Number=Sing|Person=3|Tense=Past	0	root@scrap	_	AlignBegin=185004|AlignEnd=185139|Gloss=3Sing.RemPast|Remote=Yes
 4	yi	yi	VERB	_	_	3	comp:aux	_	AlignBegin=185004|AlignEnd=185139|Gloss=be
 5	nə	nə	ADP	_	_	4	comp:pred	_	AlignBegin=185004|AlignEnd=185139|Gloss=DER
 6	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=185274|AlignEnd=185407|Gloss=PUNCT
@@ -1432,7 +1432,7 @@
 12	ngə́tn	ngə́tn	NOUN	_	_	8	conj:appos	_	AlignBegin=196971|AlignEnd=197132|Gloss=thing
 13	wón	wón	DET	_	Definite=Spec	12	det	_	AlignBegin=197132|AlignEnd=197293|Gloss=SPEC
 14	ɗan	ɗan	SCONJ	_	_	12	mod@relcl	_	AlignBegin=197293|AlignEnd=197454|Gloss=REL
-15	kə̀tà	ta	AUX	_	Number=Sing|Person=2|Tense=Rem	14	comp:obj	_	AlignBegin=197454|AlignEnd=197615|Gloss=2Plur.Rem
+15	kə̀tà	ta	AUX	_	Number=Sing|Person=2|Tense=Past	14	comp:obj	_	AlignBegin=197454|AlignEnd=197615|Gloss=2Plur.RemPast|Remote=Yes
 16-17	fim	_	_	_	_	_	_	_	_
 16	fi	fi	VERB	_	_	15	comp:aux	_	AlignBegin=197615|AlignEnd=197695|Gloss=do
 17	m	mə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	comp:obj@R	_	AlignBegin=197695|AlignEnd=197776|Gloss=1Sing.Obj|wordform==m
@@ -1616,7 +1616,7 @@
 8	[	[	PUNCT	_	_	10	punct	_	AlignBegin=216085|AlignEnd=216219|Gloss=PUNCT
 9	áy	áy	INTJ	_	_	10	discourse	_	AlignBegin=216219|AlignEnd=216375|Gloss=eh
 10	máː	áː	AUX	_	Aspect=Perf|Number=Sing|Person=1	7	comp:obj	_	AlignBegin=216375|AlignEnd=216531|Gloss=1Sing.Perf|wordform=máːtá
-11	tá	ta	AUX	_	Tense=Rem	10	compound	_	Gloss=Rem
+11	tá	ta	AUX	_	Tense=Past	10	compound	_	Gloss=RemPast|Remote=Yes
 12	fî	fi	VERB	_	_	10	comp:aux	_	AlignBegin=216531|AlignEnd=216687|Gloss=do
 13	hàkuri	hàkuri	NOUN	_	_	12	comp:obj	_	AlignBegin=216687|AlignEnd=216843|Gloss=patience
 14	á	ká	ADP	_	_	12	comp:obl	_	AlignBegin=216843|AlignEnd=216999|Gloss=at
@@ -1739,13 +1739,13 @@
 # text_ortho = káːtá tû mbàraːɗàːtá ʧîːʧéɣə́y //
 # text_en = You found Crownbird who saved you.
 1	káː	áː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=228534|AlignEnd=228794|Gloss=2Sing.Perf|wordform=káːtá
-2	tá	ta	AUX	_	Tense=Rem	1	compound	_	Gloss=Rem
+2	tá	ta	AUX	_	Tense=Past	1	compound	_	Gloss=RemPast|Remote=Yes
 3	tû	tu	VERB	_	_	1	comp:aux	_	AlignBegin=228794|AlignEnd=229054|Gloss=get
 4-6	mbàraːɗàːtá	_	_	_	_	_	_	_	_
 4	mbàraːt	mbàraːt	NOUN	_	_	3	comp:obj	_	AlignBegin=229054|AlignEnd=229314|Gloss=crownbird
 5	ɗa	ɗa	SCONJ	_	_	4	mod@relcl	_	AlignBegin=229054|AlignEnd=229314|Gloss=REL
 6	àː	áː	AUX	_	Aspect=Perf|Number=Sing|Person=3	5	comp:obj	_	AlignBegin=229314|AlignEnd=229574|Gloss=3Sing.Perf|wordform=àːtá
-7	tá	ta	AUX	_	Tense=Rem	6	compound	_	Gloss=Rem
+7	tá	ta	AUX	_	Tense=Past	6	compound	_	Gloss=RemPast|Remote=Yes
 8-9	ʧîːʧéɣə́y	_	_	_	_	_	_	_	_
 8	ʧîːʧé	ʧiːʧé	VERB	_	_	6	comp:aux	_	AlignBegin=229574|AlignEnd=229834|Gloss=save
 9	ɣə́y	kə	PRON	_	Case=Acc|Deixis=Remt|Number=Sing|Person=2|PronType=Prs	8	comp:obj	_	AlignBegin=229661|AlignEnd=229748|Gloss=2Sing.Obj.Remt|Result=Yes|wordform==kə
@@ -2354,11 +2354,11 @@
 # text_ortho = àːyí yè lə̂p yóːɗan ʧìː yìɣáy ?//
 # text_en = Had he seen where they were?
 1	àː	áː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=313790|AlignEnd=314015|Gloss=3Sing.Perf|wordform=àːyí
-2	yí	áyí	AUX	_	Tense=Imm	1	compound	_	Gloss=Imm
+2	yí	áyí	AUX	_	Tense=Past	1	compound	_	Gloss=ImmPast|Immediate=Yes
 3	yè	yel	VERB	_	_	1	comp:aux	_	AlignBegin=314015|AlignEnd=314240|Gloss=see
 4	lə̂p	lə̂p	NOUN	_	_	3	comp:obj	_	AlignBegin=314240|AlignEnd=314465|Gloss=place
 5	yóːɗan	yóːɗan	PRON	_	PronType=Rel	7	comp:pred	_	AlignBegin=314465|AlignEnd=314690|Gloss=where
-6	ʧìː	áyí	AUX	_	Number=Plur|Person=3|Tense=Imm	4	mod@relcl	_	AlignBegin=314690|AlignEnd=314765|Gloss=3Plur.Imm
+6	ʧìː	áyí	AUX	_	Number=Plur|Person=3|Tense=Past	4	mod@relcl	_	AlignBegin=314690|AlignEnd=314765|Gloss=3Plur.ImmPast|Immediate=Yes
 7-8	yìɣáy	_	_	_	_	_	_	_	_
 7	yì	yi	VERB	_	_	6	comp:aux	_	AlignBegin=314690|AlignEnd=314765|Gloss=be
 8	ɣáy	káy	PRON	_	Case=Loc|Number=Sing|Person=3|PronType=Prs	7	comp:obl@expl	_	AlignBegin=314840|AlignEnd=314915|Gloss=Anaph.Loc.3Sing
@@ -3024,7 +3024,7 @@
 # text_ortho = ǎːy ngàːtə̀ ɣá gíː ɗan //
 # text_en = He had already made him suffer.
 1	àː	áː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=389001|AlignEnd=389157|Gloss=3Sing.Perf|wordform=ǎːy
-2	yí	áyí	AUX	_	Tense=Imm	1	compound	_	Gloss=Imm
+2	yí	áyí	AUX	_	Tense=Past	1	compound	_	Gloss=ImmPast|Immediate=Yes
 3-4	ngàːtə̀	_	_	_	_	_	_	_	_
 3	ngàː	ngaː	VERB	_	_	1	comp:aux	_	AlignBegin=389157|AlignEnd=389235|Gloss=take_food
 4	tə̀	tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=389235|AlignEnd=389313|Gloss=3Sing.Obj|wordform==tə̀̀
@@ -4639,7 +4639,7 @@
 7	ʧi	yi	AUX	_	Copula=Yes|Number=Sing|Person=3	10	dislocated@top	_	AlignBegin=584133|AlignEnd=584196|Gloss=3Sing.be.Loc|wordform=yi
 8	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	7	comp:pred	_	AlignBegin=584196|AlignEnd=584322|Gloss=3SingGen
 9	<	<	PUNCT	_	_	7	punct	_	AlignBegin=584322|AlignEnd=584449|Gloss=PUNCT
-10	áyí	áyí	AUX	_	Number=Sing|Person=3|Tense=Imm	0	root@scrap	_	AlignBegin=584449|AlignEnd=584593|Gloss=3Sing.Imm
+10	áyí	áyí	AUX	_	Number=Sing|Person=3|Tense=Past	0	root@scrap	_	AlignBegin=584449|AlignEnd=584593|Gloss=3Sing.ImmPast|Immediate=Yes
 11	tu	tu	VERB	_	_	10	comp:aux	_	AlignBegin=584593|AlignEnd=584737|Gloss=get
 12	tôː	tòː	PART	_	PartType=Foc	13	discourse	_	AlignBegin=584737|AlignEnd=584881|Gloss=well
 13	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	11	comp:obj	_	AlignBegin=584881|AlignEnd=585025|Gloss=3Sing.Fut
