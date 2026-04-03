@@ -351,7 +351,7 @@
 2	ŋâl	ŋal	VERB	_	_	1	comp:aux	_	AlignBegin=80535|AlignEnd=80663|Gloss=look_for
 3	tə̀	tə̀	AUX	_	Mood=Jus|Number=Plur|Person=3	2	comp:obj	_	AlignBegin=80663|AlignEnd=80790|Gloss==3Plur.Jus
 4-6	kàttə̀nì	_	_	_	_	_	_	_	_
-4	kàt	kat	VERB	_	_	3	comp:aux	_	AlignBegin=80790|AlignEnd=80875|Gloss=drive_away|Object=ObjectRaising
+4	kàt	kat	VERB	_	Object=ObjectRaising	3	comp:aux	_	AlignBegin=80790|AlignEnd=80875|Gloss=drive_away
 5	tə	tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=80875|AlignEnd=80961|Gloss==3Sing.Acc|wordform==tə
 6	ni	ni	PART	_	Aspect=Inch|PartType=Adv	4	compound:prt	_	AlignBegin=80960|AlignEnd=81300|Gloss=Inch|wordform=-ni
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=81300|AlignEnd=81300|Gloss=PUNCT
@@ -479,7 +479,7 @@
 3	ɬǐː	ɬə	VERB	_	Accomplished=Yes	2	comp:aux	_	AlignBegin=105938|AlignEnd=106092|Gloss=go.Acpl|wordform=ɬə
 4	nə́	nə́	ADP	_	_	3	mod	_	AlignBegin=106247|AlignEnd=106556|Gloss=for
 5	longáy	longa	NOUN	_	Definite=Cons|Deixis=Remt	6	comp:obj	_	AlignBegin=106556|AlignEnd=106710|Gloss=rabbit.Remt|wordform=longa
-6	láːpkə̂n	láːp	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=106865|AlignEnd=107019|Gloss=follow-Vnoun|Object=ObjectRaising|wordform=láːp
+6	láːpkə̂n	láːp	VERB	_	ExtPos=NOUN|Object=ObjectRaising|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=106865|AlignEnd=107019|Gloss=follow-Vnoun|wordform=láːp
 7	séy	séː	ADV	_	_	9	mod	_	AlignBegin=108040|AlignEnd=108260|Gloss=then
 8	Nòːmáu	Nòːmáu	PROPN	_	_	9	subj	_	AlignBegin=108260|AlignEnd=108480|Gloss=Nomau
 9	á	á	AUX	_	Mood=Sub|Number=Sing|Person=3	0	root	_	AlignBegin=109380|AlignEnd=109600|Gloss=3Sing.Sub
@@ -716,8 +716,8 @@
 6	ɬǐː	ɬə	VERB	_	Accomplished=Yes	5	comp:aux	_	AlignBegin=164494|AlignEnd=164591|Gloss=go.Acpl|wordform=ɬə
 7	ɣá	ká	ADP	_	_	6	comp:obl	_	AlignBegin=164688|AlignEnd=164882|Gloss=at
 8	lə̂p	lə̂p	NOUN	_	_	7	comp:obj	_	AlignBegin=164882|AlignEnd=165076|Gloss=place
-9	yóːɗan	yóːɗan	PRON	_	PronType=Rel	11	comp:obl	_	AlignBegin=165076|AlignEnd=165270|Gloss=which
-10	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	8	mod@relcl	_	AlignBegin=165270|AlignEnd=165464|Gloss=3Plur.Imp
+9	yóːɗan	yóːɗan	PRON	_	PronType=Rel	8	mod@relcl	_	AlignBegin=165076|AlignEnd=165270|Gloss=which
+10	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	9	comp:obj	_	AlignBegin=165270|AlignEnd=165464|Gloss=3Plur.Imp
 11	gìː	giː	VERB	_	_	10	comp:aux	_	AlignBegin=165464|AlignEnd=165658|Gloss=bury
 12	zàrsə̀	zaːr	NOUN	_	Number=Plur	11	comp:obj	_	AlignBegin=165658|AlignEnd=165755|Gloss=person.Plur
 13	ɣáy	káy	PRON	_	Case=Loc|Number=Sing|Person=3|PronType=Prs	11	comp:obl	_	AlignBegin=165852|AlignEnd=166046|Gloss=3Sing.Loc
@@ -1354,8 +1354,8 @@
 4	vòn	vòn	NOUN	_	_	5	subj	_	AlignBegin=314720|AlignEnd=314980|Gloss=rain
 5-6	ngàptə̀	_	_	_	_	_	_	_	_
 5	ngàp	ngap	VERB	_	_	1	parataxis@conj	_	AlignBegin=314980|AlignEnd=315110|Gloss=catch
-6	tə	tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=315110|AlignEnd=315240|Gloss==3Sing.Acc|Object=ObjRaising|wordform==tə
-7	ɗúɣə̂n	ɗu	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	5	udep	_	AlignBegin=315240|AlignEnd=315370|Gloss=beat-Vnoun|Object=ObjRaising|wordform=ɗu
+6	tə	tə	PRON	_	Case=Acc|Number=Sing|Object=ObjRaising|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=315110|AlignEnd=315240|Gloss==3Sing.Acc|wordform==tə
+7	ɗúɣə̂n	ɗu	VERB	_	ExtPos=NOUN|Object=ObjRaising|VerbForm=Vnoun	5	comp:obl	_	AlignBegin=315240|AlignEnd=315370|Gloss=beat-Vnoun|wordform=ɗu
 8	gən	kən	PART	_	PartType=Foc|Polarity=Neg	7	discourse@foc	_	AlignBegin=315500|AlignEnd=315760|Gloss=Neg
 9	á	á	AUX	_	Mood=Sub|Number=Sing|Person=3	5	parataxis@conj	_	AlignBegin=316740|AlignEnd=316907|Gloss=3Sing.Sub
 10-11	gyàːɗì	_	_	_	_	_	_	_	_
@@ -1761,8 +1761,8 @@
 11	á	á	AUX	_	Mood=Sub|Number=Sing|Person=3	6	parataxis@conj	_	AlignBegin=419660|AlignEnd=419880|Gloss=3Sing.Sub
 12-13	ngâpʃí	_	_	_	_	_	_	_	_
 12	ngâp	ngap	VERB	_	_	11	comp:aux	_	AlignBegin=419880|AlignEnd=419990|Gloss=catch
-13	ʃí	ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=419990|AlignEnd=420100|Gloss=3Plur.Acc|Object=ObjRaising|wordform==ʃí
-14	vòtkə̀n	vot	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	12	udep	_	AlignBegin=420100|AlignEnd=420210|Gloss=beat-Vnoun|Object=ObjRaising|wordform=vot
+13	ʃí	ʃí	PRON	_	Case=Acc|Number=Plur|Object=ObjRaising|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=419990|AlignEnd=420100|Gloss=3Plur.Acc|wordform==ʃí
+14	vòtkə̀n	vot	VERB	_	ExtPos=NOUN|Object=ObjRaising|VerbForm=Vnoun	12	comp:obl	_	AlignBegin=420100|AlignEnd=420210|Gloss=beat-Vnoun|wordform=vot
 15	gáy	káy	PRON	_	Case=Loc|Number=Sing|Person=3|PronType=Prs	12	comp:obl	_	AlignBegin=420320|AlignEnd=420540|Gloss=3Sing.Loc
 16	//	//	PUNCT	_	_	3	punct	_	AlignBegin=420540|AlignEnd=420760|Gloss=PUNCT
 
@@ -2280,8 +2280,8 @@
 3	á	á	AUX	_	Mood=Sub|Number=Sing|Person=3	0	root	_	AlignBegin=541226|AlignEnd=541459|Gloss=3Sing.Sub
 4-5	ngǔptə	_	_	_	_	_	_	_	_
 4	ngǔp	ngúp	VERB	_	_	3	comp:aux	_	AlignBegin=541459|AlignEnd=541575|Gloss=squat
-5	tə	tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	udep	_	AlignBegin=541575|AlignEnd=541692|Gloss==3Sing.Acc|wordform==tə
-6	ʤàːɣə̀n	ʤáː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=541692|AlignEnd=541808|Gloss=pull-Vnoun|Object=ObjectRaising|wordform=ʤáː
+5	tə	tə	PRON	_	Case=Acc|Number=Sing|Object=ObjectRaising|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=541575|AlignEnd=541692|Gloss==3Sing.Acc|wordform==tə
+6	ʤàːɣə̀n	ʤáː	VERB	_	ExtPos=NOUN|Object=ObjectRaising|VerbForm=Vnoun	4	comp:obl	_	AlignBegin=541692|AlignEnd=541808|Gloss=pull-Vnoun|wordform=ʤáː
 7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=541692|AlignEnd=541808|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_The_master_thief_262-262
@@ -2319,8 +2319,8 @@
 2	á	á	AUX	_	Mood=Sub|Number=Sing|Person=3	0	root	_	AlignBegin=549172|AlignEnd=549424|Gloss=3Sing.Sub
 3-4	ngǔptə	_	_	_	_	_	_	_	_
 3	ngǔp	ngúp	VERB	_	_	2	comp:aux	_	AlignBegin=549424|AlignEnd=549550|Gloss=squat
-4	tə	tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	udep	_	AlignBegin=549550|AlignEnd=549676|Gloss==3Sing.Acc|wordform==tə
-5	ʤàːɣə̀n	ʤáː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	3	comp:obj	_	AlignBegin=549676|AlignEnd=549802|Gloss=pull-Vnoun|Object=ObjectRaising|wordform=ʤáː
+4	tə	tə	PRON	_	Case=Acc|Number=Sing|Object=ObjectRaising|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=549550|AlignEnd=549676|Gloss==3Sing.Acc|wordform==tə
+5	ʤàːɣə̀n	ʤáː	VERB	_	ExtPos=NOUN|Object=ObjectRaising|VerbForm=Vnoun	3	comp:obl	_	AlignBegin=549676|AlignEnd=549802|Gloss=pull-Vnoun|wordform=ʤáː
 6	ʧìɣá	yiká	AUX	_	Aspect=Prog|Number=Plur|Person=3	3	parataxis@mod	_	AlignBegin=550820|AlignEnd=551013|Gloss=3Plur.Prog
 7	ɬə́ɣə̂n	ɬə	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	6	comp:obj	_	AlignBegin=551013|AlignEnd=551109|Gloss=go-Vnoun|wordform=ɬə
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=551206|AlignEnd=551400|Gloss=PUNCT
