@@ -20,15 +20,15 @@
 4	faːrá	faːrá	VERB	_	_	3	comp:aux	_	AlignBegin=3920|AlignEnd=4200|Gloss=begin
 5	kwáːngə̂n	kwáːn	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=4200|AlignEnd=4340|Gloss=narrate-Vnoun|wordform=kwáːn
 6	ɗangəní	ɗangəní	ADV	_	_	5	mod	_	AlignBegin=4480|AlignEnd=4760|Gloss=now
-7	dàgà	dàgà	SCONJ	_	_	5	udep	_	AlignBegin=5660|AlignEnd=6060|Gloss=from
+7	dàgà	dàgà	ADP	_	_	5	mod	_	AlignBegin=5660|AlignEnd=6060|Gloss=from
 8	yáddìyóːɗan	yáddìyóːɗan	PRON	_	PronType=Rel	7	comp:obj	_	AlignBegin=6060|AlignEnd=6460|Gloss=when
 9	yàː	yǎː	AUX	_	Mood=Cnd|Number=Plur|Person=3	8	mod@relcl	_	AlignBegin=7580|AlignEnd=7736|Gloss=3Plur.Cnd
 10-11	və̀rɣə̀	_	_	_	_	_	_	_	_
 10	və̀r	vər	VERB	_	_	9	comp:aux	_	AlignBegin=7736|AlignEnd=7892|Gloss=give
 11	ɣə̀	kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	10	comp:obj@R	_	AlignBegin=7892|AlignEnd=8048|Gloss=2Sing.OBJ|wordform==ɣə̀
 12	wâː	waaː	NOUN	_	_	10	comp:obj@T	_	AlignBegin=8048|AlignEnd=8204|Gloss=guineacorn
-13	hár	hár	CCONJ	_	_	10	mod	_	AlignBegin=9020|AlignEnd=9183|Gloss=until
-14	tə̀	tə̀	AUX	_	Mood=Jus|Number=Sing|Person=3	13	comp:obj	_	AlignBegin=9183|AlignEnd=9346|Gloss=3Sing.Jus
+13	hár	hár	CCONJ	_	_	14	cc	_	AlignBegin=9020|AlignEnd=9183|Gloss=until
+14	tə̀	tə̀	AUX	_	Mood=Jus|Number=Sing|Person=3	9	comp:obj	_	AlignBegin=9183|AlignEnd=9346|Gloss=3Sing.Jus
 15	mán	máni	VERB	_	_	14	comp:aux	_	AlignBegin=9346|AlignEnd=9509|Gloss=come
 16	náːy	naː	VERB	_	Accomplished=Yes	15	compound:svc	_	AlignBegin=9509|AlignEnd=9591|Gloss=become.Acpl
 17	nə	nə	ADP	_	_	16	comp:pred	_	AlignBegin=9672|AlignEnd=9835|Gloss=DER
@@ -414,12 +414,12 @@
 3-4	dingátə	_	_	_	_	_	_	_	_
 3	dingá	dingaː	VERB	_	_	2	comp:aux	_	AlignBegin=106768|AlignEnd=106972|Gloss=continue
 4	tə	tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=106972|AlignEnd=107176|Gloss==3Sing.Acc|Object=ObjRaising|wordform==tə
-5	káskə̂n	kas	VERB	_	_	3	udep	_	AlignBegin=107176|AlignEnd=107278|Gloss=stir-Vnoun|Object=ObjRaising|wordform=kas
-6	kə	á	AUX	_	Mood=Sub|Number=Sing|Person=2	2	conj:coord	_	AlignBegin=107584|AlignEnd=107788|Gloss=2Sing.Sub
+5	káskə̂n	kas	VERB	_	Raising=Yes	3	comp:obl	_	AlignBegin=107176|AlignEnd=107278|Gloss=stir-Vnoun|Object=ObjRaising|wordform=kas
+6	kə	á	AUX	_	Mood=Sub|Number=Sing|Person=2	2	conj:redup	_	AlignBegin=107584|AlignEnd=107788|Gloss=2Sing.Sub
 7-8	dingátə	_	_	_	_	_	_	_	_
 7	dingá	dingá	VERB	_	_	6	comp:aux	_	AlignBegin=107788|AlignEnd=107992|Gloss=continue
 8	tə	tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=107992|AlignEnd=108196|Gloss==3Sing.Acc|Object=ObjRaising|wordform==tə
-9	káskə̂n	kas	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	7	comp:obl	_	AlignBegin=108196|AlignEnd=108298|Gloss=stir-Vnoun|Object=ObjRaising|wordform=kas
+9	káskə̂n	kas	VERB	_	ExtPos=NOUN|Raising=Yes|VerbForm=Vnoun	7	comp:obl	_	AlignBegin=108196|AlignEnd=108298|Gloss=stir-Vnoun|Object=ObjRaising|wordform=kas
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=108400|AlignEnd=108600|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_01_Beer_055-058
@@ -1383,11 +1383,11 @@
 # sent_id = SAY_BC_READ_01_Beer_174-181
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
 # sent_timecode = 360200, 374140
-# text = wúl mwàːɣə̀n gòʃ kyáː ɲíːtə gòʃíː káwêy kóː nə wâː íri gyòː ɗan giní a: kə ɲiː a: kə mán kaːʃíː kə ɗíːltə wuɣn á ɓâníː //
+# text = wúl mwàːɣə̀n gòs kyáː ɲíːtə gòʃíː káwêy kóː nə wâː íri gyòː ɗan giní aː kə ɲíː aː kə mán kaːʃíː kə ɗíːltə wuɣn á ɓâníː //
 # text_ortho = wúl mwàːɣə̀n gòs kyáː ɲíːtə gòʃíː káwêy kóː nə wâː íri gyòː ɗan giní aː kə ɲíː aː kə mán kaːʃíː kə ɗíːltə wuɣn á ɓâníː //
 # text_en = As for sweet gruel, just after grinding it, any kind of guinea-corn, like this one, after you have ground it, you mix it, you sift powdered roots into it, and that's it.
 1	wúl	wûl	NOUN	_	Definite=Cons	20	dislocated@T	_	AlignBegin=360200|AlignEnd=360475|Gloss=gruel.Cons
-2	mwàːɣə̀n	mwaː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	1	compound	_	AlignBegin=360475|AlignEnd=360613|Gloss=be_sweet-Vnoun|wordform=mwaː
+2	mwàːɣə̀n	mwaː	VERB	_	ExtPos=NOUN|Raising=Yes|VerbForm=Vnoun	1	compound	_	AlignBegin=360475|AlignEnd=360613|Gloss=be_sweet-Vnoun|wordform=mwaː
 3	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	mod@ethic	_	AlignBegin=360750|AlignEnd=361025|Gloss=3SingGen
 4	kyáː	yǎː	AUX	_	Mood=Cnd|Number=Sing|Person=2	20	mod	_	AlignBegin=362120|AlignEnd=362368|Gloss=2Sing.Cnd
 5-6	ɲíːtə	_	_	_	_	_	_	_	_

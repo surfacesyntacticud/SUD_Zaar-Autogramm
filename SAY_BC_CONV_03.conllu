@@ -420,7 +420,7 @@
 37	ɲôm	ɲom	VERB	_	_	0	root	_	AlignBegin=76021|AlignEnd=76240|Gloss=take
 38	gyaː	gyaː	DET	_	Number=Plur	39	det	_	AlignBegin=76240|AlignEnd=76459|Gloss=3Plur
 39	lə̂p	lə̂p	NOUN	_	_	37	comp:obj	_	AlignBegin=76459|AlignEnd=76678|Gloss=place
-40	tsə̀tngə̀n	tsə́tn	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	39	compound	_	AlignBegin=76678|AlignEnd=76895|Gloss=sit
+40	tsə̀tngə̀n	tsə́tn	VERB	_	ExtPos=NOUN|Raising=Yes|VerbForm=Vnoun	39	compound	_	AlignBegin=76678|AlignEnd=76895|Gloss=sit
 41	tə̀	tə̀	AUX	_	Mood=Jus|Number=Plur|Person=3	37	mod	_	AlignBegin=77598|AlignEnd=78094|Gloss=3Plur.Jus
 42	gǎːy	gaː	VERB	_	Accomplished=Yes	41	comp:aux	_	AlignBegin=78338|AlignEnd=78446|Gloss=leave.Acpl
 43	ɣá	ká	ADP	_	_	42	comp:obl	_	AlignBegin=78446|AlignEnd=78554|Gloss=at
@@ -1684,9 +1684,9 @@
 16	á	á	AUX	_	Mood=Sub|Number=Sing|Person=3	0	root	_	AlignBegin=239452|AlignEnd=239653|Gloss=3Sing.Sub
 17	fǐː	fi	VERB	_	Accomplished=Yes	16	comp:aux	_	AlignBegin=239653|AlignEnd=239854|Gloss=do.Acpl|wordform=fîː
 18	ɗan	ɗan	ADP	_	_	17	comp:pred	_	AlignBegin=239854|AlignEnd=240055|Gloss=as
-19	dàgà	dàgà	CCONJ	_	_	18	udep	_	AlignBegin=240055|AlignEnd=240256|Gloss=from
+19	dàgà	dàgà	CCONJ	_	_	18	comp:obj	_	AlignBegin=240055|AlignEnd=240256|Gloss=from
 20	Púʤì	Púʤì	PROPN	_	_	19	comp:obj	_	AlignBegin=240256|AlignEnd=240457|Gloss=Tafawa_Balewa
-21	zuwa	zuwa	CCONJ	_	Foreign=Yes	18	udep	_	AlignBegin=240657|AlignEnd=240838|Gloss=around|Lang=ha
+21	zuwa	zuwa	CCONJ	_	Foreign=Yes	19	conj:coord	_	AlignBegin=240657|AlignEnd=240838|Gloss=around|Lang=ha
 22	Zwàl	Zwàl	PROPN	_	_	21	comp:obj	_	AlignBegin=240838|AlignEnd=241019|Gloss=Zwal
 23	//	//	PUNCT	_	_	16	punct	_	AlignBegin=241019|AlignEnd=241199|Gloss=PUNCT
 
@@ -4563,8 +4563,8 @@
 21	gín	gín	PRON	_	Deixis=Prox|PronType=Dem	20	unk	_	AlignBegin=540249|AlignEnd=540490|Gloss=Prox|InIdiom=Yes
 22	ɗan	ɗan	SCONJ	_	_	21	unk	_	AlignBegin=540490|AlignEnd=540731|Gloss=REL|InIdiom=Yes
 23	máː	máː	PART	_	PartType=Top	20	discourse@top	_	AlignBegin=540731|AlignEnd=540972|Gloss=even
-24	wâː	wâː	NOUN	_	_	25	comp:obj	_	AlignBegin=541615|AlignEnd=541786|Gloss=guinea_corn
-25	ɗùɣə̀nì	ɗu	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	26	subj	_	AlignBegin=541786|AlignEnd=541957|Gloss=beat
+24	wâː	wâː	NOUN	_	_	26	subj	_	AlignBegin=541615|AlignEnd=541786|Gloss=guinea_corn
+25	ɗùɣə̀nì	ɗu	VERB	_	ExtPos=NOUN|Raising=Yes|VerbForm=Vnoun	24	compound	_	AlignBegin=541786|AlignEnd=541957|Gloss=beat
 26	àː	áː	AUX	_	Aspect=Perf|Number=Sing|Person=3	20	comp:obj	_	AlignBegin=541957|AlignEnd=542128|Gloss=3Sing.Perf
 27	ɓaníː	ɓaní	VERB	_	Accomplished=Yes	26	comp:aux	_	AlignBegin=542128|AlignEnd=542242|Gloss=finish.Acpl
 28	ŋ̌	hŋ́	PART	_	PartType=Neg|Polarity=Neg	27	mod	_	AlignBegin=542242|AlignEnd=542299|Gloss=Neg
@@ -4589,8 +4589,8 @@
 # sent_timecode = 543771, 545274
 # text_ortho = wâː ɗùkə̀nì àː ɓaníː < kóːnúː ʧin gáy //
 # text_en = When corn beating has finished, everybody is busy.
-1	wâː	wâː	NOUN	_	_	2	comp:obj	_	AlignBegin=543771|AlignEnd=543934|Gloss=guinea_corn
-2	ɗùɣə̀nì	ɗu	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	3	subj	_	AlignBegin=543934|AlignEnd=544097|Gloss=beat
+1	wâː	wâː	NOUN	_	_	3	subj	_	AlignBegin=543771|AlignEnd=543934|Gloss=guinea_corn
+2	ɗùɣə̀nì	ɗu	VERB	_	ExtPos=NOUN|Raising=Yes|VerbForm=Vnoun	1	compound	_	AlignBegin=543934|AlignEnd=544097|Gloss=beat
 3	àː	áː	AUX	_	Aspect=Perf|Number=Sing|Person=3	7	mod	_	AlignBegin=544097|AlignEnd=544260|Gloss=3Sing.Perf
 4	ɓaníː	ɓan	VERB	_	Accomplished=Yes	3	comp:aux	_	AlignBegin=544260|AlignEnd=544423|Gloss=finish.Acpl|SVC=Yes
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=544423|AlignEnd=544585|Gloss=PUNCT
@@ -7382,7 +7382,7 @@
 6	táːɗi	táːɗi	NOUN	_	Foreign=Yes	3	comp:aux	_	AlignBegin=841290|AlignEnd=841654|Gloss=chatting|Lang=ha
 7	èː	èː	INTJ	_	_	9	discourse	_	AlignBegin=841654|AlignEnd=842019|Gloss=FILL
 8	gyaː	gyaː	DET	_	Number=Plur	9	det	_	AlignBegin=842359|AlignEnd=842520|Gloss=3Plur
-9	mókʃiwòpm	mókʃi	NOUN	_	Case=Gen|Number=Plur|Person=1	6	udep	_	AlignBegin=842520|AlignEnd=842600|Gloss=girlfriend.1PlurGen|wordform=mókʃi
+9	mókʃiwòpm	mókʃi	NOUN	_	Case=Gen|Number=Plur|Person=1	6	unk	_	AlignBegin=842520|AlignEnd=842600|Gloss=girlfriend.1PlurGen|wordform=mókʃi
 10	|c	|c	PUNCT	_	_	14	punct	_	AlignBegin=842681|AlignEnd=842842|Gloss=PUNCT
 11	tə́	tə́	CCONJ	_	_	14	cc	_	AlignBegin=842842|AlignEnd=842993|Gloss=with
 12	gyaː	gyaː	DET	_	Number=Plur	14	det	_	AlignBegin=842993|AlignEnd=843144|Gloss=3Plur
