@@ -287,7 +287,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_INT_02_BURIAL.WAV
 # sent_timecode = 51920, 54061
-# text = èː yâːn nə ŋáː ɣəndí |c kóː kóː ɬəɓə́r //
+# text = èː yâːn nə ŋáː ɣəndí |c kóː kòː ɬəɓə́r //
 # text_ortho = èː yâːn nə ŋáː ɣəndí |c kóː kóː ɬəɓə́r //
 # text_en = Yes, if it's a child, or a youth.
 1	èː	èː	INTJ	_	_	2	discourse@filler	_	AlignBegin=51920|AlignEnd=52050|Gloss=FILL
@@ -297,7 +297,7 @@
 5	ɣəndí	kən	PART	_	PartType=Foc	4	discourse@foc	_	AlignBegin=52440|AlignEnd=52570|Gloss=be
 6	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=52570|AlignEnd=52700|Gloss=PUNCT
 7	kóː	kóː	CCONJ	_	_	9	cc	_	AlignBegin=53020|AlignEnd=53280|Gloss=COORD|Lang=ha
-8	kóː	kóː	PART	_	PartType=Top	7	discourse@top	_	AlignBegin=53280|AlignEnd=53540|Gloss=COORD|Lang=ha
+8	kòː	kóː	PART	_	PartType=Top	7	discourse@top	_	AlignBegin=53280|AlignEnd=53540|Gloss=in_fact|Lang=ha
 9	ɬəɓə́r	ɬəɓə́r	NOUN	_	_	4	conj:coord	_	AlignBegin=53540|AlignEnd=53800|Gloss=young_man
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=53800|AlignEnd=54061|Gloss=PUNCT
 
@@ -353,7 +353,7 @@
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=55875|AlignEnd=56061|Gloss=PUNCT
 5	mə́n	mə́n	NOUN	_	Number=Plur	3	conj:dicto	_	AlignBegin=56061|Gloss=people
 6	vàr	vàr	ADJ	_	_	5	mod	_	AlignEnd=56247|Gloss=big
-7	wàːtòː	wàːtòː	PART	_	PartType=Disc	8	discourse	_	AlignBegin=56247|AlignEnd=56433|Gloss=DM|Lang=ha
+7	wàːtòː	wàːtòː	PART	_	PartType=Disc	8	discourse	_	AlignBegin=56247|AlignEnd=56433|Gloss=i.e.|Lang=ha
 8	mur	mur	VERB	_	_	5	conj:dicto	_	AlignBegin=56433|AlignEnd=56619|Gloss=man
 9	ɣə́	ɣə́	ADP	_	_	8	mod	_	AlignBegin=56619|AlignEnd=56805|Gloss=of
 10	də̀n	də̀n	NOUN	_	_	9	comp:obj	_	AlignBegin=56805|AlignEnd=56991|Gloss=compound
@@ -403,10 +403,10 @@
 4-5	fítə̀	_	_	_	_	_	_	_	_
 4	fî	fi	VERB	_	_	3	comp:aux	_	AlignBegin=64916|AlignEnd=65049|Gloss=do
 5	tə	tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	comp:obj@R	_	AlignBegin=65049|AlignEnd=65182|Gloss=3Sing.Acc|wordform==tə
-6	naː	naː	NOUN	_	_	4	comp:obj@T	_	AlignBegin=65182|AlignEnd=65448|Gloss=mother
-7	íri	íri	NOUN	_	_	8	mod@desc	_	AlignBegin=65448|AlignEnd=65714|Gloss=type
-8	ɮə̀pmgə̀n	ɮə́pm	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	6	mod	_	AlignBegin=66420|AlignEnd=66639|Gloss=cover
-9	gíː	gíː	DET	_	Deixis=Remt|PronType=Dem	6	det	_	AlignBegin=66639|AlignEnd=66858|Gloss=Remt
+6	naː	naː	DET	_	_	7	det	_	AlignBegin=65182|AlignEnd=65448|Gloss=some
+7	íri	íri	NOUN	_	_	4	comp:obj@T	_	AlignBegin=65448|AlignEnd=65714|Gloss=type
+8	ɮə̀pmgə̀n	ɮə́pm	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	7	mod	_	AlignBegin=66420|AlignEnd=66639|Gloss=cover.Vnoun
+9	gíː	gíː	DET	_	Deixis=Remt|PronType=Dem	7	det	_	AlignBegin=66639|AlignEnd=66858|Gloss=Remt
 10	hár	hár	X	_	Foreign=Yes	3	mod	_	AlignBegin=66858|AlignEnd=67077|Gloss=up_to|Lang=ha
 11	yànzú	yànzú	X	_	Foreign=Yes	10	flat@foreign	_	AlignBegin=67077|AlignEnd=67296|Gloss=now|Lang=ha
 12	//	//	PUNCT	_	_	3	punct	_	AlignBegin=67296|AlignEnd=67517|Gloss=PUNCT
@@ -773,7 +773,6 @@
 15	<	<	PUNCT	_	_	11	punct	_	AlignBegin=118847|AlignEnd=119019|Gloss=PUNCT
 16	ɗan	ɗan	ADV	_	_	17	mod	_	AlignBegin=119019|AlignEnd=119191|Gloss=then
 17	tə́	á	AUX	_	Mood=Sub|Number=Plur|Person=3	0	root	_	AlignBegin=119191|AlignEnd=119363|Gloss=3Plur.Sub
-18-19	gə̌ːm riːŋə́y	_	_	_	_	_	_	_	_
 18	gə́ːm	gə́ːm	VERB	_	_	17	comp:aux	_	AlignBegin=119363|AlignEnd=119535|Gloss=leave|wordform=*gə̌ːm-íː
 19	riːŋə́y	riːŋ	NOUN	_	Deixis=Remt	18	comp:obj	_	AlignBegin=119535|AlignEnd=119707|Gloss=shout.Remt|wordform=riːŋ
 20	//	//	PUNCT	_	_	17	punct	_	AlignBegin=119707|AlignEnd=119880|Gloss=PUNCT
@@ -813,8 +812,8 @@
 2	ká	a	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=122015|AlignEnd=122197|Gloss=2Plur.Fut
 3	mán	mán	VERB	_	_	2	comp:aux	_	AlignBegin=122197|AlignEnd=122379|Gloss=come
 4	mbút	mbút	VERB	_	_	3	compound:svc	_	AlignBegin=122379|AlignEnd=122561|Gloss=spend_night
-5	naː	naː	NOUN	_	_	4	mod	_	AlignBegin=122561|AlignEnd=122743|Gloss=mother
-6	mbútkə̂n	mbút	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	5	compound	_	AlignBegin=122743|AlignEnd=122925|Gloss=spend_night-Vnoun
+5	naː	naː	ADV	_	_	6	mod	_	AlignBegin=122561|AlignEnd=122743|Gloss=some
+6	mbútkə̂n	mbút	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=122743|AlignEnd=122925|Gloss=spend_night-Vnoun
 7-8	ɗǎŋ	_	_	_	_	_	_	_	_
 7	ɗan	ɗanì	ADV	_	_	4	mod	_	AlignBegin=122925|AlignEnd=123016|Gloss=there
 8	hŋ́	hŋ́	PART	_	PartType=Neg|Polarity=Neg	4	mod	_	AlignBegin=123016|AlignEnd=123107|Gloss=Neg
@@ -999,7 +998,7 @@
 # text_ortho = tôː wàːtòː miːtsə ɓàní ɣəndí //
 # text_en = Well that is the funeral is finished.
 1	tôː	tòː	PART	_	PartType=Disc	4	discourse	_	AlignBegin=143408|AlignEnd=143620|Gloss=well
-2	wàːtòː	wàːtòː	X	_	Foreign=Yes	4	discourse	_	AlignBegin=143620|AlignEnd=143832|Gloss=that_is_to_say|Lang=ha
+2	wàːtòː	wàːtòː	X	_	Foreign=Yes	4	discourse	_	AlignBegin=143620|AlignEnd=143832|Gloss=i.e.|Lang=ha
 3	miːtsə	miːtsə	NOUN	_	_	4	subj	_	AlignBegin=143832|AlignEnd=144044|Gloss=burial
 4	ɓàní	ɓaní	VERB	_	_	0	root	_	AlignBegin=144044|AlignEnd=144256|Gloss=finish
 5	ɣəndí	kən	PART	_	PartType=Foc	4	discourse@foc	_	AlignBegin=144256|AlignEnd=144468|Gloss=be
@@ -1387,7 +1386,7 @@
 6	séː	séː	SCONJ	_	ExtPos=SCONJ	4	mod	_	AlignBegin=189491|AlignEnd=189768|Gloss=except|Idiom=Yes
 7	deː	deː	PART	_	PartType=Top	6	discourse@top	_	AlignBegin=189768|AlignEnd=190045|Gloss=anyway|InIdiom=Yes
 8	wu	wu	VERB	_	ExtPos=ADP	6	comp:obj	_	AlignBegin=190045|AlignEnd=190322|Gloss=say|Idiom=Yes
-9	tu	tu	SCONJ	_	_	8	unk	_	AlignBegin=190322|AlignEnd=190600|Gloss=Qot|InIdiom=Yes
+9	tu	tu	SCONJ	_	_	8	comp:obj	_	AlignBegin=190322|AlignEnd=190600|Gloss=Qot|InIdiom=Yes
 10	mumʧês	mumtsə́	NOUN	_	Definite=Def	8	comp:obj	_	AlignBegin=191520|AlignEnd=191813|Gloss=masquerade.Def|wordform=mumtsə́
 11	ɗanyâːlíː	ɗanyâːlíː	ADV	_	Deixis=Remt	10	mod	_	AlignBegin=191813|AlignEnd=192106|Gloss=like_that.Remt
 12	//	//	PUNCT	_	_	4	punct	_	AlignBegin=192106|AlignEnd=192400|Gloss=PUNCT
@@ -1693,7 +1692,7 @@
 17-18	gìːtə̀	_	_	_	_	_	_	_	_
 17	gìː	giː	VERB	_	_	16	comp:aux	_	AlignBegin=246609|AlignEnd=246667|Gloss=bury
 18	tə̀	tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	17	comp:obj	_	AlignBegin=246667|AlignEnd=246724|Gloss=3Sing.Acc|wordform==tə̀
-19	kòː	kòː	PART	_	PartType=Top	18	discourse@top	_	AlignBegin=246724|AlignEnd=246839|Gloss=itself
+19	kòː	kóː	PART	_	PartType=Top	18	discourse@top	_	AlignBegin=246724|AlignEnd=246839|Gloss=itself
 20-22	wúrɣwêː	_	_	_	_	_	_	_	_
 20	wuri	wuri	NOUN	_	_	17	mod	_	AlignBegin=246839|AlignEnd=246954|Gloss=how
 21	eː	eː	PART	_	Mood=Int|PartType=Illoc	16	mod	_	AlignBegin=247069|AlignEnd=247184|Gloss=Int
@@ -1787,7 +1786,7 @@
 # text_ortho = séː déː gùŋ //
 # text_en = Except for the village chief.
 1	séː	séː	ADP	_	ExtPos=ADP	0	root	_	AlignBegin=257336|AlignEnd=257484|Gloss=except|Idiom=Yes
-2	déː	déː	PART	_	PartType=Top	1	discourse@top	_	AlignBegin=257484|AlignEnd=257632|Gloss=anyway|InIdiom=Yes
+2	déː	deː	PART	_	PartType=Top	1	discourse@top	_	AlignBegin=257484|AlignEnd=257632|Gloss=anyway|InIdiom=Yes
 3	gùŋ	gùŋ	NOUN	_	_	1	comp:obj	_	AlignBegin=257632|AlignEnd=257780|Gloss=chief
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=257780|AlignEnd=257926|Gloss=PUNCT
 
@@ -2414,7 +2413,7 @@
 # text_ortho = èː wàːtòː haské ɣə́ wúmgə̂n rěːs kən < myáː súː mə̀ yísə́ŋ tu dèkkə̀ wúmgə̂n rěːs kəní //= dèkkə̀ múrna gwǎːy ɣəní //
 # text_en = Yes, that is to say, the meaning of that sadness, I want to know "This the reason of the sadness, this is the reason of your happiness."
 1	èː	èː	INTJ	_	_	9	discourse@filler	_	AlignBegin=349540|AlignEnd=349740|Gloss=FILL
-2	wàːtòː	wàːtòː	X	_	Foreign=Yes	9	discourse	_	AlignBegin=349740|AlignEnd=349940|Gloss=that_is_to_say|Lang=ha
+2	wàːtòː	wàːtòː	X	_	Foreign=Yes	9	discourse	_	AlignBegin=349740|AlignEnd=349940|Gloss=i.e.|Lang=ha
 3	haské	haske	NOUN	_	Definite=Cons	9	dislocated@top	_	AlignBegin=349940|AlignEnd=350140|Gloss=light-CONS
 4	ɣə́	á	ADP	_	_	3	mod	_	AlignBegin=350140|AlignEnd=350340|Gloss=of
 5	wúmgə̂n	wum	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=350340|AlignEnd=350540|Gloss=feel-Vnoun
@@ -2733,7 +2732,7 @@
 # text_ortho = séː déː yâːn ʧi ɣá də̀nwòs < tôː tá wâː Mbok //
 # text_en = Except if he is in his house, they will dance the 'Mbok'.
 1	séː	séː	ADV	_	_	3	mod	_	AlignBegin=396866|AlignEnd=397041|Gloss=except
-2	déː	déː	PART	_	PartType=Top	1	discourse@top	_	AlignBegin=397041|AlignEnd=397216|Gloss=anyway
+2	déː	deː	PART	_	PartType=Top	1	discourse@top	_	AlignBegin=397041|AlignEnd=397216|Gloss=anyway
 3	yâːn	yâːn	SCONJ	_	_	9	mod	_	AlignBegin=397216|AlignEnd=397391|Gloss=if
 4	ʧi	yi	AUX	_	Number=Sing|Person=3	3	comp:obj	_	AlignEnd=397566|Copula=Yes|Gloss=3Sing.be.Loc|wordform=yi
 5	ɣá	ká	ADP	_	_	4	comp:pred	_	AlignBegin=397566|AlignEnd=397741|Gloss=at
