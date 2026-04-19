@@ -149,7 +149,7 @@
 3	súːɣə́n	súː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	0	root@scrap	_	AlignBegin=13396|AlignEnd=13495|Gloss=want.Vnoun
 4	gə̀tn	gə̀tn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	mod@poss	_	AlignBegin=13594|AlignEnd=13792|Gloss=3SingGen
 5	tu	tu	SCONJ	_	_	3	comp:obj	_	AlignBegin=13792|AlignEnd=13991|Gloss=Qot
-6	kóːdàː	kóːdàː	SCONJ	_	Mood=Irr	5	comp:obj	_	AlignBegin=13991|AlignEnd=14213|Gloss=Counterfact
+6	kóːdàː	dàː	SCONJ	_	Mood=Irr	5	comp:obj	_	AlignBegin=13991|AlignEnd=14213|Gloss=Counterfact
 7	mìyì	yí	AUX	_	Mood=Irr|Number=Plur|Person=1	6	root	_	AlignBegin=14213|AlignEnd=14435|Counterfact=Yes|Gloss=1Plur.Counterfact|wordform=mìː
 8	ɬǐː	ɬə	VERB	_	Accomplished=Yes	7	comp:aux	_	AlignBegin=14435|AlignEnd=14546|Gloss=go.Acpl
 9	á	ká	ADP	_	_	8	comp:obl	_	AlignBegin=14657|AlignEnd=14879|Gloss=at
@@ -1522,9 +1522,9 @@
 # sent_timecode = 176496, 179007
 # text_ortho = wéy á < éy yâːn tá fîn maːndə tə́ kúɲêtn < ba damuwa //
 # text_en = I said, well if he fights with my boy, <hau no problem. hau>
-1	wéy	wéy	SCONJ	_	Mood=Qot	13	discourse	_	AlignBegin=176496|AlignEnd=176680|Gloss=Qot
-2	Á~	Állàː	INTJ	_	_	1	comp:obj	_	AlignBegin=176680|AlignEnd=176864|Gloss=God
-3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=176864|AlignEnd=177048|Gloss=PUNCT
+1	wéy	wéy	PART	_	Evident=Nfh|PartType=Disc	13	discourse	_	AlignBegin=176496|AlignEnd=176680|Gloss=Nfh
+2	Á~	Állàː	INTJ	_	_	13	discourse	_	AlignBegin=176680|AlignEnd=176864|Gloss=God
+3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=176864|AlignEnd=177048|Gloss=PUNCT
 4	éy	éy	INTJ	_	_	13	discourse	_	AlignBegin=177048|AlignEnd=177218|Gloss=indeed
 5	yâːn	yâːn	SCONJ	_	_	13	mod	_	AlignBegin=177218|AlignEnd=177388|Gloss=if
 6	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	5	comp:obj	_	AlignBegin=177388|AlignEnd=177558|Gloss=3Plur.Fut
@@ -1626,7 +1626,7 @@
 # text = wéy yáː nǎː wò ʧetkə //
 # text_ortho = wéy yáː nǎː wò ʧetkə //
 # text_en = He said that if it became (a game) he would ask you.
-1	wéy	wéy	SCONJ	_	Mood=Qot	4	discourse	_	AlignBegin=185007|AlignEnd=185162|Gloss=Qot
+1	wéy	wéy	PART	_	Evident=Nfh|PartType=Disc	4	discourse	_	AlignBegin=185007|AlignEnd=185162|Gloss=Nfh
 2	yáː	yǎː	AUX	_	Mood=Cnd|Number=Sing|Person=3	4	mod	_	AlignBegin=185162|AlignEnd=185317|Gloss=3Sing.Cnd
 3	nǎː	naː	VERB	_	_	2	comp:aux	_	AlignBegin=185317|AlignEnd=185473|Gloss=become
 4	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=185473|AlignEnd=185621|Gloss=3Sing.Fut
@@ -1656,8 +1656,8 @@
 # text = wéy Állâː tòː ín yâːn nə kúɲêtn ndá tá fî maːndə ʧímtə < bâː dàːmuwa //
 # text_ortho = wéy állâː tòː < ín yâːn nə kúnêtn ndá tá fî maːndə ʧímtə < ba damuwa //
 # text_en = I said in the name of God well, if my boy comes and they fight, <hau no problem hau>.
-1	wéy	wéy	SCONJ	_	Mood=Qot	15	discourse	_	AlignBegin=187235|AlignEnd=187411|Gloss=EVD
-2	Állâː	Állâː	PROPN	_	_	1	comp:obj	_	AlignBegin=187411|AlignEnd=187587|Gloss=God
+1	wéy	wéy	PART	_	Evident=Nfh|PartType=Disc	15	discourse	_	AlignBegin=187235|AlignEnd=187411|Gloss=Nfh
+2	Állâː	Állâː	PROPN	_	_	15	discourse	_	AlignBegin=187411|AlignEnd=187587|Gloss=God
 3	tòː	tòː	PART	_	PartType=Disc	15	discourse	_	AlignBegin=187587|AlignEnd=187763|Gloss=well
 4	ín	ín	SCONJ	_	ExtPos=SCONJ	15	mod	_	AlignBegin=187939|AlignEnd=188122|Gloss=if|Idiom=Yes
 5	yâːn	yâːn	SCONJ	_	_	4	unk	_	AlignBegin=188122|AlignEnd=188305|Gloss=if|InIdiom=Yes
@@ -2067,7 +2067,7 @@
 # text = wéy á mǎn nə́ kàràːtu //
 # text_ortho = wéy á mǎn nə́ kàràːtu //
 # text_en = He said he has come for school.
-1	wéy	wéy	SCONJ	_	Mood=Qot	2	discourse	_	AlignBegin=235606|AlignEnd=235815|Gloss=Qot
+1	wéy	wéy	PART	_	Evident=Nfh|PartType=Disc	2	discourse	_	AlignBegin=235606|AlignEnd=235815|Gloss=Nfh
 2	á	á	AUX	_	Mood=Sub|Number=Sing|Person=3	0	root	_	AlignBegin=235815|AlignEnd=236024|Gloss=3Sing.Sub
 3	mǎn	mán	VERB	_	_	2	comp:aux	_	AlignBegin=236024|AlignEnd=236233|Gloss=come
 4	nə́	nə́	ADP	_	_	3	mod	_	AlignBegin=236233|AlignEnd=236442|Gloss=for
@@ -2366,7 +2366,7 @@
 15	mí	mí	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	14	comp:obj	_	AlignBegin=269513|AlignEnd=269575|Gloss=1Plur.Acc|wordform==mí
 16	ɗi	ɗi	PART	_	PartType=Adv	14	compound:prt	_	AlignBegin=269575|AlignEnd=269636|Gloss=Ctp|wordform==ɗi
 17-18	ŋǎːn	_	_	_	_	_	_	_	_
-17	ŋǎː	ŋaː	PART	_	Mood=Irr|PartType=Illoc	5	mod	_	AlignBegin=269636|AlignEnd=269728|Gloss=Irr
+17	ŋaː	ŋaː	PART	_	PartType=Ill	5	mod	_	AlignBegin=269636|AlignEnd=269728|Gloss=Int
 18	hŋ́	hŋ́	PART	_	PartType=Neg|Polarity=Neg	6	mod	_	AlignBegin=269728|AlignEnd=269821|Gloss=Neg
 19	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=269821|AlignEnd=270005|Gloss=PUNCT
 

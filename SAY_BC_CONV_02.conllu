@@ -649,7 +649,7 @@
 1	á	ká	ADP	_	_	6	discourse	_	AlignBegin=96335|AlignEnd=96596|Gloss=at
 2-3	gə̀tàː	_	_	_	_	_	_	_	_
 2	gə̀tn	gə̀tn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	1	comp:obj	_	AlignBegin=96596|AlignEnd=96726|Gloss=3SingGen
-3	àː	ŋaː	PART	_	Mood=Irr|PartType=Illoc	1	mod	_	AlignBegin=96726|AlignEnd=96857|Gloss=Irr
+3	àː	ŋaː	PART	_	PartType=Ill	1	mod	_	AlignBegin=96726|AlignEnd=96857|Gloss=Int
 4	tá	tá	ADV	_	_	6	mod	_	AlignBegin=96857|AlignEnd=97118|Gloss=then
 5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=97118|AlignEnd=97378|Gloss=PUNCT
 6	myáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	0	root	_	AlignBegin=97844|AlignEnd=98098|Gloss=1Sing.Imp
@@ -658,7 +658,7 @@
 9	dàː	dàː	SCONJ	_	Mood=Irr	21	mod	_	AlignBegin=99319|AlignEnd=99640|Gloss=Counterfact
 10	mìyì	yí	AUX	_	Mood=Irr|Number=Plur|Person=1	9	comp:obj	_	AlignBegin=99640|AlignEnd=99961|Counterfact=Yes|Gloss=1Plur.Counterfact|wordform=mìː
 11	||	||	PUNCT	_	_	12	punct	_	AlignBegin=99961|AlignEnd=100283|Gloss=PUNCT
-12	dàː	dàː	ADV	_	Mood=Irr	9	conj:dicto	_	AlignBegin=100283|AlignEnd=100551|Gloss=Counterfact
+12	dàː	dàː	SCONJ	_	Mood=Irr	9	conj:dicto	_	AlignBegin=100283|AlignEnd=100551|Gloss=Counterfact
 13	mìyì	yí	AUX	_	Mood=Irr|Number=Plur|Person=1	12	comp:obj	_	AlignBegin=100551|AlignEnd=100819|Counterfact=Yes|Gloss=1Plur.Counterfact|wordform=mìː
 14-15	ŋàltə̀	_	_	_	_	_	_	_	_
 14	ŋàl	ŋal	VERB	_	_	13	comp:aux	_	AlignBegin=100819|AlignEnd=100953|Gloss=look_for
@@ -1205,7 +1205,7 @@
 3	zǎːr	zaːr	NOUN	_	Definite=Cons	2	comp:obj	_	AlignBegin=163342|AlignEnd=163466|Gloss=human
 4-5	ʒèlìyàː	_	_	_	_	_	_	_	_
 4	ʒèlì	ʒèlì	ADJ	_	_	3	mod	_	AlignBegin=163591|AlignEnd=163715|Gloss=red
-5	àː	ŋaː	PART	_	Mood=Irr|PartType=Illoc	1	mod	_	AlignBegin=163715|AlignEnd=163840|Gloss=Irr
+5	àː	ŋaː	PART	_	PartType=Ill	1	mod	_	AlignBegin=163715|AlignEnd=163840|Gloss=Int
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=163840|AlignEnd=164089|Gloss=PUNCT
 7	tu	tu	SCONJ	_	_	8	discourse	_	AlignBegin=164089|AlignEnd=164253|Gloss=Qot
 8	ʧàː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=164253|AlignEnd=164417|Gloss=3Plur.Imp
@@ -1284,8 +1284,8 @@
 10	mə̀	tə̀	AUX	_	Mood=Jus|Number=Plur|Person=1	7	mod	_	AlignBegin=172484|AlignEnd=172695|Gloss=1Plur.Jus
 11	wùm	wum	VERB	_	_	10	comp:aux	_	AlignBegin=172695|AlignEnd=172906|Gloss=feel
 12	ngə́r	ngə́tn	NOUN	_	_	11	comp:obj	_	AlignBegin=173120|AlignEnd=173349|Gloss=thing
-13	wéy	wéy	SCONJ	_	Mood=Qot	12	mod@relcl	_	AlignBegin=173349|AlignEnd=173578|Gloss=Qot
-14	ɗan	ɗan	SCONJ	_	_	13	comp:obj	_	AlignBegin=173578|AlignEnd=173807|Gloss=REL
+13	wéy	wéy	PART	_	Evident=Nfh|PartType=Disc	14	discourse	_	AlignBegin=173349|AlignEnd=173578|Gloss=Nfh
+14	ɗan	ɗan	SCONJ	_	_	12	mod@relcl	_	AlignBegin=173578|AlignEnd=173807|Gloss=REL
 15	ʧi	yi	AUX	_	Number=Sing|Person=3	14	comp:obj	_	AlignEnd=174731|Copula=Yes|Gloss=3Sing.be.Loc|wordform=yi
 16	káwêy	káwêy	ADV	_	_	15	mod	_	AlignBegin=174731|AlignEnd=174993|Gloss=merely
 17	ɣá	ká	ADP	_	_	15	comp:pred	_	AlignBegin=174993|AlignEnd=175255|Gloss=at
@@ -1586,7 +1586,7 @@
 # text = wéy ɓaʃí ʧík bát ɗangəní ?//
 # text_ortho = wéy ɓaʃí ʧík bát ɗangə̂n ?//
 # text_en = Well, as for them, isn't it like that too now?
-1	wéy	wéy	SCONJ	_	Mood=Qot	4	discourse	_	AlignBegin=214698|AlignEnd=214948|Gloss=Qot
+1	wéy	wéy	PART	_	Evident=Nfh|PartType=Disc	4	discourse	_	AlignBegin=214698|AlignEnd=214948|Gloss=Nfh
 2-3	ɓaʃí	_	_	_	_	_	_	_	_
 2	ɓas	ɓas	ADP	_	_	4	dislocated@top	_	AlignBegin=214948|AlignEnd=215073|Gloss=of
 3	ʃí	ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=215073|AlignEnd=215198|Gloss=3Plur.Acc|wordform==ʃí
@@ -3589,8 +3589,8 @@
 # text_ortho = ngə́r wéy ɗan myǎː fî ɣəndí //
 # text_en = That's what we are doing.
 1	ngə́r	ngə́tn	NOUN	_	_	0	root	_	AlignBegin=497217|AlignEnd=497429|Gloss=thing
-2	wéy	wéy	SCONJ	_	Mood=Qot	1	mod@relcl	_	AlignBegin=497429|AlignEnd=497641|Gloss=Qot
-3	ɗan	ɗan	SCONJ	_	_	2	comp:obj	_	AlignBegin=497641|AlignEnd=497853|Gloss=REL
+2	wéy	wéy	PART	_	Evident=Nfh|PartType=Disc	3	discourse	_	AlignBegin=497429|AlignEnd=497641|Gloss=Nfh
+3	ɗan	ɗan	SCONJ	_	_	1	mod@relcl	_	AlignBegin=497641|AlignEnd=497853|Gloss=REL
 4	myǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=1	3	comp:obj	_	AlignBegin=497853|AlignEnd=498065|Gloss=1Plur.Imp
 5	fî	fi	VERB	_	_	4	comp:aux	_	AlignBegin=498065|AlignEnd=498171|Gloss=do
 6	ɣəndí	kən	PART	_	PartType=Foc	1	discourse@foc	_	AlignBegin=498171|AlignEnd=498277|Gloss=be
