@@ -297,7 +297,7 @@
 5	ɣəndí	kən	PART	_	PartType=Foc	4	discourse@foc	_	AlignBegin=52440|AlignEnd=52570|Gloss=be
 6	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=52570|AlignEnd=52700|Gloss=PUNCT
 7	kóː	kóː	CCONJ	_	_	9	cc	_	AlignBegin=53020|AlignEnd=53280|Gloss=COORD|Lang=ha
-8	kòː	kóː	PART	_	PartType=Top	7	discourse@top	_	AlignBegin=53280|AlignEnd=53540|Gloss=perhaps|Lang=ha
+8	kòː	kóː	PART	_	PartType=Disc	7	discourse	_	AlignBegin=53280|AlignEnd=53540|Gloss=perhaps|Lang=ha
 9	ɬəɓə́r	ɬəɓə́r	NOUN	_	_	4	conj:coord	_	AlignBegin=53540|AlignEnd=53800|Gloss=young_man
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=53800|AlignEnd=54061|Gloss=PUNCT
 
@@ -632,13 +632,13 @@
 2	àː	áː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=103043|AlignEnd=103182|Gloss=3Sing.Perf
 3-4	məʃíːyoː	_	_	_	_	_	_	_	_
 3	məʃíː	məs	VERB	_	Accomplished=Yes	2	comp:aux	_	AlignBegin=103182|AlignEnd=103321|Gloss=die.Acpl
-4	oː	oː	PART	_	Mood=Assert|PartType=Illoc	2	mod	_	AlignBegin=103321|AlignEnd=103460|Gloss=Assert
+4	oː	oː	PART	_	PartType=Ill	2	mod	_	AlignBegin=103321|AlignEnd=103460|Gloss=Emph
 5	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=103460|AlignEnd=103599|Gloss=PUNCT
 6	wáːni	wáːni	PRON	_	PronType=Ind	7	subj	_	AlignBegin=103599|AlignEnd=103738|Gloss=So-and-so
 7	àː	áː	AUX	_	Aspect=Perf|Number=Sing|Person=3	2	parataxis@conj	_	AlignBegin=103738|AlignEnd=103877|Gloss=3Sing.Perf
 8-9	məʃíːyoː	_	_	_	_	_	_	_	_
 8	məʃíː	məs	VERB	_	Accomplished=Yes	7	comp:aux	_	AlignBegin=103877|AlignEnd=104016|Gloss=die.Acpl
-9	oː	oː	PART	_	Mood=Assert|PartType=Illoc	7	mod	_	AlignBegin=104016|AlignEnd=104155|Gloss=Assert
+9	oː	oː	PART	_	PartType=Ill	7	mod	_	AlignBegin=104016|AlignEnd=104155|Gloss=Emph
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=104155|AlignEnd=104294|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_076-076
@@ -651,7 +651,7 @@
 1	níː	níː	PRON	_	PronType=Int	2	subj	_	AlignBegin=104730|AlignEnd=104886|Gloss=what
 2	faːrá	faːrá	VERB	_	_	0	root	_	AlignBegin=104886|AlignEnd=105042|Gloss=happen|Lang=ha
 3	ʧiɣə́y	ʧík	ADV	_	Deixis=Remt	2	mod	_	AlignBegin=105042|AlignEnd=105120|Gloss=like_that.Remt
-4	eː	eː	PART	_	Mood=Int|PartType=Illoc	2	mod	_	AlignBegin=105198|AlignEnd=105354|Gloss=Int
+4	eː	eː	PART	_	PartType=Ill	2	mod	_	AlignBegin=105198|AlignEnd=105354|Gloss=Int
 5	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=105354|AlignEnd=105509|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_077-077
@@ -716,7 +716,7 @@
 9	gìːɣə̀n	giː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	8	comp:obj	_	AlignBegin=111859|AlignEnd=112074|Gloss=bury-Vnoun
 10-11	zaːreː	_	_	_	_	_	_	_	_
 10	zaːr	zaːr	NOUN	_	_	9	comp:obj	_	AlignBegin=112074|AlignEnd=112289|Gloss=person
-11	eː	eː	PART	_	Mood=Int|PartType=Illoc	3	mod	_	AlignBegin=112289|AlignEnd=112504|Gloss=Int
+11	eː	eː	PART	_	PartType=Ill	3	mod	_	AlignBegin=112289|AlignEnd=112504|Gloss=Int
 12	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=112504|AlignEnd=112723|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_082-083
@@ -1011,7 +1011,7 @@
 # text = bàː gón wò man gəm riːŋ ɗa hŋ́ //
 # text_ortho = bàː gón wò man gəm riːŋ ɗa hŋ́ //
 # text_en = Nobody will come to wail again.
-1	bàː	bàː	PART	_	PartType=Neg|Polarity=Neg	0	root	_	AlignBegin=145315|AlignEnd=145435|Gloss=Neg
+1	bàː	bâː	PART	_	PartType=Neg|Polarity=Neg	0	root	_	AlignBegin=145315|AlignEnd=145435|Gloss=Neg
 2	gón	gón	PRON	_	Definite=Spec	1	subj	_	AlignBegin=145435|AlignEnd=145555|Gloss=Spec
 3	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	1	comp:cleft	_	AlignBegin=145555|AlignEnd=145675|Gloss=3Sing.Fut
 4	man	man	VERB	_	_	3	comp:aux	_	AlignBegin=145675|AlignEnd=145795|Gloss=come
@@ -1694,10 +1694,10 @@
 17-18	gìːtə̀	_	_	_	_	_	_	_	_
 17	gìː	giː	VERB	_	_	16	comp:aux	_	AlignBegin=246609|AlignEnd=246667|Gloss=bury
 18	tə̀	tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	17	comp:obj	_	AlignBegin=246667|AlignEnd=246724|Gloss=3Sing.Acc|wordform==tə̀
-19	kòː	kóː	PART	_	PartType=Top	18	discourse@top	_	AlignBegin=246724|AlignEnd=246839|Gloss=perhaps
+19	kòː	kóː	PART	_	PartType=Disc	18	discourse	_	AlignBegin=246724|AlignEnd=246839|Gloss=perhaps
 20-22	wúrɣwêː	_	_	_	_	_	_	_	_
 20	wuri	wuri	NOUN	_	_	17	mod	_	AlignBegin=246839|AlignEnd=246954|Gloss=how
-21	eː	eː	PART	_	Mood=Int|PartType=Illoc	16	mod	_	AlignBegin=247069|AlignEnd=247184|Gloss=Int
+21	eː	eː	PART	_	PartType=Ill	16	mod	_	AlignBegin=247069|AlignEnd=247184|Gloss=Int
 22	?//	?//	PUNCT	_	_	16	punct	_	AlignBegin=247184|AlignEnd=247300|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_184-184
@@ -2316,7 +2316,7 @@
 15	ɣá	ká	ADP	_	_	14	mod	_	AlignBegin=340092|AlignEnd=340265|Gloss=at
 16	gòs	gòs	PRON	_	Case=Gen|Number=Sing|Person=3	15	comp:obj	_	AlignBegin=340265|AlignEnd=340438|Gloss=3SingGen
 17	hŋ́	hŋ́	PART	_	PartType=Neg|Polarity=Neg	14	mod	_	AlignBegin=340438|AlignEnd=340611|Gloss=Neg
-18	eː	eː	PART	_	Mood=Int|PartType=Illoc	6	mod	_	AlignBegin=340611|AlignEnd=340784|Gloss=Int
+18	eː	eː	PART	_	PartType=Ill	6	mod	_	AlignBegin=340611|AlignEnd=340784|Gloss=Int
 19	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=340784|AlignEnd=340960|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_247-247
