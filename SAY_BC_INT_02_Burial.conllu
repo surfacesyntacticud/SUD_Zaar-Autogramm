@@ -29,7 +29,7 @@
 3	dàːʃì	daː	NOUN	_	_	4	subj	_	AlignBegin=5447|AlignEnd=5627|Gloss=person.Ind
 4	yáː	yǎː	AUX	_	Mood=Cnd|Number=Sing|Person=3	0	root	_	AlignBegin=5627|AlignEnd=5807|Gloss=3Sing.Cnd
 5	mə̂ʃíː	məs	VERB	_	Accomplished=Yes	4	comp:aux	_	AlignBegin=5807|AlignEnd=5987|Gloss=die.Acpl
-6	aː	ŋaː	PART	_	Mood=Irr|PartType=Illoc	4	mod	_	AlignBegin=5987|AlignEnd=6167|Gloss=Irr
+6	aː	ŋaː	PART	_	PartType=Ill	4	mod	_	AlignBegin=5987|AlignEnd=6167|Gloss=Int
 7	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=6167|AlignEnd=6349|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_006-007
@@ -315,7 +315,7 @@
 5	vàr	vàrì	NOUN	_	_	4	compound	_	AlignBegin=53540|AlignEnd=53670|Gloss=big
 6-7	fâː	_	_	_	_	_	_	_	_
 6	fáː	fáː	PART	_	PartType=Top	3	discourse@top	_	AlignBegin=53670|AlignEnd=53800|Gloss=certainly
-7	aː	ŋaː	PART	_	Mood=Irr|PartType=Illoc	2	mod	_	AlignBegin=53800|AlignEnd=53930|Gloss=Irr
+7	aː	ŋaː	PART	_	PartType=Ill	2	mod	_	AlignBegin=53800|AlignEnd=53930|Gloss=Int
 8	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=53930|AlignEnd=54061|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_038-038
@@ -742,7 +742,7 @@
 13	pâːʃíː	paːs	VERB	_	Accomplished=Yes	12	comp:aux	_	AlignBegin=115470|AlignEnd=115699|Gloss=disperse.Acpl
 14-15	ɣəndíyaː	_	_	_	_	_	_	_	_
 14	ɣəndí	kən	PART	_	PartType=Foc	13	discourse@foc	_	AlignBegin=115699|AlignEnd=115928|Gloss=be
-15	aː	ŋaː	PART	_	Mood=Irr|PartType=Illoc	6	mod	_	AlignBegin=115928|AlignEnd=116157|Gloss=Irr
+15	aː	ŋaː	PART	_	PartType=Ill	6	mod	_	AlignBegin=115928|AlignEnd=116157|Gloss=Int
 16	kóː	kóː	X	_	Foreign=Yes	6	discourse	_	AlignBegin=116157|Gloss=or|Lang=ha
 17	kuma	kúmá	X	_	Foreign=Yes	16	flat@foreign	_	AlignEnd=116386|Gloss=else|Lang=ha
 18	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=116611|AlignEnd=116611|Gloss=PUNCT
@@ -1152,7 +1152,7 @@
 # text_en = A woman?
 1-2	gə̀ɗaː	_	_	_	_	_	_	_	_
 1	gə̀t	gə̀t	NOUN	_	_	0	root	_	AlignBegin=161660|AlignEnd=161822|Gloss=woman
-2	aː	ŋaː	PART	_	Mood=Irr|PartType=Illoc	1	mod	_	AlignBegin=161822|AlignEnd=161984|Gloss=Irr
+2	aː	ŋaː	PART	_	PartType=Ill	1	mod	_	AlignBegin=161822|AlignEnd=161984|Gloss=Int
 3	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=161984|AlignEnd=162146|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_121-121
@@ -1360,7 +1360,7 @@
 6	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	0	root	_	AlignBegin=185911|AlignEnd=186081|Gloss=3Sing.Fut
 7	fi	fi	VERB	_	_	6	comp:aux	_	AlignBegin=186081|AlignEnd=186251|Gloss=do
 8	mari	mari	ADJ	_	_	7	comp:pred	_	AlignBegin=186251|AlignEnd=186421|Gloss=different
-9	aː	ŋaː	PART	_	Mood=Irr|PartType=Illoc	6	mod	_	AlignBegin=186421|AlignEnd=186591|Gloss=Irr
+9	aː	ŋaː	PART	_	PartType=Ill	6	mod	_	AlignBegin=186421|AlignEnd=186591|Gloss=Int
 10	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=186591|AlignEnd=186761|Gloss=PUNCT
 11	kóː	kóː	CCONJ	_	_	12	cc	_	AlignBegin=186761|AlignEnd=186930|Gloss=or
 12	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	6	conj:coord	_	AlignBegin=186930|AlignEnd=187150|Gloss=3Plur.Fut
@@ -1617,8 +1617,10 @@
 # text = ŋǎːn ?//
 # text_ortho = ŋǎːn ?//
 # text_en = Isn't that so?
-1	ŋǎːn	ŋaː-hŋ́	PART	_	PartType=Neg|Polarity=Neg	0	root	_	AlignBegin=233221|AlignEnd=233393|Gloss=Q.Neg
-2	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=233393|AlignEnd=233566|Gloss=PUNCT
+1-2	ŋǎːn	_	_	_	_	_	_	_	_
+1	ŋaː	ŋaː	PART	_	PartType=Ill|Polarity=Neg	0	root	_	AlignBegin=233221|AlignEnd=233393|Gloss=Int
+2	hŋ́	hŋ́	PART	_	PartType=Neg|Polarity=Neg	0	root	_	AlignBegin=233221|AlignEnd=233393|Gloss=Neg
+3	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=233393|AlignEnd=233566|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_177-177
 # speaker_id = SP1
@@ -2599,7 +2601,7 @@
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=377726|AlignEnd=377948|Gloss=PUNCT
 3	ngə́ʃi	ngə́tn	NOUN	_	Definite=Ind|Number=Plur	7	dislocated@subj	_	AlignBegin=377948|AlignEnd=378170|Gloss=thing-Ind.Plur
 4	gín	giní	DET	_	Deixis=Prox|Number=Plur|PronType=Dem	3	det	_	AlignBegin=378170|AlignEnd=378392|Gloss=Prox
-5	ŋaː	ŋaː	PART	_	PartType=Illoc	3	mod	_	AlignBegin=378392|AlignEnd=378614|Gloss=Irr
+5	ŋaː	ŋaː	PART	_	PartType=Ill	3	mod	_	AlignBegin=378392|AlignEnd=378614|Gloss=Int
 6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=378614|AlignEnd=378833|Gloss=PUNCT
 7	nə	nə	AUX	_	_	0	root	_	AlignBegin=379600|AlignEnd=379730|Copula=Yes|Gloss=be.Ident
 8	ŋǎː	ŋaː	ADJ	_	_	9	mod	_	AlignBegin=379730|AlignEnd=379860|Gloss=little
@@ -2636,7 +2638,7 @@
 6	tsə́n	tsəní	ADV	_	_	3	mod	_	AlignBegin=382940|AlignEnd=383056|Gloss=like_this
 7-8	fâː	_	_	_	_	_	_	_	_
 7	fáː	fáː	PART	_	PartType=Top	3	discourse@top	_	AlignBegin=383056|AlignEnd=383172|Gloss=certainly
-8	aː	ŋaː	PART	_	Mood=Irr|PartType=Illoc	2	mod	_	AlignBegin=383172|AlignEnd=383288|Gloss=Irr
+8	aː	ŋaː	PART	_	PartType=Ill	2	mod	_	AlignBegin=383172|AlignEnd=383288|Gloss=Int
 9	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=383288|AlignEnd=383400|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_279-279
