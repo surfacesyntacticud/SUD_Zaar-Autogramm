@@ -23,7 +23,7 @@
 # text = kə́ wupʃi kəndí ŋǎːn kóː ?//
 # text_ortho = kə́ wupʃi kəndí ŋǎːn kóː ?//
 # text_en = Isn't it the fourth one, or what?
-1	kə́	kə́	ADP	_	_	0	root	_	AlignBegin=2917|AlignEnd=3097|Gloss=of
+1	kə́	kə́	ADP	_	Case=Gen	0	root	_	AlignBegin=2917|AlignEnd=3097|Gloss=of
 2	wupʃi	wupsə	NUM	_	NumType=Ord	1	comp:obj	_	AlignBegin=3097|AlignEnd=3277|Gloss=four-Ord|wordform=wupsə
 3	kəndí	kən	PART	_	PartType=Foc	1	discourse@foc	_	AlignBegin=3277|AlignEnd=3457|Gloss=be
 4-5	ŋǎːn	_	_	_	_	_	_	_	_
@@ -49,7 +49,7 @@
 # text = kə́ wupʃi //
 # text_ortho = kə́ wupʃi //
 # text_en = The fourth.
-1	kə́	kə́	ADP	_	_	0	root	_	AlignBegin=3997|AlignEnd=4160|Gloss=of
+1	kə́	kə́	ADP	_	Case=Gen	0	root	_	AlignBegin=3997|AlignEnd=4160|Gloss=of
 2	wupʃi	wupsə	NUM	_	NumType=Ord	1	comp:obj	_	AlignBegin=4160|AlignEnd=4323|Gloss=four|wordform=wupsə
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=4323|AlignEnd=4486|Gloss=PUNCT
 
@@ -558,10 +558,10 @@
 4	ŋaː	ŋaː	ADJ	_	_	5	mod	_	AlignBegin=65581|AlignEnd=65759|Gloss=little
 5	gón	gón	PRON	_	Definite=Spec	3	comp:obj	_	AlignBegin=65759|AlignEnd=65937|Gloss=Spec
 6	nə	nə	ADP	_	_	5	mod	_	AlignBegin=65937|AlignEnd=66115|Gloss=DER
-7	ʒèy	ʒà	NOUN	_	Definite=Ind|ExtPos=ADJ	6	compound	_	AlignBegin=66115|AlignEnd=66292|Gloss=honey|wordform=ʒà
+7	ʒèy	ʒà	NOUN	_	Definite=Ind	6	compound	_	AlignBegin=66115|AlignEnd=66292|Gloss=honey|wordform=ʒà
 8	kwaː	kùwa	PART	_	Foreign=Yes|PartType=Top	7	discourse@top	_	AlignBegin=66292|AlignEnd=66506|Gloss=in_fact|Lang=ha
 9	ŋaː	ŋaː	ADJ	_	_	10	mod	_	AlignBegin=66506|AlignEnd=66720|Gloss=small
-10	gwaɬkay	gwaɬka	NOUN	_	ExtPos=ADJ	6	comp:obj	_	AlignBegin=66720|AlignEnd=66934|Gloss=quartzite|wordform=gwaɬka
+10	gwaɬkay	gwaɬka	NOUN	_	Definite=Ind	7	conj:appos	_	AlignBegin=66720|AlignEnd=66934|Gloss=quartzite|wordform=gwaɬka
 11	máy	máy	X	_	Foreign=Yes	10	mod	_	AlignBegin=66934|AlignEnd=67148|Gloss=with|Lang=ha
 12	kyâw	kyâw	X	_	Foreign=Yes	11	flat@foreign	_	AlignBegin=67148|AlignEnd=67362|Gloss=goodness|Lang=ha
 13	//	//	PUNCT	_	_	2	punct	_	AlignBegin=67362|AlignEnd=67573|Gloss=PUNCT
@@ -1006,7 +1006,7 @@
 5	ɬə́	ɬə	VERB	_	_	2	parataxis@conj	_	AlignBegin=143364|AlignEnd=143576|Gloss=go|SVC=Yes
 6	mandá	mandá	VERB	_	_	5	compound:svc	_	AlignBegin=143576|AlignEnd=143788|Gloss=do_again|SVC=Yes
 7	fuː	fuː	VERB	_	_	6	compound:svc	_	AlignBegin=143788|AlignEnd=144000|Gloss=tell
-8	naːkámʃi	naːkámʃi	NOUN	_	Definite=Ind|ExtPos=NOUN	7	comp:obj@R	_	AlignBegin=144000|AlignEnd=144212|Gloss=his.friend|wordform=naː
+8	naːkámʃi	naːkámʃi	NOUN	_	Definite=Ind	7	comp:obj@R	_	AlignBegin=144000|AlignEnd=144212|Gloss=his.friend|wordform=naː
 9	də̌ːr	də̌ːr	NOUN	_	_	8	conj:appos	_	AlignBegin=144424|AlignEnd=144636|Gloss=lizard
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=144636|AlignEnd=144851|Gloss=PUNCT
 
@@ -1352,7 +1352,7 @@
 # text_ortho = naːkâm gə̀ longa əndá á mǎn yáːwón oː //
 # text_en = Rabbit's friend hasn't arrived yet.
 1	naːkám	naːkâm	NOUN	_	_	5	subj	_	AlignBegin=188780|AlignEnd=188970|Gloss=friend
-2	gə̀	kə́	ADP	_	_	1	mod@poss	_	AlignBegin=189160|AlignEnd=189350|Gloss=of
+2	gə̀	kə́	ADP	_	Case=Gen	1	mod@poss	_	AlignBegin=189160|AlignEnd=189350|Gloss=of
 3	longa	longa	NOUN	_	_	2	comp:obj	_	AlignBegin=189350|AlignEnd=189540|Gloss=rabbit
 4	əndá	kəndá	ADV	_	_	5	mod	_	AlignBegin=189540|AlignEnd=189730|Gloss=until
 5	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=189730|AlignEnd=189920|Gloss=3Sing.Aor
@@ -1738,7 +1738,7 @@
 2	ɬə̌ːt	ɬə́ː	VERB	_	_	1	comp:aux	_	AlignBegin=227034|AlignEnd=227184|Gloss=fly
 3	ni	ni	PART	_	Aspect=Inch|PartType=Adv	2	compound:prt	_	AlignBegin=227184|AlignEnd=227334|Gloss=Inch|wordform=-ni
 4	ɗan	ɗan	ADP	_	_	2	mod	_	AlignBegin=227334|AlignEnd=227634|Gloss=like
-5	kə́	kə́	ADP	_	_	4	comp:obj	_	AlignBegin=227634|AlignEnd=227934|Gloss=of
+5	kə́	kə́	ADP	_	Case=Gen	4	comp:obj	_	AlignBegin=227634|AlignEnd=227934|Gloss=of
 6-7	mbàraːt	_	_	_	_	_	_	_	_
 6	mbàraːɗíː	mbàraːt	NOUN	_	Deixis=Remt	5	comp:obj	_	AlignBegin=227934|AlignEnd=228134|Gloss=crownbird.Remt|wordform=mbàraːt
 7	aː	ŋaː	PART	_	PartType=Ill	1	mod	_	AlignBegin=228134|AlignEnd=228234|Gloss=Int
@@ -2294,11 +2294,11 @@
 # text_en = A little later, Lizard's friend, Lizard's friend himself, Rabbit, he tied a big stinking baobab cake on his foot.
 1	ngaːláy	ngaːlá	VERB	_	_	13	mod	_	Accomplished=Yes|AlignBegin=297847|AlignEnd=298098|Gloss=spend_time.Acpl|wordform=ngaːlá
 2	naːkâm	naːkâm	NOUN	_	_	13	dislocated@subj	_	AlignBegin=298098|AlignEnd=298349|Gloss=friend
-3	gə́	kə́	ADP	_	_	2	mod	_	AlignBegin=298600|AlignEnd=298851|Gloss=of
+3	gə́	kə́	ADP	_	Case=Gen	2	mod	_	AlignBegin=298600|AlignEnd=298851|Gloss=of
 4	də̌ːr	də̌ːr	NOUN	_	_	3	comp:obj	_	AlignBegin=298851|AlignEnd=299102|Gloss=lizard
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=299102|AlignEnd=299354|Gloss=PUNCT
 6	naːkâm	naːkâm	NOUN	_	_	2	conj:dicto	_	AlignBegin=299354|AlignEnd=299559|Gloss=friend
-7	gə́	kə́	ADP	_	_	6	mod	_	AlignBegin=299764|AlignEnd=299969|Gloss=of
+7	gə́	kə́	ADP	_	Case=Gen	6	mod	_	AlignBegin=299764|AlignEnd=299969|Gloss=of
 8	də̌ːr	də̌ːr	NOUN	_	_	7	comp:obj	_	AlignBegin=299969|AlignEnd=300174|Gloss=lizard
 9	káwêy	káwêy	ADV	_	_	6	mod	_	AlignBegin=300174|AlignEnd=300379|Gloss=merely|wordform=káwây
 10	|a	|a	PUNCT	_	_	11	punct	_	AlignBegin=300379|AlignEnd=300584|Gloss=PUNCT
@@ -2306,7 +2306,7 @@
 12	<	<	PUNCT	_	_	2	punct	_	AlignBegin=301070|AlignEnd=301285|Gloss=PUNCT
 13	àː	áː	AUX	_	Aspect=Perf|Number=Sing|Person=3	0	root	_	AlignBegin=302042|AlignEnd=302329|Gloss=3Sing.Perf
 14	náːt	nat	VERB	_	Number=Plur	13	comp:aux	_	AlignBegin=302329|AlignEnd=302616|Gloss=tie.Plur
-15	ʃéːgè	ʃéːgè	NOUN	_	ExtPos=ADJ	17	mod	_	AlignBegin=302616|AlignEnd=302903|Gloss=bastard|Lang=ha
+15	ʃéːgè	ʃéːgè	NOUN	_	Foreign=Yes	17	mod	_	AlignBegin=302616|AlignEnd=302903|Gloss=bastard|Lang=ha
 16	nâs	nâs	ADJ	_	_	17	mod	_	AlignBegin=302903|AlignEnd=303190|Gloss=big
 17-18	gingə́riwòsɗì	_	_	_	_	_	_	_	_
 17	gingə́riwòs	gingə́ri	NOUN	_	Case=Gen|Number=Sing|Person=3	14	comp:obj	_	AlignBegin=303190|AlignEnd=303286|Gloss=baobab_cake.3SingGen|wordform=gingə́ri
@@ -2930,7 +2930,7 @@
 2	vər	vər	VERB	_	_	1	compound:svc	_	AlignBegin=378751|AlignEnd=378934|Gloss=give
 3	tə	tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj@R	_	AlignBegin=378934|AlignEnd=379117|Gloss=3Sing.Acc|wordform==tə
 4	zàrgàwúya	zàrgàwúya	NOUN	_	Foreign=Yes	2	comp:obj@T	_	AlignBegin=379117|AlignEnd=379483|Gloss=collar|Lang=ha
-5	kə́	kə́	ADP	_	_	4	mod	_	AlignBegin=379483|AlignEnd=379849|Gloss=of
+5	kə́	kə́	ADP	_	Case=Gen	4	mod	_	AlignBegin=379483|AlignEnd=379849|Gloss=of
 6	kaɗaŋʃín	káɗi	PRON	_	Deixis=Prox|Number=Plur	5	comp:obj	_	AlignBegin=379849|AlignEnd=380215|Gloss=dog.Plur.Prox|wordform=kaɗaŋʃí
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=380215|AlignEnd=380582|Gloss=PUNCT
 
@@ -2956,7 +2956,7 @@
 2	tə	tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	1	comp:obj@R	_	AlignBegin=383387|AlignEnd=383512|Gloss=3Sing.Acc|wordform==tə
 3	ŋaː	ŋaː	ADJ	_	_	4	mod	_	AlignBegin=383512|AlignEnd=383763|Gloss=small
 4	yáːɣn	yâːɣn	NOUN	_	_	1	comp:obj@T	_	AlignBegin=383763|AlignEnd=384014|Gloss=clay
-5	gə̀	kə́	ADP	_	_	4	mod	_	AlignBegin=384014|AlignEnd=384265|Gloss=of
+5	gə̀	kə́	ADP	_	Case=Gen	4	mod	_	AlignBegin=384014|AlignEnd=384265|Gloss=of
 6	fyáːli	fyáːli	ADJ	_	_	5	comp:obj	_	AlignBegin=384265|AlignEnd=384516|Gloss=white
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=384516|AlignEnd=384768|Gloss=PUNCT
 
@@ -3003,7 +3003,7 @@
 2-3	vərtə	_	_	_	_	_	_	_	_
 2	vər	vər	VERB	_	_	1	compound:svc	_	AlignBegin=386535|AlignEnd=386587|Gloss=give
 3	tə	tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	comp:obj@R	_	AlignBegin=386587|AlignEnd=386639|Gloss=3Sing.Acc|wordform==tə
-4	kə́	kə́	ADP	_	_	2	comp:obj@T	_	AlignBegin=386639|AlignEnd=386743|Gloss=of
+4	kə́	kə́	ADP	_	Case=Gen	2	comp:obj@T	_	AlignBegin=386639|AlignEnd=386743|Gloss=of
 5	ʒèlì	ʒèlì	ADJ	_	_	4	comp:obj	_	AlignBegin=386743|AlignEnd=386847|Gloss=red
 6	ɗa	ɗa	ADV	_	_	2	mod	_	AlignBegin=386951|AlignEnd=387055|Gloss=again
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=387159|AlignEnd=387259|Gloss=PUNCT
@@ -3018,7 +3018,7 @@
 1-2	vərtə	_	_	_	_	_	_	_	_
 1	vər	vər	VERB	_	_	0	root	_	AlignBegin=387000|AlignEnd=387108|Gloss=give
 2	tə	tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	1	comp:obj@R	_	AlignBegin=387108|AlignEnd=387217|Gloss=3Sing.Acc|wordform==tə
-3	kə́	kə́	ADP	_	_	1	mod	_	AlignBegin=387217|AlignEnd=387434|Gloss=of
+3	kə́	kə́	ADP	_	Case=Gen	1	mod	_	AlignBegin=387217|AlignEnd=387434|Gloss=of
 4	ʒèlì	ʒèlì	ADJ	_	_	3	comp:obj	_	AlignBegin=387434|AlignEnd=387651|Gloss=red
 5	ɗa	ɗa	ADV	_	_	1	mod	_	AlignBegin=387651|AlignEnd=387868|Gloss=again
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=387868|AlignEnd=388085|Gloss=PUNCT
@@ -3124,7 +3124,7 @@
 3	kât	kat	VERB	_	_	2	comp:aux	_	AlignBegin=400329|AlignEnd=400502|Gloss=drive_away
 4	tə	tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	comp:obj@R	_	AlignBegin=400502|AlignEnd=400675|Gloss=3Sing.Acc|wordform==tə
 5	yáːɣn	yâːɣn	NOUN	_	_	3	comp:obj@T	_	AlignBegin=400675|AlignEnd=400887|Gloss=earth.sp
-6	gə̀	kə́	ADP	_	_	5	mod	_	AlignBegin=400887|AlignEnd=401099|Gloss=of
+6	gə̀	kə́	ADP	_	Case=Gen	5	mod	_	AlignBegin=400887|AlignEnd=401099|Gloss=of
 7	ʒèlì	ʒèlì	ADJ	_	_	6	comp:obj	_	AlignBegin=401099|AlignEnd=401311|Gloss=red
 8-10	mə́ndiɣáy	_	_	_	_	_	_	_	_
 8	mə́n	mə́n	PART	_	Case=Dat|PartType=Case	3	compound:prt	_	AlignBegin=401311|AlignEnd=401382|Gloss=Dat
@@ -3286,7 +3286,7 @@
 10	kat	kat	VERB	_	_	9	compound:svc	_	AlignBegin=423526|AlignEnd=423680|Gloss=drive_away
 11	tə	tə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	10	comp:obj@R	_	AlignBegin=423680|AlignEnd=423833|Gloss=3Sing.Acc|wordform==tə
 12	yáːɣn	yâːɣn	NOUN	_	_	10	comp:obj@T	_	AlignBegin=423833|AlignEnd=424140|Gloss=earth.sp
-13	gə̀	kə́	ADP	_	_	12	mod	_	AlignBegin=424140|AlignEnd=424447|Gloss=of
+13	gə̀	kə́	ADP	_	Case=Gen	12	mod	_	AlignBegin=424140|AlignEnd=424447|Gloss=of
 14	fyáːli	fyáːli	ADJ	_	_	13	comp:obj	_	AlignBegin=424447|AlignEnd=424754|Gloss=white
 15-17	mə́nɗiɣáy	_	_	_	_	_	_	_	_
 15	mə́n	mə́n	PART	_	Case=Dat|PartType=Case	10	compound:prt	_	AlignBegin=424754|AlignEnd=424856|Gloss=Dat
@@ -3348,7 +3348,7 @@
 7	ʃèː	ʃèː	X	_	_	8	unk	_	AlignBegin=431687|AlignEnd=431914|Gloss=X
 8	ɮiː	ɮiː	VERB	_	_	3	comp:obj	_	AlignBegin=431914|AlignEnd=432141|Gloss=take
 9	ngətn	ngətn	NOUN	_	_	8	comp:obj	_	AlignBegin=432141|AlignEnd=432368|Gloss=thing
-10	kə́	kə́	ADP	_	_	9	mod	_	AlignBegin=432368|AlignEnd=432595|Gloss=of
+10	kə́	kə́	ADP	_	Case=Gen	9	mod	_	AlignBegin=432368|AlignEnd=432595|Gloss=of
 11	vwàːs	vwàːs	NOUN	_	Definite=Def	10	comp:obj	_	AlignBegin=432595|AlignEnd=432671|Gloss=belly.Def
 12	ɗi	ɗi	PART	_	PartType=Adv	8	compound:prt	_	AlignBegin=432747|AlignEnd=432822|Gloss=Ctp|wordform==ɗi
 13	kwata	kwata	ADV	_	_	8	mod	_	AlignBegin=432822|AlignEnd=433049|Gloss=completely|Ideo=Yes
@@ -4967,7 +4967,7 @@
 4	tu	tu	SCONJ	_	_	3	comp:obj	_	AlignBegin=625344|AlignEnd=625674|Gloss=Qot
 5	[	[	PUNCT	_	_	9	punct	_	AlignBegin=625674|AlignEnd=626006|Gloss=PUNCT
 6	mur	mur	NOUN	_	_	9	dislocated@subj	_	AlignBegin=627810|AlignEnd=628009|Gloss=man
-7	ɣə́	kə́	ADP	_	_	6	mod	_	AlignBegin=628009|AlignEnd=628208|Gloss=of
+7	ɣə́	kə́	ADP	_	Case=Gen	6	mod	_	AlignBegin=628009|AlignEnd=628208|Gloss=of
 8	də̀nwàː	də̀n	NOUN	_	Case=Gen	7	comp:obj	_	AlignBegin=628208|AlignEnd=628308|Gloss=compound|wordform=də̀n
 9	tə́	á	AUX	_	Aspect=Aor|Number=Plur|Person=3	4	comp:obj	_	AlignBegin=628407|AlignEnd=628606|Gloss=3Plur.Aor
 10	fî	fi	VERB	_	_	9	comp:aux	_	AlignBegin=628606|AlignEnd=628805|Gloss=do
@@ -4976,7 +4976,7 @@
 12	ɗi	ɗi	PART	_	PartType=Adv	10	compound:prt	_	AlignBegin=629468|AlignEnd=629582|Gloss=Ctp|wordform==ɗi
 13	tə́	tə́	ADP	_	_	10	comp:obl	_	AlignBegin=629809|AlignEnd=630014|Gloss=with
 14	mur	mur	VERB	_	_	13	comp:obj	_	AlignBegin=630014|AlignEnd=630219|Gloss=man
-15	ɣə́	kə́	ADP	_	_	14	mod	_	AlignBegin=630219|AlignEnd=630424|Gloss=of
+15	ɣə́	kə́	ADP	_	Case=Gen	14	mod	_	AlignBegin=630219|AlignEnd=630424|Gloss=of
 16	də̀nwàː	də̀n	NOUN	_	Case=Gen	15	comp:obj	_	AlignBegin=630424|AlignEnd=630526|Gloss=compound|wordform=də̀n
 17-18	ŋǎːn	_	_	_	_	_	_	_	_
 17	ŋaː	ŋaː	PART	_	PartType=Ill|Polarity=Neg	9	mod	_	AlignBegin=630629|AlignEnd=630731|Gloss=Int
@@ -4992,7 +4992,7 @@
 # text_ortho = mur ɣə́ də̀nwàː tùlár gòsɗì ŋǎːn |c kóː á ɗîːɓárnyaː ?//
 # text_en = Didn't your husband bring his own home, or did he sell it?
 1	mur	mur	NOUN	_	_	4	subj	_	AlignBegin=631258|AlignEnd=631459|Gloss=man
-2	ɣə́	kə́	ADP	_	_	1	mod	_	AlignBegin=631459|AlignEnd=631660|Gloss=of
+2	ɣə́	kə́	ADP	_	Case=Gen	1	mod	_	AlignBegin=631459|AlignEnd=631660|Gloss=of
 3	də̀nwàː	də̀n	NOUN	_	Case=Gen	2	comp:obj	_	AlignBegin=631660|AlignEnd=631760|Gloss=compound|wordform=də̀n
 4	tùlár	tul	VERB	_	Voice=Cau	0	root	_	AlignBegin=631861|AlignEnd=632062|Gloss=arrive-Cau|wordform=tul
 5-6	gòsɗì	_	_	_	_	_	_	_	_
@@ -5425,7 +5425,7 @@
 8	gòʃíː	gòs	PRON	_	Case=Gen|Deixis=Remt|Number=Sing|Person=3|PronType=Prs	7	mod@ethic	_	AlignBegin=695981|AlignEnd=696169|Gloss=3SingGen.Remt|wordform=gòs
 9	nə	nə	ADP	_	_	7	comp:pred	_	AlignBegin=696169|AlignEnd=696357|Gloss=DER
 10	mur	mur	NOUN	_	_	9	comp:obj	_	AlignBegin=696357|AlignEnd=696545|Gloss=man
-11	ɣə́	kə́	ADP	_	_	10	mod	_	AlignBegin=696545|AlignEnd=696733|Gloss=of
+11	ɣə́	kə́	ADP	_	Case=Gen	10	mod	_	AlignBegin=696545|AlignEnd=696733|Gloss=of
 12	hàkuri	hàkuri	NOUN	_	_	11	comp:obj	_	AlignBegin=696733|AlignEnd=696921|Gloss=courage
 13	//	//	PUNCT	_	_	6	punct	_	AlignBegin=696921|AlignEnd=697110|Gloss=PUNCT
 
@@ -5776,12 +5776,12 @@
 # text_ortho = mur ɣə́ vwàː ɣən ʧi mur ɣə́ saɣát kəndíyǎːn ?//
 # text_en = A hungry man is a clever man, no?
 1	mur	mur	NOUN	_	_	0	root	_	AlignBegin=745703|AlignEnd=745928|Gloss=man
-2	ɣə́	kə́	ADP	_	_	1	mod	_	AlignBegin=745928|AlignEnd=746153|Gloss=of
+2	ɣə́	kə́	ADP	_	Case=Gen	1	mod	_	AlignBegin=745928|AlignEnd=746153|Gloss=of
 3	vwàː	vwàː	NOUN	_	_	2	comp:obj	_	AlignBegin=746153|AlignEnd=746378|Gloss=belly
 4	ɣən	kən	PART	_	PartType=Foc	1	discourse@foc	_	AlignBegin=746378|AlignEnd=746603|Gloss=Identif
 5	ʧi	yi	AUX	_	Number=Sing|Person=3	1	comp:cleft	_	AlignBegin=746715|AlignEnd=746828|Copula=Yes|Gloss=3Sing.be.Loc|wordform=yi
 6	mur	mur	NOUN	_	_	5	comp:pred	_	AlignBegin=746828|AlignEnd=747278|Gloss=man-Cons
-7	ɣə́	kə́	ADP	_	_	6	mod	_	AlignBegin=746828|AlignEnd=747278|Gloss=of
+7	ɣə́	kə́	ADP	_	Case=Gen	6	mod	_	AlignBegin=746828|AlignEnd=747278|Gloss=of
 8	saɣát	sakát	VERB	_	_	7	comp:obj	_	AlignBegin=747278|AlignEnd=747503|Gloss=be_clever
 9	kəndí	kən	PART	_	PartType=Foc	6	discourse@foc	_	AlignBegin=747503|AlignEnd=747578|Gloss=be
 10-11	ǎːn	_	_	_	_	_	_	_	_
@@ -5920,7 +5920,7 @@
 # text = kə́ nandam //
 # text_ortho = kə́ nandam //
 # text_en = The fifth one.
-1	kə́	kə́	ADP	_	_	0	root	_	AlignBegin=763913|AlignEnd=764115|Gloss=of
+1	kə́	kə́	ADP	_	Case=Gen	0	root	_	AlignBegin=763913|AlignEnd=764115|Gloss=of
 2	nandam	nandam	NUM	_	_	1	comp:obj	_	AlignBegin=764115|AlignEnd=764317|Gloss=five
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=764317|AlignEnd=764520|Gloss=PUNCT
 
