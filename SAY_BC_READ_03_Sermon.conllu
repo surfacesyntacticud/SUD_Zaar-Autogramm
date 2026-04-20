@@ -263,12 +263,12 @@
 30	ɲólár	ɲol	VERB	_	_	29	comp:aux	_	AlignBegin=73460|AlignEnd=73532|Gloss=go_out-Cau|wordform=ɲol
 31	ʃí	ʃí	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	30	comp:obj	_	AlignBegin=73604|AlignEnd=73676|Gloss=3Plur.Acc|wordform==ʃí
 32	wáːsə̀ŋə́y	waːsəŋ	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	31	mod@ethic	_	Accomplished=Yes|AlignBegin=73604|AlignEnd=73676|Gloss=3Plur.Gen.Acpl|wordform==ʃí
-33	nə́	nə́	ADP	_	_	17	mod	_	AlignBegin=75080|AlignEnd=75232|Gloss=for
-34	dur	dur	NOUN	_	_	33	comp:obj	_	AlignBegin=75232|AlignEnd=75384|Gloss=cause
-35	ɣə́	kə́	ADP	_	Case=Gen	34	mod	_	AlignBegin=75384|AlignEnd=75536|Gloss=of
-36	tu	tu	SCONJ	_	_	35	comp:obj	_	AlignBegin=75536|AlignEnd=75688|Gloss=Qot
+33	nə́	nə́	ADP	_	ExtPos=SCONJ	17	mod	_	AlignBegin=75080|AlignEnd=75232|Gloss=for|Idiom=Yes
+34	dur	dur	NOUN	_	_	33	comp:obj	_	AlignBegin=75232|AlignEnd=75384|Gloss=cause|InIdiom=Yes
+35	ɣə́	kə́	ADP	_	Case=Gen	34	mod	_	AlignBegin=75384|AlignEnd=75536|Gloss=of|InIdiom=Yes
+36	tu	tu	SCONJ	_	_	35	unk	_	AlignBegin=75536|AlignEnd=75688|Gloss=Qot|InIdiom=Yes
 37	gyaːgón	gón	PRON	_	Definite=Spec|Number=Plur	38	subj	_	AlignBegin=77200|AlignEnd=77520|Gloss=Spec
-38	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	36	comp:obj	_	AlignBegin=78680|AlignEnd=78863|Gloss=3Plur.Imp
+38	ʧǎː	yáː	AUX	_	Aspect=Imp|Number=Plur|Person=3	33	comp:obj	_	AlignBegin=78680|AlignEnd=78863|Gloss=3Plur.Imp
 39	ɮə̌ːr	ɮə́ːr	VERB	_	_	38	comp:aux	_	AlignBegin=78863|AlignEnd=79046|Gloss=stay
 40	á	ká	ADP	_	ExtPos=ADP	39	comp:obl	_	AlignBegin=79046|AlignEnd=79229|Gloss=at|Idiom=Yes
 41	kén	kéni	NOUN	_	_	40	unk	_	AlignBegin=79229|AlignEnd=79412|Gloss=front|InIdiom=Yes
@@ -746,12 +746,12 @@
 # text = nə́ dur ɣə́ tu tákwáːrà ʧi ʧoɣn longa ʧi gòs yâːɬ ɓurúk ngə́tn wón ɗan longa ʧáː fi tákwáːrà ʧi ɓastə yélɣə̂n ɗeɓát //
 # text_ortho = nə́ dur ɣə́ tu tákwáːrà ʧi ʧoɣn longa ʧi gòs yâːɬ ɓurúk ngə́tn wón ɗan longa ʧáː fi tákwáːrà ʧi ɓastə yélɣə̂n ɗeɓát //
 # text_en = Because the bush fowl is in the sky and the rabbit is on the ground, everything that the rabbit does, the bush fowl sees it all.
-1	nə́	nə́	ADP	_	_	20	mod	_	AlignBegin=230840|AlignEnd=230996|Gloss=for
-2	dur	dur	NOUN	_	_	1	comp:obj	_	AlignBegin=230996|AlignEnd=231152|Gloss=cause
-3	ɣə́	kə́	ADP	_	Case=Gen	2	mod	_	AlignBegin=231152|AlignEnd=231308|Gloss=of
-4	tu	tu	SCONJ	_	_	3	comp:obj	_	AlignBegin=231308|AlignEnd=231464|Gloss=Qot
+1	nə́	nə́	ADP	_	ExtPos=SCONJ	20	mod	_	AlignBegin=230840|AlignEnd=230996|Gloss=for|Idiom=Yes
+2	dur	dur	NOUN	_	_	1	comp:obj	_	AlignBegin=230996|AlignEnd=231152|Gloss=cause|InIdiom=Yes
+3	ɣə́	kə́	ADP	_	Case=Gen	2	mod	_	AlignBegin=231152|AlignEnd=231308|Gloss=of|InIdiom=Yes
+4	tu	tu	SCONJ	_	_	3	unk	_	AlignBegin=231308|AlignEnd=231464|Gloss=Qot|InIdiom=Yes
 5	tákwáːrà	tákwáːrà	NOUN	_	Definite=Cons	6	subj	_	AlignBegin=232540|AlignEnd=232820|Gloss=bush_fowl
-6	ʧi	yi	AUX	_	Number=Sing|Person=3	4	comp:obj	_	AlignBegin=233960|AlignEnd=234160|Copula=Yes|Gloss=3Sing.be.Loc|wordform=yi
+6	ʧi	yi	AUX	_	Number=Sing|Person=3	1	comp:obj	_	AlignBegin=233960|AlignEnd=234160|Copula=Yes|Gloss=3Sing.be.Loc|wordform=yi
 7	ʧoɣn	ʧoɣn	NOUN	_	_	6	comp:pred	_	AlignBegin=234160|AlignEnd=234360|Gloss=sky
 8	longa	longa	NOUN	_	_	9	subj	_	AlignBegin=235520|AlignEnd=235748|Gloss=rabbit
 9	ʧi	yi	AUX	_	Number=Sing|Person=3	6	parataxis@conj	_	AlignBegin=235748|AlignEnd=235976|Copula=Yes|Gloss=3Sing.be.Loc|wordform=yi
@@ -814,10 +814,10 @@
 # text = nə́ dur ɣə́ gíː yâːn ɮàrwàː tu kyáː fi kúskə̀ raː nə mə́ːri gón ʧáː yelɣə hŋ́ kóːgón yisə́ŋ hŋ́ ɗangəní ɓitálɣə tu ɗeɓát ríːɣə̂nwâː Tʃóɣnvòn ʧi ɓaskə yélɣə̂n //
 # text_ortho = nə́ dur ɣə́ gíː yáːn ɮàrwàː tu kyáː fi kúskə̀ raː nə mə́ːri gón ʧáː yelɣə hŋ́ kóːgón yîsə́ŋ hŋ́ ɗangəní ɓitálɣə tu ɗeɓát ríːɣə̂nwàː Tʃóknvòn ʧi ɓaskə yélɣə̂n //
 # text_en = Because of that, if you are wont to do evil in secret, secretly, without anyone seeing you without anyone knowing about it, now, ask yourself if all your wanderings, God does not see you.
-1	nə́	nə́	ADP	_	ExtPos=ADV	23	mod	_	AlignBegin=251660|AlignEnd=251828|Gloss=for|Idiom=Yes
+1	nə́	nə́	ADP	_	ExtPos=ADP	23	mod	_	AlignBegin=251660|AlignEnd=251828|Gloss=for
 2	dur	dur	NOUN	_	_	1	comp:obj	_	AlignBegin=251828|AlignEnd=251996|Gloss=cause|InIdiom=Yes
 3	ɣə́	kə́	ADP	_	Case=Gen	2	mod	_	AlignBegin=251996|AlignEnd=252164|Gloss=of|InIdiom=Yes
-4	gíː	gíː	PRON	_	Deixis=Remt|PronType=Dem	3	comp:obj	_	AlignBegin=252164|AlignEnd=252332|Gloss=Remt|InIdiom=Yes
+4	gíː	gíː	PRON	_	Deixis=Remt|PronType=Dem	1	comp:obj	_	AlignBegin=252164|AlignEnd=252332|Gloss=Remt
 5	yâːn	yâːn	SCONJ	_	_	23	mod	_	AlignBegin=253380|AlignEnd=253625|Gloss=if
 6	ɮàrwàː	ɮàr	NOUN	_	Case=Gen|Number=Sing|Person=2	7	subj	_	AlignBegin=253625|AlignEnd=253747|Gloss=dance.2SingGen|wordform=ɮàr
 7	tu	tu	SCONJ	_	_	5	comp:obj	_	AlignBegin=253870|AlignEnd=254115|Gloss=Qot|Quote=Yes
@@ -1226,13 +1226,13 @@
 4	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	0	root	_	AlignBegin=373980|AlignEnd=374245|Gloss=1Plur.Sub
 5	ndə̀ːr	ndəːr	VERB	_	_	4	comp:aux	_	AlignBegin=374245|AlignEnd=374510|Gloss=repair
 6	tsə́tngə́nwôpíː	tsə́tn	VERB	_	Case=Gen|ExtPos=NOUN|Number=Plur|Person=1|VerbForm=Vnoun	5	comp:obj	_	Accomplished=Yes|AlignBegin=374510|AlignEnd=374576|Gloss=sit-Vnoun.1PlurGen.Acpl|wordform=tsə́tn
-7	nə́	nə́	ADP	_	_	5	mod	_	AlignBegin=375920|AlignEnd=376080|Gloss=for
-8	dur	dur	NOUN	_	_	7	comp:obj	_	AlignBegin=376080|AlignEnd=376240|Gloss=cause
-9	ɣə́	kə́	ADP	_	Case=Gen	8	mod	_	AlignBegin=376240|AlignEnd=376400|Gloss=of
-10	tu	tu	SCONJ	_	_	9	comp:obj	_	AlignBegin=376400|AlignEnd=376560|Gloss=Qot
+7	nə́	nə́	ADP	_	ExtPos=SCONJ	5	mod	_	AlignBegin=375920|AlignEnd=376080|Gloss=for
+8	dur	dur	NOUN	_	_	7	comp:obj	_	AlignBegin=376080|AlignEnd=376240|Gloss=cause|InIdiom=Yes
+9	ɣə́	kə́	ADP	_	Case=Gen	8	mod	_	AlignBegin=376240|AlignEnd=376400|Gloss=of|InIdiom=Yes
+10	tu	tu	SCONJ	_	_	9	unk	_	AlignBegin=376400|AlignEnd=376560|Gloss=Qot|InIdiom=Yes
 11	máːɣə̂n	máni	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	13	subj	_	AlignBegin=377960|AlignEnd=378154|Gloss=come-Vnoun|wordform=máni
 12	Tʃóknvònès	Tʃóɣnvòn	NOUN	_	Definite=Def	11	comp:obj	_	AlignBegin=378347|AlignEnd=378541|Gloss=God.Def|wordform=Tʃóknvòn
-13	àː	áː	AUX	_	Aspect=Perf|Number=Sing|Person=3	10	comp:obj	_	AlignBegin=379520|AlignEnd=379720|Gloss=3Sing.Perf
+13	àː	áː	AUX	_	Aspect=Perf|Number=Sing|Person=3	7	comp:obj	_	AlignBegin=379520|AlignEnd=379720|Gloss=3Sing.Perf
 14-15	tulíːɗi	_	_	_	_	_	_	_	_
 14	tulíː	tul	VERB	_	_	13	comp:aux	_	Accomplished=Yes|AlignBegin=379720|AlignEnd=379787|Gloss=reach ; pierce.Acpl
 15	ɗi	ɗi	PART	_	PartType=Adv	14	compound:prt	_	AlignBegin=379854|AlignEnd=379920|Gloss=CTP|wordform=-ɗi
@@ -1282,7 +1282,7 @@
 10	tu	tu	SCONJ	_	_	9	unk	_	AlignBegin=393068|AlignEnd=393224|Gloss=Qot|InIdiom=Yes
 11	káɗâ	káɗá	PART	_	PartType=Neg|Polarity=Neg	13	mod	_	AlignBegin=394700|AlignEnd=394893|Gloss=Neg
 12	gón	gón	PRON	_	Definite=Spec	13	subj	_	AlignBegin=394893|AlignEnd=395086|Gloss=Spec
-13	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	7	parataxis@conj	_	AlignBegin=396100|AlignEnd=396333|Gloss=3Sing.Sub
+13	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	7	comp:obj	_	AlignBegin=396100|AlignEnd=396333|Gloss=3Sing.Sub
 14-15	vúmkí	_	_	_	_	_	_	_	_
 14	vúm	vum	VERB	_	_	13	comp:aux	_	AlignBegin=396333|AlignEnd=396449|Gloss=snatch
 15	kí	kí	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	14	comp:obj@R	_	AlignBegin=396449|AlignEnd=396566|Gloss=2Plur.OBJ|wordform==kí
@@ -1608,8 +1608,8 @@
 31	ndəːr	ndəːr	VERB	_	_	30	comp:aux	_	AlignBegin=509748|AlignEnd=509926|Gloss=prepare
 32	tə	tə	PRON	_	Number=Sing|Person=3|PronType=Prs	31	comp:obj	_	AlignBegin=509926|AlignEnd=510104|Gloss=3Sing.Acc|wordform==tə
 33	nə́	nə́	ADP	_	ExtPos=ADP	31	mod	_	AlignBegin=510104|AlignEnd=510460|Gloss=for|Idiom=Yes
-34	dur	dur	NOUN	_	_	33	unk	_	AlignBegin=510460|AlignEnd=510816|Gloss=cause|InIdiom=Yes
-35	ɣə́	kə́	ADP	_	Case=Gen	34	unk	_	AlignBegin=510816|AlignEnd=511172|Gloss=of|InIdiom=Yes
+34	dur	dur	NOUN	_	_	33	comp:obj	_	AlignBegin=510460|AlignEnd=510816|Gloss=cause|InIdiom=Yes
+35	ɣə́	kə́	ADP	_	Case=Gen	34	mod	_	AlignBegin=510816|AlignEnd=511172|Gloss=of|InIdiom=Yes
 36	ʃèːtân	ʃèːtân	PROPN	_	_	33	comp:obj	_	AlignBegin=511172|AlignEnd=511528|Gloss=Satan
 37	tə́	tə́	CCONJ	_	_	38	cc	_	AlignBegin=513060|AlignEnd=513367|Gloss=with
 38	məndə́ŋsəwòʃíː	mə́ndə	NOUN	_	Case=Gen|Deixis=Remt|Number=Sing|Person=3	36	conj:coord	_	AlignBegin=513367|AlignEnd=513444|Gloss=spirit.Plur.3SingGen.Remt|wordform=məndə́ŋsə
@@ -1913,13 +1913,13 @@
 11	ɲôlár	ɲol	VERB	_	_	10	comp:aux	_	AlignBegin=611309|AlignEnd=611390|Gloss=go_out-Cau|wordform=ɲol
 12	ɣə	kə	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	11	comp:obj@R	_	AlignBegin=611471|AlignEnd=611552|Gloss=2Sing.OBJ|wordform==ɣə
 13	hŋ́	hŋ́	PART	_	PartType=Neg|Polarity=Neg	9	mod	_	AlignBegin=611552|AlignEnd=611795|Gloss=Neg
-14	nə́	nə́	ADP	_	ExtPos=ADP	9	mod	_	AlignBegin=612980|AlignEnd=613136|Gloss=for|Idiom=Yes
+14	nə́	nə́	ADP	_	ExtPos=SCONJ	9	mod	_	AlignBegin=612980|AlignEnd=613136|Gloss=for|Idiom=Yes
 15	dur	dur	NOUN	_	_	14	comp:obj	_	AlignBegin=613136|AlignEnd=613292|Gloss=cause|InIdiom=Yes
 16	ɣə́	kə́	ADP	_	Case=Gen	15	mod	_	AlignBegin=613292|AlignEnd=613448|Gloss=of|InIdiom=Yes
 17	tu	tu	SCONJ	_	_	16	unk	_	AlignBegin=613448|AlignEnd=613604|Gloss=Qot|InIdiom=Yes
 18	yàːʃí	yàːʃí	NOUN	_	Definite=Def|Number=Plur|Person=3	20	dislocated@subj	_	AlignBegin=615140|AlignEnd=615367|Gloss=3Plur.IDP
 19	máː	máː	PART	_	PartType=Top	18	discourse@top	_	AlignBegin=615367|AlignEnd=615594|Gloss=even
-20	ʧì	yi	AUX	_	Number=Plur|Person=3	17	comp:obj	_	AlignBegin=616580|AlignEnd=616757|Copula=Yes|Gloss=3Plur.be.Loc
+20	ʧì	yi	AUX	_	Number=Plur|Person=3	14	comp:obj	_	AlignBegin=616580|AlignEnd=616757|Copula=Yes|Gloss=3Plur.be.Loc
 21	ɣá	ká	ADP	_	_	20	comp:pred	_	AlignBegin=616757|AlignEnd=616934|Gloss=at
 22	dur	dur	NOUN	_	_	21	comp:obj	_	AlignBegin=616934|AlignEnd=617111|Gloss=cause
 23	ɣə́	kə́	ADP	_	Case=Gen	22	mod	_	AlignBegin=617111|AlignEnd=617288|Gloss=of
@@ -2711,11 +2711,11 @@
 11	ngə́tnwâː	ngə́tn	NOUN	_	Case=Gen|Number=Sing|Person=2	9	mod	_	AlignBegin=874920|AlignEnd=875070|Gloss=thing.2SingGen|wordform=ngə́tn
 12	ka	a	AUX	_	Number=Sing|Person=2|Tense=Fut	8	comp:cleft	_	AlignBegin=875860|AlignEnd=876007|Gloss=2Sing.Fut
 13	yeli	yeli	VERB	_	_	12	comp:aux	_	AlignBegin=876007|AlignEnd=876154|Gloss=see
-14	nə́	nə́	ADP	_	_	8	mod	_	AlignBegin=877820|AlignEnd=877968|Gloss=for
-15	dur	dur	NOUN	_	_	14	comp:obj	_	AlignBegin=877968|AlignEnd=878116|Gloss=cause
-16	ɣə́	kə́	ADP	_	Case=Gen	15	mod	_	AlignBegin=878116|AlignEnd=878264|Gloss=of
-17	tu	tu	SCONJ	_	_	16	comp:obj	_	AlignBegin=878264|AlignEnd=878412|Gloss=Qot
-18	nə	nə	AUX	_	_	17	comp:obj	_	AlignBegin=879980|AlignEnd=880192|Copula=Yes|Gloss=be.Ident
+14	nə́	nə́	ADP	_	ExtPos=SCONJ	8	mod	_	AlignBegin=877820|AlignEnd=877968|Gloss=for|Idiom=Yes
+15	dur	dur	NOUN	_	_	14	comp:obj	_	AlignBegin=877968|AlignEnd=878116|Gloss=cause|InIdiom=Yes
+16	ɣə́	kə́	ADP	_	Case=Gen	15	mod	_	AlignBegin=878116|AlignEnd=878264|Gloss=of|InIdiom=Yes
+17	tu	tu	SCONJ	_	_	16	unk	_	AlignBegin=878264|AlignEnd=878412|Gloss=Qot|InIdiom=Yes
+18	nə	nə	AUX	_	_	14	comp:obj	_	AlignBegin=879980|AlignEnd=880192|Copula=Yes|Gloss=be.Ident
 19	kyâːn	kyáːni	PRON	_	Number=Sing|Person=2|PronType=Prs	18	comp:pred	_	AlignBegin=880192|AlignEnd=880404|Gloss=2Sing.IDP
 20	tə́	tə́	CCONJ	_	_	21	cc	_	AlignBegin=880404|AlignEnd=880616|Gloss=and
 21	gamaː	gamaː	PRON	_	Number=Sing|Person=2|Reflex=Yes	19	conj:coord	_	AlignBegin=880616|AlignEnd=880828|Gloss=2Sing.REFL
