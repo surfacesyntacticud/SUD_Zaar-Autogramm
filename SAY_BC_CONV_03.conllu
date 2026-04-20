@@ -2136,7 +2136,7 @@
 8	tu	tu	VERB	_	_	7	compound:svc	_	AlignBegin=293346|AlignEnd=293488|Gloss=get
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=293488|AlignEnd=293631|Gloss=PUNCT
 
-# sent_id = SAY_BC_CONV_03_273-275_276-276
+# sent_id = SAY_BC_CONV_03_273-276
 # text = tòː àmáː ɗan mətá ʃiʃí ɗân < tə̀tà wuləm tu wéy || wéy d~ || sábòːtu nə ráʃi yisə́ngə̂n dàtə́pês ɗan bàː máː yisə̌n //
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_03.WAV
@@ -2160,7 +2160,7 @@
 14	wéy	wéy	PART	_	Evident=Nfh|PartType=Disc	12	conj:dicto	_	AlignBegin=295768|AlignEnd=295896|Gloss=Nfh
 15	d~	domin	SCONJ	_	_	11	comp:obj	_	AlignBegin=295896|AlignEnd=296024|Gloss=HESIT[because]
 16	||	||	PUNCT	_	_	17	punct	_	AlignBegin=296024|AlignEnd=296153|Gloss=PUNCT
-17	sábòːtu	sábòːtu	SCONJ	_	ExtPos=ADP	15	conj:dicto	_	AlignBegin=296153|AlignEnd=296407|Gloss=because
+17	sábòːtu	sábòːtu	ADP	_	_	15	conj:dicto	_	AlignBegin=296153|AlignEnd=296407|Gloss=because
 18	nə	nə	ADP	_	_	17	comp:obj	_	AlignBegin=296407|AlignEnd=296661|Gloss=DER
 19	ráʃi	ráʃi	NOUN	_	_	18	comp:obj	_	AlignBegin=296661|AlignEnd=296915|Gloss=lack
 20	yisə́ngə̂n	yisə́n	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	19	mod	_	AlignBegin=296915|AlignEnd=297169|Gloss=know
@@ -3630,8 +3630,8 @@
 6	màːʃín	màːʃîn	NOUN	_	_	5	comp:obj	_	AlignBegin=433975|AlignEnd=434077|Gloss=motorbike
 7	ǐn	hŋ́	PART	_	PartType=Neg|Polarity=Neg	4	mod	_	AlignBegin=434077|AlignEnd=434127|Gloss=Neg
 8	>	>	PUNCT	_	_	9	punct	_	AlignBegin=434127|AlignEnd=434279|Gloss=PUNCT
-9	séː	séː	SCONJ	_	ExtPos=SCONJ	4	mod	_	AlignBegin=434279|AlignEnd=434391|Gloss=not_until|Idiom=Yes
-10	ɗan	ɗan	SCONJ	_	_	9	comp:obj	_	AlignBegin=434391|AlignEnd=434503|Gloss=as|InIdiom=Yes
+9	séː	séː	SCONJ	_	_	4	mod	_	AlignBegin=434279|AlignEnd=434391|Gloss=not_until
+10	ɗan	ɗan	SCONJ	_	_	9	comp:obj	_	AlignBegin=434391|AlignEnd=434503|Gloss=as
 11	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	10	comp:obj	_	AlignBegin=434503|AlignEnd=434615|Gloss=1Sing.Aor
 12	||	||	PUNCT	_	_	13	punct	_	AlignBegin=434615|AlignEnd=434729|Gloss=PUNCT
 13	mə	á	AUX	_	Aspect=Aor|Number=Sing|Person=1	11	conj:dicto	_	AlignBegin=434729|AlignEnd=434913|Gloss=1Sing.Aor
@@ -4546,13 +4546,13 @@
 # text_en = If they haven't warned the people, I tell you there's no way he will find anyone at home, all the more so since that which even... Corn beating hasn 't finished even.
 1	ìdán	ìdán	SCONJ	_	ExtPos=SCONJ	14	mod	_	AlignBegin=533702|AlignEnd=533911|Gloss=if|Idiom=Yes
 2	bàː	bàː	PART	_	PartType=Neg|Polarity=Neg	1	comp:obj	_	AlignBegin=533911|AlignEnd=534120|Gloss=be.Neg|InIdiom=Yes
-3	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	2	comp:pred	_	AlignBegin=534120|AlignEnd=534330|Gloss=3Sing|InIdiom=Yes
-4	tàː	áː	AUX	_	Aspect=Perf|Number=Plur|Person=3	2	comp:cleft	_	AlignBegin=535609|AlignEnd=535786|Gloss=3Plur.PERF
+3	yâːn	yáːni	PRON	_	Number=Sing|Person=3|PronType=Prs	2	unk	_	AlignBegin=534120|AlignEnd=534330|Gloss=3Sing|InIdiom=Yes
+4	tàː	áː	AUX	_	Aspect=Perf|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=535609|AlignEnd=535786|Gloss=3Plur.PERF
 5-6	fuːni	_	_	_	_	_	_	_	_
 5	fuː	fuː	VERB	_	_	4	comp:aux	_	AlignBegin=535786|AlignEnd=535874|Gloss=tell
 6	ni	ni	PART	_	Aspect=Inch|PartType=Adv	5	compound:prt	_	AlignBegin=535874|AlignEnd=535963|Gloss=Inch|wordform==ni
 7	zàrsə̀	Zaːr	NOUN	_	Number=Plur	5	comp:obj	_	AlignBegin=535963|AlignEnd=536140|Gloss=human
-8	hŋ́	hŋ́	PART	_	PartType=Neg|Polarity=Neg	2	mod	_	AlignBegin=536140|AlignEnd=536317|Gloss=Neg
+8	hŋ́	hŋ́	PART	_	PartType=Neg|Polarity=Neg	4	mod	_	AlignBegin=536140|AlignEnd=536317|Gloss=Neg
 9	<	<	PUNCT	_	_	1	punct	_	AlignBegin=536317|AlignEnd=536493|Gloss=PUNCT
 10	myáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	14	parataxis@discourse	_	AlignBegin=536979|AlignEnd=537248|Gloss=1Sing.IMP
 11-12	fuːɣə́n	_	_	_	_	_	_	_	_
@@ -5574,7 +5574,7 @@
 18	<	<	PUNCT	_	_	15	punct	_	AlignBegin=649900|AlignEnd=650009|Gloss=PUNCT
 19	èː	èː	INTJ	_	_	21	discourse@filler	_	AlignBegin=650432|AlignEnd=651368|Gloss=FILL
 20	Zəgì	Zəgì	PROPN	_	_	21	subj	_	AlignBegin=651670|AlignEnd=651825|Gloss=Ziggy
-21	tu	tu	SCONJ	_	ExtPos=VERB	0	root	_	AlignBegin=651825|AlignEnd=651980|Gloss=Qot
+21	tu	tu	SCONJ	_	_	0	root	_	AlignBegin=651825|AlignEnd=651980|Gloss=Qot
 22	wéy	wéy	PART	_	Evident=Nfh|PartType=Disc	24	discourse	_	AlignBegin=651980|AlignEnd=652135|Gloss=Nfh
 23	bàː	bàː	PART	_	PartType=Neg|Polarity=Neg	24	mod	_	AlignBegin=652289|AlignEnd=652415|Gloss=Neg
 24	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	21	comp:obj	_	AlignBegin=652415|AlignEnd=652541|Gloss=3Sing.Fut
@@ -6229,7 +6229,7 @@
 1	séː	séː	ADV	_	_	2	mod	_	AlignBegin=721608|AlignEnd=721720|Gloss=then
 2	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root@scrap	_	AlignBegin=721720|AlignEnd=721832|Gloss=3Sing.Aor
 3	wû	wul	VERB	_	_	2	comp:aux	_	AlignBegin=721832|AlignEnd=721944|Gloss=say
-4	tu	tu	SCONJ	_	ExtPos=SCONJ	3	comp:obj	_	AlignBegin=721944|AlignEnd=722056|Gloss=Qot|Idiom=Yes
+4	tu	tu	SCONJ	_	_	3	comp:obj	_	AlignBegin=721944|AlignEnd=722056|Gloss=Qot
 5	wéy	wéy	PART	_	Evident=Nfh|PartType=Disc	4	comp:obj	_	AlignBegin=722056|AlignEnd=722168|Gloss=Nfh|InIdiom=Yes
 6	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=722168|AlignEnd=722283|Gloss=PUNCT
 
@@ -6243,9 +6243,9 @@
 1	séː	séː	ADV	_	_	2	mod	_	AlignBegin=722608|AlignEnd=722754|Gloss=then
 2	á	á	AUX	_	Aspect=Aor|Number=Sing|Person=3	0	root	_	AlignBegin=722754|AlignEnd=722900|Gloss=3Sing.Aor
 3	wû	wul	VERB	_	_	2	comp:aux	_	AlignBegin=722900|AlignEnd=723046|Gloss=say
-4	tu	tu	SCONJ	_	ExtPos=SCONJ	3	comp:obj	_	AlignBegin=723046|AlignEnd=723192|Gloss=Qot|Idiom=Yes
+4	tu	tu	SCONJ	_	_	3	comp:obj	_	AlignBegin=723046|AlignEnd=723192|Gloss=Qot
 5	wéy	wéy	PART	_	Evident=Nfh|PartType=Disc	6	discourse	_	AlignBegin=723192|AlignEnd=723336|Gloss=Nfh|InIdiom=Yes
-6	èːʼè	èːʼè	INTJ	_	_	3	comp:obj	_	AlignBegin=723336|AlignEnd=723571|Gloss=eh
+6	èːʼè	èːʼè	INTJ	_	_	4	comp:obj	_	AlignBegin=723336|AlignEnd=723571|Gloss=eh
 7	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=723571|AlignEnd=723806|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_03_754-754
@@ -7440,7 +7440,7 @@
 # text_en = Weren't you asking "Who is dating Dukiya?"
 1	kətá	ta	AUX	_	Number=Sing|Person=2|Tense=Remt	0	root	_	AlignBegin=847878|AlignEnd=848069|Gloss=2Sing.RemPast
 2	wu	wul	VERB	_	_	1	comp:aux	_	AlignBegin=848069|AlignEnd=848260|Gloss=say
-3	tu	tu	SCONJ	_	ExtPos=SCONJ	2	comp:obj	_	AlignBegin=848260|AlignEnd=848451|Gloss=Qot|Idiom=Yes
+3	tu	tu	SCONJ	_	_	2	comp:obj	_	AlignBegin=848260|AlignEnd=848451|Gloss=Qot
 4	wéy	wéy	PART	_	Evident=Nfh|PartType=Disc	6	discourse	_	AlignBegin=848451|AlignEnd=848642|Gloss=Nfh|InIdiom=Yes
 5	[	[	PUNCT	_	_	6	punct	_	AlignBegin=848642|AlignEnd=848831|Gloss=PUNCT
 6	nə	nə	AUX	_	_	3	comp:obj	_	AlignBegin=848831|AlignEnd=849058|Copula=Yes|Gloss=be.Ident
