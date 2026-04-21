@@ -143,21 +143,21 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 13112, 16963
 # text_ortho = àmáː < súːkə́n gə̀tn tu kóːdàː mìː ɬǐː á lə̂p gyáː Sommíɗa Ɓóngaː //
-# text_en = But my wish is, if we went to the place of... Sommida... at Ɓónga's...
-1	àmáː	àmáː	CCONJ	_	_	3	discourse	_	AlignBegin=13112|AlignEnd=13254|Gloss=but
+# text_en = But my wish is, even if we went to the place of... Sommida... at Ɓónga's...
+1	àmáː	àmáː	CCONJ	_	_	5	discourse	_	AlignBegin=13112|AlignEnd=13254|Gloss=but
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=13254|AlignEnd=13396|Gloss=PUNCT
-3	súːɣə́n	súː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	0	root@scrap	_	AlignBegin=13396|AlignEnd=13495|Gloss=want.Vnoun
+3	súːɣə́n	súː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	5	subj	_	AlignBegin=13396|AlignEnd=13495|Gloss=want.Vnoun
 4	gə̀tn	gə̀tn	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	mod@poss	_	AlignBegin=13594|AlignEnd=13792|Gloss=3SingGen
-5	tu	tu	SCONJ	_	_	3	comp:obj	_	AlignBegin=13792|AlignEnd=13991|Gloss=Qot
-6	kóːdàː	dàː	SCONJ	_	Foreign=Yes|Mood=Irr	5	comp:obj	_	AlignBegin=13991|AlignEnd=14213|Gloss=Cntf|Lang=ha
-7	mìyì	yí	AUX	_	Mood=Irr|Number=Plur|Person=1	6	root	_	AlignBegin=14213|AlignEnd=14435|Counterfact=Yes|Gloss=1Plur.Cntf|wordform=mìː
+5	tu	tu	ADP	_	_	0	root@scrap	_	AlignBegin=13792|AlignEnd=13991|Gloss=Qot
+6	kóːdàː	dàː	SCONJ	_	Mood=Irr	5	comp:obj	_	AlignBegin=13991|AlignEnd=14213|Gloss=Cntf
+7	mìyì	yí	AUX	_	Mood=Irr|Number=Plur|Person=1	6	comp:obj	_	AlignBegin=14213|AlignEnd=14435|Counterfact=Yes|Gloss=1Plur.Cntf|wordform=mìː
 8	ɬǐː	ɬə	VERB	_	_	7	comp:aux	_	Accomplished=Yes|AlignBegin=14435|AlignEnd=14546|Gloss=go.Acpl
 9	á	ká	ADP	_	_	8	comp:obl	_	AlignBegin=14657|AlignEnd=14879|Gloss=at
 10	lə̂p	lə̂p	NOUN	_	_	9	comp:obj	_	AlignBegin=14879|AlignEnd=15101|Gloss=place
 11	gyáː	gyaː	DET	_	Number=Plur	12	det	_	AlignBegin=15101|AlignEnd=15324|Gloss=Plur
 12	Sommíɗa	Sommíɗa	PROPN	_	_	10	mod@poss	_	AlignBegin=15324|AlignEnd=15971|Gloss=Sommid'a
-13	Ɓóngaː	Ɓóngaː	PROPN	_	_	10	conj:dicto	_	AlignBegin=16309|AlignEnd=16636|Gloss=B'onga
-14	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=16636|AlignEnd=16963|Gloss=PUNCT
+13	Ɓóngaː	Ɓóngaː	PROPN	_	_	10	mod@appos	_	AlignBegin=16309|AlignEnd=16636|Gloss=B'onga
+14	&//	&//	PUNCT	_	_	5	punct	_	AlignBegin=16636|AlignEnd=16963|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_021-021
 # speaker_id = SP1
